@@ -271,8 +271,30 @@ def detect_identity():
             "logged_in": bool(who["reg"])}
 
 
+def _with_retry(fn, tries, label):
+    """Run fn(), retrying transport-level portal failures with backoff.
+    The portal frequently resets connections / 504s; these are transient."""
+    delay = 2
+    for attempt in range(1, tries + 1):
+        try:
+            return fn()
+        except PortalError as e:
+            transient = ("network error" in str(e) or "HTTP 5" in str(e))
+            if not transient or attempt == tries:
+                raise
+            print(f"    {label}: {e} — retry {attempt}/{tries - 1} in {delay}s")
+            time.sleep(delay)
+            delay *= 2
+
+
+def list_courses():
+    """All courses on the logged-in account (fresh from the portal)."""
+    return _with_retry(_session.list_courses, 3, "getcourses")
+
+
 def open_course(course_code, tries=4):
-    return _session.open_course(course_code)
+    return _with_retry(lambda: _session.open_course(course_code),
+                       tries, f"open_course {course_code}")
 
 
 def session_code(unit, session_n):
@@ -283,8 +305,10 @@ def read_slot(course_code, unit, session_n, retries=3):
     """Return {'states':[slo1,slo2], 'links':[url|None, url|None]}."""
     if not _session.course_info or \
             _session.course_info.get("COURSE_CODE") != course_code:
-        _session.open_course(course_code)
-    res = _session.get_session_status(session_code(unit, session_n))
+        open_course(course_code)
+    res = _with_retry(
+        lambda: _session.get_session_status(session_code(unit, session_n)),
+        retries, f"read_slot U{unit} S{session_n}")
     practice = res.get("PRACTICE") or {}
     links = res.get("SLOLINK") or {}
     sess = session_code(unit, session_n)
@@ -304,12 +328,14 @@ def submit_links(course_code, unit, session_n, urls, retries=4):
     """Submit [slo1_url, slo2_url] for one session. True iff all accepted."""
     if not _session.course_info or \
             _session.course_info.get("COURSE_CODE") != course_code:
-        _session.open_course(course_code)
+        open_course(course_code)
     ok_all = True
     for slo, url in enumerate(urls, start=1):
         if not url:
             continue
-        ok, msg = _session.submit_link(unit, session_n, slo, url)
+        ok, msg = _with_retry(
+            lambda: _session.submit_link(unit, session_n, slo, url),
+            retries, f"submitlink U{unit} S{session_n} SLO{slo}")
         if not ok:
             ok_all = False
             print(f"    submitlink U{unit} S{session_n} SLO{slo} rejected: {msg}")

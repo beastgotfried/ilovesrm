@@ -36,40 +36,57 @@ def run_course(course, name, reg, gh, units=None, dry_run=False, log=print):
     results = []
 
     for unit, sess in sessions:
-        pair = sorted(c for c in codes if unit_of(c) == unit and session_of(c) == sess)
-        urls = []
-        for code in pair:
-            pdf = pdfgen.render(course, code, name, reg, outdir)
-            if dry_run:
-                urls.append(f"https://github.com/{gh['owner']}/{gh['repo']}/blob/main/{course}/{reg}/{code}_solved.pdf")
-            else:
-                remote = f"{course}/{reg}/{code}_solved.pdf"
-                urls.append(github.push_file(gh["token"], gh["owner"], gh["repo"], pdf, remote))
-
-        if dry_run:
-            log(f"  U{unit} S{sess}: [dry-run] would submit {len(urls)} link(s)")
-            results.append({"unit": unit, "session": sess, "status": "dry-run"})
-            continue
-
-        # skip if both slots already hold the target links
-        state = portal.read_slot(course, unit, sess)
-        if state["links"] and all(l == u for l, u in zip(state["links"], urls)):
-            log(f"  U{unit} S{sess}: already correct — skipped")
-            results.append({"unit": unit, "session": sess, "status": "already-correct"})
-            continue
-
-        ok = portal.submit_links(course, unit, sess, urls)
-        if not ok:
-            log(f"  U{unit} S{sess}: SUBMIT FAILED")
+        try:
+            results.append(_run_session(course, codes, unit, sess, name, reg,
+                                        gh, outdir, dry_run, log))
+        except Exception as e:
+            log(f"  U{unit} S{sess}: ERROR {e} — continuing with next session")
             results.append({"unit": unit, "session": sess, "status": "failed"})
-            continue
-
-        # verify the new links are what the portal now serves
-        time.sleep(2)
-        check = portal.read_slot(course, unit, sess)
-        good = bool(check["links"]) and all(l == u for l, u in zip(check["links"], urls))
-        status = "verified" if good else "submitted-unverified"
-        log(f"  U{unit} S{sess}: {status}")
-        results.append({"unit": unit, "session": sess, "status": status, "urls": urls})
-
     return results
+
+
+def _github_push(gh, pdf, remote, tries=3):
+    delay = 2
+    for attempt in range(1, tries + 1):
+        try:
+            return github.push_file(gh["token"], gh["owner"], gh["repo"], pdf, remote)
+        except Exception as e:
+            if attempt == tries:
+                raise
+            time.sleep(delay)
+            delay *= 2
+
+
+def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log):
+    pair = sorted(c for c in codes if unit_of(c) == unit and session_of(c) == sess)
+    urls = []
+    for code in pair:
+        pdf = pdfgen.render(course, code, name, reg, outdir)
+        if dry_run:
+            urls.append(f"https://github.com/{gh['owner']}/{gh['repo']}/blob/main/{course}/{reg}/{code}_solved.pdf")
+        else:
+            remote = f"{course}/{reg}/{code}_solved.pdf"
+            urls.append(_github_push(gh, pdf, remote))
+
+    if dry_run:
+        log(f"  U{unit} S{sess}: [dry-run] would submit {len(urls)} link(s)")
+        return {"unit": unit, "session": sess, "status": "dry-run"}
+
+    # skip if both slots already hold the target links
+    state = portal.read_slot(course, unit, sess)
+    if state["links"] and all(l == u for l, u in zip(state["links"], urls)):
+        log(f"  U{unit} S{sess}: already correct — skipped")
+        return {"unit": unit, "session": sess, "status": "already-correct"}
+
+    ok = portal.submit_links(course, unit, sess, urls)
+    if not ok:
+        log(f"  U{unit} S{sess}: SUBMIT FAILED")
+        return {"unit": unit, "session": sess, "status": "failed"}
+
+    # verify the new links are what the portal now serves
+    time.sleep(2)
+    check = portal.read_slot(course, unit, sess)
+    good = bool(check["links"]) and all(l == u for l, u in zip(check["links"], urls))
+    status = "verified" if good else "submitted-unverified"
+    log(f"  U{unit} S{sess}: {status}")
+    return {"unit": unit, "session": sess, "status": status, "urls": urls}
