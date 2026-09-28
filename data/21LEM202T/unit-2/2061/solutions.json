@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "2061",
+ "unit": 2,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Students will be able to understand the nature of existence, appreciate its interconnectedness",
+ "mcq": [
+  {
+   "q": "Which cycle shows interconnectedness of living and non-living units?",
+   "options": {
+    "A": "Rock cycle",
+    "B": "Carbon cycle",
+    "C": "Nitrogen cycle",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "answer_text": "All of the above"
+  },
+  {
+   "q": "Why should students study interconnectedness and coexistence?",
+   "options": {
+    "A": "To understand how technology impacts environment and society, and to innovate responsibly",
+    "B": "To make profit at any cost",
+    "C": "To memorize environmental facts",
+    "D": "None of the above"
+   },
+   "answer": "A",
+   "answer_text": "To understand how technology impacts environment and society, and to innovate responsibly"
+  },
+  {
+   "q": "What is the significance of co-existence for engineers?",
+   "options": {
+    "A": "Helps design technologies in isolation",
+    "B": "Encourages innovations aligned with sustainability and harmony",
+    "C": "Reduces concern for environment",
+    "D": "Focuses only on profit-making"
+   },
+   "answer": "B",
+   "answer_text": "Encourages innovations aligned with sustainability and harmony"
+  },
+  {
+   "q": "Existence is characterized by:",
+   "options": {
+    "A": "Chaos and randomness",
+    "B": "Order, harmony, and interconnection",
+    "C": "Disconnection of units",
+    "D": "Isolation of living beings only"
+   },
+   "answer": "B",
+   "answer_text": "Order, harmony, and interconnection"
+  },
+  {
+   "q": "What is meant by “living in harmony with existence”?",
+   "options": {
+    "A": "Exploiting nature as much as possible",
+    "B": "Aligning human activities with the balance of nature",
+    "C": "Ignoring interdependence",
+    "D": "Isolating humans from the ecosystem"
+   },
+   "answer": "B",
+   "answer_text": "Aligning human activities with the balance of nature"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does right understanding of nature help in sustainable living?",
+   "answer": [
+    "It encourages using resources responsibly without disturbing the balance of ecosystems"
+   ]
+  },
+  {
+   "q": "What is the ultimate aim of understanding existence as co-existence?",
+   "answer": [
+    "To live in harmony with oneself, others, and the entire existence, ensuring peace and sustainability."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "What does the Hiware Bazaar practice session show about society, participation and right utilisation?",
+   "answer": [
+    "The Hiware Bazaar practice session shows that society can change when people work together with a common goal, good governance and participation. The village became an example of how individuals can participate in improving society rather than simply blaming the system. The discussion asks us to observe the goal of the village society, the program followed by the people, and the participation of each person. It also helps us reflect on our own family goal, family program and contribution of each member. The session shows that physical facility alone is not enough; right utilisation, responsibility, cooperation and participation are essential. A society based on relationship and co-existence can move toward justice, prosperity and mutual happiness"
+   ]
+  }
+ ]
+}

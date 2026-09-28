@@ -7,15 +7,15 @@
  "slo_title": "Initiate Java mini-project following a chosen paradigm",
  "mcq": [
   {
-   "q": "In Java project documentation, what section includes ER diagrams and class diagrams?",
+   "q": "Which Java concept allows a subclass to inherit members of a superclass?",
    "options": {
-    "A": "Literature Review",
-    "B": "System Design",
-    "C": "Implementation",
-    "D": "Conclusion"
+    "A": "Encapsulation",
+    "B": "Abstraction",
+    "C": "Polymorphism",
+    "D": "Inheritance"
    },
-   "answer": "B",
-   "answer_text": "System Design"
+   "answer": "D",
+   "answer_text": "Inheritance"
   },
   {
    "q": "In Java, which access modifier allows members to be accessed only within the same class?",
@@ -29,6 +29,17 @@
    "answer_text": "private"
   },
   {
+   "q": "In Java project documentation, what section includes ER diagrams and class diagrams?",
+   "options": {
+    "A": "Literature Review",
+    "B": "System Design",
+    "C": "Implementation",
+    "D": "Conclusion"
+   },
+   "answer": "B",
+   "answer_text": "System Design"
+  },
+  {
    "q": "Which of the following paradigms focuses on dividing a program into objects that encapsulate data and behavior?",
    "options": {
     "A": "Functional Programming",
@@ -38,17 +49,6 @@
    },
    "answer": "C",
    "answer_text": "Object-Oriented Programming"
-  },
-  {
-   "q": "Which Java concept allows a subclass to inherit members of a superclass?",
-   "options": {
-    "A": "Encapsulation",
-    "B": "Abstraction",
-    "C": "Polymorphism",
-    "D": "Inheritance"
-   },
-   "answer": "D",
-   "answer_text": "Inheritance"
   },
   {
    "q": "Which of the following is best suited to demonstrate multithreading in a Java mini-project?",
@@ -64,6 +64,12 @@
  ],
  "sq": [
   {
+   "q": "How does choosing the right programming paradigm affect your mini-project? ​",
+   "answer": [
+    "The paradigm shapes code structure and design decisions. OOP encourages modularity and reusability; event-driven models work well with GUI-based apps; procedural paradigms are straightforward for linear workflows"
+   ]
+  },
+  {
    "q": "What are the key steps to follow when initiating a Java mini-project? ​",
    "answer": [
     "Select a relevant problem domain",
@@ -76,12 +82,6 @@
     "Design the architecture using UML diagrams",
     "Plan implementation milestones",
     "Plan implementation milestones"
-   ]
-  },
-  {
-   "q": "How does choosing the right programming paradigm affect your mini-project? ​",
-   "answer": [
-    "The paradigm shapes code structure and design decisions. OOP encourages modularity and reusability; event-driven models work well with GUI-based apps; procedural paradigms are straightforward for linear workflows"
    ]
   }
  ],

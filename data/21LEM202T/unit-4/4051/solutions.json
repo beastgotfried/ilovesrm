@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "4051",
+ "unit": 4,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Students will be able to understand the importance of inner evolution",
+ "mcq": [
+  {
+   "q": "Self-awareness contributes to harmony in the self by:",
+   "options": {
+    "A": "Helping identify contradictions in thoughts and actions",
+    "B": "Ignoring feelings",
+    "C": "Promoting blind imitation",
+    "D": "Suppressing inner needs"
+   },
+   "answer": "A",
+   "answer_text": "Helping identify contradictions in thoughts and actions"
+  },
+  {
+   "q": "The outcome of self-exploration is:",
+   "options": {
+    "A": "Clarity about one’s desires and goals",
+    "B": "More confusion",
+    "C": "More dependency on others",
+    "D": "Ignorance of inner needs"
+   },
+   "answer": "A",
+   "answer_text": "Clarity about one’s desires and goals"
+  },
+  {
+   "q": "Which of the following is NOT a process of inner evolution?",
+   "options": {
+    "A": "Self-exploration",
+    "B": "Self-awareness",
+    "C": "Self-evaluation",
+    "D": "Blind competition"
+   },
+   "answer": "D",
+   "answer_text": "Blind competition"
+  },
+  {
+   "q": "Continuous self-evaluation leads to:",
+   "options": {
+    "A": "Growth of ego",
+    "B": "Consistency between desires, thoughts, and actions",
+    "C": "More external dependency",
+    "D": "Disharmony in relationships"
+   },
+   "answer": "B",
+   "answer_text": "Consistency between desires, thoughts, and actions"
+  },
+  {
+   "q": "The need for inner evolution arises because:",
+   "options": {
+    "A": "Humans have unlimited physical needs",
+    "B": "Without it, the self remains in contradiction, leading to dissatisfaction and conflict",
+    "C": "It helps in accumulating more power",
+    "D": "It eliminates the need for society"
+   },
+   "answer": "B",
+   "answer_text": "Without it, the self remains in contradiction, leading to dissatisfaction and conflict"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does self-awareness support inner evolution?",
+   "answer": [
+    "Self-awareness allows us to observe our mental activities, recognize our strengths and weaknesses, and align our behavior with values and goals."
+   ]
+  },
+  {
+   "q": "What role does self-evaluation play in the process?",
+   "answer": [
+    "Self-evaluation helps us reflect on past decisions and actions, learn from mistakes, and make better choices in the future."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain holistic perception of harmony in existence.",
+   "answer": [
+    "Holistic perception means seeing existence as a complete and interconnected reality. It includes the Self, Body, family, society, nature and space as part of one co-existence. When the Self is deluded, imagination is based on sensation and preconditioning. This leads to conflict, confusion and unhappiness. When the Self is awakened to right understanding, imagination is based on realisation, understanding and contemplation. Then the person begins to live with harmony in the Self, harmony with the Body, harmony in relationship, harmony in society and harmony with nature. Happiness is a feedback that we are understanding and living in harmony, while unhappiness is a feedback that harmony is missing at one or more levels. Therefore, holistic perception helps us move from animal consciousness to human consciousness and from personal transformation to societal transformation."
+   ]
+  }
+ ]
+}

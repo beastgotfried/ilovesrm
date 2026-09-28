@@ -7,28 +7,6 @@
  "slo_title": "explain and perform binary addition and subtraction using Sign Magnitude",
  "mcq": [
   {
-   "q": "Add (-5) and (+5) using 4-bit sign-magnitude representation:",
-   "options": {
-    "A": "0000",
-    "B": "1111",
-    "C": "1000",
-    "D": "0110"
-   },
-   "answer": "A",
-   "answer_text": "0000"
-  },
-  {
-   "q": "Add (+6) and (-2) using 4-bit sign-magnitude. What is the result?",
-   "options": {
-    "A": "1000 (Decimal -0)",
-    "B": "0010 (Decimal +2)",
-    "C": "1100 (Decimal -4)",
-    "D": "0100 (Decimal +4)"
-   },
-   "answer": "A",
-   "answer_text": "1000 (Decimal -0)"
-  },
-  {
    "q": "Add (-6) and (-2) using 4-bit sign-magnitude representation:",
    "options": {
     "A": "1100",
@@ -51,6 +29,17 @@
    "answer_text": "0111"
   },
   {
+   "q": "Add (+6) and (-2) using 4-bit sign-magnitude. What is the result?",
+   "options": {
+    "A": "1000 (Decimal -0)",
+    "B": "0010 (Decimal +2)",
+    "C": "1100 (Decimal -4)",
+    "D": "0100 (Decimal +4)"
+   },
+   "answer": "A",
+   "answer_text": "1000 (Decimal -0)"
+  },
+  {
    "q": "Add (-4) and (-3) in 4-bit sign-magnitude. What is the result?",
    "options": {
     "A": "1001 (Decimal -1)",
@@ -60,6 +49,17 @@
    },
    "answer": "C",
    "answer_text": "1011 (Decimal -7)"
+  },
+  {
+   "q": "Add (-5) and (+5) using 4-bit sign-magnitude representation:",
+   "options": {
+    "A": "0000",
+    "B": "1111",
+    "C": "1000",
+    "D": "0110"
+   },
+   "answer": "A",
+   "answer_text": "0000"
   }
  ],
  "sq": [

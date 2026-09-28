@@ -7,17 +7,6 @@
  "slo_title": "Apply thread priorities and daemon threads",
  "mcq": [
   {
-   "q": "Consider the following code: What is the effect of setting thread priority here?",
-   "options": {
-    "A": "It guarantees faster execution",
-    "B": "The thread will not run at all",
-    "C": "It provides a hint to the scheduler for prioritization",
-    "D": "It causes the thread to run in foreground"
-   },
-   "answer": "C",
-   "answer_text": "It provides a hint to the scheduler for prioritization"
-  },
-  {
    "q": "What does the join() method do in thread management?",
    "options": {
     "A": "Terminates the current thread",
@@ -29,15 +18,15 @@
    "answer_text": "Pauses the current thread until the target thread finishes"
   },
   {
-   "q": "What happens when you call setDaemon(true) on a thread after it has been started?",
+   "q": "Consider the following code: What is the effect of setting thread priority here?",
    "options": {
-    "A": "The thread becomes a daemon",
-    "B": "The thread dies immediately",
-    "C": "An IllegalThreadStateException is thrown",
-    "D": "The thread is ignored by the scheduler"
+    "A": "It guarantees faster execution",
+    "B": "The thread will not run at all",
+    "C": "It provides a hint to the scheduler for prioritization",
+    "D": "It causes the thread to run in foreground"
    },
    "answer": "C",
-   "answer_text": "An IllegalThreadStateException is thrown"
+   "answer_text": "It provides a hint to the scheduler for prioritization"
   },
   {
    "q": "Which of the following statements about daemon threads is true ?",
@@ -49,6 +38,17 @@
    },
    "answer": "C",
    "answer_text": "JVM exits when all non-daemon threads finish, regardless of daemon threads"
+  },
+  {
+   "q": "What happens when you call setDaemon(true) on a thread after it has been started?",
+   "options": {
+    "A": "The thread becomes a daemon",
+    "B": "The thread dies immediately",
+    "C": "An IllegalThreadStateException is thrown",
+    "D": "The thread is ignored by the scheduler"
+   },
+   "answer": "C",
+   "answer_text": "An IllegalThreadStateException is thrown"
   },
   {
    "q": "Which of these is true about setting thread priorities?",
@@ -64,15 +64,15 @@
  ],
  "sq": [
   {
-   "q": "How can thread priority affect execution?",
-   "answer": [
-    "Higher-priority threads are more likely to be chosen by the scheduler. However, thread priority does not guarantee execution order; it's only a hint. Behavior is platform-dependent."
-   ]
-  },
-  {
    "q": "What is the output when the main thread calls join() on a child thread?",
    "answer": [
     "The main thread pauses and waits until the child thread completes its execution. Only then does the main thread resume"
+   ]
+  },
+  {
+   "q": "How can thread priority affect execution?",
+   "answer": [
+    "Higher-priority threads are more likely to be chosen by the scheduler. However, thread priority does not guarantee execution order; it's only a hint. Behavior is platform-dependent."
    ]
   }
  ],

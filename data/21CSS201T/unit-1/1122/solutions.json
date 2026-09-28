@@ -7,26 +7,15 @@
  "slo_title": "Tutorial",
  "mcq": [
   {
-   "q": "Which Boolean expression is logically equivalent to an AND gate followed by a NOT gate?",
+   "q": "An XOR gate gives HIGH output when:",
    "options": {
-    "A": "A · B",
-    "B": "A + B",
-    "C": "(A · B)̅",
-    "D": "A̅ + B̅"
+    "A": "All inputs are LOW",
+    "B": "Inputs are equal",
+    "C": "Inputs are different",
+    "D": "All inputs are HIGH"
    },
    "answer": "C",
-   "answer_text": "(A · B)̅"
-  },
-  {
-   "q": "Which of the following gates can be used to implement all other logic gates?",
-   "options": {
-    "A": "AND",
-    "B": "OR",
-    "C": "XOR",
-    "D": "NOR"
-   },
-   "answer": "D",
-   "answer_text": "NOR"
+   "answer_text": "Inputs are different"
   },
   {
    "q": "The output of a 2-input NAND gate is 0. What are the input values?",
@@ -40,15 +29,15 @@
    "answer_text": "A = 1, B = 1"
   },
   {
-   "q": "An XOR gate gives HIGH output when:",
+   "q": "Which Boolean expression is logically equivalent to an AND gate followed by a NOT gate?",
    "options": {
-    "A": "All inputs are LOW",
-    "B": "Inputs are equal",
-    "C": "Inputs are different",
-    "D": "All inputs are HIGH"
+    "A": "A · B",
+    "B": "A + B",
+    "C": "(A · B)̅",
+    "D": "A̅ + B̅"
    },
    "answer": "C",
-   "answer_text": "Inputs are different"
+   "answer_text": "(A · B)̅"
   },
   {
    "q": "An OR gate produces a HIGH output when:",
@@ -60,19 +49,30 @@
    },
    "answer": "C",
    "answer_text": "At least one input is HIGH"
+  },
+  {
+   "q": "Which of the following gates can be used to implement all other logic gates?",
+   "options": {
+    "A": "AND",
+    "B": "OR",
+    "C": "XOR",
+    "D": "NOR"
+   },
+   "answer": "D",
+   "answer_text": "NOR"
   }
  ],
  "sq": [
   {
-   "q": "What is the difference between NAND and NOR gates?",
-   "answer": [
-    "NAND is the inverse of the AND gate, while NOR is the inverse of the OR gate. NAND gives 0 only when all inputs are 1. NOR gives 1 only when all inputs are 0. Both are universal gates , meaning any logic circuit can be built from them. They are widely used in digital logic design for their versatility."
-   ]
-  },
-  {
    "q": "How can a NOT gate be made using a NAND gate?",
    "answer": [
     "A NOT gate inverts its input (i.e., outputs the opposite). To build it using a NAND gate, connect both inputs to the same signal : Y = A NAND A = A̅ . This configuration uses the NAND gate as an inverter. It demonstrates how universal gates can replicate basic functions."
+   ]
+  },
+  {
+   "q": "What is the difference between NAND and NOR gates?",
+   "answer": [
+    "NAND is the inverse of the AND gate, while NOR is the inverse of the OR gate. NAND gives 0 only when all inputs are 1. NOR gives 1 only when all inputs are 0. Both are universal gates , meaning any logic circuit can be built from them. They are widely used in digital logic design for their versatility."
    ]
   }
  ],

@@ -7,26 +7,26 @@
  "slo_title": "Design and explain the operation of half adders, full adders, and multi-bit ripple-carry adders.",
  "mcq": [
   {
-   "q": "A full adder can be constructed using:",
+   "q": "Why are carry look-ahead adders (CLA) preferred over ripple-carry adders for large bit sizes?",
    "options": {
-    "A": "2 AND gates and 1 OR gate",
-    "B": "2 Half Adders and 1 OR gate",
-    "C": "3 Half Adders and 1 AND gate",
-    "D": "1 Half Adder and 2 OR gates"
+    "A": "They reduce power consumption.",
+    "B": "They eliminate carry generation entirely.",
+    "C": "They compute carries in parallel, reducing delay.",
+    "D": "They require fewer gates."
    },
-   "answer": "B",
-   "answer_text": "2 Half Adders and 1 OR gate"
+   "answer": "C",
+   "answer_text": "They compute carries in parallel, reducing delay."
   },
   {
-   "q": "What are the two main outputs of a half adder?",
+   "q": "Why are carry look-ahead adders (CLA) preferred over ripple-carry adders for large bit sizes?",
    "options": {
-    "A": "Sum and Difference",
-    "B": "Sum and Carry",
-    "C": "Carry and Borrow",
-    "D": "XOR and AND"
+    "A": "They reduce power consumption.",
+    "B": "They eliminate carry generation entirely.",
+    "C": "They compute carries in parallel, reducing delay.",
+    "D": "They require fewer gates."
    },
-   "answer": "B",
-   "answer_text": "Sum and Carry"
+   "answer": "C",
+   "answer_text": "They compute carries in parallel, reducing delay."
   },
   {
    "q": "",
@@ -40,39 +40,39 @@
    "answer_text": ""
   },
   {
-   "q": "Why are carry look-ahead adders (CLA) preferred over ripple-carry adders for large bit sizes?",
+   "q": "A full adder can be constructed using:",
    "options": {
-    "A": "They reduce power consumption.",
-    "B": "They eliminate carry generation entirely.",
-    "C": "They compute carries in parallel, reducing delay.",
-    "D": "They require fewer gates."
+    "A": "2 AND gates and 1 OR gate",
+    "B": "2 Half Adders and 1 OR gate",
+    "C": "3 Half Adders and 1 AND gate",
+    "D": "1 Half Adder and 2 OR gates"
    },
-   "answer": "C",
-   "answer_text": "They compute carries in parallel, reducing delay."
+   "answer": "B",
+   "answer_text": "2 Half Adders and 1 OR gate"
   },
   {
-   "q": "Why are carry look-ahead adders (CLA) preferred over ripple-carry adders for large bit sizes?",
+   "q": "Which of the following statements about ripple-carry adders is TRUE?",
    "options": {
-    "A": "They reduce power consumption.",
-    "B": "They eliminate carry generation entirely.",
-    "C": "They compute carries in parallel, reducing delay.",
-    "D": "They require fewer gates."
+    "A": "They produce the final sum in one clock cycle regardless of bit size.",
+    "B": "The carry-out of one stage becomes the carry-in of the next stage, causing delay.",
+    "C": "Ripple-carry adders are faster than carry look-ahead adders.",
+    "D": "Ripple-carry adders use fewer gates than half adders."
    },
-   "answer": "C",
-   "answer_text": "They compute carries in parallel, reducing delay."
+   "answer": "B",
+   "answer_text": "The carry-out of one stage becomes the carry-in of the next stage, causing delay."
   }
  ],
  "sq": [
-  {
-   "q": "State De Morgan’s Theorems.",
-   "answer": []
-  },
   {
    "q": "Why is a Carry Look-Ahead Adder faster than a Ripple-Carry Adder?",
    "answer": [
     "A Carry Look-Ahead Adder (CLA) computes all carry outputs in parallel using Generate (G = A·B) and Propagate (P = A ⊕ B) signals, avoiding sequential carry propagation and thus reducing delay.",
     "A Carry Look-Ahead Adder (CLA) computes all carry outputs in parallel using Generate (G = A·B) and Propagate (P = A ⊕ B) signals, avoiding sequential carry propagation and thus reducing delay."
    ]
+  },
+  {
+   "q": "State De Morgan’s Theorems.",
+   "answer": []
   }
  ],
  "lq": [

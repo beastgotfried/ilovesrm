@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "3082",
+ "unit": 3,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "learn how right understanding and alignment among these lead to inner harmony.",
+ "mcq": [
+  {
+   "q": "Contradiction in the Self arises when:",
+   "options": {
+    "A": "Decisions are guided by right understanding",
+    "B": "Desires are based on imagination without evaluation",
+    "C": "Desires, thoughts, and selections are consistent",
+    "D": "There is self-awareness"
+   },
+   "answer": "B",
+   "answer_text": "Desires are based on imagination without evaluation"
+  },
+  {
+   "q": "Which of the following is the basis for harmony in the Self?",
+   "options": {
+    "A": "Right understanding and clarity in living",
+    "B": "Competition and exploitation",
+    "C": "Ignoring inner needs",
+    "D": "Blind imitation of others"
+   },
+   "answer": "A",
+   "answer_text": "Right understanding and clarity in living"
+  },
+  {
+   "q": "Harmony in the Self is achieved when:",
+   "options": {
+    "A": "Desires, thoughts, and expectations are in alignment with right understanding",
+    "B": "Desires are unlimited and unchecked",
+    "C": "Thoughts and actions contradict each other",
+    "D": "The body alone is taken care of"
+   },
+   "answer": "A",
+   "answer_text": "Desires, thoughts, and expectations are in alignment with right understanding"
+  },
+  {
+   "q": "Right evaluation in the Self leads to:",
+   "options": {
+    "A": "Disharmony",
+    "B": "Proper alignment of desires, thoughts, and expectations",
+    "C": "Random choices",
+    "D": "Temporary satisfaction"
+   },
+   "answer": "B",
+   "answer_text": "Proper alignment of desires, thoughts, and expectations"
+  },
+  {
+   "q": "When the Self is in contradiction, it experiences:",
+   "options": {
+    "A": "Peace and satisfaction",
+    "B": "Confusion, conflict, and dissatisfaction",
+    "C": "Trust and respect",
+    "D": "Harmony with others"
+   },
+   "answer": "B",
+   "answer_text": "Confusion, conflict, and dissatisfaction"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is meant by harmony in the self?",
+   "answer": [
+    "Harmony in the self occurs when our desires, thoughts, and selections are based on right understanding, leading to inner peace and satisfaction."
+   ]
+  },
+  {
+   "q": "What causes contradiction in the self?",
+   "answer": [
+    "Contradiction arises when there is a mismatch between our desires, thoughts, and selections—often due to lack of clarity or wrong understanding—resulting in stress, confusion, or conflict."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the human role in mutual enrichment or harmony in nature.",
+   "answer": [
+    "The human role in nature is to live in a way that preserves, protects and enriches the rest of nature while ensuring prosperity for human beings. Human beings need physical facilities from nature, but these must be used with right understanding and right utilisation. Problems like water insecurity, food insecurity, climate change, pollution and resource depletion show that human beings have often acted with greed, accumulation and exploitation. The solution is not merely more technology, but a holistic approach based on right understanding. Human beings can participate in harmony by reducing waste, protecting water sources, preserving forests, supporting sustainable agriculture, using renewable resources, planting trees, restoring wetlands and living with responsibility. Thus, mutual enrichment means that human prosperity should not be at the cost of nature; it should be in continuity with the preservation of nature."
+   ]
+  }
+ ]
+}

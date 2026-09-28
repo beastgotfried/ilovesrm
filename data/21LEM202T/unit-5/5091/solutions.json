@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "5091",
+ "unit": 5,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Students will be able to understand the holistic way of living by integrating realization, thought, behavior, and work",
+ "mcq": [
+  {
+   "q": "A holistic way of living finally leads to:",
+   "options": {
+    "A": "Conflict between humans and nature",
+    "B": "Comprehensive harmony from Self to entire Existence",
+    "C": "Accumulation of material possessions",
+    "D": "Human isolation"
+   },
+   "answer": "B",
+   "answer_text": "Comprehensive harmony from Self to entire Existence"
+  },
+  {
+   "q": "The role of thought in holistic living is to:",
+   "options": {
+    "A": "Link realization to behavior and work",
+    "B": "Create confusion",
+    "C": "Justify exploitation",
+    "D": "Promote domination"
+   },
+   "answer": "A",
+   "answer_text": "Link realization to behavior and work"
+  },
+  {
+   "q": "Holistic way of living avoids:",
+   "options": {
+    "A": "Mutual happiness",
+    "B": "Disharmony and contradiction",
+    "C": "Participation in larger order",
+    "D": "Sustainable progress"
+   },
+   "answer": "B",
+   "answer_text": "Disharmony and contradiction"
+  },
+  {
+   "q": "Contribution to production and preservation in nature is expressed through:",
+   "options": {
+    "A": "Realization",
+    "B": "Work",
+    "C": "Behavior",
+    "D": "Thought"
+   },
+   "answer": "B",
+   "answer_text": "Work"
+  },
+  {
+   "q": "Which dimension expresses human values in relationships?",
+   "options": {
+    "A": "Realization",
+    "B": "Thought",
+    "C": "Behavior",
+    "D": "Work"
+   },
+   "answer": "C",
+   "answer_text": "Behavior"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is this understanding important for students?",
+   "answer": [
+    "It helps them integrate technical knowledge with human values, ensuring their innovations support sustainable development and coexistence."
+   ]
+  },
+  {
+   "q": "How does all-encompassing resolution lead to harmony at different levels?",
+   "answer": [
+    "By aligning realization, thought, behavior, and work, harmony is achieved within the self, in families, in society, and with nature."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain how holistic technologies can support transition towards universal human order.",
+   "answer": [
+    "Holistic technologies can support transition towards universal human order when they are designed and used with right understanding. Technology should not be developed only for profit, comfort or speed. It should fulfil real human needs, support local self-sufficiency, protect nature, reduce waste and promote cooperation. Holistic technologies should be people-friendly, eco-friendly and user-friendly. They should support sustainable production, right utilisation of resources and meaningful employment. When technology, production systems and management models are guided by human values, they help society move from exploitation and accumulation to mutual fulfilment and prosperity. Thus, holistic technologies become a practical step in the transition toward value-based life, ethical profession and universal human order."
+   ]
+  }
+ ]
+}

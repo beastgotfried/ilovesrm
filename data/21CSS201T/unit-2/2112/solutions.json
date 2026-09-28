@@ -7,26 +7,15 @@
  "slo_title": "Describe the working of 8086 with relevant examples.",
  "mcq": [
   {
-   "q": "The Intel 8086 microprocessor is a:",
+   "q": "The 8086 has a physical address space of:",
    "options": {
-    "A": "8-bit microprocessor",
-    "B": "16-bit microprocessor",
-    "C": "32-bit microprocessor",
-    "D": "64-bit microprocessor"
+    "A": "16 KB",
+    "B": "64 KB",
+    "C": "1 MB",
+    "D": "4 GB"
    },
-   "answer": "B",
-   "answer_text": "16-bit microprocessor"
-  },
-  {
-   "q": "The 8086 microprocessor uses which segmentation scheme?",
-   "options": {
-    "A": "16-bit logical addressing",
-    "B": "20-bit segmented addressing (Segment + Offset)",
-    "C": "Flat addressing",
-    "D": "Virtual addressing"
-   },
-   "answer": "B",
-   "answer_text": "20-bit segmented addressing (Segment + Offset)"
+   "answer": "C",
+   "answer_text": "1 MB"
   },
   {
    "q": "The 8086 has how many general-purpose registers?",
@@ -40,17 +29,6 @@
    "answer_text": "8"
   },
   {
-   "q": "The 8086 has a physical address space of:",
-   "options": {
-    "A": "16 KB",
-    "B": "64 KB",
-    "C": "1 MB",
-    "D": "4 GB"
-   },
-   "answer": "C",
-   "answer_text": "1 MB"
-  },
-  {
    "q": "Which of the following is NOT a segment register of the 8086?",
    "options": {
     "A": "CS (Code Segment)",
@@ -60,19 +38,41 @@
    },
    "answer": "D",
    "answer_text": "HS (Heap Segment)"
+  },
+  {
+   "q": "The 8086 microprocessor uses which segmentation scheme?",
+   "options": {
+    "A": "16-bit logical addressing",
+    "B": "20-bit segmented addressing (Segment + Offset)",
+    "C": "Flat addressing",
+    "D": "Virtual addressing"
+   },
+   "answer": "B",
+   "answer_text": "20-bit segmented addressing (Segment + Offset)"
+  },
+  {
+   "q": "The Intel 8086 microprocessor is a:",
+   "options": {
+    "A": "8-bit microprocessor",
+    "B": "16-bit microprocessor",
+    "C": "32-bit microprocessor",
+    "D": "64-bit microprocessor"
+   },
+   "answer": "B",
+   "answer_text": "16-bit microprocessor"
   }
  ],
  "sq": [
   {
    "q": "",
    "answer": [
-    "EU decodes instructions from the BIU and executes them using ALU, control circuits, and registers."
+    "8086 is a 16-bit microprocessor with a 16-bit data bus and 20-bit address bus."
    ]
   },
   {
    "q": "",
    "answer": [
-    "8086 is a 16-bit microprocessor with a 16-bit data bus and 20-bit address bus."
+    "EU decodes instructions from the BIU and executes them using ALU, control circuits, and registers."
    ]
   }
  ],

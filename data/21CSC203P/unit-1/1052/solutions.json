@@ -7,17 +7,6 @@
  "slo_title": "Summarize how parallel processing is integrated in imperative paradigms",
  "mcq": [
   {
-   "q": "In object-oriented programming, inheritance allows a class to:",
-   "options": {
-    "A": "a) Destroy an object",
-    "B": "b) Hide its methods",
-    "C": "c) Use features of another class ​​​​​​​",
-    "D": "d) Run programs in parallel"
-   },
-   "answer": "C",
-   "answer_text": "c) Use features of another class ​​​​​​​"
-  },
-  {
    "q": "Which keyword in Java is used to implement inheritance?",
    "options": {
     "A": "a) inherit",
@@ -27,6 +16,17 @@
    },
    "answer": "B",
    "answer_text": "b) extends"
+  },
+  {
+   "q": "How is parallel processing typically integrated in imperative languages like Java?",
+   "options": {
+    "A": "a) Through database queries",
+    "B": "b) Using threads or multi-threading APIs",
+    "C": "c) Using logic rules ​​​​​​​",
+    "D": "d) With HTML tags"
+   },
+   "answer": "B",
+   "answer_text": "b) Using threads or multi-threading APIs"
   },
   {
    "q": "What is encapsulation in object-oriented programming?",
@@ -51,28 +51,28 @@
    "answer_text": "c) Improves performance by executing tasks simultaneously ​​​​​​​"
   },
   {
-   "q": "How is parallel processing typically integrated in imperative languages like Java?",
+   "q": "In object-oriented programming, inheritance allows a class to:",
    "options": {
-    "A": "a) Through database queries",
-    "B": "b) Using threads or multi-threading APIs",
-    "C": "c) Using logic rules ​​​​​​​",
-    "D": "d) With HTML tags"
+    "A": "a) Destroy an object",
+    "B": "b) Hide its methods",
+    "C": "c) Use features of another class ​​​​​​​",
+    "D": "d) Run programs in parallel"
    },
-   "answer": "B",
-   "answer_text": "b) Using threads or multi-threading APIs"
+   "answer": "C",
+   "answer_text": "c) Use features of another class ​​​​​​​"
   }
  ],
  "sq": [
   {
-   "q": "A data processing system handles large datasets and experiences delays. How can parallel computing improve performance?",
-   "answer": [
-    "By distributing tasks across multiple cores or processors, parallel computing enables simultaneous data processing, thereby reducing execution time and increasing efficiency."
-   ]
-  },
-  {
    "q": "A graphics rendering engine must perform multiple calculations at once. What advantage does parallelism offer in this scenario?",
    "answer": [
     "Tasks such as image transformations and shading can be processed concurrently, maximizing hardware utilization and delivering faster rendering speeds."
+   ]
+  },
+  {
+   "q": "A data processing system handles large datasets and experiences delays. How can parallel computing improve performance?",
+   "answer": [
+    "By distributing tasks across multiple cores or processors, parallel computing enables simultaneous data processing, thereby reducing execution time and increasing efficiency."
    ]
   }
  ],

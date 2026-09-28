@@ -7,15 +7,15 @@
  "slo_title": "State and prove De Morgan’s Theorems using Boolean algebra. ",
  "mcq": [
   {
-   "q": "Q2. Which of the following statements best explains the essence of De Morgan’s theorems?",
+   "q": "Q1. Which of the following correctly represents De Morgan’s first theorem?",
    "options": {
-    "A": "They provide a relationship between AND and OR operations using inversion.",
-    "B": "They simplify only AND operations in Boolean algebra.",
-    "C": "They are valid only for binary addition.",
-    "D": "They eliminate the need for Karnaugh maps."
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
    },
-   "answer": "A",
-   "answer_text": "They provide a relationship between AND and OR operations using inversion."
+   "answer": "B",
+   "answer_text": ""
   },
   {
    "q": "Which of the following pairs of logic gates can be interchanged using De Morgan’s theorem without affecting logic?",
@@ -29,17 +29,6 @@
    "answer_text": "NAND and NOR"
   },
   {
-   "q": "You are designing a digital circuit with only NAND gates. Which of the following Boolean expressions is best simplified using De Morgan’s theorem to implement with NAND gates?",
-   "options": {
-    "A": "",
-    "B": "",
-    "C": "",
-    "D": ""
-   },
-   "answer": "A",
-   "answer_text": ""
-  },
-  {
    "q": "Simplify the Boolean expression (A+B+C)′(A + B + C)'(A+B+C)′ using De Morgan’s theorem.",
    "options": {
     "A": "",
@@ -51,15 +40,26 @@
    "answer_text": ""
   },
   {
-   "q": "Q1. Which of the following correctly represents De Morgan’s first theorem?",
+   "q": "You are designing a digital circuit with only NAND gates. Which of the following Boolean expressions is best simplified using De Morgan’s theorem to implement with NAND gates?",
    "options": {
     "A": "",
     "B": "",
     "C": "",
     "D": ""
    },
-   "answer": "B",
+   "answer": "A",
    "answer_text": ""
+  },
+  {
+   "q": "Q2. Which of the following statements best explains the essence of De Morgan’s theorems?",
+   "options": {
+    "A": "They provide a relationship between AND and OR operations using inversion.",
+    "B": "They simplify only AND operations in Boolean algebra.",
+    "C": "They are valid only for binary addition.",
+    "D": "They eliminate the need for Karnaugh maps."
+   },
+   "answer": "A",
+   "answer_text": "They provide a relationship between AND and OR operations using inversion."
   }
  ],
  "sq": [

@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "2082",
+ "unit": 2,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "appreciate the importance of responsible human conduct for harmony and sustainable living.",
+ "mcq": [
+  {
+   "q": "How does human conduct affect society?",
+   "options": {
+    "A": "It has no impact on society",
+    "B": "Right conduct builds trust, peace, and cooperation in relationships",
+    "C": "Wrong conduct strengthens harmony",
+    "D": "Conduct influences only personal success"
+   },
+   "answer": "B",
+   "answer_text": "Right conduct builds trust, peace, and cooperation in relationships"
+  },
+  {
+   "q": "Human conduct is guided primarily by:",
+   "options": {
+    "A": "Right understanding and values",
+    "B": "Physical strength",
+    "C": "Technology alone",
+    "D": "Environmental factors only"
+   },
+   "answer": "A",
+   "answer_text": "Right understanding and values"
+  },
+  {
+   "q": "Why is it important for engineers to understand human conduct?",
+   "options": {
+    "A": "To increase mechanical efficiency",
+    "B": "To integrate ethics, responsibility, and sustainability in technological solutions",
+    "C": "To compete aggressively in market",
+    "D": "To focus only on technical aspects"
+   },
+   "answer": "B",
+   "answer_text": "To integrate ethics, responsibility, and sustainability in technological solutions"
+  },
+  {
+   "q": "Which of the following is a correct example of responsible human conduct?",
+   "options": {
+    "A": "Plagiarizing academic work",
+    "B": "Developing eco-friendly technology",
+    "C": "Ignoring social responsibilities",
+    "D": "Exploiting natural resources"
+   },
+   "answer": "B",
+   "answer_text": "Developing eco-friendly technology"
+  },
+  {
+   "q": "Which unit of existence has the ability to consciously ensure harmony?",
+   "options": {
+    "A": "Plants",
+    "B": "Animals",
+    "C": "Human beings",
+    "D": "Non-living things"
+   },
+   "answer": "C",
+   "answer_text": "Human beings"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does human conduct affect society?",
+   "answer": [
+    "Good conduct promotes trust, cooperation, and mutual respect, while wrong conduct leads to conflict and exploitation."
+   ]
+  },
+  {
+   "q": "What is the ultimate role of a human being in existence?",
+   "answer": [
+    "To live harmoniously, contribute positively, and protect the balance of society and nature."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain prosperity in the light of harmony between Self and Body.",
+   "answer": [
+    "Self-regulation means the feeling of responsibility toward the Body for its nurturing, protection and right utilisation. Health means the Body acts according to the Self and the parts of the Body are in harmony. The programme to ensure self-regulation and health gives priority to four areas: intake and routine, labour and exercise, posture and regulated breathing, and medicine and treatment. Intake includes air, water, sunlight, food and sensory inputs. Routine includes proper rising time, sleeping time and eating time. Labour produces physical facility, while exercise supports the health of the Body. Postures and regulated breathing help regulate the internal and external organs. Medicine and treatment are required when the Body temporarily moves away from harmony. This programme helps the Self take responsibility for the Body naturally, not through fear or force."
+   ]
+  }
+ ]
+}

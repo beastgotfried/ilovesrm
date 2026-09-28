@@ -7,6 +7,17 @@
  "slo_title": "describe and solve binary multiplication and division problems with proper application of rules.",
  "mcq": [
   {
+   "q": "Subtract (+3) − (+2) using 4-bit sign-magnitude:",
+   "options": {
+    "A": "0001",
+    "B": "1111",
+    "C": "0010",
+    "D": "1000"
+   },
+   "answer": "A",
+   "answer_text": "0001"
+  },
+  {
    "q": "Subtract (+2) − (+4) using 4-bit sign-magnitude:",
    "options": {
     "A": "0010",
@@ -16,6 +27,17 @@
    },
    "answer": "B",
    "answer_text": "1110"
+  },
+  {
+   "q": "Subtract (−5) − (+2) using 4-bit sign-magnitude:",
+   "options": {
+    "A": "1011",
+    "B": "1111",
+    "C": "1101",
+    "D": "0001"
+   },
+   "answer": "C",
+   "answer_text": "1101"
   },
   {
    "q": "Subtract (−3) − (−2) using 4-bit sign-magnitude:",
@@ -29,17 +51,6 @@
    "answer_text": "1001"
   },
   {
-   "q": "Subtract (+3) − (+2) using 4-bit sign-magnitude:",
-   "options": {
-    "A": "0001",
-    "B": "1111",
-    "C": "0010",
-    "D": "1000"
-   },
-   "answer": "A",
-   "answer_text": "0001"
-  },
-  {
    "q": "Subtract (+4) − (−3) using 4-bit sign-magnitude:",
    "options": {
     "A": "0111",
@@ -49,17 +60,6 @@
    },
    "answer": "A",
    "answer_text": "0111"
-  },
-  {
-   "q": "Subtract (−5) − (+2) using 4-bit sign-magnitude:",
-   "options": {
-    "A": "1011",
-    "B": "1111",
-    "C": "1101",
-    "D": "0001"
-   },
-   "answer": "C",
-   "answer_text": "1101"
   }
  ],
  "sq": [

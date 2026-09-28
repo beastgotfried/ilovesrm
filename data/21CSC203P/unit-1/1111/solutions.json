@@ -7,26 +7,15 @@
  "slo_title": "Define object serialization and its role in data persistence and transmission",
  "mcq": [
   {
-   "q": "In distributed systems, serialization is mainly used to______",
+   "q": "Why is serialization important for data persistence?",
    "options": {
-    "A": "a) Print objects to the console",
-    "B": "b) Transmit object data across networks",
-    "C": "c) Avoid using databases ​​​​​",
-    "D": "d) Prevent multithreading"
-   },
-   "answer": "B",
-   "answer_text": "b) Transmit object data across networks"
-  },
-  {
-   "q": "Which is a typical enterprise use case for serialization?",
-   "options": {
-    "A": "a) CPU scheduling",
-    "B": "b) Serial cable communication",
-    "C": "c) Storing session data in web applications ​​​​​",
-    "D": "d) File compression"
+    "A": "a) It deletes objects from memory",
+    "B": "b) It transforms objects into executable files",
+    "C": "c) It saves the state of an object to a file or database ​​​​​",
+    "D": "d) It speeds up program execution"
    },
    "answer": "C",
-   "answer_text": "c) Storing session data in web applications ​​​​​"
+   "answer_text": "c) It saves the state of an object to a file or database ​​​​​"
   },
   {
    "q": "Which Java interface must a class implement to be serializable?",
@@ -40,15 +29,15 @@
    "answer_text": "c) Serializable ​​​​​"
   },
   {
-   "q": "Why is serialization important for data persistence?",
+   "q": "Which is a typical enterprise use case for serialization?",
    "options": {
-    "A": "a) It deletes objects from memory",
-    "B": "b) It transforms objects into executable files",
-    "C": "c) It saves the state of an object to a file or database ​​​​​",
-    "D": "d) It speeds up program execution"
+    "A": "a) CPU scheduling",
+    "B": "b) Serial cable communication",
+    "C": "c) Storing session data in web applications ​​​​​",
+    "D": "d) File compression"
    },
    "answer": "C",
-   "answer_text": "c) It saves the state of an object to a file or database ​​​​​"
+   "answer_text": "c) Storing session data in web applications ​​​​​"
   },
   {
    "q": "What is object serialization in programming?",
@@ -60,6 +49,17 @@
    },
    "answer": "B",
    "answer_text": "b) Converting an object into a byte stream for storage or transmission"
+  },
+  {
+   "q": "In distributed systems, serialization is mainly used to______",
+   "options": {
+    "A": "a) Print objects to the console",
+    "B": "b) Transmit object data across networks",
+    "C": "c) Avoid using databases ​​​​​",
+    "D": "d) Prevent multithreading"
+   },
+   "answer": "B",
+   "answer_text": "b) Transmit object data across networks"
   }
  ],
  "sq": [

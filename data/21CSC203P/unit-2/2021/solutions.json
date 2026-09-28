@@ -18,15 +18,15 @@
    "answer_text": "4 bytes"
   },
   {
-   "q": "Which modifier would you use to make a method accessible only within the same class?",
+   "q": "Which of the following correctly declares a final variable in Java?",
    "options": {
-    "A": "public",
-    "B": "protected",
-    "C": "private",
-    "D": "default"
+    "A": "final int x = 5;",
+    "B": "int final x = 5;",
+    "C": "x final = 5;",
+    "D": "constant int x = 5;"
    },
-   "answer": "C",
-   "answer_text": "private"
+   "answer": "A",
+   "answer_text": "final int x = 5;"
   },
   {
    "q": "Which of the following is a primitive data type in Java?",
@@ -40,17 +40,6 @@
    "answer_text": "boolean"
   },
   {
-   "q": "Which of the following correctly declares a final variable in Java?",
-   "options": {
-    "A": "final int x = 5;",
-    "B": "int final x = 5;",
-    "C": "x final = 5;",
-    "D": "constant int x = 5;"
-   },
-   "answer": "A",
-   "answer_text": "final int x = 5;"
-  },
-  {
    "q": "Which operator is used to compare two values for equality in Java?",
    "options": {
     "A": "Equal to (=)",
@@ -60,6 +49,17 @@
    },
    "answer": "C",
    "answer_text": "Equals (==)"
+  },
+  {
+   "q": "Which modifier would you use to make a method accessible only within the same class?",
+   "options": {
+    "A": "public",
+    "B": "protected",
+    "C": "private",
+    "D": "default"
+   },
+   "answer": "C",
+   "answer_text": "private"
   }
  ],
  "sq": [

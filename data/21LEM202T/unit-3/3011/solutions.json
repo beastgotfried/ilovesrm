@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "3011",
+ "unit": 3,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "To enable students to understand the human being comprehensively as the first step",
+ "mcq": [
+  {
+   "q": "Which principle is essential for maintaining social harmony?",
+   "options": {
+    "A": "Prejudice and discrimination",
+    "B": "Justice and equality",
+    "C": "Conflict and rivalry",
+    "D": "Segregation of communities"
+   },
+   "answer": "B",
+   "answer_text": "Justice and equality"
+  },
+  {
+   "q": "If the other has more understanding, is more responsible than me",
+   "options": {
+    "A": "I am committed to understand from the other",
+    "B": "I am not committed to understand from the other",
+    "C": "I will impose my understanding on other",
+    "D": "The other is not having rights to make me understand"
+   },
+   "answer": "A",
+   "answer_text": "I am committed to understand from the other"
+  },
+  {
+   "q": "What is the foundational value in human relationships?",
+   "options": {
+    "A": "Wealth",
+    "B": "Trust",
+    "C": "Physical Strength",
+    "D": "Fear"
+   },
+   "answer": "B",
+   "answer_text": "Trust"
+  },
+  {
+   "q": "What is the most effective way to handle disagreements in a family?",
+   "options": {
+    "A": "One person should always give in to maintain peace",
+    "B": "Arguments should be avoided at all costs",
+    "C": "Open discussions should be encouraged with mutual respect",
+    "D": "Whoever is the loudest should be considered right"
+   },
+   "answer": "C",
+   "answer_text": "Open discussions should be encouraged with mutual respect"
+  },
+  {
+   "q": "When an individual's true value is recognized and acknowledged appropriately, it reflects:",
+   "options": {
+    "A": "Over Evaluation",
+    "B": "Right Evaluation",
+    "C": "Under Evaluation",
+    "D": "Otherwise Evaluation"
+   },
+   "answer": "B",
+   "answer_text": "Right Evaluation"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is understanding the human being considered the first step in this course?",
+   "answer": [
+    "Because a human being is the central participant in existence, and right understanding of the self forms the foundation for harmony in family, society, and nature."
+   ]
+  },
+  {
+   "q": "What are the three key roles of the human being?",
+   "answer": [
+    "A human being functions as the knower (who understands) , experiencer (who feels emotions and aspirations) , and doer (who performs actions based on understanding and feelings) ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain why family is considered the basic unit of human interaction.",
+   "answer": [
+    "Family is the basic unit of human organisation because it is the first place where a human being learns to live in relationship. The main issue in family is not only physical facility, but the fulfilment of relationship. To live in relationship, we must understand relationship correctly. Relationship exists between one Self and another Self; the body is only used as an instrument to express feelings. Feelings such as trust, respect, affection, care, guidance, reverence, glory, gratitude and love are definite in relationship. When these feelings are understood, recognised and fulfilled, the result is mutual happiness. If relationship is not understood, even people living together may remain in opposition, irritation or conflict. Therefore, harmony in the family begins with understanding the Self, understanding feelings in relationship, and living with the intention of fulfilling relationship."
+   ]
+  }
+ ]
+}

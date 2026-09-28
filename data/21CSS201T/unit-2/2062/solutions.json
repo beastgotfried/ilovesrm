@@ -7,17 +7,6 @@
  "slo_title": "identify and interpret basic assembly language instructions with correct syntax",
  "mcq": [
   {
-   "q": "The 2’s complement of 01101 (5-bit binary) is:",
-   "options": {
-    "A": "10011",
-    "B": "10101",
-    "C": "10011",
-    "D": "10111"
-   },
-   "answer": "C",
-   "answer_text": "10011"
-  },
-  {
    "q": "The 1’s complement of the binary number 101101 is:",
    "options": {
     "A": "010010",
@@ -40,17 +29,6 @@
    "answer_text": "0011 (3)"
   },
   {
-   "q": "Which statement is TRUE about subtraction using complements?",
-   "options": {
-    "A": "In 1’s complement method, end-around carry is discarded.",
-    "B": "In 2’s complement method, end-around carry is added back.",
-    "C": "2’s complement method never requires end-around carry.",
-    "D": "Both methods require end-around carry."
-   },
-   "answer": "C",
-   "answer_text": "2’s complement method never requires end-around carry."
-  },
-  {
    "q": "Perform subtraction using 1’s complement: 1011​−01012",
    "options": {
     "A": "0110",
@@ -60,18 +38,40 @@
    },
    "answer": "A",
    "answer_text": "0110"
+  },
+  {
+   "q": "The 2’s complement of 01101 (5-bit binary) is:",
+   "options": {
+    "A": "10011",
+    "B": "10101",
+    "C": "10011",
+    "D": "10111"
+   },
+   "answer": "C",
+   "answer_text": "10011"
+  },
+  {
+   "q": "Which statement is TRUE about subtraction using complements?",
+   "options": {
+    "A": "In 1’s complement method, end-around carry is discarded.",
+    "B": "In 2’s complement method, end-around carry is added back.",
+    "C": "2’s complement method never requires end-around carry.",
+    "D": "Both methods require end-around carry."
+   },
+   "answer": "C",
+   "answer_text": "2’s complement method never requires end-around carry."
   }
  ],
  "sq": [
   {
    "q": "",
-   "answer": [
-    "Copies data from source to destination."
-   ]
+   "answer": []
   },
   {
    "q": "",
-   "answer": []
+   "answer": [
+    "Copies data from source to destination."
+   ]
   }
  ],
  "lq": [

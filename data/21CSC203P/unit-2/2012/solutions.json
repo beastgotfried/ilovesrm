@@ -7,6 +7,17 @@
  "slo_title": "Illustrate how constructors are used in object instantiation.",
  "mcq": [
   {
+   "q": "Which statement correctly describes the purpose of a constructor in Java?",
+   "options": {
+    "A": "It destroys objects.",
+    "B": "It initializes a class variable.",
+    "C": "It initializes a new object when it is created.",
+    "D": "It acts as the main method."
+   },
+   "answer": "C",
+   "answer_text": "It initializes a new object when it is created."
+  },
+  {
    "q": "What happens if you do not explicitly define a constructor in a Java class?",
    "options": {
     "A": "Compilation error",
@@ -16,6 +27,17 @@
    },
    "answer": "C",
    "answer_text": "Java provides a default constructor"
+  },
+  {
+   "q": "Which of the following is true about constructors?",
+   "options": {
+    "A": "Constructors can return a value.",
+    "B": "Constructors have the same name as the class.",
+    "C": "Constructors can be called manually like other methods.",
+    "D": "Constructors must always be private."
+   },
+   "answer": "B",
+   "answer_text": "Constructors have the same name as the class."
   },
   {
    "q": "What is the correct keyword to create a new object in Java?",
@@ -38,28 +60,6 @@
    },
    "answer": "A",
    "answer_text": "A blueprint for objects"
-  },
-  {
-   "q": "Which of the following is true about constructors?",
-   "options": {
-    "A": "Constructors can return a value.",
-    "B": "Constructors have the same name as the class.",
-    "C": "Constructors can be called manually like other methods.",
-    "D": "Constructors must always be private."
-   },
-   "answer": "B",
-   "answer_text": "Constructors have the same name as the class."
-  },
-  {
-   "q": "Which statement correctly describes the purpose of a constructor in Java?",
-   "options": {
-    "A": "It destroys objects.",
-    "B": "It initializes a class variable.",
-    "C": "It initializes a new object when it is created.",
-    "D": "It acts as the main method."
-   },
-   "answer": "C",
-   "answer_text": "It initializes a new object when it is created."
   }
  ],
  "sq": [

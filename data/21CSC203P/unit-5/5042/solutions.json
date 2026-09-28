@@ -1,0 +1,91 @@
+{
+ "course": "21CSC203P",
+ "code": "5042",
+ "unit": 5,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Explain symbolic expressions and algebraic structures",
+ "mcq": [
+  {
+   "q": "Symbolic programming transitions computation from:",
+   "options": {
+    "A": "Numeric to symbolic forms",
+    "B": "Strings to files",
+    "C": "Loops to conditions",
+    "D": "Arrays to lists"
+   },
+   "answer": "A",
+   "answer_text": "Numeric to symbolic forms"
+  },
+  {
+   "q": "Symbolic computation helps in:",
+   "options": {
+    "A": "Exact algebraic calculations",
+    "B": "Sorting lists",
+    "C": "Generating random numbers",
+    "D": "Reading files"
+   },
+   "answer": "A",
+   "answer_text": "Exact algebraic calculations"
+  },
+  {
+   "q": "Algebraic structures are collections of:",
+   "options": {
+    "A": "Operations and symbols",
+    "B": "Files and directories",
+    "C": "Loops and conditions",
+    "D": "Arrays and lists"
+   },
+   "answer": "A",
+   "answer_text": "Operations and symbols"
+  },
+  {
+   "q": "A symbolic variable in SymPy can represent:",
+   "options": {
+    "A": "An unknown quantity",
+    "B": "A fixed number",
+    "C": "A file handle",
+    "D": "A GUI element"
+   },
+   "answer": "A",
+   "answer_text": "An unknown quantity"
+  },
+  {
+   "q": "Symbolic programming manipulates:",
+   "options": {
+    "A": "Symbols and expressions",
+    "B": "Only numbers",
+    "C": "Arrays",
+    "D": "Files"
+   },
+   "answer": "A",
+   "answer_text": "Symbols and expressions"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is symbolic programming?",
+   "answer": [
+    "Symbolic programming deals with symbols and expressions rather than only numeric values."
+   ]
+  },
+  {
+   "q": "Give an example of a symbolic expression.",
+   "answer": [
+    "An example is \\(x^2+3x+2\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Evaluate the advantages of symbolic programming over numerical computation in algebraic problem-solving. Use Python symbolic expressions to justify your answer.",
+   "answer": [
+    "Symbolic programming allows manipulation of algebraic structures without numerical approximation. Using Sympy in Python:",
+    "from sympy import symbols, expand, factor",
+    "x = symbols('x') expr = (x + 2)**2 expanded = expand(expr) factored = factor(expanded)",
+    "print(expanded) # x**2 + 4*x + 4 print(factored) # (x + 2)**2",
+    "This retains exact forms, enables simplification, factoring, and substitution. Unlike numerical methods, symbolic computation ensures algebraic integrity, which is vital in proof-based tasks or when exact forms are required (e.g., calculus, theorem solving)."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "course": "21CSC203P",
+ "code": "4012",
+ "unit": 4,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "Differentiate between functional and imperative paradigms",
+ "mcq": [
+  {
+   "q": "In which paradigm is recursion preferred over loops for iteration?",
+   "options": {
+    "A": "A) Imperative programming",
+    "B": "B) Functional programming",
+    "C": "C) Object-oriented programming",
+    "D": "D) Procedural programming"
+   },
+   "answer": "B",
+   "answer_text": "B) Functional programming"
+  },
+  {
+   "q": "In functional programming, a function is said to be \"pure\" if it:",
+   "options": {
+    "A": "A) Modifies global variables",
+    "B": "B) Performs file input/output",
+    "C": "C) Has no side effects and returns the same output for the same input",
+    "D": "D) Allocates dynamic memory"
+   },
+   "answer": "C",
+   "answer_text": "C) Has no side effects and returns the same output for the same input"
+  },
+  {
+   "q": "Which of the following is a core principle of functional programming?",
+   "options": {
+    "A": "A) Mutable state",
+    "B": "B) Loop-based control",
+    "C": "C) Pure functions",
+    "D": "D) Goto statements"
+   },
+   "answer": "C",
+   "answer_text": "C) Pure functions"
+  },
+  {
+   "q": "Which of the following is NOT a characteristic of functional programming?",
+   "options": {
+    "A": "A) Immutability",
+    "B": "B) Recursion",
+    "C": "C) Side effects",
+    "D": "D) First-class functions"
+   },
+   "answer": "C",
+   "answer_text": "C) Side effects"
+  },
+  {
+   "q": "What is the main difference between functional and imperative programming paradigms?",
+   "options": {
+    "A": "A) Imperative focuses on what to solve; Functional focuses on how to solve",
+    "B": "B) Functional uses variables and loops extensively",
+    "C": "C) Functional emphasizes immutability and pure functions, while imperative relies on changing state and control flow",
+    "D": "D) Both paradigms are fundamentally the same"
+   },
+   "answer": "C",
+   "answer_text": "C) Functional emphasizes immutability and pure functions, while imperative relies on changing state and control flow"
+  }
+ ],
+ "sq": [
+  {
+   "q": "In what way does functional programming differ from imperative programming when summing a list of numbers?",
+   "answer": [
+    "Functional uses recursion or reduce() without mutable state; imperative uses loops and updates variables."
+   ]
+  },
+  {
+   "q": "A company wants to reduce bugs in their payroll software. Why should they consider functional programming?",
+   "answer": [
+    "Functional programming avoids side effects and uses pure functions, making the code predictable and easier to test"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are part of a development team designing a software module to process financial transaction data. Your team is debating between using a functional programming approach and a traditional imperative programming style. The requirement emphasizes correctness, ease of debugging, and minimizing unintended side effects during data transformations. Based on the scenario above, Define the core principles of functional programming that make it suitable for this requirement. (5 marks) Compare and contrast functional programming with imperative programming in terms of code structure, state management, and side effects. (5 marks) Justify with examples (in any programming language of your choice) how functional purity and immutability could lead to more reliable and testable code in such a financial processing module. (5 marks)",
+   "answer": [
+    "Pure Functions: No side effects, same input gives same output.",
+    "Pure Functions: No side effects, same input gives same output.",
+    "Immutability: Data is not modified, new data is returned.",
+    "Immutability: Data is not modified, new data is returned.",
+    "First-Class Functions: Functions can be passed and returned.",
+    "First-Class Functions: Functions can be passed and returned.",
+    "Referential Transparency: Expressions can be replaced with values.",
+    "Referential Transparency: Expressions can be replaced with values.",
+    "Function Composition: Combine small functions to form complex logic. 2. Functional vs Imperative Paradigm (5 marks) Aspect Functional Imperative Style Declarative Procedural Data Immutable Mutable Side Effects Avoided Common State Stateless Uses shared state Debugging Easier (pure functions) Harder (due to side effects)",
+    "Function Composition: Combine small functions to form complex logic.",
+    "Functional:",
+    "Imperative:"
+   ]
+  }
+ ]
+}

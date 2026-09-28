@@ -1,0 +1,93 @@
+{
+ "course": "21CSC203P",
+ "code": "5081",
+ "unit": 5,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "Create event-driven GUI with Tkinter",
+ "mcq": [
+  {
+   "q": "Tkinter is used for:",
+   "options": {
+    "A": "GUI programming",
+    "B": "File reading",
+    "C": "Web scraping",
+    "D": "Sorting lists"
+   },
+   "answer": "A",
+   "answer_text": "GUI programming"
+  },
+  {
+   "q": "Tkinter uses geometry managers to:",
+   "options": {
+    "A": "Arrange widgets",
+    "B": "Sort numbers",
+    "C": "Parse XML",
+    "D": "Save files"
+   },
+   "answer": "A",
+   "answer_text": "Arrange widgets"
+  },
+  {
+   "q": "Tkinter GUI is called event-driven because:",
+   "options": {
+    "A": "It waits for user actions",
+    "B": "It sorts files",
+    "C": "It runs loops continuously",
+    "D": "It reads files automatically"
+   },
+   "answer": "A",
+   "answer_text": "It waits for user actions"
+  },
+  {
+   "q": "Tkinter event handlers:",
+   "options": {
+    "A": "Respond to widget events",
+    "B": "Sort arrays",
+    "C": "Save files",
+    "D": "Read JSON"
+   },
+   "answer": "A",
+   "answer_text": "Respond to widget events"
+  },
+  {
+   "q": "A callback function in Tkinter is:",
+   "options": {
+    "A": "Code run when event occurs",
+    "B": "A sorting function",
+    "C": "A file handler",
+    "D": "A loop condition"
+   },
+   "answer": "A",
+   "answer_text": "Code run when event occurs"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the role of an event handler in Tkinter?",
+   "answer": [
+    "It defines what action to take when a specific event occurs (e.g., button click)."
+   ]
+  },
+  {
+   "q": "Which Python library is used to create GUI event-driven programs?",
+   "answer": [
+    "Tkinter."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Apply Tkinter to create a basic event-driven GUI where a button displays a message when clicked.",
+   "answer": [
+    "from tkinter import *",
+    "def show_message(): label.config(text=\"Hello, Tkinter!\")",
+    "window = Tk() window.title(\"Event Demo\")",
+    "label = Label(window, text=\"\") label.pack()",
+    "button = Button(window, text=\"Click Me\", command=show_message) button.pack()",
+    "window.mainloop()",
+    "This GUI reacts to user interaction via an event (button click), demonstrating core event-driven principles of input handling and dynamic output."
+   ]
+  }
+ ]
+}

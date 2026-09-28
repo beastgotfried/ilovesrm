@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "3091",
+ "unit": 3,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Students will be able to identify the causes of harmony or contradiction within the Self by analyzing desires, thoughts, and expectations",
+ "mcq": [
+  {
+   "q": "The root cause of contradiction in the Self is:",
+   "options": {
+    "A": "Lack of physical exercise",
+    "B": "Lack of right understanding and self-evaluation",
+    "C": "Having fewer desires",
+    "D": "Being socially active"
+   },
+   "answer": "B",
+   "answer_text": "Lack of right understanding and self-evaluation"
+  },
+  {
+   "q": "An example of contradiction in the Self is:",
+   "options": {
+    "A": "Wanting good health but indulging in harmful habits",
+    "B": "Setting clear goals with realistic plan",
+    "C": "Acting based on right understanding",
+    "D": "Respecting and trusting others"
+   },
+   "answer": "A",
+   "answer_text": "Wanting good health but indulging in harmful habits"
+  },
+  {
+   "q": "What ensures harmony in the Self continuously?",
+   "options": {
+    "A": "Wealth accumulation",
+    "B": "Self-exploration and realization of coexistence",
+    "C": "Competing with others",
+    "D": "Ignoring relationships"
+   },
+   "answer": "B",
+   "answer_text": "Self-exploration and realization of coexistence"
+  },
+  {
+   "q": "An example of harmony in the Self is:",
+   "options": {
+    "A": "Choosing a career based on both competence and interest",
+    "B": "Blindly imitating peers’ lifestyle",
+    "C": "Accumulating wealth without responsibility",
+    "D": "Making random decisions"
+   },
+   "answer": "A",
+   "answer_text": "Choosing a career based on both competence and interest"
+  },
+  {
+   "q": "Why is harmony in the Self important?",
+   "options": {
+    "A": "It helps to make ethical, sustainable, and responsible choices in technology and society",
+    "B": "It improves only their physical health",
+    "C": "It increases profit-making without responsibility",
+    "D": "It removes the need for teamwork"
+   },
+   "answer": "A",
+   "answer_text": "It helps to make ethical, sustainable, and responsible choices in technology and society"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Give an example of harmony in the self.",
+   "answer": [
+    "When a student desires to learn, thinks of a study plan, and then follows it, there is alignment between desire, thought, and action—showing harmony."
+   ]
+  },
+  {
+   "q": "Give an example of contradiction in the self.",
+   "answer": [
+    "If a student desires to excel in exams but spends time on distractions instead of studying, the desire and action contradict, causing dissatisfaction and inner conflict."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "What is the purpose of social projects in UHV?",
+   "answer": [
+    "The purpose of social projects in UHV is to help students develop a holistic perspective and experience social participation. These projects shift students from self-centred thinking to connectedness with family, society and nature. A socially relevant project should contribute to one or more dimensions of the human order: education-sanskar, health-sanyam, production-work, justice-suraksha and exchange-storage. Such projects also connect with the human goals: right understanding in every human being, prosperity in every family, fearlessness or trust in society, and co-existence with nature. Through social projects, students can observe real examples, collect and understand relevant data, and see how a wholesome way of living can support a humane society. Therefore, social projects are not only academic activities; they are steps toward understanding and participating in universal human order."
+   ]
+  }
+ ]
+}

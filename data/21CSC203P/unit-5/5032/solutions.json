@@ -1,0 +1,92 @@
+{
+ "course": "21CSC203P",
+ "code": "5032",
+ "unit": 5,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Simulate pattern recognition with input strings",
+ "mcq": [
+  {
+   "q": "Automaton simulation is useful for:",
+   "options": {
+    "A": "Pattern recognition",
+    "B": "Memory allocation",
+    "C": "Sorting integers",
+    "D": "Parsing JSON"
+   },
+   "answer": "A",
+   "answer_text": "Pattern recognition"
+  },
+  {
+   "q": "Which is a benefit of using Python automaton library?",
+   "options": {
+    "A": "Manual transition drawing",
+    "B": "Automatic state handling",
+    "C": "Stack memory support",
+    "D": "Automatic database creation"
+   },
+   "answer": "B",
+   "answer_text": "Automatic state handling"
+  },
+  {
+   "q": "Automaton simulation is useful for:",
+   "options": {
+    "A": "Pattern recognition",
+    "B": "Memory allocation",
+    "C": "Sorting integers",
+    "D": "Parsing JSON"
+   },
+   "answer": "A",
+   "answer_text": "Pattern recognition"
+  },
+  {
+   "q": "In automata simulation, input is:",
+   "options": {
+    "A": "A number",
+    "B": "A string",
+    "C": "A float",
+    "D": "A list"
+   },
+   "answer": "B",
+   "answer_text": "A string"
+  },
+  {
+   "q": "When automata accepts a string, it means:",
+   "options": {
+    "A": "It matches the pattern",
+    "B": "It crashes",
+    "C": "It halts without output",
+    "D": "It modifies the input"
+   },
+   "answer": "A",
+   "answer_text": "It matches the pattern"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the purpose of simulating input strings in automata programming?",
+   "answer": [
+    "To verify if the input string is accepted by the automaton as per its state transitions."
+   ]
+  },
+  {
+   "q": "Which Python library can be used to implement automata?",
+   "answer": [
+    "The automaton or automata-lib library."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze how automaton simulation in Python helps in validating pattern recognition tasks with input strings. Illustrate using a simple example.",
+   "answer": [
+    "In Python, libraries like automata-lib allow us to define a DFA and simulate inputs. For example, define a DFA to accept binary strings divisible by 2 (ending with ‘0’).",
+    "python",
+    "from automata.fa.dfa import DFA",
+    "dfa = DFA( states={'q0', 'q1'}, input_symbols={'0', '1'}, transitions={ 'q0': {'0': 'q0', '1': 'q1'}, 'q1': {'0': 'q0', '1': 'q1'} }, initial_state='q0', final_states={'q0'} )",
+    "print(dfa.accepts_input('100')) # True print(dfa.accepts_input('101')) # False",
+    "This simulation bridges theory and practice, helping validate automaton logic with real strings."
+   ]
+  }
+ ]
+}

@@ -18,6 +18,28 @@
    "answer_text": "d) Hexadecimal"
   },
   {
+   "q": "The BCD representation of the decimal number 47 is 0100 0111 . What is its Excess-3 code?",
+   "options": {
+    "A": "a) 0111 1010",
+    "B": "b) 0111 1101",
+    "C": "c) 0100 1010",
+    "D": "d) 0111 1000"
+   },
+   "answer": "A",
+   "answer_text": "a) 0111 1010"
+  },
+  {
+   "q": "How do the ASCII codes for an uppercase letter and its corresponding lowercase letter typically differ?",
+   "options": {
+    "A": "a) The lowercase letter has its 3rd least significant bit (LSB) set to 0, while uppercase has it set to 1.",
+    "B": "b) The lowercase letter has its 5th bit (bit 5, from the right, 0-indexed) set to 1, while uppercase has it set to 0.",
+    "C": "c) The MSB is 1 for lowercase and 0 for uppercase.",
+    "D": "d) They are completely different codes with no consistent pattern."
+   },
+   "answer": "B",
+   "answer_text": "b) The lowercase letter has its 5th bit (bit 5, from the right, 0-indexed) set to 1, while uppercase has it set to 0."
+  },
+  {
    "q": "The 7-bit ASCII code for the percent sign '%' is 0100101 . What would this byte look like with an even parity bit appended as the most significant bit (MSB)?",
    "options": {
     "A": "a) 00100101",
@@ -38,31 +60,58 @@
    },
    "answer": "B",
    "answer_text": "b) 63"
-  },
-  {
-   "q": "How do the ASCII codes for an uppercase letter and its corresponding lowercase letter typically differ?",
-   "options": {
-    "A": "a) The lowercase letter has its 3rd least significant bit (LSB) set to 0, while uppercase has it set to 1.",
-    "B": "b) The lowercase letter has its 5th bit (bit 5, from the right, 0-indexed) set to 1, while uppercase has it set to 0.",
-    "C": "c) The MSB is 1 for lowercase and 0 for uppercase.",
-    "D": "d) They are completely different codes with no consistent pattern."
-   },
-   "answer": "B",
-   "answer_text": "b) The lowercase letter has its 5th bit (bit 5, from the right, 0-indexed) set to 1, while uppercase has it set to 0."
-  },
-  {
-   "q": "The BCD representation of the decimal number 47 is 0100 0111 . What is its Excess-3 code?",
-   "options": {
-    "A": "a) 0111 1010",
-    "B": "b) 0111 1101",
-    "C": "c) 0100 1010",
-    "D": "d) 0111 1000"
-   },
-   "answer": "A",
-   "answer_text": "a) 0111 1010"
   }
  ],
  "sq": [
+  {
+   "q": "A digital system uses both Gray code and BCD for different applications. Perform the following conversions and analysis: a) Convert the Gray code 1011 to its equivalent Binary number. b) Convert the Decimal number 47 to its: BCD representation BCD representation Excess-3 representation c) The binary sequence 1001 is received in a system that uses both Gray code and straight binary. What are the possible interpretations of this sequence if it represents: Excess-3 representation c) The binary sequence 1001 is received in a system that uses both Gray code and straight binary. What are the possible interpretations of this sequence if it represents: A Gray code number (convert to decimal) A Gray code number (convert to decimal) A straight binary number (convert to decimal) d) Analysis: Why is Gray code particularly useful in rotary encoders and position sensors compared to straight binary code? A straight binary number (convert to decimal) d) Analysis: Why is Gray code particularly useful in rotary encoders and position sensors compared to straight binary code?",
+   "answer": [
+    "a) Gray to Binary Conversion:",
+    "Gray: 1 0 1 1",
+    "Gray: 1 0 1 1",
+    "Binary conversion: MSB: Same as Gray → 1 1 ⊕ 0 = 1 1 ⊕ 1 = 0 0 ⊕ 1 = 1",
+    "Binary conversion:",
+    "MSB: Same as Gray → 1",
+    "MSB: Same as Gray → 1",
+    "1 ⊕ 0 = 1",
+    "1 ⊕ 0 = 1",
+    "1 ⊕ 1 = 0",
+    "1 ⊕ 1 = 0",
+    "0 ⊕ 1 = 1",
+    "0 ⊕ 1 = 1",
+    "Binary: 1101",
+    "Binary: 1101",
+    "b) Decimal Conversions:",
+    "BCD: 4 = 0100 , 7 = 0111 → 0100 0111",
+    "BCD: 4 = 0100 , 7 = 0111 → 0100 0111",
+    "Excess-3: Add 0011 to each BCD digit 0100 + 0011 = 0111 0111 + 0011 = 1010 Excess-3: 0111 1010",
+    "Excess-3: Add 0011 to each BCD digit",
+    "0100 + 0011 = 0111",
+    "0100 + 0011 = 0111",
+    "0111 + 0011 = 1010",
+    "0111 + 0011 = 1010",
+    "Excess-3: 0111 1010",
+    "Excess-3: 0111 1010",
+    "c) Multiple Interpretations of 1001 :",
+    "As Gray code: Convert to binary: Gray: 1 0 0 1 Binary: MSB=1, 1⊕0=1, 1⊕0=1, 1⊕1=0 → 1110 Decimal: 8+4+2 = 14",
+    "As Gray code: Convert to binary:",
+    "Gray: 1 0 0 1",
+    "Gray: 1 0 0 1",
+    "Binary: MSB=1, 1⊕0=1, 1⊕0=1, 1⊕1=0 → 1110",
+    "Binary: MSB=1, 1⊕0=1, 1⊕0=1, 1⊕1=0 → 1110",
+    "Decimal: 8+4+2 = 14",
+    "Decimal: 8+4+2 = 14",
+    "As straight binary: 1001 = 8+1 = 9",
+    "As straight binary: 1001 = 8+1 = 9",
+    "d) Advantage of Gray Code in Position Sensors:",
+    "Gray code is a unit-distance code where only one bit changes between consecutive numbers.",
+    "Gray code is a unit-distance code where only one bit changes between consecutive numbers.",
+    "In rotary encoders, this eliminates the ambiguity that occurs in binary when multiple bits change simultaneously (e.g., from 0111 to 1000).",
+    "In rotary encoders, this eliminates the ambiguity that occurs in binary when multiple bits change simultaneously (e.g., from 0111 to 1000).",
+    "This prevents brief, erroneous readings during transitions, making Gray code more reliable for position sensing applications.",
+    "This prevents brief, erroneous readings during transitions, making Gray code more reliable for position sensing applications."
+   ]
+  },
   {
    "q": "A data communication system transmits messages using 7-bit ASCII with odd parity. Analyze the following scenario: a) The message \"CODE\" is to be transmitted. Complete the parity bit calculation: b) During transmission, the following frames are received: Frame 1: 01000011 (for character 'C') Frame 1: 01000011 (for character 'C') Frame 2: 11001110 (for character 'N' - ASCII 1001110 ) Frame 2: 11001110 (for character 'N' - ASCII 1001110 ) For each frame, determine if an error is detected and justify your answer. c) Critical Analysis: If the system experiences frequent 2-bit errors, would switching from odd parity to even parity improve error detection? Explain why or why not. d) Suggest one alternative error detection method that would be more effective than single parity bit for this scenario.",
    "answer": [
@@ -112,55 +161,6 @@
     "OR Two-dimensional parity (adding parity for both rows and columns)",
     "These methods can detect multiple bit errors, including even numbers of errors, and are widely used in modern communication protocols like Ethernet, Wi-Fi, and storage systems.",
     "These methods can detect multiple bit errors, including even numbers of errors, and are widely used in modern communication protocols like Ethernet, Wi-Fi, and storage systems."
-   ]
-  },
-  {
-   "q": "A digital system uses both Gray code and BCD for different applications. Perform the following conversions and analysis: a) Convert the Gray code 1011 to its equivalent Binary number. b) Convert the Decimal number 47 to its: BCD representation BCD representation Excess-3 representation c) The binary sequence 1001 is received in a system that uses both Gray code and straight binary. What are the possible interpretations of this sequence if it represents: Excess-3 representation c) The binary sequence 1001 is received in a system that uses both Gray code and straight binary. What are the possible interpretations of this sequence if it represents: A Gray code number (convert to decimal) A Gray code number (convert to decimal) A straight binary number (convert to decimal) d) Analysis: Why is Gray code particularly useful in rotary encoders and position sensors compared to straight binary code? A straight binary number (convert to decimal) d) Analysis: Why is Gray code particularly useful in rotary encoders and position sensors compared to straight binary code?",
-   "answer": [
-    "a) Gray to Binary Conversion:",
-    "Gray: 1 0 1 1",
-    "Gray: 1 0 1 1",
-    "Binary conversion: MSB: Same as Gray → 1 1 ⊕ 0 = 1 1 ⊕ 1 = 0 0 ⊕ 1 = 1",
-    "Binary conversion:",
-    "MSB: Same as Gray → 1",
-    "MSB: Same as Gray → 1",
-    "1 ⊕ 0 = 1",
-    "1 ⊕ 0 = 1",
-    "1 ⊕ 1 = 0",
-    "1 ⊕ 1 = 0",
-    "0 ⊕ 1 = 1",
-    "0 ⊕ 1 = 1",
-    "Binary: 1101",
-    "Binary: 1101",
-    "b) Decimal Conversions:",
-    "BCD: 4 = 0100 , 7 = 0111 → 0100 0111",
-    "BCD: 4 = 0100 , 7 = 0111 → 0100 0111",
-    "Excess-3: Add 0011 to each BCD digit 0100 + 0011 = 0111 0111 + 0011 = 1010 Excess-3: 0111 1010",
-    "Excess-3: Add 0011 to each BCD digit",
-    "0100 + 0011 = 0111",
-    "0100 + 0011 = 0111",
-    "0111 + 0011 = 1010",
-    "0111 + 0011 = 1010",
-    "Excess-3: 0111 1010",
-    "Excess-3: 0111 1010",
-    "c) Multiple Interpretations of 1001 :",
-    "As Gray code: Convert to binary: Gray: 1 0 0 1 Binary: MSB=1, 1⊕0=1, 1⊕0=1, 1⊕1=0 → 1110 Decimal: 8+4+2 = 14",
-    "As Gray code: Convert to binary:",
-    "Gray: 1 0 0 1",
-    "Gray: 1 0 0 1",
-    "Binary: MSB=1, 1⊕0=1, 1⊕0=1, 1⊕1=0 → 1110",
-    "Binary: MSB=1, 1⊕0=1, 1⊕0=1, 1⊕1=0 → 1110",
-    "Decimal: 8+4+2 = 14",
-    "Decimal: 8+4+2 = 14",
-    "As straight binary: 1001 = 8+1 = 9",
-    "As straight binary: 1001 = 8+1 = 9",
-    "d) Advantage of Gray Code in Position Sensors:",
-    "Gray code is a unit-distance code where only one bit changes between consecutive numbers.",
-    "Gray code is a unit-distance code where only one bit changes between consecutive numbers.",
-    "In rotary encoders, this eliminates the ambiguity that occurs in binary when multiple bits change simultaneously (e.g., from 0111 to 1000).",
-    "In rotary encoders, this eliminates the ambiguity that occurs in binary when multiple bits change simultaneously (e.g., from 0111 to 1000).",
-    "This prevents brief, erroneous readings during transitions, making Gray code more reliable for position sensing applications.",
-    "This prevents brief, erroneous readings during transitions, making Gray code more reliable for position sensing applications."
    ]
   }
  ],

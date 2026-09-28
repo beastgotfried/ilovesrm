@@ -1,0 +1,132 @@
+{
+ "course": "21CSS201T",
+ "code": "4041",
+ "unit": 4,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Tutorial",
+ "mcq": [
+  {
+   "q": "If \"CMP R1, R2\" is followed by \"BGT Label\", branching occurs if:",
+   "options": {
+    "A": "R1 == R2",
+    "B": "R1 > R2 (signed)",
+    "C": "R1 < R2",
+    "D": "Zero flag is set"
+   },
+   "answer": "B",
+   "answer_text": "R1 > R2 (signed)"
+  },
+  {
+   "q": "The purpose of a branch instruction is to:",
+   "options": {
+    "A": "Alter sequential execution",
+    "B": "Increase clock speed",
+    "C": "Disable interrupts",
+    "D": "Store data in RAM"
+   },
+   "answer": "A",
+   "answer_text": "Alter sequential execution"
+  },
+  {
+   "q": "The target address in a branch instruction is stored in:",
+   "options": {
+    "A": "ALU",
+    "B": "Instruction operand or register",
+    "C": "Cache memory",
+    "D": "Hard disk"
+   },
+   "answer": "B",
+   "answer_text": "Instruction operand or register"
+  },
+  {
+   "q": "How does a conditional branch differ from an unconditional branch?",
+   "options": {
+    "A": "It checks CPU flags before branching",
+    "B": "It only works in loops",
+    "C": "It ignores the PC",
+    "D": "It skips the next instruction"
+   },
+   "answer": "A",
+   "answer_text": "It checks CPU flags before branching"
+  },
+  {
+   "q": "Which register is updated by a branch instruction?",
+   "options": {
+    "A": "Instruction Register (IR)",
+    "B": "Program Counter (PC)",
+    "C": "Accumulator",
+    "D": "Memory Data Register (MDR)"
+   },
+   "answer": "B",
+   "answer_text": "Program Counter (PC)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What do you mean by instruction execution in a CPU?",
+   "answer": [
+    "Instruction execution is the process by which a computer's CPU carries out the commands specified in program instructions. Each instruction goes through a series of steps: fetch , decode , and execute . During fetch , the instruction is retrieved from memory. In the decode phase, the control unit interprets what action is needed. Finally, during execute , the required operation (like arithmetic, data transfer, or logic) is performed. This process repeats for every instruction in a program. It enables the system to respond to tasks such as calculations, decisions, and memory operations."
+   ]
+  },
+  {
+   "q": "What are the main steps in the instruction execution cycle?",
+   "answer": [
+    "The instruction execution cycle involves the following steps:",
+    "Fetch – Retrieve the instruction from memory using the program counter (PC).",
+    "Fetch – Retrieve the instruction from memory using the program counter (PC).",
+    "Decode – Interpret the instruction to determine the operation and operands.",
+    "Decode – Interpret the instruction to determine the operation and operands.",
+    "Execute – Perform the action using the ALU or control unit.",
+    "Execute – Perform the action using the ALU or control unit.",
+    "Store (if needed) – Save the result in a register or memory.",
+    "Store (if needed) – Save the result in a register or memory.",
+    "Increment PC – Move to the next instruction. These steps are repeated continuously until the program ends. This sequence ensures orderly and correct operation of programs in the CPU.",
+    "Increment PC – Move to the next instruction. These steps are repeated continuously until the program ends. This sequence ensures orderly and correct operation of programs in the CPU."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain different types of branch instructions with examples.",
+   "answer": [
+    "Branch instructions are classified into several categories based on how and when they transfer control. Understanding these types is critical for managing program flow.",
+    "Description: Jumps to a specified address without evaluating any condition.",
+    "Description: Jumps to a specified address without evaluating any condition.",
+    "Example (Assembly): JMP 0x0040 — sets PC to address 0x0040 directly. B LABEL — in ARM, this branches to LABEL .",
+    "Example (Assembly):",
+    "JMP 0x0040 — sets PC to address 0x0040 directly.",
+    "JMP 0x0040 — sets PC to address 0x0040 directly.",
+    "B LABEL — in ARM, this branches to LABEL .",
+    "B LABEL — in ARM, this branches to LABEL .",
+    "Description: Transfers control only if a certain condition is met.",
+    "Description: Transfers control only if a certain condition is met.",
+    "Conditions are based on status flags (Zero, Negative, Carry, Overflow).",
+    "Conditions are based on status flags (Zero, Negative, Carry, Overflow).",
+    "Examples: BEQ LABEL – Branch if zero flag is set (i.e., result is zero). BNE LABEL – Branch if zero flag is not set. BLT LABEL – Branch if less than (negative flag set). BGT LABEL – Branch if greater than (zero and negative flags cleared).",
+    "Examples:",
+    "BEQ LABEL – Branch if zero flag is set (i.e., result is zero).",
+    "BEQ LABEL – Branch if zero flag is set (i.e., result is zero).",
+    "BNE LABEL – Branch if zero flag is not set.",
+    "BNE LABEL – Branch if zero flag is not set.",
+    "BLT LABEL – Branch if less than (negative flag set).",
+    "BLT LABEL – Branch if less than (negative flag set).",
+    "BGT LABEL – Branch if greater than (zero and negative flags cleared).",
+    "BGT LABEL – Branch if greater than (zero and negative flags cleared).",
+    "Uses a signed offset to jump to a nearby instruction rather than an absolute address.",
+    "Uses a signed offset to jump to a nearby instruction rather than an absolute address.",
+    "Useful in embedded systems for efficient code.",
+    "Useful in embedded systems for efficient code.",
+    "The address to branch to is stored in a register or memory.",
+    "The address to branch to is stored in a register or memory.",
+    "Used for function calls, virtual methods, jump tables.",
+    "Used for function calls, virtual methods, jump tables.",
+    "Description: Calls a function and stores return address.",
+    "Description: Calls a function and stores return address.",
+    "Example: BL FUNCTION – stores return address in the link register.",
+    "Example: BL FUNCTION – stores return address in the link register.",
+    "Branch instructions are fundamental for implementing decision-making and repeating operations in machine-level programs."
+   ]
+  }
+ ]
+}

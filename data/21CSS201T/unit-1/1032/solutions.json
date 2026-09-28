@@ -7,6 +7,28 @@
  "slo_title": "describe ASCII code representation and demonstrate the addition of Parity bits for error detection,",
  "mcq": [
   {
+   "q": "What is the decimal equivalent of the octal number 745?",
+   "options": {
+    "A": "485",
+    "B": "487",
+    "C": "490",
+    "D": "434"
+   },
+   "answer": "B",
+   "answer_text": "487"
+  },
+  {
+   "q": "Convert the binary number 101101 to decimal.",
+   "options": {
+    "A": "45",
+    "B": "51",
+    "C": "41",
+    "D": "47"
+   },
+   "answer": "A",
+   "answer_text": "45"
+  },
+  {
    "q": "Convert the decimal number 255 to hexadecimal.",
    "options": {
     "A": "EE",
@@ -38,41 +60,19 @@
    },
    "answer": "A",
    "answer_text": "EE"
-  },
-  {
-   "q": "What is the decimal equivalent of the octal number 745?",
-   "options": {
-    "A": "485",
-    "B": "487",
-    "C": "490",
-    "D": "434"
-   },
-   "answer": "B",
-   "answer_text": "487"
-  },
-  {
-   "q": "Convert the binary number 101101 to decimal.",
-   "options": {
-    "A": "45",
-    "B": "51",
-    "C": "41",
-    "D": "47"
-   },
-   "answer": "A",
-   "answer_text": "45"
   }
  ],
  "sq": [
   {
-   "q": "What is the rule followed in BCD addition when the sum exceeds 9 or an illegal code appears?",
-   "answer": [
-    "In BCD addition , if the sum of 4-bit digits exceeds 9 (1001) or generates an illegal BCD code , then add 0110 (6) to the result to correct it."
-   ]
-  },
-  {
    "q": "Why is Gray code preferred in digital systems like analog to digital converters?",
    "answer": [
     "Gray code is preferred because only one bit changes at a time between successive values, which minimizes errors during transitions and improves accuracy and reliability in digital systems like analog to digital converters."
+   ]
+  },
+  {
+   "q": "What is the rule followed in BCD addition when the sum exceeds 9 or an illegal code appears?",
+   "answer": [
+    "In BCD addition , if the sum of 4-bit digits exceeds 9 (1001) or generates an illegal BCD code , then add 0110 (6) to the result to correct it."
    ]
   }
  ],

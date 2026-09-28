@@ -1,0 +1,89 @@
+{
+ "course": "21LEM202T",
+ "code": "2011",
+ "unit": 2,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Students will be able to explain the domain of Right Understanding by comprehending the human being as the knower, experiencer, and doer",
+ "mcq": [
+  {
+   "q": "Which of the following statement is true?",
+   "options": {
+    "A": "Skills and values, all vary from person to person",
+    "B": "Skills determine the value of everything",
+    "C": "Values relate to `what to do’ and skills relate to’ how to do’",
+    "D": "Values relate to ‘how to do’ and skills relate to ‘what to do’"
+   },
+   "answer": "C",
+   "answer_text": "Values relate to `what to do’ and skills relate to’ how to do’"
+  },
+  {
+   "q": "Development of human being essentially means___",
+   "options": {
+    "A": "Transformation from animal consciousness to human consciousness",
+    "B": "Keep progressing in life in terms of money, post and fame",
+    "C": "Keeping oneself always ahead of others",
+    "D": "Working day and night for wealth"
+   },
+   "answer": "A",
+   "answer_text": "Transformation from animal consciousness to human consciousness"
+  },
+  {
+   "q": "What is not included in the process of self – exploration?",
+   "options": {
+    "A": "Verifying the proposal at the level of Natural Acceptance",
+    "B": "Listening to the proposal",
+    "C": "Comparing the proposal with other’s opinion",
+    "D": "Validating one's behaviour"
+   },
+   "answer": "C",
+   "answer_text": "Comparing the proposal with other’s opinion"
+  },
+  {
+   "q": "A student says, \" Since physical facility is temporary, the feeling of prosperity also is temporary.\" What will be the most appropriate response to this?",
+   "options": {
+    "A": "Yes, feeling of prosperity will depend on the availability.",
+    "B": "Yes, you are right. The feeling is sometimes continuous and sometime temporary",
+    "C": "Physical facility is temporary but the feeling of having / producing more will continue",
+    "D": "Feeling of prosperity requires just understanding of need, and no physical facility"
+   },
+   "answer": "D",
+   "answer_text": "Feeling of prosperity requires just understanding of need, and no physical facility"
+  },
+  {
+   "q": "Arun says: There is a vast generation gap between the teacher and students. How can something that is true for teacher be true for students too? Choose the most appropriate response.",
+   "options": {
+    "A": "We have to learn to live with the generation gap in any relationship",
+    "B": "Life is about bridging the gaps which will always continue",
+    "C": "There is no gap in the natural acceptance, it is the same for everyone",
+    "D": "The students have to obey the teachers even if there is a gap"
+   },
+   "answer": "C",
+   "answer_text": "There is no gap in the natural acceptance, it is the same for everyone"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is meant by the experiencer in a human being?",
+   "answer": [
+    "The Self is the experiencer, as it feels emotions like happiness, sadness, or satisfaction."
+   ]
+  },
+  {
+   "q": "Who is considered the knower in the human being?",
+   "answer": [
+    "The Self is the knower, as it perceives and understands reality."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain human being as the co-existence of Self and Body.",
+   "answer": [
+    "A human being is the co-existence of Self and Body . The Self is the conscious entity, while the Body is the material entity. The Self is the one that desires, thinks, expects, understands, assumes and wants happiness. The Body is the physical instrument through which the Self performs activities such as eating, walking, speaking and working.",
+    "The Body is useful and necessary, but it is not the complete human being. The Self is central to human existence because the desire for continuous happiness exists in the Self. The Body is used by the Self as an instrument for living and participating in the world. Therefore, to understand a human being correctly, we must understand both the Self and the Body separately, and also understand their co-existence.",
+    "When we mistake the human being as only the Body, we try to fulfil every need through physical facility. This leads to confusion, accumulation and dissatisfaction. Right understanding begins when we see that the needs of the Self and the needs of the Body are different and must be fulfilled differently."
+   ]
+  }
+ ]
+}

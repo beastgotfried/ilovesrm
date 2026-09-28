@@ -7,17 +7,6 @@
  "slo_title": "Describe the computer types based on different features",
  "mcq": [
   {
-   "q": "Which of the following is not a basic functional unit of a computer?",
-   "options": {
-    "A": "A) Input Unit",
-    "B": "B) Output Unit",
-    "C": "C) Arithmetic Logic Unit (ALU)",
-    "D": "D) Operating System"
-   },
-   "answer": "D",
-   "answer_text": "D) Operating System"
-  },
-  {
    "q": "The Memory Unit stores:",
    "options": {
     "A": "A) Only programs",
@@ -60,21 +49,32 @@
    },
    "answer": "D",
    "answer_text": "D) Operating System"
+  },
+  {
+   "q": "Which of the following is not a basic functional unit of a computer?",
+   "options": {
+    "A": "A) Input Unit",
+    "B": "B) Output Unit",
+    "C": "C) Arithmetic Logic Unit (ALU)",
+    "D": "D) Operating System"
+   },
+   "answer": "D",
+   "answer_text": "D) Operating System"
   }
  ],
  "sq": [
-  {
-   "q": "Differentiate between primary memory and secondary memory with examples.",
-   "answer": [
-    "Primary memory , also known as main memory , is directly accessible by the CPU. It temporarily holds both data and instructions that the processor is currently using. The most common type of primary memory is RAM (Random Access Memory) , which is volatile , meaning its contents are lost when the power is turned off. ROM (Read Only Memory) is another type of primary memory used to store firmware and is non-volatile.",
-    "Secondary memory , on the other hand, refers to permanent storage devices that are used to store data and programs not actively in use. This includes hard disk drives (HDDs), solid-state drives (SSDs), CDs, USB flash drives , etc. These memories are non-volatile , retain data even when power is off, and are slower in access speed compared to primary memory but much larger in storage capacity."
-   ]
-  },
   {
    "q": "What are the main functions of the Control Unit in a computer?",
    "answer": [
     "The Control Unit (CU) is a critical component of the Central Processing Unit (CPU). Its primary role is to manage and coordinate the operations of the entire computer system. It fetches instructions from memory, decodes them to understand the required operations, and then directs other units (like ALU, memory, and I/O devices) to execute them accordingly.",
     "The CU does not process data itself , but it ensures that the data flows correctly and instructions are executed in the proper sequence. It also controls the timing and control signals required for internal operations. Essentially, it acts as the “brain within the brain” , making sure that the CPU carries out its tasks efficiently."
+   ]
+  },
+  {
+   "q": "Differentiate between primary memory and secondary memory with examples.",
+   "answer": [
+    "Primary memory , also known as main memory , is directly accessible by the CPU. It temporarily holds both data and instructions that the processor is currently using. The most common type of primary memory is RAM (Random Access Memory) , which is volatile , meaning its contents are lost when the power is turned off. ROM (Read Only Memory) is another type of primary memory used to store firmware and is non-volatile.",
+    "Secondary memory , on the other hand, refers to permanent storage devices that are used to store data and programs not actively in use. This includes hard disk drives (HDDs), solid-state drives (SSDs), CDs, USB flash drives , etc. These memories are non-volatile , retain data even when power is off, and are slower in access speed compared to primary memory but much larger in storage capacity."
    ]
   }
  ],

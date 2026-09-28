@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "2051",
+ "unit": 2,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Students will be able to understand the nature of existence, appreciate its interconnectedness",
+ "mcq": [
+  {
+   "q": "What happens when humans ignore co-existence in nature?",
+   "options": {
+    "A": "Harmony increases",
+    "B": "Environmental degradation, conflict, and imbalance occur",
+    "C": "Sustainability improves",
+    "D": "Co-existence remains unaffected"
+   },
+   "answer": "B",
+   "answer_text": "Environmental degradation, conflict, and imbalance occur"
+  },
+  {
+   "q": "Which statement about existence is correct?",
+   "options": {
+    "A": "Existence is a dynamic web of relationships and balance",
+    "B": "Existence is disconnected parts",
+    "C": "Existence is limited to human-made systems",
+    "D": "Existence is temporary and meaningless"
+   },
+   "answer": "A",
+   "answer_text": "Existence is a dynamic web of relationships and balance"
+  },
+  {
+   "q": "Why is understanding interconnectedness in nature important for humans?",
+   "options": {
+    "A": "To exploit resources better",
+    "B": "To live sustainably and harmoniously",
+    "C": "To dominate other species",
+    "D": "To separate humans from nature"
+   },
+   "answer": "B",
+   "answer_text": "To live sustainably and harmoniously"
+  },
+  {
+   "q": "What is the role of human beings in coexistence?",
+   "options": {
+    "A": "To understand harmony and consciously participate in maintaining it",
+    "B": "To consume as much as possible",
+    "C": "To dominate other living beings",
+    "D": "To ignore interdependence"
+   },
+   "answer": "A",
+   "answer_text": "To understand harmony and consciously participate in maintaining it"
+  },
+  {
+   "q": "Which of the following is NOT an example of harmony in existence?",
+   "options": {
+    "A": "Oxygen-Carbon dioxide cycle",
+    "B": "Food chain",
+    "C": "Recycling of nutrients in soil",
+    "D": "Deforestation for profit"
+   },
+   "answer": "D",
+   "answer_text": "Deforestation for profit"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is it important to understand the co-existence of humans and nature?",
+   "answer": [
+    "Because human well-being is directly dependent on the health and balance of natural systems."
+   ]
+  },
+  {
+   "q": "Give an example of interconnectedness in nature.",
+   "answer": [
+    "Plants provide oxygen for humans and animals, while humans and animals release carbon dioxide needed by plants."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "What is harmony in the Self? Explain with the activities of desire, thought and expectation.",
+   "answer": [
+    "Harmony in the Self means that the activities of the Self are aligned with natural acceptance and right understanding. The Self has activities such as desire, thought and expectation. If these are guided by preconditioning or sensation, then the Self becomes confused and unhappy. For example, a person may desire physical facility assuming it will give continuous happiness, but after getting it, the happiness may remain temporary. When desire, thought and expectation are guided by right understanding, the Self becomes clear about what it really wants: continuous happiness. In harmony, the Self verifies proposals on the basis of natural acceptance and acts according to right understanding. This leads to clarity, peace and satisfaction within."
+   ]
+  }
+ ]
+}

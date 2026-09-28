@@ -7,15 +7,15 @@
  "slo_title": "describe the instruction execution cycle and illustrate the sequence of operations with a block diagram",
  "mcq": [
   {
-   "q": "What does the Program Counter (PC) hold?",
+   "q": "Which register temporarily holds the instruction being executed?",
    "options": {
-    "A": "A) The result of an ALU operation",
-    "B": "B) The address of the next instruction",
-    "C": "C) The data fetched from memory",
-    "D": "D) The name of the program"
+    "A": "A) MAR",
+    "B": "B) MDR",
+    "C": "C) IR",
+    "D": "D) PC"
    },
-   "answer": "B",
-   "answer_text": "B) The address of the next instruction"
+   "answer": "C",
+   "answer_text": "C) IR"
   },
   {
    "q": "What is the function of the Memory Address Register (MAR)?",
@@ -27,6 +27,17 @@
    },
    "answer": "C",
    "answer_text": "C) To point to the address in memory from which data is to be read or written"
+  },
+  {
+   "q": "What does the Program Counter (PC) hold?",
+   "options": {
+    "A": "A) The result of an ALU operation",
+    "B": "B) The address of the next instruction",
+    "C": "C) The data fetched from memory",
+    "D": "D) The name of the program"
+   },
+   "answer": "B",
+   "answer_text": "B) The address of the next instruction"
   },
   {
    "q": "What is the role of an Interrupt Service Routine (ISR)?",
@@ -49,26 +60,9 @@
    },
    "answer": "C",
    "answer_text": "C) It increments to point to the next instruction"
-  },
-  {
-   "q": "Which register temporarily holds the instruction being executed?",
-   "options": {
-    "A": "A) MAR",
-    "B": "B) MDR",
-    "C": "C) IR",
-    "D": "D) PC"
-   },
-   "answer": "C",
-   "answer_text": "C) IR"
   }
  ],
  "sq": [
-  {
-   "q": "What is the role of the Program Counter (PC) in instruction execution?",
-   "answer": [
-    "The Program Counter holds the address of the next instruction to be executed. During execution, its contents are transferred to the Memory Address Register (MAR) to fetch the instruction from memory. After each fetch, the PC is incremented to point to the next instruction, ensuring sequential execution of the program."
-   ]
-  },
   {
    "q": "",
    "answer": [
@@ -88,6 +82,12 @@
     "1 × 2⁰ = 1",
     "Add them:",
     "32 + 0 + 8 + 4 + 0 + 1 = 45"
+   ]
+  },
+  {
+   "q": "What is the role of the Program Counter (PC) in instruction execution?",
+   "answer": [
+    "The Program Counter holds the address of the next instruction to be executed. During execution, its contents are transferred to the Memory Address Register (MAR) to fetch the instruction from memory. After each fetch, the PC is incremented to point to the next instruction, ensuring sequential execution of the program."
    ]
   }
  ],

@@ -7,26 +7,15 @@
  "slo_title": "Explain architecture of JDBC in Java",
  "mcq": [
   {
-   "q": "Which of the following best represents declarative programming in databases?",
+   "q": "What role does DriverManager play in JDBC?",
    "options": {
-    "A": "Writing Java methods to fetch data",
-    "B": "Using SQL statements to describe what result is needed",
-    "C": "Using loops to process records manually",
-    "D": "Implementing database queries in Python scripts"
-   },
-   "answer": "B",
-   "answer_text": "Using SQL statements to describe what result is needed"
-  },
-  {
-   "q": "Which of the following does not belong to the steps of JDBC architecture?",
-   "options": {
-    "A": "Loading driver",
-    "B": "Creating connection",
-    "C": "Parsing XML",
-    "D": "Executing SQL statement"
+    "A": "Executes queries",
+    "B": "Manages SQL connections",
+    "C": "Loads and manages database drivers",
+    "D": "Reads database schemas"
    },
    "answer": "C",
-   "answer_text": "Parsing XML"
+   "answer_text": "Loads and manages database drivers"
   },
   {
    "q": "In the context of JDBC, which component provides the implementation of JDBC interfaces?",
@@ -40,15 +29,15 @@
    "answer_text": "JDBC Driver"
   },
   {
-   "q": "What role does DriverManager play in JDBC?",
+   "q": "Which of the following best represents declarative programming in databases?",
    "options": {
-    "A": "Executes queries",
-    "B": "Manages SQL connections",
-    "C": "Loads and manages database drivers",
-    "D": "Reads database schemas"
+    "A": "Writing Java methods to fetch data",
+    "B": "Using SQL statements to describe what result is needed",
+    "C": "Using loops to process records manually",
+    "D": "Implementing database queries in Python scripts"
    },
-   "answer": "C",
-   "answer_text": "Loads and manages database drivers"
+   "answer": "B",
+   "answer_text": "Using SQL statements to describe what result is needed"
   },
   {
    "q": "What is the purpose of Connection object in JDBC architecture?",
@@ -60,15 +49,20 @@
    },
    "answer": "C",
    "answer_text": "Fetches rows from a table"
+  },
+  {
+   "q": "Which of the following does not belong to the steps of JDBC architecture?",
+   "options": {
+    "A": "Loading driver",
+    "B": "Creating connection",
+    "C": "Parsing XML",
+    "D": "Executing SQL statement"
+   },
+   "answer": "C",
+   "answer_text": "Parsing XML"
   }
  ],
  "sq": [
-  {
-   "q": "Define declarative programming and explain how SQL represents this paradigm in databases.",
-   "answer": [
-    "Declarative programming focuses on describing what the program should accomplish. SQL is a declarative language because users state what data is needed without specifying how to retrieve it. For example: SELECT name FROM employees WHERE salary > 50000;"
-   ]
-  },
   {
    "q": "Describe the key components of JDBC architecture.",
    "answer": [
@@ -84,6 +78,12 @@
     "Statement/PreparedStatement/CallableStatement: Executes SQL",
     "ResultSet: Stores retrieved data",
     "ResultSet: Stores retrieved data"
+   ]
+  },
+  {
+   "q": "Define declarative programming and explain how SQL represents this paradigm in databases.",
+   "answer": [
+    "Declarative programming focuses on describing what the program should accomplish. SQL is a declarative language because users state what data is needed without specifying how to retrieve it. For example: SELECT name FROM employees WHERE salary > 50000;"
    ]
   }
  ],

@@ -7,6 +7,28 @@
  "slo_title": "Describe the current state of happiness and prosperity at the level of the individual, family, and society.",
  "mcq": [
   {
+   "q": "Contemplation in the self involves:",
+   "options": {
+    "A": "Physical exercise",
+    "B": "Reflecting on one’s role in maintaining harmony in the larger order",
+    "C": "Memorizing formulas",
+    "D": "Copying others’ behavior"
+   },
+   "answer": "B",
+   "answer_text": "Reflecting on one’s role in maintaining harmony in the larger order"
+  },
+  {
+   "q": "Which of the following is a key aspect of all-encompassing resolution?",
+   "options": {
+    "A": "Ignoring human values",
+    "B": "Realization, understanding, and contemplation",
+    "C": "Maximizing wealth",
+    "D": "Physical fitness alone"
+   },
+   "answer": "B",
+   "answer_text": "Realization, understanding, and contemplation"
+  },
+  {
    "q": "What is an all-encompassing resolution?",
    "options": {
     "A": "Focusing only on personal gain",
@@ -27,28 +49,6 @@
    },
    "answer": "A",
    "answer_text": "Analyzing how harmony exists in nature and human society"
-  },
-  {
-   "q": "Which of the following is a key aspect of all-encompassing resolution?",
-   "options": {
-    "A": "Ignoring human values",
-    "B": "Realization, understanding, and contemplation",
-    "C": "Maximizing wealth",
-    "D": "Physical fitness alone"
-   },
-   "answer": "B",
-   "answer_text": "Realization, understanding, and contemplation"
-  },
-  {
-   "q": "Contemplation in the self involves:",
-   "options": {
-    "A": "Physical exercise",
-    "B": "Reflecting on one’s role in maintaining harmony in the larger order",
-    "C": "Memorizing formulas",
-    "D": "Copying others’ behavior"
-   },
-   "answer": "B",
-   "answer_text": "Reflecting on one’s role in maintaining harmony in the larger order"
   },
   {
    "q": "How does realization contribute to resolution?",

@@ -7,6 +7,17 @@
  "slo_title": "Close JDBC resources properly to avoid leaks",
  "mcq": [
   {
+   "q": "What will happen if you don’t close the ResultSet and Connection after query execution?",
+   "options": {
+    "A": "JVM will auto-close",
+    "B": "Nothing will happen",
+    "C": "Memory leak and DB resource exhaustion",
+    "D": "The application crashes immediately"
+   },
+   "answer": "C",
+   "answer_text": "Memory leak and DB resource exhaustion"
+  },
+  {
    "q": "Which Java feature simplifies closing JDBC resources automatically?",
    "options": {
     "A": "Manual close statements",
@@ -18,26 +29,15 @@
    "answer_text": "Try-with-resources"
   },
   {
-   "q": "What is the recommended approach to handle SQL exceptions in JDBC code?",
+   "q": "In JDBC, which exception is thrown when a query fails due to invalid SQL syntax?",
    "options": {
-    "A": "Use throws SQLException in the main method only",
-    "B": "Catch SQLException and log the error",
-    "C": "Ignore exceptions to prevent app termination",
-    "D": "Use System.exit() on exception"
-   },
-   "answer": "B",
-   "answer_text": "Catch SQLException and log the error"
-  },
-  {
-   "q": "What will happen if you don’t close the ResultSet and Connection after query execution?",
-   "options": {
-    "A": "JVM will auto-close",
-    "B": "Nothing will happen",
-    "C": "Memory leak and DB resource exhaustion",
-    "D": "The application crashes immediately"
+    "A": "IOException",
+    "B": "NullPointerException",
+    "C": "SQLException",
+    "D": "ClassNotFoundException"
    },
    "answer": "C",
-   "answer_text": "Memory leak and DB resource exhaustion"
+   "answer_text": "SQLException"
   },
   {
    "q": "Which block is best suited for closing JDBC resources like Connection , Statement , and ResultSet ?",
@@ -51,15 +51,15 @@
    "answer_text": "finally block"
   },
   {
-   "q": "In JDBC, which exception is thrown when a query fails due to invalid SQL syntax?",
+   "q": "What is the recommended approach to handle SQL exceptions in JDBC code?",
    "options": {
-    "A": "IOException",
-    "B": "NullPointerException",
-    "C": "SQLException",
-    "D": "ClassNotFoundException"
+    "A": "Use throws SQLException in the main method only",
+    "B": "Catch SQLException and log the error",
+    "C": "Ignore exceptions to prevent app termination",
+    "D": "Use System.exit() on exception"
    },
-   "answer": "C",
-   "answer_text": "SQLException"
+   "answer": "B",
+   "answer_text": "Catch SQLException and log the error"
   }
  ],
  "sq": [

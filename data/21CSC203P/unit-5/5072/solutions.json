@@ -1,0 +1,91 @@
+{
+ "course": "21CSC203P",
+ "code": "5072",
+ "unit": 5,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "Identify event loops, event sources, and handlers",
+ "mcq": [
+  {
+   "q": "Event-driven programming is based on:",
+   "options": {
+    "A": "Events triggering code",
+    "B": "Sequential loops",
+    "C": "Recursion only",
+    "D": "File reading"
+   },
+   "answer": "A",
+   "answer_text": "Events triggering code"
+  },
+  {
+   "q": "Why use event-driven programming?",
+   "options": {
+    "A": "For interactive, responsive applications",
+    "B": "To sort arrays",
+    "C": "To store files",
+    "D": "To compute sums"
+   },
+   "answer": "A",
+   "answer_text": "For interactive, responsive applications"
+  },
+  {
+   "q": "An event loop waits for:",
+   "options": {
+    "A": "Events to occur",
+    "B": "File I/O",
+    "C": "Recursion",
+    "D": "Sorting"
+   },
+   "answer": "A",
+   "answer_text": "Events to occur"
+  },
+  {
+   "q": "Event-driven systems suit:",
+   "options": {
+    "A": "GUI applications",
+    "B": "Batch jobs",
+    "C": "File storage",
+    "D": "Sorting integers"
+   },
+   "answer": "A",
+   "answer_text": "GUI applications"
+  },
+  {
+   "q": "Event loops help by:",
+   "options": {
+    "A": "Continuously checking for user actions",
+    "B": "Sorting data",
+    "C": "Reading files",
+    "D": "Generating random numbers"
+   },
+   "answer": "A",
+   "answer_text": "Continuously checking for user actions"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Name a key component of event-driven programming.",
+   "answer": [
+    "Event loop."
+   ]
+  },
+  {
+   "q": "What is event-driven programming?",
+   "answer": [
+    "A programming paradigm where the flow is determined by events like user actions or sensor outputs."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze how event-driven programming differs from procedural programming in terms of control flow and responsiveness.",
+   "answer": [
+    "In procedural programming, execution flows in a predefined sequence. In event-driven programming, control depends on events like mouse clicks or keypresses.",
+    "from tkinter import *",
+    "def on_click(): print(\"Button clicked\")",
+    "window = Tk() Button(window, text=\"Click\", command=on_click).pack() window.mainloop()",
+    "Here, on_click() runs only when the button is clicked, not sequentially. This model improves responsiveness and is suited for GUIs, games, or IoT systems where asynchronous behavior is needed."
+   ]
+  }
+ ]
+}

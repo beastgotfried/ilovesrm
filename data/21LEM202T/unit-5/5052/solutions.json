@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "5052",
+ "unit": 5,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "analyze how these aspects contribute to holistic human development and harmonious living.",
+ "mcq": [
+  {
+   "q": "The ultimate purpose of all-encompassing resolution is:",
+   "options": {
+    "A": "Domination of humans over nature",
+    "B": "Ensuring happiness, prosperity, and harmony at all levels of existence",
+    "C": "Rapid industrialization",
+    "D": "Personal success only"
+   },
+   "answer": "B",
+   "answer_text": "Ensuring happiness, prosperity, and harmony at all levels of existence"
+  },
+  {
+   "q": "Which aspect ensures the Self’s activities are guided towards harmony?",
+   "options": {
+    "A": "Science",
+    "B": "Understanding",
+    "C": "Skill",
+    "D": "Competition"
+   },
+   "answer": "B",
+   "answer_text": "Understanding"
+  },
+  {
+   "q": "Science without wisdom often results in:",
+   "options": {
+    "A": "Balanced progress",
+    "B": "Technology harmful to society and environment",
+    "C": "Right utilization of resources",
+    "D": "Long-term sustainability"
+   },
+   "answer": "B",
+   "answer_text": "Technology harmful to society and environment"
+  },
+  {
+   "q": "The integration of understanding, wisdom, and science leads to:",
+   "options": {
+    "A": "Comprehensive human development in harmony",
+    "B": "Material progress only",
+    "C": "Unbalanced growth",
+    "D": "Conflict with nature"
+   },
+   "answer": "A",
+   "answer_text": "Comprehensive human development in harmony"
+  },
+  {
+   "q": "The all-encompassing resolution provides",
+   "options": {
+    "A": "Skills to exploit nature",
+    "B": "Guidance to design technologies that ensure sustainable and ethical progress",
+    "C": "Methods to maximize competition",
+    "D": "Rules to accumulate wealth"
+   },
+   "answer": "B",
+   "answer_text": "Guidance to design technologies that ensure sustainable and ethical progress"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the ultimate outcome of the all-encompassing resolution?",
+   "answer": [
+    "The outcome is a harmonious coexistence of self, society, and nature, where technology, wisdom, and human values work together for holistic well-being."
+   ]
+  },
+  {
+   "q": "Why is it important to integrate science with human values?",
+   "answer": [
+    "Without values, science can lead to misuse and harm (e.g., weapons, pollution), but with values, it supports human welfare and ecological balance."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "What are holistic technologies, production systems and management models?",
+   "answer": [
+    "Holistic technologies, production systems and management models are those that are guided by right understanding and support sustainable human welfare. A holistic technology should fulfil real human needs, be compatible with natural systems, be safe, low-cost, energy-efficient, locally producible, durable and recyclable. A holistic production system should answer what to produce, how to produce, for whom to produce and how much to produce in the light of human need and local resources. It should support local consumption, meaningful employment, decentralisation and eco-friendly production. A holistic management model should be relationship-based, cooperative, just and mutually fulfilling, rather than profit-centred and exploitative. Such systems support human development, prosperity and preservation of nature."
+   ]
+  }
+ ]
+}

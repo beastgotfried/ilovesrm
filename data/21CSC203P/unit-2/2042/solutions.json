@@ -7,15 +7,15 @@
  "slo_title": "Develop modular programs by passing arrays (including array of objects) to methods and returning arrays from methods for enhanced reusability and clarity.",
  "mcq": [
   {
-   "q": "Which data structure allows you to store multiple objects of a class in a single structure?",
+   "q": "Which of the following correctly passes an array to a method in Java?",
    "options": {
-    "A": "Single object",
-    "B": "Array of objects",
-    "C": "Primitive array",
-    "D": "Function"
+    "A": "passArray(int[] arr);",
+    "B": "method(int arr);",
+    "C": "arrayCall(arr);",
+    "D": "method[] array;"
    },
-   "answer": "B",
-   "answer_text": "Array of objects"
+   "answer": "A",
+   "answer_text": "passArray(int[] arr);"
   },
   {
    "q": "How are elements in a two-dimensional array accessed in Java?",
@@ -51,15 +51,15 @@
    "answer_text": "int arr[] = new int[5];"
   },
   {
-   "q": "Which of the following correctly passes an array to a method in Java?",
+   "q": "Which data structure allows you to store multiple objects of a class in a single structure?",
    "options": {
-    "A": "passArray(int[] arr);",
-    "B": "method(int arr);",
-    "C": "arrayCall(arr);",
-    "D": "method[] array;"
+    "A": "Single object",
+    "B": "Array of objects",
+    "C": "Primitive array",
+    "D": "Function"
    },
-   "answer": "A",
-   "answer_text": "passArray(int[] arr);"
+   "answer": "B",
+   "answer_text": "Array of objects"
   }
  ],
  "sq": [

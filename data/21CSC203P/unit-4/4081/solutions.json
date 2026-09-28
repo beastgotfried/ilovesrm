@@ -1,0 +1,101 @@
+{
+ "course": "21CSC203P",
+ "code": "4081",
+ "unit": 4,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "Explore distributed computing principles",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "A) All processes run on a single core",
+    "B": "B) Tasks are split across multiple machines with their own memory and processors",
+    "C": "C) All data is stored on one machine and accessed sequentially",
+    "D": "D) All threads share a single process"
+   },
+   "answer": "B",
+   "answer_text": "B) Tasks are split across multiple machines with their own memory and processors"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) For real-time data streaming from sensors on one machine",
+    "B": "B) For tasks that require minimal inter-process communication and can run independently",
+    "C": "C) When all tasks use a common data structure",
+    "D": "D) For multi-threaded operations in a local environment"
+   },
+   "answer": "B",
+   "answer_text": "B) For tasks that require minimal inter-process communication and can run independently"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) Data must be tightly synchronized and accessed frequently by all tasks",
+    "B": "B) Each task runs on a different machine with minimal data sharing",
+    "C": "C) The system has no support for threads",
+    "D": "D) Communication cost is a major concern"
+   },
+   "answer": "A",
+   "answer_text": "A) Data must be tightly synchronized and accessed frequently by all tasks"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) By minimizing memory usage on a single device",
+    "B": "B) By allocating tasks across multiple machines based on available resources",
+    "C": "C) By running only one process at a time",
+    "D": "D) By using GPU-only computation"
+   },
+   "answer": "B",
+   "answer_text": "B) By allocating tasks across multiple machines based on available resources"
+  },
+  {
+   "q": "1. What is a key advantage of distributed computing?",
+   "options": {
+    "A": "A) It uses a single powerful computer",
+    "B": "B) It reduces communication overhead",
+    "C": "C) It enables scalability by using multiple independent systems",
+    "D": "D) It eliminates the need for network protocols"
+   },
+   "answer": "C",
+   "answer_text": "C) It enables scalability by using multiple independent systems"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A company’s app needs to scale across regions. Why use distributed computing?",
+   "answer": [
+    "Distributed computing lets parts of an application run on multiple systems across locations. It improves fault tolerance, scalability, and load distribution. This is ideal for cloud-based, high-traffic services."
+   ]
+  },
+  {
+   "q": "In which situation is a shared model insufficient?",
+   "answer": [
+    "Shared memory is limited to a single system or tightly-coupled environments. It doesn't scale well across multiple machines or regions. In such cases, distributed memory with message passing is preferred."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are part of a data engineering team handling a large-scale analytics system for an e-commerce platform. As daily transactions grow, your team is evaluating whether to use shared memory or distributed computing to scale the system efficiently. The goal is to process huge volumes of data across multiple nodes with high availability and speed. Task: Define distributed computing and explain its core principles. (5 marks) Define distributed computing and explain its core principles. (5 marks) Compare shared memory and distributed memory models with examples of suitable real-world use cases. (6 marks) Compare shared memory and distributed memory models with examples of suitable real-world use cases. (6 marks) Recommend which architecture (shared or distributed) is more suitable for the e-commerce analytics system, and justify your choice in terms of scalability and fault tolerance. (4 marks) Recommend which architecture (shared or distributed) is more suitable for the e-commerce analytics system, and justify your choice in terms of scalability and fault tolerance. (4 marks)",
+   "answer": [
+    "Distributed computing is a model where tasks are split across multiple machines (nodes) that communicate over a network. Core principles :",
+    "Resource sharing (CPU, storage)",
+    "Resource sharing (CPU, storage)",
+    "Scalability (horizontal scaling)",
+    "Scalability (horizontal scaling)",
+    "Fault tolerance (if one node fails, others continue)",
+    "Fault tolerance (if one node fails, others continue)",
+    "Transparency in communication and data access",
+    "Transparency in communication and data access",
+    "3. Recommendation and Justification (4 marks)",
+    "Recommendation : Distributed memory architecture Justification :",
+    "E-commerce analytics requires scalable and fault-tolerant systems.",
+    "E-commerce analytics requires scalable and fault-tolerant systems.",
+    "Distributed systems can handle large datasets across nodes , ensuring high performance even with growing users and data.",
+    "Distributed systems can handle large datasets across nodes , ensuring high performance even with growing users and data."
+   ]
+  }
+ ]
+}

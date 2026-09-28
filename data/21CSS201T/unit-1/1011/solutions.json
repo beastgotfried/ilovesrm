@@ -7,17 +7,6 @@
  "slo_title": "Explain the different types of computers based on size and performance with suitable examples",
  "mcq": [
   {
-   "q": "In 1’s complement subtraction, if no carry is generated, what should be done?",
-   "options": {
-    "A": "Ignore the result",
-    "B": "Add carry to LSD",
-    "C": "Take 2's complement of result",
-    "D": "Take 1's complement of result and place a minus sign"
-   },
-   "answer": "D",
-   "answer_text": "Take 1's complement of result and place a minus sign"
-  },
-  {
    "q": "Which of the following best defines Computer Architecture ?",
    "options": {
     "A": "Study of computer history",
@@ -29,15 +18,15 @@
    "answer_text": "Logical structure and behavior of the computer system"
   },
   {
-   "q": "What is the purpose of using Gray Code?",
+   "q": "In 1’s complement subtraction, if no carry is generated, what should be done?",
    "options": {
-    "A": "Fast arithmetic operations",
-    "B": "Hardware multiplexing",
-    "C": "Logical processing in ALU",
-    "D": "Reduce errors in analog-to-digital conversions"
+    "A": "Ignore the result",
+    "B": "Add carry to LSD",
+    "C": "Take 2's complement of result",
+    "D": "Take 1's complement of result and place a minus sign"
    },
    "answer": "D",
-   "answer_text": "Reduce errors in analog-to-digital conversions"
+   "answer_text": "Take 1's complement of result and place a minus sign"
   },
   {
    "q": "Which logic gate outputs HIGH only when all its inputs are HIGH?",
@@ -60,23 +49,38 @@
    },
    "answer": "B",
    "answer_text": "Excess-3"
+  },
+  {
+   "q": "What is the purpose of using Gray Code?",
+   "options": {
+    "A": "Fast arithmetic operations",
+    "B": "Hardware multiplexing",
+    "C": "Logical processing in ALU",
+    "D": "Reduce errors in analog-to-digital conversions"
+   },
+   "answer": "D",
+   "answer_text": "Reduce errors in analog-to-digital conversions"
   }
  ],
  "sq": [
   {
-   "q": "What is the key difference between computer organization and computer architecture?",
-   "answer": [
-    "The key difference is:",
-    "Computer Organization refers to the physical components of a computer system and how they are interconnected (e.g., circuit design, control signals, memory types).",
-    "Computer Organization refers to the physical components of a computer system and how they are interconnected (e.g., circuit design, control signals, memory types).",
-    "Computer Architecture refers to the logical structure and behavior of a computer system as seen by the programmer, including elements like instruction sets, addressing modes, and data formats.",
-    "Computer Architecture refers to the logical structure and behavior of a computer system as seen by the programmer, including elements like instruction sets, addressing modes, and data formats."
-   ]
-  },
-  {
    "q": "Explain the characteristics of microcomputers with examples.",
    "answer": [
     "Microcomputers are the smallest type of computers designed for individual use. They use microprocessors as the CPU and are cost-effective, portable, and easy to operate. They are widely used in homes, schools, and offices for word processing, browsing, and entertainment. Examples include desktops, laptops, and tablets"
+   ]
+  },
+  {
+   "q": "Write a short note on how computers are classified based on size and performance.",
+   "answer": [
+    "Computers are classified into four categories based on size and performance:",
+    "Microcomputers – Smallest, designed for personal use.",
+    "Microcomputers – Smallest, designed for personal use.",
+    "Minicomputers – Medium-sized, used by small organizations.",
+    "Minicomputers – Medium-sized, used by small organizations.",
+    "Mainframes – Large, powerful, support hundreds of users, used in enterprises.",
+    "Mainframes – Large, powerful, support hundreds of users, used in enterprises.",
+    "Supercomputers – Most powerful, used for research and complex simulations. This classification helps in choosing the right computer system depending on the workload and user requirements.",
+    "Supercomputers – Most powerful, used for research and complex simulations. This classification helps in choosing the right computer system depending on the workload and user requirements."
    ]
   }
  ],

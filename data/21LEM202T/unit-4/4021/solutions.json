@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "4021",
+ "unit": 4,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Students will be able to explain the comprehensive understanding of existence by including the role and place of Nature,",
+ "mcq": [
+  {
+   "q": "What is the fundamental characteristic of existence?",
+   "options": {
+    "A": "Conflict",
+    "B": "Coexistence and mutual interdependence",
+    "C": "Isolation of units",
+    "D": "Domination of humans"
+   },
+   "answer": "B",
+   "answer_text": "Coexistence and mutual interdependence"
+  },
+  {
+   "q": "Existence can be understood as:",
+   "options": {
+    "A": "Only human society",
+    "B": "All that exists as units in space in the form of co-existence",
+    "C": "Only living beings",
+    "D": "Only material world"
+   },
+   "answer": "B",
+   "answer_text": "All that exists as units in space in the form of co-existence"
+  },
+  {
+   "q": "Nature consists of:",
+   "options": {
+    "A": "Only plants and animals",
+    "B": "Material things only",
+    "C": "Four orders: material, pranic (plants), animal, and human",
+    "D": "Only humans and their creations"
+   },
+   "answer": "C",
+   "answer_text": "Four orders: material, pranic (plants), animal, and human"
+  },
+  {
+   "q": "Comprehensive knowledge of existence involves:",
+   "options": {
+    "A": "Understanding only physical reality",
+    "B": "Realizing harmony among self, society, nature, and existence",
+    "C": "Studying only human behavior",
+    "D": "Limiting knowledge to technology"
+   },
+   "answer": "B",
+   "answer_text": "Realizing harmony among self, society, nature, and existence"
+  },
+  {
+   "q": "Which of the following reflects harmony in nature?",
+   "options": {
+    "A": "Balanced ecosystem and sustainable processes",
+    "B": "Exploitation of resources",
+    "C": "Overconsumption of fossil fuels",
+    "D": "Pollution of air and water"
+   },
+   "answer": "A",
+   "answer_text": "Balanced ecosystem and sustainable processes"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does misunderstanding existence lead to problems?",
+   "answer": [
+    "Misunderstanding leads to exploitation of nature, conflicts among humans, and imbalance in ecosystems, creating disharmony."
+   ]
+  },
+  {
+   "q": "What is the role of human beings in existence?",
+   "answer": [
+    "Human beings play a unique role because they have the self (consciousness) and the body, enabling them to understand existence and live in harmony with it."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain interconnectedness and mutual fulfilment among the four orders of nature.",
+   "answer": [
+    "The four orders of nature are interconnected because each order is related to and fulfils the other orders. The physical order provides soil, water, air and minerals for the bio order. The bio order provides food, oxygen and nourishment for animals and human beings. The animal order participates in maintaining ecological balance. The human order receives fulfilment from all the other three orders and has the responsibility to understand and preserve them. The first three orders are already self-regulated and definite in conduct. Human beings, however, need right understanding to regulate their conduct. When human beings live with right understanding, they protect the activity, innateness and inheritance of all orders. This leads to mutual fulfilment, prosperity for human beings and preservation of nature."
+   ]
+  }
+ ]
+}

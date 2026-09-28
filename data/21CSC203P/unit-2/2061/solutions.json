@@ -7,15 +7,26 @@
  "slo_title": "Demonstrate how to call user-defined and predefined functions in Java programs.",
  "mcq": [
   {
-   "q": "In Java, how are functions called in code?",
+   "q": "Which of the following is a predefined function in Java?",
    "options": {
-    "A": "functionName[]",
-    "B": "call functionName",
-    "C": "functionName();",
-    "D": "method.call(functionName)"
+    "A": "main()",
+    "B": "println()",
+    "C": "myFunction()",
+    "D": "add()"
+   },
+   "answer": "B",
+   "answer_text": "println()"
+  },
+  {
+   "q": "What does pass by value mean in Java?",
+   "options": {
+    "A": "The reference to the variable is passed",
+    "B": "The address of the variable is passed",
+    "C": "A copy of the value is passed to the function",
+    "D": "The original value is modified directly"
    },
    "answer": "C",
-   "answer_text": "functionName();"
+   "answer_text": "A copy of the value is passed to the function"
   },
   {
    "q": "Which of the following best describes actual parameters in Java?",
@@ -29,15 +40,15 @@
    "answer_text": "Variables passed to a function during the call"
   },
   {
-   "q": "Which of the following is a predefined function in Java?",
+   "q": "In Java, how are functions called in code?",
    "options": {
-    "A": "main()",
-    "B": "println()",
-    "C": "myFunction()",
-    "D": "add()"
+    "A": "functionName[]",
+    "B": "call functionName",
+    "C": "functionName();",
+    "D": "method.call(functionName)"
    },
-   "answer": "B",
-   "answer_text": "println()"
+   "answer": "C",
+   "answer_text": "functionName();"
   },
   {
    "q": "What happens when you pass an array to a function in Java?",
@@ -49,30 +60,19 @@
    },
    "answer": "C",
    "answer_text": "The original array reference is passed"
-  },
-  {
-   "q": "What does pass by value mean in Java?",
-   "options": {
-    "A": "The reference to the variable is passed",
-    "B": "The address of the variable is passed",
-    "C": "A copy of the value is passed to the function",
-    "D": "The original value is modified directly"
-   },
-   "answer": "C",
-   "answer_text": "A copy of the value is passed to the function"
   }
  ],
  "sq": [
   {
-   "q": "Differentiate between actual parameters and formal parameters with an example.",
-   "answer": [
-    "Actual parameters are the values passed to a function when it is called. Formal parameters are the variables defined in the function declaration to receive the passed values. Example: void greet(String name) { // 'name' is a formal parameter System.out.println(\"Hello \" + name); } greet(\"John\"); // \"John\" is the actual parameter"
-   ]
-  },
-  {
    "q": "Write a Java function that accepts two integers and prints their sum. Also, show how to call this function.",
    "answer": [
     "public void addNumbers(int a, int b) { System.out.println(\"Sum = \" + (a + b)); } // Function call addNumbers(5, 10); Here, a and b are formal parameters, and 5, 10 are actual parameters passed by value."
+   ]
+  },
+  {
+   "q": "Differentiate between actual parameters and formal parameters with an example.",
+   "answer": [
+    "Actual parameters are the values passed to a function when it is called. Formal parameters are the variables defined in the function declaration to receive the passed values. Example: void greet(String name) { // 'name' is a formal parameter System.out.println(\"Hello \" + name); } greet(\"John\"); // \"John\" is the actual parameter"
    ]
   }
  ],

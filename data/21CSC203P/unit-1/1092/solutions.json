@@ -7,15 +7,15 @@
  "slo_title": "Analyze method call overhead in procedural and object-oriented paradigms",
  "mcq": [
   {
-   "q": "What is a key disadvantage of method calls in object-oriented programming compared to procedural calls?",
+   "q": "In procedural programming, how is method call overhead generally managed?",
    "options": {
-    "A": "a) Cannot use loops",
-    "B": "b) More overhead due to dynamic dispatch and object management",
-    "C": "c) Only works for small applications​​​​​",
-    "D": "d) Executes faster"
+    "A": "a) Through object allocation",
+    "B": "b) By reducing inheritance chains",
+    "C": "c) With direct stack-based function calls ​​​​​",
+    "D": "d) By using abstract classes"
    },
-   "answer": "B",
-   "answer_text": "b) More overhead due to dynamic dispatch and object management"
+   "answer": "C",
+   "answer_text": "c) With direct stack-based function calls ​​​​​"
   },
   {
    "q": "Which of the following paradigms is typically preferred in data transformation and list processing tasks, such as in compilers or AI?",
@@ -29,15 +29,15 @@
    "answer_text": "a) Functional programming"
   },
   {
-   "q": "For a simple sequence of data processing tasks, which programming paradigm is most suitable?",
+   "q": "What is a key disadvantage of method calls in object-oriented programming compared to procedural calls?",
    "options": {
-    "A": "a) Object-oriented",
-    "B": "b) Procedural",
-    "C": "c) Declarative ​​​​​​​ ​​​​​​​",
-    "D": "d) Logic-based"
+    "A": "a) Cannot use loops",
+    "B": "b) More overhead due to dynamic dispatch and object management",
+    "C": "c) Only works for small applications​​​​​",
+    "D": "d) Executes faster"
    },
    "answer": "B",
-   "answer_text": "b) Procedural"
+   "answer_text": "b) More overhead due to dynamic dispatch and object management"
   },
   {
    "q": "Which paradigm is best suited for applications involving complex real-world entities and reusable code components?",
@@ -51,15 +51,15 @@
    "answer_text": "c) Object-oriented programming ​​​​​​​ ​​​​​​​"
   },
   {
-   "q": "In procedural programming, how is method call overhead generally managed?",
+   "q": "For a simple sequence of data processing tasks, which programming paradigm is most suitable?",
    "options": {
-    "A": "a) Through object allocation",
-    "B": "b) By reducing inheritance chains",
-    "C": "c) With direct stack-based function calls ​​​​​",
-    "D": "d) By using abstract classes"
+    "A": "a) Object-oriented",
+    "B": "b) Procedural",
+    "C": "c) Declarative ​​​​​​​ ​​​​​​​",
+    "D": "d) Logic-based"
    },
-   "answer": "C",
-   "answer_text": "c) With direct stack-based function calls ​​​​​"
+   "answer": "B",
+   "answer_text": "b) Procedural"
   }
  ],
  "sq": [

@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "3022",
+ "unit": 3,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "To enable students to understand the core theme of the course, thereby laying the foundation for self-exploration and holistic living.",
+ "mcq": [
+  {
+   "q": "The self in a human being is primarily responsible for:",
+   "options": {
+    "A": "Circulation of blood",
+    "B": "Desires, thoughts, and expectations",
+    "C": "Physical growth",
+    "D": "Reflex actions"
+   },
+   "answer": "B",
+   "answer_text": "Desires, thoughts, and expectations"
+  },
+  {
+   "q": "Why is self-awareness important in understanding the human being?",
+   "options": {
+    "A": "It helps maintain only physical health",
+    "B": "It helps in realizing desires, intentions, and guiding proper conduct",
+    "C": "It increases competition",
+    "D": "It reduces bodily needs"
+   },
+   "answer": "B",
+   "answer_text": "It helps in realizing desires, intentions, and guiding proper conduct"
+  },
+  {
+   "q": "The body in a human being is primarily responsible for:",
+   "options": {
+    "A": "Emotions and values",
+    "B": "Physiological functions and physical activities",
+    "C": "Decision-making",
+    "D": "Understanding coexistence"
+   },
+   "answer": "B",
+   "answer_text": "Physiological functions and physical activities"
+  },
+  {
+   "q": "A comprehensive understanding of the human being requires studying:",
+   "options": {
+    "A": "Only physical body functions",
+    "B": "Only self (consciousness)",
+    "C": "Both self (knower, experiencer, doer) and body (instrument) in coexistence",
+    "D": "Only environment"
+   },
+   "answer": "C",
+   "answer_text": "Both self (knower, experiencer, doer) and body (instrument) in coexistence"
+  },
+  {
+   "q": "Why is understanding the human being considered the first step in this course?",
+   "options": {
+    "A": "Because humans control technology",
+    "B": "Because human beings are the foundation for understanding harmony in self, society, nature, and existence",
+    "C": "Because humans are physically strong",
+    "D": "Because humans consume resources"
+   },
+   "answer": "B",
+   "answer_text": "Because human beings are the foundation for understanding harmony in self, society, nature, and existence"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does comprehensive self-understanding influence decision-making?",
+   "answer": [
+    "It enables clarity of purpose, responsible choices, and ethical actions, thereby reducing conflicts and contradictions in life."
+   ]
+  },
+  {
+   "q": "What is the core theme of this course on Human Values?",
+   "answer": [
+    "The core theme is to explore and develop the right understanding of the human being , which helps in achieving harmony at all levels of existence."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain trust as the foundational value in relationship.",
+   "answer": [
+    "Trust means the assurance that the other person wants to make me happy and prosperous. In relationship, trust is foundational because without trust, other feelings like respect, affection, care and guidance cannot be properly established. In UHV, trust is explored by distinguishing between intention and competence . At the level of natural acceptance, every human being wants to make oneself happy and also wants to make the other happy. The problem usually lies in competence, not in intention. However, when the other makes a mistake, we often doubt the other’s intention and create opposition, irritation or anger. But when we make a mistake, we usually see it as lack of competence. Right understanding helps us see that the intention of the other is also naturally acceptable, while competence may need improvement. This assurance about intention is trust, and it leads to mutual happiness in relationship."
+   ]
+  }
+ ]
+}

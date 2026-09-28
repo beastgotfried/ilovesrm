@@ -7,6 +7,17 @@
  "slo_title": "Define and implement interfaces in Java to achieve abstraction and multiple inheritance.",
  "mcq": [
   {
+   "q": "Which of the following statements is true about interfaces in Java?",
+   "options": {
+    "A": "Interfaces can have constructors",
+    "B": "A class can implement multiple interfaces",
+    "C": "Interfaces support method overloading but not overriding",
+    "D": "Interfaces cannot have any variables"
+   },
+   "answer": "B",
+   "answer_text": "A class can implement multiple interfaces"
+  },
+  {
    "q": "What is the purpose of a tagging interface in Java?",
    "options": {
     "A": "It marks a class with metadata but contains no methods",
@@ -16,17 +27,6 @@
    },
    "answer": "A",
    "answer_text": "It marks a class with metadata but contains no methods"
-  },
-  {
-   "q": "What is the default modifier for interface methods in Java (Java 8 and below)?",
-   "options": {
-    "A": "private",
-    "B": "protected",
-    "C": "final and static",
-    "D": "public and abstract"
-   },
-   "answer": "D",
-   "answer_text": "public and abstract"
   },
   {
    "q": "Which of the following shows interface extension correctly in Java?",
@@ -40,6 +40,17 @@
    "answer_text": "interface A extends B {}"
   },
   {
+   "q": "What is the default modifier for interface methods in Java (Java 8 and below)?",
+   "options": {
+    "A": "private",
+    "B": "protected",
+    "C": "final and static",
+    "D": "public and abstract"
+   },
+   "answer": "D",
+   "answer_text": "public and abstract"
+  },
+  {
    "q": "Which keyword is used in Java to create an interface?",
    "options": {
     "A": "implements",
@@ -49,30 +60,19 @@
    },
    "answer": "C",
    "answer_text": "interface"
-  },
-  {
-   "q": "Which of the following statements is true about interfaces in Java?",
-   "options": {
-    "A": "Interfaces can have constructors",
-    "B": "A class can implement multiple interfaces",
-    "C": "Interfaces support method overloading but not overriding",
-    "D": "Interfaces cannot have any variables"
-   },
-   "answer": "B",
-   "answer_text": "A class can implement multiple interfaces"
   }
  ],
  "sq": [
   {
-   "q": "Write a simple Java interface and a class that implements it.",
-   "answer": [
-    "interface Drawable { void draw(); } class Circle implements Drawable { public void draw() { System.out.println(\"Drawing a circle\"); } } The class Circle provides the concrete implementation of the draw() method defined in the interface Drawable."
-   ]
-  },
-  {
    "q": "Differentiate between an interface and an abstract class in Java.",
    "answer": [
     "Interface: All methods are abstract by default (until Java 8), cannot have instance variables, supports multiple inheritance. Abstract class: Can have both abstract and concrete methods, can include constructors, and support single inheritance."
+   ]
+  },
+  {
+   "q": "Write a simple Java interface and a class that implements it.",
+   "answer": [
+    "interface Drawable { void draw(); } class Circle implements Drawable { public void draw() { System.out.println(\"Drawing a circle\"); } } The class Circle provides the concrete implementation of the draw() method defined in the interface Drawable."
    ]
   }
  ],

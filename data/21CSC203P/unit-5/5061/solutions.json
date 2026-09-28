@@ -1,0 +1,92 @@
+{
+ "course": "21CSC203P",
+ "code": "5061",
+ "unit": 5,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Use Sympy for calculus: differentiation and integration",
+ "mcq": [
+  {
+   "q": "Limit in calculus means:",
+   "options": {
+    "A": "The value as input approaches some point",
+    "B": "The maximum memory",
+    "C": "The largest string length",
+    "D": "The final file in directory"
+   },
+   "answer": "A",
+   "answer_text": "The value as input approaches some point"
+  },
+  {
+   "q": "Why use SymPy for calculus operations?",
+   "options": {
+    "A": "It gives symbolic results rather than numeric approximation",
+    "B": "It reads text files",
+    "C": "It connects to database",
+    "D": "It generates random numbers"
+   },
+   "answer": "A",
+   "answer_text": "It gives symbolic results rather than numeric approximation"
+  },
+  {
+   "q": "SymPy can compute:",
+   "options": {
+    "A": "Derivatives and integrals",
+    "B": "File paths",
+    "C": "Network routes",
+    "D": "JSON data"
+   },
+   "answer": "A",
+   "answer_text": "Derivatives and integrals"
+  },
+  {
+   "q": "A symbolic series sum can be used to:",
+   "options": {
+    "A": "Solve math problems",
+    "B": "Sort numbers",
+    "C": "Compress files",
+    "D": "Display images"
+   },
+   "answer": "A",
+   "answer_text": "Solve math problems"
+  },
+  {
+   "q": "Integration in SymPy helps compute:",
+   "options": {
+    "A": "Antiderivatives",
+    "B": "File sizes",
+    "C": "String lengths",
+    "D": "JSON objects"
+   },
+   "answer": "A",
+   "answer_text": "Antiderivatives"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How do you differentiate \\(x^3\\) using Sympy?",
+   "answer": [
+    "The derivative is \\(3x^2\\)"
+   ]
+  },
+  {
+   "q": "What does Sympy return for the limit of \\(1/x \\) as \\(x\\) approaches infinity?",
+   "answer": [
+    "The limit is 0."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze the use of symbolic programming in solving calculus problems like differentiation, integration, and limits.",
+   "answer": [
+    "Symbolic programming automates calculus operations without manual steps. Using Sympy:",
+    "from sympy import symbols, diff, integrate, limit",
+    "x = symbols('x') f = x**3",
+    "d = diff(f, x) i = integrate(f, x) l = limit(1/x, x, float('inf'))",
+    "print(d) # 3*x**2 print(i) # x**4/4 print(l) # 0",
+    "This analysis shows how symbolic tools can solve problems exactly, unlike numerical methods which may involve rounding errors."
+   ]
+  }
+ ]
+}

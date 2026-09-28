@@ -7,6 +7,17 @@
  "slo_title": "Implement iteration constructs to execute repetitive tasks in a program.",
  "mcq": [
   {
+   "q": "Which of the following is a branching statement in Java?",
+   "options": {
+    "A": "for",
+    "B": "break",
+    "C": "while",
+    "D": "switch"
+   },
+   "answer": "B",
+   "answer_text": "break"
+  },
+  {
    "q": "What will be the output of the following Java code? int x = 5; if (x > 3) System.out.print(\"A\"); else System.out.print(\"B\"); System.out.print(\"C\");",
    "options": {
     "A": "AC",
@@ -29,15 +40,15 @@
    "answer_text": "continue"
   },
   {
-   "q": "Which of the following is a branching statement in Java?",
+   "q": "Which decision-making structure is most appropriate for choosing one out of many fixed options?",
    "options": {
-    "A": "for",
-    "B": "break",
-    "C": "while",
-    "D": "switch"
+    "A": "if-else",
+    "B": "nested if",
+    "C": "switch",
+    "D": "for"
    },
-   "answer": "B",
-   "answer_text": "break"
+   "answer": "C",
+   "answer_text": "switch"
   },
   {
    "q": "Which construct is best suited when a condition needs to be checked before executing the loop body?",
@@ -49,17 +60,6 @@
    },
    "answer": "B",
    "answer_text": "while"
-  },
-  {
-   "q": "Which decision-making structure is most appropriate for choosing one out of many fixed options?",
-   "options": {
-    "A": "if-else",
-    "B": "nested if",
-    "C": "switch",
-    "D": "for"
-   },
-   "answer": "C",
-   "answer_text": "switch"
   }
  ],
  "sq": [

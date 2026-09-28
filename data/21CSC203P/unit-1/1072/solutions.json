@@ -7,15 +7,15 @@
  "slo_title": "Relate declarative paradigms to data-centric applications",
  "mcq": [
   {
-   "q": "What makes SQL a declarative language?",
+   "q": "What does the SQL query SELECT name FROM students WHERE grade > 80; represent in declarative terms?",
    "options": {
-    "A": "a) It specifies how data should be processed",
-    "B": "b) It defines what result is expected, not how to compute it",
-    "C": "c) It uses loops and conditions extensively ​​​​​​​ ​​​​​​​",
-    "D": "d) It requires compiled code"
+    "A": "a) Iterating through a list of students",
+    "B": "b) Telling the system how to loop through data",
+    "C": "c) Describing the desired output without specifying the process ​​​​​​​ ​​​​​​​",
+    "D": "d) Allocating memory for results"
    },
-   "answer": "B",
-   "answer_text": "b) It defines what result is expected, not how to compute it"
+   "answer": "C",
+   "answer_text": "c) Describing the desired output without specifying the process ​​​​​​​ ​​​​​​​"
   },
   {
    "q": "Why are declarative paradigms preferred in data-centric applications?",
@@ -29,15 +29,15 @@
    "answer_text": "c) They simplify logic by focusing on what rather than how ​​​​​​​ ​​​​​​​"
   },
   {
-   "q": "In which type of application is declarative programming especially useful?",
+   "q": "What makes SQL a declarative language?",
    "options": {
-    "A": "a) Games involving graphics",
-    "B": "b) Data-centric applications like reporting and analytics",
-    "C": "c) Real-time sensor processing ​​​​​​​ ​​​​​​​",
-    "D": "d) Embedded system control"
+    "A": "a) It specifies how data should be processed",
+    "B": "b) It defines what result is expected, not how to compute it",
+    "C": "c) It uses loops and conditions extensively ​​​​​​​ ​​​​​​​",
+    "D": "d) It requires compiled code"
    },
    "answer": "B",
-   "answer_text": "b) Data-centric applications like reporting and analytics"
+   "answer_text": "b) It defines what result is expected, not how to compute it"
   },
   {
    "q": "Which of the following best describes a declarative query?",
@@ -51,15 +51,15 @@
    "answer_text": "c) A statement of the desired result without control flow ​​​​​​​ ​​​​​​​"
   },
   {
-   "q": "What does the SQL query SELECT name FROM students WHERE grade > 80; represent in declarative terms?",
+   "q": "In which type of application is declarative programming especially useful?",
    "options": {
-    "A": "a) Iterating through a list of students",
-    "B": "b) Telling the system how to loop through data",
-    "C": "c) Describing the desired output without specifying the process ​​​​​​​ ​​​​​​​",
-    "D": "d) Allocating memory for results"
+    "A": "a) Games involving graphics",
+    "B": "b) Data-centric applications like reporting and analytics",
+    "C": "c) Real-time sensor processing ​​​​​​​ ​​​​​​​",
+    "D": "d) Embedded system control"
    },
-   "answer": "C",
-   "answer_text": "c) Describing the desired output without specifying the process ​​​​​​​ ​​​​​​​"
+   "answer": "B",
+   "answer_text": "b) Data-centric applications like reporting and analytics"
   }
  ],
  "sq": [

@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "2092",
+ "unit": 2,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "appreciate the importance of responsible human conduct for harmony and sustainable living.",
+ "mcq": [
+  {
+   "q": "How does right human conduct relate to coexistence?",
+   "options": {
+    "A": "It ensures balance and mutual enrichment among humans, society, and nature",
+    "B": "It creates conflict among entities",
+    "C": "It isolates humans from nature",
+    "D": "It focuses only on material development"
+   },
+   "answer": "A",
+   "answer_text": "It ensures balance and mutual enrichment among humans, society, and nature"
+  },
+  {
+   "q": "What is the long-term benefit of right human conduct?",
+   "options": {
+    "A": "Sustainable development and peaceful coexistence",
+    "B": "Unlimited exploitation of nature",
+    "C": "Short-term personal gain",
+    "D": "Conflict and imbalance"
+   },
+   "answer": "A",
+   "answer_text": "Sustainable development and peaceful coexistence"
+  },
+  {
+   "q": "Which is NOT a part of human conduct?",
+   "options": {
+    "A": "Ethical decision-making",
+    "B": "Dishonesty and exploitation",
+    "C": "Sustainable living",
+    "D": "Respectful relationships"
+   },
+   "answer": "B",
+   "answer_text": "Dishonesty and exploitation"
+  },
+  {
+   "q": "What is the basis for harmony in human conduct?",
+   "options": {
+    "A": "Selfishness",
+    "B": "Right understanding of self, relationships, society, and nature",
+    "C": "Accumulation of power",
+    "D": "Random behavior"
+   },
+   "answer": "B",
+   "answer_text": "Right understanding of self, relationships, society, and nature"
+  },
+  {
+   "q": "Which of the following demonstrates harmony in human conduct?",
+   "options": {
+    "A": "Exploiting workers for profit",
+    "B": "Fair treatment of employees and sustainable practices in industry",
+    "C": "Ignoring environmental laws",
+    "D": "Using harmful materials for cost-cutting"
+   },
+   "answer": "B",
+   "answer_text": "Fair treatment of employees and sustainable practices in industry"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How can human beings ensure harmony in existence?",
+   "answer": [
+    "By practicing values like trust, respect, justice, and sustainability in daily life."
+   ]
+  },
+  {
+   "q": "Give an example of responsible human conduct.",
+   "answer": [
+    "Using natural resources wisely without overexploiting them is responsible human conduct."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "What is the main learning from the Economics of Happiness practice session?",
+   "answer": [
+    "The Economics of Happiness practice session helps us examine the prevailing worldview and its impact on society. The session uses a documentary on the impact of globalisation on Ladakh and asks us to observe the goal of society, the achievements and side effects of the prevalent worldview, and whether there is a solution to present-day problems. The main learning is that development should not be measured only by economic growth, consumption or physical facility. If society focuses only on material growth, it may create side effects such as loss of relationship, cultural breakdown, environmental damage and dissatisfaction. True development must support happiness, prosperity, right relationship, right utilisation and harmony with nature."
+   ]
+  }
+ ]
+}

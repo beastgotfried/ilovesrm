@@ -7,17 +7,6 @@
  "slo_title": "explain the concept of memory addresses and differentiate between word and byte addressable memory",
  "mcq": [
   {
-   "q": "In an 8-bit Sign-Magnitude system, how is the decimal number -37 represented? (The magnitude of 37 in binary is 0100101 ).",
-   "options": {
-    "A": "a) 10100101",
-    "B": "b) 11011011",
-    "C": "c) 10100110",
-    "D": "d) 00100101"
-   },
-   "answer": "A",
-   "answer_text": "a) 10100101"
-  },
-  {
    "q": "What is a major disadvantage of the Sign-Magnitude representation?",
    "options": {
     "A": "a) It is difficult for humans to understand.",
@@ -60,6 +49,17 @@
    },
    "answer": "A",
    "answer_text": "a) 0 000 (+0)"
+  },
+  {
+   "q": "In an 8-bit Sign-Magnitude system, how is the decimal number -37 represented? (The magnitude of 37 in binary is 0100101 ).",
+   "options": {
+    "A": "a) 10100101",
+    "B": "b) 11011011",
+    "C": "c) 10100110",
+    "D": "d) 00100101"
+   },
+   "answer": "A",
+   "answer_text": "a) 10100101"
   }
  ],
  "sq": [

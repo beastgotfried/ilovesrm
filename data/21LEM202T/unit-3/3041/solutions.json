@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "3041",
+ "unit": 3,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Students will be able to understand and explain the human being as a co-existence of the Self (consciousness) and the Body (material entity)",
+ "mcq": [
+  {
+   "q": "Which activity belongs primarily to the body?",
+   "options": {
+    "A": "Digestion and circulation",
+    "B": "Thinking and decision-making",
+    "C": "Desire and selection",
+    "D": "Analyzing and understanding"
+   },
+   "answer": "A",
+   "answer_text": "Digestion and circulation"
+  },
+  {
+   "q": "The self can be described as:",
+   "options": {
+    "A": "A material entity",
+    "B": "The knower, experiencer, and decision-maker",
+    "C": "A collection of organs",
+    "D": "A chemical process"
+   },
+   "answer": "B",
+   "answer_text": "The knower, experiencer, and decision-maker"
+  },
+  {
+   "q": "Which activity belongs primarily to the self?",
+   "options": {
+    "A": "Respiration",
+    "B": "Thinking, desiring, and evaluating",
+    "C": "Growth of tissues",
+    "D": "Reflex actions"
+   },
+   "answer": "B",
+   "answer_text": "Thinking, desiring, and evaluating"
+  },
+  {
+   "q": "A human being is best understood as:",
+   "options": {
+    "A": "Only a physical body",
+    "B": "Only a conscious self",
+    "C": "Co-existence of self (consciousness) and body (material)",
+    "D": "Neither self nor body"
+   },
+   "answer": "C",
+   "answer_text": "Co-existence of self (consciousness) and body (material)"
+  },
+  {
+   "q": "The body is sustained by:",
+   "options": {
+    "A": "Physical food and material needs",
+    "B": "Thoughts and understanding",
+    "C": "Emotions only",
+    "D": "None of the above"
+   },
+   "answer": "A",
+   "answer_text": "Physical food and material needs"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does the self differ from the body in a human being?",
+   "answer": [
+    "The body is material, physical, and perishable, while the self is conscious, non-physical, and the source of thought, feelings, and experiences. The self observes and uses the body to interact with the world."
+   ]
+  },
+  {
+   "q": "What does it mean to say that a human being is a co-existence of the self and the body?",
+   "answer": [
+    "It means that a human being is not just a physical body but also a conscious self. The body provides the physical existence, while the self provides awareness, intelligence, and identity. Both coexist to make a complete human being."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain justice in human-to-human relationship.",
+   "answer": [
+    "Justice in relationship means the recognition of relationship, fulfilment of the definite feelings in relationship, and correct evaluation of that fulfilment, leading to mutual happiness. Relationship exists naturally between human beings, but it has to be understood and fulfilled. The definite feelings in relationship include trust, respect, affection, care, guidance, reverence, glory, gratitude and love. When I understand these feelings within myself and express them appropriately to the other, the other is also able to recognise them. This recognition and fulfilment create mutual happiness. Injustice happens when these feelings are missing, wrongly expressed or wrongly evaluated. Therefore, justice is not merely a legal arrangement; it is the living fulfilment of relationship on the basis of right understanding and right feeling."
+   ]
+  }
+ ]
+}

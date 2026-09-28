@@ -7,28 +7,6 @@
  "slo_title": "Explain the logic operation of the NAND gate and illustrate how it can be used to construct AND, OR, and NOT gates",
  "mcq": [
   {
-   "q": "To create an OR gate using only NAND gates, what is the sequence of operations?",
-   "options": {
-    "A": "NAND the inputs directly",
-    "B": "NAND the inputs, then NAND the output with itself",
-    "C": "NAND the inputs separately, then NAND the results",
-    "D": "NAND the inputs twice"
-   },
-   "answer": "C",
-   "answer_text": "NAND the inputs separately, then NAND the results"
-  },
-  {
-   "q": "Which configuration of NAND gates produces a NOT operation on input A?",
-   "options": {
-    "A": "Both inputs connected to A",
-    "B": "One input connected to A and the other to 0",
-    "C": "One input connected to A and the other to 1",
-    "D": "Inputs connected to different signals"
-   },
-   "answer": "A",
-   "answer_text": "Both inputs connected to A"
-  },
-  {
    "q": "Given that a NOR gate outputs 1 only when all inputs are 0, which Boolean expression represents the NOR of two inputs A and B?",
    "options": {
     "A": "\\(\\overline{(A.B)}\\)",
@@ -60,23 +38,31 @@
    },
    "answer": "B",
    "answer_text": "Both NAND and NOR gates can be used to implement any logic function"
+  },
+  {
+   "q": "To create an OR gate using only NAND gates, what is the sequence of operations?",
+   "options": {
+    "A": "NAND the inputs directly",
+    "B": "NAND the inputs, then NAND the output with itself",
+    "C": "NAND the inputs separately, then NAND the results",
+    "D": "NAND the inputs twice"
+   },
+   "answer": "C",
+   "answer_text": "NAND the inputs separately, then NAND the results"
+  },
+  {
+   "q": "Which configuration of NAND gates produces a NOT operation on input A?",
+   "options": {
+    "A": "Both inputs connected to A",
+    "B": "One input connected to A and the other to 0",
+    "C": "One input connected to A and the other to 1",
+    "D": "Inputs connected to different signals"
+   },
+   "answer": "A",
+   "answer_text": "Both inputs connected to A"
   }
  ],
  "sq": [
-  {
-   "q": "A circuit uses three NAND gates. The first two act as inverters. The third takes their outputs. What gate does this form?",
-   "answer": [
-    "It forms an OR gate :",
-    "\\(A+B=A‾⋅B‾‾A + B = \\overline{\\overline{A} \\cdot \\overline{B}}A+B=A⋅B\\)",
-    "Using NAND gates:",
-    "First NAND: \\(A⋅A‾=A‾\\overline{A \\cdot A} = \\overline{A}A⋅A=A\\)",
-    "First NAND: \\(A⋅A‾=A‾\\overline{A \\cdot A} = \\overline{A}A⋅A=A\\)",
-    "Second NAND: \\(B⋅B‾=B‾\\overline{B \\cdot B} = \\overline{B}B⋅B=B\\)",
-    "Second NAND: \\(B⋅B‾=B‾\\overline{B \\cdot B} = \\overline{B}B⋅B=B\\)",
-    "Third NAND: A‾⋅B‾‾= \\(A+B\\overline{\\overline{A} \\cdot \\overline{B}}\\) = A + BA⋅B=A+B",
-    "Third NAND: A‾⋅B‾‾= \\(A+B\\overline{\\overline{A} \\cdot \\overline{B}}\\) = A + BA⋅B=A+B"
-   ]
-  },
   {
    "q": "Construct the Boolean expression using only NOR gates to represent the function:",
    "answer": [
@@ -89,6 +75,20 @@
     "Apply them to a NOR gate",
     "Invert again if needed",
     "Invert again if needed"
+   ]
+  },
+  {
+   "q": "A circuit uses three NAND gates. The first two act as inverters. The third takes their outputs. What gate does this form?",
+   "answer": [
+    "It forms an OR gate :",
+    "\\(A+B=A‾⋅B‾‾A + B = \\overline{\\overline{A} \\cdot \\overline{B}}A+B=A⋅B\\)",
+    "Using NAND gates:",
+    "First NAND: \\(A⋅A‾=A‾\\overline{A \\cdot A} = \\overline{A}A⋅A=A\\)",
+    "First NAND: \\(A⋅A‾=A‾\\overline{A \\cdot A} = \\overline{A}A⋅A=A\\)",
+    "Second NAND: \\(B⋅B‾=B‾\\overline{B \\cdot B} = \\overline{B}B⋅B=B\\)",
+    "Second NAND: \\(B⋅B‾=B‾\\overline{B \\cdot B} = \\overline{B}B⋅B=B\\)",
+    "Third NAND: A‾⋅B‾‾= \\(A+B\\overline{\\overline{A} \\cdot \\overline{B}}\\) = A + BA⋅B=A+B",
+    "Third NAND: A‾⋅B‾‾= \\(A+B\\overline{\\overline{A} \\cdot \\overline{B}}\\) = A + BA⋅B=A+B"
    ]
   }
  ],

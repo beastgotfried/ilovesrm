@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "2072",
+ "unit": 2,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "appreciate the importance of responsible human conduct for harmony and sustainable living.",
+ "mcq": [
+  {
+   "q": "Which of the following is an element of right human conduct?",
+   "options": {
+    "A": "Respect in relationships",
+    "B": "Sustainable use of resources",
+    "C": "Ethical work practices",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "answer_text": "All of the above"
+  },
+  {
+   "q": "Why is human conduct central to existence?",
+   "options": {
+    "A": "Because humans can consciously understand and ensure harmony",
+    "B": "Because humans dominate nature",
+    "C": "Because humans are physically stronger than animals",
+    "D": "Because humans live independently"
+   },
+   "answer": "A",
+   "answer_text": "Because humans can consciously understand and ensure harmony"
+  },
+  {
+   "q": "What is meant by human conduct?",
+   "options": {
+    "A": "Physical fitness of a person",
+    "B": "The expression of values and understanding in daily life through behavior and actions",
+    "C": "Biological growth of the body",
+    "D": "Automatic functioning of organs"
+   },
+   "answer": "B",
+   "answer_text": "The expression of values and understanding in daily life through behavior and actions"
+  },
+  {
+   "q": "What happens when human conduct lacks right understanding?",
+   "options": {
+    "A": "It leads to harmony",
+    "B": "It results in exploitation, conflicts, and imbalance",
+    "C": "It improves sustainability",
+    "D": "It promotes peaceful coexistence"
+   },
+   "answer": "B",
+   "answer_text": "It results in exploitation, conflicts, and imbalance"
+  },
+  {
+   "q": "What is the ultimate goal of human conduct?",
+   "options": {
+    "A": "Profit-making",
+    "B": "Achieving harmony within self, with others, and with nature",
+    "C": "Domination of resources",
+    "D": "Unlimited consumption"
+   },
+   "answer": "B",
+   "answer_text": "Achieving harmony within self, with others, and with nature"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is right understanding important for human conduct?",
+   "answer": [
+    "Right understanding helps humans act responsibly, ensuring peace, prosperity, and harmony with existence."
+   ]
+  },
+  {
+   "q": "What is meant by human conduct?",
+   "answer": [
+    "Human conduct refers to the way a person lives and behaves in harmony with self, family, society, and nature."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain prosperity in the light of harmony between Self and Body.",
+   "answer": [
+    "Self-regulation means the feeling of responsibility toward the Body for its nurturing, protection and right utilisation. Health means the Body acts according to the Self and the parts of the Body are in harmony. The programme to ensure self-regulation and health gives priority to four areas: intake and routine, labour and exercise, posture and regulated breathing, and medicine and treatment. Intake includes air, water, sunlight, food and sensory inputs. Routine includes proper rising time, sleeping time and eating time. Labour produces physical facility, while exercise supports the health of the Body. Postures and regulated breathing help regulate the internal and external organs. Medicine and treatment are required when the Body temporarily moves away from harmony. This programme helps the Self take responsibility for the Body naturally, not through fear or force."
+   ]
+  }
+ ]
+}

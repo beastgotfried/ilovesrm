@@ -7,28 +7,6 @@
  "slo_title": "explain the working principles, symbols, and truth tables of AND, OR, and NOT gates.",
  "mcq": [
   {
-   "q": "What is the truth table output for an OR gate with inputs A = 0 and B = 1?",
-   "options": {
-    "A": "0",
-    "B": "1",
-    "C": "0 for AND gate, 1 for OR gate",
-    "D": "Error"
-   },
-   "answer": "B",
-   "answer_text": "1"
-  },
-  {
-   "q": "If the output of a logic circuit is 1 only when both inputs are 0, which combination of gates could represent it?",
-   "options": {
-    "A": "AND gate",
-    "B": "OR gate",
-    "C": "NOR gate",
-    "D": "XOR gate"
-   },
-   "answer": "C",
-   "answer_text": "NOR gate"
-  },
-  {
    "q": "Which logic gate’s symbol is a triangle with a small circle (inversion bubble) at its output?",
    "options": {
     "A": "AND gate",
@@ -46,6 +24,28 @@
     "B": "1",
     "C": "Depends on other inputs",
     "D": "Undefined"
+   },
+   "answer": "B",
+   "answer_text": "1"
+  },
+  {
+   "q": "If the output of a logic circuit is 1 only when both inputs are 0, which combination of gates could represent it?",
+   "options": {
+    "A": "AND gate",
+    "B": "OR gate",
+    "C": "NOR gate",
+    "D": "XOR gate"
+   },
+   "answer": "C",
+   "answer_text": "NOR gate"
+  },
+  {
+   "q": "What is the truth table output for an OR gate with inputs A = 0 and B = 1?",
+   "options": {
+    "A": "0",
+    "B": "1",
+    "C": "0 for AND gate, 1 for OR gate",
+    "D": "Error"
    },
    "answer": "B",
    "answer_text": "1"

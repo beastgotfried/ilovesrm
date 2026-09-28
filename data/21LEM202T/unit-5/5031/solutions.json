@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "5031",
+ "unit": 5,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Students will be able to explain the different aspects of All-encompassing Resolution, including understanding, wisdom, and science",
+ "mcq": [
+  {
+   "q": "The all-encompassing resolution for a human being aims at:",
+   "options": {
+    "A": "Material progress only",
+    "B": "Harmony in the Self, family, society, nature, and existence",
+    "C": "Unlimited competition",
+    "D": "Ignoring coexistence"
+   },
+   "answer": "B",
+   "answer_text": "Harmony in the Self, family, society, nature, and existence"
+  },
+  {
+   "q": "Science in the context of resolution refers to:",
+   "options": {
+    "A": "Systematic study of natural laws in harmony with existence",
+    "B": "Competition between technologies",
+    "C": "Invention without responsibility",
+    "D": "Collection of random data"
+   },
+   "answer": "A",
+   "answer_text": "Systematic study of natural laws in harmony with existence"
+  },
+  {
+   "q": "Which aspect of resolution connects wisdom to material reality?",
+   "options": {
+    "A": "Understanding",
+    "B": "Science",
+    "C": "Technology",
+    "D": "Information"
+   },
+   "answer": "B",
+   "answer_text": "Science"
+  },
+  {
+   "q": "Wisdom as an aspect of resolution primarily means:",
+   "options": {
+    "A": "Ability to accumulate wealth",
+    "B": "Application of understanding in decision-making and human conduct",
+    "C": "Memorizing information",
+    "D": "Exploiting resources"
+   },
+   "answer": "B",
+   "answer_text": "Application of understanding in decision-making and human conduct"
+  },
+  {
+   "q": "Which aspect of resolution refers to clarity about human purpose and living?",
+   "options": {
+    "A": "Understanding",
+    "B": "Science",
+    "C": "Technology",
+    "D": "Skill"
+   },
+   "answer": "A",
+   "answer_text": "Understanding"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the role of understanding in all-encompassing resolution?",
+   "answer": [
+    "Understanding gives clarity about reality, human needs, and relationships, forming the foundation for right living."
+   ]
+  },
+  {
+   "q": "What is meant by an all-encompassing resolution?",
+   "answer": [
+    "An all-encompassing resolution is the holistic understanding of human purpose, harmony in existence, and the right way to live, integrating knowledge, values, and practice."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain professional ethics in the light of right understanding.",
+   "answer": [
+    "Professional ethics means the right utilisation of professional skills for participation in the larger order and for the fulfilment of the comprehensive human goal. A profession is not merely a means of earning money; it is also a means for one’s growth and meaningful participation in society and nature. In the light of right understanding, professional success should not be judged only by wealth generation, but by whether it supports mutual happiness, mutual prosperity and harmony. Professional ethics requires clarity of the comprehensive human goal, confidence in harmony and co-existence, competence in mutually fulfilling behaviour, competence in mutually enriching interaction with nature, holistic vision about technology and management, and understanding of social responsibility."
+   ]
+  }
+ ]
+}

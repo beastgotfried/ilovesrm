@@ -7,6 +7,17 @@
  "slo_title": "Carry out a practice activity exploring the natural acceptance of human values.",
  "mcq": [
   {
+   "q": "Why should engineers understand the concept of self?",
+   "options": {
+    "A": "To enhance mechanical skills",
+    "B": "To design systems considering human needs, behavior, and ethics",
+    "C": "To memorize formulas faster",
+    "D": "To increase physical strength"
+   },
+   "answer": "B",
+   "answer_text": "To design systems considering human needs, behavior, and ethics"
+  },
+  {
    "q": "Which of the following activities is primarily of the self?",
    "options": {
     "A": "Circulation of blood",
@@ -18,15 +29,15 @@
    "answer_text": "Thinking, analyzing, and decision-making"
   },
   {
-   "q": "Why is the self considered central to human existence?",
+   "q": "How does the self influence human conduct?",
    "options": {
-    "A": "Because it controls only physical movements",
-    "B": "Because it is the source of awareness, thoughts, and decisions",
-    "C": "Because it stores energy in the body",
-    "D": "Because it performs only biological functions"
+    "A": "By determining desires, choices, and actions consciously",
+    "B": "By regulating only breathing and heartbeat",
+    "C": "By controlling only muscle movement",
+    "D": "By generating external resources"
    },
-   "answer": "B",
-   "answer_text": "Because it is the source of awareness, thoughts, and decisions"
+   "answer": "A",
+   "answer_text": "By determining desires, choices, and actions consciously"
   },
   {
    "q": "Which of the following best describes the relationship between self and body?",
@@ -40,39 +51,28 @@
    "answer_text": "The self observes and guides the body, which performs physical functions"
   },
   {
-   "q": "Why should engineers understand the concept of self?",
+   "q": "Why is the self considered central to human existence?",
    "options": {
-    "A": "To enhance mechanical skills",
-    "B": "To design systems considering human needs, behavior, and ethics",
-    "C": "To memorize formulas faster",
-    "D": "To increase physical strength"
+    "A": "Because it controls only physical movements",
+    "B": "Because it is the source of awareness, thoughts, and decisions",
+    "C": "Because it stores energy in the body",
+    "D": "Because it performs only biological functions"
    },
    "answer": "B",
-   "answer_text": "To design systems considering human needs, behavior, and ethics"
-  },
-  {
-   "q": "How does the self influence human conduct?",
-   "options": {
-    "A": "By determining desires, choices, and actions consciously",
-    "B": "By regulating only breathing and heartbeat",
-    "C": "By controlling only muscle movement",
-    "D": "By generating external resources"
-   },
-   "answer": "A",
-   "answer_text": "By determining desires, choices, and actions consciously"
+   "answer_text": "Because it is the source of awareness, thoughts, and decisions"
   }
  ],
  "sq": [
   {
-   "q": "How does focusing on the Self improve human relationships?",
-   "answer": [
-    "By promoting right understanding and harmony, leading to trust, respect, and mutual happiness."
-   ]
-  },
-  {
    "q": "What happens if the Self is not properly understood?",
    "answer": [
     "It leads to confusion, conflict, and dissatisfaction in life."
+   ]
+  },
+  {
+   "q": "How does focusing on the Self improve human relationships?",
+   "answer": [
+    "By promoting right understanding and harmony, leading to trust, respect, and mutual happiness."
    ]
   }
  ],

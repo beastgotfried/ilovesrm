@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "3061",
+ "unit": 3,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Students will be able to identify and understand the various activities of the Self such as desire, thought, and selection",
+ "mcq": [
+  {
+   "q": "The Self is also referred to as:",
+   "options": {
+    "A": "The experiencer, knower, and doer",
+    "B": "The instrument for physical growth",
+    "C": "The chemical composition of the body",
+    "D": "The set of reflexes"
+   },
+   "answer": "A",
+   "answer_text": "The experiencer, knower, and doer"
+  },
+  {
+   "q": "Which activity belongs to the Self but not to the body?",
+   "options": {
+    "A": "Breathing",
+    "B": "Contemplation and analysis",
+    "C": "Walking",
+    "D": "Eating"
+   },
+   "answer": "B",
+   "answer_text": "Contemplation and analysis"
+  },
+  {
+   "q": "Which of the following is an activity of the Self?",
+   "options": {
+    "A": "Digestion",
+    "B": "Respiration",
+    "C": "Desiring, thinking, and selecting",
+    "D": "Circulation of blood"
+   },
+   "answer": "C",
+   "answer_text": "Desiring, thinking, and selecting"
+  },
+  {
+   "q": "The Self evaluates:",
+   "options": {
+    "A": "Bodily needs only",
+    "B": "Right or wrong, useful or harmful, based on understanding",
+    "C": "Only material benefits",
+    "D": "Physical sensations"
+   },
+   "answer": "B",
+   "answer_text": "Right or wrong, useful or harmful, based on understanding"
+  },
+  {
+   "q": "What is the primary potential of the Self?",
+   "options": {
+    "A": "To achieve right understanding and ensure harmony",
+    "B": "To build muscles",
+    "C": "To digest food efficiently",
+    "D": "To control external machines"
+   },
+   "answer": "A",
+   "answer_text": "To achieve right understanding and ensure harmony"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does the self differ from the body in terms of activities?",
+   "answer": [
+    "The body performs physiological activities (like eating, walking, sleeping), while the self performs conscious activities (like imagining, evaluating, and making choices)."
+   ]
+  },
+  {
+   "q": "What are the main activities of the self?",
+   "answer": [
+    "The main activities of the self are desiring , thinking , and selecting (also called aspirations, analysis, and decisions)."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the vision for Universal Human Order.",
+   "answer": [
+    "Universal Human Order is the order in which human beings live with right understanding, right feeling, prosperity, fearlessness and co-existence with nature. It begins from the family and gradually expands to family cluster, village, village cluster, nation and world family. In this order, the goal is not domination, competition or accumulation, but mutual fulfilment. Every individual develops right understanding, every family feels prosperous, society becomes fearless through trust, and human beings participate in nature without violating harmony. Universal Human Order does not mean that everyone must have exactly equal physical facilities; rather, it means every family is able to identify its needs correctly and has the feeling of prosperity. This vision gives direction for a humane society where the whole human family can live with mutual happiness and mutual prosperity."
+   ]
+  }
+ ]
+}

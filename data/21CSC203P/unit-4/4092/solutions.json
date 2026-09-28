@@ -1,0 +1,94 @@
+{
+ "course": "21CSC203P",
+ "code": "4092",
+ "unit": 4,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "Differentiate between TCP and UDP socket types",
+ "mcq": [
+  {
+   "q": "2. Which socket type is used for TCP communication in Python?",
+   "options": {
+    "A": "A) socket.SOCK_DGRAM",
+    "B": "B) socket.HTTP_STREAM",
+    "C": "C) socket.RAW_TCP",
+    "D": "D) socket.SOCK_STREAM"
+   },
+   "answer": "D",
+   "answer_text": "D) socket.SOCK_STREAM"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) TCP is faster but less reliable",
+    "B": "B) UDP uses handshaking to establish a connection",
+    "C": "C) TCP guarantees delivery and order of packets, UDP does not",
+    "D": "D) TCP is used only for emails"
+   },
+   "answer": "C",
+   "answer_text": "C) TCP guarantees delivery and order of packets, UDP does not"
+  },
+  {
+   "q": "1. What is a socket in network programming?",
+   "options": {
+    "A": "A) A virtual wire connecting two web pages",
+    "B": "B) An interface for sending and receiving data across a network",
+    "C": "C) A type of web server",
+    "D": "D) A data encryption method"
+   },
+   "answer": "B",
+   "answer_text": "B) An interface for sending and receiving data across a network"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) network",
+    "B": "B) socket",
+    "C": "C) webapi",
+    "D": "D) httpserver"
+   },
+   "answer": "B",
+   "answer_text": "B) socket"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) Online banking",
+    "B": "B) File transfer",
+    "C": "C) Live video streaming or gaming",
+    "D": "D) Sending login credentials"
+   },
+   "answer": "C",
+   "answer_text": "C) Live video streaming or gaming"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does a socket facilitate communication in Python?",
+   "answer": [
+    "A socket acts as an endpoint for sending or receiving data over a network. It uses IP and port numbers to connect devices. Python’s socket module supports both TCP and UDP sockets."
+   ]
+  },
+  {
+   "q": "You are sending real-time game updates. Why choose UDP over TCP?",
+   "answer": [
+    "UDP is faster and doesn’t wait for acknowledgments, which reduces latency. In real-time games, losing a few packets is acceptable. TCP's overhead would introduce unnecessary delays."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a real-time multiplayer quiz game. You need to choose an appropriate socket protocol (TCP or UDP) for communication between the server and players. The system should handle fast responses with minimal delay, but also ensure messages are correctly delivered. Task: Define network programming and explain the role of sockets in it. (5 marks) Define network programming and explain the role of sockets in it. (5 marks) Differentiate between TCP and UDP socket types in terms of reliability, speed, and use cases. (6 marks) Differentiate between TCP and UDP socket types in terms of reliability, speed, and use cases. (6 marks) Recommend which protocol is better for your quiz game and justify your decision with protocol behavior. (4 marks) Recommend which protocol is better for your quiz game and justify your decision with protocol behavior. (4 marks)",
+   "answer": [
+    "Network programming allows programs to communicate over a network. Sockets are endpoints for sending/receiving data across a network using protocols like TCP or UDP. They enable client-server communication.",
+    "2. TCP vs UDP Comparison (6 marks)",
+    "3. Recommendation (4 marks)",
+    "Recommendation : Use UDP Justification :",
+    "UDP is faster and better for real-time games where speed matters more than guaranteed delivery.",
+    "UDP is faster and better for real-time games where speed matters more than guaranteed delivery.",
+    "Minor data loss is acceptable in exchange for quick responses.",
+    "Minor data loss is acceptable in exchange for quick responses."
+   ]
+  }
+ ]
+}

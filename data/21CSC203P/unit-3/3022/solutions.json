@@ -7,17 +7,6 @@
  "slo_title": "Utilize Runnable interface for concurrent tasks",
  "mcq": [
   {
-   "q": "Consider the following code: Which statement correctly creates and runs this thread?",
-   "options": {
-    "A": "MyThread.run();",
-    "B": "new MyThread().start();",
-    "C": "MyThread t = new MyThread(); t.run();",
-    "D": "Thread.start();"
-   },
-   "answer": "B",
-   "answer_text": "new MyThread().start();"
-  },
-  {
    "q": "What happens if you call run() instead of start() on a thread object?",
    "options": {
     "A": "A new thread is created",
@@ -51,6 +40,17 @@
    "answer_text": "Call start() on a Thread object"
   },
   {
+   "q": "Consider the following code: Which statement correctly creates and runs this thread?",
+   "options": {
+    "A": "MyThread.run();",
+    "B": "new MyThread().start();",
+    "C": "MyThread t = new MyThread(); t.run();",
+    "D": "Thread.start();"
+   },
+   "answer": "B",
+   "answer_text": "new MyThread().start();"
+  },
+  {
    "q": "What is the main advantage of implementing the Runnable interface over extending the Thread class?",
    "options": {
     "A": "Better GUI performance",
@@ -64,13 +64,6 @@
  ],
  "sq": [
   {
-   "q": "What is the output of this code?",
-   "answer": [
-    "\"Thread is running\"",
-    "start() initiates a new thread, and run() prints the message."
-   ]
-  },
-  {
    "q": "Explain the steps to create a thread using the Thread class in Java.",
    "answer": [
     "Create a class that extends Thread",
@@ -81,6 +74,13 @@
     "Create an instance of the class",
     "Call the start() method to begin thread execution",
     "Call the start() method to begin thread execution"
+   ]
+  },
+  {
+   "q": "What is the output of this code?",
+   "answer": [
+    "\"Thread is running\"",
+    "start() initiates a new thread, and run() prints the message."
    ]
   }
  ],

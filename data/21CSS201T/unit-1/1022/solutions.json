@@ -7,6 +7,28 @@
  "slo_title": "explain and perform conversions between Decimal, Binary, Octal, and Hexadecimal systems",
  "mcq": [
   {
+   "q": "Which unit performs logical comparisons like AND, OR operations?",
+   "options": {
+    "A": "A) Control Unit",
+    "B": "B) Memory Unit",
+    "C": "C) Input Unit",
+    "D": "D) Arithmetic Logic Unit (ALU)"
+   },
+   "answer": "D",
+   "answer_text": "D) Arithmetic Logic Unit (ALU)"
+  },
+  {
+   "q": "The Control Unit is responsible for:",
+   "options": {
+    "A": "A) Performing calculations",
+    "B": "B) Storing data permanently",
+    "C": "C) Directing the operation of the processor",
+    "D": "D) Generating graphical output"
+   },
+   "answer": "C",
+   "answer_text": "C) Directing the operation of the processor"
+  },
+  {
    "q": "Which of the following is not an example of an output device?",
    "options": {
     "A": "Monitor",
@@ -29,17 +51,6 @@
    "answer_text": "C) Receives data from the CPU and converts it into human-readable form"
   },
   {
-   "q": "The Control Unit is responsible for:",
-   "options": {
-    "A": "A) Performing calculations",
-    "B": "B) Storing data permanently",
-    "C": "C) Directing the operation of the processor",
-    "D": "D) Generating graphical output"
-   },
-   "answer": "C",
-   "answer_text": "C) Directing the operation of the processor"
-  },
-  {
    "q": "The Memory Unit stores:",
    "options": {
     "A": "A) Only programs",
@@ -49,26 +60,9 @@
    },
    "answer": "C",
    "answer_text": "C) Data and instructions"
-  },
-  {
-   "q": "Which unit performs logical comparisons like AND, OR operations?",
-   "options": {
-    "A": "A) Control Unit",
-    "B": "B) Memory Unit",
-    "C": "C) Input Unit",
-    "D": "D) Arithmetic Logic Unit (ALU)"
-   },
-   "answer": "D",
-   "answer_text": "D) Arithmetic Logic Unit (ALU)"
   }
  ],
  "sq": [
-  {
-   "q": "Explain why the binary number system is used in digital computers instead of the decimal number system.",
-   "answer": [
-    "Digital computers use the binary number system because it is easier and more reliable to design electronic circuits that have only two states— ON (1) and OFF (0) . These two states can be easily represented using voltage levels, which makes binary ideal for digital processing and storage. Unlike the decimal system which uses ten digits, binary's simplicity allows for faster, cheaper, and more error-resistant hardware design."
-   ]
-  },
   {
    "q": "Explain the main differences between the binary and hexadecimal number systems, including their bases, symbols used, and applications.",
    "answer": [
@@ -92,6 +86,12 @@
     "Hexadecimal is commonly used in programming and digital electronics to represent large binary numbers more compactly. Each hexadecimal digit corresponds to exactly four binary digits (bits), making it easier to read and work with binary data.",
     "Hexadecimal is commonly used in programming and digital electronics to represent large binary numbers more compactly. Each hexadecimal digit corresponds to exactly four binary digits (bits), making it easier to read and work with binary data.",
     "In short, while binary is used by computers to perform computations, hexadecimal simplifies the representation of binary numbers for human understanding and software development."
+   ]
+  },
+  {
+   "q": "Explain why the binary number system is used in digital computers instead of the decimal number system.",
+   "answer": [
+    "Digital computers use the binary number system because it is easier and more reliable to design electronic circuits that have only two states— ON (1) and OFF (0) . These two states can be easily represented using voltage levels, which makes binary ideal for digital processing and storage. Unlike the decimal system which uses ten digits, binary's simplicity allows for faster, cheaper, and more error-resistant hardware design."
    ]
   }
  ],

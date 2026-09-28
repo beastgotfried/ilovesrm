@@ -7,28 +7,6 @@
  "slo_title": "Explain the theoretical underpinnings of programming languages",
  "mcq": [
   {
-   "q": "What is the purpose of variables in programming?",
-   "options": {
-    "A": "a) To store data temporarily",
-    "B": "b) To decorate the code",
-    "C": "c) To print text",
-    "D": "d) To delete files"
-   },
-   "answer": "A",
-   "answer_text": "a) To store data temporarily"
-  },
-  {
-   "q": "What is a programming language?",
-   "options": {
-    "A": "a)A tool to build hardware",
-    "B": "b) A set of instructions to communicate with computers",
-    "C": "c) A language spoken by developers",
-    "D": "d) A type of operating systemeHere"
-   },
-   "answer": "B",
-   "answer_text": "b) A set of instructions to communicate with computers"
-  },
-  {
    "q": "What does a compiler do?",
    "options": {
     "A": "a) Sends email",
@@ -40,6 +18,17 @@
    "answer_text": "c) Converts high-level code into machine code"
   },
   {
+   "q": "What is the purpose of variables in programming?",
+   "options": {
+    "A": "a) To store data temporarily",
+    "B": "b) To decorate the code",
+    "C": "c) To print text",
+    "D": "d) To delete files"
+   },
+   "answer": "A",
+   "answer_text": "a) To store data temporarily"
+  },
+  {
    "q": "Which of the following is a basic element of a programming language?",
    "options": {
     "A": "a) Router",
@@ -49,6 +38,17 @@
    },
    "answer": "C",
    "answer_text": "c) Syntax"
+  },
+  {
+   "q": "What is a programming language?",
+   "options": {
+    "A": "a)A tool to build hardware",
+    "B": "b) A set of instructions to communicate with computers",
+    "C": "c) A language spoken by developers",
+    "D": "d) A type of operating systemeHere"
+   },
+   "answer": "B",
+   "answer_text": "b) A set of instructions to communicate with computers"
   },
   {
    "q": "Which one is NOT a programming language?",

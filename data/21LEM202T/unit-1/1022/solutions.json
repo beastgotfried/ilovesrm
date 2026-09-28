@@ -18,17 +18,6 @@
    "answer_text": "Effective communication and respect for each other"
   },
   {
-   "q": "Which of the following is not true about excellence?",
-   "options": {
-    "A": "Other humans are complementary to me",
-    "B": "It leads to unconditional relationship",
-    "C": "Effort to accentuate the difference",
-    "D": "Definite and absolute feeling"
-   },
-   "answer": "C",
-   "answer_text": "Effort to accentuate the difference"
-  },
-  {
    "q": "Feeling of responsibility toward the self of my relative",
    "options": {
     "A": "Trust",
@@ -38,6 +27,17 @@
    },
    "answer": "D",
    "answer_text": "Guidance"
+  },
+  {
+   "q": "Which of the following is not true about excellence?",
+   "options": {
+    "A": "Other humans are complementary to me",
+    "B": "It leads to unconditional relationship",
+    "C": "Effort to accentuate the difference",
+    "D": "Definite and absolute feeling"
+   },
+   "answer": "C",
+   "answer_text": "Effort to accentuate the difference"
   },
   {
    "q": "The statement – “the other is similar to me and we are complementary to each other” indicates the complete content of_____________",

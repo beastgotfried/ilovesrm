@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "3031",
+ "unit": 3,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "To enable students to understand the human being comprehensively as the first step",
+ "mcq": [
+  {
+   "q": "Which statement best reflects the theme of this course?",
+   "options": {
+    "A": "Education should produce experts in resource exploitation",
+    "B": "Education should focus on right understanding and human conduct for harmony in existence",
+    "C": "Education should avoid social concerns",
+    "D": "Education should only ensure personal profit"
+   },
+   "answer": "B",
+   "answer_text": "Education should focus on right understanding and human conduct for harmony in existence"
+  },
+  {
+   "q": "What is the role of comprehensive understanding of the human being in education?",
+   "options": {
+    "A": "To focus only on technical knowledge",
+    "B": "To integrate values, ethics, and holistic growth with technical skills",
+    "C": "To promote competition only",
+    "D": "To ignore social responsibility"
+   },
+   "answer": "B",
+   "answer_text": "To integrate values, ethics, and holistic growth with technical skills"
+  },
+  {
+   "q": "Why is this course important for engineers?",
+   "options": {
+    "A": "To increase market competitiveness",
+    "B": "To apply technical skills without ethics",
+    "C": "To combine technical competence with human values for sustainable and ethical solutions",
+    "D": "To focus only on profit-making"
+   },
+   "answer": "C",
+   "answer_text": "To combine technical competence with human values for sustainable and ethical solutions"
+  },
+  {
+   "q": "Which of the following is NOT part of comprehensive human understanding?",
+   "options": {
+    "A": "Knowing the role of self and body",
+    "B": "Understanding relationships in society",
+    "C": "Exploiting resources without limits",
+    "D": "Understanding harmony with nature"
+   },
+   "answer": "C",
+   "answer_text": "Exploiting resources without limits"
+  },
+  {
+   "q": "Comprehensive understanding of the human being leads to:",
+   "options": {
+    "A": "Conflicts and imbalance",
+    "B": "Right conduct, harmony in relationships, and sustainable living",
+    "C": "Unlimited desires and competition",
+    "D": "Exploitation of society and nature"
+   },
+   "answer": "B",
+   "answer_text": "Right conduct, harmony in relationships, and sustainable living"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is the study of the human being critical for engineering students?",
+   "answer": [
+    "Because engineers design solutions for society, and understanding human values ensures that technology serves humanity ethically and sustainably."
+   ]
+  },
+  {
+   "q": "How does self-exploration lead to harmony with others?",
+   "answer": [
+    "Self-exploration clarifies human aspirations (like happiness and prosperity), leading to mutual trust, respect, and just relationships with family and society."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain respect as right evaluation.",
+   "answer": [
+    "Respect means right evaluation of a human being. Right evaluation must be based on the Self, not only on the body, wealth, post, marks, caste, gender or physical appearance. Respect includes right evaluation of intention and competence. Wrong evaluation may be of three types: over-evaluation, under-evaluation and otherwise-evaluation. All these are forms of disrespect because they do not evaluate the person as they really are. The minimum content of respect is to understand that the other is similar to me. Both I and the other want continuous happiness and prosperity; both of us have the same basic program of understanding and living in harmony; and both of us have the potential for right understanding. Therefore, respect means seeing the other as a human being like me, while also recognising differences in competence without disrespecting the person."
+   ]
+  }
+ ]
+}

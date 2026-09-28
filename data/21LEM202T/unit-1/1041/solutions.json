@@ -18,17 +18,6 @@
    "answer_text": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance."
   },
   {
-   "q": "A students says: Nothing is universal in this world. Everything varies from person to person. So how can values be universal? What is the most appropriate response to this?",
-   "options": {
-    "A": "Yes, that’s true, values vary from person to person.",
-    "B": "When you say nothing is universal, you are assuming this statement to be universal. It's contradicting itself.",
-    "C": "Values depends on person time place and country.",
-    "D": "Values do vary with person but not with time."
-   },
-   "answer": "B",
-   "answer_text": "When you say nothing is universal, you are assuming this statement to be universal. It's contradicting itself."
-  },
-  {
    "q": "Which of the following are activities of the Self?",
    "options": {
     "A": "Digestion and respiration",
@@ -38,6 +27,17 @@
    },
    "answer": "B",
    "answer_text": "Right understanding and resolution"
+  },
+  {
+   "q": "Rahul is trying to understand the concept of self-exploration in his Universal Human Values class. He decides to apply the process of self-exploration to resolve a conflict with his friend. Which of the following steps should Rahul take to effectively apply self-exploration in this situation?",
+   "options": {
+    "A": "Ignore the conflict and focus on his personal goals.",
+    "B": "Blame his friend for the conflict without analyzing his own role.",
+    "C": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance.",
+    "D": "Avoid discussing the issue and wait for the conflict to resolve on its own."
+   },
+   "answer": "C",
+   "answer_text": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance."
   },
   {
    "q": "Development of human being essentially means___",
@@ -51,28 +51,28 @@
    "answer_text": "Transformation from animal consciousness to human consciousness"
   },
   {
-   "q": "Rahul is trying to understand the concept of self-exploration in his Universal Human Values class. He decides to apply the process of self-exploration to resolve a conflict with his friend. Which of the following steps should Rahul take to effectively apply self-exploration in this situation?",
+   "q": "A students says: Nothing is universal in this world. Everything varies from person to person. So how can values be universal? What is the most appropriate response to this?",
    "options": {
-    "A": "Ignore the conflict and focus on his personal goals.",
-    "B": "Blame his friend for the conflict without analyzing his own role.",
-    "C": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance.",
-    "D": "Avoid discussing the issue and wait for the conflict to resolve on its own."
+    "A": "Yes, that’s true, values vary from person to person.",
+    "B": "When you say nothing is universal, you are assuming this statement to be universal. It's contradicting itself.",
+    "C": "Values depends on person time place and country.",
+    "D": "Values do vary with person but not with time."
    },
-   "answer": "C",
-   "answer_text": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance."
+   "answer": "B",
+   "answer_text": "When you say nothing is universal, you are assuming this statement to be universal. It's contradicting itself."
   }
  ],
  "sq": [
   {
-   "q": "What role does Resolution play in daily life?",
-   "answer": [
-    "Resolution directs choices and actions, ensuring alignment with values and long-term well-being."
-   ]
-  },
-  {
    "q": "How do Right Understanding and Resolution together lead to happiness?",
    "answer": [
     "Right Understanding gives correct knowledge, and Resolution applies it in life, leading to harmony within self, family, society, and nature."
+   ]
+  },
+  {
+   "q": "What role does Resolution play in daily life?",
+   "answer": [
+    "Resolution directs choices and actions, ensuring alignment with values and long-term well-being."
    ]
   }
  ],

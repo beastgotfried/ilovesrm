@@ -7,17 +7,6 @@
  "slo_title": "Tutorial",
  "mcq": [
   {
-   "q": "In Relative Addressing Mode , the effective address is calculated as:",
-   "options": {
-    "A": "Base address + offset stored in memory",
-    "B": "Program Counter (PC) + displacement",
-    "C": "Register value + immediate value",
-    "D": "Direct memory location"
-   },
-   "answer": "B",
-   "answer_text": "Program Counter (PC) + displacement"
-  },
-  {
    "q": "Which addressing mode uses a register to hold the address of the operand rather than the operand itself?",
    "options": {
     "A": "Immediate",
@@ -29,15 +18,15 @@
    "answer_text": "Register Indirect"
   },
   {
-   "q": "In Immediate Addressing Mode , the operand is:",
+   "q": "In Relative Addressing Mode , the effective address is calculated as:",
    "options": {
-    "A": "Stored in memory",
-    "B": "Present in a register",
-    "C": "Specified directly in the instruction",
-    "D": "Obtained from the stack"
+    "A": "Base address + offset stored in memory",
+    "B": "Program Counter (PC) + displacement",
+    "C": "Register value + immediate value",
+    "D": "Direct memory location"
    },
-   "answer": "C",
-   "answer_text": "Specified directly in the instruction"
+   "answer": "B",
+   "answer_text": "Program Counter (PC) + displacement"
   },
   {
    "q": "Which addressing mode minimizes instruction size and execution time? a) b) c) d)",
@@ -60,19 +49,30 @@
    },
    "answer": "B",
    "answer_text": "Found in a CPU register"
+  },
+  {
+   "q": "In Immediate Addressing Mode , the operand is:",
+   "options": {
+    "A": "Stored in memory",
+    "B": "Present in a register",
+    "C": "Specified directly in the instruction",
+    "D": "Obtained from the stack"
+   },
+   "answer": "C",
+   "answer_text": "Specified directly in the instruction"
   }
  ],
  "sq": [
   {
    "q": "",
    "answer": [
-    "The Control Unit (CU) , with the help of the Program Counter (PC) , manages instruction sequencing."
+    "Instruction sequencing is the process by which the CPU ensures that program instructions are executed in the correct logical order, usually controlled by the Program Counter (PC) ."
    ]
   },
   {
    "q": "",
    "answer": [
-    "Instruction sequencing is the process by which the CPU ensures that program instructions are executed in the correct logical order, usually controlled by the Program Counter (PC) ."
+    "The Control Unit (CU) , with the help of the Program Counter (PC) , manages instruction sequencing."
    ]
   }
  ],

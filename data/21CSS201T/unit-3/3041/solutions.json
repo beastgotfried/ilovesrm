@@ -7,15 +7,15 @@
  "slo_title": "Describe and implement unsigned binary multiplication using shift-and-add methods.",
  "mcq": [
   {
-   "q": "In the shift-and-add multiplication method, what determines whether the multiplicand is added to the partial product?",
+   "q": "During a hardware-based shift-and-add multiplication, after each step:",
    "options": {
-    "A": "The most significant bit (MSB) of the multiplicand",
-    "B": "The least significant bit (LSB) of the multiplier",
-    "C": "The carry bit of the adder",
-    "D": "The XOR of the multiplicand and multiplier bits"
+    "A": "The multiplier is shifted left and the multiplicand is shifted right.",
+    "B": "The multiplier is shifted right and the multiplicand is shifted left.",
+    "C": "Both the multiplicand and multiplier are shifted right.",
+    "D": "The multiplicand is shifted right while the product register is shifted left."
    },
    "answer": "B",
-   "answer_text": "The least significant bit (LSB) of the multiplier"
+   "answer_text": "The multiplier is shifted right and the multiplicand is shifted left."
   },
   {
    "q": "Which of the following is a drawback of basic shift-and-add multiplication?",
@@ -51,15 +51,15 @@
    "answer_text": "2n bits"
   },
   {
-   "q": "During a hardware-based shift-and-add multiplication, after each step:",
+   "q": "In the shift-and-add multiplication method, what determines whether the multiplicand is added to the partial product?",
    "options": {
-    "A": "The multiplier is shifted left and the multiplicand is shifted right.",
-    "B": "The multiplier is shifted right and the multiplicand is shifted left.",
-    "C": "Both the multiplicand and multiplier are shifted right.",
-    "D": "The multiplicand is shifted right while the product register is shifted left."
+    "A": "The most significant bit (MSB) of the multiplicand",
+    "B": "The least significant bit (LSB) of the multiplier",
+    "C": "The carry bit of the adder",
+    "D": "The XOR of the multiplicand and multiplier bits"
    },
    "answer": "B",
-   "answer_text": "The multiplier is shifted right and the multiplicand is shifted left."
+   "answer_text": "The least significant bit (LSB) of the multiplier"
   }
  ],
  "sq": [

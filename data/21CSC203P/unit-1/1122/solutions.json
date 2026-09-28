@@ -7,17 +7,6 @@
  "slo_title": "Evaluate the integration of parallel computing in modern programming languages",
  "mcq": [
   {
-   "q": "What is a key challenge when evaluating parallel computing in modern languages?",
-   "options": {
-    "A": "a) Reducing object-oriented features",
-    "B": "b) Handling synchronization, race conditions, and shared resource conflicts",
-    "C": "c) Avoiding any thread usage ​​​​​",
-    "D": "d) Eliminating variable declarations"
-   },
-   "answer": "B",
-   "answer_text": "b) Handling synchronization, race conditions, and shared resource conflicts"
-  },
-  {
    "q": "How is parallelism typically implemented in modern languages like Java or Python?",
    "options": {
     "A": "a) Through manual memory management",
@@ -40,17 +29,6 @@
    "answer_text": "b) A single independent path of execution within a program"
   },
   {
-   "q": "Which of the following best describes concurrency?",
-   "options": {
-    "A": "a) Tasks are executed in strict order",
-    "B": "b) Tasks are scheduled to appear as if they are running simultaneously",
-    "C": "c) Only one thread is used per program ​​​​​",
-    "D": "d) Execution is done without any synchronization"
-   },
-   "answer": "B",
-   "answer_text": "b) Tasks are scheduled to appear as if they are running simultaneously"
-  },
-  {
    "q": "What is the main goal of parallel computing?",
    "options": {
     "A": "a) To use more memory",
@@ -60,19 +38,41 @@
    },
    "answer": "C",
    "answer_text": "c) To perform multiple tasks simultaneously for faster performance ​​​​​"
+  },
+  {
+   "q": "What is a key challenge when evaluating parallel computing in modern languages?",
+   "options": {
+    "A": "a) Reducing object-oriented features",
+    "B": "b) Handling synchronization, race conditions, and shared resource conflicts",
+    "C": "c) Avoiding any thread usage ​​​​​",
+    "D": "d) Eliminating variable declarations"
+   },
+   "answer": "B",
+   "answer_text": "b) Handling synchronization, race conditions, and shared resource conflicts"
+  },
+  {
+   "q": "Which of the following best describes concurrency?",
+   "options": {
+    "A": "a) Tasks are executed in strict order",
+    "B": "b) Tasks are scheduled to appear as if they are running simultaneously",
+    "C": "c) Only one thread is used per program ​​​​​",
+    "D": "d) Execution is done without any synchronization"
+   },
+   "answer": "B",
+   "answer_text": "b) Tasks are scheduled to appear as if they are running simultaneously"
   }
  ],
  "sq": [
   {
-   "q": "A chat application needs to store user messages for future retrieval. How does object serialization fulfill this requirement?",
-   "answer": [
-    "Serialization converts objects into a storable format (e.g., binary or JSON), enabling persistent storage and easy reconstruction of object state when needed."
-   ]
-  },
-  {
    "q": "A web server must handle file uploads from multiple clients simultaneously. What approach ensures better efficiency in this scenario?",
    "answer": [
     "Implementing multi-threading allows concurrent uploads, while serialization can be used to store metadata for tracking and recovery, improving throughput and reliability."
+   ]
+  },
+  {
+   "q": "A chat application needs to store user messages for future retrieval. How does object serialization fulfill this requirement?",
+   "answer": [
+    "Serialization converts objects into a storable format (e.g., binary or JSON), enabling persistent storage and easy reconstruction of object state when needed."
    ]
   }
  ],

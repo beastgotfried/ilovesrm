@@ -1,0 +1,119 @@
+{
+ "course": "21CSC203P",
+ "code": "5012",
+ "unit": 5,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "Model simple regular expressions using automata",
+ "mcq": [
+  {
+   "q": "DFA stands for:",
+   "options": {
+    "A": "Dynamic Finite Automaton",
+    "B": "Deterministic Finite Automaton",
+    "C": "Dual Finite Automaton",
+    "D": "Defined Finite Automaton"
+   },
+   "answer": "B",
+   "answer_text": "Deterministic Finite Automaton"
+  },
+  {
+   "q": "Finite automata are used to model:",
+   "options": {
+    "A": "Algorithms",
+    "B": "Computations",
+    "C": "Data structures",
+    "D": "Programs"
+   },
+   "answer": "B",
+   "answer_text": "Computations"
+  },
+  {
+   "q": "In automata theory, states correspond to:",
+   "options": {
+    "A": "Transitions",
+    "B": "Configurations during computation",
+    "C": "Input symbols",
+    "D": "Output values"
+   },
+   "answer": "B",
+   "answer_text": "Configurations during computation"
+  },
+  {
+   "q": "Which of the following is a type of finite automaton?",
+   "options": {
+    "A": "DFA",
+    "B": "CFG",
+    "C": "PDA",
+    "D": "Turing Machine"
+   },
+   "answer": "A",
+   "answer_text": "DFA"
+  },
+  {
+   "q": "A regular expression (a|b) represents: *",
+   "options": {
+    "A": "All strings of a’s only",
+    "B": "All strings of b’s only",
+    "C": "All combinations of a and b including empty string",
+    "D": "Only empty string"
+   },
+   "answer": "C",
+   "answer_text": "All combinations of a and b including empty string"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Name two types of finite automata.",
+   "answer": [
+    "Deterministic Finite Automata (DFA) and Non-Deterministic Finite Automata (NFA)."
+   ]
+  },
+  {
+   "q": "What is finite automata?",
+   "answer": [
+    "Finite automata is a mathematical model of computation that consists of states and transitions, used to recognize patterns in input strings."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Apply the concept of DFA and NFA to recognize the pattern of binary strings ending in ‘01’. Construct both DFA and NFA for the pattern.",
+   "answer": [
+    "To recognize binary strings ending in ‘01’, we can define a DFA with 3 states:",
+    "q0: Start state",
+    "q0: Start state",
+    "q1: After seeing ‘0’",
+    "q1: After seeing ‘0’",
+    "q2: After seeing ‘01’ (accepting state)",
+    "q2: After seeing ‘01’ (accepting state)",
+    "DFA:",
+    "δ(q0, 0) = q1",
+    "δ(q0, 0) = q1",
+    "δ(q0, 1) = q0",
+    "δ(q0, 1) = q0",
+    "δ(q1, 0) = q1",
+    "δ(q1, 0) = q1",
+    "δ(q1, 1) = q2",
+    "δ(q1, 1) = q2",
+    "δ(q2, 0) = q1",
+    "δ(q2, 0) = q1",
+    "δ(q2, 1) = q0",
+    "δ(q2, 1) = q0",
+    "NFA can be simpler:",
+    "Start at q0",
+    "Start at q0",
+    "On 0, move to q1",
+    "On 0, move to q1",
+    "On 1 from q1, move to q2 (final)",
+    "On 1 from q1, move to q2 (final)",
+    "NFA Transitions:",
+    "q0 → 0 → q1",
+    "q0 → 0 → q1",
+    "q1 → 1 → q2",
+    "q1 → 1 → q2",
+    "This demonstrates both automata modeling the same language."
+   ]
+  }
+ ]
+}

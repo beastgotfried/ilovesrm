@@ -1,0 +1,94 @@
+{
+ "course": "21CSC203P",
+ "code": "5051",
+ "unit": 5,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Perform algebraic simplifications using Sympy",
+ "mcq": [
+  {
+   "q": "Abstraction in SymPy means:",
+   "options": {
+    "A": "Working at symbolic level without numeric evaluation",
+    "B": "Sorting symbolic variables",
+    "C": "Reading user input",
+    "D": "Writing to disk"
+   },
+   "answer": "A",
+   "answer_text": "Working at symbolic level without numeric evaluation"
+  },
+  {
+   "q": "SymPy is mainly used for:",
+   "options": {
+    "A": "Symbolic computation",
+    "B": "Web development",
+    "C": "Image processing",
+    "D": "Networking"
+   },
+   "answer": "A",
+   "answer_text": "Symbolic computation"
+  },
+  {
+   "q": "Why use SymPy for algebraic simplification?",
+   "options": {
+    "A": "Provides exact symbolic result",
+    "B": "Provides random output",
+    "C": "Generates files",
+    "D": "Modifies code"
+   },
+   "answer": "A",
+   "answer_text": "Provides exact symbolic result"
+  },
+  {
+   "q": "Polynomial operations involve:",
+   "options": {
+    "A": "Adding, subtracting, multiplying polynomials",
+    "B": "Concatenating strings",
+    "C": "Reading files",
+    "D": "Sorting lists"
+   },
+   "answer": "A",
+   "answer_text": "Adding, subtracting, multiplying polynomials"
+  },
+  {
+   "q": "A polynomial is:",
+   "options": {
+    "A": "Expression with powers of variable",
+    "B": "A file format",
+    "C": "A GUI element",
+    "D": "A network protocol"
+   },
+   "answer": "A",
+   "answer_text": "Expression with powers of variable"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the result of simplifying \\((x^2-1)/(x-1)\\) ?",
+   "answer": [
+    "The simplified form is \\(x+1\\)"
+   ]
+  },
+  {
+   "q": "Which Python library is commonly used for symbolic algebra?",
+   "answer": [
+    "The Sympy library."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Apply Sympy to perform simplification and operations on polynomial and rational expressions. Provide code and output.",
+   "answer": [
+    "Sympy can simplify and perform algebraic operations precisely. Example:",
+    "from sympy import simplify, symbols",
+    "x = symbols('x') expr = (x**2 - 1)/(x - 1) simplified_expr = simplify(expr)",
+    "print(simplified_expr) # x + 1",
+    "For polynomial multiplication:",
+    "from sympy import expand expr = (x + 2)*(x - 3) result = expand(expr)",
+    "print(result) # x**2 - x - 6",
+    "These show how symbolic algebra preserves the exactness of expression manipulation, useful in engineering, cryptography, and optimization tasks."
+   ]
+  }
+ ]
+}

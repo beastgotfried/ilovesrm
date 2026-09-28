@@ -7,17 +7,6 @@
  "slo_title": " Explain holistic development and the role of education in achieving it.",
  "mcq": [
   {
-   "q": "The activities of desire, thought and expectation happens in ______________",
-   "options": {
-    "A": "Dream",
-    "B": "Imagination",
-    "C": "Behaviour",
-    "D": "Expression"
-   },
-   "answer": "B",
-   "answer_text": "Imagination"
-  },
-  {
    "q": "Which of the following will bring fulfilment in the self?",
    "options": {
     "A": "Physical facility",
@@ -27,17 +16,6 @@
    },
    "answer": "C",
    "answer_text": "Right understanding"
-  },
-  {
-   "q": "If our imagination is based on pre-conditioning and sensation, we are in the state of:",
-   "options": {
-    "A": "Natural Acceptance",
-    "B": "Harmony",
-    "C": "Disharmony",
-    "D": "None of the above"
-   },
-   "answer": "C",
-   "answer_text": "Disharmony"
   },
   {
    "q": "UHV is a proposal. Verify it on the basis of your ___________",
@@ -51,6 +29,17 @@
    "answer_text": "Natural acceptance"
   },
   {
+   "q": "If our imagination is based on pre-conditioning and sensation, we are in the state of:",
+   "options": {
+    "A": "Natural Acceptance",
+    "B": "Harmony",
+    "C": "Disharmony",
+    "D": "None of the above"
+   },
+   "answer": "C",
+   "answer_text": "Disharmony"
+  },
+  {
    "q": "Which is definite, Continuous and Universal in self?",
    "options": {
     "A": "Knowing",
@@ -60,6 +49,17 @@
    },
    "answer": "A",
    "answer_text": "Knowing"
+  },
+  {
+   "q": "The activities of desire, thought and expectation happens in ______________",
+   "options": {
+    "A": "Dream",
+    "B": "Imagination",
+    "C": "Behaviour",
+    "D": "Expression"
+   },
+   "answer": "B",
+   "answer_text": "Imagination"
   }
  ],
  "sq": [

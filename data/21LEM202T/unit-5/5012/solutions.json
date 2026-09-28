@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "5012",
+ "unit": 5,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "evaluate its role in ensuring harmony at the individual, familial, and societal levels.",
+ "mcq": [
+  {
+   "q": "What is the entry point for setting up the human tradition in society?",
+   "options": {
+    "A": "Human constitution",
+    "B": "Human education",
+    "C": "Human conduct",
+    "D": "Human order"
+   },
+   "answer": "B",
+   "answer_text": "Human education"
+  },
+  {
+   "q": "How many Human Goal and how many dimensions are there?",
+   "options": {
+    "A": "4 and 5",
+    "B": "5 and 4",
+    "C": "Each 5",
+    "D": "Each 4"
+   },
+   "answer": "A",
+   "answer_text": "4 and 5"
+  },
+  {
+   "q": "What is there as the basis for all values?",
+   "options": {
+    "A": "Enrichment",
+    "B": "Protection",
+    "C": "Co-existence",
+    "D": "Preservation"
+   },
+   "answer": "C",
+   "answer_text": "Co-existence"
+  },
+  {
+   "q": "The coordination of behaviour, work & participation in the larger order based on human values is _______",
+   "options": {
+    "A": "Ethics",
+    "B": "Professional ethics",
+    "C": "Professionalism",
+    "D": "Ethical conduct"
+   },
+   "answer": "D",
+   "answer_text": "Ethical conduct"
+  },
+  {
+   "q": "In holistic production systems, which factor is emphasized the most?",
+   "options": {
+    "A": "Automation and mechanization only",
+    "B": "Environmental sustainability and human welfare",
+    "C": "Importing raw materials",
+    "D": "Reducing wages to cut costs"
+   },
+   "answer": "B",
+   "answer_text": "Environmental sustainability and human welfare"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is understanding human conduct important?",
+   "answer": [
+    "It is important because it helps individuals make responsible decisions, live ethically, and contribute positively to society and sustainable development."
+   ]
+  },
+  {
+   "q": "What is meant by human conduct?",
+   "answer": [
+    "Human conduct refers to the way a person lives and behaves, guided by their values, intentions, and understanding of harmony with self, others, and nature."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain natural acceptance of human values.",
+   "answer": [
+    "Natural acceptance of human values means that the values required for human living are already acceptable to us at the level of the Self. When we understand harmony at different levels, our participation in that harmony becomes our value. In relationship, values such as trust, respect, affection, care, guidance, reverence, glory, gratitude and love lead to mutual happiness. In work with the rest of nature, right utilisation, protection and enrichment lead to prosperity and preservation of nature. These values are not imposed from outside; they are naturally acceptable because every human being wants happiness, prosperity, relationship and harmony. When right understanding develops, value-based living becomes natural and leads to harmony at individual, family, society and nature levels."
+   ]
+  }
+ ]
+}

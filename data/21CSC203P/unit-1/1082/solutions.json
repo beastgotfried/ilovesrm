@@ -29,17 +29,6 @@
    "answer_text": "c) Binary code executed directly by the CPU ​​​​​​​ ​​​​​​​"
   },
   {
-   "q": "Which feature of object-oriented programming supports abstraction?",
-   "options": {
-    "A": "a) Variables",
-    "B": "b) Loops",
-    "C": "c) Encapsulation ​​​​​​​ ​​​​​​​",
-    "D": "d) Compilation"
-   },
-   "answer": "C",
-   "answer_text": "c) Encapsulation ​​​​​​​ ​​​​​​​"
-  },
-  {
    "q": "What is a key difference between machine code and high-level languages?",
    "options": {
     "A": "a) Machine code is written for readability",
@@ -49,6 +38,17 @@
    },
    "answer": "D",
    "answer_text": "d) High-level languages are more abstract and easier to read"
+  },
+  {
+   "q": "Which feature of object-oriented programming supports abstraction?",
+   "options": {
+    "A": "a) Variables",
+    "B": "b) Loops",
+    "C": "c) Encapsulation ​​​​​​​ ​​​​​​​",
+    "D": "d) Compilation"
+   },
+   "answer": "C",
+   "answer_text": "c) Encapsulation ​​​​​​​ ​​​​​​​"
   },
   {
    "q": "How does procedural programming approach abstraction?",

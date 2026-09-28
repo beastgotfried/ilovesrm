@@ -1,0 +1,91 @@
+{
+ "course": "21CSC203P",
+ "code": "5102",
+ "unit": 5,
+ "session": 10,
+ "slo": 2,
+ "slo_title": "Integrate backend logic with event responses",
+ "mcq": [
+  {
+   "q": "Event response in GUI means:",
+   "options": {
+    "A": "File path reading",
+    "B": "JSON writing",
+    "C": "Directory listing",
+    "D": "Backend action triggered by event"
+   },
+   "answer": "D",
+   "answer_text": "Backend action triggered by event"
+  },
+  {
+   "q": "Frontend-backend sync ensures:",
+   "options": {
+    "A": "Faster file reads",
+    "B": "String sorting",
+    "C": "Consistent data flow",
+    "D": "Array merging"
+   },
+   "answer": "C",
+   "answer_text": "Consistent data flow"
+  },
+  {
+   "q": "A trigger function in GUI means:",
+   "options": {
+    "A": "A function called on event",
+    "B": "File reader",
+    "C": "Sort function",
+    "D": "Loop condition"
+   },
+   "answer": "A",
+   "answer_text": "A function called on event"
+  },
+  {
+   "q": "Why integrate backend logic with frontend?",
+   "options": {
+    "A": "To sort arrays",
+    "B": "To process data based on user input",
+    "C": "To compress files",
+    "D": "To read JSON"
+   },
+   "answer": "B",
+   "answer_text": "To process data based on user input"
+  },
+  {
+   "q": "Trigger functions connect:",
+   "options": {
+    "A": "Events to backend logic",
+    "B": "Files to directories",
+    "C": "Loops to arrays",
+    "D": "Strings to numbers"
+   },
+   "answer": "A",
+   "answer_text": "Events to backend logic"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is integrating backend logic important in event-driven apps?",
+   "answer": [
+    "It ensures the GUI actions result in correct data processing and functionality."
+   ]
+  },
+  {
+   "q": "What is a trigger function in GUI programming?",
+   "answer": [
+    "A function that executes in response to a specific event, such as clicking a button."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Evaluate how backend logic can be effectively integrated with frontend GUI elements using events. Provide a Python example.",
+   "answer": [
+    "Effective integration ensures the GUI reflects backend computations dynamically. Example:",
+    "from tkinter import *",
+    "def calculate(): try: result = eval(entry.get()) label.config(text=f\"Result: {result}\") except: label.config(text=\"Invalid input\")",
+    "window = Tk() entry = Entry(window) entry.pack() Button(window, text=\"Compute\", command=calculate).pack() label = Label(window, text=\"\") label.pack() window.mainloop()",
+    "Here, user input is processed via backend ( eval() ), and output is reflected in GUI. Evaluation shows how events act as the bridge between UI and logic."
+   ]
+  }
+ ]
+}

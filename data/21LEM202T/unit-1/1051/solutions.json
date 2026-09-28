@@ -7,6 +7,17 @@
  "slo_title": "Define happiness and prosperity and identify them as the basic human aspirations.",
  "mcq": [
   {
+   "q": "Which is definite, Continuous and Universal in self?",
+   "options": {
+    "A": "Knowing",
+    "B": "Assuming",
+    "C": "Recognising",
+    "D": "Fulfilling"
+   },
+   "answer": "A",
+   "answer_text": "Knowing"
+  },
+  {
    "q": "Which is not there at the level of Body",
    "options": {
     "A": "Recognizing",
@@ -29,28 +40,6 @@
    "answer_text": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance."
   },
   {
-   "q": "If our imagination is based on pre-conditioning and sensation, we are in the state of:",
-   "options": {
-    "A": "Natural Acceptance",
-    "B": "Harmony",
-    "C": "Disharmony",
-    "D": "None of the above"
-   },
-   "answer": "C",
-   "answer_text": "Disharmony"
-  },
-  {
-   "q": "Which is definite, Continuous and Universal in self?",
-   "options": {
-    "A": "Knowing",
-    "B": "Assuming",
-    "C": "Recognising",
-    "D": "Fulfilling"
-   },
-   "answer": "A",
-   "answer_text": "Knowing"
-  },
-  {
    "q": "What is not included in the process of self – exploration?",
    "options": {
     "A": "Verifying the proposal at the level of Natural Acceptance",
@@ -60,6 +49,17 @@
    },
    "answer": "C",
    "answer_text": "Comparing the proposal with other’s opinion"
+  },
+  {
+   "q": "If our imagination is based on pre-conditioning and sensation, we are in the state of:",
+   "options": {
+    "A": "Natural Acceptance",
+    "B": "Harmony",
+    "C": "Disharmony",
+    "D": "None of the above"
+   },
+   "answer": "C",
+   "answer_text": "Disharmony"
   }
  ],
  "sq": [

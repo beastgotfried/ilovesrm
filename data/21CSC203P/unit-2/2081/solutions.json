@@ -7,15 +7,15 @@
  "slo_title": "Explain the concept of abstraction and implement it using abstract classes and interfaces in Java.",
  "mcq": [
   {
-   "q": "What is encapsulation primarily used for?",
+   "q": "Which of these is true about abstract methods?",
    "options": {
-    "A": "Reusing code",
-    "B": "Making classes static",
-    "C": "Hiding data and protecting access",
-    "D": "Overloading constructors"
+    "A": "They must have a body",
+    "B": "They can be declared in regular classes",
+    "C": "They are declared using abstract and have no body",
+    "D": "They cannot be overridden"
    },
    "answer": "C",
-   "answer_text": "Hiding data and protecting access"
+   "answer_text": "They are declared using abstract and have no body"
   },
   {
    "q": "Which keyword is used in Java to define an abstract class?",
@@ -29,15 +29,15 @@
    "answer_text": "abstract"
   },
   {
-   "q": "Which of these is true about abstract methods?",
+   "q": "What is encapsulation primarily used for?",
    "options": {
-    "A": "They must have a body",
-    "B": "They can be declared in regular classes",
-    "C": "They are declared using abstract and have no body",
-    "D": "They cannot be overridden"
+    "A": "Reusing code",
+    "B": "Making classes static",
+    "C": "Hiding data and protecting access",
+    "D": "Overloading constructors"
    },
    "answer": "C",
-   "answer_text": "They are declared using abstract and have no body"
+   "answer_text": "Hiding data and protecting access"
   },
   {
    "q": "Which of the following demonstrates encapsulation in Java?",

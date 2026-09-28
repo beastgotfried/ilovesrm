@@ -7,6 +7,28 @@
  "slo_title": "Handle thread synchronization and communication",
  "mcq": [
   {
+   "q": "Which method places the current thread into waiting state until it is notified?",
+   "options": {
+    "A": "sleep()",
+    "B": "wait()",
+    "C": "notify()",
+    "D": "yield()"
+   },
+   "answer": "B",
+   "answer_text": "wait()"
+  },
+  {
+   "q": "When a thread calls join() on another thread, what happens?",
+   "options": {
+    "A": "It kills the other thread",
+    "B": "It starts executing in parallel",
+    "C": "It waits for the other thread to finish",
+    "D": "It sleeps for a specified time"
+   },
+   "answer": "C",
+   "answer_text": "It waits for the other thread to finish"
+  },
+  {
    "q": "Which of the following methods is not directly involved in managing thread lifecycle?",
    "options": {
     "A": "start()",
@@ -29,17 +51,6 @@
    "answer_text": "The current thread must not hold the object's lock"
   },
   {
-   "q": "When a thread calls join() on another thread, what happens?",
-   "options": {
-    "A": "It kills the other thread",
-    "B": "It starts executing in parallel",
-    "C": "It waits for the other thread to finish",
-    "D": "It sleeps for a specified time"
-   },
-   "answer": "C",
-   "answer_text": "It waits for the other thread to finish"
-  },
-  {
    "q": "Which of the following is true about the sleep() method in Java?",
    "options": {
     "A": "It releases the lock and pauses execution",
@@ -49,26 +60,9 @@
    },
    "answer": "B",
    "answer_text": "It does not release any lock"
-  },
-  {
-   "q": "Which method places the current thread into waiting state until it is notified?",
-   "options": {
-    "A": "sleep()",
-    "B": "wait()",
-    "C": "notify()",
-    "D": "yield()"
-   },
-   "answer": "B",
-   "answer_text": "wait()"
   }
  ],
  "sq": [
-  {
-   "q": "What is the role of synchronized keyword in Java thread management?",
-   "answer": [
-    "The synchronized keyword ensures mutual exclusion by allowing only one thread to access a block/method at a time. It prevents data inconsistency in concurrent environments."
-   ]
-  },
   {
    "q": "How does inter-thread communication occur using wait() , notify() , and notifyAll() ?",
    "answer": [
@@ -78,6 +72,12 @@
     "Another thread (holding the same lock) calls notify() or notifyAll() to wake the waiting thread(s).",
     "Ensures coordination between threads, especially in producer-consumer scenarios.",
     "Ensures coordination between threads, especially in producer-consumer scenarios."
+   ]
+  },
+  {
+   "q": "What is the role of synchronized keyword in Java thread management?",
+   "answer": [
+    "The synchronized keyword ensures mutual exclusion by allowing only one thread to access a block/method at a time. It prevents data inconsistency in concurrent environments."
    ]
   }
  ],

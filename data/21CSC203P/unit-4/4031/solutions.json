@@ -1,0 +1,93 @@
+{
+ "course": "21CSC203P",
+ "code": "4031",
+ "unit": 4,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Create and use custom higher-order functions",
+ "mcq": [
+  {
+   "q": "What is a higher-order function?",
+   "options": {
+    "A": "A) A function that only works with numbers",
+    "B": "B) A function that can return another function or take a function as an argument",
+    "C": "C) A function that executes faster than others",
+    "D": "D) A function that cannot use parameters"
+   },
+   "answer": "B",
+   "answer_text": "B) A function that can return another function or take a function as an argument"
+  },
+  {
+   "q": "What is the correct syntax for a lambda function that adds 10 to its argument?",
+   "options": {
+    "A": "A) lambda x + 10",
+    "B": "B) lambda x: x + 10",
+    "C": "C) function(x) = x + 10",
+    "D": "D) add = (x -> x + 10)"
+   },
+   "answer": "B",
+   "answer_text": "B) lambda x: x + 10"
+  },
+  {
+   "q": "What does the following code return? def apply_twice(f, x): return f(f(x)) apply_twice(lambda x: x + 2, 3)",
+   "options": {
+    "A": "A) 5",
+    "B": "B) 7",
+    "C": "C) 9",
+    "D": "D) Error"
+   },
+   "answer": "B",
+   "answer_text": "B) 7"
+  },
+  {
+   "q": "How do custom higher-order functions help with modular design?",
+   "options": {
+    "A": "A) They reduce the need for parameters",
+    "B": "B) They allow building reusable logic blocks by accepting or returning functions",
+    "C": "C) They depend on global variables for functionality",
+    "D": "D) They are only used in object-oriented programming"
+   },
+   "answer": "B",
+   "answer_text": "B) They allow building reusable logic blocks by accepting or returning functions"
+  },
+  {
+   "q": "Which of the following is NOT a benefit of using lambda functions?",
+   "options": {
+    "A": "A) Concise function declaration",
+    "B": "B) Readability in short functions",
+    "C": "C) Named reusability across modules",
+    "D": "D) Quick anonymous usage in expressions"
+   },
+   "answer": "C",
+   "answer_text": "C) Named reusability across modules"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A program should apply a discount formula to many products. How would a custom higher-order function help?",
+   "answer": [
+    "You can write a function that takes another function as an argument to apply the discount. This allows the discount logic to be reused for different pricing models. Higher-order functions increase modularity and reduce code duplication."
+   ]
+  },
+  {
+   "q": "Write a lambda to square all numbers in a list using map() .",
+   "answer": [
+    "The code is: list(map(lambda x: x**2, [1, 2, 3])) . This uses a lambda to define the transformation logic in-line. It results in a new list with the squares of the original values."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are building a student grading system. The system receives a list of student scores and must apply different grading policies dynamically, such as: Converting marks to grades (A, B, C, etc.). Converting marks to grades (A, B, C, etc.). Adding bonus marks to high-performing students. Adding bonus marks to high-performing students. Applying penalties for low attendance. Applying penalties for low attendance. Your lead developer recommends using custom higher-order functions and lambda expressions to make the system modular and concise . Task: Define a higher-order function and explain how it helps modular design. (4 marks) Define a higher-order function and explain how it helps modular design. (4 marks) Write a Python program that defines a custom higher-order function to apply different grading logics using lambda expressions. (6 marks) Write a Python program that defines a custom higher-order function to apply different grading logics using lambda expressions. (6 marks) Explain how using anonymous functions (lambdas) and functional idioms improves flexibility in problem-solving. (5 marks) Explain how using anonymous functions (lambdas) and functional idioms improves flexibility in problem-solving. (5 marks)",
+   "answer": [
+    "A higher-order function takes other functions as arguments or returns a function. It promotes modular design by allowing flexible logic without changing the function structure.",
+    "Lambdas provide quick, in-place logic without defining full functions.",
+    "Lambdas provide quick, in-place logic without defining full functions.",
+    "Functional idioms like mapping functions keep code concise and readable .",
+    "Functional idioms like mapping functions keep code concise and readable .",
+    "Help create flexible, reusable, and testable code for real-world problems.",
+    "Help create flexible, reusable, and testable code for real-world problems."
+   ]
+  }
+ ]
+}

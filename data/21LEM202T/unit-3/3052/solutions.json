@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "3052",
+ "unit": 3,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "recognize their distinct roles in ensuring holistic human existence.",
+ "mcq": [
+  {
+   "q": "The self is sustained by:",
+   "options": {
+    "A": "Air and water",
+    "B": "Respect, trust, right understanding, and knowledge",
+    "C": "Vitamins and minerals",
+    "D": "Only biological processes"
+   },
+   "answer": "B",
+   "answer_text": "Respect, trust, right understanding, and knowledge"
+  },
+  {
+   "q": "Which of the following reflects the harmony of self and body?",
+   "options": {
+    "A": "Unhealthy lifestyle despite good knowledge",
+    "B": "Right understanding in self, leading to proper care of the body",
+    "C": "Ignoring physical needs for long hours",
+    "D": "Overeating due to stress"
+   },
+   "answer": "B",
+   "answer_text": "Right understanding in self, leading to proper care of the body"
+  },
+  {
+   "q": "Why is the self considered primary in coexistence?",
+   "options": {
+    "A": "Because it guides the body through desires, thoughts, and decisions",
+    "B": "Because it performs digestion",
+    "C": "Because it grows physically",
+    "D": "Because it generates energy for muscles"
+   },
+   "answer": "A",
+   "answer_text": "Because it guides the body through desires, thoughts, and decisions"
+  },
+  {
+   "q": "For holistic human development, it is essential to:",
+   "options": {
+    "A": "Focus only on physical health",
+    "B": "Focus only on intellectual growth",
+    "C": "Ensure harmony between self and body",
+    "D": "Ignore both and rely on technology"
+   },
+   "answer": "C",
+   "answer_text": "Ensure harmony between self and body"
+  },
+  {
+   "q": "What happens if we take care of the body but ignore the self?",
+   "options": {
+    "A": "Complete harmony is achieved",
+    "B": "Physical health improves but conflicts, dissatisfaction, and stress remain",
+    "C": "Nothing changes",
+    "D": "Self and body remain balanced automatically"
+   },
+   "answer": "B",
+   "answer_text": "Physical health improves but conflicts, dissatisfaction, and stress remain"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is understanding the co-existence of self and body important for engineering students?",
+   "answer": [
+    "Understanding this helps engineering students appreciate human-centered design, ergonomics, AI-human interactions, and ethical considerations in technology, as it emphasizes both physical and conscious aspects of humans."
+   ]
+  },
+  {
+   "q": "Give an example of how the self and body work together in daily life.",
+   "answer": [
+    "While driving a car, the body performs physical actions like steering and braking, while the self makes decisions, observes surroundings, and plans routes. Both must function together for safe driving."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the meaning of harmony in society.",
+   "answer": [
+    "Society is the next larger order after family. It is made up of many families living together and making collective effort for a common goal. Harmony in society means that human beings live together in a way that fulfils the human goal. The human goal includes right understanding and right feeling in every individual, prosperity in every family, fearlessness or trust in society, and co-existence with nature. For this, society requires proper systems such as education-sanskar, health-sanyam, production-work, justice-suraksha and exchange-storage. When these systems are guided by right understanding, they support mutual happiness and mutual prosperity. Thus, a harmonious society is not just a crowd of people; it is a family-based society where individuals and families participate responsibly for the fulfilment of the human goal."
+   ]
+  }
+ ]
+}

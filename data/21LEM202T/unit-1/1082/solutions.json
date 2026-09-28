@@ -7,6 +7,17 @@
  "slo_title": "Outline how right understanding leads to the resolution of issues at all levels of living.",
  "mcq": [
   {
+   "q": "Which of the following is an outcome of practicing all-encompassing resolution?",
+   "options": {
+    "A": "Inner harmony",
+    "B": "Conflicts with nature",
+    "C": "Unethical actions",
+    "D": "Self-centeredness"
+   },
+   "answer": "A",
+   "answer_text": "Inner harmony"
+  },
+  {
    "q": "Which dimension of human endeavor is included in all-encompassing resolution?",
    "options": {
     "A": "Realization",
@@ -16,6 +27,17 @@
    },
    "answer": "D",
    "answer_text": "All of the above"
+  },
+  {
+   "q": "Why is self-evaluation important in resolution?",
+   "options": {
+    "A": "To ignore mistakes",
+    "B": "To reflect on actions and improve decision-making",
+    "C": "To compete with others",
+    "D": "To memorize instructions"
+   },
+   "answer": "B",
+   "answer_text": "To reflect on actions and improve decision-making"
   },
   {
    "q": "How does all-encompassing resolution help in problem-solving?e",
@@ -38,41 +60,19 @@
    },
    "answer": "B",
    "answer_text": "Acting with clarity, responsibility, and awareness of consequences"
-  },
-  {
-   "q": "Which of the following is an outcome of practicing all-encompassing resolution?",
-   "options": {
-    "A": "Inner harmony",
-    "B": "Conflicts with nature",
-    "C": "Unethical actions",
-    "D": "Self-centeredness"
-   },
-   "answer": "A",
-   "answer_text": "Inner harmony"
-  },
-  {
-   "q": "Why is self-evaluation important in resolution?",
-   "options": {
-    "A": "To ignore mistakes",
-    "B": "To reflect on actions and improve decision-making",
-    "C": "To compete with others",
-    "D": "To memorize instructions"
-   },
-   "answer": "B",
-   "answer_text": "To reflect on actions and improve decision-making"
   }
  ],
  "sq": [
   {
-   "q": "What role does resolution play in family harmony?",
-   "answer": [
-    "It fosters trust, respect, and mutual happiness among family members."
-   ]
-  },
-  {
    "q": "How does resolution help in solving personal problems?",
    "answer": [
     "By guiding thoughts and actions through right understanding, reducing confusion and conflict."
+   ]
+  },
+  {
+   "q": "What role does resolution play in family harmony?",
+   "answer": [
+    "It fosters trust, respect, and mutual happiness among family members."
    ]
   }
  ],

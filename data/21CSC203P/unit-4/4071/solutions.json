@@ -1,0 +1,104 @@
+{
+ "course": "21CSC203P",
+ "code": "4071",
+ "unit": 4,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Implement multiprocessing using IPython",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "A) threading",
+    "B": "B) concurrent",
+    "C": "C) multiprocessing",
+    "D": "D) asyncio"
+   },
+   "answer": "C",
+   "answer_text": "C) multiprocessing"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) pool.assign()",
+    "B": "B) pool.apply_async()",
+    "C": "C) pool.execute()",
+    "D": "D) pool.write()"
+   },
+   "answer": "B",
+   "answer_text": "B) pool.apply_async()"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) It automatically runs all processes in the cloud",
+    "B": "B) It supports live output and simplifies interactive debugging",
+    "C": "C) It restricts multiprocessing features",
+    "D": "D) It converts Python code to C automatically"
+   },
+   "answer": "B",
+   "answer_text": "B) It supports live output and simplifies interactive debugging"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) Slower execution",
+    "B": "B) No effect",
+    "C": "C) Improved performance by distributing computation across CPU cores",
+    "D": "D) Memory error"
+   },
+   "answer": "C",
+   "answer_text": "C) Improved performance by distributing computation across CPU cores"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) To increase memory usage",
+    "B": "B) To create infinite background threads",
+    "C": "C) To run tasks sequentially",
+    "D": "D) To manage a fixed number of worker processes for executing tasks in parallel"
+   },
+   "answer": "D",
+   "answer_text": "D) To manage a fixed number of worker processes for executing tasks in parallel"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What does a process pool do in Python?",
+   "answer": [
+    "A process pool manages a group of worker processes that run tasks in parallel. Tasks are distributed to idle processes automatically, improving performance. It simplifies concurrent programming and reduces overhead."
+   ]
+  },
+  {
+   "q": "A task takes too long in a single process. How can multiprocessing improve it?",
+   "answer": [
+    "The multiprocessing module allows the task to run across multiple CPU cores. This speeds up CPU-bound tasks by avoiding Python's GIL limitations. It’s useful for heavy computations like video processing or data analysis."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are tasked with building a Python-based system to perform CPU-intensive operations such as image filtering on a batch of large images. The sequential execution is taking too long, and your manager suggests using multiprocessing with process pools in IPython to speed up execution. Task: Explain the concept of multiprocessing and why it is suitable for CPU-bound tasks. (4 marks) Explain the concept of multiprocessing and why it is suitable for CPU-bound tasks. (4 marks) Write a Python code snippet using concurrent.futures.ProcessPoolExecutor to apply a dummy image processing function (e.g., filter_image() ) in parallel on a list of images. (6 marks) Write a Python code snippet using concurrent.futures.ProcessPoolExecutor to apply a dummy image processing function (e.g., filter_image() ) in parallel on a list of images. (6 marks) Discuss the role of IPython’s %time and %timeit in measuring performance. Show how parallel execution improves performance compared to sequential execution. (5 marks) Discuss the role of IPython’s %time and %timeit in measuring performance. Show how parallel execution improves performance compared to sequential execution. (5 marks)",
+   "answer": [
+    "Multiprocessing allows parallel execution using multiple CPU cores.",
+    "Multiprocessing allows parallel execution using multiple CPU cores.",
+    "Best for CPU-bound tasks like image filtering, simulations, etc., where the bottleneck is processing power, not I/O.",
+    "Best for CPU-bound tasks like image filtering, simulations, etc., where the bottleneck is processing power, not I/O.",
+    "Each process runs independently, avoiding Python's GIL.",
+    "Each process runs independently, avoiding Python's GIL.",
+    "from concurrent.futures import ProcessPoolExecutor import time",
+    "def filter_image(img): # Dummy CPU-bound task for _ in range(1000000): img = img * 1.01 return img",
+    "images = [10, 20, 30, 40]",
+    "with ProcessPoolExecutor() as executor: results = list(executor.map(filter_image, images))",
+    "print(\"Processed:\", results)",
+    "Use %time to measure total run time of one execution.",
+    "Use %time to measure total run time of one execution.",
+    "Use %timeit to run multiple trials for average timing.",
+    "Use %timeit to run multiple trials for average timing.",
+    "Parallel execution shows lower total runtime than sequential due to multiple cores .",
+    "Parallel execution shows lower total runtime than sequential due to multiple cores .",
+    "Example:"
+   ]
+  }
+ ]
+}

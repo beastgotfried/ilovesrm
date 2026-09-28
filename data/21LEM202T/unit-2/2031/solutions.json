@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "2031",
+ "unit": 2,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Students will be able to explain the domain of Right Understanding by comprehending the human being as the knower, experiencer, and doer",
+ "mcq": [
+  {
+   "q": "Which statement best describes the role of the self as an experiencer?",
+   "options": {
+    "A": "The self only collects data from the body",
+    "B": "The self feels happiness, sorrow, or peace depending on alignment of desires and actions",
+    "C": "The self performs all biological activities",
+    "D": "The self is inactive in experiences"
+   },
+   "answer": "B",
+   "answer_text": "The self feels happiness, sorrow, or peace depending on alignment of desires and actions"
+  },
+  {
+   "q": "In the domain of right understanding, where does the process begin?",
+   "options": {
+    "A": "With understanding society",
+    "B": "With understanding the human being (self + body)",
+    "C": "With understanding nature only",
+    "D": "With technological development"
+   },
+   "answer": "B",
+   "answer_text": "With understanding the human being (self + body)"
+  },
+  {
+   "q": "Why should engineers study the domain of right understanding?",
+   "options": {
+    "A": "To memorize values",
+    "B": "To integrate technical knowledge with human values and create solutions for sustainable and ethical living",
+    "C": "To avoid social responsibilities",
+    "D": "To focus only on profit-making"
+   },
+   "answer": "B",
+   "answer_text": "To integrate technical knowledge with human values and create solutions for sustainable and ethical living"
+  },
+  {
+   "q": "How does right understanding of the human being help in relationships?",
+   "options": {
+    "A": "By ensuring respect, trust, and harmony with others",
+    "B": "By increasing competition",
+    "C": "By ignoring values",
+    "D": "By focusing only on personal interests"
+   },
+   "answer": "A",
+   "answer_text": "By ensuring respect, trust, and harmony with others"
+  },
+  {
+   "q": "What happens when there is a mismatch between knowing, experiencing, and doing?",
+   "options": {
+    "A": "Inner harmony",
+    "B": "Stress, conflict, or dissatisfaction",
+    "C": "Physical fitness",
+    "D": "Automatic balance"
+   },
+   "answer": "B",
+   "answer_text": "Stress, conflict, or dissatisfaction"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What does the domain of right understanding cover apart from the human being?",
+   "answer": [
+    "It also covers relationships in the family, society, and the harmony in nature/existence."
+   ]
+  },
+  {
+   "q": "How does right understanding of the human being benefit society?",
+   "answer": [
+    "It promotes responsible behavior, leading to trust and mutual respect in relationships."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the difference between reaction and response in human interaction.",
+   "answer": [
+    "In human interaction, reaction means deciding our feeling and behaviour based on the other person’s behaviour. If the other behaves properly, we may behave properly; if the other misbehaves, we may also misbehave. In this case, our “remote control” is with the other person and our conduct becomes indefinite. Response means deciding our feeling on our own right, based on natural acceptance and right understanding. In response, the behaviour of the other is only an indicator of the other person’s state. With that input, we decide our behaviour to ensure mutual happiness. Response is self-organised, definite and unconditional, while reaction is dependent, indefinite and often leads to unhappiness."
+   ]
+  }
+ ]
+}

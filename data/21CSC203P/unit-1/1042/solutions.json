@@ -7,17 +7,6 @@
  "slo_title": "Illustrate control structures and step-by-step execution in procedural languages",
  "mcq": [
   {
-   "q": "What is the main focus of the imperative programming paradigm?",
-   "options": {
-    "A": "a) What the result should be",
-    "B": "b) How to achieve the result through instructions",
-    "C": "c) Defining rules and relationships",
-    "D": "d) Describing logical facts"
-   },
-   "answer": "B",
-   "answer_text": "b) How to achieve the result through instructions"
-  },
-  {
    "q": "int x = 5; if (x > 3) { System.out.print(\"Hello\"); } else { System.out.print(\"Bye\"); }",
    "options": {
     "A": "a) Hello",
@@ -29,15 +18,15 @@
    "answer_text": "a) Hello"
   },
   {
-   "q": "Which one is a key characteristic of procedural programming?",
+   "q": "What is the main focus of the imperative programming paradigm?",
    "options": {
-    "A": "a) Uses objects and classes exclusively",
-    "B": "b) Focuses on facts and rules",
-    "C": "c) Code is organized into reusable procedures/functions",
-    "D": "d) Only supports graphical interfaces"
+    "A": "a) What the result should be",
+    "B": "b) How to achieve the result through instructions",
+    "C": "c) Defining rules and relationships",
+    "D": "d) Describing logical facts"
    },
-   "answer": "C",
-   "answer_text": "c) Code is organized into reusable procedures/functions"
+   "answer": "B",
+   "answer_text": "b) How to achieve the result through instructions"
   },
   {
    "q": "Which of the following correctly describes the execution of procedural code in Java?**",
@@ -49,6 +38,17 @@
    },
    "answer": "C",
    "answer_text": "c) Code is executed step-by-step from top to bottom"
+  },
+  {
+   "q": "Which one is a key characteristic of procedural programming?",
+   "options": {
+    "A": "a) Uses objects and classes exclusively",
+    "B": "b) Focuses on facts and rules",
+    "C": "c) Code is organized into reusable procedures/functions",
+    "D": "d) Only supports graphical interfaces"
+   },
+   "answer": "C",
+   "answer_text": "c) Code is organized into reusable procedures/functions"
   },
   {
    "q": "In Java, which control structure is used to repeat a block of code as long as a condition is true?",

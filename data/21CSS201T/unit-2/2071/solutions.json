@@ -7,15 +7,15 @@
  "slo_title": "Explain basic instructions and their purpose with examples.",
  "mcq": [
   {
-   "q": "The instruction ADD AX, BX performs which operation?",
+   "q": "The instruction MUL BX in assembly language performs:",
    "options": {
-    "A": "Subtracts AX from BX",
-    "B": "Adds BX to AX",
-    "C": "Moves AX to BX",
-    "D": "Multiplies AX and BX"
+    "A": "Signed multiplication of AX × BX",
+    "B": "Unsigned multiplication of AX × BX",
+    "C": "Adds AX and BX",
+    "D": "Divides AX by BX"
    },
    "answer": "B",
-   "answer_text": "Adds BX to AX"
+   "answer_text": "Unsigned multiplication of AX × BX"
   },
   {
    "q": "Which instruction is used to compare two registers without storing the result?",
@@ -29,15 +29,15 @@
    "answer_text": "CMP"
   },
   {
-   "q": "The instruction MUL BX in assembly language performs:",
+   "q": "Which of the following instructions is used for data transfer?",
    "options": {
-    "A": "Signed multiplication of AX × BX",
-    "B": "Unsigned multiplication of AX × BX",
-    "C": "Adds AX and BX",
-    "D": "Divides AX by BX"
+    "A": "ADD",
+    "B": "MOV",
+    "C": "AND",
+    "D": "CMP"
    },
    "answer": "B",
-   "answer_text": "Unsigned multiplication of AX × BX"
+   "answer_text": "MOV"
   },
   {
    "q": "Which logical instruction is used to clear (reset) a register efficiently?",
@@ -51,15 +51,15 @@
    "answer_text": "XOR AX, AX"
   },
   {
-   "q": "Which of the following instructions is used for data transfer?",
+   "q": "The instruction ADD AX, BX performs which operation?",
    "options": {
-    "A": "ADD",
-    "B": "MOV",
-    "C": "AND",
-    "D": "CMP"
+    "A": "Subtracts AX from BX",
+    "B": "Adds BX to AX",
+    "C": "Moves AX to BX",
+    "D": "Multiplies AX and BX"
    },
    "answer": "B",
-   "answer_text": "MOV"
+   "answer_text": "Adds BX to AX"
   }
  ],
  "sq": [

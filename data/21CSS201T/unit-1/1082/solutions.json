@@ -7,26 +7,15 @@
  "slo_title": "Tutorial",
  "mcq": [
   {
-   "q": "Using 8-bit 2’s complement, what is the representation of –128?",
+   "q": "Subtracting using 2’s complement can be achieved by:",
    "options": {
-    "A": "10000000",
-    "B": "11111111",
-    "C": "01111111",
-    "D": "Overflow"
+    "A": "Negating both operands",
+    "B": "Adding 1’s complement of subtrahend",
+    "C": "Adding 2’s complement of subtrahend",
+    "D": "Performing bitwise XOR"
    },
-   "answer": "A",
-   "answer_text": "10000000"
-  },
-  {
-   "q": "When using 8-bit sign-magnitude representation, what is the range of representable signed integers?",
-   "options": {
-    "A": "–127 to +127",
-    "B": "–128 to +127",
-    "C": "–127 to +126",
-    "D": "–127 to +127"
-   },
-   "answer": "A",
-   "answer_text": "–127 to +127"
+   "answer": "C",
+   "answer_text": "Adding 2’s complement of subtrahend"
   },
   {
    "q": "In non-restoring division, when the remainder is negative:",
@@ -40,6 +29,17 @@
    "answer_text": "Add divisor and set quotient bit to 0"
   },
   {
+   "q": "Using 8-bit 2’s complement, what is the representation of –128?",
+   "options": {
+    "A": "10000000",
+    "B": "11111111",
+    "C": "01111111",
+    "D": "Overflow"
+   },
+   "answer": "A",
+   "answer_text": "10000000"
+  },
+  {
    "q": "What is the result of adding –25 and –15 using 8-bit sign-magnitude?",
    "options": {
     "A": "10011000",
@@ -51,28 +51,28 @@
    "answer_text": "Invalid operation due to overflow"
   },
   {
-   "q": "Subtracting using 2’s complement can be achieved by:",
+   "q": "When using 8-bit sign-magnitude representation, what is the range of representable signed integers?",
    "options": {
-    "A": "Negating both operands",
-    "B": "Adding 1’s complement of subtrahend",
-    "C": "Adding 2’s complement of subtrahend",
-    "D": "Performing bitwise XOR"
+    "A": "–127 to +127",
+    "B": "–128 to +127",
+    "C": "–127 to +126",
+    "D": "–127 to +127"
    },
-   "answer": "C",
-   "answer_text": "Adding 2’s complement of subtrahend"
+   "answer": "A",
+   "answer_text": "–127 to +127"
   }
  ],
  "sq": [
   {
-   "q": "Explain why arithmetic operations are more complex in sign-magnitude representation.",
-   "answer": [
-    "Because signs must be handled separately, and addition/subtraction logic changes based on operand signs."
-   ]
-  },
-  {
    "q": "What happens if you divide a binary number by zero?",
    "answer": [
     "Division by zero is undefined (causes exception in hardware)."
+   ]
+  },
+  {
+   "q": "Explain why arithmetic operations are more complex in sign-magnitude representation.",
+   "answer": [
+    "Because signs must be handled separately, and addition/subtraction logic changes based on operand signs."
    ]
   }
  ],

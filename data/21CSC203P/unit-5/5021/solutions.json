@@ -1,0 +1,110 @@
+{
+ "course": "21CSC203P",
+ "code": "5021",
+ "unit": 5,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Construct DFA and NFA for basic languages",
+ "mcq": [
+  {
+   "q": "A DFA has:",
+   "options": {
+    "A": "Multiple start states",
+    "B": "One start state",
+    "C": "No final states",
+    "D": "All states are final"
+   },
+   "answer": "B",
+   "answer_text": "One start state"
+  },
+  {
+   "q": "DFA is deterministic because:",
+   "options": {
+    "A": "Transitions are random",
+    "B": "Transitions are uniquely defined for each input symbol",
+    "C": "Transitions are unpredictable",
+    "D": "States are not labeled"
+   },
+   "answer": "B",
+   "answer_text": "Transitions are uniquely defined for each input symbol"
+  },
+  {
+   "q": "If a DFA rejects an input, it means:",
+   "options": {
+    "A": "It halted without consuming input",
+    "B": "It did not end in a final state",
+    "C": "It ended in a final state",
+    "D": "It crashed"
+   },
+   "answer": "B",
+   "answer_text": "It did not end in a final state"
+  },
+  {
+   "q": "What does a transition table specify?",
+   "options": {
+    "A": "Outputs",
+    "B": "Input alphabets",
+    "C": "States and their transitions for each symbol",
+    "D": "Stack operations"
+   },
+   "answer": "C",
+   "answer_text": "States and their transitions for each symbol"
+  },
+  {
+   "q": "A DFA for strings ending with '01' will have:",
+   "options": {
+    "A": "No final states",
+    "B": "Final state representing last two symbols = '01'",
+    "C": "One state only",
+    "D": "All states final"
+   },
+   "answer": "B",
+   "answer_text": "Final state representing last two symbols = '01'"
+  }
+ ],
+ "sq": [
+  {
+   "q": "When does a finite automaton accept a string?",
+   "answer": [
+    "A finite automaton accepts a string if it ends in an accepting (final) state after reading all input symbols."
+   ]
+  },
+  {
+   "q": "What is the main difference between DFA and NFA?",
+   "answer": [
+    "DFA has exactly one transition for each symbol from a state, while NFA can have multiple or no transitions for a symbol."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze how DFA and NFA differ in terms of state transitions and acceptance behavior using an example language L = {strings over {a, b} ending with ‘ab’}.",
+   "answer": [
+    "For DFA, we must define transitions for every symbol from each state. DFA needs:",
+    "q0 (start)",
+    "q0 (start)",
+    "q1 (seen ‘a’)",
+    "q1 (seen ‘a’)",
+    "q2 (seen ‘ab’ → accept)",
+    "q2 (seen ‘ab’ → accept)",
+    "DFA transitions:",
+    "δ(q0, a) = q1",
+    "δ(q0, a) = q1",
+    "δ(q0, b) = q0",
+    "δ(q0, b) = q0",
+    "δ(q1, a) = q1",
+    "δ(q1, a) = q1",
+    "δ(q1, b) = q2",
+    "δ(q1, b) = q2",
+    "δ(q2, a) = q1",
+    "δ(q2, a) = q1",
+    "δ(q2, b) = q0",
+    "δ(q2, b) = q0",
+    "NFA can use ε-transitions or nondeterminism:",
+    "From start, go to state that expects ‘a’ → ‘b’ without specifying full transitions. NFA accepts ‘ab’ but can also be in multiple states at once.",
+    "From start, go to state that expects ‘a’ → ‘b’ without specifying full transitions. NFA accepts ‘ab’ but can also be in multiple states at once.",
+    "Hence, NFA is more flexible but harder to simulate manually; DFA is rigid but efficient."
+   ]
+  }
+ ]
+}

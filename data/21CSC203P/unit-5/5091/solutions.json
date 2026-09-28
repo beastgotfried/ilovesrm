@@ -1,0 +1,99 @@
+{
+ "course": "21CSC203P",
+ "code": "5091",
+ "unit": 5,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Use common Tkinter widgets (buttons, labels, text, etc.)",
+ "mcq": [
+  {
+   "q": "Forms in GUI allow:",
+   "options": {
+    "A": "User data entry",
+    "B": "File compression",
+    "C": "Sorting",
+    "D": "Memory allocatio"
+   },
+   "answer": "A",
+   "answer_text": "User data entry"
+  },
+  {
+   "q": "Using labels and buttons together allows:",
+   "options": {
+    "A": "User guidance + actions",
+    "B": "File storage",
+    "C": "Number sorting",
+    "D": "Network connection"
+   },
+   "answer": "A",
+   "answer_text": "User guidance + actions"
+  },
+  {
+   "q": "Responsive GUI means:",
+   "options": {
+    "A": "It updates as user interacts",
+    "B": "It sorts lists",
+    "C": "It reads files",
+    "D": "It parses JSON"
+   },
+   "answer": "A",
+   "answer_text": "It updates as user interacts"
+  },
+  {
+   "q": "Tkinter forms respond to:",
+   "options": {
+    "A": "User actions",
+    "B": "File reads",
+    "C": "JSON parsing",
+    "D": "Directory listing"
+   },
+   "answer": "A",
+   "answer_text": "User actions"
+  },
+  {
+   "q": "Common Tkinter widgets include:",
+   "options": {
+    "A": "Button",
+    "B": "Label",
+    "C": "Text",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "answer_text": "All of the above"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the purpose of an interactive form?",
+   "answer": [
+    "To collect and process user input via the GUI."
+   ]
+  },
+  {
+   "q": "Name two common widgets in Tkinter.",
+   "answer": [
+    "Button and Label."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze the structure and role of different Tkinter widgets in building interactive forms.",
+   "answer": [
+    "Tkinter widgets allow structured user interaction. For example:",
+    "Label – shows static text",
+    "Label – shows static text",
+    "Entry – receives text input",
+    "Entry – receives text input",
+    "Button – triggers actions",
+    "Button – triggers actions",
+    "from tkinter import * def greet(): name = entry.get() label.config(text=f\"Hello, {name}!\") window = Tk() entry = Entry(window) entry.pack() Button(window, text=\"Submit\", command=greet).pack() label = Label(window, text=\"\") label.pack() window.mainloop()",
+    "from tkinter import *",
+    "def greet(): name = entry.get() label.config(text=f\"Hello, {name}!\")",
+    "window = Tk() entry = Entry(window) entry.pack() Button(window, text=\"Submit\", command=greet).pack() label = Label(window, text=\"\") label.pack() window.mainloop()",
+    "This form collects input and responds dynamically. Analyzing widget roles helps in designing intuitive UIs.",
+    "This form collects input and responds dynamically. Analyzing widget roles helps in designing intuitive UIs."
+   ]
+  }
+ ]
+}

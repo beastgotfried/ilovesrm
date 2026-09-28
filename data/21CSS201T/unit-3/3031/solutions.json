@@ -7,39 +7,6 @@
  "slo_title": "Tutorial",
  "mcq": [
   {
-   "q": "",
-   "options": {
-    "A": "",
-    "B": "",
-    "C": "",
-    "D": "XOR of all previous inputs"
-   },
-   "answer": "C",
-   "answer_text": ""
-  },
-  {
-   "q": "Which design choice would minimize delay in a multi-bit addition circuit?",
-   "options": {
-    "A": "Using a half adder for every bit.",
-    "B": "Using a ripple-carry adder.",
-    "C": "Using a carry look-ahead adder.",
-    "D": "Using only XOR gates."
-   },
-   "answer": "C",
-   "answer_text": "Using a carry look-ahead adder."
-  },
-  {
-   "q": "Which of the following statements about carry look-ahead adders (CLA) is TRUE ?",
-   "options": {
-    "A": "CLA generates all carries simultaneously using generate and propagate signals.",
-    "B": "CLA is slower than ripple-carry adders.",
-    "C": "CLA cannot add more than 4 bits.",
-    "D": "CLA requires no additional hardware compared to ripple adders."
-   },
-   "answer": "A",
-   "answer_text": "CLA generates all carries simultaneously using generate and propagate signals."
-  },
-  {
    "q": "How does a carry look-ahead adder (CLA) reduce delay compared to a ripple-carry adder?",
    "options": {
     "A": "By generating all carries in parallel using Generate (G) and Propagate (P) signals",
@@ -60,6 +27,39 @@
    },
    "answer": "A",
    "answer_text": ""
+  },
+  {
+   "q": "Which design choice would minimize delay in a multi-bit addition circuit?",
+   "options": {
+    "A": "Using a half adder for every bit.",
+    "B": "Using a ripple-carry adder.",
+    "C": "Using a carry look-ahead adder.",
+    "D": "Using only XOR gates."
+   },
+   "answer": "C",
+   "answer_text": "Using a carry look-ahead adder."
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": "XOR of all previous inputs"
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "Which of the following statements about carry look-ahead adders (CLA) is TRUE ?",
+   "options": {
+    "A": "CLA generates all carries simultaneously using generate and propagate signals.",
+    "B": "CLA is slower than ripple-carry adders.",
+    "C": "CLA cannot add more than 4 bits.",
+    "D": "CLA requires no additional hardware compared to ripple adders."
+   },
+   "answer": "A",
+   "answer_text": "CLA generates all carries simultaneously using generate and propagate signals."
   }
  ],
  "sq": [

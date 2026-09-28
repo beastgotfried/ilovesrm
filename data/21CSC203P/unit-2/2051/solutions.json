@@ -18,6 +18,17 @@
    "answer_text": "Code modularity and reuse"
   },
   {
+   "q": "Which of the following is a valid function declaration in Java?",
+   "options": {
+    "A": "public int add(int a, int b);",
+    "B": "function add(int a, int b): int;",
+    "C": "int add(int a, int b);",
+    "D": "method int add(a, b);"
+   },
+   "answer": "A",
+   "answer_text": "public int add(int a, int b);"
+  },
+  {
    "q": "Which return type should be used for a method that does not return any value?",
    "options": {
     "A": "empty",
@@ -27,17 +38,6 @@
    },
    "answer": "C",
    "answer_text": "void"
-  },
-  {
-   "q": "Which of the following is a characteristic of procedural programming?",
-   "options": {
-    "A": "Code is divided into classes",
-    "B": "Objects are central",
-    "C": "Emphasis is on procedures or routines",
-    "D": "Polymorphism is heavily used"
-   },
-   "answer": "C",
-   "answer_text": "Emphasis is on procedures or routines"
   },
   {
    "q": "Which access modifier allows a function to be used within the same class only?",
@@ -51,28 +51,28 @@
    "answer_text": "private"
   },
   {
-   "q": "Which of the following is a valid function declaration in Java?",
+   "q": "Which of the following is a characteristic of procedural programming?",
    "options": {
-    "A": "public int add(int a, int b);",
-    "B": "function add(int a, int b): int;",
-    "C": "int add(int a, int b);",
-    "D": "method int add(a, b);"
+    "A": "Code is divided into classes",
+    "B": "Objects are central",
+    "C": "Emphasis is on procedures or routines",
+    "D": "Polymorphism is heavily used"
    },
-   "answer": "A",
-   "answer_text": "public int add(int a, int b);"
+   "answer": "C",
+   "answer_text": "Emphasis is on procedures or routines"
   }
  ],
  "sq": [
   {
-   "q": "List any two key characteristics of procedural programming with brief explanation.",
-   "answer": [
-    "Top-down approach: Programs are structured from main to sub-functions. Modularization: Tasks are broken into smaller reusable functions to improve readability and reusability."
-   ]
-  },
-  {
    "q": "Write a simple Java function named greetUser that takes a name as a parameter and prints a greeting message.",
    "answer": [
     "public void greetUser(String name) { System.out.println(\"Hello, \" + name + \"!\"); } This function accepts a parameter of type String and does not return a value (void)."
+   ]
+  },
+  {
+   "q": "List any two key characteristics of procedural programming with brief explanation.",
+   "answer": [
+    "Top-down approach: Programs are structured from main to sub-functions. Modularization: Tasks are broken into smaller reusable functions to improve readability and reusability."
    ]
   }
  ],

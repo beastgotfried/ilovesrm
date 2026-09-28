@@ -7,6 +7,28 @@
  "slo_title": "Create user-defined packages in Java to organize classes and interfaces logically.",
  "mcq": [
   {
+   "q": "Which keyword is used in Java to define a package?",
+   "options": {
+    "A": "import",
+    "B": "package",
+    "C": "module",
+    "D": "namespace"
+   },
+   "answer": "B",
+   "answer_text": "package"
+  },
+  {
+   "q": "What is the main advantage of creating user-defined packages?",
+   "options": {
+    "A": "Slower compilation",
+    "B": "Memory optimization",
+    "C": "Logical organization and code reusability",
+    "D": "Debugging becomes harder"
+   },
+   "answer": "C",
+   "answer_text": "Logical organization and code reusability"
+  },
+  {
    "q": "What is the correct syntax to import all classes from a package named mypack?",
    "options": {
     "A": "include mypack.*;",
@@ -38,28 +60,6 @@
    },
    "answer": "C",
    "answer_text": "It must match the package name"
-  },
-  {
-   "q": "What is the main advantage of creating user-defined packages?",
-   "options": {
-    "A": "Slower compilation",
-    "B": "Memory optimization",
-    "C": "Logical organization and code reusability",
-    "D": "Debugging becomes harder"
-   },
-   "answer": "C",
-   "answer_text": "Logical organization and code reusability"
-  },
-  {
-   "q": "Which keyword is used in Java to define a package?",
-   "options": {
-    "A": "import",
-    "B": "package",
-    "C": "module",
-    "D": "namespace"
-   },
-   "answer": "B",
-   "answer_text": "package"
   }
  ],
  "sq": [

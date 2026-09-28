@@ -7,17 +7,6 @@
  "slo_title": "Compare features of different paradigms in the hierarchy",
  "mcq": [
   {
-   "q": "Which of the following best describes the top-level division in the programming paradigm hierarchy?",
-   "options": {
-    "A": "a) High-level vs. low-level languages",
-    "B": "b) Imperative vs. Declarative paradigms",
-    "C": "c) Structured vs. Unstructured programming",
-    "D": "d) Dynamic vs. Static typing"
-   },
-   "answer": "B",
-   "answer_text": "b) Imperative vs. Declarative paradigms"
-  },
-  {
    "q": "How does functional programming differ from procedural programming in terms of state changes?",
    "options": {
     "A": "a) Functional programming allows frequent state changes",
@@ -27,6 +16,17 @@
    },
    "answer": "C",
    "answer_text": "c) Functional programming discourages changing states"
+  },
+  {
+   "q": "In a hierarchical view, how would you position the following paradigms: Procedural, Object-Oriented, Logic, and Functional?",
+   "options": {
+    "A": "a) All are top-level paradigms with no hierarchy",
+    "B": "b) Object-Oriented and Procedural are under Imperative; Logic and Functional under Declarative",
+    "C": "c) Logic and Object-Oriented fall under Functional",
+    "D": "d) Procedural and Functional are subsets of Declarative"
+   },
+   "answer": "B",
+   "answer_text": "b) Object-Oriented and Procedural are under Imperative; Logic and Functional under Declarative"
   },
   {
    "q": "Which paradigm is a subset of the Imperative paradigm?",
@@ -40,6 +40,17 @@
    "answer_text": "c) Procedural programming"
   },
   {
+   "q": "Which of the following best describes the top-level division in the programming paradigm hierarchy?",
+   "options": {
+    "A": "a) High-level vs. low-level languages",
+    "B": "b) Imperative vs. Declarative paradigms",
+    "C": "c) Structured vs. Unstructured programming",
+    "D": "d) Dynamic vs. Static typing"
+   },
+   "answer": "B",
+   "answer_text": "b) Imperative vs. Declarative paradigms"
+  },
+  {
    "q": "Which of the following is a key feature of the Object-Oriented paradigm compared to the Procedural paradigm?",
    "options": {
     "A": "a) Logical inference",
@@ -49,30 +60,19 @@
    },
    "answer": "C",
    "answer_text": "c) Encapsulation and reuse through objects"
-  },
-  {
-   "q": "In a hierarchical view, how would you position the following paradigms: Procedural, Object-Oriented, Logic, and Functional?",
-   "options": {
-    "A": "a) All are top-level paradigms with no hierarchy",
-    "B": "b) Object-Oriented and Procedural are under Imperative; Logic and Functional under Declarative",
-    "C": "c) Logic and Object-Oriented fall under Functional",
-    "D": "d) Procedural and Functional are subsets of Declarative"
-   },
-   "answer": "B",
-   "answer_text": "b) Object-Oriented and Procedural are under Imperative; Logic and Functional under Declarative"
   }
  ],
  "sq": [
   {
-   "q": "A program frequently uses global variables across modules, causing unintended behavior. How can procedural programming practices resolve this?",
-   "answer": [
-    "Adopting modular design and using local variables within procedures can limit scope, reducing side effects and improving clarity and testability."
-   ]
-  },
-  {
    "q": "A billing system needs to process orders and apply discounts efficiently. How does procedural programming assist in such design?",
    "answer": [
     "Procedural programming facilitates organizing logic into distinct procedures such as calculateTotal() and applyDiscount() , enabling step-by-step execution, reducing complexity, and enhancing maintainability."
+   ]
+  },
+  {
+   "q": "A program frequently uses global variables across modules, causing unintended behavior. How can procedural programming practices resolve this?",
+   "answer": [
+    "Adopting modular design and using local variables within procedures can limit scope, reducing side effects and improving clarity and testability."
    ]
   }
  ],

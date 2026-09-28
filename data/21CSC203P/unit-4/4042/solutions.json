@@ -1,0 +1,103 @@
+{
+ "course": "21CSC203P",
+ "code": "4042",
+ "unit": 4,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Illustrate logic rules, facts, and queries (e.g., in Prolog)",
+ "mcq": [
+  {
+   "q": "D) It stores data as arrays",
+   "options": {
+    "A": "A) It allows direct memory access",
+    "B": "B) It uses loops and mutable variables",
+    "C": "C) It stores data as arrays",
+    "D": "D) It models problems with logical relationships and uses unification to match patterns"
+   },
+   "answer": "D",
+   "answer_text": "D) It models problems with logical relationships and uses unification to match patterns"
+  },
+  {
+   "q": "father(john, X). D) It causes a syntax error",
+   "options": {
+    "A": "A) It checks if john is a variable",
+    "B": "B) It declares a new fact",
+    "C": "C) It finds all X such that john is the father of X",
+    "D": "D) It causes a syntax error"
+   },
+   "answer": "C",
+   "answer_text": "C) It finds all X such that john is the father of X"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) father(X, Y) :- parent(X, Y), male(X).",
+    "B": "B) ?- father(john, mary).",
+    "C": "C) if X is the father of Y then X is a parent.",
+    "D": "D) father(john, mary)."
+   },
+   "answer": "D",
+   "answer_text": "D) father(john, mary)."
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) Procedural",
+    "B": "B) Imperative",
+    "C": "C) Declarative",
+    "D": "D) Object-oriented"
+   },
+   "answer": "C",
+   "answer_text": "C) Declarative"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) To define a data type",
+    "B": "B) To match exact strings only",
+    "C": "C) To express logical relationships based on conditions",
+    "D": "D) To store user inputs"
+   },
+   "answer": "C",
+   "answer_text": "C) To express logical relationships based on conditions"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How do queries in Prolog differ from function calls in Python?",
+   "answer": [
+    "Prolog queries search a knowledge base of facts and rules to find matches. They don't explicitly invoke functions like in Python but explore logical possibilities. This enables symbolic reasoning and backtracking for multiple solutions."
+   ]
+  },
+  {
+   "q": "A family tree app needs to find all siblings. How would logic programming model this?",
+   "answer": [
+    "In Prolog, siblings can be defined using a rule like: sibling(X, Y) :- parent(Z, X), parent(Z, Y), X \\= Y. This captures the logic declaratively and allows for easy querying"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Scenario: You are developing a knowledge-based system for a college to determine student eligibility for placement based on multiple rules, such as CGPA, number of arrears, and soft skills certification. Instead of writing imperative code, your mentor suggests using a logic programming approach for better clarity and reasoning. Task: Define logic programming. List and explain its key constructs: facts, rules, and queries. (5 marks) Define logic programming. List and explain its key constructs: facts, rules, and queries. (5 marks) Write a Prolog program that models facts about students and rules to determine eligibility. Include sample queries. (6 marks) Write a Prolog program that models facts about students and rules to determine eligibility. Include sample queries. (6 marks) Explain how declarative modeling using logic rules improves understanding, maintainability, and pattern-based reasoning in such systems. (4 marks) Explain how declarative modeling using logic rules improves understanding, maintainability, and pattern-based reasoning in such systems. (4 marks)",
+   "answer": [
+    "Logic programming is a declarative programming paradigm where programs are expressed in terms of facts and rules , and computation is performed through queries using pattern matching and symbolic reasoning .",
+    "Key Constructs:",
+    "Facts : Declare known information. Example : student(john).",
+    "Facts : Declare known information. Example : student(john).",
+    "Rules : Define logical relationships using existing facts. Example : eligible(X) :- cgpa(X, C), C >= 7.0.",
+    "Rules : Define logical relationships using existing facts. Example : eligible(X) :- cgpa(X, C), C >= 7.0.",
+    "Queries : Questions posed to the system to infer information. Example : ?- eligible(john).",
+    "Queries : Questions posed to the system to infer information. Example : ?- eligible(john).",
+    "2. Prolog Program with Queries (6 marks)",
+    "Logic programming allows focusing on what the problem is, not how to solve it.",
+    "Logic programming allows focusing on what the problem is, not how to solve it.",
+    "Rules and facts are human-readable and easy to update.",
+    "Rules and facts are human-readable and easy to update.",
+    "Promotes pattern matching and symbolic reasoning , useful in AI and knowledge-based systems.",
+    "Promotes pattern matching and symbolic reasoning , useful in AI and knowledge-based systems.",
+    "Changes in conditions (e.g., CGPA threshold) can be made without rewriting program flow.",
+    "Changes in conditions (e.g., CGPA threshold) can be made without rewriting program flow."
+   ]
+  }
+ ]
+}

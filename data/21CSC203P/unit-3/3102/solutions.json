@@ -7,28 +7,6 @@
  "slo_title": "Design forms using labels, text fields, buttons, and layout managers",
  "mcq": [
   {
-   "q": "What is the purpose of setLayout() in a Swing container?",
-   "options": {
-    "A": "To fix the window size",
-    "B": "To handle button clicks",
-    "C": "To define how components are arranged",
-    "D": "To create a menu bar"
-   },
-   "answer": "C",
-   "answer_text": "To define how components are arranged"
-  },
-  {
-   "q": "Which class in Swing is used to create a top-level window?",
-   "options": {
-    "A": "JPanel",
-    "B": "JWindow",
-    "C": "JDialog",
-    "D": "JFrame"
-   },
-   "answer": "D",
-   "answer_text": "JFrame"
-  },
-  {
    "q": "In a login form, which components would you use for entering and confirming a password?",
    "options": {
     "A": "JLabel , JTextField",
@@ -49,6 +27,28 @@
    },
    "answer": "B",
    "answer_text": "Add an ActionListener"
+  },
+  {
+   "q": "What is the purpose of setLayout() in a Swing container?",
+   "options": {
+    "A": "To fix the window size",
+    "B": "To handle button clicks",
+    "C": "To define how components are arranged",
+    "D": "To create a menu bar"
+   },
+   "answer": "C",
+   "answer_text": "To define how components are arranged"
+  },
+  {
+   "q": "Which class in Swing is used to create a top-level window?",
+   "options": {
+    "A": "JPanel",
+    "B": "JWindow",
+    "C": "JDialog",
+    "D": "JFrame"
+   },
+   "answer": "D",
+   "answer_text": "JFrame"
   },
   {
    "q": "What layout manager arranges components in a left-to-right flow, wrapping to the next line when needed?",

@@ -1,0 +1,98 @@
+{
+ "course": "21CSC203P",
+ "code": "4062",
+ "unit": 4,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Compare shared vs distributed memory architectures",
+ "mcq": [
+  {
+   "q": "5. Why are architecture-specific designs important in parallel computing?",
+   "options": {
+    "A": "A) They limit performance for complex systems",
+    "B": "B) They help optimize execution based on hardware constraints and concurrency models",
+    "C": "C) They eliminate the need for synchronization",
+    "D": "D) They reduce programming flexibility"
+   },
+   "answer": "B",
+   "answer_text": "B) They help optimize execution based on hardware constraints and concurrency models"
+  },
+  {
+   "q": "1. Which of the following best defines parallel computing?",
+   "options": {
+    "A": "A) Executing a program in sequential steps only",
+    "B": "B) Running multiple tasks at the same time to improve performance",
+    "C": "C) Compressing programs for faster execution",
+    "D": "D) Storing all data in one location"
+   },
+   "answer": "B",
+   "answer_text": "B) Running multiple tasks at the same time to improve performance"
+  },
+  {
+   "q": "3. Which of the following is a key difference between shared and distributed memory systems?",
+   "options": {
+    "A": "A) Distributed systems do not support concurrency",
+    "B": "B) Shared memory systems require a network interface",
+    "C": "C) Distributed memory systems use message passing for communication",
+    "D": "D) Shared memory systems are not used in parallel computing"
+   },
+   "answer": "C",
+   "answer_text": "C) Distributed memory systems use message passing for communication"
+  },
+  {
+   "q": "4. Which parallel computing model involves independent processors with their own local memory communicating via messages?",
+   "options": {
+    "A": "A) Shared memory model",
+    "B": "B) Distributed memory model",
+    "C": "C) Thread model",
+    "D": "D) SIMD model"
+   },
+   "answer": "B",
+   "answer_text": "B) Distributed memory model"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) Have no access to each other’s memory",
+    "B": "B) Use a network to communicate",
+    "C": "C) Share a common memory space and communicate via that memory",
+    "D": "D) Use message passing for data sharing"
+   },
+   "answer": "C",
+   "answer_text": "C) Share a common memory space and communicate via that memory"
+  }
+ ],
+ "sq": [
+  {
+   "q": "When would a distributed memory model be better than shared memory?",
+   "answer": [
+    "Distributed memory is suitable for geographically separated or high-scale systems. Each node works independently and communicates via messages. It avoids memory bottlenecks and allows horizontal scaling."
+   ]
+  },
+  {
+   "q": "A weather simulation runs on a supercomputer. Why choose parallel programming?",
+   "answer": [
+    "Parallel programming allows simultaneous execution of multiple parts of the simulation. This drastically reduces computation time for large datasets. It also utilizes hardware resources more effectively."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are part of a team developing a simulation for weather forecasting, which involves processing a large amount of data in real time. To optimize performance, the team is considering parallel computing. However, they must choose between shared memory and distributed memory architectures based on system constraints and performance goals. Task: Define parallel computing and briefly describe the key models: data parallelism and task parallelism. (5 marks) Define parallel computing and briefly describe the key models: data parallelism and task parallelism. (5 marks) Compare shared memory and distributed memory architectures with respect to scalability, communication, and programming complexity. (6 marks) Compare shared memory and distributed memory architectures with respect to scalability, communication, and programming complexity. (6 marks) Recommend a suitable architecture for the weather simulation system and justify your choice based on concurrency needs and system design. (4 marks) Recommend a suitable architecture for the weather simulation system and justify your choice based on concurrency needs and system design. (4 marks)",
+   "answer": [
+    "Parallel computing is the process of executing multiple tasks or data operations simultaneously to improve performance.",
+    "Data Parallelism : Same operation on different parts of data (e.g., matrix operations).",
+    "Data Parallelism : Same operation on different parts of data (e.g., matrix operations).",
+    "Task Parallelism : Different operations on the same or different data (e.g., modules running in parallel).",
+    "Task Parallelism : Different operations on the same or different data (e.g., modules running in parallel).",
+    "Recommended : Distributed memory Justification :",
+    "Weather simulation involves large-scale data across regions.",
+    "Weather simulation involves large-scale data across regions.",
+    "Distributed systems offer better scalability and fault tolerance .",
+    "Distributed systems offer better scalability and fault tolerance .",
+    "Suited for high-performance computing clusters used in simulations.",
+    "Suited for high-performance computing clusters used in simulations."
+   ]
+  }
+ ]
+}

@@ -7,17 +7,6 @@
  "slo_title": "describe the multi bus structure",
  "mcq": [
   {
-   "q": "What is the primary function of adding a parity bit to an ASCII code?",
-   "options": {
-    "A": "a) To compress the data and reduce storage space",
-    "B": "b) To encrypt the data for secure transmission",
-    "C": "c) To detect a single-bit error that may have occurred during transmission or storage",
-    "D": "d) To correct any single-bit error that is detected"
-   },
-   "answer": "C",
-   "answer_text": "c) To detect a single-bit error that may have occurred during transmission or storage"
-  },
-  {
    "q": "What is the 4-bit Gray code for the binary number 1101 ?",
    "options": {
     "A": "a) 1001",
@@ -29,15 +18,15 @@
    "answer_text": "b) 1011"
   },
   {
-   "q": "The word \"Cat\" is to be stored in memory using standard 7-bit ASCII. Which of the following best describes the binary representation?",
+   "q": "What is the primary function of adding a parity bit to an ASCII code?",
    "options": {
-    "A": "a) A single binary number representing the decimal value of \"Cat\"",
-    "B": "b) Three separate 7-bit codes, one for each character",
-    "C": "c) A single 7-bit code that is a hash of the entire word",
-    "D": "d) A 21-bit code where the case of the letters is ignored"
+    "A": "a) To compress the data and reduce storage space",
+    "B": "b) To encrypt the data for secure transmission",
+    "C": "c) To detect a single-bit error that may have occurred during transmission or storage",
+    "D": "d) To correct any single-bit error that is detected"
    },
-   "answer": "B",
-   "answer_text": "b) Three separate 7-bit codes, one for each character"
+   "answer": "C",
+   "answer_text": "c) To detect a single-bit error that may have occurred during transmission or storage"
   },
   {
    "q": "What is a key disadvantage of the single bus structure?",
@@ -49,6 +38,17 @@
    },
    "answer": "C",
    "answer_text": "C) Slower communication due to shared bus"
+  },
+  {
+   "q": "The word \"Cat\" is to be stored in memory using standard 7-bit ASCII. Which of the following best describes the binary representation?",
+   "options": {
+    "A": "a) A single binary number representing the decimal value of \"Cat\"",
+    "B": "b) Three separate 7-bit codes, one for each character",
+    "C": "c) A single 7-bit code that is a hash of the entire word",
+    "D": "d) A 21-bit code where the case of the letters is ignored"
+   },
+   "answer": "B",
+   "answer_text": "b) Three separate 7-bit codes, one for each character"
   },
   {
    "q": "Which bus in a computer system is responsible for transferring addresses?",
@@ -63,6 +63,28 @@
   }
  ],
  "sq": [
+  {
+   "q": "A computer system transmits the word \"Tech\" using 7-bit ASCII codes with an even parity bit added as the most significant bit (MSB). a) Complete the following table showing the transmission frame for each character: b) During transmission, the receiver gets the 8-bit sequence 11100101 for what was supposed to be the character 'e'. What does the receiver conclude about this received byte? Justify your answer. c) Critical Thinking: What is the fundamental limitation of using a single parity bit for error detection in data communication?",
+   "answer": [
+    "a) Completed Table:",
+    "b) Error Analysis:",
+    "Received byte: 1 1100101 (Parity bit = 1, Data = 1100101)",
+    "Received byte: 1 1100101 (Parity bit = 1, Data = 1100101)",
+    "Count total 1s: Parity bit (1) + Data bits (1100101 has 4 ones) = 5 ones total",
+    "Count total 1s: Parity bit (1) + Data bits (1100101 has 4 ones) = 5 ones total",
+    "System uses even parity , but total ones = 5 (odd)",
+    "System uses even parity , but total ones = 5 (odd)",
+    "Conclusion: The parity check fails , indicating that at least one bit error has occurred during transmission. The receiver knows the data is corrupted but cannot determine which bit is wrong or correct the error.",
+    "Conclusion: The parity check fails , indicating that at least one bit error has occurred during transmission. The receiver knows the data is corrupted but cannot determine which bit is wrong or correct the error.",
+    "c) Fundamental Limitation of Single Parity Bit:",
+    "A single parity bit can only detect odd numbers of bit errors (1, 3, 5, etc.).",
+    "A single parity bit can only detect odd numbers of bit errors (1, 3, 5, etc.).",
+    "If an even number of bits (2, 4, 6, etc.) are flipped during transmission, the parity check will still pass, and the errors will go undetected .",
+    "If an even number of bits (2, 4, 6, etc.) are flipped during transmission, the parity check will still pass, and the errors will go undetected .",
+    "This is why more sophisticated error detection methods like CRC (Cyclic Redundancy Check) or checksums are used in modern communication systems.",
+    "This is why more sophisticated error detection methods like CRC (Cyclic Redundancy Check) or checksums are used in modern communication systems."
+   ]
+  },
   {
    "q": "Perform the following conversions and answer the subsequent questions: a) Convert the Binary number 1100101 to its equivalent Gray code. b) Convert the Decimal number 83 to its BCD (Binary Coded Decimal) representation. c) Convert the BCD result from part (b) to its equivalent Excess-3 code. d) Analysis: In a digital system, why might we use Excess-3 code instead of straight BCD? Provide one specific advantage.",
    "answer": [
@@ -106,28 +128,6 @@
     "Self-complementing property: Excess-3 code is self-complementing, meaning the 9's complement of a decimal number can be obtained simply by complementing (inverting) each bit of its Excess-3 code. This makes subtraction operations easier to implement in digital systems.",
     "OR Avoids issues with all-zero states in BCD representations.",
     "OR Avoids issues with all-zero states in BCD representations."
-   ]
-  },
-  {
-   "q": "A computer system transmits the word \"Tech\" using 7-bit ASCII codes with an even parity bit added as the most significant bit (MSB). a) Complete the following table showing the transmission frame for each character: b) During transmission, the receiver gets the 8-bit sequence 11100101 for what was supposed to be the character 'e'. What does the receiver conclude about this received byte? Justify your answer. c) Critical Thinking: What is the fundamental limitation of using a single parity bit for error detection in data communication?",
-   "answer": [
-    "a) Completed Table:",
-    "b) Error Analysis:",
-    "Received byte: 1 1100101 (Parity bit = 1, Data = 1100101)",
-    "Received byte: 1 1100101 (Parity bit = 1, Data = 1100101)",
-    "Count total 1s: Parity bit (1) + Data bits (1100101 has 4 ones) = 5 ones total",
-    "Count total 1s: Parity bit (1) + Data bits (1100101 has 4 ones) = 5 ones total",
-    "System uses even parity , but total ones = 5 (odd)",
-    "System uses even parity , but total ones = 5 (odd)",
-    "Conclusion: The parity check fails , indicating that at least one bit error has occurred during transmission. The receiver knows the data is corrupted but cannot determine which bit is wrong or correct the error.",
-    "Conclusion: The parity check fails , indicating that at least one bit error has occurred during transmission. The receiver knows the data is corrupted but cannot determine which bit is wrong or correct the error.",
-    "c) Fundamental Limitation of Single Parity Bit:",
-    "A single parity bit can only detect odd numbers of bit errors (1, 3, 5, etc.).",
-    "A single parity bit can only detect odd numbers of bit errors (1, 3, 5, etc.).",
-    "If an even number of bits (2, 4, 6, etc.) are flipped during transmission, the parity check will still pass, and the errors will go undetected .",
-    "If an even number of bits (2, 4, 6, etc.) are flipped during transmission, the parity check will still pass, and the errors will go undetected .",
-    "This is why more sophisticated error detection methods like CRC (Cyclic Redundancy Check) or checksums are used in modern communication systems.",
-    "This is why more sophisticated error detection methods like CRC (Cyclic Redundancy Check) or checksums are used in modern communication systems."
    ]
   }
  ],

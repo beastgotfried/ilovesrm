@@ -7,15 +7,15 @@
  "slo_title": "Identify and categorize various programming paradigms",
  "mcq": [
   {
-   "q": "Which paradigm uses facts and rules to drive logic-based reasoning?",
+   "q": "What is the main goal of structured programming?",
    "options": {
-    "A": "a) Imperative paradigm",
-    "B": "b) Functional paradigm",
-    "C": "c) Logic paradigm",
-    "D": "d) Procedural paradigm"
+    "A": "a) To make code run faster",
+    "B": "b) To simplify and organize code",
+    "C": "c) To use more memory",
+    "D": "d) To hide errors in code"
    },
-   "answer": "C",
-   "answer_text": "c) Logic paradigm"
+   "answer": "B",
+   "answer_text": "b) To simplify and organize code"
   },
   {
    "q": "Which of the following is NOT a basic structure in structured programming (according to the structured programming theorem)?",
@@ -29,17 +29,6 @@
    "answer_text": "d) Inheritance"
   },
   {
-   "q": "The structured programming theorem states that any program can be built using which three constructs?",
-   "options": {
-    "A": "a) Class, Object, and Method",
-    "B": "b) Sequence, Selection, and Iteration",
-    "C": "c) Loop, Function, and Recursion",
-    "D": "d) Variables, Constants, and Arrays"
-   },
-   "answer": "B",
-   "answer_text": "b) Sequence, Selection, and Iteration"
-  },
-  {
    "q": "Which of the following best categorizes Python?",
    "options": {
     "A": "a) Only an object-oriented language",
@@ -51,15 +40,26 @@
    "answer_text": "c) A multi-paradigm language"
   },
   {
-   "q": "What is the main goal of structured programming?",
+   "q": "Which paradigm uses facts and rules to drive logic-based reasoning?",
    "options": {
-    "A": "a) To make code run faster",
-    "B": "b) To simplify and organize code",
-    "C": "c) To use more memory",
-    "D": "d) To hide errors in code"
+    "A": "a) Imperative paradigm",
+    "B": "b) Functional paradigm",
+    "C": "c) Logic paradigm",
+    "D": "d) Procedural paradigm"
+   },
+   "answer": "C",
+   "answer_text": "c) Logic paradigm"
+  },
+  {
+   "q": "The structured programming theorem states that any program can be built using which three constructs?",
+   "options": {
+    "A": "a) Class, Object, and Method",
+    "B": "b) Sequence, Selection, and Iteration",
+    "C": "c) Loop, Function, and Recursion",
+    "D": "d) Variables, Constants, and Arrays"
    },
    "answer": "B",
-   "answer_text": "b) To simplify and organize code"
+   "answer_text": "b) Sequence, Selection, and Iteration"
   }
  ],
  "sq": [

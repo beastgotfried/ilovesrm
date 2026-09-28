@@ -7,17 +7,6 @@
  "slo_title": "Identify the requirements for prosperity — right understanding together with the right quantity of physical facilities.",
  "mcq": [
   {
-   "q": "Which is an example of resolution in daily life?",
-   "options": {
-    "A": "Choosing to complete work ethically even if it is time-consuming",
-    "B": "Copying answers to save time",
-    "C": "Ignoring team responsibilities",
-    "D": "Following shortcuts without thinking"
-   },
-   "answer": "A",
-   "answer_text": "Choosing to complete work ethically even if it is time-consuming"
-  },
-  {
    "q": "How does contemplation support resolution?",
    "options": {
     "A": "By reflecting on the purpose and consequences of one’s actions",
@@ -29,15 +18,26 @@
    "answer_text": "By reflecting on the purpose and consequences of one’s actions"
   },
   {
-   "q": "What problem can be solved using all-encompassing resolution?",
+   "q": "Which statement best summarizes all-encompassing resolution?",
    "options": {
-    "A": "Ethical dilemmas",
-    "B": "Conflict with nature",
-    "C": "Misalignment between personal and societal goals",
-    "D": "All of the above"
+    "A": "It focuses on individual gain only",
+    "B": "It integrates self-realization, understanding, contemplation, and responsible action to achieve harmony",
+    "C": "It ignores human values for efficiency",
+    "D": "It prioritizes competition over collaboration"
    },
-   "answer": "D",
-   "answer_text": "All of the above"
+   "answer": "B",
+   "answer_text": "It integrates self-realization, understanding, contemplation, and responsible action to achieve harmony"
+  },
+  {
+   "q": "Which is an example of resolution in daily life?",
+   "options": {
+    "A": "Choosing to complete work ethically even if it is time-consuming",
+    "B": "Copying answers to save time",
+    "C": "Ignoring team responsibilities",
+    "D": "Following shortcuts without thinking"
+   },
+   "answer": "A",
+   "answer_text": "Choosing to complete work ethically even if it is time-consuming"
   },
   {
    "q": "How does all-encompassing resolution guide engineers?",
@@ -51,28 +51,28 @@
    "answer_text": "To integrate technical solutions with human values and societal needs"
   },
   {
-   "q": "Which statement best summarizes all-encompassing resolution?",
+   "q": "What problem can be solved using all-encompassing resolution?",
    "options": {
-    "A": "It focuses on individual gain only",
-    "B": "It integrates self-realization, understanding, contemplation, and responsible action to achieve harmony",
-    "C": "It ignores human values for efficiency",
-    "D": "It prioritizes competition over collaboration"
+    "A": "Ethical dilemmas",
+    "B": "Conflict with nature",
+    "C": "Misalignment between personal and societal goals",
+    "D": "All of the above"
    },
-   "answer": "B",
-   "answer_text": "It integrates self-realization, understanding, contemplation, and responsible action to achieve harmony"
+   "answer": "D",
+   "answer_text": "All of the above"
   }
  ],
  "sq": [
   {
-   "q": "What is the relation between resolution and nature?",
-   "answer": [
-    "Resolution ensures sustainable use of resources, leading to balance with nature."
-   ]
-  },
-  {
    "q": "How does resolution contribute to social well-being?",
    "answer": [
     "It encourages justice, cooperation, and peaceful coexistence in society."
+   ]
+  },
+  {
+   "q": "What is the relation between resolution and nature?",
+   "answer": [
+    "Resolution ensures sustainable use of resources, leading to balance with nature."
    ]
   }
  ],

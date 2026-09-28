@@ -1,0 +1,102 @@
+{
+ "course": "21CSC203P",
+ "code": "4052",
+ "unit": 4,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "Solve basic problems using logic programming",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "A) Conditional branching",
+    "B": "B) Backtracking",
+    "C": "C) Function overloading",
+    "D": "D) Switch statements"
+   },
+   "answer": "B",
+   "answer_text": "B) Backtracking"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) Because it uses GUI-based inputs",
+    "B": "B) It performs better in arithmetic operations",
+    "C": "C) It enables rule-based reasoning and pattern-based inference",
+    "D": "D) It avoids symbolic representation"
+   },
+   "answer": "C",
+   "answer_text": "C) It enables rule-based reasoning and pattern-based inference"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) likes(john, pizza)",
+    "B": "B) X = 5",
+    "C": "C) ?- likes(john, Y)",
+    "D": "D) if likes then true"
+   },
+   "answer": "A",
+   "answer_text": "A) likes(john, pizza)"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "A) Repeating the same query multiple times",
+    "B": "B) Returning to a previous state to try alternative solutions when a rule fails",
+    "C": "C) Tracking memory usage",
+    "D": "D) Using recursion in a loop"
+   },
+   "answer": "B",
+   "answer_text": "B) Returning to a previous state to try alternative solutions when a rule fails"
+  },
+  {
+   "q": "likes(alice, pizza). likes(alice, pasta). likes(alice, X).",
+   "options": {
+    "A": "A) Return an error",
+    "B": "B) Return only one answer",
+    "C": "C) Return all food items Alice likes through backtracking",
+    "D": "D) Return the variable X unchanged"
+   },
+   "answer": "C",
+   "answer_text": "C) Return all food items Alice likes through backtracking"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A Prolog program must find all ways to solve a puzzle. How is backtracking useful here?",
+   "answer": [
+    "Backtracking lets Prolog explore all possible rule matches by reverting to earlier states. It automatically tries different combinations to find valid solutions. This makes Prolog ideal for solving search and constraint problems."
+   ]
+  },
+  {
+   "q": "How do control structures in logic programming differ from procedural languages?",
+   "answer": [
+    "Logic programming uses rules and logical inference instead of sequential control flow. There's no explicit loop or if ; control is driven by matching facts and goals. This leads to a more declarative and concise representation."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a knowledge-based expert system to assist in diagnosing common symptoms of diseases. Multiple diseases may share overlapping symptoms (e.g., fever, cough, fatigue). The system must be able to try multiple possibilities , backtrack when necessary, and provide a list of all matching diseases based on given symptoms. Task: Explain the role of structures, control flow, and backtracking in logic programming. (5 marks) Explain the role of structures, control flow, and backtracking in logic programming. (5 marks) Write a Prolog program that stores diseases and symptoms using structured facts, and uses rules to find possible diagnoses. Demonstrate backtracking with queries. (6 marks) Write a Prolog program that stores diseases and symptoms using structured facts, and uses rules to find possible diagnoses. Demonstrate backtracking with queries. (6 marks) Discuss how backtracking helps explore multiple solutions and how logic reasoning is applied in such expert systems. (4 marks) Discuss how backtracking helps explore multiple solutions and how logic reasoning is applied in such expert systems. (4 marks)",
+   "answer": [
+    "Structures in logic programming allow grouping of related data (e.g., disease(name, symptoms) ).",
+    "Structures in logic programming allow grouping of related data (e.g., disease(name, symptoms) ).",
+    "Control flow is governed by rule matching and logical inference, not by sequential execution.",
+    "Control flow is governed by rule matching and logical inference, not by sequential execution.",
+    "Backtracking is the process by which Prolog automatically retries different rules/facts when a goal fails, allowing it to find all possible solutions.",
+    "Backtracking is the process by which Prolog automatically retries different rules/facts when a goal fails, allowing it to find all possible solutions.",
+    "2. Prolog Program Using Structures and Demonstrating Backtracking (6 marks)",
+    "% Facts: disease(Name, [List of symptoms]) disease(flu, [fever, cough, fatigue]). disease(covid, [fever, cough, loss_of_smell]). disease(malaria, [fever, chills, sweating]). disease(cold, [cough, sneezing, sore_throat]).",
+    "% Rule to check if a disease has all given symptoms has_symptoms(Disease, Symptoms) :- disease(Disease, SymptomList), subset(Symptoms, SymptomList).",
+    "% Helper rule to check if all elements of one list are in another subset([], _). subset([H|T], List) :- member(H, List), subset(T, List). Sample Query ?- has_symptoms(D, [fever, cough]). D = flu ; D = covid ; false.",
+    "Backtracking allows Prolog to automatically search all paths , useful in diagnosis systems where more than one disease may match the symptoms.",
+    "Backtracking allows Prolog to automatically search all paths , useful in diagnosis systems where more than one disease may match the symptoms.",
+    "It eliminates the need for manually coding loops and checks.",
+    "It eliminates the need for manually coding loops and checks.",
+    "Logic reasoning lets systems infer conclusions from rules and facts, making it ideal for decision support systems , recommendation engines , and medical diagnostics .",
+    "Logic reasoning lets systems infer conclusions from rules and facts, making it ideal for decision support systems , recommendation engines , and medical diagnostics ."
+   ]
+  }
+ ]
+}

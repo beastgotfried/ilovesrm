@@ -18,6 +18,17 @@
    "answer_text": "Multilevel"
   },
   {
+   "q": "Which of the following represents single inheritance in Java?",
+   "options": {
+    "A": "One class inheriting from multiple classes",
+    "B": "A class inheriting from one class only",
+    "C": "One class with multiple subclasses",
+    "D": "A class without any superclass"
+   },
+   "answer": "B",
+   "answer_text": "A class inheriting from one class only"
+  },
+  {
    "q": "What is the main benefit of using inheritance in Java?",
    "options": {
     "A": "Memory optimization",
@@ -49,30 +60,19 @@
    },
    "answer": "C",
    "answer_text": "extends"
-  },
-  {
-   "q": "Which of the following represents single inheritance in Java?",
-   "options": {
-    "A": "One class inheriting from multiple classes",
-    "B": "A class inheriting from one class only",
-    "C": "One class with multiple subclasses",
-    "D": "A class without any superclass"
-   },
-   "answer": "B",
-   "answer_text": "A class inheriting from one class only"
   }
  ],
  "sq": [
   {
-   "q": "Write a Java code snippet that demonstrates hierarchical inheritance.",
-   "answer": [
-    "class Vehicle { void start() { System.out.println(\"Vehicle starts\"); } } class Car extends Vehicle { void drive() { System.out.println(\"Car drives\"); } } class Bike extends Vehicle { void ride() { System.out.println(\"Bike rides\"); } } Here, both Car and Bike inherit from the common superclass Vehicle."
-   ]
-  },
-  {
    "q": "Explain the concept of inheritance in Java with a simple example.",
    "answer": [
     "Inheritance allows a class (subclass) to inherit properties and methods from another class (superclass). Example: class Animal { void sound() { System.out.println(\"Animal makes sound\"); } } class Dog extends Animal { void bark() { System.out.println(\"Dog barks\"); } } Here, Dog inherits the sound() method from Animal."
+   ]
+  },
+  {
+   "q": "Write a Java code snippet that demonstrates hierarchical inheritance.",
+   "answer": [
+    "class Vehicle { void start() { System.out.println(\"Vehicle starts\"); } } class Car extends Vehicle { void drive() { System.out.println(\"Car drives\"); } } class Bike extends Vehicle { void ride() { System.out.println(\"Bike rides\"); } } Here, both Car and Bike inherit from the common superclass Vehicle."
    ]
   }
  ],

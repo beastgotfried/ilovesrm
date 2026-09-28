@@ -7,6 +7,17 @@
  "slo_title": "Explain different addressing modes with examples.",
  "mcq": [
   {
+   "q": "Which addressing mode can reduce the number of memory accesses by storing operands in CPU registers?",
+   "options": {
+    "A": "Immediate addressing",
+    "B": "Direct addressing",
+    "C": "Indirect addressing",
+    "D": "Register addressing"
+   },
+   "answer": "A",
+   "answer_text": "Immediate addressing"
+  },
+  {
    "q": "Which addressing mode uses the operand value directly in the instruction?",
    "options": {
     "A": "Immediate addressing",
@@ -29,15 +40,15 @@
    "answer_text": "Indirect"
   },
   {
-   "q": "Which addressing mode can reduce the number of memory accesses by storing operands in CPU registers?",
+   "q": "Changing the addressing mode from direct to indirect in an instruction will:",
    "options": {
-    "A": "Immediate addressing",
-    "B": "Direct addressing",
-    "C": "Indirect addressing",
-    "D": "Register addressing"
+    "A": "Increase execution speed",
+    "B": "Require one additional memory access",
+    "C": "Eliminate memory usage",
+    "D": "Not affect behavior"
    },
-   "answer": "A",
-   "answer_text": "Immediate addressing"
+   "answer": "B",
+   "answer_text": "Require one additional memory access"
   },
   {
    "q": "If a program frequently uses constants (like 5 , 10 , -3 ), which addressing mode improves performance?",
@@ -49,30 +60,19 @@
    },
    "answer": "A",
    "answer_text": "Immediate addressing"
-  },
-  {
-   "q": "Changing the addressing mode from direct to indirect in an instruction will:",
-   "options": {
-    "A": "Increase execution speed",
-    "B": "Require one additional memory access",
-    "C": "Eliminate memory usage",
-    "D": "Not affect behavior"
-   },
-   "answer": "B",
-   "answer_text": "Require one additional memory access"
   }
  ],
  "sq": [
   {
    "q": "",
    "answer": [
-    "Operand is given directly in the instruction."
+    "Addressing mode specifies the way an instruction identifies the location of data (operand)."
    ]
   },
   {
    "q": "",
    "answer": [
-    "Addressing mode specifies the way an instruction identifies the location of data (operand)."
+    "Operand is given directly in the instruction."
    ]
   }
  ],

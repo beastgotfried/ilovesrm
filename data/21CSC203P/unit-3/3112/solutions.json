@@ -7,39 +7,6 @@
  "slo_title": "Create form-based input and process flow using Swing",
  "mcq": [
   {
-   "q": "In Swing, how do you respond to a button click event?",
-   "options": {
-    "A": "Implement the Runnable interface",
-    "B": "Register a MouseListener",
-    "C": "Register an ActionListener",
-    "D": "Use ActionEvent.getSource() directly"
-   },
-   "answer": "C",
-   "answer_text": "Register an ActionListener"
-  },
-  {
-   "q": "Which method is invoked when an ActionListener is triggered by a button?",
-   "options": {
-    "A": "run()",
-    "B": "mouseClicked()",
-    "C": "keyPressed()",
-    "D": "actionPerformed()"
-   },
-   "answer": "D",
-   "answer_text": "actionPerformed()"
-  },
-  {
-   "q": "What is the purpose of e.getSource() in actionPerformed() ?",
-   "options": {
-    "A": "To get event timestamp",
-    "B": "To identify the event source (e.g., which button was clicked)",
-    "C": "To capture user input",
-    "D": "To display output"
-   },
-   "answer": "B",
-   "answer_text": "To identify the event source (e.g., which button was clicked)"
-  },
-  {
    "q": "In a form with multiple input fields, which component is used to retrieve entered text from a JTextField ?",
    "options": {
     "A": "getText()",
@@ -60,19 +27,52 @@
    },
    "answer": "D",
    "answer_text": "actionPerformed()"
+  },
+  {
+   "q": "Which method is invoked when an ActionListener is triggered by a button?",
+   "options": {
+    "A": "run()",
+    "B": "mouseClicked()",
+    "C": "keyPressed()",
+    "D": "actionPerformed()"
+   },
+   "answer": "D",
+   "answer_text": "actionPerformed()"
+  },
+  {
+   "q": "In Swing, how do you respond to a button click event?",
+   "options": {
+    "A": "Implement the Runnable interface",
+    "B": "Register a MouseListener",
+    "C": "Register an ActionListener",
+    "D": "Use ActionEvent.getSource() directly"
+   },
+   "answer": "C",
+   "answer_text": "Register an ActionListener"
+  },
+  {
+   "q": "What is the purpose of e.getSource() in actionPerformed() ?",
+   "options": {
+    "A": "To get event timestamp",
+    "B": "To identify the event source (e.g., which button was clicked)",
+    "C": "To capture user input",
+    "D": "To display output"
+   },
+   "answer": "B",
+   "answer_text": "To identify the event source (e.g., which button was clicked)"
   }
  ],
  "sq": [
   {
-   "q": "What happens when a JButton is clicked and how is it handled?",
-   "answer": [
-    "When a JButton is clicked, it generates an ActionEvent , which is passed to the registered ActionListener 's actionPerformed() method to process the action"
-   ]
-  },
-  {
    "q": "Describe the process flow of collecting user input using a Swing form.",
    "answer": [
     "User input is entered in components like JTextField . On clicking a button, the input is retrieved using getText() , validated, and processed in the actionPerformed() method of the button’s listener."
+   ]
+  },
+  {
+   "q": "What happens when a JButton is clicked and how is it handled?",
+   "answer": [
+    "When a JButton is clicked, it generates an ActionEvent , which is passed to the registered ActionListener 's actionPerformed() method to process the action"
    ]
   }
  ],

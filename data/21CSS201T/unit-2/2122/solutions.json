@@ -7,17 +7,6 @@
  "slo_title": "Tutorial",
  "mcq": [
   {
-   "q": "",
-   "options": {
-    "A": "a) Segment × 16 + Offset",
-    "B": "b) Segment + Offset",
-    "C": "c) Segment × Offset",
-    "D": "d) Segment – Offset"
-   },
-   "answer": "A",
-   "answer_text": "a) Segment × 16 + Offset"
-  },
-  {
    "q": "The Bus Interface Unit (BIU) in 8086 is responsible for:",
    "options": {
     "A": "Arithmetic operations",
@@ -40,6 +29,17 @@
    "answer_text": "a) 8-bit"
   },
   {
+   "q": "In 8086, if CS = 2000H and IP = 1234H , the physical address of the next instruction is:",
+   "options": {
+    "A": "2000:1234 = 20001234H",
+    "B": "(2000H × 10H) + 1234H = 21234H",
+    "C": "(2000H × 100H) + 1234H = 212340H",
+    "D": "(2000H + 1234H) = 3234H"
+   },
+   "answer": "B",
+   "answer_text": "(2000H × 10H) + 1234H = 21234H"
+  },
+  {
    "q": "The maximum size of the instruction queue in 8086 is:",
    "options": {
     "A": "4 bytes",
@@ -51,15 +51,15 @@
    "answer_text": "6 bytes"
   },
   {
-   "q": "In 8086, if CS = 2000H and IP = 1234H , the physical address of the next instruction is:",
+   "q": "",
    "options": {
-    "A": "2000:1234 = 20001234H",
-    "B": "(2000H × 10H) + 1234H = 21234H",
-    "C": "(2000H × 100H) + 1234H = 212340H",
-    "D": "(2000H + 1234H) = 3234H"
+    "A": "a) Segment × 16 + Offset",
+    "B": "b) Segment + Offset",
+    "C": "c) Segment × Offset",
+    "D": "d) Segment – Offset"
    },
-   "answer": "B",
-   "answer_text": "(2000H × 10H) + 1234H = 21234H"
+   "answer": "A",
+   "answer_text": "a) Segment × 16 + Offset"
   }
  ],
  "sq": [

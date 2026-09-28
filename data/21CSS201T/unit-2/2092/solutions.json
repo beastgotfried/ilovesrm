@@ -7,28 +7,6 @@
  "slo_title": " Describe instruction flow during program execution.",
  "mcq": [
   {
-   "q": "The component responsible for sequencing instructions in a CPU is:",
-   "options": {
-    "A": "Control Unit",
-    "B": "ALU",
-    "C": "Register File",
-    "D": "Cache"
-   },
-   "answer": "A",
-   "answer_text": "Control Unit"
-  },
-  {
-   "q": "Instruction sequencing in computer architecture mainly ensures:",
-   "options": {
-    "A": "Instructions are executed in the correct order",
-    "B": "Registers are reset after every instruction",
-    "C": "Memory is cleared before execution",
-    "D": "The program counter is always zero"
-   },
-   "answer": "A",
-   "answer_text": "Instructions are executed in the correct order"
-  },
-  {
    "q": "Which of the following allows non-sequential instruction execution ?",
    "options": {
     "A": "Sequential execution model",
@@ -38,6 +16,17 @@
    },
    "answer": "B",
    "answer_text": "Branch instructions"
+  },
+  {
+   "q": "If the Program Counter (PC) currently holds address 2000 , and instructions are 4 bytes long, after fetching one instruction the PC will point to:",
+   "options": {
+    "A": "2000",
+    "B": "2001",
+    "C": "2004",
+    "D": "2008"
+   },
+   "answer": "C",
+   "answer_text": "2004"
   },
   {
    "q": "Which register is most important in instruction sequencing?",
@@ -51,15 +40,26 @@
    "answer_text": "PC (Program Counter)"
   },
   {
-   "q": "If the Program Counter (PC) currently holds address 2000 , and instructions are 4 bytes long, after fetching one instruction the PC will point to:",
+   "q": "Instruction sequencing in computer architecture mainly ensures:",
    "options": {
-    "A": "2000",
-    "B": "2001",
-    "C": "2004",
-    "D": "2008"
+    "A": "Instructions are executed in the correct order",
+    "B": "Registers are reset after every instruction",
+    "C": "Memory is cleared before execution",
+    "D": "The program counter is always zero"
    },
-   "answer": "C",
-   "answer_text": "2004"
+   "answer": "A",
+   "answer_text": "Instructions are executed in the correct order"
+  },
+  {
+   "q": "The component responsible for sequencing instructions in a CPU is:",
+   "options": {
+    "A": "Control Unit",
+    "B": "ALU",
+    "C": "Register File",
+    "D": "Cache"
+   },
+   "answer": "A",
+   "answer_text": "Control Unit"
   }
  ],
  "sq": [

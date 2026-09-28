@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "2041",
+ "unit": 2,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Students will be able to understand the nature of existence, appreciate its interconnectedness",
+ "mcq": [
+  {
+   "q": "How do plants and animals show co-existence?",
+   "options": {
+    "A": "They compete endlessly",
+    "B": "Plants provide oxygen and food, animals provide carbon dioxide and nutrients",
+    "C": "They live independently without relation",
+    "D": "Only animals depend on plants"
+   },
+   "answer": "B",
+   "answer_text": "Plants provide oxygen and food, animals provide carbon dioxide and nutrients"
+  },
+  {
+   "q": "Which of the following best describes the nature of existence?",
+   "options": {
+    "A": "Chaotic and disconnected",
+    "B": "Continuous and interconnected whole",
+    "C": "Limited to human beings only",
+    "D": "Temporary and isolated"
+   },
+   "answer": "B",
+   "answer_text": "Continuous and interconnected whole"
+  },
+  {
+   "q": "The water cycle is an example of:",
+   "options": {
+    "A": "Competition among entities",
+    "B": "Interconnectedness and harmony in nature",
+    "C": "Disconnection between units",
+    "D": "Random process without order"
+   },
+   "answer": "B",
+   "answer_text": "Interconnectedness and harmony in nature"
+  },
+  {
+   "q": "Existence can best be described as:",
+   "options": {
+    "A": "Only physical matter",
+    "B": "Co-existence of all units – material and conscious",
+    "C": "Only conscious entities",
+    "D": "Limited to human perception"
+   },
+   "answer": "B",
+   "answer_text": "Co-existence of all units – material and conscious"
+  },
+  {
+   "q": "What is meant by co-existence in nature/existence?",
+   "options": {
+    "A": "Independent existence of all entities",
+    "B": "Mutual existence where all entities support each other",
+    "C": "Survival of the fittest only",
+    "D": "A random process without order"
+   },
+   "answer": "B",
+   "answer_text": "Mutual existence where all entities support each other"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What does interconnectedness in nature mean?",
+   "answer": [
+    "It means all entities in nature are linked and depend on each other for survival and balance."
+   ]
+  },
+  {
+   "q": "What is co-existence in the context of nature?",
+   "answer": [
+    "Co-existence is the harmony of all units in nature where each supports and sustains the other."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the statement: “The Body is an instrument of the Self.”",
+   "answer": [
+    "The Body is an instrument of the Self because the Self uses the Body for behaviour with human beings and work with the rest of nature. The Self is central to human existence, because it is the Self that wants to live with continuous happiness. The Body does not decide its own use; the decision regarding the fulfilment of the Body’s needs and the use of the Body is made by the Self. The Body requires physical facility for nurturing, protection and right utilisation. The transaction between the Self and Body is through information: the Self gives instructions to the Body, and the Body gives sensations to the Self. Therefore, keeping the Body healthy is important, but the purpose of the Body is to act as a useful instrument for the Self to live in harmony at all levels."
+   ]
+  }
+ ]
+}

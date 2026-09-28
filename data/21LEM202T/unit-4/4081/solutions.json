@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "4081",
+ "unit": 4,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "On completion of this topic, students will be able to recognize the activities of the Self — realization, understanding, and contemplation ",
+ "mcq": [
+  {
+   "q": "Which of the following is NOT an activity of the Self?",
+   "options": {
+    "A": "Realization of coexistence",
+    "B": "Understanding harmony in nature",
+    "C": "Contemplation of human participation",
+    "D": "Metabolism of food"
+   },
+   "answer": "D",
+   "answer_text": "Metabolism of food"
+  },
+  {
+   "q": "Which activity of the Self connects directly to sustainable human conduct?",
+   "options": {
+    "A": "Realization",
+    "B": "Understanding",
+    "C": "Contemplation",
+    "D": "None of the above"
+   },
+   "answer": "C",
+   "answer_text": "Contemplation"
+  },
+  {
+   "q": "Understanding harmony in nature involves recognizing:",
+   "options": {
+    "A": "Competition between species",
+    "B": "Interconnectedness and mutual fulfillment among all entities",
+    "C": "Domination of humans over animals",
+    "D": "Isolation of units in existence"
+   },
+   "answer": "B",
+   "answer_text": "Interconnectedness and mutual fulfillment among all entities"
+  },
+  {
+   "q": "What happens when realization, understanding, and contemplation are absent?",
+   "options": {
+    "A": "Harmony and peace increase",
+    "B": "Confusion, contradiction, and disharmony occur",
+    "C": "Sustainable living is achieved",
+    "D": "Knowledge becomes complete"
+   },
+   "answer": "B",
+   "answer_text": "Confusion, contradiction, and disharmony occur"
+  },
+  {
+   "q": "Contemplation about human participation in harmony means:",
+   "options": {
+    "A": "Humans should exploit resources faster",
+    "B": "Humans should align actions with sustainable and ethical living",
+    "C": "Humans should ignore natural balance",
+    "D": "Humans should focus only on personal gain"
+   },
+   "answer": "B",
+   "answer_text": "Humans should align actions with sustainable and ethical living"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is meant by understanding in the self?",
+   "answer": [
+    "Understanding is recognizing the harmony that already exists in nature and how all units of existence function in an interconnected and balanced way."
+   ]
+  },
+  {
+   "q": "What does contemplation in the self involve?",
+   "answer": [
+    "Contemplation means reflecting on the human role in ensuring harmony and consciously participating in the universal order."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the importance of right utilisation of resources with reference to water, food and population issues.",
+   "answer": [
+    "Right utilisation means using physical facilities and natural resources according to real need, not according to greed or blind consumption. Water insecurity shows that even when natural water availability exists, mismanagement, deforestation, pollution, over-extraction and wrong storage systems create scarcity. Food insecurity shows that the problem is not always lack of production, but wrong distribution, wastage and wrong priorities. Population also becomes a problem when it is not guided by right understanding and responsibility. These issues show that physical resources must be understood in relation to human needs, harmony in nature and future generations. Therefore, right utilisation includes conservation, reduction of waste, sustainable agriculture, water harvesting, responsible consumption and systems that support mutual prosperity without damaging nature."
+   ]
+  }
+ ]
+}

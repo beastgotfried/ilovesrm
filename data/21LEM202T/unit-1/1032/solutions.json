@@ -7,28 +7,6 @@
  "slo_title": "Categorise aspirations into those relating to the self and those relating to physical facilities.",
  "mcq": [
   {
-   "q": "In the context of Harmony in Society, which of the following statements best explains the relationship between human goals and societal systems?",
-   "options": {
-    "A": "Human goals such as happiness, prosperity, fearlessness, and co-existence can be achieved solely through economic growth and technological advancements",
-    "B": "The realization of human goals requires a well-structured human order consisting of education, health, production, justice, and exchange systems, ensuring harmony at all levels.",
-    "C": "Societal harmony is only possible if individuals prioritize self-interest over collective well-being, leading to economic competitiveness and development",
-    "D": "Justice and preservation in society can be maintained by enforcing strict laws and punishments without the need for education or value-based transformation"
-   },
-   "answer": "B",
-   "answer_text": "The realization of human goals requires a well-structured human order consisting of education, health, production, justice, and exchange systems, ensuring harmony at all levels."
-  },
-  {
-   "q": "Justice in human relationships leads to ________________",
-   "options": {
-    "A": "Social disorder",
-    "B": "Mutual trust and harmony",
-    "C": "Conflict and exploitation",
-    "D": "Suppression of individual rights"
-   },
-   "answer": "B",
-   "answer_text": "Mutual trust and harmony"
-  },
-  {
    "q": "Which of the following best describes \"Respect\" in the context of human relationships?",
    "options": {
     "A": "Accepting that every individual has the same level of competence and treating them equally",
@@ -40,6 +18,17 @@
    "answer_text": "Recognizing that all human beings share the same natural acceptance (intention), while competence may differ, and ensuring mutual complementarity"
   },
   {
+   "q": "In the context of Harmony in Society, which of the following statements best explains the relationship between human goals and societal systems?",
+   "options": {
+    "A": "Human goals such as happiness, prosperity, fearlessness, and co-existence can be achieved solely through economic growth and technological advancements",
+    "B": "The realization of human goals requires a well-structured human order consisting of education, health, production, justice, and exchange systems, ensuring harmony at all levels.",
+    "C": "Societal harmony is only possible if individuals prioritize self-interest over collective well-being, leading to economic competitiveness and development",
+    "D": "Justice and preservation in society can be maintained by enforcing strict laws and punishments without the need for education or value-based transformation"
+   },
+   "answer": "B",
+   "answer_text": "The realization of human goals requires a well-structured human order consisting of education, health, production, justice, and exchange systems, ensuring harmony at all levels."
+  },
+  {
    "q": "In a harmonious society, the interaction between individuals is guided by",
    "options": {
     "A": "Market-based principles",
@@ -49,6 +38,17 @@
    },
    "answer": "C",
    "answer_text": "Mutual fulfillment and trust"
+  },
+  {
+   "q": "Justice in human relationships leads to ________________",
+   "options": {
+    "A": "Social disorder",
+    "B": "Mutual trust and harmony",
+    "C": "Conflict and exploitation",
+    "D": "Suppression of individual rights"
+   },
+   "answer": "B",
+   "answer_text": "Mutual trust and harmony"
   },
   {
    "q": "Which of the following describes \"right evaluation\"?",
@@ -64,15 +64,15 @@
  ],
  "sq": [
   {
-   "q": "Why are Right Understanding and Resolution considered activities of the Self?",
-   "answer": [
-    "Because they involve awareness, knowledge, and decision-making, which are functions of the human Self, not the body."
-   ]
-  },
-  {
    "q": "How does Right Understanding help the Self?",
    "answer": [
     "It provides clarity about relationships, values, and harmony, guiding correct thoughts and behavior."
+   ]
+  },
+  {
+   "q": "Why are Right Understanding and Resolution considered activities of the Self?",
+   "answer": [
+    "Because they involve awareness, knowledge, and decision-making, which are functions of the human Self, not the body."
    ]
   }
  ],

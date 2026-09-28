@@ -7,6 +7,28 @@
  "slo_title": "Tutorial",
  "mcq": [
   {
+   "q": "Binary 1101.11 is equal to which decimal value?",
+   "options": {
+    "A": "13.75",
+    "B": "12.75",
+    "C": "14.75",
+    "D": "13.5"
+   },
+   "answer": "A",
+   "answer_text": "13.75"
+  },
+  {
+   "q": "Convert binary 1001.101 to decimal:",
+   "options": {
+    "A": "8.75",
+    "B": "9.75",
+    "C": "9.5",
+    "D": "8.0"
+   },
+   "answer": "B",
+   "answer_text": "9.75"
+  },
+  {
    "q": "Convert decimal 10.625 to binary:",
    "options": {
     "A": "1010.101",
@@ -38,28 +60,6 @@
    },
    "answer": "A",
    "answer_text": "1A.A"
-  },
-  {
-   "q": "Convert binary 1001.101 to decimal:",
-   "options": {
-    "A": "8.75",
-    "B": "9.75",
-    "C": "9.5",
-    "D": "8.0"
-   },
-   "answer": "B",
-   "answer_text": "9.75"
-  },
-  {
-   "q": "Binary 1101.11 is equal to which decimal value?",
-   "options": {
-    "A": "13.75",
-    "B": "12.75",
-    "C": "14.75",
-    "D": "13.5"
-   },
-   "answer": "A",
-   "answer_text": "13.75"
   }
  ],
  "sq": [

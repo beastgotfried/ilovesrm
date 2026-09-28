@@ -7,39 +7,6 @@
  "slo_title": "Understand the concept of concurrent programming",
  "mcq": [
   {
-   "q": "What happens if two threads access a shared variable without synchronization?",
-   "options": {
-    "A": "No issues occur as threads run independently",
-    "B": "The JVM blocks the access automatically",
-    "C": "Data inconsistency or race condition may occur",
-    "D": "The thread is terminated"
-   },
-   "answer": "C",
-   "answer_text": "Data inconsistency or race condition may occur"
-  },
-  {
-   "q": "What is the major difference between process-based multitasking and thread-based multitasking?",
-   "options": {
-    "A": "Processes share memory, threads do not",
-    "B": "Threads require more resources than processes",
-    "C": "Processes are independent, threads share memory and resources",
-    "D": "There is no difference"
-   },
-   "answer": "C",
-   "answer_text": "Processes are independent, threads share memory and resources"
-  },
-  {
-   "q": "In Java, which of the following best describes the key benefit of concurrent programming?",
-   "options": {
-    "A": "Faster compilation of code",
-    "B": "Increased readabilityre",
-    "C": "Efficient use of CPU resources by running multiple tasks simultaneously",
-    "D": "Increased code security"
-   },
-   "answer": "C",
-   "answer_text": "Efficient use of CPU resources by running multiple tasks simultaneously"
-  },
-  {
    "q": "Which of the following is NOT a characteristic of multithreading in Java?",
    "options": {
     "A": "Threads share memory",
@@ -60,15 +27,42 @@
    },
    "answer": "C",
    "answer_text": "Tasks may run in different address spaces and can be either threads or processes"
+  },
+  {
+   "q": "In Java, which of the following best describes the key benefit of concurrent programming?",
+   "options": {
+    "A": "Faster compilation of code",
+    "B": "Increased readabilityre",
+    "C": "Efficient use of CPU resources by running multiple tasks simultaneously",
+    "D": "Increased code security"
+   },
+   "answer": "C",
+   "answer_text": "Efficient use of CPU resources by running multiple tasks simultaneously"
+  },
+  {
+   "q": "What happens if two threads access a shared variable without synchronization?",
+   "options": {
+    "A": "No issues occur as threads run independently",
+    "B": "The JVM blocks the access automatically",
+    "C": "Data inconsistency or race condition may occur",
+    "D": "The thread is terminated"
+   },
+   "answer": "C",
+   "answer_text": "Data inconsistency or race condition may occur"
+  },
+  {
+   "q": "What is the major difference between process-based multitasking and thread-based multitasking?",
+   "options": {
+    "A": "Processes share memory, threads do not",
+    "B": "Threads require more resources than processes",
+    "C": "Processes are independent, threads share memory and resources",
+    "D": "There is no difference"
+   },
+   "answer": "C",
+   "answer_text": "Processes are independent, threads share memory and resources"
   }
  ],
  "sq": [
-  {
-   "q": "Define concurrent programming and explain its importance in modern software development.",
-   "answer": [
-    "Concurrent programming enables multiple computations to run in overlapping time periods—either in parallel or interleaved. It's important in modern software to efficiently use multi-core processors, reduce response time, and enhance application performance."
-   ]
-  },
   {
    "q": "Differentiate between preemptive and cooperative multitasking with examples.",
    "answer": [
@@ -76,6 +70,12 @@
     "Preemptive multitasking allows the OS to interrupt and switch between tasks (e.g., Windows, Linux).",
     "Cooperative multitasking relies on the running task to yield control (e.g., early Mac OS). Java uses preemptive scheduling via the OS thread scheduler.",
     "Cooperative multitasking relies on the running task to yield control (e.g., early Mac OS). Java uses preemptive scheduling via the OS thread scheduler."
+   ]
+  },
+  {
+   "q": "Define concurrent programming and explain its importance in modern software development.",
+   "answer": [
+    "Concurrent programming enables multiple computations to run in overlapping time periods—either in parallel or interleaved. It's important in modern software to efficiently use multi-core processors, reduce response time, and enhance application performance."
    ]
   }
  ],

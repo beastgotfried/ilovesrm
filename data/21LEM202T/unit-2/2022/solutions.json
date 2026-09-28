@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "2022",
+ "unit": 2,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "reflect on how the understanding shapes human conduct and decision-making.",
+ "mcq": [
+  {
+   "q": "Who is referred to as the knower in the context of right understanding?",
+   "options": {
+    "A": "The body that performs physical functions",
+    "B": "The self that perceives and understands",
+    "C": "The environment around the human being",
+    "D": "The brain as a physical organ"
+   },
+   "answer": "B",
+   "answer_text": "The self that perceives and understands"
+  },
+  {
+   "q": "What is meant by the doer in the human being?",
+   "options": {
+    "A": "The body carrying out physical actions guided by the self",
+    "B": "The environment influencing behavior",
+    "C": "Only mechanical reflexes",
+    "D": "Biological systems working automatically"
+   },
+   "answer": "A",
+   "answer_text": "The body carrying out physical actions guided by the self"
+  },
+  {
+   "q": "Which part of the human being is the experiencer ?",
+   "options": {
+    "A": "The body only",
+    "B": "The self, which feels satisfaction, happiness, or dissatisfaction",
+    "C": "The external world",
+    "D": "The nervous system"
+   },
+   "answer": "B",
+   "answer_text": "The self, which feels satisfaction, happiness, or dissatisfaction"
+  },
+  {
+   "q": "Which of the following is NOT an activity of the self?",
+   "options": {
+    "A": "Desire and thought",
+    "B": "Resolution and decision-making",
+    "C": "Digestion and circulation",
+    "D": "Evaluation of actions"
+   },
+   "answer": "C",
+   "answer_text": "Digestion and circulation"
+  },
+  {
+   "q": "Why is the self considered central in knowing, experiencing, and doing?",
+   "options": {
+    "A": "Because the self observes, decides, and guides the body",
+    "B": "Because the body functions independently",
+    "C": "Because the brain stores information",
+    "D": "Because environment controls the self"
+   },
+   "answer": "A",
+   "answer_text": "Because the self observes, decides, and guides the body"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the significance of understanding the Self in right understanding?",
+   "answer": [
+    "It helps achieve harmony between thoughts, feelings, and actions."
+   ]
+  },
+  {
+   "q": "Why is the Self called the doer ?",
+   "answer": [
+    "Because the Self takes decisions and directs the body to act accordingly."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the difference between reaction and response in human interaction.",
+   "answer": [
+    "In human interaction, reaction means deciding our feeling and behaviour based on the other person’s behaviour. If the other behaves properly, we may behave properly; if the other misbehaves, we may also misbehave. In this case, our “remote control” is with the other person and our conduct becomes indefinite. Response means deciding our feeling on our own right, based on natural acceptance and right understanding. In response, the behaviour of the other is only an indicator of the other person’s state. With that input, we decide our behaviour to ensure mutual happiness. Response is self-organised, definite and unconditional, while reaction is dependent, indefinite and often leads to unhappiness."
+   ]
+  }
+ ]
+}

@@ -7,17 +7,6 @@
  "slo_title": "Execute SQL queries from Java programs",
  "mcq": [
   {
-   "q": "What does the ResultSet object represent in JDBC?",
-   "options": {
-    "A": "An object to connect with database",
-    "B": "An object that updates records",
-    "C": "A table of data representing the result of a SQL query",
-    "D": "A method to delete rows"
-   },
-   "answer": "C",
-   "answer_text": "A table of data representing the result of a SQL query"
-  },
-  {
    "q": "Which of the following statements is true about the executeUpdate() method in JDBC?",
    "options": {
     "A": "It returns a ResultSet object",
@@ -27,17 +16,6 @@
    },
    "answer": "C",
    "answer_text": "It returns the number of rows affected"
-  },
-  {
-   "q": "Given a ResultSet rs , which of the following correctly retrieves the value of a column named \"email\" as a String ?",
-   "options": {
-    "A": "rs.get(\"email\")",
-    "B": "rs.getString(\"email\")",
-    "C": "rs.fetch(\"email\")",
-    "D": "rs.retrieveString(\"email\")"
-   },
-   "answer": "B",
-   "answer_text": "rs.getString(\"email\")"
   },
   {
    "q": "What will happen if you call rs.getInt(\"age\") before calling rs.next() ?",
@@ -60,16 +38,31 @@
    },
    "answer": "C",
    "answer_text": "while (rs.next())"
+  },
+  {
+   "q": "Given a ResultSet rs , which of the following correctly retrieves the value of a column named \"email\" as a String ?",
+   "options": {
+    "A": "rs.get(\"email\")",
+    "B": "rs.getString(\"email\")",
+    "C": "rs.fetch(\"email\")",
+    "D": "rs.retrieveString(\"email\")"
+   },
+   "answer": "B",
+   "answer_text": "rs.getString(\"email\")"
+  },
+  {
+   "q": "What does the ResultSet object represent in JDBC?",
+   "options": {
+    "A": "An object to connect with database",
+    "B": "An object that updates records",
+    "C": "A table of data representing the result of a SQL query",
+    "D": "A method to delete rows"
+   },
+   "answer": "C",
+   "answer_text": "A table of data representing the result of a SQL query"
   }
  ],
  "sq": [
-  {
-   "q": "How can you execute an INSERT SQL query from a Java program using JDBC?",
-   "answer": [
-    "Use Statement or PreparedStatement and executeUpdate() method.",
-    "Statement stmt = con.createStatement(); int rows = stmt.executeUpdate(\"INSERT INTO students(name, age) VALUES('John', 20)\");"
-   ]
-  },
   {
    "q": "How is executeUpdate() different from executeQuery() in JDBC?",
    "answer": [
@@ -77,6 +70,13 @@
     "executeUpdate() is used for INSERT, UPDATE, DELETE; returns number of affected rows.",
     "executeQuery() is used for SELECT; returns a ResultSet .",
     "executeQuery() is used for SELECT; returns a ResultSet ."
+   ]
+  },
+  {
+   "q": "How can you execute an INSERT SQL query from a Java program using JDBC?",
+   "answer": [
+    "Use Statement or PreparedStatement and executeUpdate() method.",
+    "Statement stmt = con.createStatement(); int rows = stmt.executeUpdate(\"INSERT INTO students(name, age) VALUES('John', 20)\");"
    ]
   }
  ],

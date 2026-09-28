@@ -7,15 +7,15 @@
  "slo_title": "Examine performance issues in dynamic dispatch vs direct call",
  "mcq": [
   {
-   "q": "Which data structure is typically used in dynamic memory allocation?",
+   "q": "Why is dynamic dispatch slower than direct call?",
    "options": {
-    "A": "a) Array",
-    "B": "b) Stack",
-    "C": "c) Heap ​​​​​",
-    "D": "d) Queue"
+    "A": "a) It consumes more storage",
+    "B": "b) It requires resolving the method at runtime through a virtual table (vtable)",
+    "C": "c) It uses static binding ​​​​​",
+    "D": "d) It runs outside of memory"
    },
-   "answer": "C",
-   "answer_text": "c) Heap ​​​​​"
+   "answer": "B",
+   "answer_text": "b) It requires resolving the method at runtime through a virtual table (vtable)"
   },
   {
    "q": "What is dynamic memory allocation in object-oriented programming?",
@@ -29,26 +29,15 @@
    "answer_text": "b) Allocating memory at runtime as needed"
   },
   {
-   "q": "Why is dynamic dispatch slower than direct call?",
+   "q": "Which data structure is typically used in dynamic memory allocation?",
    "options": {
-    "A": "a) It consumes more storage",
-    "B": "b) It requires resolving the method at runtime through a virtual table (vtable)",
-    "C": "c) It uses static binding ​​​​​",
-    "D": "d) It runs outside of memory"
-   },
-   "answer": "B",
-   "answer_text": "b) It requires resolving the method at runtime through a virtual table (vtable)"
-  },
-  {
-   "q": "In Java, which keyword is commonly used to allocate memory dynamically for an object?",
-   "options": {
-    "A": "a) create",
-    "B": "b) alloc",
-    "C": "c) new ​​​​​",
-    "D": "d) malloc"
+    "A": "a) Array",
+    "B": "b) Stack",
+    "C": "c) Heap ​​​​​",
+    "D": "d) Queue"
    },
    "answer": "C",
-   "answer_text": "c) new ​​​​​"
+   "answer_text": "c) Heap ​​​​​"
   },
   {
    "q": "Which of the following is a performance benefit of direct procedure calls over dynamic dispatch?",
@@ -60,19 +49,30 @@
    },
    "answer": "C",
    "answer_text": "c) Enables faster execution due to compile-time binding ​​​​​"
+  },
+  {
+   "q": "In Java, which keyword is commonly used to allocate memory dynamically for an object?",
+   "options": {
+    "A": "a) create",
+    "B": "b) alloc",
+    "C": "c) new ​​​​​",
+    "D": "d) malloc"
+   },
+   "answer": "C",
+   "answer_text": "c) new ​​​​​"
   }
  ],
  "sq": [
   {
-   "q": "A performance audit reveals delays in frequently called functions. What role do method call overheads play in this performance issue?",
-   "answer": [
-    "Dynamic dispatch in object-oriented languages introduces runtime overhead due to method resolution, whereas static calls in procedural code are resolved at compile time, offering better performance."
-   ]
-  },
-  {
    "q": "A large-scale e-commerce platform requires maintainable and extensible code. Why is object-oriented programming more suitable than procedural for this case?",
    "answer": [
     "Object-oriented programming promotes abstraction, encapsulation, and reuse, allowing complex systems to be broken down into manageable components with clear responsibilities."
+   ]
+  },
+  {
+   "q": "A performance audit reveals delays in frequently called functions. What role do method call overheads play in this performance issue?",
+   "answer": [
+    "Dynamic dispatch in object-oriented languages introduces runtime overhead due to method resolution, whereas static calls in procedural code are resolved at compile time, offering better performance."
    ]
   }
  ],

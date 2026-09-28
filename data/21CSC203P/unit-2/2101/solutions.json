@@ -18,15 +18,15 @@
    "answer_text": "Same method name, same parameter list, and same return type"
   },
   {
-   "q": "Which concept allows a parent class reference to point to a child class object and call overridden methods at runtime?",
+   "q": "Which method can not be overridden in Java?",
    "options": {
-    "A": "Method overloading",
-    "B": "Inheritance",
-    "C": "Dynamic method dispatch",
-    "D": "Encapsulation"
+    "A": "public method",
+    "B": "protected method",
+    "C": "static method",
+    "D": "void method"
    },
    "answer": "C",
-   "answer_text": "Dynamic method dispatch"
+   "answer_text": "static method"
   },
   {
    "q": "Which of the following best demonstrates runtime polymorphism in Java?",
@@ -51,28 +51,28 @@
    "answer_text": "super"
   },
   {
-   "q": "Which method can not be overridden in Java?",
+   "q": "Which concept allows a parent class reference to point to a child class object and call overridden methods at runtime?",
    "options": {
-    "A": "public method",
-    "B": "protected method",
-    "C": "static method",
-    "D": "void method"
+    "A": "Method overloading",
+    "B": "Inheritance",
+    "C": "Dynamic method dispatch",
+    "D": "Encapsulation"
    },
    "answer": "C",
-   "answer_text": "static method"
+   "answer_text": "Dynamic method dispatch"
   }
  ],
  "sq": [
   {
-   "q": "State two key rules of method overriding in Java.",
-   "answer": [
-    "The method in the subclass must have the same name, return type, and parameter list as in the superclass. The method must not be static, private, or final, as these prevent overriding."
-   ]
-  },
-  {
    "q": "Write a short Java code snippet to override a method display() from a parent class in a subclass.",
    "answer": [
     "class Animal { void display() { System.out.println(\"Animal class\"); } } class Dog extends Animal { @Override void display() { System.out.println(\"Dog class\"); } } This is an example of method overriding, where Dog provides its own version of display()."
+   ]
+  },
+  {
+   "q": "State two key rules of method overriding in Java.",
+   "answer": [
+    "The method in the subclass must have the same name, return type, and parameter list as in the superclass. The method must not be static, private, or final, as these prevent overriding."
    ]
   }
  ],

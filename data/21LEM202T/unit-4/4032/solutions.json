@@ -1,0 +1,87 @@
+{
+ "course": "21LEM202T",
+ "code": "4032",
+ "unit": 4,
+ "session": 3,
+ "slo": 2,
+ "slo_title": " demonstrate how this knowledge helps in appreciating interconnectedness, harmony, and sustainable living.",
+ "mcq": [
+  {
+   "q": "Human role in nature and existence is to:",
+   "options": {
+    "A": "Dominate and exploit resources",
+    "B": "Ensure harmony by understanding and participating responsibly",
+    "C": "Remain passive observers",
+    "D": "Focus only on self-development"
+   },
+   "answer": "B",
+   "answer_text": "Ensure harmony by understanding and participating responsibly"
+  },
+  {
+   "q": "Existence is described as:",
+   "options": {
+    "A": "Dynamic, contradictory, and temporary",
+    "B": "Co-existence, continuous, and all-encompassing",
+    "C": "Limited to living beings",
+    "D": "Non-systematic and random"
+   },
+   "answer": "B",
+   "answer_text": "Co-existence, continuous, and all-encompassing"
+  },
+  {
+   "q": "Comprehensive knowledge of existence ultimately leads to:",
+   "options": {
+    "A": "Disharmony between humans and nature",
+    "B": "Sustainable living and peaceful coexistence",
+    "C": "Isolation of human beings from nature",
+    "D": "Short-term material growth"
+   },
+   "answer": "B",
+   "answer_text": "Sustainable living and peaceful coexistence"
+  },
+  {
+   "q": "What happens when humans do not understand existence comprehensively?",
+   "options": {
+    "A": "Harmony in society improves",
+    "B": "Resource exploitation, conflict, and imbalance",
+    "C": "Sustainability increases",
+    "D": "Mutual trust grows"
+   },
+   "answer": "B",
+   "answer_text": "Resource exploitation, conflict, and imbalance"
+  },
+  {
+   "q": "Why is understanding nature important?",
+   "options": {
+    "A": "To design solutions that exploit natural resources faster",
+    "B": "To integrate sustainability and harmony in technological development",
+    "C": "To focus only on profit-making",
+    "D": "To ignore ecological balance"
+   },
+   "answer": "B",
+   "answer_text": "To integrate sustainability and harmony in technological development"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is it important for engineers to understand existence comprehensively?",
+   "answer": [
+    "It helps engineers design technologies that are sustainable, ethical, and in harmony with humans, society, and nature."
+   ]
+  },
+  {
+   "q": "Give an example of harmony in existence",
+   "answer": [
+    "The water cycle shows harmony in existence—clouds, rain, rivers, and plants all function in balance, supporting life."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "What is the role of human beings in ensuring mutual fulfilment in nature?",
+   "answer": [
+    "The role of human beings is to understand the inherent harmony in nature and live accordingly. Human beings must facilitate the activity, innateness and inheritance of all four orders. For the physical order, human beings should help maintain its constitution and avoid pollution or destruction. For the bio order, they should protect and enrich growth, seeds, forests and agriculture. For the animal order, they should ensure an environment for the body, food, shelter and breed. For the human order, they should ensure human education-sanskar, right understanding, undivided society and universal human order. Human prosperity should not come by exploiting nature. It should come through right utilisation, protection and enrichment of nature. Thus, the human role is responsible participation for mutual fulfilment."
+   ]
+  }
+ ]
+}

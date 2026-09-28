@@ -1,0 +1,116 @@
+{
+ "course": "21CSC203P",
+ "code": "4021",
+ "unit": 4,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Explain pure functions with examples",
+ "mcq": [
+  {
+   "q": "Why is immutability encouraged in functional programming?",
+   "options": {
+    "A": "A) It improves readability but reduces performance",
+    "B": "B) It makes code less reusable",
+    "C": "C) It helps avoid side effects and makes programs easier to reason about",
+    "D": "D) It prevents function calls"
+   },
+   "answer": "C",
+   "answer_text": "C) It helps avoid side effects and makes programs easier to reason about"
+  },
+  {
+   "q": "What is the output of the following Python code? list(map(lambda x: x*2, [1, 2, 3]))",
+   "options": {
+    "A": "A) [2, 4, 6]",
+    "B": "B) [1, 2, 3, 2, 4, 6]",
+    "C": "C) [1, 2, 3]",
+    "D": "D) Error"
+   },
+   "answer": "A",
+   "answer_text": "A) [2, 4, 6]"
+  },
+  {
+   "q": "Which of the following best describes a pure function?",
+   "options": {
+    "A": "A) A function that modifies its input parameters",
+    "B": "B) A function that always returns the same output for the same input and causes no side effects",
+    "C": "C) A function that uses global variables",
+    "D": "D) A function that depends on user input"
+   },
+   "answer": "B",
+   "answer_text": "B) A function that always returns the same output for the same input and causes no side effects"
+  },
+  {
+   "q": "How do higher-order functions help promote abstraction?",
+   "options": {
+    "A": "A) By hiding implementation details and allowing functions to be passed as arguments",
+    "B": "B) By modifying data in place",
+    "C": "C) By increasing code duplication",
+    "D": "D) By using global variables"
+   },
+   "answer": "A",
+   "answer_text": "A) By hiding implementation details and allowing functions to be passed as arguments"
+  },
+  {
+   "q": "Which Python function is used to filter elements from a list based on a condition?",
+   "options": {
+    "A": "A) map()",
+    "B": "B) reduce()",
+    "C": "C) filter()",
+    "D": "D) apply()"
+   },
+   "answer": "C",
+   "answer_text": "C) filter()"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why are pure functions preferred in parallel or multi-user environments?",
+   "answer": [
+    "Pure functions don’t rely on or change external state, avoiding conflicts during execution. This makes them safer and more efficient in multi-threaded or distributed systems. They also enhance reproducibility and make debugging easier."
+   ]
+  },
+  {
+   "q": "A student record system filters only passed students. How can filter() and pure functions help?",
+   "answer": [
+    "filter() can be used with a pure lambda like lambda x: x['marks'] > 50 . It returns only those records that satisfy the condition without modifying the original data. This ensures data immutability and reusability across different program parts."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are designing a data analysis tool that processes customer feedback scores stored in a list. The tool should perform the following tasks: Normalize the scores using a transformation function. Normalize the scores using a transformation function. Filter out scores below a threshold. Filter out scores below a threshold. Calculate the average of the remaining scores. Calculate the average of the remaining scores. Your team insists on writing the tool using a pure functional style with built-in higher-order functions . Task: Define a pure function. Explain why it is important for reusability and testability. (4 marks) Define a pure function. Explain why it is important for reusability and testability. (4 marks) Write a Python program using map() , filter() , and reduce() to implement the above scenario. (6 marks) Write a Python program using map() , filter() , and reduce() to implement the above scenario. (6 marks) Explain how immutability and higher-order functions promote abstraction and reliability in the code. (5 marks) Explain how immutability and higher-order functions promote abstraction and reliability in the code. (5 marks)",
+   "answer": [
+    "A pure function is a function that:",
+    "Always returns the same output for the same input.",
+    "Always returns the same output for the same input.",
+    "Has no side effects (does not modify global state or external variables).",
+    "Has no side effects (does not modify global state or external variables).",
+    "Importance:",
+    "Reusability: Can be used in different contexts without altering logic.",
+    "Reusability: Can be used in different contexts without altering logic.",
+    "Testability: Easy to test since output depends only on input.",
+    "Testability: Easy to test since output depends only on input.",
+    "Debugging: Easier, as functions are isolated and predictable.",
+    "Debugging: Easier, as functions are isolated and predictable.",
+    "# Pure function to normalize score def normalize(score): return score / 10 # Example: if max score is 10",
+    "# Sample data scores = [8, 5, 9, 3, 7]",
+    "# Step 1: Normalize using map normalized_scores = list(map(normalize, scores))",
+    "# Step 2: Filter scores >= 0.5 filtered_scores = list(filter(lambda x: x >= 0.5, normalized_scores))",
+    "# Step 3: Average using reduce total = reduce(lambda x, y: x + y, filtered_scores) average = total / len(filtered_scores)",
+    "print(\"Average score:\", average)",
+    "Immutability: Original list scores is never modified , ensuring data safety and no unintended changes. Functional programming encourages working with new data , not modifying old.",
+    "Immutability:",
+    "Original list scores is never modified , ensuring data safety and no unintended changes.",
+    "Original list scores is never modified , ensuring data safety and no unintended changes.",
+    "Functional programming encourages working with new data , not modifying old.",
+    "Functional programming encourages working with new data , not modifying old.",
+    "Higher-Order Functions: map() , filter() , and reduce() accept functions as arguments, allowing logic to be abstracted and reused. They eliminate the need for verbose loops and make the code more concise, modular, and readable .",
+    "Higher-Order Functions:",
+    "map() , filter() , and reduce() accept functions as arguments, allowing logic to be abstracted and reused.",
+    "map() , filter() , and reduce() accept functions as arguments, allowing logic to be abstracted and reused.",
+    "They eliminate the need for verbose loops and make the code more concise, modular, and readable .",
+    "They eliminate the need for verbose loops and make the code more concise, modular, and readable ."
+   ]
+  }
+ ]
+}

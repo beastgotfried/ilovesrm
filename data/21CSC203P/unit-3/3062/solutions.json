@@ -7,6 +7,39 @@
  "slo_title": "Use JDBC classes and interfaces (Connection, Statement)",
  "mcq": [
   {
+   "q": "Which of the following is the correct JDBC URL to connect to a MySQL database named studentdb hosted locally?",
+   "options": {
+    "A": "jdbc:mysql://localhost:3306/studentdb",
+    "B": "mysql://jdbc:localhost/studentdb",
+    "C": "jdbc:mysql:localhost:studentdb",
+    "D": "jdbc:mysql://studentdb.localhost"
+   },
+   "answer": "A",
+   "answer_text": "jdbc:mysql://localhost:3306/studentdb"
+  },
+  {
+   "q": "Which statement is true regarding the execution of a SQL query using Statement ?",
+   "options": {
+    "A": "executeQuery() is used for DML (INSERT/UPDATE)",
+    "B": "executeUpdate() returns a ResultSet",
+    "C": "executeQuery() returns a ResultSet for SELECT queries",
+    "D": "execute() always throws an exception"
+   },
+   "answer": "C",
+   "answer_text": "executeQuery() returns a ResultSet for SELECT queries"
+  },
+  {
+   "q": "Which of the following is not a method in the Connection interface?",
+   "options": {
+    "A": "createStatement()",
+    "B": "prepareStatement()",
+    "C": "commit()",
+    "D": "executeQuery()"
+   },
+   "answer": "D",
+   "answer_text": "executeQuery()"
+  },
+  {
    "q": "What is the role of the Class.forName(\"com.mysql.cj.jdbc.Driver\") line in JDBC code?",
    "options": {
     "A": "Executes the SQL command",
@@ -27,42 +60,18 @@
    },
    "answer": "C",
    "answer_text": "Memory leak and DB resource exhaustion may occur"
-  },
-  {
-   "q": "Which of the following is the correct JDBC URL to connect to a MySQL database named studentdb hosted locally?",
-   "options": {
-    "A": "jdbc:mysql://localhost:3306/studentdb",
-    "B": "mysql://jdbc:localhost/studentdb",
-    "C": "jdbc:mysql:localhost:studentdb",
-    "D": "jdbc:mysql://studentdb.localhost"
-   },
-   "answer": "A",
-   "answer_text": "jdbc:mysql://localhost:3306/studentdb"
-  },
-  {
-   "q": "Which of the following is not a method in the Connection interface?",
-   "options": {
-    "A": "createStatement()",
-    "B": "prepareStatement()",
-    "C": "commit()",
-    "D": "executeQuery()"
-   },
-   "answer": "D",
-   "answer_text": "executeQuery()"
-  },
-  {
-   "q": "Which statement is true regarding the execution of a SQL query using Statement ?",
-   "options": {
-    "A": "executeQuery() is used for DML (INSERT/UPDATE)",
-    "B": "executeUpdate() returns a ResultSet",
-    "C": "executeQuery() returns a ResultSet for SELECT queries",
-    "D": "execute() always throws an exception"
-   },
-   "answer": "C",
-   "answer_text": "executeQuery() returns a ResultSet for SELECT queries"
   }
  ],
  "sq": [
+  {
+   "q": "How do you establish a JDBC connection to a MySQL database?",
+   "answer": [
+    "Load the driver: Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+    "Load the driver: Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+    "Create connection: Connection con = DriverManager.getConnection( \"jdbc:mysql://localhost:3306/studentdb\", \"root\", \"password\");",
+    "Create connection:"
+   ]
+  },
   {
    "q": "Explain how to execute a SELECT query using JDBC.",
    "answer": [
@@ -72,15 +81,6 @@
     "Execute query: ResultSet rs = stmt.executeQuery(\"SELECT * FROM students\");",
     "Loop through ResultSet to process rows.",
     "Loop through ResultSet to process rows."
-   ]
-  },
-  {
-   "q": "How do you establish a JDBC connection to a MySQL database?",
-   "answer": [
-    "Load the driver: Class.forName(\"com.mysql.cj.jdbc.Driver\");",
-    "Load the driver: Class.forName(\"com.mysql.cj.jdbc.Driver\");",
-    "Create connection: Connection con = DriverManager.getConnection( \"jdbc:mysql://localhost:3306/studentdb\", \"root\", \"password\");",
-    "Create connection:"
    ]
   }
  ],
