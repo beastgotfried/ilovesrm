@@ -1,8 +1,10 @@
 #!/usr/bin/env python3
 """ecurricula-bot — autonomous solved-worksheet pipeline.
 
-Prereqs: Chrome with WebBridge extension, logged into the eCurricula portal
-(any profile — the bot reads name + reg no from the live session).
+Runs anywhere Python 3 runs. No browser, no extension, no daemon.
+Auth: paste the portal JWT once (copy(localStorage.jwtToken) in any logged-in
+browser) — cached in bot_config.json and auto-refreshed thereafter.
+Optional: a 2captcha API key enables full username+password login.
 
 Usage:
     python bot.py                 # interactive
@@ -29,6 +31,33 @@ def save_config(cfg):
         json.dump(cfg, f, indent=2)
 
 
+def portal_login(cfg):
+    """Ensure an authenticated portal session. Returns identity dict."""
+    # 1. cached token, auto-refreshed
+    if portal.up():
+        who = portal.detect_identity()
+        if who["reg"]:
+            return who
+
+    print("No usable portal session cached.")
+    print("  [1] paste JWT  — log in on any browser, devtools console: "
+          "copy(localStorage.jwtToken)")
+    print("  [2] username + password (needs 2captcha key in bot_config.json "
+          "as captcha_key)")
+    choice = input("Choice [1]: ").strip() or "1"
+
+    if choice == "2":
+        user = input("Portal registration no (RA...): ").strip()
+        pw = getpass.getpass("Portal password: ")
+        key = cfg.get("captcha_key")
+        who = portal.login_with_password(user, pw, key)
+    else:
+        token = getpass.getpass("JWT token: ").strip()
+        who = portal.login_with_token(token)
+
+    return {"reg": who["reg"], "name": who["name"], "logged_in": True}
+
+
 def get_github(cfg):
     from core import github
     gh = cfg.get("github", {})
@@ -47,12 +76,8 @@ def main():
     dry = "--dry-run" in sys.argv
     print("== ecurricula-bot ==")
 
-    if not portal.up():
-        sys.exit("WebBridge daemon not reachable (127.0.0.1:10086). Start Chrome with the extension.")
-
-    who = portal.detect_identity()
-    if not who["logged_in"] or not who["reg"]:
-        sys.exit("No logged-in portal session detected in the WebBridge tab. Log in first.")
+    cfg = load_config()
+    who = portal_login(cfg)
     print(f"  Logged in: {who['name']} ({who['reg']})")
 
     courses = [d for d in os.listdir(os.path.join(ROOT, "db"))]
@@ -60,10 +85,7 @@ def main():
     for c in courses:
         print(f"    {c}: {len(pdfgen.available_codes(c))} worksheets")
 
-    cfg = load_config()
-    gh = None if dry else get_github(cfg)
-    if dry:
-        gh = {"owner": "dry", "repo": "dry"}
+    gh = {"owner": "dry", "repo": "dry"} if dry else get_github(cfg)
 
     pick = input(f"Course to complete [{courses[0]}] (or 'all'): ").strip() or courses[0]
     targets = courses if pick == "all" else [pick]
