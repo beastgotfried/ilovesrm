@@ -1,0 +1,95 @@
+{
+ "course": "21MAB201T",
+ "code": "4041",
+ "unit": 4,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Solve tutorial problems involving computation of Fourier transforms",
+ "mcq": [
+  {
+   "q": "\\(\\text{Given } F\\{f(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as) - as\\cos(as))}{s^2}, \\text{ what is } F\\{f(2x)\\} \\text{ using the change of scale property?}\\)",
+   "options": {
+    "A": "\\(\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as/2) - (as/2)\\cos(as/2))}{(s/2)^2}\\)",
+    "B": "\\(\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(2as) - 2as\\cos(2as))}{s^2}\\)",
+    "C": "\\(\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as) - as\\cos(as))}{s^2}\\)",
+    "D": "\\(\\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as/2) - (as/2)\\cos(as/2))}{(s/2)^2}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as/2) - (as/2)\\cos(as/2))}{(s/2)^2}\\)"
+  },
+  {
+   "q": "\\(\\text{Find the Fourier transform of } f(x) = \\begin{cases} 2x, & |x| \\leq 1 \\\\ 0, & |x| > 1 \\end{cases} \\text{ given that the transform of } g(x) = \\begin{cases} x, & |x| \\leq a \\\\ 0, & |x| > a \\end{cases} \\text{ is } \\frac{2i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin(as) - a s \\cos(as)}{s^2} \\right).\\)",
+   "options": {
+    "A": "\\(\\frac{4i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin s - s \\cos s}{s^2} \\right)\\)",
+    "B": "\\(\\frac{2i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin s - s \\cos s}{s^2} \\right)\\)",
+    "C": "\\(\\frac{4i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin s}{s} \\right)\\)",
+    "D": "\\(\\frac{2i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin(2s) - 2s \\cos(2s)}{s^2} \\right)\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{4i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin s - s \\cos s}{s^2} \\right)\\)"
+  },
+  {
+   "q": "\\(\\text{Using the linearity property of Fourier transforms, if } F\\{e^{-x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\text{ and } F\\{e^{-2x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{2}{4+s^2}, \\text{ then } F\\{3e^{-x} - 2e^{-2x}\\} \\text{ is:}\\)",
+   "options": {
+    "A": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{1+s^2} - \\frac{4}{4+s^2} \\right]\\)",
+    "B": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{1+s^2} - \\frac{2}{4+s^2} \\right]\\)",
+    "C": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+s^2} - \\frac{2}{4+s^2} \\right]\\)",
+    "D": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{1+s^2} + \\frac{4}{4+s^2} \\right]\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{1+s^2} - \\frac{4}{4+s^2} \\right]\\)"
+  },
+  {
+   "q": "\\(\\text{If } F\\{f(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3}, \\text{ find } F\\{x f(x)\\} \\text{ using the derivative of transform property.}\\)",
+   "options": {
+    "A": "\\(-i \\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)",
+    "B": "\\(i \\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)",
+    "C": "\\(-\\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)",
+    "D": "\\(\\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(-i \\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)"
+  },
+  {
+   "q": "\\(\\text{Using the modulation theorem, if } F\\{e^{-|x|}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}, \\text{ then } F\\{e^{-|x|} \\cos(3x)\\} \\text{ is:}\\)",
+   "options": {
+    "A": "\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+3)^2} + \\frac{1}{1+(s-3)^2} \\right]\\)",
+    "B": "\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+3)^2} - \\frac{1}{1+(s-3)^2} \\right]\\)",
+    "C": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\cos(3s)\\)",
+    "D": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\sin(3s)\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+3)^2} + \\frac{1}{1+(s-3)^2} \\right]\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Using the Fourier transform of } f(x)=e^{-|x|}, \\text{ evaluate } \\int_{0}^{\\infty} \\frac{1}{1+x^2} dx.\\)",
+   "answer": [
+    "\\(\\text{We have } F(s) = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{1}{1+s^2} \\text{ for } f(x)=e^{-|x|}\\)",
+    "\\(\\text{By inverse transform at } x=0: f(0)=1 = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} F(s) ds\\)",
+    "\\(1 = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} ds = \\frac{1}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{1}{1+s^2} ds\\)",
+    "\\(\\text{Since integrand is even: } \\int_{-\\infty}^{\\infty} \\frac{1}{1+s^2} ds = 2 \\int_{0}^{\\infty} \\frac{1}{1+x^2} dx = \\pi\\)",
+    "\\(\\text{Thus } \\int_{0}^{\\infty} \\frac{1}{1+x^2} dx = \\frac{\\pi}{2}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Using Fourier transform, evaluate } \\int_{0}^{\\infty} \\frac{\\sin x}{x} dx.\\)",
+   "answer": [
+    "\\(\\text{Consider } f(x) = \\begin{cases} 1 & |x| < 1 \\\\ 0 & |x| > 1 \\end{cases}, \\text{ its Fourier transform is } F(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{\\sin s}{s}\\)",
+    "\\(\\text{By inverse transform at } x=0: f(0) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} F(s) ds\\)",
+    "\\(1 = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} \\sqrt{\\frac{2}{\\pi}} \\frac{\\sin s}{s} ds = \\frac{1}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{\\sin s}{s} ds\\)",
+    "\\(\\text{Since } \\frac{\\sin s}{s} \\text{ is even: } \\int_{-\\infty}^{\\infty} \\frac{\\sin s}{s} ds = 2 \\int_{0}^{\\infty} \\frac{\\sin s}{s} ds = \\pi\\)",
+    "\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{\\sin x}{x} dx = \\frac{\\pi}{2}.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Find the Fourier transform of the derivative } f'(x) \\text{ given that } \\mathcal{F}\\{f(x)\\}=F(s).\\)",
+   "answer": [
+    "Step Marks \\(\\mathcal{F}\\{f'(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f'(x) e^{isx} dx\\) (2) Integrate by parts: let \\(u = e^{isx}\\), \\(dv = f'(x)dx\\) (2) Then \\(du = is e^{isx} dx\\), \\(v = f(x)\\) (2) \\(\\mathcal{F}\\{f'(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\left[ f(x)e^{isx} \\right]_{-\\infty}^{\\infty} - \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) is e^{isx} dx\\) (3) Since \\(f(x) \\to 0\\) as \\(x \\to \\pm\\infty\\), the boundary term vanishes (2) \\(\\mathcal{F}\\{f'(x)\\} = -is \\cdot \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) e^{isx} dx = -is F(s)\\) (4)"
+   ]
+  }
+ ]
+}

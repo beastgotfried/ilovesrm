@@ -1,0 +1,210 @@
+{
+ "course": "21CSC201J",
+ "code": "2072",
+ "unit": 2,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "Understand Circular Singly Linked Lists - Insertion",
+ "mcq": [
+  {
+   "q": "In a singly linked list, how do you handle deletion at the middle when the list has an even number of nodes",
+   "options": {
+    "A": "Delete the first node",
+    "B": "Delete the (n/2)th node",
+    "C": "Delete the (n/2)+1th node",
+    "D": "The deletion is not possible"
+   },
+   "answer": "B",
+   "answer_text": "Delete the (n/2)th node"
+  },
+  {
+   "q": "A railway booking system stores ticket reservations in a circular singly linked list. If a new reservation is added between two existing reservations, what needs to be adjusted",
+   "options": {
+    "A": "The previous reservation’s next pointer should point to the new reservation",
+    "B": "The list should be reversed before insertion",
+    "C": "The head pointer should be moved",
+    "D": "The last reservation should be deleted"
+   },
+   "answer": "A",
+   "answer_text": "The previous reservation’s next pointer should point to the new reservation"
+  },
+  {
+   "q": "An online food ordering system maintains active orders in a circular singly linked list. A new order is placed at the end. What must be updated",
+   "options": {
+    "A": "The new node’s next pointer must point to the head",
+    "B": "The first order should be deleted",
+    "C": "The system should convert the list into a doubly linked list",
+    "D": "The order must be inserted at the second position"
+   },
+   "answer": "A",
+   "answer_text": "The new node’s next pointer must point to the head"
+  },
+  {
+   "q": "What is the time complexity of deleting a node from the middle of a singly linked list",
+   "options": {
+    "A": "O(1)",
+    "B": "O(n)",
+    "C": "O(n log n)",
+    "D": "O(n^2)"
+   },
+   "answer": "B",
+   "answer_text": "O(n)"
+  },
+  {
+   "q": "If a node is deleted from the middle of a singly linked list, what happens to the structure of the list",
+   "options": {
+    "A": "The list becomes disconnected",
+    "B": "The previous node’s next pointer is updated to the next node of the deleted node",
+    "C": "The head node is removed",
+    "D": "The entire list is reversed"
+   },
+   "answer": "B",
+   "answer_text": "The previous node’s next pointer is updated to the next node of the deleted node"
+  }
+ ],
+ "sq": [
+  {
+   "q": "The nodes of the list are given by 23, 34, 46, 57 and 68. Insert a new node with the data 17 before the node 57 and the data 77 at the end of the list. The predecessor and successor nodes of 77 are 68 and 23 respectively. Demonstrate the insertion operation with suitable pseudo code.",
+   "answer": [
+    "Insertion operation of doubly linked list",
+    "Insertion at a given position",
+    "voidinsertAfter(struct Node* prev_node, intnew_data)",
+    "{",
+    "if (prev_node == NULL)",
+    "{",
+    "printf(\"the given previous node cannot be NULL\");",
+    "return;",
+    "}",
+    "struct Node* new_node = (struct Node*)malloc(sizeof(struct Node));",
+    "new_node->data = new_data;",
+    "new_node->next = prev_node->next;",
+    "prev_node->next = new_node;",
+    "new_node->prev = prev_node;",
+    "if (new_node->next != NULL)",
+    "new_node->next->prev = new_node;",
+    "}",
+    "Insertion at the end",
+    "voidinsert_end(int data)",
+    "{",
+    "struct node* new_node = create(data);",
+    "if (new_node)",
+    "{",
+    "if (head == NULL)",
+    "{",
+    "new_node->next = new_node;",
+    "new_node->prev = new_node;",
+    "head = new_node; return;",
+    "}",
+    "head->prev->next = new_node;",
+    "new_node->prev = head->prev;",
+    "new_node->next = head;",
+    "head->prev = new_node;",
+    "}",
+    "}"
+   ]
+  },
+  {
+   "q": "Consider a goods train, which initially has an engine as a header. Later compartments are linked with engines one by one in series. The compartments can be attached and detached with engine or in between the compartments. Implement a data structure for the following operations in the goods train 1. Attaching a compartment in between the compartments 2. Detaching a compartment in between the compartments.",
+   "answer": [
+    "The suitable data structure for the above problem is linked list",
+    "1: Attaching a Compartment in between the compartments’",
+    "Insert at the Middle (A,B,C,D are the compartments)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a music player app where songs are played in a loop . To achieve this, you use a circular singly linked list where each node stores the song ID. When a user starts the playlist , the first song is inserted at the beginning . When new songs are added to the end of the playlist, they should be appended such that the last song still links back to the first. Users can also insert a favorite song at a specific position in the playlist (e.g., between song 2 and song 3). The playlist must remain circular after every operation. Task: Write a program in C to: Insert a song at the beginning Insert a song at the end Insert a song at a given position Display the playlist in a circular fashion Also explain why a circular structure is preferred in this scenario.",
+   "answer": [
+    "#include <stdio.h>",
+    "#include <stdlib.h>",
+    "// Node structure",
+    "struct Node {",
+    "int data;",
+    "struct Node* next;",
+    "};",
+    "// Insert at the beginning",
+    "void insertAtBeginning(struct Node** head, int value) {",
+    "struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));",
+    "newNode->data = value;",
+    "if (*head == NULL) {",
+    "newNode->next = newNode;",
+    "*head = newNode;",
+    "} else {",
+    "struct Node* temp = *head;",
+    "while (temp->next != *head) {",
+    "temp = temp->next;",
+    "}",
+    "newNode->next = *head;",
+    "temp->next = newNode;",
+    "*head = newNode;",
+    "}",
+    "printf(\"Inserted %d at the beginning.\\n\", value);",
+    "}",
+    "// Insert at the end",
+    "void insertAtEnd(struct Node** head, int value) {",
+    "struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));",
+    "newNode->data = value;",
+    "if (*head == NULL) {",
+    "newNode->next = newNode;",
+    "*head = newNode;",
+    "} else {",
+    "struct Node* temp = *head;",
+    "while (temp->next != *head) {",
+    "temp = temp->next;",
+    "}",
+    "temp->next = newNode;",
+    "newNode->next = *head;",
+    "}",
+    "printf(\"Inserted %d at the end.\\n\", value);",
+    "}",
+    "// Insert at a specific position",
+    "void insertAtPosition(struct Node** head, int value, int position) {",
+    "if (position == 1) {",
+    "insertAtBeginning(head, value);",
+    "return;",
+    "}",
+    "struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));",
+    "newNode->data = value;",
+    "struct Node* temp = *head;",
+    "for (int i = 1; i < position - 1; i++) {",
+    "temp = temp->next;",
+    "if (temp == *head) {",
+    "printf(\"Position out of bounds.\\n\");",
+    "free(newNode);",
+    "return;",
+    "}",
+    "}",
+    "newNode->next = temp->next;",
+    "temp->next = newNode;",
+    "printf(\"Inserted %d at position %d.\\n\", value, position);",
+    "}",
+    "// Display circular list",
+    "void display(struct Node* head) {",
+    "if (head == NULL) {",
+    "printf(\"List is empty.\\n\");",
+    "return;",
+    "}",
+    "struct Node* temp = head;",
+    "printf(\"Circular List: \");",
+    "do {",
+    "printf(\"%d -> \", temp->data);",
+    "temp = temp->next;",
+    "} while (temp != head);",
+    "printf(\"(back to head)\\n\");",
+    "}",
+    "// Main driver",
+    "int main() {",
+    "struct Node* head = NULL;",
+    "insertAtEnd(&head, 10);",
+    "insertAtBeginning(&head, 5);",
+    "insertAtEnd(&head, 20);",
+    "insertAtPosition(&head, 15, 3);",
+    "display(head); // Expected: 5 -> 10 -> 15 -> 20 -> (back to head)",
+    "return 0;",
+    "}",
+    "Circular playlist ensures infinite looping of songs without needing to restart manually."
+   ]
+  }
+ ]
+}

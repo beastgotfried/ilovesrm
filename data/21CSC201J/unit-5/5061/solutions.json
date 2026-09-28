@@ -1,0 +1,126 @@
+{
+ "course": "21CSC201J",
+ "code": "5061",
+ "unit": 5,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Minimum Spanning Tree - Prim's Algorithm",
+ "mcq": [
+  {
+   "q": "Which of the following is true about Kruskal’s Algorithm",
+   "options": {
+    "A": "It always selects the edge with the maximum weight",
+    "B": "It works by selecting edges in increasing order of weight",
+    "C": "It requires a priority queue for efficiency",
+    "D": "It’s not suitable for sparse graphs"
+   },
+   "answer": "B",
+   "answer_text": "It works by selecting edges in increasing order of weight"
+  },
+  {
+   "q": "In Kruskal’s algorithm, how is a cycle in the MST avoided",
+   "options": {
+    "A": "By using a priority queue to sort edges",
+    "B": "By rejecting edges that form a cycle, using the Union-Find data structure",
+    "C": "By always selecting the edge with the highest weight",
+    "D": "By adding edges to the MST only after visiting all vertices"
+   },
+   "answer": "B",
+   "answer_text": "By rejecting edges that form a cycle, using the Union-Find data structure"
+  },
+  {
+   "q": "Which data structure is most commonly used to implement Kruskal’s Algorithm efficiently",
+   "options": {
+    "A": "Stack",
+    "B": "Queue",
+    "C": "Union-Find (Disjoint Set)",
+    "D": "Priority Queue"
+   },
+   "answer": "C",
+   "answer_text": "Union-Find (Disjoint Set)"
+  },
+  {
+   "q": "Which of the following is not the algorithm to find the minimum spanning tree of the given graph",
+   "options": {
+    "A": "Dijkstra algorithm",
+    "B": "Prim’s algorithm",
+    "C": "Kruskal’s algorithm",
+    "D": "Both b and c"
+   },
+   "answer": "A",
+   "answer_text": "Dijkstra algorithm"
+  },
+  {
+   "q": "Identify the true statement about spanning tree A connected graph can have more than one spanning tree. Spanning trees for a graph contains all the vertices in the graph. Spanning trees do not have any cycles. Spanning tree is constructed for a disconnected graph",
+   "options": {
+    "A": "i) and ii) only",
+    "B": "ii) and iv) only",
+    "C": "i), ii) and iii) only",
+    "D": "ii), iii) and iv) only"
+   },
+   "answer": "C",
+   "answer_text": "i), ii) and iii) only"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define Minimum Spanning Tree (MST). Examine the step-by-step procedures of Prim’s Algorithm and Kruskal’s Algorithm used for finding the Minimum Spanning Tree in a connected weighted graph.",
+   "answer": [
+    "A minimum spanning tree (MST) is defined as a spanning tree that has the minimum weight among all the possible spanning trees.",
+    "Algorithms to find Minimum Spanning Tree",
+    "There are several algorithms to find the minimum spanning tree from a given graph, some of them are listed below:",
+    "Kruskal’s Minimum Spanning Tree Algorithm",
+    "This is one of the popular algorithms for finding the minimum spanning tree from a connected, undirected graph. This is a Greedy algorithm. The algorithm workflow is as below:",
+    "First, it sorts all the edges of the graph by their weights,",
+    "Then starts the iterations of finding the spanning tree.",
+    "At each iteration, the algorithm adds the next lowest-weight edge one by one, such that the edges picked until now does not form a cycle.",
+    "This algorithm can be implemented efficiently using a DSU(Disjoin set) data structure to keep track of the connected components of the graph. This is used in a variety of practical applications such as network design, clustering, and data analysis.",
+    "Prim’s Minimum Spanning Tree Algorithm:",
+    "This is also a greedy algorithm. This algorithm has the following workflow:",
+    "It starts by selecting an arbitrary vertex and then adding it to the MST.",
+    "Then, it repeatedly checks for the minimum edge weight that connects one vertex of MST to another vertex that is not yet in the MST.",
+    "This process is continued until all the vertices are included in the MST.",
+    "To efficiently select the minimum weight edge for each iteration, this algorithm uses priority_queue to store the vertices sorted by their minimum edge weight currently. It also simultaneously keeps track of the MST using an array or other data structure suitable considering the data type it is storing.",
+    "This algorithm can be used in various scenarios such as image segmentation based on color, texture, or other features. For Routing, as in finding the shortest path between two points for a delivery truck to follow."
+   ]
+  },
+  {
+   "q": "What is Spanning Tree? Explain the properties of Spanning Tree",
+   "answer": [
+    "A spanning tree is defined as a tree-like subgraph of a connected, undirected graph that includes all the vertices of the graph. Or, to say in Layman’s words, it is a subset of the edges of the graph that forms a tree (acyclic) where every node of the graph is a part of the tree.",
+    "Properties of a Spanning Tree",
+    "The spanning tree holds the below-mentioned principles :",
+    "The number of vertices ( V ) in the graph and the spanning tree is the same.",
+    "There is a fixed number of edges in the spanning tree which is equal to one less than the total number of vertices ( E = V-1 ).",
+    "The spanning tree should not be disconnected , as in there should only be a single source of component, not more than that.",
+    "The spanning tree should be acyclic, which means there would not be any cycle in the tree.",
+    "The total cost (or weight) of the spanning tree is defined as the sum of the edge weights of all the edges of the spanning tree.",
+    "There can be many possible spanning trees for a graph."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are working as a network engineer for a telecom company tasked with laying out cables to connect various regional offices across a city. The goal is to ensure that all offices are connected with the minimum total cost, avoiding any cycle formation to minimize redundancy. The city map is represented as a connected weighted undirected graph where: Nodes represent regional offices, and Edges represent the possible cable routes between the offices along with the associated costs. The graph is given below Task: Apply Kruskal’s Algorithm to find the Minimum Spanning Tree (MST) of the given graph. Show all the steps and the final MST. Apply Prim’s Algorithm starting from vertex A to find the MST. Show each iteration clearly. Compare the results of both algorithms. Are the MSTs identical in total cost and edges?",
+   "answer": [
+    "Kruskal’s Algorithm",
+    "Selected (E, F)",
+    "Selected (D, G)",
+    "Selected (D, C)",
+    "Selected (C, F)",
+    "Selected (G, H)",
+    "Selected (C, B)",
+    "Selected (A, H)",
+    "Prim’s Algorithm",
+    "Selected (D, G)",
+    "Selected (D, C)",
+    "Selected (C, F)",
+    "Selected (F, E)",
+    "Selected (G, H)",
+    "Selected (H, A)",
+    "Selected (C, B)",
+    "Final Answer"
+   ]
+  }
+ ]
+}

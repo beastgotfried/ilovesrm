@@ -1,0 +1,132 @@
+{
+ "course": "21CSC202J",
+ "code": "2111",
+ "unit": 2,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "Explain Peterson’s solution for two-process mutual exclusion",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Unlimited",
+    "D": "Four"
+   },
+   "answer": "B",
+   "answer_text": "Two"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "To reduce power consumption",
+    "B": "To avoid compiler errors",
+    "C": "To ensure indivisible access to memory",
+    "D": "To speed up display output"
+   },
+   "answer": "C",
+   "answer_text": "To ensure indivisible access to memory"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Memory allocation",
+    "B": "Disk scheduling",
+    "C": "Process synchronization",
+    "D": "Deadlock detection"
+   },
+   "answer": "C",
+   "answer_text": "Process synchronization"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "cache memory",
+    "B": "test_and_set instruction",
+    "C": "pipeline architecture",
+    "D": "load balancer"
+   },
+   "answer": "B",
+   "answer_text": "test_and_set instruction"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Store process IDs",
+    "B": "Indicate interest of a process in entering the critical section",
+    "C": "Hold shared resources",
+    "D": "Schedule I/O operations"
+   },
+   "answer": "B",
+   "answer_text": "Indicate interest of a process in entering the critical section"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Peterson’s solution is a software-based algorithm that provides mutual exclusion between two processes . It uses two variables: flag[] to indicate interest in entering the critical section, and turn to determine whose turn it is to enter."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Test-and-Set",
+    "Test-and-Set",
+    "Compare-and-Swap These are atomic instructions that help implement lock-based synchronization in hardware.",
+    "Compare-and-Swap These are atomic instructions that help implement lock-based synchronization in hardware."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain Peterson’s solution for mutual exclusion. How does it work, and how does it meet the requirements of the critical section problem? Also explain how hardware instructions like Test-and-Set help achieve synchronization.",
+   "answer": [
+    "Peterson’s solution is a classical algorithm for achieving mutual exclusion between two processes P0 and P1 without using hardware instructions. It works by using two shared variables:",
+    "flag[2] : Indicates if a process wants to enter the critical section.",
+    "flag[2] : Indicates if a process wants to enter the critical section.",
+    "turn : Indicates whose turn it is to enter.",
+    "turn : Indicates whose turn it is to enter.",
+    "// For Process Pi (i = 0 or 1) flag[i] = true;",
+    "turn = j;",
+    "while (flag[j] == true && turn == j);",
+    "// Wait //",
+    "Critical Section flag[i] = false;",
+    "When both processes want to enter the critical section, the turn variable ensures that only one is allowed.",
+    "When both processes want to enter the critical section, the turn variable ensures that only one is allowed.",
+    "The other process waits until its turn.",
+    "The other process waits until its turn.",
+    "The flag[] variable shows the process's intent to enter the critical section.",
+    "The flag[] variable shows the process's intent to enter the critical section.",
+    "Mutual Exclusion: Only one process enters the critical section at a time.",
+    "Mutual Exclusion: Only one process enters the critical section at a time.",
+    "Progress: If no process is in the critical section, decision cannot be postponed.",
+    "Progress: If no process is in the critical section, decision cannot be postponed.",
+    "Bounded Waiting: No indefinite postponement; each process gets a fair turn.",
+    "Bounded Waiting: No indefinite postponement; each process gets a fair turn.",
+    "Works only for two processes .",
+    "Works only for two processes .",
+    "Assumes atomic reads and writes to shared variables.",
+    "Assumes atomic reads and writes to shared variables.",
+    "Modern CPUs provide atomic operations that help in synchronization without busy waiting.",
+    "Test-and-Set (TAS): Tests and sets a lock in one atomic operation. Prevents race conditions.",
+    "Test-and-Set (TAS):",
+    "Tests and sets a lock in one atomic operation.",
+    "Tests and sets a lock in one atomic operation.",
+    "Prevents race conditions.",
+    "Prevents race conditions.",
+    "Compare-and-Swap (CAS): Compares the value of a variable and swaps it if the expected value matches. Commonly used for implementing lock-free data structures .",
+    "Compare-and-Swap (CAS):",
+    "Compares the value of a variable and swaps it if the expected value matches.",
+    "Compares the value of a variable and swaps it if the expected value matches.",
+    "Commonly used for implementing lock-free data structures .",
+    "Commonly used for implementing lock-free data structures .",
+    "boolean test_and_set(boolean *target)",
+    "{ boolean rv = *target; *target = true; return rv; }",
+    "Returns true if already locked, otherwise sets lock and returns false .",
+    "Returns true if already locked, otherwise sets lock and returns false ."
+   ]
+  }
+ ]
+}

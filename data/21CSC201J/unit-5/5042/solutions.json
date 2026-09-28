@@ -1,0 +1,156 @@
+{
+ "course": "21CSC201J",
+ "code": "5042",
+ "unit": 5,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Topological Sorting",
+ "mcq": [
+  {
+   "q": "Which of the following is true about topological ordering",
+   "options": {
+    "A": "It can be performed on any graph",
+    "B": "It provides the shortest path",
+    "C": "It is unique for all DAGs",
+    "D": "It is a linear ordering of vertices"
+   },
+   "answer": "D",
+   "answer_text": "It is a linear ordering of vertices"
+  },
+  {
+   "q": "Time complexity to find if there is an edge between 2 particular vertices is _________",
+   "options": {
+    "A": "O(V)",
+    "B": "Incidence Matrix",
+    "C": "O(E)",
+    "D": "O(V+E)"
+   },
+   "answer": "A",
+   "answer_text": "O(V)"
+  },
+  {
+   "q": "Topological sort can be applied to which of the following graphs",
+   "options": {
+    "A": "Undirected Cyclic Graphs",
+    "B": "Directed Cyclic Graphs",
+    "C": "Undirected Acyclic Graphs",
+    "D": "Directed Acyclic Graphs"
+   },
+   "answer": "D",
+   "answer_text": "Directed Acyclic Graphs"
+  },
+  {
+   "q": "Which of the following statements is true regarding topological sorting of a directed graph",
+   "options": {
+    "A": "It can be applied to both directed and undirected graphs.",
+    "B": "A topological sort exists only if the graph has cycles.",
+    "C": "It provides a linear ordering of vertices such that for every directed edge u→v, vertex u comes before vertex v in the ordering.",
+    "D": "It can be performed in any arbitrary order"
+   },
+   "answer": "C",
+   "answer_text": "It provides a linear ordering of vertices such that for every directed edge u→v, vertex u comes before vertex v in the ordering."
+  },
+  {
+   "q": "Which of the following ways can be used to represent a graph",
+   "options": {
+    "A": "Adjacency List and Adjacency Matrix",
+    "B": "Incidence Matrix",
+    "C": "Adjacency List, Adjacency Matrix as well as Incidence Matrix",
+    "D": "No way to represent"
+   },
+   "answer": "C",
+   "answer_text": "Adjacency List, Adjacency Matrix as well as Incidence Matrix"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Compare Breath First Search and Depth First Search.",
+   "answer": [
+    "Parameters",
+    "BFS",
+    "DFS",
+    "Stands for",
+    "BFS stands for Breadth First Search.",
+    "DFS stands for Depth First Search.",
+    "Data Structure",
+    "BFS(Breadth First Search) uses Queue data structure for finding the shortest path.",
+    "DFS(Depth First Search) uses Stack data structure.",
+    "Definition",
+    "BFS is a traversal approach in which we first walk through all nodes on the same level before moving on to the next level.",
+    "DFS is also a traversal approach in which the traverse begins at the root node and proceeds through the nodes as far as possible until we reach the node with no unvisited nearby nodes.",
+    "Conceptual Difference",
+    "BFS builds the tree level by level.",
+    "DFS builds the tree sub-tree by sub-tree.",
+    "Approach used",
+    "It works on the concept of FIFO (First In First Out).",
+    "It works on the concept of LIFO (Last In First Out).",
+    "Suitable for",
+    "BFS is more suitable for searching vertices closer to the given source.",
+    "DFS is more suitable when there are solutions away from source.",
+    "Applications",
+    "BFS is used in various applications such as bipartite graphs, shortest paths, etc. If weight of every edge is same, then BFS gives shortest pat from source to every other vertex.",
+    "DFS is used in various applications such as acyclic graphs and finding strongly connected components etc. There are many applications where both BFS and DFS can be used like Topological Sorting, Cycle Detection, etc."
+   ]
+  },
+  {
+   "q": "What is Topological Sorting in a graph? Write the algorithmic steps along with pseudocode to perform Topological Sort .",
+   "answer": [
+    "Topological sorting for Directed Acyclic Graph (DAG) is a linear ordering of vertices such that for every directed edge u-v, vertex u comes before v in the ordering.",
+    "Note: Topological Sorting for a graph is not possible if the graph is not a DAG.",
+    "Kahn’s Algorithm",
+    "Find a vertex that has indegree = 0 (no incoming edges)",
+    "Remove all the edges from that vertex that go outward (make its outdegree = 0, remove outgoing edges)",
+    "Add that vertex to the array representing the topological sorting of the graph",
+    "Repeat till there are no more vertices left.",
+    "Pseudocode",
+    "sorted <-- Empty list initially, of the topologically sorted elements",
+    "zero_incoming <-- set of nodes with indegree = 0",
+    "while zero_incoming is not empty do:",
+    "remove a node n from zero_incoming",
+    "add n to the sorted list",
+    "for each node out with an edge from n to out do:",
+    "remove edge from graph",
+    "if out has no other incoming edges then:",
+    "insert out in zero_incoming",
+    "if graph has edges then:",
+    "return Error {graph has at least 1 cycle}",
+    "else",
+    "return sorted {our final array}"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A university is developing a software tool to help students plan their semester course schedule. The tool models course prerequisites using a directed graph, where each node represents a course, and a directed edge from one course to another means the first course must be completed before the second. The directed graph shown below represents the prerequisites among six courses: A, B, C, D, E, and F. Based on the graph, perform a Topological Sort and list a valid order in which the courses can be completed.",
+   "answer": [
+    "Kahn’s Algorithm",
+    "The first and one of the most popular algorithms that can be used to return the topological sorting of a graph is the Kahn's algorithm.",
+    "How does it work?",
+    "Do you know how adding a node to our final array that we return, depends on whether or not the nodes pointing to it have been added? Basically, it’s indegree.",
+    "Indegree of a node is the count of incoming edges for that particular node.",
+    "Kahn's algorithm basically looks for the nodes that do not have any incoming edges, or have indegree = 0, and then removes their outgoing edges, making its outdegree also equal to 0.",
+    "Here’s the algorithm step by step:",
+    "Find a vertex that has indegree = 0 (no incoming edges)",
+    "Remove all the edges from that vertex that go outward (make its outdegree = 0, remove outgoing edges)",
+    "Add that vertex to the array representing the topological sorting of the graph",
+    "Repeat till there are no more vertices left.",
+    "Let’s apply these steps to a graph:",
+    "What do you think is the first node we must process? Yes, it’s A. A is the only node in the graph that has no incoming edges, and has two outgoing edges. So, we’re going to isolate this node, by removing its outgoing edges and adding it to our topological sort array.",
+    "Our sorted order of the graph looks like this: [A]",
+    "And our graph looks like this now:",
+    "The next node that we can add is either B or C. Look closely, none of them have any incoming edges. We know that there can be more than one topologically sorted order of a graph, so we’ll just move forward with adding any of the nodes B or C to the array since both of them are equally capable of being added.",
+    "Array: [A, C]",
+    "Graph:",
+    "Now every node except for B has an incoming edge, and so the next node in our array must be B.",
+    "Array: [A, C, B]",
+    "Graph:",
+    "The next eligible node is easy D. Although we can even add E, since the node is completely isolated, let’s go with that one. Remember, a graph can be ordered topologically in multiple ways. Whether you pick D or E right now, will not affect the ordering.",
+    "Array: [A, C, B, D]",
+    "Graph:",
+    "E is the only node with no incoming edges, so let’s add that, and then the only remaining node will be F.",
+    "So, Array: [A, C, B, D, E, F]",
+    "And that’s our topologically sorted order for this graph using Kahn’s algorithm!"
+   ]
+  }
+ ]
+}

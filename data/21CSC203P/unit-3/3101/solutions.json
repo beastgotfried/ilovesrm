@@ -1,0 +1,96 @@
+{
+ "course": "21CSC203P",
+ "code": "3101",
+ "unit": 3,
+ "session": 10,
+ "slo": 1,
+ "slo_title": "Use Java Swing widgets for GUI creation",
+ "mcq": [
+  {
+   "q": "What is the purpose of setLayout() in a Swing container?",
+   "options": {
+    "A": "To fix the window size",
+    "B": "To handle button clicks",
+    "C": "To define how components are arranged",
+    "D": "To create a menu bar"
+   },
+   "answer": "C",
+   "answer_text": "To define how components are arranged"
+  },
+  {
+   "q": "Which class in Swing is used to create a top-level window?",
+   "options": {
+    "A": "JPanel",
+    "B": "JWindow",
+    "C": "JDialog",
+    "D": "JFrame"
+   },
+   "answer": "D",
+   "answer_text": "JFrame"
+  },
+  {
+   "q": "In a login form, which components would you use for entering and confirming a password?",
+   "options": {
+    "A": "JLabel , JTextField",
+    "B": "JLabel , JPasswordField",
+    "C": "JButton , JComboBox",
+    "D": "JList , JTextArea"
+   },
+   "answer": "B",
+   "answer_text": "JLabel , JPasswordField"
+  },
+  {
+   "q": "How do you attach an event to a JButton in Swing?",
+   "options": {
+    "A": "Implement Runnable",
+    "B": "Add an ActionListener",
+    "C": "Use KeyListener",
+    "D": "Override paint() method"
+   },
+   "answer": "B",
+   "answer_text": "Add an ActionListener"
+  },
+  {
+   "q": "What layout manager arranges components in a left-to-right flow, wrapping to the next line when needed?",
+   "options": {
+    "A": "BorderLayout",
+    "B": "FlowLayout",
+    "C": "GridLayout",
+    "D": "BoxLayout"
+   },
+   "answer": "B",
+   "answer_text": "FlowLayout"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between JTextField and JPasswordField .",
+   "answer": [
+    "Both accept user input, but JTextField shows typed characters, while JPasswordField masks them for security (e.g., displaying asterisks)."
+   ]
+  },
+  {
+   "q": "What are the primary components needed to design a simple login form using Swing?",
+   "answer": [
+    "A login form typically includes JLabel (for username and password), JTextField (for username input), JPasswordField (for password input), and JButton (for login action), all arranged using layout managers like FlowLayout or GridLayout ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a user registration form using Java Swing. The form should collect the user's name, email, and password. The layout should be well-organized and include proper labels, input fields, and a submit button. Implement the GUI using appropriate Swing components and layout managers.Write a Java Swing program to implement the above user registration form using JLabel , JTextField , JPasswordField , and JButton . Use GridLayout or any other appropriate layout manager to design the form neatly.",
+   "answer": [
+    "import javax.swing.*; import java.awt.*; import java.awt.event.*;",
+    "public class RegistrationForm extends JFrame { public RegistrationForm() { setTitle(\"User Registration\"); setSize(350, 200); setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); setLayout(new GridLayout(4, 2, 10, 10));",
+    "JLabel nameLabel = new JLabel(\"Name:\"); JTextField nameField = new JTextField();",
+    "JLabel emailLabel = new JLabel(\"Email:\"); JTextField emailField = new JTextField();",
+    "JLabel passLabel = new JLabel(\"Password:\"); JPasswordField passField = new JPasswordField();",
+    "JButton submitButton = new JButton(\"Register\");",
+    "add(nameLabel); add(nameField); add(emailLabel); add(emailField); add(passLabel); add(passField); add(new JLabel()); add(submitButton);",
+    "submitButton.addActionListener(e -> { String name = nameField.getText(); String email = emailField.getText(); String pass = new String(passField.getPassword()); JOptionPane.showMessageDialog(this, \"User Registered:\\n\" + name + \", \" + email); });",
+    "setVisible(true); }",
+    "public static void main(String[] args) { new RegistrationForm(); } }"
+   ]
+  }
+ ]
+}

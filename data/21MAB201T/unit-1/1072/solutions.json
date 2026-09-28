@@ -1,0 +1,101 @@
+{
+ "course": "21MAB201T",
+ "code": "1072",
+ "unit": 1,
+ "session": 7,
+ "slo": 2,
+ "slo_title": " Lagrange's linear equation: Method of multipliers",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": []
+  },
+  {
+   "q": "\\(\\text{Solve Lagrange's equation: } x(y-z)p+y(z-x)q=z(x-y)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Subsidiary equations: } \\frac{dx}{x(y-z)}=\\frac{dy}{y(z-x)}=\\frac{dz}{z(x-y)}\\)",
+    "(2 Mark)",
+    "\\(\\text{Use multipliers (1,1,1): } x+y+z=a\\)",
+    "(2 Mark)",
+    "\\(\\text{Use multipliers (1/x,1/y,1/z): } xyz=b\\)",
+    "(1 Mark)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Find the integral surface of } x(y^2+z)p - y(x^2+z)q = (x^2-y^2)z \\text{ passing through the line } x+y=0, z=1\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Find general solution using multipliers: } x^2+y^2-2z=a, xyz=b\\)",
+    "(2 Mark)",
+    "\\(\\text{Substitute boundary: } x=-y, z=1\\)",
+    "(2 Mark)",
+    "\\(\\text{Get: } 2y^2-2=a, -y^2=b\\)",
+    "(2 Mark)",
+    "\\(\\text{Eliminate y: } a+2b+2=0 \\Rightarrow x^2+y^2-2z+2xyz+2=0\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

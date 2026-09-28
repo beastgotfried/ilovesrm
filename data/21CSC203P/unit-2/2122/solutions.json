@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2122",
+ "unit": 2,
+ "session": 12,
+ "slo": 2,
+ "slo_title": "Import built-in and user-defined packages into Java programs to enable code reuse and modularity.",
+ "mcq": [
+  {
+   "q": "What is the correct syntax to import all classes from a package named mypack?",
+   "options": {
+    "A": "include mypack.*;",
+    "B": "import all from mypack;",
+    "C": "use package mypack;",
+    "D": "import mypack.*;"
+   },
+   "answer": "D",
+   "answer_text": "import mypack.*;"
+  },
+  {
+   "q": "Which of the following is a built-in Java package?",
+   "options": {
+    "A": "java.util",
+    "B": "system.core",
+    "C": "net.io",
+    "D": "core.java"
+   },
+   "answer": "A",
+   "answer_text": "java.util"
+  },
+  {
+   "q": "To compile a class inside a package, what should the folder structure match?",
+   "options": {
+    "A": "It must be random",
+    "B": "It must match the class name",
+    "C": "It must match the package name",
+    "D": "It must match the import statement"
+   },
+   "answer": "C",
+   "answer_text": "It must match the package name"
+  },
+  {
+   "q": "What is the main advantage of creating user-defined packages?",
+   "options": {
+    "A": "Slower compilation",
+    "B": "Memory optimization",
+    "C": "Logical organization and code reusability",
+    "D": "Debugging becomes harder"
+   },
+   "answer": "C",
+   "answer_text": "Logical organization and code reusability"
+  },
+  {
+   "q": "Which keyword is used in Java to define a package?",
+   "options": {
+    "A": "import",
+    "B": "package",
+    "C": "module",
+    "D": "namespace"
+   },
+   "answer": "B",
+   "answer_text": "package"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the purpose of importing packages in Java?",
+   "answer": [
+    "Importing packages allows access to classes, interfaces, and methods defined in another package. This improves code reusability, supports modular design, and makes programs more organized."
+   ]
+  },
+  {
+   "q": "Write the steps and code snippet to create a user-defined package named shapes containing a class Circle.",
+   "answer": [
+    "Step 1: Create the class inside the package // File: shapes/Circle.java package shapes; public class Circle { public void draw() { System.out.println(\"Drawing a circle\"); } } Step 2: Import and use the package // File: Main.java import shapes.Circle; public class Main { public static void main(String[] args) { Circle c = new Circle(); c.draw(); } } Step 3: Compile with folder structure javac shapes/Circle.java javac -cp . Main.java"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are building a Java-based library management system. You want to organize your project into different functional units: books, users, and transactions. Explain how you can use user-defined packages to structure your codebase. Illustrate with Java code how to define and import classes from these packages. What are the benefits of this modular approach?",
+   "answer": [
+    "Folder Structure: library/ ??? books/ ? ??? Book.java ??? users/ ? ??? User.java ??? transactions/ ? ??? Transaction.java ??? Main.java Sample Code: books/Book.java package books; public class Book { public void displayBook() { System.out.println(\"Displaying book info...\"); } } users/User.java package users; public class User { public void displayUser() { System.out.println(\"Displaying user info...\"); } } transactions/Transaction.java package transactions; public class Transaction { public void displayTransaction() { System.out.println(\"Displaying transaction info...\"); } } Main.java import books.Book; import users.User; import transactions.Transaction; public class Main { public static void main(String[] args) { Book b = new Book(); User u = new User(); Transaction t = new Transaction(); b.displayBook(); u.displayUser(); t.displayTransaction(); } } Benefits of This Modular Approach: Better organization of code by separating concerns Encourages code reusability across projects Supports team collaboration, as different teams can work on separate packages Makes maintenance and scaling easier"
+   ]
+  }
+ ]
+}

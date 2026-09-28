@@ -1,0 +1,101 @@
+{
+ "course": "21MAB201T",
+ "code": "1012",
+ "unit": 1,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "Identify and eliminate arbitrary constants from the given functions to derive PDEs",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Define order and degree of PDE: } \\frac{\\partial^2 z}{\\partial x^2} + \\left(\\frac{\\partial z}{\\partial y}\\right)^3 = \\cos(x+y)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Highest order derivative: } \\frac{\\partial^2 z}{\\partial x^2} \\Rightarrow \\text{Order = 2}\\)",
+    "(2 Mark)",
+    "\\(\\text{Degree is power of highest order derivative: Degree = 1}\\)",
+    "(2 Mark)",
+    "\\(\\text{Final Answer: Order = 2, Degree = 1}\\)",
+    "(1 Mark)"
+   ]
+  },
+  {
+   "q": "",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Form the PDE by eliminating arbitrary constants a and b from } z = (x-a)^2 + (y-b)^2 + c^2 \\text{ and hence find the PDE when } c=1\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Differentiate w.r.t x: } 2(x-a)+2zp=0 \\Rightarrow x-a=-zp\\)",
+    "(2 Mark)",
+    "\\(\\text{Differentiate w.r.t y: } 2(y-b)+2zq=0 \\Rightarrow y-b=-zq\\)",
+    "(2 Mark)",
+    "\\(\\text{Substitute: } z^2p^2+z^2q^2+z^2=c^2 \\Rightarrow (p^2+q^2+1)z^2=c^2\\)",
+    "(2 Mark)",
+    "\\(\\text{When c=1: } (p^2+q^2+1)z^2=1\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,90 @@
+{
+ "course": "21MAB201T",
+ "code": "2032",
+ "unit": 2,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Solve problems related to Fourier series in general intervals.",
+ "mcq": [
+  {
+   "q": "\\(If \\ f(x) = \\left\\{ \\begin{array}{cl} x & : \\ 0< x < l \\\\ 0 & : \\ l< x < 2l \\end{array} \\right.\\ and \\ f(x)=f(x+2l) \\ for \\ all \\ x,\\ find\\ the \\ sum \\ of \\ the \\ Fourier \\ series \\ f(x) \\ at \\ x=l.\\)",
+   "options": {
+    "A": "\\(l/2\\)",
+    "B": "\\(l\\)",
+    "C": "\\(1\\)",
+    "D": "\\(2\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(l/2\\)"
+  },
+  {
+   "q": "For \\( f(x) \\) defined on \\( (0, 2l) \\), the Fourier series is:",
+   "options": {
+    "A": "\\( \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos\\left(\\frac{n\\pi x}{l}\\right) + b_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\right] \\)",
+    "B": "\\( \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos(nx) + b_n \\sin(nx) \\right] \\)",
+    "C": "\\( \\sum_{n=1}^{\\infty} \\left[ a_n \\cos\\left(\\frac{n\\pi x}{l}\\right) + b_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\right] \\)",
+    "D": "\\( a_0 + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos\\left(\\frac{n\\pi x}{l}\\right) + b_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\right] \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos\\left(\\frac{n\\pi x}{l}\\right) + b_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\right] \\)"
+  },
+  {
+   "q": "For \\( f(x) \\) defined on \\( (0, 2l) \\), the Fourier coefficient \\( b_n \\) is:",
+   "options": {
+    "A": "\\( b_n = \\frac{1}{l} \\int_0^{2l} f(x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)",
+    "B": "\\( b_n = \\frac{2}{l} \\int_0^{2l} f(x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)",
+    "C": "\\( b_n = \\frac{1}{l} \\int_0^{2l} f(x) \\cos\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)",
+    "D": "\\( b_n = \\frac{1}{2l} \\int_0^{2l} f(x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( b_n = \\frac{1}{l} \\int_0^{2l} f(x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)"
+  },
+  {
+   "q": "\\(If \\ f(x)=x \\ in \\ the \\ interval \\ (0,2l), \\ then \\ the \\ value \\ of \\ a_0 \\ in \\ the \\ Fourier \\ series \\ expansion\\ is\\)",
+   "options": {
+    "A": "\\(l/2\\)",
+    "B": "\\(0\\)",
+    "C": "\\(l\\)",
+    "D": "\\(2l\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\(2l\\)"
+  },
+  {
+   "q": "When changing from interval \\( (0, 2\\pi) \\) to \\( (0, 2l) \\), the variable transformation used is:",
+   "options": {
+    "A": "\\( z = \\frac{\\pi x}{l} \\)",
+    "B": "\\( z = \\frac{2\\pi x}{l} \\)",
+    "C": "\\( z = \\frac{x}{l} \\)",
+    "D": "\\( z = \\frac{\\pi x}{2l} \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( z = \\frac{\\pi x}{l} \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(Find \\ the\\ Fourier\\ series\\ expansion \\ for \\ f(x)= (l-x)^2 \\ in \\ the \\ interval \\ (0,2l). \\) Type Here",
+   "answer": [
+    "Type Here"
+   ]
+  },
+  {
+   "q": "\\(\\text{For function in } (0, 2l), \\text{ if } f(2l-x) = f(x), \\text{ what simplification occurs?}\\)",
+   "answer": [
+    "\\(\\text{If } f(2l-x) = f(x), \\text{ function is symmetric about } x=l\\)",
+    "\\(\\text{Then } \\int_0^{2l} f(x) dx = 2\\int_0^l f(x) dx\\)",
+    "\\(\\text{Similarly for cosine integrals: } \\int_0^{2l} f(x) \\cos(\\frac{n\\pi x}{l}) dx = 2\\int_0^l f(x) \\cos(\\frac{n\\pi x}{l}) dx\\)",
+    "\\(\\text{For sine: } \\int_0^{2l} f(x) \\sin(\\frac{n\\pi x}{l}) dx = 0\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=x(2l-x)\\) in \\((0,2l)\\) of period \\(2l\\).",
+   "answer": [
+    "Step Marks Fourier series form with period \\(2l\\) (1) \\(a_0=\\frac{1}{l}\\int_0^{2l}x(2l-x)dx=\\frac{4l^2}{3}\\) (2) \\(a_n=\\frac{1}{l}\\int_0^{2l}x(2l-x)\\cos\\frac{n\\pi x}{l}dx=-\\frac{4l^2}{n^2\\pi^2}\\) (4) \\(b_n=\\frac{1}{l}\\int_0^{2l}x(2l-x)\\sin\\frac{n\\pi x}{l}dx=\\frac{4l^2}{n\\pi}(-1)^{n+1}\\) (4) Thus, \\(x(2l-x)=\\frac{2l^2}{3}-\\frac{4l^2}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\cos\\frac{n\\pi x}{l}+\\frac{4l^2}{\\pi}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}{n}\\sin\\frac{n\\pi x}{l}\\) (4)"
+   ]
+  }
+ ]
+}

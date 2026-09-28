@@ -1,0 +1,87 @@
+{
+ "course": "21CSS201T",
+ "code": "3081",
+ "unit": 3,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "Explain the concept and operational steps of the non-restoring division algorithm.",
+ "mcq": [
+  {
+   "q": "In Non‑Restoring Division, if remainder R is negative, the next step does:",
+   "options": {
+    "A": "Shift + subtract divisor",
+    "B": "Shift + add divisor",
+    "C": "Shift only",
+    "D": "Stop"
+   },
+   "answer": "B",
+   "answer_text": "Shift + add divisor"
+  },
+  {
+   "q": "What is the final step in the non-restoring division algorithm if the remainder is negative after all iterations?",
+   "options": {
+    "A": "Discard the remainder",
+    "B": "Add the divisor to the remainder",
+    "C": "Subtract the divisor from the remainder",
+    "D": "Multiply the quotient by 2"
+   },
+   "answer": "B",
+   "answer_text": "Add the divisor to the remainder"
+  },
+  {
+   "q": "In non-restoring division, how is the quotient bit decided at each step?",
+   "options": {
+    "A": "Based on the size of the divisor",
+    "B": "Based on the sign of the remainder after the operation",
+    "C": "Bsed on whether the dividend is even or odd",
+    "D": "Randomly assigned during each cycle"
+   },
+   "answer": "B",
+   "answer_text": "Based on the sign of the remainder after the operation"
+  },
+  {
+   "q": "Which of the following is true regarding the number of shifts in a non-restoring division algorithm for n-bit operands?",
+   "options": {
+    "A": "The number of shifts is always 2n",
+    "B": "The number of shifts is n+1",
+    "C": "The number of shifts is exactly n",
+    "D": "It depends on the size of the divisor only"
+   },
+   "answer": "C",
+   "answer_text": "The number of shifts is exactly n"
+  },
+  {
+   "q": "What is the primary advantage of the non-restoring division algorithm over the restoring division algorithm?",
+   "options": {
+    "A": "It uses fewer registers",
+    "B": "It does not require restoring after every subtraction",
+    "C": "It produces more accurate results",
+    "D": "It can divide both positive and negative numbers directly"
+   },
+   "answer": "B",
+   "answer_text": "It does not require restoring after every subtraction"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Using non‑restoring division, divide 10101₂ (21) by 0011₂ (3) . Show 4 full cycles , listing A, Q, the operation (add/sub), and new Q₀ bit each step.",
+   "answer": [
+    "Cycle A before shift Shift (A,Q) → A A op= ± M Q₀ A after op 1 00000 00000 subtract M → 11101₂ 0 11101 2 (11101 neg) shift → 1110 add M → 1110 + 00011 = 11111₂ 0 11111 3 (11111 neg) shift → 1111 add M → 1111 + 0011 = 00010₂ (carry out) 1 00010 4 (00010 pos) shift → 0010 subtract M → 0010 − 0011 = 11111₂ (neg) 0 11111 Final adj. A is negative — add M → 11111 + 00011 = 00010₂ — 00010 (positive)"
+   ]
+  },
+  {
+   "q": "What are the main registers and initial values needed to perform single-cycle non‑restoring division?",
+   "answer": [
+    "A (accumulator) = 0, Q = dividend, M = divisor, n = bit-width of dividend"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Perform Non‑Restoring Division of unsigned binary numbers: Dividend = 110110₂ (decimal 54) Divisor = 00101₂ (decimal 5)",
+   "answer": [
+    "Cycle Step Shifted A‖Q A (after shift) Operation A (after op) Q₀ 1 Shift 000000 110110 → 000000 110110 000000 −M: 000000 − 00101 = 111011₂ 111011 0 2 Shift 111011 10110 → 111011 10110 110111 +M: 110111 + 00101 = 111100₂ 111100 0 3 Shift 111100 0110 → 111100 0110 111000 +M: 111000 + 00101 = 111101₂ 111101 0 4 Shift 111101 110 → 111101 110 111011 +M: 111011 + 00101 = 111110₂ 111110 0 5 Shift 111110 10 → 111110 10 111100 +M: 111100 + 00101 = 000001₂ (overflow) 000001 1 6 Shift 000001 0 → 000001 0 000010 −M: 000010 − 00101 = 111101₂ 111101 0 Final Correction if A < 0 — 111101 +M: 111101 + 00101 = 000010₂ 000010 —"
+   ]
+  }
+ ]
+}

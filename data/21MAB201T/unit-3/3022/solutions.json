@@ -1,0 +1,95 @@
+{
+ "course": "21MAB201T",
+ "code": "3022",
+ "unit": 3,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Derive possible solutions for the wave equation in one-dimensional cases.",
+ "mcq": [
+  {
+   "q": "\\(\\text{For the vibrating string fixed at } x=0 \\text{ and } x=l, \\text{ applying } y(0,t)=0 \\text{ to the solution }\\\\ y=(A\\cos\\lambda x+B\\sin\\lambda x)(C\\cos\\lambda ct+D\\sin\\lambda ct) \\text{ gives:}\\)",
+   "options": {
+    "A": "\\(A=0\\)",
+    "B": "\\(B=0\\)",
+    "C": "\\(C=0\\)",
+    "D": "\\(D=0\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(A=0\\)"
+  },
+  {
+   "q": "\\(\\text{When } k<0 \\text{ (say } k=-\\lambda^2), \\text{ the solution for } X(x) \\text{ is:}\\)",
+   "options": {
+    "A": "\\(A e^{\\lambda x}+B e^{-\\lambda x}\\)",
+    "B": "\\(A \\cos \\lambda x+B \\sin \\lambda x\\)",
+    "C": "\\(A x+B\\)",
+    "D": "\\(A \\cosh \\lambda x+B \\sinh \\lambda x\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(A \\cos \\lambda x+B \\sin \\lambda x\\)"
+  },
+  {
+   "q": "\\(\\text{When solving the wave equation by separation of variables, we assume the solution has the form:}\\)",
+   "options": {
+    "A": "\\(y(x,t)=X(x)+T(t)\\)",
+    "B": "\\(y(x,t)=X(x)T(t)\\)",
+    "C": "\\(y(x,t)=X(x)/T(t)\\)",
+    "D": "\\(y(x,t)=X(x)-T(t)\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(y(x,t)=X(x)T(t)\\)"
+  },
+  {
+   "q": "\\(\\text{For the vibrating string problem, which case of the separation constant } k\\\\ \\text{ yields the physically appropriate periodic solution?}\\)",
+   "options": {
+    "A": "\\(k>0\\)",
+    "B": "\\(k<0\\)",
+    "C": "\\(k=0\\)",
+    "D": "\\(k>1\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(k<0\\)"
+  },
+  {
+   "q": "\\(\\text{Substituting } y(x,t)=X(x)T(t) \\text{ into the wave equation } \\frac{\\partial^2 y}{\\partial t^2}=c^2\\frac{\\partial^2 y}{\\partial x^2} \\text{ leads to:}\\)",
+   "options": {
+    "A": "\\(\\frac{X''}{X}=k \\text{ and } \\frac{T''}{c^2T}=k\\)",
+    "B": "\\(\\frac{X''}{X}=k\\text{ and }\\frac{T''}{T}=k\\)",
+    "C": "\\(X''=kX\\text{ and }T''=kT\\)",
+    "D": "\\(X''=kX\\text{ and }T''=c^2kT\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{X''}{X}=k \\text{ and } \\frac{T''}{c^2T}=k\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{State the one-dimensional wave equation for a vibrating string and list the physical assumptions made in its derivation.}\\)",
+   "answer": [
+    "\\(\\text{Wave equation: } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}\\)",
+    "\\(\\text{1. String is homogeneous and perfectly elastic.}\\)",
+    "\\(\\text{2. Tension is large; gravity negligible.}\\)",
+    "\\(\\text{3. Transverse vibrations are small (small slope).}\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Using separation of variables, solve } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2} \\text{ and obtain the ODEs for } X(x) \\text{ and } T(t). \\text{ Discuss the three cases for the separation constant.}\\)",
+   "answer": [
+    "\\(\\text{Let } y(x,t)=X(x)T(t). \\text{ Substituting gives } XT''=c^2 X''T.\\)",
+    "\\(\\text{Separate: } \\frac{X''}{X} = \\frac{T''}{c^2 T} = k \\text{ (constant).}\\)",
+    "\\(\\text{Case 1: } k>0, k=\\lambda^2: X''-\\lambda^2 X=0, T''-\\lambda^2 c^2 T=0.\\)",
+    "\\(\\text{Case 2: } k<0, k=-\\lambda^2: X''+\\lambda^2 X=0, T''+\\lambda^2 c^2 T=0.\\)",
+    "\\(\\text{Case 3: } k=0: X''=0, T''=0.\\)",
+    "\\(\\text{The solutions for each case are exponential, trigonometric, or linear.}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Using separation of variables, derive the three possible solutions of the one-dimensional}\\\\ \\text{wave equation } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}.\\\\ \\text{Explain why the trigonometric solution is most suitable for a vibrating string problem with fixed ends.}\\)",
+   "answer": [
+    "Step Marks \\(\\text{Assume \\(y(x,t)=X(x)T(t)\\). Substitute into PDE to get \\(XT'' = c^2X''T\\).}\\) (1 Mark) \\(\\text{Separate variables: \\(\\dfrac{X''}{X} = \\dfrac{T''}{(c^2T)} = k\\) (constant).}\\) (2 Marks) \\(\\text{Case \\(k > 0\\) (\\(k=\\lambda^2\\)): \\(X'' - \\lambda^2X=0\\), \\(T'' - \\lambda^2c^2T=0\\) \\(\\Rightarrow\\) solutions: \\(X = Ae^{\\lambda x}+Be^{-\\lambda x}\\), \\(T = Ce^{\\lambda ct}+De^{-\\lambda ct}\\).}\\) (2 Marks) \\(\\text{Case \\(k < 0\\) (\\(k=-\\lambda^2\\)): \\(X'' + \\lambda^2X=0\\), \\(T'' + \\lambda^2c^2T=0\\) \\(\\Rightarrow\\) solutions: \\(X = A \\cos(\\lambda x) + B \\sin(\\lambda x)\\), \\(T = C \\cos(\\lambda c t) + D \\sin(\\lambda c t)\\).}\\) (2 Marks) \\(\\text{Case \\(k = 0\\): \\(X''=0\\), \\(T''=0\\) \\(\\Rightarrow\\) \\(X = Ax+B\\), \\(T = Ct+D\\).}\\) (1 Mark) \\(\\text{For vibrating string with fixed ends, boundary conditions \\(y(0,t)=0\\), \\(y(l,t)=0\\) require periodic solutions in space.}\\) (2 Marks) \\(\\text{Trigonometric solutions (sine and cosine) are periodic and satisfy fixed end conditions naturally after applying BCs.}\\) (2 Marks) Exponential and linear solutions do not represent bounded vibrations for a finite string. (2 Marks) Hence trigonometric form is suitable. (1 Mark)"
+   ]
+  }
+ ]
+}

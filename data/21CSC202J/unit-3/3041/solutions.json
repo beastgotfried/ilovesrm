@@ -1,0 +1,85 @@
+{
+ "course": "21CSC202J",
+ "code": "3041",
+ "unit": 3,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Develop programs to implement FCFS and SJF scheduling algorithms",
+ "mcq": [
+  {
+   "q": "In FCFS algorithm, if the CPU is idle and the next process hasn’t arrived yet, what happens?",
+   "options": {
+    "A": "The process with shortest burst time is selected",
+    "B": "CPU is allocated to another process",
+    "C": "CPU remains idle until the next process arrives",
+    "D": "Current time is reset to zero"
+   },
+   "answer": "C",
+   "answer_text": "CPU remains idle until the next process arrives"
+  },
+  {
+   "q": "In SJF implementation, which condition allows a process to be selected for execution?",
+   "options": {
+    "A": "BT[i] = 0",
+    "B": "Arrival time > current time",
+    "C": "isCompleted = true",
+    "D": "Arrival time ≤ current time AND isCompleted = false"
+   },
+   "answer": "D",
+   "answer_text": "Arrival time ≤ current time AND isCompleted = false"
+  },
+  {
+   "q": "In SJF, when no process has arrived by the current time, what is done?",
+   "options": {
+    "A": "Scheduler picks any random process",
+    "B": "CPU is halted permanently",
+    "C": "current_time is incremented by 1",
+    "D": "Loop ends"
+   },
+   "answer": "C",
+   "answer_text": "current_time is incremented by 1"
+  },
+  {
+   "q": "What is the formula for Turnaround Time in both FCFS and SJF?",
+   "options": {
+    "A": "ACT – AT",
+    "B": "WT + BT",
+    "C": "BT – WT1",
+    "D": "CT – BT"
+   },
+   "answer": "A",
+   "answer_text": "ACT – AT"
+  },
+  {
+   "q": "What is the sorting criteria for FCFS before scheduling starts?",
+   "options": {
+    "A": "Burst Time",
+    "B": "Arrival Time",
+    "C": "Completion Time",
+    "D": "Waiting Time"
+   },
+   "answer": "B",
+   "answer_text": "Arrival Time"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Compare the algorithmic approach of FCFS and SJF based on how processes are selected and completed.",
+   "answer": [
+    "Point Marks FCFS: based on Arrival Time, no preemption (40%) SJF: based on shortest burst time, considers arrival (40%) Mention of execution order or selection logic (20%)"
+   ]
+  },
+  {
+   "q": "Explain how waiting time is calculated in both FCFS and SJF with example data.",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "Write and explain the algorithmic steps for FCFS and SJF. Use a common input of 4 processes with Arrival Time and Burst Time. Show the computed values for CT, TAT, and WT. Compare the average waiting time and draw conclusions on which is better for the given input.",
+   "answer": [
+    "Component Marks Step-by-step algorithm for FCFS and SJF (with logic) (20%) Correct Gantt Chart or process sequence (20%) CT, TAT, WT calculated correctly for both (25%) Correct Averages (AWT, ATAT) for both (15%) Comparison of outcomes and logical conclusion (20%)"
+   ]
+  }
+ ]
+}

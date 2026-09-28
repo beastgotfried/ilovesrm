@@ -1,0 +1,199 @@
+{
+ "course": "21CSS201T",
+ "code": "1122",
+ "unit": 1,
+ "session": 12,
+ "slo": 2,
+ "slo_title": "Tutorial",
+ "mcq": [
+  {
+   "q": "Which Boolean expression is logically equivalent to an AND gate followed by a NOT gate?",
+   "options": {
+    "A": "A · B",
+    "B": "A + B",
+    "C": "(A · B)̅",
+    "D": "A̅ + B̅"
+   },
+   "answer": "C",
+   "answer_text": "(A · B)̅"
+  },
+  {
+   "q": "Which of the following gates can be used to implement all other logic gates?",
+   "options": {
+    "A": "AND",
+    "B": "OR",
+    "C": "XOR",
+    "D": "NOR"
+   },
+   "answer": "D",
+   "answer_text": "NOR"
+  },
+  {
+   "q": "The output of a 2-input NAND gate is 0. What are the input values?",
+   "options": {
+    "A": "A = 0, B = 0",
+    "B": "A = 1, B = 0",
+    "C": "A = 0, B = 1",
+    "D": "A = 1, B = 1"
+   },
+   "answer": "D",
+   "answer_text": "A = 1, B = 1"
+  },
+  {
+   "q": "An XOR gate gives HIGH output when:",
+   "options": {
+    "A": "All inputs are LOW",
+    "B": "Inputs are equal",
+    "C": "Inputs are different",
+    "D": "All inputs are HIGH"
+   },
+   "answer": "C",
+   "answer_text": "Inputs are different"
+  },
+  {
+   "q": "An OR gate produces a HIGH output when:",
+   "options": {
+    "A": "All inputs are LOW",
+    "B": "All inputs are HIGH",
+    "C": "At least one input is HIGH",
+    "D": "Only when inputs are differen"
+   },
+   "answer": "C",
+   "answer_text": "At least one input is HIGH"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the difference between NAND and NOR gates?",
+   "answer": [
+    "NAND is the inverse of the AND gate, while NOR is the inverse of the OR gate. NAND gives 0 only when all inputs are 1. NOR gives 1 only when all inputs are 0. Both are universal gates , meaning any logic circuit can be built from them. They are widely used in digital logic design for their versatility."
+   ]
+  },
+  {
+   "q": "How can a NOT gate be made using a NAND gate?",
+   "answer": [
+    "A NOT gate inverts its input (i.e., outputs the opposite). To build it using a NAND gate, connect both inputs to the same signal : Y = A NAND A = A̅ . This configuration uses the NAND gate as an inverter. It demonstrates how universal gates can replicate basic functions."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the working principles, symbols, and truth tables of the basic logic gates: AND, OR, and NOT. Interpret and construct simple logical expressions or circuits using these gates. Further, describe the logic functions of NOR and NAND gates, and show how they can be used to implement AND, OR, and NOT operations. Finally, explain the operation, truth table, and practical applications of the Exclusive-OR (XOR) and Exclusive-NOR (XNOR) gates.",
+   "answer": [
+    "Working Principle: The AND gate outputs 1 only when all inputs are 1 .",
+    "Working Principle: The AND gate outputs 1 only when all inputs are 1 .",
+    "Symbol: A flat-ended gate with two or more inputs and one output.",
+    "Symbol: A flat-ended gate with two or more inputs and one output.",
+    "Expression: Y = A · B",
+    "Expression: Y = A · B",
+    "Truth Table:",
+    "Truth Table:",
+    "Use: Control systems, where all conditions must be true to activate output (e.g., both buttons pressed).",
+    "Use: Control systems, where all conditions must be true to activate output (e.g., both buttons pressed).",
+    "Working Principle: The OR gate outputs 1 if at least one input is 1 .",
+    "Working Principle: The OR gate outputs 1 if at least one input is 1 .",
+    "Symbol: A curved input side with one output.",
+    "Symbol: A curved input side with one output.",
+    "Expression: Y = A + B",
+    "Expression: Y = A + B",
+    "Truth Table:",
+    "Truth Table:",
+    "Use: Alarm systems, where any sensor triggers the output.",
+    "Use: Alarm systems, where any sensor triggers the output.",
+    "Working Principle: The NOT gate inverts the input.",
+    "Working Principle: The NOT gate inverts the input.",
+    "Symbol: A triangle pointing to a small circle (bubble).",
+    "Symbol: A triangle pointing to a small circle (bubble).",
+    "Expression: Y = ¬A or Y = A̅",
+    "Expression: Y = ¬A or Y = A̅",
+    "Truth Table:",
+    "Truth Table:",
+    "Use: Control logic, toggle switches, bit flipping.",
+    "Use: Control logic, toggle switches, bit flipping.",
+    "Example 1: Expression: Y = A · (B + C) Meaning: B or C must be true, AND A must also be true. Construct using one OR gate (B, C), then an AND gate (A and OR output).",
+    "Example 1: Expression: Y = A · (B + C)",
+    "Meaning: B or C must be true, AND A must also be true.",
+    "Meaning: B or C must be true, AND A must also be true.",
+    "Construct using one OR gate (B, C), then an AND gate (A and OR output).",
+    "Construct using one OR gate (B, C), then an AND gate (A and OR output).",
+    "Example 2: Circuit with switches A and B controlling a lamp: If both are ON → lamp lights → use AND .",
+    "Example 2: Circuit with switches A and B controlling a lamp:",
+    "If both are ON → lamp lights → use AND .",
+    "If both are ON → lamp lights → use AND .",
+    "Working Principle: Outputs 1 only when all inputs are 0 .",
+    "Working Principle: Outputs 1 only when all inputs are 0 .",
+    "Symbol: OR gate with a small circle at the output.",
+    "Symbol: OR gate with a small circle at the output.",
+    "Expression: Y = ¬(A + B)",
+    "Expression: Y = ¬(A + B)",
+    "Truth Table:",
+    "Truth Table:",
+    "Use in Gate Construction: NOT using NOR: A NOR A = A̅ OR using NOR: Invert inputs first: (A NOR A) NOR (B NOR B) = A + B AND using NOR: Apply DeMorgan’s Theorem: A · B = ((A NOR A) NOR (B NOR B)) NOR ((A NOR A) NOR (B NOR B))",
+    "Use in Gate Construction:",
+    "NOT using NOR: A NOR A = A̅",
+    "NOT using NOR: A NOR A = A̅",
+    "OR using NOR: Invert inputs first: (A NOR A) NOR (B NOR B) = A + B",
+    "OR using NOR: Invert inputs first: (A NOR A) NOR (B NOR B) = A + B",
+    "AND using NOR: Apply DeMorgan’s Theorem: A · B = ((A NOR A) NOR (B NOR B)) NOR ((A NOR A) NOR (B NOR B))",
+    "AND using NOR: Apply DeMorgan’s Theorem: A · B = ((A NOR A) NOR (B NOR B)) NOR ((A NOR A) NOR (B NOR B))",
+    "Working Principle: Outputs 0 only when all inputs are 1 .",
+    "Working Principle: Outputs 0 only when all inputs are 1 .",
+    "Symbol: AND gate with a small circle at the output.",
+    "Symbol: AND gate with a small circle at the output.",
+    "Expression: Y = ¬(A · B)",
+    "Expression: Y = ¬(A · B)",
+    "Truth Table:",
+    "Truth Table:",
+    "Use in Gate Construction: NOT using NAND: A NAND A = A̅ AND using NAND: (A · B) = (A NAND B) NAND (A NAND B) OR using NAND: Apply DeMorgan’s: A + B = (A̅ · B̅)̅ , where A̅ = A NAND A , etc.",
+    "Use in Gate Construction:",
+    "NOT using NAND: A NAND A = A̅",
+    "NOT using NAND: A NAND A = A̅",
+    "AND using NAND: (A · B) = (A NAND B) NAND (A NAND B)",
+    "AND using NAND: (A · B) = (A NAND B) NAND (A NAND B)",
+    "OR using NAND: Apply DeMorgan’s: A + B = (A̅ · B̅)̅ , where A̅ = A NAND A , etc.",
+    "OR using NAND: Apply DeMorgan’s: A + B = (A̅ · B̅)̅ , where A̅ = A NAND A , etc.",
+    "Importance: NAND and NOR are universal gates – any logic gate can be built using just NAND or just NOR gates.",
+    "Importance: NAND and NOR are universal gates – any logic gate can be built using just NAND or just NOR gates.",
+    "Working Principle: Outputs 1 only when inputs differ .",
+    "Working Principle: Outputs 1 only when inputs differ .",
+    "Symbol: OR gate with an extra curved input line.",
+    "Symbol: OR gate with an extra curved input line.",
+    "Expression: Y = A ⊕ B = A̅·B + A·B̅",
+    "Expression: Y = A ⊕ B = A̅·B + A·B̅",
+    "Truth Table:",
+    "Truth Table:",
+    "Applications: Binary addition (half adder) Parity checking Bit toggling",
+    "Applications:",
+    "Binary addition (half adder)",
+    "Binary addition (half adder)",
+    "Parity checking",
+    "Parity checking",
+    "Bit toggling",
+    "Bit toggling",
+    "Working Principle: Outputs 1 only when inputs are the same .",
+    "Working Principle: Outputs 1 only when inputs are the same .",
+    "Symbol: XOR gate with a small output circle.",
+    "Symbol: XOR gate with a small output circle.",
+    "Expression: Y = A ⊕ B̅ = A·B + A̅·B̅",
+    "Expression: Y = A ⊕ B̅ = A·B + A̅·B̅",
+    "Truth Table:",
+    "Truth Table:",
+    "Applications: Equality detectors Comparator circuits Controlled inverters",
+    "Applications:",
+    "Equality detectors",
+    "Equality detectors",
+    "Comparator circuits",
+    "Comparator circuits",
+    "Controlled inverters",
+    "Controlled inverters",
+    "Logic gates are the fundamental building blocks of digital electronics.",
+    "AND, OR, and NOT are basic operations.",
+    "AND, OR, and NOT are basic operations.",
+    "NOR and NAND are powerful universal gates used to implement any logic.",
+    "NOR and NAND are powerful universal gates used to implement any logic.",
+    "XOR and XNOR serve specialized purposes like parity, comparison, and control logic. Understanding their behavior, truth tables, and how to combine them is essential for designing any digital system.",
+    "XOR and XNOR serve specialized purposes like parity, comparison, and control logic. Understanding their behavior, truth tables, and how to combine them is essential for designing any digital system."
+   ]
+  }
+ ]
+}

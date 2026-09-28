@@ -1,0 +1,171 @@
+{
+ "course": "21CSC201J",
+ "code": "2022",
+ "unit": 2,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Apply Traversal and Searching in an Array",
+ "mcq": [
+  {
+   "q": "What is the time complexity of deleting an element from the middle of an array",
+   "options": {
+    "A": "O(1)",
+    "B": "O(n)",
+    "C": "O(log n)",
+    "D": "O(n²)"
+   },
+   "answer": "B",
+   "answer_text": "O(n)"
+  },
+  {
+   "q": "What happens if you try to delete an element at an index greater than the array size",
+   "options": {
+    "A": "The program will delete the last element",
+    "B": "The program will delete the first element",
+    "C": "The program will give an error",
+    "D": "The program will do nothing"
+   },
+   "answer": "C",
+   "answer_text": "The program will give an error"
+  },
+  {
+   "q": "Which searching algorithm is the most efficient for a sorted array",
+   "options": {
+    "A": "Linear Search",
+    "B": "Binary Search",
+    "C": "Jump Search",
+    "D": "Interpolation Search"
+   },
+   "answer": "B",
+   "answer_text": "Binary Search"
+  },
+  {
+   "q": "How many comparisons are needed in Binary Search for an array of 16 elements (worst case)",
+   "options": {
+    "A": "2",
+    "B": "4",
+    "C": "8",
+    "D": "16"
+   },
+   "answer": "D",
+   "answer_text": "16"
+  },
+  {
+   "q": "If an element is not present in a sorted array, what will Binary Search return",
+   "options": {
+    "A": "0",
+    "B": "-1",
+    "C": "Index of the last element",
+    "D": "Index of the first element"
+   },
+   "answer": "B",
+   "answer_text": "-1"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A librarian maintains a list of book IDs in an array. If a book is removed from the library, its ID must also be removed from the array. Explain the algorithm used to delete a book ID from the array",
+   "answer": [
+    "To delete an element (book ID) from an array, we need to find the position of the element first, and then shift the remaining elements to maintain the array structure.",
+    "Algorithm to Delete an Element from an Array:",
+    "Step 1: Start Step 2: Input the array arr[] and the total number of elements n Step 3: Input the position pos of the element to be deleted (or search for the value first if needed) Step 4: Starting from index pos - 1, shift each element one position to the left Step 5: Decrease n by 1 (since one element is deleted) Step 6: Output the updated array Step 7: Stop",
+    "#include <stdio.h>",
+    "int main() {",
+    "int arr[100] = {101, 102, 103, 104, 105};",
+    "int n = 5;",
+    "int pos, i;",
+    "// Input: position to delete",
+    "printf(\"Enter position to delete (1 to %d): \", n);",
+    "scanf(\"%d\", &pos);",
+    "// Deletion logic",
+    "if(pos < 1 || pos > n) {",
+    "printf(\"Invalid position!\\n\");",
+    "} else {",
+    "for(i = pos - 1; i < n - 1; i++) {",
+    "arr[i] = arr[i + 1];",
+    "}",
+    "n--;",
+    "// Output updated array",
+    "printf(\"Updated Book IDs:\\n\");",
+    "for(i = 0; i < n; i++) {",
+    "printf(\"%d \", arr[i]);",
+    "}",
+    "}",
+    "return 0;",
+    "}",
+    "OUTPUT:",
+    "Enter position to delete (1 to 5): 3",
+    "Updated Book IDs:",
+    "101 102 104 105"
+   ]
+  },
+  {
+   "q": "In a class of 10 students, the teacher stores their roll numbers in an array. Write a program to: (a) Display all the roll numbers (Traversal) (b) Search for a specific roll number entered by the user and display its position if found.",
+   "answer": [
+    "#include <stdio.h>",
+    "int main() {",
+    "int rollNumbers[10] = {101, 102, 103, 104, 105, 106, 107, 108, 109, 110};",
+    "int i, searchRoll, found = 0;",
+    "// Traversal: Display all roll numbers",
+    "printf(\"List of Roll Numbers in the Class:\\n\");",
+    "for(i = 0; i < 10; i++) {",
+    "printf(\"%d \", rollNumbers[i]);",
+    "}",
+    "// Searching: Ask user for a roll number to search",
+    "printf(\"\\n\\nEnter the roll number to search: \");",
+    "scanf(\"%d\", &searchRoll);",
+    "for(i = 0; i < 10; i++) {",
+    "if(rollNumbers[i] == searchRoll) {",
+    "printf(\"Roll number %d found at position %d.\\n\", searchRoll, i + 1);",
+    "found = 1;",
+    "break;",
+    "}",
+    "}",
+    "if(!found) {",
+    "printf(\"Roll number %d not found in the class.\\n\", searchRoll);",
+    "}",
+    "return 0;",
+    "}"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Consider a library book tracking system. The system stores an array of Book IDs currently available on the shelf. Your task is to: Traverse the array to display all Book IDs. Search for a specific Book ID in the array. Delete a Book ID if the book is removed from the shelf. Write a C++ program to implement the above functionalities.",
+   "answer": [
+    "#include <iostream>",
+    "using namespace std;",
+    "// Function to display all books",
+    "void traverseBooks(int books[], int size) {",
+    "cout << \"Books on Shelf: \";",
+    "for (int i = 0; i < size; i++) {",
+    "cout << books[i] << \" \";",
+    "}",
+    "cout << endl;",
+    "}",
+    "// Function to search a book",
+    "int searchBook(int books[], int size, int id) {",
+    "for (int i = 0; i < size; i++) {",
+    "if (books[i] == id)",
+    "return i;",
+    "}",
+    "return -1;",
+    "}",
+    "// Function to delete a book by ID",
+    "void deleteBook(int books[], int& size, int id) {",
+    "int pos = searchBook(books, size, id);",
+    "if (pos == -1) {",
+    "cout << \"Book ID not found.\\n\";",
+    "return;",
+    "}",
+    "// Shift elements to the left",
+    "for (int i = pos; i < size - 1; i++) {",
+    "books[i] = books[i + 1];",
+    "}",
+    "size--; // Decrease array size",
+    "cout << \"Book with ID \" << id << \" has been removed.\\n\";",
+    "}"
+   ]
+  }
+ ]
+}

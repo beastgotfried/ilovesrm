@@ -1,0 +1,97 @@
+{
+ "course": "21MAB201T",
+ "code": "4092",
+ "unit": 4,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "Prove the convolution theorem for Fourier transforms",
+ "mcq": [
+  {
+   "q": "\\(\\text{If } F\\{f(t)\\} = F(s) \\text{ and } F\\{g(t)\\} = G(s), \\text{ then according to the convolution theorem:}\\)",
+   "options": {
+    "A": "\\(F\\{(f*g)(t)\\} = F(s) \\cdot G(s)\\)",
+    "B": "\\(F\\{(f*g)(t)\\} = F(s) + G(s)\\)",
+    "C": "\\(F\\{(f*g)(t)\\} = F(s) * G(s)\\)",
+    "D": "\\(F\\{(f*g)(t)\\} = F(s) / G(s)\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(F\\{(f*g)(t)\\} = F(s) \\cdot G(s)\\)"
+  },
+  {
+   "q": "\\(\\text{The convolution of two functions } f(t) \\text{ and } g(t) \\text{ in the context of Fourier transforms is defined as:}\\)",
+   "options": {
+    "A": "\\((f*g)(t) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty f(\\tau)g(t-\\tau)d\\tau\\)",
+    "B": "\\((f*g)(t) = \\int_{-\\infty}^\\infty f(\\tau)g(t-\\tau)d\\tau\\)",
+    "C": "\\((f*g)(t) = \\frac{1}{2\\pi} \\int_{-\\infty}^\\infty f(\\tau)g(\\tau-t)d\\tau\\)",
+    "D": "\\((f*g)(t) = \\sqrt{\\frac{2}{\\pi}} \\int_{-\\infty}^\\infty f(t)g(\\tau-t)d\\tau\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\((f*g)(t) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty f(\\tau)g(t-\\tau)d\\tau\\)"
+  },
+  {
+   "q": "\\(\\text{Given } f(t) = \\begin{cases} 1, & 0 \\leq t \\leq 3 \\\\ 0, & \\text{otherwise} \\end{cases} \\text{ and } g(t) = \\begin{cases} 1, & 0 \\leq t \\leq 2 \\\\ 0, & \\text{otherwise} \\end{cases}, \\text{ what is } (f*g)(t) \\text{ for } 2 \\leq t < 3?\\)",
+   "options": {
+    "A": "\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot 2\\)",
+    "B": "\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot (t-1)\\)",
+    "C": "\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot (5-t)\\)",
+    "D": "\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot 1\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot 2\\)"
+  },
+  {
+   "q": "\\(\\text{For two rectangular pulses of equal width } a, \\text{ the convolution results in a:}\\)",
+   "options": {
+    "A": "\\(\\text{Triangular pulse of width } 2a\\)",
+    "B": "\\(\\text{Rectangular pulse of width } 2a\\)",
+    "C": "\\(\\text{Trapezoidal pulse of width } 3a\\)",
+    "D": "\\(\\text{Parabolic pulse of width } a\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\text{Triangular pulse of width } 2a\\)"
+  },
+  {
+   "q": "\\(\\text{The inverse Fourier transform of the product } F(s)G(s) \\text{ is:}\\)",
+   "options": {
+    "A": "\\(\\text{The convolution of } f(t) \\text{ and } g(t)\\)",
+    "B": "\\(\\text{The sum of } f(t) \\text{ and } g(t)\\)",
+    "C": "\\(\\text{The product of } f(t) \\text{ and } g(t)\\)",
+    "D": "\\(\\text{The difference of } f(t) \\text{ and } g(t)\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\text{The convolution of } f(t) \\text{ and } g(t)\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Define convolution of two functions. State and prove the convolution theorem for Fourier transforms.}\\)",
+   "answer": [
+    "\\(\\text{Convolution: } (f*g)(x) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) g(x-t) dt\\)",
+    "\\(\\text{Theorem: } F[f*g] = F[f] \\cdot F[g]\\)",
+    "\\(\\text{Proof: } F[f*g] = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} (f*g)(x) e^{i s x} dx\\)",
+    "\\(= \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} f(t) g(x-t) e^{i s x} dt dx\\)",
+    "\\(\\text{Change variable } u=x-t, dx=du, x=u+t\\)",
+    "\\(= \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) e^{i s t} dt \\cdot \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} g(u) e^{i s u} du = F(s) G(s)\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Use convolution theorem to find the inverse Fourier transform of } \\frac{1}{(1+is)(2+is)}.\\)",
+   "answer": [
+    "\\(\\text{Let } F(s) = \\frac{1}{1+is}, G(s) = \\frac{1}{2+is}\\)",
+    "\\(\\text{We know } f(x) = e^{-x} u(x), g(x) = e^{-2x} u(x) \\text{ where } u(x) \\text{ is unit step}\\)",
+    "\\(\\text{By convolution theorem, inverse of } F(s)G(s) \\text{ is } (f*g)(x)\\)",
+    "\\((f*g)(x) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) g(x-t) dt = \\frac{1}{\\sqrt{2\\pi}} \\int_{0}^{x} e^{-t} e^{-2(x-t)} dt \\text{ for } x>0\\)",
+    "\\(= \\frac{1}{\\sqrt{2\\pi}} e^{-2x} \\int_{0}^{x} e^{t} dt = \\frac{1}{\\sqrt{2\\pi}} e^{-2x} (e^{x} - 1)\\)",
+    "\\(= \\frac{1}{\\sqrt{2\\pi}} (e^{-x} - e^{-2x}) \\text{ for } x>0, \\text{ and 0 for } x<0.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Using convolution theorem, find the inverse Fourier transform of } \\frac{1}{(a+is)(b+is)}.\\)",
+   "answer": [
+    "Step Marks Let \\(F(s) = \\frac{1}{a+is} \\cdot \\frac{1}{b+is}\\) (1) We know: \\(\\mathcal{F}\\{e^{-ax}u(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{1}{a+is}\\) where \\(u(x)\\) is unit step (3) Similarly: \\(\\mathcal{F}\\{e^{-bx}u(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{1}{b+is}\\) (3) By convolution theorem: \\(\\mathcal{F}^{-1}\\{F(s)\\} = \\sqrt{2\\pi} [e^{-ax}u(x) * e^{-bx}u(x)]\\) (2) Compute convolution: \\((e^{-ax}u(x) * e^{-bx}u(x)) = \\int_{0}^{x} e^{-at} e^{-b(x-t)} dt\\) for \\(x > 0\\) (3) \\(= e^{-bx} \\int_{0}^{x} e^{(b-a)t} dt = e^{-bx} \\left[ \\frac{e^{(b-a)t}}{b-a} \\right]_{0}^{x}\\) (3) \\(= \\frac{e^{-ax} - e^{-bx}}{b-a}\\) for \\(x > 0\\), and \\(0\\) for \\(x < 0\\) (3)"
+   ]
+  }
+ ]
+}

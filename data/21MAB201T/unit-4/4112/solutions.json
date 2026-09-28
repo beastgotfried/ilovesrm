@@ -1,0 +1,97 @@
+{
+ "course": "21MAB201T",
+ "code": "4112",
+ "unit": 4,
+ "session": 11,
+ "slo": 2,
+ "slo_title": "Apply these identities to evaluate definite integrals",
+ "mcq": [
+  {
+   "q": "\\(\\text{Parseval's identity for Fourier cosine transforms applied to two functions } f(x) \\text{ and } g(x) \\text{ states:}\\)",
+   "options": {
+    "A": "\\(\\int_0^\\infty f(x)g(x) dx = \\int_0^\\infty F_c(s)G_c(s) ds\\)",
+    "B": "\\(\\int_0^\\infty f(x)g(x) dx = \\int_0^\\infty F_s(s)G_s(s) ds\\)",
+    "C": "\\(\\int_0^\\infty f(x)^2 dx = \\int_0^\\infty F_c(s)^2 ds\\)",
+    "D": "\\(\\int_0^\\infty f(x) dx = \\int_0^\\infty F_c(s) ds\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\int_0^\\infty f(x)g(x) dx = \\int_0^\\infty F_c(s)G_c(s) ds\\)"
+  },
+  {
+   "q": "\\(\\text{Given } F_c\\{e^{-x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\text{ and } F_c\\{e^{-2x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{2}{4+s^2}, \\text{ use Parseval's identity to find } \\int_0^\\infty \\frac{dx}{(x^2+1)^2}.\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi}{4}\\)",
+    "B": "\\(\\frac{\\pi}{2}\\)",
+    "C": "\\(\\frac{\\pi}{8}\\)",
+    "D": "\\(\\frac{\\pi}{16}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi}{4}\\)"
+  },
+  {
+   "q": "\\(\\text{For } a=2, b=3, \\text{ the value of } \\int_0^\\infty \\frac{dx}{(x^2+4)(x^2+9)} \\text{ using Parseval's identity is:}\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi}{60}\\)",
+    "B": "\\(\\frac{\\pi}{30}\\)",
+    "C": "\\(\\frac{\\pi}{20}\\)",
+    "D": "\\(\\frac{\\pi}{10}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi}{60}\\)"
+  },
+  {
+   "q": "\\(\\text{Using Parseval's identity for Fourier cosine transforms with } f(x)=e^{-ax} \\text{ and } g(x)=e^{-bx}, \\text{ evaluate } \\int_0^\\infty \\frac{dx}{(x^2+a^2)(x^2+b^2)}.\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi}{2ab(a+b)}\\)",
+    "B": "\\(\\frac{\\pi}{ab(a+b)}\\)",
+    "C": "\\(\\frac{\\pi}{2(a+b)}\\)",
+    "D": "\\(\\frac{\\pi}{ab}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi}{2ab(a+b)}\\)"
+  },
+  {
+   "q": "\\(\\text{Using Parseval's identity for Fourier sine transforms with } f(x)=e^{-ax} \\text{ and } g(x)=e^{-bx}, \\text{ what integral would be evaluated?}\\)",
+   "options": {
+    "A": "\\(\\int_0^\\infty \\frac{x^2 dx}{(x^2+a^2)(x^2+b^2)}\\)",
+    "B": "\\(\\int_0^\\infty \\frac{dx}{(x^2+a^2)(x^2+b^2)}\\)",
+    "C": "\\(\\int_0^\\infty \\frac{x dx}{(x^2+a^2)(x^2+b^2)}\\)",
+    "D": "\\(\\int_0^\\infty \\frac{dx}{x^2+a^2}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\int_0^\\infty \\frac{x^2 dx}{(x^2+a^2)(x^2+b^2)}\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{State Parseval's identity for Fourier sine transform and use it to evaluate } \\int_{0}^{\\infty} \\frac{x^2}{(x^2+1)^2} dx.\\)",
+   "answer": [
+    "\\(\\text{Identity: } \\int_{0}^{\\infty} |f(x)|^2 dx = \\int_{0}^{\\infty} |F_s(s)|^2 ds\\)",
+    "\\(\\text{Take } f(x)=e^{-x}, \\text{ then } F_s(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{s}{1+s^2}\\)",
+    "\\(\\text{LHS: } \\int_{0}^{\\infty} e^{-2x} dx = \\frac{1}{2}\\)",
+    "\\(\\text{RHS: } \\int_{0}^{\\infty} \\frac{2}{\\pi} \\frac{s^2}{(1+s^2)^2} ds\\)",
+    "\\(\\text{Equate: } \\frac{1}{2} = \\frac{2}{\\pi} \\int_{0}^{\\infty} \\frac{s^2}{(1+s^2)^2} ds\\)",
+    "\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{x^2}{(x^2+1)^2} dx = \\frac{\\pi}{4}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{State Parseval's identity for Fourier cosine transform and use it to evaluate } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)^2}.\\)",
+   "answer": [
+    "\\(\\text{Identity: } \\int_{0}^{\\infty} |f(x)|^2 dx = \\int_{0}^{\\infty} |F_c(s)|^2 ds\\)",
+    "\\(\\text{Take } f(x)=e^{-x}, \\text{ then } F_c(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}\\)",
+    "\\(\\text{LHS: } \\int_{0}^{\\infty} e^{-2x} dx = \\frac{1}{2}\\)",
+    "\\(\\text{RHS: } \\int_{0}^{\\infty} \\frac{2}{\\pi} \\frac{1}{(1+s^2)^2} ds\\)",
+    "\\(\\text{Equate: } \\frac{1}{2} = \\frac{2}{\\pi} \\int_{0}^{\\infty} \\frac{1}{(1+s^2)^2} ds\\)",
+    "\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)^2} = \\frac{\\pi}{4}.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{State Parseval's identities for Fourier cosine and sine transforms.}\\)",
+   "answer": [
+    "Step Marks For Fourier cosine transform: \\(\\int_{0}^{\\infty} [f(x)]^2 dx = \\int_{0}^{\\infty} [F_c(s)]^2 ds\\) (3) For Fourier sine transform: \\(\\int_{0}^{\\infty} [f(x)]^2 dx = \\int_{0}^{\\infty} [F_s(s)]^2 ds\\) (3) where \\(F_c(s) = \\mathcal{F}_c\\{f(x)\\}\\) and \\(F_s(s) = \\mathcal{F}_s\\{f(x)\\}\\) (2) General form: \\(\\int_{0}^{\\infty} f(x)g(x) dx = \\int_{0}^{\\infty} F_c(s)G_c(s) ds = \\int_{0}^{\\infty} F_s(s)G_s(s) ds\\) (4)"
+   ]
+  }
+ ]
+}

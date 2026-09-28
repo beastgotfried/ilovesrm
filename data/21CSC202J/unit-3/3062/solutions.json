@@ -1,0 +1,108 @@
+{
+ "course": "21CSC202J",
+ "code": "3062",
+ "unit": 3,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Implement priority and round robin scheduling algorithms",
+ "mcq": [
+  {
+   "q": "In preemptive priority scheduling, which variable keeps track of remaining execution time?",
+   "options": {
+    "A": "ExecutionTime[i]",
+    "B": "Completed[i]",
+    "C": "RemainingTime[i]",
+    "D": "Visited[i]"
+   },
+   "answer": "C",
+   "answer_text": "RemainingTime[i]"
+  },
+  {
+   "q": "In Round Robin scheduling, what happens to a process if it is not completed after using its time quantum?",
+   "options": {
+    "A": "It is terminated",
+    "B": "It is blocked",
+    "C": "It is returned to the ready queue",
+    "D": "It is sent to I/O"
+   },
+   "answer": "C",
+   "answer_text": "It is returned to the ready queue"
+  },
+  {
+   "q": "What condition determines process selection in non-preemptive priority scheduling ?",
+   "options": {
+    "A": "Shortest job first",
+    "B": "Highest burst time",
+    "C": "Lowest priority value among arrived processes",
+    "D": "First come, first served"
+   },
+   "answer": "C",
+   "answer_text": "Lowest priority value among arrived processes"
+  },
+  {
+   "q": "What is the initial condition for processes being enqueued in Round Robin scheduling?",
+   "options": {
+    "A": "All processes are enqueued at time 1",
+    "B": "Only those with priority > 0 are added",
+    "C": "Only processes with ArrivalTime = 0",
+    "D": "Randomly assigned"
+   },
+   "answer": "C",
+   "answer_text": "Only processes with ArrivalTime = 0"
+  },
+  {
+   "q": "In preemptive priority scheduling , when is a running process interrupted?",
+   "options": {
+    "A": "When another process arrives with equal priority",
+    "B": "When another process arrives with lower priority",
+    "C": "When another process arrives with higher priority",
+    "D": "When it finishes execution"
+   },
+   "answer": "C",
+   "answer_text": "When another process arrives with higher priority"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Describe how Round Robin Scheduling handles: Arrival of new processes, Arrival of new processes, Execution of running processes, Execution of running processes, Incomplete processes. Incomplete processes.",
+   "answer": [
+    "Handling of newly arrived processes (ArrivalTime check) – 30%",
+    "Handling of newly arrived processes (ArrivalTime check) – 30%",
+    "Execution using time quantum and ExecutionTime – 30%",
+    "Execution using time quantum and ExecutionTime – 30%",
+    "Re-queuing of incomplete processes – 40%",
+    "Re-queuing of incomplete processes – 40%"
+   ]
+  },
+  {
+   "q": "What are the key differences in how processes are selected and executed in Non-Preemptive vs Preemptive Priority Scheduling ?",
+   "answer": [
+    "Selection logic in Non-Preemptive Priority (including tie-breaking) – 30%",
+    "Selection logic in Non-Preemptive Priority (including tie-breaking) – 30%",
+    "Selection logic in Preemptive Priority – 30%",
+    "Selection logic in Preemptive Priority – 30%",
+    "Role of Visited[i] and RemainingTime[i] – 20%",
+    "Role of Visited[i] and RemainingTime[i] – 20%",
+    "Explanation of switching condition (interrupt or not) – 20%",
+    "Explanation of switching condition (interrupt or not) – 20%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Write a comparative analysis of Non-Preemptive Priority , Preemptive Priority , and Round Robin Scheduling algorithms with respect to the following aspects: Process selection strategy Process selection strategy Context switching and overhead Context switching and overhead Fairness and starvation Fairness and starvation Use of variables like Visited[i] , RemainingTime[i] , etc. Use of variables like Visited[i] , RemainingTime[i] , etc. Example scenario/pseudocode explanation from the lab Example scenario/pseudocode explanation from the lab",
+   "answer": [
+    "Process Selection Logic (priority, arrival time, quantum) – 20%",
+    "Process Selection Logic (priority, arrival time, quantum) – 20%",
+    "Context Switching and Scheduling Overhead – 20%",
+    "Context Switching and Scheduling Overhead – 20%",
+    "Fairness vs Starvation (with examples) – 20%",
+    "Fairness vs Starvation (with examples) – 20%",
+    "Variables/Flags Used in Algorithms – 20%",
+    "Variables/Flags Used in Algorithms – 20%",
+    "Example scenario or pseudocode from lab (1 algorithm at least) – 20%",
+    "Example scenario or pseudocode from lab (1 algorithm at least) – 20%"
+   ]
+  }
+ ]
+}

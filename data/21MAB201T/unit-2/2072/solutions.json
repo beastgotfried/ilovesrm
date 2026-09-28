@@ -1,0 +1,93 @@
+{
+ "course": "21MAB201T",
+ "code": "2072",
+ "unit": 2,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "Find the half-range sine series expansion of a function defined in (0, l).",
+ "mcq": [
+  {
+   "q": "For half-range sine expansion, at \\( x = L \\), the series converges to:",
+   "options": {
+    "A": "0",
+    "B": "\\( f(L^-) \\)",
+    "C": "\\( \\frac{f(L^-) + f(-L^+)}{2} \\)",
+    "D": "\\( f(-L^+) \\)"
+   },
+   "answer": "A",
+   "answer_text": "0"
+  },
+  {
+   "q": "In the half range cosine series of \\(f(x) \\) in the interval \\((0,l)\\) , the fourier coefficient \\(a_n\\) is given by",
+   "options": {
+    "A": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin(\\frac {n\\pi x}l) \\, dx\\)",
+    "B": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos(\\frac {n\\pi x}l) \\, dx\\)",
+    "C": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin \\, nx \\, dx\\)",
+    "D": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos \\, nx \\, dx\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos(\\frac {n\\pi x}l) \\, dx\\)"
+  },
+  {
+   "q": "In the half range sine series of \\(f(x) \\) in the interval \\((0,l)\\) , the fourier coefficient \\(b_n\\) is given by",
+   "options": {
+    "A": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin \\, nx \\, dx\\)",
+    "B": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos(\\frac {n\\pi x}l) \\, dx\\)",
+    "C": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin(\\frac {n\\pi x}l) \\, dx\\)",
+    "D": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos \\, nx \\, dx\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin(\\frac {n\\pi x}l) \\, dx\\)"
+  },
+  {
+   "q": "Find the constant \\(a_0\\) in half range cosine series of \\(f(x) =x \\quad in \\, \\quad (0,\\pi)\\)",
+   "options": {
+    "A": "0",
+    "B": "\\(\\frac2l\\)",
+    "C": "\\(\\frac l2\\)",
+    "D": "\\(l\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\(l\\)"
+  },
+  {
+   "q": "For half-range sine series on \\( (0, L) \\), the formula for \\( b_n \\) is:",
+   "options": {
+    "A": "\\( b_n = \\frac{2}{L} \\int_0^L f(x) \\sin\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)",
+    "B": "\\( b_n = \\frac{1}{L} \\int_0^L f(x) \\sin\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)",
+    "C": "\\( b_n = \\frac{2}{L} \\int_0^L f(x) \\cos\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)",
+    "D": "\\( b_n = \\frac{1}{L} \\int_0^L f(x) \\cos\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( b_n = \\frac{2}{L} \\int_0^L f(x) \\sin\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Find half-range sine series for } f(x) = \\pi - x \\text{ in } (0, \\pi).\\)",
+   "answer": [
+    "\\(b_n = \\frac{2}{\\pi} \\int_0^{\\pi} (\\pi - x) \\sin nx dx\\)",
+    "\\(\\text{Split: } = 2\\int_0^{\\pi} \\sin nx dx - \\frac{2}{\\pi}\\int_0^{\\pi} x \\sin nx dx\\)",
+    "\\(\\text{Evaluate: } = \\frac{2}{n}[1 - (-1)^n] - \\frac{2}{n}(-1)^{n+1} = \\frac{2}{n}\\)",
+    "\\(\\text{Thus } \\pi - x = 2\\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin nx\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Define half-range sine series for } f(x) \\text{ in } (0, L).\\)",
+   "answer": [
+    "\\(\\text{Extend } f(x) \\text{ as odd function to } (-L, L)\\)",
+    "\\(\\text{Half-range sine series: } f(x) = \\sum_{n=1}^{\\infty} b_n \\sin(\\frac{n\\pi x}{L})\\)",
+    "\\(\\text{where: } b_n = \\frac{2}{L} \\int_0^{L} f(x) \\sin(\\frac{n\\pi x}{L}) dx\\)",
+    "\\(\\text{Constant term } a_0 = 0 \\text{ and } a_n = 0\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the half-range sine series for \\(f(x)=\\cos x\\) in \\((0,\\pi)\\).",
+   "answer": [
+    "Step Marks Sine series: \\(\\cos x=\\sum_{n=1}^{\\infty}b_n\\sin nx\\) (1) \\(b_n=\\frac{2}{\\pi}\\int_0^{\\pi}\\cos x\\sin nx\\,dx=\\frac{2n}{\\pi}\\cdot\\frac{1+(-1)^n}{1-n^2}\\) for \\(n\\neq1\\) (4) \\(b_1=0\\) (2) Thus, \\(\\cos x=\\frac{8}{\\pi}\\sum_{n=1}^{\\infty}\\frac{n}{4n^2-1}\\sin 2nx\\) (4) Verification at \\(x=\\frac{\\pi}{2}\\) (4)"
+   ]
+  }
+ ]
+}

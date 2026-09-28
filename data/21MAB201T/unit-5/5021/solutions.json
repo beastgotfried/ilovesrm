@@ -1,0 +1,100 @@
+{
+ "course": "21MAB201T",
+ "code": "5021",
+ "unit": 5,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Z Transform - Properties\nutilize Z transform properties to simplify complex expressions.",
+ "mcq": [
+  {
+   "q": "The Z-transform of the constant sequence \\(f(n) = 1 \\) is:",
+   "options": {
+    "A": "\\(\\frac{1}{(1-z)}\\)",
+    "B": "\\(\\frac{z}{z-1} \\)",
+    "C": "\\(\\frac{1}{z-1} \\)",
+    "D": "\\(\\frac{1}{z}\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\frac{z}{z-1} \\)"
+  },
+  {
+   "q": "The Z-transfrom of \\(f(n)=n \\) is:",
+   "options": {
+    "A": "\\(\\frac{z}{(z-1)^2}\\)",
+    "B": "\\(\\frac{1}{(z-1)^2} \\)",
+    "C": "\\(\\frac{z}{z-1} \\)",
+    "D": "\\(\\frac{1}{z-1}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{z}{(z-1)^2}\\)"
+  },
+  {
+   "q": "For the sequence \\(f(n)=a^n\\) , the Z-transfrom is:",
+   "options": {
+    "A": "\\(\\frac{1}{(z-a)}\\)",
+    "B": "\\(\\frac{z}{z-a} \\)",
+    "C": "\\(\\frac{a}{z-1} \\)",
+    "D": "\\(\\frac{1}{z(a-1)}\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\frac{z}{z-a} \\)"
+  },
+  {
+   "q": "The Z-transfrom of the unit impulse sequence \\(\\delta(n) \\) is:",
+   "options": {
+    "A": "\\(0 \\)",
+    "B": "\\(\\frac{1}{z} \\)",
+    "C": "\\(1 \\)",
+    "D": "\\(z\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(1 \\)"
+  },
+  {
+   "q": "The Z-transfrom of the unit step sequence \\(u(n) \\) equals:",
+   "options": {
+    "A": "\\(\\frac{1}{z-1}\\)",
+    "B": "\\(\\frac{z}{z-1} \\)",
+    "C": "\\(\\frac{1}{z}\\)",
+    "D": "\\(\\frac{1}{1-z}\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\frac{z}{z-1} \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Prove that the Z-transform of the sequence \\(\\frac{1}{n}\\) (for \\(n>0\\) is \\(Z [\\frac{1}{n}]\\) = \\(\\log\\frac{z}{z-1}\\) .",
+   "answer": [
+    "Start with the unilateral Z-transform \\(Z[\\frac{1}{n}] = \\sum_{n=1}^{\\infty} z^{-n} = \\sum_{n=1}^{\\infty}\\frac{1}{n}(\\frac{1}{z})^n\\)",
+    "Use the power series expansion \\(-\\ln(1 - x) = \\sum_{n=1}^{\\infty} \\frac{x^{n}}{n} \\) with \\(x=\\frac{1}{z} \\) . Thus \\(Z[\\frac{1}{n}]=-\\ln(1-\\frac{1}{z})= \\ln(\\frac{z}{z-1})\\) ."
+   ]
+  },
+  {
+   "q": "\\(\\text{State the linearity property of Z-transform.}\\)",
+   "answer": [
+    "\\(\\text{If } Z[x_1(n)] = X_1(z) \\text{ and } Z[x_2(n)] = X_2(z), \\text{ then}\\)",
+    "\\(Z[a_1 x_1(n) + a_2 x_2(n)] = a_1 X_1(z) + a_2 X_2(z)\\)",
+    "\\(\\text{for any constants } a_1, a_2.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Derive the Z-transforms of the sequences \\(1, a^n \\) and \\(n\\) .State the region of convergence for each and briefly explain the principle used.",
+   "answer": [
+    "Unilateral Z-transform: \\(Z\\{f(n)\\} = \\sum_{n=0}^{\\infty} f(n) z^{-n} \\) , convergence determined by values of zzz for which the series converges.",
+    "\\(f(n)=1\\) ,",
+    "\\(Z\\{1\\} = \\sum_{n=0}^{\\infty} z^{-n} = \\sum_{n=0}^{\\infty} \\left(\\frac{1}{z}\\right)^n \\) .This is a geometric series with ratio \\(x=\\frac{1}{x}\\) . For \\(|x|<1\\) the sum is \\((1-x)^{-1}\\) .Hence \\(Z\\{1\\} = \\frac{1}{1 - \\frac{1}{z}} = \\frac{z}{z - 1} \\) .Region of convergence \\(|\\frac{1}{z}|<1 \\implies |z|>1\\) .",
+    "\\(f(n)=a^n\\)",
+    "\\( Z\\{a_n\\} = \\sum_{n=0}^{\\infty} a^n z^{-n} = \\sum_{n=0}^{\\infty} (\\frac{a}{z})^{n}\\)",
+    "Again a geometric series with ratio \\(x = \\frac{a}{z}\\) .For \\(|x|<1, Z\\{a^n\\} = \\frac{1}{1 - \\frac{a}{z}} = \\frac{z}{z - a} \\) .",
+    "ROC: \\(|\\frac{a}{z}|<2 \\implies|z|>|a|\\)",
+    "\\(f(n)=n\\)",
+    "Start from the known power-series identity (for \\( |x| < 1\\) ): \\({Z}\\{n\\} = \\sum_{n=0}^{\\infty} n z^{-n} = \\sum_{n=0}^{\\infty} n \\left(\\frac{1}{z}\\right)^n = \\frac{\\frac{1}{z}}{\\left(1-\\frac{1}{z}\\right)^2}. \\)",
+    "Simplify \\(\\frac{\\frac{1}{z}}{\\left(1-\\frac{1}{z}\\right)^2} = \\frac{\\frac{1}{z}}{\\left(\\frac{z-1}{z}\\right)^2} = \\frac{\\frac{1}{z}}{\\frac{(z-1)^2}{z^2}} = \\frac{z^2}{z (z-1)^2} = \\frac{z}{(z-1)^2}\\) .",
+    "ROC:needs \\(|\\frac{1}{z}|<1\\implies|z|>1\\)"
+   ]
+  }
+ ]
+}

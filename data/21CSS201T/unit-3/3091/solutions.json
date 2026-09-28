@@ -1,0 +1,90 @@
+{
+ "course": "21CSS201T",
+ "code": "3091",
+ "unit": 3,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Describe the step-by-step procedure of the restoring division algorithm.",
+ "mcq": [
+  {
+   "q": "In the restoring division algorithm for unsigned binary numbers, what does the comparison with zero after subtracting the divisor (i.e., checking A ≥ 0 or A < 0 ) determine?",
+   "options": {
+    "A": "Whether to shift Q or A",
+    "B": "Whether the subtraction was successful and if a restore step is needed",
+    "C": "Whether the divisor M should be doubled",
+    "D": "Whether the next quotient bit should be forced to zero regardlessWhether the next quotient bit should be forced to zero regardless"
+   },
+   "answer": "B",
+   "answer_text": "Whether the subtraction was successful and if a restore step is needed"
+  },
+  {
+   "q": "In the restoring division algorithm for unsigned binary numbers, what is the purpose of the “restore” step—where you add the divisor back to the accumulator A after a failed subtraction (i.e., when A becomes negative)?",
+   "options": {
+    "A": "To correct the quotient bit that was wrongly set",
+    "B": "To revert A to its previous valid state before the failed trial",
+    "C": "To adjust the divisor for the next iteration",
+    "D": "To normalize the result for floating-point needs"
+   },
+   "answer": "B",
+   "answer_text": "To revert A to its previous valid state before the failed trial"
+  },
+  {
+   "q": "In restoring division, why is the divisor M added back to the accumulator A after a negative subtraction?",
+   "options": {
+    "A": "To maintain normalized arithmetic",
+    "B": "To prevent overflow in A",
+    "C": "To restore the state before the next trial",
+    "D": "To update the quotient accordingly"
+   },
+   "answer": "C",
+   "answer_text": "To restore the state before the next trial"
+  },
+  {
+   "q": "In the restoring division algorithm for unsigned binary numbers, after shifting and subtracting the divisor ( M ) from the accumulator ( A ), the condition A < 0 indicates an unsuccessful subtraction. What is the immediate corrective step taken in the algorithm?",
+   "options": {
+    "A": "Q₀ = 1",
+    "B": "Q₀ = 0 and A = A + M",
+    "C": "Q₀ = 0 and A = A – M",
+    "D": "Q₀ = 1 and A = A + M"
+   },
+   "answer": "B",
+   "answer_text": "Q₀ = 0 and A = A + M"
+  },
+  {
+   "q": "A student extends a 4-bit restoring division circuit to handle 8 bits but omits the restore step after negative subtractions. What’s the likely consequence?",
+   "options": {
+    "A": "Quotient becomes too large",
+    "B": "Remainder stays non-negative",
+    "C": "Quotient and remainder are both wrong",
+    "D": "No effect; performance improves"
+   },
+   "answer": "C",
+   "answer_text": "Quotient and remainder are both wrong"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How many cycles are required when dividing an n‑bit dividend?",
+   "answer": [
+    "You need n cycles for an n‑bit dividend to complete the process"
+   ]
+  },
+  {
+   "q": "Using restoring division, divide 10101₂ (21) by 0011₂ (3) . Show 4 full cycles , listing A, Q, the operation (add/sub), and new Q₀ bit each step.",
+   "answer": [
+    "Quotient (Q) bits after 4 cycles: 0000₂ = 0₁₀",
+    "Quotient (Q) bits after 4 cycles: 0000₂ = 0₁₀",
+    "Remainder (A) : 00000₂ = 0₁₀",
+    "Remainder (A) : 00000₂ = 0₁₀"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Perform Restoring Division of unsigned binary numbers: Dividend = 110110₂ (decimal 54) Divisor = 00101₂ (decimal 5)",
+   "answer": [
+    "Cycle Step Shifted A‖Q A (after shift) Operation A (after op) Q₀ 1 Shift 000000 110110 → 000000 110110 000000 −M: 000000 − 00101 = 111011₂ 111011 0 2 Shift 111011 10110 → 111011 10110 110111 +M: 110111 + 00101 = 111100₂ 111100 0 3 Shift 111100 0110 → 111100 0110 111000 +M: 111000 + 00101 = 111101₂ 111101 0 4 Shift 111101 110 → 111101 110 111011 +M: 111011 + 00101 = 111110₂ 111110 0 5 Shift 111110 10 → 111110 10 111100 +M: 111100 + 00101 = 000001₂ (overflow) 000001 1 6 Shift 000001 0 → 000001 0 000010 −M: 000010 − 00101 = 111101₂ 111101 0 Final Correction if A < 0 — 111101 +M: 111101 + 00101 = 000010₂ 000010 —"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "course": "21CSC201J",
+ "code": "2042",
+ "unit": 2,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Implement lists using arrays.",
+ "mcq": [
+  {
+   "q": "An e-commerce website uses an array-based list to store items in a user's shopping cart. The user removes an item from the cart. What happens internally",
+   "options": {
+    "A": "The element is removed, and all elements shift left",
+    "B": "The element remains but is marked as \"deleted\"",
+    "C": "A new cart array is created",
+    "D": "The last item is removed instead"
+   },
+   "answer": "A",
+   "answer_text": "The element is removed, and all elements shift left"
+  },
+  {
+   "q": "A university stores student records in an array-based list. If a student record needs to be searched frequently, which search algorithm is most efficient when the list is sorted",
+   "options": {
+    "A": "Linear Search",
+    "B": "Binary Search",
+    "C": "Hashing",
+    "D": "Depth-First Search"
+   },
+   "answer": "B",
+   "answer_text": "Binary Search"
+  },
+  {
+   "q": "If the playlist reaches its maximum size and the user adds a new song, what typically happens in dynamic arrays",
+   "options": {
+    "A": "The system deletes the oldest song",
+    "B": "A new larger array is created, and all songs are copied to it",
+    "C": "The user gets an error message",
+    "D": "The song is added at a random position"
+   },
+   "answer": "B",
+   "answer_text": "A new larger array is created, and all songs are copied to it"
+  },
+  {
+   "q": "What is the main advantage of implementing a list using an array",
+   "options": {
+    "A": "Dynamic memory allocation",
+    "B": "Fast random access",
+    "C": "Efficient insertions and deletions",
+    "D": "Requires extra memory for pointers"
+   },
+   "answer": "B",
+   "answer_text": "Fast random access"
+  },
+  {
+   "q": "A game stores its top players in an array-based list sorted by score. A new player enters the leaderboard at rank 3. What is the time complexity of inserting the new player while keeping the list sorted",
+   "options": {
+    "A": "O(1)",
+    "B": "O(log n)",
+    "C": "O(n)",
+    "D": "O(n log n)"
+   },
+   "answer": "C",
+   "answer_text": "O(n)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain in detail about array implementation of list",
+   "answer": [
+    "An array is a collection of elements stored in contiguous memory locations . Elements are accessed using indexes .",
+    "Static size : Size is fixed at the time of declaration.",
+    "Random access : Fast access to elements using index (O(1) time).",
+    "Insertion/Deletion : Costly in terms of time (O(n) in worst case).",
+    "EXAMPLE :",
+    "int arr[5] = {10, 20, 30, 40, 50};",
+    "printf(\"%d\", arr[2]); // Outputs 30",
+    "Types of an Array",
+    "Arrays are broadly classified into:",
+    "One-Dimensional Array",
+    "It is a simplest form of an array, in which the value or items are organized sequentially.",
+    "Index value runs from 0 to size – 1.",
+    "Example: Storing the name of all student in a class.",
+    "Multi-Dimensional Array",
+    "Arrays with more than or equal to two dimensions. In simple terms, it can be considered as arrays of array.",
+    "In simple terms, it can be considered as arrays of array.",
+    "Example: Matrix, chess board, pixel data in greyscale.",
+    "Linked List:",
+    "A linked list is a linear data structure used for storing collections of data in the form of nodes . Each node in a linked list store two elements – data and address of next node.",
+    "A linked list starts with HEAD (denoting the memory location of the first node) and ends with the last node pointing to NULL value.",
+    "It stores the data in the random memory location, and this random allocation helps to add/delete any number of elements.",
+    "Representation of Linked List",
+    "A linked list is a chain of nodes, and each node has the following parts:",
+    "Data – Stores the information",
+    "Next – Stores the address to next node",
+    "Example:",
+    "struct Node* newNode = malloc(sizeof(struct Node));",
+    "newNode->data = 25;",
+    "newNode->next = head;",
+    "head = newNode;"
+   ]
+  },
+  {
+   "q": "Explain about the Types of Linked List",
+   "answer": [
+    "Types of Linked List",
+    "Linked Lists are broadly classified into three categories:",
+    "Singly Linked List",
+    "Generally, a Linked List means a singly linked list.",
+    "Every node contains some data and points to the address of the next node of the same data type in sequence.",
+    "It is uni-directional. It allows the traversal of data in a single direction.",
+    "It allows the traversal of data in a single direction.",
+    "Doubly Linked List",
+    "It is a two-way linked list containing pointers to the previous as well as the next node in the sequence.",
+    "In the Doubly linked list, you can traverse forward as well as backward.",
+    "Circular Linked List",
+    "Dissimilar to singly and doubly linked lists, you can traverse in the form of a circle.",
+    "In the circular linked list, you can start from any node and traverse the list either forward or backwards until you reach the starting node.",
+    "The last node contains the pointer to the first node of the list. i.e., no starting or endpoint.",
+    "i.e., no starting or endpoint."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Design a system to manage customer orders for an online store, where each order is represented in an array. Each order has an Order ID, A unique identifier for each order. The store manager requires the following operations to be performed Add Order: Insert a new order into the array at a specified position. Remove Order: Remove an order from the array by Order ID. Display Orders: Display all orders currently in the array. Describe how you would implement these operations using an array-based approach in C. Explain the steps involved in each operation and how the array data structure supports efficient management of the customer orders.",
+   "answer": [
+    "// Define data structure",
+    "#include <stdio.h>",
+    "#include <string.h>",
+    "#define MAX 100",
+    "typedef struct {",
+    "int orderID; // Unique identifier",
+    "} Order;",
+    "Order orders[MAX]; // Array of orders",
+    "int size = 0; // Current number of orders",
+    "//Add Order (Insert at Specific Position)",
+    "void addOrder(int id, int position) {",
+    "if (size >= MAX) {",
+    "printf(\"Cannot add order. Order list is full.\\n\");",
+    "return;",
+    "}",
+    "if (position < 0 || position > size) {",
+    "printf(\"Invalid position.\\n\");",
+    "return;",
+    "}",
+    "// Shift orders to the right to make space",
+    "for (int i = size - 1; i >= position; i--) {",
+    "orders[i + 1] = orders[i];",
+    "}",
+    "orders[position].orderID = id;",
+    "size++;",
+    "printf(\"Order %d added at position %d.\\n\", id, position);",
+    "}",
+    "//Remove Order (By Order ID)",
+    "void removeOrder(int id) {",
+    "int pos = -1;",
+    "// Search for the order ID",
+    "for (int i = 0; i < size; i++) {",
+    "if (orders[i].orderID == id) {",
+    "pos = i;",
+    "break;",
+    "}",
+    "}",
+    "if (pos == -1) {",
+    "printf(\"Order ID %d not found.\\n\", id);",
+    "return;",
+    "}",
+    "// Shift elements to the left",
+    "for (int i = pos; i < size - 1; i++) {",
+    "orders[i] = orders[i + 1];",
+    "}",
+    "size--;",
+    "printf(\"Order ID %d removed.\\n\", id);",
+    "}",
+    "// Display All Orders",
+    "void displayOrders() {",
+    "if (size == 0) {",
+    "printf(\"No orders to display.\\n\");",
+    "return;",
+    "}",
+    "printf(\"Current Orders:\\n\");",
+    "for (int i = 0; i < size; i++) {",
+    "printf(\"Order %d: ID = %d\\n\", i, orders[i].orderID);",
+    "}",
+    "}"
+   ]
+  }
+ ]
+}

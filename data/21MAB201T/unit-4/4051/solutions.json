@@ -1,0 +1,86 @@
+{
+ "course": "21MAB201T",
+ "code": "4051",
+ "unit": 4,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Define Fourier cosine and sine transforms with their inversion formulas",
+ "mcq": [
+  {
+   "q": "If f(x)=1, the Fourier cosine transform is:",
+   "options": {
+    "A": "1/p",
+    "B": "π δ(p)",
+    "C": "Divergent",
+    "D": "1/p 2"
+   },
+   "answer": "B",
+   "answer_text": "π δ(p)"
+  },
+  {
+   "q": "If F c {f(x)} = F c (p), then Fourier cosine transform of f(x)cos(ax) is",
+   "options": {
+    "A": "1/2[F c (p + a) + F c (p - a)]",
+    "B": "1/2[F c (p + a) - F c (p - a)]",
+    "C": "F c (p + a)",
+    "D": "F c (p - a)"
+   },
+   "answer": "A",
+   "answer_text": "1/2[F c (p + a) + F c (p - a)]"
+  },
+  {
+   "q": "If F c {f(x)} = F c (p), then Fourier cosine transform of x f(x) is:",
+   "options": {
+    "A": "-d/dp F s (p)",
+    "B": "d/dp F s (p)",
+    "C": "-d/dp F c (p)",
+    "D": "d/dp F c (p)"
+   },
+   "answer": "A",
+   "answer_text": "-d/dp F s (p)"
+  },
+  {
+   "q": "If F s {f(x)} =F s (p), then Fourier sine transform of f(x)cos(ax) is:",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "If f(x)=1, the Fourier sine transform is:",
+   "options": {
+    "A": "1/p",
+    "B": "2/p",
+    "C": "1/p 2",
+    "D": "Divergent"
+   },
+   "answer": "A",
+   "answer_text": "1/p"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": []
+  },
+  {
+   "q": "\\(\\text{Define Fourier cosine and sine transforms and their inverses.}\\)",
+   "answer": [
+    "\\(\\text{Fourier cosine transform: } F_c(s) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} f(x) \\cos(s x) dx\\)",
+    "\\(\\text{Inverse cosine: } f(x) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_c(s) \\cos(s x) ds\\)",
+    "\\(\\text{Fourier sine transform: } F_s(s) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} f(x) \\sin(s x) dx\\)",
+    "\\(\\text{Inverse sine: } f(x) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_s(s) \\sin(s x) ds\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "",
+   "answer": []
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "course": "21CSC201J",
+ "code": "2031",
+ "unit": 2,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Advantages and Disadvantages of arrays",
+ "mcq": [
+  {
+   "q": "What is the biggest disadvantage of arrays compared to linked lists",
+   "options": {
+    "A": "Slow traversal",
+    "B": "Fixed size",
+    "C": "High memory usage",
+    "D": "Difficult implementation"
+   },
+   "answer": "B",
+   "answer_text": "Fixed size"
+  },
+  {
+   "q": "What is the head pointer in a linked list",
+   "options": {
+    "A": "Pointer to the last node",
+    "B": "Pointer to the first node",
+    "C": "Pointer to the middle node",
+    "D": "Pointer to the largest node"
+   },
+   "answer": "B",
+   "answer_text": "Pointer to the first node"
+  },
+  {
+   "q": "How many pointers are required in a doubly linked list node",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+   },
+   "answer": "B",
+   "answer_text": "2"
+  },
+  {
+   "q": "What is the worst-case time complexity of searching an element in a singly linked list",
+   "options": {
+    "A": "O(1)",
+    "B": "O(log n)",
+    "C": "O(n)",
+    "D": "O(n log n)"
+   },
+   "answer": "C",
+   "answer_text": "O(n)"
+  },
+  {
+   "q": "What is the time complexity of inserting an element at the beginning of a linked list",
+   "options": {
+    "A": "O(1)",
+    "B": "O(n)",
+    "C": "O(log n)",
+    "D": "O(n²)"
+   },
+   "answer": "A",
+   "answer_text": "O(1)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "In a school management system, the developer chooses arrays to store the marks of students in a class. What are the advantages and disadvantages of using arrays in this scenario",
+   "answer": [
+    "Type Here"
+   ]
+  },
+  {
+   "q": "Differentiate between an Array and a Linked List with proper examples",
+   "answer": [
+    "ARRAY",
+    "LINKED LIST",
+    "Definition",
+    "Array : An array is a linear data structure that stores a collection of elements of the same type in contiguous memory locations . Each element can be accessed directly via its index.",
+    "A linked list is a linear data structure in which elements (called nodes ) are stored in non-contiguous memory locations . Each node contains the data and a reference (pointer) to the next node in the sequence.",
+    "Memory Allocation",
+    "Arrays have fixed size and are allocated in contiguous memory . This means that all elements are stored in consecutive memory addresses, and you must specify the size when creating the array",
+    "linked lists use non-contiguous memory . Each node is allocated separately and connected via pointers, which means the elements can be scattered in memory",
+    "Size",
+    "Arrays have a fixed size once declared. The size must be specified during initialization and cannot be changed during runtime",
+    "Linked lists are dynamically sized . The size of the list can change during runtime by adding or removing nodes .",
+    "Access Time",
+    "Access to elements in an array is fast (O(1)) because elements are stored in contiguous memory and can be accessed using an index",
+    "Accessing elements in a linked list requires traversing the list from the head node, making the access time O(n) in the worst case",
+    "Insertion and Deletion",
+    "Insertion and deletion of elements in an array are inefficient if done at positions other than the end. This is because elements must be shifted to maintain the array's contiguous memory structure. These operations take O(n) time.",
+    "Insertion and deletion in a linked list are more efficient (O(1)) if done at the head or tail. However, finding the position where the element needs to be inserted or deleted still requires O(n) time if it’s not at the head",
+    "Memory",
+    "Arrays can waste memory if they are oversized. You may allocate more memory than needed, which leads to unused memory . Conversely, if the array is too small, resizing is required.",
+    "Linked lists are more memory efficient in terms of utilization because the size of the list can grow and shrink dynamically. However, they require additional memory for the pointers (next/previous"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain why a linked list is preferred over arrays in this situation",
+   "answer": [
+    "Linked List",
+    "A linked list is a collection of data elements called nodes in which the linear representation is given by links from one node to the next node.",
+    "Basic Terminologies",
+    "A linked list, in simple terms, is a linear collection of data elements. These data elements are called nodes. Linked list is a data structure which in turn can be used to implement other data structures.",
+    "Thus, it acts as a building block to implement data structures such as stacks, queues, and their variations.",
+    "A linked list can be perceived as a train or a sequence of nodes in which each node contains one or more data fields and a pointer to the next node.",
+    "Figure: Simple Linked List",
+    "Every node of the linked list contains two parts, an integer and a pointer to the next node. The left part of the node which contains data may include a simple data type, an array, or a structure. The right part of the node contains a pointer to the next node (or address of the next node in sequence).",
+    "The last node will have no next node connected to it, so it will store a special value called NULL and NULL pointer denotes the end of the list.",
+    "Since in a linked list, every node contains a pointer to another node which is of the same type, it is also called a self-referential data type",
+    "In C, we can implement a linked list using the following code:",
+    "Linked Lists versus Arrays",
+    "Both arrays and linked lists are a linear collection of data elements. But unlike an array, a linked list does not store its nodes in consecutive memory locations. Another point of difference between an array and a linked list is that a linked list does not allow random access of data.",
+    "Nodes in a linked list can be accessed only in a sequential manner. But like an array, insertions and deletions can be done at any point in the list in a constant time.",
+    "Another advantage of a linked list over an array is that we can add any number of elements in the list. This is not possible in case of an array.",
+    "For example, if we declare an array as int marks[20], then the array can store a maximum of 20 data elements only. There is no such restriction in case of a linked list.",
+    "Memory Allocation and De-allocation for a Linked List",
+    "The computer maintains a list of all free memory cells. This list of available space is called the free pool.",
+    "Every linked list has a pointer variable START which stores the address of the first node of the list. Likewise, for the free pool (which is a linked list of all free memory cells), we have a pointer variable AVAIL which stores the address of the first free space.",
+    "Now, when a new student’s record has to be added, the memory address pointed by AVAIL will be taken and used to store the desired information. After the insertion, the next available free space’s address will be stored in AVAIL.",
+    "Figure 1: Linked list with avail and start pointers",
+    "When we delete a particular node from an existing linked list or delete the entire linked list, the space occupied by it must be given back to the free pool so that the memory can be reused by some other program that needs memory space.",
+    "The operating system does this task of adding the freed memory to the free pool. The operating system will perform this operation whenever it finds the CPU idle or whenever the programs are falling short of memory space.",
+    "The operating system scans through all the memory cells and marks those cells that are being used by some program. Then it collects all the cells which are not being used and adds their address to the free pool, so that these cells can be reused by other programs. This process is called garbage collection.",
+    "Types of linked List",
+    "Singly linked list",
+    "Doubly linked list",
+    "Circular linked list"
+   ]
+  }
+ ]
+}

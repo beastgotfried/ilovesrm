@@ -1,4 +1,5 @@
-"""One-time seeder: converts existing answers_*.py modules into db/<COURSE>/<code>.json."""
+"""One-time seeder: converts existing answers_*.py modules into
+data/<COURSE>/unit-N/<code>/boilerplate.json."""
 import json, os, sys
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
@@ -19,13 +20,13 @@ def get_W(mod):
 def main():
     total = 0
     for course, mods in SOURCES.items():
-        outdir = os.path.join(ROOT, "db", course)
-        os.makedirs(outdir, exist_ok=True)
         W = {}
         for m in mods:
             W.update(get_W(__import__(m)))
         for code, entry in W.items():
-            with open(os.path.join(outdir, f"{code}.json"), "w") as f:
+            outdir = os.path.join(ROOT, "data", course, f"unit-{code[0]}", code)
+            os.makedirs(outdir, exist_ok=True)
+            with open(os.path.join(outdir, "boilerplate.json"), "w") as f:
                 json.dump(entry, f, indent=1)
             total += 1
         print(course, len(W), "worksheets")

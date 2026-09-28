@@ -1,0 +1,95 @@
+{
+ "course": "21MAB201T",
+ "code": "3071",
+ "unit": 3,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Derive possible solutions to the one-dimensional heat equation.",
+ "mcq": [
+  {
+   "q": "The steady state temperature of a rod of length l whose ends are kept at \\(30 ^0\\) and \\(40 ^0\\) is,",
+   "options": {
+    "A": "\\(u(x) = \\frac {20x}l +30\\)",
+    "B": "\\(u(x) = \\frac {10x}l +20\\)",
+    "C": "\\(u(x) = \\frac {10x}l \\)",
+    "D": "\\(u(x) = \\frac {10x}l +30\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\(u(x) = \\frac {10x}l +30\\)"
+  },
+  {
+   "q": "The one dimensional heat equation is,",
+   "options": {
+    "A": "\\(\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0\\)",
+    "B": "\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\)",
+    "C": "\\(\\frac{\\partial^2 u}{\\partial t^2} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\)",
+    "D": "\\(\\frac{\\partial u}{\\partial x} = \\alpha^2 \\frac{\\partial^2 u}{\\partial t^2} \\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\)"
+  },
+  {
+   "q": "In one dimensional heat equation \\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\) , \\(\\alpha^2\\) stand for,",
+   "options": {
+    "A": "\\( \\frac k\\rho \\)",
+    "B": "\\( \\frac Tm\\)",
+    "C": "\\( \\frac k{\\rho c} \\)",
+    "D": "\\( \\frac kc\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\( \\frac k{\\rho c} \\)"
+  },
+  {
+   "q": "The proper solution of one dimensional heat equation \\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\) is,",
+   "options": {
+    "A": "\\(u(x,t)\\,=(Acos\\lambda x \\,+Bsin\\lambda x) \\, e^ {-\\alpha^2\\lambda^2t}\\)",
+    "B": "\\(u(x,t)\\,=(Acos\\lambda t \\,+Bsin\\lambda t) \\, e^ {\\alpha^2\\lambda^2x}\\)",
+    "C": "\\(u(x,t)\\,=(Acos\\lambda x \\,-Bsin\\lambda x) \\, e^ {\\alpha^2\\lambda^2t}\\)",
+    "D": "\\(u(x,t)\\,=(Acos\\lambda x \\,-Bsin\\lambda x) \\, e^ {-\\alpha^2\\lambda^2t}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(u(x,t)\\,=(Acos\\lambda x \\,+Bsin\\lambda x) \\, e^ {-\\alpha^2\\lambda^2t}\\)"
+  },
+  {
+   "q": "How many initial and boundary conditions are required to solve \\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\) ,",
+   "options": {
+    "A": "Five",
+    "B": "Four",
+    "C": "Three",
+    "D": "Two"
+   },
+   "answer": "C",
+   "answer_text": "Three"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{State the one-dimensional heat equation and derive it from first principles.}\\)",
+   "answer": [
+    "\\(\\text{Heat equation: } \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}, \\text{ where } \\alpha^2 = \\frac{k}{c\\rho}.\\)",
+    "\\(\\text{Consider a thin bar of cross-section A. Let } u(x,t) \\text{ be temperature.}\\)",
+    "\\(\\text{Heat in element: } Q = c \\rho A \\Delta x \\Delta u. \\text{ Rate of increase: } c\\rho A \\Delta x \\frac{\\partial u}{\\partial t}.\\)",
+    "\\(\\text{Heat inflow at x: } R_1 = -kA \\left(\\frac{\\partial u}{\\partial x}\\right)_x, \\text{ outflow at } x+\\Delta x: R_2 = -kA \\left(\\frac{\\partial u}{\\partial x}\\right)_{x+\\Delta x}.\\)",
+    "\\(\\text{Net inflow } = kA \\left[\\left(\\frac{\\partial u}{\\partial x}\\right)_{x+\\Delta x} - \\left(\\frac{\\partial u}{\\partial x}\\right)_x\\right]. \\text{ Equate and take limit to get heat equation.}\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Using separation of variables, solve } \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\text{ and obtain the general solution. Why is } u=(A\\cos\\lambda x+B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t} \\text{ chosen for transient problems?}\\)",
+   "answer": [
+    "\\(\\text{Assume } u(x,t)=X(x)T(t). \\text{ Substituting gives } XT' = \\alpha^2 X''T.\\)",
+    "\\(\\text{Separate: } \\frac{T'}{\\alpha^2 T} = \\frac{X''}{X} = k. \\text{ For } k<0 \\ (k=-\\lambda^2), \\text{ get } T'+\\alpha^2\\lambda^2 T=0, X''+\\lambda^2 X=0.\\)",
+    "\\(\\text{Solve: } T = Ce^{-\\alpha^2\\lambda^2 t}, X = A\\cos\\lambda x + B\\sin\\lambda x.\\)",
+    "\\(\\text{Hence } u(x,t)=(A\\cos\\lambda x+B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t}.\\)",
+    "\\(\\text{This solution decays with time, representing transient (unsteady) state. For steady state, temperature becomes independent of time.}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Derive the three possible solutions of the one-dimensional heat equation $\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}$}\\\\ \\text{by separation of variables. Explain why the exponential decay solution is suitable for transient problems.}\\)",
+   "answer": [
+    "Step Marks \\(\\text{Assume \\(u(x,t)=X(x)T(t).\\) Substitute: \\(XT' = \\alpha^2 X''T.\\)}\\) (1 Mark) \\(\\text{Separate: \\(X''/X = T'/(\\alpha^2T) = k\\) (constant).}\\) (2 Marks) \\(\\text{Case \\(k > 0\\) (\\(k=\\lambda^2\\)): \\(X'' - \\lambda^2X=0\\), \\(T' - \\alpha^2\\lambda^2T=0\\) \\(\\Rightarrow\\) solutions: \\(X = Ae^{\\lambda x}+Be^{-\\lambda x}\\), \\(T = Ce^{\\alpha^2\\lambda^2 t}\\) (growing exponential in time).}\\) (2 Marks) \\(\\text{Case \\(k < 0\\) (\\(k=-\\lambda^2\\)): \\(X'' + \\lambda^2X=0\\), \\(T' + \\alpha^2\\lambda^2T=0\\) \\(\\Rightarrow\\) solutions: \\(X = A \\cos(\\lambda x) + B \\sin(\\lambda x)\\), \\(T = Ce^{-\\alpha^2\\lambda^2 t}\\) (decaying exponential).}\\) (2 Marks) \\(\\text{Case \\(k = 0\\): \\(X''=0\\), \\(T'=0\\) \\(\\Rightarrow\\) \\(X = Ax+B\\), \\(T = C\\) (constant in time).}\\) (1 Mark) \\(\\text{For transient heat flow, temperature should decay to steady state as \\(t\\to\\infty.\\)}\\) (2 Marks) Solution with positive exponential in time is physically unrealistic (temperature blows up). (2 Marks) \\(\\text{Constant solution (\\(k=0\\)) corresponds to steady state.}\\) (1 Mark) \\(\\text{Thus decaying exponential (\\(k\\) negative) is appropriate for transient problems.}\\) (2 Marks)"
+   ]
+  }
+ ]
+}

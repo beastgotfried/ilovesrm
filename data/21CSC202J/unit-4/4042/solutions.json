@@ -1,0 +1,136 @@
+{
+ "course": "21CSC202J",
+ "code": "4042",
+ "unit": 4,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Explain the concept of paging in memory management",
+ "mcq": [
+  {
+   "q": "In segmentation, a segmentation fault occurs when:",
+   "options": {
+    "A": "Page number is invalid",
+    "B": "Stack overflows",
+    "C": "Logical address is outside the segment limit",
+    "D": "Segment is fragmented"
+   },
+   "answer": "C",
+   "answer_text": "Logical address is outside the segment limit"
+  },
+  {
+   "q": "In segmentation, a program is divided into:",
+   "options": {
+    "A": "Equal-sized pages",
+    "B": "Fixed-size blocks",
+    "C": "Logical segments such as code, stack, and data",
+    "D": "Bytes"
+   },
+   "answer": "C",
+   "answer_text": "Logical segments such as code, stack, and data"
+  },
+  {
+   "q": "The page table is used to map:",
+   "options": {
+    "A": "Virtual memory to real memory",
+    "B": "Logical address to physical address",
+    "C": "Segment number to offset",
+    "D": "Pages to segments"
+   },
+   "answer": "B",
+   "answer_text": "Logical address to physical address"
+  },
+  {
+   "q": "A page size of 1KB means each page contains",
+   "options": {
+    "A": "1000 bytes",
+    "B": "1024 bits",
+    "C": "1024 bytes",
+    "D": "1000 bits"
+   },
+   "answer": "C",
+   "answer_text": "1024 bytes"
+  },
+  {
+   "q": "Which of the following suffers from internal fragmentation ?",
+   "options": {
+    "A": "Segmentation",
+    "B": "Paging",
+    "C": "Swapping",
+    "D": "Demand paging"
+   },
+   "answer": "B",
+   "answer_text": "Paging"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is segmentation in memory management? How is it different from paging?",
+   "answer": [
+    "Segmentation divides the logical memory into variable-sized segments based on logical divisions like code, stack, data, etc. Each segment has a segment number and offset . Unlike paging, segmentation is visible to the programmer and represents the program's logical structure, whereas paging divides memory into fixed-size blocks and is invisible to the user . Mark Allocation:",
+    "Segmentation divides the logical memory into variable-sized segments based on logical divisions like code, stack, data, etc. Each segment has a segment number and offset .",
+    "Unlike paging, segmentation is visible to the programmer and represents the program's logical structure, whereas paging divides memory into fixed-size blocks and is invisible to the user .",
+    "Mark Allocation:",
+    "Definition of segmentation – 40%",
+    "Definition of segmentation – 40%",
+    "Comparison with paging – 40%",
+    "Comparison with paging – 40%",
+    "Terminology and clarity – 20%",
+    "Terminology and clarity – 20%"
+   ]
+  },
+  {
+   "q": "How many bits are used for the page number and how many for offset?**",
+   "answer": [
+    "Page size = 4 KB = 2¹² bytes → Offset = 12 bits",
+    "Page size = 4 KB = 2¹² bytes → Offset = 12 bits",
+    "Total address = 16 bits → Page number = 16 – 12 = 4 bits",
+    "Total address = 16 bits → Page number = 16 – 12 = 4 bits",
+    "Mark Allocation:",
+    "Mark Allocation:",
+    "Correct calculation of offset bits – 40%",
+    "Correct calculation of offset bits – 40%",
+    "Correct calculation of page number bits – 40%",
+    "Correct calculation of page number bits – 40%",
+    "Final correct answer – 20%",
+    "Final correct answer – 20%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain segmentation in memory management. How does it differ from paging?",
+   "answer": [
+    "Segmentation is a memory management technique where each process is divided into logical segments such as:",
+    "Code (text)",
+    "Code (text)",
+    "Data",
+    "Data",
+    "Stack",
+    "Stack",
+    "Heap",
+    "Heap",
+    "Each segment is given a name and a length , and the memory is allocated non-contiguously but logically grouped.",
+    "Every address in segmentation is a two-part address :",
+    "Segment Number",
+    "Segment Number",
+    "Offset within the segment",
+    "Offset within the segment",
+    "The OS maintains a segment table for each process:",
+    "Each entry contains the base address and limit (length) of the segment.",
+    "Each entry contains the base address and limit (length) of the segment.",
+    "🧠 Advantages of Segmentation:",
+    "Matches logical program structure",
+    "Matches logical program structure",
+    "Supports dynamic growing segments (e.g., stack, heap)",
+    "Supports dynamic growing segments (e.g., stack, heap)",
+    "Allows protection at segment level",
+    "Allows protection at segment level",
+    "🛑 Disadvantages:",
+    "Leads to external fragmentation",
+    "Leads to external fragmentation",
+    "Requires complex memory management (60%)",
+    "Requires complex memory management (60%)"
+   ]
+  }
+ ]
+}

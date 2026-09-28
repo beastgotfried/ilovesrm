@@ -1,0 +1,125 @@
+{
+ "course": "21CSC202J",
+ "code": "2071",
+ "unit": 2,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Explain different multithreading models",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Lack of parallelism",
+    "B": "Inability to use kernel-level threads",
+    "C": "High overhead due to kernel thread creation",
+    "D": "No blocking issues"
+   },
+   "answer": "C",
+   "answer_text": "High overhead due to kernel thread creation"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "One-to-One",
+    "B": "Many-to-Many",
+    "C": "Many-to-One",
+    "D": "One-to-Many"
+   },
+   "answer": "B",
+   "answer_text": "Many-to-Many"
+  },
+  {
+   "q": "A. B. C. D. Answer: C. Many-to-Many",
+   "options": {
+    "A": "Many-to-One",
+    "B": "One-to-One",
+    "C": "Many-to-Many",
+    "D": "Hybrid"
+   },
+   "answer": "C",
+   "answer_text": "Many-to-Many"
+  },
+  {
+   "q": "Which of the following is NOT a standard multithreading model in operating systems?",
+   "options": {
+    "A": "Many-to-One",
+    "B": "One-to-One",
+    "C": "Many-to-Many",
+    "D": "One-to-Many"
+   },
+   "answer": "D",
+   "answer_text": "One-to-Many"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Multiple kernel threads",
+    "B": "One kernel thread",
+    "C": "Hardware interrupts",
+    "D": "Multiple processes"
+   },
+   "answer": "B",
+   "answer_text": "One kernel thread"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "A major disadvantage of the many-to-one model is that if one thread makes a blocking system call , all other threads are also blocked because only one kernel thread manages all user threads."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "In the many-to-many model, multiple user threads are mapped to a smaller or equal number of kernel threads . This model allows the operating system to schedule kernel threads independently and supports concurrency without blocking all threads when one is waiting."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain different multithreading models in operating systems. Discuss their advantages and disadvantages with examples.",
+   "answer": [
+    "Multithreading models define how user-level threads are mapped to kernel-level threads . The operating system uses these models to manage thread execution and CPU scheduling.",
+    "Description: Multiple user threads are mapped to a single kernel thread .",
+    "Description: Multiple user threads are mapped to a single kernel thread .",
+    "Used in: Green Threads (e.g., early Java implementations)",
+    "Used in: Green Threads (e.g., early Java implementations)",
+    "Easy to implement",
+    "Easy to implement",
+    "Efficient thread creation and management at user level",
+    "Efficient thread creation and management at user level",
+    "No parallel execution on multicore systems",
+    "No parallel execution on multicore systems",
+    "Blocking system calls block all threads",
+    "Blocking system calls block all threads",
+    "Description: Each user thread maps to its own kernel thread .",
+    "Description: Each user thread maps to its own kernel thread .",
+    "Used in: Windows, Linux with pthreads",
+    "Used in: Windows, Linux with pthreads",
+    "Allows true parallelism on multiple processors",
+    "Allows true parallelism on multiple processors",
+    "A blocking thread does not affect others",
+    "A blocking thread does not affect others",
+    "Higher overhead due to kernel thread creation",
+    "Higher overhead due to kernel thread creation",
+    "System limits on the number of threads",
+    "System limits on the number of threads",
+    "Description: Multiple user threads are mapped to equal or fewer kernel threads",
+    "Description: Multiple user threads are mapped to equal or fewer kernel threads",
+    "Used in: Solaris, Windows Thread Pool",
+    "Used in: Solaris, Windows Thread Pool",
+    "Allows scalable concurrency",
+    "Allows scalable concurrency",
+    "Threads can be independently scheduled",
+    "Threads can be independently scheduled",
+    "Balances performance and flexibility",
+    "Balances performance and flexibility",
+    "More complex to implement",
+    "More complex to implement",
+    "May require additional user-level libraries",
+    "May require additional user-level libraries"
+   ]
+  }
+ ]
+}

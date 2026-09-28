@@ -1,0 +1,108 @@
+{
+ "course": "21CSC203P",
+ "code": "1022",
+ "unit": 1,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Identify and categorize various programming paradigms",
+ "mcq": [
+  {
+   "q": "Which paradigm uses facts and rules to drive logic-based reasoning?",
+   "options": {
+    "A": "a) Imperative paradigm",
+    "B": "b) Functional paradigm",
+    "C": "c) Logic paradigm",
+    "D": "d) Procedural paradigm"
+   },
+   "answer": "C",
+   "answer_text": "c) Logic paradigm"
+  },
+  {
+   "q": "Which of the following is NOT a basic structure in structured programming (according to the structured programming theorem)?",
+   "options": {
+    "A": "a) Sequence",
+    "B": "b) Selection",
+    "C": "c) Loop",
+    "D": "d) Inheritance"
+   },
+   "answer": "D",
+   "answer_text": "d) Inheritance"
+  },
+  {
+   "q": "The structured programming theorem states that any program can be built using which three constructs?",
+   "options": {
+    "A": "a) Class, Object, and Method",
+    "B": "b) Sequence, Selection, and Iteration",
+    "C": "c) Loop, Function, and Recursion",
+    "D": "d) Variables, Constants, and Arrays"
+   },
+   "answer": "B",
+   "answer_text": "b) Sequence, Selection, and Iteration"
+  },
+  {
+   "q": "Which of the following best categorizes Python?",
+   "options": {
+    "A": "a) Only an object-oriented language",
+    "B": "b) Only a functional language",
+    "C": "c) A multi-paradigm language",
+    "D": "d) A database language"
+   },
+   "answer": "C",
+   "answer_text": "c) A multi-paradigm language"
+  },
+  {
+   "q": "What is the main goal of structured programming?",
+   "options": {
+    "A": "a) To make code run faster",
+    "B": "b) To simplify and organize code",
+    "C": "c) To use more memory",
+    "D": "d) To hide errors in code"
+   },
+   "answer": "B",
+   "answer_text": "b) To simplify and organize code"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A language claims to support procedural, object-oriented, and functional paradigms. How would you structure an app to reflect this hierarchy?",
+   "answer": [
+    "procedural logic is used for utility functions, OOP for data models , and functional programming for data transformations. This reflects increasing abstraction from low to high level."
+   ]
+  },
+  {
+   "q": "You are teaching a mixed-paradigm language. How would you explain the relationship between logic and functional paradigms?",
+   "answer": [
+    "Both are declarative. Logic programming focuses on rules and inference (e.g., Prolog), while functional programming emphasizes mathematical function application and purity (e.g., Haskell)."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A technology startup is building a modular software platform intended to serve diverse clients, including e-commerce, education, and healthcare sectors. The architecture must support the following: Plug-in modules for business-specific logic Plug-in modules for business-specific logic Real-time transaction processing Real-time transaction processing Integration with rule-based compliance systems (e.g., health standards or tax policies) Integration with rule-based compliance systems (e.g., health standards or tax policies) Scalable data transformation pipelines Scalable data transformation pipelines The CTO proposes organizing the system using a hierarchy of paradigms, starting from procedural constructs, layered with object-oriented abstractions, and optionally integrating declarative logic where needed. Task: Analyze this proposal and respond to the following: Illustrate how programming paradigms can be organized hierarchically in a modern software architecture. Provide examples of how each level would be applied in the above system. (6 marks) Illustrate how programming paradigms can be organized hierarchically in a modern software architecture. Provide examples of how each level would be applied in the above system. (6 marks) Compare the roles of object-oriented and declarative paradigms in meeting the domain-specific requirements of this system. (5 marks) Compare the roles of object-oriented and declarative paradigms in meeting the domain-specific requirements of this system. (5 marks) Critically evaluate the benefits and limitations of combining paradigms hierarchically in large-scale enterprise systems. (4 marks) Critically evaluate the benefits and limitations of combining paradigms hierarchically in large-scale enterprise systems. (4 marks)",
+   "answer": [
+    "Hierarchical Organization with Examples (6 marks): Procedural Layer : Handles foundational logic like input/output, validation, and utility functions. Object-Oriented Layer : Manages core domain entities like Customer , Order , Inventory , encapsulating state and behavior. Declarative Layer : Encodes business rules using logic programming or SQL for dynamic compliance checks and data querying.",
+    "Hierarchical Organization with Examples (6 marks):",
+    "Procedural Layer : Handles foundational logic like input/output, validation, and utility functions.",
+    "Procedural Layer : Handles foundational logic like input/output, validation, and utility functions.",
+    "Object-Oriented Layer : Manages core domain entities like Customer , Order , Inventory , encapsulating state and behavior.",
+    "Object-Oriented Layer : Manages core domain entities like Customer , Order , Inventory , encapsulating state and behavior.",
+    "Declarative Layer : Encodes business rules using logic programming or SQL for dynamic compliance checks and data querying.",
+    "Declarative Layer : Encodes business rules using logic programming or SQL for dynamic compliance checks and data querying.",
+    "Paradigm Comparison (5 marks): Object-Oriented : Ideal for structuring domain logic, supporting encapsulation, modularity, and code reuse across clients. Declarative : Enables dynamic rule evaluation (e.g., health policy enforcement) and simplifies complex data queries. Discussion of how they complement each other enhances score.",
+    "Paradigm Comparison (5 marks):",
+    "Object-Oriented : Ideal for structuring domain logic, supporting encapsulation, modularity, and code reuse across clients.",
+    "Object-Oriented : Ideal for structuring domain logic, supporting encapsulation, modularity, and code reuse across clients.",
+    "Declarative : Enables dynamic rule evaluation (e.g., health policy enforcement) and simplifies complex data queries.",
+    "Declarative : Enables dynamic rule evaluation (e.g., health policy enforcement) and simplifies complex data queries.",
+    "Discussion of how they complement each other enhances score.",
+    "Discussion of how they complement each other enhances score.",
+    "Evaluation of Hierarchical Approach (4 marks): Benefits : Encourages separation of concerns, improves maintainability, supports specialization, and leverages strengths of each paradigm. Limitations : Higher architectural complexity, increased onboarding time, potential performance overhead due to paradigm mismatches.",
+    "Evaluation of Hierarchical Approach (4 marks):",
+    "Benefits : Encourages separation of concerns, improves maintainability, supports specialization, and leverages strengths of each paradigm.",
+    "Benefits : Encourages separation of concerns, improves maintainability, supports specialization, and leverages strengths of each paradigm.",
+    "Limitations : Higher architectural complexity, increased onboarding time, potential performance overhead due to paradigm mismatches.",
+    "Limitations : Higher architectural complexity, increased onboarding time, potential performance overhead due to paradigm mismatches."
+   ]
+  }
+ ]
+}

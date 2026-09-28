@@ -1,0 +1,125 @@
+{
+ "course": "21CSS201T",
+ "code": "2101",
+ "unit": 2,
+ "session": 10,
+ "slo": 1,
+ "slo_title": "Explain different addressing modes with examples.",
+ "mcq": [
+  {
+   "q": "Which addressing mode uses the operand value directly in the instruction?",
+   "options": {
+    "A": "Immediate addressing",
+    "B": "Direct addressing",
+    "C": "Indirect addressing",
+    "D": "Register addressing"
+   },
+   "answer": "A",
+   "answer_text": "Immediate addressing"
+  },
+  {
+   "q": "Which addressing mode is best suited for accessing elements in an array ?",
+   "options": {
+    "A": "Immediate",
+    "B": "Direct",
+    "C": "Indirect",
+    "D": "Register"
+   },
+   "answer": "C",
+   "answer_text": "Indirect"
+  },
+  {
+   "q": "Which addressing mode can reduce the number of memory accesses by storing operands in CPU registers?",
+   "options": {
+    "A": "Immediate addressing",
+    "B": "Direct addressing",
+    "C": "Indirect addressing",
+    "D": "Register addressing"
+   },
+   "answer": "A",
+   "answer_text": "Immediate addressing"
+  },
+  {
+   "q": "If a program frequently uses constants (like 5 , 10 , -3 ), which addressing mode improves performance?",
+   "options": {
+    "A": "Immediate addressing",
+    "B": "Direct addressing",
+    "C": "Register indirect",
+    "D": "Indexed addressing"
+   },
+   "answer": "A",
+   "answer_text": "Immediate addressing"
+  },
+  {
+   "q": "Changing the addressing mode from direct to indirect in an instruction will:",
+   "options": {
+    "A": "Increase execution speed",
+    "B": "Require one additional memory access",
+    "C": "Eliminate memory usage",
+    "D": "Not affect behavior"
+   },
+   "answer": "B",
+   "answer_text": "Require one additional memory access"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Operand is given directly in the instruction."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Addressing mode specifies the way an instruction identifies the location of data (operand)."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain different addressing modes with suitable examples.",
+   "answer": [
+    "Addressing modes are techniques used in computer architecture to specify how the operand of an instruction is chosen. Different modes provide flexibility in accessing operands from registers, memory, or directly from the instruction itself.",
+    "The major addressing modes are:",
+    "1. Immediate Addressing Mode",
+    "Operand is specified directly in the instruction.",
+    "Fast because no memory access is required.",
+    "Example: MOV R1, #25 → loads the constant value 25 into register R1.",
+    "2. Register Addressing Mode",
+    "Operand is stored in a register.",
+    "Both source and destination are registers.",
+    "Example: ADD R1, R2 → contents of R2 are added to R1.",
+    "3. Direct Addressing Mode",
+    "Instruction contains the memory address of the operand.",
+    "Example: MOV A, 5000H → fetch the data from memory location 5000H into accumulator A.",
+    "4. Indirect Addressing Mode",
+    "Instruction specifies a register or memory location which holds the address of the operand.",
+    "Example: MOV A, @R0 → if R0 = 2500H, then operand is taken from memory[2500H].",
+    "5. Register Indirect Addressing Mode",
+    "A register contains the memory address of the operand.",
+    "Useful for accessing data stored in arrays or pointers.",
+    "Example: MOV A, (R1) → operand is fetched from memory at the address stored in R1.",
+    "6. Indexed Addressing Mode",
+    "Effective address = Base address + Index register.",
+    "Widely used for array or table lookup.",
+    "Example: MOV A, (BASE + R2) → operand at address (BASE + contents of R2) is fetched.",
+    "7. Relative Addressing Mode",
+    "Effective address = Program Counter (PC) + displacement.",
+    "Used in branch instructions.",
+    "Example: BEQ LABEL → if condition true, branch to LABEL which is offset from PC.",
+    "8. Implied Addressing Mode",
+    "Operand is implied by the instruction itself.",
+    "No explicit operand field is required.",
+    "Example: CMA → complement accumulator (operand is implicit: the accumulator).",
+    "9. Auto-increment / Auto-decrement Addressing Mode",
+    "Operand is accessed using the register address, and then the register is automatically updated.",
+    "Useful in traversing arrays.",
+    "Example:",
+    "Auto-increment: MOV A, (R1)+ → operand fetched from memory[R1], then R1 = R1+1.",
+    "Auto-decrement: MOV A, -(R1) → R1 = R1–1 first, then operand fetched.",
+    "(flow of addressing modes) for easier memory recall in exams?"
+   ]
+  }
+ ]
+}

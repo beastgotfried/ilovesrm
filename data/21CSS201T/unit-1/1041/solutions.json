@@ -1,0 +1,126 @@
+{
+ "course": "21CSS201T",
+ "code": "1041",
+ "unit": 1,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Tutorial",
+ "mcq": [
+  {
+   "q": "Convert decimal 10.625 to binary:",
+   "options": {
+    "A": "1010.101",
+    "B": "1100.101",
+    "C": "1010.11",
+    "D": "1011.101"
+   },
+   "answer": "A",
+   "answer_text": "1010.101"
+  },
+  {
+   "q": "Decimal 7.2 to binary (approx.):",
+   "options": {
+    "A": "11.11",
+    "B": "111.0011",
+    "C": "10010.001",
+    "D": "1100.11"
+   },
+   "answer": "B",
+   "answer_text": "111.0011"
+  },
+  {
+   "q": "What is the hexadecimal equivalent of decimal 26.625?",
+   "options": {
+    "A": "1A.A",
+    "B": "1B.9",
+    "C": "1A.8",
+    "D": "1B.A"
+   },
+   "answer": "A",
+   "answer_text": "1A.A"
+  },
+  {
+   "q": "Convert binary 1001.101 to decimal:",
+   "options": {
+    "A": "8.75",
+    "B": "9.75",
+    "C": "9.5",
+    "D": "8.0"
+   },
+   "answer": "B",
+   "answer_text": "9.75"
+  },
+  {
+   "q": "Binary 1101.11 is equal to which decimal value?",
+   "options": {
+    "A": "13.75",
+    "B": "12.75",
+    "C": "14.75",
+    "D": "13.5"
+   },
+   "answer": "A",
+   "answer_text": "13.75"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Which number system uses only digits 0 to 7?",
+   "answer": [
+    "Octal number system"
+   ]
+  },
+  {
+   "q": "Identify the number system: 0x1F",
+   "answer": [
+    "Hexadecimal"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the process of converting a number from hexadecimal to binary, decimal, and octal systems. Convert the hexadecimal number 2F into binary, decimal, and octal. Show each step clearly.",
+   "answer": [
+    "In hexadecimal, each digit is converted into 4 binary digits .",
+    "The digit 2 in binary is 0010",
+    "The digit 2 in binary is 0010",
+    "The digit F in binary is 1111 (since F = 15 in decimal)",
+    "The digit F in binary is 1111 (since F = 15 in decimal)",
+    "Therefore, Hexadecimal 2F = Binary 0010 1111",
+    "So, the final binary number is: 00101111",
+    "To convert from hexadecimal to decimal, multiply each digit with powers of 16 based on its position (from right to left).",
+    "Given: 2F This means:",
+    "2 is in the 16¹ place",
+    "2 is in the 16¹ place",
+    "F is in the 16⁰ place",
+    "F is in the 16⁰ place",
+    "Now calculate:",
+    "2 × 16 = 32",
+    "2 × 16 = 32",
+    "F = 15 → 15 × 1 = 15",
+    "F = 15 → 15 × 1 = 15",
+    "Add the two values: 32 + 15 = 47",
+    "So, Hexadecimal 2F = Decimal 47",
+    "To convert hexadecimal to octal, the simplest method is:",
+    "Step 1: Convert hexadecimal to binary Step 2: Convert binary to octal",
+    "Already we have: 2F = Binary 00101111",
+    "Now, group binary digits in sets of 3 from right to left . If needed, add zeros in front to complete groups of 3:",
+    "Binary: 00101111 Add a zero at the start to make 3-bit groups: → 000 010 111",
+    "Now convert each group into its octal (base 8) value:",
+    "000 → 0",
+    "000 → 0",
+    "010 → 2",
+    "010 → 2",
+    "111 → 7",
+    "111 → 7",
+    "So, Binary 00101111 = Octal 057",
+    "Thus, Hexadecimal 2F = Octal 57",
+    "Binary : 00101111",
+    "Binary : 00101111",
+    "Decimal : 47",
+    "Decimal : 47",
+    "Octal : 57",
+    "Octal : 57"
+   ]
+  }
+ ]
+}

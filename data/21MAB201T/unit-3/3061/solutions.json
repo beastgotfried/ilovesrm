@@ -1,0 +1,83 @@
+{
+ "course": "21MAB201T",
+ "code": "3061",
+ "unit": 3,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Solve wave equations with trigonometric functions representing initial displacement or zero initial velocity.",
+ "mcq": [
+  {
+   "q": "Suppose that a string is stretched and fastened to two points \\(x = 0\\) and \\(x = l\\) apart. Motion is started by displacing the string into the form \\(y=sin^3 {(\\pi x/l)}\\) from which it is released at time \\(t=0\\) . Then the initial displacement is",
+   "options": {
+    "A": "\\(\\pi x\\)",
+    "B": "0",
+    "C": "\\(x/l\\)",
+    "D": "k"
+   },
+   "answer": "B",
+   "answer_text": "0"
+  },
+  {
+   "q": "A tightly stretched string with fixed end points \\(x = 0\\) and \\(x = l\\) is initially in a position given by \\(y(x,0)=y_0 {sin^3 {\\pi x \\over l}}\\) . If it is released from rest from this position then the initial velocity is",
+   "options": {
+    "A": "\\(y_0\\)",
+    "B": "\\(\\pi x\\)",
+    "C": "\\(sin^3 {\\pi x \\over l}\\)",
+    "D": "0"
+   },
+   "answer": "D",
+   "answer_text": "0"
+  },
+  {
+   "q": "A tightly stretched flexible string has its ends fixed at \\(x = 0\\) and \\(x = l\\) . At time \\(t=0\\) the string is given a shape defined by \\(f(x)=kx^2(l-x)\\) , where \\(k\\) is a constant, and then released from rest. Then its initial displacement is",
+   "options": {
+    "A": "\\(\\pi x\\)",
+    "B": "k",
+    "C": "\\(x/l\\)",
+    "D": "0"
+   },
+   "answer": "D",
+   "answer_text": "0"
+  },
+  {
+   "q": "A tightly stretched flexible string has its ends fixed at \\(x = 0\\) and \\(x = l\\) . At time \\(t=0\\) the string is given a shape defined by \\(f(x)=kx^2(l-x)\\) , where \\(k\\) is a constant, and then released from rest. Then its initial velocity is",
+   "options": {
+    "A": "\\(\\pi x\\)",
+    "B": "k",
+    "C": "\\(x/l\\)",
+    "D": "0"
+   },
+   "answer": "D",
+   "answer_text": "0"
+  },
+  {
+   "q": "If the length of a string is \\(2l\\) and vibrating between fixed end points with zero initial velocity and its displacement is given by \\(f(x)= {kx \\over l} , 0<x<l\\) then the initial displacement is given by",
+   "options": {
+    "A": "\\(\\pi x\\)",
+    "B": "0",
+    "C": "\\(x/l\\)",
+    "D": "k"
+   },
+   "answer": "B",
+   "answer_text": "0"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A tightly stretched string with fixed end points \\(x=0\\) and \\(x=l\\) is initially in a position given by \\(y(x,0)=y_0 sin^3 {\\pi x \\over l}\\) . If it is released from rest from this position find the displacement \\(y\\) at any distance \\(x\\) from one end at any time \\(t\\) . Hint: The boundary conditions are: \\((i) y(0,t)=0, \\forall t>0 \\\\ (ii) y(l,t)=0, \\forall t>0 \\\\ (iii) {\\partial y(x,0) \\over \\partial t }=0, \\forall x \\\\ (iv) y(x,0)=y_0 sin ^3 {\\pi x \\over l}.\\)",
+   "answer": []
+  },
+  {
+   "q": "An elastic string is stretched between two points at a distance \\(\\pi \\) apart. In its equilibrium position the string is in the shape of the curve \\(f(x)=k(sin x - sin^3 x)\\) . Obtain \\(y(x,t)\\) the vertical displacement if \\(y\\) satisfies the equation \\({\\partial^2y \\over \\partial t^2}={\\partial^2 y \\over \\partial x^2}\\)",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{A string of length $l$ is fixed at both ends. It is given an initial velocity $\\frac{\\partial y}{\\partial t}(x,0) = v_0 \\sin\\left(\\dfrac{2\\pi x}{l}\\right)$}\\\\ \\text{and initial displacement zero. Find $y(x,t).$ Also solve if the initial velocity is $v_0 \\sin^3\\left(\\dfrac{\\pi x}{l}\\right).$}\\)",
+   "answer": [
+    "Step Marks \\(\\text{Case 1: \\(y(x,0)=0\\), \\(y_t(x,0)= v_0 \\sin\\left(\\dfrac{2\\pi x}{l}\\right).\\)}\\) (1 Mark) \\(\\text{General solution: \\(y(x,t)= \\sum \\sin\\left(\\dfrac{n\\pi x}{l}\\right)\\left[C_n \\cos\\left(\\dfrac{n\\pi c t}{l}\\right)+D_n \\sin\\left(\\dfrac{n\\pi c t}{l}\\right)\\right].\\)}\\) (2 Marks) \\(\\text{\\(y(x,0)=0\\) \\(\\Rightarrow\\) \\(C_n=0.\\) So \\(y(x,t)= \\sum D_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) \\sin\\left(\\dfrac{n\\pi c t}{l}\\right).\\)}\\) (1 Mark) \\(\\text{\\(y_t(x,0)= \\sum D_n \\left(\\dfrac{n\\pi c}{l}\\right) \\sin\\left(\\dfrac{n\\pi x}{l}\\right) = v_0 \\sin\\left(\\dfrac{2\\pi x}{l}\\right).\\)}\\) (1 Mark) \\(\\text{Thus \\(D_2 \\left(\\dfrac{2\\pi c}{l}\\right) = v_0\\) \\(\\Rightarrow\\) \\(D_2 = \\dfrac{v_0 l}{2\\pi c}.\\) Other \\(D_n=0.\\)}\\) (2 Marks) \\(\\text{So \\(y(x,t)= \\dfrac{v_0 l}{2\\pi c} \\sin\\left(\\dfrac{2\\pi x}{l}\\right) \\sin\\left(\\dfrac{2\\pi c t}{l}\\right).\\)}\\) (1 Mark) \\(\\text{Case 2: \\(y_t(x,0)= v_0 \\sin^3\\left(\\dfrac{\\pi x}{l}\\right) = \\dfrac{v_0}{4}\\left[3 \\sin\\left(\\dfrac{\\pi x}{l}\\right) - \\sin\\left(\\dfrac{3\\pi x}{l}\\right)\\right].\\)}\\) (2 Marks) \\(\\text{Similarly, \\(y(x,t)= \\sum D_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) \\sin\\left(\\dfrac{n\\pi c t}{l}\\right).\\)}\\) (1 Mark) \\(\\text{Then \\(y_t(x,0)= \\sum D_n \\left(\\dfrac{n\\pi c}{l}\\right) \\sin\\left(\\dfrac{n\\pi x}{l}\\right) = \\dfrac{v_0}{4}\\left[3 \\sin\\left(\\dfrac{\\pi x}{l}\\right) - \\sin\\left(\\dfrac{3\\pi x}{l}\\right)\\right].\\)}\\) (2 Marks) \\(\\text{Equate: For \\(n=1\\): \\(D_1 \\left(\\dfrac{\\pi c}{l}\\right)= \\dfrac{3v_0}{4}\\) \\(\\Rightarrow\\) \\(D_1 = \\dfrac{3v_0 l}{4\\pi c}.\\) For \\(n=3\\): \\(D_3 \\left(\\dfrac{3\\pi c}{l}\\right) = -\\dfrac{v_0}{4}\\) \\(\\Rightarrow\\) \\(D_3 = -\\dfrac{v_0 l}{12\\pi c}.\\)}\\) (2 Marks) \\(\\text{Thus \\(y(x,t)= \\dfrac{3v_0 l}{4\\pi c} \\sin\\left(\\dfrac{\\pi x}{l}\\right) \\sin\\left(\\dfrac{\\pi c t}{l}\\right) - \\dfrac{v_0 l}{12\\pi c} \\sin\\left(\\dfrac{3\\pi x}{l}\\right) \\sin\\left(\\dfrac{3\\pi c t}{l}\\right).\\)}\\) (1 Mark)"
+   ]
+  }
+ ]
+}

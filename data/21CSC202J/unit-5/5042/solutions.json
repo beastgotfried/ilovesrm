@@ -1,0 +1,99 @@
+{
+ "course": "21CSC202J",
+ "code": "5042",
+ "unit": 5,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Define language-based protection in operating systems",
+ "mcq": [
+  {
+   "q": "Capability-based protection was introduced in:",
+   "options": {
+    "A": "1980s",
+    "B": "Early 1970s",
+    "C": "1990s",
+    "D": "Early 2000s"
+   },
+   "answer": "B",
+   "answer_text": "Early 1970s"
+  },
+  {
+   "q": "Apple’s entitlement system stores entitlements in:",
+   "options": {
+    "A": "Capability lists",
+    "B": "Kernel modules",
+    "C": "XML property lists (.plist)",
+    "D": "Access matrices"
+   },
+   "answer": "C",
+   "answer_text": "XML property lists (.plist)"
+  },
+  {
+   "q": "In Linux, capabilities split root privileges into:",
+   "options": {
+    "A": "User-level and kernel-level",
+    "B": "Separate, fine-grained privileges",
+    "C": "Threads and processes",
+    "D": "Lock-key pairs"
+   },
+   "answer": "B",
+   "answer_text": "Separate, fine-grained privileges"
+  },
+  {
+   "q": "Once a capability is revoked in Linux:",
+   "options": {
+    "A": "It can be reacquired anytime",
+    "B": "It cannot be reacquired",
+    "C": "It is transferred to another process",
+    "D": "It becomes dormant"
+   },
+   "answer": "B",
+   "answer_text": "It cannot be reacquired"
+  },
+  {
+   "q": "Which is not a bitmask used in Linux capabilities?",
+   "options": {
+    "A": "Permitted set",
+    "B": "Effective set",
+    "C": "Inheritable set",
+    "D": "Virtual set"
+   },
+   "answer": "D",
+   "answer_text": "Virtual set"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is stack inspection in Java language-based protection and how does it work?",
+   "answer": [
+    "Stack inspection is a runtime enforcement mechanism in Java where the JVM checks the call stack when a protected resource is accessed.",
+    "Stack inspection is a runtime enforcement mechanism in Java where the JVM checks the call stack when a protected resource is accessed.",
+    "Each method call adds a frame to the stack.",
+    "Each method call adds a frame to the stack.",
+    "The doPrivileged {} block marks a frame as privileged.",
+    "The doPrivileged {} block marks a frame as privileged.",
+    "When checkPermission() is called, the JVM scans the stack: If it finds a doPrivileged frame → access is granted. If it finds an unprivileged frame → throws AccessControlException . It ensures only methods with declared privileges can access sensitive resources.",
+    "When checkPermission() is called, the JVM scans the stack:",
+    "If it finds a doPrivileged frame → access is granted.",
+    "If it finds a doPrivileged frame → access is granted.",
+    "If it finds an unprivileged frame → throws AccessControlException . It ensures only methods with declared privileges can access sensitive resources.",
+    "If it finds an unprivileged frame → throws AccessControlException . It ensures only methods with declared privileges can access sensitive resources."
+   ]
+  },
+  {
+   "q": "Describe Linux capabilities and their significance in process security.",
+   "answer": [
+    "Linux capabilities split root privileges into fine-grained bits assigned per process/thread (permitted, effective, inheritable). Processes can drop unneeded capabilities during execution. Significance: Implements least privilege principle, reducing security risks by limiting process privileges to only what is necessary.",
+    "Linux capabilities split root privileges into fine-grained bits assigned per process/thread (permitted, effective, inheritable). Processes can drop unneeded capabilities during execution. Significance: Implements least privilege principle, reducing security risks by limiting process privileges to only what is necessary."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain Linux capabilities and their role in implementing the principle of least privilege .",
+   "answer": [
+    "Answer Key: Linux capabilities divide root privileges into fine-grained capabilities represented as bitmasks (permitted, effective, inheritable). Processes can drop unneeded capabilities during execution, ensuring they hold only minimal privileges necessary for tasks, directly implementing the principle of least privilege to reduce security risks."
+   ]
+  }
+ ]
+}

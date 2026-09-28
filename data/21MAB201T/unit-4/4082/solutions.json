@@ -1,0 +1,93 @@
+{
+ "course": "21MAB201T",
+ "code": "4082",
+ "unit": 4,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Apply transform methods to practical engineering problems",
+ "mcq": [
+  {
+   "q": "\\(\\text{Find } F_c\\left\\{\\frac{1}{4+x^2}\\right\\} \\text{ using the known result } F_c\\left\\{\\frac{1}{a^2+x^2}\\right\\} = \\sqrt{\\frac{\\pi}{2}} \\frac{e^{-as}}{a}.\\)",
+   "options": {
+    "A": "\\(\\sqrt{\\frac{\\pi}{2}} \\frac{e^{-2s}}{2}\\)",
+    "B": "\\(\\sqrt{\\frac{\\pi}{2}} e^{-2s}\\)",
+    "C": "\\(\\sqrt{\\frac{\\pi}{2}} \\frac{e^{-4s}}{4}\\)",
+    "D": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{e^{-2s}}{2}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\sqrt{\\frac{\\pi}{2}} \\frac{e^{-2s}}{2}\\)"
+  },
+  {
+   "q": "\\(\\text{Using the modulation property for Fourier cosine transform, if } F_c\\{e^{-x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}, \\text{ then } F_c\\{e^{-x} \\sin(2x)\\} \\text{ is:}\\)",
+   "options": {
+    "A": "\\(\\frac{1}{2i} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+2)^2} - \\frac{1}{1+(s-2)^2} \\right]\\)",
+    "B": "\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+2)^2} - \\frac{1}{1+(s-2)^2} \\right]\\)",
+    "C": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\sin(2s)\\)",
+    "D": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\cos(2s)\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{1}{2i} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+2)^2} - \\frac{1}{1+(s-2)^2} \\right]\\)"
+  },
+  {
+   "q": "\\(\\text{Evaluate } \\int_0^\\infty \\frac{dx}{(x^2+9)(x^2+16)} \\text{ using Parseval's identity for Fourier cosine transforms with } f(x)=e^{-3x}, g(x)=e^{-4x}.\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi}{168}\\)",
+    "B": "\\(\\frac{\\pi}{84}\\)",
+    "C": "\\(\\frac{\\pi}{24}\\)",
+    "D": "\\(\\frac{\\pi}{12}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi}{168}\\)"
+  },
+  {
+   "q": "\\(\\text{Using the linearity property, find } F_c\\{4e^{-3x} + 2e^{-x}\\} \\text{ given that } F_c\\{e^{-ax}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{a}{s^2+a^2}.\\)",
+   "options": {
+    "A": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{12}{s^2+9} + \\frac{2}{s^2+1} \\right]\\)",
+    "B": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{4}{s^2+9} + \\frac{2}{s^2+1} \\right]\\)",
+    "C": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{s^2+9} + \\frac{1}{s^2+1} \\right]\\)",
+    "D": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{12}{s^2+3} + \\frac{2}{s^2+1} \\right]\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{12}{s^2+9} + \\frac{2}{s^2+1} \\right]\\)"
+  },
+  {
+   "q": "\\(\\text{Given } F_s\\{e^{-x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{s}{s^2+1}, \\text{ find } F_s\\{e^{-2x}\\} \\text{ using the scaling property.}\\)",
+   "options": {
+    "A": "\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\frac{s/2}{(s/2)^2+1}\\)",
+    "B": "\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\frac{s}{s^2+4}\\)",
+    "C": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{s}{s^2+4}\\)",
+    "D": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{2s}{s^2+4}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\frac{s/2}{(s/2)^2+1}\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Using Fourier cosine transform, evaluate } \\int_{0}^{\\infty} \\frac{\\cos(\\lambda x)}{\\lambda^2+a^2} d\\lambda.\\)",
+   "answer": [
+    "\\(\\text{We have } F_c[e^{-ax}] = \\sqrt{\\frac{2}{\\pi}} \\frac{a}{a^2+\\lambda^2}\\)",
+    "\\(\\text{By inverse: } e^{-ax} = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_c(\\lambda) \\cos(\\lambda x) d\\lambda\\)",
+    "\\(= \\frac{2a}{\\pi} \\int_{0}^{\\infty} \\frac{\\cos(\\lambda x)}{a^2+\\lambda^2} d\\lambda\\)",
+    "\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{\\cos(\\lambda x)}{\\lambda^2+a^2} d\\lambda = \\frac{\\pi}{2a} e^{-ax}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Using Fourier sine transform, evaluate } \\int_{0}^{\\infty} \\frac{\\lambda \\sin(\\lambda x)}{\\lambda^2+a^2} d\\lambda.\\)",
+   "answer": [
+    "\\(\\text{We have } F_s[e^{-ax}] = \\sqrt{\\frac{2}{\\pi}} \\frac{\\lambda}{a^2+\\lambda^2}\\)",
+    "\\(\\text{By inverse: } e^{-ax} = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_s(\\lambda) \\sin(\\lambda x) d\\lambda\\)",
+    "\\(= \\frac{2}{\\pi} \\int_{0}^{\\infty} \\frac{\\lambda \\sin(\\lambda x)}{a^2+\\lambda^2} d\\lambda\\)",
+    "\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{\\lambda \\sin(\\lambda x)}{\\lambda^2+a^2} d\\lambda = \\frac{\\pi}{2} e^{-ax}.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Find the Fourier sine transform of } f(x)=e^{-x}\\sin(x).\\)",
+   "answer": [
+    "Step Marks \\(F_s(s) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} e^{-x} \\sin(x) \\sin(sx) dx\\) (2) Use identity: \\(\\sin(x)\\sin(sx) = \\frac{1}{2}[\\cos((1-s)x) - \\cos((1+s)x)]\\) (3) \\(F_s(s) = \\frac{1}{2}\\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} e^{-x} [\\cos((1-s)x) - \\cos((1+s)x)] dx\\) (3) Using formula: \\(\\int_{0}^{\\infty} e^{-ax} \\cos(bx) dx = \\frac{a}{a^2 + b^2}\\) (3) \\(F_s(s) = \\frac{1}{2}\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1 + (1-s)^2} - \\frac{1}{1 + (1+s)^2} \\right]\\) (4)"
+   ]
+  }
+ ]
+}

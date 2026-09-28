@@ -1,0 +1,166 @@
+{
+ "course": "21CSC201J",
+ "code": "4072",
+ "unit": 4,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "Binary Search Trees - Deletion Operation",
+ "mcq": [
+  {
+   "q": "What is the position of 15 after inserting {20, 10, 30, 5, 15} into an empty BST?",
+   "options": {
+    "A": "Left of 10",
+    "B": "Left of 5",
+    "C": "Right of 10",
+    "D": "Right of 30"
+   },
+   "answer": "C",
+   "answer_text": "Right of 10"
+  },
+  {
+   "q": "Inserting elements in reverse order {90, 80, 70, 60, 50} results in what BST structure?",
+   "options": {
+    "A": "Balanced BST",
+    "B": "Left-skewed BST",
+    "C": "Right-skewed BST",
+    "D": "Complete Binary Tree"
+   },
+   "answer": "B",
+   "answer_text": "Left-skewed BST"
+  },
+  {
+   "q": "What is the impact of deleting nodes in an unbalanced BST?",
+   "options": {
+    "A": "Increases the tree’s height",
+    "B": "May cause tree skewness",
+    "C": "Decreases the number of levels",
+    "D": "Always balances the tree"
+   },
+   "answer": "B",
+   "answer_text": "May cause tree skewness"
+  },
+  {
+   "q": "What happens if we delete the root node of a BST with two children?",
+   "options": {
+    "A": "It is replaced by its in-order predecessor or successor",
+    "B": "BST becomes unbalanced",
+    "C": "It is replaced by its left child",
+    "D": "Deletion is not possible"
+   },
+   "answer": "A",
+   "answer_text": "It is replaced by its in-order predecessor or successor"
+  },
+  {
+   "q": "In a binary search tree (BST), where is a new node inserted?",
+   "options": {
+    "A": "Always at the root",
+    "B": "In the left subtree if smaller, right subtree if larger",
+    "C": "Only in the right subtree",
+    "D": "At a random position"
+   },
+   "answer": "B",
+   "answer_text": "In the left subtree if smaller, right subtree if larger"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the insertion operation in a Binary Search Tree (BST)? Explain with steps and pseudocode.",
+   "answer": [
+    "Insertion in binary search tree includes adding a new node in a way that maintains the BST property: for any node, all values in its left subtree are smaller, and all values in its right subtree are greater.",
+    "Algorithm:",
+    "Start at the root node.",
+    "Compare the value to be inserted with the current node's value.",
+    "If the value is smaller, move to the left child.",
+    "If the value is greater, move to the right child.",
+    "Repeat steps 2-4 until you find an empty spot.",
+    "Insert the new node at the empty spot.",
+    "Pseudocode:",
+    "struct Node* insert(struct Node* root, int key) {",
+    "if (root == NULL) {",
+    "root = createNode(key); // allocate memory and assign key",
+    "return root;",
+    "}",
+    "if (key < root->data) {",
+    "root->left = insert(root->left, key);",
+    "} else if (key > root->data) {",
+    "root->right = insert(root->right, key);",
+    "}",
+    "// if key == root->data, do nothing (or handle duplicates based on policy)",
+    "return root;",
+    "}",
+    "Example:",
+    "Insert the value 8 into the following BST:",
+    "Step-by-Step Insertion:",
+    "Start at the root (10).",
+    "8 is less than 10, move to the left child (5).",
+    "8 is greater than 5, move to the right child (7).",
+    "8 is greater than 7, move to the right child of 7 (which is empty).",
+    "Insert 8 as the right child of 7."
+   ]
+  },
+  {
+   "q": "Discuss the different cases handled during the deletion operation in a Binary Search Tree?",
+   "answer": [
+    "Binary search tree node deletion involves removing a node and reorganizing the tree to maintain the BST property.",
+    "There are three cases to handle:",
+    "Node with no children (leaf node)",
+    "Node with one child",
+    "Node with two children",
+    "Algorithm:",
+    "No Child (Leaf Node): Simply remove the node.",
+    "One Child: Remove the node and replace it with its child.",
+    "Two Children: Find the in-order predecessor (largest value in the left subtree) or in-order successor (smallest value in the right subtree), replace the node's value with the predecessor/successor, and delete the predecessor/successor.",
+    "Example:",
+    "Delete the value 5 from the following BST:",
+    "Step-by-Step Deletion:",
+    "Start at the root (10).",
+    "5 is less than 10, move to the left child (5).",
+    "Node 5 has two children. Find the in-order successor (smallest value in the right subtree of 5), which is 7.",
+    "Replace 5 with 7.",
+    "Delete node 7."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A college is building a student records management system using a Binary Search Tree (BST). The student IDs are used as keys for organizing the tree. The following student IDs arrive in this order and must be inserted into the BST: 45, 15, 79, 90, 10, 55, 12, 20, 50 Task: Construct the BST using the given sequence. Visually represent the structure of the tree after all insertions. Perform the deletion operations for the following student IDs and explain: a student who has no sub-records (delete node 12) a student who has only one sub-record (delete node 55) a student who has two sub-records (delete node 15) a student who has no sub-records (delete node 12) a student who has only one sub-record (delete node 55) a student who has two sub-records (delete node 15) Draw the final BST after all deletions. Justify how the tree maintains the binary search property after each deletion.",
+   "answer": [
+    "Construction of a Binary Search Tree (BST) using the given values: 45, 15, 79, 90, 10, 55, 12, 20, 50",
+    "1. Insert 45 → Tree is empty. So, 45 becomes the root .",
+    "2. Insert 15 → 15 < 45 → go left → insert as left child of 45.",
+    "3. Insert 79 → 79 > 45 → go right → insert as right child of 45.",
+    "4. Insert 90 → 90 > 45 → go right → 90 > 79 → insert as right child of 79.",
+    "5. Insert 10 → 10 < 45 → left → 10 < 15 → insert as left child of 15.",
+    "6. Insert 55 → 55 > 45 → right → 55 < 79 → insert as left child of 79.",
+    "7. I nsert 12 → 12 < 45 → left → 12 < 15 → left → 12 > 10 → insert as right child of 10.",
+    "8. Insert 20 → 20 < 45 → left → 20 > 15 → insert as right child of 15.",
+    "9. Insert 50 → 50 > 45 → right → 50 < 79 → left → 50 < 55 → insert as left child of 55.",
+    "Visually represent the structure of the tree after all insertions",
+    "Perform the deletion operations for the following student IDs",
+    "delete node 12 delete node 55 delete node 15",
+    "delete node 12",
+    "delete node 55",
+    "delete node 15",
+    "Delete node 12",
+    "Case 1: Delete a Leaf Node",
+    "12 has no children → just remove it.",
+    "Delete node 55",
+    "Case 2: Delete a Node with One Child",
+    "55 has only one left child , i.e., 50",
+    "Replace 55 with 50",
+    "Delete node 15",
+    "Case 3: Delete a Node with Two Children (e.g., 15)",
+    "15 has two children → 10 and 20",
+    "Use Inorder Successor (smallest in right subtree) = 20",
+    "Replace 15 with 20 and delete node 20 (leaf)",
+    "Draw the final BST after all deletions.",
+    "After each deletion:",
+    "The rearrangement or replacement is done with respect to the sorted order.",
+    "Either no node is shifted, or nodes are replaced with their correct in-order neighbors, preserving: Left subtree < node Right subtree > node",
+    "Left subtree < node",
+    "Right subtree > node",
+    "Thus, the binary search property is guaranteed to hold true after each deletion operation."
+   ]
+  }
+ ]
+}

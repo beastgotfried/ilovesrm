@@ -1,0 +1,170 @@
+{
+ "course": "21CSC201J",
+ "code": "3071",
+ "unit": 3,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Implementation of Stack using array and Linked List",
+ "mcq": [
+  {
+   "q": "If a circular linked list-based stack contains 5 elements and we pop 3 elements, how many links are broken?",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "5"
+   },
+   "answer": "C",
+   "answer_text": "3"
+  },
+  {
+   "q": "If a stack implemented using a singly linked list contains 5 nodes, how many pointer changes are required to push one more element?",
+   "options": {
+    "A": "5",
+    "B": "3",
+    "C": "2",
+    "D": "1"
+   },
+   "answer": "D",
+   "answer_text": "1"
+  },
+  {
+   "q": "A stack using a doubly linked list has 4 elements [10, 20, 30, 40]. If we pop an element, which pointer gets updated?",
+   "options": {
+    "A": "Only next pointer",
+    "B": "Only previous pointer",
+    "C": "Both next and previous pointers",
+    "D": "No pointers need to be updated"
+   },
+   "answer": "C",
+   "answer_text": "Both next and previous pointers"
+  },
+  {
+   "q": "In an array-based stack, if the initial size is 4 and we push 5 elements, how many array resizes occur if we double the size each time?",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "No resizing required"
+   },
+   "answer": "A",
+   "answer_text": "1"
+  },
+  {
+   "q": "Given a stack implemented using an array of size 6 with the elements [10, 20, 30, 40], what will be the top index after pushing 50 and 60?",
+   "options": {
+    "A": "4",
+    "B": "5",
+    "C": "6",
+    "D": "Stack Overflows"
+   },
+   "answer": "B",
+   "answer_text": "5"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Write a function to display the contents of a stack implemented using a linked list.",
+   "answer": [
+    "In a stack implemented using a linked list, each element is stored in a node that contains the data and a pointer to the next node. The top of the stack points to the most recently added node. To display the contents, we need to traverse the stack from the top to the bottom, printing each node's data.",
+    "Structure Definition",
+    "struct Node {",
+    "int data;",
+    "struct Node* next;",
+    "};",
+    "struct Node* top = NULL;",
+    "Display Function",
+    "void display() {",
+    "struct Node* temp = top;",
+    "if (temp == NULL) {",
+    "printf(\"Stack is empty\\n\");",
+    "} else {",
+    "printf(\"Stack contents (Top to Bottom):\\n\");",
+    "while (temp != NULL) {",
+    "printf(\"%d\\n\", temp->data); // Print current node's data",
+    "temp = temp->next; // Move to the next node",
+    "}",
+    "}",
+    "}",
+    "Explanation:",
+    "We declare a temporary pointer temp and assign it to the top of the stack.",
+    "If top is NULL, it means the stack is empty, so we print \"Stack is empty\".",
+    "Otherwise, we use a while loop to traverse from the top node to the last node (where next is NULL).",
+    "At each step, we print the value of the current node and move to the next using temp = temp->next."
+   ]
+  },
+  {
+   "q": "Write the algorithm to perform PUSH and POP operations on a stack implemented using an array. What are the conditions for stack overflow and underflow?",
+   "answer": [
+    "Algorithmic Procedure for Stack Implementation Using Array",
+    "Push Operation:",
+    "Adding an element on the top of the stack is termed a push operation. Push operation has the following two steps:",
+    "Increment the top variable of the stack so that it can refer to the next memory location.",
+    "Add a data element at the increment top position.",
+    "Stack data structure states an overflow condition when you try to insert an element into the stack when complete.",
+    "If ( top == n)",
+    "printf(“overflow”);",
+    "Pop Operation:",
+    "Removing a data element from the stack data structure is called a pop operation. The pop operation has two following steps:",
+    "The value of the top variable will be incremented by one whenever you delete an item from the stack.",
+    "The topmost variable of the stack is stored in another variable, and then the value of the top variable will be decremented by one.",
+    "The pop operation returns the deleted element that was stored in another variable as a result.",
+    "Stack data structure states an underflow condition when you try to delete a data element when the stack is already empty.",
+    "if (top == -1)",
+    "{",
+    "printf(“underflow condition”);",
+    "}"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are designing a text editor with an Undo feature. This feature should allow the user to reverse recent actions. As a software developer, choose an appropriate stack implementation (array or linked list) and justify your choice. Then, demonstrate how PUSH, POP, and PEEK operations help in managing the undo functionality with code and explanation.",
+   "answer": [
+    "In a text editor, every time the user types or deletes, an action is performed. To support undo, we must store every action in the order it occurred — and retrieve the last action first during undo → LIFO behavior → use stack.",
+    "Why Linked List Stack?",
+    "Dynamic size : Number of undo actions may vary",
+    "No size limitation : Unlike arrays, no fixed max limit",
+    "Efficient memory : Memory is allocated as needed",
+    "A stack is implemented using a singly linked list to simulate an Undo feature in a text editor. Each action performed by the user (like insert or delete) is stored as a node in the stack, where each node contains two strings: one for the operation (insert or delete) and another for the data involved in the action (e.g., the character or text inserted/deleted). The push() function creates a new node, copies the operation and data into it, and adds it to the top of the stack. The pop() function removes the top node from the stack and displays the action being undone. It also frees the memory to avoid leaks. The peek() function displays the next action to be undone without actually removing it from the stack. This implementation is memory-efficient and flexible because it uses dynamic memory allocation, allowing the stack to grow or shrink at runtime based on the number of user actions. It also avoids the limitations of fixed-size arrays, making it well-suited for real-world applications like Undo features in text editors.",
+    "C Code:",
+    "#include <stdio.h>",
+    "#include <stdlib.h>",
+    "#include <string.h>",
+    "struct Action {",
+    "char operation[10];",
+    "char data[100];",
+    "struct Action* next;",
+    "};",
+    "struct Action* top = NULL;",
+    "void push(char op[], char value[]) {",
+    "struct Action* newNode = (struct Action*)malloc(sizeof(struct Action));",
+    "strcpy(newNode->operation, op);",
+    "strcpy(newNode->data, value);",
+    "newNode->next = top;",
+    "top = newNode;",
+    "}",
+    "void pop() {",
+    "if(top == NULL) {",
+    "printf(\"Nothing to undo\\n\");",
+    "} else {",
+    "printf(\"Undo %s: %s\\n\", top->operation, top->data);",
+    "struct Action* temp = top;",
+    "top = top->next;",
+    "free(temp);",
+    "}",
+    "}",
+    "void peek() {",
+    "if(top != NULL) {",
+    "printf(\"Next Undo: %s - %s\\n\", top->operation, top->data);",
+    "} else {",
+    "printf(\"No actions to undo\\n\");",
+    "}",
+    "}",
+    "Sample Output:",
+    "User types \"A\" → push(\"insert\", \"A\")",
+    "User deletes \"B\" → push(\"delete\", \"B\")"
+   ]
+  }
+ ]
+}

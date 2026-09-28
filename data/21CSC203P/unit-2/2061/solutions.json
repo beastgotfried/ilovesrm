@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2061",
+ "unit": 2,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Demonstrate how to call user-defined and predefined functions in Java programs.",
+ "mcq": [
+  {
+   "q": "In Java, how are functions called in code?",
+   "options": {
+    "A": "functionName[]",
+    "B": "call functionName",
+    "C": "functionName();",
+    "D": "method.call(functionName)"
+   },
+   "answer": "C",
+   "answer_text": "functionName();"
+  },
+  {
+   "q": "Which of the following best describes actual parameters in Java?",
+   "options": {
+    "A": "Variables used inside the function",
+    "B": "Variables declared as return types",
+    "C": "Variables passed to a function during the call",
+    "D": "Default values of functions"
+   },
+   "answer": "C",
+   "answer_text": "Variables passed to a function during the call"
+  },
+  {
+   "q": "Which of the following is a predefined function in Java?",
+   "options": {
+    "A": "main()",
+    "B": "println()",
+    "C": "myFunction()",
+    "D": "add()"
+   },
+   "answer": "B",
+   "answer_text": "println()"
+  },
+  {
+   "q": "What happens when you pass an array to a function in Java?",
+   "options": {
+    "A": "Only the first element is passed",
+    "B": "A copy of the array is passed",
+    "C": "The original array reference is passed",
+    "D": "An exception is thrown"
+   },
+   "answer": "C",
+   "answer_text": "The original array reference is passed"
+  },
+  {
+   "q": "What does pass by value mean in Java?",
+   "options": {
+    "A": "The reference to the variable is passed",
+    "B": "The address of the variable is passed",
+    "C": "A copy of the value is passed to the function",
+    "D": "The original value is modified directly"
+   },
+   "answer": "C",
+   "answer_text": "A copy of the value is passed to the function"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between actual parameters and formal parameters with an example.",
+   "answer": [
+    "Actual parameters are the values passed to a function when it is called. Formal parameters are the variables defined in the function declaration to receive the passed values. Example: void greet(String name) { // 'name' is a formal parameter System.out.println(\"Hello \" + name); } greet(\"John\"); // \"John\" is the actual parameter"
+   ]
+  },
+  {
+   "q": "Write a Java function that accepts two integers and prints their sum. Also, show how to call this function.",
+   "answer": [
+    "public void addNumbers(int a, int b) { System.out.println(\"Sum = \" + (a + b)); } // Function call addNumbers(5, 10); Here, a and b are formal parameters, and 5, 10 are actual parameters passed by value."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are writing a utility class with a function to swap two numbers. You observe that after calling the function, the original values are not swapped. Write a Java method to swap two integers. Then, explain why the values don�t change outside the function. What concept does this illustrate about argument passing in Java?",
+   "answer": [
+    "Java Code: public class Utility { public static void swap(int a, int b) { int temp = a; a = b; b = temp; System.out.println(\"Inside swap: a = \" + a + \", b = \" + b); } public static void main(String[] args) { int x = 10, y = 20; swap(x, y); System.out.println(\"After swap: x = \" + x + \", y = \" + y); } } Output: Inside swap: a = 20, b = 10 After swap: x = 10, y = 20 Explanation: Java uses pass by value, even for primitives. x and y are actual parameters, and a and b are formal parameters. The swap occurs only within the scope of the function. The original values remain unchanged because only copies were modified. This illustrates the concept of pass by value, where changes to parameters inside the method do not affect the original arguments."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,167 @@
+{
+ "course": "21CSC201J",
+ "code": "4021",
+ "unit": 4,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Binary Trees",
+ "mcq": [
+  {
+   "q": "Given a complete binary tree with nodes {10, 20, 30, 40, 50}, where will 60 be inserted?",
+   "options": {
+    "A": "As the left child of 40",
+    "B": "As the right child of 40",
+    "C": "As the left child of 30",
+    "D": "As the right child of 30"
+   },
+   "answer": "C",
+   "answer_text": "As the left child of 30"
+  },
+  {
+   "q": "How is deletion different in a normal binary tree compared to a BST?",
+   "options": {
+    "A": "In normal binary trees, deletion is always O(1)",
+    "B": "In BST, nodes are replaced with in-order successor/predecessor, but in normal trees, they are replaced with the deepest node",
+    "C": "In BST, the last inserted node replaces the deleted one",
+    "D": "Deletion is easier in a BST"
+   },
+   "answer": "B",
+   "answer_text": "In BST, nodes are replaced with in-order successor/predecessor, but in normal trees, they are replaced with the deepest node"
+  },
+  {
+   "q": "In a binary tree, where is a new node inserted first in level-order insertion?",
+   "options": {
+    "A": "At the root",
+    "B": "At the first available leftmost position",
+    "C": "At the first available rightmost position",
+    "D": "Randomly"
+   },
+   "answer": "B",
+   "answer_text": "At the first available leftmost position"
+  },
+  {
+   "q": "If a complete binary tree has 30 nodes, how many leaf nodes does it have?",
+   "options": {
+    "A": "8",
+    "B": "16",
+    "C": "15",
+    "D": "30"
+   },
+   "answer": "C",
+   "answer_text": "15"
+  },
+  {
+   "q": "In a binary tree, the depth of a node is defined as:",
+   "options": {
+    "A": "The number of edges from the root to the node",
+    "B": "The number of children a node has",
+    "C": "The number of edges from the node to the deepest leaf",
+    "D": "The number of edges in the entire tree"
+   },
+   "answer": "A",
+   "answer_text": "The number of edges from the root to the node"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is a Binary Tree? Discuss its terminologies and fundamental properties.",
+   "answer": [
+    "Binary Tree is a non-linear and hierarchical data structure where each node has at most two children referred to as the left child and the right child. The topmost node in a binary tree is called the root, and the bottom-most nodes are called leaves.",
+    "Terminologies in Binary Tree",
+    "Nodes: The fundamental part of a binary tree, where each node contains data and link to two child nodes.",
+    "Root : The topmost node in a tree is known as the root node. It has no parent and serves as the starting point for all nodes in the tree.",
+    "Parent Node : A node that has one or more child nodes. In a binary tree, each node can have at most two children.",
+    "Child Node : A node that is a descendant of another node (its parent).",
+    "Leaf Node : A node that does not have any children or both children are null.",
+    "Internal Node : A node that has at least one child. This includes all nodes except the leaf nodes.",
+    "Depth of a Node : The number of edges from a specific node to the root node. The depth of the root node is zero.",
+    "Height of a Binary Tree : The number of nodes from the deepest leaf node to the root node.",
+    "Properties of Binary Tree",
+    "The maximum number of nodes at level L of a binary tree is 2 L",
+    "The maximum number of nodes in a binary tree of height H is 2 H – 1",
+    "Total number of leaf nodes in a binary tree = total number of nodes with 2 children + 1",
+    "In a Binary Tree with N nodes, the minimum possible height or the minimum number of levels is Log 2 (N+1)",
+    "A Binary Tree with L leaves has at least | Log 2 L |+ 1 levels"
+   ]
+  },
+  {
+   "q": "How is insertion and deletion performed in a binary tree? Explain the steps in detail.",
+   "answer": [
+    "Insertion in Binary Tree",
+    "Inserting elements means add a new node into the binary tree. As we know that there is no such ordering of elements in the binary tree, So we do not have to worry about the ordering of node in the binary tree. We would first creates a root node in case of empty tree. Then subsequent insertions involve iteratively searching for an empty place at each level of the tree. When an empty left or right child is found then new node is inserted there. By convention, insertion always starts with the left child node.",
+    "The steps involved are:",
+    "1. Check if the tree is empty:",
+    "If root is NULL, create a new node with the given key and return it as the root.",
+    "2. Create a queue to perform level order traversal (BFS).",
+    "Enqueue the root node to start.",
+    "3. Repeat until a suitable position is found:",
+    "Dequeue a node from the front of the queue and call it temp.",
+    "4. Check the left child of temp:",
+    "If temp->left is NULL, insert the new node here and stop.",
+    "Else, enqueue temp->left for further processing.",
+    "5. Check the right child of temp:",
+    "If temp->right is NULL, insert the new node here and stop.",
+    "Else, enqueue temp->right for further processing.",
+    "6. Return the updated root node after insertion.",
+    "Deletion in Binary Tree",
+    "Deleting a node from a binary tree means removing a specific node while keeping the tree’s structure. First, we need to find the node that want to delete by traversing through the tree using any traversal method. Then replace the node’s value with the value of the last node in the tree (found by traversing to the rightmost leaf) and then delete that last node. This way, the tree structure won’t be affected. And remember to check for special cases, like trying to delete from an empty tree, to avoid any issues.",
+    "Note: There is no specific rule of deletion, but we always make sure that during deletion the binary tree proper should be preserved.",
+    "The steps involved are:",
+    "If the tree is empty, return NULL.",
+    "Perform Level Order Traversal (BFS) using a queue to locate the node (target) with the value to be deleted.",
+    "If found, mark it as target.",
+    "If not found, return the original root.",
+    "Find the Deepest Rightmost Node in the tree and also keep track of its parent:",
+    "Use another level order traversal to reach the last node in the tree.",
+    "Also, keep track of each node's parent during traversal.",
+    "Replace the data of the target node with the data of the deepest rightmost node.",
+    "Delete the deepest rightmost node by setting its parent’s corresponding child pointer to NULL.",
+    "Free the memory allocated to the deepest node.",
+    "Return the updated root of the binary tree."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are working as a developer on a game engine that models different tree-based structures to manage player data, decision trees, and level progression. The system must switch between different binary tree types based on gameplay requirements: In one game mode, each parent node should have either two children or none. In another mode, the tree must be completely filled at all levels, except possibly the last, which should be filled from left to right. For a performance-optimized level, the tree must ensure all leaves are at the same level, and every internal node should have exactly two children. In a phase where player choices are highly unbalanced, data is inserted repeatedly in one direction, forming a linear structure. Task: Identify the appropriate binary tree type for each game mode. Explain the key characteristics of each type of tree you identify. Justify why each tree type suits the given condition. Illustrate each type with a simple example tree diagram.",
+   "answer": [
+    "Game Mode 1 Requirement: “Every parent node in the tree must have either two children or none.”",
+    "1. Identified Tree Type: Full Binary Tree",
+    "2. Key Characteristics:",
+    "Every node has either 0 or 2 children.",
+    "No node in the tree has exactly one child.",
+    "Leaf nodes (nodes with 0 children) can exist at any level.",
+    "3. Justification:",
+    "In this game mode, the system requires that every decision node (parent node) be complete in itself — either it leads to two choices (2 children) or it terminates (0 children). A Full Binary Tree ensures this rule strictly, making it ideal for logic trees or decision maps where partial branching is not allowed.",
+    "4. Example Tree:",
+    "Game Mode 2 Requirement: “The tree must be completely filled at all levels, except possibly the last, which should be filled from left to right.”",
+    "1. Identified Tree Type: Complete Binary Tree",
+    "2. Key Characteristics:",
+    "All levels are completely filled except possibly the last.",
+    "Nodes on the last level are filled from left to right without gaps.",
+    "Can be efficiently stored in arrays due to the predictable layout.",
+    "3. Justification:",
+    "The game system must ensure that players/data points are evenly distributed until the last level, filled sequentially. A Complete Binary Tree supports this by ensuring minimum height and no unused space, which is great for heap-like structures or queue-based turn order management.",
+    "4. Example Tree:",
+    "Game Mode 3 Requirement: “All leaves must be at the same level, and every internal node must have exactly two children.”",
+    "1. Identified Tree Type: Perfect Binary Tree",
+    "2. Key Characteristics:",
+    "All internal nodes have exactly 2 children.",
+    "All leaf nodes are at the same depth or level.",
+    "Fully symmetrical structure; number of nodes = 2^h - 1.",
+    "3. Justification:",
+    "This mode demands absolute balance, which is provided by the Perfect Binary Tree. Since all operations may need equal time, ensuring equal depth of all leaves guarantees uniform performance for player data or decisions. It also simplifies parallel processing.",
+    "4. Example Tree:",
+    "Game Mode 4 Requirement: “Player choices are highly unbalanced; data is inserted in one direction repeatedly forming a linear structure.”",
+    "1. Identified Tree Type: Skewed Binary Tree",
+    "2. Key Characteristics:",
+    "Nodes have only one child, either to the left (left-skewed) or to the right (right-skewed).",
+    "Tree behaves like a linked list.",
+    "Worst-case scenario for unbalanced trees.",
+    "3. Justification:",
+    "When data is inserted in a sequential manner (like sorted inputs), the tree becomes unbalanced. A Skewed Binary Tree models this scenario perfectly. It reflects gameplay or data flow where one path is repeatedly chosen, leading to a linear, unbalanced structure.",
+    "4. Example Trees:"
+   ]
+  }
+ ]
+}

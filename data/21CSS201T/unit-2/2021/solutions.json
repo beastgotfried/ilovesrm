@@ -1,0 +1,149 @@
+{
+ "course": "21CSS201T",
+ "code": "2021",
+ "unit": 2,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "explain the fundamental operational concept of instruction execution and the flow of data between functional units",
+ "mcq": [
+  {
+   "q": "What does the Program Counter (PC) hold?",
+   "options": {
+    "A": "A) The result of an ALU operation",
+    "B": "B) The address of the next instruction",
+    "C": "C) The data fetched from memory",
+    "D": "D) The name of the program"
+   },
+   "answer": "B",
+   "answer_text": "B) The address of the next instruction"
+  },
+  {
+   "q": "What is the function of the Memory Address Register (MAR)?",
+   "options": {
+    "A": "A) To hold the data from I/O",
+    "B": "B) To store operation codes",
+    "C": "C) To point to the address in memory from which data is to be read or written",
+    "D": "D) To decode the instruction"
+   },
+   "answer": "C",
+   "answer_text": "C) To point to the address in memory from which data is to be read or written"
+  },
+  {
+   "q": "What is the role of an Interrupt Service Routine (ISR)?",
+   "options": {
+    "A": "A) It executes the main program",
+    "B": "B) It performs multiplication",
+    "C": "C) It handles I/O requests and resumes the interrupted task",
+    "D": "D) It restarts the processor"
+   },
+   "answer": "C",
+   "answer_text": "C) It handles I/O requests and resumes the interrupted task"
+  },
+  {
+   "q": "What happens to the Program Counter (PC) after an instruction is executed?",
+   "options": {
+    "A": "A) It resets to zero",
+    "B": "B) It is disabled",
+    "C": "C) It increments to point to the next instruction",
+    "D": "D) It copies the IR"
+   },
+   "answer": "C",
+   "answer_text": "C) It increments to point to the next instruction"
+  },
+  {
+   "q": "Which register temporarily holds the instruction being executed?",
+   "options": {
+    "A": "A) MAR",
+    "B": "B) MDR",
+    "C": "C) IR",
+    "D": "D) PC"
+   },
+   "answer": "C",
+   "answer_text": "C) IR"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the role of the Program Counter (PC) in instruction execution?",
+   "answer": [
+    "The Program Counter holds the address of the next instruction to be executed. During execution, its contents are transferred to the Memory Address Register (MAR) to fetch the instruction from memory. After each fetch, the PC is incremented to point to the next instruction, ensuring sequential execution of the program."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Binary 101101₂ → Decimal",
+    "Calculate place values:",
+    "1 × 2⁵ = 32",
+    "1 × 2⁵ = 32",
+    "0 × 2⁴ = 0",
+    "0 × 2⁴ = 0",
+    "1 × 2³ = 8",
+    "1 × 2³ = 8",
+    "1 × 2² = 4",
+    "1 × 2² = 4",
+    "0 × 2¹ = 0",
+    "0 × 2¹ = 0",
+    "1 × 2⁰ = 1",
+    "1 × 2⁰ = 1",
+    "Add them:",
+    "32 + 0 + 8 + 4 + 0 + 1 = 45"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the typical operational steps of executing a program in a computer system. Include the role of registers and ALU.",
+   "answer": [
+    "The process of executing a program in a computer system follows a Fetch–Decode–Execute Cycle , coordinated by various registers and the control unit.",
+    "Program Loading: The program is loaded into main memory from an input device.",
+    "Program Loading: The program is loaded into main memory from an input device.",
+    "Fetching the Instruction: The Program Counter (PC) is set to the address of the first instruction. The PC’s value is transferred to the Memory Address Register (MAR) . A Read signal is sent to memory. The instruction is fetched from memory into the Memory Data Register (MDR) and then transferred to the Instruction Register (IR) .",
+    "Fetching the Instruction:",
+    "The Program Counter (PC) is set to the address of the first instruction.",
+    "The Program Counter (PC) is set to the address of the first instruction.",
+    "The PC’s value is transferred to the Memory Address Register (MAR) .",
+    "The PC’s value is transferred to the Memory Address Register (MAR) .",
+    "A Read signal is sent to memory.",
+    "A Read signal is sent to memory.",
+    "The instruction is fetched from memory into the Memory Data Register (MDR) and then transferred to the Instruction Register (IR) .",
+    "The instruction is fetched from memory into the Memory Data Register (MDR) and then transferred to the Instruction Register (IR) .",
+    "Decoding the Instruction: The Control Unit examines the operation field of the instruction in the IR to determine the type of operation (e.g., ADD, LOAD).",
+    "Decoding the Instruction:",
+    "The Control Unit examines the operation field of the instruction in the IR to determine the type of operation (e.g., ADD, LOAD).",
+    "The Control Unit examines the operation field of the instruction in the IR to determine the type of operation (e.g., ADD, LOAD).",
+    "Fetching Operands: If the operation requires operands, the addresses are sent to MAR, and operands are fetched into MDR. These are then passed to General-Purpose Registers or directly to the Arithmetic Logic Unit (ALU) .",
+    "Fetching Operands:",
+    "If the operation requires operands, the addresses are sent to MAR, and operands are fetched into MDR.",
+    "If the operation requires operands, the addresses are sent to MAR, and operands are fetched into MDR.",
+    "These are then passed to General-Purpose Registers or directly to the Arithmetic Logic Unit (ALU) .",
+    "These are then passed to General-Purpose Registers or directly to the Arithmetic Logic Unit (ALU) .",
+    "Executing the Instruction: The ALU performs the specified operation on the operands. The result is sent to MDR. The address of the destination (memory/register) is sent to MAR, and a Write operation stores the result.",
+    "Executing the Instruction:",
+    "The ALU performs the specified operation on the operands.",
+    "The ALU performs the specified operation on the operands.",
+    "The result is sent to MDR.",
+    "The result is sent to MDR.",
+    "The address of the destination (memory/register) is sent to MAR, and a Write operation stores the result.",
+    "The address of the destination (memory/register) is sent to MAR, and a Write operation stores the result.",
+    "PC Increment: After execution, the PC is incremented to point to the next instruction in sequence.",
+    "PC Increment:",
+    "After execution, the PC is incremented to point to the next instruction in sequence.",
+    "After execution, the PC is incremented to point to the next instruction in sequence.",
+    "MAR : Holds the address of memory to access.",
+    "MAR : Holds the address of memory to access.",
+    "MDR : Temporarily holds data read from or written to memory.",
+    "MDR : Temporarily holds data read from or written to memory.",
+    "IR : Stores the instruction currently being executed.",
+    "IR : Stores the instruction currently being executed.",
+    "PC : Keeps track of instruction sequence.",
+    "PC : Keeps track of instruction sequence.",
+    "General-Purpose Registers : Temporarily hold data or results.",
+    "General-Purpose Registers : Temporarily hold data or results.",
+    "ALU : Performs all arithmetic and logic operations.",
+    "ALU : Performs all arithmetic and logic operations.",
+    "This cycle continues until the program completes. The coordination between memory, registers, ALU, and control unit ensures smooth and efficient execution of instructions in a computer system."
+   ]
+  }
+ ]
+}

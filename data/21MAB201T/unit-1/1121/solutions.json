@@ -1,0 +1,107 @@
+{
+ "course": "21MAB201T",
+ "code": "1121",
+ "unit": 1,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Tutorial - Problem solving",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Solve } (D^2-4DD'+4D'^2)z=0\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Auxiliary equation: } m^2-4m+4=0\\)",
+    "(1 Mark)",
+    "\\(\\text{Roots: } m=2,2\\)",
+    "(1 Mark)",
+    "\\(\\text{C.F. }=\\phi_1(y+2x)+x\\phi_2(y+2x)\\)",
+    "(2 Mark)"
+   ]
+  },
+  {
+   "q": "",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Solve completely: } (D^3-3DD'^2+2D'^3)z=e^{x+y}+\\cos(2x+y)+x^2y\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Auxiliary equation: } m^3-3m+2=0, m=1,1,-2\\)",
+    "(1 Mark)",
+    "\\(\\text{C.F.}=\\phi_1(y+x)+x\\phi_2(y+x)+\\phi_3(y-2x)\\)",
+    "(1 Mark)",
+    "\\(\\text{P.I.1: } \\frac{x}{9}e^{x+y} \\text{ (failure case)}\\)",
+    "(1 Mark)",
+    "\\(\\text{P.I.2: } \\frac{1}{-8+6+2}\\cos(2x+y)=-\\frac{1}{0} \\Rightarrow \\text{use alternative method}\\)",
+    "(1 Mark)",
+    "\\(\\text{P.I.2: } -\\frac{x}{9}\\cos(2x+y)\\)",
+    "(1 Mark)",
+    "\\(\\text{P.I.3: Use series expansion for } x^2y\\)",
+    "(1 Mark)",
+    "\\(\\text{Complete: z=C.F.+P.I.1+P.I.2+P.I.3}\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

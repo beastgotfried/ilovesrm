@@ -1,0 +1,90 @@
+{
+ "course": "21MAB201T",
+ "code": "3012",
+ "unit": 3,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "Identify the characteristics of second-order PDEs for application in physical models.",
+ "mcq": [
+  {
+   "q": "The curve traces parabola if,",
+   "options": {
+    "A": "\\(b^2-4ac>0\\)",
+    "B": "\\(b^2-4ac=0\\)",
+    "C": "\\(b^2-4ac<0\\)",
+    "D": "\\(b^2+4ac<0\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(b^2-4ac=0\\)"
+  },
+  {
+   "q": "\\(u_{xx}-2u_{xy}+u_{yy}\\) is",
+   "options": {
+    "A": "Hyperbolic",
+    "B": "Parabolic",
+    "C": "Elliptic",
+    "D": "None of these"
+   },
+   "answer": "B",
+   "answer_text": "Parabolic"
+  },
+  {
+   "q": "Wave equation \\(u_{tt}+u_{xx}=0\\) is",
+   "options": {
+    "A": "Hyperbolic",
+    "B": "Parabolic",
+    "C": "Elliptic",
+    "D": "None of these"
+   },
+   "answer": "A",
+   "answer_text": "Hyperbolic"
+  },
+  {
+   "q": "General form of second order PDE in two independent variables \\(x\\) and \\(y\\) , \\(A, B, C, D, E, F, G\\) are constants:",
+   "options": {
+    "A": "\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fu-G=0\\)",
+    "B": "\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fv-G=0\\)",
+    "C": "\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fv+G=0\\)",
+    "D": "\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fu+G=0\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fu+G=0\\)"
+  },
+  {
+   "q": "A second order linear PDE in two independent variable \\(x \\) and \\(y\\) is said to be elliptic, if",
+   "options": {
+    "A": "\\(B^2(x,y)-4A(x,y)C(x,y)>0 \\) at \\((x,y)\\)",
+    "B": "\\(B^2(x,y)+4A(x,y)C(x,y)<0 \\) at \\((x,y)\\)",
+    "C": "\\(B^2(x,y)-4A(x,y)C(x,y)<0 \\) at \\((x,y)\\)",
+    "D": "\\(B^2(x,y)-4A(x,y)C(x,y)=0 \\) at \\((x,y)\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(B^2(x,y)-4A(x,y)C(x,y)<0 \\) at \\((x,y)\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Depending on the sign of the discriminant \\(b^2- 4ac\\) , if \\(b^2-4ac > 0\\) , \\(\\) the curve traces _________. if \\(b^2-4ac = 0\\) , the curev traces _________. if \\(b^2-4ac < 0\\) , the curve traces _________.",
+   "answer": [
+    "hyperbola ---(2 m)",
+    "parabola ---(1 m)",
+    "ellipse --- (2 m)"
+   ]
+  },
+  {
+   "q": "The general second-order algebraic equation in two variables is given by ? The nature of the curve depends on which part of the equation?",
+   "answer": [
+    "\\( ax² + bxy + cy² + dx + ey + f = 0\\) -- (3m)",
+    "Principal part \\(ax^2+bxy+cy^2\\) -- (2m)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(​​​​​​​\\text{Classify the PDE: } (1 - x^2)u_{xx} - 2xy u_{xy} + (1 - y^2)u_{yy} + x u_x + 3x^2y u_y - 2u = 0.\\) \\(\\text{Determine regions in the xy-plane where it is elliptic, parabolic, or hyperbolic.}\\)",
+   "answer": [
+    "Step Marks Identify coefficients: \\( A = 1-x^2, B = -2xy, C = 1-y^2.\\) (1 Mark) Compute discriminant: \\(\\text{\\(\\Delta = B^2 - 4AC = 4x^2y^2 - 4(1-x^2)(1-y^2)\\)}\\) . (2 Marks) Simplify: \\(\\Delta = 4[x^2y^2 - (1 - x^2 - y^2 + x^2y^2)] = 4(x^2 + y^2 - 1)\\) . (3 Marks) Parabolic if \\( \\Delta=0\\Rightarrow x^2 + y^2 = 1 \\) (circle of radius 1). (2 Marks) Elliptic if \\(\\Delta<0 \\Rightarrow x^2 + y^2 < 1\\) (inside the circle). (2 Marks) Hyperbolic if \\( \\Delta>0 \\Rightarrow x^2 + y^2 > 1\\) (outside the circle). (2 Marks) Discuss boundary: on circle parabolic, inside elliptic, outside hyperbolic. (2 Marks) Conclusion with region description. (1 Mark)"
+   ]
+  }
+ ]
+}

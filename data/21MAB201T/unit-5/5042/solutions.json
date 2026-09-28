@@ -1,0 +1,96 @@
+{
+ "course": "21MAB201T",
+ "code": "5042",
+ "unit": 5,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Identify and address common pitfalls in Z transform calculations.",
+ "mcq": [
+  {
+   "q": "If \\( X(z) = \\frac{z}{(z-1)(z-2)} \\) with ROC \\( |z| > 2 \\), then \\( x(n) \\) is:",
+   "options": {
+    "A": "\\( (2^n - 1) u(n) \\)",
+    "B": "\\( (1 - 2^n) u(n) \\)",
+    "C": "\\( (2^{-n} - 1) u(n) \\)",
+    "D": "\\( (1 - 2^{-n}) u(n) \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( (2^n - 1) u(n) \\)"
+  },
+  {
+   "q": "The Z-transform of \\( x(n) = n a^{n-1} u(n-1) \\) is:",
+   "options": {
+    "A": "\\( \\frac{1}{(z-a)^2} \\)",
+    "B": "\\( \\frac{z}{(z-a)^2} \\)",
+    "C": "\\( \\frac{1}{z(z-a)^2} \\)",
+    "D": "\\( \\frac{z^{-1}}{(z-a)^2} \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( \\frac{1}{(z-a)^2} \\)"
+  },
+  {
+   "q": "If \\( Z\\{x(n)\\} = \\frac{1}{1-0.5z^{-1}} + \\frac{1}{1-0.25z^{-1}} \\) with ROC \\( |z| > 0.5 \\), then \\( x(n) \\) is:",
+   "options": {
+    "A": "\\( (0.5)^n u(n) + (0.25)^n u(n) \\)",
+    "B": "\\( (0.5)^n u(n) - (0.25)^n u(n) \\)",
+    "C": "\\( 2(0.5)^n u(n) - (0.25)^n u(n) \\)",
+    "D": "\\( (0.5)^n u(n) + 2(0.25)^n u(n) \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( (0.5)^n u(n) + (0.25)^n u(n) \\)"
+  },
+  {
+   "q": "Using time shifting property, \\( Z\\{n^2 a^{n-2} u(n-2)\\} \\) is:",
+   "options": {
+    "A": "\\( \\frac{2a^2}{z(z-a)^3} \\)",
+    "B": "\\( \\frac{2}{z(z-a)^3} \\)",
+    "C": "\\( \\frac{2a^2}{(z-a)^3} \\)",
+    "D": "\\( \\frac{2z}{(z-a)^3} \\)"
+   },
+   "answer": "B",
+   "answer_text": "\\( \\frac{2}{z(z-a)^3} \\)"
+  },
+  {
+   "q": "The Z-transform of \\( x(n) = \\sum_{k=0}^{n} a^k \\) is:",
+   "options": {
+    "A": "\\( \\frac{z^2}{(z-1)(z-a)} \\)",
+    "B": "\\( \\frac{z}{(z-1)(z-a)} \\)",
+    "C": "\\( \\frac{z^2}{(z-1)(z-a)^2} \\)",
+    "D": "\\( \\frac{1}{(z-1)(z-a)} \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( \\frac{z^2}{(z-1)(z-a)} \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Find } Z[n a^n] \\text{ using properties.}\\)",
+   "answer": [
+    "\\(\\text{We know } Z[a^n] = \\frac{z}{z-a}\\)",
+    "\\(\\text{Using differentiation: } Z[n x(n)] = -z \\frac{d}{dz} X(z)\\)",
+    "\\(Z[n a^n] = -z \\frac{d}{dz} \\left( \\frac{z}{z-a} \\right)\\)",
+    "\\(= -z \\cdot \\frac{(z-a)-z}{(z-a)^2} = \\frac{az}{(z-a)^2}\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Find } Z[(n+1)^2] \\text{ using time shifting and linearity.}\\)",
+   "answer": [
+    "\\(\\text{We know } Z[n^2] = \\frac{z(z+1)}{(z-1)^3}\\)",
+    "\\((n+1)^2 = n^2 + 2n + 1\\)",
+    "\\(Z[(n+1)^2] = Z[n^2] + 2Z[n] + Z[1]\\)",
+    "\\(= \\frac{z(z+1)}{(z-1)^3} + \\frac{2z}{(z-1)^2} + \\frac{z}{z-1} = \\frac{z^2(z+1)}{(z-1)^3}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "1. Find the Z-transform of \\(x(n) = 3^n \\cos\\left(\\frac{n\\pi}{4}\\right) u(n) + 2 \\delta(n-3)\\) . 2. Using properties, find the Z-transform of \\(x(n) = n 2^{n-1} u(n-1)\\) . 3. If \\(Z\\{x(n)\\} = \\frac{z}{(z-2)^2}\\) , find \\(Z\\{n x(n)\\}\\) and \\(Z\\{2^n x(n)\\}\\) . 4. Determine the sequence \\(x(n)\\) whose Z-transform is given by \\(X(z) = \\log\\left(\\frac{z}{z-1}\\right)\\) , for \\(|z|>1\\) . (Hint: Use series expansion of log(1+x))",
+   "answer": [
+    "1. \\(x(n) = 3^n \\cos(n\\pi/4) u(n) + 2 \\delta(n-3)\\) : Using linearity. \\(Z\\{3^n \\cos(n\\pi/4) u(n)\\} = \\frac{z(z-3\\cos(\\pi/4))}{z^2 - 6z\\cos(\\pi/4) + 9} = \\frac{z(z-3/\\sqrt{2})}{z^2 - (6/\\sqrt{2})z + 9}\\) . \\(Z\\{2\\delta(n-3)\\} = 2z^{-3}\\) . So, \\(X(z) = \\frac{z(z-3/\\sqrt{2})}{z^2 - (3\\sqrt{2})z + 9} + \\frac{2}{z^3}\\) .",
+    "2. \\(x(n) = n 2^{n-1} u(n-1)\\) : We know \\(Z\\{n a^n u(n)\\} = \\frac{az}{(z-a)^2}\\) . For a=2, \\(Z\\{n 2^n u(n)\\} = \\frac{2z}{(z-2)^2}\\) . Now, \\(n 2^{n-1} u(n-1) = \\frac{1}{2} \\cdot (n-1+1) 2^{n-1} u(n-1) = \\frac{1}{2}[ (n-1)2^{n-1} u(n-1) + 2^{n-1} u(n-1) ]\\) . Using shifting: \\(Z\\{(n-1)2^{n-1} u(n-1)\\} = z^{-1} \\cdot \\frac{2z}{(z-2)^2} = \\frac{2}{z(z-2)^2}\\) . And \\(Z\\{2^{n-1} u(n-1)\\} = z^{-1} \\cdot \\frac{z}{z-2} = \\frac{1}{z-2}\\) . So, \\(X(z) = \\frac{1}{2} \\left[ \\frac{2}{z(z-2)^2} + \\frac{1}{z-2} \\right] = \\frac{1}{z(z-2)^2} + \\frac{1}{2(z-2)}\\) .",
+    "3. Given \\(X(z)=\\frac{z}{(z-2)^2}\\) : i) \\(Z\\{n x(n)\\} = -z \\frac{d}{dz} X(z) = -z \\cdot \\frac{(z-2)^2 - 2z(z-2)}{(z-2)^4} = -z \\cdot \\frac{-(z+2)(z-2)}{(z-2)^4} = \\frac{z(z+2)}{(z-2)^3}\\) . ii) \\(Z\\{2^n x(n)\\} = X\\left(\\frac{z}{2}\\right) = \\frac{(z/2)}{((z/2)-2)^2} = \\frac{z/2}{( (z-4)/2 )^2} = \\frac{z/2}{(z-4)^2 / 4} = \\frac{2z}{(z-4)^2}\\) .",
+    "4. \\(X(z) = \\log\\left(\\frac{z}{z-1}\\right) = -\\log\\left(1-\\frac{1}{z}\\right)\\) for |z|>1. Use expansion: \\(\\log(1-y) = -\\sum_{m=1}^{\\infty} \\frac{y^m}{m}\\) for |y|<1. Here, \\(y=1/z\\) , so \\(X(z) = \\sum_{m=1}^{\\infty} \\frac{(1/z)^m}{m} = \\sum_{m=1}^{\\infty} \\frac{1}{m} z^{-m}\\) . Comparing with \\(X(z)=\\sum_{n=0}^{\\infty} x(n) z^{-n}\\) , we get: \\(x(0)=0\\) , and for \\(n \\ge 1\\) , \\(x(n) = \\frac{1}{n}\\) . So, \\(x(n) = \\begin{cases} 0, & n=0 \\\\ \\frac{1}{n}, & n \\ge 1 \\end{cases}\\) ."
+   ]
+  }
+ ]
+}

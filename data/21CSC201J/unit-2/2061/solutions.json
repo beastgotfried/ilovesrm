@@ -1,0 +1,185 @@
+{
+ "course": "21CSC201J",
+ "code": "2061",
+ "unit": 2,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Implement insertion at the middle of singly linked lists",
+ "mcq": [
+  {
+   "q": "A student record management system stores student details using a singly linked list. A new student joins the class and needs to be inserted in alphabetical order in the middle of the list. What should be your first step",
+   "options": {
+    "A": "Add the student at the end of the list",
+    "B": "Search for the correct position by comparing names one by one",
+    "C": "Delete an existing student and replace them with the new one",
+    "D": "Reverse the list and insert at the first position"
+   },
+   "answer": "B",
+   "answer_text": "Search for the correct position by comparing names one by one"
+  },
+  {
+   "q": "What does the following function do for a given Linked List with first node as head? void fun1(struct node* head) { if(head == NULL) return; fun1(head->next); printf(\"%d \", head->data); }",
+   "options": {
+    "A": "Prints all nodes of linked lists",
+    "B": "Prints all nodes of linked list in reverse order",
+    "C": "Prints alternate nodes of Linked List",
+    "D": "Prints alternate nodes in reverse order"
+   },
+   "answer": "B",
+   "answer_text": "Prints all nodes of linked list in reverse order"
+  },
+  {
+   "q": "What happens when the last node is deleted from a singly linked list",
+   "options": {
+    "A": "The head pointer moves forward",
+    "B": "The second-last node's next pointer is set to NULL",
+    "C": "The entire linked list gets deleted",
+    "D": "The linked list is reversed"
+   },
+   "answer": "B",
+   "answer_text": "The second-last node's next pointer is set to NULL"
+  },
+  {
+   "q": "A student record management system stores student details using a singly linked list. A new student joins the class and needs to be inserted in alphabetical order in the middle of the list. What should be your first step",
+   "options": {
+    "A": "Add the student at the end of the list",
+    "B": "Search for the correct position by comparing names one by one",
+    "C": "Delete an existing student and replace them with the new one",
+    "D": "Reverse the list and insert at the first position"
+   },
+   "answer": "B",
+   "answer_text": "Search for the correct position by comparing names one by one"
+  },
+  {
+   "q": "If a singly linked list contains only one node and deletion at the beginning is performed, what will be the result",
+   "options": {
+    "A": "The linked list remains unchanged",
+    "B": "The linked list becomes empty",
+    "C": "The last node gets deleted",
+    "D": "The head pointer remains the same"
+   },
+   "answer": "B",
+   "answer_text": "The linked list becomes empty"
+  }
+ ],
+ "sq": [
+  {
+   "q": "In a warehouse, boxes are arranged in places where their size is fixed. Mr.Tilak store incharge wants to insert the box in the middle and he visits all the boxes one by one from starting to ending. Write the appropriate pseudo code for the above mentioned concept",
+   "answer": []
+  },
+  {
+   "q": "Consider an company is maintaining a singly linked list of employee records in an HR management system. Each node in the list contains an employee's ID, name, and a pointer to the next employee. Currently, the list has the following employees (in order): [101, \"Alice\"] → [102, \"Bob\"] → [103, \"Charlie\"] → NULL. As part of the operations: Delete the first employee from the list. Then, delete the last employee from the updated list. Write pseudocode for both operations and show the resulting list after each deletion.",
+   "answer": [
+    "Deletion at the Beginning",
+    "PROCEDURE DeleteAtBeginning(head)",
+    "IF head IS NULL THEN",
+    "PRINT \"List is empty\"",
+    "RETURN NULL",
+    "END IF",
+    "SET temp = head",
+    "SET head = head.next",
+    "DELETE temp",
+    "RETURN head",
+    "END PROCEDURE",
+    "AFTER DELETION: HEAD → [102, \"Bob\"] → [103, \"Charlie\"] → NULL",
+    "Deletion at the End",
+    "PROCEDURE DeleteAtEnd(head)",
+    "IF head IS NULL THEN",
+    "PRINT \"List is empty\"",
+    "RETURN NULL",
+    "END IF",
+    "IF head.next IS NULL THEN",
+    "DELETE head",
+    "RETURN NULL",
+    "END IF",
+    "SET current = head",
+    "WHILE current.next.next IS NOT NULL DO",
+    "SET current = current.next",
+    "END WHILE",
+    "DELETE current.next",
+    "SET current.next = NULL",
+    "RETURN head",
+    "END PROCEDURE",
+    "AFTER DELETION: HEAD → [102, \"Bob\"] → NULL"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "In a music app, you maintain a playlist using a singly linked list.When the user finishes playing all songs and wants to clear the last song from the list, implement the function to delete the last node representing the final song.",
+   "answer": [
+    "#include <stdio.h>",
+    "#include <stdlib.h>",
+    "// Node structure representing each song",
+    "struct Song {",
+    "int songID; // You can replace this with a string if needed",
+    "struct Song* next;",
+    "};",
+    "// Function to delete the last song in the playlist",
+    "void deleteLastSong(struct Song** head) {",
+    "if (*head == NULL) {",
+    "printf(\"Playlist is empty. No song to delete.\\n\");",
+    "return;",
+    "}",
+    "// If there is only one song in the playlist",
+    "if ((*head)->next == NULL) {",
+    "printf(\"Deleted last song with ID: %d\\n\", (*head)->songID);",
+    "free(*head);",
+    "*head = NULL;",
+    "return;",
+    "}",
+    "// Traverse to the second-last song",
+    "struct Song* temp = *head;",
+    "while (temp->next->next != NULL) {",
+    "temp = temp->next;",
+    "}",
+    "printf(\"Deleted last song with ID: %d\\n\", temp->next->songID);",
+    "free(temp->next);",
+    "temp->next = NULL;",
+    "}",
+    "// Utility: Add song at the end (for demo/testing)",
+    "void addSong(struct Song** head, int songID) {",
+    "struct Song* newSong = (struct Song*)malloc(sizeof(struct Song));",
+    "newSong->songID = songID;",
+    "newSong->next = NULL;",
+    "if (*head == NULL) {",
+    "*head = newSong;",
+    "return;",
+    "}",
+    "struct Song* temp = *head;",
+    "while (temp->next != NULL) {",
+    "temp = temp->next;",
+    "}",
+    "temp->next = newSong;",
+    "}",
+    "// Utility: Print playlist",
+    "void printPlaylist(struct Song* head) {",
+    "if (head == NULL) {",
+    "printf(\"Playlist is empty.\\n\");",
+    "return;",
+    "}",
+    "printf(\"Playlist: \");",
+    "while (head != NULL) {",
+    "printf(\"%d -> \", head->songID);",
+    "head = head->next;",
+    "}",
+    "printf(\"NULL\\n\");",
+    "}",
+    "// Driver code",
+    "int main() {",
+    "struct Song* playlist = NULL;",
+    "addSong(&playlist, 101);",
+    "addSong(&playlist, 102);",
+    "addSong(&playlist, 103);",
+    "printPlaylist(playlist); // Playlist: 101 -> 102 -> 103 -> NULL",
+    "deleteLastSong(&playlist); // Deletes 103",
+    "printPlaylist(playlist); // Playlist: 101 -> 102 -> NULL",
+    "deleteLastSong(&playlist); // Deletes 102",
+    "deleteLastSong(&playlist); // Deletes 101",
+    "deleteLastSong(&playlist); // Playlist is empty",
+    "return 0;",
+    "}"
+   ]
+  }
+ ]
+}

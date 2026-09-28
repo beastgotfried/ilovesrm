@@ -1,0 +1,89 @@
+{
+ "course": "21LEM202T",
+ "code": "1011",
+ "unit": 1,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Identify the three basic requirements for fulfilment of human aspirations — right understanding, relationship, and physical facility.",
+ "mcq": [
+  {
+   "q": "The activities of desire, thought and expectation happens in ______________",
+   "options": {
+    "A": "Dream",
+    "B": "Imagination",
+    "C": "Behaviour",
+    "D": "Expression"
+   },
+   "answer": "B",
+   "answer_text": "Imagination"
+  },
+  {
+   "q": "Which of the following will bring fulfilment in the self?",
+   "options": {
+    "A": "Physical facility",
+    "B": "Right feeling",
+    "C": "Right understanding",
+    "D": "Sensation"
+   },
+   "answer": "C",
+   "answer_text": "Right understanding"
+  },
+  {
+   "q": "If our imagination is based on pre-conditioning and sensation, we are in the state of:",
+   "options": {
+    "A": "Natural Acceptance",
+    "B": "Harmony",
+    "C": "Disharmony",
+    "D": "None of the above"
+   },
+   "answer": "C",
+   "answer_text": "Disharmony"
+  },
+  {
+   "q": "UHV is a proposal. Verify it on the basis of your ___________",
+   "options": {
+    "A": "Dialogue",
+    "B": "Natural acceptance",
+    "C": "Own understanding",
+    "D": "Preconditioning"
+   },
+   "answer": "B",
+   "answer_text": "Natural acceptance"
+  },
+  {
+   "q": "Which is definite, Continuous and Universal in self?",
+   "options": {
+    "A": "Knowing",
+    "B": "Assuming",
+    "C": "Recognising",
+    "D": "Fulfilling"
+   },
+   "answer": "A",
+   "answer_text": "Knowing"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define happiness and prosperity.",
+   "answer": [
+    "Happiness is a state of contentment and inner satisfaction, while prosperity refers to the feeling of having sufficient physical facilities to meet basic needs."
+   ]
+  },
+  {
+   "q": "How does right understanding help in achieving harmony in family?",
+   "answer": [
+    "Right understanding helps family members respect each other, fulfill mutual responsibilities, and build trust and affection, which leads to harmony."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "For a human being, “physical facility is necessary but something more is also required.” Explain the fundamental difference between animals and human beings on this basis. What is meant by Holistic Development, and what is the role of education–sanskar in achieving it?",
+   "answer": [
+    "Model answer: Physical facility is necessary for both animals and human beings, but for an animal it is necessary as well as largely adequate — a cow with a stomach-full of grass becomes comfortable, sits and chews the cud. For a human being it is necessary but NOT adequate: once the required physical facility is obtained, the human soon forgets it and thinks of a hundred other things. We can verify this — we do not feel happy every single day merely because we have enough food or clothes. The unhappiness in our families is more due to lack of fulfilment in relationship than lack of physical facility, yet most of our time and effort goes to physical facility. Hence, in addition to physical facility (with nature), relationship (with human beings) and right understanding (in the self) are also required for a human being.",
+    "Q2 — Holistic Development and the role of education–sanskar",
+    "Model answer: Holistic development means transformation — from animal consciousness to human consciousness. It is not the mere increase of physical facility; however much physical facility increases, it alone cannot ensure this transformation. Holistic development is ensuring all three — right understanding in the self, fulfilment in relationship, and physical facility — in the correct priority. The role of education–sanskar is to enable this transformation, by ensuring right understanding in every child, the capacity to live in relationship with other human beings, and the capacity to identify the need for physical facility together with the skills and practice for sustainable production of more than what is required, leading to the feeling of prosperity. Parents, teachers and society share the responsibility of providing such education–sanskar."
+   ]
+  }
+ ]
+}

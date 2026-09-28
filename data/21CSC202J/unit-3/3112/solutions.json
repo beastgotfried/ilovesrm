@@ -1,0 +1,104 @@
+{
+ "course": "21CSC202J",
+ "code": "3112",
+ "unit": 3,
+ "session": 11,
+ "slo": 2,
+ "slo_title": "Describe rate monotonic scheduling and earliest deadline first scheduling algorithms",
+ "mcq": [
+  {
+   "q": "In real-time systems, which of the following best describes hard real-time systems ?",
+   "options": {
+    "A": "They guarantee a process will eventually be serviced",
+    "B": "They provide best-effort scheduling",
+    "C": "Missing a deadline is equivalent to a failure",
+    "D": "They prioritize non-critical processes"
+   },
+   "answer": "C",
+   "answer_text": "Missing a deadline is equivalent to a failure"
+  },
+  {
+   "q": "What does the Earliest Deadline First (EDF) algorithm use to assign priorities?",
+   "options": {
+    "A": "Process ID",
+    "B": "CPU usage history",
+    "C": "Time quantum",
+    "D": "Deadline of the process"
+   },
+   "answer": "D",
+   "answer_text": "Deadline of the process"
+  },
+  {
+   "q": "In real-time systems, which of the following best describes hard real-time systems ?",
+   "options": {
+    "A": "Based on process ID",
+    "B": "Based on deadline time",
+    "C": "Based on CPU burst time",
+    "D": "Based on period duration (inverse)"
+   },
+   "answer": "D",
+   "answer_text": "Based on period duration (inverse)"
+  },
+  {
+   "q": "What is the main factor affecting interrupt latency ?",
+   "options": {
+    "A": "Cache miss rate",
+    "B": "Length of the user process",
+    "C": "Time the interrupts are disabled during kernel operations",
+    "D": "Amount of memory used"
+   },
+   "answer": "C",
+   "answer_text": "Time the interrupts are disabled during kernel operations"
+  },
+  {
+   "q": "Which technique is most effective in minimizing dispatch latency ?",
+   "options": {
+    "A": "Interrupt masking",
+    "B": "Round-robin scheduling",
+    "C": "Preemptive kernel",
+    "D": "Thread pooling"
+   },
+   "answer": "C",
+   "answer_text": "Preemptive kernel"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define interrupt latency and dispatch latency . How do they affect real-time CPU scheduling?",
+   "answer": [
+    "Interrupt Latency : Time between the arrival of an interrupt and start of servicing it",
+    "Interrupt Latency : Time between the arrival of an interrupt and start of servicing it",
+    "Dispatch Latency : Time taken by the dispatcher to stop one process and start another",
+    "Dispatch Latency : Time taken by the dispatcher to stop one process and start another",
+    "Impact : Both affect response time; longer latency leads to missed deadlines in hard real-time systems",
+    "Impact : Both affect response time; longer latency leads to missed deadlines in hard real-time systems"
+   ]
+  },
+  {
+   "q": "Compare Rate Monotonic Scheduling and EDF Scheduling based on priority assignment and deadline handling.",
+   "answer": [
+    "RMS explanation (40%)",
+    "RMS explanation (40%)",
+    "EDF explanation (40 %)",
+    "EDF explanation (40 %)",
+    "Comparative insight (20%)",
+    "Comparative insight (20%)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze the importance of real-time CPU scheduling in hard real-time systems. Discuss how RMS and EDF scheduling strategies help meet task deadlines. Provide suitable examples.",
+   "answer": [
+    "Explanation of hard real-time needs (20%)",
+    "Explanation of hard real-time needs (20%)",
+    "RMS strategy & example (30%)",
+    "RMS strategy & example (30%)",
+    "EDF strategy & example (30%)",
+    "EDF strategy & example (30%)",
+    "Analysis and comparison (20%)",
+    "Analysis and comparison (20%)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "course": "21CSC202J",
+ "code": "2051",
+ "unit": 2,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Explain the concept and working of client-server communication in OS",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Kernel",
+    "B": "Server",
+    "C": "Client",
+    "D": "Operating system"
+   },
+   "answer": "C",
+   "answer_text": "Client"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "They use more memory",
+    "B": "They require a new OS",
+    "C": "They reduce overhead and allow parallelism",
+    "D": "They block system calls"
+   },
+   "answer": "C",
+   "answer_text": "They reduce overhead and allow parallelism"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Thread ID",
+    "B": "Program counter",
+    "C": "Stack",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "answer_text": "All of the above"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Kernel-level thread",
+    "B": "User-level thread",
+    "C": "System-level thread",
+    "D": "Hybrid thread"
+   },
+   "answer": "C",
+   "answer_text": "System-level thread"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Code section",
+    "B": "Data section",
+    "C": "Stack",
+    "D": "Open files"
+   },
+   "answer": "C",
+   "answer_text": "Stack"
+  }
+ ],
+ "sq": [
+  {
+   "q": "​​​​​​​",
+   "answer": [
+    "A thread consists of:",
+    "Thread ID – Unique identifier",
+    "Thread ID – Unique identifier",
+    "Program Counter – Points to the next instruction",
+    "Program Counter – Points to the next instruction",
+    "Register Set – Holds CPU register values",
+    "Register Set – Holds CPU register values",
+    "Stack – Stores function calls, local variables Other resources like code, data, and open files are shared with other threads of the same process.",
+    "Stack – Stores function calls, local variables Other resources like code, data, and open files are shared with other threads of the same process."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Threads are needed for faster execution , efficient CPU utilization , and parallelism . They allow a program to perform multiple tasks simultaneously while sharing memory and resources, which reduces context switching overhead compared to processes."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the client-server communication model in an operating system. Discuss how it works, the components involved, and the role of sockets in implementing it.",
+   "answer": [
+    "The client-server model is a network communication framework where a client sends requests to a server , and the server provides the requested services or data. It is widely used in web, database, and file-sharing systems.",
+    "Client initiates communication by sending a request.",
+    "Client initiates communication by sending a request.",
+    "Server listens for incoming connections using socket APIs.",
+    "Server listens for incoming connections using socket APIs.",
+    "Once connected, both exchange data through a communication protocol (e.g., TCP/IP).",
+    "Once connected, both exchange data through a communication protocol (e.g., TCP/IP).",
+    "After completing the communication, the connection is closed.",
+    "After completing the communication, the connection is closed.",
+    "Client: Sends requests for services. Waits for and processes the server's response.",
+    "Client:",
+    "Sends requests for services.",
+    "Sends requests for services.",
+    "Waits for and processes the server's response.",
+    "Waits for and processes the server's response.",
+    "Server: Listens for client requests. Processes the request and sends back a response.",
+    "Server:",
+    "Listens for client requests.",
+    "Listens for client requests.",
+    "Processes the request and sends back a response.",
+    "Processes the request and sends back a response.",
+    "Communication Medium: Usually involves TCP/IP sockets , named pipes, or message queues. TCP ensures reliable transmission.",
+    "Communication Medium:",
+    "Usually involves TCP/IP sockets , named pipes, or message queues.",
+    "Usually involves TCP/IP sockets , named pipes, or message queues.",
+    "TCP ensures reliable transmission.",
+    "TCP ensures reliable transmission.",
+    "A socket is an endpoint for communication between two machines.",
+    "Server side: Uses socket() , bind() , listen() , and accept() functions.",
+    "Server side: Uses socket() , bind() , listen() , and accept() functions.",
+    "Client side: Uses socket() and connect() to initiate communication.",
+    "Client side: Uses socket() and connect() to initiate communication.",
+    "Once connected, both can use read() and write() to exchange data.",
+    "Once connected, both can use read() and write() to exchange data.",
+    "// Server Side socket(); → bind(); → listen(); → accept(); → read()/write() // Client Side socket(); → connect(); → read()/write()",
+    "Enables distributed processing",
+    "Enables distributed processing",
+    "Supports scalability and modularity",
+    "Supports scalability and modularity",
+    "Used in web applications, file transfer, chat apps, etc.",
+    "Used in web applications, file transfer, chat apps, etc."
+   ]
+  }
+ ]
+}

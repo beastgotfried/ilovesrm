@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2102",
+ "unit": 2,
+ "session": 10,
+ "slo": 2,
+ "slo_title": "Implement runtime polymorphism using dynamic method dispatch.",
+ "mcq": [
+  {
+   "q": "What is required for a method to be overridden in Java?",
+   "options": {
+    "A": "Same method name and different return type",
+    "B": "Same method name, same parameter list, and same return type",
+    "C": "Same method name with static modifier",
+    "D": "Same method name and private access"
+   },
+   "answer": "B",
+   "answer_text": "Same method name, same parameter list, and same return type"
+  },
+  {
+   "q": "Which concept allows a parent class reference to point to a child class object and call overridden methods at runtime?",
+   "options": {
+    "A": "Method overloading",
+    "B": "Inheritance",
+    "C": "Dynamic method dispatch",
+    "D": "Encapsulation"
+   },
+   "answer": "C",
+   "answer_text": "Dynamic method dispatch"
+  },
+  {
+   "q": "Which of the following best demonstrates runtime polymorphism in Java?",
+   "options": {
+    "A": "A method overloaded with different parameters",
+    "B": "A method returning an object",
+    "C": "A subclass providing its own implementation of a superclass method",
+    "D": "A class using multiple interfaces"
+   },
+   "answer": "C",
+   "answer_text": "A subclass providing its own implementation of a superclass method"
+  },
+  {
+   "q": "Which keyword is used to call the parent class�s version of an overridden method?",
+   "options": {
+    "A": "parent",
+    "B": "base",
+    "C": "super",
+    "D": "this"
+   },
+   "answer": "C",
+   "answer_text": "super"
+  },
+  {
+   "q": "Which method can not be overridden in Java?",
+   "options": {
+    "A": "public method",
+    "B": "protected method",
+    "C": "static method",
+    "D": "void method"
+   },
+   "answer": "C",
+   "answer_text": "static method"
+  }
+ ],
+ "sq": [
+  {
+   "q": "State two key rules of method overriding in Java.",
+   "answer": [
+    "The method in the subclass must have the same name, return type, and parameter list as in the superclass. The method must not be static, private, or final, as these prevent overriding."
+   ]
+  },
+  {
+   "q": "Write a short Java code snippet to override a method display() from a parent class in a subclass.",
+   "answer": [
+    "class Animal { void display() { System.out.println(\"Animal class\"); } } class Dog extends Animal { @Override void display() { System.out.println(\"Dog class\"); } } This is an example of method overriding, where Dog provides its own version of display()."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are designing a shape-drawing tool. There is a base class Shape with a method draw(). Each specific shape (like Circle, Rectangle) should override draw() to provide its own implementation. Use dynamic method dispatch to demonstrate how a superclass reference can invoke overridden methods at runtime.",
+   "answer": [
+    "Java Code: class Shape { void draw() { System.out.println(\"Drawing a generic shape\"); } } class Circle extends Shape { void draw() { System.out.println(\"Drawing a Circle\"); } } class Rectangle extends Shape { void draw() { System.out.println(\"Drawing a Rectangle\"); } } public class TestPolymorphism { public static void main(String[] args) { Shape s; s = new Circle(); s.draw(); // Output: Drawing a Circle s = new Rectangle(); s.draw(); // Output: Drawing a Rectangle } } Explanation: The reference variable s is of type Shape but refers to different subclass objects (Circle, Rectangle). When s.draw() is called, Java dynamically determines which version to execute at runtime, depending on the actual object. This is runtime polymorphism, implemented using dynamic method dispatch. Key Benefits: Allows flexible and extensible code design Reduces the need for complex if-else or switch logic Supports object-oriented principles like substitutability and polymorphic behavior"
+   ]
+  }
+ ]
+}

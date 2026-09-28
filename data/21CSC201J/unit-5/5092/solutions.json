@@ -1,0 +1,185 @@
+{
+ "course": "21CSC201J",
+ "code": "5092",
+ "unit": 5,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "Implementation of Shortest path Algorithm",
+ "mcq": [
+  {
+   "q": "Which of the following statements is true about Bellman-Ford algorithm?",
+   "options": {
+    "A": "It can handle graphs with negative edge weights",
+    "B": "It runs faster than Dijkstra’s algorithm for all graphs",
+    "C": "It does not work for directed graphs",
+    "D": "It requires the use of a priority queue"
+   },
+   "answer": "A",
+   "answer_text": "It can handle graphs with negative edge weights"
+  },
+  {
+   "q": "Which of the following is the correct time complexity for Dijkstra’s algorithm using a binary heap (priority queue) for a graph with V vertices and E edges?",
+   "options": {
+    "A": "O(V²)",
+    "B": "O(E log V)",
+    "C": "O(V log E)",
+    "D": "O(V log V + E log V)"
+   },
+   "answer": "D",
+   "answer_text": "O(V log V + E log V)"
+  },
+  {
+   "q": "What happens if a negative weight edge is present in a graph when applying Dijkstra’s algorithm?",
+   "options": {
+    "A": "The algorithm will still work as expected",
+    "B": "The algorithm will fail to find the correct shortest path",
+    "C": "It can handle negative weight edges by default",
+    "D": "The algorithm will ignore the negative weight edge"
+   },
+   "answer": "B",
+   "answer_text": "The algorithm will fail to find the correct shortest path"
+  },
+  {
+   "q": "In Dijkstra’s algorithm, when a vertex is visited, its distance value is:",
+   "options": {
+    "A": "Set to infinity",
+    "B": "Set to zero",
+    "C": "Updated with the shortest distance from the source",
+    "D": "Not changed, only the neighboring vertices are updated"
+   },
+   "answer": "C",
+   "answer_text": "Updated with the shortest distance from the source"
+  },
+  {
+   "q": "Which of the following is a key advantage of Bellman-Ford algorithm over Dijkstra’s algorithm?",
+   "options": {
+    "A": "It is faster for dense graphs",
+    "B": "It can handle negative edge weights",
+    "C": "It uses a priority queue",
+    "D": "It always finds the shortest path in polynomial time"
+   },
+   "answer": "B",
+   "answer_text": "It can handle negative edge weights"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is Dijkstra’s Algorithm and why is it used in graph applications?",
+   "answer": [
+    "Dijkstra’s Algorithm is a shortest path algorithm developed by Edsger W. Dijkstra in 1956. It is a greedy algorithm used to find the shortest path from a starting vertex (source node) to all other vertices in a weighted graph, provided the edge weights are non-negative.",
+    "Dijkstra’s Algorithm is widely used because:",
+    "1️ . Efficient Pathfinding: It efficiently finds the shortest path in terms of time or cost from one point to all others in a graph — essential in many optimization problems.",
+    "2️ . Non-negative Edges: It works accurately in graphs with positive edge weights , which are common in real-world scenarios (distances, time, cost, etc.)",
+    "3️ . Dynamic Decision Making: By updating the shortest known distance to each neighbor dynamically, it can adjust and optimize travel paths quickly.",
+    "4️ . Greedy Nature: Since it always picks the closest vertex, it avoids unnecessary longer paths and ensures optimality."
+   ]
+  },
+  {
+   "q": "Examine the key steps involved in the implementation of Dijkstra’s Algorithm.",
+   "answer": [
+    "The key steps are:",
+    "1️ . I nitialize:",
+    "Set the distance of the source vertex to 0, and all others to ∞ (infinity).",
+    "Mark all vertices as unvisited.",
+    "2️ . Select Minimum Vertex:",
+    "Choose the unvisited vertex with the smallest tentative distance.",
+    "3️ . Update Distances:",
+    "For each unvisited neighbor of the current vertex, calculate the tentative distance from the source.",
+    "If this new distance is less than the current stored distance, update it.",
+    "4️ . Mark as Visited:",
+    "After updating, mark the current vertex as visited.",
+    "5️ . Repeat:",
+    "Repeat steps 2–4 until all vertices are visited.",
+    "6️ . Result:",
+    "Display the shortest distance from the source to all other vertices."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A logistics company is managing the delivery of urgent medical supplies between six distribution points labeled A, B, C, D, E, F. The city’s road network, along with the travel times (in minutes) between these points, is represented by the weighted graph below: Tasks: Write a C program to implement Dijkstra’s Algorithm for finding the shortest travel time from distribution point A to all other points. The program should: Accept the number of vertices and travel times (edge weights) between connected points. Display the shortest travel time from A to every other point. Accept the number of vertices and travel times (edge weights) between connected points. Display the shortest travel time from A to every other point. Explain how this optimized route plan improves the delivery efficiency during emergency situations.",
+   "answer": [
+    "C Program",
+    "#include <stdio.h>",
+    "#define INFINITY 9999",
+    "#define MAX 6",
+    "void dijkstra(int G[MAX][MAX], int n, int startnode) {",
+    "int cost[MAX][MAX], distance[MAX], pred[MAX];",
+    "int visited[MAX], count, mindistance, nextnode, i, j;",
+    "// Create cost matrix",
+    "for (i = 0; i < n; i++)",
+    "for (j = 0; j < n; j++)",
+    "if (G[i][j] == 0)",
+    "cost[i][j] = INFINITY;",
+    "else",
+    "cost[i][j] = G[i][j];",
+    "// Initialize distances and predecessors",
+    "for (i = 0; i < n; i++) {",
+    "distance[i] = cost[startnode][i];",
+    "pred[i] = startnode;",
+    "visited[i] = 0;",
+    "}",
+    "distance[startnode] = 0;",
+    "visited[startnode] = 1;",
+    "count = 1;",
+    "// Find shortest path for all nodes",
+    "while (count < n - 1) {",
+    "mindistance = INFINITY;",
+    "// Next node selection",
+    "for (i = 0; i < n; i++)",
+    "if (distance[i] < mindistance && !visited[i]) {",
+    "mindistance = distance[i];",
+    "nextnode = i;",
+    "}",
+    "visited[nextnode] = 1;",
+    "// Update distances",
+    "for (i = 0; i < n; i++)",
+    "if (!visited[i])",
+    "if (mindistance + cost[nextnode][i] < distance[i]) {",
+    "distance[i] = mindistance + cost[nextnode][i];",
+    "pred[i] = nextnode;",
+    "}",
+    "count++;",
+    "}",
+    "// Display results",
+    "for (i = 0; i < n; i++)",
+    "if (i != startnode) {",
+    "printf(\"\\nShortest distance from %c to %c: %d\", startnode + 'A', i + 'A', distance[i]);",
+    "printf(\"\\nPath: %c\", i + 'A');",
+    "j = i;",
+    "do {",
+    "j = pred[j];",
+    "printf(\" <- %c\", j + 'A');",
+    "} while (j != startnode);",
+    "printf(\"\\n\");",
+    "}",
+    "}",
+    "int main() {",
+    "int G[MAX][MAX] = {",
+    "{0, 0, 2, 10, 0, 0},",
+    "{0, 0, 0, 2, 1, 0},",
+    "{2, 0, 0, 1, 0, 18},",
+    "{10, 2, 1, 0, 11, 6},",
+    "{0, 1, 0, 11, 0, 2},",
+    "{0, 0, 18, 6, 2, 0}",
+    "};",
+    "dijkstra(G, MAX, 0); // Start from node A (index 0)",
+    "return 0;",
+    "}",
+    "Shortest travel times from A:",
+    "A → A = 0",
+    "A → B = No path available",
+    "A → C = 2",
+    "A → D = 3",
+    "A → E = 14",
+    "A → F = 9",
+    "How this Improves Efficiency",
+    "Faster delivery of urgent medical supplies by selecting routes with minimal travel time.",
+    "Reduces total delivery time by avoiding congested or longer roads.",
+    "Helps dispatchers plan optimal delivery sequences.",
+    "Increases reliability of emergency response logistics.",
+    "Supports real-time route re-planning during roadblocks or traffic issues."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,93 @@
+{
+ "course": "21CSC203P",
+ "code": "1081",
+ "unit": 1,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "Contrast machine code with high-level programming languages",
+ "mcq": [
+  {
+   "q": "In terms of abstraction, how does object-oriented programming (OOP) differ from procedural programming?",
+   "options": {
+    "A": "a) OOP hides data and behavior inside objects",
+    "B": "b) Procedural programming focuses only on objects",
+    "C": "c) Procedural programming supports classes and inheritance ​​​​​​​ ​​​​​​​",
+    "D": "d) OOP uses less abstraction than procedural"
+   },
+   "answer": "A",
+   "answer_text": "a) OOP hides data and behavior inside objects"
+  },
+  {
+   "q": "Which of the following best describes machine code?",
+   "options": {
+    "A": "a) A language written in English-like syntax",
+    "B": "b) Human-readable code used for algorithms",
+    "C": "c) Binary code executed directly by the CPU ​​​​​​​ ​​​​​​​",
+    "D": "d) Code used only in web development"
+   },
+   "answer": "C",
+   "answer_text": "c) Binary code executed directly by the CPU ​​​​​​​ ​​​​​​​"
+  },
+  {
+   "q": "Which feature of object-oriented programming supports abstraction?",
+   "options": {
+    "A": "a) Variables",
+    "B": "b) Loops",
+    "C": "c) Encapsulation ​​​​​​​ ​​​​​​​",
+    "D": "d) Compilation"
+   },
+   "answer": "C",
+   "answer_text": "c) Encapsulation ​​​​​​​ ​​​​​​​"
+  },
+  {
+   "q": "What is a key difference between machine code and high-level languages?",
+   "options": {
+    "A": "a) Machine code is written for readability",
+    "B": "b) High-level languages are not translated",
+    "C": "c) High-level languages are platform-specific ​​​​​​​ ​​​​​​​",
+    "D": "d) High-level languages are more abstract and easier to read"
+   },
+   "answer": "D",
+   "answer_text": "d) High-level languages are more abstract and easier to read"
+  },
+  {
+   "q": "How does procedural programming approach abstraction?",
+   "options": {
+    "A": "a) Through object templates",
+    "B": "b) By organizing code into reusable functions",
+    "C": "c) By using inheritance ​​​​​​​ ​​​​​​​",
+    "D": "d) By hiding methods inside classes"
+   },
+   "answer": "B",
+   "answer_text": "b) By organizing code into reusable functions"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A company needs to summarize sales per region. How can declarative processing achieve this?",
+   "answer": [
+    "A GROUP BY query aggregates results based on regions, allowing simple and effective extraction of summary data without imperative code."
+   ]
+  },
+  {
+   "q": "A report must retrieve students who scored above 85% in Math. How does declarative programming support this task?",
+   "answer": [
+    "A SQL query like SELECT * FROM Students WHERE score > 85 AND subject = 'Math' specifies the desired result directly without manual control structures."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A school system requires a list of students who scored above 90 in all subjects . Provide an SQL query for this and explain how the declarative paradigm simplifies the task.",
+   "answer": [
+    "SELECT student_id FROM marks GROUP BY student_id HAVING MIN(score) > 90;",
+    "The query expresses what is needed, not how to compute it.",
+    "The query expresses what is needed, not how to compute it.",
+    "Declarative programming abstracts away iteration and control flow.",
+    "Declarative programming abstracts away iteration and control flow.",
+    "The database engine optimizes execution internally, promoting clarity and conciseness .",
+    "The database engine optimizes execution internally, promoting clarity and conciseness ."
+   ]
+  }
+ ]
+}

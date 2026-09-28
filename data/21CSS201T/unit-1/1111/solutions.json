@@ -1,0 +1,132 @@
+{
+ "course": "21CSS201T",
+ "code": "1111",
+ "unit": 1,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "explain the logic operation, truth table, and practical uses of the EX-OR gate",
+ "mcq": [
+  {
+   "q": "How does the EX-OR gate behave when one input is 0?",
+   "options": {
+    "A": "Output equals the other input",
+    "B": "Output is always 0",
+    "C": "Output is always 1",
+    "D": "Output is the negation of the other input"
+   },
+   "answer": "A",
+   "answer_text": "Output equals the other input"
+  },
+  {
+   "q": "What is the logic function of an EX-OR gate with inputs A and B?",
+   "options": {
+    "A": "A⋅B",
+    "B": "A + B",
+    "C": "\\(A \\oplus B = A \\overline B + \\overline AB\\)",
+    "D": "\\(\\overline{A+B}\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(A \\oplus B = A \\overline B + \\overline AB\\)"
+  },
+  {
+   "q": "What is a practical application of the EX-NOR gate?",
+   "options": {
+    "A": "Voltage level shifting",
+    "B": "Equality detectors",
+    "C": "Analog signal modulation",
+    "D": "Power supply filtering"
+   },
+   "answer": "B",
+   "answer_text": "Equality detectors"
+  },
+  {
+   "q": "Which of the following is a common application of an EX-OR gate?",
+   "options": {
+    "A": "Buffering signals",
+    "B": "Parity checking and generation",
+    "C": "Power regulation",
+    "D": "Voltage amplification"
+   },
+   "answer": "B",
+   "answer_text": "Parity checking and generation"
+  },
+  {
+   "q": "The EX-NOR gate is also called the:",
+   "options": {
+    "A": "Inverter",
+    "B": "Equality gate",
+    "C": "Multiplexer",
+    "D": "Demultiplexer"
+   },
+   "answer": "B",
+   "answer_text": "Equality gate"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does the EX-NOR gate function as a digital comparator?",
+   "answer": [
+    "It outputs 1 when both inputs are equal , making it suitable to compare two binary values. In a multi-bit comparator, EX-NOR gates are applied bit by bit , and outputs are ANDed to check full equality."
+   ]
+  },
+  {
+   "q": "Why is the EX-OR gate called a “mod-2 adder” in digital circuits?",
+   "answer": [
+    "Because it performs binary addition without a carry , following modulo-2 arithmetic, where:",
+    "0+0=0, 1+0=1, 0+1=1, 1+1=00 + 0 = 0,\\ 1 + 0 = 1,\\ 0 + 1 = 1,\\ 1 + 1 = 00+0=0, 1+0=1, 0+1=1, 1+1=0",
+    "This is identical to the EX-OR truth table ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain in detail the logic operation, truth table, and practical applications of the EX-OR (Exclusive OR) gate and EX-NOR (Exclusive NOR) gate. Compare their functions and highlight their importance in digital logic systems.",
+   "answer": [
+    "🔹 EX-OR (Exclusive OR) Gate",
+    "The EX-OR gate is a digital logic gate that outputs 1 only when the two inputs are different .",
+    "The EX-OR gate is a digital logic gate that outputs 1 only when the two inputs are different .",
+    "It performs the logical operation: \\(Y=A⊕B=A⋅B‾+A‾⋅BY = A \\oplus B = A \\cdot \\overline{B} + \\overline{A} \\cdot B\\)",
+    "It performs the logical operation:",
+    "This means it acts like a difference detector .",
+    "This means it acts like a difference detector .",
+    "The output is HIGH (1) only when exactly one input is HIGH .",
+    "The output is HIGH (1) only when exactly one input is HIGH .",
+    "The symbol of an EX-OR gate looks like an OR gate with an additional curved line on the input side.",
+    "The symbol of an EX-OR gate looks like an OR gate with an additional curved line on the input side.",
+    "Half-Adder and Full-Adder Circuits : EX-OR gates are used to calculate the sum bit.",
+    "Half-Adder and Full-Adder Circuits : EX-OR gates are used to calculate the sum bit.",
+    "Parity Generators and Checkers : To detect even or odd parity in data transmission.",
+    "Parity Generators and Checkers : To detect even or odd parity in data transmission.",
+    "Binary Comparators : To compare two bits and detect mismatches.",
+    "Binary Comparators : To compare two bits and detect mismatches.",
+    "Bit Flipping / Conditional Inversion : If one input is used as a control line, the other input can be inverted or passed.",
+    "Bit Flipping / Conditional Inversion : If one input is used as a control line, the other input can be inverted or passed.",
+    "The EX-NOR gate is the complement (inverse) of the EX-OR gate.",
+    "The EX-NOR gate is the complement (inverse) of the EX-OR gate.",
+    "It outputs 1 only when the inputs are the same — either both 0 or both 1.",
+    "It outputs 1 only when the inputs are the same — either both 0 or both 1.",
+    "Boolean Expression: \\(Y=A⊙B=A⊕B‾=A⋅B+A‾⋅B‾Y = A \\odot B = \\overline{A \\oplus B} = A \\cdot B + \\overline{A} \\cdot \\overline{B}\\)",
+    "Boolean Expression:",
+    "The output is HIGH (1) when both inputs are equal .",
+    "The output is HIGH (1) when both inputs are equal .",
+    "The EX-NOR gate symbol looks like an EX-OR gate with a small inversion circle (NOT) at the output.",
+    "The EX-NOR gate symbol looks like an EX-OR gate with a small inversion circle (NOT) at the output.",
+    "Digital Comparators : Used to check if two inputs are equal .",
+    "Digital Comparators : Used to check if two inputs are equal .",
+    "Equality Detectors in Authentication Systems : Verifies if a user’s input matches a stored pattern.",
+    "Equality Detectors in Authentication Systems : Verifies if a user’s input matches a stored pattern.",
+    "Phase Detectors in Communication Systems : Compares two signals' phases.",
+    "Phase Detectors in Communication Systems : Compares two signals' phases.",
+    "Logic Matching in Memory Systems : Helps determine if an address or data pattern matches a reference.",
+    "Logic Matching in Memory Systems : Helps determine if an address or data pattern matches a reference.",
+    "EX-OR and EX-NOR gates are essential in decision-making logic where comparison and parity checking are needed.",
+    "EX-OR is widely used in arithmetic circuits like adders .",
+    "EX-OR is widely used in arithmetic circuits like adders .",
+    "EX-NOR is crucial in equality checkers and digital authentication .",
+    "EX-NOR is crucial in equality checkers and digital authentication .",
+    "Together, they enhance the efficiency and accuracy of complex digital systems in communication, computing, and control.",
+    "Would you like follow-up questions or circuit design examples based on these gates?"
+   ]
+  }
+ ]
+}

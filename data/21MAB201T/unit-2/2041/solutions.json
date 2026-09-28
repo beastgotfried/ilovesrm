@@ -1,0 +1,92 @@
+{
+ "course": "21MAB201T",
+ "code": "2041",
+ "unit": 2,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Tutorial - Problem solving",
+ "mcq": [
+  {
+   "q": "When expanding \\( f(x) = x(2l - x) \\) on \\( (0, 2l) \\), which formula for \\( b_n \\) would you use?",
+   "options": {
+    "A": "\\( b_n = \\frac{1}{l} \\int_0^{2l} x(2l - x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)",
+    "B": "\\( b_n = \\frac{2}{l} \\int_0^{2l} x(2l - x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)",
+    "C": "\\( b_n = \\frac{1}{l} \\int_0^{2l} x(2l - x) \\cos\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)",
+    "D": "\\( b_n = \\frac{1}{2l} \\int_0^{2l} x(2l - x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( b_n = \\frac{1}{l} \\int_0^{2l} x(2l - x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)"
+  },
+  {
+   "q": "Which function has a Fourier series with only sine terms on \\( (0, 2\\pi) \\)?",
+   "options": {
+    "A": "\\( f(x) = x \\)",
+    "B": "\\( f(x) = x^2 \\)",
+    "C": "\\( f(x) = 1 \\)",
+    "D": "\\( f(x) = \\cos(x) \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( f(x) = x \\)"
+  },
+  {
+   "q": "For \\( f(x) = e^x \\) on \\( (0, 2\\pi) \\), which integration technique is most useful for finding Fourier coefficients?",
+   "options": {
+    "A": "Integration by parts",
+    "B": "Substitution",
+    "C": "Partial fractions",
+    "D": "Trigonometric identities"
+   },
+   "answer": "A",
+   "answer_text": "Integration by parts"
+  },
+  {
+   "q": "For \\( f(x) \\) defined on \\( (-\\pi, \\pi) \\) with \\( f(x) = |x| \\), which statement is true?",
+   "options": {
+    "A": "It has a cosine series",
+    "B": "It has a sine series",
+    "C": "It has both sine and cosine terms",
+    "D": "It has no Fourier series"
+   },
+   "answer": "A",
+   "answer_text": "It has a cosine series"
+  },
+  {
+   "q": "If \\( f(x) \\) satisfies \\( f(2\\pi - x) = f(x) \\) on \\( (0, 2\\pi) \\), what can be said about its Fourier series?",
+   "options": {
+    "A": "Only cosine terms are present",
+    "B": "Only sine terms are present",
+    "C": "Only even harmonics are present",
+    "D": "The series simplifies"
+   },
+   "answer": "A",
+   "answer_text": "Only cosine terms are present"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Explain why constant term is } \\frac{a_0}{2} \\text{ instead of } a_0.\\)",
+   "answer": [
+    "\\(\\text{Constant term written as } \\frac{a_0}{2} \\text{ for consistency with } a_n \\text{ formula when } n=0\\)",
+    "\\(a_0 = \\frac{1}{\\pi} \\int_c^{c+2\\pi} f(x) dx \\text{ (same formula as } a_n \\text{ with } n=0)\\)",
+    "\\(\\text{Then } \\frac{a_0}{2} = \\frac{1}{2\\pi} \\int_c^{c+2\\pi} f(x) dx, \\text{ which is average value of } f(x)\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Compare Fourier series formulas for intervals } (0,2\\pi), (-\\pi,\\pi), \\text{ and } (0,2l).\\)",
+   "answer": [
+    "\\(\\text{All have form: } f(x) = \\frac{a_0}{2} + \\sum (a_n \\cos \\omega_n x + b_n \\sin \\omega_n x)\\)",
+    "\\(\\text{For } (0,2\\pi): \\omega_n = n, \\text{ integrals from 0 to } 2\\pi\\)",
+    "\\(\\text{For } (-\\pi,\\pi): \\omega_n = n, \\text{ integrals from } -\\pi \\text{ to } \\pi\\)",
+    "\\(\\text{For } (0,2l): \\omega_n = \\frac{n\\pi}{l}, \\text{ integrals from 0 to } 2l\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=\\begin{cases} 0, & -\\pi",
+   "answer": [
+    "Step Marks Compute \\(a_0=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)dx=\\frac{1}{\\pi}\\int_0^{\\pi}x\\,dx=\\frac{\\pi}{2}\\) (2) \\(a_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\cos nx\\,dx=\\frac{1}{\\pi}\\int_0^{\\pi}x\\cos nx\\,dx=\\frac{(-1)^n-1}{\\pi n^2}\\) (3) \\(b_n=\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}f(x)\\sin nx\\,dx=\\frac{1}{\\pi}\\int_0^{\\pi}x\\sin nx\\,dx=\\frac{(-1)^{n+1}}{n}\\) (3) Thus, \\(f(x)=\\frac{\\pi}{4}+\\sum_{n=1}^{\\infty}\\left[\\frac{(-1)^n-1}{\\pi n^2}\\cos nx+\\frac{(-1)^{n+1}}{n}\\sin nx\\right]\\) (2) Put \\(x=0\\): \\(0=\\frac{\\pi}{4}-\\frac{2}{\\pi}\\left[\\frac{1}{1^2}+\\frac{1}{3^2}+\\frac{1}{5^2}+...\\right]\\) ⇒ \\(\\frac{1}{1^2}+\\frac{1}{3^2}+\\frac{1}{5^2}+...=\\frac{\\pi^2}{8}\\) (5)"
+   ]
+  }
+ ]
+}

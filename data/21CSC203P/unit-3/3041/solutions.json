@@ -1,0 +1,96 @@
+{
+ "course": "21CSC203P",
+ "code": "3041",
+ "unit": 3,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Apply thread priorities and daemon threads",
+ "mcq": [
+  {
+   "q": "Consider the following code: What is the effect of setting thread priority here?",
+   "options": {
+    "A": "It guarantees faster execution",
+    "B": "The thread will not run at all",
+    "C": "It provides a hint to the scheduler for prioritization",
+    "D": "It causes the thread to run in foreground"
+   },
+   "answer": "C",
+   "answer_text": "It provides a hint to the scheduler for prioritization"
+  },
+  {
+   "q": "What does the join() method do in thread management?",
+   "options": {
+    "A": "Terminates the current thread",
+    "B": "Pauses the current thread until the target thread finishes",
+    "C": "Switches context",
+    "D": "Kills the target thread"
+   },
+   "answer": "B",
+   "answer_text": "Pauses the current thread until the target thread finishes"
+  },
+  {
+   "q": "What happens when you call setDaemon(true) on a thread after it has been started?",
+   "options": {
+    "A": "The thread becomes a daemon",
+    "B": "The thread dies immediately",
+    "C": "An IllegalThreadStateException is thrown",
+    "D": "The thread is ignored by the scheduler"
+   },
+   "answer": "C",
+   "answer_text": "An IllegalThreadStateException is thrown"
+  },
+  {
+   "q": "Which of the following statements about daemon threads is true ?",
+   "options": {
+    "A": "Daemon threads prevent the JVM from shutting down",
+    "B": "Daemon threads must be started with run()",
+    "C": "JVM exits when all non-daemon threads finish, regardless of daemon threads",
+    "D": "Daemon threads have higher priority than user threads"
+   },
+   "answer": "C",
+   "answer_text": "JVM exits when all non-daemon threads finish, regardless of daemon threads"
+  },
+  {
+   "q": "Which of these is true about setting thread priorities?",
+   "options": {
+    "A": "Priorities can be any number from 1 to 100",
+    "B": "Default priority is 1",
+    "C": "JVM always follows priorities strictly",
+    "D": "Thread priority ranges from Thread.MIN_PRIORITY (1) to Thread.MAX_PRIORITY (10)"
+   },
+   "answer": "D",
+   "answer_text": "Thread priority ranges from Thread.MIN_PRIORITY (1) to Thread.MAX_PRIORITY (10)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How can thread priority affect execution?",
+   "answer": [
+    "Higher-priority threads are more likely to be chosen by the scheduler. However, thread priority does not guarantee execution order; it's only a hint. Behavior is platform-dependent."
+   ]
+  },
+  {
+   "q": "What is the output when the main thread calls join() on a child thread?",
+   "answer": [
+    "The main thread pauses and waits until the child thread completes its execution. Only then does the main thread resume"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Design a thread model for the above scenario. Implement: Daemon thread for logging Daemon thread for logging Use of join() to synchronize shutdown Use of join() to synchronize shutdown Thread priorities for urgent requests Thread priorities for urgent requests Use of sleep() or yield() for load management Use of sleep() or yield() for load management Provide Java code to demonstrate this design.",
+   "answer": [
+    "class MonitorDaemon extends Thread { public MonitorDaemon() { setDaemon(true); }",
+    "public void run() { while (true) { System.out.println(\"Monitoring memory...\"); try { Thread.sleep(2000); } catch (InterruptedException e) {} } } }",
+    "class UserRequest extends Thread { private String requestName;",
+    "public UserRequest(String name, int priority) { this.requestName = name; setPriority(priority); }",
+    "public void run() { System.out.println(\"Processing request: \" + requestName); for (int i = 0; i < 5; i++) { System.out.println(requestName + \" step \" + i); Thread.yield(); // Allow other threads to proceed } } }",
+    "public class Server { public static void main(String[] args) throws InterruptedException { MonitorDaemon md = new MonitorDaemon(); md.start();",
+    "UserRequest u1 = new UserRequest(\"Request1\", Thread.MIN_PRIORITY); UserRequest u2 = new UserRequest(\"UrgentRequest\", Thread.MAX_PRIORITY);",
+    "u1.start(); u2.start();",
+    "u1.join(); // Wait for both threads to complete u2.join();",
+    "System.out.println(\"All requests processed. Server shutting down.\"); } }"
+   ]
+  }
+ ]
+}

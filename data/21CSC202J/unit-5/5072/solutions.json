@@ -1,0 +1,96 @@
+{
+ "course": "21CSC202J",
+ "code": "5072",
+ "unit": 5,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "Explain the process and importance of user authentication",
+ "mcq": [
+  {
+   "q": "Which of the following is an example of cryptography in everyday OS use?",
+   "options": {
+    "A": "Paging",
+    "B": "Context switching",
+    "C": "File encryption and secure email",
+    "D": "Disk scheduling"
+   },
+   "answer": "C",
+   "answer_text": "File encryption and secure email"
+  },
+  {
+   "q": "Where is authentication handled in an OS?",
+   "options": {
+    "A": "At the hardware layer only",
+    "B": "In the file system only",
+    "C": "As part of system security services",
+    "D": "Only in the kernel scheduler"
+   },
+   "answer": "C",
+   "answer_text": "As part of system security services"
+  },
+  {
+   "q": "Which cryptographic technique uses a single key for both encryption and decryption?",
+   "options": {
+    "A": "Asymmetric encryption",
+    "B": "Public key encryption",
+    "C": "Symmetric encryption",
+    "D": "Hashing"
+   },
+   "answer": "C",
+   "answer_text": "Symmetric encryption"
+  },
+  {
+   "q": "Which main security service does cryptography provide?",
+   "options": {
+    "A": "System availability",
+    "B": "Authentication only",
+    "C": "Data confidentiality and integrity",
+    "D": "Hardware performance"
+   },
+   "answer": "C",
+   "answer_text": "Data confidentiality and integrity"
+  },
+  {
+   "q": "What is the primary purpose of user authentication?",
+   "options": {
+    "A": "To allocate RAM",
+    "B": "To verify the identity of a user or process",
+    "C": "To manage files",
+    "D": "To switch processes"
+   },
+   "answer": "C",
+   "answer_text": "To manage files"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain the working of password-based authentication in an OS.",
+   "answer": [
+    "User enters a password → OS hashes it → compares it with stored hash → grants access if match is valid; ensures only authenticated users gain system access.",
+    "User enters a password → OS hashes it → compares it with stored hash → grants access if match is valid; ensures only authenticated users gain system access."
+   ]
+  },
+  {
+   "q": "What is the difference between symmetric and asymmetric encryption ?",
+   "answer": [
+    "Symmetric encryption: Same key for encryption & decryption; faster but needs secure key exchange.",
+    "Symmetric encryption: Same key for encryption & decryption; faster but needs secure key exchange.",
+    "Asymmetric encryption: Uses a public key for encryption and a private key for decryption; more secure for key exchange but slower.",
+    "Asymmetric encryption: Uses a public key for encryption and a private key for decryption; more secure for key exchange but slower."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Describe how cryptography and user authentication together help secure an operating system . Give practical examples.",
+   "answer": [
+    "Answer Key:",
+    "Cryptography encrypts files, network data, and system credentials to ensure data confidentiality and integrity. For example, Linux uses LUKS for full disk encryption; SSH uses encryption for secure remote logins.",
+    "Cryptography encrypts files, network data, and system credentials to ensure data confidentiality and integrity. For example, Linux uses LUKS for full disk encryption; SSH uses encryption for secure remote logins.",
+    "User authentication verifies user identity before granting system access. For instance, login credentials, biometric scanners, or smart cards prevent unauthorized logins. Together, these mechanisms protect against data theft, unauthorized access, and ensure that only trusted users can access sensitive resources in an OS.",
+    "User authentication verifies user identity before granting system access. For instance, login credentials, biometric scanners, or smart cards prevent unauthorized logins.",
+    "Together, these mechanisms protect against data theft, unauthorized access, and ensure that only trusted users can access sensitive resources in an OS."
+   ]
+  }
+ ]
+}

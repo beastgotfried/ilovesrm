@@ -1,0 +1,110 @@
+{
+ "course": "21CSC202J",
+ "code": "3082",
+ "unit": 3,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Solve numerical problems using RR scheduling with different time quanta",
+ "mcq": [
+  {
+   "q": "In RR scheduling with quantum = 3ms, if a process has burst time = 2ms, how many times will it execute?",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "Infinite"
+   },
+   "answer": "A",
+   "answer_text": "1"
+  },
+  {
+   "q": "What is the main cause of starvation in priority scheduling ?",
+   "options": {
+    "A": "Short time quantum",
+    "B": "High process burst times",
+    "C": "Arrival of high priority processes",
+    "D": "Low memory size"
+   },
+   "answer": "C",
+   "answer_text": "Arrival of high priority processes"
+  },
+  {
+   "q": "Given processes with arrival and burst times, if time quantum = 2ms, which algorithm will best suit a time-sharing system ?",
+   "options": {
+    "A": "FCFS",
+    "B": "Preemptive SJF",
+    "C": "Priority Scheduling",
+    "D": "Round Robin"
+   },
+   "answer": "D",
+   "answer_text": "Round Robin"
+  },
+  {
+   "q": "In non-preemptive priority scheduling , which process will be selected first?",
+   "options": {
+    "A": "One with the highest burst time",
+    "B": "One with the earliest arrival time",
+    "C": "One with the highest priority value",
+    "D": "One with the lowest priority value"
+   },
+   "answer": "C",
+   "answer_text": "One with the highest priority value"
+  },
+  {
+   "q": "Given: P1(AT=0,BT=4,P=2), P2(AT=1,BT=3,P=3), P3(AT=2,BT=1,P=4) Using preemptive priority scheduling , which process executes first?",
+   "options": {
+    "A": "P1",
+    "B": "P2",
+    "C": "P3",
+    "D": "None"
+   },
+   "answer": "A",
+   "answer_text": "P1"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between Preemptive and Non-Preemptive Priority Scheduling using the following aspects: CPU allocation CPU allocation Response to newly arriving higher-priority processes Response to newly arriving higher-priority processes Example reference Example reference",
+   "answer": [
+    "Preemptive logic (interruptions based on priority) – 30%",
+    "Preemptive logic (interruptions based on priority) – 30%",
+    "Non-preemptive logic (CPU not taken back) – 30%",
+    "Non-preemptive logic (CPU not taken back) – 30%",
+    "Process selection behavior – 20%",
+    "Process selection behavior – 20%",
+    "Example – 20%",
+    "Example – 20%"
+   ]
+  },
+  {
+   "q": "Using the below process list and Round Robin scheduling (Time Quantum = 2 ms), calculate the average turnaround time and waiting time :",
+   "answer": [
+    "Correct Gantt chart sequence – 40%",
+    "Correct Gantt chart sequence – 40%",
+    "Individual WT and TAT values – 30%",
+    "Individual WT and TAT values – 30%",
+    "Averages: WT = 4.5ms, TAT = 8.25ms – 20%",
+    "Averages: WT = 4.5ms, TAT = 8.25ms – 20%",
+    "Clarity of explanation – 10%",
+    "Clarity of explanation – 10%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Compare and contrast the following scheduling algorithms: Preemptive Priority Scheduling Preemptive Priority Scheduling Non-Preemptive Priority Scheduling Non-Preemptive Priority Scheduling Round Robin Scheduling Round Robin Scheduling",
+   "answer": [
+    "Scheduling logic and CPU behavior – 20%",
+    "Scheduling logic and CPU behavior – 20%",
+    "Discussion on fairness/starvation – 20%",
+    "Discussion on fairness/starvation – 20%",
+    "Suitable system types – 20%",
+    "Suitable system types – 20%",
+    "Use of arrival, burst, and priority in decision-making – 20%",
+    "Use of arrival, burst, and priority in decision-making – 20%",
+    "Example-based comparison – 20%",
+    "Example-based comparison – 20%"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,83 @@
+{
+ "course": "21CSC202J",
+ "code": "3032",
+ "unit": 3,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Analyze how preemption affects process scheduling and performance",
+ "mcq": [
+  {
+   "q": "What happens in case of a tie in CPU burst time in SJF?",
+   "options": {
+    "A": "Process with higher priority is selected",
+    "B": "FCFS is used to break the tie",
+    "C": "Round Robin is applied",
+    "D": "Process with shortest arrival time is chosen"
+   },
+   "answer": "B",
+   "answer_text": "FCFS is used to break the tie"
+  },
+  {
+   "q": "Which of these scheduling algorithms is preemptive in nature?",
+   "options": {
+    "A": "SJF (non-preemptive)",
+    "B": "FCFS",
+    "C": "SRTF",
+    "D": "Priority (non-preemptive)"
+   },
+   "answer": "C",
+   "answer_text": "SRTF"
+  },
+  {
+   "q": "Which algorithm guarantees the minimum average waiting time under ideal conditions?",
+   "options": {
+    "A": "Round Robin",
+    "B": "SRTF",
+    "C": "Priority",
+    "D": "Multilevel Queue"
+   },
+   "answer": "B",
+   "answer_text": "SRTF"
+  },
+  {
+   "q": "In SJF scheduling, the CPU is assigned to the process with:",
+   "options": {
+    "A": "Highest priority",
+    "B": "Longest burst time",
+    "C": "Shortest next CPU burst",
+    "D": "Longest remaining time"
+   },
+   "answer": "C",
+   "answer_text": "Shortest next CPU burst"
+  },
+  {
+   "q": "Which of the following is a disadvantage of SRTF scheduling?",
+   "options": {
+    "A": "Longer turnaround time",
+    "B": "High response time",
+    "C": "Starvation of longer processes",
+    "D": "Complex Gantt chart"
+   },
+   "answer": "C",
+   "answer_text": "Starvation of longer processes"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between SJF and SRTF scheduling algorithms with suitable examples.",
+   "answer": []
+  },
+  {
+   "q": "What are the advantages and disadvantages of SRTF scheduling?",
+   "answer": [
+    "Point Marks At least two valid advantages (40%) At least two valid disadvantages (40%) Overall conclusion/observation (practical feasibility) (20%)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Consider the following processes. Apply both SJF (non-preemptive) and SRTF (preemptive) algorithms. Draw Gantt charts, calculate Average Waiting Time (AWT) and Turnaround Time (TAT) for both. Compare and justify which one is better based on results.",
+   "answer": []
+  }
+ ]
+}

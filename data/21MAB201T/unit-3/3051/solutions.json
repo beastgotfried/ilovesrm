@@ -1,0 +1,83 @@
+{
+ "course": "21MAB201T",
+ "code": "3051",
+ "unit": 3,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Solve one-dimensional wave equations with zero initial velocity.",
+ "mcq": [
+  {
+   "q": "Which of the following is true about the speed of the wave in the one dimensional wave equation?",
+   "options": {
+    "A": "Speed is variable and depends on x",
+    "B": "Speed is variable and depends on t .",
+    "C": "Speed is constant and equal to c .",
+    "D": "Speed is zero when initial velocity is zero."
+   },
+   "answer": "C",
+   "answer_text": "Speed is constant and equal to c ."
+  },
+  {
+   "q": "Physically, the solution with zero initial velocity represents",
+   "options": {
+    "A": "A single travelling wave",
+    "B": "Two identical waves travelling in opposite directions",
+    "C": "A damped vibration",
+    "D": "A stationary point mass"
+   },
+   "answer": "B",
+   "answer_text": "Two identical waves travelling in opposite directions"
+  },
+  {
+   "q": "The method generally used to solve the wave equation with initial conditions is:",
+   "options": {
+    "A": "Separation of variables",
+    "B": "Laplace transform",
+    "C": "D’Alembert’s method",
+    "D": "Fourier sine transforms"
+   },
+   "answer": "C",
+   "answer_text": "D’Alembert’s method"
+  },
+  {
+   "q": "The solution of the wave equation represents",
+   "options": {
+    "A": "A moving wave packet",
+    "B": "A standing wave pattern",
+    "C": "An exponential growth",
+    "D": "A decaying oscillation"
+   },
+   "answer": "B",
+   "answer_text": "A standing wave pattern"
+  },
+  {
+   "q": "The one dimensional wave equation is classified as",
+   "options": {
+    "A": "elliptic",
+    "B": "parabolic",
+    "C": "hyperbolic",
+    "D": "cyclic"
+   },
+   "answer": "C",
+   "answer_text": "hyperbolic"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A tightly stretched string of length 21 is fastened at both ends. The midpoint of the string is displaced to a distance b and released from rest in this position. Write the initial conditions.",
+   "answer": []
+  },
+  {
+   "q": "",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{A string of length \\(l\\) is fixed at both ends. It is pulled into the shape \\( y(x,0)= f(x) = kx(l-x)\\)}\\\\ \\text{and released from rest. Find the displacement \\( y(x,t).\\)}\\)",
+   "answer": [
+    "Step Marks \\(\\text{Wave equation: \\(y_{tt} = c^2 y_{xx}.\\) BCs: \\(y(0,t)=0\\), \\(y(l,t)=0.\\) Initial conditions: \\(y(x,0)= kx(l-x)\\), \\(y_t(x,0)=0.\\)}\\) (1 Mark) \\(\\text{General solution: \\(y(x,t)= \\sum \\sin\\left(\\dfrac{n\\pi x}{l}\\right)\\left[C_n \\cos\\left(\\dfrac{n\\pi c t}{l}\\right)+D_n \\sin\\left(\\dfrac{n\\pi c t}{l}\\right)\\right].\\)}\\) (2 Marks) \\(\\text{\\(y_t(x,0)=0\\) \\(\\Rightarrow\\) \\(D_n=0.\\) So \\(y(x,t)= \\sum C_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) \\cos\\left(\\dfrac{n\\pi c t}{l}\\right).\\)}\\) (2 Marks) \\(\\text{\\(y(x,0)= \\sum C_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) = kx(l-x).\\)}\\) (1 Mark) \\(\\text{Expand \\(f(x)=kx(l-x)\\) in Fourier sine series on \\((0,l)\\): \\(f(x)= \\sum b_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right)\\) with \\(b_n = \\dfrac{2}{l} \\int_0^l kx(l-x) \\sin\\left(\\dfrac{n\\pi x}{l}\\right) dx.\\)}\\) (2 Marks) \\(\\text{Compute \\(b_n\\): integration gives \\(b_n = \\dfrac{8kl^2}{n^3\\pi^3}\\) for \\(n\\) odd, \\(0\\) for \\(n\\) even.}\\) (3 Marks) \\(\\text{Thus \\(C_n = b_n.\\) So \\(y(x,t)= \\sum\\limits_{n \\text{ odd}} \\dfrac{8kl^2}{n^3\\pi^3} \\sin\\left(\\dfrac{n\\pi x}{l}\\right) \\cos\\left(\\dfrac{n\\pi c t}{l}\\right).\\)}\\) (3 Marks) \\(\\text{Write first few terms: \\(y(x,t)= \\dfrac{8kl^2}{\\pi^3}\\left[ \\sin\\left(\\dfrac{\\pi x}{l}\\right) \\cos\\left(\\dfrac{\\pi c t}{l}\\right) + \\dfrac{1}{27} \\sin\\left(\\dfrac{3\\pi x}{l}\\right) \\cos\\left(\\dfrac{3\\pi c t}{l}\\right) + \\cdots \\right].\\)}\\) (1 Mark)"
+   ]
+  }
+ ]
+}

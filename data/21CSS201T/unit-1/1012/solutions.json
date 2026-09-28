@@ -1,0 +1,113 @@
+{
+ "course": "21CSS201T",
+ "code": "1012",
+ "unit": 1,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "tell the difference between general-purpose and special-purpose computers with simple examples.",
+ "mcq": [
+  {
+   "q": "In 1’s complement subtraction, if no carry is generated, what should be done?",
+   "options": {
+    "A": "Ignore the result",
+    "B": "Add carry to LSD",
+    "C": "Take 2's complement of result",
+    "D": "Take 1's complement of result and place a minus sign"
+   },
+   "answer": "D",
+   "answer_text": "Take 1's complement of result and place a minus sign"
+  },
+  {
+   "q": "Which of the following best defines Computer Architecture ?",
+   "options": {
+    "A": "Study of computer history",
+    "B": "Design of computer networks",
+    "C": "Logical structure and behavior of the computer system",
+    "D": "Physical structure of memory units"
+   },
+   "answer": "C",
+   "answer_text": "Logical structure and behavior of the computer system"
+  },
+  {
+   "q": "What is the purpose of using Gray Code?",
+   "options": {
+    "A": "Fast arithmetic operations",
+    "B": "Hardware multiplexing",
+    "C": "Logical processing in ALU",
+    "D": "Reduce errors in analog-to-digital conversions"
+   },
+   "answer": "D",
+   "answer_text": "Reduce errors in analog-to-digital conversions"
+  },
+  {
+   "q": "Which logic gate outputs HIGH only when all its inputs are HIGH?",
+   "options": {
+    "A": "OR",
+    "B": "NOT",
+    "C": "AND",
+    "D": "NAND"
+   },
+   "answer": "C",
+   "answer_text": "AND"
+  },
+  {
+   "q": "Which of the following is a self-complementary code?",
+   "options": {
+    "A": "ASCII",
+    "B": "Excess-3",
+    "C": "BCD (8421)",
+    "D": "Binary"
+   },
+   "answer": "B",
+   "answer_text": "Excess-3"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the key difference between computer organization and computer architecture?",
+   "answer": [
+    "The key difference is:",
+    "Computer Organization refers to the physical components of a computer system and how they are interconnected (e.g., circuit design, control signals, memory types).",
+    "Computer Organization refers to the physical components of a computer system and how they are interconnected (e.g., circuit design, control signals, memory types).",
+    "Computer Architecture refers to the logical structure and behavior of a computer system as seen by the programmer, including elements like instruction sets, addressing modes, and data formats.",
+    "Computer Architecture refers to the logical structure and behavior of a computer system as seen by the programmer, including elements like instruction sets, addressing modes, and data formats."
+   ]
+  },
+  {
+   "q": "Explain the characteristics of microcomputers with examples.",
+   "answer": [
+    "Microcomputers are the smallest type of computers designed for individual use. They use microprocessors as the CPU and are cost-effective, portable, and easy to operate. They are widely used in homes, schools, and offices for word processing, browsing, and entertainment. Examples include desktops, laptops, and tablets"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the working of Gray Code. How is Binary to Gray and Gray to Binary conversion done? Illustrate with an example.",
+   "answer": [
+    "Gr ay Code is a binary numeral system where two successive values differ in only one bit. It is mainly used in analog to digital conversions to prevent errors due to signal transition.",
+    "Steps:",
+    "The most significant bit (MSB) of the Gray code is the same as the MSB of the binary number.",
+    "The most significant bit (MSB) of the Gray code is the same as the MSB of the binary number.",
+    "Each subsequent Gray bit is obtained by XOR ing the current binary bit with the previous binary bit .",
+    "Each subsequent Gray bit is obtained by XOR ing the current binary bit with the previous binary bit .",
+    "Example: Binary: 01001 Step 1: MSB = 0 Step 2: 1 ⊕ 0 = 1 Step 3: 0 ⊕ 1 = 1 Step 4: 0 ⊕ 0 = 0 Step 5: 1 ⊕ 0 = 1 Gray Code = 01101",
+    "Steps:",
+    "The MSB of Binary is the same as the MSB of the Gray code.",
+    "The MSB of Binary is the same as the MSB of the Gray code.",
+    "Each next binary bit is obtained as follows: If the Gray bit is 0 , the binary bit is same as previous binary bit If the Gray bit is 1 , the binary bit is inverse of the previous binary bit",
+    "Each next binary bit is obtained as follows:",
+    "If the Gray bit is 0 , the binary bit is same as previous binary bit",
+    "If the Gray bit is 0 , the binary bit is same as previous binary bit",
+    "If the Gray bit is 1 , the binary bit is inverse of the previous binary bit",
+    "If the Gray bit is 1 , the binary bit is inverse of the previous binary bit",
+    "Example: Gray: 01101 Step 1: MSB = 0 Step 2: Gray = 1 → invert 0 → 1 Step 3: Gray = 1 → invert 1 → 0 Step 4: Gray = 0 → same as previous → 0 Step 5: Gray = 1 → invert 0 → 1 Binary = 01001",
+    "Minimizing transition errors in digital circuits",
+    "Minimizing transition errors in digital circuits",
+    "Position encoders",
+    "Position encoders",
+    "Analog-to-digital converters",
+    "Analog-to-digital converters"
+   ]
+  }
+ ]
+}

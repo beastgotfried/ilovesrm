@@ -1,0 +1,116 @@
+{
+ "course": "21CSC201J",
+ "code": "4081",
+ "unit": 4,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "AVL Tree - Rotations (LL, RR, LR, RL)",
+ "mcq": [
+  {
+   "q": "Given an AVL tree {40, 20, 60, 10, 30, 50, 70}, inserting 55 causes imbalance at node 60. What rotation is needed?",
+   "options": {
+    "A": "Left Rotation (RR)",
+    "B": "Right Rotation (LL)",
+    "C": "Left-Right Rotation (LR)",
+    "D": "Right-Left Rotation (RL)"
+   },
+   "answer": "D",
+   "answer_text": "Right-Left Rotation (RL)"
+  },
+  {
+   "q": "What happens if an AVL tree becomes unbalanced after an insertion?",
+   "options": {
+    "A": "The tree is restructured using rotations",
+    "B": "The tree is reconstructed from scratch",
+    "C": "The tree remains unbalanced",
+    "D": "The inserted node is removed"
+   },
+   "answer": "A",
+   "answer_text": "The tree is restructured using rotations"
+  },
+  {
+   "q": "Given an AVL tree {50, 30, 70, 20, 40, 10}, inserting 5 causes imbalance at node 30. What rotation is needed?",
+   "options": {
+    "A": "Left Rotation (RR)",
+    "B": "Right Rotation (LL)",
+    "C": "Left-Right Rotation (LR)",
+    "D": "Right-Left Rotation (RL)"
+   },
+   "answer": "B",
+   "answer_text": "Right Rotation (LL)"
+  },
+  {
+   "q": "Given an AVL tree {50, 30, 70, 20, 40, 10, 25}, inserting 35 causes imbalance at node 50. What rotation is needed?",
+   "options": {
+    "A": "Left Rotation (RR)",
+    "B": "Right Rotation (LL)",
+    "C": "Left-Right Rotation (LR)",
+    "D": "Right-Left Rotation (RL)"
+   },
+   "answer": "C",
+   "answer_text": "Left-Right Rotation (LR)"
+  },
+  {
+   "q": "Given an AVL tree {20, 10, 30, 25, 40, 50}, inserting 60 causes imbalance at node 30. What rotation is needed?",
+   "options": {
+    "A": "Left Rotation (RR)",
+    "B": "Right Rotation (LL)",
+    "C": "Left-Right Rotation (LR)",
+    "D": "Right-Left Rotation (RL)"
+   },
+   "answer": "A",
+   "answer_text": "Left Rotation (RR)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Demonstrate the different types of rotations used in an AVL Tree to maintain balance. Illustrate with simple tree diagrams and explain when each rotation is applied.",
+   "answer": [
+    "Four types of rotations:",
+    "Right Rotation (LL case)",
+    "Left Rotation (RR case)",
+    "Left-Right Rotation (LR case)",
+    "Right-Left Rotation (RL case)",
+    "Right Rotation:",
+    "In RR Rotation, every node moves one position to right from the current position. To understand RR Rotation, let us consider the following insertion operation in AVL Tree.",
+    "Left Rotation:",
+    "In LL Rotation, every node moves one position to left from the current position. To understand LL Rotation, let us consider the following insertion operation in AVL Tree.",
+    "Left Right Rotation:",
+    "The LR Rotation is a sequence of single left rotation followed by a single right rotation. In LR Rotation, at first, every node moves one position to the left and one position to right from the current position. To understand LR Rotation, let us consider the following insertion operation in AVL Tree.",
+    "Right Left Rotation:",
+    "The RL Rotation is sequence of single right rotation followed by single left rotation. In RL Rotation, at first every node moves one position to right and one position to left from the current position. To understand RL Rotation, let us consider the following insertion operation in AVL Tree."
+   ]
+  },
+  {
+   "q": "What is AVL Tree? Discuss its properties and Balance Factor.",
+   "answer": [
+    "AVL tree in data structures is a popular self-balancing binary search tree where the difference between the heights of left and right subtrees for any node does not exceed unity. It was introduced by Georgy Adelson-Velsky and Evgenii Landis in 1962, hence the name AVL. It automatically adjusts its structure to maintain the minimum possible height after any operation with the help of a balance factor for each node.",
+    "Properties of AVL Tree",
+    "The following are the key properties of AVL tree in data structure, explained in simple terms:",
+    "Balanced Tree: An AVL tree is always balanced. This means that the heights of the left and right subtrees of any node differ by at most one.",
+    "Height-Balanced Property: The difference in height (also called the balance factor) between the left and right subtrees of any node is -1, 0, or 1.",
+    "Self-Balancing: An AVL tree automatically performs rotations to maintain balance after every insertion and deletion.",
+    "Binary Search Tree Properties: An AVL tree follows the properties of a binary search tree (BST) . This means that for any node, the left subtree contains only nodes with values less than the node's value, and the right subtree contains only nodes with values greater than the node's value.",
+    "Rotations: To maintain balance, an AVL tree uses four types of rotations: left rotation, right rotation, left-right rotation, and right-left rotation",
+    "Balance Factor:",
+    "The AVL tree balance factor is a key concept used to maintain the tree's balanced property. In AVL trees, the heights of the two child subtrees of any node differ by no more than one. This balance is maintained through rotations during insertion and deletion operations.",
+    "The balancing factor (BF) of a node in an AVL tree is defined as the height difference between its left and right subtrees.",
+    "For a node N, the balancing factor is calculated as:",
+    "BF(N) = height (left subtree) − height (right subtree)",
+    "Properties:",
+    "The balancing factor can be -1, 0, or 1 for a balanced AVL tree.",
+    "BF = -1: The right subtree is one level higher than the left subtree.",
+    "BF = 0: The left and right subtrees are of equal height.",
+    "BF = 1: The left subtree is one level higher than the right subtree."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are building a self-balancing binary search tree for a real-time stock price monitoring system, where every update must ensure the tree remains balanced for fast search, insert, and delete operations. You are given a sequence of stock IDs being inserted over time in the following order: 21, 26, 30, 9, 4, 14, 28, 18, 15, 10, 2, 3, 7 Task: Construct the AVL Tree by inserting each element in sequence, ensuring balance after each insertion using appropriate rotations. Clearly indicate the type of rotation (LL, RR, LR, RL) used after each imbalance. Draw the final balanced AVL Tree.",
+   "answer": [
+    "Final balanced AVL Tree"
+   ]
+  }
+ ]
+}

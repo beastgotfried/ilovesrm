@@ -1,0 +1,95 @@
+{
+ "course": "21LEM202T",
+ "code": "1021",
+ "unit": 1,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "State the need, purpose and motivation for value education.",
+ "mcq": [
+  {
+   "q": "Which of the following is essential for maintaining harmony in the family?",
+   "options": {
+    "A": "Constant criticism and blame",
+    "B": "Effective communication and respect for each other",
+    "C": "Avoiding family interactions",
+    "D": "Giving importance only to personal goals"
+   },
+   "answer": "B",
+   "answer_text": "Effective communication and respect for each other"
+  },
+  {
+   "q": "Which of the following is not true about excellence?",
+   "options": {
+    "A": "Other humans are complementary to me",
+    "B": "It leads to unconditional relationship",
+    "C": "Effort to accentuate the difference",
+    "D": "Definite and absolute feeling"
+   },
+   "answer": "C",
+   "answer_text": "Effort to accentuate the difference"
+  },
+  {
+   "q": "Feeling of responsibility toward the self of my relative",
+   "options": {
+    "A": "Trust",
+    "B": "Love",
+    "C": "Care",
+    "D": "Guidance"
+   },
+   "answer": "D",
+   "answer_text": "Guidance"
+  },
+  {
+   "q": "The statement – “the other is similar to me and we are complementary to each other” indicates the complete content of_____________",
+   "options": {
+    "A": "Care",
+    "B": "Guidance",
+    "C": "Respect",
+    "D": "Reverence"
+   },
+   "answer": "C",
+   "answer_text": "Respect"
+  },
+  {
+   "q": "What is the significance of reverence in human relationships?",
+   "options": {
+    "A": "It ensures people fear you",
+    "B": "It fosters love, gratitude, and respect",
+    "C": "It creates a sense of competition",
+    "D": "It is only important in religious practices"
+   },
+   "answer": "B",
+   "answer_text": "It fosters love, gratitude, and respect"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What are the two basic human aspirations, and how can they be fulfilled?",
+   "answer": [
+    "he two basic human aspirations are happiness (continuous inner satisfaction) and prosperity (availability of physical facilities). They can be fulfilled through Right Understanding (correct knowledge of self, relationships, and nature) and Resolution (living in harmony with self, family, society, and nature based on this understanding)."
+   ]
+  },
+  {
+   "q": "What is Resolution in human life?",
+   "answer": [
+    "Applying Right Understanding in daily living to create harmony."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Q1. “Value of a unit is its participation in the larger order.” Explain this statement with examples, and extend it to human values. Q2. State and explain the four guidelines for value education. Q3. Distinguish between values and skills. Explain their priority and complementarity, and comment on the present state of education.",
+   "answer": [
+    "Q1 — Value of a unit and human values",
+    "DEFINITE — single expected answer",
+    "Model answer: The value of a unit is its participation in the larger order, and this participation is its role; the context is always the larger order, and the value is definite. For example, the value of wheat with respect to the human being is to provide nutrition to the body, and a kilogram of wheat provides the same nutrition irrespective of time, place or person. Similarly, the role of a piece of chalk is to write on the blackboard in the classroom. Extending this to the human being: my participation in the family defines my value in the family. For order in the family, behaviour with a feeling of respect is valuable; I feel happy when I have a feeling of respect, and the other feels happy when I express respect. Living in accordance with human values with human beings leads to mutual happiness, and with the rest of nature leads to mutual prosperity.",
+    "Q2 — The four guidelines for value education",
+    "DEFINITE — single expected answer",
+    "Model answer: (1) Universal — applicable to all human beings and true at all times and places; not dependent on sect, creed, nationality, race or gender. (2) Rational — amenable to logical reasoning and open to questioning; not based on blind beliefs, dogmas or sermons. (3) Verifiable — the student should be able to verify the values on his or her own right, on the basis of natural acceptance and experiential validation, rather than being asked to believe because it is stated. (4) Leading to Harmony — the values must enable us to live in peace and harmony within ourselves and with others (human beings and the rest of nature), covering all dimensions of being and all levels of living.",
+    "Q3 — Values and skills",
+    "DEFINITE — single expected answer",
+    "Model answer: Understanding what to do relates to values (value education), while learning how to do relates to skills (skill development); doing is the practice, guided by values. The problems around us are more due to a lack of values than a lack of skills, but both are required — values and skills are complementary. As for priority, values (what to do) come first and then skills (how to do), though both are needed. The present state of education has become skill-biased, and there is a need to make appropriate changes so that education helps students understand values and develop holistically."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,200 @@
+{
+ "course": "21CSC201J",
+ "code": "3092",
+ "unit": 3,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "Types of Queues",
+ "mcq": [
+  {
+   "q": "In an output-restricted deque, which of the following operations is NOT allowed?",
+   "options": {
+    "A": "Insertion at rear",
+    "B": "Insertion at front",
+    "C": "Deletion at rear",
+    "D": "Deletion at front"
+   },
+   "answer": "C",
+   "answer_text": "Deletion at rear"
+  },
+  {
+   "q": "In a circular queue, if front = 3 and rear = 7 in a queue of size 10, how many elements are present?",
+   "options": {
+    "A": "4",
+    "B": "5",
+    "C": "3",
+    "D": "7"
+   },
+   "answer": "B",
+   "answer_text": "5"
+  },
+  {
+   "q": "In a linked list-based queue, what happens when the last element is dequeued?",
+   "options": {
+    "A": "The front and rear pointers remain unchanged",
+    "B": "The front pointer is set to NULL, but rear remains unchanged",
+    "C": "Both front and rear pointers are set to NULL",
+    "D": "None of the above"
+   },
+   "answer": "C",
+   "answer_text": "Both front and rear pointers are set to NULL"
+  },
+  {
+   "q": "A priority queue can efficiently implemented using which of the following data structures? Assume that the number of insert and peek (operation to see the current highest priority item) and extraction (remove the highest priority item) operations are almost same.",
+   "options": {
+    "A": "Array",
+    "B": "Linked List",
+    "C": "Heap Data Structures like Binary Heap, Fibonacci Heap",
+    "D": "None of the above"
+   },
+   "answer": "C",
+   "answer_text": "Heap Data Structures like Binary Heap, Fibonacci Heap"
+  },
+  {
+   "q": "In linked list implementation of a queue, front and rear pointers are tracked. Which of these pointers will change during an insertion into a NONEMPTY queue?",
+   "options": {
+    "A": "Only front pointer",
+    "B": "Only rear pointer",
+    "C": "Both front and rear pointer",
+    "D": "None of the front and rear pointer"
+   },
+   "answer": "B",
+   "answer_text": "Only rear pointer"
+  }
+ ],
+ "sq": [
+  {
+   "q": "List and explain different types of queues.",
+   "answer": [
+    "There are four different types of queue that are listed as follows -",
+    "Simple Queue or Linear Queue",
+    "In Linear Queue, an insertion takes place from one end while the deletion occurs from another end. The end at which the insertion takes place is known as the rear end, and the end at which the deletion takes place is known as front end. It strictly follows the FIFO rule.",
+    "Circular Queue",
+    "In Circular Queue, all the nodes are represented as circular. It is similar to the linear Queue except that the last element of the queue is connected to the first element. It is also known as Ring Buffer, as all the ends are connected to another end. The representation of circular queue is shown in the below image –",
+    "Priority Queue",
+    "It is a special type of queue in which the elements are arranged based on the priority. It is a special type of queue data structure in which every element has a priority associated with it. Suppose some elements occur with the same priority, they will be arranged according to the FIFO principle. The representation of priority queue is shown in the below image -",
+    "Double Ended Queue (or Deque)",
+    "In Deque or Double Ended Queue, insertion and deletion can be done from both ends of the queue either from the front or rear. It means that we can insert and delete elements from both front and rear ends of the queue."
+   ]
+  },
+  {
+   "q": "Demonstrate with the pseudocode to insert (enqueue) and delete (dequeue) a node in a queue implemented using a linked list.",
+   "answer": [
+    "Insert a node in a queue:",
+    "Enqueue(value):",
+    "Create new node with data = value",
+    "If rear == NULL:",
+    "front = rear = new node",
+    "Else:",
+    "rear->next = new node",
+    "rear = new node",
+    "Delete a node in the queue",
+    "Dequeue():",
+    "If front == NULL:",
+    "Print \"Queue is Empty\"",
+    "Else:",
+    "temp = front",
+    "front = front->next",
+    "Free(temp)",
+    "If front == NULL:",
+    "rear = NULL",
+    "Example:"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Imagine a cinema ticket counter where customers book tickets one after the other. You are asked to build a system using a queue implemented via a linked list to manage the line of customers. Implement: Function to add a customer to the queue (enqueue) Function to serve the next customer (dequeue) Function to display all waiting customers",
+   "answer": [
+    "In a cinema, customers come one by one to book tickets. They must be served in the order they arrive, without skipping anyone. This requires a First-In-First-Out (FIFO) system — perfect for a queue.",
+    "Using a linked list is ideal because:",
+    "The number of customers isn't fixed.",
+    "Memory is allocated dynamically.",
+    "We avoid array overflow and shifting issues",
+    "Node Structure in C",
+    "We will use a singly linked list where each node represents a customer.",
+    "struct Node {",
+    "char name[50]; // Customer name",
+    "struct Node* next; // Pointer to next node",
+    "};",
+    "We’ll also maintain two global pointers:",
+    "front – Points to the first customer in the queue (the one to be served next).",
+    "rear – Points to the last customer in the queue (the most recently added).",
+    "Function 1: Enqueue – Add a Customer",
+    "To add a new customer at the end of the queue.",
+    "Imagine a new customer walking to the end of the line at the ticket counter.",
+    "void enqueue(char name[]) {",
+    "struct Node* newNode = (struct Node*)malloc(sizeof(struct Node));",
+    "strcpy(newNode->name, name);",
+    "newNode->next = NULL;",
+    "if (rear == NULL) { // Queue is empty",
+    "front = rear = newNode;",
+    "} else {",
+    "rear->next = newNode; // Link new node to the end",
+    "rear = newNode; // Update rear",
+    "}",
+    "printf(\"Customer %s added to the queue.\\n\", name);",
+    "}",
+    "Function 2: Dequeue – Serve the Next Customer",
+    "To serve (remove) the customer at the front of the queue.",
+    "The person at the front of the line gets their ticket and leaves.",
+    "void dequeue() {",
+    "if (front == NULL) {",
+    "printf(\"No customers in the queue.\\n\");",
+    "return;",
+    "}",
+    "struct Node* temp = front;",
+    "printf(\"Serving customer: %s\\n\", front->name);",
+    "front = front->next;",
+    "if (front == NULL) {",
+    "rear = NULL; // Queue becomes empty",
+    "}",
+    "free(temp);",
+    "}",
+    "Function 3: Display – Show All Waiting Customers",
+    "To display the list of customers waiting in line.",
+    "The counter staff checks who’s still waiting to be served.",
+    "void displayQueue() {",
+    "if (front == NULL) {",
+    "printf(\"No customers in the queue.\\n\");",
+    "return;",
+    "}",
+    "printf(\"Customers waiting in the queue:\\n\");",
+    "struct Node* temp = front;",
+    "while (temp != NULL) {",
+    "printf(\"- %s\\n\", temp->name);",
+    "temp = temp->next;",
+    "}",
+    "}",
+    "Main Function",
+    "int main() {",
+    "enqueue(\"Alice\");",
+    "enqueue(\"Bob\");",
+    "enqueue(\"Charlie\");",
+    "displayQueue(); // Show current queue",
+    "dequeue(); // Serve Alice",
+    "displayQueue(); // Show remaining",
+    "dequeue(); // Serve Bob",
+    "dequeue(); // Serve Charlie",
+    "dequeue(); // Try to serve from empty queue",
+    "return 0;",
+    "}",
+    "Output:",
+    "Customer Alice added to the queue.",
+    "Customer Bob added to the queue.",
+    "Customer Charlie added to the queue.",
+    "Customers waiting in the queue:",
+    "- Alice",
+    "- Bob",
+    "- Charlie",
+    "Serving customer: Alice",
+    "Customers waiting in the queue:",
+    "- Bob",
+    "- Charlie",
+    "Serving customer: Bob",
+    "Serving customer: Charlie",
+    "No customers in the queue."
+   ]
+  }
+ ]
+}

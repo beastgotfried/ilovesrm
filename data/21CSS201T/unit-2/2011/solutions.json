@@ -1,0 +1,148 @@
+{
+ "course": "21CSS201T",
+ "code": "2011",
+ "unit": 2,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Describe computer structure and key functional units.",
+ "mcq": [
+  {
+   "q": "Which of the following is not a basic functional unit of a computer?",
+   "options": {
+    "A": "A) Input Unit",
+    "B": "B) Output Unit",
+    "C": "C) Arithmetic Logic Unit (ALU)",
+    "D": "D) Operating System"
+   },
+   "answer": "D",
+   "answer_text": "D) Operating System"
+  },
+  {
+   "q": "The Memory Unit stores:",
+   "options": {
+    "A": "A) Only programs",
+    "B": "B) Only data",
+    "C": "C) Data and instructions",
+    "D": "D) Only instructions"
+   },
+   "answer": "C",
+   "answer_text": "C) Data and instructions"
+  },
+  {
+   "q": "The Memory Unit stores:",
+   "options": {
+    "A": "A) Only programs",
+    "B": "B) Only data",
+    "C": "C) Data and instructions",
+    "D": "D) Only instructions"
+   },
+   "answer": "C",
+   "answer_text": "C) Data and instructions"
+  },
+  {
+   "q": "Which unit performs logical comparisons like AND, OR operations?",
+   "options": {
+    "A": "A) Control Unit",
+    "B": "B) Memory Unit",
+    "C": "C) Input Unit",
+    "D": "D) Arithmetic Logic Unit (ALU)"
+   },
+   "answer": "D",
+   "answer_text": "D) Arithmetic Logic Unit (ALU)"
+  },
+  {
+   "q": "Which of the following is not a basic functional unit of a computer?",
+   "options": {
+    "A": "A) Input Unit",
+    "B": "B) Output Unit",
+    "C": "C) Arithmetic Logic Unit (ALU)",
+    "D": "D) Operating System"
+   },
+   "answer": "D",
+   "answer_text": "D) Operating System"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between primary memory and secondary memory with examples.",
+   "answer": [
+    "Primary memory , also known as main memory , is directly accessible by the CPU. It temporarily holds both data and instructions that the processor is currently using. The most common type of primary memory is RAM (Random Access Memory) , which is volatile , meaning its contents are lost when the power is turned off. ROM (Read Only Memory) is another type of primary memory used to store firmware and is non-volatile.",
+    "Secondary memory , on the other hand, refers to permanent storage devices that are used to store data and programs not actively in use. This includes hard disk drives (HDDs), solid-state drives (SSDs), CDs, USB flash drives , etc. These memories are non-volatile , retain data even when power is off, and are slower in access speed compared to primary memory but much larger in storage capacity."
+   ]
+  },
+  {
+   "q": "What are the main functions of the Control Unit in a computer?",
+   "answer": [
+    "The Control Unit (CU) is a critical component of the Central Processing Unit (CPU). Its primary role is to manage and coordinate the operations of the entire computer system. It fetches instructions from memory, decodes them to understand the required operations, and then directs other units (like ALU, memory, and I/O devices) to execute them accordingly.",
+    "The CU does not process data itself , but it ensures that the data flows correctly and instructions are executed in the proper sequence. It also controls the timing and control signals required for internal operations. Essentially, it acts as the “brain within the brain” , making sure that the CPU carries out its tasks efficiently."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the major functional units of a computer system. Illustrate the roles of each unit with a neat block diagram and describe how they work together to execute instructions.",
+   "answer": [
+    "A computer system is composed of several interrelated components that work together to perform operations and process data. These components are grouped into five major functional units , each responsible for specific tasks within the system. The smooth interaction of these units enables the computer to perform complex operations efficiently.",
+    "The input unit is responsible for feeding data and instructions into the computer system.",
+    "The input unit is responsible for feeding data and instructions into the computer system.",
+    "It converts human-readable input into machine-readable form (binary) and sends it to the memory or processor.",
+    "It converts human-readable input into machine-readable form (binary) and sends it to the memory or processor.",
+    "Examples of input devices: Keyboard, Mouse, Scanner, Microphone",
+    "Examples of input devices: Keyboard, Mouse, Scanner, Microphone",
+    "The memory unit is used to store data and instructions temporarily or permanently .",
+    "Primary Memory (Main Memory): Includes RAM (Random Access Memory) and ROM (Read-Only Memory). RAM stores data and programs that are currently in use. ROM stores firmware and boot-up instructions.",
+    "Primary Memory (Main Memory):",
+    "Includes RAM (Random Access Memory) and ROM (Read-Only Memory).",
+    "Includes RAM (Random Access Memory) and ROM (Read-Only Memory).",
+    "RAM stores data and programs that are currently in use.",
+    "RAM stores data and programs that are currently in use.",
+    "ROM stores firmware and boot-up instructions.",
+    "ROM stores firmware and boot-up instructions.",
+    "Secondary Memory: Used for long-term storage (e.g., HDD, SSD, USB drives). Not directly accessible by the CPU but holds programs and files permanently.",
+    "Secondary Memory:",
+    "Used for long-term storage (e.g., HDD, SSD, USB drives).",
+    "Used for long-term storage (e.g., HDD, SSD, USB drives).",
+    "Not directly accessible by the CPU but holds programs and files permanently.",
+    "Not directly accessible by the CPU but holds programs and files permanently.",
+    "ALU is the computational brain of the computer.",
+    "ALU is the computational brain of the computer.",
+    "It performs: Arithmetic operations like addition, subtraction, multiplication, and division. Logical operations like AND, OR, NOT, comparisons (e.g., greater than, equal to).",
+    "It performs:",
+    "Arithmetic operations like addition, subtraction, multiplication, and division.",
+    "Arithmetic operations like addition, subtraction, multiplication, and division.",
+    "Logical operations like AND, OR, NOT, comparisons (e.g., greater than, equal to).",
+    "Logical operations like AND, OR, NOT, comparisons (e.g., greater than, equal to).",
+    "ALU receives data from the memory, performs the required operation, and sends results back to memory or output.",
+    "ALU receives data from the memory, performs the required operation, and sends results back to memory or output.",
+    "The control unit acts as the manager of all activities inside the CPU.",
+    "The control unit acts as the manager of all activities inside the CPU.",
+    "It fetches, decodes, and executes instructions stored in memory.",
+    "It fetches, decodes, and executes instructions stored in memory.",
+    "It sends control signals to all units to coordinate their operations.",
+    "It sends control signals to all units to coordinate their operations.",
+    "It ensures that operations occur in the correct sequence and timing.",
+    "It ensures that operations occur in the correct sequence and timing.",
+    "The output unit receives the processed data from the CPU and converts it into a human-understandable form .",
+    "The output unit receives the processed data from the CPU and converts it into a human-understandable form .",
+    "This result is then presented to the user.",
+    "This result is then presented to the user.",
+    "Examples: Monitor, Printer, Speaker",
+    "Examples: Monitor, Printer, Speaker",
+    "User inputs data via input devices.",
+    "User inputs data via input devices.",
+    "Input Unit converts and sends it to the Memory Unit.",
+    "Input Unit converts and sends it to the Memory Unit.",
+    "Control Unit fetches the instruction from memory and decodes it.",
+    "Control Unit fetches the instruction from memory and decodes it.",
+    "If processing is needed, the CU sends the data to the ALU .",
+    "If processing is needed, the CU sends the data to the ALU .",
+    "ALU executes arithmetic or logic operations and returns results.",
+    "ALU executes arithmetic or logic operations and returns results.",
+    "The result is either stored back in memory or sent to Output Unit .",
+    "The result is either stored back in memory or sent to Output Unit .",
+    "Output Unit then displays or delivers the result to the user.",
+    "Output Unit then displays or delivers the result to the user."
+   ]
+  }
+ ]
+}

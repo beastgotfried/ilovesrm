@@ -1,0 +1,157 @@
+{
+ "course": "21CSS201T",
+ "code": "1021",
+ "unit": 1,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "to differentiate between Binary, Decimal, Octal, and Hexadecimal number systems with relevant examples",
+ "mcq": [
+  {
+   "q": "Which of the following is not an example of an output device?",
+   "options": {
+    "A": "Monitor",
+    "B": "Printer",
+    "C": "Keyboard",
+    "D": "Speaker"
+   },
+   "answer": "C",
+   "answer_text": "Keyboard"
+  },
+  {
+   "q": "What does the Output Unit do?",
+   "options": {
+    "A": "A) Stores data",
+    "B": "B) Sends data to the CPU",
+    "C": "C) Receives data from the CPU and converts it into human-readable form",
+    "D": "D) Processes instructions"
+   },
+   "answer": "C",
+   "answer_text": "C) Receives data from the CPU and converts it into human-readable form"
+  },
+  {
+   "q": "The Control Unit is responsible for:",
+   "options": {
+    "A": "A) Performing calculations",
+    "B": "B) Storing data permanently",
+    "C": "C) Directing the operation of the processor",
+    "D": "D) Generating graphical output"
+   },
+   "answer": "C",
+   "answer_text": "C) Directing the operation of the processor"
+  },
+  {
+   "q": "The Memory Unit stores:",
+   "options": {
+    "A": "A) Only programs",
+    "B": "B) Only data",
+    "C": "C) Data and instructions",
+    "D": "D) None of the above"
+   },
+   "answer": "C",
+   "answer_text": "C) Data and instructions"
+  },
+  {
+   "q": "Which unit performs logical comparisons like AND, OR operations?",
+   "options": {
+    "A": "A) Control Unit",
+    "B": "B) Memory Unit",
+    "C": "C) Input Unit",
+    "D": "D) Arithmetic Logic Unit (ALU)"
+   },
+   "answer": "D",
+   "answer_text": "D) Arithmetic Logic Unit (ALU)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain why the binary number system is used in digital computers instead of the decimal number system.",
+   "answer": [
+    "Digital computers use the binary number system because it is easier and more reliable to design electronic circuits that have only two states— ON (1) and OFF (0) . These two states can be easily represented using voltage levels, which makes binary ideal for digital processing and storage. Unlike the decimal system which uses ten digits, binary's simplicity allows for faster, cheaper, and more error-resistant hardware design."
+   ]
+  },
+  {
+   "q": "Explain the main differences between the binary and hexadecimal number systems, including their bases, symbols used, and applications.",
+   "answer": [
+    "The binary and hexadecimal number systems are both widely used in digital electronics and computing, but they differ in several aspects:",
+    "Base: Binary has a base of 2 , using only 2 symbols : 0 and 1. Hexadecimal has a base of 16 , using 16 symbols : 0–9 and A–F (where A = 10, B = 11, ..., F = 15).",
+    "Base:",
+    "Binary has a base of 2 , using only 2 symbols : 0 and 1.",
+    "Binary has a base of 2 , using only 2 symbols : 0 and 1.",
+    "Hexadecimal has a base of 16 , using 16 symbols : 0–9 and A–F (where A = 10, B = 11, ..., F = 15).",
+    "Hexadecimal has a base of 16 , using 16 symbols : 0–9 and A–F (where A = 10, B = 11, ..., F = 15).",
+    "Symbols Used: In binary, only 0 and 1 are used. In hexadecimal, digits from 0 to 9 and letters A to F are used.",
+    "Symbols Used:",
+    "In binary, only 0 and 1 are used.",
+    "In binary, only 0 and 1 are used.",
+    "In hexadecimal, digits from 0 to 9 and letters A to F are used.",
+    "In hexadecimal, digits from 0 to 9 and letters A to F are used.",
+    "Applications: Binary is the fundamental number system used internally by computers and digital systems for data representation. Hexadecimal is commonly used in programming and digital electronics to represent large binary numbers more compactly. Each hexadecimal digit corresponds to exactly four binary digits (bits), making it easier to read and work with binary data.",
+    "Applications:",
+    "Binary is the fundamental number system used internally by computers and digital systems for data representation.",
+    "Binary is the fundamental number system used internally by computers and digital systems for data representation.",
+    "Hexadecimal is commonly used in programming and digital electronics to represent large binary numbers more compactly. Each hexadecimal digit corresponds to exactly four binary digits (bits), making it easier to read and work with binary data.",
+    "Hexadecimal is commonly used in programming and digital electronics to represent large binary numbers more compactly. Each hexadecimal digit corresponds to exactly four binary digits (bits), making it easier to read and work with binary data.",
+    "In short, while binary is used by computers to perform computations, hexadecimal simplifies the representation of binary numbers for human understanding and software development."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the different types of number systems used in digital electronics. How do binary, octal, decimal, and hexadecimal number systems differ in terms of base, symbols used, and applications?",
+   "answer": [
+    "Number systems are fundamental in digital electronics and computer science, as they provide different ways to represent and process numerical data. The most common number systems used in computing are decimal, binary, octal, and hexadecimal , each with its own base, symbol set, and area of application.",
+    "Decimal Number System (Base-10): This is the standard number system used in everyday life. It uses 10 symbols : 0 to 9. Each digit has a place value based on powers of 10 (e.g., 10⁰, 10¹, 10²…). It is human-friendly but not suitable for computers, which operate using binary logic.",
+    "Decimal Number System (Base-10):",
+    "This is the standard number system used in everyday life.",
+    "This is the standard number system used in everyday life.",
+    "It uses 10 symbols : 0 to 9.",
+    "It uses 10 symbols : 0 to 9.",
+    "Each digit has a place value based on powers of 10 (e.g., 10⁰, 10¹, 10²…).",
+    "Each digit has a place value based on powers of 10 (e.g., 10⁰, 10¹, 10²…).",
+    "It is human-friendly but not suitable for computers, which operate using binary logic.",
+    "It is human-friendly but not suitable for computers, which operate using binary logic.",
+    "Binary Number System (Base-2): Used internally by almost all modern computers and digital systems. It uses only 2 symbols : 0 and 1. Each binary digit (bit) represents a power of 2 (e.g., 2⁰, 2¹, 2²…). All data and instructions in a computer are ultimately stored and processed in binary form.",
+    "Binary Number System (Base-2):",
+    "Used internally by almost all modern computers and digital systems.",
+    "Used internally by almost all modern computers and digital systems.",
+    "It uses only 2 symbols : 0 and 1.",
+    "It uses only 2 symbols : 0 and 1.",
+    "Each binary digit (bit) represents a power of 2 (e.g., 2⁰, 2¹, 2²…).",
+    "Each binary digit (bit) represents a power of 2 (e.g., 2⁰, 2¹, 2²…).",
+    "All data and instructions in a computer are ultimately stored and processed in binary form.",
+    "All data and instructions in a computer are ultimately stored and processed in binary form.",
+    "Octal Number System (Base-8): Uses 8 symbols : 0 to 7. Each digit represents a power of 8 (e.g., 8⁰, 8¹, 8²…). It is often used as a shorthand for binary numbers since one octal digit can represent exactly three binary digits (bits). It simplifies the representation of long binary codes.",
+    "Octal Number System (Base-8):",
+    "Uses 8 symbols : 0 to 7.",
+    "Uses 8 symbols : 0 to 7.",
+    "Each digit represents a power of 8 (e.g., 8⁰, 8¹, 8²…).",
+    "Each digit represents a power of 8 (e.g., 8⁰, 8¹, 8²…).",
+    "It is often used as a shorthand for binary numbers since one octal digit can represent exactly three binary digits (bits).",
+    "It is often used as a shorthand for binary numbers since one octal digit can represent exactly three binary digits (bits).",
+    "It simplifies the representation of long binary codes.",
+    "It simplifies the representation of long binary codes.",
+    "Hexadecimal Number System (Base-16): Uses 16 symbols : 0 to 9 and A to F (where A=10, B=11, ..., F=15). Each digit represents a power of 16 (e.g., 16⁰, 16¹, 16²…). It is widely used in programming, memory addressing, and error codes because one hexadecimal digit represents exactly four binary digits.",
+    "Hexadecimal Number System (Base-16):",
+    "Uses 16 symbols : 0 to 9 and A to F (where A=10, B=11, ..., F=15).",
+    "Uses 16 symbols : 0 to 9 and A to F (where A=10, B=11, ..., F=15).",
+    "Each digit represents a power of 16 (e.g., 16⁰, 16¹, 16²…).",
+    "Each digit represents a power of 16 (e.g., 16⁰, 16¹, 16²…).",
+    "It is widely used in programming, memory addressing, and error codes because one hexadecimal digit represents exactly four binary digits.",
+    "It is widely used in programming, memory addressing, and error codes because one hexadecimal digit represents exactly four binary digits.",
+    "Differences and Applications:",
+    "Base : Decimal (10), Binary (2), Octal (8), Hexadecimal (16).",
+    "Base : Decimal (10), Binary (2), Octal (8), Hexadecimal (16).",
+    "Symbols : Binary (0–1), Octal (0–7), Decimal (0–9), Hexadecimal (0–9, A–F).",
+    "Symbols : Binary (0–1), Octal (0–7), Decimal (0–9), Hexadecimal (0–9, A–F).",
+    "Application : Decimal is used by humans. Binary is used by computers. Octal and hexadecimal are used by programmers to simplify binary data representation.",
+    "Application :",
+    "Decimal is used by humans.",
+    "Decimal is used by humans.",
+    "Binary is used by computers.",
+    "Binary is used by computers.",
+    "Octal and hexadecimal are used by programmers to simplify binary data representation.",
+    "Octal and hexadecimal are used by programmers to simplify binary data representation."
+   ]
+  }
+ ]
+}

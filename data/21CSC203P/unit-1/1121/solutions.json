@@ -1,0 +1,100 @@
+{
+ "course": "21CSC203P",
+ "code": "1121",
+ "unit": 1,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Explain key concepts in parallel computing (e.g., threading, concurrency)",
+ "mcq": [
+  {
+   "q": "What is a key challenge when evaluating parallel computing in modern languages?",
+   "options": {
+    "A": "a) Reducing object-oriented features",
+    "B": "b) Handling synchronization, race conditions, and shared resource conflicts",
+    "C": "c) Avoiding any thread usage ​​​​​",
+    "D": "d) Eliminating variable declarations"
+   },
+   "answer": "B",
+   "answer_text": "b) Handling synchronization, race conditions, and shared resource conflicts"
+  },
+  {
+   "q": "How is parallelism typically implemented in modern languages like Java or Python?",
+   "options": {
+    "A": "a) Through manual memory management",
+    "B": "b) Using threading libraries, executors, or multiprocessing modules",
+    "C": "c) By converting code to machine language ​​​​​",
+    "D": "d) Using only loops and conditions"
+   },
+   "answer": "B",
+   "answer_text": "b) Using threading libraries, executors, or multiprocessing modules"
+  },
+  {
+   "q": "What is a thread in the context of parallel programming?",
+   "options": {
+    "A": "a) A data structure for sorting",
+    "B": "b) A single independent path of execution within a program",
+    "C": "c) A wrapper class for variables ​​​​​",
+    "D": "d) A type of database connection"
+   },
+   "answer": "B",
+   "answer_text": "b) A single independent path of execution within a program"
+  },
+  {
+   "q": "Which of the following best describes concurrency?",
+   "options": {
+    "A": "a) Tasks are executed in strict order",
+    "B": "b) Tasks are scheduled to appear as if they are running simultaneously",
+    "C": "c) Only one thread is used per program ​​​​​",
+    "D": "d) Execution is done without any synchronization"
+   },
+   "answer": "B",
+   "answer_text": "b) Tasks are scheduled to appear as if they are running simultaneously"
+  },
+  {
+   "q": "What is the main goal of parallel computing?",
+   "options": {
+    "A": "a) To use more memory",
+    "B": "b) To execute tasks sequentially",
+    "C": "c) To perform multiple tasks simultaneously for faster performance ​​​​​",
+    "D": "d) To simplify code structure"
+   },
+   "answer": "C",
+   "answer_text": "c) To perform multiple tasks simultaneously for faster performance ​​​​​"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A chat application needs to store user messages for future retrieval. How does object serialization fulfill this requirement?",
+   "answer": [
+    "Serialization converts objects into a storable format (e.g., binary or JSON), enabling persistent storage and easy reconstruction of object state when needed."
+   ]
+  },
+  {
+   "q": "A web server must handle file uploads from multiple clients simultaneously. What approach ensures better efficiency in this scenario?",
+   "answer": [
+    "Implementing multi-threading allows concurrent uploads, while serialization can be used to store metadata for tracking and recovery, improving throughput and reliability."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A chat application requires objects to be sent over a network and support for concurrent message handling. Explain how serialization and parallel threads can be integrated to achieve secure and efficient",
+   "answer": [
+    "class Message implements Serializable { private String sender; private String content; } class ReceiveThread extends Thread { public void run() { // read and deserialize messages } }",
+    "class Message implements Serializable { private String sender; private String content; } class ReceiveThread extends Thread { public void run() { // read and deserialize messages } }",
+    "Security : Use ObjectInputStream with input validation. Employ encryption (e.g., TLS) during transmission.",
+    "Security :",
+    "Use ObjectInputStream with input validation.",
+    "Use ObjectInputStream with input validation.",
+    "Employ encryption (e.g., TLS) during transmission.",
+    "Employ encryption (e.g., TLS) during transmission.",
+    "Efficiency : Thread pool management ensures responsiveness and parallelism. Proper synchronization avoids data races.",
+    "Efficiency :",
+    "Thread pool management ensures responsiveness and parallelism.",
+    "Thread pool management ensures responsiveness and parallelism.",
+    "Proper synchronization avoids data races.",
+    "Proper synchronization avoids data races."
+   ]
+  }
+ ]
+}

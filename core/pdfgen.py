@@ -25,7 +25,7 @@ def _esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 def db_entry(course, code):
-    path = os.path.join(ROOT, "db", course, f"{code}.json")
+    path = os.path.join(ROOT, "data", course, f"unit-{code[0]}", code, "boilerplate.json")
     if not os.path.exists(path):
         return None
     with open(path) as f:
@@ -54,7 +54,17 @@ def render(course, code, name, reg, outdir):
     return path
 
 def available_codes(course):
-    d = os.path.join(ROOT, "db", course)
-    if not os.path.isdir(d):
+    """Worksheet codes that have PDF answer-key boilerplate, from
+    data/<course>/unit-N/<code>/boilerplate.json."""
+    base = os.path.join(ROOT, "data", course)
+    if not os.path.isdir(base):
         return []
-    return sorted(f[:-5] for f in os.listdir(d) if f.endswith(".json"))
+    out = []
+    for unit in os.listdir(base):
+        udir = os.path.join(base, unit)
+        if not unit.startswith("unit-") or not os.path.isdir(udir):
+            continue
+        for code in os.listdir(udir):
+            if os.path.exists(os.path.join(udir, code, "boilerplate.json")):
+                out.append(code)
+    return sorted(out)

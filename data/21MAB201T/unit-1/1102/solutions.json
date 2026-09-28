@@ -1,0 +1,90 @@
+{
+ "course": "21MAB201T",
+ "code": "1102",
+ "unit": 1,
+ "session": 10,
+ "slo": 2,
+ "slo_title": " Type 3: x^m, y^n",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Find P.I. of } (D^2+DD'-6D'^2)z=\\cos(2x+y)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Put } D^2=-4, DD'=-2, D'^2=-1\\)",
+    "(2 Mark)",
+    "\\(\\text{Then } F(-4,-2,-1)=-4-(-2)-6(-1)=4\\)",
+    "(2 Mark)",
+    "\\(\\text{P.I. }=\\frac{1}{4}\\cos(2x+y)\\)",
+    "(1 Mark)"
+   ]
+  },
+  {
+   "q": "",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Solve $(D^2-2DD'+D'^2-2D-2D')z=\\sin(x+2y).$}\\)",
+   "answer": []
+  }
+ ]
+}

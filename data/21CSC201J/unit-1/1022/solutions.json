@@ -1,0 +1,198 @@
+{
+ "course": "21CSC201J",
+ "code": "1022",
+ "unit": 1,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Understand about the Array of Structure",
+ "mcq": [
+  {
+   "q": "Which of the following correctly allocates a 2D array dynamically in C?",
+   "options": {
+    "A": "int** matrix = (int**)malloc(10 * sizeof(int*));",
+    "B": "int* matrix = (int*)malloc(10 * 10 * sizeof(int));",
+    "C": "int matrix[10][10];",
+    "D": "int** matrix = (int*)malloc(10 * 10 * sizeof(int));"
+   },
+   "answer": "A",
+   "answer_text": "int** matrix = (int**)malloc(10 * sizeof(int*));"
+  },
+  {
+   "q": "A structure Car is defined as: struct Car { char model[20]; int year; }; Which of the following correctly initializes a structure variable?",
+   "options": {
+    "A": "struct Car car1 = { \"Toyota\", 2022 };",
+    "B": "Car car1; car1.model = \"Toyota\";",
+    "C": "Car car1 = { 2022, \"Toyota\" };",
+    "D": "struct Car car1 = \"Toyota\", 2022"
+   },
+   "answer": "A",
+   "answer_text": "struct Car car1 = { \"Toyota\", 2022 };"
+  },
+  {
+   "q": "Which operator is used to access structure members through a pointer",
+   "options": {
+    "A": "dot(.)",
+    "B": "*",
+    "C": "->",
+    "D": "&"
+   },
+   "answer": "C",
+   "answer_text": "->"
+  },
+  {
+   "q": "Consider the following C structure: struct Node { int data; struct Node *next; }; What is the purpose of the struct Node *next member in the Node structure",
+   "options": {
+    "A": "To store the data of the next node",
+    "B": "To store the address of the previous node",
+    "C": "To store the address of the next node",
+    "D": "To store the address of the current node"
+   },
+   "answer": "A",
+   "answer_text": "To store the data of the next node"
+  },
+  {
+   "q": "Consider the following code snippet: struct Item { int id; float price; } item1 = {101, 25.5}; How would you access price using a pointer ptr to item1",
+   "options": {
+    "A": "ptr.price;",
+    "B": "*ptr.price;",
+    "C": "ptr->price;",
+    "D": "item1->price;"
+   },
+   "answer": "C",
+   "answer_text": "ptr->price;"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain how structures are used in C programming to organize and manage related data. Illustrate your explanation with an example that involves defining a structure, initializing it, and accessing its members",
+   "answer": [
+    "Defining a Structure",
+    "#include <stdio.h>",
+    "// Define the structure struct Student",
+    "{",
+    "char name[50];",
+    "int age;",
+    "float gpa;",
+    "};",
+    "Initializing a Structure",
+    "You can initialize a structure when you declare a variable of that structure type.",
+    "int main()",
+    "{",
+    "// Declare and initialize a structure variable",
+    "struct Student student1 = {\"Alice\", 20, 3.8};",
+    "// Alternatively, you can declare and then initialize later",
+    "struct Student student2;",
+    "student2.age = 22;",
+    "student2.gpa = 3.6;",
+    "// U se strcpy to assign a string to a character array",
+    "strcpy(student2.name, \"Bob\");",
+    "// Accessing and printing the members",
+    "printf(\"Student 1: %s, Age: %d, GPA: %.2f\\n\", student1.name, student1.age, student1.gpa);",
+    "printf(\"Student 2: %s, Age: %d, GPA: %.2f\\n\", student2.name, student2.age, student2.gpa);",
+    "return 0;",
+    "}",
+    "Accessing Members",
+    "Direct Access: Use the dot operator to access members of a structure.",
+    "· Example:",
+    "o student1.name accesses the name of student1.",
+    "o student2.gpa accesses the gpa of student2."
+   ]
+  },
+  {
+   "q": "Write a C program to define a structure for a student record and access the members using a structure variable",
+   "answer": [
+    "#include<stdio.h> #include <string.h> struct student { int rollno; char name[10]; }; int main() { int i; struct student st[5]; printf(\"Enter Records of 5 students\"); for(i=0;i<5;i++) { printf(\"\\nEnter Rollno:\"); scanf(\"%d\",&st[i].rollno); printf(\"\\nEnter Name:\"); scanf(\"%s\",&st[i].name); } printf(\"\\nStudent Information List:\"); for(i=0;i<5;i++) { printf(\"\\nRollno:%d, Name:%s\",st[i].rollno,st[i].name); } return 0; } Output: Enter Records of 5 students Enter Rollno:1 Enter Name:Sonoo Enter Rollno:2 Enter Name:Ratan Enter Rollno:3 Enter Name:Vimal Enter Rollno:4 Enter Name:James Enter Rollno:5 Enter Name:Sarfraz Student Information List: Rollno:1, Name:Sonoo Rollno:2, Name:Ratan Rollno:3, Name:Vimal Rollno:4, Name:James Rollno:5, Name:Sarfraz"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing an inventory management system for a small retail store. The system needs to manage a list of products, where each product has a unique product ID. The store manager requires the following to be performed. Insertion: A new product needs to be added to the inventory. The system should place the product in the appropriate position to keep the list sorted by product ID. Deletion: Occasionally, products may be discontinued or removed from the inventory. The system should allow the manager to delete a product by its product ID, adjusting the list accordingly. Traversal: The manager wants to view the entire inventory list, displaying each product's details in order of product ID. Describe how you would implement these operations using an array-based approach in C. Explain the steps involved in each operation and how the array data structure supports efficient management of the inventory.",
+   "answer": [
+    "Product Structure",
+    "#include <stdio.h> #include <string.h>",
+    "#define MAX_PRODUCTS 100 // Maximum number of products in the inventory typedef struct {",
+    "int productID;",
+    "char name[50]; int quantity; double price;",
+    "} Product;",
+    "Array-Based Inventory",
+    "Product inventory[MAX_PRODUCTS];",
+    "int productCount = 0; // To keep track of the number of products in the inventory",
+    "Insertion: Adding a New Product",
+    "void insertProduct(Product newProduct) {",
+    "if (productCount == MAX_PRODUCTS) { printf(\"Inventory is full. Cannot add new product.\\n\"); return;",
+    "}",
+    "int i;",
+    "// Find the correct position for the new product",
+    "for (i = productCount - 1; (i >= 0 && inventory[i].productID > newProduct.productID); i--) { inventory[i + 1] = inventory[i]; // Shift elements to the right",
+    "}",
+    "// Insert the new product inventory[i + 1] = newProduct;",
+    "productCount++; // Increment the product count",
+    "}",
+    "Deletion: Removing a Product by Product ID -",
+    "void deleteProduct(int productID) { int i, pos = -1;",
+    "// Find the product by its ID",
+    "for (i = 0; i < productCount; i++) {",
+    "if (inventory[i].productID == productID) { pos = i;",
+    "break;",
+    "}",
+    "}",
+    "// If product not found if (pos == -1) {",
+    "printf(\"Product with ID %d not found in inventory.\\n\", productID); return;",
+    "}",
+    "// Shift elements to the left to fill the gap for (i = pos; i < productCount - 1; i++) {",
+    "inventory[i] = inventory[i + 1];",
+    "}",
+    "productCount--; // Decrement the product count",
+    "}",
+    "Traversal: Displaying the Inventory List void displayInventory() { if (productCount == 0) {",
+    "printf(\"Inventory is empty.\\n\"); return;",
+    "}",
+    "printf(\"Inventory List:\\n\"); printf(\"ID\\tName\\t\\tQuantity\\tPrice\\n\"); printf(\" \\n\");",
+    "for (int i = 0; i < productCount; i++) { printf(\"%d\\t%s\\t\\t%d\\t\\t%.2f\\n\", inventory[i].productID,",
+    "inventory[i].name, inventory[i].quantity, inventory[i].price);",
+    "}",
+    "}",
+    "Example",
+    "int main() {",
+    "Product p1 = {101, \"Apple\", 50, 0.5};",
+    "Product p2 = {102, \"Banana\", 30, 0.2};",
+    "Product p3 = {100, \"Orange\", 40, 0.3};",
+    "insertProduct(p1); insertProduct(p2); insertProduct(p3);",
+    "printf(\"After Insertion:\\n\"); displayInventory();",
+    "deleteProduct(102);",
+    "printf(\"\\nAfter Deletion:\\n\"); displayInventory();",
+    "return 0;",
+    "}",
+    "Output:",
+    "mathematica Copy code After Insertion: Inventory List: ID Name",
+    "Quantity",
+    "Price",
+    "100 Orange",
+    "40",
+    "0.30",
+    "101",
+    "Apple",
+    "50",
+    "0.50",
+    "102",
+    "Banana",
+    "30",
+    "0.20",
+    "After Deletion: Inventory List:",
+    "ID",
+    "Name",
+    "Quantity",
+    "Price",
+    "100",
+    "Orange",
+    "40",
+    "0.30",
+    "101",
+    "Apple",
+    "50",
+    "0.50"
+   ]
+  }
+ ]
+}

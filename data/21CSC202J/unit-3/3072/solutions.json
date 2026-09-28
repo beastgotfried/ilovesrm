@@ -1,0 +1,110 @@
+{
+ "course": "21CSC202J",
+ "code": "3072",
+ "unit": 3,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "Solve numerical problems using SJF scheduling",
+ "mcq": [
+  {
+   "q": "In SJF with arrival times: A(0,3), B(1,6), C(4,4), D(6,2) Which process runs second ?",
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "D"
+   },
+   "answer": "B",
+   "answer_text": "B"
+  },
+  {
+   "q": "In FCFS, which process executes first among the following? Process A (AT=2), B (AT=0), C (AT=1)",
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "Depends on burst time"
+   },
+   "answer": "B",
+   "answer_text": "B"
+  },
+  {
+   "q": "What is the basic principle of FCFS scheduling ?",
+   "options": {
+    "A": "Shortest burst time gets priority",
+    "B": "Highest priority gets the CPU",
+    "C": "Processes are served in the order they arrive",
+    "D": "Time is equally distributed among all processes"
+   },
+   "answer": "C",
+   "answer_text": "Processes are served in the order they arrive"
+  },
+  {
+   "q": "In non-preemptive SJF , what determines the next process to execute?",
+   "options": {
+    "A": "Arrival time",
+    "B": "Priority value",
+    "C": "Shortest burst time among available processes",
+    "D": "Longest burst time"
+   },
+   "answer": "C",
+   "answer_text": "Shortest burst time among available processes"
+  },
+  {
+   "q": "Given: P1 (BT=8), P2 (BT=7), P3 (BT=2), P4 (BT=4) Using SJF (no arrival time), what is the order of execution ?",
+   "options": {
+    "A": "P1 → P2 → P3 → P4",
+    "B": "P3 → P4 → P2 → P1",
+    "C": "P2 → P1 → P3 → P4",
+    "D": "P4 → P3 → P1 → P2"
+   },
+   "answer": "B",
+   "answer_text": "P3 → P4 → P2 → P1"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Given the following processes, apply non-preemptive SJF and calculate the average waiting time and turnaround time .",
+   "answer": [
+    "Correct execution order with Gantt chart – 30%",
+    "Correct execution order with Gantt chart – 30%",
+    "Individual WT and TAT calculations – 40%",
+    "Individual WT and TAT calculations – 40%",
+    "Correct average WT and TAT (6.75 ms each) – 20%",
+    "Correct average WT and TAT (6.75 ms each) – 20%",
+    "Logical explanation – 10%",
+    "Logical explanation – 10%"
+   ]
+  },
+  {
+   "q": "Explain how the FCFS scheduling algorithm calculates waiting time and turnaround time for each process.",
+   "answer": [
+    "Explanation of FCFS working (arrival-based scheduling) – 25%",
+    "Explanation of FCFS working (arrival-based scheduling) – 25%",
+    "Formula for waiting time: WT = StartTime - ArrivalTime – 25%",
+    "Formula for waiting time: WT = StartTime - ArrivalTime – 25%",
+    "Formula for turnaround time: TAT = CompletionTime - ArrivalTime – 25%",
+    "Formula for turnaround time: TAT = CompletionTime - ArrivalTime – 25%",
+    "Use of Gantt chart to visualize order – 25%",
+    "Use of Gantt chart to visualize order – 25%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Compare and contrast FCFS and SJF scheduling algorithms based on the following aspects: Scheduling criteria and order Scheduling criteria and order Use of arrival and burst times Use of arrival and burst times Fairness and starvation Fairness and starvation Waiting and turnaround time performance Waiting and turnaround time performance Example execution (based on class/lab problems) Example execution (based on class/lab problems)",
+   "answer": [
+    "Explanation of scheduling logic (criteria, use of arrival/burst time) – 20%",
+    "Explanation of scheduling logic (criteria, use of arrival/burst time) – 20%",
+    "Discussion on fairness and starvation – 20%",
+    "Discussion on fairness and starvation – 20%",
+    "Comparative performance on waiting and turnaround time – 20%",
+    "Comparative performance on waiting and turnaround time – 20%",
+    "Example (like Problem 1 or 2 for FCFS and SJF) with WT/TAT – 20%",
+    "Example (like Problem 1 or 2 for FCFS and SJF) with WT/TAT – 20%",
+    "Final summary of key differences – 20%",
+    "Final summary of key differences – 20%"
+   ]
+  }
+ ]
+}

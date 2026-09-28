@@ -1,0 +1,111 @@
+{
+ "course": "21CSC202J",
+ "code": "2101",
+ "unit": 2,
+ "session": 10,
+ "slo": 1,
+ "slo_title": "Explain the need for process synchronization in OS",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "unlimited",
+    "D": "4"
+   },
+   "answer": "B",
+   "answer_text": "2"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Section where a process waits",
+    "B": "Section where a process terminates",
+    "C": "Section where shared resources are accessed",
+    "D": "Section for I/O handling"
+   },
+   "answer": "C",
+   "answer_text": "Section where shared resources are accessed"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Speed up execution",
+    "B": "Reduce memory usage",
+    "C": "Avoid conflicts while accessing shared resources",
+    "D": "Allocate CPU time fairly"
+   },
+   "answer": "C",
+   "answer_text": "Avoid conflicts while accessing shared resources"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Mutual exclusion",
+    "B": "Deadlock",
+    "C": "Progress",
+    "D": "Bounded waiting"
+   },
+   "answer": "B",
+   "answer_text": "Deadlock"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Semaphore",
+    "B": "Thread pool",
+    "C": "Kernel",
+    "D": "Compiler"
+   },
+   "answer": "A",
+   "answer_text": "Semaphore"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Mutual Exclusion: Only one process can enter the critical section at a time.",
+    "Mutual Exclusion: Only one process can enter the critical section at a time.",
+    "Progress: If no process is in the critical section, then the selection of the next process cannot be postponed indefinitely.",
+    "Progress: If no process is in the critical section, then the selection of the next process cannot be postponed indefinitely.",
+    "Bounded Waiting: A process waiting to enter the critical section should be limited to a finite number of turns.",
+    "Bounded Waiting: A process waiting to enter the critical section should be limited to a finite number of turns."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "A critical section is a segment of code in which a process accesses shared resources (like variables, files, or devices). Only one process should execute in the critical section at a time to avoid race conditions ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the concept of process synchronization. Describe the working of synchronization using semaphores and explain the critical section problem along with its requirements.",
+   "answer": [
+    "In a multi-process system, process synchronization ensures that concurrent processes accessing shared resources (like memory or files) do so without conflicts or inconsistencies . It prevents issues such as race conditions , deadlocks , and data corruption .",
+    "The critical section is the part of the program where a process accesses shared resources . The critical section problem is to design a protocol that ensures only one process is in its critical section at any given time.",
+    "Mutual Exclusion: No two processes should enter their critical sections at the same time.",
+    "Mutual Exclusion: No two processes should enter their critical sections at the same time.",
+    "Progress: If no process is in the critical section, others waiting should be allowed to enter without unnecessary delay.",
+    "Progress: If no process is in the critical section, others waiting should be allowed to enter without unnecessary delay.",
+    "Bounded Waiting: There should be a limit on how many times other processes can enter the critical section before a waiting process is allowed.",
+    "Bounded Waiting: There should be a limit on how many times other processes can enter the critical section before a waiting process is allowed.",
+    "A semaphore is a synchronization tool that controls access using two operations:",
+    "wait() (or P )",
+    "wait() (or P )",
+    "signal() (or V )",
+    "signal() (or V )",
+    "#include <stdio.h> #include <pthread.h> #include <semaphore.h> sem_t mutex; void* critical_section(void* arg) { sem_wait(&mutex); // Entering critical section printf(\"Process %d in critical section\\n\", *(int*)arg); sleep(1); sem_post(&mutex); // Exiting critical section return NULL; } int main() { pthread_t t1, t2; int a = 1, b = 2; sem_init(&mutex, 0, 1); pthread_create(&t1, NULL, critical_section, &a); pthread_create(&t2, NULL, critical_section, &b); pthread_join(t1, NULL); pthread_join(t2, NULL); sem_destroy(&mutex); return 0; }",
+    "sem_wait() locks the critical section so only one thread can enter.",
+    "sem_wait() locks the critical section so only one thread can enter.",
+    "Other threads wait until sem_post() is called.",
+    "Other threads wait until sem_post() is called.",
+    "This ensures mutual exclusion and safe access to shared resources.",
+    "This ensures mutual exclusion and safe access to shared resources."
+   ]
+  }
+ ]
+}

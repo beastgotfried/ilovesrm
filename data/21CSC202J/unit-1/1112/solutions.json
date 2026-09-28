@@ -1,0 +1,112 @@
+{
+ "course": "21CSC202J",
+ "code": "1112",
+ "unit": 1,
+ "session": 11,
+ "slo": 2,
+ "slo_title": "Classify system calls (process control, file manipulation, device management, etc.)",
+ "mcq": [
+  {
+   "q": "The open() system call belongs to which category of system calls?",
+   "options": {
+    "A": "Process Control",
+    "B": "File Management",
+    "C": "Device Management",
+    "D": "Protection"
+   },
+   "answer": "B",
+   "answer_text": "File Management"
+  },
+  {
+   "q": "Which is the correct sequence of system call execution?",
+   "options": {
+    "A": "User Program → Direct Hardware Access → Kernel Response",
+    "B": "User Program → Trap Instruction → Kernel Service Routine → Return to User Program",
+    "C": "User Program → User Library → Kernel Mode without trap",
+    "D": "Kernel Mode → User Program → Hardware"
+   },
+   "answer": "B",
+   "answer_text": "User Program → Trap Instruction → Kernel Service Routine → Return to User Program"
+  },
+  {
+   "q": "What happens when a system call is invoked by a user program?",
+   "options": {
+    "A": "The program directly accesses hardware resources",
+    "B": "The control is transferred from user mode to kernel mode via a trap instruction",
+    "C": "The user program executes privileged instructions in user mode",
+    "D": "The system call bypasses the operating system"
+   },
+   "answer": "B",
+   "answer_text": "The control is transferred from user mode to kernel mode via a trap instruction"
+  },
+  {
+   "q": "What happens if a system call fails during its execution?",
+   "options": {
+    "A": "The system ignores the error",
+    "B": "Kernel automatically reboots",
+    "C": "The kernel returns an error code or exception to the calling process",
+    "D": "User program is terminated without notice"
+   },
+   "answer": "C",
+   "answer_text": "The kernel returns an error code or exception to the calling process"
+  },
+  {
+   "q": "The chmod() system call is typically used for:",
+   "options": {
+    "A": "Creating a file",
+    "B": "Changing file permissions",
+    "C": "Reading a file",
+    "D": "Terminating a process"
+   },
+   "answer": "B",
+   "answer_text": "Changing file permissions"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the purpose of File Management system calls?",
+   "answer": [
+    "They handle file creation, deletion, reading, writing, and permission changes. Examples: open() , read() , write() , close() , chmod()"
+   ]
+  },
+  {
+   "q": "What is the typical sequence of operations during a system call?",
+   "answer": [
+    "User program requests system call (API).",
+    "Trap instruction switches to kernel mode.",
+    "Kernel identifies and executes the requested service.",
+    "Result (if any) is returned to user program.",
+    "Control switches back to user mode."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the working of system calls in operating systems. How do they facilitate secure interaction between user applications and kernel services? Illustrate their operational flow with suitable explanation.",
+   "answer": [
+    "The working of a system call involves a systematic transition of control from the user application to the kernel and back. This controlled interaction ensures security, resource protection, and process isolation.",
+    "When a user program needs a service — such as reading a file, creating a process, or allocating memory — it makes a system call request via an API provided by standard libraries (e.g., printf() internally uses write() system call in UNIX-like systems).",
+    "Instead of executing privileged instructions directly, the program executes a special trap instruction .",
+    "This causes a software interrupt , transferring control from user mode to kernel mode .",
+    "The processor switches the mode to allow privileged operations.",
+    "The OS identifies the requested system call using a system call number passed by the user program.",
+    "The system call interface (SCI) in the kernel maps this number to the corresponding system call handler.",
+    "The kernel validates parameters, checks permissions, and ensures the request complies with security policies.",
+    "The kernel performs the requested operation, such as reading from a file, creating a process, or allocating memory.",
+    "If successful, the kernel prepares the result.",
+    "If an error occurs, an appropriate error code is generated.",
+    "After executing the system call, control is returned to the user program with the result or error code.",
+    "The processor switches back to user mode , restoring the execution state of the application.",
+    "Protection: Prevents user programs from corrupting system resources.",
+    "Security: Ensures that only validated, authorized operations are executed.",
+    "Controlled Access: Enforces process isolation and access control policies.",
+    "User calls read() function.",
+    "read() internally triggers a system call trap .",
+    "The kernel reads the file and retrieves data.",
+    "The data is returned to the user space.",
+    "Control returns to the next instruction in the user program.",
+    "Figure1: System call Implementation"
+   ]
+  }
+ ]
+}

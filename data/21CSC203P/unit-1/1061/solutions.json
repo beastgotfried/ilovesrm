@@ -1,0 +1,95 @@
+{
+ "course": "21CSC203P",
+ "code": "1061",
+ "unit": 1,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Explain declarative logic programming (e.g., Prolog)",
+ "mcq": [
+  {
+   "q": "Which language is most commonly associated with functional programming?",
+   "options": {
+    "A": "a) Prolog",
+    "B": "b) C++",
+    "C": "c) Haskell ​​​​​​​",
+    "D": "d) SQL"
+   },
+   "answer": "C",
+   "answer_text": "c) Haskell ​​​​​​​"
+  },
+  {
+   "q": "What is a higher-order function?",
+   "options": {
+    "A": "a) A function that only returns numbers",
+    "B": "b) A function that can take other functions as arguments or return them",
+    "C": "c) A class method in object-oriented programming ​​​​​​​ ​​​​​​​",
+    "D": "d) A loop used in logic programming"
+   },
+   "answer": "B",
+   "answer_text": "b) A function that can take other functions as arguments or return them"
+  },
+  {
+   "q": "Which of the following is a basic element in a Prolog program?",
+   "options": {
+    "A": "a) Loop",
+    "B": "b) Class",
+    "C": "c) Fact and Rule ​​​​​​​",
+    "D": "d) Method"
+   },
+   "answer": "C",
+   "answer_text": "c) Fact and Rule ​​​​​​​"
+  },
+  {
+   "q": "In declarative programming, such as Prolog, you:",
+   "options": {
+    "A": "a) Describe how to do something step-by-step",
+    "B": "b) Focus on defining what the result should be",
+    "C": "c) Always use loops and variables ​​​​​​​",
+    "D": "d) Avoid using any rules or logic"
+   },
+   "answer": "B",
+   "answer_text": "b) Focus on defining what the result should be"
+  },
+  {
+   "q": "What is recursion in functional programming?",
+   "options": {
+    "A": "a) A process of repeating loops using for",
+    "B": "b) A function calling itself to solve smaller problems",
+    "C": "c) A process of assigning global variables ​​​​​​​",
+    "D": "d) A way to declare objects"
+   },
+   "answer": "B",
+   "answer_text": "b) A function calling itself to solve smaller problems"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A legal compliance system must verify adherence to numerous regulations. Why is logic programming appropriate for this purpose?",
+   "answer": [
+    "Regulations can be encoded as facts and rules, allowing logical evaluation and automated reasoning to validate whether constraints are met."
+   ]
+  },
+  {
+   "q": "A medical diagnosis system needs to infer conditions based on symptoms. How is logic programming beneficial in such a scenario?",
+   "answer": [
+    "Logic programming allows expressing medical rules as logical clauses, and the inference engine derives diagnoses using backtracking and pattern matching without procedural control flow."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Develop a rule-based medical diagnosis system using logic programming. Justify the choice of this paradigm and provide a sample rule along with its reasoning process.",
+   "answer": [
+    "Logic programming is suitable for rule-based systems as it allows defining relationships and rules declaratively. Prolog can be used to express medical knowledge:",
+    "symptom(john, fever). symptom(john, rash). diagnosis(Patient, measles) :- symptom(Patient, fever), symptom(Patient, rash).",
+    "In this example, john has symptoms of fever and rash.",
+    "In this example, john has symptoms of fever and rash.",
+    "The rule defines that if a patient has both symptoms, the diagnosis is measles .",
+    "The rule defines that if a patient has both symptoms, the diagnosis is measles .",
+    "When queried as diagnosis(john, Disease) , the system returns measles .",
+    "When queried as diagnosis(john, Disease) , the system returns measles .",
+    "This paradigm emphasizes declarative rule definition , automatic inference , and logical deduction ."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "course": "21CSC202J",
+ "code": "4091",
+ "unit": 4,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Explain different frame allocation strategies",
+ "mcq": [
+  {
+   "q": "Which is a commonly used slab allocator technique in kernel memory management?",
+   "options": {
+    "A": "Divide and conquer",
+    "B": "Page coloring",
+    "C": "Caching pre-allocated memory chunks for object types",
+    "D": "Random fit"
+   },
+   "answer": "C",
+   "answer_text": "Caching pre-allocated memory chunks for object types"
+  },
+  {
+   "q": "Kernel memory differs from user memory because:",
+   "options": {
+    "A": "It is paged",
+    "B": "It is allocated in small, frequently-used chunks",
+    "C": "It is handled by FIFO",
+    "D": "It’s stored in the swap space"
+   },
+   "answer": "B",
+   "answer_text": "It is allocated in small, frequently-used chunks"
+  },
+  {
+   "q": "A major limitation of the buddy system is:",
+   "options": {
+    "A": "External fragmentation",
+    "B": "Internal fragmentation due to power-of-2 allocation",
+    "C": "No support for paging",
+    "D": "No process isolation"
+   },
+   "answer": "B",
+   "answer_text": "Internal fragmentation due to power-of-2 allocation"
+  },
+  {
+   "q": "Which is a commonly used slab allocator technique in kernel memory management?",
+   "options": {
+    "A": "Divide and conquer",
+    "B": "Page coloring",
+    "C": "Caching pre-allocated memory chunks for object types",
+    "D": "Random fit"
+   },
+   "answer": "C",
+   "answer_text": "Caching pre-allocated memory chunks for object types"
+  },
+  {
+   "q": "Which technique handles allocation when total memory frames are limited?",
+   "options": {
+    "A": "Copy-on-Write",
+    "B": "Page Fault Frequency",
+    "C": "Thrashing",
+    "D": "Segmentation"
+   },
+   "answer": "B",
+   "answer_text": "Page Fault Frequency"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define global and local page replacement. How do they differ in frame allocation?.",
+   "answer": [
+    "Global replacement allows processes to steal frames from others.",
+    "Global replacement allows processes to steal frames from others.",
+    "Local replacement restricts replacement to a process's own frames . Global offers flexibility, while local improves isolation.",
+    "Local replacement restricts replacement to a process's own frames . Global offers flexibility, while local improves isolation.",
+    "Mark Allocation:",
+    "Mark Allocation:",
+    "Definitions – 40%",
+    "Definitions – 40%",
+    "Difference clearly stated – 40%",
+    "Difference clearly stated – 40%",
+    "Correct terms (stealing/isolation) – 20%",
+    "Correct terms (stealing/isolation) – 20%"
+   ]
+  },
+  {
+   "q": "List any two kernel memory allocation methods and describe briefly.",
+   "answer": [
+    "Buddy System – Allocates memory in power-of-2 sized blocks , easy to split/merge.",
+    "Buddy System – Allocates memory in power-of-2 sized blocks , easy to split/merge.",
+    "Slab Allocation – Divides memory into caches/slabs for frequently used kernel objects (efficient reuse).",
+    "Slab Allocation – Divides memory into caches/slabs for frequently used kernel objects (efficient reuse).",
+    "Mark Allocation:",
+    "Correct names of both methods – 40%",
+    "Correct names of both methods – 40%",
+    "Key logic/benefit of each – 60%",
+    "Key logic/benefit of each – 60%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the different strategies for allocation of frames in memory management.",
+   "answer": [
+    "Frame allocation refers to how the operating system distributes available physical memory frames among active processes .(20%)",
+    "The goal is to ensure fairness , minimize page faults , and optimize system performance .",
+    "Every process gets the same number of frames , regardless of size or need.",
+    "Every process gets the same number of frames , regardless of size or need.",
+    "Simple to implement.",
+    "Simple to implement.",
+    "❌ May lead to inefficiency for large processes and wastage for small ones.",
+    "❌ May lead to inefficiency for large processes and wastage for small ones.",
+    "Example:",
+    "If 100 frames are available and 5 processes → each gets 20 frames.",
+    "If 100 frames are available and 5 processes → each gets 20 frames.",
+    "Frames are allocated based on the size of the process.",
+    "Frames are allocated based on the size of the process.",
+    "A process with larger memory needs gets more frames .",
+    "A process with larger memory needs gets more frames .",
+    "Formula:",
+    "More efficient than equal allocation.",
+    "Processes with higher priority are given more frames .",
+    "Processes with higher priority are given more frames .",
+    "Used in real-time or mission-critical systems.",
+    "Used in real-time or mission-critical systems.",
+    "Global Allocation: A process can take frames from any process (shared pool).",
+    "Global Allocation: A process can take frames from any process (shared pool).",
+    "Local Allocation: A process is limited to its own allocated frames.",
+    "Local Allocation: A process is limited to its own allocated frames.",
+    "✅ Global → better overall usage ❌ Global → higher risk of thrashing"
+   ]
+  }
+ ]
+}

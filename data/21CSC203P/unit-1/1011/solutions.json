@@ -1,0 +1,100 @@
+{
+ "course": "21CSC203P",
+ "code": "1011",
+ "unit": 1,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Understand the foundational concepts and elements of programming languages",
+ "mcq": [
+  {
+   "q": "What is the purpose of variables in programming?",
+   "options": {
+    "A": "a) To store data temporarily",
+    "B": "b) To decorate the code",
+    "C": "c) To print text",
+    "D": "d) To delete files"
+   },
+   "answer": "A",
+   "answer_text": "a) To store data temporarily"
+  },
+  {
+   "q": "What is a programming language?",
+   "options": {
+    "A": "a)A tool to build hardware",
+    "B": "b) A set of instructions to communicate with computers",
+    "C": "c) A language spoken by developers",
+    "D": "d) A type of operating systemeHere"
+   },
+   "answer": "B",
+   "answer_text": "b) A set of instructions to communicate with computers"
+  },
+  {
+   "q": "What does a compiler do?",
+   "options": {
+    "A": "a) Sends email",
+    "B": "b) Converts code into human language",
+    "C": "c) Converts high-level code into machine code",
+    "D": "d) Formats the text"
+   },
+   "answer": "C",
+   "answer_text": "c) Converts high-level code into machine code"
+  },
+  {
+   "q": "Which of the following is a basic element of a programming language?",
+   "options": {
+    "A": "a) Router",
+    "B": "b) Compiler",
+    "C": "c) Syntax",
+    "D": "d) Hard disk"
+   },
+   "answer": "C",
+   "answer_text": "c) Syntax"
+  },
+  {
+   "q": "Which one is NOT a programming language?",
+   "options": {
+    "A": "a) Python",
+    "B": "b) Java",
+    "C": "c) HTML",
+    "D": "d) Microsoft Word"
+   },
+   "answer": "D",
+   "answer_text": "d) Microsoft Word"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain the key differences between syntax and semantics in programming languages. Give examples to support your answer.",
+   "answer": [
+    "Syntax refers to the structure or form of code—how symbols, keywords, and characters are arranged according to language rules. Example: In C++, int x = 5; is syntactically correct, but int = x 5; is not.",
+    "Syntax refers to the structure or form of code—how symbols, keywords, and characters are arranged according to language rules.",
+    "Example: In C++, int x = 5; is syntactically correct, but int = x 5; is not.",
+    "Example: In C++, int x = 5; is syntactically correct, but int = x 5; is not.",
+    "Semantics refers to the meaning of the syntactically correct statements—what the code does. Example: x = y + z; is syntactically correct, but if y and z are not defined, it has a semantic error .",
+    "Semantics refers to the meaning of the syntactically correct statements—what the code does.",
+    "Example: x = y + z; is syntactically correct, but if y and z are not defined, it has a semantic error .",
+    "Example: x = y + z; is syntactically correct, but if y and z are not defined, it has a semantic error .",
+    "Key Difference:",
+    "Syntax errors are caught at compile time , while semantic errors may be detected at runtime or result in incorrect behavior.",
+    "Syntax errors are caught at compile time , while semantic errors may be detected at runtime or result in incorrect behavior."
+   ]
+  },
+  {
+   "q": "You’re building a contact management system. Which paradigm would you use and why?",
+   "answer": [
+    "I would use the object-oriented paradigm , as contacts can be modeled as objects with attributes like name, phone, and email. It enables encapsulation and easier data manipulation."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A student is learning Java and writes a program that creates an object of a class without using a constructor explicitly. Later, she adds a parameterized constructor and finds that the program throws an error when creating an object without arguments. Explain why this happens, and write Java code to demonstrate the issue and the correct solution.",
+   "answer": [
+    "class Student { String name;",
+    "// Parameterized constructor Student(String n) { name = n; }",
+    "public void display() { System.out.println(\"Name: \" + name); } }",
+    "public class Main { public static void main(String[] args) { Student s1 = new Student(); // Error: no default constructor s1.display(); } }"
+   ]
+  }
+ ]
+}

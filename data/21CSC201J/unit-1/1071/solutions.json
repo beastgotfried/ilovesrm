@@ -1,0 +1,190 @@
+{
+ "course": "21CSC201J",
+ "code": "1071",
+ "unit": 1,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Gain knowledge of data structures, their types",
+ "mcq": [
+  {
+   "q": "Which operation is fundamental to the \"stack\" ADT",
+   "options": {
+    "A": "Enqueue",
+    "B": "Merge",
+    "C": "Pop",
+    "D": "Sort"
+   },
+   "answer": "C",
+   "answer_text": "Pop"
+  },
+  {
+   "q": "________________ are mathematical models with a set of operations defined on them.",
+   "options": {
+    "A": "Data Structure",
+    "B": "Abstract Data Type",
+    "C": "Algorithm",
+    "D": "Primitive"
+   },
+   "answer": "B",
+   "answer_text": "Abstract Data Type"
+  },
+  {
+   "q": "Which of the following data structures is suitable for representing the hierarchical relationships between elements",
+   "options": {
+    "A": "Stack",
+    "B": "Tree",
+    "C": "Queue",
+    "D": "List"
+   },
+   "answer": "B",
+   "answer_text": "Tree"
+  },
+  {
+   "q": "Which of the following is NOT a type of data structure",
+   "options": {
+    "A": "Array",
+    "B": "Graph",
+    "C": "Function",
+    "D": "Linked List"
+   },
+   "answer": "C",
+   "answer_text": "Function"
+  },
+  {
+   "q": "The array data structure drawback is that",
+   "options": {
+    "A": "The amount of memory to be allocated should be known beforehand",
+    "B": "Elements of array can be accessed in constant time",
+    "C": "Elements are stored in contiguous blocks",
+    "D": "Multiple other data structures can be implemented using arrays"
+   },
+   "answer": "A",
+   "answer_text": "The amount of memory to be allocated should be known beforehand"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is Abstract Data Type (ADT)? Explain with example and common operations",
+   "answer": [
+    "An Abstract Data type (ADT) is a type for objects whose behavior is defined by a set of value and a set of operations .",
+    "ADT refers to a set of data values and associated operations that are specified accurately, independent of any particular implementation.",
+    "The ADT consists of a set of definitions that allow us to use the functions while hiding the implementation.",
+    "Abstract in the context of data structures means everything except the detailed specifications or implementation.",
+    "Data type of a variable is the set of values that the variable can take. ADT = Type + Function Names + Behaviour of each fu",
+    "Examples: Stacks, Queues, Linked List",
+    "Stack ADT Operations:",
+    "push(x) – insert element x into the stack.",
+    "pop() – remove the top element.",
+    "peek() – view the top element without removing it.",
+    "isEmpty() – check if the stack is empty.",
+    "isFull() – check if the stack is full (in case of array implementation).",
+    "Abstract Data Types Model",
+    "The ADT model has two different parts functions (public and private) and data structures.",
+    "Both are contained within the ADT model itself, and do not come within the scope of the application program.",
+    "Data structures are available to all of the ADT’s functions as required, and a function may call any other function to accomplish its task.",
+    "Data structures and functions are within the scope of each other.",
+    "Data are entered, accessed, modified and deleted through the external application programming interface.",
+    "For each ADT operation, there is an algorithm that performs its specific task.",
+    "The operation name and parameters are available to the application, and they provide only an interface to the application.",
+    "When a list is controlled entirely by the program, it is implemented using simple structure."
+   ]
+  },
+  {
+   "q": "Define data structures. Explain its types with examples.",
+   "answer": [
+    "Definition of Data Structure:",
+    "A data structure is a way of organizing and storing data in a computer so that it can be accessed and modified efficiently. It defines the relationship between the data and the operations that can be performed on them.",
+    "Types of Data Structures:",
+    "Primitive Data Structures Basic structures provided by programming languages. Examples: int, float, char, pointer.",
+    "Basic structures provided by programming languages.",
+    "Examples: int, float, char, pointer.",
+    "Non-Primitive Data Structures More complex structures built using primitive types.",
+    "More complex structures built using primitive types.",
+    "a. Linear Data Structures:",
+    "Elements are arranged in a sequential manner. Examples: Array – fixed-size collection of elements. Linked List – dynamic nodes connected using pointers. Stack – follows LIFO (Last In First Out). Queue – follows FIFO (First In First Out).",
+    "Elements are arranged in a sequential manner.",
+    "Examples: Array – fixed-size collection of elements. Linked List – dynamic nodes connected using pointers. Stack – follows LIFO (Last In First Out). Queue – follows FIFO (First In First Out).",
+    "Array – fixed-size collection of elements.",
+    "Linked List – dynamic nodes connected using pointers.",
+    "Stack – follows LIFO (Last In First Out).",
+    "Queue – follows FIFO (First In First Out).",
+    "b. Non-Linear Data Structures:",
+    "Elements are not stored sequentially. Examples: Tree – hierarchical structure with nodes. Graph – set of nodes connected by edges.",
+    "Elements are not stored sequentially.",
+    "Examples: Tree – hierarchical structure with nodes. Graph – set of nodes connected by edges.",
+    "Tree – hierarchical structure with nodes.",
+    "Graph – set of nodes connected by edges."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Define Data Structure. Explain the various types of Data Structures with suitable examples. Discuss their applications in computer science.",
+   "answer": [
+    "A Data Structure is a particular way of organizing and storing data in a computer so that it can be accessed and modified efficiently. It defines the relationship between the data and the operations that can be performed on them.",
+    "Types of Data Structures:",
+    "Linear Data Structures: In linear data structures, data elements are arranged sequentially, and each element is connected to its previous and next element. Array : A collection of elements stored at contiguous memory locations. Example : int arr[5] = {1, 2, 3, 4, 5}; Linked List : A sequence of nodes where each node contains data and a pointer to the next node. Example : Singly Linked List, Doubly Linked List. Stack : Follows Last In First Out (LIFO) principle. Example : Undo operation in editors. Queue : Follows First In First Out (FIFO) principle. Example : Print queue in printers.",
+    "Array : A collection of elements stored at contiguous memory locations. Example : int arr[5] = {1, 2, 3, 4, 5};",
+    "Linked List : A sequence of nodes where each node contains data and a pointer to the next node. Example : Singly Linked List, Doubly Linked List.",
+    "Stack : Follows Last In First Out (LIFO) principle. Example : Undo operation in editors.",
+    "Queue : Follows First In First Out (FIFO) principle. Example : Print queue in printers.",
+    "Non-Linear Data Structures: In non-linear data structures, elements are not stored in a sequential manner. Tree : A hierarchical data structure consisting of nodes. Example : Binary Tree, Binary Search Tree, AVL Tree. Graph : A collection of nodes (vertices) connected by edges. Example : Social networks, Google Maps.",
+    "Tree : A hierarchical data structure consisting of nodes. Example : Binary Tree, Binary Search Tree, AVL Tree.",
+    "Graph : A collection of nodes (vertices) connected by edges. Example : Social networks, Google Maps.",
+    "Hash-Based Data Structures: These use a hash function to compute the index of an array where the data should be stored. Hash Table : Provides fast access to elements using keys. Example : HashMap in Java, Dictionary in Python.",
+    "Hash Table : Provides fast access to elements using keys. Example : HashMap in Java, Dictionary in Python.",
+    "Applications of Data Structures:",
+    "Arrays and Linked Lists are used in implementing vectors and matrices in mathematics.",
+    "Stacks and Queues are used in parsing expressions and handling interrupts in operating systems.",
+    "Trees are used in databases, file systems, and syntax trees in compilers.",
+    "Graphs are used in networking, GPS systems, and social networks.",
+    "Hash Tables are used in implementing associative arrays and caches.",
+    "Program: Implementation of array using Stack",
+    "#include <stdio.h>",
+    "#define SIZE 5",
+    "int stack[SIZE];",
+    "int top = -1;",
+    "// Function to push an element to the stack",
+    "void push(int value) {",
+    "if (top == SIZE - 1) {",
+    "printf(\"Stack Overflow\\n\");",
+    "} else {",
+    "top++;",
+    "stack[top] = value;",
+    "printf(\"Pushed %d to stack\\n\", value);",
+    "}",
+    "}",
+    "// Function to pop an element from the stack",
+    "void pop() {",
+    "if (top == -1) {",
+    "printf(\"Stack Underflow\\n\");",
+    "} else {",
+    "printf(\"Popped %d from stack\\n\", stack[top]);",
+    "top--;",
+    "}",
+    "}",
+    "// Function to display the elements of the stack",
+    "void display() {",
+    "if (top == -1) {",
+    "printf(\"Stack is empty\\n\");",
+    "} else {",
+    "printf(\"Stack elements: \");",
+    "for (int i = top; i >= 0; i--) {",
+    "printf(\"%d \", stack[i]);",
+    "}",
+    "printf(\"\\n\");",
+    "}",
+    "}",
+    "int main() {",
+    "push(10);",
+    "push(20);",
+    "push(30);",
+    "display();",
+    "pop();",
+    "display();",
+    "return 0;",
+    "}"
+   ]
+  }
+ ]
+}

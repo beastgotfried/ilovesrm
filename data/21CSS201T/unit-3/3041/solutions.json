@@ -1,0 +1,83 @@
+{
+ "course": "21CSS201T",
+ "code": "3041",
+ "unit": 3,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Describe and implement unsigned binary multiplication using shift-and-add methods.",
+ "mcq": [
+  {
+   "q": "In the shift-and-add multiplication method, what determines whether the multiplicand is added to the partial product?",
+   "options": {
+    "A": "The most significant bit (MSB) of the multiplicand",
+    "B": "The least significant bit (LSB) of the multiplier",
+    "C": "The carry bit of the adder",
+    "D": "The XOR of the multiplicand and multiplier bits"
+   },
+   "answer": "B",
+   "answer_text": "The least significant bit (LSB) of the multiplier"
+  },
+  {
+   "q": "Which of the following is a drawback of basic shift-and-add multiplication?",
+   "options": {
+    "A": "It requires XOR gates.",
+    "B": "It is slower due to sequential addition and shifting.",
+    "C": "It cannot handle even numbers.",
+    "D": "It only works for signed numbers."
+   },
+   "answer": "B",
+   "answer_text": "It is slower due to sequential addition and shifting."
+  },
+  {
+   "q": "Which of the following is a drawback of basic shift-and-add multiplication?",
+   "options": {
+    "A": "It requires XOR gates.",
+    "B": "It is slower due to sequential addition and shifting.",
+    "C": "It cannot handle even numbers.",
+    "D": "It only works for signed numbers."
+   },
+   "answer": "B",
+   "answer_text": "It is slower due to sequential addition and shifting."
+  },
+  {
+   "q": "For two unsigned n-bit numbers, what is the maximum possible size of the product?",
+   "options": {
+    "A": "n bits",
+    "B": "n+1 bits",
+    "C": "2n bits",
+    "D": "n-1"
+   },
+   "answer": "C",
+   "answer_text": "2n bits"
+  },
+  {
+   "q": "During a hardware-based shift-and-add multiplication, after each step:",
+   "options": {
+    "A": "The multiplier is shifted left and the multiplicand is shifted right.",
+    "B": "The multiplier is shifted right and the multiplicand is shifted left.",
+    "C": "Both the multiplicand and multiplier are shifted right.",
+    "D": "The multiplicand is shifted right while the product register is shifted left."
+   },
+   "answer": "B",
+   "answer_text": "The multiplier is shifted right and the multiplicand is shifted left."
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Shifting aligns the partial products according to their respective bit positions. After each addition step, the multiplicand is shifted left or the multiplier is shifted right to prepare for the next partial product."
+   ]
+  },
+  {
+   "q": "",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "",
+   "answer": []
+  }
+ ]
+}

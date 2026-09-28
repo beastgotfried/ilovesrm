@@ -1,0 +1,205 @@
+{
+ "course": "21CSC201J",
+ "code": "3101",
+ "unit": 3,
+ "session": 10,
+ "slo": 1,
+ "slo_title": "Implementation of Queue using array and Linked list",
+ "mcq": [
+  {
+   "q": "A linked list queue currently has 3 nodes {A → B → C}. If dequeue() is called twice, what happens to front?",
+   "options": {
+    "A": "Points to C",
+    "B": "Remains at A",
+    "C": "Points to B",
+    "D": "Points to NULL"
+   },
+   "answer": "A",
+   "answer_text": "Points to C"
+  },
+  {
+   "q": "A queue implemented with a linked list currently holds {5, 10, 15, 20, 25}. If enqueue(30) and dequeue() occur, what will be the new rear and front?",
+   "options": {
+    "A": "Rear = 25, Front = 10",
+    "B": "Rear = 30, Front = 10",
+    "C": "Rear = 30, Front = 5",
+    "D": "Rear = 10, Front = 30"
+   },
+   "answer": "B",
+   "answer_text": "Rear = 30, Front = 10"
+  },
+  {
+   "q": "Why is a linked list better than an array for queue implementation?",
+   "options": {
+    "A": "Constant-time operations for insertion and deletion",
+    "B": "Fixed-size memory allocation",
+    "C": "Faster traversal",
+    "D": "O(1) access time"
+   },
+   "answer": "A",
+   "answer_text": "Constant-time operations for insertion and deletion"
+  },
+  {
+   "q": "A circular queue is implemented using an array of size 10. The array index starts with 0, front is 6, and rear is 9. The insertion of next element takes place at the array index.",
+   "options": {
+    "A": "0",
+    "B": "7",
+    "C": "9",
+    "D": "10"
+   },
+   "answer": "A",
+   "answer_text": "0"
+  },
+  {
+   "q": "How many times does an array resize if a queue starts with size 8 and inserts 35 elements, doubling each time?",
+   "options": {
+    "A": "3",
+    "B": "4",
+    "C": "5",
+    "D": "6"
+   },
+   "answer": "B",
+   "answer_text": "4"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Compare queue implementation using array and linked list.",
+   "answer": [
+    "Feature",
+    "Array-Based Queue",
+    "Linked List-Based Queue",
+    "Memory Allocation",
+    "Fixed size; memory is allocated statically or in advance",
+    "Dynamic; memory is allocated as needed using dynamic memory (malloc in C)",
+    "Size Limitation",
+    "Limited to the size of the array (e.g., MAX = 100)",
+    "Unlimited (only limited by system memory)",
+    "Overflow Possibility",
+    "Yes, if the array is full (even if some space is unused at the front)",
+    "No overflow unless the system runs out of memory",
+    "Underflow Condition",
+    "Occurs when front > rear or front == -1",
+    "Occurs when the front pointer is NULL (empty queue)",
+    "Enqueue Operation",
+    "Insert at rear index; requires checking if rear < size",
+    "Insert a new node at the end (rear pointer)",
+    "Dequeue Operation",
+    "Remove from front; no shifting in circular queue but shifting is needed in linear",
+    "Delete the front node and move front pointer to next node",
+    "Memory Utilization",
+    "May waste memory if not using circular queue",
+    "Efficient memory use – only allocates what's needed",
+    "Flexibility",
+    "Low – size must be known at compile time or initialized at runtime",
+    "High – can grow or shrink dynamically",
+    "Best Use Cases",
+    "When the number of elements is known and fixed (e.g., fixed-size buffers)",
+    "When the number of elements is unknown or varies frequently (e.g., job queues)"
+   ]
+  },
+  {
+   "q": "Discuss the merits of using a linked list over an array for queue implementation?",
+   "answer": [
+    "Queues can be implemented using both arrays and linked lists, but linked lists offer several advantages that make them more suitable in many real-time applications. Below are the key merits of using linked lists:",
+    "1. Dynamic Memory Allocation",
+    "In a linked list, memory is allocated dynamically using functions like malloc() in C.",
+    "This means the queue grows and shrinks at runtime depending on the number of elements.",
+    "Unlike arrays, you don’t need to declare a fixed size at the beginning, which saves memory.",
+    "2. No Wastage of Memory",
+    "Arrays are of fixed size , so even if you're storing only a few elements, the rest of the allocated space is wasted.",
+    "In a linked list, each node is created only when needed , so only the required memory is used .",
+    "Ideal for applications where data arrival is unpredictable .",
+    "3. No Overflow (Unless System Memory Is Full)",
+    "Array-based queues may overflow if the rear reaches the array's end, even if there is space at the front (in linear queues).",
+    "Linked list queues only overflow when the system runs out of memory, making them more reliable for long-running programs",
+    "4. Efficient Enqueue and Dequeue Operations",
+    "In a linked list: Enqueue = Add a new node at the rear . Dequeue = Remove the node at the front .",
+    "Enqueue = Add a new node at the rear .",
+    "Dequeue = Remove the node at the front .",
+    "Both operations are performed in constant time O(1) , without the need to shift elements (which happens in array-based queues).",
+    "5. Scalability",
+    "Linked list-based queues are highly scalable .",
+    "Whether the queue contains 5 elements or 50,000, the performance remains consistent.",
+    "Suitable for real-time applications such as CPU scheduling, task management, or event queues."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a food delivery order queue system for a cloud kitchen. Orders must be processed in the order they are received. The volume of orders can vary widely throughout the day. You are asked to: Recommend a suitable implementation (array or linked list) Justify your choice Write pseudocode or C code snippets for enqueue and dequeue Explain how your solution handles overflow and underflow",
+   "answer": [
+    "1. Recommended Implementation: Linked List",
+    "Using a linked list to implement the food delivery order queue.",
+    "2. Justification:",
+    "Aspect",
+    "Linked List Implementation",
+    "Memory Management",
+    "Dynamically allocates memory. No wastage, as memory is used only when needed.",
+    "Scalability",
+    "Supports unlimited orders (as long as memory is available), ideal for variable load.",
+    "Overflow Handling",
+    "No overflow unless the system memory is completely exhausted.",
+    "Underflow Handling",
+    "Easily detected if front == NULL.",
+    "Efficiency",
+    "Enqueue and dequeue operations are O(1) without shifting.",
+    "Real-Time Use Case",
+    "New orders and processing can happen smoothly without delay.",
+    "3. Code Snippets in C",
+    "Node Structure:",
+    "struct Order {",
+    "int orderID;",
+    "char customerName[50];",
+    "struct Order* next;",
+    "};",
+    "struct Order* front = NULL;",
+    "struct Order* rear = NULL;",
+    "Enqueue Function:",
+    "void enqueue(int id, char name[]) {",
+    "struct Order* newOrder = (struct Order*)malloc(sizeof(struct Order));",
+    "newOrder->orderID = id;",
+    "strcpy(newOrder->customerName, name);",
+    "newOrder->next = NULL;",
+    "if (rear == NULL) {",
+    "front = rear = newOrder;",
+    "} else {",
+    "rear->next = newOrder;",
+    "rear = newOrder;",
+    "}",
+    "printf(\"Order ID %d added for %s\\n\", id, name);",
+    "}",
+    "Dequeue Function:",
+    "void dequeue() {",
+    "if (front == NULL) {",
+    "printf(\"No orders to process.\\n\");",
+    "return;",
+    "}",
+    "struct Order* temp = front;",
+    "printf(\"Processing Order ID %d for %s\\n\", temp->orderID, temp->customerName);",
+    "front = front->next;",
+    "if (front == NULL) {",
+    "rear = NULL;",
+    "}",
+    "free(temp);",
+    "}",
+    "Display Function:",
+    "void displayQueue() {",
+    "if (front == NULL) {",
+    "printf(\"No pending orders.\\n\");",
+    "return;",
+    "}",
+    "struct Order* temp = front;",
+    "printf(\"Current order queue:\\n\");",
+    "while (temp != NULL) {",
+    "printf(\"Order ID: %d | Customer: %s\\n\", temp->orderID, temp->customerName);",
+    "temp = temp->next;",
+    "}",
+    "}",
+    "4. Handling Overflow and Underflow:",
+    "Overflow: Not a major concern here, because linked lists dynamically allocate memory. The only limit is the system’s available memory.",
+    "Underflow: Occurs when there are no orders in the queue (front == NULL). This is handled with a proper check at the start of the dequeue function."
+   ]
+  }
+ ]
+}

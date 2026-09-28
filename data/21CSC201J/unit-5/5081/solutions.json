@@ -1,0 +1,173 @@
+{
+ "course": "21CSC201J",
+ "code": "5081",
+ "unit": 5,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "Shortest Path Algorithm - Dijkstra's Algorithm",
+ "mcq": [
+  {
+   "q": "A rides sharing company uses which algorithm to find the optimal distance between the source and destination",
+   "options": {
+    "A": "Kruskals Algorithm",
+    "B": "Prim’s Algorithm",
+    "C": "Dijkstra’s Algorithm",
+    "D": "Floyd – Warshall"
+   },
+   "answer": "C",
+   "answer_text": "Dijkstra’s Algorithm"
+  },
+  {
+   "q": "Dijkstra’s algorithm finds the shortest path from a single source to all other vertices in which type of graph",
+   "options": {
+    "A": "Directed Acyclic Graph (DAG)",
+    "B": "Directed Graph with positive edge weights",
+    "C": "Undirected Graph with negative edge weights",
+    "D": "Weighted Undirected Graph"
+   },
+   "answer": "B",
+   "answer_text": "Directed Graph with positive edge weights"
+  },
+  {
+   "q": "What is the limitation of Dijkstra’s algorithm",
+   "options": {
+    "A": "It cannot handle negative edge weights",
+    "B": "It does not work on directed graphs",
+    "C": "It always finds the shortest path in polynomial time",
+    "D": "It works only on unweighted graphs"
+   },
+   "answer": "A",
+   "answer_text": "It cannot handle negative edge weights"
+  },
+  {
+   "q": "A rides sharing company uses which algorithm to find the optimal distance between the source and destination",
+   "options": {
+    "A": "Kruskals Algorithm",
+    "B": "Prim’s Algorithm",
+    "C": "Dijkstra’s Algorithm",
+    "D": "Floyd – Warshall"
+   },
+   "answer": "C",
+   "answer_text": "Dijkstra’s Algorithm"
+  },
+  {
+   "q": "Which data structure is used in Dijkstra's algorithm to select the vertex with the smallest tentative distance?",
+   "options": {
+    "A": "Stack",
+    "B": "Queue",
+    "C": "Priority Queue (Min-Heap)",
+    "D": "Hash Map"
+   },
+   "answer": "C",
+   "answer_text": "Priority Queue (Min-Heap)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "List any five real-world applications of graphs and explain their significance.",
+   "answer": [
+    "Social Networks",
+    "Use: Model relationships (friendships, followers).",
+    "Significance: Suggest friends, communities, influencers, and study interaction patterns.",
+    "Computer Networks",
+    "Use: Represent computers/routers as nodes and communication links as edges.",
+    "Significance: Helps determine optimal routing paths (shortest path algorithms like Dijkstra’s used in protocols like OSPF and RIP).",
+    "Google Maps / GPS Navigation",
+    "Use: Model cities as graphs with intersections as vertices and roads as edges with distances.",
+    "Significance: Compute shortest, fastest, or most fuel-efficient routes for travel using algorithms like Dijkstra’s, A*, etc.",
+    "Project Scheduling (PERT/CPM)",
+    "Use: Tasks are nodes; dependencies between tasks are edges.",
+    "Significance: Helps determine critical path, task priorities, and optimize project duration.",
+    "Web Page Linking (PageRank Algorithm)",
+    "Use: Web pages are nodes; hyperlinks are directed edges.",
+    "Significance: Determine importance and ranking of web pages based on their links using graph algorithms (like Google’s original PageRank)."
+   ]
+  },
+  {
+   "q": "Define Dijkstra’s Algorithm. Explain the working principle with a simple example.",
+   "answer": [
+    "Dijkstra’s Algorithm is a greedy algorithm used to find the shortest path from a single source vertex to all other vertices in a weighted graph where all edge weights are non-negative.",
+    "Working Principle:",
+    "The algorithm maintains a set of vertices whose shortest distance from the source is already known. It repeatedly selects the vertex with the minimum tentative distance , then updates the distances of its neighbouring vertices.",
+    "Steps:",
+    "Mark all vertices unvisited. Create a set of all unvisited vertices.",
+    "Assign a tentative distance value to every vertex: 0 for the start vertex. ∞ (infinity) for all other vertices.",
+    "0 for the start vertex.",
+    "∞ (infinity) for all other vertices.",
+    "Select the unvisited vertex with the smallest tentative distance — let’s call it current.",
+    "For the current vertex, calculate the tentative distance to each neighbor. If this distance is less than the current assigned value, update it.",
+    "After considering all neighbors of the current vertex, mark it as visited. A visited vertex will not be checked again.",
+    "Repeat steps 3-5 until all vertices are visited.",
+    "Examples:",
+    "Input: src = 0, V = 5, edges[][] = [[0, 1, 4], [0, 2, 8], [1, 4, 6], [2, 3, 2], [3, 4, 10]]",
+    "Output: 0 4 8 10 10 Explanation: Shortest Paths: 0 to 1 = 4. 0 → 1 0 to 2 = 8. 0 → 2 0 to 3 = 10. 0 → 2 → 3 0 to 4 = 10. 0 → 1 → 4"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A logistics company operates a network of delivery points in a city. The delivery points are represented by the intersections A, B, C, D, E, and F. The roads connecting these points have different travel times in minutes, as shown in the graph below: Vertices: A, B, C, D, E, F Edge weights represent travel time in minutes. The company wants to find the shortest travel time from point A to all other delivery points to optimize their delivery routes.",
+   "answer": [
+    "The edges and their weights are:",
+    "A to B: 4",
+    "A to C: 5",
+    "B to D: 9",
+    "B to C: 11",
+    "C to E: 3",
+    "D to E: 13",
+    "D to F: 2",
+    "E to F: 6",
+    "Let's find the shortest path from A to all other nodes.",
+    "Initialization: Distance: A=0, B=∞, C=∞, D=∞, E=∞, F=∞ Unvisited set: {A, B, C, D, E, F} Current node: A",
+    "Distance: A=0, B=∞, C=∞, D=∞, E=∞, F=∞",
+    "Unvisited set: {A, B, C, D, E, F}",
+    "Current node: A",
+    "Visit Neighbors of A: Update distance for B: Distance[B] = 0 + 4 = 4 Update distance for C: Distance[C] = 0 + 5 = 5 Distance: A=0, B=4, C=5, D=∞, E=∞, F=∞",
+    "Update distance for B: Distance[B] = 0 + 4 = 4",
+    "Update distance for C: Distance[C] = 0 + 5 = 5",
+    "Distance: A=0, B=4, C=5, D=∞, E=∞, F=∞",
+    "Mark A as Visited: Unvisited set: {B, C, D, E, F}",
+    "Unvisited set: {B, C, D, E, F}",
+    "Select B as the Next Current Node: Current node: B",
+    "Current node: B",
+    "Visit Neighbors of B: Update distance for D: Distance[D] = 4 + 9 = 13 Update distance for C: Distance[C] = min(5, 4 + 11) = 5 Distance: A=0, B=4, C=5, D=13, E=∞, F=∞",
+    "Update distance for D: Distance[D] = 4 + 9 = 13",
+    "Update distance for C: Distance[C] = min(5, 4 + 11) = 5",
+    "Distance: A=0, B=4, C=5, D=13, E=∞, F=∞",
+    "Mark B as Visited: Unvisited set: {C, D, E, F}",
+    "Unvisited set: {C, D, E, F}",
+    "Select C as the Next Current Node: Current node: C",
+    "Current node: C",
+    "Visit Neighbors of C: Update distance for E: Distance[E] = 5 + 3 = 8 Distance: A=0, B=4, C=5, D=13, E=8, F=∞",
+    "Update distance for E: Distance[E] = 5 + 3 = 8",
+    "Distance: A=0, B=4, C=5, D=13, E=8, F=∞",
+    "Mark C as Visited: Unvisited set: {D, E, F}",
+    "Unvisited set: {D, E, F}",
+    "Select E as the Next Current Node: Current node: E",
+    "Current node: E",
+    "Visit Neighbors of E: Update distance for F: Distance[F] = 8 + 6 = 14 Distance: A=0, B=4, C=5, D=13, E=8, F=14",
+    "Update distance for F: Distance[F] = 8 + 6 = 14",
+    "Distance: A=0, B=4, C=5, D=13, E=8, F=14",
+    "Mark E as Visited: Unvisited set: {D, F}",
+    "Unvisited set: {D, F}",
+    "Select D as the Next Current Node: Current node: D",
+    "Current node: D",
+    "Visit Neighbors of D: Update distance for F: Distance[F] = min(14, 13 + 2) = 15 Distance: A=0, B=4, C=5, D=13, E=8, F=14",
+    "Update distance for F: Distance[F] = min(14, 13 + 2) = 15",
+    "Distance: A=0, B=4, C=5, D=13, E=8, F=14",
+    "Mark D as Visited: Unvisited set: {F}",
+    "Unvisited set: {F}",
+    "Select F as the Next Current Node: Current node: F",
+    "Current node: F",
+    "Mark F as Visited: Unvisited set: {}",
+    "Unvisited set: {}",
+    "At this point, all nodes have been visited, and the shortest distances from A are:",
+    "A to B: 4",
+    "A to C: 5",
+    "A to D: 13",
+    "A to E: 8",
+    "A to F: 14"
+   ]
+  }
+ ]
+}

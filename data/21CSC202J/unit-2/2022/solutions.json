@@ -1,0 +1,121 @@
+{
+ "course": "21CSC202J",
+ "code": "2022",
+ "unit": 2,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Differentiate between long-term, short-term, and medium-term schedulers",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "It is created",
+    "B": "It requests an I/O operation",
+    "C": "It gets CPU for execution",
+    "D": "It finishes execution"
+   },
+   "answer": "B",
+   "answer_text": "It requests an I/O operation"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Compiler",
+    "B": "Linker",
+    "C": "Scheduler",
+    "D": "Loader"
+   },
+   "answer": "C",
+   "answer_text": "Scheduler"
+  },
+  {
+   "q": "Which of the following is not a valid process state?",
+   "options": {
+    "A": "New",
+    "B": "Waiting",
+    "C": "Executing",
+    "D": "Ready"
+   },
+   "answer": "C",
+   "answer_text": "Executing"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Waiting",
+    "B": "Blocked",
+    "C": "Ready",
+    "D": "Terminated"
+   },
+   "answer": "D",
+   "answer_text": "Terminated"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Waiting",
+    "B": "Running",
+    "C": "Ready",
+    "D": "Terminated"
+   },
+   "answer": "C",
+   "answer_text": "Ready"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the difference between 'Ready' and 'Waiting' states?",
+   "answer": [
+    "In the Ready state, a process is waiting to be assigned the CPU. In the Waiting state, the process is paused until some event (like an I/O operation) completes. The Ready process can be scheduled, while the Waiting one cannot."
+   ]
+  },
+  {
+   "q": "What are the different states of a process in an operating system?",
+   "answer": [
+    "The main process states are:",
+    "New: Process is being created",
+    "New: Process is being created",
+    "Ready: Process is waiting to be assigned to the CPU",
+    "Ready: Process is waiting to be assigned to the CPU",
+    "Running: Process is currently being executed",
+    "Running: Process is currently being executed",
+    "Waiting (Blocked): Process is waiting for an event (like I/O)",
+    "Waiting (Blocked): Process is waiting for an event (like I/O)",
+    "Terminated: Process has finished execution",
+    "Terminated: Process has finished execution"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the various states of a process in an operating system with a state transition diagram. Describe the events that cause transitions between states.",
+   "answer": [
+    "A process in an operating system goes through different states during its life cycle. The primary process states are:",
+    "New: The process is being created.",
+    "New: The process is being created.",
+    "Ready: The process has all the resources except the CPU and is waiting for CPU allocation.",
+    "Ready: The process has all the resources except the CPU and is waiting for CPU allocation.",
+    "Running: The process is currently being executed by the CPU.",
+    "Running: The process is currently being executed by the CPU.",
+    "Waiting (Blocked): The process is waiting for an event like I/O completion.",
+    "Waiting (Blocked): The process is waiting for an event like I/O completion.",
+    "Terminated: The process has finished execution and is removed from the system.",
+    "Terminated: The process has finished execution and is removed from the system.",
+    "New → Ready: Once created, the process is moved to the ready queue.",
+    "New → Ready: Once created, the process is moved to the ready queue.",
+    "Ready → Running: The scheduler selects the process and assigns the CPU.",
+    "Ready → Running: The scheduler selects the process and assigns the CPU.",
+    "Running → Waiting: If a process requests an I/O or waits for an event.",
+    "Running → Waiting: If a process requests an I/O or waits for an event.",
+    "Running → Ready: If the process is preempted by the scheduler (e.g., time slice expires in round-robin scheduling).",
+    "Running → Ready: If the process is preempted by the scheduler (e.g., time slice expires in round-robin scheduling).",
+    "Waiting → Ready: The event or I/O the process was waiting for has occurred.",
+    "Waiting → Ready: The event or I/O the process was waiting for has occurred.",
+    "Running → Terminated: The process finishes execution.",
+    "Running → Terminated: The process finishes execution.",
+    "[New] ↓ [Ready] ←←←←←←←←←←←← ↓ ↑ [Running] → [Waiting] ↓ ↑ [Terminated] ←--------",
+    "[New] ↓ [Ready] ←←←←←←←←←←←← ↓ ↑ [Running] → [Waiting] ↓ ↑ [Terminated] ←--------"
+   ]
+  }
+ ]
+}

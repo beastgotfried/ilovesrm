@@ -1,0 +1,176 @@
+{
+ "course": "21CSC201J",
+ "code": "2052",
+ "unit": 2,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "Implement insertion and deletion at the beginning of singly linked lists",
+ "mcq": [
+  {
+   "q": "When inserting a node at the beginning of a singly linked list, what must be done first",
+   "options": {
+    "A": "Make the new node point to the current head",
+    "B": "Make the new node point to NULL",
+    "C": "Traverse to the last node",
+    "D": "Delete the old head node"
+   },
+   "answer": "B",
+   "answer_text": "Make the new node point to NULL"
+  },
+  {
+   "q": "The system needs to search for a specific student’s attendance record. What will happen if the student is at the end of the list",
+   "options": {
+    "A": "The search will be completed in O(1) time",
+    "B": "The system must traverse through the entire list in O(n) time",
+    "C": "The system can access the record directly using an index",
+    "D": "The search will always fail if the student is not in the first half of the list"
+   },
+   "answer": "B",
+   "answer_text": "The system must traverse through the entire list in O(n) time"
+  },
+  {
+   "q": "A user wants to add a new song to the end of the playlist. What will be the time complexity if the app does not store the tail pointer",
+   "options": {
+    "A": "O(1)",
+    "B": "O(log n)",
+    "C": "O(n)",
+    "D": "O(n log n)"
+   },
+   "answer": "C",
+   "answer_text": "O(n)"
+  },
+  {
+   "q": "A high-priority ticket needs to be processed before all other tickets. Where should it be inserted",
+   "options": {
+    "A": "At the beginning of the linked list",
+    "B": "At the end of the linked list",
+    "C": "In the middle of the linked list",
+    "D": "The system cannot handle priority-based insertions"
+   },
+   "answer": "A",
+   "answer_text": "At the beginning of the linked list"
+  },
+  {
+   "q": "Which pointer needs to be updated when inserting at the beginning of a singly linked list",
+   "options": {
+    "A": "Tail pointer",
+    "B": "Next pointer of the new node",
+    "C": "Head pointer",
+    "D": "Both head and tail pointers"
+   },
+   "answer": "C",
+   "answer_text": "Head pointer"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Consider an array n[10] having four elements: n[0] = 1, n[1] = 2, n[2] = 3 and n[3] = 4 And suppose you want to insert a new value 60 at first position of array. i.e. n[0] = 60, Write the pseudocode to perform the operation",
+   "answer": [
+    "START",
+    "// Declare an array of size 10 DECLARE n[10]",
+    "// Initialize the array with 4 elements SET n[0] = 1 SET n[1] = 2 SET n[2] = 3 SET n[3] = 4 SET size = 4 // Current number of elements",
+    "// Shift elements to the right to make space at the beginning FOR i FROM size - 1 DOWNTO 0 DO SET n[i + 1] = n[i] END FOR",
+    "// Insert new value at the first position SET n[0] = 60",
+    "// Increase the size SET size = size + 1",
+    "END"
+   ]
+  },
+  {
+   "q": "Explain the algorithm to insert an element in an Linked List at the beginning. Write the steps clearly and provide a dry run with a sample input",
+   "answer": [
+    "Overflow condition occurs when AVAIL = NULL or no free memory cell is present in the system. At this condition the program must give an appropriate message. There are 4 cases:",
+    "Case 1: The new node is inserted at the beginning.",
+    "Case 2: The new node is inserted at the end.",
+    "Case 3: The new node is inserted after a given node.",
+    "Case 4: The new node is inserted before a given node",
+    "ALGORITHM: The new node is inserted at the beginning of the node"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Consider you are building a lightweight contact manager for a feature phone. The contacts are stored in a singly linked list, where each node contains the contact's phone number (integer) .The requirements are: When a new contact is saved manually, it is added to the beginning of the list. When a contact is imported from another device, it is added to the end of the list. Users should be able to view all contacts . Users should be able to search for a contact by phone number. Implement a C program that performs these operations using a singly linked list.",
+   "answer": [
+    "#include <stdio.h>",
+    "#include <stdlib.h>",
+    "// Define the structure for a contact node",
+    "struct Contact {",
+    "int phoneNumber;",
+    "struct Contact* next;",
+    "};",
+    "// Insert contact manually at the beginning",
+    "void insertManual(struct Contact** head, int phone) {",
+    "struct Contact* newNode = (struct Contact*)malloc(sizeof(struct Contact));",
+    "newNode->phoneNumber = phone;",
+    "newNode->next = *head;",
+    "*head = newNode;",
+    "printf(\"Manually added contact: %d\\n\", phone);",
+    "}",
+    "// Insert imported contact at the end",
+    "void insertImported(struct Contact** head, int phone) {",
+    "struct Contact* newNode = (struct Contact*)malloc(sizeof(struct Contact));",
+    "newNode->phoneNumber = phone;",
+    "newNode->next = NULL;",
+    "if (*head == NULL) {",
+    "*head = newNode;",
+    "} else {",
+    "struct Contact* temp = *head;",
+    "while (temp->next != NULL)",
+    "temp = temp->next;",
+    "temp->next = newNode;",
+    "}",
+    "printf(\"Imported contact: %d\\n\", phone);",
+    "}",
+    "// Display all contacts",
+    "void viewContacts(struct Contact* head) {",
+    "if (head == NULL) {",
+    "printf(\"No contacts to display.\\n\");",
+    "return;",
+    "}",
+    "printf(\"Contact List:\\n\");",
+    "while (head != NULL) {",
+    "printf(\"Phone: %d\\n\", head->phoneNumber);",
+    "head = head->next;",
+    "}",
+    "}",
+    "// Search for a contact by phone number",
+    "void searchContact(struct Contact* head, int key) {",
+    "int position = 1;",
+    "while (head != NULL) {",
+    "if (head->phoneNumber == key) {",
+    "printf(\"Contact %d found at position %d.\\n\", key, position);",
+    "return;",
+    "}",
+    "head = head->next;",
+    "position++;",
+    "}",
+    "printf(\"Contact %d not found.\\n\", key);",
+    "}",
+    "// Main driver code",
+    "int main() {",
+    "struct Contact* head = NULL;",
+    "insertManual(&head, 9876543210);",
+    "insertImported(&head, 1234567890);",
+    "insertManual(&head, 9988776655);",
+    "insertImported(&head, 1122334455);",
+    "viewContacts(head);",
+    "searchContact(head, 1234567890);",
+    "searchContact(head, 9999999999);",
+    "return 0;",
+    "}",
+    "OUTPUT:",
+    "Manually added contact: 9876543210",
+    "Imported contact: 1234567890",
+    "Manually added contact: 9988776655",
+    "Imported contact: 1122334455",
+    "Contact List:",
+    "Phone: 9988776655",
+    "Phone: 9876543210",
+    "Phone: 1234567890",
+    "Phone: 1122334455",
+    "Contact 1234567890 found at position 3.",
+    "Contact 9999999999 not found."
+   ]
+  }
+ ]
+}

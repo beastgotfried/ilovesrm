@@ -1,0 +1,188 @@
+{
+ "course": "21CSC201J",
+ "code": "4062",
+ "unit": 4,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Binary Search Trees - Searching Operation",
+ "mcq": [
+  {
+   "q": "What will be the number of comparisons needed to search for 40 in the BST {50, 30, 70, 20, 40, 60, 80}?",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+   },
+   "answer": "C",
+   "answer_text": "3"
+  },
+  {
+   "q": "In an unsuccessful search for 50 in the BST {55, 35, 75, 25, 45, 65, 85}, which of the following is true?",
+   "options": {
+    "A": "The search ends at 45",
+    "B": "The search ends at 75",
+    "C": "The search ends at 55",
+    "D": "The search continues indefinitely"
+   },
+   "answer": "A",
+   "answer_text": "The search ends at 45"
+  },
+  {
+   "q": "What is the root node in the expression tree for the expression (A + B) * (C - D)?",
+   "options": {
+    "A": "+",
+    "B": "*",
+    "C": "-",
+    "D": "A"
+   },
+   "answer": "B",
+   "answer_text": "*"
+  },
+  {
+   "q": "What is the Postorder traversal of the expression tree for A + B * C?",
+   "options": {
+    "A": "A B C * +",
+    "B": "+ A * B C",
+    "C": "A + B * C",
+    "D": "A B + C *"
+   },
+   "answer": "A",
+   "answer_text": "A B C * +"
+  },
+  {
+   "q": "What type of tree is an expression tree?",
+   "options": {
+    "A": "Full Binary Tree",
+    "B": "Complete Binary Tree",
+    "C": "Skewed Tree",
+    "D": "Ternary Tree"
+   },
+   "answer": "A",
+   "answer_text": "Full Binary Tree"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Describe the step-by-step process of searching for an element in an BST with the help of pseudocode.",
+   "answer": [
+    "The search operation in a Binary Search Tree (BST) is used to find whether a particular value exists in the tree or not. It takes advantage of the BST property where all values in the left subtree are less than the root, and values in the right subtree are greater.",
+    "Steps to Search in BST:",
+    "Start from the root node.",
+    "If the value matches the root’s data, return the node (element found).",
+    "If the value is less than the root’s data, search the left subtree.",
+    "If the value is greater than the root’s data, search the right subtree.",
+    "If the node is NULL, the element is not found in the tree.",
+    "Pseudocode",
+    "function searchBST(node, key)",
+    "if node == NULL",
+    "return NULL // Element not found",
+    "if key == node->data",
+    "return node // Element found",
+    "else if key < node->data",
+    "return searchBST(node->left, key)",
+    "else",
+    "return searchBST(node->right, key)",
+    "Example:",
+    "Searching for 60:",
+    "60 > 50 → Go right to 70",
+    "60 < 70 → Go left to 60",
+    "60 == 60 → Found"
+   ]
+  },
+  {
+   "q": "What is a Binary Search Tree (BST)? Explain any four key properties that distinguish a BST from other binary trees.",
+   "answer": [
+    "A Binary Search Tree (BST) is a type of binary tree where each node follows the binary search property:",
+    "The left child of a node contains only nodes with values less than the parent node.",
+    "The right child contains only nodes with values greater than the parent node.",
+    "Properties of BST:",
+    "Unique Arrangement: All elements are arranged in a way that allows binary search operations efficiently.",
+    "No Duplicate Nodes: Standard BSTs do not allow duplicate values.",
+    "Recursive Structure: Both left and right subtrees must also be binary search trees.",
+    "Efficient Search: Provides efficient search (O(log n)) in balanced trees, which is faster than linear structures like arrays or linked lists."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a mathematical computation module for a compiler design system. The compiler needs to evaluate arithmetic expressions and represent them in tree form for optimization and code generation phases. To achieve this, you decide to use an Expression Tree for parsing and evaluating mathematical expressions. Task: Explain the properties of an expression tree that make it suitable for representing arithmetic expressions. Choose your own mathematical expression and Demonstrate the construction process of expression tree using all kinds of notation",
+   "answer": [
+    "The expression tree is a binary tree with each internal node representing an operand, and each leaf node representing an operator.",
+    "Properties of an expression tree",
+    "1. Binary Tree Structure",
+    "Expression trees are generally binary trees , where each node has at most two children .",
+    "The left and right children of an operator node represent the operands or sub-expressions",
+    "2. Leaf Nodes are Operands",
+    "All leaf nodes of the tree (nodes without children) are operands .",
+    "Operands can be constants (e.g., 5, 10) or variables (e.g., x, y) .",
+    "3. Internal Nodes are Operators",
+    "All internal nodes (nodes with at least one child) are operators .",
+    "These operators can be arithmetic (+, -, *, /) or logical (&&, ||,!) depending on the type of expression.",
+    "4. Precedence and Associativity are Maintained",
+    "The hierarchical structure of the tree ensures that the order of operations (operator precedence) is maintained correctly.",
+    "For example, in the expression a + b * c, the multiplication has higher precedence, so * will be closer to the leaf than +.",
+    "5.Evaluation is Recursive",
+    "The expression represented by the tree can be evaluated recursively : Evaluate the left subtree Evaluate the right subtree Apply the operator at the current node",
+    "Evaluate the left subtree",
+    "Evaluate the right subtree",
+    "Apply the operator at the current node",
+    "For example, the expression (3 + 5) * (2 - 1) can be represented as an expression tree where:",
+    "The root is the multiplication operator ‘*’.",
+    "The left child is the addition operator ‘+’, with operands ‘3’ and ‘5’ as its children.",
+    "The right child is the subtraction operator’ -’, with operands ‘2’ and ‘1’ as its children.",
+    "Construction of an Expression Tree",
+    "An expression tree can be constructed using infix, prefix, or postfix notations",
+    "Infix Notation",
+    "In infix notation, operators are placed between operands. This is the most common way of writing arithmetic expressions.",
+    "Construction Process (Infix to Expression Tree)",
+    "Step 1: Start with the lowest precedence operator (if multiple operators are present).",
+    "Step 2: Make this operator the root of the tree.",
+    "Step 3: The left subtree is created from the part of the expression to the left of the operator, and the right subtree is created from the part of the expression to the right of the operator.",
+    "Step 4: Recursively apply this process to the left and right subexpressions.",
+    "Example: A + B * C",
+    "The + has a lower precedence than *, so + becomes the root.",
+    "Operand A becomes the left child of +.",
+    "The expression B*C becomes the right subtree. Since * has the highest precedence, it is the root of this subtree, and B and C are its children.",
+    "Postfix Notation",
+    "In postfix notation, operators are placed after their operands.",
+    "Construction Process (Postfix to Expression Tree)",
+    "Step 1: Start from the left of the postfix expression and push operands onto a stack.",
+    "Step 2: When an operator is encountered, pop the required number of operands (2 for binary operators) from the stack, create a new node for the operator, and make the popped operands its children.",
+    "Step 3: Push the new operator node back onto the stack.",
+    "Step 4: At the end of the expression, the stack will contain a single node, which is the root of the expression tree.",
+    "Example: A B C * +",
+    "Push A, B, and C onto the stack.",
+    "Pop B and C, create a node with *, and push it back onto the stack.",
+    "Pop A and the * node, create a node with + and push it back onto the stack.",
+    "The final stack contains the root of the tree.",
+    "Prefix Notation",
+    "In prefix notation, operators appear before their operands.",
+    "Construction Process (Prefix to Expression Tree)",
+    "Step 1: Start from the right of the prefix expression and push operands onto a stack.",
+    "Step 2: When an operator is encountered, pop the required number of operands (2 for binary operators) from the stack, create a new node for the operator, and make the popped operands its children.",
+    "Step 3: Push the new operator node back onto the stack.",
+    "Step 4: At the end of the expression, the stack will contain a single node, which is the root of the expression tree.",
+    "Example: + A * B C",
+    "Push ‘A’, ‘B’, and ‘C’ onto the stack.",
+    "Pop ‘B’ and C, create a node with *, and push it back onto the stack.",
+    "Pop ‘A’ and the * node, create a node with + and push it back onto the stack.",
+    "The final stack contains the root of the tree.",
+    "Comparison of Expression Trees with Example",
+    "Example",
+    "Notation",
+    "Example",
+    "Expression Tree",
+    "Infix",
+    "A + B * C",
+    "+ (root), with left child A and right child * (subtree with B and C as leaves)",
+    "Postfix",
+    "A B C * +",
+    "Same as the infix tree, but the construction order follows postfix operations",
+    "Prefix",
+    "+ A * B C",
+    "Same as the infix tree, but the construction order follows prefix operations"
+   ]
+  }
+ ]
+}

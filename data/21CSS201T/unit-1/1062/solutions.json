@@ -1,0 +1,95 @@
+{
+ "course": "21CSS201T",
+ "code": "1062",
+ "unit": 1,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "describe and solve binary multiplication and division problems with proper application of rules.",
+ "mcq": [
+  {
+   "q": "Subtract (+2) − (+4) using 4-bit sign-magnitude:",
+   "options": {
+    "A": "0010",
+    "B": "1110",
+    "C": "0110",
+    "D": "1000"
+   },
+   "answer": "B",
+   "answer_text": "1110"
+  },
+  {
+   "q": "Subtract (−3) − (−2) using 4-bit sign-magnitude:",
+   "options": {
+    "A": "1001",
+    "B": "0001",
+    "C": "1111",
+    "D": "1001"
+   },
+   "answer": "A",
+   "answer_text": "1001"
+  },
+  {
+   "q": "Subtract (+3) − (+2) using 4-bit sign-magnitude:",
+   "options": {
+    "A": "0001",
+    "B": "1111",
+    "C": "0010",
+    "D": "1000"
+   },
+   "answer": "A",
+   "answer_text": "0001"
+  },
+  {
+   "q": "Subtract (+4) − (−3) using 4-bit sign-magnitude:",
+   "options": {
+    "A": "0111",
+    "B": "0010",
+    "C": "1111",
+    "D": "0101"
+   },
+   "answer": "A",
+   "answer_text": "0111"
+  },
+  {
+   "q": "Subtract (−5) − (+2) using 4-bit sign-magnitude:",
+   "options": {
+    "A": "1011",
+    "B": "1111",
+    "C": "1101",
+    "D": "0001"
+   },
+   "answer": "C",
+   "answer_text": "1101"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Add the signed binary numbers –4 and –3 using 2’s complement (4-bit representation).",
+   "answer": [
+    "1100 + 1101 = 11001"
+   ]
+  },
+  {
+   "q": "Add the signed binary numbers +7 and –2 using 2’s complement (4-bit representation).",
+   "answer": [
+    "+7 in binary = 0111 –2 in binary = 1110 (2’s complement of 0010) Add:",
+    "0111 + 1110 = 10101"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Using 8-bit 2’s complement representation, perform the addition of two negative decimal numbers: -35 and -60. Show all steps including binary conversion, 2’s complement representation, binary addition, and interpretation of the result. Also, explain whether overflow occurs or not.",
+   "answer": [
+    "+35 (Binary) = 00100011 1's complement = 11011100 +1 (Add 1) = 00000001 ----------------------------- -35 (2’s comp) = 11011101",
+    "Step 2: Convert -60 to 8-bit 2’s complement",
+    "+60 (Binary) = 00111100 1's complement = 11000011 +1 (Add 1) = 00000001 ----------------------------- -60 (2’s comp) = 11000100",
+    "Step 3: Binary Addition",
+    "11011101 (-35) + 11000100 (-60) ----------- 110000001 (9 bits, discard carry) ----------- 10100001 (8-bit sum)",
+    "Result = 10100001 (MSB = 1 → Negative number)",
+    "1's complement = 01011110 +1 = 00000001 ----------------------------- Magnitude = 01011111 → 95",
+    "So, Final Answer = -95"
+   ]
+  }
+ ]
+}

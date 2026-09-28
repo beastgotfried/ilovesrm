@@ -1,0 +1,138 @@
+{
+ "course": "21CSC202J",
+ "code": "2082",
+ "unit": 2,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Identify common issues in multithreaded programming",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "When two threads finish at the same time",
+    "B": "When output depends on thread execution order",
+    "C": "When threads run slowly",
+    "D": "When one thread uses more memory than another"
+   },
+   "answer": "B",
+   "answer_text": "When output depends on thread execution order"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Manual control of threads",
+    "B": "Simplify thread programming",
+    "C": "Prevent thread usage",
+    "D": "Maximize file I/O operations"
+   },
+   "answer": "B",
+   "answer_text": "Simplify thread programming"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Deadlock",
+    "B": "Starvation",
+    "C": "Race condition",
+    "D": "Thread pool"
+   },
+   "answer": "A",
+   "answer_text": "Deadlock"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "fork()",
+    "B": "pthread_create()",
+    "C": "OpenMP",
+    "D": "exec()"
+   },
+   "answer": "C",
+   "answer_text": "OpenMP"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Programmer manually controls thread creation",
+    "B": "OS automatically handles thread creation and scheduling",
+    "C": "Threads are used only in hardware",
+    "D": "Threads are not allowed in the system"
+   },
+   "answer": "B",
+   "answer_text": "OS automatically handles thread creation and scheduling"
+  }
+ ],
+ "sq": [
+  {
+   "q": "​​​​​​​",
+   "answer": [
+    "Race Condition – Occurs when two or more threads access shared data simultaneously, and the output depends on the sequence of access.",
+    "Race Condition – Occurs when two or more threads access shared data simultaneously, and the output depends on the sequence of access.",
+    "Deadlock – Happens when two or more threads are waiting indefinitely for resources held by each other, resulting in a complete standstill.",
+    "Deadlock – Happens when two or more threads are waiting indefinitely for resources held by each other, resulting in a complete standstill."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Implicit threading refers to automatic management of threads by compilers or libraries instead of programmers. It simplifies development by hiding thread creation, synchronization, and management, and improves scalability in parallel applications."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the concept of implicit threading in operating systems. Discuss its techniques, benefits, and threading-related issues such as race conditions, deadlocks, and starvation.",
+   "answer": [
+    "Implicit threading is a programming approach where the creation, scheduling, and synchronization of threads are handled by the compiler, runtime environment, or libraries , rather than manually by the programmer.",
+    "Thread Pools: Pre-created threads ready to execute tasks. Reduces thread creation overhead.",
+    "Thread Pools:",
+    "Pre-created threads ready to execute tasks.",
+    "Pre-created threads ready to execute tasks.",
+    "Reduces thread creation overhead.",
+    "Reduces thread creation overhead.",
+    "OpenMP (Open Multi-Processing): A compiler directive-based model. Example: #pragma omp parallel for for automatic parallel loops in C/C++.",
+    "OpenMP (Open Multi-Processing):",
+    "A compiler directive-based model.",
+    "A compiler directive-based model.",
+    "Example: #pragma omp parallel for for automatic parallel loops in C/C++.",
+    "Example: #pragma omp parallel for for automatic parallel loops in C/C++.",
+    "Grand Central Dispatch (GCD): Used in macOS/iOS for managing tasks on multicore processors. Uses queues and system-managed threads.",
+    "Grand Central Dispatch (GCD):",
+    "Used in macOS/iOS for managing tasks on multicore processors.",
+    "Used in macOS/iOS for managing tasks on multicore processors.",
+    "Uses queues and system-managed threads.",
+    "Uses queues and system-managed threads.",
+    "TBB (Threading Building Blocks): Intel library for task-based parallelism in C++. Automatically distributes tasks among available threads.",
+    "TBB (Threading Building Blocks):",
+    "Intel library for task-based parallelism in C++.",
+    "Intel library for task-based parallelism in C++.",
+    "Automatically distributes tasks among available threads.",
+    "Automatically distributes tasks among available threads.",
+    "Simplifies development by hiding low-level thread operations",
+    "Simplifies development by hiding low-level thread operations",
+    "Increases portability across platforms",
+    "Increases portability across platforms",
+    "Improves scalability on multicore systems",
+    "Improves scalability on multicore systems",
+    "Optimizes performance using runtime systems and load balancing",
+    "Optimizes performance using runtime systems and load balancing",
+    "Occurs when multiple threads access shared data concurrently.",
+    "Occurs when multiple threads access shared data concurrently.",
+    "Results in unpredictable behavior depending on execution order.",
+    "Results in unpredictable behavior depending on execution order.",
+    "Requires synchronization mechanisms like mutexes or semaphores.",
+    "Requires synchronization mechanisms like mutexes or semaphores.",
+    "When threads wait indefinitely for each other’s resources.",
+    "When threads wait indefinitely for each other’s resources.",
+    "Prevented using resource ordering, timeout mechanisms, or deadlock detection algorithms.",
+    "Prevented using resource ordering, timeout mechanisms, or deadlock detection algorithms.",
+    "A thread waits indefinitely due to lack of resource access or being ignored by the scheduler .",
+    "A thread waits indefinitely due to lack of resource access or being ignored by the scheduler .",
+    "Occurs when resources are consistently allocated to higher-priority threads.",
+    "Occurs when resources are consistently allocated to higher-priority threads.",
+    "A lower-priority thread holds a resource needed by a higher-priority thread, but cannot release it due to scheduling.",
+    "A lower-priority thread holds a resource needed by a higher-priority thread, but cannot release it due to scheduling."
+   ]
+  }
+ ]
+}

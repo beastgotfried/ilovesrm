@@ -1,0 +1,213 @@
+{
+ "course": "21CSC201J",
+ "code": "2011",
+ "unit": 2,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Understand the fundamentals of arrays and their operations.",
+ "mcq": [
+  {
+   "q": "Which of the following is NOT a basic operation on arrays",
+   "options": {
+    "A": "Insertion",
+    "B": "Deletion",
+    "C": "Traversal",
+    "D": "Compilation"
+   },
+   "answer": "D",
+   "answer_text": "Compilation"
+  },
+  {
+   "q": "If an array arr[] = {1, 2, 4, 5} and we insert 3 at index 2, what will be the updated array",
+   "options": {
+    "A": "{1, 2, 3, 4, 5}",
+    "B": "{1, 3, 2, 4, 5}",
+    "C": "{3, 1, 2, 4, 5}",
+    "D": "{2, 1, 3, 4, 5}"
+   },
+   "answer": "A",
+   "answer_text": "{1, 2, 3, 4, 5}"
+  },
+  {
+   "q": "Identify the option which is NOT true about an array?",
+   "options": {
+    "A": "A zero index is used to refer to the first element",
+    "B": "It understands the concept of ordered elements",
+    "C": "Duplicate values are allowed",
+    "D": "Expand automatically when an array is full"
+   },
+   "answer": "D",
+   "answer_text": "Expand automatically when an array is full"
+  },
+  {
+   "q": "Identify the correct option for creating a node in linked list at first time",
+   "options": {
+    "A": "ptr = (struct node) malloc (sizeof(struct node *));",
+    "B": "ptr = (struct node *)calloc(sizeof(struct node *));",
+    "C": "ptr = (struct node *)malloc(sizeof(struct node",
+    "D": "ptr = (struct node *) calloc (size(struct node ));"
+   },
+   "answer": "C",
+   "answer_text": "ptr = (struct node *)malloc(sizeof(struct node"
+  },
+  {
+   "q": "Which of the following is NOT a valid way to insert an element in an array",
+   "options": {
+    "A": "At the beginning",
+    "B": "At a specific position",
+    "C": "At the end",
+    "D": "At a negative index"
+   },
+   "answer": "D",
+   "answer_text": "At a negative index"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain the fundamentals of arrays and the basic operations that can be performed on arrays",
+   "answer": [
+    "An array is a collection of elements of the same data type stored in contiguous memory locations . It allows efficient access using an index.",
+    "Key Features of Arrays:",
+    "Fixed size (static memory allocation)",
+    "Index-based access (0-based indexing in most languages)",
+    "Homogeneous elements (all elements are of the same type)",
+    "Basic Operations on Arrays:",
+    "Traversal : Visiting each element of the array one by one to perform some operation (e.g., printing values).",
+    "Insertion : Adding a new element at a specific position in the array. In static arrays, insertion may involve shifting elements to make space.",
+    "Deletion : Removing an element from a specific index. After deletion, the remaining elements are usually shifted to maintain the order.",
+    "Searching : Finding the location/index of a given element in the array. Linear search or binary search can be used (binary search requires the array to be sorted).",
+    "Updating : Changing the value of an existing element at a particular index.",
+    "Sorting : Arranging the elements in a specific order (ascending or descending) using algorithms like bubble sort, insertion sort, etc.",
+    "#include <stdio.h>",
+    "int main() {",
+    "int arr[100] = {10, 20, 30, 40, 50};",
+    "int n = 5; // current size of the array",
+    "int i, pos, value;",
+    "// 1. Traversal",
+    "printf(\"Array elements:\\n\");",
+    "for(i = 0; i < n; i++) {",
+    "printf(\"%d \", arr[i]);",
+    "}",
+    "printf(\"\\n\");",
+    "// 2. Insertion at position 2 (index 1)",
+    "pos = 2;",
+    "value = 25;",
+    "for(i = n; i >= pos; i--) {",
+    "arr[i] = arr[i - 1];",
+    "}",
+    "arr[pos - 1] = value;",
+    "n++;",
+    "printf(\"After insertion:\\n\");",
+    "for(i = 0; i < n; i++) {",
+    "printf(\"%d \", arr[i]);",
+    "}",
+    "printf(\"\\n\");",
+    "// 3. Deletion from position 3 (index 2)",
+    "pos = 3;",
+    "for(i = pos - 1; i < n - 1; i++) {",
+    "arr[i] = arr[i + 1];",
+    "}",
+    "n--;",
+    "printf(\"After deletion:\\n\");",
+    "for(i = 0; i < n; i++) {",
+    "printf(\"%d \", arr[i]);",
+    "}",
+    "printf(\"\\n\");",
+    "// 4. Searching for element 40",
+    "int search = 40, found = 0;",
+    "for(i = 0; i < n; i++) {",
+    "if(arr[i] == search) {",
+    "printf(\"Element %d found at position %d\\n\", search, i + 1);",
+    "found = 1;",
+    "break;",
+    "}",
+    "}",
+    "if(!found)",
+    "printf(\"Element %d not found.\\n\", search);",
+    "// 5. Updating value at position 2 to 99",
+    "pos = 2;",
+    "arr[pos - 1] = 99;",
+    "printf(\"After updating position %d to 99:\\n\", pos);",
+    "for(i = 0; i < n; i++) {",
+    "printf(\"%d \", arr[i]);",
+    "}",
+    "printf(\"\\n\");",
+    "return 0;",
+    "}"
+   ]
+  },
+  {
+   "q": "Write a program in C to insert an element at a specific position in an array",
+   "answer": [
+    "#include <stdio.h>",
+    "int main() {",
+    "int arr[100], n, i, pos, element;",
+    "// Input size of array",
+    "printf(\"Enter the number of elements in the array: \");",
+    "scanf(\"%d\", &n);",
+    "// Input array elements",
+    "printf(\"Enter %d elements:\\n\", n);",
+    "for (i = 0; i < n; i++) {",
+    "scanf(\"%d\", &arr[i]);",
+    "}",
+    "// Input element to insert and position",
+    "printf(\"Enter the element to insert: \");",
+    "scanf(\"%d\", &element);",
+    "printf(\"Enter the position (1-based index): \");",
+    "scanf(\"%d\", &pos);",
+    "// Shift elements to the right",
+    "for (i = n; i >= pos; i--) {",
+    "arr[i] = arr[i - 1];",
+    "}",
+    "// Insert the element",
+    "arr[pos - 1] = element;",
+    "n++; // Increase size",
+    "// Output new array",
+    "printf(\"Array after insertion:\\n\");",
+    "for (i = 0; i < n; i++) {",
+    "printf(\"%d \", arr[i]);",
+    "}",
+    "return 0;",
+    "}",
+    "Enter the number of elements in the array: 5",
+    "Enter 5 elements:",
+    "10 20 30 40 50",
+    "Enter the element to insert: 25",
+    "Enter the position (1-based index): 3",
+    "Array after insertion:",
+    "10 20 25 30 40 50"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Consider you are developing a student management system for a college. The system stores the roll numbers of students in an array in the order of their registration. The admin wants to insert a new student’s roll number at a specific position (not necessarily the end), depending on priority registration. Write a C++ program that: Takes an array of roll numbers Inserts a new roll number at a given position Displays the updated list of roll numbers",
+   "answer": [
+    "#include <iostream.h>",
+    "void insertRollNumber(int roll[], int& size, int capacity, int newRoll, int position) {",
+    "if (size >= capacity) {",
+    "cout << \"Error: Roll list is full.\\n\";",
+    "return;",
+    "}",
+    "if (position < 0 || position > size) {",
+    "cout << \"Error: Invalid position.\\n\";",
+    "return;",
+    "}",
+    "// Shift elements to the right",
+    "for (int i = size - 1; i >= position; i--) {",
+    "roll[i + 1] = roll[i];",
+    "}",
+    "// Insert new roll number",
+    "roll[position] = newRoll;",
+    "size++;",
+    "}",
+    "void printRollNumbers(int roll[], int size) {",
+    "for (int i = 0; i < size; i++) {",
+    "cout << roll[i] << \" \";",
+    "}",
+    "cout << endl;",
+    "}"
+   ]
+  }
+ ]
+}

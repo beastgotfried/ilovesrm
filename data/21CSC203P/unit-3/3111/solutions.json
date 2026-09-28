@@ -1,0 +1,97 @@
+{
+ "course": "21CSC203P",
+ "code": "3111",
+ "unit": 3,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "Integrate event handling in GUI applications",
+ "mcq": [
+  {
+   "q": "In Swing, how do you respond to a button click event?",
+   "options": {
+    "A": "Implement the Runnable interface",
+    "B": "Register a MouseListener",
+    "C": "Register an ActionListener",
+    "D": "Use ActionEvent.getSource() directly"
+   },
+   "answer": "C",
+   "answer_text": "Register an ActionListener"
+  },
+  {
+   "q": "Which method is invoked when an ActionListener is triggered by a button?",
+   "options": {
+    "A": "run()",
+    "B": "mouseClicked()",
+    "C": "keyPressed()",
+    "D": "actionPerformed()"
+   },
+   "answer": "D",
+   "answer_text": "actionPerformed()"
+  },
+  {
+   "q": "What is the purpose of e.getSource() in actionPerformed() ?",
+   "options": {
+    "A": "To get event timestamp",
+    "B": "To identify the event source (e.g., which button was clicked)",
+    "C": "To capture user input",
+    "D": "To display output"
+   },
+   "answer": "B",
+   "answer_text": "To identify the event source (e.g., which button was clicked)"
+  },
+  {
+   "q": "In a form with multiple input fields, which component is used to retrieve entered text from a JTextField ?",
+   "options": {
+    "A": "getText()",
+    "B": "setText()",
+    "C": "toString()",
+    "D": "readText()"
+   },
+   "answer": "A",
+   "answer_text": "getText()"
+  },
+  {
+   "q": "Which method is invoked when an ActionListener is triggered by a button?",
+   "options": {
+    "A": "run()",
+    "B": "mouseClicked()",
+    "C": "keyPressed()",
+    "D": "actionPerformed()"
+   },
+   "answer": "D",
+   "answer_text": "actionPerformed()"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What happens when a JButton is clicked and how is it handled?",
+   "answer": [
+    "When a JButton is clicked, it generates an ActionEvent , which is passed to the registered ActionListener 's actionPerformed() method to process the action"
+   ]
+  },
+  {
+   "q": "Describe the process flow of collecting user input using a Swing form.",
+   "answer": [
+    "User input is entered in components like JTextField . On clicking a button, the input is retrieved using getText() , validated, and processed in the actionPerformed() method of the button’s listener."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a Java Swing application that collects student information (Name, Age, Department) and processes it when the \"Submit\" button is clicked. The application should display the entered details in a dialog box.Design and implement a Swing form with event handling. Include JLabel , JTextField , and JButton , and use ActionListener to process the form submission.",
+   "answer": [
+    "import javax.swing.*; import java.awt.*; import java.awt.event.*;",
+    "public class StudentForm extends JFrame { public StudentForm() { setTitle(\"Student Info Form\"); setLayout(new GridLayout(4, 2, 10, 10)); setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); setSize(350, 200);",
+    "JLabel nameLabel = new JLabel(\"Name:\"); JTextField nameField = new JTextField();",
+    "JLabel ageLabel = new JLabel(\"Age:\"); JTextField ageField = new JTextField();",
+    "JLabel deptLabel = new JLabel(\"Department:\"); JTextField deptField = new JTextField();",
+    "JButton submitButton = new JButton(\"Submit\");",
+    "add(nameLabel); add(nameField); add(ageLabel); add(ageField); add(deptLabel); add(deptField); add(new JLabel()); add(submitButton);",
+    "submitButton.addActionListener(new ActionListener() { public void actionPerformed(ActionEvent e) { String name = nameField.getText(); String age = ageField.getText(); String dept = deptField.getText();",
+    "if (name.isEmpty() || age.isEmpty() || dept.isEmpty()) { JOptionPane.showMessageDialog(null, \"Please fill all fields.\"); } else { JOptionPane.showMessageDialog(null, \"Student Info:\\nName: \" + name + \"\\nAge: \" + age + \"\\nDepartment: \" + dept); } } });",
+    "setVisible(true); }",
+    "public static void main(String[] args) { new StudentForm(); } }"
+   ]
+  }
+ ]
+}

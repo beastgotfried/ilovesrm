@@ -1,0 +1,100 @@
+{
+ "course": "21CSC203P",
+ "code": "1052",
+ "unit": 1,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "Summarize how parallel processing is integrated in imperative paradigms",
+ "mcq": [
+  {
+   "q": "In object-oriented programming, inheritance allows a class to:",
+   "options": {
+    "A": "a) Destroy an object",
+    "B": "b) Hide its methods",
+    "C": "c) Use features of another class ​​​​​​​",
+    "D": "d) Run programs in parallel"
+   },
+   "answer": "C",
+   "answer_text": "c) Use features of another class ​​​​​​​"
+  },
+  {
+   "q": "Which keyword in Java is used to implement inheritance?",
+   "options": {
+    "A": "a) inherit",
+    "B": "b) extends",
+    "C": "c) implements ​​​​​​​",
+    "D": "d) include"
+   },
+   "answer": "B",
+   "answer_text": "b) extends"
+  },
+  {
+   "q": "What is encapsulation in object-oriented programming?",
+   "options": {
+    "A": "a) Hiding data and showing only necessary parts",
+    "B": "b) Connecting multiple programs",
+    "C": "c) Creating duplicate code ​​​​​​​",
+    "D": "d) Inheriting from multiple classes"
+   },
+   "answer": "A",
+   "answer_text": "a) Hiding data and showing only necessary parts"
+  },
+  {
+   "q": "What is the advantage of using parallel processing in imperative programs?",
+   "options": {
+    "A": "a) Makes code harder to debug",
+    "B": "b) Reduces memory usage",
+    "C": "c) Improves performance by executing tasks simultaneously ​​​​​​​",
+    "D": "d) Eliminates the need for variables"
+   },
+   "answer": "C",
+   "answer_text": "c) Improves performance by executing tasks simultaneously ​​​​​​​"
+  },
+  {
+   "q": "How is parallel processing typically integrated in imperative languages like Java?",
+   "options": {
+    "A": "a) Through database queries",
+    "B": "b) Using threads or multi-threading APIs",
+    "C": "c) Using logic rules ​​​​​​​",
+    "D": "d) With HTML tags"
+   },
+   "answer": "B",
+   "answer_text": "b) Using threads or multi-threading APIs"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A data processing system handles large datasets and experiences delays. How can parallel computing improve performance?",
+   "answer": [
+    "By distributing tasks across multiple cores or processors, parallel computing enables simultaneous data processing, thereby reducing execution time and increasing efficiency."
+   ]
+  },
+  {
+   "q": "A graphics rendering engine must perform multiple calculations at once. What advantage does parallelism offer in this scenario?",
+   "answer": [
+    "Tasks such as image transformations and shading can be processed concurrently, maximizing hardware utilization and delivering faster rendering speeds."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A weather forecasting system requires optimization due to long processing times. Explain how multithreading can improve performance and describe the potential challenges associated with this approach.",
+   "answer": [
+    "class WeatherProcessor extends Thread { private List<String> dataChunk; public WeatherProcessor(List<String> dataChunk) { this.dataChunk = dataChunk; } public void run() { for (String data : dataChunk) { // simulate processing } } }",
+    "class WeatherProcessor extends Thread { private List<String> dataChunk;",
+    "public WeatherProcessor(List<String> dataChunk) { this.dataChunk = dataChunk; }",
+    "public void run() { for (String data : dataChunk) { // simulate processing } } }",
+    "Challenges : Race conditions when accessing shared resources. Thread synchronization overhead. Difficulty in debugging parallel executions.",
+    "Challenges :",
+    "Race conditions when accessing shared resources.",
+    "Race conditions when accessing shared resources.",
+    "Thread synchronization overhead.",
+    "Thread synchronization overhead.",
+    "Difficulty in debugging parallel executions.",
+    "Difficulty in debugging parallel executions.",
+    "Proper use of synchronization and thread-safe structures (e.g., ConcurrentHashMap ) mitigates these issues.",
+    "Proper use of synchronization and thread-safe structures (e.g., ConcurrentHashMap ) mitigates these issues."
+   ]
+  }
+ ]
+}

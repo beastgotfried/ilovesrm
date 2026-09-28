@@ -1,0 +1,101 @@
+{
+ "course": "21CSC202J",
+ "code": "5052",
+ "unit": 5,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "Identify common threats faced by operating systems",
+ "mcq": [
+  {
+   "q": "Which attack involves reusing captured valid data transmissions to perform unauthorized actions?",
+   "options": {
+    "A": "Masquerading",
+    "B": "Session hijacking",
+    "C": "Replay attack",
+    "D": "Privilege escalation"
+   },
+   "answer": "C",
+   "answer_text": "Replay attack"
+  },
+  {
+   "q": "Masquerading attack primarily targets which security mechanism?",
+   "options": {
+    "A": "Encryption",
+    "B": "Authentication",
+    "C": "Integrity",
+    "D": "Availability"
+   },
+   "answer": "B",
+   "answer_text": "Authentication"
+  },
+  {
+   "q": "Message modification attacks affect which aspect of security?",
+   "options": {
+    "A": "Availability",
+    "B": "Authentication",
+    "C": "Integrity",
+    "D": "Encryption"
+   },
+   "answer": "C",
+   "answer_text": "Integrity"
+  },
+  {
+   "q": "Which type of attack floods a system with excessive requests to make it unavailable to legitimate users?",
+   "options": {
+    "A": "Spoofing",
+    "B": "Trojan horse",
+    "C": "Denial of Service (DoS)",
+    "D": "Phishing"
+   },
+   "answer": "C",
+   "answer_text": "Denial of Service (DoS)"
+  },
+  {
+   "q": "The main security problem in an operating system arises due to:",
+   "options": {
+    "A": "Hardware malfunction",
+    "B": "Poor user interface design",
+    "C": "Unauthorized access to resources",
+    "D": "Insufficient RAM"
+   },
+   "answer": "C",
+   "answer_text": "Unauthorized access to resources"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is a man-in-the-middle attack and how does it compromise communication security?",
+   "answer": [
+    "A man-in-the-middle attack involves intercepting and potentially modifying communication between two parties without their knowledge, compromising confidentiality and integrity. Example: An attacker intercepts data between a client and server to steal login credentials.",
+    "A man-in-the-middle attack involves intercepting and potentially modifying communication between two parties without their knowledge, compromising confidentiality and integrity. Example: An attacker intercepts data between a client and server to steal login credentials."
+   ]
+  },
+  {
+   "q": "What are the three key goals of operating system security and briefly explain each?",
+   "answer": [
+    "Confidentiality: Ensuring only authorized users access data.",
+    "Confidentiality: Ensuring only authorized users access data.",
+    "Integrity: Protecting data from unauthorized modification.",
+    "Integrity: Protecting data from unauthorized modification.",
+    "Availability: Ensuring resources are accessible to authorized users when needed.",
+    "Availability: Ensuring resources are accessible to authorized users when needed."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain any four methods of attacking security with examples for each.",
+   "answer": [
+    "Answer Key:",
+    "Masquerading: Pretending to be another user to bypass authentication. Example: Logging in using stolen credentials.",
+    "Masquerading: Pretending to be another user to bypass authentication. Example: Logging in using stolen credentials.",
+    "Replay Attacks: Reusing captured valid data to repeat transactions. Example: Re-sending a captured bank transfer request to transfer money again.",
+    "Replay Attacks: Reusing captured valid data to repeat transactions. Example: Re-sending a captured bank transfer request to transfer money again.",
+    "Message Modification: Changing data in transit. Example: Altering a file sent over a network to insert malware.",
+    "Message Modification: Changing data in transit. Example: Altering a file sent over a network to insert malware.",
+    "Privilege Escalation: Gaining higher system privileges illegally. Example: Using a malicious script to gain root access in a Linux system.",
+    "Privilege Escalation: Gaining higher system privileges illegally. Example: Using a malicious script to gain root access in a Linux system."
+   ]
+  }
+ ]
+}

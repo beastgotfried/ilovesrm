@@ -1,0 +1,147 @@
+{
+ "course": "21CSC202J",
+ "code": "1042",
+ "unit": 1,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Compare microkernel and hybrid kernel structures with respect to modularity and performance",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Simple OS lacks kernel-level multitasking; Monolithic supports multitasking within kernel",
+    "B": "Simple OS supports distributed systems; Monolithic does not",
+    "C": "Monolithic OS operates in user mode only",
+    "D": "Simple OS strictly enforces modularity"
+   },
+   "answer": "A",
+   "answer_text": "Simple OS lacks kernel-level multitasking; Monolithic supports multitasking within kernel"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "They eliminate the need for device drivers",
+    "B": "They provide a balance between modularity, performance, and practical system design",
+    "C": "They remove the need for interprocess communication",
+    "D": "They restrict networking capabilities"
+   },
+   "answer": "B",
+   "answer_text": "They provide a balance between modularity, performance, and practical system design"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Linux Kernel",
+    "B": "MacOS (XNU Kernel)",
+    "C": "MS-DOS",
+    "D": "UNIX BSD"
+   },
+   "answer": "B",
+   "answer_text": "MacOS (XNU Kernel)"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Runs most OS services in user mode",
+    "B": "Provides minimal functionality and relies on user-space servers",
+    "C": "All OS services run in kernel space with no strict boundaries",
+    "D": "Uses layered approach with independent modules"
+   },
+   "answer": "C",
+   "answer_text": "All OS services run in kernel space with no strict boundaries"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "All OS services run in kernel space",
+    "B": "Only essential services run in kernel space; other services run in user space",
+    "C": "All device drivers are tightly coupled inside the kernel",
+    "D": "Entire operating system runs as a single monolithic block"
+   },
+   "answer": "B",
+   "answer_text": "Only essential services run in kernel space; other services run in user space"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Mach and QNX are well-known examples of Microkernel-based operating systems.",
+    "Windows NT and Mac OS X (XNU Kernel) are examples of Hybrid Kernel operating systems."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "A Simple OS often refers to early systems without multitasking or advanced features, whereas a Monolithic Kernel refers to the architectural design where all core OS functions run in the kernel space, supporting multitasking and advanced features."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Compare Operating System Structures: Simple, Monolithic, Microkernel, and Hybrid Kernel in a structured table format.",
+   "answer": [
+    "Feature",
+    "Simple Structure",
+    "Monolithic Kernel",
+    "Microkernel",
+    "Hybrid Kernel",
+    "Definition",
+    "Single-layer system with no modular separation",
+    "All core services run together in kernel space",
+    "Minimal kernel with essential services; other OS functions in user space",
+    "Combination of monolithic and microkernel features",
+    "Example OS",
+    "MS-DOS",
+    "UNIX, Linux",
+    "Mach, QNX",
+    "Windows NT, MacOS (XNU)",
+    "Kernel Size",
+    "Small",
+    "Large",
+    "Very small",
+    "Medium",
+    "Services in Kernel",
+    "All system functions",
+    "All core OS functions, device drivers",
+    "Only essential services (IPC, scheduling)",
+    "Performance-critical services",
+    "Modularity",
+    "None",
+    "Low",
+    "High",
+    "Medium (Modular with performance focus)",
+    "Performance",
+    "Low (manual tasks)",
+    "High (due to direct calls)",
+    "Medium to Low (overhead from IPC)",
+    "High (optimized trade-off)",
+    "Security & Stability",
+    "Low",
+    "Medium (all components share space)",
+    "High (isolation of services)",
+    "Medium to High (depends on design)",
+    "Ease of Maintenance",
+    "Difficult (hardcoded functions)",
+    "Complex (tight coupling)",
+    "Easier (modular user-space services)",
+    "Easier than monolithic but not as simple as microkernel",
+    "Fault Isolation",
+    "None",
+    "Low",
+    "High",
+    "Medium",
+    "Communication Between Services",
+    "Direct (no layering)",
+    "Direct kernel function calls",
+    "Message passing via IPC",
+    "Mixed (kernel calls + IPC)",
+    "Usage Suitability",
+    "Simple systems, single-task OS",
+    "General-purpose systems, high-performance servers",
+    "Embedded systems, secure environments",
+    "Commercial desktop and enterprise OS"
+   ]
+  }
+ ]
+}

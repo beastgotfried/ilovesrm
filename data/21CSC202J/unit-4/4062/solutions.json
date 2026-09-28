@@ -1,0 +1,133 @@
+{
+ "course": "21CSC202J",
+ "code": "4062",
+ "unit": 4,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Describe how virtual memory works using paging and swapping",
+ "mcq": [
+  {
+   "q": "Virtual memory is implemented using:",
+   "options": {
+    "A": "Segmentation",
+    "B": "Paging",
+    "C": "Swapping",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "answer_text": "All of the above"
+  },
+  {
+   "q": "In demand paging, the page replacement algorithm is triggered by:",
+   "options": {
+    "A": "Memory allocation",
+    "B": "Disk read",
+    "C": "Page fault",
+    "D": "Process termination"
+   },
+   "answer": "C",
+   "answer_text": "Page fault"
+  },
+  {
+   "q": "Swapping is helpful when:",
+   "options": {
+    "A": "The system has infinite memory",
+    "B": "Only one process runs at a time",
+    "C": "There is memory contention and multiprogramming",
+    "D": "Virtual memory is not enabled"
+   },
+   "answer": "C",
+   "answer_text": "There is memory contention and multiprogramming"
+  },
+  {
+   "q": "In Copy-On-Write, pages are initially:",
+   "options": {
+    "A": "Read-only and shared",
+    "B": "Writable and duplicated",
+    "C": "Swapped to disk",
+    "D": "Compressed"
+   },
+   "answer": "A",
+   "answer_text": "Read-only and shared"
+  },
+  {
+   "q": "Which of the following statements about virtual memory is TRUE?",
+   "options": {
+    "A": "It reduces the need for page replacement",
+    "B": "It allows each process to have its own address space",
+    "C": "It eliminates memory fragmentation",
+    "D": "It cannot be used with paging"
+   },
+   "answer": "B",
+   "answer_text": "It allows each process to have its own address space"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is demand paging? How is it different from regular paging?",
+   "answer": [
+    "Demand paging loads a page into memory only when it is needed (i.e., on a page fault). In regular paging, all required pages may be loaded in advance. Mark Allocation:",
+    "Demand paging loads a page into memory only when it is needed (i.e., on a page fault). In regular paging, all required pages may be loaded in advance.",
+    "Mark Allocation:",
+    "Demand paging definition – 50%",
+    "Demand paging definition – 50%",
+    "Comparison with regular paging – 30%",
+    "Comparison with regular paging – 30%",
+    "Example/mention of page fault – 20%",
+    "Example/mention of page fault – 20%"
+   ]
+  },
+  {
+   "q": "Define virtual memory. How does it work with paging?",
+   "answer": [
+    "Virtual memory is a technique that allows execution of processes that may not be fully loaded into physical memory . It uses paging to map virtual addresses to physical frames, with the help of page tables and secondary storage for pages not currently in RAM. Mark Allocation:",
+    "Virtual memory is a technique that allows execution of processes that may not be fully loaded into physical memory . It uses paging to map virtual addresses to physical frames, with the help of page tables and secondary storage for pages not currently in RAM.",
+    "Mark Allocation:",
+    "Definition – 30%",
+    "Definition – 30%",
+    "Role of paging – 40%",
+    "Role of paging – 40%",
+    "Involvement of secondary storage – 30%",
+    "Involvement of secondary storage – 30%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "What is Demand Paging? Explain its working with a diagram.",
+   "answer": [
+    "Demand Paging is a lazy memory allocation technique used in virtual memory systems . Only the required pages of a process are loaded into memory , instead of the entire process.",
+    "🧠 Working:",
+    "At first, none or few pages of a process are in memory.",
+    "At first, none or few pages of a process are in memory.",
+    "When a page not in memory is accessed → page fault occurs.",
+    "When a page not in memory is accessed → page fault occurs.",
+    "OS loads that page from disk into memory and restarts the instruction.",
+    "OS loads that page from disk into memory and restarts the instruction.",
+    "📌 Benefits:",
+    "Reduces memory usage",
+    "Reduces memory usage",
+    "Allows execution of large programs",
+    "Allows execution of large programs",
+    "Enables more processes to reside in memory",
+    "Enables more processes to reside in memory",
+    "📉 Disadvantage:",
+    "Frequent page faults can reduce performance (50%)",
+    "Frequent page faults can reduce performance (50%)",
+    "📈 Page Fault Handling Steps: (30%)",
+    "Check if page is valid",
+    "Check if page is valid",
+    "If not → Trap to OS",
+    "If not → Trap to OS",
+    "OS finds free frame",
+    "OS finds free frame",
+    "Page is read from disk",
+    "Page is read from disk",
+    "Page table is updated",
+    "Page table is updated",
+    "Instruction is restarted Diagram (20%)",
+    "Instruction is restarted Diagram (20%)"
+   ]
+  }
+ ]
+}

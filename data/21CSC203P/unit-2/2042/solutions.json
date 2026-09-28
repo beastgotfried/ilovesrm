@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2042",
+ "unit": 2,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Develop modular programs by passing arrays (including array of objects) to methods and returning arrays from methods for enhanced reusability and clarity.",
+ "mcq": [
+  {
+   "q": "Which data structure allows you to store multiple objects of a class in a single structure?",
+   "options": {
+    "A": "Single object",
+    "B": "Array of objects",
+    "C": "Primitive array",
+    "D": "Function"
+   },
+   "answer": "B",
+   "answer_text": "Array of objects"
+  },
+  {
+   "q": "How are elements in a two-dimensional array accessed in Java?",
+   "options": {
+    "A": "array[row][column]",
+    "B": "array(column, row)",
+    "C": "array -> row -> column",
+    "D": "array[column][row]"
+   },
+   "answer": "A",
+   "answer_text": "array[row][column]"
+  },
+  {
+   "q": "What will be the default value of elements in a newly declared integer array in Java?",
+   "options": {
+    "A": "null",
+    "B": "1",
+    "C": "0",
+    "D": "garbage value"
+   },
+   "answer": "C",
+   "answer_text": "0"
+  },
+  {
+   "q": "Which of the following is the correct way to declare a one-dimensional array in Java?",
+   "options": {
+    "A": "int arr[] = new int[5];",
+    "B": "int arr = new int[5];",
+    "C": "array int arr = new array[5];",
+    "D": "int arr[5];"
+   },
+   "answer": "A",
+   "answer_text": "int arr[] = new int[5];"
+  },
+  {
+   "q": "Which of the following correctly passes an array to a method in Java?",
+   "options": {
+    "A": "passArray(int[] arr);",
+    "B": "method(int arr);",
+    "C": "arrayCall(arr);",
+    "D": "method[] array;"
+   },
+   "answer": "A",
+   "answer_text": "passArray(int[] arr);"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Write a Java method that takes an array of integers as input and returns a new array with each element doubled.",
+   "answer": [
+    "public class ArrayUtils { public static int[] doubleArray(int[] input) { int[] result = new int[input.length]; for (int i = 0; i < input.length; i++) { result[i] = input[i] * 2; } return result; } } This method demonstrates array manipulation and returning arrays from methods."
+   ]
+  },
+  {
+   "q": "Differentiate between a one-dimensional and a two-dimensional array in Java with examples.",
+   "answer": [
+    "A one-dimensional array is a linear collection of elements, e.g., int[] numbers = {1, 2, 3}; A two-dimensional array is like a table with rows and columns, e.g., int[][] matrix = { {1, 2}, {3, 4} }; Access in 1D: numbers[1] = 2 Access in 2D: matrix[1][0] = 3"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are building a student result system. Each student has marks in 3 subjects. You are given an array of student objects, and each object contains the student name and marks. Write a Java program that does the following: Uses an array of Student objects Passes the array to a method that calculates and prints each student�s average mark",
+   "answer": [
+    "Java Code: class Student { String name; int[] marks; Student(String name, int[] marks) { this.name = name; this.marks = marks; } } public class StudentResults { public static void calculateAverages(Student[] students) { for (Student s : students) { int total = 0; for (int mark : s.marks) { total += mark; } double avg = (double) total / s.marks.length; System.out.println(\"Student: \" + s.name + \" | Average: \" + avg); } } public static void main(String[] args) { Student[] studentArray = { new Student(\"Alice\", new int[]{85, 90, 88}), new Student(\"Bob\", new int[]{70, 65, 75}) }; calculateAverages(studentArray); } } Explanation: An array of objects (Student[]) stores multiple student records. The method calculateAverages() accepts the array and processes each object. This modular approach supports code reuse, clarity, and object-oriented handling of structured data."
+   ]
+  }
+ ]
+}

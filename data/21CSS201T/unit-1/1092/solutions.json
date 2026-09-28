@@ -1,0 +1,122 @@
+{
+ "course": "21CSS201T",
+ "code": "1092",
+ "unit": 1,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "interpret and construct simple logical expressions or circuits using AND, OR, and NOT gates ",
+ "mcq": [
+  {
+   "q": "What is the truth table output for an OR gate with inputs A = 0 and B = 1?",
+   "options": {
+    "A": "0",
+    "B": "1",
+    "C": "0 for AND gate, 1 for OR gate",
+    "D": "Error"
+   },
+   "answer": "B",
+   "answer_text": "1"
+  },
+  {
+   "q": "If the output of a logic circuit is 1 only when both inputs are 0, which combination of gates could represent it?",
+   "options": {
+    "A": "AND gate",
+    "B": "OR gate",
+    "C": "NOR gate",
+    "D": "XOR gate"
+   },
+   "answer": "C",
+   "answer_text": "NOR gate"
+  },
+  {
+   "q": "Which logic gate’s symbol is a triangle with a small circle (inversion bubble) at its output?",
+   "options": {
+    "A": "AND gate",
+    "B": "OR gate",
+    "C": "NOT gate",
+    "D": "NAND gate"
+   },
+   "answer": "C",
+   "answer_text": "NOT gate"
+  },
+  {
+   "q": "What is the output of an AND gate when both inputs are 1?",
+   "options": {
+    "A": "0",
+    "B": "1",
+    "C": "Depends on other inputs",
+    "D": "Undefined"
+   },
+   "answer": "B",
+   "answer_text": "1"
+  },
+  {
+   "q": "Which logical expression corresponds to the circuit with inputs A and B connected to an AND gate, and the output then fed to a NOT gate?",
+   "options": {
+    "A": "A + B",
+    "B": "A • B",
+    "C": "¬(A • B)",
+    "D": "¬A + ¬B"
+   },
+   "answer": "C",
+   "answer_text": "¬(A • B)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Construct a logical expression and logic circuit using AND, OR, and NOT gates for the expression: Y = A · B + ¬C",
+   "answer": [
+    "This expression uses:",
+    "This expression uses:",
+    "AND gate for A⋅B",
+    "AND gate for A⋅B",
+    "NOT gate for ¬C",
+    "NOT gate for ¬C",
+    "OR gate to combine the outputs of A⋅B and ¬C",
+    "OR gate to combine the outputs of A⋅B and ¬C",
+    "Steps to construct circuit:",
+    "Steps to construct circuit:",
+    "Connect inputs A and B to an AND gate → output1 = A · B",
+    "Connect inputs A and B to an AND gate → output1 = A · B",
+    "Connect input C to a NOT gate → output2 = ¬C",
+    "Connect input C to a NOT gate → output2 = ¬C",
+    "Connect output1 and output2 to an OR gate",
+    "Connect output1 and output2 to an OR gate",
+    "Final output Y = (A · B) + (¬C)",
+    "Final output Y = (A · B) + (¬C)",
+    "This circuit gives output 1 if either A AND B is true, or C is false.",
+    "This circuit gives output 1 if either A AND B is true, or C is false."
+   ]
+  },
+  {
+   "q": "Describe the logic function of an OR gate along with its truth table.",
+   "answer": [
+    "An OR gate outputs HIGH (1) if any one or more of its inputs are HIGH. It only outputs LOW (0) when all inputs are LOW . It performs logical addition. Truth Table:",
+    "An OR gate outputs HIGH (1) if any one or more of its inputs are HIGH. It only outputs LOW (0) when all inputs are LOW . It performs logical addition.",
+    "Truth Table:",
+    "A B A + B 0 0 0 0 1 1 1 0 1 1 1 1"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Construct a logic circuit using AND, OR, and NOT gates for the expression: Y = (A + B) · ¬C Explain the design and truth table.",
+   "answer": [
+    "Given Expression: Y=(A+B)⋅C",
+    "Given Expression: Y=(A+B)⋅C",
+    "Design Steps: Connect inputs A and B to an OR gate → output1 = A + B Connect input C to a NOT gate → output2 = ¬C Connect output1 and output2 to an AND gate → final output = (A + B) · ¬C",
+    "Design Steps:",
+    "Connect inputs A and B to an OR gate → output1 = A + B",
+    "Connect inputs A and B to an OR gate → output1 = A + B",
+    "Connect input C to a NOT gate → output2 = ¬C",
+    "Connect input C to a NOT gate → output2 = ¬C",
+    "Connect output1 and output2 to an AND gate → final output = (A + B) · ¬C",
+    "Connect output1 and output2 to an AND gate → final output = (A + B) · ¬C",
+    "Truth Table: A B C A+B ¬C Y = (A+B)·¬C 0 0 0 0 1 0 0 1 0 1 1 1 1 0 0 1 1 1 1 1 0 1 1 1 0 0 1 0 0 0 0 1 1 1 0 0 1 0 1 1 0 0 1 1 1 1 0 0",
+    "Truth Table:",
+    "Explanation: The output is HIGH only when either A or B is HIGH and C is LOW. This matches the logic function perfectly.",
+    "Explanation: The output is HIGH only when either A or B is HIGH and C is LOW. This matches the logic function perfectly."
+   ]
+  }
+ ]
+}

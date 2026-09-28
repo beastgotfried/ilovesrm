@@ -1,0 +1,136 @@
+{
+ "course": "21CSC202J",
+ "code": "4022",
+ "unit": 4,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Solve numerical problems based on memory allocation techniques",
+ "mcq": [
+  {
+   "q": "Which is the fastest strategy in practice due to minimal searching?",
+   "options": {
+    "A": "Best Fit",
+    "B": "First Fit",
+    "C": "Worst Fit",
+    "D": "Quick Fit"
+   },
+   "answer": "B",
+   "answer_text": "First Fit"
+  },
+  {
+   "q": "In contiguous memory allocation, each process is contained in:",
+   "options": {
+    "A": "Multiple memory locations scattered across memory",
+    "B": "A single contiguous block of memory",
+    "C": "Virtual memory pages",
+    "D": "Cache blocks"
+   },
+   "answer": "B",
+   "answer_text": "A single contiguous block of memory"
+  },
+  {
+   "q": "The main disadvantage of contiguous memory allocation is:",
+   "options": {
+    "A": "Fragmentation",
+    "B": "Speed",
+    "C": "Complex access control",
+    "D": "Cache miss"
+   },
+   "answer": "A",
+   "answer_text": "Fragmentation"
+  },
+  {
+   "q": "Given: Memory blocks: 100 KB, 500 KB, 200 KB, 300 KB, 600 KB Processes: 212 KB, 417 KB, 112 KB, 426 KB Which process will not be allocated memory when Worst fit Strategy is applied?",
+   "options": {
+    "A": "212 KB",
+    "B": "417 KB",
+    "C": "112 KB",
+    "D": "426 KB"
+   },
+   "answer": "D",
+   "answer_text": "426 KB"
+  },
+  {
+   "q": "Given: Memory blocks: 100 KB, 500 KB, 200 KB, 300 KB, 600 KB Processes: 212 KB, 417 KB, 112 KB, 426 KB Which process will not be allocated memory when First fit Strategy is applied?",
+   "options": {
+    "A": "212 KB",
+    "B": "417 KB",
+    "C": "112 KB",
+    "D": "426 KB"
+   },
+   "answer": "D",
+   "answer_text": "426 KB"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is contiguous memory allocation? List its advantages and disadvantages.",
+   "answer": [
+    "Contiguous memory allocation is a memory management technique where each process is allocated a single continuous block of memory space. Advantages:",
+    "Simple to implement",
+    "Simple to implement",
+    "Fast memory access due to contiguous addressing Disadvantages:",
+    "Fast memory access due to contiguous addressing Disadvantages:",
+    "Leads to external fragmentation",
+    "Leads to external fragmentation",
+    "Difficult to allocate memory for large or growing processes",
+    "Difficult to allocate memory for large or growing processes",
+    "Mark Allocation:",
+    "Definition – 30%",
+    "Definition – 30%",
+    "Two valid advantages – 20%",
+    "Two valid advantages – 20%",
+    "Two valid disadvantages – 20%",
+    "Two valid disadvantages – 20%",
+    "Clarity and structure – 30%",
+    "Clarity and structure – 30%"
+   ]
+  },
+  {
+   "q": "Why does Best Fit sometimes result in more fragmentation than First Fit?",
+   "answer": [
+    "Best Fit tries to minimize leftover space by choosing the smallest possible block, but this often leaves many small, unusable holes in memory, increasing external fragmentation . First Fit may leave larger but more usable fragments.",
+    "Mark Allocation:",
+    "Explanation of Best Fit behavior – 40%",
+    "Explanation of Best Fit behavior – 40%",
+    "Concept of fragmentation – 40%",
+    "Concept of fragmentation – 40%",
+    "Clarity of reasoning – 20%",
+    "Clarity of reasoning – 20%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain Contiguous Memory Allocation and its strategies. Compare the advantages and disadvantages of each strategy.",
+   "answer": [
+    "Contiguous memory allocation is one of the earliest memory management schemes used in operating systems. It involves allocating a single contiguous block of physical memory to each process. (20%) The Operating System (OS) maintains a free memory list , and allocation is done based on certain strategies.",
+    "When a process arrives, the OS selects a free block large enough to accommodate it, using one of the following strategies:",
+    "Allocates the first available block that is large enough.",
+    "Allocates the first available block that is large enough.",
+    "It scans memory from the beginning and assigns the first matching hole .",
+    "It scans memory from the beginning and assigns the first matching hole .",
+    "Advantage: Fast; low overhead",
+    "Advantage: Fast; low overhead",
+    "Disadvantage: Can lead to many small unused holes (external fragmentation)",
+    "Disadvantage: Can lead to many small unused holes (external fragmentation)",
+    "Allocates the smallest hole that is big enough.",
+    "Allocates the smallest hole that is big enough.",
+    "It searches the entire list and selects the best match .",
+    "It searches the entire list and selects the best match .",
+    "Advantage: Minimizes wasted space",
+    "Advantage: Minimizes wasted space",
+    "Disadvantage: Slower due to full search; may leave tiny unusable fragments",
+    "Disadvantage: Slower due to full search; may leave tiny unusable fragments",
+    "Allocates the largest available hole .",
+    "Allocates the largest available hole .",
+    "Idea is to leave large blocks behind for future use.",
+    "Idea is to leave large blocks behind for future use.",
+    "Advantage: May avoid many small holes",
+    "Advantage: May avoid many small holes",
+    "Disadvantage: Often leads to inefficient space usage",
+    "Disadvantage: Often leads to inefficient space usage"
+   ]
+  }
+ ]
+}

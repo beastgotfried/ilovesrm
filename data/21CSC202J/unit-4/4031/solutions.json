@@ -1,0 +1,100 @@
+{
+ "course": "21CSC202J",
+ "code": "4031",
+ "unit": 4,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Implement best fit and worst fit memory allocation algorithms in lab programs",
+ "mcq": [
+  {
+   "q": "Using the same memory blocks (100, 500, 200, 300 KB), which block will Worst Fit choose for a process of 210 KB?",
+   "options": {
+    "A": "500 KB",
+    "B": "300 KB",
+    "C": "200 KB",
+    "D": "100 KB"
+   },
+   "answer": "A",
+   "answer_text": "500 KB"
+  },
+  {
+   "q": "Given memory blocks of 100 KB, 500 KB, 200 KB, and 300 KB. A process of 210 KB is to be allocated. Which block will Best Fit strategy choose?",
+   "options": {
+    "A": "500 KB",
+    "B": "300 KB",
+    "C": "200 KB",
+    "D": "100 KB"
+   },
+   "answer": "B",
+   "answer_text": "300 KB"
+  },
+  {
+   "q": "A process of 430 KB is best suited to which block in Worst Fit allocation? Available blocks: 420 KB, 600 KB, 430 KB",
+   "options": {
+    "A": "420 KB",
+    "B": "600 KB",
+    "C": "430 KB",
+    "D": "Not enough memory"
+   },
+   "answer": "B",
+   "answer_text": "600 KB"
+  },
+  {
+   "q": "If a system continuously uses Best Fit, over time, it will likely:",
+   "options": {
+    "A": "Increase large memory holes",
+    "B": "Have no free memory left",
+    "C": "Create many small unusable holes",
+    "D": "Reduce turnaround time"
+   },
+   "answer": "C",
+   "answer_text": "Create many small unusable holes"
+  },
+  {
+   "q": "In lab experiments, Worst Fit can be unfavorable because:",
+   "options": {
+    "A": "It takes longer to search largest block",
+    "B": "It uses smallest possible memory",
+    "C": "It causes internal fragmentation",
+    "D": "It never allocates memory"
+   },
+   "answer": "A",
+   "answer_text": "It takes longer to search largest block"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Given Memory Blocks (in KB): 150, 350, 200, 400, 250 Processes to Allocate (in KB): 115, 350, 90, 275 Task: Perform allocation using both: Best Fit Best Fit Worst Fit Show which block is assigned to each process. Indicate unallocated if not possible. Worst Fit Show which block is assigned to each process. Indicate unallocated if not possible.",
+   "answer": [
+    "Best Fit (50%)",
+    "Best Fit (50%)",
+    "Worst Fit (50%)"
+   ]
+  },
+  {
+   "q": "A memory has free blocks of size: 100 KB, 500 KB, 200 KB, 300 KB, and 600 KB. A process requires 212 KB. Using First Fit, Best Fit, and Worst Fit, which blocks will be allocated?",
+   "answer": [
+    "First Fit: 500 KB (first block large enough)",
+    "First Fit: 500 KB (first block large enough)",
+    "Best Fit: 300 KB (smallest block ≥ 212 KB)",
+    "Best Fit: 300 KB (smallest block ≥ 212 KB)",
+    "Worst Fit: 600 KB (largest block)",
+    "Worst Fit: 600 KB (largest block)",
+    "Mark Allocation:",
+    "Correct answers for each method – 60% (20% each)",
+    "Correct answers for each method – 60% (20% each)",
+    "Correct explanation for choice – 40%",
+    "Correct explanation for choice – 40%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Given Memory Blocks (KB): 100, 500, 200, 300, 600 Processes (KB): 212, 417, 112, 426 Give Best Fit and Worst Fit Allocation. Which strategy caused more fragmentation and why?",
+   "answer": [
+    "Worst Fit caused more internal fragmentation because it allocates large blocks to small processes, leaving large leftover memory chunks that may not be reused efficiently. (20%)",
+    "Worst Fit caused more internal fragmentation because it allocates large blocks to small processes, leaving large leftover memory chunks that may not be reused efficiently. (20%)"
+   ]
+  }
+ ]
+}

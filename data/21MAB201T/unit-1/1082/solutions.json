@@ -1,0 +1,110 @@
+{
+ "course": "21MAB201T",
+ "code": "1082",
+ "unit": 1,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Tutorial - Problem solving",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Solve Lagrange's equation: } x(y-z)p+y(z-x)q=z(x-y)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Subsidiary equations: } \\frac{dx}{x(y-z)}=\\frac{dy}{y(z-x)}=\\frac{dz}{z(x-y)}\\)",
+    "(2 Mark)",
+    "\\(\\text{Use multipliers (1,1,1): } x+y+z=a\\)",
+    "(2 Mark)",
+    "\\(\\text{Use multipliers (1/x,1/y,1/z): } xyz=b\\)",
+    "(1 Mark)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Solve Clairaut's equation: } z=px+qy+\\sqrt{1+p^2+q^2}\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Complete integral: } z=ax+by+\\sqrt{1+a^2+b^2}\\)",
+    "(2 Mark)",
+    "\\(\\text{For singular integral, differentiate w.r.t a and b}\\)",
+    "(2 Mark)",
+    "\\(\\text{Eliminate a,b to get } x^2+y^2+z^2=1\\)",
+    "(1 Mark)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Solve the following PDEs: (i) } p^2+q^2=1 \\text{ (ii) } z=px+qy+\\sqrt{1+p^2+q^2} \\text{ (iii) } x(y-z)p+y(z-x)q=z(x-y)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{(i) Complete integral: } z=ax+\\sqrt{1-a^2}y+c\\)",
+    "(2 Mark)",
+    "\\(\\text{(ii) Complete: } z=ax+by+\\sqrt{1+a^2+b^2}, \\text{ Singular: } x^2+y^2+z^2=1\\)",
+    "(2 Mark)",
+    "\\(\\text{(iii) Using multipliers: } x+y+z=a, xyz=b\\)",
+    "(2 Mark)",
+    "\\(\\text{All three solutions obtained correctly}\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

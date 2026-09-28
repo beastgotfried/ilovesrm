@@ -1,0 +1,95 @@
+{
+ "course": "21MAB201T",
+ "code": "5031",
+ "unit": 5,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Problems of Z Transform Using Properties\nsolve complex Z transform problems by applying relevant properties.",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "Find the Z-transform of \\(n^2\\) .",
+   "answer": [
+    "1. write Z[ \\(n^2\\) ] as Z[n.n]",
+    "2. use the property \\(Z[n.x(n)]= -z \\frac{\\mathrm{d} }{\\mathrm{d} x}X(z)\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Find } Z[a^n \\cos n\\theta] \\text{ using the scaling property.}\\)",
+   "answer": [
+    "\\(\\text{We know } Z[\\cos n\\theta] = \\frac{z(z-\\cos\\theta)}{z^2 - 2z\\cos\\theta + 1}\\)",
+    "\\(\\text{Using scaling: } Z[a^n x(n)] = X(z/a) \\text{ with } x(n)=\\cos n\\theta\\)",
+    "\\(Z[a^n \\cos n\\theta] = \\frac{(z/a)((z/a)-\\cos\\theta)}{(z/a)^2 - 2(z/a)\\cos\\theta + 1}\\)",
+    "\\(= \\frac{z(z-a\\cos\\theta)}{z^2 - 2az\\cos\\theta + a^2}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Using the properties of Z-transform, find \\(X(z)\\) for the following sequences: a) \\(x(n) = (n-1)^2 u(n-1)\\) b) \\(x(n) = a^{n-2} \\cos\\big((n-2)\\theta\\big) u(n-2)\\) c) \\(x(n) = n (n-1) a^{n-2} u(n)\\) d) \\(x(n) = \\sum_{k=0}^{n} a^k\\) (Hint: Convolution of \\(a^n u(n)\\) and \\(u(n)\\) )",
+   "answer": [
+    "a) For \\(x(n) = (n-1)^2 u(n-1)\\) : We know \\(Z\\{n^2 u(n)\\} = \\frac{z(z+1)}{(z-1)^3}\\) . Using time-shifting: \\(Z\\{(n-1)^2 u(n-1)\\} = z^{-1} \\cdot \\frac{z(z+1)}{(z-1)^3} = \\frac{z+1}{(z-1)^3}\\) .",
+    "b) For \\(x(n) = a^{n-2} \\cos((n-2)\\theta) u(n-2)\\) : We know \\(Z\\{a^n \\cos(n\\theta) u(n)\\} = \\frac{z(z-a\\cos\\theta)}{z^2 - 2az\\cos\\theta + a^2}\\) . Using time-shifting: \\(Z\\{a^{n-2} \\cos((n-2)\\theta) u(n-2)\\} = z^{-2} \\cdot \\frac{z(z-a\\cos\\theta)}{z^2 - 2az\\cos\\theta + a^2} = \\frac{z-a\\cos\\theta}{z(z^2 - 2az\\cos\\theta + a^2)}\\) .",
+    "c) For \\(x(n) = n(n-1) a^{n-2} u(n)\\) : Note: \\(n(n-1) a^{n-2} = \\frac{1}{a^2} \\cdot n(n-1) a^n\\) . We know \\(Z\\{n(n-1) a^n u(n)\\} = \\frac{2a^2 z}{(z-a)^3}\\) (from standard formulas or derived via differentiation). Therefore, \\(Z\\{n(n-1) a^{n-2} u(n)\\} = \\frac{1}{a^2} \\cdot \\frac{2a^2 z}{(z-a)^3} = \\frac{2z}{(z-a)^3}\\) .",
+    "d) For \\(x(n) = \\sum_{k=0}^{n} a^k = (a^n u(n)) * (u(n))\\) : Using convolution theorem: \\(Z\\{x(n)\\} = Z\\{a^n u(n)\\} \\cdot Z\\{u(n)\\} = \\frac{z}{z-a} \\cdot \\frac{z}{z-1} = \\frac{z^2}{(z-a)(z-1)}\\) .",
+    "Final Answers: a) \\(\\frac{z+1}{(z-1)^3}\\) b) \\(\\frac{z-a\\cos\\theta}{z(z^2 - 2az\\cos\\theta + a^2)}\\) c) \\(\\frac{2z}{(z-a)^3}\\) d) \\(\\frac{z^2}{(z-a)(z-1)}\\)"
+   ]
+  }
+ ]
+}

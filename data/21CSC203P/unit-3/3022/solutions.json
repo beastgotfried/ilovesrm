@@ -1,0 +1,104 @@
+{
+ "course": "21CSC203P",
+ "code": "3022",
+ "unit": 3,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Utilize Runnable interface for concurrent tasks",
+ "mcq": [
+  {
+   "q": "Consider the following code: Which statement correctly creates and runs this thread?",
+   "options": {
+    "A": "MyThread.run();",
+    "B": "new MyThread().start();",
+    "C": "MyThread t = new MyThread(); t.run();",
+    "D": "Thread.start();"
+   },
+   "answer": "B",
+   "answer_text": "new MyThread().start();"
+  },
+  {
+   "q": "What happens if you call run() instead of start() on a thread object?",
+   "options": {
+    "A": "A new thread is created",
+    "B": "It throws a runtime exception",
+    "C": "The code runs in the current thread, not concurrently",
+    "D": "It pauses the main thread"
+   },
+   "answer": "C",
+   "answer_text": "The code runs in the current thread, not concurrently"
+  },
+  {
+   "q": "Given this code snippet: How would you properly execute it in a new thread?",
+   "options": {
+    "A": "new Task().run();",
+    "B": "Runnable r = new Task(); r.execute();",
+    "C": "Thread t = new Thread(new Task()); t.start();",
+    "D": "Task.run();"
+   },
+   "answer": "C",
+   "answer_text": "Thread t = new Thread(new Task()); t.start();"
+  },
+  {
+   "q": "What is the correct way to start a thread when using the Thread class in Java?",
+   "options": {
+    "A": "Call run() method directly",
+    "B": "Call start() on a Thread object",
+    "C": "Use Thread.init()",
+    "D": "Instantiate Runnable and call execute()"
+   },
+   "answer": "B",
+   "answer_text": "Call start() on a Thread object"
+  },
+  {
+   "q": "What is the main advantage of implementing the Runnable interface over extending the Thread class?",
+   "options": {
+    "A": "Better GUI performance",
+    "B": "Runnable allows use of multiple constructors",
+    "C": "Java supports only one class inheritance",
+    "D": "No need to override run() method"
+   },
+   "answer": "C",
+   "answer_text": "Java supports only one class inheritance"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the output of this code?",
+   "answer": [
+    "\"Thread is running\"",
+    "start() initiates a new thread, and run() prints the message."
+   ]
+  },
+  {
+   "q": "Explain the steps to create a thread using the Thread class in Java.",
+   "answer": [
+    "Create a class that extends Thread",
+    "Create a class that extends Thread",
+    "Override the run() method",
+    "Override the run() method",
+    "Create an instance of the class",
+    "Create an instance of the class",
+    "Call the start() method to begin thread execution",
+    "Call the start() method to begin thread execution"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are building a file processing tool in Java. The tool needs to: Read large files from disk Read large files from disk Compress each file using a CPU-intensive task Compress each file using a CPU-intensive task Log progress in real-time You decide to use multithreading to improve performance. Log progress in real-time You decide to use multithreading to improve performance. Design a solution where: You use Thread class for file reading You use Thread class for file reading You use Runnable interface for compression tasks Explain how the threads interact and how you will manage concurrency to avoid race conditions. Include code snippets to support your explanation. You use Runnable interface for compression tasks Explain how the threads interact and how you will manage concurrency to avoid race conditions. Include code snippets to support your explanation.",
+   "answer": [
+    "Design:",
+    "Create FileReaderThread class extending Thread",
+    "Create FileReaderThread class extending Thread",
+    "Implement Compressor class using Runnable",
+    "Implement Compressor class using Runnable",
+    "Use shared object (e.g., queue) for file data",
+    "Use shared object (e.g., queue) for file data",
+    "Use synchronized blocks or ReentrantLock to manage shared resource access",
+    "Use synchronized blocks or ReentrantLock to manage shared resource access",
+    "Code Snippet:"
+   ]
+  }
+ ]
+}

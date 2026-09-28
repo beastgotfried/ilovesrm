@@ -1,0 +1,92 @@
+{
+ "course": "21MAB201T",
+ "code": "4011",
+ "unit": 4,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Define Fourier transform and its inverse transform with proper mathematical expressions",
+ "mcq": [
+  {
+   "q": "If the limits of an integral transform are from \\((-\\infty,+\\infty) \\) it is called:",
+   "options": {
+    "A": "Finite transform",
+    "B": "Laplace transform",
+    "C": "Infinite transform",
+    "D": "Fourier series"
+   },
+   "answer": "C",
+   "answer_text": "Infinite transform"
+  },
+  {
+   "q": "If \\(F\\{{f(x)}\\}=F(s),\\) then \\(F\\{x^n f(x)\\} =\\)",
+   "options": {
+    "A": "\\(i^{n} \\frac{d^{n}}{ds^{n}} F(s) \\)",
+    "B": "\\((-i)^{n} \\frac{d^{n}}{ds^{n}} F(s)\\)",
+    "C": "\\(\\frac{d^{n}}{dx^{n}} F(s)\\)",
+    "D": "\\((-1)^{n} F(s)\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\((-i)^{n} \\frac{d^{n}}{ds^{n}} F(s)\\)"
+  },
+  {
+   "q": "Parseval's identity states that",
+   "options": {
+    "A": "\\(\\int |f(x)| \\, dx = \\int |F(s)| \\, ds\\)",
+    "B": "\\(\\int |f(x)|^{2} \\, dx = \\int |F(s)|^{2} \\, ds\\)",
+    "C": "\\( \\int f(x)^{2} \\, dx = \\int F(s) \\, ds\\)",
+    "D": "\\(\\int f(x) \\, dx = \\int F(s) \\, ds \\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\int |f(x)|^{2} \\, dx = \\int |F(s)|^{2} \\, ds\\)"
+  },
+  {
+   "q": "The formula \\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x)\\, e^{isx} \\, dx \\) represents",
+   "options": {
+    "A": "Complex Fourier transform",
+    "B": "Inverse fourier transform",
+    "C": "Laplace transform",
+    "D": "Fourier series"
+   },
+   "answer": "A",
+   "answer_text": "Complex Fourier transform"
+  },
+  {
+   "q": "In the convolution theorem, the Fourier transform of \\(f(x) * g(x) =\\)",
+   "options": {
+    "A": "\\(F(s) + G(s) \\)",
+    "B": "\\(F(s) - G(s) \\)",
+    "C": "\\(F(s) \\cdot G(s)\\)",
+    "D": "\\(\\frac{F(s)}{G(s)}\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(F(s) \\cdot G(s)\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{State and prove the change of scale property of Fourier transforms.}\\)",
+   "answer": [
+    "\\(\\text{Property: If } F[f(x)] = F(s) \\text{ then } F[f(ax)] = \\frac{1}{|a|} F\\left(\\frac{s}{a}\\right), a \\ne 0\\)",
+    "\\(\\text{Proof: } F[f(ax)] = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(ax) e^{i s x} dx\\)",
+    "\\(\\text{Let } u = ax, du = a dx \\Rightarrow dx = du/a\\)",
+    "\\(\\text{For } a>0: F[f(ax)] = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(u) e^{i s (u/a)} \\frac{du}{a} = \\frac{1}{a} F\\left(\\frac{s}{a}\\right)\\)",
+    "\\(\\text{For } a<0: limits reverse, giving same with } 1/|a|\\)"
+   ]
+  },
+  {
+   "q": "Give the Fourier Transform Pair.",
+   "answer": [
+    "\\(F(s)=F[{f(x)}]=\\frac {1}{\\sqrt{2\\pi} } ​​\\int_{-\\infty}^{\\infty} f(x)e^{isx}dx\\) and ----(3m)",
+    "\\(f(x)=F^{-1}[{F(s)}]=\\frac {1}{\\sqrt{2\\pi} } ​​\\int_{-\\infty}^{\\infty} F(s)e^{-isx}ds\\) -----(2m)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(Find\\quad the\\quad Fourier\\quad transform \\quad of \\quad the\\quad function\\\\ f(x)= \\begin{cases} 1, & |x|<1,\\\\ 0, & |x|\\ge 1. \\end{cases} \\)",
+   "answer": [
+    "\\(The \\quad complex \\quad Fourier \\quad transform \\quad of \\quad a \\quad function \\quad f(x) \\quad is \\quad defined \\quad as \\\\ F(s)=\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty} f(x)e^{isx}\\,dx.\\\\ Given\\\\ f(x)= \\begin{cases} 1, & -1<x<1,\\\\ 0, & \\text{otherwise}. \\end{cases}\\\\ Thus,\\\\ F(s)=\\frac{1}{\\sqrt{2\\pi}}\\int_{-1}^{1} e^{isx}\\,dx.\\\\ Now,\\\\ \\int e^{isx}\\,dx = \\frac{e^{isx}}{is}.\\\\ Hence,\\\\ F(s)=\\frac{1}{\\sqrt{2\\pi}} \\left[\\frac{e^{isx}}{is}\\right]_{-1}^{1}\\\\ = \\frac{1}{\\sqrt{2\\pi}}\\frac{e^{is}-e^{-is}}{is}.\\\\ Using \\quad the \\quad identity \\quad e^{is}-e^{-is}=2i\\sin s,\\\\ F(s)=\\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{2i\\sin s}{is}\\\\ = \\frac{2\\sin s}{s\\sqrt{2\\pi}}.\\\\ \\boxed{ F(s)=\\sqrt{\\frac{2}{\\pi}}\\,\\frac{\\sin s}{s} }\\\\ \\)"
+   ]
+  }
+ ]
+}

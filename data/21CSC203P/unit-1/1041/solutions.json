@@ -1,0 +1,94 @@
+{
+ "course": "21CSC203P",
+ "code": "1041",
+ "unit": 1,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Define imperative paradigm and procedural programming characteristics",
+ "mcq": [
+  {
+   "q": "What is the main focus of the imperative programming paradigm?",
+   "options": {
+    "A": "a) What the result should be",
+    "B": "b) How to achieve the result through instructions",
+    "C": "c) Defining rules and relationships",
+    "D": "d) Describing logical facts"
+   },
+   "answer": "B",
+   "answer_text": "b) How to achieve the result through instructions"
+  },
+  {
+   "q": "int x = 5; if (x > 3) { System.out.print(\"Hello\"); } else { System.out.print(\"Bye\"); }",
+   "options": {
+    "A": "a) Hello",
+    "B": "b) Bye",
+    "C": "c) Error",
+    "D": "d) Nothing"
+   },
+   "answer": "A",
+   "answer_text": "a) Hello"
+  },
+  {
+   "q": "Which one is a key characteristic of procedural programming?",
+   "options": {
+    "A": "a) Uses objects and classes exclusively",
+    "B": "b) Focuses on facts and rules",
+    "C": "c) Code is organized into reusable procedures/functions",
+    "D": "d) Only supports graphical interfaces"
+   },
+   "answer": "C",
+   "answer_text": "c) Code is organized into reusable procedures/functions"
+  },
+  {
+   "q": "Which of the following correctly describes the execution of procedural code in Java?**",
+   "options": {
+    "A": "a) Code is executed randomly",
+    "B": "b) Code is compiled but not executed",
+    "C": "c) Code is executed step-by-step from top to bottom",
+    "D": "d) Only class declarations are executed"
+   },
+   "answer": "C",
+   "answer_text": "c) Code is executed step-by-step from top to bottom"
+  },
+  {
+   "q": "In Java, which control structure is used to repeat a block of code as long as a condition is true?",
+   "options": {
+    "A": "a) if",
+    "B": "b) for",
+    "C": "c) switch",
+    "D": "d) break"
+   },
+   "answer": "B",
+   "answer_text": "b) for"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A vehicle management application includes categories like cars, trucks, and motorcycles. What object-oriented features are most suitable for this system?",
+   "answer": [
+    "Inheritance allows shared vehicle attributes, encapsulation manages private data such as engine details, and polymorphism enables common interfaces for all vehicle types, enhancing scalability."
+   ]
+  },
+  {
+   "q": "An application has repetitive code across several classes for logging activities. How can object-oriented design address this issue?",
+   "answer": [
+    "Abstracting shared logic into a superclass or utility class promotes code reuse and simplifies updates by centralizing common behavior."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Design a library management system using object-oriented programming principles. Demonstrate how classes , inheritance , and encapsulation can be applied to model books, members, and librarians.",
+   "answer": [
+    "class Book { private String title; private String author; private boolean isAvailable; public Book(String title, String author) { this.title = title; this.author = author; this.isAvailable = true; } public boolean isAvailable() { return isAvailable; } public void borrowBook() { isAvailable = false; } public void returnBook() { isAvailable = true; } } class User { protected String name; protected String userId; } class Member extends User { private List<Book> borrowedBooks = new ArrayList<>(); public void borrow(Book b) { if (b.isAvailable()) { borrowedBooks.add(b); b.borrowBook(); } } } class Librarian extends User { public void addBook(List<Book> library, Book b) { library.add(b); } }",
+    "class Book { private String title; private String author; private boolean isAvailable;",
+    "public Book(String title, String author) { this.title = title; this.author = author; this.isAvailable = true; }",
+    "public boolean isAvailable() { return isAvailable; } public void borrowBook() { isAvailable = false; } public void returnBook() { isAvailable = true; } }",
+    "class User { protected String name; protected String userId; }",
+    "class Member extends User { private List<Book> borrowedBooks = new ArrayList<>();",
+    "public void borrow(Book b) { if (b.isAvailable()) { borrowedBooks.add(b); b.borrowBook(); } } }",
+    "class Librarian extends User { public void addBook(List<Book> library, Book b) { library.add(b); } }"
+   ]
+  }
+ ]
+}

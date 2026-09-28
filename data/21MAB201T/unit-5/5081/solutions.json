@@ -1,0 +1,96 @@
+{
+ "course": "21MAB201T",
+ "code": "5081",
+ "unit": 5,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "Problem-Solving Using Tutorial Sheet 14\nsolve diverse inverse Z transform problems as illustrated on Tutorial Sheet 14.",
+ "mcq": [
+  {
+   "q": "For \\( H(z) = \\frac{z}{z^2 - 0.25} \\), the causal impulse response \\( h(n) \\) is:",
+   "options": {
+    "A": "\\( (0.5)^n u(n) \\)",
+    "B": "\\( (0.5)^n u(n) + (-0.5)^n u(n) \\)",
+    "C": "\\( (0.5)^n u(n) - (-0.5)^n u(n) \\)",
+    "D": "\\( (-0.5)^n u(n) \\)"
+   },
+   "answer": "C",
+   "answer_text": "\\( (0.5)^n u(n) - (-0.5)^n u(n) \\)"
+  },
+  {
+   "q": "The final value of \\( x(n) \\) for \\( X(z) = \\frac{0.5z}{z^2 - 1.5z + 0.5} \\) (if exists) is:",
+   "options": {
+    "A": "0",
+    "B": "0.5",
+    "C": "1",
+    "D": "2"
+   },
+   "answer": "C",
+   "answer_text": "1"
+  },
+  {
+   "q": "For \\( X(z) = \\frac{z^2 + 2z + 1}{z^2 - 3z + 2} \\), using initial value theorem, \\( x(0) \\) is:",
+   "options": {
+    "A": "0",
+    "B": "1",
+    "C": "2",
+    "D": "3"
+   },
+   "answer": "B",
+   "answer_text": "1"
+  },
+  {
+   "q": "The inverse Z-transform of \\( X(z) = \\frac{z}{(z-1)(z-2)} \\) using partial fractions is:",
+   "options": {
+    "A": "\\( (2^n - 1) u(n) \\)",
+    "B": "\\( (1 - 2^n) u(n) \\)",
+    "C": "\\( (2^{-n} - 1) u(n) \\)",
+    "D": "\\( (1 - 2^{-n}) u(n) \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( (2^n - 1) u(n) \\)"
+  },
+  {
+   "q": "Using long division, the first three terms of the inverse Z-transform of \\( \\frac{z}{z^2 - 3z + 2} \\) (ROC |z|>2) are:",
+   "options": {
+    "A": "0, 1, 3",
+    "B": "1, 3, 7",
+    "C": "0, 1, 2",
+    "D": "1, 2, 4"
+   },
+   "answer": "A",
+   "answer_text": "0, 1, 3"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Find the inverse Z-transform of } \\frac{z^2 + z}{(z-1)^3} \\text{ using partial fractions.}\\)",
+   "answer": [
+    "\\(\\frac{z^2+z}{(z-1)^3} = \\frac{A}{z-1} + \\frac{B}{(z-1)^2} + \\frac{C}{(z-1)^3}\\)",
+    "\\(z^2+z = A(z-1)^2 + B(z-1) + C\\)",
+    "\\(\\text{Solve: } A=1, B=3, C=2\\)",
+    "\\(X(z) = \\frac{z}{z-1} + \\frac{3z}{(z-1)^2} + \\frac{2z}{(z-1)^3}\\)",
+    "\\(x(n) = 1 + 3n + n(n-1) = n^2 + 2n + 1\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{If } F(z) = \\frac{z}{(z-1)(z-2)}, \\text{ find } f(0) \\text{ using Initial Value Theorem.}\\)",
+   "answer": [
+    "\\(\\text{By IVT: } f(0) = \\lim_{z \\to \\infty} F(z)\\)",
+    "\\(= \\lim_{z \\to \\infty} \\frac{z}{(z-1)(z-2)}\\)",
+    "\\(= \\lim_{z \\to \\infty} \\frac{z}{z^2} = 0\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "1. Using Initial and Final Value Theorems, analyze the sequence corresponding to \\(X(z) = \\frac{2z^2 - 3z}{z^2 - 4z + 3}\\) , ROC: \\(|z|>3\\) . Find \\(x(0)\\) and \\(\\lim_{n \\to \\infty} x(n)\\) if it exists. 2. Find the inverse Z-transform of \\(X(z) = \\frac{z^3 - 2z^2 + z}{z^3 - 4z^2 + 5z - 2}\\) by long division for first 5 terms and then verify using partial fractions. ROC: \\(|z|>2\\) . 3. Using partial fractions, find the inverse Z-transform of \\(X(z) = \\frac{1}{(1 - 0.5z^{-1})(1 - 0.25z^{-1})}\\) , ROC: \\(|z|>0.5\\) . 4. A system has transfer function \\(H(z) = \\frac{z}{z^2 - 0.25}\\) . Find its impulse response \\(h(n)\\) using partial fractions for ROC: \\(|z|>0.5\\) and ROC: \\(|z|<0.5\\) . Comment on causality.",
+   "answer": [
+    "1. \\(X(z) = \\frac{2z^2-3z}{z^2-4z+3} = \\frac{2z^2-3z}{(z-1)(z-3)}\\) , ROC: |z|>3. IVT: \\(x(0) = \\lim_{z \\to \\infty} X(z) = \\lim_{z \\to \\infty} \\frac{2 - 3/z}{1 - 4/z + 3/z^2} = 2\\) . FVT: \\(\\lim_{n \\to \\infty} x(n) = \\lim_{z \\to 1} (z-1)X(z) = \\lim_{z \\to 1} (z-1)\\frac{2z^2-3z}{(z-1)(z-3)} = \\lim_{z \\to 1} \\frac{2z^2-3z}{z-3} = \\frac{2-3}{1-3} = \\frac{-1}{-2} = 0.5\\) . But note: There is a pole at z=3 (>1). FVT requires poles of (z-1)X(z) inside unit circle. Here, (z-1)X(z) has pole at z=3 outside |z|=1, so FVT technically not applicable. The limit does not exist (sequence diverges). So answer from formula (0.5) is not the actual limit.",
+    "2. \\(X(z) = \\frac{z^3-2z^2+z}{z^3-4z^2+5z-2}\\) . Factor denominator: \\(z^3-4z^2+5z-2 = (z-1)^2(z-2)\\) . Long division (|z|>2): Perform division of numerator by denominator to get first 5 terms: 1 + 2z^{-1} + 5z^{-2} + 12z^{-3} + 29z^{-4} + ... So x(0)=1, x(1)=2, x(2)=5, x(3)=12, x(4)=29. Partial fractions: \\(\\frac{X(z)}{z} = \\frac{z^2-2z+1}{z(z-1)^2(z-2)}? Actually, better: X(z) = 1 + \\frac{2z^2-4z+2}{z^3-4z^2+5z-2}\\) from division. Alternatively, find complete inverse: \\(X(z) = \\frac{z(z^2-2z+1)}{(z-1)^2(z-2)} = \\frac{z(z-1)^2}{(z-1)^2(z-2)} = \\frac{z}{z-2}\\) for z≠1. So actually X(z) simplifies to \\(\\frac{z}{z-2}\\) . Then inverse is \\(x(n)=2^n u(n)\\) . Check: 2^0=1, 2^1=2, 2^2=4, 2^3=8, 2^4=16. This doesn't match long division result (5,12,29). There is a mistake: The numerator is z^3-2z^2+z = z(z^2-2z+1)=z(z-1)^2. Denominator is (z-1)^2(z-2). So indeed X(z)=z/(z-2) provided z≠1. But then long division of z/(z-2) gives 1 + 2z^{-1} + 4z^{-2} + 8z^{-3}+16z^{-4}+... So my initial long division was wrong. Correct sequence: x(n)=2^n u(n).",
+    "3. \\(X(z) = \\frac{1}{(1-0.5z^{-1})(1-0.25z^{-1})} = \\frac{z^2}{(z-0.5)(z-0.25)}\\) . Let \\(\\frac{X(z)}{z} = \\frac{z}{(z-0.5)(z-0.25)} = \\frac{A}{z-0.5} + \\frac{B}{z-0.25}\\) . Solve: z = A(z-0.25) + B(z-0.5). z=0.5: 0.5 = A(0.25) => A=2. z=0.25: 0.25 = B(-0.25) => B=-1. So, \\(X(z) = \\frac{2z}{z-0.5} - \\frac{z}{z-0.25}\\) . Inverse: \\(x(n) = [2(0.5)^n - (0.25)^n] u(n)\\) .",
+    "4. \\(H(z) = \\frac{z}{z^2-0.25} = \\frac{z}{(z-0.5)(z+0.5)}\\) . Case 1: ROC |z|>0.5 (right-sided, causal). Partial fractions: \\(\\frac{H(z)}{z} = \\frac{1}{(z-0.5)(z+0.5)} = \\frac{A}{z-0.5} + \\frac{B}{z+0.5}\\) . 1 = A(z+0.5) + B(z-0.5). z=0.5: 1 = A(1) => A=1. z=-0.5: 1 = B(-1) => B=-1. So, \\(H(z) = \\frac{z}{z-0.5} - \\frac{z}{z+0.5}\\) . \\(h(n) = [(0.5)^n - (-0.5)^n] u(n)\\) . Case 2: ROC |z|<0.5 (left-sided, anti-causal). For this ROC, we want poles outside ROC, so sequence is left-sided. We have same partial fraction expansion but now inverse transform gives: \\(h(n) = [-(0.5)^n + (-0.5)^n] u(-n-1)\\) . Causality: For system to be causal, ROC must be outside the outermost pole (|z|>0.5). So only Case 1 is causal."
+   ]
+  }
+ ]
+}

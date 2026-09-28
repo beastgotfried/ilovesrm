@@ -1,0 +1,86 @@
+{
+ "course": "21MAB201T",
+ "code": "4061",
+ "unit": 4,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Derive standard Fourier cosine and sine transforms for exponential and rational functions",
+ "mcq": [
+  {
+   "q": "\\(F_c[f(ax)]=\\)",
+   "options": {
+    "A": "\\(F_c(s /a)\\)",
+    "B": "\\(F_s(s+a)\\)",
+    "C": "\\({1 \\over 2} F_c ({s \\over a})\\)",
+    "D": "\\(-s F_c(s)\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\({1 \\over 2} F_c ({s \\over a})\\)"
+  },
+  {
+   "q": "The Fourier cosine transform of \\(e^{-ax}, a>0\\)",
+   "options": {
+    "A": "\\(\\sqrt{\\frac{1}{\\pi}} \\frac{a}{a^2 +s^2}\\)",
+    "B": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{a}{a^2 +s^2}\\)",
+    "C": "\\(\\sqrt{\\frac{1}{\\pi}} \\frac{1}{a^2 +s^2}\\)",
+    "D": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{s}{a^2 +s^2}\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\sqrt{\\frac{2}{\\pi}} \\frac{a}{a^2 +s^2}\\)"
+  },
+  {
+   "q": "\\(F_s[f(ax)]=\\)",
+   "options": {
+    "A": "\\(F_s(s /a)\\)",
+    "B": "\\(F_s(s+a)\\)",
+    "C": "\\({1 \\over 2} F_s ({s \\over a})\\)",
+    "D": "\\(-s F_s(s)\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\({1 \\over 2} F_s ({s \\over a})\\)"
+  },
+  {
+   "q": "\\(F_s[f(x)cos ax]=\\)",
+   "options": {
+    "A": "\\(F_c(s+a)\\)",
+    "B": "\\(F_s(s+a)\\)",
+    "C": "\\(F_s(s+a)+F_c(s-a)\\)",
+    "D": "\\({1\\over 2} {F_s(s+a)+F_s(s-a)}\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\({1\\over 2} {F_s(s+a)+F_s(s-a)}\\)"
+  },
+  {
+   "q": "\\(F_c[f(x)cos ax]=\\)",
+   "options": {
+    "A": "\\(F_c(s+a)\\)",
+    "B": "\\(F_s(s+a)\\)",
+    "C": "\\(F_s(s+a)+F_c(s-a)\\)",
+    "D": "\\({1\\over 2} {F_c(s+a)+F_c(a-s)}\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\({1\\over 2} {F_c(s+a)+F_c(a-s)}\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": []
+  },
+  {
+   "q": "\\(\\text{Find the Fourier sine transform of } f(x)=e^{-ax}, a>0.\\)",
+   "answer": [
+    "\\(F_s(s) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} e^{-ax} \\sin(sx) dx\\)",
+    "\\(= \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{e^{-ax}}{a^2+s^2} (-a\\sin(sx) - s\\cos(sx)) \\right]_{0}^{\\infty}\\)",
+    "\\(= \\sqrt{\\frac{2}{\\pi}} \\left[ 0 - \\frac{1}{a^2+s^2} (-s) \\right]\\)",
+    "\\(= \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{s}{a^2+s^2}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "",
+   "answer": []
+  }
+ ]
+}

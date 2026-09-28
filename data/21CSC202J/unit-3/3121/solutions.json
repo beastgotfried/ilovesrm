@@ -1,0 +1,106 @@
+{
+ "course": "21CSC202J",
+ "code": "3121",
+ "unit": 3,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Explain the deadlock system model with resource allocation graphs",
+ "mcq": [
+  {
+   "q": "In the system model of a deadlock, the typical sequence in which a process uses resources is:",
+   "options": {
+    "A": "Use → Request → Release",
+    "B": "Release → Use → Request",
+    "C": "Request → Use → Release",
+    "D": "Request → Release → Use"
+   },
+   "answer": "C",
+   "answer_text": "Request → Use → Release"
+  },
+  {
+   "q": "Which of the following is a valid example of a deadlock ?",
+   "options": {
+    "A": "Process finishes and frees all resources",
+    "B": "Two processes each waiting for a resource held by the other",
+    "C": "One process holds multiple resources and finishes without waiting",
+    "D": "System with a single process and no competition"
+   },
+   "answer": "B",
+   "answer_text": "Two processes each waiting for a resource held by the other"
+  },
+  {
+   "q": "In the circular wait condition, which of the following holds true?",
+   "options": {
+    "A": "One process requests multiple resources at once",
+    "B": "Resources are preemptively taken",
+    "C": "Each process waits for a resource held by another in a circular fashion",
+    "D": "Each process releases all resources before requesting new ones"
+   },
+   "answer": "C",
+   "answer_text": "Each process waits for a resource held by another in a circular fashion"
+  },
+  {
+   "q": "Which of the following conditions is not necessary for a deadlock to occur?",
+   "options": {
+    "A": "Mutual exclusion",
+    "B": "Preemption",
+    "C": "Hold and wait",
+    "D": "Circular wait"
+   },
+   "answer": "B",
+   "answer_text": "Preemption"
+  },
+  {
+   "q": "What does no preemption mean in the context of deadlock?",
+   "options": {
+    "A": "A process can forcibly take another's resource",
+    "B": "The OS reassigns resources automatically",
+    "C": "A resource can only be released voluntarily by the process holding it",
+    "D": "Preemption is enforced periodically"
+   },
+   "answer": "C",
+   "answer_text": "A resource can only be released voluntarily by the process holding it"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Describe the deadlock situation using semaphores A and B between two processes P0 and P1.",
+   "answer": [
+    "P0: wait(A) → preempted (25%)",
+    "P0: wait(A) → preempted (25%)",
+    "P1: wait(B) → waits for A (25%)",
+    "P1: wait(B) → waits for A (25%)",
+    "Both processes are waiting for each other’s semaphore (25%)",
+    "Both processes are waiting for each other’s semaphore (25%)",
+    "Deadlock occurs as neither can proceed (25%)",
+    "Deadlock occurs as neither can proceed (25%)"
+   ]
+  },
+  {
+   "q": "Explain the four necessary conditions for a deadlock to occur. Give a real-world analogy.",
+   "answer": [
+    "Mutual Exclusion: Only one process can use a resource (20%)",
+    "Mutual Exclusion: Only one process can use a resource (20%)",
+    "Hold and Wait: A process holds one resource while waiting for another (20%)",
+    "Hold and Wait: A process holds one resource while waiting for another (20%)",
+    "No Preemption: Resources cannot be forcibly taken (20%)",
+    "No Preemption: Resources cannot be forcibly taken (20%)",
+    "Circular Wait: A closed chain of processes exists where each holds a resource the next needs (20%)",
+    "Circular Wait: A closed chain of processes exists where each holds a resource the next needs (20%)",
+    "Analogy: Two trains blocking each other on a single track (20%)",
+    "Analogy: Two trains blocking each other on a single track (20%)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze how the absence of any one of the four conditions can prevent deadlock. Use relevant examples to support your explanation.",
+   "answer": [
+    "Explanation of each condition and how its removal prevents deadlock (80%)",
+    "Explanation of each condition and how its removal prevents deadlock (80%)",
+    "Relevant real-world or system examples (20%)",
+    "Relevant real-world or system examples (20%)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,101 @@
+{
+ "course": "21MAB201T",
+ "code": "1111",
+ "unit": 1,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "Type-IV : e^(ax+by) f(x,y)",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": []
+  },
+  {
+   "q": "\\(\\text{Solve } (D^2-D'^2)z=e^{x-y}\\sin(2x+3y)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Use exponential shift: } e^{x-y}\\frac{1}{(D+1)^2-(D'-1)^2}\\sin(2x+3y)\\)",
+    "(2 Mark)",
+    "\\(\\text{Simplify denominator and replace } D^2,D'^2\\)",
+    "(2 Mark)",
+    "\\(\\text{P.I. }=-\\frac{e^{x-y}}{25}[2\\cos(2x+3y)-\\sin(2x+3y)]\\)",
+    "(1 Mark)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Solve } (D^2-D'^2)z=e^{x-y}\\sin(2x+3y) \\text{ using exponential shifting rule}\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Apply shifting: } e^{x-y}\\frac{1}{(D+1)^2-(D'-1)^2}\\sin(2x+3y)\\)",
+    "(2 Mark)",
+    "\\(\\text{Simplify denominator: } D^2-D'^2+2(D+D')\\)",
+    "(2 Mark)",
+    "\\(\\text{Replace: } -4-(-9)+2(D+D')=5+2(D+D')\\)",
+    "(2 Mark)",
+    "\\(\\text{P.I.}=-\\frac{e^{x-y}}{25}[2\\cos(2x+3y)-\\sin(2x+3y)]\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

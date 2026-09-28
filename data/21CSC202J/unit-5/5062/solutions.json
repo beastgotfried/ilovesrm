@@ -1,0 +1,113 @@
+{
+ "course": "21CSC202J",
+ "code": "5062",
+ "unit": 5,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Describe system and network threats and their implications on security",
+ "mcq": [
+  {
+   "q": "Which program threat attaches itself to a host program and spreads upon execution?",
+   "options": {
+    "A": "Trojan horse",
+    "B": "Worm",
+    "C": "Virus",
+    "D": "Sniffer"
+   },
+   "answer": "C",
+   "answer_text": "Virus"
+  },
+  {
+   "q": "A Trojan horse is a type of program threat that:",
+   "options": {
+    "A": "Self-replicates to infect other programs",
+    "B": "Appears useful but performs malicious activities",
+    "C": "Encrypts files for ransom",
+    "D": "Monitors network traffic silently"
+   },
+   "answer": "B",
+   "answer_text": "Appears useful but performs malicious activities"
+  },
+  {
+   "q": "A worm differs from a virus because it:",
+   "options": {
+    "A": "Requires a host program to spread",
+    "B": "Does not replicate",
+    "C": "Spreads independently without attaching to programs",
+    "D": "Is harmless to the system"
+   },
+   "answer": "C",
+   "answer_text": "Spreads independently without attaching to programs"
+  },
+  {
+   "q": "Denial of Service (DoS) attack affects which security aspect?",
+   "options": {
+    "A": "Confidentiality",
+    "B": "Integrity",
+    "C": "Availability",
+    "D": "Authentication"
+   },
+   "answer": "C",
+   "answer_text": "Availability"
+  },
+  {
+   "q": "Sniffing is a type of network threat that:",
+   "options": {
+    "A": "Alters data in transit",
+    "B": "Blocks all traffic to the network",
+    "C": "Intercepts and monitors network packets",
+    "D": "Forwards packets to wrong destinations"
+   },
+   "answer": "C",
+   "answer_text": "Intercepts and monitors network packets"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is spoofing in system and network threats? Provide an example.",
+   "answer": [
+    "Spoofing involves impersonating another device or user to gain unauthorized access. Example: IP spoofing where an attacker sends packets with a forged IP to gain network access.",
+    "Spoofing involves impersonating another device or user to gain unauthorized access. Example: IP spoofing where an attacker sends packets with a forged IP to gain network access."
+   ]
+  },
+  {
+   "q": "Define a trapdoor (backdoor) program threat with an example.",
+   "answer": [
+    "A trapdoor is a hidden entry point into a program allowing bypass of security checks. Example: A developer inserts a secret password in software for unauthorized later access.",
+    "A trapdoor is a hidden entry point into a program allowing bypass of security checks. Example: A developer inserts a secret password in software for unauthorized later access."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain any four types of program and system/network threats with examples for each.",
+   "answer": [
+    "Answer Key:",
+    "Trojan Horse (Program Threat): Malicious code hidden within legitimate software. Example: Free software installing keyloggers.",
+    "Trojan Horse (Program Threat):",
+    "Malicious code hidden within legitimate software.",
+    "Malicious code hidden within legitimate software.",
+    "Example: Free software installing keyloggers.",
+    "Example: Free software installing keyloggers.",
+    "Virus (Program Threat): Attaches to files/programs and replicates upon execution. Example: File infecting viruses corrupting executable files.",
+    "Virus (Program Threat):",
+    "Attaches to files/programs and replicates upon execution.",
+    "Attaches to files/programs and replicates upon execution.",
+    "Example: File infecting viruses corrupting executable files.",
+    "Example: File infecting viruses corrupting executable files.",
+    "Denial of Service (System/Network Threat): Overwhelms system resources making services unavailable. Example: Flooding web server with fake requests.",
+    "Denial of Service (System/Network Threat):",
+    "Overwhelms system resources making services unavailable.",
+    "Overwhelms system resources making services unavailable.",
+    "Example: Flooding web server with fake requests.",
+    "Example: Flooding web server with fake requests.",
+    "Sniffing (Network Threat): Intercepts data packets over a network to steal information. Example: Capturing login credentials over unsecured Wi-Fi.",
+    "Sniffing (Network Threat):",
+    "Intercepts data packets over a network to steal information.",
+    "Intercepts data packets over a network to steal information.",
+    "Example: Capturing login credentials over unsecured Wi-Fi.",
+    "Example: Capturing login credentials over unsecured Wi-Fi."
+   ]
+  }
+ ]
+}

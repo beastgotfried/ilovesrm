@@ -1,0 +1,88 @@
+{
+ "course": "21MAB201T",
+ "code": "2061",
+ "unit": 2,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Find the half-range cosine series expansion of a function defined in (0, π).",
+ "mcq": [
+  {
+   "q": "The half-range sine series for \\(f(x)\\) in \\((0, \\pi)\\) is",
+   "options": {
+    "A": "\\(\\sum_{n=1}^{\\infty} a_n cos nx\\)",
+    "B": "\\({a_0 \\over 2 }+ \\sum_{n=1}^{\\infty} a_n cos nx\\)",
+    "C": "\\(\\sum_{n=1}^{\\infty} b_n sin nx\\)",
+    "D": "\\({a_0 \\over 2} - \\sum_{n=1}^{\\infty} a_n cos nx\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(\\sum_{n=1}^{\\infty} b_n sin nx\\)"
+  },
+  {
+   "q": "If \\( f(x) = x \\) on \\( (0, \\pi) \\) is expanded in half-range cosine series, the constant term is:",
+   "options": {
+    "A": "\\( \\frac{\\pi}{2} \\)",
+    "B": "\\( \\pi \\)",
+    "C": "\\( \\frac{2}{\\pi} \\)",
+    "D": "0"
+   },
+   "answer": "A",
+   "answer_text": "\\( \\frac{\\pi}{2} \\)"
+  },
+  {
+   "q": "The half-range cosine series for \\( f(x) \\) on \\( (0, L) \\) is obtained by:",
+   "options": {
+    "A": "Extending \\( f(x) \\) as an even function to \\( (-L, L) \\)",
+    "B": "Extending \\( f(x) \\) as an odd function to \\( (-L, L) \\)",
+    "C": "Using the original \\( f(x) \\) on \\( (0, L) \\)",
+    "D": "Periodically extending \\( f(x) \\)"
+   },
+   "answer": "A",
+   "answer_text": "Extending \\( f(x) \\) as an even function to \\( (-L, L) \\)"
+  },
+  {
+   "q": "The expression \\(a_n\\) in the half-range cosine series of \\(f(x)\\) in \\((0, \\pi)\\) is",
+   "options": {
+    "A": "\\({2 \\over \\pi } \\int _{0} ^ {\\pi} f(x) dx\\)",
+    "B": "\\({2 \\over \\pi } \\int _{0} ^ {\\pi} f(x) cos nx dx\\)",
+    "C": "\\({2 \\over \\pi } \\int _{-\\infty} ^ {\\pi} f(x) cos nx dx\\)",
+    "D": "\\({2 \\over \\pi } \\int _{0} ^ {\\pi} f(x)sin nx dx\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\({2 \\over \\pi } \\int _{0} ^ {\\pi} f(x) cos nx dx\\)"
+  },
+  {
+   "q": "The half-range cosine series of \\( f(x) = 1 \\) on \\( (0, L) \\) is:",
+   "options": {
+    "A": "\\( f(x) = 1 \\)",
+    "B": "\\( f(x) = \\frac{2}{\\pi} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin\\left(\\frac{n\\pi x}{L}\\right) \\)",
+    "C": "\\( f(x) = \\frac{4}{\\pi} \\sum_{n=1}^{\\infty} \\frac{1}{2n-1} \\sin\\left(\\frac{(2n-1)\\pi x}{L}\\right) \\)",
+    "D": "\\( f(x) = \\frac{1}{2} + \\frac{2}{\\pi} \\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin\\left(\\frac{n\\pi x}{L}\\right) \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( f(x) = 1 \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Find the half range cosine series for \\(f(x)=x\\) in \\((0, \\pi)\\) .",
+   "answer": []
+  },
+  {
+   "q": "\\(\\text{Find half-range cosine series for } f(x) = x \\text{ in } (0, L).\\)",
+   "answer": [
+    "\\(a_0 = \\frac{2}{L} \\int_0^{L} x dx = L\\)",
+    "\\(a_n = \\frac{2}{L} \\int_0^{L} x \\cos(\\frac{n\\pi x}{L}) dx = \\frac{2L}{n^2\\pi^2}[(-1)^n - 1]\\)",
+    "\\(\\text{For even } n: a_n = 0; \\text{ for odd } n: a_n = -\\frac{4L}{n^2\\pi^2}\\)",
+    "\\(\\text{Thus } x = \\frac{L}{2} - \\frac{4L}{\\pi^2}\\sum_{n=\\text{odd}} \\frac{1}{n^2} \\cos(\\frac{n\\pi x}{L})\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the half-range cosine series for \\(f(x)=x(\\pi-x)\\) in \\((0,\\pi)\\). Hence, evaluate \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^4}\\).",
+   "answer": [
+    "Step Marks Cosine series: \\(f(x)=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}a_n\\cos nx\\) (1) \\(a_0=\\frac{2}{\\pi}\\int_0^{\\pi}x(\\pi-x)dx=\\frac{\\pi^2}{3}\\) (2) \\(a_n=\\frac{2}{\\pi}\\int_0^{\\pi}x(\\pi-x)\\cos nx\\,dx=-\\frac{2}{n^2}\\) for \\(n\\geq1\\) (4) Thus, \\(x(\\pi-x)=\\frac{\\pi^2}{6}-2\\sum_{n=1}^{\\infty}\\frac{\\cos nx}{n^2}\\) (2) Using Parseval's: \\(\\frac{1}{\\pi}\\int_0^{\\pi}[x(\\pi-x)]^2dx=\\frac{a_0^2}{4}+\\frac{1}{2}\\sum a_n^2\\) ⇒ \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^4}=\\frac{\\pi^4}{90}\\) (6)"
+   ]
+  }
+ ]
+}

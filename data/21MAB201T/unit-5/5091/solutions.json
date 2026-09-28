@@ -1,0 +1,96 @@
+{
+ "course": "21MAB201T",
+ "code": "5091",
+ "unit": 5,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Inverse Z Transform - Residue Theorem Method\napply the residue theorem to calculate inverse Z transforms of rational functions.",
+ "mcq": [
+  {
+   "q": "Using residue theorem, the inverse Z-transform of \\( \\frac{z}{(z-1)(z-2)} \\) (ROC |z|>2) is:",
+   "options": {
+    "A": "\\( (2^n - 1) u(n) \\)",
+    "B": "\\( (1 - 2^n) u(n) \\)",
+    "C": "\\( (2^{-n} - 1) u(n) \\)",
+    "D": "\\( (1 - 2^{-n}) u(n) \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( (2^n - 1) u(n) \\)"
+  },
+  {
+   "q": "Using residue theorem, \\( Z^{-1} \\left\\{ \\frac{z^2 - 3z}{(z+2)(z-5)} \\right\\} \\) (ROC |z|>5) gives \\( x(n) \\) proportional to:",
+   "options": {
+    "A": "\\( \\frac{2}{7}(5^n) + \\frac{5}{7}(-2)^n \\)",
+    "B": "\\( \\frac{5}{7}(5^n) + \\frac{2}{7}(-2)^n \\)",
+    "C": "\\( \\frac{2}{7}(-5)^n + \\frac{5}{7}(2)^n \\)",
+    "D": "\\( \\frac{5}{7}(-5)^n + \\frac{2}{7}(2)^n \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( \\frac{2}{7}(5^n) + \\frac{5}{7}(-2)^n \\)"
+  },
+  {
+   "q": "The residue at pole z=1 for \\( X(z) = \\frac{z^2 + z}{(z-1)^3} \\) is:",
+   "options": {
+    "A": "\\( n^2 \\)",
+    "B": "\\( 2n+1 \\)",
+    "C": "\\( n(n-1) \\)",
+    "D": "\\( n^3 \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( n^2 \\)"
+  },
+  {
+   "q": "Using residue theorem, \\( Z^{-1} \\left\\{ \\frac{z^2}{(z-1)^2(z-2)} \\right\\} \\) (ROC |z|>2) is:",
+   "options": {
+    "A": "\\( (2^{n+1} - n - 2) u(n) \\)",
+    "B": "\\( (2^n - n - 1) u(n) \\)",
+    "C": "\\( (2^{n+1} - 2n - 1) u(n) \\)",
+    "D": "\\( (2^n - 2n - 2) u(n) \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( (2^{n+1} - n - 2) u(n) \\)"
+  },
+  {
+   "q": "For \\( X(z) = \\frac{z^3}{(z-1)^2(z-2)^2} \\), the residue at the pole z=2 is:",
+   "options": {
+    "A": "\\( 2^{n+1}(n-2) \\)",
+    "B": "\\( 2^n(n-2) \\)",
+    "C": "\\( 2^{n+1}(n+2) \\)",
+    "D": "\\( 2^n(n+2) \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( 2^{n+1}(n-2) \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Find the inverse Z-transform of } \\frac{z^2 + z}{(z-1)^2} \\text{ using residue theorem.}\\)",
+   "answer": [
+    "\\(\\text{Pole at } z=1 \\text{ (double)}\\)",
+    "\\(\\text{Residue } = \\lim_{z \\to 1} \\frac{d}{dz} \\left[ (z-1)^2 \\cdot \\frac{z^2+z}{(z-1)^2} z^{n-1} \\right]\\)",
+    "\\(= \\lim_{z \\to 1} \\frac{d}{dz} [z^{n+1} + z^n] = \\lim_{z \\to 1} [(n+1)z^n + n z^{n-1}]\\)",
+    "\\(= (n+1) + n = 2n+1\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Find the inverse Z-transform of } \\frac{z^2 - 3z}{(z+2)(z-5)} \\text{ using residue theorem.}\\)",
+   "answer": [
+    "\\(\\text{Poles: } z=-2, z=5\\)",
+    "\\(\\text{Residue at } z=-2: \\lim_{z \\to -2} (z+2) \\frac{z^2-3z}{(z+2)(z-5)} z^{n-1} = \\frac{5}{7}(-2)^n\\)",
+    "\\(\\text{Residue at } z=5: \\lim_{z \\to 5} (z-5) \\frac{z^2-3z}{(z+2)(z-5)} z^{n-1} = \\frac{2}{7} 5^n\\)",
+    "\\(x(n) = \\frac{5}{7}(-2)^n + \\frac{2}{7} 5^n\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the inverse Z-transform of the following functions using the Residue Theorem (Contour Integration) method: a) \\(X(z) = \\frac{z}{(z-1)(z-2)}\\) , ROC: \\(|z|>2\\) b) \\(X(z) = \\frac{z^2 + z}{(z-1)^3}\\) , ROC: \\(|z|>1\\) c) \\(X(z) = \\frac{z^2}{(z-1)^2(z-2)}\\) , ROC: \\(|z|>2\\) d) \\(X(z) = \\frac{z^3}{(z-1)^2(z-2)^2}\\) , ROC: \\(|z|>2\\)",
+   "answer": [
+    "a) \\(X(z) = \\frac{z}{(z-1)(z-2)}\\) , ROC: |z|>2 (right-sided, so use contour outside |z|=2). \\(x(n) = \\sum \\text{Residues of } X(z) z^{n-1} \\text{ at poles inside contour C (|z|=R>2)}\\) . Poles: z=1, z=2. Both inside. Res at z=1: \\(\\lim_{z \\to 1} (z-1) \\frac{z \\cdot z^{n-1}}{(z-1)(z-2)} = \\lim_{z \\to 1} \\frac{z^n}{z-2} = \\frac{1^n}{-1} = -1\\) . Res at z=2: \\(\\lim_{z \\to 2} (z-2) \\frac{z^n}{z-2} \\cdot \\frac{1}{z-1} = \\frac{2^n}{2-1} = 2^n\\) . So, \\(x(n) = (-1 + 2^n) u(n)\\) .",
+    "b) \\(X(z) = \\frac{z^2+z}{(z-1)^3}\\) , ROC: |z|>1. Pole: z=1 (order 3). \\(x(n) = \\text{Residue at } z=1 \\text{ of } \\frac{(z^2+z)z^{n-1}}{(z-1)^3} = \\frac{1}{2!} \\lim_{z \\to 1} \\frac{d^2}{dz^2} [ (z^2+z) z^{n-1} ]\\) . Let \\(f(z) = (z^2+z)z^{n-1} = z^{n+1} + z^n\\) . \\(f'(z) = (n+1)z^n + n z^{n-1}\\) . \\(f''(z) = n(n+1)z^{n-1} + n(n-1)z^{n-2}\\) . Evaluate at z=1: \\(f''(1) = n(n+1) + n(n-1) = n^2+n + n^2 - n = 2n^2\\) . Thus, residue = \\(\\frac{1}{2} \\cdot 2n^2 = n^2\\) . So, \\(x(n) = n^2 u(n)\\) .",
+    "c) \\(X(z) = \\frac{z^2}{(z-1)^2(z-2)}\\) , ROC: |z|>2. Poles: z=1 (order 2), z=2 (order 1). Res at z=2: \\(\\lim_{z \\to 2} (z-2) \\frac{z^{n+1}}{(z-1)^2(z-2)} = \\frac{2^{n+1}}{(1)^2} = 2^{n+1}\\) . Res at z=1: For double pole: \\(\\lim_{z \\to 1} \\frac{d}{dz} \\left[ (z-1)^2 \\frac{z^{n+1}}{(z-1)^2(z-2)} \\right] = \\lim_{z \\to 1} \\frac{d}{dz} \\left( \\frac{z^{n+1}}{z-2} \\right)\\) . Derivative: \\(\\frac{(n+1)z^n (z-2) - z^{n+1}}{(z-2)^2}\\) . At z=1: \\(\\frac{(n+1)1^n (-1) - 1}{(-1)^2} = - (n+1) - 1 = -n-2\\) . So, total residue: \\(2^{n+1} + (-n-2) = 2^{n+1} - n - 2\\) . Thus, \\(x(n) = [2^{n+1} - n - 2] u(n)\\) .",
+    "d) \\(X(z) = \\frac{z^3}{(z-1)^2(z-2)^2}\\) , ROC: |z|>2. Poles: z=1 (order 2), z=2 (order 2). Res at z=1: Compute \\(\\lim_{z \\to 1} \\frac{d}{dz} \\left[ (z-1)^2 X(z) z^{n-1} \\right] = \\lim_{z \\to 1} \\frac{d}{dz} \\left( \\frac{z^{n+2}}{(z-2)^2} \\right)\\) . Let \\(g(z) = \\frac{z^{n+2}}{(z-2)^2}\\) . \\(g'(z) = \\frac{(n+2)z^{n+1}(z-2)^2 - 2(z-2)z^{n+2}}{(z-2)^4} = \\frac{z^{n+1}(z-2)[(n+2)(z-2) - 2z]}{(z-2)^4} = \\frac{z^{n+1}[(n+2)(z-2) - 2z]}{(z-2)^3}\\) . At z=1: \\(\\frac{1^{n+1}[(n+2)(-1) - 2]}{(-1)^3} = \\frac{[-n-2 -2]}{-1} = \\frac{-n-4}{-1} = n+4\\) . Res at z=2: Compute \\(\\lim_{z \\to 2} \\frac{d}{dz} \\left[ (z-2)^2 X(z) z^{n-1} \\right] = \\lim_{z \\to 2} \\frac{d}{dz} \\left( \\frac{z^{n+2}}{(z-1)^2} \\right)\\) . Let \\(h(z) = \\frac{z^{n+2}}{(z-1)^2}\\) . \\(h'(z) = \\frac{(n+2)z^{n+1}(z-1)^2 - 2(z-1)z^{n+2}}{(z-1)^4} = \\frac{z^{n+1}(z-1)[(n+2)(z-1) - 2z]}{(z-1)^4} = \\frac{z^{n+1}[(n+2)(z-1) - 2z]}{(z-1)^3}\\) . At z=2: \\(\\frac{2^{n+1}[(n+2)(1) - 4]}{(1)^3} = 2^{n+1}(n+2-4) = 2^{n+1}(n-2)\\) . So, total residue: \\((n+4) + 2^{n+1}(n-2)\\) . Thus, \\(x(n) = [n+4 + 2^{n+1}(n-2)] u(n)\\) ."
+   ]
+  }
+ ]
+}

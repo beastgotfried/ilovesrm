@@ -1,0 +1,95 @@
+{
+ "course": "21MAB201T",
+ "code": "4101",
+ "unit": 4,
+ "session": 10,
+ "slo": 1,
+ "slo_title": "State and prove Parseval's identity for Fourier transforms",
+ "mcq": [
+  {
+   "q": "\\(\\text{For the function } f(x) = \\begin{cases} a^2-x^2, & |x| \\leq a \\\\ 0, & |x| > a \\end{cases} \\text{ with Fourier transform } F(s) = \\frac{4}{\\sqrt{2\\pi}} \\left( \\frac{\\sin(as)-as\\cos(as)}{s^3} \\right), \\text{ use Parseval's identity to find } \\int_0^\\infty \\left( \\frac{\\sin t - t\\cos t}{t^3} \\right)^2 dt.\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi}{15}\\)",
+    "B": "\\(\\frac{\\pi}{8}\\)",
+    "C": "\\(\\frac{\\pi}{4}\\)",
+    "D": "\\(\\frac{\\pi}{2}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi}{15}\\)"
+  },
+  {
+   "q": "\\(\\text{Given the Fourier transform pair } f(x) = \\begin{cases} 1-|x|, & |x| \\leq 1 \\\\ 0, & |x| > 1 \\end{cases}, F(s) = \\frac{4}{\\sqrt{2\\pi}} \\left( \\frac{\\sin(s/2)}{s} \\right)^2, \\text{ use Parseval's identity to find } \\int_0^\\infty \\left( \\frac{\\sin t}{t} \\right)^4 dt.\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi}{3}\\)",
+    "B": "\\(\\frac{\\pi}{2}\\)",
+    "C": "\\(\\frac{\\pi}{4}\\)",
+    "D": "\\(\\frac{\\pi}{6}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi}{3}\\)"
+  },
+  {
+   "q": "\\(\\text{If } f(x) = e^{-a|x|} \\text{ and } F(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{a}{s^2+a^2}, \\text{ use Parseval's identity to find } \\int_{-\\infty}^\\infty \\frac{dx}{(x^2+a^2)^2}.\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi}{2a^3}\\)",
+    "B": "\\(\\frac{\\pi}{a^3}\\)",
+    "C": "\\(\\frac{\\pi}{2a}\\)",
+    "D": "\\(\\frac{\\pi}{4a^3}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi}{2a^3}\\)"
+  },
+  {
+   "q": "\\(\\text{Using Parseval's identity and the Fourier transform of the rectangular pulse } f(x) = \\begin{cases} 1, & |x| \\leq a \\\\ 0, & |x| > a \\end{cases}, \\text{ prove that } \\int_0^\\infty \\left( \\frac{\\sin t}{t} \\right)^2 dt = \\frac{\\pi}{2}. \\text{ What is the value of } \\int_0^\\infty \\left( \\frac{\\sin(at)}{t} \\right)^2 dt?\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi a}{2}\\)",
+    "B": "\\(\\frac{\\pi}{2}\\)",
+    "C": "\\(\\frac{\\pi a}{4}\\)",
+    "D": "\\(\\frac{\\pi}{2a}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi a}{2}\\)"
+  },
+  {
+   "q": "\\(\\text{Parseval's identity for Fourier transforms states that:}\\)",
+   "options": {
+    "A": "\\(\\int_{-\\infty}^\\infty |f(x)|^2 dx = \\int_{-\\infty}^\\infty |F(s)|^2 ds\\)",
+    "B": "\\(\\int_{-\\infty}^\\infty f(x) dx = \\int_{-\\infty}^\\infty F(s) ds\\)",
+    "C": "\\(\\int_{-\\infty}^\\infty |f(x)| dx = \\int_{-\\infty}^\\infty |F(s)| ds\\)",
+    "D": "\\(\\int_{-\\infty}^\\infty f(x)^2 dx = \\int_{-\\infty}^\\infty F(s)^2 ds\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\int_{-\\infty}^\\infty |f(x)|^2 dx = \\int_{-\\infty}^\\infty |F(s)|^2 ds\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Using Parseval's identity, evaluate } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)^2}.\\)",
+   "answer": [
+    "\\(\\text{Take } f(x)=e^{-|x|}, \\text{ then } F(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}\\)",
+    "\\(\\text{Parseval: } \\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} e^{-2|x|} dx = 2 \\int_{0}^{\\infty} e^{-2x} dx = 1\\)",
+    "\\(\\int_{-\\infty}^{\\infty} |F(s)|^2 ds = \\int_{-\\infty}^{\\infty} \\frac{2}{\\pi} \\frac{1}{(1+s^2)^2} ds = \\frac{4}{\\pi} \\int_{0}^{\\infty} \\frac{1}{(1+s^2)^2} ds\\)",
+    "\\(\\text{Equate: } 1 = \\frac{4}{\\pi} \\int_{0}^{\\infty} \\frac{1}{(1+s^2)^2} ds\\)",
+    "\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)^2} = \\frac{\\pi}{4}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{State and prove Parseval's identity for Fourier transforms.}\\)",
+   "answer": [
+    "\\(\\text{Identity: } \\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} |F(s)|^2 ds\\)",
+    "\\(\\text{Proof: Start from convolution theorem with } g(x) = \\overline{f(-x)}\\)",
+    "\\(\\text{Then } F[g] = \\overline{F(s)} \\text{ and } (f*g)(0) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) \\overline{f(t)} dt\\)",
+    "\\(\\text{Also, } (f*g)(0) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} F(s) \\overline{F(s)} ds\\)",
+    "\\(\\text{Equating gives the identity.}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Using Parseval's identity, evaluate } \\int_{-\\infty}^{\\infty} \\frac{dx}{(1+x^2)^2}.\\)",
+   "answer": [
+    "Step Marks Let \\(f(x) = e^{-|x|}\\), then \\(F(s) = \\mathcal{F}\\{e^{-|x|\\}\\} = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{1}{1+s^2}\\) (3) Parseval's identity: \\(\\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} |F(s)|^2 ds\\) (2) LHS: \\(\\int_{-\\infty}^{\\infty} e^{-2|x|} dx = 2\\int_{0}^{\\infty} e^{-2x} dx = 2 \\cdot \\frac{1}{2} = 1\\) (3) RHS: \\(\\int_{-\\infty}^{\\infty} \\left( \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{1}{1+s^2} \\right)^2 ds = \\frac{2}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{ds}{(1+s^2)^2}\\) (3) Thus \\(1 = \\frac{2}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{ds}{(1+s^2)^2}\\) (2) Therefore \\(\\int_{-\\infty}^{\\infty} \\frac{ds}{(1+s^2)^2} = \\frac{\\pi}{2}\\) (2)"
+   ]
+  }
+ ]
+}

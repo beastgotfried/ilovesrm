@@ -1,0 +1,95 @@
+{
+ "course": "21LEM202T",
+ "code": "1041",
+ "unit": 1,
+ "session": 4,
+ "slo": 1,
+ "slo_title": " Explain self-exploration as the process, with natural acceptance and experiential validation as its mechanism.",
+ "mcq": [
+  {
+   "q": "Rahul is trying to understand the concept of self-exploration in his Universal Human Values class. He decides to apply the process of self-exploration to resolve a conflict with his friend. Which of the following steps should Rahul take to effectively apply self-exploration in this situation?",
+   "options": {
+    "A": "Ignore the conflict and focus on his personal goals.",
+    "B": "Blame his friend for the conflict without analyzing his own role.",
+    "C": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance.",
+    "D": "Avoid discussing the issue and wait for the conflict to resolve on its own."
+   },
+   "answer": "C",
+   "answer_text": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance."
+  },
+  {
+   "q": "A students says: Nothing is universal in this world. Everything varies from person to person. So how can values be universal? What is the most appropriate response to this?",
+   "options": {
+    "A": "Yes, that’s true, values vary from person to person.",
+    "B": "When you say nothing is universal, you are assuming this statement to be universal. It's contradicting itself.",
+    "C": "Values depends on person time place and country.",
+    "D": "Values do vary with person but not with time."
+   },
+   "answer": "B",
+   "answer_text": "When you say nothing is universal, you are assuming this statement to be universal. It's contradicting itself."
+  },
+  {
+   "q": "Which of the following are activities of the Self?",
+   "options": {
+    "A": "Digestion and respiration",
+    "B": "Right understanding and resolution",
+    "C": "Walking and sleeping",
+    "D": "Circulation of blood"
+   },
+   "answer": "B",
+   "answer_text": "Right understanding and resolution"
+  },
+  {
+   "q": "Development of human being essentially means___",
+   "options": {
+    "A": "Transformation from animal consciousness to human consciousness",
+    "B": "Keep progressing in life in terms of money, post and fame",
+    "C": "Keeping oneself always ahead of others",
+    "D": "Working day and night for wealth"
+   },
+   "answer": "A",
+   "answer_text": "Transformation from animal consciousness to human consciousness"
+  },
+  {
+   "q": "Rahul is trying to understand the concept of self-exploration in his Universal Human Values class. He decides to apply the process of self-exploration to resolve a conflict with his friend. Which of the following steps should Rahul take to effectively apply self-exploration in this situation?",
+   "options": {
+    "A": "Ignore the conflict and focus on his personal goals.",
+    "B": "Blame his friend for the conflict without analyzing his own role.",
+    "C": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance.",
+    "D": "Avoid discussing the issue and wait for the conflict to resolve on its own."
+   },
+   "answer": "C",
+   "answer_text": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance."
+  }
+ ],
+ "sq": [
+  {
+   "q": "What role does Resolution play in daily life?",
+   "answer": [
+    "Resolution directs choices and actions, ensuring alignment with values and long-term well-being."
+   ]
+  },
+  {
+   "q": "How do Right Understanding and Resolution together lead to happiness?",
+   "answer": [
+    "Right Understanding gives correct knowledge, and Resolution applies it in life, leading to harmony within self, family, society, and nature."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Q1. Define happiness and unhappiness as presented, and explain what is meant by “continuity of happiness.” Q2. What is prosperity? Distinguish between a prosperous person and a deprived person. Q3. Explain why clarity about the basic human aspiration is important, and what our program is for fulfilling it.",
+   "answer": [
+    "Q1 — Happiness, unhappiness and continuity",
+    "DEFINITE — single expected answer",
+    "Model answer: The state in which I live, if there is harmony/synergy in it, is naturally acceptable and I want to continue in it — to be in such a state is happiness. If there is disharmony/contradiction, it is not naturally acceptable and I want to get out of it — to be forced into such a state is unhappiness. Thus happiness is to be in harmony and unhappiness is disharmony. The expanse of my being is at four levels: as an individual, a member of a family, a member of society, and a unit in nature/existence. Continuity of happiness therefore means harmony at all these levels — harmony in the human being, the family, the society, and nature/existence.",
+    "Q2 — Prosperity: prosperous vs deprived",
+    "DEFINITE — single expected answer",
+    "Model answer: Prosperity is the feeling of having or producing more than the required physical facility — it is a feeling, not merely the amount of wealth one possesses. The distinction lies in the feeling and the resulting conduct: a prosperous person thinks of right utilisation and of nurturing the other, whereas a deprived person thinks of accumulation and of exploiting the other. Dealing with physical facility rightly involves identification of need, production, consuming what is required (right utilisation), sharing for the wellbeing of all, and storing the remaining for future right utilisation. What is naturally acceptable here is right utilisation, rather than indulgence or renunciation.",
+    "Q3 — Clarity of basic aspiration and our program",
+    "DEFINITE — single expected answer",
+    "Model answer: Clarity lets us make effort in the intended direction and know when we have reached it. Without it we may get busy with the “how to,” waver from the aspiration, or over-evaluate our own part so much that the overall target is compromised; our efforts may be directionless. Our basic desire is happiness, prosperity and their continuity. Our program is two-fold: first, to facilitate the understanding of harmony at all four levels of being and to live in harmony at those levels; second, to verify the proposals on the basis of natural acceptance and to validate them experientially by living accordingly — developing right understanding and right feeling."
+   ]
+  }
+ ]
+}

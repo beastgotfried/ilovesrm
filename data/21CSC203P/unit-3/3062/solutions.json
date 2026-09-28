@@ -1,0 +1,102 @@
+{
+ "course": "21CSC203P",
+ "code": "3062",
+ "unit": 3,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Use JDBC classes and interfaces (Connection, Statement)",
+ "mcq": [
+  {
+   "q": "What is the role of the Class.forName(\"com.mysql.cj.jdbc.Driver\") line in JDBC code?",
+   "options": {
+    "A": "Executes the SQL command",
+    "B": "Loads and registers the MySQL driver",
+    "C": "Opens the database",
+    "D": "Authenticates the user"
+   },
+   "answer": "B",
+   "answer_text": "Loads and registers the MySQL driver"
+  },
+  {
+   "q": "In JDBC, what happens if a connection object is not closed after use?",
+   "options": {
+    "A": "An exception is thrown",
+    "B": "SQL query will not execute",
+    "C": "Memory leak and DB resource exhaustion may occur",
+    "D": "JVM closes it automatically"
+   },
+   "answer": "C",
+   "answer_text": "Memory leak and DB resource exhaustion may occur"
+  },
+  {
+   "q": "Which of the following is the correct JDBC URL to connect to a MySQL database named studentdb hosted locally?",
+   "options": {
+    "A": "jdbc:mysql://localhost:3306/studentdb",
+    "B": "mysql://jdbc:localhost/studentdb",
+    "C": "jdbc:mysql:localhost:studentdb",
+    "D": "jdbc:mysql://studentdb.localhost"
+   },
+   "answer": "A",
+   "answer_text": "jdbc:mysql://localhost:3306/studentdb"
+  },
+  {
+   "q": "Which of the following is not a method in the Connection interface?",
+   "options": {
+    "A": "createStatement()",
+    "B": "prepareStatement()",
+    "C": "commit()",
+    "D": "executeQuery()"
+   },
+   "answer": "D",
+   "answer_text": "executeQuery()"
+  },
+  {
+   "q": "Which statement is true regarding the execution of a SQL query using Statement ?",
+   "options": {
+    "A": "executeQuery() is used for DML (INSERT/UPDATE)",
+    "B": "executeUpdate() returns a ResultSet",
+    "C": "executeQuery() returns a ResultSet for SELECT queries",
+    "D": "execute() always throws an exception"
+   },
+   "answer": "C",
+   "answer_text": "executeQuery() returns a ResultSet for SELECT queries"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain how to execute a SELECT query using JDBC.",
+   "answer": [
+    "Create Connection and Statement",
+    "Create Connection and Statement",
+    "Execute query: ResultSet rs = stmt.executeQuery(\"SELECT * FROM students\");",
+    "Execute query: ResultSet rs = stmt.executeQuery(\"SELECT * FROM students\");",
+    "Loop through ResultSet to process rows.",
+    "Loop through ResultSet to process rows."
+   ]
+  },
+  {
+   "q": "How do you establish a JDBC connection to a MySQL database?",
+   "answer": [
+    "Load the driver: Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+    "Load the driver: Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+    "Create connection: Connection con = DriverManager.getConnection( \"jdbc:mysql://localhost:3306/studentdb\", \"root\", \"password\");",
+    "Create connection:"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a student information system in Java. The application should connect to a MySQL database named college , fetch all student records from the students table, and display them on the console. Use JDBC classes Connection and Statement and ensure that proper exception handling and resource closing are implemented. Write a complete Java program to: Load JDBC driver Load JDBC driver Establish a connection Establish a connection Use Statement to retrieve all students from students table Use Statement to retrieve all students from students table Print the name and department of each student Print the name and department of each student Close resources properly Close resources properly",
+   "answer": [
+    "import java.sql.*;",
+    "public class StudentInfoApp { public static void main(String[] args) { String url = \"jdbc:mysql://localhost:3306/college\"; String user = \"root\"; String password = \"admin\";",
+    "Connection con = null; Statement stmt = null; ResultSet rs = null;",
+    "try { // Load MySQL JDBC Driver Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+    "// Establish connection con = DriverManager.getConnection(url, user, password);",
+    "// Create Statement stmt = con.createStatement();",
+    "// Execute SELECT query rs = stmt.executeQuery(\"SELECT name, department FROM students\");",
+    "// Process ResultSet while (rs.next()) { System.out.println(\"Name: \" + rs.getString(\"name\") + \", Department: \" + rs.getString(\"department\")); } } catch (Exception e) { e.printStackTrace(); } finally { // Close resources try { if (rs != null) rs.close(); } catch (Exception e) {} try { if (stmt != null) stmt.close(); } catch (Exception e) {} try { if (con != null) con.close(); } catch (Exception e) {} } } }"
+   ]
+  }
+ ]
+}

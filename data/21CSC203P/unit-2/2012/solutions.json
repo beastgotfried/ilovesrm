@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2012",
+ "unit": 2,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "Illustrate how constructors are used in object instantiation.",
+ "mcq": [
+  {
+   "q": "What happens if you do not explicitly define a constructor in a Java class?",
+   "options": {
+    "A": "Compilation error",
+    "B": "The class cannot be instantiated",
+    "C": "Java provides a default constructor",
+    "D": "Only static methods will work"
+   },
+   "answer": "C",
+   "answer_text": "Java provides a default constructor"
+  },
+  {
+   "q": "What is the correct keyword to create a new object in Java?",
+   "options": {
+    "A": "build",
+    "B": "class",
+    "C": "object",
+    "D": "new"
+   },
+   "answer": "D",
+   "answer_text": "new"
+  },
+  {
+   "q": "Which of the following best defines a class in Java?",
+   "options": {
+    "A": "A blueprint for objects",
+    "B": "A variable",
+    "C": "A type of function",
+    "D": "A data structure"
+   },
+   "answer": "A",
+   "answer_text": "A blueprint for objects"
+  },
+  {
+   "q": "Which of the following is true about constructors?",
+   "options": {
+    "A": "Constructors can return a value.",
+    "B": "Constructors have the same name as the class.",
+    "C": "Constructors can be called manually like other methods.",
+    "D": "Constructors must always be private."
+   },
+   "answer": "B",
+   "answer_text": "Constructors have the same name as the class."
+  },
+  {
+   "q": "Which statement correctly describes the purpose of a constructor in Java?",
+   "options": {
+    "A": "It destroys objects.",
+    "B": "It initializes a class variable.",
+    "C": "It initializes a new object when it is created.",
+    "D": "It acts as the main method."
+   },
+   "answer": "C",
+   "answer_text": "It initializes a new object when it is created."
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between a class and an object in Java.",
+   "answer": [
+    "A class is a template or blueprint that defines attributes (variables) and behaviors (methods) of objects. An object is an instance of a class, created using the new keyword. While the class defines structure, the object holds actual values and can perform actions defined by the class."
+   ]
+  },
+  {
+   "q": "Write a Java snippet to define a class Car with a constructor that sets the model name, and show how to create an object of that class.",
+   "answer": [
+    "class Car { String model; // Constructor Car(String modelName) { model = modelName; } } // Object instantiation Car myCar = new Car(\"Honda City\"); This constructor initializes the model variable when a new Car object is created."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain with example how constructor overloading works in Java and why it is useful.",
+   "answer": [
+    "Constructor overloading in Java means defining multiple constructors in the same class with different parameter lists. This allows objects to be initialized in multiple ways based on the given arguments. Example: class Student { String name; int age; // Constructor 1: No arguments Student() { name = \"Unknown\"; age = 0; } // Constructor 2: One argument Student(String studentName) { name = studentName; age = 18; // default age } // Constructor 3: Two arguments Student(String studentName, int studentAge) { name = studentName; age = studentAge; } void display() { System.out.println(\"Name: \" + name + \", Age: \" + age); } } public class Main { public static void main(String[] args) { Student s1 = new Student(); Student s2 = new Student(\"Rahul\"); Student s3 = new Student(\"Anita\", 22); s1.display(); s2.display(); s3.display(); } } Output: Name: Unknown, Age: 0 Name: Rahul, Age: 18 Name: Anita, Age: 22 Explanation: Constructor overloading improves flexibility and usability by allowing: Default initialization (no data), Partial initialization (only name), Full initialization (name + age). This approach enhances readability, code reuse, and supports real-world modeling of diverse object creation needs."
+   ]
+  }
+ ]
+}

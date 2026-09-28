@@ -1,0 +1,96 @@
+{
+ "course": "21MAB201T",
+ "code": "4121",
+ "unit": 4,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Solve comprehensive tutorial problems involving convolution and Parseval's identities",
+ "mcq": [
+  {
+   "q": "\\(\\text{For the triangular function } f(x) = \\begin{cases} 1-|x|, & |x| \\leq 1 \\\\ 0, & |x| > 1 \\end{cases}, \\text{ use Parseval's identity and the convolution theorem to find } \\int_{-\\infty}^\\infty \\left( \\frac{\\sin(s/2)}{s} \\right)^4 ds.\\)",
+   "options": {
+    "A": "\\(\\frac{\\pi}{3}\\)",
+    "B": "\\(\\frac{\\pi}{2}\\)",
+    "C": "\\(\\frac{\\pi}{4}\\)",
+    "D": "\\(\\frac{\\pi}{6}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\pi}{3}\\)"
+  },
+  {
+   "q": "\\(\\text{Given } f(t) = \\begin{cases} 1, & 0 \\leq t \\leq 2 \\\\ 0, & \\text{otherwise} \\end{cases} \\text{ and its Fourier transform } F(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{\\sin(2s)}{s}, \\text{ use Parseval's identity to find } \\int_{-\\infty}^\\infty \\left( \\frac{\\sin(2s)}{s} \\right)^2 ds.\\)",
+   "options": {
+    "A": "\\(\\pi\\)",
+    "B": "\\(2\\pi\\)",
+    "C": "\\(\\frac{\\pi}{2}\\)",
+    "D": "\\(\\pi \\cdot 2\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\pi\\)"
+  },
+  {
+   "q": "\\(\\text{The convolution of } f(t) = e^{-t}u(t) \\text{ with itself, where } u(t) \\text{ is the unit step, has a Fourier transform equal to:}\\)",
+   "options": {
+    "A": "\\(\\left( \\frac{1}{\\sqrt{2\\pi}} \\frac{1}{1+is} \\right)^2\\)",
+    "B": "\\(\\frac{1}{\\sqrt{2\\pi}} \\frac{1}{1+is}\\)",
+    "C": "\\(\\frac{1}{\\sqrt{2\\pi}} \\frac{2}{1+is}\\)",
+    "D": "\\(\\frac{1}{2\\pi} \\frac{1}{1+is}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\left( \\frac{1}{\\sqrt{2\\pi}} \\frac{1}{1+is} \\right)^2\\)"
+  },
+  {
+   "q": "\\(\\text{Using Parseval's identity for Fourier cosine transforms with } f(x)=e^{-x} \\text{ and the convolution theorem, if } h(x) = (f * f)(x), \\text{ then } \\int_0^\\infty h(x)^2 dx \\text{ equals:}\\)",
+   "options": {
+    "A": "\\(\\int_0^\\infty |F_c(s)|^4 ds\\)",
+    "B": "\\(\\int_0^\\infty |F_c(s)|^2 ds\\)",
+    "C": "\\(\\int_0^\\infty F_c(s)^2 ds\\)",
+    "D": "\\(\\int_0^\\infty |F_s(s)|^4 ds\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\int_0^\\infty |F_c(s)|^4 ds\\)"
+  },
+  {
+   "q": "\\(\\text{Evaluate } \\int_0^\\infty \\frac{dx}{(x^2+1)^4} \\text{ using Parseval's identity for Fourier cosine transforms and the fact that the Fourier transform of } e^{-|x|} \\text{ is } \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}.\\)",
+   "options": {
+    "A": "\\(\\frac{5\\pi}{32}\\)",
+    "B": "\\(\\frac{3\\pi}{16}\\)",
+    "C": "\\(\\frac{\\pi}{8}\\)",
+    "D": "\\(\\frac{\\pi}{4}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{5\\pi}{32}\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Using Parseval's identity for Fourier transform, evaluate } \\int_{0}^{\\infty} \\left(\\frac{\\sin x}{x}\\right)^2 dx.\\)",
+   "answer": [
+    "\\(\\text{Take } f(x) = \\begin{cases} 1 & |x| < 1 \\\\ 0 & |x| > 1 \\end{cases}, \\text{ then } F(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{\\sin s}{s}\\)",
+    "\\(\\text{Parseval: } \\int_{-\\infty}^{\\infty} |f(x)|^2 dx = 2\\)",
+    "\\(\\int_{-\\infty}^{\\infty} |F(s)|^2 ds = \\int_{-\\infty}^{\\infty} \\frac{2}{\\pi} \\frac{\\sin^2 s}{s^2} ds = \\frac{4}{\\pi} \\int_{0}^{\\infty} \\frac{\\sin^2 s}{s^2} ds\\)",
+    "\\(\\text{Equate: } 2 = \\frac{4}{\\pi} \\int_{0}^{\\infty} \\frac{\\sin^2 s}{s^2} ds\\)",
+    "\\(\\text{Hence } \\int_{0}^{\\infty} \\left(\\frac{\\sin x}{x}\\right)^2 dx = \\frac{\\pi}{2}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Using convolution theorem and Parseval's identity, evaluate } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)(x^2+4)}.\\)",
+   "answer": [
+    "\\(\\text{Take } f(x)=e^{-x}, g(x)=e^{-2x}, \\text{ then } F_c(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}, G_c(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{2}{4+s^2}\\)",
+    "\\(\\text{Parseval for cosine transforms: } \\int_{0}^{\\infty} f(x)g(x) dx = \\int_{0}^{\\infty} F_c(s) G_c(s) ds\\)",
+    "\\(\\text{LHS: } \\int_{0}^{\\infty} e^{-3x} dx = \\frac{1}{3}\\)",
+    "\\(\\text{RHS: } \\int_{0}^{\\infty} \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\cdot \\sqrt{\\frac{2}{\\pi}} \\frac{2}{4+s^2} ds = \\frac{4}{\\pi} \\int_{0}^{\\infty} \\frac{1}{(1+s^2)(4+s^2)} ds\\)",
+    "\\(\\text{Equate: } \\frac{1}{3} = \\frac{4}{\\pi} \\int_{0}^{\\infty} \\frac{1}{(1+s^2)(4+s^2)} ds\\)",
+    "\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)(x^2+4)} = \\frac{\\pi}{12}.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Using Parseval's identity for Fourier cosine transform, evaluate } \\int_{0}^{\\infty} \\frac{dx}{(a^2+x^2)^2}.\\)",
+   "answer": [
+    "Step Marks Take \\(f(x) = e^{-ax}\\), then \\(F_c(s) = \\mathcal{F}_c\\{e^{-ax}\\} = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{a}{a^2 + s^2}\\) (3) Parseval's identity: \\(\\int_{0}^{\\infty} [f(x)]^2 dx = \\int_{0}^{\\infty} [F_c(s)]^2 ds\\) (2) LHS: \\(\\int_{0}^{\\infty} e^{-2ax} dx = \\frac{1}{2a}\\) (2) RHS: \\(\\int_{0}^{\\infty} \\left( \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{a}{a^2 + s^2} \\right)^2 ds = \\frac{2a^2}{\\pi} \\int_{0}^{\\infty} \\frac{ds}{(a^2 + s^2)^2}\\) (3) Equating: \\(\\frac{1}{2a} = \\frac{2a^2}{\\pi} \\int_{0}^{\\infty} \\frac{ds}{(a^2 + s^2)^2}\\) (2) Thus \\(\\int_{0}^{\\infty} \\frac{ds}{(a^2 + s^2)^2} = \\frac{\\pi}{4a^3}\\) (3)"
+   ]
+  }
+ ]
+}

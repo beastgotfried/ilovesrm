@@ -1,0 +1,99 @@
+{
+ "course": "21MAB201T",
+ "code": "1022",
+ "unit": 1,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Derive Partial Differential Equations (PDEs) by eliminating arbitrary functions ",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": []
+  },
+  {
+   "q": "\\(\\text{Eliminate constants from } z = (x-a)^2 + (y-b)^2\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Differentiate w.r.t x: } p = 2(x-a) \\Rightarrow (x-a) = \\frac{p}{2}\\)",
+    "(2 Mark)",
+    "\\(\\text{Differentiate w.r.t y: } q = 2(y-b) \\Rightarrow (y-b) = \\frac{q}{2}\\)",
+    "(2 Mark)",
+    "\\(\\text{Substitute: } z = \\left(\\frac{p}{2}\\right)^2 + \\left(\\frac{q}{2}\\right)^2 \\Rightarrow 4z = p^2 + q^2\\)",
+    "(1 Mark)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Form the PDE by eliminating arbitrary constants a and b from } z = (x^2+a^2)(y^2+b^2)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Differentiate w.r.t x: } p=(y^2+b^2)\\cdot 2x \\Rightarrow \\frac{p}{2x}=y^2+b^2\\)",
+    "(2 Mark)",
+    "\\(\\text{Differentiate w.r.t y: } q=(x^2+a^2)\\cdot 2y \\Rightarrow \\frac{q}{2y}=x^2+a^2\\)",
+    "(2 Mark)",
+    "\\(\\text{Substitute in original: } z=\\frac{q}{2y}\\cdot\\frac{p}{2x} \\Rightarrow 4xyz=pq\\)",
+    "(2 Mark)"
+   ]
+  }
+ ]
+}

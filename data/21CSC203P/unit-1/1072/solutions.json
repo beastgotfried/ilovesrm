@@ -1,0 +1,88 @@
+{
+ "course": "21CSC203P",
+ "code": "1072",
+ "unit": 1,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "Relate declarative paradigms to data-centric applications",
+ "mcq": [
+  {
+   "q": "What makes SQL a declarative language?",
+   "options": {
+    "A": "a) It specifies how data should be processed",
+    "B": "b) It defines what result is expected, not how to compute it",
+    "C": "c) It uses loops and conditions extensively ​​​​​​​ ​​​​​​​",
+    "D": "d) It requires compiled code"
+   },
+   "answer": "B",
+   "answer_text": "b) It defines what result is expected, not how to compute it"
+  },
+  {
+   "q": "Why are declarative paradigms preferred in data-centric applications?",
+   "options": {
+    "A": "a) They improve runtime efficiency",
+    "B": "b) They allow detailed control over memory",
+    "C": "c) They simplify logic by focusing on what rather than how ​​​​​​​ ​​​​​​​",
+    "D": "d) They use object-oriented inheritance"
+   },
+   "answer": "C",
+   "answer_text": "c) They simplify logic by focusing on what rather than how ​​​​​​​ ​​​​​​​"
+  },
+  {
+   "q": "In which type of application is declarative programming especially useful?",
+   "options": {
+    "A": "a) Games involving graphics",
+    "B": "b) Data-centric applications like reporting and analytics",
+    "C": "c) Real-time sensor processing ​​​​​​​ ​​​​​​​",
+    "D": "d) Embedded system control"
+   },
+   "answer": "B",
+   "answer_text": "b) Data-centric applications like reporting and analytics"
+  },
+  {
+   "q": "Which of the following best describes a declarative query?",
+   "options": {
+    "A": "a) Step-by-step instructions to retrieve data",
+    "B": "b) Memory allocation instructions",
+    "C": "c) A statement of the desired result without control flow ​​​​​​​ ​​​​​​​",
+    "D": "d) A loop for inserting data"
+   },
+   "answer": "C",
+   "answer_text": "c) A statement of the desired result without control flow ​​​​​​​ ​​​​​​​"
+  },
+  {
+   "q": "What does the SQL query SELECT name FROM students WHERE grade > 80; represent in declarative terms?",
+   "options": {
+    "A": "a) Iterating through a list of students",
+    "B": "b) Telling the system how to loop through data",
+    "C": "c) Describing the desired output without specifying the process ​​​​​​​ ​​​​​​​",
+    "D": "d) Allocating memory for results"
+   },
+   "answer": "C",
+   "answer_text": "c) Describing the desired output without specifying the process ​​​​​​​ ​​​​​​​"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A dataset undergoes multiple filtering and transformation steps. How do higher-order functions contribute to this task?",
+   "answer": [
+    "Functions such as map , filter , and reduce abstract common data operations, enabling concise, readable, and reusable transformations"
+   ]
+  },
+  {
+   "q": "A financial tool requires deterministic calculations without side effects. What makes functional programming suitable here?",
+   "answer": [
+    "Functional programming relies on pure functions and immutable data, ensuring predictable outputs and eliminating unintended state changes."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Design a tax computation module for a financial application using functional programming principles. Ensure immutability by using recursion and higher-order functions .",
+   "answer": [
+    "List<Double> incomes = Arrays.asList(400000.0, 600000.0, 1000000.0); List<Double> taxes = incomes.stream() .map(income -> income > 500000 ? income * 0.2 : income * 0.1) .collect(Collectors.toList());",
+    "public static double computeTotalTax(List<Double> taxes, int index) { if (index >= taxes.size()) return 0; return taxes.get(index) + computeTotalTax(taxes, index + 1); } No mutable state is introduced, ensuring a predictable and thread-safe computation."
+   ]
+  }
+ ]
+}

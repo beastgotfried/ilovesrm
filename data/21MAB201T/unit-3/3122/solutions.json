@@ -1,0 +1,100 @@
+{
+ "course": "21MAB201T",
+ "code": "3122",
+ "unit": 3,
+ "session": 12,
+ "slo": 2,
+ "slo_title": "apply their understanding of heat conduction and steady-state conditions to solve a range of problems.",
+ "mcq": [
+  {
+   "q": "\\(\\text{If a rod of length } l \\text{ has both ends kept at } 0^\\circ C, \\text{ the boundary conditions are:}\\)",
+   "options": {
+    "A": "\\(u(0,t)=0, u(l,t)=0\\)",
+    "B": "\\(u(0,t)=T_1, u(l,t)=T_2\\)",
+    "C": "\\(\\frac{\\partial u}{\\partial x}(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0\\)",
+    "D": "\\(u(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(u(0,t)=0, u(l,t)=0\\)"
+  },
+  {
+   "q": "\\(\\text{For the heat equation with ends at } 0^\\circ C, \\text{ the appropriate separated solution is:}\\)",
+   "options": {
+    "A": "\\(u(x,t)=(A\\cos\\lambda x+B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t}\\)",
+    "B": "\\(u(x,t)=(A\\cos\\lambda x+B\\sin\\lambda x)e^{\\alpha^2\\lambda^2 t}\\)",
+    "C": "\\(u(x,t)=(A e^{\\lambda x}+B e^{-\\lambda x})e^{-\\alpha^2\\lambda^2 t}\\)",
+    "D": "\\(u(x,t)=Ax+B\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(u(x,t)=(A\\cos\\lambda x+B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t}\\)"
+  },
+  {
+   "q": "\\(\\text{In the heat equation solution, the function } u_1(x) \\text{ represents:}\\)",
+   "options": {
+    "A": "\\(\\text{The steady-state solution}\\)",
+    "B": "\\(\\text{The transient solution}\\)",
+    "C": "\\(\\text{The initial condition}\\)",
+    "D": "\\(\\text{The boundary condition}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\text{The steady-state solution}\\)"
+  },
+  {
+   "q": "\\(\\text{When the ends of a rod are insulated, the boundary conditions are:}\\)",
+   "options": {
+    "A": "\\(\\frac{\\partial u}{\\partial x}(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0\\)",
+    "B": "\\(u(0,t)=0, u(l,t)=0\\)",
+    "C": "\\(u(0,t)=T_1, u(l,t)=T_2\\)",
+    "D": "\\(\\frac{\\partial u}{\\partial t}(0,t)=0, \\frac{\\partial u}{\\partial t}(l,t)=0\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\partial u}{\\partial x}(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0\\)"
+  },
+  {
+   "q": "\\(\\text{The constant } \\alpha^2 \\text{ in the heat equation is called:}\\)",
+   "options": {
+    "A": "\\(\\text{Thermal diffusivity}\\)",
+    "B": "\\(\\text{Thermal conductivity}\\)",
+    "C": "\\(\\text{Specific heat}\\)",
+    "D": "\\(\\text{Density}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\text{Thermal diffusivity}\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{A rod of length 20 cm has its ends kept at } 0^\\circ\\text{C} \\text{ and } 100^\\circ\\text{C} \\text{ until steady state. Then the temperatures at the ends are interchanged. Find the temperature } u(x,t) \\text{ after the change.}\\)",
+   "answer": [
+    "\\(\\text{Initial steady state: } u_s(x) = \\frac{100}{20}x = 5x.\\)",
+    "\\(\\text{New boundary conditions: } u(0,t)=100, u(20,t)=0.\\)",
+    "\\(\\text{New steady state: } u_1(x) = \\frac{0-100}{20}x + 100 = -5x + 100.\\)",
+    "\\(\\text{Let } u(x,t)=u_1(x)+u_2(x,t), \\text{ where } u_2 \\text{ satisfies heat equation with } u_2(0,t)=0, u_2(20,t)=0.\\)",
+    "\\(\\text{Initial condition for } u_2: u_2(x,0)=u_s(x)-u_1(x)=5x-(-5x+100)=10x-100.\\)",
+    "\\(\\text{Solve for } u_2: u_2(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\left(\\frac{n\\pi x}{20}\\right) e^{-\\alpha^2 n^2\\pi^2 t/400}.\\)",
+    "\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{20} \\int_0^{20} (10x-100) \\sin\\left(\\frac{n\\pi x}{20}\\right) dx = \\frac{200}{n\\pi}[1-(-1)^n].\\)",
+    "\\(\\text{Hence } u(x,t) = -5x+100 + \\frac{200}{\\pi} \\sum_{n=1}^\\infty \\frac{1-(-1)^n}{n} \\sin\\left(\\frac{n\\pi x}{20}\\right) e^{-\\alpha^2 n^2\\pi^2 t/400}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{A string of length } \\pi \\text{ is fixed at both ends. It is initially displaced into the shape } y(x,0) = \\begin{cases} x, & 0 \\leq x \\leq \\pi/2 \\\\ \\pi - x, & \\pi/2 \\leq x \\leq \\pi \\end{cases} \\text{ and released from rest. Find the displacement } y(x,t).\\)",
+   "answer": [
+    "\\(\\text{Wave equation: } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}.\\)",
+    "\\(\\text{Boundary conditions: } y(0,t)=0, y(\\pi,t)=0.\\)",
+    "\\(\\text{Initial conditions: } y(x,0)=f(x) \\text{ (given), } \\frac{\\partial y}{\\partial t}(x,0)=0.\\)",
+    "\\(\\text{General solution: } y(x,t)=\\sum_{n=1}^\\infty B_n \\sin(nx) \\cos(nct).\\)",
+    "\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{\\pi} \\left[ \\int_0^{\\pi/2} x \\sin(nx) dx + \\int_{\\pi/2}^\\pi (\\pi-x) \\sin(nx) dx \\right].\\)",
+    "\\(\\text{Evaluate integrals: } B_n = \\frac{4}{n^2\\pi} \\sin\\left(\\frac{n\\pi}{2}\\right).\\)",
+    "\\(\\text{Hence } y(x,t) = \\frac{4}{\\pi} \\sum_{n=1}^\\infty \\frac{1}{n^2} \\sin\\left(\\frac{n\\pi}{2}\\right) \\sin(nx) \\cos(nct).\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{A rod of length $l$ with insulated sides has ends kept at temperatures $0^\\circ$ C and $100^\\circ$C until steady state.}\\\\ \\text{Then both ends are suddenly insulated. Find the temperature distribution.}\\)",
+   "answer": [
+    "Step Marks \\(\\text{Initial steady state: \\(u_s(x)= \\dfrac{100}{l}x.\\)}\\) (2 Marks) \\(\\text{After ends insulated: BCs become \\(u_x(0,t)=0\\), \\(u_x(l,t)=0\\) (no heat flow).}\\) (2 Marks) \\(\\text{General solution for insulated ends: \\(u(x,t)= A_0 + \\sum A_n \\cos\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\) (3 Marks) \\(\\text{Initial condition: \\(u(x,0)= \\dfrac{100}{l}x = A_0 + \\sum A_n \\cos\\left(\\dfrac{n\\pi x}{l}\\right).\\)}\\) (2 Marks) \\(\\text{Compute \\(A_0 = \\dfrac{1}{l} \\int_0^l \\dfrac{100}{l}x dx = \\dfrac{100}{l^2} \\cdot \\dfrac{l^2}{2} = 50.\\)}\\) (2 Marks) \\(\\text{\\(A_n = \\dfrac{2}{l} \\int_0^l \\dfrac{100}{l}x \\cos\\left(\\dfrac{n\\pi x}{l}\\right) dx\\) for \\(n\\geq1.\\)}\\) (2 Marks) \\(\\text{Evaluate: \\(A_n = \\dfrac{200}{l^2} \\int_0^l x \\cos\\left(\\dfrac{n\\pi x}{l}\\right) dx = \\dfrac{200}{l^2} \\left[ \\dfrac{l^2}{n^2\\pi^2} (\\cos(n\\pi)-1) \\right] = \\dfrac{200}{n^2\\pi^2} ( (-1)^n - 1 ).\\)}\\) (3 Marks) \\(\\text{Thus \\(u(x,t)= 50 + \\sum\\limits_{n=1}^{\\infty} \\dfrac{200}{n^2\\pi^2}((-1)^n -1) \\cos\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\) (1 Mark)"
+   ]
+  }
+ ]
+}

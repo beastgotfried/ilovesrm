@@ -1,0 +1,112 @@
+{
+ "course": "21CSC202J",
+ "code": "1082",
+ "unit": 1,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Explain different types of computing environments ",
+ "mcq": [
+  {
+   "q": "Which computing environment focuses on distributing computational tasks across multiple connected computers to solve complex problems?",
+   "options": {
+    "A": "Personal Computing",
+    "B": "Cloud Computing",
+    "C": "Grid Computing",
+    "D": "Client-Server Computing"
+   },
+   "answer": "C",
+   "answer_text": "Grid Computing"
+  },
+  {
+   "q": "The kernel maintains a scheduling queue primarily for:",
+   "options": {
+    "A": "Memory Paging",
+    "B": "Device Management",
+    "C": "Process Management",
+    "D": "File Management"
+   },
+   "answer": "C",
+   "answer_text": "Process Management"
+  },
+  {
+   "q": "Which computing environment allows users to access applications over the internet without managing the underlying hardware or software?",
+   "options": {
+    "A": "Standalone Computing",
+    "B": "Cloud Computing",
+    "C": "Time-Sharing System",
+    "D": "Cluster Computing"
+   },
+   "answer": "B",
+   "answer_text": "Cloud Computing"
+  },
+  {
+   "q": "In mobile computing environments, which feature is critical for ensuring seamless user experience?",
+   "options": {
+    "A": "Static IP Allocation",
+    "B": "High-Latency Communication",
+    "C": "Mobility Support with Continuous Network Access",
+    "D": "Batch Processing"
+   },
+   "answer": "C",
+   "answer_text": "Mobility Support with Continuous Network Access"
+  },
+  {
+   "q": "The Process Control Block (PCB) is an example of which type of kernel data structure?",
+   "options": {
+    "A": "File Descriptor Table",
+    "B": "Scheduling Data Structure",
+    "C": "Process Management Data Structure",
+    "D": "Buffer Control Block"
+   },
+   "answer": "C",
+   "answer_text": "Process Management Data Structure"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between grid computing and cluster computing.",
+   "answer": [
+    "Grid Computing: Links geographically distributed, heterogeneous systems to work on large-scale problems.",
+    "Cluster Computing: Groups tightly coupled, often homogeneous computers to work together as a single system for high-performance tasks."
+   ]
+  },
+  {
+   "q": "How does the kernel manage multiple processes using scheduling queues?",
+   "answer": [
+    "The kernel uses data structures like linked lists or queues to maintain various scheduling queues (e.g., ready queue, waiting queue). Each queue holds PCBs of processes in specific states, enabling efficient scheduling and context switching."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the different types of Computing Environments and analyze their impact on modern computing systems. How do these environments enhance resource utilization and user accessibility?",
+   "answer": [
+    "A computing environment refers to the combination of hardware, software, network infrastructure, and user interfaces that collectively define how computing resources are provided and accessed. With the rapid advancement of technology, various computing environments have evolved, each catering to specific needs such as scalability, performance, accessibility, and security. Understanding these environments is essential to appreciate how modern computing systems operate efficiently and serve diverse user demands.",
+    "1️ Standalone Computing Environment In this traditional model, all computing resources (CPU, memory, storage) are confined to a single machine operated by one user.",
+    "Example: Personal computers or embedded systems.",
+    "Impact: Offers simplicity and dedicated resource control but lacks scalability and remote accessibility.",
+    "2️ Time-Sharing (Multi-User) Environment Multiple users share the computing power of a central system, with the OS managing task switching and resource allocation.",
+    "Example: Mainframes in academic or research institutions.",
+    "Impact: Enables efficient resource use among users and supports concurrent processing.",
+    "3️ Client-Server Environment Clients request services or resources from centralized servers. The server processes these requests and manages data or applications.",
+    "Example: Web servers, database servers.",
+    "Impact: Centralized control improves data consistency, but server downtime can affect all clients.",
+    "4️ Distributed Computing Environment Independent systems are networked to work collaboratively, appearing as a unified system to users.",
+    "Example: Distributed databases, blockchain networks.",
+    "Impact: Enhances performance, fault tolerance, and scalability, suitable for complex problem-solving.",
+    "5️ Cloud Computing Environment Cloud services provide on-demand access to computing resources over the internet, managed by cloud providers.",
+    "Example: AWS, Microsoft Azure, Google Cloud.",
+    "Impact: Offers flexibility, scalability, and cost-efficiency, allowing users to access resources globally without owning hardware.",
+    "6️ Virtualization and Virtualized Environments Multiple virtual machines (VMs) run on a single physical machine using hypervisors, each with isolated OS and resources.",
+    "Example: VMware, VirtualBox.",
+    "Impact: Enhances hardware utilization, simplifies testing, and supports secure multi-tenant environments.",
+    "7️ Mobile Computing Environment Allows users to access computing services via portable devices with wireless connectivity.",
+    "Example: Smartphones, tablets.",
+    "Impact: Supports ubiquitous access, fosters mobility, and enables remote work.",
+    "8️ Edge and Fog Computing Environments Process data at or near the source of generation instead of relying on centralized data centers.",
+    "Example: IoT devices with edge processors.",
+    "Impact: Reduces latency, saves bandwidth, and improves real-time processing capabilities."
+   ]
+  }
+ ]
+}

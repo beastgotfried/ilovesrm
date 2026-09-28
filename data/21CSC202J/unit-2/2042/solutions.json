@@ -1,0 +1,107 @@
+{
+ "course": "21CSC202J",
+ "code": "2042",
+ "unit": 2,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Implement process creation using fork() system call",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "getppid()",
+    "B": "fork()",
+    "C": "getpid()",
+    "D": "wait()"
+   },
+   "answer": "C",
+   "answer_text": "getpid()"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Waits for memory allocation",
+    "B": "Waits for a signal",
+    "C": "Waits for a child process to finish",
+    "D": "Suspends the process permanently"
+   },
+   "answer": "C",
+   "answer_text": "Waits for a child process to finish"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Parent's process ID",
+    "B": "Process ID of grandparent",
+    "C": "Process priority",
+    "D": "Process execution time"
+   },
+   "answer": "A",
+   "answer_text": "Parent's process ID"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "0",
+    "B": "Negative number",
+    "C": "Child’s PID",
+    "D": "Parent’s PID"
+   },
+   "answer": "A",
+   "answer_text": "0"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Terminates the current process",
+    "B": "Creates a new thread",
+    "C": "Creates a new process by duplicating the parent",
+    "D": "Switches context to another process"
+   },
+   "answer": "C",
+   "answer_text": "Creates a new process by duplicating the parent"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "getpid() returns the Process ID of the current process.",
+    "getpid() returns the Process ID of the current process.",
+    "getppid() returns the Parent Process ID of the current process. These are useful for tracking and managing parent-child relationships in process creation.",
+    "getppid() returns the Parent Process ID of the current process. These are useful for tracking and managing parent-child relationships in process creation."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "The fork() system call is used to create a new process by duplicating the calling (parent) process. It returns 0 to the child process and PID of the child to the parent process, allowing both processes to run independently."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain how process creation is done using fork() in Unix/Linux systems. Describe the role of getpid() , getppid() , and wait() functions with examples.",
+   "answer": [
+    "In Unix/Linux operating systems, a new process is created using the fork() system call. It duplicates the calling process and creates a child process , which runs independently but initially shares the same memory space.",
+    "Returns 0 to the child process.",
+    "Returns 0 to the child process.",
+    "Returns the PID of the child to the parent process.",
+    "Returns the PID of the child to the parent process.",
+    "Returns -1 if process creation fails.",
+    "Returns -1 if process creation fails.",
+    "pid_t pid = fork(); if (pid == 0) { // Child process } else if (pid > 0) { // Parent process } else { // Error in creating process }",
+    "This function returns the Process ID of the current process. It is useful for identifying and managing processes.",
+    "Returns the Parent Process ID . Useful for checking who created the current process.",
+    "The wait() system call makes the parent wait until the child process terminates , helping to avoid zombie processes .",
+    "#include <stdio.h> #include <unistd.h> #include <sys/wait.h> int main() { pid_t pid = fork(); if (pid == 0) { // Child process printf(\"Child Process: PID = %d, PPID = %d\\n\", getpid(), getppid()); } else if (pid > 0) { // Parent process wait(NULL); // Wait for child printf(\"Parent Process: PID = %d\\n\", getpid()); } else { printf(\"Fork failed!\\n\"); } return 0; }",
+    "fork() is key for process creation.",
+    "fork() is key for process creation.",
+    "getpid() and getppid() help track process identity.",
+    "getpid() and getppid() help track process identity.",
+    "wait() ensures the parent waits for its child, preventing resource leaks. These functions form the foundation of process control in Unix/Linux systems.",
+    "wait() ensures the parent waits for its child, preventing resource leaks. These functions form the foundation of process control in Unix/Linux systems."
+   ]
+  }
+ ]
+}

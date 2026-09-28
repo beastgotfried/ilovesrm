@@ -1,0 +1,93 @@
+{
+ "course": "21MAB201T",
+ "code": "2082",
+ "unit": 2,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Tutorial - Problem solving",
+ "mcq": [
+  {
+   "q": "For \\( f(x) = \\sin(x) \\) on \\( (0, \\pi) \\), which expansion would be most appropriate?",
+   "options": {
+    "A": "Half-range cosine series",
+    "B": "Half-range sine series",
+    "C": "Full Fourier series on \\( (-\\pi, \\pi) \\)",
+    "D": "Either sine or cosine series"
+   },
+   "answer": "B",
+   "answer_text": "Half-range sine series"
+  },
+  {
+   "q": "Which expansion would you use for \\( f(x) = x^2 \\) on \\( (0, L) \\) if you want a series with only cosine terms?",
+   "options": {
+    "A": "Half-range cosine series",
+    "B": "Half-range sine series",
+    "C": "Full Fourier series on \\( (-L, L) \\)",
+    "D": "Complex Fourier series"
+   },
+   "answer": "A",
+   "answer_text": "Half-range cosine series"
+  },
+  {
+   "q": "For \\( f(x) \\) defined on \\( (0, L) \\) with \\( f(0)=0 \\), which expansion is guaranteed to converge to \\( f(x) \\) at \\( x=0 \\)?",
+   "options": {
+    "A": "Half-range sine series",
+    "B": "Half-range cosine series",
+    "C": "Both",
+    "D": "Neither"
+   },
+   "answer": "A",
+   "answer_text": "Half-range sine series"
+  },
+  {
+   "q": "If \\( f(x) \\) is given on \\( (0, L) \\) and you want a series that converges to \\( f(x) \\) at \\( x=0 \\), which expansion should you use?",
+   "options": {
+    "A": "Half-range cosine series",
+    "B": "Half-range sine series",
+    "C": "Either would work",
+    "D": "Neither would work"
+   },
+   "answer": "A",
+   "answer_text": "Half-range cosine series"
+  },
+  {
+   "q": "When finding half-range expansions, we extend \\( f(x) \\) to \\( (-L, L) \\) to make it:",
+   "options": {
+    "A": "Periodic with period \\( 2L \\)",
+    "B": "Periodic with period \\( L \\)",
+    "C": "Non-periodic",
+    "D": "Continuous"
+   },
+   "answer": "A",
+   "answer_text": "Periodic with period \\( 2L \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Given } f(x) = \\begin{cases} k & 0 < x < L/2 \\\\ 0 & L/2 < x < L \\end{cases}, \\text{ find half-range cosine series.}\\)",
+   "answer": [
+    "\\(a_0 = \\frac{2}{L} \\int_0^{L/2} k dx = k\\)",
+    "\\(a_n = \\frac{2}{L} \\int_0^{L/2} k \\cos(\\frac{n\\pi x}{L}) dx = \\frac{2k}{n\\pi} \\sin(\\frac{n\\pi}{2})\\)",
+    "\\(\\text{For even } n: a_n=0; \\text{ for odd } n=2m-1: a_n = \\frac{2k}{(2m-1)\\pi}(-1)^{m+1}\\)",
+    "\\(\\text{Thus } f(x) = \\frac{k}{2} + \\frac{2k}{\\pi}\\sum_{m=1}^{\\infty} \\frac{(-1)^{m+1}}{2m-1} \\cos(\\frac{(2m-1)\\pi x}{L})\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Given half-range sine series } f(x) = \\sum b_n \\sin(\\frac{n\\pi x}{L}), \\text{ find } b_n \\text{ if } f(x) = 1.\\)",
+   "answer": [
+    "\\(b_n = \\frac{2}{L} \\int_0^{L} 1 \\cdot \\sin(\\frac{n\\pi x}{L}) dx\\)",
+    "\\(= \\frac{2}{L} \\left[ -\\frac{L}{n\\pi} \\cos(\\frac{n\\pi x}{L}) \\right]_0^L\\)",
+    "\\(= \\frac{2}{n\\pi} [1 - \\cos(n\\pi)] = \\frac{2}{n\\pi}[1 - (-1)^n]\\)",
+    "\\(\\text{Thus } 1 = \\frac{4}{\\pi}\\sum_{n=\\text{odd}} \\frac{1}{n} \\sin(\\frac{n\\pi x}{L})\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=\\begin{cases} \\pi+x, & -\\pi\\leq x\\leq0 \\\\ \\pi-x, & 0\\leq x\\leq\\pi \\end{cases}\\) and deduce that \\(\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}=\\frac{\\pi^2}{8}\\).",
+   "answer": [
+    "Step Marks Since \\(f(x)\\) is even, \\(b_n=0\\) (1) \\(a_0=\\frac{2}{\\pi}\\int_0^{\\pi}(\\pi-x)dx=\\pi\\) (2) \\(a_n=\\frac{2}{\\pi}\\int_0^{\\pi}(\\pi-x)\\cos nx\\,dx=\\frac{2}{n^2\\pi}[1-(-1)^n]\\) (4) Thus, \\(f(x)=\\frac{\\pi}{2}+\\frac{4}{\\pi}\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}\\cos(2n-1)x\\) (3) Put \\(x=0\\): \\(\\pi=\\frac{\\pi}{2}+\\frac{4}{\\pi}\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}\\) ⇒ \\(\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}=\\frac{\\pi^2}{8}\\) (5)"
+   ]
+  }
+ ]
+}

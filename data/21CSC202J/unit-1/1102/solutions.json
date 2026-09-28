@@ -1,0 +1,112 @@
+{
+ "course": "21CSC202J",
+ "code": "1102",
+ "unit": 1,
+ "session": 10,
+ "slo": 2,
+ "slo_title": "Illustrate the transition between user mode and kernel mode using system calls",
+ "mcq": [
+  {
+   "q": "Which of the following is an example of a Command-Line Interface (CLI)?",
+   "options": {
+    "A": "Microsoft Windows GUI",
+    "B": "Linux Bash Shell",
+    "C": "Android OS Home Screen",
+    "D": "macOS Finder"
+   },
+   "answer": "B",
+   "answer_text": "Linux Bash Shell"
+  },
+  {
+   "q": "What is the function of a Graphical User Interface (GUI)?",
+   "options": {
+    "A": "Provides access only to command-line system calls",
+    "B": "Allows users to interact with the OS using graphical elements like windows, icons, and menus",
+    "C": "Executes low-level kernel services",
+    "D": "Provides direct hardware access to applications"
+   },
+   "answer": "B",
+   "answer_text": "Allows users to interact with the OS using graphical elements like windows, icons, and menus"
+  },
+  {
+   "q": "Which interface type provides the most control and flexibility for advanced users and administrators?",
+   "options": {
+    "A": "GUI",
+    "B": "CLI",
+    "C": "Touch Interface",
+    "D": "Voice Interface"
+   },
+   "answer": "B",
+   "answer_text": "CLI"
+  },
+  {
+   "q": "Which system call would typically be used to terminate a process?",
+   "options": {
+    "A": "wait()",
+    "B": "exec()",
+    "C": "kill()",
+    "D": "exit()"
+   },
+   "answer": "D",
+   "answer_text": "exit()"
+  },
+  {
+   "q": "A system call provides the interface between:",
+   "options": {
+    "A": "User and hardware",
+    "B": "Hardware and firmware",
+    "C": "Process and device driver",
+    "D": "User programs and the operating system kernel"
+   },
+   "answer": "D",
+   "answer_text": "User programs and the operating system kernel"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the role of a Shell in the user-OS interface?",
+   "answer": [
+    "A shell acts as a command interpreter between the user and the OS, parsing commands entered by the user and invoking appropriate system calls or functions."
+   ]
+  },
+  {
+   "q": "What is the difference between a system call and an API (Application Programming Interface)?",
+   "answer": [
+    "System Call: Direct interface between user applications and the kernel.",
+    "API: Higher-level function set provided by libraries that internally may use system calls to interact with the OS."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the various types of interfaces available and analyze how they influence user experience, system security, and resource management.",
+   "answer": [
+    "1️ Command-Line Interface (CLI) CLI allows users to interact with the operating system by typing textual commands.",
+    "Features: Direct access to system utilities, scripting, automation.",
+    "Impact: Preferred by advanced users and system administrators for precision and control.",
+    "Example: Linux Bash Shell, Windows Command Prompt.",
+    "2️ Graphical User Interface (GUI) GUI provides a visual interaction platform using windows, icons, menus, and pointers (WIMP).",
+    "Features: User-friendly, supports drag-and-drop, multitasking.",
+    "Impact: Enhances accessibility for general users; ideal for desktop environments.",
+    "Example: Microsoft Windows, macOS, GNOME for Linux.",
+    "3️ Touch User Interface Designed for touch-enabled devices, allowing gestures like tapping, swiping, and pinching.",
+    "Features: Gesture-based control, intuitive navigation.",
+    "Impact: Critical for mobile devices and tablets, making technology accessible on-the-go.",
+    "Example: Android OS, iOS.",
+    "4️ Voice-Based Interface Allows users to issue commands through voice recognition.",
+    "Features: Hands-free operation, accessibility for users with disabilities.",
+    "Impact: Expands usability in smart devices and AI systems.",
+    "Example: Siri, Google Assistant.",
+    "5️ System Calls (Programmatic Interface) System calls are low-level interfaces that allow applications to request services from the OS kernel.",
+    "Features: Enable process management, file handling, memory allocation.",
+    "Impact: Essential for application functionality and controlled resource access.",
+    "Controlled Access: Interfaces ensure users interact with system resources within defined boundaries, reducing the risk of unauthorized access.",
+    "Mode Switching: System calls operate in kernel mode, while user interfaces operate in user mode, maintaining system integrity.",
+    "Authentication and Permissions: User interfaces often enforce access control through login systems, file permissions, and process isolation.",
+    "Ease of Use: A well-designed interface improves user satisfaction and reduces errors.",
+    "Customization: GUI and CLI environments often offer customization options, enhancing productivity.",
+    "Accessibility: Voice and touch interfaces democratize technology use across diverse user groups."
+   ]
+  }
+ ]
+}

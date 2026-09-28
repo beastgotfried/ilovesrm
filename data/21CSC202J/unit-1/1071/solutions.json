@@ -1,0 +1,107 @@
+{
+ "course": "21CSC202J",
+ "code": "1071",
+ "unit": 1,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Understand about file management and key components of device management",
+ "mcq": [
+  {
+   "q": "The main goal of security in operating systems is to:",
+   "options": {
+    "A": "Provide an abstract user interface",
+    "B": "Protect the system from unauthorized access, destruction, and misuse",
+    "C": "Manage CPU scheduling policies",
+    "D": "Allocate disk storage efficiently"
+   },
+   "answer": "B",
+   "answer_text": "Protect the system from unauthorized access, destruction, and misuse"
+  },
+  {
+   "q": "The main difference between authentication and authorization is:",
+   "options": {
+    "A": "Authentication checks permissions; authorization verifies identity",
+    "B": "Authentication verifies identity; authorization checks permissions",
+    "C": "Both are the same process",
+    "D": "Authentication applies only to networks"
+   },
+   "answer": "B",
+   "answer_text": "Authentication verifies identity; authorization checks permissions"
+  },
+  {
+   "q": "Which security mechanism ensures data confidentiality during transmission?",
+   "options": {
+    "A": "Authentication",
+    "B": "Authorization",
+    "C": "Encryption",
+    "D": "Accounting"
+   },
+   "answer": "C",
+   "answer_text": "Encryption"
+  },
+  {
+   "q": "Which component of the OS acts as an interface between hardware devices and the operating system?",
+   "options": {
+    "A": "Kernel",
+    "B": "Shell",
+    "C": "Device Controller",
+    "D": "CPU Scheduler"
+   },
+   "answer": "C",
+   "answer_text": "Device Controller"
+  },
+  {
+   "q": "The main role of the I/O control system in device management is to:",
+   "options": {
+    "A": "Assign CPU time to I/O devices",
+    "B": "Handle interrupts and buffer management",
+    "C": "Execute user commands directly on hardware",
+    "D": "Schedule disk requests using round-robin"
+   },
+   "answer": "B",
+   "answer_text": "Handle interrupts and buffer management"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the function of a device driver?",
+   "answer": [
+    "A device driver acts as a translator between the operating system and a hardware device, enabling the OS to communicate with the hardware without needing hardware-specific details."
+   ]
+  },
+  {
+   "q": "Differentiate between authentication and authorization.",
+   "answer": [
+    "Authentication verifies the identity of a user or process (e.g., passwords, biometrics).",
+    "Authorization grants access rights to authenticated users or processes based on defined policies."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "How do Device Management, File Management, and Protection & Security components contribute to system stability and user reliability?",
+   "answer": [
+    "Device Management handles the communication between the operating system and hardware devices. This includes I/O devices like printers, keyboards, disks, and network cards.",
+    "Device Drivers: Specialized programs that translate OS commands into device-specific operations.",
+    "Buffering and Spooling: Techniques like buffering temporarily store data, while spooling queues data for devices like printers to prevent system delays.",
+    "I/O Scheduling: Algorithms such as FCFS, SCAN, and LOOK are used to optimize the order of I/O requests, improving efficiency and reducing wait times.",
+    "Device Allocation and Deallocation: Ensures exclusive or shared access as per device nature (dedicated, shared, or virtual).",
+    "Effective device management maximizes hardware utilization, prevents conflicts, and ensures smooth interaction between devices and processes.",
+    "File Management provides a systematic way to store, retrieve, and manage data on storage devices.",
+    "File Creation and Access: The OS manages file operations like creation, reading, writing, and deletion.",
+    "Access Methods: Supports sequential, direct, and indexed access to suit various applications.",
+    "Directory Management: Organizes files in structures like single-level, hierarchical, or DAG directories for efficient retrieval.",
+    "File Protection: Implements permissions and access control to prevent unauthorized data access.",
+    "Space Allocation: Allocates and tracks disk space using methods like contiguous, linked, or indexed allocation.",
+    "File management ensures data integrity, efficient storage use, and a user-friendly interface for data handling.",
+    "Protection and Security mechanisms safeguard system resources and data from unauthorized access or malicious activities.",
+    "Access Control Mechanisms: Implement models like Access Control Lists (ACL), Access Control Matrix, and Role-Based Access Control (RBAC).",
+    "Authentication & Authorization: Verify user identity and grant access based on permissions.",
+    "Security Policies and Audits: Define rules for resource access and monitor system activities for compliance and threat detection.",
+    "Encryption & Data Integrity: Secure data during storage and transmission, ensuring confidentiality and integrity.",
+    "Reference Monitor: Ensures that every access request is checked against the defined security policy.",
+    "These mechanisms protect against threats like data breaches, privilege escalation, malware attacks, and unauthorized system access, ensuring system trustworthiness and user confidence."
+   ]
+  }
+ ]
+}

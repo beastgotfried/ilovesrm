@@ -1,0 +1,100 @@
+{
+ "course": "21MAB201T",
+ "code": "5101",
+ "unit": 5,
+ "session": 10,
+ "slo": 1,
+ "slo_title": "Convolution Theorem (Without Proof) - Problems\napply the convolution theorem to solve Z transform problems.",
+ "mcq": [
+  {
+   "q": "Which of the following is the correct formula for the discrete convolution sum $y(n) = x_1(n) * x_2(n)$?",
+   "options": {
+    "A": "$\\sum_{k=-\\infty}^{\\infty} x_1(k) x_2(n-k)$",
+    "B": "$\\sum_{k=-\\infty}^{\\infty} x_1(k) x_2(n+k)$",
+    "C": "$\\sum_{k=-\\infty}^{\\infty} x_1(n) x_2(k)$",
+    "D": "$\\sum_{k=-\\infty}^{\\infty} x_1(k) x_2(k-n)$"
+   },
+   "answer": "A",
+   "answer_text": "$\\sum_{k=-\\infty}^{\\infty} x_1(k) x_2(n-k)$"
+  },
+  {
+   "q": "If $x_1(n) \\leftrightarrow X_1(z)$ and $x_2(n) \\leftrightarrow X_2(z)$, what is the Z-transform of the convolution $x_1(n) * x_2(n)$?",
+   "options": {
+    "A": "$X_1(z) + X_2(z)$",
+    "B": "$X_1(z) X_2(z)$",
+    "C": "$X_1(z) / X_2(z)$",
+    "D": "$X_1(z) * X_2(z)$"
+   },
+   "answer": "B",
+   "answer_text": "$X_1(z) X_2(z)$"
+  },
+  {
+   "q": "If $X_1(z) = 1 + z^{-1}$ and $X_2(z) = 1 - z^{-1}$, what is the Z-transform of $x_1(n) * x_2(n)$?",
+   "options": {
+    "A": "$1 - z^{-2}$",
+    "B": "$1 + z^{-2}$",
+    "C": "$1 + 2z^{-1} + z^{-2}$",
+    "D": "$1 - 2z^{-1} + z^{-2}$"
+   },
+   "answer": "A",
+   "answer_text": "$1 - z^{-2}$"
+  },
+  {
+   "q": "Convolution in the time domain maps to which operation in the Z-domain?",
+   "options": {
+    "A": "Addition",
+    "B": "Subtraction",
+    "C": "Multiplication",
+    "D": "Differentiation"
+   },
+   "answer": "C",
+   "answer_text": "Multiplication"
+  },
+  {
+   "q": "If the Region of Convergence (ROC) of $x_1(n)$ is $R_1$ and $x_2(n)$ is $R_2$, what is the ROC of their convolution?",
+   "options": {
+    "A": "$R_1 \\cup R_2$ (Union)",
+    "B": "$R_1 \\cap R_2$ (Intersection)",
+    "C": "$R_1$ only",
+    "D": "$R_2$ only"
+   },
+   "answer": "B",
+   "answer_text": "$R_1 \\cap R_2$ (Intersection)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Using convolution theorem, find } Z^{-1}\\left[\\frac{z^2}{(z-a)(z-b)}\\right].\\)",
+   "answer": [
+    "\\(\\text{Let } F(z)=\\frac{z}{z-a}, G(z)=\\frac{z}{z-b} \\Rightarrow f(n)=a^n, g(n)=b^n\\)",
+    "\\(\\text{Convolution: } (f*g)(n) = \\sum_{k=0}^n a^k b^{n-k} = b^n \\sum_{k=0}^n \\left(\\frac{a}{b}\\right)^k\\)",
+    "\\(= b^n \\cdot \\frac{1-(a/b)^{n+1}}{1-a/b} = \\frac{a^{n+1} - b^{n+1}}{a-b}\\)"
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Convolution Theorem & Definition:",
+    "State that $Z^{-1}[F(z)\\cdot G(z)] = f(n) * g(n)$ and define convolution as $f(n)*g(n) = \\sum_{k=0}^{n}f(k)g(n-k)$",
+    "Inverse Transforms:",
+    "Identify $f(n) = Z^{-1}\\left[\\frac{z}{z-a}\\right] = a^n$ and $g(n) = Z^{-1}\\left[\\frac{z}{z-b}\\right] = b^n$. Write the expression as $a^n * b^n$.",
+    "Summation Setup:",
+    "Substitute into the sum: $\\sum_{k=0}^{n} a^k b^{n-k}$. Rearrange to form Geometric Series: $b^n \\sum_{k=0}^{n} \\left(\\frac{a}{b}\\right)^k$",
+    "Final Simplification:",
+    "Apply GP sum formula $\\frac{1-r^{n+1}}{1-r}$ and simplify to get: $\\frac{a^{n+1}-b^{n+1}}{a-b}$"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "State the Convolution Theorem for Z-transform. Using the theorem, find the inverse Z-transform of the following: a) \\(X(z) = \\frac{z^2}{(z-a)(z-b)}\\) , ROC: \\(|z| > \\max(|a|,|b|)\\) b) \\(X(z) = \\left( \\frac{z}{z-1} \\right) \\left( \\frac{z}{z-2} \\right)\\) , ROC: \\(|z|>2\\) c) \\(X(z) = \\frac{z^2}{(z-1)^2}\\) , ROC: \\(|z|>1\\) d) \\(X(z) = \\frac{z^2}{(z-1)^3}\\) , ROC: \\(|z|>1\\) (Hint: Express as product of simpler terms)",
+   "answer": [
+    "Convolution Theorem: If \\(Z\\{x_1(n)\\}=X_1(z)\\) and \\(Z\\{x_2(n)\\}=X_2(z)\\) , then \\(Z\\{x_1(n) * x_2(n)\\} = X_1(z) X_2(z)\\) , where convolution is defined as \\(x_1(n)*x_2(n) = \\sum_{k=-\\infty}^{\\infty} x_1(k) x_2(n-k)\\) . For causal sequences, it's \\(\\sum_{k=0}^{n} x_1(k) x_2(n-k)\\) .",
+    "a) \\(X(z) = \\frac{z}{z-a} \\cdot \\frac{z}{z-b}\\) . We know \\(Z^{-1}\\{\\frac{z}{z-a}\\} = a^n u(n)\\) and \\(Z^{-1}\\{\\frac{z}{z-b}\\} = b^n u(n)\\) . By convolution theorem: \\(x(n) = a^n u(n) * b^n u(n) = \\sum_{k=0}^{n} a^k b^{n-k} = b^n \\sum_{k=0}^{n} \\left(\\frac{a}{b}\\right)^k = b^n \\cdot \\frac{1 - (a/b)^{n+1}}{1 - a/b} = \\frac{b^{n+1} - a^{n+1}}{b - a} u(n)\\) .",
+    "b) \\(X(z) = \\frac{z}{z-1} \\cdot \\frac{z}{z-2}\\) . Similarly, \\(x(n) = 1^n u(n) * 2^n u(n) = \\sum_{k=0}^{n} 1^k \\cdot 2^{n-k} = 2^n \\sum_{k=0}^{n} (1/2)^k = 2^n \\cdot \\frac{1 - (1/2)^{n+1}}{1 - 1/2} = 2^{n+1} \\left[1 - (1/2)^{n+1}\\right] = 2^{n+1} - 1\\) for \\(n \\ge 0\\) . So, \\(x(n) = (2^{n+1} - 1) u(n)\\) .",
+    "c) \\(X(z) = \\frac{z}{z-1} \\cdot \\frac{z}{z-1}\\) . Then \\(x(n) = u(n) * u(n) = \\sum_{k=0}^{n} 1 = n+1\\) for \\(n \\ge 0\\) . So, \\(x(n) = (n+1) u(n)\\) .",
+    "d) \\(X(z) = \\frac{z^2}{(z-1)^3} = \\frac{z}{z-1} \\cdot \\frac{z}{(z-1)^2}\\) . We have \\(Z^{-1}\\{\\frac{z}{z-1}\\} = u(n)\\) and \\(Z^{-1}\\{\\frac{z}{(z-1)^2}\\} = n u(n)\\) . So, \\(x(n) = u(n) * n u(n) = \\sum_{k=0}^{n} 1 \\cdot (n-k) = \\sum_{k=0}^{n} (n-k) = \\sum_{m=0}^{n} m = \\frac{n(n+1)}{2}\\) for \\(n \\ge 0\\) . Thus, \\(x(n) = \\frac{n(n+1)}{2} u(n)\\) ."
+   ]
+  }
+ ]
+}

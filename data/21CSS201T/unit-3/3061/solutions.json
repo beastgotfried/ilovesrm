@@ -1,0 +1,85 @@
+{
+ "course": "21CSS201T",
+ "code": "3061",
+ "unit": 3,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Explain the architecture and working principles of fast multipliers ",
+ "mcq": [
+  {
+   "q": "A Wallace tree multiplier reduces the number of partial products by:",
+   "options": {
+    "A": "Using carry-look-ahead adders at each stage.",
+    "B": "Using a tree of carry-save adders for partial sum and carry computation.",
+    "C": "Shifting the multiplier and multiplicand in parallel.",
+    "D": "Using Booth’s algorithm directly."
+   },
+   "answer": "B",
+   "answer_text": "Using a tree of carry-save adders for partial sum and carry computation."
+  },
+  {
+   "q": "Which of the following statements is TRUE about fast multipliers like Wallace tree multipliers?",
+   "options": {
+    "A": "They are slower than shift-and-add methods for large operands.",
+    "B": "They require fewer logic levels compared to array multipliers.",
+    "C": "They do not use carry-save addition.",
+    "D": "They can only handle unsigned numbers."
+   },
+   "answer": "B",
+   "answer_text": "They require fewer logic levels compared to array multipliers."
+  },
+  {
+   "q": "What is the key idea behind a carry-save adder (CSA) ?",
+   "options": {
+    "A": "It eliminates all carry propagation.",
+    "B": "It postpones carry propagation to the final addition step.",
+    "C": "It uses only XOR gates for addition.",
+    "D": "It converts binary numbers into decimal form."
+   },
+   "answer": "B",
+   "answer_text": "It postpones carry propagation to the final addition step."
+  },
+  {
+   "q": "Why is carry-save addition efficient in multi-operand multiplication?",
+   "options": {
+    "A": "It computes all carries in parallel.",
+    "B": "It avoids carry propagation until the final stage.",
+    "C": "It doubles the number of partial products.",
+    "D": "It eliminates the need for a final addition."
+   },
+   "answer": "B",
+   "answer_text": "It avoids carry propagation until the final stage."
+  },
+  {
+   "q": "Which of the following is a fast multiplier design?",
+   "options": {
+    "A": "Ripple-carry adder",
+    "B": "Array multiplier",
+    "C": "Wallace tree multiplier",
+    "D": "Half adder"
+   },
+   "answer": "C",
+   "answer_text": "Wallace tree multiplier"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "A Wallace Tree multiplier reduces the number of sequential addition steps by using parallel carry-save adders to combine partial products , resulting in significantly lower delay compared to array multipliers."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Carry-save addition is efficient because it eliminates carry propagation in intermediate stages, allowing multiple numbers to be added in parallel and deferring the final carry resolution to one final addition step."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "",
+   "answer": []
+  }
+ ]
+}

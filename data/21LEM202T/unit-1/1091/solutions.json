@@ -1,0 +1,95 @@
+{
+ "course": "21LEM202T",
+ "code": "1091",
+ "unit": 1,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Conduct a practice activity distinguishing prosperity from the accumulation of wealth.",
+ "mcq": [
+  {
+   "q": "Which is an example of resolution in daily life?",
+   "options": {
+    "A": "Choosing to complete work ethically even if it is time-consuming",
+    "B": "Copying answers to save time",
+    "C": "Ignoring team responsibilities",
+    "D": "Following shortcuts without thinking"
+   },
+   "answer": "A",
+   "answer_text": "Choosing to complete work ethically even if it is time-consuming"
+  },
+  {
+   "q": "How does contemplation support resolution?",
+   "options": {
+    "A": "By reflecting on the purpose and consequences of one’s actions",
+    "B": "By acting without thinking",
+    "C": "By memorizing instructions",
+    "D": "By avoiding challenges"
+   },
+   "answer": "A",
+   "answer_text": "By reflecting on the purpose and consequences of one’s actions"
+  },
+  {
+   "q": "What problem can be solved using all-encompassing resolution?",
+   "options": {
+    "A": "Ethical dilemmas",
+    "B": "Conflict with nature",
+    "C": "Misalignment between personal and societal goals",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "answer_text": "All of the above"
+  },
+  {
+   "q": "How does all-encompassing resolution guide engineers?",
+   "options": {
+    "A": "To focus solely on technical efficiency",
+    "B": "To integrate technical solutions with human values and societal needs",
+    "C": "To ignore social impacts",
+    "D": "To prioritize profits only"
+   },
+   "answer": "B",
+   "answer_text": "To integrate technical solutions with human values and societal needs"
+  },
+  {
+   "q": "Which statement best summarizes all-encompassing resolution?",
+   "options": {
+    "A": "It focuses on individual gain only",
+    "B": "It integrates self-realization, understanding, contemplation, and responsible action to achieve harmony",
+    "C": "It ignores human values for efficiency",
+    "D": "It prioritizes competition over collaboration"
+   },
+   "answer": "B",
+   "answer_text": "It integrates self-realization, understanding, contemplation, and responsible action to achieve harmony"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the relation between resolution and nature?",
+   "answer": [
+    "Resolution ensures sustainable use of resources, leading to balance with nature."
+   ]
+  },
+  {
+   "q": "How does resolution contribute to social well-being?",
+   "answer": [
+    "It encourages justice, cooperation, and peaceful coexistence in society."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Q1. What is natural acceptance, and how is it distinguished from liking or appeal? Give an example. Q2. Using the Namaste example, explain how the same expression can be naturally acceptable or not, and what can and cannot be checked by natural acceptance. Q3. Distinguish between natural acceptance, acceptance and forced acceptance.",
+   "answer": [
+    "Q1 — Natural acceptance vs liking",
+    "DEFINITE — single expected answer",
+    "Model answer: Natural acceptance is what I accept innately; it is innate, invariant with time and place (universal), uncorrupted by pre-conditioning, and definite. Liking or appeal, by contrast, can vary from person to person and concerns the details of how a relationship is fulfilled. For example, whether a person likes to wake up early or late varies, but both naturally accept to be healthy; whether one likes playing with toys or travelling varies, but both naturally accept to be happy. Natural acceptance is about my relationship to the reality of concern and my purpose or role (e.g. natural acceptance for nurturing the body), which is definite; the details of how to fulfil it may have variety.",
+    "Q2 — The Namaste example",
+    "DEFINITE — single expected answer",
+    "Model answer: The same expression — folding hands in Namaste — can carry a feeling of relationship and respect, which is naturally acceptable, leads to harmony and brings happiness within; or it can carry a feeling of opposition and disrespect, which is not naturally acceptable and brings disharmony and unhappiness within. The expression itself has creativity and variation and cannot be checked by natural acceptance; only the underlying feeling can be checked — and the feeling is definite if based on natural acceptance, indefinite if based on assumption. So we check the feeling, not the outer expression.",
+    "Q3 — Natural acceptance, acceptance and forced acceptance",
+    "DEFINITE — single expected answer",
+    "Model answer: Natural acceptance is innate, invariant and universal — what I accept by my very being. Acceptance is what I assume to hold good in a given situation. Forced acceptance is what I do not accept but, in a given situation, am forced to compromise with or abide by. Social norms and family traditions are essentially details worked out at some time and situation about how to fulfil a goal set by the society; therefore we need to verify, from time to time, whether the goals set are correct (through natural acceptance) and whether the norms still meet those goals in the present situation."
+   ]
+  }
+ ]
+}

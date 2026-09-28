@@ -1,0 +1,183 @@
+{
+ "course": "21CSC201J",
+ "code": "3032",
+ "unit": 3,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Stack Applications",
+ "mcq": [
+  {
+   "q": "What makes a linked list-based stack inefficient for large-scale applications?",
+   "options": {
+    "A": "Increased memory usage due to pointers",
+    "B": "Fixed size allocation",
+    "C": "Slower push/pop operations",
+    "D": "Inefficient memory access"
+   },
+   "answer": "A",
+   "answer_text": "Increased memory usage due to pointers"
+  },
+  {
+   "q": "Which real-world application heavily relies on stacks?",
+   "options": {
+    "A": "GPS navigation",
+    "B": "Call stack in programming",
+    "C": "Disk scheduling",
+    "D": "Email filtering"
+   },
+   "answer": "B",
+   "answer_text": "Call stack in programming"
+  },
+  {
+   "q": "Which of the following is a drawback of using a linked list-based stack in a compiler?",
+   "options": {
+    "A": "Dynamic allocation leads to unpredictable memory usage",
+    "B": "Stack operations become O(N)",
+    "C": "Requires continuous memory blocks",
+    "D": "Cannot support recursion"
+   },
+   "answer": "A",
+   "answer_text": "Dynamic allocation leads to unpredictable memory usage"
+  },
+  {
+   "q": "Which of the following is an advantage of using a linked list-based stack over an array-based stack?",
+   "options": {
+    "A": "Faster access to elements",
+    "B": "Less memory usage",
+    "C": "No limit on size",
+    "D": "Better cache locality"
+   },
+   "answer": "C",
+   "answer_text": "No limit on size"
+  },
+  {
+   "q": "In which scenario would a linked list-based stack be preferred over an array-based stack?",
+   "options": {
+    "A": "When memory allocation needs to be fixed",
+    "B": "When stack size is unknown at compile time",
+    "C": "When memory overhead should be minimized",
+    "D": "When operations need O(N) complexity"
+   },
+   "answer": "B",
+   "answer_text": "When stack size is unknown at compile time"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Discuss the advantages and disadvantages of implementing a stack using a linked list.",
+   "answer": [
+    "A stack is a Last In, First Out (LIFO) data structure that can be implemented using an array or a linked list. When implemented using a linked list, each element (node) contains two parts: data and a pointer to the next node.",
+    "Advantages:",
+    "Dynamic Size Unlike arrays, a linked list does not require a pre-defined size. Memory is allocated dynamically, so it can grow or shrink as needed.",
+    "Unlike arrays, a linked list does not require a pre-defined size.",
+    "Memory is allocated dynamically, so it can grow or shrink as needed.",
+    "Efficient Insertions & Deletions Operations like push (insertion) and pop (deletion) are performed in constant time O(1)O(1)O(1) at the head of the list. No shifting of elements is required, unlike in arrays.",
+    "Operations like push (insertion) and pop (deletion) are performed in constant time O(1)O(1)O(1) at the head of the list.",
+    "No shifting of elements is required, unlike in arrays.",
+    "No Wastage of Memory In an array-based stack, if the allocated size is too large, memory is wasted. In a linked list, memory is allocated only for the required number of elements, avoiding unnecessary memory usage.",
+    "In an array-based stack, if the allocated size is too large, memory is wasted.",
+    "In a linked list, memory is allocated only for the required number of elements, avoiding unnecessary memory usage.",
+    "Disadvantages:",
+    "Extra Memory Overhead Each node in the linked list requires additional memory for the pointer. This increases memory consumption compared to arrays.",
+    "Each node in the linked list requires additional memory for the pointer.",
+    "This increases memory consumption compared to arrays.",
+    "Cache Inefficiency Arrays are stored in contiguous memory locations, making them more cache-friendly. Linked lists are stored in scattered memory locations, leading to slower access due to cache misses.",
+    "Arrays are stored in contiguous memory locations, making them more cache-friendly.",
+    "Linked lists are stored in scattered memory locations, leading to slower access due to cache misses.",
+    "Complex Implementation Implementing a linked list requires managing pointers properly. If pointers are not handled correctly, memory leaks or segmentation faults may occur .",
+    "Implementing a linked list requires managing pointers properly.",
+    "If pointers are not handled correctly, memory leaks or segmentation faults may occur ."
+   ]
+  },
+  {
+   "q": "Explain any two real-world applications of stacks with examples.",
+   "answer": [
+    "1. Undo/Redo Operations in Text Editors",
+    "Most text editors (like Microsoft Word, Notepad, and Photoshop) use stacks for undo/redo functionality.",
+    "Every action performed (like typing a word or deleting text) is pushed onto the stack.",
+    "When \"Undo\" is clicked, the last action is popped from the stack, reversing the change.",
+    "If \"Redo\" is clicked, the undone action is pushed back onto the stack.",
+    "Example: Typing \"Hello\" in MS Word → Each keystroke is pushed onto the stack. Pressing Ctrl+Z (Undo) → The last action (typing 'o') is popped, and \"Hell\" remains. Pressing Ctrl+Y (Redo) → The popped action is restored, bringing back \"Hello\".",
+    "Typing \"Hello\" in MS Word → Each keystroke is pushed onto the stack.",
+    "Pressing Ctrl+Z (Undo) → The last action (typing 'o') is popped, and \"Hell\" remains.",
+    "Pressing Ctrl+Y (Redo) → The popped action is restored, bringing back \"Hello\".",
+    "2. Browser Back and Forward Navigation",
+    "Web browsers use two stacks to manage the \"Back\" and \"Forward\" navigation.",
+    "When you visit a new webpage, it is pushed onto the back stack.",
+    "Clicking the \"Back\" button pops the top page from the stack and loads the previous page.",
+    "If you click \"Forward,\" the page is pushed onto another stack, allowing you to revisit it.",
+    "Example:",
+    "Open Google.com → Pushed onto the Back Stack",
+    "Open Facebook.com → Pushed onto the Back Stack",
+    "Click \"Back\" → Facebook is popped, and Google is displayed.",
+    "Click \"Forward\" → Facebook is pushed again, and it is displayed."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A software developer is designing a web-based task management system where users can add, remove, and view the most recently added task first. The system must handle an unlimited number of tasks dynamically. Based on this scenario, answer the following: Which data structure is best suited for this system, and why? Should the developer use an array-based stack or a linked list-based stack? Justify your answer with two reasons.",
+   "answer": [
+    "(i) Best-Suited Data Structure for the System",
+    "The most suitable data structure for this task management system is a Stack because:",
+    "The system follows the Last In, First Out (LIFO) principle, where the most recently added task should be removed first.",
+    "The stack allows users to add a new task (push operation) and remove the most recent task (pop operation) efficiently.",
+    "Stacks are commonly used for undo operations, backtracking, and history tracking, making them ideal for a task management system where users may want to remove recent tasks first.",
+    "Example:",
+    "A user adds Task 1, Task 2, and Task 3.",
+    "The system should store them in this order: Top → Task 3 → Task 2 → Task 1 → Bottom",
+    "If the user removes a task, Task 3 (the most recent task) is removed first, which follows the LIFO principle.",
+    "Thus, a stack is the best choice for this task management system",
+    "(ii) Why Should the Stack Be Implemented Using a Linked List?",
+    "Challenge of Using an Array-Based Stack",
+    "If we implement the stack using an array, the system will face a major issue:",
+    "Arrays require a fixed size. If the number of tasks grows beyond this limit, the array must be resized, which can slow down performance.",
+    "Memory may be wasted if fewer tasks are stored than the allocated size.",
+    "Since the task management system needs to handle an unlimited number of tasks, an array-based stack is not an efficient choice.",
+    "How a Linked List-Based Stack Solves This Problem",
+    "A linked list-based stack does not require a fixed size because it allocates memory dynamically as tasks are added. Each task (node) consists of two parts: 1️ . Data (task details). 2️ . P ointer (link to the next task).",
+    "How It Works in the System:",
+    "1.User Adding a Task (PUSH Operation):",
+    "· A user enters a task name to add to the task stack.",
+    "· A new node is created dynamically to store the task.",
+    "· The new node is linked to the previous top task.",
+    "· The top pointer is updated to the newly added task.",
+    "When a new task is added, it is linked to the previous task and becomes the new top.",
+    "Pseudocode:",
+    "Function PUSH(task_name):",
+    "// Step 1: Create a new node",
+    "new_task = AllocateMemory() // Allocate memory for the new task",
+    "// Step 2: Store the task data",
+    "new_task.task_name = task_name // Assign task name to the new node",
+    "// Step 3: Link new task to the previous top",
+    "new_task.next = top // New task points to the old top task",
+    "// Step 4: Update the top pointer to new task",
+    "top = new_task",
+    "Print \"Task added successfully: \", task_name",
+    "End Function",
+    "2. User Removing the Most Recent Task (POP Operation):",
+    "The system checks if the stack is empty before removing a task.",
+    "If the stack is not empty: The top task is removed. The top pointer is updated to the next task in the stack. The removed task’s memory is freed.",
+    "The top task is removed.",
+    "The top pointer is updated to the next task in the stack.",
+    "The removed task’s memory is freed.",
+    "When a task is removed, only the topmost node is deleted, without affecting other tasks.",
+    "Pseudocode",
+    "Function POP():",
+    "// Step 1: Check if the stack is empty",
+    "If (top == NULL) Then",
+    "Print \"No tasks to remove!\"",
+    "Return",
+    "// Step 2: Store the task being removed",
+    "removed_task = top.task_name // Store the task name for display",
+    "// Step 3: Move top pointer to the next task",
+    "temp = top // Store reference to current top task",
+    "top = top.next // Move top to the next node in the stack",
+    "// Step 4: Free memory of removed task",
+    "FreeMemory(temp)",
+    "Print \"Task removed: \", removed_task",
+    "End Function"
+   ]
+  }
+ ]
+}

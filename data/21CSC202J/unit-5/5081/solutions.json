@@ -1,0 +1,105 @@
+{
+ "course": "21CSC202J",
+ "code": "5081",
+ "unit": 5,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "Describe types of user authentication methods",
+ "mcq": [
+  {
+   "q": "Which of the following is a knowledge-based authentication factor ?",
+   "options": {
+    "A": "Smart card",
+    "B": "Fingerprint",
+    "C": "Password",
+    "D": "OTP token"
+   },
+   "answer": "C",
+   "answer_text": "Password"
+  },
+  {
+   "q": "Which security defense ensures data confidentiality ?",
+   "options": {
+    "A": "Firewall",
+    "B": "Encryption",
+    "C": "Authentication",
+    "D": "RAID"
+   },
+   "answer": "B",
+   "answer_text": "Encryption"
+  },
+  {
+   "q": "Which is an example of multi-factor authentication ?",
+   "options": {
+    "A": "Password only",
+    "B": "Password + OTP",
+    "C": "PIN only",
+    "D": "Fingerprint only"
+   },
+   "answer": "B",
+   "answer_text": "Password + OTP"
+  },
+  {
+   "q": "Biometric authentication falls under which factor category?",
+   "options": {
+    "A": "Something you know",
+    "B": "Something you have",
+    "C": "Something you are",
+    "D": "Somewhere you are"
+   },
+   "answer": "C",
+   "answer_text": "Something you are"
+  },
+  {
+   "q": "Which of the following is not a security defense technique?",
+   "options": {
+    "A": "Encryption",
+    "B": "Authentication",
+    "C": "Deadlock prevention",
+    "D": "Firewalling"
+   },
+   "answer": "C",
+   "answer_text": "Deadlock prevention"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain any two security defense techniques used in operating systems.",
+   "answer": [
+    "Encryption: Protects data confidentiality by encoding information.",
+    "Encryption: Protects data confidentiality by encoding information.",
+    "Firewalling: Filters network traffic to block unauthorized access.",
+    "Firewalling: Filters network traffic to block unauthorized access."
+   ]
+  },
+  {
+   "q": "List three types of user authentication with one example each.",
+   "answer": [
+    "Knowledge-based: Password, PIN",
+    "Knowledge-based: Password, PIN",
+    "Possession-based: Smart card, OTP token",
+    "Possession-based: Smart card, OTP token",
+    "Biometric-based: Fingerprint, facial recognition",
+    "Biometric-based: Fingerprint, facial recognition"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Describe multi-factor authentication and explain its importance in enhancing operating system security with examples.",
+   "answer": [
+    "Answer Key:",
+    "Multi-factor authentication (MFA) combines two or more authentication factors such as:",
+    "Multi-factor authentication (MFA) combines two or more authentication factors such as:",
+    "Something you know: Password",
+    "Something you know: Password",
+    "Something you have: OTP token, smart card",
+    "Something you have: OTP token, smart card",
+    "Importance: Enhances security by requiring multiple proofs of identity, making unauthorized access significantly harder. Example: Logging into a bank account requires both password (knowledge) and OTP sent to mobile (possession), reducing risks of credential theft attacks.",
+    "Importance: Enhances security by requiring multiple proofs of identity, making unauthorized access significantly harder. Example: Logging into a bank account requires both password (knowledge) and OTP sent to mobile (possession), reducing risks of credential theft attacks.",
+    "Something you are: Biometric",
+    "Something you are: Biometric"
+   ]
+  }
+ ]
+}

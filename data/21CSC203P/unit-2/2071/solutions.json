@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2071",
+ "unit": 2,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Understand the concept and benefits of inheritance in Java.\n",
+ "mcq": [
+  {
+   "q": "Which type of inheritance is shown when Class C inherits from Class B, and Class B inherits from Class A?",
+   "options": {
+    "A": "Single",
+    "B": "Multiple",
+    "C": "Multilevel",
+    "D": "Hierarchical"
+   },
+   "answer": "C",
+   "answer_text": "Multilevel"
+  },
+  {
+   "q": "What is the main benefit of using inheritance in Java?",
+   "options": {
+    "A": "Memory optimization",
+    "B": "Runtime error reduction",
+    "C": "Code reusability and extensibility",
+    "D": "Fast compilation"
+   },
+   "answer": "C",
+   "answer_text": "Code reusability and extensibility"
+  },
+  {
+   "q": "In hierarchical inheritance, which of the following is true?",
+   "options": {
+    "A": "Multiple base classes, one derived class",
+    "B": "One base class, multiple derived classes",
+    "C": "Multiple derived classes extending multiple base classes",
+    "D": "Derived classes that are not connected"
+   },
+   "answer": "B",
+   "answer_text": "One base class, multiple derived classes"
+  },
+  {
+   "q": "Which keyword is used in Java to implement inheritance?",
+   "options": {
+    "A": "inherits",
+    "B": "super",
+    "C": "extends",
+    "D": "implements"
+   },
+   "answer": "C",
+   "answer_text": "extends"
+  },
+  {
+   "q": "Which of the following represents single inheritance in Java?",
+   "options": {
+    "A": "One class inheriting from multiple classes",
+    "B": "A class inheriting from one class only",
+    "C": "One class with multiple subclasses",
+    "D": "A class without any superclass"
+   },
+   "answer": "B",
+   "answer_text": "A class inheriting from one class only"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Write a Java code snippet that demonstrates hierarchical inheritance.",
+   "answer": [
+    "class Vehicle { void start() { System.out.println(\"Vehicle starts\"); } } class Car extends Vehicle { void drive() { System.out.println(\"Car drives\"); } } class Bike extends Vehicle { void ride() { System.out.println(\"Bike rides\"); } } Here, both Car and Bike inherit from the common superclass Vehicle."
+   ]
+  },
+  {
+   "q": "Explain the concept of inheritance in Java with a simple example.",
+   "answer": [
+    "Inheritance allows a class (subclass) to inherit properties and methods from another class (superclass). Example: class Animal { void sound() { System.out.println(\"Animal makes sound\"); } } class Dog extends Animal { void bark() { System.out.println(\"Dog barks\"); } } Here, Dog inherits the sound() method from Animal."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are designing a software for a school system. All employees share common details like name and ID, but teachers have subjects and students have grades. Design a Java program using inheritance that models this system with appropriate classes. Explain the type of inheritance used and how it simplifies the design.",
+   "answer": [
+    "Java Code: class Person { String name; int id; void displayDetails() { System.out.println(\"Name: \" + name + \", ID: \" + id); } } class Teacher extends Person { String subject; void teach() { System.out.println(name + \" teaches \" + subject); } } class Student extends Person { int grade; void study() { System.out.println(name + \" studies in grade \" + grade); } } public class SchoolSystem { public static void main(String[] args) { Teacher t = new Teacher(); t.name = \"Mr. Ravi\"; t.id = 101; t.subject = \"Math\"; t.displayDetails(); t.teach(); Student s = new Student(); s.name = \"Asha\"; s.id = 202; s.grade = 10; s.displayDetails(); s.study(); } } Explanation: The base class Person holds common properties: name and id. Teacher and Student are subclasses, adding role-specific behavior (teach() and study()). This is an example of hierarchical inheritance, where multiple subclasses inherit from a single superclass. Benefits: Promotes code reuse by avoiding duplication of common properties. Supports scalability�more roles like Admin, Counselor can be added easily. Enhances clarity and maintainability by modeling real-world relationships."
+   ]
+  }
+ ]
+}

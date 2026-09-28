@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2022",
+ "unit": 2,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Apply modifiers and operators effectively.",
+ "mcq": [
+  {
+   "q": "What is the size of the int data type in Java?",
+   "options": {
+    "A": "2 bytes",
+    "B": "4 bytes",
+    "C": "8 bytes",
+    "D": "Depends on the system"
+   },
+   "answer": "B",
+   "answer_text": "4 bytes"
+  },
+  {
+   "q": "Which modifier would you use to make a method accessible only within the same class?",
+   "options": {
+    "A": "public",
+    "B": "protected",
+    "C": "private",
+    "D": "default"
+   },
+   "answer": "C",
+   "answer_text": "private"
+  },
+  {
+   "q": "Which of the following is a primitive data type in Java?",
+   "options": {
+    "A": "String",
+    "B": "Integer",
+    "C": "boolean",
+    "D": "Array"
+   },
+   "answer": "C",
+   "answer_text": "boolean"
+  },
+  {
+   "q": "Which of the following correctly declares a final variable in Java?",
+   "options": {
+    "A": "final int x = 5;",
+    "B": "int final x = 5;",
+    "C": "x final = 5;",
+    "D": "constant int x = 5;"
+   },
+   "answer": "A",
+   "answer_text": "final int x = 5;"
+  },
+  {
+   "q": "Which operator is used to compare two values for equality in Java?",
+   "options": {
+    "A": "Equal to (=)",
+    "B": "Colon Equal to (:=)",
+    "C": "Equals (==)",
+    "D": "Function (equals())"
+   },
+   "answer": "C",
+   "answer_text": "Equals (==)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between primitive and non-primitive data types in Java.",
+   "answer": [
+    "Primitive data types are predefined by the language and include int, char, boolean, float, etc. They store actual values. Non-primitive data types (like String, arrays, classes) are user-defined or derived types that store references to objects."
+   ]
+  },
+  {
+   "q": "Write a Java code snippet that demonstrates the use of the static and final modifiers in a class.",
+   "answer": [
+    "class MathUtil { static final double PI = 3.14159; static double areaOfCircle(double radius) { return PI * radius * radius; } } Here, PI is a constant (final) and shared across all instances (static). The method areaOfCircle is also static, so it can be called without creating an object."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze the importance of operator precedence in Java. Demonstrate with an example how a wrong assumption about precedence could lead to unexpected results. How can this be avoided?",
+   "answer": [
+    "Answer: Operator precedence determines the order in which operators are evaluated in an expression. If operators have the same precedence, associativity rules apply (e.g., left-to-right). Ignoring precedence can lead to logic errors. Example: int a = 10; int b = 5; int c = 2; int result = a - b + c * 3; System.out.println(result); Explanation: Here, c * 3 is evaluated first (due to higher precedence), so: result = 10 - 5 + 6 = 11 If someone assumes left-to-right evaluation without considering precedence, they might wrongly expect: (10 - 5 + 2) * 3 = 21 � which is incorrect. Avoiding the Issue: Always use parentheses to clarify and enforce the desired order of evaluation. int result = (a - b + c) * 3; // Explicit and clear Conclusion: Understanding operator precedence helps prevent bugs and improves code readability. Parentheses are a good practice, especially when expressions involve multiple operators."
+   ]
+  }
+ ]
+}

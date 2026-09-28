@@ -1,0 +1,165 @@
+{
+ "course": "21CSC201J",
+ "code": "4041",
+ "unit": 4,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Tree Traversals - Pre-Order Traversal",
+ "mcq": [
+  {
+   "q": "What is the order of Post-Order traversal?",
+   "options": {
+    "A": "Left → Right → Root",
+    "B": "Root → Left → Right",
+    "C": "Left → Root → Right",
+    "D": "Right → Left → Root"
+   },
+   "answer": "A",
+   "answer_text": "Left → Right → Root"
+  },
+  {
+   "q": "If the structure of a binary tree is represented by the In-Order traversal:{10, 20, 30, 40, 50, 60, 70}. Find which of the following is the correct Pre-Order traversal of the tree?",
+   "options": {
+    "A": "40, 20, 10, 30, 60, 50, 70",
+    "B": "10, 20, 30, 40, 50, 60, 70",
+    "C": "70, 60, 50, 40, 30, 20, 10",
+    "D": "20, 10, 30, 50, 40, 60, 70"
+   },
+   "answer": "A",
+   "answer_text": "40, 20, 10, 30, 60, 50, 70"
+  },
+  {
+   "q": "What is the order of Pre-Order traversal?",
+   "options": {
+    "A": "Left → Right → Root",
+    "B": "Root → Left → Right",
+    "C": "Left → Root → Right",
+    "D": "Right → Left → Root"
+   },
+   "answer": "B",
+   "answer_text": "Root → Left → Right"
+  },
+  {
+   "q": "If the Pre-Order traversal of a Binary Search Tree (BST) is: {40, 20, 10, 30, 60, 50}. Find what is the correct Post-Order traversal?",
+   "options": {
+    "A": "50, 60, 40, 30, 10, 20",
+    "B": "40, 20, 10, 30, 60, 50",
+    "C": "10, 30, 20, 50, 60, 40",
+    "D": "20, 10, 30, 40, 50, 60"
+   },
+   "answer": "C",
+   "answer_text": "10, 30, 20, 50, 60, 40"
+  },
+  {
+   "q": "A binary search tree (BST) with n nodes is traversed using In-Order Traversal. What is the worst-case time complexity of this operation?",
+   "options": {
+    "A": "O(1)",
+    "B": "O(n)",
+    "C": "O(log n)",
+    "D": "O(n log n)"
+   },
+   "answer": "B",
+   "answer_text": "O(n)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is Pre-Order Traversal in a Binary Tree? Write the recursive algorithm and explain the order of visiting nodes.",
+   "answer": [
+    "Pre-Order Traversal is a method of visiting all the nodes of a binary tree where the root node is visited first, followed by the left subtree, and then the right subtree.",
+    "Traversal Order:",
+    "Visit the root node",
+    "Traverse the left subtree (Pre-Order)",
+    "Traverse the right subtree (Pre-Order)",
+    "Recursive Algorithm:",
+    "void preorder(struct Node* root) {",
+    "if (root == NULL) return;",
+    "printf(\"%d \", root->data); // Visit root",
+    "preorder(root->left); // Traverse left",
+    "preorder(root->right); // Traverse right",
+    "}",
+    "Example",
+    "Now, let's see the example of the preorder traversal technique.",
+    "Now, start applying the preorder traversal on the above tree. First, we traverse the root node A; after that, move to its left subtree B, which will also be traversed in preorder.",
+    "So, for left subtree B, first, the root node B is traversed itself; after that, its left subtree D is traversed. Since node D does not have any children, move to right subtree E. As node E also does not have any children, the traversal of the left subtree of root node A is completed.",
+    "Now, move towards the right subtree of root node A that is C. So, for right subtree C, first the root node C has traversed itself; after that, its left subtree F is traversed. Since node F does not have any children, move to the right subtree G. As node G also does not have any children, traversal of the right subtree of root node A is completed.",
+    "Therefore, all the nodes of the tree are traversed. So, the output of the preorder traversal of the above tree is - A → B → D → E → C → F → G"
+   ]
+  },
+  {
+   "q": "What is Post-Order Traversal in a Binary Tree? Explain the use of post-order traversal with an example.",
+   "answer": [
+    "Post-Order Traversal is a technique where the left subtree is visited first, followed by the right subtree, and finally the root node.",
+    "Traversal Order:",
+    "Traverse the left subtree",
+    "Traverse the right subtree",
+    "Visit the root node",
+    "Recursive Algorithm:",
+    "void postorder(struct Node* root) {",
+    "if (root == NULL) return;",
+    "postorder(root->left); // Traverse left",
+    "postorder(root->right); // Traverse right",
+    "printf(\"%d \", root->data); // Visit root",
+    "}",
+    "Example (For Tree):",
+    "Now, let's see the example of the postorder traversal technique.",
+    "Now, start applying the postorder traversal on the above tree. First, we traverse the left subtree B that will be traversed in postorder. After that, we will traverse the right subtree C in postorder. And finally, the root node of the above tree, i.e., A, is traversed.",
+    "So, for left subtree B, first, its left subtree D is traversed. Since node D does not have any children, traverse the right subtree E. As node E also does not have any children, move to the root node B. After traversing node B, the traversal of the left subtree of root node A is completed.",
+    "Now, move towards the right subtree of root node A that is C. So, for right subtree C, first its left subtree F is traversed. Since node F does not have any children, traverse the right subtree G. As node G also does not have any children, therefore, finally, the root node of the right subtree, i.e., C, is traversed. The traversal of the right subtree of root node A is completed.",
+    "At last, traverse the root node of a given tree, i.e., A. After traversing the root node, the postorder traversal of the given tree is completed.",
+    "Therefore, all the nodes of the tree are traversed. So, the output of the postorder traversal of the above tree is - D → E → B → F → G → C → A"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "In a compiler design project, expression trees are constructed to represent arithmetic expressions. To evaluate such expressions, post-order traversal is used. You are asked to implement a system that can traverse and evaluate an expression tree using post-order traversal. Tasks: Justify the use of post-order traversal for expression evaluation. Write the logic (or pseudocode) for evaluating an expression tree using post-order traversal. Given an expression tree representing (3 + ((5 + 9) * 2)), show how post-order traversal would evaluate the expression step-by-step. What will be the result after evaluation?",
+   "answer": [
+    "Justification for Using Post-Order Traversal",
+    "In an expression tree, each internal node represents an operator (like +, -, *, /) and each leaf node represents an operand (numbers or variables).",
+    "Post-order traversal is the best choice for evaluation because it ensures that operands are visited before their operators, which follows the natural order of evaluation in postfix (Reverse Polish) notation.",
+    "For example, in 3 + (5 + 9) * 2, we must evaluate 5 + 9 and then multiply by 2 before adding 3. Post-order handles this naturally by visiting left, right, and then root (operator).",
+    "Pseudocode for Post-Order Evaluation of Expression Tree",
+    "// Node structure",
+    "struct Node {",
+    "char value; // Can be an operator or operand (digit)",
+    "struct Node* left;",
+    "struct Node* right;",
+    "};",
+    "// Function to check if a character is operator",
+    "int isOperator(char c) {",
+    "return (c == '+' || c == '-' || c == '*' || c == '/');",
+    "}",
+    "// Recursive function to evaluate expression tree",
+    "int evaluate(struct Node* root) {",
+    "if (root == NULL) return 0;",
+    "// If it is a leaf node (operand), return its value",
+    "if (!isOperator(root->value)) {",
+    "return root->value - '0'; // convert char to int",
+    "}",
+    "// Evaluate left and right subtrees",
+    "int leftVal = evaluate(root->left);",
+    "int rightVal = evaluate(root->right);",
+    "// Apply the operator",
+    "switch (root->value) {",
+    "case '+': return leftVal + rightVal;",
+    "case '-': return leftVal - rightVal;",
+    "case '*': return leftVal * rightVal;",
+    "case '/': return leftVal / rightVal;",
+    "}",
+    "return 0;",
+    "}",
+    "Expression Tree for Expression: 3 + ((5 + 9) * 2)",
+    "Post-Order Traversal and Evaluation",
+    "Traversal Sequence (Post-order): 5 → 9 → + → 2 → * → 3 → +",
+    "Step-by-Step Evaluation:",
+    "Visit 5 and 9 → Apply +: 5 + 9 = 14",
+    "Visit 2",
+    "Apply *: 14 * 2 = 28",
+    "Visit 3",
+    "Apply final +: 3 + 28 = 31",
+    "The result of the expression 3 + ((5 + 9) * 2) is 31."
+   ]
+  }
+ ]
+}

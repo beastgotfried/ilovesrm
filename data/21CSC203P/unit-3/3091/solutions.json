@@ -1,0 +1,92 @@
+{
+ "course": "21CSC203P",
+ "code": "3091",
+ "unit": 3,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Describe MVC architecture in GUI development",
+ "mcq": [
+  {
+   "q": "In a Java Swing-based application, what typically acts as the View in MVC?",
+   "options": {
+    "A": "JPanel , JFrame , JTextField",
+    "B": "ResultSet",
+    "C": "JDBC Connection",
+    "D": "Runnable class"
+   },
+   "answer": "A",
+   "answer_text": "JPanel , JFrame , JTextField"
+  },
+  {
+   "q": "Which of the following statements best describes the MVC architectural benefit?",
+   "options": {
+    "A": "It tightly couples data and presentation",
+    "B": "It slows down development",
+    "C": "It increases code modularity and reusability",
+    "D": "It avoids user input"
+   },
+   "answer": "C",
+   "answer_text": "It increases code modularity and reusability"
+  },
+  {
+   "q": "When the data in the Model changes, how should the View be updated?",
+   "options": {
+    "A": "Automatically by the Model",
+    "B": "Through JDBC connection",
+    "C": "By the Controller triggering the View refresh",
+    "D": "Through database triggers"
+   },
+   "answer": "C",
+   "answer_text": "By the Controller triggering the View refresh"
+  },
+  {
+   "q": "In the MVC architecture, which component is responsible for handling user input and updating the model? A. Model B. View C. Controller D. Adapter",
+   "options": {
+    "A": "Model",
+    "B": "View",
+    "C": "Adapter",
+    "D": "Controller"
+   },
+   "answer": "D",
+   "answer_text": "Controller"
+  },
+  {
+   "q": "What does the Model component primarily represent in MVC?",
+   "options": {
+    "A": "The user interface",
+    "B": "Database schema",
+    "C": "The application's data and business logic",
+    "D": "Event listeners"
+   },
+   "answer": "C",
+   "answer_text": "The application's data and business logic"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does the MVC pattern promote code reusability in GUI applications",
+   "answer": [
+    "By separating concerns, the same Model can be reused with different Views, and Views can be swapped without altering the Model. This modularity enhances maintainability and testing"
+   ]
+  },
+  {
+   "q": "Mention two exceptions you might encounter while connecting to a database using JDBC.",
+   "answer": [
+    "ClassNotFoundException – if JDBC driver is not found.",
+    "ClassNotFoundException – if JDBC driver is not found.",
+    "SQLException – for issues like wrong SQL query, network errors, or invalid credentials.",
+    "SQLException – for issues like wrong SQL query, network errors, or invalid credentials."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Design and implement a simple MVC-based Swing application with the following: A Model to store and manage book data A Model to store and manage book data A View to provide a UI form with text fields and a button A View to provide a UI form with text fields and a button A Controller to handle user actions like adding a book A Controller to handle user actions like adding a book Proper interaction between all three layers Proper interaction between all three layers",
+   "answer": [
+    "Type Here",
+    "public class BookModel { private List<String> books = new ArrayList<>(); public void addBook(String title, String author) { books.add(title + \" by \" + author); }",
+    "public List<String> getBooks() { return books; } }"
+   ]
+  }
+ ]
+}

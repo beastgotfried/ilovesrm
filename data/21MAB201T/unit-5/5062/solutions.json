@@ -1,0 +1,85 @@
+{
+ "course": "21MAB201T",
+ "code": "5062",
+ "unit": 5,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Validate results obtained through long division by cross-verifying with original functions.",
+ "mcq": [
+  {
+   "q": "For \\(|z|>|a|, 1+az^{-1}+a^2 z^{-2}+a^3 z^{-3}+ \\cdots=\\)",
+   "options": {
+    "A": "\\(1 \\over {1+az^{-1}}\\)",
+    "B": "\\(1 \\over {1-az^{2}}\\)",
+    "C": "\\(1 \\over {1+z^{-1}}\\)",
+    "D": "\\(1 \\over {1-az^{-1}}\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\(1 \\over {1-az^{-1}}\\)"
+  },
+  {
+   "q": "If \\(F(z)={1 \\over 2}z^{-1}+{3 \\over 4}z^{-2}+{7\\over 8}z^{-3}+\\cdots\\) , then \\(f(n) =\\)",
+   "options": {
+    "A": "\\(\\{{1\\over 2}, {3 \\over 4}, {5 \\over 6}, {7 \\over 8}, \\cdots \\}\\)",
+    "B": "\\(\\{0, {1\\over 2}, {3 \\over 4}, {5 \\over 6}, \\cdots \\}\\)",
+    "C": "\\(\\{0, {1\\over 2}, {3 \\over 4}, {7 \\over 8}, \\cdots \\}\\)",
+    "D": "\\(\\{0, {1\\over 2}, {5 \\over 6}, {7 \\over 8}, \\cdots \\}\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(\\{0, {1\\over 2}, {3 \\over 4}, {7 \\over 8}, \\cdots \\}\\)"
+  },
+  {
+   "q": "For \\(|z|>|a|, 1+az^{-1}+a^2 z^{-2}+a^3 z^{-3}+ \\cdots=\\)",
+   "options": {
+    "A": "\\(\\sum_{n=0}^{\\infty} a^n z^{-n}\\)",
+    "B": "\\(\\sum_{n=0}^{\\infty} a^n z^{n}\\)",
+    "C": "\\(\\sum_{n=0}^{\\infty} a^{-n} z^{-n}\\)",
+    "D": "\\(\\sum_{n=0}^{\\infty} a^{-n} z^{n}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\sum_{n=0}^{\\infty} a^n z^{-n}\\)"
+  },
+  {
+   "q": "For \\(F(z)={1 \\over 2} z^{-1}+{3 \\over 4} z^{-2}+ {7 \\over 8} z^{-3}+ \\cdots\\) ,",
+   "options": {
+    "A": "\\(f(0)=0\\)",
+    "B": "\\(f(2)={1 \\over 2}\\)",
+    "C": "\\(f(1)={3 \\over 8}\\)",
+    "D": "\\(f(0)={1 \\over 2}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(f(0)=0\\)"
+  },
+  {
+   "q": "If \\(F(z)={4}z^{-2}+{12}z^{-3}+24 z^{-4}+\\cdots\\) , then \\(f(n) =\\)",
+   "options": {
+    "A": "\\(\\{{1\\over 2}, {3 \\over 4}, {5 \\over 6}, {7 \\over 8}, \\cdots \\}\\)",
+    "B": "\\(\\{0, {1}, {4}, {12}, \\cdots \\}\\)",
+    "C": "\\(\\{0, {0}, {4}, {12}, 24 \\cdots \\}\\)",
+    "D": "\\(\\{0, {1\\over 4}, {1 \\over 12}, {1 \\over 24}, \\cdots \\}\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(\\{0, {0}, {4}, {12}, 24 \\cdots \\}\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": []
+  },
+  {
+   "q": "",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the inverse Z-transform of the following by long division (power series) method. Also, specify the ROC and the nature of the sequence (right-sided/left-sided). a) \\(X(z) = \\frac{1}{1 - 0.5z^{-1}}\\) , ROC: \\(|z| > 0.5\\) b) \\(X(z) = \\frac{1}{1 - 2z}\\) , ROC: \\(|z| < 0.5\\) c) \\(X(z) = \\frac{z}{z^2 - 3z + 2}\\) , ROC: \\(|z| > 2\\)",
+   "answer": [
+    "a) \\(X(z) = \\frac{1}{1 - 0.5z^{-1}} = \\frac{z}{z-0.5}\\) , ROC: |z|>0.5 (right-sided). Perform long division for |z|>0.5 (i.e., in powers of \\(z^{-1}\\) ): Write \\(X(z) = \\frac{1}{1 - 0.5z^{-1}}\\) . \\(1 \\div (1 - 0.5z^{-1})\\) : Quotient: \\(1 + 0.5z^{-1} + 0.25z^{-2} + 0.125z^{-3} + ... = \\sum_{n=0}^{\\infty} (0.5)^n z^{-n}\\) . So, \\(x(n) = (0.5)^n u(n)\\) .",
+    "b) \\(X(z) = \\frac{1}{1-2z} = -\\frac{1}{2z} \\cdot \\frac{1}{1 - (1/(2z))}\\) , ROC: |z|<0.5 implies |1/(2z)|>1? Actually, for ROC |z|<0.5, we expand in positive powers of z (left-sided sequence). Write: \\(X(z) = \\frac{1}{1-2z}\\) . For |2z|<1 i.e., |z|<0.5, we have \\(X(z) = 1 + 2z + 4z^2 + 8z^3 + ... = \\sum_{n=0}^{\\infty} 2^n z^n\\) . But this corresponds to \\(X(z) = \\sum_{n=-\\infty}^{0} x(n) z^{-n}\\) . Let m = -n. Then \\(X(z)=\\sum_{m=0}^{\\infty} x(-m) z^{m}\\) . Comparing: \\(x(-m) = 2^m\\) or \\(x(n) = 2^{-n}\\) for \\(n \\le 0\\) . Equivalently, \\(x(n) = -2^n u(-n-1)\\) (left-sided).",
+    "c) \\(X(z) = \\frac{z}{z^2 - 3z + 2} = \\frac{z}{(z-1)(z-2)}\\) , ROC: |z|>2 (right-sided). Perform long division for |z|>2: Divide z by (z^2 - 3z + 2). We want \\(X(z)\\) as a series in \\(z^{-1}\\) . \\(X(z) = z^{-1} \\cdot \\frac{1}{1 - 3z^{-1} + 2z^{-2}}\\) . Divide 1 by (1 - 3z^{-1} + 2z^{-2}): Quotient: \\(1 + 3z^{-1} + 7z^{-2} + 15z^{-3} + 31z^{-4} + ...\\) . So, \\(X(z) = z^{-1}(1 + 3z^{-1} + 7z^{-2} + 15z^{-3} + 31z^{-4} + ...) = z^{-1} + 3z^{-2} + 7z^{-3} + 15z^{-4} + 31z^{-5} + ...\\) . Thus, \\(x(0)=0, x(1)=1, x(2)=3, x(3)=7, x(4)=15, x(5)=31, ...\\) . This corresponds to \\(x(n) = (2^n - 1) u(n-1)\\) ."
+   ]
+  }
+ ]
+}

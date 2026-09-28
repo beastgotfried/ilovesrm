@@ -1,0 +1,94 @@
+{
+ "course": "21CSC203P",
+ "code": "3082",
+ "unit": 3,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Close JDBC resources properly to avoid leaks",
+ "mcq": [
+  {
+   "q": "Which Java feature simplifies closing JDBC resources automatically?",
+   "options": {
+    "A": "Manual close statements",
+    "B": "try-catch-finally",
+    "C": "Try-with-resources",
+    "D": "Using static variables"
+   },
+   "answer": "C",
+   "answer_text": "Try-with-resources"
+  },
+  {
+   "q": "What is the recommended approach to handle SQL exceptions in JDBC code?",
+   "options": {
+    "A": "Use throws SQLException in the main method only",
+    "B": "Catch SQLException and log the error",
+    "C": "Ignore exceptions to prevent app termination",
+    "D": "Use System.exit() on exception"
+   },
+   "answer": "B",
+   "answer_text": "Catch SQLException and log the error"
+  },
+  {
+   "q": "What will happen if you don’t close the ResultSet and Connection after query execution?",
+   "options": {
+    "A": "JVM will auto-close",
+    "B": "Nothing will happen",
+    "C": "Memory leak and DB resource exhaustion",
+    "D": "The application crashes immediately"
+   },
+   "answer": "C",
+   "answer_text": "Memory leak and DB resource exhaustion"
+  },
+  {
+   "q": "Which block is best suited for closing JDBC resources like Connection , Statement , and ResultSet ?",
+   "options": {
+    "A": "try block",
+    "B": "catch block",
+    "C": "finally block",
+    "D": "if block"
+   },
+   "answer": "C",
+   "answer_text": "finally block"
+  },
+  {
+   "q": "In JDBC, which exception is thrown when a query fails due to invalid SQL syntax?",
+   "options": {
+    "A": "IOException",
+    "B": "NullPointerException",
+    "C": "SQLException",
+    "D": "ClassNotFoundException"
+   },
+   "answer": "C",
+   "answer_text": "SQLException"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the purpose of the finally block in JDBC resource handling?",
+   "answer": [
+    "The finally block ensures that resources like Connection , Statement , and ResultSet are closed regardless of whether an exception occurs or not, preventing memory/resource leaks."
+   ]
+  },
+  {
+   "q": "What is try-with-resources ? Give an example of its use in JDBC.",
+   "answer": [
+    "A Java feature that auto-closes resources implementing AutoCloseable . Example:"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a Java application that retrieves employee data from a MySQL database. Implement a JDBC program that: Connects to the database Connects to the database Retrieves employee names and salaries from the employees table Retrieves employee names and salaries from the employees table Applies proper exception handling Applies proper exception handling Closes all JDBC resources in the finally block Closes all JDBC resources in the finally block",
+   "answer": [
+    "import java.sql.*;",
+    "public class EmployeeData { public static void main(String[] args) { String url = \"jdbc:mysql://localhost:3306/company\"; String user = \"root\"; String pass = \"admin\"; Connection con = null; Statement stmt = null; ResultSet rs = null;",
+    "try { // Load Driver Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+    "// Establish Connection con = DriverManager.getConnection(url, user, pass);",
+    "// Create Statement stmt = con.createStatement();",
+    "// Execute Query rs = stmt.executeQuery(\"SELECT name, salary FROM employees\");",
+    "// Process Results while (rs.next()) { System.out.println(\"Name: \" + rs.getString(\"name\") + \", Salary: \" + rs.getDouble(\"salary\")); }",
+    "} catch (SQLException e) { System.err.println(\"Database error: \" + e.getMessage()); } catch (ClassNotFoundException e) { System.err.println(\"Driver not found: \" + e.getMessage()); } finally { // Close resources try { if (rs != null) rs.close(); } catch (Exception e) {} try { if (stmt != null) stmt.close(); } catch (Exception e) {} try { if (con != null) con.close(); } catch (Exception e) {} } } }"
+   ]
+  }
+ ]
+}

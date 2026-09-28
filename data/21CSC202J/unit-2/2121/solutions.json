@@ -1,0 +1,112 @@
+{
+ "course": "21CSC202J",
+ "code": "2121",
+ "unit": 2,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Define mutex locks and explain their usage in synchronization",
+ "mcq": [
+  {
+   "q": "Which scenario can cause a deadlock when using semaphores or mutexes?",
+   "options": {
+    "A": "Releasing a lock after use",
+    "B": "Acquiring multiple locks in different orders",
+    "C": "Using a single shared resource",
+    "D": "Preventing access to a critical section"
+   },
+   "answer": "B",
+   "answer_text": "Acquiring multiple locks in different orders"
+  },
+  {
+   "q": "What is the primary purpose of a mutex in operating systems?",
+   "options": {
+    "A": "Manage memory allocation",
+    "B": "Prevent deadlock",
+    "C": "Provide mutual exclusion for shared resources",
+    "D": "Schedule processes"
+   },
+   "answer": "C",
+   "answer_text": "Provide mutual exclusion for shared resources"
+  },
+  {
+   "q": "A mutex can be acquired by how many threads at a time?",
+   "options": {
+    "A": "One",
+    "B": "Two",
+    "C": "Unlimited",
+    "D": "Depends on CPU"
+   },
+   "answer": "A",
+   "answer_text": "One"
+  },
+  {
+   "q": "Which of the following is not a valid type of semaphore?",
+   "options": {
+    "A": "Binary semaphore",
+    "B": "Counting semaphore",
+    "C": "Recursive semaphore",
+    "D": "Hardware semaphore"
+   },
+   "answer": "D",
+   "answer_text": "Hardware semaphore"
+  },
+  {
+   "q": "Which of the following statements is true about semaphores?",
+   "options": {
+    "A": "A binary semaphore has only two states: unlocked and broken",
+    "B": "Semaphores are used only in uniprocessor systems",
+    "C": "Semaphores can be used to solve synchronization problems",
+    "D": "A semaphore is always implemented using spinlocks"
+   },
+   "answer": "C",
+   "answer_text": "Semaphores can be used to solve synchronization problems"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain how semaphores prevent race conditions.",
+   "answer": [
+    "Semaphores use a counter to manage access to a shared resource. By using wait() and signal() operations, semaphores can control the number of threads accessing the resource, thus preventing race conditions."
+   ]
+  },
+  {
+   "q": "What is the key difference between a binary semaphore and a mutex?",
+   "answer": [
+    "A binary semaphore is a signaling mechanism that does not have ownership; any process can signal or wait. A mutex is a locking mechanism where only the thread that acquired the lock can release it."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Compare and contrast Mutex Locks and Semaphores in terms of usage, behavior, and implementation. Also, explain their role in solving synchronization problems with suitable examples.",
+   "answer": [
+    "In operating systems, multiple processes or threads often need to access shared resources like memory, files, or I/O devices. To avoid race conditions , synchronization mechanisms like mutex locks and semaphores are used to ensure mutual exclusion and proper coordination .",
+    "A mutex (short for mutual exclusion ) is a binary locking mechanism .",
+    "A mutex (short for mutual exclusion ) is a binary locking mechanism .",
+    "Only one thread can acquire the mutex at a time.",
+    "Only one thread can acquire the mutex at a time.",
+    "The thread that locks the mutex must unlock it — this ensures ownership.",
+    "The thread that locks the mutex must unlock it — this ensures ownership.",
+    "Used primarily to protect critical sections .",
+    "Used primarily to protect critical sections .",
+    "pthread_mutex_t lock; pthread_mutex_lock(&lock); // Critical section pthread_mutex_unlock(&lock);",
+    "A semaphore is an integer variable that uses two atomic operations: wait() (or P ) – decrements the value signal() (or V ) – increments the value",
+    "A semaphore is an integer variable that uses two atomic operations:",
+    "wait() (or P ) – decrements the value",
+    "wait() (or P ) – decrements the value",
+    "signal() (or V ) – increments the value",
+    "signal() (or V ) – increments the value",
+    "There are two types : Binary Semaphore (similar to mutex, value is 0 or 1) Counting Semaphore (value can be >1, allows limited access)",
+    "There are two types :",
+    "Binary Semaphore (similar to mutex, value is 0 or 1)",
+    "Binary Semaphore (similar to mutex, value is 0 or 1)",
+    "Counting Semaphore (value can be >1, allows limited access)",
+    "Counting Semaphore (value can be >1, allows limited access)",
+    "Semaphores do not have ownership — any thread can signal or wait.",
+    "Semaphores do not have ownership — any thread can signal or wait.",
+    "Example (Pseudo-code for Counting Semaphore):",
+    "semaphore full = 0; semaphore empty = n; semaphore mutex = 1; Producer: wait(empty); wait(mutex); // Add item signal(mutex); signal(full);"
+   ]
+  }
+ ]
+}

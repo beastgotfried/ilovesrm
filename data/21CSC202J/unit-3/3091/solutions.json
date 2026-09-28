@@ -1,0 +1,118 @@
+{
+ "course": "21CSC202J",
+ "code": "3091",
+ "unit": 3,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Explain multilevel queue scheduling and its working",
+ "mcq": [
+  {
+   "q": "What is the main drawback of fixed priority scheduling in Multilevel Queue Scheduling?",
+   "options": {
+    "A": "High throughput",
+    "B": "Frequent context switching",
+    "C": "Starvation of low-priority processes",
+    "D": "High CPU utilization"
+   },
+   "answer": "C",
+   "answer_text": "Starvation of low-priority processes"
+  },
+  {
+   "q": "Which of the following is true about Multilevel Queue Scheduling ?",
+   "options": {
+    "A": "All queues use the same scheduling algorithm",
+    "B": "Only one queue is created for all processes",
+    "C": "Each queue can use a different scheduling algorithm",
+    "D": "Processes can move between queues dynamically"
+   },
+   "answer": "C",
+   "answer_text": "Each queue can use a different scheduling algorithm"
+  },
+  {
+   "q": "In MLQ, which of the following queues must be empty before a batch queue process can run?",
+   "options": {
+    "A": "System and interactive queues",
+    "B": "Only batch queue",
+    "C": "Low priority queue",
+    "D": "Background queue"
+   },
+   "answer": "A",
+   "answer_text": "System and interactive queues"
+  },
+  {
+   "q": "If the foreground queue uses Round Robin and the background queue uses FCFS , which scheduling strategy is being followed?",
+   "options": {
+    "A": "SJF Scheduling",
+    "B": "Priority Scheduling",
+    "C": "Multilevel Queue Scheduling",
+    "D": "Multilevel Feedback Queue Scheduling"
+   },
+   "answer": "C",
+   "answer_text": "Multilevel Queue Scheduling"
+  },
+  {
+   "q": "In Multilevel Queue Scheduling , what determines the priority of process execution between queues?",
+   "options": {
+    "A": "CPU burst time",
+    "B": "Process ID",
+    "C": "Queue priority level",
+    "D": "Random assignment"
+   },
+   "answer": "C",
+   "answer_text": "Queue priority level"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain the main differences between foreground and background queues in Multilevel Queue Scheduling with examples.",
+   "answer": [
+    "Role of foreground queue and its algorithm (e.g., RR) – 30%",
+    "Role of foreground queue and its algorithm (e.g., RR) – 30%",
+    "Role of background queue and its algorithm (e.g., FCFS) – 30%",
+    "Role of background queue and its algorithm (e.g., FCFS) – 30%",
+    "Scheduling strategy between them (fixed priority or time-slice) – 20%",
+    "Scheduling strategy between them (fixed priority or time-slice) – 20%",
+    "Example scenario (e.g., interactive user vs batch process) – 20%",
+    "Example scenario (e.g., interactive user vs batch process) – 20%"
+   ]
+  },
+  {
+   "q": "List any four advantages of using Multilevel Queue Scheduling .",
+   "answer": [
+    "Priority setting between queues – 25%",
+    "Priority setting between queues – 25%",
+    "Efficient resource distribution – 25%",
+    "Efficient resource distribution – 25%",
+    "Reduced response time for high-priority processes – 25%",
+    "Reduced response time for high-priority processes – 25%",
+    "Improved performance/customizability – 25%",
+    "Improved performance/customizability – 25%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the working of a Multilevel Feedback Queue (MLFQ) with an example involving three queues : Q0: Round Robin with time quantum 8 ms Q0: Round Robin with time quantum 8 ms Q1: Round Robin with time quantum 16 ms Q1: Round Robin with time quantum 16 ms Q2: FCFS Q2: FCFS Illustrate how a process moves between queues and how the system avoids starvation.",
+   "answer": [
+    "New jobs enter the highest-priority queue (Q0)",
+    "New jobs enter the highest-priority queue (Q0)",
+    "If not completed in 8 ms, moved to Q1 (16 ms)",
+    "If not completed in 8 ms, moved to Q1 (16 ms)",
+    "If still not completed, moved to Q2 (FCFS) (30%) | Process Movement | - Processes demoted on excessive CPU use",
+    "If still not completed, moved to Q2 (FCFS) (30%) | Process Movement | - Processes demoted on excessive CPU use",
+    "Processes promoted (aging) to prevent starvation",
+    "Processes promoted (aging) to prevent starvation",
+    "Example: A CPU-bound process moves Q0 → Q1 → Q2",
+    "Example: A CPU-bound process moves Q0 → Q1 → Q2",
+    "An I/O-bound or interactive process may remain in Q0 (30%) | Example Scenario | - Describe a sample process P1 using 25 ms of CPU",
+    "An I/O-bound or interactive process may remain in Q0 (30%) | Example Scenario | - Describe a sample process P1 using 25 ms of CPU",
+    "P1 starts in Q0 (uses 8 ms) → moves to Q1 (uses 16 ms)",
+    "P1 starts in Q0 (uses 8 ms) → moves to Q1 (uses 16 ms)",
+    "Remaining 1 ms served in Q2 (FCFS) (20%) | Starvation Prevention | - Aging used to move long-waiting processes to higher queues",
+    "Remaining 1 ms served in Q2 (FCFS) (20%) | Starvation Prevention | - Aging used to move long-waiting processes to higher queues",
+    "Prevents low-priority processes from being indefinitely delayed (20%)",
+    "Prevents low-priority processes from being indefinitely delayed (20%)"
+   ]
+  }
+ ]
+}

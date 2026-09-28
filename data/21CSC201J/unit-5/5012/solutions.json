@@ -1,0 +1,148 @@
+{
+ "course": "21CSC201J",
+ "code": "5012",
+ "unit": 5,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "Types of Graph",
+ "mcq": [
+  {
+   "q": "A graph is defined as a tree if and only if it satisfies two essential conditions: it must be connected, meaning there is a path between any pair of nodes, and it must also have the following characteristic",
+   "options": {
+    "A": "It is directed",
+    "B": "It contains no cycles",
+    "C": "It is planar",
+    "D": "It is complete"
+   },
+   "answer": "B",
+   "answer_text": "It contains no cycles"
+  },
+  {
+   "q": "The total number of edges in a complete graph with n vertices is given by",
+   "options": {
+    "A": "n(n+1)/2",
+    "B": "n(n-1)/2",
+    "C": "n^2",
+    "D": "n"
+   },
+   "answer": "B",
+   "answer_text": "n(n-1)/2"
+  },
+  {
+   "q": "Which of the following statements is /are TRUE for an undirected graph? P: The number of odd-degree vertices are even Q: Sum of degrees of all vertices are even",
+   "options": {
+    "A": "P only",
+    "B": "Q only",
+    "C": "Both P and Q",
+    "D": "Neither P nor Q"
+   },
+   "answer": "C",
+   "answer_text": "Both P and Q"
+  },
+  {
+   "q": "A graph in which all vertices have equal degree is known as ____",
+   "options": {
+    "A": "Complete graph",
+    "B": "Regular graph",
+    "C": "Multi graph",
+    "D": "Simple graph"
+   },
+   "answer": "A",
+   "answer_text": "Complete graph"
+  },
+  {
+   "q": "Select the indegree and outdegree of a node E for the given graph.",
+   "options": {
+    "A": "Indegree : 1, Outdegree : 2",
+    "B": "Indegree : 2, Outdegree : 2",
+    "C": "Indegree : 0, Outdegree : 2",
+    "D": "Indegree : 1, Outdegree : 3"
+   },
+   "answer": "A",
+   "answer_text": "Indegree : 1, Outdegree : 2"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define a Graph. Explain the basic components and representation of a graph.",
+   "answer": [
+    "Graph is a non-linear data structure consisting of vertices and edges. The vertices are sometimes also referred to as nodes and the edges are lines or arcs that connect any two nodes in the graph. More formally a Graph is composed of a set of vertices( V ) and a set of edges( E ). The graph is denoted by G(V, E).",
+    "Components of Graph Data Structure",
+    "Vertices: Vertices are the fundamental units of the graph. Sometimes, vertices are also known as vertex or nodes. Every node/vertex can be labeled or unlabelled.",
+    "Edges: Edges are drawn or used to connect two nodes of the graph. It can be ordered pair of nodes in a directed graph. Edges can connect any two nodes in any possible way. There are no rules. Sometimes, edges are also known as arcs. Every edge can be labelled/unlabelled.",
+    "It can be represented using:",
+    "Adjacency Matrix",
+    "Adjacency List"
+   ]
+  },
+  {
+   "q": "Explain the Terminologies of Graphs in Data Structures",
+   "answer": [
+    "Following are the basic terminologies of graphs in data structures:",
+    "An edge is one of the two primary units used to form graphs. Each edge has two ends, which are vertices to which it is attached.",
+    "If two vertices are endpoints of the same edge, they are adjacent.",
+    "A vertex's outgoing edges are directed edges that point to the origin.",
+    "A vertex's incoming edges are directed edges that point to the vertex's destination.",
+    "The total number of edges occurring to a vertex in a graph is its degree.",
+    "The out-degree of a vertex in a directed graph is the total number of outgoing edges, whereas the in-degree is the total number of incoming edges.",
+    "A vertex with an in-degree of zero is referred to as a source vertex, while one with an out-degree of zero is known as sink vertex.",
+    "An isolated vertex is a zero-degree vertex that is not an edge's endpoint.",
+    "A path is a set of alternating vertices and edges, with each vertex connected by an edge.",
+    "The path that starts and finishes at the same vertex is known as a cycle.",
+    "A path with unique vertices is called a simple path.",
+    "For each pair of vertices x, y, a graph is strongly connected if it contains a directed path from x to y and a directed path from y to x.",
+    "A directed graph is weakly connected if all of its directed edges are replaced with undirected edges, resulting in a connected graph. A weakly linked graph's vertices have at least one out-degree or in-degree.",
+    "A tree is a connected forest. The primary form of the tree is called a rooted tree, which is a free tree.",
+    "A spanning subgraph that is also a tree is known as a spanning tree.",
+    "A connected component is the unconnected graph's most connected subgraph.",
+    "A bridge, which is an edge of removal, would sever the graph.",
+    "Forest is a graph without a cycle."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Discuss the different types of graphs in detail with suitable examples.",
+   "answer": [
+    "Types of Graphs in Data Structures",
+    "There are different types of graphs in data structures, each of which is detailed below.",
+    "1. Finite Graph",
+    "The graph G=(V, E) is called a finite graph if the number of vertices and edges in the graph is limited in number.",
+    "2. Infinite Graph",
+    "The graph G=(V, E) is called a finite graph if the number of vertices and edges in the graph is interminable.",
+    "3. Trivial Graph",
+    "A graph G= (V, E) is trivial if it contains only a single vertex and no edge",
+    "4. Simple Graph",
+    "If each pair of nodes or vertices in a graph G=(V, E) has only one edge, it is a simple graph. As a result, there is just one edge linking two vertices, depicting one-to-one interactions between two elements.",
+    "5. Multi Graph",
+    "If there are numerous edges between a pair of vertices in a graph G= (V, E), the graph is referred to as a multigraph. There are no self-loops in a Multigraph.",
+    "6. Null Graph",
+    "It's a reworked version of a trivial graph. If several vertices but no edges connect them, a graph G= (V, E) is a null graph.",
+    "7. Complete Graph",
+    "If a graph G= (V, E) is also a simple graph, it is complete. Using the edges, with n number of vertices must be connected. It's also known as a full graph because each vertex's degree must be n-1.",
+    "8. Pseudo Graph",
+    "If a graph G= (V, E) contains a self-loop besides other edges, it is a pseudograph.",
+    "9. Regular Graph",
+    "If a graph G= (V, E) is a simple graph with the same degree at each vertex, it is a regular graph. As a result, every whole graph is a regular graph.",
+    "10. Weighted Graph",
+    "A graph G= (V, E) is called a labeled or weighted graph because each edge has a value or weight representing the cost of traversing that edge.",
+    "11. Directed Graph",
+    "A directed graph also referred to as a digraph, is a set of nodes connected by edges, each with a direction.",
+    "12. Undirected Graph",
+    "An undirected graph comprises a set of nodes and links connecting them. The order of the two connected vertices is irrelevant and has no direction. You can form an undirected graph with a finite number of vertices and edges.",
+    "13. Connected Graph",
+    "If there is a path between one vertex of a graph data structure and any other vertex, the graph is connected.",
+    "14. Disconnected Graph",
+    "When there is no edge linking the vertices, you refer to the null graph as a disconnected graph.",
+    "15. Cyclic Graph",
+    "If a graph contains at least one graph cycle, it is considered to be cyclic.",
+    "16. Acyclic Graph",
+    "When there are no cycles in a graph, it is called an acyclic graph.",
+    "17. Directed Acyclic Graph",
+    "It's also known as a directed acyclic graph (DAG), and it's a graph with directed edges but no cycle. It represents the edges using an ordered pair of vertices since it directs the vertices and stores some data.",
+    "18. Subgraph",
+    "The vertices and edges of a graph that are subsets of another graph are known as a subgraph."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,88 @@
+{
+ "course": "21CSS201T",
+ "code": "3051",
+ "unit": 3,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Explain how signed numbers are multiplied using Booth’s algorithm. ",
+ "mcq": [
+  {
+   "q": "Booth’s algorithm is used for:",
+   "options": {
+    "A": "Division of signed numbers",
+    "B": "Multiplication of signed numbers in 2’s complement form",
+    "C": "Addition of binary numbers",
+    "D": "Conversion of decimal to binary"
+   },
+   "answer": "B",
+   "answer_text": "Multiplication of signed numbers in 2’s complement form"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": "Both (b) and (c)"
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Add multiplicand (A = A + M)",
+    "B": "Subtract multiplicand (A = A – M)",
+    "C": "Shift right arithmetic",
+    "D": "Shift left logical"
+   },
+   "answer": "A",
+   "answer_text": "Add multiplicand (A = A + M)"
+  },
+  {
+   "q": "Which of the following is an advantage of Booth’s algorithm over basic shift-and-add multiplication? A) B) C) D) Answer: B",
+   "options": {
+    "A": "It uses fewer registers",
+    "B": "It reduces the number of addition/subtraction operations for certain multiplier patterns",
+    "C": "It is only for unsigned numbers",
+    "D": "It eliminates the need for shifting"
+   },
+   "answer": "B",
+   "answer_text": "It reduces the number of addition/subtraction operations for certain multiplier patterns"
+  },
+  {
+   "q": "Why does Booth’s algorithm use arithmetic right shifts after each step?",
+   "options": {
+    "A": "To double the value of the product",
+    "B": "To ensure the sign bit is preserved during shifts",
+    "C": "To reduce hardware requirements",
+    "D": "To add the partial products directly"
+   },
+   "answer": "B",
+   "answer_text": "To ensure the sign bit is preserved during shifts"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": []
+  },
+  {
+   "q": "",
+   "answer": [
+    "Fewer additions/subtractions for sequences of 1s in the multiplier.",
+    "Fewer additions/subtractions for sequences of 1s in the multiplier.",
+    "Handles signed numbers directly using 2’s complement representation.",
+    "Handles signed numbers directly using 2’s complement representation.",
+    "Reduces overall computation time for certain patterns of multipliers.",
+    "Reduces overall computation time for certain patterns of multipliers."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Describe the signed binary multiplication using the booth algorithm method. Multiply 11 and 6. step by step, showing the contents of the Accumulator (A), Multiplier (Q), and Multiplicand (M) in each iteration using a table",
+   "answer": []
+  }
+ ]
+}

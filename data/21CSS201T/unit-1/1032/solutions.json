@@ -1,0 +1,149 @@
+{
+ "course": "21CSS201T",
+ "code": "1032",
+ "unit": 1,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "describe ASCII code representation and demonstrate the addition of Parity bits for error detection,",
+ "mcq": [
+  {
+   "q": "Convert the decimal number 255 to hexadecimal.",
+   "options": {
+    "A": "EE",
+    "B": "FF",
+    "C": "AB",
+    "D": "BA"
+   },
+   "answer": "B",
+   "answer_text": "FF"
+  },
+  {
+   "q": "What is the binary equivalent of the decimal number 25?",
+   "options": {
+    "A": "11010",
+    "B": "11001",
+    "C": "11101",
+    "D": "10101"
+   },
+   "answer": "A",
+   "answer_text": "11010"
+  },
+  {
+   "q": "What is the hexadecimal equivalent of the binary number 11101110?",
+   "options": {
+    "A": "EE",
+    "B": "7E",
+    "C": "FE",
+    "D": "AE"
+   },
+   "answer": "A",
+   "answer_text": "EE"
+  },
+  {
+   "q": "What is the decimal equivalent of the octal number 745?",
+   "options": {
+    "A": "485",
+    "B": "487",
+    "C": "490",
+    "D": "434"
+   },
+   "answer": "B",
+   "answer_text": "487"
+  },
+  {
+   "q": "Convert the binary number 101101 to decimal.",
+   "options": {
+    "A": "45",
+    "B": "51",
+    "C": "41",
+    "D": "47"
+   },
+   "answer": "A",
+   "answer_text": "45"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the rule followed in BCD addition when the sum exceeds 9 or an illegal code appears?",
+   "answer": [
+    "In BCD addition , if the sum of 4-bit digits exceeds 9 (1001) or generates an illegal BCD code , then add 0110 (6) to the result to correct it."
+   ]
+  },
+  {
+   "q": "Why is Gray code preferred in digital systems like analog to digital converters?",
+   "answer": [
+    "Gray code is preferred because only one bit changes at a time between successive values, which minimizes errors during transitions and improves accuracy and reliability in digital systems like analog to digital converters."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the process of BCD addition. Perform BCD addition for the numbers 59 and 73 using binary-coded decimal. Show each step in detail, including necessary corrections, and provide the final answer in both BCD and decimal.",
+   "answer": [
+    "We are given:",
+    "59 and",
+    "59 and",
+    "73",
+    "73",
+    "Break them into individual decimal digits and convert each digit to its 4-bit BCD:",
+    "59 → 5 → 0101 9 → 1001 → So, BCD for 59 is: 0101 1001",
+    "59 →",
+    "5 → 0101",
+    "5 → 0101",
+    "9 → 1001 → So, BCD for 59 is: 0101 1001",
+    "9 → 1001 → So, BCD for 59 is: 0101 1001",
+    "73 → 7 → 0111 3 → 0011 → So, BCD for 73 is: 0111 0011",
+    "73 →",
+    "7 → 0111",
+    "7 → 0111",
+    "3 → 0011 → So, BCD for 73 is: 0111 0011",
+    "3 → 0011 → So, BCD for 73 is: 0111 0011",
+    "Add 1001 (9) and 0011 (3):",
+    "9 + 3 = 12 (in decimal)",
+    "9 + 3 = 12 (in decimal)",
+    "Now, 12 is greater than 9 , which is the maximum valid value in BCD. So, this result is invalid in BCD .",
+    "Correction Rule: If the sum > 9, add 6 (i.e., add 0110) to correct.",
+    "12 + 6 = 18 (in decimal)",
+    "12 + 6 = 18 (in decimal)",
+    "18 → 2 (with a carry of 1 to the next nibble)",
+    "18 → 2 (with a carry of 1 to the next nibble)",
+    "So, we keep 2 in the lower nibble and carry 1 to the upper nibble.",
+    "Add 0101 (5), 0111 (7), and carry 1:",
+    "5 + 7 + 1 = 13 (in decimal)",
+    "5 + 7 + 1 = 13 (in decimal)",
+    "Again, 13 > 9 → Invalid BCD",
+    "Correction:",
+    "13 + 6 = 19",
+    "13 + 6 = 19",
+    "So we keep 3 and carry over 1",
+    "So we keep 3 and carry over 1",
+    "We now have:",
+    "Carry-over digit: 1",
+    "Carry-over digit: 1",
+    "Upper nibble result after correction: 3",
+    "Upper nibble result after correction: 3",
+    "Lower nibble result after correction: 2",
+    "Lower nibble result after correction: 2",
+    "So the final BCD result is:",
+    "1 → 0001",
+    "1 → 0001",
+    "3 → 0011",
+    "3 → 0011",
+    "2 → 0010",
+    "2 → 0010",
+    "That is: 0001 0011 0010",
+    "132 in decimal → 1 (hundreds), 3 (tens), 2 (units)",
+    "132 in decimal → 1 (hundreds), 3 (tens), 2 (units)",
+    "So, 59 + 73 = 132",
+    "BCD of 59 = 0101 1001",
+    "BCD of 59 = 0101 1001",
+    "BCD of 73 = 0111 0011",
+    "BCD of 73 = 0111 0011",
+    "BCD Addition Result = 0001 0011 0010",
+    "BCD Addition Result = 0001 0011 0010",
+    "Final Decimal Result = 132",
+    "Final Decimal Result = 132"
+   ]
+  }
+ ]
+}

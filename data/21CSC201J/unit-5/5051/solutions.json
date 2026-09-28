@@ -1,0 +1,195 @@
+{
+ "course": "21CSC201J",
+ "code": "5051",
+ "unit": 5,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Implementation of Graph using Array",
+ "mcq": [
+  {
+   "q": "For the given graph(G), which of the following statements is true",
+   "options": {
+    "A": "G is a complete graph",
+    "B": "G is not a connected graph",
+    "C": "The vertex connectivity of the graph is 2",
+    "D": "The edge connectivity of the graph is 1"
+   },
+   "answer": "C",
+   "answer_text": "The vertex connectivity of the graph is 2"
+  },
+  {
+   "q": "What is the space complexity of an adjacency matrix for a graph with n vertices",
+   "options": {
+    "A": "O(n)",
+    "B": "O(n log n)",
+    "C": "O(n²)",
+    "D": "O(n + e)"
+   },
+   "answer": "C",
+   "answer_text": "O(n²)"
+  },
+  {
+   "q": "How is a graph represented using a 2D array",
+   "options": {
+    "A": "Adjacency List",
+    "B": "Edge List",
+    "C": "Adjacency Matrix",
+    "D": "Tree Matrix"
+   },
+   "answer": "C",
+   "answer_text": "Adjacency Matrix"
+  },
+  {
+   "q": "Which of the following is NOT a disadvantage of using an adjacency matrix",
+   "options": {
+    "A": "Consumes more space for sparse graphs",
+    "B": "Time-consuming to check all neighbors",
+    "C": "Easy to implement",
+    "D": "Wastes space for fewer edges"
+   },
+   "answer": "C",
+   "answer_text": "Easy to implement"
+  },
+  {
+   "q": "Which type of graph representation is more suitable for dense graphs",
+   "options": {
+    "A": "Adjacency List",
+    "B": "Incidence Matrix",
+    "C": "Adjacency Matrix",
+    "D": "None of these"
+   },
+   "answer": "C",
+   "answer_text": "Adjacency Matrix"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Write a function or pseudocode to count the number of edges in an undirected graph represented by an adjacency matrix.",
+   "answer": [
+    "Consider the Adjacency matrix",
+    "Graph",
+    "Edges Present:",
+    "(0, 1)",
+    "(0, 3)",
+    "(1, 2)",
+    "(2, 3)",
+    "This is an undirected graph with 4 vertices and 4 edges .",
+    "In an undirected graph, each edge is represented twice in the adjacency matrix — once at A[i][j] and once at A[j][i].",
+    "So, to count the total number of unique edges, we count all the 1s in the matrix and then divide by 2.",
+    "Pseudocode:",
+    "Function countEdges(matrix, V):",
+    "edgeCount = 0",
+    "for i from 0 to V-1:",
+    "for j from 0 to V-1:",
+    "if matrix[i][j] == 1:",
+    "edgeCount += 1",
+    "return edgeCount / 2",
+    "Explanation:",
+    "The nested loop traverses the entire matrix.",
+    "For each 1 found (indicating an edge), we increment the edgeCount.",
+    "Since each edge appears twice, we divide the total count by 2 at the end."
+   ]
+  },
+  {
+   "q": "How can self-loops and parallel edges be represented in an adjacency matrix? Explain with an example.",
+   "answer": [
+    "Adjacency Matrix: An adjacency matrix is a 2D array of size V × V (where V is the number of vertices), used to represent edges between vertices in a graph.",
+    "Self-loops:",
+    "A self-loop is an edge that connects a vertex to itself.",
+    "In an adjacency matrix, a self-loop at vertex i is represented by a non-zero value at position A[i][i] (the diagonal elements).",
+    "If the graph is unweighted, this value is typically 1.",
+    "Example of Self-loop:",
+    "Let’s consider a graph with 3 vertices and a self-loop at vertex 2:",
+    "Vertices: 0, 1, 2",
+    "Edge: (2, 2) → self-loop at vertex 2",
+    "Adjacency Matrix:",
+    "Parallel Edges:",
+    "Parallel edges are multiple edges between the same pair of vertices.",
+    "An adjacency matrix does not naturally support parallel edges since it can only store a single value per vertex pair.",
+    "To represent parallel edges, you can store the count of edges between two vertices in the matrix (i.e., use a value >1).",
+    "Alternatively, adjacency lists are preferred for parallel edges.",
+    "Example of Parallel Edges:",
+    "Let’s say there are 2 edges between vertex 0 and vertex 1:",
+    "Edge: (0,1), (0,1)",
+    "Adjacency matrix"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A college is developing a software system to track student collaboration in project work. Each student is considered a node, and if two students are working on a common project, an edge is drawn between them. The system team decided to use an array-based representation (adjacency matrix) for this graph. a) Write a program or algorithm to implement the graph using a 2D array. b) Input the number of students (vertices) and project collaborations (edges), then display the adjacency matrix. c) Discuss one situation where this representation might be inefficient.",
+   "answer": [
+    "Consider",
+    "Each student = node",
+    "A common project = edge between two students",
+    "Use adjacency matrix (2D array) to represent the graph",
+    "(a) Algorithm / Program to Implement Graph Using 2D Array",
+    "Pseudocode (Algorithm Style):",
+    "1. Start",
+    "2. Input total number of students: V (vertices)",
+    "3. Create a 2D array of size V x V, initialized to 0",
+    "4. Input total number of collaborations: E (edges)",
+    "5. Repeat E times:",
+    "a. Input student IDs: u and v (where u and v are indices from 0 to V-1)",
+    "b. Set adjacency_matrix[u][v] = 1",
+    "c. For undirected graph, also set adjacency_matrix[v][u] = 1",
+    "6. Display the adjacency matrix",
+    "7. Stop",
+    "C- Program",
+    "#include <stdio.h>",
+    "#define MAX 100",
+    "int main() {",
+    "int adj[MAX][MAX], students, edges;",
+    "int i, j, u, v;",
+    "printf(\"Enter number of students (vertices): \");",
+    "scanf(\"%d\", &students);",
+    "// Initialize adjacency matrix",
+    "for (i = 0; i < students; i++) {",
+    "for (j = 0; j < students; j++) {",
+    "adj[i][j] = 0;",
+    "}",
+    "}",
+    "printf(\"Enter number of collaborations (edges): \");",
+    "scanf(\"%d\", &edges);",
+    "for (i = 0; i < edges; i++) {",
+    "printf(\"Enter pair of students who collaborated (u v): \");",
+    "scanf(\"%d%d\", &u, &v);",
+    "adj[u][v] = 1;",
+    "adj[v][u] = 1; // Because collaboration is mutual (undirected)",
+    "}",
+    "// Display adjacency matrix",
+    "printf(\"\\nAdjacency Matrix:\\n\");",
+    "for (i = 0; i < students; i++) {",
+    "for (j = 0; j < students; j++) {",
+    "printf(\"%d \", adj[i][j]);",
+    "}",
+    "printf(\"\\n\");",
+    "}",
+    "return 0;",
+    "}",
+    "(b) Input and Output Example",
+    "Sample Input:",
+    "Enter number of students (vertices): 4",
+    "Enter number of collaborations (edges): 3",
+    "Enter pair of students who collaborated (u v): 0 1",
+    "Enter pair of students who collaborated (u v): 0 2",
+    "Enter pair of students who collaborated (u v): 1 3",
+    "Output:",
+    "(c) Inefficiency of Array-Based (Adjacency Matrix) Representation",
+    "Explanation:",
+    "An adjacency matrix uses a 2D array of size V × V, where V is the number of students (nodes). This causes space complexity = O(V²).",
+    "Inefficiency in Sparse Graphs:",
+    "In most real-world scenarios, each student may collaborate with only a few others.",
+    "If there are 1000 students, the matrix will be 1000 × 1000 = 1,000,000 entries.",
+    "But if there are only 500 collaborations, most matrix entries will be 0, wasting space.",
+    "Why is this inefficient?",
+    "Memory is wasted storing zeros for non-existent connections.",
+    "Operations like iterating through neighbors of a node require scanning the entire row.",
+    "In contrast, an adjacency list stores only actual edges, making it more memory-efficient and faster for traversals.",
+    "When is adjacency matrix better?",
+    "When the graph is dense (many edges)",
+    "When you frequently need to check whether an edge exists between any two students — in O(1) time"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2031",
+ "unit": 2,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Apply branching and decision-making constructs to control program flow based on conditions.",
+ "mcq": [
+  {
+   "q": "What will be the output of the following Java code? int x = 5; if (x > 3) System.out.print(\"A\"); else System.out.print(\"B\"); System.out.print(\"C\");",
+   "options": {
+    "A": "AC",
+    "B": "BC",
+    "C": "ABC",
+    "D": "B"
+   },
+   "answer": "A",
+   "answer_text": "AC"
+  },
+  {
+   "q": "Which keyword is used to skip the current iteration of a loop and proceed to the next one?",
+   "options": {
+    "A": "return",
+    "B": "break",
+    "C": "continue",
+    "D": "exit"
+   },
+   "answer": "C",
+   "answer_text": "continue"
+  },
+  {
+   "q": "Which of the following is a branching statement in Java?",
+   "options": {
+    "A": "for",
+    "B": "break",
+    "C": "while",
+    "D": "switch"
+   },
+   "answer": "B",
+   "answer_text": "break"
+  },
+  {
+   "q": "Which construct is best suited when a condition needs to be checked before executing the loop body?",
+   "options": {
+    "A": "do-while",
+    "B": "while",
+    "C": "for-each",
+    "D": "switch"
+   },
+   "answer": "B",
+   "answer_text": "while"
+  },
+  {
+   "q": "Which decision-making structure is most appropriate for choosing one out of many fixed options?",
+   "options": {
+    "A": "if-else",
+    "B": "nested if",
+    "C": "switch",
+    "D": "for"
+   },
+   "answer": "C",
+   "answer_text": "switch"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between the while and do-while loops in Java.",
+   "answer": [
+    "In a while loop, the condition is checked before executing the loop body. If the condition is false at the start, the body may not execute at all. In a do-while loop, the loop body is executed at least once before checking the condition."
+   ]
+  },
+  {
+   "q": "Write a Java code snippet using a for loop to print the even numbers from 1 to 10.",
+   "answer": [
+    "for (int i = 1; i <= 10; i++) { if (i % 2 == 0) { System.out.print(i + \" \"); } } This loop checks if the number is divisible by 2 and prints only the even numbers."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A ticketing system gives discounts based on the customer's age and trip type. The rules are: If the age is below 12, they get a 50% discount. If the age is 60 or above, they get a 30% discount. If the trip is a \"round-trip\", an additional 10% discount is applied to all categories. Write a Java program to calculate and display the final discount percentage based on these rules. Also explain the logic used for branching and decision making.",
+   "answer": [
+    "Program: import java.util.Scanner; public class TicketDiscount { public static void main(String[] args) { Scanner sc = new Scanner(System.in); System.out.print(\"Enter age: \"); int age = sc.nextInt(); System.out.print(\"Is it a round-trip? (yes/no): \"); String tripType = sc.next(); double discount = 0; if (age < 12) { discount = 50; } else if (age >= 60) { discount = 30; } if (tripType.equalsIgnoreCase(\"yes\")) { discount += 10; } System.out.println(\"Final Discount: \" + discount + \"%\"); } } Explanation of Logic: Branching (if-else) is used to determine the age-based discount. A second independent if adds a 10% discount for round-trips. This demonstrates clear separation of conditions and compound logic using decision-making constructs. It also reflects real-world rule-based programming, where multiple conditions can independently affect an outcome."
+   ]
+  }
+ ]
+}

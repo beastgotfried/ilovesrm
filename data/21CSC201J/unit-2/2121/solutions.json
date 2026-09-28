@@ -1,0 +1,117 @@
+{
+ "course": "21CSC201J",
+ "code": "2121",
+ "unit": 2,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Implementation of Doubly linked List",
+ "mcq": [
+  {
+   "q": "A railway network stores station information in a doubly linked list. A train moves from one station to another, both forward and backward. If a station is closed and removed from the middle of the list, what should be done?",
+   "options": {
+    "A": "The previous station’s next pointer should be updated AND The next station’s previous pointer should be updated",
+    "B": "The next station’s previous pointer should be updated",
+    "C": "The train must restart from the first station",
+    "D": "A new list must be created"
+   },
+   "answer": "A",
+   "answer_text": "The previous station’s next pointer should be updated AND The next station’s previous pointer should be updated"
+  },
+  {
+   "q": "What is the minimum number of pointers required to maintain a doubly linked list",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+   },
+   "answer": "B",
+   "answer_text": "2"
+  },
+  {
+   "q": "A Least Recently Used (LRU) cache is implemented using a doubly linked list, where recently accessed items move to the front. What happens when a new item is accessed, and the cache is full?",
+   "options": {
+    "A": "The least recently used item is removed",
+    "B": "The new item is added at the front",
+    "C": "The entire cache is cleared",
+    "D": "The most recently used item is deleted"
+   },
+   "answer": "A",
+   "answer_text": "The least recently used item is removed"
+  },
+  {
+   "q": "A web browser keeps track of visited pages using a doubly linked list. The user can go back and forward through the history. What will happen if the user presses the \"Back\" button?",
+   "options": {
+    "A": "The current pointer moves to the previous node",
+    "B": "The next pointer is removed",
+    "C": "The previous pointer is removed",
+    "D": "A new node is created"
+   },
+   "answer": "A",
+   "answer_text": "The current pointer moves to the previous node"
+  },
+  {
+   "q": "What happens if you try to traverse a doubly linked list from the head to tail",
+   "options": {
+    "A": "Only the next pointer is used",
+    "B": "Both next and previous pointers are used",
+    "C": "The traversal is not possible without the tail pointer",
+    "D": "The list must be converted into an array first"
+   },
+   "answer": "A",
+   "answer_text": "Only the next pointer is used"
+  }
+ ],
+ "sq": [
+  {
+   "q": "​​​​​​​ Write a function in C++ to search for a given element in a doubly linked list and return its position. If the element is not found, return -1",
+   "answer": [
+    "#include <iostream>",
+    "using namespace std;",
+    "struct Node {",
+    "int data;",
+    "Node* prev;",
+    "Node* next;",
+    "};",
+    "// Function to search an element in DLL",
+    "int searchElement(Node* head, int key) {",
+    "int position = 1;",
+    "Node* temp = head;",
+    "while (temp != nullptr) {",
+    "if (temp->data == key)",
+    "return position;",
+    "temp = temp->next;",
+    "position++;",
+    "}",
+    "return -1; // Not found",
+    "}"
+   ]
+  },
+  {
+   "q": "​​​​​​​ Write a C++ program to implement insertion at the beginning of a doubly linked list. Explain how the pointers are updated. Also, draw a diagram to illustrate the process.",
+   "answer": [
+    "#include <iostream>",
+    "using namespace std;",
+    "struct Node {",
+    "int data;",
+    "Node* prev;",
+    "Node* next;",
+    "};",
+    "// Function to insert at beginning",
+    "void insertAtBeginning(Node*& head, int value) {",
+    "Node* newNode = new Node{value, nullptr, head};",
+    "if (head != nullptr) {",
+    "head->prev = newNode;",
+    "}",
+    "head = newNode;",
+    "}"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Consider y ou are developing a photo album manager application. Each photo in the album is represented as a node in a doubly linked list. The application should support the following features: Add Photo: Insert a new photo into the album at any specific position Remove Photo: Remove a photo from the album by its ID. Move Photo: Move a photo to a different position in the album. Display Album: Display all photos in the album in their current order. How would you implement these functionalities using a Doubly linked list? Each node will represent a photo, and it will have the following fields: photoID: A unique integer identifier for each photo. prev: A pointer to the previous node in the list. next: A pointer to the next node in the list.",
+   "answer": []
+  }
+ ]
+}

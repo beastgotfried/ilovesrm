@@ -1,0 +1,87 @@
+{
+ "course": "21CSS201T",
+ "code": "3121",
+ "unit": 3,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Tutorial",
+ "mcq": [
+  {
+   "q": "Consider representing the decimal number –2.5 × 10¹⁵ in IEEE 754 double‑precision (64-bit), using the default “round to nearest, ties to even” rule. What is the correctly rounded 64-bit hexadecimal representation?",
+   "options": {
+    "A": "0x43EFE00000000000",
+    "B": "0x43EFE000000000001",
+    "C": "0x43EFE00000000001",
+    "D": "0xC3EFE00000000000"
+   },
+   "answer": "D",
+   "answer_text": "0xC3EFE00000000000"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Normalized numbers always have zero exponent",
+    "B": "Normalized numbers begin with an implicit leading 1 in the mantissa",
+    "C": "Denormalized numbers are always negative",
+    "D": "Normalized numbers do not use bias"
+   },
+   "answer": "B",
+   "answer_text": "Normalized numbers begin with an implicit leading 1 in the mantissa"
+  },
+  {
+   "q": "What is the largest unbiased exponent value ( e , before bias) that can be represented for a normalized number ?",
+   "options": {
+    "A": "+126",
+    "B": "+127",
+    "C": "+128",
+    "D": "+254"
+   },
+   "answer": "A",
+   "answer_text": "+126"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "1 sign bit, 10 exponent bits, 21 fraction bits",
+    "B": "1 sign bit, 8 exponent bits, 23 fraction bits",
+    "C": "2 sign bits, 8 exponent bits, 22 fraction bits",
+    "D": "1 sign bit, 11 exponent bits, 20 fraction bits"
+   },
+   "answer": "B",
+   "answer_text": "1 sign bit, 8 exponent bits, 23 fraction bits"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "1 sign bit, 10 exponent bits, 21 fraction bits",
+    "B": "1 sign bit, 8 exponent bits, 23 fraction bits",
+    "C": "2 sign bits, 8 exponent bits, 22 fraction bits",
+    "D": "1 sign bit, 11 exponent bits, 20 fraction bits"
+   },
+   "answer": "B",
+   "answer_text": "1 sign bit, 8 exponent bits, 23 fraction bits"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How many bits are used for the exponent and fraction fields in IEEE 754 double precision, and what is the exponent bias?",
+   "answer": [
+    "Exponent = 11 bits , Fraction = 52 bits ; Bias = 1023"
+   ]
+  },
+  {
+   "q": "When the exponent field is all zeros but the fraction is non-zero, what type of number does this represent?",
+   "answer": [
+    "Subnormal (denormalized) number: Exponent = 0, Fraction ≠ 0"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Convert the following numbers to IEEE‑754 double-precision 12.375 0.75",
+   "answer": [
+    "Decimal Sign Exponent (bin) Mantissa prefix Final 64-bit binary Hexadecimal 0.75 0 01111111110 (1022) 1000…0 0 01111111110 1000…0 0x3FE8000000000000 12.375 0 10000000010 (1026) 100011000…0 0 10000000010 100011000…0 0x4025800000000000"
+   ]
+  }
+ ]
+}

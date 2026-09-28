@@ -1,0 +1,105 @@
+{
+ "course": "21CSC203P",
+ "code": "1111",
+ "unit": 1,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "Define object serialization and its role in data persistence and transmission",
+ "mcq": [
+  {
+   "q": "In distributed systems, serialization is mainly used to______",
+   "options": {
+    "A": "a) Print objects to the console",
+    "B": "b) Transmit object data across networks",
+    "C": "c) Avoid using databases ​​​​​",
+    "D": "d) Prevent multithreading"
+   },
+   "answer": "B",
+   "answer_text": "b) Transmit object data across networks"
+  },
+  {
+   "q": "Which is a typical enterprise use case for serialization?",
+   "options": {
+    "A": "a) CPU scheduling",
+    "B": "b) Serial cable communication",
+    "C": "c) Storing session data in web applications ​​​​​",
+    "D": "d) File compression"
+   },
+   "answer": "C",
+   "answer_text": "c) Storing session data in web applications ​​​​​"
+  },
+  {
+   "q": "Which Java interface must a class implement to be serializable?",
+   "options": {
+    "A": "a) Runnable",
+    "B": "b) Cloneable",
+    "C": "c) Serializable ​​​​​",
+    "D": "d) Iterable"
+   },
+   "answer": "C",
+   "answer_text": "c) Serializable ​​​​​"
+  },
+  {
+   "q": "Why is serialization important for data persistence?",
+   "options": {
+    "A": "a) It deletes objects from memory",
+    "B": "b) It transforms objects into executable files",
+    "C": "c) It saves the state of an object to a file or database ​​​​​",
+    "D": "d) It speeds up program execution"
+   },
+   "answer": "C",
+   "answer_text": "c) It saves the state of an object to a file or database ​​​​​"
+  },
+  {
+   "q": "What is object serialization in programming?",
+   "options": {
+    "A": "a) Converting binary to text",
+    "B": "b) Converting an object into a byte stream for storage or transmission",
+    "C": "c) Encrypting data before sending it ​​​​​",
+    "D": "d) Creating static instances of a class"
+   },
+   "answer": "B",
+   "answer_text": "b) Converting an object into a byte stream for storage or transmission"
+  }
+ ],
+ "sq": [
+  {
+   "q": "An application using dynamic memory allocation frequently crashes due to heap exhaustion. What could be the underlying cause?",
+   "answer": [
+    "Inefficient memory deallocation or holding references unnecessarily may lead to memory leaks, resulting in uncollected objects and heap overflow."
+   ]
+  },
+  {
+   "q": "A system's response time suffers due to frequent use of dynamic method calls. How does direct procedure calling improve performance in such cases?",
+   "answer": [
+    "Direct procedure calls are resolved at compile time, eliminating runtime lookup and enabling optimizations like inlining, which reduce execution overhead."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A system experiences performance degradation due to memory issues and delayed method calls. Analyze how dynamic memory allocation and dynamic dispatch may contribute to this problem. Recommend optimization strategies.",
+   "answer": [
+    "Dynamic Memory Allocation : Causes memory fragmentation. Frequent object creation increases GC activity.",
+    "Dynamic Memory Allocation :",
+    "Causes memory fragmentation.",
+    "Causes memory fragmentation.",
+    "Frequent object creation increases GC activity.",
+    "Frequent object creation increases GC activity.",
+    "Dynamic Dispatch : Uses virtual method tables, introducing method call overhead.",
+    "Dynamic Dispatch :",
+    "Uses virtual method tables, introducing method call overhead.",
+    "Uses virtual method tables, introducing method call overhead.",
+    "Optimization Strategies:",
+    "Use object pools for frequently used objects.",
+    "Use object pools for frequently used objects.",
+    "Avoid unnecessary inheritance; use final where applicable to enable static dispatch .",
+    "Avoid unnecessary inheritance; use final where applicable to enable static dispatch .",
+    "Apply profiling tools (e.g., Java VisualVM) to detect memory leaks or performance bottlenecks.",
+    "Apply profiling tools (e.g., Java VisualVM) to detect memory leaks or performance bottlenecks.",
+    "Consider inlining frequently called small methods.",
+    "Consider inlining frequently called small methods."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2111",
+ "unit": 2,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "Define and implement interfaces in Java to achieve abstraction and multiple inheritance.",
+ "mcq": [
+  {
+   "q": "What is the purpose of a tagging interface in Java?",
+   "options": {
+    "A": "It marks a class with metadata but contains no methods",
+    "B": "It forces a class to implement all methods",
+    "C": "It allows multiple inheritance",
+    "D": "It helps with garbage collection"
+   },
+   "answer": "A",
+   "answer_text": "It marks a class with metadata but contains no methods"
+  },
+  {
+   "q": "What is the default modifier for interface methods in Java (Java 8 and below)?",
+   "options": {
+    "A": "private",
+    "B": "protected",
+    "C": "final and static",
+    "D": "public and abstract"
+   },
+   "answer": "D",
+   "answer_text": "public and abstract"
+  },
+  {
+   "q": "Which of the following shows interface extension correctly in Java?",
+   "options": {
+    "A": "interface A implements B {}",
+    "B": "class A extends B {}",
+    "C": "interface A extends B {}",
+    "D": "interface A inherits B {}"
+   },
+   "answer": "C",
+   "answer_text": "interface A extends B {}"
+  },
+  {
+   "q": "Which keyword is used in Java to create an interface?",
+   "options": {
+    "A": "implements",
+    "B": "extends",
+    "C": "interface",
+    "D": "abstract"
+   },
+   "answer": "C",
+   "answer_text": "interface"
+  },
+  {
+   "q": "Which of the following statements is true about interfaces in Java?",
+   "options": {
+    "A": "Interfaces can have constructors",
+    "B": "A class can implement multiple interfaces",
+    "C": "Interfaces support method overloading but not overriding",
+    "D": "Interfaces cannot have any variables"
+   },
+   "answer": "B",
+   "answer_text": "A class can implement multiple interfaces"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Write a simple Java interface and a class that implements it.",
+   "answer": [
+    "interface Drawable { void draw(); } class Circle implements Drawable { public void draw() { System.out.println(\"Drawing a circle\"); } } The class Circle provides the concrete implementation of the draw() method defined in the interface Drawable."
+   ]
+  },
+  {
+   "q": "Differentiate between an interface and an abstract class in Java.",
+   "answer": [
+    "Interface: All methods are abstract by default (until Java 8), cannot have instance variables, supports multiple inheritance. Abstract class: Can have both abstract and concrete methods, can include constructors, and support single inheritance."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You're creating a file handling system where different file types (PDF, Word, Excel) need to support common operations like open() and close(). Additionally, some classes should be marked as \"Secure\" but without enforcing any methods. Design a solution using interfaces, including one tagging interface, and explain how abstraction and tagging are achieved through this approach.",
+   "answer": [
+    "Java Code: // Main interface interface FileHandler { void open(); void close(); } // Tagging interface interface Secure {} // PDF class class PDFFile implements FileHandler, Secure { public void open() { System.out.println(\"Opening PDF file\"); } public void close() { System.out.println(\"Closing PDF file\"); } } // Word class class WordFile implements FileHandler { public void open() { System.out.println(\"Opening Word file\"); } public void close() { System.out.println(\"Closing Word file\"); } } Explanation: FileHandler is an interface that defines the abstraction for common file operations (open() and close()). Secure is a tagging interface�it has no methods but acts as a marker. PDFFile implements both interfaces. We can later use instanceof checks to identify secure classes: if (file instanceof Secure) { System.out.println(\"Security checks enabled.\"); } Benefits: Abstraction: Interfaces let you define what operations must be implemented, not how. Multiple inheritance: Java allows classes to implement multiple interfaces. Tagging: Marker interfaces like Secure enable metadata tagging without altering logic."
+   ]
+  }
+ ]
+}

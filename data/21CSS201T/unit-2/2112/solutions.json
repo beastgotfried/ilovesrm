@@ -1,0 +1,129 @@
+{
+ "course": "21CSS201T",
+ "code": "2112",
+ "unit": 2,
+ "session": 11,
+ "slo": 2,
+ "slo_title": "Describe the working of 8086 with relevant examples.",
+ "mcq": [
+  {
+   "q": "The Intel 8086 microprocessor is a:",
+   "options": {
+    "A": "8-bit microprocessor",
+    "B": "16-bit microprocessor",
+    "C": "32-bit microprocessor",
+    "D": "64-bit microprocessor"
+   },
+   "answer": "B",
+   "answer_text": "16-bit microprocessor"
+  },
+  {
+   "q": "The 8086 microprocessor uses which segmentation scheme?",
+   "options": {
+    "A": "16-bit logical addressing",
+    "B": "20-bit segmented addressing (Segment + Offset)",
+    "C": "Flat addressing",
+    "D": "Virtual addressing"
+   },
+   "answer": "B",
+   "answer_text": "20-bit segmented addressing (Segment + Offset)"
+  },
+  {
+   "q": "The 8086 has how many general-purpose registers?",
+   "options": {
+    "A": "4",
+    "B": "6",
+    "C": "8",
+    "D": "10"
+   },
+   "answer": "C",
+   "answer_text": "8"
+  },
+  {
+   "q": "The 8086 has a physical address space of:",
+   "options": {
+    "A": "16 KB",
+    "B": "64 KB",
+    "C": "1 MB",
+    "D": "4 GB"
+   },
+   "answer": "C",
+   "answer_text": "1 MB"
+  },
+  {
+   "q": "Which of the following is NOT a segment register of the 8086?",
+   "options": {
+    "A": "CS (Code Segment)",
+    "B": "DS (Data Segment)",
+    "C": "ES (Extra Segment)",
+    "D": "HS (Heap Segment)"
+   },
+   "answer": "D",
+   "answer_text": "HS (Heap Segment)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "EU decodes instructions from the BIU and executes them using ALU, control circuits, and registers."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "8086 is a 16-bit microprocessor with a 16-bit data bus and 20-bit address bus."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the architecture and key features of the Intel 8086 microprocessor.",
+   "answer": [
+    "1. Introduction",
+    "The Intel 8086 is a 16-bit microprocessor introduced by Intel in 1978. It marked a major advancement in microprocessor design, serving as the foundation for the x86 family of processors. It is capable of addressing 1 MB of memory and supports multiprogramming, modular design, and efficient instruction execution.",
+    "2. Architecture of 8086",
+    "The 8086 architecture is divided into two main functional units:",
+    "(A) Bus Interface Unit (BIU)",
+    "Handles all data and address transfers between the processor and memory/IO.",
+    "Functions: Instruction fetching from memory. Queuing instructions in a 6-byte instruction queue (pipelining). Segment and physical address calculation.",
+    "Instruction fetching from memory.",
+    "Queuing instructions in a 6-byte instruction queue (pipelining).",
+    "Segment and physical address calculation.",
+    "Components: Segment Registers: CS (Code), DS (Data), SS (Stack), ES (Extra). Instruction Pointer (IP): Holds the offset of the next instruction. Address Generation Circuitry.",
+    "Segment Registers: CS (Code), DS (Data), SS (Stack), ES (Extra).",
+    "Instruction Pointer (IP): Holds the offset of the next instruction.",
+    "Address Generation Circuitry.",
+    "(B) Execution Unit (EU)",
+    "Executes instructions fetched by the BIU.",
+    "Functions: Decoding instructions. Performing arithmetic and logical operations. Controlling program flow.",
+    "Decoding instructions.",
+    "Performing arithmetic and logical operations.",
+    "Controlling program flow.",
+    "Components: ALU (Arithmetic Logic Unit) – Performs arithmetic and logical operations. General Purpose Registers: AX, BX, CX, DX (can be divided into 8-bit halves: AH/AL, BH/BL, etc.). Pointer and Index Registers: SP, BP, SI, DI. Flags Register: Holds status flags (Zero, Carry, Sign, Parity, Auxiliary Carry, Overflow, etc.) and control flags (Direction, Interrupt Enable, Trap).",
+    "ALU (Arithmetic Logic Unit) – Performs arithmetic and logical operations.",
+    "General Purpose Registers: AX, BX, CX, DX (can be divided into 8-bit halves: AH/AL, BH/BL, etc.).",
+    "Pointer and Index Registers: SP, BP, SI, DI.",
+    "Flags Register: Holds status flags (Zero, Carry, Sign, Parity, Auxiliary Carry, Overflow, etc.) and control flags (Direction, Interrupt Enable, Trap).",
+    "Pipelining: While the EU executes one instruction, the BIU pre-fetches the next instruction, improving execution speed.",
+    "3. Key Features of 8086",
+    "Word Length: 16-bit processor (can process 16-bit data at a time).",
+    "Memory Addressing: 20-bit address bus → can address 1 MB of memory.",
+    "Registers: General-purpose (AX, BX, CX, DX). Segment registers (CS, DS, SS, ES). Special-purpose (IP, SP, BP, SI, DI). Flags register (status + control).",
+    "General-purpose (AX, BX, CX, DX).",
+    "Segment registers (CS, DS, SS, ES).",
+    "Special-purpose (IP, SP, BP, SI, DI).",
+    "Flags register (status + control).",
+    "Instruction Queue (Pipelining): 6-byte instruction queue enables faster execution.",
+    "Operating Modes: Minimum Mode – single processor environment. Maximum Mode – multiprocessor environment (with coprocessors like 8087).",
+    "Minimum Mode – single processor environment.",
+    "Maximum Mode – multiprocessor environment (with coprocessors like 8087).",
+    "Instruction Set: Rich set including data transfer, arithmetic, logic, control transfer, string operations, and bit manipulation.",
+    "Rich set including data transfer, arithmetic, logic, control transfer, string operations, and bit manipulation.",
+    "Clock Speed: Typically 5–10 MHz.",
+    "I/O Handling: Supports both memory-mapped and I/O-mapped devices.",
+    "Compatibility: Basis for later x86 processors, ensuring backward compatibility."
+   ]
+  }
+ ]
+}

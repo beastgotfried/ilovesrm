@@ -1,0 +1,119 @@
+{
+ "course": "21CSC202J",
+ "code": "1051",
+ "unit": 1,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Define the architecture and purpose of exokernel and layered operating systems",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Flat organization with no separation of services",
+    "B": "Services built on top of each other in hierarchical layers",
+    "C": "Direct hardware access by all services",
+    "D": "All services run at the same privilege level"
+   },
+   "answer": "B",
+   "answer_text": "Services built on top of each other in hierarchical layers"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "To execute only system-level code securely",
+    "B": "To run guest operating systems on virtualized hardware",
+    "C": "To provide a direct interface to hardware for all applications",
+    "D": "To prevent multiprogramming on a host system"
+   },
+   "answer": "B",
+   "answer_text": "To run guest operating systems on virtualized hardware"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Implemented inside the kernel for performance",
+    "B": "Shifted to user-level libraries or applications",
+    "C": "Omitted entirely from the system",
+    "D": "Managed by the hardware directly"
+   },
+   "answer": "B",
+   "answer_text": "Shifted to user-level libraries or applications"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Separate programs with no interaction",
+    "B": "Independent modules with well-defined interfaces",
+    "C": "Monolithic blocks running in user mode",
+    "D": "Kernel extensions loaded only at boot time"
+   },
+   "answer": "B",
+   "answer_text": "Independent modules with well-defined interfaces"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Lack of device drivers in the kernel",
+    "B": "Direct hardware access given to applications increases security risks",
+    "C": "Absence of interprocess communication mechanisms",
+    "D": "Use of monolithic architecture"
+   },
+   "answer": "B",
+   "answer_text": "Direct hardware access given to applications increases security risks"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "A Hypervisor manages Virtual Machines by allocating hardware resources, controlling execution, and isolating VMs from each other, ensuring secure and efficient virtualization."
+   ]
+  },
+  {
+   "q": "Type Here",
+   "answer": [
+    "Unlike Monolithic and Microkernels that abstract hardware resources, the Exokernel exposes hardware resources directly to applications while enforcing access control, offering minimal abstraction."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Compare Modular Kernel and Virtual Machines based on architecture, purpose, advantages, and limitations. Explain how they differ in resource management and system isolation.",
+   "answer": [
+    "Aspect",
+    "Modular Kernel",
+    "Virtual Machines (VMs)",
+    "Definition",
+    "An operating system kernel designed to load and unload kernel modules dynamically at runtime.",
+    "A software-emulated environment that allows multiple OS instances to run on the same hardware.",
+    "Primary Purpose",
+    "To enhance flexibility, maintainability, and extensibility of the operating system.",
+    "To provide system-level virtualization with isolation between guest OS instances.",
+    "Architecture",
+    "Core kernel with loadable modules (e.g., device drivers, file systems) that operate in kernel space.",
+    "Uses a Hypervisor (Type 1 or Type 2) to manage multiple virtualized OS instances on shared hardware.",
+    "Resource Management",
+    "Handled within a single OS instance through modular components; shares system resources under one kernel.",
+    "Hypervisor allocates hardware resources (CPU, memory, I/O) to each VM, allowing independent management.",
+    "System Isolation",
+    "Limited — all modules share the same kernel space; faults in modules can affect the entire system.",
+    "High — Each VM operates as a separate system with its own OS, ensuring strong fault and security isolation.",
+    "Performance",
+    "High — operates close to hardware with minimal abstraction.",
+    "May have overhead due to virtualization layer but enables multi-OS deployment.",
+    "Flexibility",
+    "Modules can be added or removed without rebooting the OS.",
+    "Can run different operating systems and isolated environments on the same hardware.",
+    "Security",
+    "Moderate — vulnerabilities in kernel modules may affect the whole system.",
+    "High — VMs are isolated; compromise in one VM does not directly affect others or the host.",
+    "Example OS/Tools",
+    "Linux with Loadable Kernel Modules (LKMs), BSD kernel modules.",
+    "VMware ESXi, KVM, VirtualBox, Hyper-V.",
+    "Limitations",
+    "Kernel crashes due to faulty modules; limited isolation.",
+    "Performance overhead, complex resource allocation, requires hypervisor management."
+   ]
+  }
+ ]
+}

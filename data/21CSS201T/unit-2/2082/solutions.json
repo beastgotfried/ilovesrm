@@ -1,0 +1,131 @@
+{
+ "course": "21CSS201T",
+ "code": "2082",
+ "unit": 2,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Tutorial",
+ "mcq": [
+  {
+   "q": "In Relative Addressing Mode , the effective address is calculated as:",
+   "options": {
+    "A": "Base address + offset stored in memory",
+    "B": "Program Counter (PC) + displacement",
+    "C": "Register value + immediate value",
+    "D": "Direct memory location"
+   },
+   "answer": "B",
+   "answer_text": "Program Counter (PC) + displacement"
+  },
+  {
+   "q": "Which addressing mode uses a register to hold the address of the operand rather than the operand itself?",
+   "options": {
+    "A": "Immediate",
+    "B": "Direct",
+    "C": "Register Indirect",
+    "D": "Indexed"
+   },
+   "answer": "C",
+   "answer_text": "Register Indirect"
+  },
+  {
+   "q": "In Immediate Addressing Mode , the operand is:",
+   "options": {
+    "A": "Stored in memory",
+    "B": "Present in a register",
+    "C": "Specified directly in the instruction",
+    "D": "Obtained from the stack"
+   },
+   "answer": "C",
+   "answer_text": "Specified directly in the instruction"
+  },
+  {
+   "q": "Which addressing mode minimizes instruction size and execution time? a) b) c) d)",
+   "options": {
+    "A": "Direct Addressing",
+    "B": "Register Addressing",
+    "C": "Indexed Addressing",
+    "D": "Stack Addressing"
+   },
+   "answer": "B",
+   "answer_text": "Register Addressing"
+  },
+  {
+   "q": "In Register Addressing Mode , the operand is:",
+   "options": {
+    "A": "A memory address specified in the instruction",
+    "B": "Found in a CPU register",
+    "C": "Always on the stack",
+    "D": "Indirectly accessed using pointers"
+   },
+   "answer": "B",
+   "answer_text": "Found in a CPU register"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "The Control Unit (CU) , with the help of the Program Counter (PC) , manages instruction sequencing."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Instruction sequencing is the process by which the CPU ensures that program instructions are executed in the correct logical order, usually controlled by the Program Counter (PC) ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain Instruction Sequencing in computer architecture with simple examples.",
+   "answer": [
+    "1. Meaning of Instruction Sequencing",
+    "Instruction sequencing refers to the process by which the control unit of the CPU ensures that program instructions are fetched and executed in the correct order.",
+    "Normally, instructions are executed sequentially as stored in memory.",
+    "The sequencing is controlled by the Program Counter (PC), which always points to the address of the next instruction to be executed.",
+    "After fetching an instruction, the PC is incremented automatically (or updated in case of a branch/jump instruction).",
+    "2. Basic Flow of Instruction Sequencing",
+    "Fetch: CPU fetches the instruction from the address stored in the PC.",
+    "Decode: The instruction is decoded to determine the operation and operands.",
+    "Execute: CPU executes the instruction.",
+    "Update PC: PC is incremented to the next instruction (or updated if a branch/loop is encountered).",
+    "3. Sequential Execution Example",
+    "Consider the following program segment:",
+    "1. LOAD R1, 1000H",
+    "2. ADD R1, R2",
+    "3. STORE R1, 2000H",
+    "Initially, PC = address of instruction 1.",
+    "After LOAD, PC increments to instruction 2.",
+    "After ADD, PC increments to instruction 3.",
+    "After STORE, PC points to the next instruction.",
+    "Here, the PC ensures linear sequencing of instructions.",
+    "4. Branching Example",
+    "Now consider:",
+    "1. LOAD R1, 1000H",
+    "2. CMP R1, R2",
+    "3. BEQ 50",
+    "4. SUB R1, R3",
+    "5. STORE R1, 2000H",
+    "BEQ 50 is a conditional branch instruction.",
+    "If R1 = R2, PC will be updated to address 50 (jumping execution).",
+    "Otherwise, execution continues sequentially with instruction 4.",
+    "This shows how branch instructions alter instruction sequencing.",
+    "5. Instruction Sequencing in Loops",
+    "Example of a simple loop:",
+    "1. LOAD R1, #10",
+    "2. LOOP: DEC R1",
+    "3. JNZ LOOP",
+    "4. HALT",
+    "PC executes sequentially for LOAD and DEC.",
+    "JNZ LOOP checks if R1 ≠ 0 → if true, PC jumps back to label LOOP.",
+    "Loop continues until R1 = 0, then PC moves to HALT.",
+    "Loops demonstrate non-linear sequencing controlled by the PC.",
+    "6. Importance of Instruction Sequencing",
+    "Ensures correct program flow.",
+    "Allows for branching, looping, and decision-making in programs.",
+    "Enables pipelining and parallelism in modern processors by predicting instruction sequences."
+   ]
+  }
+ ]
+}

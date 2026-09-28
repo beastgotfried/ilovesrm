@@ -1,0 +1,129 @@
+{
+ "course": "21CSC203P",
+ "code": "3121",
+ "unit": 3,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Initiate Java mini-project following a chosen paradigm",
+ "mcq": [
+  {
+   "q": "In Java project documentation, what section includes ER diagrams and class diagrams?",
+   "options": {
+    "A": "Literature Review",
+    "B": "System Design",
+    "C": "Implementation",
+    "D": "Conclusion"
+   },
+   "answer": "B",
+   "answer_text": "System Design"
+  },
+  {
+   "q": "In Java, which access modifier allows members to be accessed only within the same class?",
+   "options": {
+    "A": "public",
+    "B": "protected",
+    "C": "private",
+    "D": "default"
+   },
+   "answer": "C",
+   "answer_text": "private"
+  },
+  {
+   "q": "Which of the following paradigms focuses on dividing a program into objects that encapsulate data and behavior?",
+   "options": {
+    "A": "Functional Programming",
+    "B": "Procedural Programming",
+    "C": "Object-Oriented Programming",
+    "D": "Modular Programming"
+   },
+   "answer": "C",
+   "answer_text": "Object-Oriented Programming"
+  },
+  {
+   "q": "Which Java concept allows a subclass to inherit members of a superclass?",
+   "options": {
+    "A": "Encapsulation",
+    "B": "Abstraction",
+    "C": "Polymorphism",
+    "D": "Inheritance"
+   },
+   "answer": "D",
+   "answer_text": "Inheritance"
+  },
+  {
+   "q": "Which of the following is best suited to demonstrate multithreading in a Java mini-project?",
+   "options": {
+    "A": "Employee record system",
+    "B": "Chat server application",
+    "C": "Inventory management system",
+    "D": "Address book application"
+   },
+   "answer": "B",
+   "answer_text": "Chat server application"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What are the key steps to follow when initiating a Java mini-project? ​",
+   "answer": [
+    "Select a relevant problem domain",
+    "Select a relevant problem domain",
+    "Choose a programming paradigm (OOP, event-driven, etc.)",
+    "Choose a programming paradigm (OOP, event-driven, etc.)",
+    "Define project requirements and objectives",
+    "Define project requirements and objectives",
+    "Design the architecture using UML diagrams",
+    "Design the architecture using UML diagrams",
+    "Plan implementation milestones",
+    "Plan implementation milestones"
+   ]
+  },
+  {
+   "q": "How does choosing the right programming paradigm affect your mini-project? ​",
+   "answer": [
+    "The paradigm shapes code structure and design decisions. OOP encourages modularity and reusability; event-driven models work well with GUI-based apps; procedural paradigms are straightforward for linear workflows"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are tasked with developing a Java-based Student Feedback System as a mini-project using the object-oriented paradigm. The system should allow students to submit feedback through a form, store it in memory or file, and generate a report. You also need to submit a dissertation documenting your work.Outline the design, implementation, and documentation plan for the above project. Include details on the use of classes, event handling (if GUI-based), storage, and structure of the dissertation.",
+   "answer": [
+    "Design Phase: Classes: Student , Feedback , FeedbackManager , and GUIHandler GUI: Swing components – JLabel , JTextField , JTextArea , JButton Use of OOP: Encapsulation in Feedback class; use of arrays or lists to store feedback",
+    "Design Phase:",
+    "Classes: Student , Feedback , FeedbackManager , and GUIHandler",
+    "Classes: Student , Feedback , FeedbackManager , and GUIHandler",
+    "GUI: Swing components – JLabel , JTextField , JTextArea , JButton",
+    "GUI: Swing components – JLabel , JTextField , JTextArea , JButton",
+    "Use of OOP: Encapsulation in Feedback class; use of arrays or lists to store feedback",
+    "Use of OOP: Encapsulation in Feedback class; use of arrays or lists to store feedback",
+    "Implementation Phase: Create a feedback form using Java Swing Use ActionListener to handle submit events Store submitted feedback in an ArrayList or text file Display acknowledgment to the user",
+    "Implementation Phase:",
+    "Create a feedback form using Java Swing",
+    "Create a feedback form using Java Swing",
+    "Use ActionListener to handle submit events",
+    "Use ActionListener to handle submit events",
+    "Store submitted feedback in an ArrayList or text file",
+    "Store submitted feedback in an ArrayList or text file",
+    "Display acknowledgment to the user",
+    "Display acknowledgment to the user",
+    "Dissertation Structure: Abstract: Purpose and scope Introduction: Overview and objectives Design: Use case diagram, class diagram, flowchart Implementation: Code structure, screenshots Testing: Sample inputs and results Conclusion: Summary, limitations, future enhancements References",
+    "Dissertation Structure:",
+    "Abstract: Purpose and scope",
+    "Abstract: Purpose and scope",
+    "Introduction: Overview and objectives",
+    "Introduction: Overview and objectives",
+    "Design: Use case diagram, class diagram, flowchart",
+    "Design: Use case diagram, class diagram, flowchart",
+    "Implementation: Code structure, screenshots",
+    "Implementation: Code structure, screenshots",
+    "Testing: Sample inputs and results",
+    "Testing: Sample inputs and results",
+    "Conclusion: Summary, limitations, future enhancements",
+    "Conclusion: Summary, limitations, future enhancements",
+    "References",
+    "References"
+   ]
+  }
+ ]
+}

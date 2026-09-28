@@ -1,0 +1,95 @@
+{
+ "course": "21MAB201T",
+ "code": "4072",
+ "unit": 4,
+ "session": 7,
+ "slo": 2,
+ "slo_title": "Apply these transforms to evaluate definite integrals",
+ "mcq": [
+  {
+   "q": "The fourier sine transform of \\(\\frac 1x\\) is,",
+   "options": {
+    "A": "\\(\\sqrt \\frac \\pi2\\)",
+    "B": "\\(\\sqrt \\frac 2\\pi\\)",
+    "C": "\\(\\sqrt \\frac \\pi4\\)",
+    "D": "\\(\\sqrt \\frac 1\\pi\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\sqrt \\frac \\pi2\\)"
+  },
+  {
+   "q": "Fourier cosine transform of \\(f(x) = e^{-4x}\\)",
+   "options": {
+    "A": "\\(\\frac1{\\sqrt{2\\pi}} \\,[ \\frac4{16-s^2}]\\)",
+    "B": "\\(\\sqrt\\frac2\\pi \\,[ \\frac4{16+s^2}]\\)",
+    "C": "\\(\\frac1{\\sqrt{2\\pi}} \\,[ \\frac4{16+s^2}]\\)",
+    "D": "\\(\\sqrt\\frac2\\pi \\,[ \\frac4{16-s^2}]\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\sqrt\\frac2\\pi \\,[ \\frac4{16+s^2}]\\)"
+  },
+  {
+   "q": "Under Fourier cosine transform \\(f(x) = \\frac1{\\sqrt x}\\) is",
+   "options": {
+    "A": "Cosine function",
+    "B": "Inverse function",
+    "C": "complex function",
+    "D": "Self-reciprocal function"
+   },
+   "answer": "D",
+   "answer_text": "Self-reciprocal function"
+  },
+  {
+   "q": "\\(F_S[x \\, f(x) ] \\, = \\)",
+   "options": {
+    "A": "\\(\\frac d{ds} F_s(s)\\)",
+    "B": "\\(-\\frac d{ds} F_s(s)\\)",
+    "C": "\\(-\\frac d{ds} F_c(s)\\)",
+    "D": "\\(\\frac d{ds} F_c(s)\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(-\\frac d{ds} F_c(s)\\)"
+  },
+  {
+   "q": "\\(F_C \\, [f(x) \\, cosax ] \\, = \\)",
+   "options": {
+    "A": "\\(\\frac12[F_S(s+a) \\, + \\, F_S(s-a)]\\)",
+    "B": "\\(\\frac12[F_S(s+a) \\, - \\, F_S(s-a)]\\)",
+    "C": "\\(\\frac12[F_C(s+a) \\, + \\, F_C(s-a)]\\)",
+    "D": "\\(\\frac12[F_C(s+a) \\, - \\, F_C(s-a)]\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(\\frac12[F_C(s+a) \\, + \\, F_C(s-a)]\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Find the Fourier cosine transform of } f(x) = \\frac{1}{x^2+a^2}.\\)",
+   "answer": [
+    "\\(\\text{We know } F_c[e^{-ax}] = \\sqrt{\\frac{2}{\\pi}} \\frac{a}{a^2+s^2}\\)",
+    "\\(\\text{By inverse cosine transform: } e^{-ax} = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_c(s) \\cos(sx) ds\\)",
+    "\\(= \\frac{2a}{\\pi} \\int_{0}^{\\infty} \\frac{1}{a^2+s^2} \\cos(sx) ds\\)",
+    "\\(\\text{Interchange x and s: } \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} \\frac{1}{x^2+a^2} \\cos(sx) dx = \\sqrt{\\frac{\\pi}{2}} \\frac{e^{-as}}{a}\\)",
+    "\\(\\text{Hence } F_c\\left[\\frac{1}{x^2+a^2}\\right] = \\sqrt{\\frac{\\pi}{2}} \\frac{e^{-as}}{a}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Find the Fourier sine transform of } f(x) = \\frac{x}{x^2+a^2}.\\)",
+   "answer": [
+    "\\(\\text{We know } F_s[e^{-ax}] = \\sqrt{\\frac{2}{\\pi}} \\frac{s}{s^2+a^2}\\)",
+    "\\(\\text{By inverse sine transform: } e^{-ax} = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_s(s) \\sin(sx) ds\\)",
+    "\\(= \\frac{2}{\\pi} \\int_{0}^{\\infty} \\frac{s}{s^2+a^2} \\sin(sx) ds\\)",
+    "\\(\\text{Interchange x and s: } \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} \\frac{x}{x^2+a^2} \\sin(sx) dx = \\sqrt{\\frac{\\pi}{2}} e^{-as}\\)",
+    "\\(\\text{Hence } F_s\\left[\\frac{x}{x^2+a^2}\\right] = \\sqrt{\\frac{\\pi}{2}} e^{-as}.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Find the Fourier cosine transform of } f(x)=\\begin{cases} 1 & 0 a \\end{cases}.\\)",
+   "answer": [
+    "Step Marks \\(F_c(s) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} f(x) \\cos(sx) dx = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{a} \\cos(sx) dx\\) (3) \\(= \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{\\sin(sx)}{s} \\right]_{0}^{a} = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{\\sin(as)}{s}\\) for \\(s \\neq 0\\) (4) For \\(s = 0\\): \\(F_c(0) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{a} dx = \\sqrt{\\frac{2}{\\pi}} a\\) (3)"
+   ]
+  }
+ ]
+}

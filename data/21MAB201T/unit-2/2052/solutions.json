@@ -1,0 +1,92 @@
+{
+ "course": "21MAB201T",
+ "code": "2052",
+ "unit": 2,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "Solve related problems involving Fourier series in symmetric intervals of general length 2l.",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "l",
+    "B": "2l",
+    "C": "0",
+    "D": "2"
+   },
+   "answer": "A",
+   "answer_text": "l"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "-2",
+    "B": "2",
+    "C": "0",
+    "D": "4"
+   },
+   "answer": "B",
+   "answer_text": "2"
+  },
+  {
+   "q": "For \\( f(x) \\) defined on \\( (-L, L) \\), the Fourier coefficient \\( a_n \\) is:",
+   "options": {
+    "A": "\\( a_n = \\frac{1}{L} \\int_{-L}^{L} f(x) \\cos\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)",
+    "B": "\\( a_n = \\frac{2}{L} \\int_{-L}^{L} f(x) \\cos\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)",
+    "C": "\\( a_n = \\frac{1}{L} \\int_{-L}^{L} f(x) \\sin\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)",
+    "D": "\\( a_n = \\frac{1}{2L} \\int_{-L}^{L} f(x) \\cos\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( a_n = \\frac{1}{L} \\int_{-L}^{L} f(x) \\cos\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Explain relationship between Fourier series in } (-\\pi,\\pi) \\text{ and } (-L,L).\\)",
+   "answer": [
+    "\\(\\text{Replace } \\pi \\text{ by } L \\text{ and } x \\text{ by } \\frac{\\pi x}{L} \\text{ in } (-\\pi,\\pi) \\text{ formulas}\\)",
+    "\\(\\text{Basic forms identical: } f(x) = \\frac{a_0}{2} + \\sum (a_n \\cos\\omega_n x + b_n \\sin\\omega_n x)\\)",
+    "\\(\\text{For } (-\\pi,\\pi): \\omega_n = n; \\text{ for } (-L,L): \\omega_n = \\frac{n\\pi}{L}\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Find Fourier series for } f(x) = x \\text{ in } (-L, L). \\text{ Is it even or odd?}\\)",
+   "answer": [
+    "\\(\\text{Odd function since } f(-x) = -x = -f(x)\\)",
+    "\\(\\text{Thus } a_0 = 0, a_n = 0\\)",
+    "\\(b_n = \\frac{2}{L} \\int_0^{L} x \\sin(\\frac{n\\pi x}{L}) dx = \\frac{2L}{n\\pi}(-1)^{n+1}\\)",
+    "\\(\\text{Thus } x = \\frac{2L}{\\pi}\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} \\sin(\\frac{n\\pi x}{L})\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=L-|x|\\) in \\((-L,L)\\).",
+   "answer": [
+    "Step Marks Since \\(f(x)\\) is even, \\(b_n=0\\) (1) \\(a_0=\\frac{2}{L}\\int_0^L (L-x)dx=L\\) (2) \\(a_n=\\frac{2}{L}\\int_0^L (L-x)\\cos\\frac{n\\pi x}{L}dx=\\frac{2L}{n^2\\pi^2}[1-(-1)^n]\\) (5) Thus, \\(L-|x|=\\frac{L}{2}+\\frac{4L}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}\\cos\\frac{(2n-1)\\pi x}{L}\\) (4) Put \\(x=0\\) to get \\(\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}=\\frac{\\pi^2}{8}\\) (3)"
+   ]
+  }
+ ]
+}

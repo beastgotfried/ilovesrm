@@ -1,0 +1,159 @@
+{
+ "course": "21CSC201J",
+ "code": "5021",
+ "unit": 5,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Graph Representation - Adjacency Matrix",
+ "mcq": [
+  {
+   "q": "The efficiency of different open addressing techniques",
+   "options": {
+    "A": "depends on the size of the table and number of elements in the table.",
+    "B": "depends on the size of the table",
+    "C": "depends on total number of elements in the table",
+    "D": "depends on the hashing technique"
+   },
+   "answer": "A",
+   "answer_text": "depends on the size of the table and number of elements in the table."
+  },
+  {
+   "q": "In an adjacency matrix of a graph with N vertices, how many cells will be filled in a complete undirected graph",
+   "options": {
+    "A": "N",
+    "B": "N²",
+    "C": "N(N−1)/2",
+    "D": "2N"
+   },
+   "answer": "B",
+   "answer_text": "N²"
+  },
+  {
+   "q": "Which of the following is more efficient for representing a dense graph",
+   "options": {
+    "A": "Adjacency List",
+    "B": "Edge List",
+    "C": "Adjacency Matrix",
+    "D": "Incidence Matrix"
+   },
+   "answer": "C",
+   "answer_text": "Adjacency Matrix"
+  },
+  {
+   "q": "Which of the following ways can be used to represent a graph",
+   "options": {
+    "A": "Adjacency List",
+    "B": "Incidence Matrix",
+    "C": "No way to represent",
+    "D": "Adjacency List and Adjacency Matrix"
+   },
+   "answer": "D",
+   "answer_text": "Adjacency List and Adjacency Matrix"
+  },
+  {
+   "q": "Consider a weighted, directed graph with V vertices and E edges. Which data structure is typically suitable for efficiently finding the shortest paths between all pairs of vertices?",
+   "options": {
+    "A": "Adjacency matrix",
+    "B": "Priority queue",
+    "C": "Stack",
+    "D": "Hash table"
+   },
+   "answer": "A",
+   "answer_text": "Adjacency matrix"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Describes the difference between the adjacency matrix and the adjacency list.",
+   "answer": [
+    "Operations",
+    "Adjacency Matrix",
+    "Adjacency List",
+    "Storage Space",
+    "This representation makes use of VxV matrix, so space required in worst case is O(|V| 2 ).",
+    "In this representation, for every vertex we store its neighbours. In the worst case, if a graph is connected O(V) is required for a vertex and O(E) is required for storing neighbours corresponding to every vertex .Thus, overall space complexity is O(|V|+|E|).",
+    "Adding a vertex",
+    "In order to add a new vertex to VxV matrix the storage must be increases to (|V|+1) 2 . To achieve this we need to copy the whole matrix. Therefore the complexity is O(|V| 2 ).",
+    "There are two pointers in adjacency list first points to the front node and the other one points to the rear node.Thus insertion of a vertex can be done directly in O(1) time.",
+    "Adding an edge",
+    "To add an edge say from i to j, matrix[i][j] = 1 which requires O(1) time.",
+    "Similar to insertion of vertex here also two pointers are used pointing to the rear and front of the list. Thus, an edge can be inserted in O(1)time.",
+    "Removing a vertex",
+    "In order to remove a vertex from V*V matrix the storage must be decreased to |V| 2 from (|V|+1) 2 . To achieve this we need to copy the whole matrix. Therefore the complexity is O(|V| 2 ).",
+    "In order to remove a vertex, we need to search for the vertex which will require O(|V|) time in worst case, after this we need to traverse the edges and in worst case it will require O(|E|) time.Hence, total time complexity is O(|V|+|E|).",
+    "Removing an edge",
+    "To remove an edge say from i to j, matrix[i][j] = 0 which requires O(1) time.",
+    "To remove an edge traversing through the edges is required and in worst case we need to traverse through all the edges.Thus, the time complexity is O(|E|).",
+    "Querying",
+    "In order to find for an existing edge the content of matrix needs to be checked. Given two vertices say i and j matrix[i][j] can be checked in O(1) time.",
+    "In an adjacency list every vertex is associated with a list of adjacent vertices. For a given graph, in order to check for an edge we need to check for vertices adjacent to given vertex. A vertex can have at most O(|V|) neighbours and in worst can we would have to check for every adjacent vertex. Therefore, time complexity is O(|V|) ."
+   ]
+  },
+  {
+   "q": "Discuss the various methods of graph representation in data structures.",
+   "answer": [
+    "A graph can be represented in mainly two ways. They are:",
+    "Adjacency List: An Adjacency list is an array consisting of the address of all the linked lists. The first node of the linked list represents the vertex and the remaining lists connected to this node represents the vertices to which this node is connected. This representation can also be used to represent a weighted graph. The linked list can slightly be changed to even store the weight of the edge.",
+    "Adjacency Matrix: Adjacency Matrix is a 2D array of size V x V where V is the number of vertices in a graph. Let the 2D array be adj[][], a slot adj[i][j] = 1 indicates that there is an edge from vertex i to vertex j. Adjacency matrix for undirected graph is always symmetric. Adjacency Matrix is also used to represent weighted graphs. If adj[i][j] = w, then there is an edge from vertex i to vertex j with weight w.",
+    "Let us consider a graph to understand the adjacency list and adjacency matrix representation. Let the undirected graph be:",
+    "Adjacancy Matrix Adjacency List"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "An airline wants to build a system that stores the available direct flight routes between cities. Each route has a cost (ticket price). The system must allow quick retrieval of ticket prices between any two cities. Which graph representation is suitable here? Justify your answer.",
+   "answer": [
+    "Example Cities and Routes (with Cost)",
+    "Let’s consider a simple example with 4 cities:",
+    "A, B, C, D",
+    "And these flight routes (directed & weighted):",
+    "A → B = ₹1000",
+    "A → C = ₹2500",
+    "B → D = ₹1800",
+    "C → D = ₹1200",
+    "Graph Diagram",
+    "This is a directed weighted graph (edges have direction and weights).",
+    "Each city is a node.",
+    "Each direct flight is a directed edge with a cost.",
+    "Adjacency Matrix Representation",
+    "In an adjacency matrix, each cell (i, j) stores the cost of the edge from city i to city j, or 0 or ∞ if no edge exists.",
+    "From/To",
+    "A",
+    "B",
+    "C",
+    "D",
+    "A",
+    "0",
+    "1000",
+    "2500",
+    "∞",
+    "B",
+    "∞",
+    "0",
+    "∞",
+    "1800",
+    "C",
+    "∞",
+    "∞",
+    "0",
+    "1200",
+    "D",
+    "∞",
+    "∞",
+    "∞",
+    "0",
+    "Space Complexity: O(V²)",
+    "Advantage: Quick lookup in O(1) for any two cities' route cost (e.g., A to C = ₹2500)",
+    "Adjacency List Representation",
+    "Each city maintains a list of direct connections with their respective costs.",
+    "A → (B, ₹1000), (C, ₹2500)",
+    "B → (D, ₹1800)",
+    "C → (D, ₹1200)",
+    "D → (no outgoing flights)",
+    "Space Complexity: O(V + E)",
+    "Advantage: Space efficient for sparse graphs"
+   ]
+  }
+ ]
+}

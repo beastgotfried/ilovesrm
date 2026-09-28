@@ -1,0 +1,123 @@
+{
+ "course": "21CSS201T",
+ "code": "2121",
+ "unit": 2,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Tutorial",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "a) Segment × 16 + Offset",
+    "B": "b) Segment + Offset",
+    "C": "c) Segment × Offset",
+    "D": "d) Segment – Offset"
+   },
+   "answer": "A",
+   "answer_text": "a) Segment × 16 + Offset"
+  },
+  {
+   "q": "The Bus Interface Unit (BIU) in 8086 is responsible for:",
+   "options": {
+    "A": "Arithmetic operations",
+    "B": "Instruction execution",
+    "C": "Fetching instructions and data from memory",
+    "D": "Controlling interrupts"
+   },
+   "answer": "C",
+   "answer_text": "Fetching instructions and data from memory"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "a) 8-bit",
+    "B": "b) 16-bit",
+    "C": "c) 32-bit",
+    "D": "d) 64-bit"
+   },
+   "answer": "A",
+   "answer_text": "a) 8-bit"
+  },
+  {
+   "q": "The maximum size of the instruction queue in 8086 is:",
+   "options": {
+    "A": "4 bytes",
+    "B": "6 bytes",
+    "C": "8 bytes",
+    "D": "16 bytes"
+   },
+   "answer": "B",
+   "answer_text": "6 bytes"
+  },
+  {
+   "q": "In 8086, if CS = 2000H and IP = 1234H , the physical address of the next instruction is:",
+   "options": {
+    "A": "2000:1234 = 20001234H",
+    "B": "(2000H × 10H) + 1234H = 21234H",
+    "C": "(2000H × 100H) + 1234H = 212340H",
+    "D": "(2000H + 1234H) = 3234H"
+   },
+   "answer": "B",
+   "answer_text": "(2000H × 10H) + 1234H = 21234H"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the maximum memory addressing capacity of 8086?",
+   "answer": [
+    "8086 has a 20-bit address bus , allowing it to address up to 1 MB (2²⁰ bytes) of memory."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "8086 is a 16-bit microprocessor , meaning it can process 16-bit data at a time."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Describe the working of 8086 microprocessor with relevant examples.",
+   "answer": [
+    "The Intel 8086 is a 16-bit microprocessor introduced in 1978. It is widely used in early personal computers and forms the foundation of the x86 architecture. The working of 8086 can be explained through its architecture, operation, and example instructions.",
+    "1. Architecture of 8086",
+    "The 8086 has a 20-bit address bus and 16-bit data bus, which allows it to address up to 1 MB of memory. Its architecture is divided into two main units:",
+    "(a) Bus Interface Unit (BIU)",
+    "Responsible for address generation, instruction fetching, and queueing instructions.",
+    "Contains Segment Registers (CS, DS, SS, ES), Instruction Pointer (IP), and Instruction Queue (6 bytes).",
+    "Supports pipelining: while the Execution Unit is executing, BIU fetches the next instructions.",
+    "(b) Execution Unit (EU)",
+    "Executes the instructions fetched by BIU.",
+    "Contains ALU, General-purpose registers (AX, BX, CX, DX), Pointer/Index registers (SP, BP, SI, DI), and Flag register.",
+    "Decodes and executes instructions using operands from registers/memory.",
+    "2. Working of 8086",
+    "The working of 8086 can be understood in three main steps:",
+    "(a) Instruction Fetching (via BIU)",
+    "The BIU calculates the physical address using:",
+    "Physical Address=(Segment Register×16)+Offset\\text{Physical Address} = (\\text{Segment Register} \\times 16) + \\text{Offset}",
+    "Example: If CS = 1000H and IP = 2000H,",
+    "Physical Address=(1000H×10H)+2000H=12000H\\text{Physical Address} = (1000H \\times 10H) + 2000H = 12000H",
+    "(b) Instruction Queue & Pipelining",
+    "BIU uses a 6-byte instruction queue to prefetch instructions.",
+    "This allows overlap of fetching and execution → increases speed.",
+    "(c) Instruction Execution (via EU)",
+    "The EU decodes instructions and performs arithmetic, logic, data transfer, or control operations.",
+    "Results are stored back in registers or memory.",
+    "3. Example Instruction Execution",
+    "Example 1: Data Transfer",
+    "MOV AX, [5000H]",
+    "BIU forms physical address using DS and offset 5000H.",
+    "Data at that memory location is moved into register AX.",
+    "Example 2: Arithmetic Operation",
+    "ADD AX, BX",
+    "EU adds the content of BX to AX.",
+    "Flags (Zero, Carry, Sign, etc.) are updated in the flag register.",
+    "Example 3: Control Transfer (Branch)",
+    "JZ LABEL",
+    "If Zero flag = 1, control jumps to LABEL.",
+    "Otherwise, sequential execution continues."
+   ]
+  }
+ ]
+}

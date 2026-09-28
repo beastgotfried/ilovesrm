@@ -1,0 +1,92 @@
+{
+ "course": "21MAB201T",
+ "code": "2112",
+ "unit": 2,
+ "session": 11,
+ "slo": 2,
+ "slo_title": "Perform harmonic analysis to find the Fourier series for a function given by a set of numerical values in the interval (0, l).",
+ "mcq": [
+  {
+   "q": "For a function given numerically, which technique would you use to find its frequency components?",
+   "options": {
+    "A": "Harmonic analysis",
+    "B": "Direct integration",
+    "C": "Differentiation",
+    "D": "Taylor series expansion"
+   },
+   "answer": "A",
+   "answer_text": "Harmonic analysis"
+  },
+  {
+   "q": "The complex form of Fourier series is particularly useful in:",
+   "options": {
+    "A": "Electrical engineering and signal processing",
+    "B": "Pure mathematics only",
+    "C": "Heat conduction problems",
+    "D": "Mechanical vibration analysis"
+   },
+   "answer": "A",
+   "answer_text": "Electrical engineering and signal processing"
+  },
+  {
+   "q": "Which of the following combines Fourier series, half-range expansions, and Parseval's identity?",
+   "options": {
+    "A": "Complete Fourier analysis",
+    "B": "Partial differential equations",
+    "C": "Complex analysis",
+    "D": "Numerical integration"
+   },
+   "answer": "A",
+   "answer_text": "Complete Fourier analysis"
+  },
+  {
+   "q": "Parseval's identity is especially useful for calculating:",
+   "options": {
+    "A": "Power or energy in signals",
+    "B": "Maximum values of functions",
+    "C": "Derivatives of functions",
+    "D": "Integrals of products"
+   },
+   "answer": "A",
+   "answer_text": "Power or energy in signals"
+  },
+  {
+   "q": "When a function is defined on \\( (0, L) \\), the choice between sine and cosine series depends on:",
+   "options": {
+    "A": "The desired boundary behavior",
+    "B": "The complexity of the function",
+    "C": "The period of the function",
+    "D": "The smoothness of the function"
+   },
+   "answer": "A",
+   "answer_text": "The desired boundary behavior"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Given Fourier series } f(x) = \\frac{a_0}{2} + \\sum (a_n \\cos nx + b_n \\sin nx), \\text{ find total power using Parseval.}\\)",
+   "answer": [
+    "\\(\\text{Total power = } \\frac{1}{2\\pi}\\int_0^{2\\pi} [f(x)]^2 dx\\)",
+    "\\(\\text{By Parseval: } = \\frac{a_0^2}{4} + \\frac{1}{2}\\sum_{n=1}^{\\infty} (a_n^2 + b_n^2)\\)",
+    "\\(\\text{Each term } \\frac{1}{2}(a_n^2 + b_n^2) \\text{ is power in nth harmonic}\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Compare analytical Fourier coefficients vs harmonic analysis coefficients.}\\)",
+   "answer": [
+    "\\(\\text{Analytical: Exact integrals, for known functions}\\)",
+    "\\(\\text{Harmonic analysis: Approximate using numerical integration from data}\\)",
+    "\\(\\text{Harmonic analysis used when only discrete data available}\\)",
+    "\\(\\text{Accuracy depends on number of data points}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=\\begin{cases} 0, & -2",
+   "answer": [
+    "Step Marks Period =4, so \\(l=2\\) (1) Since even, \\(b_n=0\\) (1) \\(a_0=\\frac{2}{2}\\int_0^2 f(x)dx=2\\int_0^1(1-x)dx=1\\) (3) \\(a_n=\\frac{2}{2}\\int_0^2 f(x)\\cos\\frac{n\\pi x}{2}dx=2\\int_0^1(1-x)\\cos\\frac{n\\pi x}{2}dx=\\frac{8}{n^2\\pi^2}\\sin^2\\frac{n\\pi}{4}\\) (5) Thus, \\(f(x)=\\frac{1}{2}+\\frac{8}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\sin^2\\frac{n\\pi}{4}\\cos\\frac{n\\pi x}{2}\\) (5)"
+   ]
+  }
+ ]
+}

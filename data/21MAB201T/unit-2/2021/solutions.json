@@ -1,0 +1,93 @@
+{
+ "course": "21MAB201T",
+ "code": "2021",
+ "unit": 2,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Find the Fourier series expansion of a function defined in the interval (-π, π).",
+ "mcq": [
+  {
+   "q": "If \\( f(x) \\) is an even function on \\( (-\\pi, \\pi) \\), which Fourier coefficients vanish?",
+   "options": {
+    "A": "All \\( b_n = 0 \\)",
+    "B": "All \\( a_n = 0 \\)",
+    "C": "\\( a_0 = 0 \\)",
+    "D": "Both \\( a_n \\) and \\( b_n \\) vanish"
+   },
+   "answer": "A",
+   "answer_text": "All \\( b_n = 0 \\)"
+  },
+  {
+   "q": "For \\( f(x) = x \\) defined on \\( (-\\pi, \\pi) \\), what type of Fourier series does it have?",
+   "options": {
+    "A": "Sine series only",
+    "B": "Cosine series only",
+    "C": "Both sine and cosine terms",
+    "D": "Constant term only"
+   },
+   "answer": "A",
+   "answer_text": "Sine series only"
+  },
+  {
+   "q": "The function \\( f(x) = x^2 \\) on \\( (-\\pi, \\pi) \\) has which type of Fourier series?",
+   "options": {
+    "A": "Cosine series only",
+    "B": "Sine series only",
+    "C": "Both sine and cosine terms",
+    "D": "No Fourier series exists"
+   },
+   "answer": "A",
+   "answer_text": "Cosine series only"
+  },
+  {
+   "q": "For \\( f(x) \\) defined on \\( (-\\pi, \\pi) \\), at a point of discontinuity \\( x = c \\), the Fourier series converges to:",
+   "options": {
+    "A": "\\( \\frac{f(c^-) + f(c^+)}{2} \\)",
+    "B": "\\( f(c^-) \\)",
+    "C": "\\( f(c^+) \\)",
+    "D": "0"
+   },
+   "answer": "A",
+   "answer_text": "\\( \\frac{f(c^-) + f(c^+)}{2} \\)"
+  },
+  {
+   "q": "For \\( f(x) \\) defined on \\( (-\\pi, \\pi) \\), the Fourier coefficient \\( a_n \\) is:",
+   "options": {
+    "A": "\\( a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos(nx) \\, dx \\)",
+    "B": "\\( a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\sin(nx) \\, dx \\)",
+    "C": "\\( a_n = \\frac{1}{2\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos(nx) \\, dx \\)",
+    "D": "\\( a_n = \\frac{2}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos(nx) \\, dx \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos(nx) \\, dx \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{For odd function in } (-\\pi, \\pi), \\text{ what happens to Fourier coefficients?}\\)",
+   "answer": [
+    "\\(\\text{For odd } f(x), f(-x) = -f(x)\\)",
+    "\\(\\text{Then } a_0 = 0, a_n = 0 \\text{ (cosine coefficients vanish)}\\)",
+    "\\(b_n = \\frac{2}{\\pi} \\int_0^{\\pi} f(x) \\sin nx dx\\)",
+    "\\(\\text{Series becomes sine series: } f(x) = \\sum_{n=1}^{\\infty} b_n \\sin nx\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Write Fourier series for function in } (-\\pi, \\pi) \\text{ with coefficients formulas.}\\)",
+   "answer": [
+    "\\(f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} (a_n \\cos nx + b_n \\sin nx)\\)",
+    "\\(\\text{where: } a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) dx\\)",
+    "\\(a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos nx dx\\)",
+    "\\(b_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\sin nx dx\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=|\\sin x|\\) in \\((-\\pi,\\pi)\\).",
+   "answer": [
+    "Step Marks Since \\(f(x)\\) is even, \\(b_n=0\\) (2) \\(a_0=\\frac{2}{\\pi}\\int_0^{\\pi}\\sin x\\,dx=\\frac{4}{\\pi}\\) (2) \\(a_n=\\frac{2}{\\pi}\\int_0^{\\pi}\\sin x\\cos nx\\,dx=\\frac{2}{\\pi}\\cdot\\frac{1+(-1)^n}{1-n^2}\\) for \\(n\\neq1\\) (4) For \\(n=1\\): \\(a_1=0\\) (2) Thus, \\(|\\sin x|=\\frac{2}{\\pi}-\\frac{4}{\\pi}\\sum_{n=1}^{\\infty}\\frac{\\cos 2nx}{4n^2-1}\\) (5)"
+   ]
+  }
+ ]
+}

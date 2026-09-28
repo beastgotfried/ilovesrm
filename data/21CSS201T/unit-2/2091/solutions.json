@@ -1,0 +1,134 @@
+{
+ "course": "21CSS201T",
+ "code": "2091",
+ "unit": 2,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Explain instruction sequencing with simple examples.",
+ "mcq": [
+  {
+   "q": "The component responsible for sequencing instructions in a CPU is:",
+   "options": {
+    "A": "Control Unit",
+    "B": "ALU",
+    "C": "Register File",
+    "D": "Cache"
+   },
+   "answer": "A",
+   "answer_text": "Control Unit"
+  },
+  {
+   "q": "Instruction sequencing in computer architecture mainly ensures:",
+   "options": {
+    "A": "Instructions are executed in the correct order",
+    "B": "Registers are reset after every instruction",
+    "C": "Memory is cleared before execution",
+    "D": "The program counter is always zero"
+   },
+   "answer": "A",
+   "answer_text": "Instructions are executed in the correct order"
+  },
+  {
+   "q": "Which of the following allows non-sequential instruction execution ?",
+   "options": {
+    "A": "Sequential execution model",
+    "B": "Branch instructions",
+    "C": "Program counter increment",
+    "D": "Clock cycles"
+   },
+   "answer": "B",
+   "answer_text": "Branch instructions"
+  },
+  {
+   "q": "Which register is most important in instruction sequencing?",
+   "options": {
+    "A": "MAR (Memory Address Register)",
+    "B": "MDR (Memory Data Register)",
+    "C": "PC (Program Counter)",
+    "D": "IR (Instruction Register)"
+   },
+   "answer": "C",
+   "answer_text": "PC (Program Counter)"
+  },
+  {
+   "q": "If the Program Counter (PC) currently holds address 2000 , and instructions are 4 bytes long, after fetching one instruction the PC will point to:",
+   "options": {
+    "A": "2000",
+    "B": "2001",
+    "C": "2004",
+    "D": "2008"
+   },
+   "answer": "C",
+   "answer_text": "2004"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "The control unit interprets the opcode and decides what actions (ALU operation, memory access, register update) are needed."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Instruction flow is the sequence in which a computer fetches, decodes, and executes instructions, controlled mainly by the Program Counter (PC) ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Describe the instruction flow during program execution. Explain with the help of different steps and relevant examples.",
+   "answer": [
+    "Instruction flow refers to the sequence of operations carried out by the CPU to execute a program stored in memory. It involves several coordinated steps that ensure instructions are fetched, decoded, and executed in the correct order.",
+    "The flow can be explained in the following stages:",
+    "1. Program Counter (PC) Initialization",
+    "The Program Counter (PC) holds the address of the next instruction to be executed.",
+    "At the beginning of program execution, the PC points to the first instruction in memory.",
+    "Example: If the first instruction is stored at memory location 2000H, then PC = 2000H.",
+    "2. Instruction Fetch (IF)",
+    "The CPU fetches the instruction from the memory address stored in the PC.",
+    "The instruction is loaded into the Instruction Register (IR).",
+    "After fetching, the PC is incremented to point to the next instruction.",
+    "Example: If instruction at 2000H is MOV A, B, then IR = MOV A, B, and PC updates to 2001H.",
+    "3. Instruction Decode (ID)",
+    "The Control Unit decodes the instruction present in IR.",
+    "It identifies: Operation (e.g., ADD, MOV, LOAD) Addressing mode (immediate, direct, indirect, etc.) Operands (registers/memory involved).",
+    "Operation (e.g., ADD, MOV, LOAD)",
+    "Addressing mode (immediate, direct, indirect, etc.)",
+    "Operands (registers/memory involved).",
+    "Example: ADD R1, R2 → operation = ADD, source operand = R2, destination operand = R1.",
+    "4. Operand Fetch (OF)",
+    "If the instruction needs data from memory or registers, the CPU fetches operands.",
+    "Addressing mode decides how the operand is accessed (immediate, direct, indirect, etc.).",
+    "Example: MOV A, 5000H → operand is at memory location 5000H, so CPU reads value from that address.",
+    "5. Instruction Execution (EX)",
+    "The Arithmetic Logic Unit (ALU) or relevant hardware executes the instruction.",
+    "Operations may include arithmetic (ADD, SUB), logical (AND, OR), data transfer, or control (JUMP, CALL).",
+    "Example: ADD R1, R2 → ALU adds contents of R2 to R1.",
+    "6. Result Write-Back (WB)",
+    "The result of the operation is written back to the destination register or memory.",
+    "Example: After ADD R1, R2, the result is stored in R1.",
+    "7. Program Counter Update & Sequencing",
+    "Normally, PC increments sequentially to the next instruction.",
+    "For branching instructions (e.g., JUMP, CALL, RETURN), the PC is updated with a new target address.",
+    "This allows conditional and loop execution.",
+    "Example:",
+    "JMP 3000H → PC = 3000H (non-sequential execution).",
+    "BEQ LABEL → PC changes only if condition = TRUE.",
+    "8. Repeat Cycle",
+    "The fetch–decode–execute cycle repeats until the program ends (HALT instruction) or control is transferred elsewhere.",
+    "Instruction Flow Example (Simple Program)",
+    "2000H: LOAD R1, 5000H",
+    "2001H: ADD R1, R2",
+    "2002H: STORE R1, 6000H",
+    "2003H: HALT",
+    "Execution Flow:",
+    "PC = 2000H → Fetch LOAD → R1 ← M[5000H]",
+    "PC = 2001H → Fetch ADD → R1 ← R1 + R2",
+    "PC = 2002H → Fetch STORE → M[6000H] ← R1",
+    "PC = 2003H → Fetch HALT → Stop execution."
+   ]
+  }
+ ]
+}

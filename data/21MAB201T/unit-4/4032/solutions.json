@@ -1,0 +1,92 @@
+{
+ "course": "21MAB201T",
+ "code": "4032",
+ "unit": 4,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Utilize Fourier transform results to evaluate improper integrals",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "F(s+4)",
+    "B": "F(s-4)",
+    "C": "F(4s)",
+    "D": "F(s/4)"
+   },
+   "answer": "B",
+   "answer_text": "F(s-4)"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": []
+  },
+  {
+   "q": "\\(\\text{Find the Fourier transform of } f(x) = \\begin{cases} 1-x^2 & |x| \\le 1 \\\\ 0 & |x| > 1 \\end{cases}.\\)",
+   "answer": [
+    "\\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-1}^{1} (1-x^2) e^{i s x} dx\\)",
+    "\\(\\text{Use Euler's formula and even/odd symmetry: integral of odd part vanishes}\\)",
+    "\\(= \\frac{1}{\\sqrt{2\\pi}} \\cdot 2 \\int_{0}^{1} (1-x^2) \\cos(s x) dx\\)",
+    "\\(\\text{Integrate by parts or use standard integral formula}\\)",
+    "\\(= \\frac{4}{\\sqrt{2\\pi}} \\cdot \\frac{\\sin s - s \\cos s}{s^3}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "",
+   "answer": [
+    "1. Apply the definition of Fourier transform",
+    "2. Integrate and obtain F(s)",
+    "3. Take Inverse Fourier transform to F(s)",
+    "4. Obtain the answer \\(-\\frac{3\\pi }{16}\\)"
+   ]
+  }
+ ]
+}

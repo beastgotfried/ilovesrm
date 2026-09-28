@@ -1,0 +1,192 @@
+{
+ "course": "21CSC201J",
+ "code": "5071",
+ "unit": 5,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Implementation of Minimal Spanning Tree",
+ "mcq": [
+  {
+   "q": "When implementing Prim’s algorithm using a priority queue, which operation has the highest time complexity",
+   "options": {
+    "A": "Extracting the minimum vertex",
+    "B": "Relaxing the edges",
+    "C": "Inserting a new edge",
+    "D": "Sorting the edges"
+   },
+   "answer": "A",
+   "answer_text": "Extracting the minimum vertex"
+  },
+  {
+   "q": "What is the time complexity of Kruskal’s algorithm, assuming the Union-Find structure with path compression is used",
+   "options": {
+    "A": "O(V + E)",
+    "B": "O(E log V)",
+    "C": "O(V log V)",
+    "D": "O(V²)"
+   },
+   "answer": "B",
+   "answer_text": "O(E log V)"
+  },
+  {
+   "q": "In the context of Kruskal’s algorithm, which data structure is primarily used to avoid cycles",
+   "options": {
+    "A": "Stack",
+    "B": "Queue",
+    "C": "Union-Find (Disjoint Set)",
+    "D": "Binary Heap"
+   },
+   "answer": "C",
+   "answer_text": "Union-Find (Disjoint Set)"
+  },
+  {
+   "q": "Which data structure is used in Prim’s algorithm to efficiently get the minimum weight edge",
+   "options": {
+    "A": "Binary Search Tree",
+    "B": "Priority Queue (Min-Heap)",
+    "C": "Stack",
+    "D": "Hash Map"
+   },
+   "answer": "B",
+   "answer_text": "Priority Queue (Min-Heap)"
+  },
+  {
+   "q": "In the context of Kruskal’s algorithm, which data structure is primarily used to avoid cycles",
+   "options": {
+    "A": "Stack",
+    "B": "Queue",
+    "C": "Union-Find (Disjoint Set)",
+    "D": "Binary Heap"
+   },
+   "answer": "C",
+   "answer_text": "Union-Find (Disjoint Set)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Discuss about the application of Minimum Spanning Tree.",
+   "answer": [
+    "Applications of Minimum Spanning Tree",
+    "The following are the applications of minimum spanning tree in data structures:",
+    "A Minimum Spanning Tree is used for designing telecommunication networks and water supply networks.",
+    "For designing Local Area Networks.",
+    "To solve the Traveling salesman problem.",
+    "Real-time face tracking and verification (i.e. locating human faces in a video stream).",
+    "Minimum spanning trees can also be used to describe financial markets.",
+    "Handwriting recognition of mathematical expressions.",
+    "Curvilinear feature extraction in computer vision.",
+    "For building or Connecting the roads among cities or villages at a minimal cost.",
+    "Minimum Spanning Trees are used for clustering i.e. grouping of similar objects under one category and distinguishing from other categories."
+   ]
+  },
+  {
+   "q": "Summarizing the key differences between Prim’s and Kruskal’s algorithms for finding the Minimum Spanning Tree (MST).",
+   "answer": [
+    "Feature",
+    "Prim’s Algorithm",
+    "Kruskal’s Algorithm",
+    "Approach",
+    "Vertex-based, grows the MST one vertex at a time",
+    "Edge-based, adds edges in increasing order of weight",
+    "Data Structure",
+    "Priority queue (min-heap)",
+    "Union-Find data structure",
+    "Graph Representation",
+    "Adjacency matrix or adjacency list",
+    "Edge list",
+    "Initialization",
+    "Starts from an arbitrary vertex",
+    "Starts with all vertices as separate trees (forest)",
+    "Edge Selection",
+    "Chooses the minimum weight edge from the connected vertices",
+    "Chooses the minimum weight edge from all edges",
+    "Cycle Management",
+    "Not explicitly managed; grows connected component",
+    "Uses Union-Find to avoid cycles",
+    "Complexity",
+    "O(V^2) for adjacency matrix, O((E + V) log V) with a priority queue",
+    "O(E log E) or O(E log V), due to edge sorting",
+    "Suitable for",
+    "Dense graphs",
+    "Sparse graphs",
+    "Implementation Complexity",
+    "Relatively simpler in dense graphs",
+    "More complex due to cycle management",
+    "Parallelism",
+    "Difficult to parallelize",
+    "Easier to parallelize edge sorting and union operations",
+    "Memory Usage",
+    "More memory for priority queue",
+    "Less memory if edges can be sorted externally",
+    "Example Use Cases",
+    "Network design, clustering with dense connections",
+    "Road networks, telecommunications with sparse connections",
+    "Starting Point",
+    "Requires a starting vertex",
+    "No specific starting point, operates on global edges",
+    "Optimal for",
+    "Dense graphs where adjacency list is used",
+    "Sparse graphs where edge list is efficient"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A company is planning to lay down a high-speed optical cable network connecting 9 data centers, labeled from 0 to 8, with various connection costs between them as shown in the graph below: The goal is to connect all data centers with minimum total wiring cost, ensuring that all centers are connected directly or indirectly and no cycles are formed in the connection. Tasks 1.Using Kruskal’s Algorithm, determine the sequence of edges chosen for the Minimum Spanning Tree (MST). Write the pseudocode and explain how the edges are selected based on weights and cycle checking using Union-Find (Disjoint Set). 2.Using Prim’s Algorithm, determine the MST starting from node 0. Write the pseudocode and explain the steps to pick the next minimum cost edge that expands the tree without forming a cycle.",
+   "answer": [
+    "Kruskal’s Pseudocode",
+    "KRUSKAL(G):",
+    "MST = empty set",
+    "Sort all edges by increasing weight",
+    "Initialize Union-Find (Disjoint Sets) for cycle checking",
+    "For each edge (u, v) in sorted list:",
+    "if FIND(u) ≠ FIND(v): // No cycle",
+    "Add (u, v) to MST",
+    "UNION(u, v)",
+    "Return MST",
+    "Steps",
+    "Step 1: Sort all edges by weight: (1, 2), (5, 6), (6, 7), (2, 5), (2, 3), (7, 8), (6, 8), (0, 1), (0, 7), (3, 4), (4, 5), (1, 2), (1, 7), (3, 5)",
+    "Step 2: Add edges one by one, ensuring no cycle using Union-Find",
+    "Selected edges:",
+    "(6, 7) = 1",
+    "(2, 8) = 2",
+    "(5, 6) = 2",
+    "(2, 5) = 4",
+    "(0, 1) = 4",
+    "(2, 3) = 7",
+    "(7, 8) = 7",
+    "(3, 4) = 9",
+    "Total cost = 1 + 2 + 2 + 4 + 4 + 7 + 7 + 9 = 36",
+    "Final MST Edges:",
+    "(6-7), (2-8), (5-6), (2-5), (0-1), (2-3), (7-8), (3-4)",
+    "Prim’s Pseudocode:",
+    "PRIM(G, start):",
+    "key[v] = ∞ for all vertices",
+    "key[start] = 0",
+    "parent[v] = -1",
+    "mstSet[v] = false for all",
+    "Repeat (V-1) times:",
+    "u = vertex with min key not in mstSet",
+    "Include u in mstSet",
+    "For each adjacent v:",
+    "if v not in mstSet and weight(u,v) < key[v]:",
+    "parent[v] = u",
+    "key[v] = weight(u,v)",
+    "Return MST via parent[]",
+    "Steps",
+    "Start from vertex 0",
+    "Iteration-wise selection:",
+    "Pick 0 → (0-1)=4, (0-7)=8 Pick 1 (key=4)",
+    "Pick 2 (1-2)=8 But (2-8)=2, (2-5)=4 Update",
+    "Pick 8 (key=2)",
+    "Pick 5 (key=4)",
+    "Pick 6 (5-6)=2",
+    "Pick 7 (6-7)=1",
+    "Pick 3 (2-3)=7",
+    "Pick 4 (3-4)=9",
+    "Final MST Edges: (0-1), (2-8), (5-6), (6-7), (5-2), (2-3), (3-4)",
+    "Total cost = 36"
+   ]
+  }
+ ]
+}

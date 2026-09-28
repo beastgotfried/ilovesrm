@@ -1,0 +1,133 @@
+{
+ "course": "21CSS201T",
+ "code": "3112",
+ "unit": 3,
+ "session": 11,
+ "slo": 2,
+ "slo_title": "Perform floating point arithmetic operations and evaluate their integration in processor design with considerations for precision, speed, and hardware efficiency.",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Add the bias to the exponent",
+    "B": "Normalize the decimal number to binary scientific form",
+    "C": "Convert exponent to binary",
+    "D": "Store the fraction bits"
+   },
+   "answer": "B",
+   "answer_text": "Normalize the decimal number to binary scientific form"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "127",
+    "B": "255",
+    "C": "1023",
+    "D": "2047"
+   },
+   "answer": "C",
+   "answer_text": "1023"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "8",
+    "B": "10",
+    "C": "11",
+    "D": "23"
+   },
+   "answer": "A",
+   "answer_text": "8"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "127",
+    "B": "255",
+    "C": "1023",
+    "D": "2047"
+   },
+   "answer": "C",
+   "answer_text": "1023"
+  },
+  {
+   "q": "0 10000001 10100000000000000000000 ?",
+   "options": {
+    "A": "6.5",
+    "B": "5.25",
+    "C": "3.625",
+    "D": "13.0"
+   },
+   "answer": "A",
+   "answer_text": "6.5"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How many bits are used for the exponent field in IEEE 754 single precision, and what is its bias value?",
+   "answer": [
+    "8 bits for the exponent, with a bias of 127"
+   ]
+  },
+  {
+   "q": "When the exponent bits are all zeros but the mantissa is non-zero, what type of number does that represent?",
+   "answer": [
+    "A denormalized (subnormal) number"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Convert the following numbers to IEEE‑754 single-precision 12.375 0.75",
+   "answer": [
+    "(I)",
+    "Sign bit 12.375 is positive ⇒ sign bit = 0 .",
+    "Sign bit 12.375 is positive ⇒ sign bit = 0 .",
+    "Convert to binary & normalize Integer part: 12 ⇒ 1100₂ Fractional part: 0.375 ⇒ 0.375 × 2 = 0.75 → 0 0.75 × 2 = 1.5 → 1 0.5 × 2 = 1.0 → 1 ⇒ 0.011₂ Combined: 1100.011₂ Normalize: move binary point so form is 1.xxxxx₂ × 2^exp ⇒ 1.100011₂ × 2³",
+    "Convert to binary & normalize",
+    "Integer part: 12 ⇒ 1100₂",
+    "Integer part: 12 ⇒ 1100₂",
+    "Fractional part: 0.375 ⇒ 0.375 × 2 = 0.75 → 0 0.75 × 2 = 1.5 → 1 0.5 × 2 = 1.0 → 1 ⇒ 0.011₂",
+    "Fractional part: 0.375 ⇒",
+    "Combined: 1100.011₂",
+    "Combined: 1100.011₂",
+    "Normalize: move binary point so form is 1.xxxxx₂ × 2^exp ⇒ 1.100011₂ × 2³",
+    "Normalize: move binary point so form is 1.xxxxx₂ × 2^exp ⇒ 1.100011₂ × 2³",
+    "Exponent (8 bits, biased) Actual exponent = 3 Bias = 127 ⇒ stored exponent = 3 + 127 = 130 ⇒ in binary: 10000010₂",
+    "Exponent (8 bits, biased)",
+    "Actual exponent = 3",
+    "Actual exponent = 3",
+    "Bias = 127 ⇒ stored exponent = 3 + 127 = 130 ⇒ in binary: 10000010₂",
+    "Bias = 127 ⇒ stored exponent = 3 + 127 = 130 ⇒ in binary: 10000010₂",
+    "Mantissa (fraction bits) From normalized form: 1.100011₂ , drop the leading 1 ⇒ .100011 Pad to 23 bits: 10001100000000000000000",
+    "Mantissa (fraction bits)",
+    "From normalized form: 1.100011₂ , drop the leading 1 ⇒ .100011",
+    "From normalized form: 1.100011₂ , drop the leading 1 ⇒ .100011",
+    "Pad to 23 bits: 10001100000000000000000",
+    "Pad to 23 bits: 10001100000000000000000",
+    "Assemble final 32-bit pattern Sign | Exponent | Mantissa 0 | 10000010 | 10001100000000000000000 Full binary: 0 10000010 10001100000000000000000 Hexadecimal: 0x41460000",
+    "Assemble final 32-bit pattern",
+    "Sign | Exponent | Mantissa 0 | 10000010 | 10001100000000000000000",
+    "Sign | Exponent | Mantissa 0 | 10000010 | 10001100000000000000000",
+    "Full binary: 0 10000010 10001100000000000000000",
+    "Full binary: 0 10000010 10001100000000000000000",
+    "Hexadecimal: 0x41460000",
+    "Hexadecimal: 0x41460000",
+    "(II)",
+    "Convert to Binary: 0.75 = 0.11 in binary.",
+    "Convert to Binary: 0.75 = 0.11 in binary.",
+    "Normalize: 1.1 × 2^-1.",
+    "Normalize: 1.1 × 2^-1.",
+    "Sign Bit: 0 (positive number).",
+    "Sign Bit: 0 (positive number).",
+    "Exponent: -1 + 127 (bias) = 126 → 01111110 in binary.",
+    "Exponent: -1 + 127 (bias) = 126 → 01111110 in binary.",
+    "Fraction: The binary digits after the point: 100000... (padded to 23 bits).",
+    "Fraction: The binary digits after the point: 100000... (padded to 23 bits).",
+    "Final 32-bit representation:",
+    "0 01111110 10000000000000000000000",
+    "In hexadecimal: 3F400000"
+   ]
+  }
+ ]
+}

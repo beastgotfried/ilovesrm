@@ -1,0 +1,132 @@
+{
+ "course": "21CSC202J",
+ "code": "4082",
+ "unit": 4,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Define thrashing and explain its causes",
+ "mcq": [
+  {
+   "q": "To reduce thrashing, the system can:",
+   "options": {
+    "A": "Increase degree of multiprogramming",
+    "B": "Decrease number of pages",
+    "C": "Use Working Set or Page Fault Frequency (PFF) model",
+    "D": "Switch to FIFO"
+   },
+   "answer": "C",
+   "answer_text": "Use Working Set or Page Fault Frequency (PFF) model"
+  },
+  {
+   "q": "A limitation of counting-based algorithms like LFU/MFU is:",
+   "options": {
+    "A": "They ignore frequency",
+    "B": "They require maintaining counters for each page",
+    "C": "They cause page faults",
+    "D": "They don't work in paging systems"
+   },
+   "answer": "B",
+   "answer_text": "They require maintaining counters for each page"
+  },
+  {
+   "q": "What is the main difference between LRU and Second-Chance algorithms?",
+   "options": {
+    "A": "Second-Chance uses reference bit, LRU uses exact order",
+    "B": "LRU is faster",
+    "C": "Second-Chance increases page faults",
+    "D": "LRU replaces the most recently used page"
+   },
+   "answer": "A",
+   "answer_text": "Second-Chance uses reference bit, LRU uses exact order"
+  },
+  {
+   "q": "Which of the following is an LRU approximation algorithm?",
+   "options": {
+    "A": "Optimal Replacement",
+    "B": "Second-Chance (Clock) Algorithm",
+    "C": "FIFO",
+    "D": "Working Set Model"
+   },
+   "answer": "B",
+   "answer_text": "Second-Chance (Clock) Algorithm"
+  },
+  {
+   "q": "Thrashing leads to:",
+   "options": {
+    "A": "Increased CPU utilization",
+    "B": "Decreased page faults",
+    "C": "Reduced performance due to high paging activity",
+    "D": "Increased memory capacity"
+   },
+   "answer": "C",
+   "answer_text": "Reduced performance due to high paging activity"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is LRU approximation? Name one method used for it.",
+   "answer": [
+    "LRU Approximation is a method to implement Least Recently Used behavior without full tracking of page access history (which is costly). One method is the Second-Chance (Clock) Algorithm , where each page is given a second chance before replacement based on a reference bit . Mark Allocation:",
+    "LRU Approximation is a method to implement Least Recently Used behavior without full tracking of page access history (which is costly). One method is the Second-Chance (Clock) Algorithm , where each page is given a second chance before replacement based on a reference bit .",
+    "Mark Allocation:",
+    "Concept of LRU approximation – 50%",
+    "Concept of LRU approximation – 50%",
+    "Example method (e.g., Clock) – 30%",
+    "Example method (e.g., Clock) – 30%",
+    "Use of reference bit – 20%",
+    "Use of reference bit – 20%"
+   ]
+  },
+  {
+   "q": "What are the causes of thrashing?",
+   "answer": [
+    "Too many processes competing for memory",
+    "Too many processes competing for memory",
+    "Processes have high page fault rates",
+    "Processes have high page fault rates",
+    "Degree of multiprogramming is too high",
+    "Degree of multiprogramming is too high",
+    "Insufficient frames per process",
+    "Insufficient frames per process",
+    "Mark Allocation:",
+    "At least 3 valid causes – 60%",
+    "Use of correct terminology – 40%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "What is thrashing in virtual memory management? Explain the causes , symptoms , effects , and methods to prevent thrashing . Support your answer with a diagram or table",
+   "answer": [
+    "Thrashing is a condition in a virtual memory system where a process spends more time swapping pages in and out of memory (handling page faults ) than executing actual instructions. (20%)",
+    "Thrashing occurs when:",
+    "The degree of multiprogramming (number of processes in memory) is too high.",
+    "The degree of multiprogramming (number of processes in memory) is too high.",
+    "Each process doesn’t get enough frames to hold its working set (the pages it frequently uses).",
+    "Each process doesn’t get enough frames to hold its working set (the pages it frequently uses).",
+    "This causes frequent page faults , leading to constant disk I/O and very poor CPU utilization .",
+    "This causes frequent page faults , leading to constant disk I/O and very poor CPU utilization .",
+    "A working set is the set of pages a process is actively using.",
+    "A working set is the set of pages a process is actively using.",
+    "If the OS does not allocate enough frames for the working set, the process will thrash .",
+    "If the OS does not allocate enough frames for the working set, the process will thrash .",
+    "High page fault rate",
+    "High page fault rate",
+    "Low CPU utilization",
+    "Low CPU utilization",
+    "High disk activity",
+    "High disk activity",
+    "System becomes unresponsive",
+    "System becomes unresponsive",
+    "Use Working Set Model : Track and ensure enough frames for active pages",
+    "Use Working Set Model : Track and ensure enough frames for active pages",
+    "Page Fault Frequency (PFF) control: Adjust degree of multiprogramming dynamically",
+    "Page Fault Frequency (PFF) control: Adjust degree of multiprogramming dynamically",
+    "Reduce multiprogramming : Remove processes temporarily",
+    "Reduce multiprogramming : Remove processes temporarily",
+    "Use better page replacement algorithms (like LRU)",
+    "Use better page replacement algorithms (like LRU)"
+   ]
+  }
+ ]
+}

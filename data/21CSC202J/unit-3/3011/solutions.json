@@ -1,0 +1,107 @@
+{
+ "course": "21CSC202J",
+ "code": "3011",
+ "unit": 3,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Define CPU scheduling and its purpose in multiprogramming systems",
+ "mcq": [
+  {
+   "q": "What does dispatch latency refer to?",
+   "options": {
+    "A": "Time taken for CPU to be idle",
+    "B": "Time taken for CPU to switch from I/O to processing",
+    "C": "Time taken to stop one process and start another",
+    "D": "Time taken by CPU to boot"
+   },
+   "answer": "C",
+   "answer_text": "Time taken to stop one process and start another"
+  },
+  {
+   "q": "In which case is CPU scheduling said to be non-preemptive?",
+   "options": {
+    "A": "A process switches from ready to running",
+    "B": "A process is interrupted by a higher priority process",
+    "C": "A process terminates after completing CPU burst",
+    "D": "A process moves from waiting to ready"
+   },
+   "answer": "C",
+   "answer_text": "A process terminates after completing CPU burst"
+  },
+  {
+   "q": "Which of the following is minimized in efficient CPU scheduling?",
+   "options": {
+    "A": "CPU utilization",
+    "B": "Throughput",
+    "C": "Waiting Time",
+    "D": "Process ID"
+   },
+   "answer": "C",
+   "answer_text": "Waiting Time"
+  },
+  {
+   "q": "What is the unit of measurement for throughput?",
+   "options": {
+    "A": "Time taken for dispatch",
+    "B": "Processes per unit time",
+    "C": "CPU idle percentage",
+    "D": "Number of context switches"
+   },
+   "answer": "B",
+   "answer_text": "Processes per unit time"
+  },
+  {
+   "q": "What does CPU Utilization aim to achieve?",
+   "options": {
+    "A": "Maximize CPU idle time",
+    "B": "Minimize process count",
+    "C": "Keep the CPU as busy as possible",
+    "D": "Increase dispatch latency"
+   },
+   "answer": "C",
+   "answer_text": "Keep the CPU as busy as possible"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between preemptive and non-preemptive scheduling with examples.",
+   "answer": [
+    "Preemptive Scheduling : The CPU can be taken away from a running process if a higher priority process arrives. 30%",
+    "Preemptive Scheduling : The CPU can be taken away from a running process if a higher priority process arrives. 30%",
+    "Non-preemptive Scheduling : Once a process is allocated the CPU, it runs till termination or moves to waiting. 30%",
+    "Non-preemptive Scheduling : Once a process is allocated the CPU, it runs till termination or moves to waiting. 30%",
+    "One valid example each for preemptive and non-preemptive (e.g., Round Robin vs. FCFS ): 40%",
+    "One valid example each for preemptive and non-preemptive (e.g., Round Robin vs. FCFS ): 40%"
+   ]
+  },
+  {
+   "q": "Define \"Turnaround Time\" and mention its formula.",
+   "answer": [
+    "Definition of Turnaround Time (in own words): \"It is the total time taken to execute a process from the time it is submitted until it is completed. 50%",
+    "Definition of Turnaround Time (in own words): \"It is the total time taken to execute a process from the time it is submitted until it is completed. 50%",
+    "Correct formula: Turnaround Time = Completion Time – Arrival Time 50%",
+    "Correct formula: Turnaround Time = Completion Time – Arrival Time 50%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the various CPU scheduling criteria and indicate which are maximized and which are minimized. Provide real-world analogies wherever applicable.",
+   "answer": [
+    "Maximized Criteria: 40%",
+    "CPU Utilization – Ensures CPU is always working. Analogy: Like a busy cashier in a supermarket.",
+    "CPU Utilization – Ensures CPU is always working. Analogy: Like a busy cashier in a supermarket.",
+    "Throughput – Number of processes completed per unit time. Analogy: Number of customers served in a given hour.",
+    "Throughput – Number of processes completed per unit time. Analogy: Number of customers served in a given hour.",
+    "Minimized Criteria: 40%",
+    "Waiting Time – Time spent in the ready queue.",
+    "Waiting Time – Time spent in the ready queue.",
+    "Turnaround Time – Total time from submission to completion.",
+    "Turnaround Time – Total time from submission to completion.",
+    "Response Time – Time until the first response is given.",
+    "Response Time – Time until the first response is given.",
+    "Real-World Example: 20% Imagine a bank with several counters. Efficient scheduling ensures minimum waiting time for customers (processes), fast response by the teller (CPU), and maximum number of customers served (throughput)."
+   ]
+  }
+ ]
+}

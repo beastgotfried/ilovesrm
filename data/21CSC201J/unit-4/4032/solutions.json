@@ -1,0 +1,152 @@
+{
+ "course": "21CSC201J",
+ "code": "4032",
+ "unit": 4,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Tree Traversals - In-Order Traversal",
+ "mcq": [
+  {
+   "q": "In a BST, which traversal gives nodes in sorted order?",
+   "options": {
+    "A": "Pre-order",
+    "B": "In-order",
+    "C": "Post-order",
+    "D": "Level-order"
+   },
+   "answer": "B",
+   "answer_text": "In-order"
+  },
+  {
+   "q": "Which of the following tree traversal algorithms uses a queue?",
+   "options": {
+    "A": "In-Order",
+    "B": "Pre-Order",
+    "C": "Post-Order",
+    "D": "Level-Order"
+   },
+   "answer": "D",
+   "answer_text": "Level-Order"
+  },
+  {
+   "q": "What is the order of visiting nodes in an Inorder traversal?",
+   "options": {
+    "A": "Root → Left → Right",
+    "B": "Left → Root → Right",
+    "C": "Right → Root → Left",
+    "D": "Root → Right → Left"
+   },
+   "answer": "B",
+   "answer_text": "Left → Root → Right"
+  },
+  {
+   "q": "Which of the following traversal sequences is valid for In-Order traversal of a BST?",
+   "options": {
+    "A": "40, 30, 50, 20, 10, 60",
+    "B": "60, 50, 40, 30, 20, 10",
+    "C": "50, 40, 30, 20, 10, 60",
+    "D": "10, 20, 30, 40, 50, 60"
+   },
+   "answer": "D",
+   "answer_text": "10, 20, 30, 40, 50, 60"
+  },
+  {
+   "q": "If the In-Order traversal of a Binary Search Tree (BST) is {15, 25, 30, 40, 50, 60}, what is the root node?",
+   "options": {
+    "A": "15",
+    "B": "30",
+    "C": "40",
+    "D": "60"
+   },
+   "answer": "C",
+   "answer_text": "40"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is Tree traversal. Explain its types of traversal.",
+   "answer": [
+    "The term 'tree traversal' means traversing or visiting each node of a tree. There is a single way to traverse the linear data structure such as linked list, queue, and stack. Whereas, there are multiple ways to traverse a tree that are listed as follows -",
+    "Preorder traversal",
+    "Inorder traversal",
+    "Postorder traversal",
+    "Inorder traversal",
+    "First, visit all the nodes in the left subtree",
+    "Then the root node",
+    "Visit all the nodes in the right subtree",
+    "inorder(root->left)",
+    "display(root->data)",
+    "inorder(root->right)",
+    "Preorder traversal",
+    "Visit root node",
+    "Visit all the nodes in the left subtree",
+    "Visit all the nodes in the right subtree",
+    "display(root->data)",
+    "preorder(root->left)",
+    "preorder(root->right)",
+    "Postorder traversal",
+    "Visit all the nodes in the left subtree",
+    "Visit all the nodes in the right subtree",
+    "Visit the root node",
+    "postorder(root->left)",
+    "postorder(root->right)",
+    "display(root->data)"
+   ]
+  },
+  {
+   "q": "Describe the step-by-step procedure involved in performing in-order traversal. Illustrate your explanation with an example.",
+   "answer": [
+    "This technique follows the 'left root right' policy. It means that first left subtree is visited after that root node is traversed, and finally, the right subtree is traversed. As the root node is traversed between the left and right subtree, it is named inorder traversal.",
+    "So, in the inorder traversal, each node is visited in between of its subtrees.",
+    "The applications of Inorder traversal includes -",
+    "It is used to get the BST nodes in increasing order.",
+    "It can also be used to get the prefix expression of an expression tree.",
+    "Algorithm",
+    "Until all nodes of the tree are not visited",
+    "Step 1 - Traverse the left subtree recursively.",
+    "Step 2 - Visit the root node.",
+    "Step 3 - Traverse the right subtree recursively.",
+    "Example",
+    "Now, let's see the example of the Inorder traversal technique.",
+    "Now, start applying the inorder traversal on the above tree. First, we traverse the left subtree B that will be traversed in inorder. After that, we will traverse the root node A. And finally, the right subtree C is traversed in inorder.",
+    "So, for left subtree B, first, its left subtree D is traversed. Since node D does not have any children, so after traversing it, node B will be traversed, and at last, right subtree of node B, that is E, is traversed. Node E also does not have any children; therefore, the traversal of the left subtree of root node A is completed.",
+    "After that, traverse the root node of a given tree, i.e., A.",
+    "At last, move towards the right subtree of root node A that is C. So, for right subtree C; first, its left subtree F is traversed. Since node F does not have any children, node C will be traversed, and at last, a right subtree of node C, that is, G, is traversed. Node G also does not have any children; therefore, the traversal of the right subtree of root node A is completed.",
+    "As all the nodes of the tree are traversed, the inorder traversal of the given tree is completed. The output of the inorder traversal of the above tree is -",
+    "D → B → E → A → F → C → G"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A company maintains employee IDs in a Binary Search Tree (BST) for fast lookup and retrieval. The manager wants a list of employee IDs sorted in ascending order. Tasks: Justify which tree traversal is appropriate and why. Write the in-order traversal function in C. Demonstrate how the traversal works on a given BST. Show the final output.",
+   "answer": [
+    "Justification:",
+    "To retrieve data in ascending sorted order , the best traversal method is in-order traversal . Since the tree used is a BST , in-order traversal will access all employee IDs from smallest to largest without needing extra sorting logic.",
+    "In-order Traversal Function in C:",
+    "void inorder(struct Node* root) {",
+    "if (root != NULL) {",
+    "inorder(root->left); // Step 1: Visit left subtree",
+    "printf(\"%d \", root->data); // Step 2: Visit root",
+    "inorder(root->right); // Step 3: Visit right subtree",
+    "}",
+    "}",
+    "Demonstration with BST:",
+    "The nodes with yellow color are not visited yet. Now, we will traverse the nodes of the above tree using inorder traversal.",
+    "Here, 40 is the root node. We move to the left subtree of 40, that is 30, and it also has subtree 25, so we again move to the left subtree of 25 that is 15. Here, 15 has no subtree, so print 15 and move towards its parent node, 25.",
+    "Now, print 25 and move to the right subtree of 25.",
+    "Now, print 28 and move to the root node of 25 that is 30.",
+    "So, left subtree of 30 is visited. Now, print 30 and move to the right child of 30.",
+    "Now, print 35 and move to the root node of 30.",
+    "Now, print root node 40 and move to its right subtree.",
+    "Now recursively traverse the right subtree of 40 that is 50. 50 have subtree so first traverse the left subtree of 50 that is 45. 45 has no children, so print 45 and move to its root node.",
+    "Now print 50 and move to the right subtree of 50 that is 60.",
+    "Now recursively traverse the right subtree of 50 that is 60. 60 have subtree so first traverse the left subtree of 60 that is 55. 55 has no children, so print 55 and move to its root node.",
+    "Now print 60 and move to the right subtree of 60 that is 70.",
+    "Now print 70.",
+    "After the completion of inorder traversal, the final output is (Employee IDs in sorted order) -",
+    "{15, 25, 28, 30, 35, 40, 45, 50, 55, 60, 70}"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,91 @@
+{
+ "course": "21MAB201T",
+ "code": "2122",
+ "unit": 2,
+ "session": 12,
+ "slo": 2,
+ "slo_title": "Tutorial - Problem solving",
+ "mcq": [
+  {
+   "q": "For numerical data, harmonic analysis provides:",
+   "options": {
+    "A": "Approximate Fourier coefficients",
+    "B": "Exact Fourier coefficients",
+    "C": "The analytic form of \\( f(x) \\)",
+    "D": "The derivative of \\( f(x) \\)"
+   },
+   "answer": "A",
+   "answer_text": "Approximate Fourier coefficients"
+  },
+  {
+   "q": "In practice, harmonic analysis is limited to finding:",
+   "options": {
+    "A": "First few harmonics",
+    "B": "All harmonics exactly",
+    "C": "Only the fundamental harmonic",
+    "D": "Only even harmonics"
+   },
+   "answer": "A",
+   "answer_text": "First few harmonics"
+  },
+  {
+   "q": "When combining half-range series and Parseval's identity, you can determine:",
+   "options": {
+    "A": "Both the series expansion and the sum of certain series",
+    "B": "Only the series expansion",
+    "C": "Only the sum of series",
+    "D": "Neither"
+   },
+   "answer": "A",
+   "answer_text": "Both the series expansion and the sum of certain series"
+  },
+  {
+   "q": "A complete Fourier analysis of empirical data involves:",
+   "options": {
+    "A": "Harmonic analysis followed by Parseval's identity",
+    "B": "Only harmonic analysis",
+    "C": "Only Parseval's identity",
+    "D": "Taylor series expansion"
+   },
+   "answer": "A",
+   "answer_text": "Harmonic analysis followed by Parseval's identity"
+  },
+  {
+   "q": "When using Parseval's identity with experimentally obtained Fourier coefficients, you get:",
+   "options": {
+    "A": "Approximate energy/power",
+    "B": "Exact energy/power",
+    "C": "The function values",
+    "D": "The derivative values"
+   },
+   "answer": "A",
+   "answer_text": "Approximate energy/power"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Given half-range sine series } f(x) = \\sum b_n \\sin nx \\text{ with } b_n = \\frac{2}{n}, \\text{ find RMS value.}\\)",
+   "answer": [
+    "\\(\\text{Parseval for sine series: } \\frac{1}{\\pi}\\int_0^{\\pi} [f(x)]^2 dx = \\frac{1}{2}\\sum b_n^2\\)",
+    "\\(= \\frac{1}{2}\\sum_{n=1}^{\\infty} \\frac{4}{n^2} = 2\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = 2 \\cdot \\frac{\\pi^2}{6} = \\frac{\\pi^2}{3}\\)",
+    "\\(\\text{Thus RMS} = \\sqrt{\\frac{\\pi^2}{3}} = \\frac{\\pi}{\\sqrt{3}}\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Explain why harmonic analysis gives approximate Fourier coefficients.}\\)",
+   "answer": [
+    "\\(\\text{Uses numerical integration (trapezoidal rule) instead of exact integrals}\\)",
+    "\\(\\text{Approximation error depends on number of data points}\\)",
+    "\\(\\text{More points give better approximation to integrals}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=\\begin{cases} 2, & -2",
+   "answer": [
+    "Step Marks Period 4 ⇒ \\(l=2\\) (1) \\(a_0=\\frac{1}{2}\\int_{-2}^2 f(x)dx=\\frac{1}{2}\\left[\\int_{-2}^0 2\\,dx+\\int_0^2 x\\,dx\\right]=\\frac{3}{2}\\) (3) \\(a_n=\\frac{1}{2}\\int_{-2}^2 f(x)\\cos\\frac{n\\pi x}{2}dx=\\frac{1}{2}\\left[2\\int_{-2}^0 \\cos\\frac{n\\pi x}{2}dx+\\int_0^2 x\\cos\\frac{n\\pi x}{2}dx\\right]=-\\frac{4}{n^2\\pi^2}[1-(-1)^n]\\) (4) \\(b_n=\\frac{1}{2}\\int_{-2}^2 f(x)\\sin\\frac{n\\pi x}{2}dx=\\frac{1}{2}\\left[2\\int_{-2}^0 \\sin\\frac{n\\pi x}{2}dx+\\int_0^2 x\\sin\\frac{n\\pi x}{2}dx\\right]=-\\frac{2}{n\\pi}[1+2(-1)^n]\\) (4) Thus, \\(f(x)=\\frac{3}{4}-\\frac{4}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1-(-1)^n}{n^2}\\cos\\frac{n\\pi x}{2}-\\frac{2}{\\pi}\\sum_{n=1}^{\\infty}\\frac{1+2(-1)^n}{n}\\sin\\frac{n\\pi x}{2}\\) (2) Put \\(x=1\\) for (i) and \\(x=0\\) for (ii) (1)"
+   ]
+  }
+ ]
+}

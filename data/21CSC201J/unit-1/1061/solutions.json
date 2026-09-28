@@ -1,0 +1,209 @@
+{
+ "course": "21CSC201J",
+ "code": "1061",
+ "unit": 1,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Perform Matrix Multiplication – Dynamic Memory allocation",
+ "mcq": [
+  {
+   "q": "What is the Error of this program #include <stdio.h> #include <stdlib.h> int main() { char *ptr; *ptr = (char)malloc(30); strcpy(ptr, \"RAM\"); printf(\"%s\", ptr); free(ptr); return 0;",
+   "options": {
+    "A": "Error: in strcpy() statement",
+    "B": "Error: in *ptr = (char)malloc(30)",
+    "C": "Error: in free(ptr);",
+    "D": "No error"
+   },
+   "answer": "B",
+   "answer_text": "Error: in *ptr = (char)malloc(30)"
+  },
+  {
+   "q": "If malloc() and calloc() are not type casted, the default return type is",
+   "options": {
+    "A": "void**",
+    "B": "void*",
+    "C": "int*",
+    "D": "char*"
+   },
+   "answer": "B",
+   "answer_text": "void*"
+  },
+  {
+   "q": "When the pointer is NULL, then the function realloc is equivalent to the function ________",
+   "options": {
+    "A": "realloc()",
+    "B": "calloc()",
+    "C": "free()",
+    "D": "malloc()"
+   },
+   "answer": "D",
+   "answer_text": "malloc()"
+  },
+  {
+   "q": "Which function is used in C to dynamically allocate memory for a matrix",
+   "options": {
+    "A": "malloc()",
+    "B": "calloc()",
+    "C": "realloc()",
+    "D": "All of the above"
+   },
+   "answer": "D",
+   "answer_text": "All of the above"
+  },
+  {
+   "q": "What is the output of the following program void main() { Int *ptr; ptr-(int *)calloc(1,sizeof(int)); *ptr=10; printf(“%d\\n”,*ptr); }",
+   "options": {
+    "A": "0",
+    "B": "-1",
+    "C": "10",
+    "D": "NULL"
+   },
+   "answer": "C",
+   "answer_text": "10"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Write a C program that dynamically allocates memory for an array of integers using relloc()",
+   "answer": [
+    "The realloc() is used to reallocate the memory size when the existing is not sufficient. It returns a pointer to the newly allocated memory block on success and a NULL pointer on failure.",
+    "void * realloc ( void * ptr, size_type size ); Where",
+    "ptr - Pointer to the original block of memory size-type - data type size size – new size of the memory block in bytes",
+    "ptr - Pointer to the original block of memory size-type - data type size size – new size of the memory block in bytes",
+    "ptr - Pointer to the original block of memory size-type - data type size size – new size of the memory block in bytes",
+    "ptr - Pointer to the original block of memory size-type - data type size size – new size of the memory block in bytes",
+    "ptr - Pointer to the original block of memory",
+    "size-type - data type size",
+    "size – new size of the memory block in bytes",
+    "Initially, the memory space of 7 bytes has been allocated for the pointer, str. Later, the memory space for str has been reallocated to 15 bytes. PROGRAM: #include <stdio.h> #include <stdlib.h> #include <string.h> int main() { char *str; // Allocating memory str = (char *) malloc(7); strcpy(str, \"Basic C\"); printf(\"String : %s - Address : %u\\n\", str, str); // Reallocating memory str = (char *) realloc(str, 15); strcat(str, \" Program\"); printf(\"String : %s - Address : %u\\n\", str, str); free(str); return(0); } Output String : Basic C - Address :65526 String : Basic C Program - Address :65538",
+    "Initially, the memory space of 7 bytes has been allocated for the pointer, str. Later, the memory space for str has been reallocated to 15 bytes.",
+    "PROGRAM:",
+    "#include <stdio.h> #include <stdlib.h> #include <string.h> int main()",
+    "{",
+    "char *str;",
+    "// Allocating memory str = (char *) malloc(7); strcpy(str, \"Basic C\");",
+    "printf(\"String : %s - Address : %u\\n\", str, str);",
+    "// Reallocating memory",
+    "str = (char *) realloc(str, 15); strcat(str, \" Program\");",
+    "printf(\"String : %s - Address : %u\\n\", str, str); free(str); return(0);",
+    "}",
+    "Output",
+    "String : Basic C - Address :65526",
+    "String : Basic C Program - Address :65538"
+   ]
+  },
+  {
+   "q": "Write a C program that dynamically allocates memory for an array of integers using malloc()",
+   "answer": [
+    "The malloc() function allocates single block of requested memory . It doesn't initialize memory at execution time, so it has garbage value initially . It returns NULL if memory is not sufficient. The syntax of malloc() function is given below: ptr=(cast-type*)malloc(byte-size) Example: #include<stdio.h> #include<stdlib.h> int main() { int n,i,*ptr,sum=0; printf(\"Enter number of elements: \"); scanf(\"%d\",&n); ptr=(int*)malloc(n*sizeof(int)); //memory allocated using malloc if(ptr==NULL) { printf(\"Sorry! unable to allocate memory\"); exit(0); } printf(\"Enter elements of array: \"); for(i=0;i<n;++i) { scanf(\"%d\",ptr+i); sum+=*(ptr+i); } printf(\"Sum=%d\",sum); free(ptr); return 0; } Output: Enter elements of array: 3 Enter elements of array: 10 10 10 Sum=30",
+    "The malloc() function allocates single block of requested memory . It doesn't initialize memory at execution time, so it has garbage value initially . It returns NULL if memory is not sufficient.",
+    "The syntax of malloc() function is given below:",
+    "ptr=(cast-type*)malloc(byte-size)",
+    "Example:",
+    "#include<stdio.h>",
+    "#include<stdlib.h>",
+    "int main()",
+    "{",
+    "int n,i,*ptr,sum=0;",
+    "printf(\"Enter number of elements: \");",
+    "scanf(\"%d\",&n);",
+    "ptr=(int*)malloc(n*sizeof(int)); //memory allocated using malloc if(ptr==NULL)",
+    "{",
+    "printf(\"Sorry! unable to allocate memory\"); exit(0);",
+    "}",
+    "printf(\"Enter elements of array: \");",
+    "for(i=0;i<n;++i)",
+    "{",
+    "scanf(\"%d\",ptr+i);",
+    "sum+=*(ptr+i);",
+    "}",
+    "printf(\"Sum=%d\",sum);",
+    "free(ptr);",
+    "return 0;",
+    "}",
+    "Enter elements of array: 3",
+    "Enter elements of array: 10",
+    "10",
+    "10",
+    "Sum=30"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Implement a C program that dynamically allocates memory for two matrices, performs matrix multiplication, and then deallocates the memory. The program should include the following functionalities: Allocate Memory Dynamically to use dynamic memory allocation to create matrices of the specified dimensions. Input Matrix Values to provide the values for each matrix. Perform Matrix Multiplication to compute the product of the two matrix and store the result in a third matrix. Display the resulting matrix after multiplication. Deallocate the memory used for matrices to prevent memory leaks. Allocate Memory Dynamically to use dynamic memory allocation to create matrices of the specified dimensions. Input Matrix Values to provide the values for each matrix. Perform Matrix Multiplication to compute the product of the two matrix and store the result in a third matrix. Display the resulting matrix after multiplication. Deallocate the memory used for matrices to prevent memory leaks.",
+   "answer": [
+    "#include <stdio.h> #include <stdlib.h>",
+    "// Function to allocate memory for a matrix",
+    "int** allocateMatrix(int rows, int cols) {",
+    "int** matrix = (int**)malloc(rows * sizeof(int*)); for (int i = 0; i < rows; i++) {",
+    "matrix[i] = (int*)malloc(cols * sizeof(int));",
+    "}",
+    "return matrix;",
+    "}",
+    "// Function to input values into a matrix",
+    "void inputMatrixValues(int** matrix, int rows, int cols) { for (int i = 0; i < rows; i++) {",
+    "for (int j = 0; j < cols; j++) {",
+    "printf(\"Enter value for matrix[%d][%d]: \", i, j); scanf(\"%d\", &matrix[i][j]);",
+    "}",
+    "}",
+    "}",
+    "// Function to multiply two matrices",
+    "int** multiplyMatrices(int** matrixA, int** matrixB, int rowsA, int colsA, int colsB) {",
+    "// Allocate memory for the result matrix int** result = allocateMatrix(rowsA, colsB);",
+    "// Perform matrix multiplication for (int i = 0; i < rowsA; i++) {",
+    "for (int j = 0; j < colsB; j++) { result[i][j] = 0;",
+    "for (int k = 0; k < colsA; k++) {",
+    "result[i][j] += matrixA[i][k] * matrixB[k][j];",
+    "}",
+    "}",
+    "}",
+    "return result;",
+    "}",
+    "// Function to display a matrix",
+    "void displayMatrix(int** matrix, int rows, int cols) { printf(\"Resulting matrix:\\n\");",
+    "for (int i = 0; i < rows; i++) { for (int j = 0; j < cols; j++) {",
+    "printf(\"%d \", matrix[i][j]);",
+    "}",
+    "printf(\"\\n\");",
+    "}",
+    "}",
+    "// Function to deallocate memory used for a matrix",
+    "void deallocateMatrix(int** matrix, int rows) { for (int i = 0; i < rows; i++) {",
+    "free(matrix[i]);",
+    "}",
+    "free(matrix);",
+    "}",
+    "int main() {",
+    "int rowsA, colsA, rowsB, colsB;",
+    "// Input dimensions for the matrices",
+    "printf(\"Enter the number of rows for matrix A: \"); scanf(\"%d\", &rowsA);",
+    "printf(\"Enter the number of columns for matrix A (and rows for matrix B): \"); scanf(\"%d\", &colsA);",
+    "printf(\"Enter the number of columns for matrix B: \"); scanf(\"%d\", &colsB);",
+    "// Ensure matrix multiplication is possible (colsA == rowsB) rowsB = colsA;",
+    "// Dynamically allocate memory for matrices A and B int** matrixA = allocateMatrix(rowsA, colsA);",
+    "int** matrixB = allocateMatrix(rowsB, colsB);",
+    "// Input values for matrix A printf(\"Enter values for matrix A:\\n\");",
+    "inputMatrixValues(matrixA, rowsA, colsA);",
+    "// Input values for matrix B printf(\"Enter values for matrix B:\\n\");",
+    "inputMatrixValues(matrixB, rowsB, colsB);",
+    "// Multiply matrices A and B",
+    "int** resultMatrix = multiplyMatrices(matrixA, matrixB, rowsA, colsA, colsB);",
+    "// Display the resulting matrix displayMatrix(resultMatrix, rowsA, colsB);",
+    "// Deallocate memory used for matrices deallocateMatrix(matrixA, rowsA); deallocateMatrix(matrixB, rowsB); deallocateMatrix(resultMatrix, rowsA);",
+    "return 0;",
+    "}",
+    "Example:",
+    "Enter the number of rows for matrix A: 2",
+    "Enter the number of columns for matrix A (and rows for matrix B): 3 Enter the number of columns for matrix B: 2",
+    "Enter values for matrix A: Enter value for matrix[0][0]: 1 Enter value for matrix[0][1]: 2",
+    "Enter value for matrix[0][2]: 3 Enter value for matrix[1][0]: 4 Enter value for matrix[1][1]: 5 Enter value for matrix[1][2]: 6",
+    "Enter values for matrix B:",
+    "Enter value for matrix[0][0]: 7 Enter value for matrix[0][1]: 8 Enter value for matrix[1][0]: 9 Enter value for matrix[1][1]: 10 Enter value for matrix[2][0]: 11 Enter value for matrix[2][1]: 12",
+    "Resulting matrix:",
+    "58 64",
+    "139 154"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,190 @@
+{
+ "course": "21CSC201J",
+ "code": "1042",
+ "unit": 1,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Utilize structures with pointers for efficient memory management.",
+ "mcq": [
+  {
+   "q": "If struct Node is a self-referential structure with a pointer to itself, what is the output of the following code? struct Node { int data; struct Node *next; }; int main() { struct Node n1, n2; n1.data = 10; n2.data = 20; n1.next = &n2; printf(\"%d\", n1.next->data); return 0; }",
+   "options": {
+    "A": "10",
+    "B": "20",
+    "C": "Garbage value",
+    "D": "Compilation error"
+   },
+   "answer": "B",
+   "answer_text": "20"
+  },
+  {
+   "q": "What is the result of the following code snippet? struct Point { int x; int y; }; struct Point* createPoint(int x, int y) { struct Point *p = (struct Point*)malloc(sizeof(struct Point)); p->x = x; p->y = y; return p; }",
+   "options": {
+    "A": "The code creates a structure and initializes it with x and y values, but it does not allocate memory.",
+    "B": "The code dynamically allocates memory for a Point structure and initializes its members",
+    "C": "The code results in a compile-time error due to incorrect memory allocation.",
+    "D": "The code will result in a runtime error if malloc fails"
+   },
+   "answer": "B",
+   "answer_text": "The code dynamically allocates memory for a Point structure and initializes its members"
+  },
+  {
+   "q": "If struct Node is a self-referential structure with a pointer to itself, what is the output of the following code? struct Node { int data; struct Node *next; }; int main() { struct Node n1, n2; n1.data = 10; n2.data = 20; n1.next = &n2; printf(\"%d\", n1.next->data); return 0; }",
+   "options": {
+    "A": "10",
+    "B": "20",
+    "C": "Garbage value",
+    "D": "Compilation error"
+   },
+   "answer": "B",
+   "answer_text": "20"
+  },
+  {
+   "q": "How do you correctly declare a pointer to a structure in C",
+   "options": {
+    "A": "struct Node *ptr;",
+    "B": "Node *ptr;",
+    "C": "struct *Node ptr;",
+    "D": "*struct Node ptr;"
+   },
+   "answer": "A",
+   "answer_text": "struct Node *ptr;"
+  },
+  {
+   "q": "The correct syntax to access the member of the ith structure in the array of structures is? struct temp { int b; }s[50];",
+   "options": {
+    "A": "s.b.[i];",
+    "B": "s.[i].b;",
+    "C": "s.b[i];",
+    "D": "s[i].b"
+   },
+   "answer": "D",
+   "answer_text": "s[i].b"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Discuss the concept of self-referential structures in the C programming language. How are they typically used in the implementation of dynamic data structures like linked lists? Illustrate with an example, including code snippets, to demonstrate how a self-referential structure can be used to implement a basic linked list",
+   "answer": [
+    "A self referential structure is used to create data structures like linked lists, stacks, etc.",
+    "Following is an example of this kind of structure:",
+    "struct struct_name",
+    "{",
+    "datatype",
+    "datatype name; struct_name * pointer_name;",
+    "};",
+    "A self-referential structure is one of the data structures which refer to the pointer to (points) to another structure of the same type. For example, a linked list is supposed to be a self- referential data structure. The next node of a node is being pointed, which is of the same struct type. For example,",
+    "typedef struct listnode { void *data;",
+    "struct listnode *next;",
+    "} linked_list;",
+    "In the above example, the listnode is a self-referential structure – because the *next is of the type struct listnode.",
+    "Self-referential structures are most commonly used to implement singly linked lists , where each node stores a value and a pointer to the next node.",
+    "Example:"
+   ]
+  },
+  {
+   "q": "Write a C program to define a structure for storing student information (name, roll number, and Branch. Use a pointer to a structure to access and display the student details. Include appropriate input and output operations",
+   "answer": [
+    "The structure pointer points to the address of a memory block where the Structure is being stored.",
+    "Structure pointer tells the address of a structure in memory by pointing pointer variable ptr to the structure variable.",
+    "Syntax:",
+    "1. Declaration:",
+    "struct structure_name *ptr;",
+    "2. Initialization of the Structure Pointer:",
+    "struct structure_name *ptr = &structure_variable;",
+    "pointer ptr is pointing to the address structure_variable of the Structure",
+    "Example:"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing an inventory management system for a small retail store. The system needs to manage a list of products, where each product has a unique product ID. The store manager requires the following to be performed. Insertion: A new product needs to be added to the inventory. The system should place the product in the appropriate position to keep the list sorted by product ID. Deletion: Occasionally, products may be discontinued or removed from the inventory. The system should allow the manager to delete a product by its product ID, adjusting the list accordingly. Traversal: The manager wants to view the entire inventory list, displaying each product's details in order of product ID. Describe how you would implement these operations using an array-based approach in C. Explain the steps involved in each operation and how the array data structure supports efficient management of the inventory.",
+   "answer": [
+    "Product Structure",
+    "#include <stdio.h> #include <string.h>",
+    "#define MAX_PRODUCTS 100 // Maximum number of products in the inventory typedef struct {",
+    "int productID;",
+    "char name[50]; int quantity; double price;",
+    "} Product;",
+    "Array-Based Inventory",
+    "Product inventory[MAX_PRODUCTS];",
+    "int productCount = 0; // To keep track of the number of products in the inventory",
+    "Insertion: Adding a New Product",
+    "void insertProduct(Product newProduct) {",
+    "if (productCount == MAX_PRODUCTS) { printf(\"Inventory is full. Cannot add new product.\\n\"); return;",
+    "}",
+    "int i;",
+    "// Find the correct position for the new product",
+    "for (i = productCount - 1; (i >= 0 && inventory[i].productID > newProduct.productID); i--) { inventory[i + 1] = inventory[i]; // Shift elements to the right",
+    "}",
+    "// Insert the new product inventory[i + 1] = newProduct;",
+    "productCount++; // Increment the product count",
+    "}",
+    "Deletion: Removing a Product by Product ID -",
+    "void deleteProduct(int productID) { int i, pos = -1;",
+    "// Find the product by its ID",
+    "for (i = 0; i < productCount; i++) {",
+    "if (inventory[i].productID == productID) { pos = i;",
+    "break;",
+    "}",
+    "}",
+    "// If product not found if (pos == -1) {",
+    "printf(\"Product with ID %d not found in inventory.\\n\", productID); return;",
+    "}",
+    "// Shift elements to the left to fill the gap for (i = pos; i < productCount - 1; i++) {",
+    "inventory[i] = inventory[i + 1];",
+    "}",
+    "productCount--; // Decrement the product count",
+    "}",
+    "Traversal: Displaying the Inventory List void displayInventory() { if (productCount == 0) {",
+    "printf(\"Inventory is empty.\\n\"); return;",
+    "}",
+    "printf(\"Inventory List:\\n\"); printf(\"ID\\tName\\t\\tQuantity\\tPrice\\n\"); printf(\" \\n\");",
+    "for (int i = 0; i < productCount; i++) { printf(\"%d\\t%s\\t\\t%d\\t\\t%.2f\\n\", inventory[i].productID,",
+    "inventory[i].name, inventory[i].quantity, inventory[i].price);",
+    "}",
+    "}",
+    "Example",
+    "int main() {",
+    "Product p1 = {101, \"Apple\", 50, 0.5};",
+    "Product p2 = {102, \"Banana\", 30, 0.2};",
+    "Product p3 = {100, \"Orange\", 40, 0.3};",
+    "insertProduct(p1); insertProduct(p2); insertProduct(p3);",
+    "printf(\"After Insertion:\\n\"); displayInventory();",
+    "deleteProduct(102);",
+    "printf(\"\\nAfter Deletion:\\n\"); displayInventory();",
+    "return 0;",
+    "}",
+    "Output:",
+    "mathematica Copy code After Insertion: Inventory List: ID Name",
+    "Quantity",
+    "Price",
+    "100 Orange",
+    "40",
+    "0.30",
+    "101",
+    "Apple",
+    "50",
+    "0.50",
+    "102",
+    "Banana",
+    "30",
+    "0.20",
+    "After Deletion: Inventory List:",
+    "ID",
+    "Name",
+    "Quantity",
+    "Price",
+    "100",
+    "Orange",
+    "40",
+    "0.30",
+    "101",
+    "Apple",
+    "50",
+    "0.50"
+   ]
+  }
+ ]
+}

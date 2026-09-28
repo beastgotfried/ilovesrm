@@ -1,0 +1,142 @@
+{
+ "course": "21CSC201J",
+ "code": "4102",
+ "unit": 4,
+ "session": 10,
+ "slo": 2,
+ "slo_title": "Heaps",
+ "mcq": [
+  {
+   "q": "Which of the following steps is NOT involved in heap deletion?",
+   "options": {
+    "A": "Remove the root",
+    "B": "Replace root with last element",
+    "C": "Heapify-up",
+    "D": "Heapify-down"
+   },
+   "answer": "C",
+   "answer_text": "Heapify-up"
+  },
+  {
+   "q": "Why are B-Trees used in databases instead of Binary Search Trees (BSTs)?",
+   "options": {
+    "A": "B-Trees handle large amounts of data with fewer disk accesses",
+    "B": "B-Trees require less memory",
+    "C": "BSTs require less time for insertions and deletions",
+    "D": "B-Trees can store only unique keys"
+   },
+   "answer": "B",
+   "answer_text": "B-Trees require less memory"
+  },
+  {
+   "q": "Given the max heap {50, 30, 40, 10, 20, 35}, what happens when 60 is inserted?",
+   "options": {
+    "A": "60 becomes the root",
+    "B": "60 replaces 50",
+    "C": "60 is placed at the last position",
+    "D": "Heap property is violated"
+   },
+   "answer": "A",
+   "answer_text": "60 becomes the root"
+  },
+  {
+   "q": "Given a Max Heap {50, 30, 40, 20, 25}, what is the result after deleting the root?",
+   "options": {
+    "A": "30, 20, 25, 40",
+    "B": "40, 30, 25, 20",
+    "C": "25, 20, 30, 40",
+    "D": "Heap property is lost"
+   },
+   "answer": "B",
+   "answer_text": "40, 30, 25, 20"
+  },
+  {
+   "q": "Given a min heap {10, 20, 30, 40, 50}, what happens when 5 is inserted?",
+   "options": {
+    "A": "Heap remains unchanged",
+    "B": "5 becomes the root",
+    "C": "5 is placed at the last position",
+    "D": "Heap property is violated"
+   },
+   "answer": "B",
+   "answer_text": "5 becomes the root"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is a B-Tree? Discuss its key properties.",
+   "answer": [
+    "A B-Tree is a specialized m-way tree designed to optimize data access, especially on disk-based storage systems.",
+    "In a B-Tree of order m, each node can have up to m children and m-1 keys, allowing it to efficiently manage large datasets.",
+    "The value of m is decided based on disk block and key sizes.",
+    "One of the standout features of a B-Tree is its ability to store a significant number of keys within a single node, including large key values. It significantly reduces the tree’s height, hence reducing costly disk operations.",
+    "B Trees allow faster data retrieval and updates, making them an ideal choice for systems requiring efficient and scalable data management. By maintaining a balanced structure at all times,",
+    "B-Trees deliver consistent and efficient performance for critical operations such as search, insertion, and deletion.",
+    "Following is an example of a B-Tree of order 5 .",
+    "Properties of a B-Tree",
+    "A B Tree of order m can be defined as an m-way search tree which satisfies the following properties:",
+    "All leaf nodes of a B tree are at the same level, i.e. they have the same depth (height of the tree).",
+    "The keys of each node of a B tree (in case of multiple keys), should be stored in the ascending order.",
+    "In a B tree, all non-leaf nodes (except root node) should have at least m/2 children.",
+    "All nodes (except root node) should have at least m/2 - 1 keys.",
+    "If the root node is a leaf node (only node in the tree), then it will have no children and will have at least one key. If the root node is a non-leaf node, then it will have at least 2 children and at least one key.",
+    "A non-leaf node with n-1 key values should have n non NULL children."
+   ]
+  },
+  {
+   "q": "What are the types of heaps? Explain their properties.",
+   "answer": [
+    "A heap is a complete binary tree, and the binary tree is a tree in which the node can have utmost two children. Before knowing more about the heap data structure, we should know about the complete binary tree.",
+    "There are two types of the heap:",
+    "Min Heap",
+    "Max heap",
+    "Min Heap:",
+    "Min-heap can be defined as, for every node i, the value of node i is greater than or equal to its parent value except the root node. Mathematically, it can be defined as:",
+    "A[Parent(i)] <= A[i]",
+    "Let's understand the min-heap through an example.",
+    "Max Heap:",
+    "the max heap can be defined as for every node i; the value of node i is less than or equal to its parent value except the root node. Mathematically, it can be defined as:",
+    "A[Parent(i)] >= A[i]",
+    "Properties:",
+    "Heap data structure is a complete binary tree that satisfies the heap property, where any given node is",
+    "always greater than its child node/s and the key of the root node is the largest among all other nodes. This property is also called max heap property.",
+    "always smaller than the child node/s and the key of the root node is the smallest among all other nodes. This property is also called min heap property ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You're building a task scheduler where tasks are prioritized. Tasks with higher priorities must be executed first. Explain how a Max-Heap can be used for this scenario. Write the steps to build a Max-Heap using the following task priorities: 45, 36, 54, 27, 63, 72, 61, and 18. Show how insertion and heapify maintain the Max-Heap property.",
+   "answer": [
+    "Algorithm to insert an element in the max heap:",
+    "// algorithm to insert an element in the max heap.",
+    "insertHeap(A, n, value)",
+    "{",
+    "n=n+1; // n is incremented to insert the new element",
+    "A[n]=value; // assign new value at the nth position",
+    "i = n; // assign the value of n to i",
+    "// loop will be executed until i becomes 1.",
+    "while(i>1)",
+    "{",
+    "parent= floor value of i/2; // Calculating the floor value of i/2",
+    "// Condition to check whether the value of parent is less than the given node or not",
+    "if(A[parent]<A[i])",
+    "{",
+    "swap(A[parent], A[i]);",
+    "i = parent;",
+    "}",
+    "else",
+    "{",
+    "return;",
+    "}",
+    "}",
+    "}",
+    "Insertion in the Heap tree",
+    "45, 36, 54, 27, 63, 72, 61, and 18",
+    "Suppose we want to create the max heap tree. To create the max heap tree, we need to consider the following two cases:",
+    "First, we have to insert the element in such a way that the property of the complete binary tree must be maintained.",
+    "Secondly, the value of the parent node should be greater than the either of its child."
+   ]
+  }
+ ]
+}

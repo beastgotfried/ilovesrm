@@ -1,0 +1,90 @@
+{
+ "course": "21MAB201T",
+ "code": "4022",
+ "unit": 4,
+ "session": 2,
+ "slo": 2,
+ "slo_title": "Apply Fourier transform properties to solve integral and differential equations",
+ "mcq": [
+  {
+   "q": "Parseval’s identity states that:",
+   "options": {
+    "A": "energy in time = energy in x-domain",
+    "B": "energy in frequency = energy in Fourier domain",
+    "C": "\\(\\displaystyle \\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} |F(s)|^2 ds\\)",
+    "D": "Fourier transform preserves amplitude only"
+   },
+   "answer": "C",
+   "answer_text": "\\(\\displaystyle \\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} |F(s)|^2 ds\\)"
+  },
+  {
+   "q": "If \\(f(x) \\to 0\\) as \\(x \\to \\pm\\infty\\) , then \\( F\\{ f'(x) \\} = \\)",
+   "options": {
+    "A": "\\(isF(s)\\)",
+    "B": "\\(-isF(s)\\)",
+    "C": "\\(F(s)^2\\)",
+    "D": "\\(\\dfrac{F(s)}{is}\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(-isF(s)\\)"
+  },
+  {
+   "q": "If \\(F\\{f(x)\\} = F(s)\\) , then \\(F\\{f(-x)\\}\\) equals",
+   "options": {
+    "A": "\\(F(-S)\\)",
+    "B": "\\(F(s)^2\\)",
+    "C": "Complex conjugate of \\( F(s)\\)",
+    "D": "\\(0\\)"
+   },
+   "answer": "C",
+   "answer_text": "Complex conjugate of \\( F(s)\\)"
+  },
+  {
+   "q": "The convolution of two functions \\(f(x)\\) and \\(g(x)\\) is defined as",
+   "options": {
+    "A": "\\(f(x)g(x)\\)",
+    "B": "\\(\\int_{0}^{x} f(t)g(t)\\, dt\\)",
+    "C": "\\(\\dfrac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t)g(x-t)\\, dt\\)",
+    "D": "\\(\\int_{-\\infty}^{\\infty} f(x-t)g(t)\\, dx\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(\\dfrac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t)g(x-t)\\, dt\\)"
+  },
+  {
+   "q": "If \\(F{f(x)}=F(s)\\) , then the Fourier transform of \\(x^n f(x)\\) is",
+   "options": {
+    "A": "\\(i^n F(s)\\)",
+    "B": "\\((-i)^n \\frac{d^n}{ds^n} F(s)\\)",
+    "C": "\\(\\frac{d^n}{dx^n}F(s)\\)",
+    "D": "\\((-1)^nF(s)\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\((-i)^n \\frac{d^n}{ds^n} F(s)\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Find the Fourier transform of } f(x) = \\begin{cases} 1 & |x| < a \\\\ 0 & |x| > a \\end{cases}.\\)",
+   "answer": [
+    "\\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-a}^{a} 1 \\cdot e^{i s x} dx\\)",
+    "\\(= \\frac{1}{\\sqrt{2\\pi}} \\left[ \\frac{e^{i s x}}{i s} \\right]_{-a}^{a}\\)",
+    "\\(= \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{e^{i s a} - e^{-i s a}}{i s}\\)",
+    "\\(= \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{\\sin(a s)}{s}\\)"
+   ]
+  },
+  {
+   "q": "The Fourier transform of convolution \\(f *g\\) equals",
+   "answer": [
+    "\\(F(s)G(s)\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Find the Fourier transform of } f(x) = \\begin{cases} 1 & |x| \\leq a \\\\ 0 & |x| > a \\end{cases}.\\)",
+   "answer": [
+    "Step Marks \\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) e^{isx} dx = \\frac{1}{\\sqrt{2\\pi}} \\int_{-a}^{a} e^{isx} dx\\) (2) \\(= \\frac{1}{\\sqrt{2\\pi}} \\left[ \\frac{e^{isx}}{is} \\right]_{-a}^{a} = \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{e^{isa} - e^{-isa}}{is}\\) (3) \\(= \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{2i \\sin(as)}{is} = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{\\sin(as)}{s}\\) (3) For \\(s = 0\\): \\(F(0) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-a}^{a} dx = \\frac{2a}{\\sqrt{2\\pi}} = \\sqrt{\\frac{2}{\\pi}} a\\) (2)"
+   ]
+  }
+ ]
+}

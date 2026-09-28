@@ -1,0 +1,141 @@
+{
+ "course": "21CSC202J",
+ "code": "4052",
+ "unit": 4,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "Describe different structures of page tables (single-level, multi-level)",
+ "mcq": [
+  {
+   "q": "On a TLB miss , the hardware must:",
+   "options": {
+    "A": "Retry the same instruction",
+    "B": "Fetch the page table entry from memory",
+    "C": "Reload the process",
+    "D": "Restart the operating system"
+   },
+   "answer": "B",
+   "answer_text": "Fetch the page table entry from memory"
+  },
+  {
+   "q": "The page table base register (PTBR) stores:",
+   "options": {
+    "A": "The page size",
+    "B": "The base address of the current page table",
+    "C": "Number of frames",
+    "D": "Number of processes"
+   },
+   "answer": "B",
+   "answer_text": "The base address of the current page table"
+  },
+  {
+   "q": "The Translation Lookaside Buffer (TLB) is a:",
+   "options": {
+    "A": "Special ROM used for bootstrapping",
+    "B": "Cache that stores recent page table entries",
+    "C": "DMA buffer",
+    "D": "Swap area on disk"
+   },
+   "answer": "B",
+   "answer_text": "Cache that stores recent page table entries"
+  },
+  {
+   "q": "A multilevel page table helps reduce:",
+   "options": {
+    "A": "Page size",
+    "B": "Frame fragmentation",
+    "C": "Memory needed for page tables",
+    "D": "Context switch time"
+   },
+   "answer": "C",
+   "answer_text": "Memory needed for page tables"
+  },
+  {
+   "q": "The performance of a TLB is measured using:",
+   "options": {
+    "A": "Fault tolerance rate",
+    "B": "Hit ratio",
+    "C": "Cache size",
+    "D": "Disk access rate"
+   },
+   "answer": "B",
+   "answer_text": "Hit ratio"
+  }
+ ],
+ "sq": [
+  {
+   "q": "List the types of page tables used in memory management.",
+   "answer": [
+    "Single-Level Page Table – simple, but large for big address spaces",
+    "Single-Level Page Table – simple, but large for big address spaces",
+    "Two-Level Page Table – reduces space with hierarchical mapping",
+    "Two-Level Page Table – reduces space with hierarchical mapping",
+    "Inverted Page Table – one entry per frame, reverse mapping",
+    "Inverted Page Table – one entry per frame, reverse mapping",
+    "Hashed Page Table – used for large address spaces (64-bit)",
+    "Hashed Page Table – used for large address spaces (64-bit)",
+    "Mark Allocation Listing 3 or more types – 60%",
+    "Mark Allocation Listing 3 or more types – 60%",
+    "Brief identification/use case –40%",
+    "Brief identification/use case –40%"
+   ]
+  },
+  {
+   "q": "Describe the steps involved in address translation using TLB and page table.",
+   "answer": [
+    "CPU generates logical address → divided into page number + offset Page number checked in TLB:",
+    "If hit : frame number obtained directly",
+    "If miss : page table in memory is consulted",
+    "Frame number + offset = physical address",
+    "TLB is updated if it was a miss",
+    "Mark Allocation:",
+    "Mark Allocation:",
+    "Logical breakdown of 4 steps – 60%",
+    "Logical breakdown of 4 steps – 60%",
+    "TLB hit/miss concept – 30%",
+    "TLB hit/miss concept – 30%",
+    "Proper terminology – 10%",
+    "Proper terminology – 10%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain how hardware supports paging using the Translation Lookaside Buffer (TLB).",
+   "answer": [
+    "In paging , logical addresses are divided into:",
+    "Page number (p)",
+    "Page number (p)",
+    "Offset (d)",
+    "Offset (d)",
+    "Each logical page maps to a frame in physical memory , maintained by the Page Table .",
+    "However, accessing memory via the Page Table can be slow if each instruction requires two memory accesses:",
+    "One for fetching the frame number",
+    "One for fetching the frame number",
+    "Another to access actual data",
+    "Another to access actual data",
+    "To solve this, hardware uses a cache called the Translation Lookaside Buffer (TLB) . (30%)",
+    "A small, fast, associative memory",
+    "A small, fast, associative memory",
+    "Stores recent (page number → frame number) pairs",
+    "Stores recent (page number → frame number) pairs",
+    "Acts as a cache for the page table",
+    "Acts as a cache for the page table",
+    "CPU generates a logical address (page number + offset)",
+    "CPU generates a logical address (page number + offset)",
+    "TLB is checked for the page number: ✅ If TLB hit → Get frame number directly ❌ If TLB miss → Access page table in memory Update TLB (using replacement policy like LRU)",
+    "TLB is checked for the page number:",
+    "✅ If TLB hit → Get frame number directly",
+    "✅ If TLB hit → Get frame number directly",
+    "❌ If TLB miss → Access page table in memory Update TLB (using replacement policy like LRU)",
+    "❌ If TLB miss → Access page table in memory",
+    "Update TLB (using replacement policy like LRU)",
+    "Update TLB (using replacement policy like LRU)",
+    "Add offset to frame base to get physical address",
+    "Add offset to frame base to get physical address",
+    "Access physical memory Diagram (20%)",
+    "Access physical memory Diagram (20%)"
+   ]
+  }
+ ]
+}

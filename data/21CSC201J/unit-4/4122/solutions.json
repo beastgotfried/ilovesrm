@@ -1,0 +1,142 @@
+{
+ "course": "21CSC201J",
+ "code": "4122",
+ "unit": 4,
+ "session": 12,
+ "slo": 2,
+ "slo_title": "Different Hashing Techniques",
+ "mcq": [
+  {
+   "q": "What is the main advantage of hashing over binary search trees?",
+   "options": {
+    "A": "Faster search in the worst case",
+    "B": "Uses less memory",
+    "C": "Always maintains sorted order",
+    "D": "Works only for integer data"
+   },
+   "answer": "A",
+   "answer_text": "Faster search in the worst case"
+  },
+  {
+   "q": "Which of the following hashing methods stores multiple elements in the same bucket?",
+   "options": {
+    "A": "Linear probing",
+    "B": "Quadratic probing",
+    "C": "Separate chaining",
+    "D": "Cuckoo hashing"
+   },
+   "answer": "C",
+   "answer_text": "Separate chaining"
+  },
+  {
+   "q": "A hash table of size 10 stores keys {5, 15, 25, 35}. If the division method (mod 10) is used, which bucket will 45 be inserted into?",
+   "options": {
+    "A": "0",
+    "B": "5",
+    "C": "4",
+    "D": "10"
+   },
+   "answer": "B",
+   "answer_text": "5"
+  },
+  {
+   "q": "Which hashing method is best suited for dynamic resizing?",
+   "options": {
+    "A": "Chaining",
+    "B": "Open addressing",
+    "C": "Extendible hashing",
+    "D": "Linear probing"
+   },
+   "answer": "C",
+   "answer_text": "Extendible hashing"
+  },
+  {
+   "q": "Which of the following is true about quadratic probing?",
+   "options": {
+    "A": "The probe sequence follows a linear pattern",
+    "B": "The probe sequence follows a squared increment pattern",
+    "C": "It eliminates all collisions",
+    "D": "It is more memory-efficient than separate chaining"
+   },
+   "answer": "B",
+   "answer_text": "The probe sequence follows a squared increment pattern"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What Are Hash Functions? Discuss its types .",
+   "answer": [
+    "A hash function is a special mathematical function that takes a key and converts it into a specific index within the hash table. This function ensures that the same key always produces the same index. For example, if you have a key \"apple,\" the hash function might convert it to the index 5.",
+    "The key \"banana\" might be converted to index 8. Good hash functions distribute keys evenly across the hash table to minimize collisions.",
+    "Types of Hash Functions",
+    "1. Division Method: It is the most simple method of hashing an integer x. This method divides x by M and then uses the remainder obtained. In this case, the hash function can be given as h(x) = x mod M The division method is quite good for just about any value of M and since it requires only a single division operation, the method works very fast. However, extra care should be taken to select a suitable value for M.",
+    "2. Multiplication Method",
+    "The steps involved in the multiplication method are as follows:",
+    "Step 1: Choose a constant A such that 0 < A < 1.",
+    "Step 2: Multiply the key k by A.",
+    "Step 3: Extract the fractional part of kA.",
+    "Step 4: Multiply the result of Step 3 by the size of hash table (m).",
+    "Hence, the hash function can be given as:",
+    "where (kA mod 1) gives the fractional part of kA and m is the total number of indices in the hash table.",
+    "3. Mid-Square Method",
+    "The mid-square method is a good hash function which works in two steps:",
+    "Step 1: Square the value of the key. That is, find k2.",
+    "Step 2: Extract the middle r digits of the result obtained in Step 1.",
+    "In the mid-square method, the same r digits must be chosen from all the keys. Therefore, the",
+    "hash function can be given as:",
+    "h(k) = s",
+    "where s is obtained by selecting r digits from k2.",
+    "4. Folding Method",
+    "The folding method works in the following two steps:",
+    "Step 1: Divide the key value into a number of parts. That is, divide k into parts k1, k2, ..., kn, where each part has the same number of digits except the last part which may have lesser digits than the other parts.",
+    "Step 2: Add the individual parts. That is, obtain the sum of k1 + k2 + ... + kn. The hash value is produced by ignoring the last carry, if any."
+   ]
+  },
+  {
+   "q": "What is Hashing? How does it work in data structures? Explain with an example.",
+   "answer": [
+    "Hashing in data structures is a technique that uses a hash function to map keys to indices in a hash table, allowing for efficient data storage and retrieval. It transforms data of any size into a fixed-size value (the hash value) which is used as an index to access the associated data. This method enables fast lookups, insertions, and deletions in hash tables, which are commonly used for storing and retrieving data based on key-value pairs.",
+    "How Hashing Works?",
+    "The process of hashing can be broken down into three steps:",
+    "Input: The data to be hashed is input into the hashing algorithm.",
+    "Hash Function: The hashing algorithm takes the input data and applies a mathematical function to generate a fixed-size hash value. The hash function should be designed so that different input values produce different hash values, and small changes in the input produce large changes in the output.",
+    "Output: The hash value is returned, which is used as an index to store or retrieve data in a data structure."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a student record management system for a college where student roll numbers (unique integers) are used as keys. You decide to use a hash table for efficient storage and quick retrieval. However, during insertion of some roll numbers, you observe that multiple roll numbers are mapping to the same index in the hash table. Based on this scenario: Define what a collision is in the context of hashing. Explain why collisions occur. Discuss about different strategies to resolve collisions with suitable examples.",
+   "answer": [
+    "Collision in Hashing: A collision occurs when two different keys produce the same hash value (index) using the hash function. For example, if key1 = 103 and key2 = 113 both result in index = 3 for a table of size 10 (key % 10), a collision has occurred.",
+    "COLLISION",
+    "Figure above shows a hash table in which each key from the set K is mapped to locations generated by using a hash function. Note that keys k2 and k6 point to the same memory location. This is known as collision. That is, when two or more keys map to the same memory location, a collision is said to occur. Similarly, keys k5 and k7 also collide.",
+    "2. Why Collisions Occur:",
+    "The size of the hash table is limited.",
+    "Multiple distinct keys can map to the same index due to the limitations of the hash function.",
+    "This is especially common when the number of items approaches or exceeds the table size.",
+    "3. Different strategies to resolve collisions",
+    "COLLISION RESOLUTION TECHNIQUE",
+    "Collisions occur when the hash function maps two different keys to the same location. Obviously, two records cannot be stored in the same location. Therefore, a method used to solve the problem of collision, also called collision resolution technique, is applied.",
+    "The two most popular methods of resolving collisions are: Open addressing Separate Chaining",
+    "Open addressing",
+    "Separate Chaining",
+    "COLLISION RESOLUTION BY OPEN ADDRESSING",
+    "Once a collision takes place, open addressing or closed hashing computes new positions using a probe sequence and the next record is stored in that position.",
+    "In this technique, all the values are stored in the hash table. The hash table contains two types of values: sentinel values (e.g., -1) and data values.",
+    "The presence of a sentinel value indicates that the location contains no data value at present but can be used to hold a value.",
+    "The process of examining memory locations in the hash table is called probing.",
+    "Open addressing technique can be implemented using: linear probing quadratic probing double hashing",
+    "linear probing",
+    "quadratic probing",
+    "double hashing",
+    "Linear Probing: If a collision happens, the algorithm checks the next slot in the table (index + 1) until it finds an empty slot.",
+    "Quadratic Probing: Like linear probing, but it checks slots at intervals of 1 2 , 2 2 , 3 2 , etc., after a collision.",
+    "Double Hashing: Uses a second hash function to determine how far to move when a collision occurs.",
+    "COLLISION RESOLUTION BY SEPARATE CHAINING",
+    "The idea behind separate chaining is to implement the array as a linked list called a chain. The linked list data structure is used to implement this technique.",
+    "When multiple elements are hashed into the same slot index, then these elements are inserted into a singly-linked list which is known as a chain."
+   ]
+  }
+ ]
+}

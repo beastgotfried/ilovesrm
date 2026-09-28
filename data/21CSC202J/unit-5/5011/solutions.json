@@ -1,0 +1,104 @@
+{
+ "course": "21CSC202J",
+ "code": "5011",
+ "unit": 5,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Explain the goals and principles of protection in operating systems",
+ "mcq": [
+  {
+   "q": "In the protection ring model, Ring 0 generally refers to:",
+   "options": {
+    "A": "User applications",
+    "B": "Kernel mode with highest privileges",
+    "C": "Device drivers",
+    "D": "User-level libraries"
+   },
+   "answer": "B",
+   "answer_text": "Kernel mode with highest privileges"
+  },
+  {
+   "q": "Which of these best defines a domain of protection ?",
+   "options": {
+    "A": "The set of all files in the system",
+    "B": "A set of objects and the types of operations allowed on them",
+    "C": "The memory allocated to a process",
+    "D": "A user’s password storage area"
+   },
+   "answer": "B",
+   "answer_text": "A set of objects and the types of operations allowed on them"
+  },
+  {
+   "q": "Which of the following is not a goal of protection in an operating system?",
+   "options": {
+    "A": "To prevent misuse of system resources",
+    "B": "To ensure user convenience only",
+    "C": "To ensure controlled access to system resources",
+    "D": "To enforce security policies"
+   },
+   "answer": "B",
+   "answer_text": "To ensure user convenience only"
+  },
+  {
+   "q": "The principle of least privilege in protection means",
+   "options": {
+    "A": "Giving users all available privileges",
+    "B": "Giving processes only necessary privileges to perform tasks",
+    "C": "Removing all privileges from users",
+    "D": "Giving maximum privileges to kernel"
+   },
+   "answer": "B",
+   "answer_text": "Giving processes only necessary privileges to perform tasks"
+  },
+  {
+   "q": "The protection ring model organizes system privileges",
+   "options": {
+    "A": "Randomly",
+    "B": "In a linear hierarchy with the outermost ring having highest privilege",
+    "C": "In concentric layers with innermost ring having highest privilege",
+    "D": "Without any structure"
+   },
+   "answer": "C",
+   "answer_text": "In concentric layers with innermost ring having highest privilege"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the main goal of protection in an operating system?",
+   "answer": [
+    "The main goal is to ensure controlled and secure access to system resources by preventing unauthorized use or misuse."
+   ]
+  },
+  {
+   "q": "Define a protection domain with an example.",
+   "answer": [
+    "A protection domain is a set of objects together with the operations allowed on them. For example, a user process that can read a file but cannot write to it forms a protection domain."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the principles of protection and describe how the protection ring model enforces security in operating systems.",
+   "answer": [
+    "Answer: Principles of Protection:",
+    "Least Privilege: Granting minimum privileges necessary for a task to reduce risk.",
+    "Least Privilege: Granting minimum privileges necessary for a task to reduce risk.",
+    "Separation of Privilege: Multiple conditions to grant access, enhancing security.",
+    "Separation of Privilege: Multiple conditions to grant access, enhancing security.",
+    "Fail-safe Defaults: Denying access by default unless explicitly granted.",
+    "Fail-safe Defaults: Denying access by default unless explicitly granted.",
+    "Economy of Mechanism: Keeping protection design simple for reliability.",
+    "Economy of Mechanism: Keeping protection design simple for reliability.",
+    "Protection Ring Model (Explain with Diagram):",
+    "Organizes system in concentric rings (e.g., Ring 0 to Ring 3).",
+    "Organizes system in concentric rings (e.g., Ring 0 to Ring 3).",
+    "Ring 0: Kernel mode with full privileges.",
+    "Ring 0: Kernel mode with full privileges.",
+    "Ring 3: User mode with limited privileges.",
+    "Ring 3: User mode with limited privileges.",
+    "Prevents user applications from directly accessing hardware, enforcing layered security and controlled access to critical operations.",
+    "Prevents user applications from directly accessing hardware, enforcing layered security and controlled access to critical operations."
+   ]
+  }
+ ]
+}

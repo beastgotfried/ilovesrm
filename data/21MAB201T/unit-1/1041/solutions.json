@@ -1,0 +1,110 @@
+{
+ "course": "21MAB201T",
+ "code": "1041",
+ "unit": 1,
+ "session": 4,
+ "slo": 1,
+ "slo_title": "Tutorial - Problem solving\t",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Form PDE by eliminating arbitrary constants from } z = ax + by + ab\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Differentiate w.r.t x: } p = a\\)",
+    "(1 Mark)",
+    "\\(\\text{Differentiate w.r.t y: } q = b\\)",
+    "(1 Mark)",
+    "\\(\\text{Substitute: } z = px + qy + pq\\)",
+    "(2 Mark)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Eliminate constants } a \\text{ and } b \\text{ from } z = (x-a)^2 + (y-b)^2 + 1\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Differentiate w.r.t x: } p = 2(x-a) \\Rightarrow (x-a) = \\frac{p}{2}\\)",
+    "(2 Mark)",
+    "\\(\\text{Differentiate w.r.t y: } q = 2(y-b) \\Rightarrow (y-b) = \\frac{q}{2}\\)",
+    "(2 Mark)",
+    "\\(\\text{Substitute: } z = (\\frac{p}{2})^2 + (\\frac{q}{2})^2 + 1 \\Rightarrow 4(z-1) = p^2 + q^2\\)",
+    "(1 Mark)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Form PDEs by eliminating arbitrary constants/functions from: (i) } z = (x-a)^2 + (y-b)^2 \\text{ (ii) } z = f(x^2+y^2) \\text{ (iii) } z = x+y+f(xy)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{(i) Differentiate: } p=2(x-a), q=2(y-b) \\Rightarrow 4z=p^2+q^2\\)",
+    "(2 Mark)",
+    "\\(\\text{(ii) Let } u=x^2+y^2: p=2xf'(u), q=2yf'(u) \\Rightarrow yp-xq=0\\)",
+    "(2 Mark)",
+    "\\(\\text{(iii) Differentiate: } p=1+yf'(xy), q=1+xf'(xy) \\Rightarrow x(p-1)=y(q-1)\\)",
+    "(2 Mark)",
+    "\\(\\text{All three PDEs formed successfully}\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

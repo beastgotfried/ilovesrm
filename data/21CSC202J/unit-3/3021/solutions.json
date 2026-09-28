@@ -1,0 +1,85 @@
+{
+ "course": "21CSC202J",
+ "code": "3021",
+ "unit": 3,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Classify and describe types of scheduling algorithms ",
+ "mcq": [
+  {
+   "q": "In FCFS, what happens when a long CPU-bound process is scheduled before shorter I/O-bound processes?",
+   "options": {
+    "A": "Short processes execute first",
+    "B": "Turnaround time reduces",
+    "C": "Convoy effect occurs",
+    "D": "CPU utilization increases"
+   },
+   "answer": "C",
+   "answer_text": "Convoy effect occurs"
+  },
+  {
+   "q": "Which of the following is non-preemptive in nature?",
+   "options": {
+    "A": "Round Robin",
+    "B": "SJF (preemptive)",
+    "C": "Priority Scheduling (preemptive)",
+    "D": "FCFS"
+   },
+   "answer": "D",
+   "answer_text": "FCFS"
+  },
+  {
+   "q": "What is the main goal of CPU scheduling algorithms?",
+   "options": {
+    "A": "To delay process execution",
+    "B": "To reduce memory usage",
+    "C": "To keep the CPU idle",
+    "D": "To maximize CPU utilization"
+   },
+   "answer": "D",
+   "answer_text": "To maximize CPU utilization"
+  },
+  {
+   "q": "In FCFS scheduling, how are processes selected?",
+   "options": {
+    "A": "Based on the shortest burst time",
+    "B": "By priority level",
+    "C": "In the order they arrive",
+    "D": "By memory size"
+   },
+   "answer": "C",
+   "answer_text": "In the order they arrive"
+  },
+  {
+   "q": "What is a major disadvantage of FCFS scheduling?",
+   "options": {
+    "A": "Starvation",
+    "B": "Complexity in implementation",
+    "C": "Convoy effect",
+    "D": "Unfair CPU allocation"
+   },
+   "answer": "C",
+   "answer_text": "Convoy effect"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define Convoy Effect. Why is it considered a disadvantage in FCFS?",
+   "answer": []
+  },
+  {
+   "q": "Explain preemptive and non-preemptive scheduling with examples.",
+   "answer": [
+    "Point Marks Definition of Preemptive (30%) Definition of Non-preemptive (30%) One example each (40%)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "With suitable examples and Gantt charts, explain how the order of processes affects waiting time in FCFS scheduling. Include calculation of average waiting and turnaround time. Also comment on its advantages and disadvantages.",
+   "answer": [
+    "Component Marks (%) Two different process orders clearly written (15%) Correct Gantt charts drawn for each order (20%) Waiting time and turnaround time correctly calculated (25%) Impact of process order explained (15%) At least two advantages and two disadvantages stated (15%) Logical presentation and clarity (10%)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,188 @@
+{
+ "course": "21CSC201J",
+ "code": "2082",
+ "unit": 2,
+ "session": 8,
+ "slo": 2,
+ "slo_title": "Implementation of Linked List",
+ "mcq": [
+  {
+   "q": "If a linked list implementation does not store a tail pointer , what will be the time complexity for inserting a node at the end",
+   "options": {
+    "A": "O(1)",
+    "B": "O(log n)",
+    "C": "O(n)",
+    "D": "O(n^2)"
+   },
+   "answer": "C",
+   "answer_text": "O(n)"
+  },
+  {
+   "q": "If a linked list implementation does not store a tail pointer , what will be the time complexity for inserting a node at the end",
+   "options": {
+    "A": "O(1)",
+    "B": "O(log n)",
+    "C": "O(n)",
+    "D": "O(n^2)"
+   },
+   "answer": "C",
+   "answer_text": "O(n)"
+  },
+  {
+   "q": "What is the time complexity of inserting a node at the beginning of a singly linked list",
+   "options": {
+    "A": "O(1)",
+    "B": "O(n)",
+    "C": "O(log n)",
+    "D": "O(n^2)"
+   },
+   "answer": "A",
+   "answer_text": "O(1)"
+  },
+  {
+   "q": "A web browser maintains a history of visited websites using a doubly linked list. If the back button is pressed, which pointer is used to retrieve the previous page",
+   "options": {
+    "A": "next pointer",
+    "B": "prev pointer",
+    "C": "head pointer",
+    "D": "NULL pointer"
+   },
+   "answer": "B",
+   "answer_text": "prev pointer"
+  },
+  {
+   "q": "In a doubly linked list , how many pointers are updated when inserting a node in the middle",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+   },
+   "answer": "D",
+   "answer_text": "4"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Imagine you are developing a software application that involves managing a dynamic list of customer orders. Each order contains an order ID. You need to implement a system where new orders can be inserted into a linked list representing the list of orders. Provide a pseudocode for the following tasks to illustrate how they would be implemented. a) Define a structure for representing an order. b) Write a function to insert a new order at the beginning and at the end of the linked list.",
+   "answer": [
+    "A)",
+    "B)"
+   ]
+  },
+  {
+   "q": "A)A customer management system for an e-commerce platform is developed. Customers are stored in a singly linked list where each node contains customer_id, and a pointer to the next customer in the list. The list is used to track customer interactions in the order they occur, with new customers being added to the end of the list. Provide a pseudocode for the following tasks to illustrate how they would be implemented. A) A customer closes their account, and their information is at the beginning of the list. The system needs to remove this customer’s node from the list. B) The platform has a policy to remove customer records from the middle of the list if they have been inactive for a specific duration. The position of the customer in the list is known, and you need to delete this customer’s node.",
+   "answer": [
+    "A)",
+    "B)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Y ou are building a basic task manager application where each task is stored using a singly linked list . Each task contains a task ID (integer) and is maintained in the order it was added. The task manager should allow the user to: Add a new task at the end View all tasks Insert a task at a specific position (e.g., a high-priority task) Delete the task at the beginning (once completed) Delete the task at the end (if cancelled)",
+   "answer": [
+    "#include <stdio.h>",
+    "#include <stdlib.h>",
+    "// Node structure representing a task",
+    "struct Task {",
+    "int taskID;",
+    "struct Task* next;",
+    "};",
+    "// Add task at the end",
+    "void addTask(struct Task** head, int id) {",
+    "struct Task* newTask = (struct Task*)malloc(sizeof(struct Task));",
+    "newTask->taskID = id;",
+    "newTask->next = NULL;",
+    "if (*head == NULL) {",
+    "*head = newTask;",
+    "return;",
+    "}",
+    "struct Task* temp = *head;",
+    "while (temp->next != NULL)",
+    "temp = temp->next;",
+    "temp->next = newTask;",
+    "}",
+    "// Display all tasks",
+    "void displayTasks(struct Task* head) {",
+    "if (head == NULL) {",
+    "printf(\"No tasks in the list.\\n\");",
+    "return;",
+    "}",
+    "printf(\"Task List: \");",
+    "while (head != NULL) {",
+    "printf(\"[%d] -> \", head->taskID);",
+    "head = head->next;",
+    "}",
+    "printf(\"NULL\\n\");",
+    "}",
+    "// Insert task at a specific position",
+    "void insertTaskAtPosition(struct Task** head, int id, int position) {",
+    "struct Task* newTask = (struct Task*)malloc(sizeof(struct Task));",
+    "newTask->taskID = id;",
+    "if (position == 1) {",
+    "newTask->next = *head;",
+    "*head = newTask;",
+    "return;",
+    "}",
+    "struct Task* temp = *head;",
+    "for (int i = 1; i < position - 1 && temp != NULL; i++) {",
+    "temp = temp->next;",
+    "}",
+    "if (temp == NULL) {",
+    "printf(\"Invalid position.\\n\");",
+    "free(newTask);",
+    "return;",
+    "}",
+    "newTask->next = temp->next;",
+    "temp->next = newTask;",
+    "}",
+    "// Delete task at the beginning",
+    "void deleteTaskAtBeginning(struct Task** head) {",
+    "if (*head == NULL) {",
+    "printf(\"No tasks to delete.\\n\");",
+    "return;",
+    "}",
+    "struct Task* temp = *head;",
+    "*head = (*head)->next;",
+    "printf(\"Deleted task: %d\\n\", temp->taskID);",
+    "free(temp);",
+    "}",
+    "// Delete task at the end",
+    "void deleteTaskAtEnd(struct Task** head) {",
+    "if (*head == NULL) {",
+    "printf(\"No tasks to delete.\\n\");",
+    "return;",
+    "}",
+    "if ((*head)->next == NULL) {",
+    "printf(\"Deleted task: %d\\n\", (*head)->taskID);",
+    "free(*head);",
+    "*head = NULL;",
+    "return;",
+    "}",
+    "struct Task* temp = *head;",
+    "while (temp->next->next != NULL)",
+    "temp = temp->next;",
+    "printf(\"Deleted task: %d\\n\", temp->next->taskID);",
+    "free(temp->next);",
+    "temp->next = NULL;",
+    "}",
+    "// Driver program",
+    "int main() {",
+    "struct Task* taskList = NULL;",
+    "addTask(&taskList, 101);",
+    "addTask(&taskList, 102);",
+    "addTask(&taskList, 103);",
+    "displayTasks(taskList);",
+    "insertTaskAtPosition(&taskList, 150, 2); // Insert high priority task",
+    "displayTasks(taskList);",
+    "deleteTaskAtBeginning(&taskList); // Task completed",
+    "displayTasks(taskList);",
+    "deleteTaskAtEnd(&taskList); // Cancelled task",
+    "displayTasks(taskList);",
+    "return 0;",
+    "}"
+   ]
+  }
+ ]
+}

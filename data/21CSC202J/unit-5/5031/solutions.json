@@ -1,0 +1,108 @@
+{
+ "course": "21CSC202J",
+ "code": "5031",
+ "unit": 5,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Explain the need for revocation of access rights",
+ "mcq": [
+  {
+   "q": "In reacquisition , how are capabilities revoked?",
+   "options": {
+    "A": "By deleting table entries",
+    "B": "By deleting capabilities periodically so they must be reacquired",
+    "C": "By changing master key",
+    "D": "By indirect pointers"
+   },
+   "answer": "B",
+   "answer_text": "By deleting capabilities periodically so they must be reacquired"
+  },
+  {
+   "q": "An attacker gaining root access can bypass which control easily?",
+   "options": {
+    "A": "MAC",
+    "B": "DAC",
+    "C": "RBAC",
+    "D": "Protection rings"
+   },
+   "answer": "B",
+   "answer_text": "DAC"
+  },
+  {
+   "q": "In RBAC, users acquire privileges by:",
+   "options": {
+    "A": "Being root users",
+    "B": "Using setuid programs",
+    "C": "Taking roles with assigned privileges",
+    "D": "Modifying capability lists"
+   },
+   "answer": "C",
+   "answer_text": "Taking roles with assigned privileges"
+  },
+  {
+   "q": "Mandatory Access Control (MAC) applies security labels to:",
+   "options": {
+    "A": "Only files",
+    "B": "Only users",
+    "C": "Both subjects and objects",
+    "D": "Neither subjects nor objects"
+   },
+   "answer": "C",
+   "answer_text": "Both subjects and objects"
+  },
+  {
+   "q": "Discretionary Access Control (DAC) allows:",
+   "options": {
+    "A": "System-enforced access only",
+    "B": "Root-only permissions",
+    "C": "Owners to set file permissions",
+    "D": "No modification of permissions"
+   },
+   "answer": "C",
+   "answer_text": "Owners to set file permissions"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Compare DAC and MAC based on control and security enforcement.",
+   "answer": [
+    "DAC (Discretionary Access Control): Owners set permissions, user-controlled, flexible but vulnerable if user misconfigures or attacker gains owner/root access.",
+    "DAC (Discretionary Access Control): Owners set permissions, user-controlled, flexible but vulnerable if user misconfigures or attacker gains owner/root access.",
+    "MAC (Mandatory Access Control): System-enforced, applies security labels, users cannot modify policies, provides strong security as even root cannot bypass restrictions.",
+    "MAC (Mandatory Access Control): System-enforced, applies security labels, users cannot modify policies, provides strong security as even root cannot bypass restrictions."
+   ]
+  },
+  {
+   "q": "What is back-pointers revocation and state one drawback?",
+   "answer": [
+    "Back-pointers maintain a list with each object pointing to all capabilities associated with it. During revocation, the system follows these pointers to change or delete capabilities. Drawback: Implementation is costly as it requires maintaining and updating pointer lists for all capabilities."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain any three revocation schemes for access rights with examples. Also compare Role-Based Access Control (RBAC) and Mandatory Access Control (MAC) based on control and flexibility.",
+   "answer": [
+    "Answer Key:",
+    "Reacquisition: Periodically delete capabilities so users must reacquire them to continue access. Example: Temporary conference room access cards that expire daily.",
+    "Reacquisition:",
+    "Periodically delete capabilities so users must reacquire them to continue access.",
+    "Periodically delete capabilities so users must reacquire them to continue access.",
+    "Example: Temporary conference room access cards that expire daily.",
+    "Example: Temporary conference room access cards that expire daily.",
+    "Back-pointers: Maintain a list of all capabilities pointing to an object; revoke by deleting entries via pointers. Example: If a file access is revoked, all users with pointers to it lose access immediately.",
+    "Back-pointers:",
+    "Maintain a list of all capabilities pointing to an object; revoke by deleting entries via pointers.",
+    "Maintain a list of all capabilities pointing to an object; revoke by deleting entries via pointers.",
+    "Example: If a file access is revoked, all users with pointers to it lose access immediately.",
+    "Example: If a file access is revoked, all users with pointers to it lose access immediately.",
+    "Keys: Objects have master keys; changing the key invalidates all existing capabilities referencing it. Example: Changing encryption keys invalidates prior file access capabilities.",
+    "Keys:",
+    "Objects have master keys; changing the key invalidates all existing capabilities referencing it.",
+    "Objects have master keys; changing the key invalidates all existing capabilities referencing it.",
+    "Example: Changing encryption keys invalidates prior file access capabilities.",
+    "Example: Changing encryption keys invalidates prior file access capabilities."
+   ]
+  }
+ ]
+}

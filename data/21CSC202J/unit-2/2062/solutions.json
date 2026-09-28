@@ -1,0 +1,126 @@
+{
+ "course": "21CSC202J",
+ "code": "2062",
+ "unit": 2,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Describe how multithreading works in operating systems",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Faster context switching",
+    "B": "Parallelism",
+    "C": "Isolation between threads",
+    "D": "Responsiveness"
+   },
+   "answer": "C",
+   "answer_text": "Isolation between threads"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Slower context switching",
+    "B": "Better user interface design",
+    "C": "Improved responsiveness and CPU utilization",
+    "D": "Increased memory usage"
+   },
+   "answer": "C",
+   "answer_text": "Improved responsiveness and CPU utilization"
+  },
+  {
+   "q": "A. B. C. D. Answer: C. Multithreaded model",
+   "options": {
+    "A": "Sequential model",
+    "B": "Monolithic model",
+    "C": "Layered model",
+    "D": "Multithreaded model"
+   },
+   "answer": "D",
+   "answer_text": "Multithreaded model"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Translates source code",
+    "B": "Handles hardware design",
+    "C": "Schedules threads/processes across cores",
+    "D": "Stores data in databases"
+   },
+   "answer": "C",
+   "answer_text": "Schedules threads/processes across cores"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Running a program on a single CPU",
+    "B": "Using multiple programs in one thread",
+    "C": "Executing multiple threads/processes across multiple CPU cores",
+    "D": "Compressing code to save space"
+   },
+   "answer": "C",
+   "answer_text": "Executing multiple threads/processes across multiple CPU cores"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Multicore programming enables operating systems to maximize CPU usage by executing multiple processes or threads in parallel, leading to better performance, faster response times , and efficient multitasking ."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Improved responsiveness: Threads can handle tasks like user input and background work concurrently.",
+    "Improved responsiveness: Threads can handle tasks like user input and background work concurrently.",
+    "Efficient CPU usage: Threads keep the CPU busy by switching between tasks during I/O operations or delays.",
+    "Efficient CPU usage: Threads keep the CPU busy by switching between tasks during I/O operations or delays."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain multithreading in operating systems. Discuss its benefits, key components, and challenges. Provide examples of how multithreading improves system performance.",
+   "answer": [
+    "Multithreading is a feature of operating systems where multiple threads run concurrently within a single process. Threads share the same code, data, and system resources but operate independently in terms of execution.",
+    "Faster Execution: Threads run in parallel, improving task completion time.",
+    "Faster Execution: Threads run in parallel, improving task completion time.",
+    "Increased Responsiveness: In GUI applications, one thread can handle UI while another handles background tasks.",
+    "Increased Responsiveness: In GUI applications, one thread can handle UI while another handles background tasks.",
+    "Resource Sharing: Threads use less memory than processes since they share address space.",
+    "Resource Sharing: Threads use less memory than processes since they share address space.",
+    "Efficient CPU Utilization: Threads can run while others wait (e.g., for I/O), keeping CPU busy.",
+    "Efficient CPU Utilization: Threads can run while others wait (e.g., for I/O), keeping CPU busy.",
+    "Thread ID: Unique identifier for each thread",
+    "Thread ID: Unique identifier for each thread",
+    "Program Counter: Points to the current instruction",
+    "Program Counter: Points to the current instruction",
+    "Registers: CPU register set per thread",
+    "Registers: CPU register set per thread",
+    "Stack: Separate for each thread to manage function calls",
+    "Stack: Separate for each thread to manage function calls",
+    "Shared by threads in the same process:",
+    "Code segment",
+    "Code segment",
+    "Data segment",
+    "Data segment",
+    "Open files",
+    "Open files",
+    "Race Conditions: Two threads accessing shared data simultaneously can cause inconsistencies.",
+    "Race Conditions: Two threads accessing shared data simultaneously can cause inconsistencies.",
+    "Deadlocks: Threads waiting on each other indefinitely for resources.",
+    "Deadlocks: Threads waiting on each other indefinitely for resources.",
+    "Debugging Difficulty: Errors are harder to reproduce and fix in concurrent code.",
+    "Debugging Difficulty: Errors are harder to reproduce and fix in concurrent code.",
+    "Context Switching Overhead: Still involves some CPU overhead for switching between threads.",
+    "Context Switching Overhead: Still involves some CPU overhead for switching between threads.",
+    "Web Server: Each client request is handled by a separate thread. While one waits for database access, others can continue processing.",
+    "Web Server: Each client request is handled by a separate thread. While one waits for database access, others can continue processing.",
+    "Text Editor: One thread handles user typing, while another handles background autosave.",
+    "Text Editor: One thread handles user typing, while another handles background autosave.",
+    "Multithreading is a powerful mechanism in modern operating systems that improves performance, responsiveness, and resource efficiency . However, it requires careful design to avoid concurrency issues and to synchronize access to shared resources."
+   ]
+  }
+ ]
+}

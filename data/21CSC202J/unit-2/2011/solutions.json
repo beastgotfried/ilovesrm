@@ -1,0 +1,105 @@
+{
+ "course": "21CSC202J",
+ "code": "2011",
+ "unit": 2,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Define what a process and its attributes is in an operating system",
+ "mcq": [
+  {
+   "q": "What is a process in an operating system?",
+   "options": {
+    "A": "A set of instructions stored on disk",
+    "B": "A program in execution",
+    "C": "A user command entered in a terminal",
+    "D": "A hardware component"
+   },
+   "answer": "B",
+   "answer_text": "A program in execution"
+  },
+  {
+   "q": "What does the 'process state' indicate?",
+   "options": {
+    "A": "The memory usage of the process",
+    "B": "The input/output status of the process",
+    "C": "The current activity or stage of the process",
+    "D": "The result of the process"
+   },
+   "answer": "C",
+   "answer_text": "The current activity or stage of the process"
+  },
+  {
+   "q": "Which of the following is not an attribute of a process in an operating system?",
+   "options": {
+    "A": "Process ID (PID)",
+    "B": "Program Counter",
+    "C": "Stack Pointer",
+    "D": "Device Driver"
+   },
+   "answer": "D",
+   "answer_text": "Device Driver"
+  },
+  {
+   "q": "When a process is waiting for an event to occur (like input), what is its state?",
+   "options": {
+    "A": "Running",
+    "B": "Ready",
+    "C": "Blocked (or Waiting)",
+    "D": "Suspended"
+   },
+   "answer": "C",
+   "answer_text": "Blocked (or Waiting)"
+  },
+  {
+   "q": "The process control block (PCB) does NOT contain which of the following?",
+   "options": {
+    "A": "CPU registers",
+    "B": "Memory limits",
+    "C": "Program source code",
+    "D": "Process state"
+   },
+   "answer": "C",
+   "answer_text": "Program source code"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define a process and differentiate it from a program.",
+   "answer": [
+    "A process is a program in execution, which includes the program code, current activity, and a set of resources like CPU registers, memory, and files. A program is a passive set of instructions stored on disk, while a process is an active entity."
+   ]
+  },
+  {
+   "q": "What is a Process Control Block (PCB) and why is it important?",
+   "answer": [
+    "A Process Control Block (PCB) is a data structure used by the operating system to store information about a process, such as its ID, state, CPU registers, memory limits, and scheduling information. It is crucial for process management and context switching ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the concept of a process in an operating system. Describe the various attributes of a process stored in the Process Control Block (PCB).",
+   "answer": [
+    "A process is a program in execution. It is an active entity, unlike a program, which is just a passive set of instructions. Each process in an operating system is assigned a unique Process ID (PID) and is managed independently. The operating system uses a data structure called the Process Control Block (PCB) to store all the information about a process.",
+    "The key attributes of a process stored in the PCB include:",
+    "Process ID (PID): A unique identifier assigned to each process for tracking and management.",
+    "Process ID (PID): A unique identifier assigned to each process for tracking and management.",
+    "Process State: Indicates the current state of the process – e.g., New, Ready, Running, Waiting (Blocked), or Terminated.",
+    "Process State: Indicates the current state of the process – e.g., New, Ready, Running, Waiting (Blocked), or Terminated.",
+    "Program Counter (PC): Holds the address of the next instruction to be executed.",
+    "Program Counter (PC): Holds the address of the next instruction to be executed.",
+    "CPU Registers: Stores the current values of CPU registers for the process during execution or context switching.",
+    "CPU Registers: Stores the current values of CPU registers for the process during execution or context switching.",
+    "Memory Management Information: Includes information about memory allocated to the process, such as base and limit registers or page tables.",
+    "Memory Management Information: Includes information about memory allocated to the process, such as base and limit registers or page tables.",
+    "Accounting Information: Tracks resource usage statistics like CPU time, job or process number, etc.",
+    "Accounting Information: Tracks resource usage statistics like CPU time, job or process number, etc.",
+    "I/O Status Information: Details of input/output devices allocated, files opened, and I/O requests.",
+    "I/O Status Information: Details of input/output devices allocated, files opened, and I/O requests.",
+    "Scheduling Information: Includes priority level, pointers for scheduling queues, and other data used by the CPU scheduler.",
+    "Scheduling Information: Includes priority level, pointers for scheduling queues, and other data used by the CPU scheduler.",
+    "The PCB plays a crucial role during context switching , where the state of a process is saved and restored so that execution can be resumed later without data loss. This allows multitasking and ensures efficient CPU utilization."
+   ]
+  }
+ ]
+}

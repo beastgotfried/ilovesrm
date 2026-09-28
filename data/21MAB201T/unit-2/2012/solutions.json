@@ -1,0 +1,90 @@
+{
+ "course": "21MAB201T",
+ "code": "2012",
+ "unit": 2,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "Solve problems related to finding the Fourier series of a function defined in (0, 2π).",
+ "mcq": [
+  {
+   "q": "Which of the following is not a Dirichlet condition for a periodic function?",
+   "options": {
+    "A": "It is single valued and finite in any interval.",
+    "B": "It has atmost a finite number of discontinuities within the period.",
+    "C": "It has finite number of discontinuities within the period.",
+    "D": "It has infinite number of maxima and minima in any one period."
+   },
+   "answer": "D",
+   "answer_text": "It has infinite number of maxima and minima in any one period."
+  },
+  {
+   "q": "If \\( f(x) = k \\) (constant) in \\( (0, 2\\pi) \\), what is its Fourier series?",
+   "options": {
+    "A": "\\( f(x) = k \\)",
+    "B": "\\( f(x) = \\frac{k}{2} + \\sum_{n=1}^{\\infty} \\frac{k}{\\pi} \\sin(nx) \\)",
+    "C": "\\( f(x) = k + \\sum_{n=1}^{\\infty} \\cos(nx) \\)",
+    "D": "\\( f(x) = \\frac{k}{2} \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( f(x) = k \\)"
+  },
+  {
+   "q": "Fourier series of the function \\(f(x)\\) with period \\(2\\pi\\) in the interval \\([0,2\\pi]\\)",
+   "options": {
+    "A": "\\(f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos(nx) + b_n \\sin(nx) \\right]\\)",
+    "B": "\\(f(x) = \\frac{b_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos(nx) + b_n \\sin(nx) \\right]\\)",
+    "C": "\\(f(x) = \\frac{a_n}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos(nx) + b_n \\sin(nx) \\right]\\)",
+    "D": "\\(f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\sin(nx) + b_n \\cos(nx) \\right]\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\(f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\sin(nx) + b_n \\cos(nx) \\right]\\)"
+  },
+  {
+   "q": "A function \\(f(x)\\) is said to be periodic if",
+   "options": {
+    "A": "\\(f(x-p) = f(x)\\)",
+    "B": "\\(f(x+p) = f(x)\\)",
+    "C": "\\(f(x+2p) = f(x)\\)",
+    "D": "\\(f(2x+p) = f(x)\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(f(x+p) = f(x)\\)"
+  },
+  {
+   "q": "The constant term in Fourier series expansion on \\( (0, 2\\pi) \\) is written as \\( a_0/2 \\) rather than \\( a_0 \\) because:",
+   "options": {
+    "A": "\\( a_0 \\) can be obtained from the formula for \\( a_n \\) by setting \\( n=0 \\)",
+    "B": "It makes the formulas symmetrical",
+    "C": "It's a historical convention",
+    "D": "It simplifies calculations"
+   },
+   "answer": "A",
+   "answer_text": "\\( a_0 \\) can be obtained from the formula for \\( a_n \\) by setting \\( n=0 \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Define Fourier series of a function } f(x) \\text{ of period } 2\\pi \\text{ in the interval } (0, 2\\pi).\\)",
+   "answer": [
+    "\\(\\text{The Fourier series is: } f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} (a_n \\cos nx + b_n \\sin nx)\\)",
+    "\\(\\text{where coefficients are: } a_0 = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) dx\\)",
+    "\\(\\text{ } a_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) \\cos nx \\, dx, \\quad n \\ge 1\\)",
+    "\\(\\text{ } b_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) \\sin nx \\, dx, \\quad n \\ge 1\\)"
+   ]
+  },
+  {
+   "q": "If f(x) is a periodic function with period \\(2\\pi\\) , then the Fourier series of the function f(x) in the interval \\([0,2\\pi]\\) is given by \\( f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos nx + b_n \\sin nx \\right] \\)",
+   "answer": [
+    "\\( a_0 = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) dx --(1m)\\\\ a_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x)\\cos nx\\, dx --(2m)\\\\ b_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x)\\sin nx\\, dx --(2m) \\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=e^{ax}\\) in \\((0,2\\pi)\\). Hence, find the sum of the series \\(\\sum_{n=1}^{\\infty}\\frac{1}{a^2+n^2}\\).",
+   "answer": [
+    "Step Marks Fourier series form: \\(f(x)=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)\\) (1) \\(a_0=\\frac{1}{\\pi}\\int_0^{2\\pi}e^{ax}dx=\\frac{e^{2a\\pi}-1}{a\\pi}\\) (2) \\(a_n=\\frac{1}{\\pi}\\int_0^{2\\pi}e^{ax}\\cos nx\\,dx=\\frac{a(e^{2a\\pi}-1)}{\\pi(a^2+n^2)}\\) (3) \\(b_n=\\frac{1}{\\pi}\\int_0^{2\\pi}e^{ax}\\sin nx\\,dx=\\frac{-n(e^{2a\\pi}-1)}{\\pi(a^2+n^2)}\\) (3) Thus, \\(e^{ax}=\\frac{e^{2a\\pi}-1}{\\pi}\\left[\\frac{1}{2a}+a\\sum_{n=1}^{\\infty}\\frac{\\cos nx}{a^2+n^2}-\\sum_{n=1}^{\\infty}\\frac{n\\sin nx}{a^2+n^2}\\right]\\) (2) Put \\(x=0\\): \\(1=\\frac{e^{2a\\pi}-1}{\\pi}\\left[\\frac{1}{2a}+a\\sum_{n=1}^{\\infty}\\frac{1}{a^2+n^2}\\right]\\) ⇒ \\(\\sum_{n=1}^{\\infty}\\frac{1}{a^2+n^2}=\\frac{\\pi\\coth a\\pi}{2a}-\\frac{1}{2a^2}\\) (4)"
+   ]
+  }
+ ]
+}

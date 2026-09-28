@@ -1,0 +1,133 @@
+{
+ "course": "21CSC202J",
+ "code": "4111",
+ "unit": 4,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "Describe the structure of magnetic disks and how data is organized",
+ "mcq": [
+  {
+   "q": "The time taken to transfer data after reaching the correct sector is called:",
+   "options": {
+    "A": "Seek time",
+    "B": "Transfer time",
+    "C": "Latency",
+    "D": "Delay time"
+   },
+   "answer": "B",
+   "answer_text": "Transfer time"
+  },
+  {
+   "q": "Which algorithm moves the head in one direction, services requests, then reverses?",
+   "options": {
+    "A": "LOOK",
+    "B": "FCFS",
+    "C": "C-LOOK",
+    "D": "SCAN"
+   },
+   "answer": "D",
+   "answer_text": "SCAN"
+  },
+  {
+   "q": "Seek time is the time required to:",
+   "options": {
+    "A": "Transfer data from disk to memory",
+    "B": "Rotate the disk",
+    "C": "Move the disk arm to the required track",
+    "D": "Access cache"
+   },
+   "answer": "C",
+   "answer_text": "Move the disk arm to the required track"
+  },
+  {
+   "q": "The combination of all tracks aligned vertically on multiple platters is called a:",
+   "options": {
+    "A": "Head",
+    "B": "Sector",
+    "C": "Cylinder",
+    "D": "Zone"
+   },
+   "answer": "C",
+   "answer_text": "Cylinder"
+  },
+  {
+   "q": "The LOOK algorithm differs from SCAN because:",
+   "options": {
+    "A": "It ignores request order",
+    "B": "It only goes as far as the last request",
+    "C": "It scans the entire disk",
+    "D": "It is round-robin"
+   },
+   "answer": "B",
+   "answer_text": "It only goes as far as the last request"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is disk attachment? Name any two types.",
+   "answer": [
+    "Disk attachment refers to how secondary storage (disks) are connected to the system. Two types:",
+    "Host-Attached Storage – connected directly to computer (e.g., SATA)",
+    "Network-Attached Storage (NAS) – accessed via a network",
+    "Mark Allocation:",
+    "Definition – 40%",
+    "Any two correct types – 60%"
+   ]
+  },
+  {
+   "q": "Define seek time, rotational latency, and transfer time.",
+   "answer": [
+    "Seek time: Time to move the read/write head to the correct track",
+    "Rotational latency: Time for the desired sector to rotate under the head",
+    "Rotational latency: Time for the desired sector to rotate under the head",
+    "Transfer time: Time to transfer data once the sector is under the head Mark Allocation: All 3 correct definitions – 60%Proper terminology – 40%",
+    "Transfer time: Time to transfer data once the sector is under the head Mark Allocation: All 3 correct definitions – 60%Proper terminology – 40%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the structure of a magnetic disk and the various methods of disk attachment in operating systems.",
+   "answer": [
+    "Magnetic disks are the most common secondary storage used in computer systems. Each disk (called a platter ) is coated with magnetic material and data is stored using magnetization.",
+    "🔹 Components of Magnetic Disk:",
+    "Platters : Circular disks coated with magnetic material.",
+    "Platters : Circular disks coated with magnetic material.",
+    "Spindle : Holds the platters together and rotates them.",
+    "Spindle : Holds the platters together and rotates them.",
+    "Read/Write Head : Used to read from or write to the disk.",
+    "Read/Write Head : Used to read from or write to the disk.",
+    "Arm Assembly : Moves the heads radially.",
+    "Arm Assembly : Moves the heads radially.",
+    "Track : Circular division on a platter surface.",
+    "Track : Circular division on a platter surface.",
+    "Sector : Pie-shaped wedge of a track (smallest storage unit).",
+    "Sector : Pie-shaped wedge of a track (smallest storage unit).",
+    "Cylinder : All tracks aligned vertically on multiple platters.",
+    "Cylinder : All tracks aligned vertically on multiple platters.",
+    "🔸 2. Disk Attachment Methods: (60%)",
+    "Disks are attached to a computer system using several methods depending on performance and architecture.",
+    "Disk is connected directly to the system via I/O buses like: SATA (Serial ATA) SCSI NVMe or PCIe",
+    "Disk is connected directly to the system via I/O buses like:",
+    "SATA (Serial ATA)",
+    "SATA (Serial ATA)",
+    "SCSI",
+    "SCSI",
+    "NVMe or PCIe",
+    "NVMe or PCIe",
+    "Common in personal computers and workstations.",
+    "Common in personal computers and workstations.",
+    "Storage is shared over a network using protocols like NFS or SMB .",
+    "Storage is shared over a network using protocols like NFS or SMB .",
+    "Each disk appears as a file system over the network .",
+    "Each disk appears as a file system over the network .",
+    "High-speed network of storage devices.",
+    "High-speed network of storage devices.",
+    "Disk blocks are accessed directly using protocols like iSCSI or Fibre Channel .",
+    "Disk blocks are accessed directly using protocols like iSCSI or Fibre Channel .",
+    "Used in enterprise environments .",
+    "Used in enterprise environments ."
+   ]
+  }
+ ]
+}

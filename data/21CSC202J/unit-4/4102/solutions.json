@@ -1,0 +1,102 @@
+{
+ "course": "21CSC202J",
+ "code": "4102",
+ "unit": 4,
+ "session": 10,
+ "slo": 2,
+ "slo_title": "Implement LRU and LFU page replacement algorithms in programs",
+ "mcq": [
+  {
+   "q": "In FIFO, which page is removed first?",
+   "options": {
+    "A": "Least recently used",
+    "B": "Most frequently used",
+    "C": "Page that entered memory first",
+    "D": "Page with largest size"
+   },
+   "answer": "C",
+   "answer_text": "Page that entered memory first"
+  },
+  {
+   "q": "Which algorithm is better suited when recent access is more important than frequency?",
+   "options": {
+    "A": "FIFO",
+    "B": "LRU",
+    "C": "LFU",
+    "D": "MFU"
+   },
+   "answer": "B",
+   "answer_text": "LRU"
+  },
+  {
+   "q": "For reference string 7, 0, 1, 2, 0, 3, 0, 4 and 3 frames using LRU, total page faults =",
+   "options": {
+    "A": "9",
+    "B": "6",
+    "C": "7",
+    "D": "8"
+   },
+   "answer": "D",
+   "answer_text": "8"
+  },
+  {
+   "q": "FIFO is easy to implement because:",
+   "options": {
+    "A": "It doesn’t use any counters",
+    "B": "It tracks frequency",
+    "C": "It calculates future references",
+    "D": "It uses a hash table"
+   },
+   "answer": "A",
+   "answer_text": "It doesn’t use any counters"
+  },
+  {
+   "q": "For reference string 1, 2, 3, 4, 1, 2, 5 , and 3 frames using FIFO, total page faults will be:",
+   "options": {
+    "A": "5",
+    "B": "6",
+    "C": "7",
+    "D": "8"
+   },
+   "answer": "C",
+   "answer_text": "7"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is LRU more accurate but harder to implement than FIFO in labs?",
+   "answer": [
+    "LRU closely mimics real-time usage, leading to fewer page faults. However, it requires tracking the time of last access or updating data structures , which makes it harder to implement compared to FIFO, which just uses a simple queue. Mark Allocation:",
+    "LRU closely mimics real-time usage, leading to fewer page faults. However, it requires tracking the time of last access or updating data structures , which makes it harder to implement compared to FIFO, which just uses a simple queue.",
+    "Mark Allocation:",
+    "Accuracy of LRU – 30%",
+    "Accuracy of LRU – 30%",
+    "Difficulty in tracking access – 40%",
+    "Difficulty in tracking access – 40%",
+    "Comparison to FIFO – 30%",
+    "Comparison to FIFO – 30%"
+   ]
+  },
+  {
+   "q": "calculate the number of page faults using FIFO",
+   "answer": [
+    "FIFO : Page faults occur for: 2, 3, 1, 5, 4, 3 → 6 faults (after initial 3) (50%) Total = 8 faults (50%)",
+    "FIFO : Page faults occur for: 2, 3, 1, 5, 4, 3 → 6 faults (after initial 3) (50%) Total = 8 faults (50%)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "solve the Page Replacement Problem using the LRU (Least Recently Used) Algorithm based on the following: 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5",
+   "answer": [
+    "Problem Solving (60%)",
+    "Total Page Faults: 10",
+    "Total Page Faults: 10",
+    "Total References: 12",
+    "Total References: 12",
+    "Page Hits = 12 - 10 = 2 (20%)",
+    "Page Hits = 12 - 10 = 2 (20%)"
+   ]
+  }
+ ]
+}

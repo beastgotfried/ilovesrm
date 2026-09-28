@@ -1,0 +1,213 @@
+{
+ "course": "21CSC201J",
+ "code": "4051",
+ "unit": 4,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Implementation of Tree using array",
+ "mcq": [
+  {
+   "q": "A complete binary tree is represented as {P, Q, R, S, T}. A new node U is inserted. Where will U be placed in the array representation?",
+   "options": {
+    "A": "At index 2, replacing R",
+    "B": "At index 5, as the left child of R",
+    "C": "At index 3, replacing S",
+    "D": "At index 1, replacing Q"
+   },
+   "answer": "B",
+   "answer_text": "At index 5, as the left child of R"
+  },
+  {
+   "q": "What type of tree structure is best suited for array representation?",
+   "options": {
+    "A": "Full Binary Tree",
+    "B": "Complete Binary Tree",
+    "C": "Skewed Binary Tree",
+    "D": "AVL Tree"
+   },
+   "answer": "B",
+   "answer_text": "Complete Binary Tree"
+  },
+  {
+   "q": "Which condition causes maximum space wastage in an array-based binary tree representation?",
+   "options": {
+    "A": "When the tree is full",
+    "B": "When the tree is balanced",
+    "C": "When the tree is skewed",
+    "D": "When the tree has more internal nodes"
+   },
+   "answer": "C",
+   "answer_text": "When the tree is skewed"
+  },
+  {
+   "q": "Given an array representation of a complete binary tree {A, B, C, D, E, F}, a node is deleted and replaced with F. Which node was deleted?",
+   "options": {
+    "A": "A",
+    "B": "B",
+    "C": "C",
+    "D": "E"
+   },
+   "answer": "C",
+   "answer_text": "C"
+  },
+  {
+   "q": "What must be the ideal size of array if the height of tree is ‘L’?",
+   "options": {
+    "A": "2 L -1",
+    "B": "L-1",
+    "C": "L",
+    "D": "2L"
+   },
+   "answer": "A",
+   "answer_text": "2 L -1"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Describe the advantages and limitations of implementing a binary tree using an array?",
+   "answer": [
+    "Advantages:",
+    "Simple and efficient: Array-based binary tree representations are easy to implement, as there is no need for extra pointers or references, unlike in a linked list.",
+    "Direct access: We can access any node directly using its index. This makes operations such as searching and accessing nodes very fast.",
+    "Cache-friendly: Since the elements are stored in contiguous memory locations, array-based representations are cache-efficient.",
+    "Limitations:",
+    "Fixed size: Once an array is allocated, its size cannot easily be changed. This can be a problem if the tree grows beyond the expected size.",
+    "Wasted space: For sparse trees (with many empty child positions), the array may contain a lot of unused slots, wasting memory.",
+    "Resizing difficulty: If the tree grows dynamically and the array runs out of space, resizing the array can be inefficient. The whole array might need to be reallocated, which involves copying the existing elements into a new larger array."
+   ]
+  },
+  {
+   "q": "What is the representation of a binary tree using an array? Explain how elements are stored in the array.",
+   "answer": [
+    "In an array-based representation of a binary tree, we map the binary tree to a one-dimensional array. This is done in a level-order fashion, where the root node is placed at index 0, the left child of a node at index i is placed at index 2*i + 1, and the right child of a node at index i is placed at index 2*i + 2.",
+    "For parent-child relationships:",
+    "The left child of the node at index i is at index 2*i + 1.",
+    "The right child of the node at index i is at index 2*i + 2.",
+    "The parent of the node at index i (if i > 0) is at index (i-1) / 2 (integer division).",
+    "Example:",
+    "Consider a binary tree:",
+    "This tree can be represented in an array as: [1, 2, 3, 4, 5, 6, 7]",
+    "The root node (1) is at index 0.",
+    "The left child of 1 (2) is at index 1.",
+    "The right child of 1 (3) is at index 2.",
+    "The left child of 2 (4) is at index 3.",
+    "The right child of 2 (5) is at index 4.",
+    "The left child of 3 (6) is at index 5.",
+    "The right child of 3 (7) is at index 6."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "A company has a hierarchical organizational structure where each employee has a manager, and the structure can be represented as a tree. The CEO is at the root, and each department head manages several employees. The company wants to maintain an efficient system where they can quickly add new employees to specific departments and also handle the removal of employees when they leave the company. The company uses a binary tree to represent this hierarchy. Task: Insertion: The company wants to add a new employee to a specific department. Explain how you would insert a new employee into the binary tree. What steps will you follow? Write the pseudocode for insertion. Deletion: Now, if an employee leaves the company, their record needs to be deleted from the tree. How will you delete a specific employee node from the binary tree? Describe the deletion process and write the pseudocode for it. Tree Maintenance: The company needs the hierarchy to be maintained at all times (no broken or invalid connections). Ensure that after insertion or deletion, the structure of the binary tree remains valid and balanced.",
+   "answer": [
+    "Insertion in Binary Tree (Array Implementation)",
+    "In a binary tree represented by an array, the parent-child relationships are stored as follows:",
+    "The root is at index 0.",
+    "The left child of a node at index i is at index 2i + 1.",
+    "The right child of a node at index i is at index 2i + 2.",
+    "Insertion Operation:",
+    "To insert a new node in a binary tree represented by an array:",
+    "The tree should be complete (i.e., every level of the tree is filled except possibly for the last level, which is filled from left to right).",
+    "The new node is inserted at the first available position (next available index in the array).",
+    "Steps for Insertion:",
+    "Find the first empty spot in the array (next available index).",
+    "Insert the node at that position.",
+    "The tree maintains its complete property after insertion .",
+    "Example of Insertion:",
+    "#include <stdio.h>",
+    "#define MAX 100",
+    "// Binary Tree representation using an array",
+    "int tree[MAX];",
+    "int size = 0;",
+    "// Function to insert a node into the binary tree",
+    "void insert(int value) {",
+    "if (size < MAX) {",
+    "tree[size] = value; // Insert the new node",
+    "size++; // Increment the size to keep track of the next insertion",
+    "} else {",
+    "printf(\"Tree is full\\n\");",
+    "}",
+    "}",
+    "// Function to display the tree",
+    "void display() {",
+    "for (int i = 0; i < size; i++) {",
+    "printf(\"%d \", tree[i]);",
+    "}",
+    "printf(\"\\n\");",
+    "}",
+    "int main() {",
+    "insert(10); // Insert root",
+    "insert(20); // Insert left child",
+    "insert(30); // Insert right child",
+    "insert(40); // Insert left child of left child",
+    "display(); // Output the tree: 10 20 30 40",
+    "return 0;",
+    "}",
+    "Deletion in Binary Tree (Array Implementation)",
+    "Deletion in an array-based binary tree involves removing a node and ensuring the tree's properties are maintained. Specifically, for deletion:",
+    "Delete the node.",
+    "Replace it with the last node in the array to maintain the completeness of the tree.",
+    "Rearrange the tree if necessary.",
+    "Steps for Deletion:",
+    "Find the node to be deleted (index).",
+    "Replace the node to be deleted with the last node (the node at the last index of the array).",
+    "Decrement the size of the tree to reflect the removal of the node.",
+    "Example of Deletion:",
+    "#include <stdio.h>",
+    "#define MAX 100",
+    "// Binary Tree representation using an array",
+    "int tree[MAX];",
+    "int size = 0;",
+    "// Function to insert a node into the binary tree",
+    "void insert(int value) {",
+    "if (size < MAX) {",
+    "tree[size] = value; // Insert the new node",
+    "size++; // Increment the size to keep track of the next insertion",
+    "} else {",
+    "printf(\"Tree is full\\n\");",
+    "}",
+    "}",
+    "// Function to delete a node from the binary tree",
+    "void deleteNode(int value) {",
+    "int i = 0;",
+    "// Find the node to delete",
+    "while (i < size && tree[i] != value) {",
+    "i++;",
+    "}",
+    "if (i == size) {",
+    "printf(\"Node not found!\\n\");",
+    "return;",
+    "}",
+    "// Replace the node with the last node",
+    "tree[i] = tree[size - 1];",
+    "size--; // Reduce the size of the tree",
+    "}",
+    "// Function to display the tree",
+    "void display() {",
+    "for (int i = 0; i < size; i++) {",
+    "printf(\"%d \", tree[i]);",
+    "}",
+    "printf(\"\\n\");",
+    "}",
+    "int main() {",
+    "insert(10); // Insert root",
+    "insert(20); // Insert left child",
+    "insert(30); // Insert right child",
+    "insert(40); // Insert left child of left child",
+    "printf(\"Tree before deletion: \");",
+    "display();",
+    "deleteNode(30); // Delete node 30",
+    "printf(\"Tree after deletion: \");",
+    "display(); // Output the tree: 10 20 40",
+    "return 0;",
+    "}",
+    "Tree Maintenance:",
+    "To maintain the binary tree structure after insertion or deletion, we ensure the following:",
+    "After insertion, the tree must remain complete. This can be done by performing a level-order traversal and filling the tree from left to right.",
+    "After deletion, the tree must be balanced. If necessary, re-balance the tree after deleting nodes.",
+    "Use the correct pointer management to avoid memory leaks and ensure proper linkage between parent and child nodes"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,98 @@
+{
+ "course": "21CSC203P",
+ "code": "3071",
+ "unit": 3,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Execute SQL queries from Java programs",
+ "mcq": [
+  {
+   "q": "What does the ResultSet object represent in JDBC?",
+   "options": {
+    "A": "An object to connect with database",
+    "B": "An object that updates records",
+    "C": "A table of data representing the result of a SQL query",
+    "D": "A method to delete rows"
+   },
+   "answer": "C",
+   "answer_text": "A table of data representing the result of a SQL query"
+  },
+  {
+   "q": "Which of the following statements is true about the executeUpdate() method in JDBC?",
+   "options": {
+    "A": "It returns a ResultSet object",
+    "B": "It is used only for SELECT queries",
+    "C": "It returns the number of rows affected",
+    "D": "It creates a new table in the database"
+   },
+   "answer": "C",
+   "answer_text": "It returns the number of rows affected"
+  },
+  {
+   "q": "Given a ResultSet rs , which of the following correctly retrieves the value of a column named \"email\" as a String ?",
+   "options": {
+    "A": "rs.get(\"email\")",
+    "B": "rs.getString(\"email\")",
+    "C": "rs.fetch(\"email\")",
+    "D": "rs.retrieveString(\"email\")"
+   },
+   "answer": "B",
+   "answer_text": "rs.getString(\"email\")"
+  },
+  {
+   "q": "What will happen if you call rs.getInt(\"age\") before calling rs.next() ?",
+   "options": {
+    "A": "It throws an SQLException",
+    "B": "It returns null",
+    "C": "It returns -1",
+    "D": "It moves to the next row automatically"
+   },
+   "answer": "A",
+   "answer_text": "It throws an SQLException"
+  },
+  {
+   "q": "Which loop structure is typically used to iterate over the rows of a ResultSet ?",
+   "options": {
+    "A": "for",
+    "B": "do-while",
+    "C": "while (rs.next())",
+    "D": "foreach (rs)"
+   },
+   "answer": "C",
+   "answer_text": "while (rs.next())"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How can you execute an INSERT SQL query from a Java program using JDBC?",
+   "answer": [
+    "Use Statement or PreparedStatement and executeUpdate() method.",
+    "Statement stmt = con.createStatement(); int rows = stmt.executeUpdate(\"INSERT INTO students(name, age) VALUES('John', 20)\");"
+   ]
+  },
+  {
+   "q": "How is executeUpdate() different from executeQuery() in JDBC?",
+   "answer": [
+    "executeUpdate() is used for INSERT, UPDATE, DELETE; returns number of affected rows.",
+    "executeUpdate() is used for INSERT, UPDATE, DELETE; returns number of affected rows.",
+    "executeQuery() is used for SELECT; returns a ResultSet .",
+    "executeQuery() is used for SELECT; returns a ResultSet ."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are building a student management system. Your task is to fetch and display the details (name, department, and marks) of all students who scored above 80 from the students table using JDBC. Use proper SQL execution and result processing techniques. Write a Java program that: Connects to the MySQL database college Connects to the MySQL database college Executes a SELECT query to get students with marks > 80 Executes a SELECT query to get students with marks > 80 Retrieves and displays results using ResultSet Retrieves and displays results using ResultSet Handles exceptions and closes all JDBC resources properly Handles exceptions and closes all JDBC resources properly",
+   "answer": [
+    "import java.sql.*;",
+    "public class TopStudents { public static void main(String[] args) { String url = \"jdbc:mysql://localhost:3306/college\"; String user = \"root\"; String password = \"admin\";",
+    "Connection con = null; Statement stmt = null; ResultSet rs = null;",
+    "try { // Load driver Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+    "// Create connection con = DriverManager.getConnection(url, user, password);",
+    "// Create statement stmt = con.createStatement();",
+    "// Execute query rs = stmt.executeQuery(\"SELECT name, department, marks FROM students WHERE marks > 80\");",
+    "// Process result while (rs.next()) { String name = rs.getString(\"name\"); String dept = rs.getString(\"department\"); int marks = rs.getInt(\"marks\"); System.out.println(name + \" | \" + dept + \" | \" + marks); } } catch (Exception e) { e.printStackTrace(); } finally { try { if (rs != null) rs.close(); } catch (Exception e) {} try { if (stmt != null) stmt.close(); } catch (Exception e) {} try { if (con != null) con.close(); } catch (Exception e) {} } } }"
+   ]
+  }
+ ]
+}

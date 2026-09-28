@@ -1,0 +1,94 @@
+{
+ "course": "21CSC202J",
+ "code": "4121",
+ "unit": 4,
+ "session": 12,
+ "slo": 1,
+ "slo_title": "Solve numerical problems based on disk scheduling algorithms",
+ "mcq": [
+  {
+   "q": "Which algorithm provides minimum average seek time in most cases?",
+   "options": {
+    "A": "FCFS",
+    "B": "SSTF",
+    "C": "SCAN",
+    "D": "LOOK"
+   },
+   "answer": "B",
+   "answer_text": "SSTF"
+  },
+  {
+   "q": "Given request queue: 98, 183, 37, 122, 14, 124, 65, 67 Initial head position = 53 Calculate total head movement using FCFS :",
+   "options": {
+    "A": "640",
+    "B": "508",
+    "C": "236",
+    "D": "355"
+   },
+   "answer": "A",
+   "answer_text": "640"
+  },
+  {
+   "q": "Swapping is least efficient when:",
+   "options": {
+    "A": "Page fault rate is low",
+    "B": "Memory access is sequential",
+    "C": "Page fault rate is very high (thrashing)",
+    "D": "RAM is large"
+   },
+   "answer": "C",
+   "answer_text": "Page fault rate is very high (thrashing)"
+  },
+  {
+   "q": "In SCAN algorithm, the disk arm:",
+   "options": {
+    "A": "Moves in one direction until end, then reverses",
+    "B": "Always moves to middle",
+    "C": "Randomly serves requests",
+    "D": "Stops at the first request"
+   },
+   "answer": "A",
+   "answer_text": "Moves in one direction until end, then reverses"
+  },
+  {
+   "q": "Given request queue: 98, 183, 37, 122, 14, 124, 65, 67 Initial head position = 53 Calculate total head movement using SSTF :",
+   "options": {
+    "A": "640",
+    "B": "508",
+    "C": "208",
+    "D": "355"
+   },
+   "answer": "C",
+   "answer_text": "208"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Initial head position = 100 Solve using: (i) FCFS (Assume moving toward higher track numbers)**",
+   "answer": [
+    "(i) FCFS: Order: 100 → 82 → 170 → 43 → 140 → 24 → 16 → 190 (50%) Total movement = |100–82| + |82–170| + ... = 640 tracks (50%)"
+   ]
+  },
+  {
+   "q": "Define swap space. Where is it located and what is its role?",
+   "answer": [
+    "Swap space is a dedicated area on the hard disk used to temporarily hold pages or processes from main memory. It supports virtual memory and is used when RAM is full.",
+    "Mark Allocation:",
+    "Definition – 40%",
+    "Definition – 40%",
+    "Location – 30%",
+    "Location – 30%",
+    "Role (paging/memory backup) – 30%",
+    "Role (paging/memory backup) – 30%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Consider the following disk request sequence for a disk with 100 tracks 45, 21, 67, 90, 4, 50, 89, 52, 61, 87, 25 Head pointer starting at 50 and moving in left direction. Find the number of head movements in cylinders using FCFS and SSTF scheduling",
+   "answer": [
+    "FCFS (50%) SSTF (50%)"
+   ]
+  }
+ ]
+}

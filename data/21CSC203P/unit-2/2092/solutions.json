@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2092",
+ "unit": 2,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "Implement compile-time polymorphism in Java using method overloading.",
+ "mcq": [
+  {
+   "q": "Which of the following is NOT allowed in method overloading?",
+   "options": {
+    "A": "Different number of parameters",
+    "B": "Different parameter types",
+    "C": "Different method names",
+    "D": "Different order of parameters"
+   },
+   "answer": "C",
+   "answer_text": "Different method names"
+  },
+  {
+   "q": "Which of the following best describes method overloading?",
+   "options": {
+    "A": "Defining the same method in different classes",
+    "B": "Defining multiple methods with the same name but different parameters",
+    "C": "Using the same class name in multiple packages",
+    "D": "Calling parent methods using super"
+   },
+   "answer": "B",
+   "answer_text": "Defining multiple methods with the same name but different parameters"
+  },
+  {
+   "q": "What does the term \"polymorphism\" literally mean?",
+   "options": {
+    "A": "Many classes",
+    "B": "One function, many forms",
+    "C": "One class, one form",
+    "D": "Multiple inheritance"
+   },
+   "answer": "B",
+   "answer_text": "One function, many forms"
+  },
+  {
+   "q": "Which of the following implements compile-time polymorphism in Java?",
+   "options": {
+    "A": "Method overriding",
+    "B": "Method overloading",
+    "C": "Inheritance",
+    "D": "Abstract classes"
+   },
+   "answer": "B",
+   "answer_text": "Method overloading"
+  },
+  {
+   "q": "Why is polymorphism considered an important feature in object-oriented programming?",
+   "options": {
+    "A": "It hides data",
+    "B": "It allows dynamic memory allocation",
+    "C": "It enables objects to behave differently based on context",
+    "D": "It allows unlimited inheritance"
+   },
+   "answer": "C",
+   "answer_text": "It enables objects to behave differently based on context"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define polymorphism in Java and state its two main types.",
+   "answer": [
+    "Polymorphism in Java refers to the ability of an object to take on many forms. The two main types are: Compile-time polymorphism (achieved through method overloading) Runtime polymorphism (achieved through method overriding)"
+   ]
+  },
+  {
+   "q": "Write a simple Java class that demonstrates method overloading for calculating the area of a square and a rectangle.",
+   "answer": [
+    "public class AreaCalculator { void area(int side) { System.out.println(\"Area of square: \" + (side * side)); } void area(int length, int breadth) { System.out.println(\"Area of rectangle: \" + (length * breadth)); } } Here, both area() methods have the same name but different parameter lists � this is compile-time polymorphism."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are developing a calculator tool. Users should be able to call a method calculate() to add: Two integers Two doubles Three integers Design a Java class using method overloading to support this. Explain how the JVM identifies which method to call. Discuss how compile-time polymorphism improves code clarity and flexibility.",
+   "answer": [
+    "Java Code: public class Calculator { void calculate(int a, int b) { System.out.println(\"Sum (int): \" + (a + b)); } void calculate(double a, double b) { System.out.println(\"Sum (double): \" + (a + b)); } void calculate(int a, int b, int c) { System.out.println(\"Sum (3 ints): \" + (a + b + c)); } public static void main(String[] args) { Calculator calc = new Calculator(); calc.calculate(5, 10); // Calls first method calc.calculate(5.5, 6.3); // Calls second method calc.calculate(1, 2, 3); // Calls third method } } JVM Method Resolution: The Java compiler determines which calculate() method to invoke at compile time, based on the number and type of arguments. This is why it's called compile-time polymorphism. Benefits: Code clarity: A single method name can perform logically similar operations without confusion. Ease of use: Users don�t need to remember multiple method names. Flexibility: The same method can handle various input types or conditions."
+   ]
+  }
+ ]
+}

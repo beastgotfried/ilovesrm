@@ -1,0 +1,83 @@
+{
+ "course": "21CSS201T",
+ "code": "3071",
+ "unit": 3,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Tutorial",
+ "mcq": [
+  {
+   "q": "If three binary numbers A,B,C (4 bits each) are added using a carry-save adder, the result will be:",
+   "options": {
+    "A": "A 4-bit sum only",
+    "B": "A 4-bit sum and a 4-bit carry that need final addition.",
+    "C": "A 5-bit final result directly.",
+    "D": "A single XOR of all three numbers."
+   },
+   "answer": "B",
+   "answer_text": "A 4-bit sum and a 4-bit carry that need final addition."
+  },
+  {
+   "q": "Which of the following is a key characteristic of a Wallace tree multiplier?",
+   "options": {
+    "A": "Sequential carry propagation",
+    "B": "Parallel reduction of partial products using carry-save adders",
+    "C": "Use of Booth’s recoding",
+    "D": "Direct binary-to-decimal conversion"
+   },
+   "answer": "B",
+   "answer_text": "Parallel reduction of partial products using carry-save adders"
+  },
+  {
+   "q": "Which multiplier architecture is best suited for high-speed applications in modern processors?",
+   "options": {
+    "A": "Serial shift-and-add multiplier",
+    "B": "Array multiplier",
+    "C": "Wallace tree multiplier with carry-lookahead final adder",
+    "D": "Ripple-carry adder based multiplier"
+   },
+   "answer": "C",
+   "answer_text": "Wallace tree multiplier with carry-lookahead final adder"
+  },
+  {
+   "q": "A 4×4 array multiplier requires how many AND gates to generate the partial products?",
+   "options": {
+    "A": "8",
+    "B": "12",
+    "C": "16",
+    "D": "20"
+   },
+   "answer": "C",
+   "answer_text": "16"
+  },
+  {
+   "q": "In carry-save addition, which outputs are produced at each step?",
+   "options": {
+    "A": "Only a final sum",
+    "B": "A sum vector and a carry vector",
+    "C": "Only a carry vector",
+    "D": "A quotient and a remainder"
+   },
+   "answer": "B",
+   "answer_text": "A sum vector and a carry vector"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "A 4×4 multiplier requires 4×4=16 AND gates."
+   ]
+  },
+  {
+   "q": "",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "",
+   "answer": []
+  }
+ ]
+}

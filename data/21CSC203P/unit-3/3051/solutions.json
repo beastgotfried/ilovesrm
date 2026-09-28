@@ -1,0 +1,106 @@
+{
+ "course": "21CSC203P",
+ "code": "3051",
+ "unit": 3,
+ "session": 5,
+ "slo": 1,
+ "slo_title": "Define declarative programming in context of databases",
+ "mcq": [
+  {
+   "q": "Which of the following best represents declarative programming in databases?",
+   "options": {
+    "A": "Writing Java methods to fetch data",
+    "B": "Using SQL statements to describe what result is needed",
+    "C": "Using loops to process records manually",
+    "D": "Implementing database queries in Python scripts"
+   },
+   "answer": "B",
+   "answer_text": "Using SQL statements to describe what result is needed"
+  },
+  {
+   "q": "Which of the following does not belong to the steps of JDBC architecture?",
+   "options": {
+    "A": "Loading driver",
+    "B": "Creating connection",
+    "C": "Parsing XML",
+    "D": "Executing SQL statement"
+   },
+   "answer": "C",
+   "answer_text": "Parsing XML"
+  },
+  {
+   "q": "In the context of JDBC, which component provides the implementation of JDBC interfaces?",
+   "options": {
+    "A": "JDBC Driver",
+    "B": "JDBC API",
+    "C": "ResultSet",
+    "D": "Statement object"
+   },
+   "answer": "A",
+   "answer_text": "JDBC Driver"
+  },
+  {
+   "q": "What role does DriverManager play in JDBC?",
+   "options": {
+    "A": "Executes queries",
+    "B": "Manages SQL connections",
+    "C": "Loads and manages database drivers",
+    "D": "Reads database schemas"
+   },
+   "answer": "C",
+   "answer_text": "Loads and manages database drivers"
+  },
+  {
+   "q": "What is the purpose of Connection object in JDBC architecture?",
+   "options": {
+    "A": "Acts as an interface to load SQL drivers",
+    "B": "Represents a session with the database",
+    "C": "Fetches rows from a table",
+    "D": "Prints query results to the console"
+   },
+   "answer": "C",
+   "answer_text": "Fetches rows from a table"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define declarative programming and explain how SQL represents this paradigm in databases.",
+   "answer": [
+    "Declarative programming focuses on describing what the program should accomplish. SQL is a declarative language because users state what data is needed without specifying how to retrieve it. For example: SELECT name FROM employees WHERE salary > 50000;"
+   ]
+  },
+  {
+   "q": "Describe the key components of JDBC architecture.",
+   "answer": [
+    "JDBC API: Provides interfaces for DB access",
+    "JDBC API: Provides interfaces for DB access",
+    "JDBC Driver Manager: Loads and manages drivers",
+    "JDBC Driver Manager: Loads and manages drivers",
+    "JDBC Drivers: Vendor-specific implementations to interact with DB",
+    "JDBC Drivers: Vendor-specific implementations to interact with DB",
+    "Connection: Establishes link to DB",
+    "Connection: Establishes link to DB",
+    "Statement/PreparedStatement/CallableStatement: Executes SQL",
+    "Statement/PreparedStatement/CallableStatement: Executes SQL",
+    "ResultSet: Stores retrieved data",
+    "ResultSet: Stores retrieved data"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "TypYou are developing a university management system in Java. You need to retrieve student data based on department and marks using JDBC , and you must use declarative SQL queries within an imperative JDBC structure . You also need to explain the JDBC architecture behind this process. Write Java code to do the following: Load JDBC driver Load JDBC driver Establish connection Establish connection Retrieve names and scores of students in 'CSE' department with marks > 75 Retrieve names and scores of students in 'CSE' department with marks > 75 Close all resources Also, explain which parts are declarative and which are imperative. Close all resources Also, explain which parts are declarative and which are imperative.",
+   "answer": [
+    "import java.sql.*;",
+    "public class UniversityApp { public static void main(String[] args) { String url = \"jdbc:mysql://localhost:3306/university\"; String user = \"root\"; String password = \"admin\"; String sql = \"SELECT name, marks FROM students WHERE department = ? AND marks > ?\";",
+    "try { // Load driver Class.forName(\"com.mysql.cj.jdbc.Driver\");",
+    "// Create connection Connection con = DriverManager.getConnection(url, user, password);",
+    "// Prepare statement (imperative) PreparedStatement pstmt = con.prepareStatement(sql); pstmt.setString(1, \"CSE\"); pstmt.setInt(2, 75);",
+    "// Execute query ResultSet rs = pstmt.executeQuery();",
+    "// Process result while (rs.next()) { System.out.println(rs.getString(\"name\") + \" - \" + rs.getInt(\"marks\")); }",
+    "// Close resources rs.close(); pstmt.close(); con.close(); } catch (Exception e) { e.printStackTrace(); } } }",
+    "Explanation:"
+   ]
+  }
+ ]
+}

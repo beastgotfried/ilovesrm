@@ -1,0 +1,108 @@
+{
+ "course": "21CSC202J",
+ "code": "1021",
+ "unit": 1,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Define what an operating system is and explain its role in a computer system",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Command Interpreter",
+    "B": "Device Management",
+    "C": "CPU Scheduling",
+    "D": "File System Interface"
+   },
+   "answer": "B",
+   "answer_text": "Device Management"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Device Management",
+    "B": "Kernel Services",
+    "C": "Command Interpreter",
+    "D": "User Interface"
+   },
+   "answer": "B",
+   "answer_text": "Kernel Services"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Bootstrapping",
+    "B": "Resource Scheduling",
+    "C": "Command Interpretation",
+    "D": "Compilation"
+   },
+   "answer": "B",
+   "answer_text": "Resource Scheduling"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Process Management",
+    "B": "Memory Management",
+    "C": "Compiling User Programs",
+    "D": "File System Management"
+   },
+   "answer": "C",
+   "answer_text": "Compiling User Programs"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Executes user programs sequentially",
+    "B": "Compiles and debugs user applications",
+    "C": "Allocates and manages system resources among users and applications",
+    "D": "Provides graphical user interface"
+   },
+   "answer": "C",
+   "answer_text": "Allocates and manages system resources among users and applications"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "The OS is called a Resource Manager because it allocates, manages, and monitors system resources such as CPU, memory, I/O devices, and files among various processes and users efficiently."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Virtual memory is a memory management technique where the OS uses secondary storage to simulate additional main memory, managing it through paging or segmentation."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the major functions of an Operating System with examples.",
+   "answer": [
+    "The Operating System (OS) is a crucial software layer that manages hardware resources and provides services to application programs. Its key functions include:",
+    "1. Process Management: The OS manages processes in a multitasking environment by handling their creation, scheduling, execution, and termination.",
+    "It allocates CPU time to processes based on scheduling algorithms like Round Robin , Priority Scheduling , or Shortest Job First .",
+    "Example: In a multi-user system, the OS ensures each user's task gets fair CPU time through time-sharing.",
+    "2. Memory Management: The OS handles the allocation and deallocation of memory space for processes.",
+    "It tracks memory usage, handles paging and segmentation, and manages virtual memory to optimize performance.",
+    "Example: Using virtual memory , the OS allows processes to use more memory than physically available by swapping data to disk.",
+    "3. File System Management: The OS organizes files on storage devices, manages directories, and controls access permissions.",
+    "It provides file creation, deletion, reading, writing, and access control mechanisms.",
+    "Example: OS manages user permissions to prevent unauthorized access to sensitive files.",
+    "4. Device Management (I/O Management): The OS manages communication with I/O devices through drivers and ensures coordinated access.",
+    "It handles device allocation, I/O operations, and buffering.",
+    "Example: When printing, the OS queues print jobs and sends them to the printer in order.",
+    "5. Security and Protection: The OS enforces security policies, authenticates users, and prevents unauthorized access.",
+    "It implements protection mechanisms like access control lists (ACLs) and user authentication.",
+    "Example: Operating systems require password authentication before granting access to system resources.",
+    "6. User Interface Management: The OS provides a user interface, either Command-Line Interface (CLI) or Graphical User Interface (GUI) , to facilitate user interaction with the system.",
+    "Example: Windows OS provides a GUI, while Linux offers both GUI and CLI options.",
+    "7. Networking: Modern operating systems support networking functionalities for communication between devices and over the internet.",
+    "Example: The OS manages network protocols, connections, and data transfer.",
+    "8. Resource Allocation: The OS allocates hardware resources like CPU, memory, and I/O devices efficiently among multiple applications and users.",
+    "It resolves conflicts and prevents deadlocks using scheduling and synchronization techniques."
+   ]
+  }
+ ]
+}

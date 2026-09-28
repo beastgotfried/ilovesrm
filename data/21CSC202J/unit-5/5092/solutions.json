@@ -1,0 +1,97 @@
+{
+ "course": "21CSC202J",
+ "code": "5092",
+ "unit": 5,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "Explain different computer-security classifications",
+ "mcq": [
+  {
+   "q": "A proxy firewall works by:",
+   "options": {
+    "A": "Blocking all incoming traffic by default",
+    "B": "Acting as an intermediary between internal users and external resources",
+    "C": "Encrypting all data packets",
+    "D": "Allocating IP addresses dynamically"
+   },
+   "answer": "B",
+   "answer_text": "Acting as an intermediary between internal users and external resources"
+  },
+  {
+   "q": "Which of these is a limitation of firewalls?",
+   "options": {
+    "A": "Cannot block malware in encrypted traffic",
+    "B": "Cannot filter based on IP addresses",
+    "C": "Cannot restrict port-based traffic",
+    "D": "Cannot monitor any traffic"
+   },
+   "answer": "A",
+   "answer_text": "Cannot block malware in encrypted traffic"
+  },
+  {
+   "q": "Which of the following uses security labels and classification levels to enforce access?",
+   "options": {
+    "A": "DAC",
+    "B": "RBAC",
+    "C": "MAC",
+    "D": "Rule-Based Access Control"
+   },
+   "answer": "C",
+   "answer_text": "MAC"
+  },
+  {
+   "q": "The primary function of a firewall is to:",
+   "options": {
+    "A": "Encrypt files on disk",
+    "B": "Allocate memory frames",
+    "C": "Filter incoming and outgoing network traffic",
+    "D": "Schedule CPU processes"
+   },
+   "answer": "C",
+   "answer_text": "Filter incoming and outgoing network traffic"
+  },
+  {
+   "q": "Which type of firewall maintains a state table to track active connections?",
+   "options": {
+    "A": "Packet-filtering firewall",
+    "B": "Proxy firewall",
+    "C": "Stateful inspection firewall",
+    "D": "Application firewall"
+   },
+   "answer": "C",
+   "answer_text": "Stateful inspection firewall"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Explain Role-Based Access Control (RBAC) with an example.",
+   "answer": [
+    "RBAC assigns access rights based on user roles. Users are grouped into roles, and roles have permissions. Example: Database Admin role has permissions to create and delete databases, while Developer role only has read/write access.",
+    "RBAC assigns access rights based on user roles. Users are grouped into roles, and roles have permissions. Example: Database Admin role has permissions to create and delete databases, while Developer role only has read/write access."
+   ]
+  },
+  {
+   "q": "Define firewall and mention any two types.",
+   "answer": [
+    "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules. Types: Packet-filtering firewall, Stateful inspection firewall, Proxy firewall.",
+    "A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules. Types: Packet-filtering firewall, Stateful inspection firewall, Proxy firewall."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Describe four types of computer security classifications (DAC, MAC, RBAC, Rule-Based) with practical examples.",
+   "answer": [
+    "Answer Key:",
+    "DAC: Access rights managed by resource owners. Example: File permissions set by users in Windows.",
+    "DAC: Access rights managed by resource owners. Example: File permissions set by users in Windows.",
+    "MAC: System-enforced labels define access. Example: Top Secret, Secret classifications in military systems.",
+    "MAC: System-enforced labels define access. Example: Top Secret, Secret classifications in military systems.",
+    "RBAC: Permissions assigned to roles, users assigned roles. Example: HR role can access employee records in an ERP system.",
+    "RBAC: Permissions assigned to roles, users assigned roles. Example: HR role can access employee records in an ERP system.",
+    "Rule-Based Access Control: Decisions based on predefined rules. Example: Firewall rules allowing HTTP traffic and blocking FTP.",
+    "Rule-Based Access Control: Decisions based on predefined rules. Example: Firewall rules allowing HTTP traffic and blocking FTP."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "course": "21CSS201T",
+ "code": "3101",
+ "unit": 3,
+ "session": 10,
+ "slo": 1,
+ "slo_title": "Tutorial",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Addition of the divisor",
+    "B": "Subtraction of the divisor from the remainder",
+    "C": "Multiplication by 2",
+    "D": "XOR operation between remainder and divisor"
+   },
+   "answer": "B",
+   "answer_text": "Subtraction of the divisor from the remainder"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "The quotient bit is set to 1",
+    "B": "The quotient bit is set to 0",
+    "C": "The quotient bit is left unchanged",
+    "D": "The quotient bit is shifted out"
+   },
+   "answer": "B",
+   "answer_text": "The quotient bit is set to 0"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "It doubles the divisor before each subtraction",
+    "B": "It always adds the quotient to the divisor",
+    "C": "It restores the original remainder if a subtraction results in a negative value",
+    "D": "It multiplies the remainder by 2 in every step"
+   },
+   "answer": "C",
+   "answer_text": "It restores the original remainder if a subtraction results in a negative value"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "n−1 times",
+    "B": "Exactly n times",
+    "C": "2n times",
+    "D": "Once for each 1 in the dividend"
+   },
+   "answer": "B",
+   "answer_text": "Exactly n times"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "To increase the precision of the quotient",
+    "B": "To avoid overflow in the remainder",
+    "C": "To correct the remainder if subtraction overshoots",
+    "D": "To normalize the divisor"
+   },
+   "answer": "C",
+   "answer_text": "To correct the remainder if subtraction overshoots"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What condition determines whether the Subtractor result is restored?",
+   "answer": [
+    "If the MSB of A is 1 (i.e. A < 0), A must be restored (A ← A + M) ."
+   ]
+  },
+  {
+   "q": "What is the initial value of the Accumulator (A) in restoring division?",
+   "answer": [
+    "A is initialized to 0"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Provide illustrative examples demonstrating how restoring and non restoring algorithm processes the same dividend and divisor, detailing the intermediate steps and final results.",
+   "answer": [
+    "Type Here"
+   ]
+  }
+ ]
+}

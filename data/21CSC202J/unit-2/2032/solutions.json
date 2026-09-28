@@ -1,0 +1,111 @@
+{
+ "course": "21CSC202J",
+ "code": "2032",
+ "unit": 2,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Define interprocess communication and its need in OS",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Paging",
+    "B": "Semaphore",
+    "C": "Threading",
+    "D": "Stack"
+   },
+   "answer": "B",
+   "answer_text": "Semaphore"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Reduce memory usage",
+    "B": "Prevent process creation",
+    "C": "Avoid race conditions and ensure orderly execution",
+    "D": "Increase process priority"
+   },
+   "answer": "C",
+   "answer_text": "Avoid race conditions and ensure orderly execution"
+  },
+  {
+   "q": "A. B. C. D. Answer: A. Deadlock",
+   "options": {
+    "A": "Deadlock",
+    "B": "High throughput",
+    "C": "Reduced memory size",
+    "D": "Cache hit"
+   },
+   "answer": "A",
+   "answer_text": "Deadlock"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Registers",
+    "B": "Cache",
+    "C": "Pipes",
+    "D": "Mutex"
+   },
+   "answer": "D",
+   "answer_text": "Mutex"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "The part of memory shared between OS and hardware",
+    "B": "The portion of a process that accesses shared resources",
+    "C": "The error section in the process",
+    "D": "The scheduler’s queue"
+   },
+   "answer": "B",
+   "answer_text": "The portion of a process that accesses shared resources"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Interprocess Communication (IPC) refers to the mechanism that allows processes to communicate and synchronize with each other to share data and resources. IPC is essential for processes in multitasking systems to coordinate actions and avoid conflicts."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Synchronization is needed to ensure consistency when multiple processes access shared resources . It prevents issues like race conditions , where the output depends on the timing of processes, and ensures that critical sections are accessed by only one process at a time."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the different types of process schedulers in an operating system. Describe their roles, differences, and importance with suitable examples.",
+   "answer": [
+    "In an operating system, process scheduling is the mechanism by which processes are selected for execution on the CPU. To manage this, the OS uses three types of schedulers , each with distinct responsibilities.",
+    "Controls the degree of multiprogramming (number of processes in memory).",
+    "Controls the degree of multiprogramming (number of processes in memory).",
+    "It selects processes from the job pool (on disk) and loads them into main memory for execution.",
+    "It selects processes from the job pool (on disk) and loads them into main memory for execution.",
+    "Used less frequently than other schedulers.",
+    "Used less frequently than other schedulers.",
+    "Example: In a batch system, selecting which jobs to load from a queue.",
+    "Example: In a batch system, selecting which jobs to load from a queue.",
+    "Runs most frequently (often every few milliseconds).",
+    "Runs most frequently (often every few milliseconds).",
+    "Selects from the ready queue the next process to be executed by the CPU.",
+    "Selects from the ready queue the next process to be executed by the CPU.",
+    "Must be very fast since it directly affects CPU performance.",
+    "Must be very fast since it directly affects CPU performance.",
+    "Example: Round Robin scheduler picking the next process every time slice.",
+    "Example: Round Robin scheduler picking the next process every time slice.",
+    "Temporarily removes processes from main memory (swapping out) to control memory usage and improve performance.",
+    "Temporarily removes processes from main memory (swapping out) to control memory usage and improve performance.",
+    "Reintroduces the process when resources are available (swapping in).",
+    "Reintroduces the process when resources are available (swapping in).",
+    "Helps to reduce memory load.",
+    "Helps to reduce memory load.",
+    "Example: In multitasking OS, if memory is low, a background process may be swapped out.",
+    "Example: In multitasking OS, if memory is low, a background process may be swapped out."
+   ]
+  }
+ ]
+}

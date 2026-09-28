@@ -1,0 +1,101 @@
+{
+ "course": "21CSC202J",
+ "code": "1011",
+ "unit": 1,
+ "session": 1,
+ "slo": 1,
+ "slo_title": "Explain the fundamental components and architecture of a computer system",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Increase cache access speed",
+    "B": "Allow peripherals to access memory directly",
+    "C": "Control execution of instructions",
+    "D": "Manage CPU scheduling"
+   },
+   "answer": "B",
+   "answer_text": "Allow peripherals to access memory directly"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Cache → RAM → Virtual Memory → Hard Disk",
+    "B": "RAM → Cache → Virtual Memory → Hard Disk",
+    "C": "Cache → Virtual Memory → RAM → Hard Disk",
+    "D": "Virtual Memory → RAM → Cache → Hard Disk"
+   },
+   "answer": "A",
+   "answer_text": "Cache → RAM → Virtual Memory → Hard Disk"
+  },
+  {
+   "q": "Which component of a computer system is primarily responsible for interpreting and executing instructions?",
+   "options": {
+    "A": "ALU",
+    "B": "Control Unit",
+    "C": "Register",
+    "D": "Cache"
+   },
+   "answer": "B",
+   "answer_text": "Control Unit"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Address Bus",
+    "B": "Data Bus",
+    "C": "Control Bus",
+    "D": "Instruction Bus"
+   },
+   "answer": "B",
+   "answer_text": "Data Bus"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Cache Memory",
+    "B": "RAM",
+    "C": "Virtual Memory",
+    "D": "Hard Disk"
+   },
+   "answer": "A",
+   "answer_text": "Cache Memory"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "The main components are Central Processing Unit (CPU) , Memory Unit , Input/Output Devices , and Storage Units ."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "The Control Unit directs the operation of the processor by fetching, decoding, and coordinating the execution of instructions."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the basic structure and organization of a computer system.",
+   "answer": [
+    "A computer system is organized into several key components that work together to perform operations:",
+    "Central Processing Unit (CPU): The brain of the system responsible for executing instructions. It contains: Arithmetic Logic Unit (ALU): Performs arithmetic and logical operations. Control Unit (CU): Manages and coordinates all operations within the computer by interpreting instructions. Registers: Small storage locations inside the CPU for holding data temporarily.",
+    "Arithmetic Logic Unit (ALU): Performs arithmetic and logical operations.",
+    "Control Unit (CU): Manages and coordinates all operations within the computer by interpreting instructions.",
+    "Registers: Small storage locations inside the CPU for holding data temporarily.",
+    "Memory Unit: Stores data and instructions required for processing. It includes: Primary Memory (RAM, ROM): Provides fast, volatile storage. Cache Memory: Provides even faster access to frequently used data. Secondary Memory (Hard Disk, SSD): Provides long-term data storage.",
+    "Primary Memory (RAM, ROM): Provides fast, volatile storage.",
+    "Cache Memory: Provides even faster access to frequently used data.",
+    "Secondary Memory (Hard Disk, SSD): Provides long-term data storage.",
+    "Input/Output Devices: Allow interaction with the computer system, e.g., keyboard, mouse, printers, and monitors.",
+    "System Bus: The communication pathway that connects CPU, memory, and peripherals. Comprises: Data Bus: Transfers data. Address Bus: Carries memory addresses. Control Bus: Carries control signals.",
+    "Data Bus: Transfers data.",
+    "Address Bus: Carries memory addresses.",
+    "Control Bus: Carries control signals.",
+    "The coordination of these components allows the computer to execute tasks efficiently, with the system bus ensuring communication between them."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,128 @@
+{
+ "course": "21CSC201J",
+ "code": "4111",
+ "unit": 4,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "Implementation of B-Trees",
+ "mcq": [
+  {
+   "q": "A B-Tree of order 3 has the following keys inserted: {10, 20, 30, 40}. What happens after inserting 50?",
+   "options": {
+    "A": "The root node splits",
+    "B": "The tree remains unchanged",
+    "C": "The keys rearrange without splitting",
+    "D": "The keys shift to the right"
+   },
+   "answer": "A",
+   "answer_text": "The root node splits"
+  },
+  {
+   "q": "If a node in a B-Tree overflows, how is the split handled?",
+   "options": {
+    "A": "The entire tree is rebuilt",
+    "B": "The middle key moves up",
+    "C": "The keys are randomly rearranged",
+    "D": "The extra key is deleted"
+   },
+   "answer": "B",
+   "answer_text": "The middle key moves up"
+  },
+  {
+   "q": "How does a B-Tree handle deletion of a key?",
+   "options": {
+    "A": "The key is simply removed without any restructuring",
+    "B": "The entire tree is rebuilt",
+    "C": "The key is replaced by its in-order successor or predecessor",
+    "D": "The tree is converted into a BST"
+   },
+   "answer": "C",
+   "answer_text": "The key is replaced by its in-order successor or predecessor"
+  },
+  {
+   "q": "What ensures that B-Trees remain balanced?",
+   "options": {
+    "A": "Rotations like in AVL Trees",
+    "B": "Splitting and merging of nodes",
+    "C": "Using additional memory",
+    "D": "Reordering keys in nodes periodically"
+   },
+   "answer": "B",
+   "answer_text": "Splitting and merging of nodes"
+  },
+  {
+   "q": "What is the maximum number of keys a node in a B-Tree of order m can have?",
+   "options": {
+    "A": "m - 1",
+    "B": "m",
+    "C": "m/2",
+    "D": "m+1"
+   },
+   "answer": "A",
+   "answer_text": "m - 1"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Describe the deletion Operation of B-Tree in detail.",
+   "answer": [
+    "The deletion operation in a B tree is slightly different from the deletion operation of a Binary Search Tree. The procedure to delete a node from a B tree is as follows −",
+    "Case 1 − If the key to be deleted is in a leaf node and the deletion does not violate the minimum key property, just delete the node.",
+    "Case 2 − If the key to be deleted is in a leaf node but the deletion violates the minimum key property, borrow a key from either its left sibling or right sibling. In case if both siblings have exact minimum number of keys, merge the node in either of them.",
+    "Case 3 − If the key to be deleted is in an internal node, it is replaced by a key in either left child or right child based on which child has more keys. But if both child nodes have minimum number of keys, they are merged together.",
+    "Case 4 − If the key to be deleted is in an internal node violating the minimum keys property, and both its children and sibling have minimum number of keys, merge the children. Then merge its sibling with its parent."
+   ]
+  },
+  {
+   "q": "Demonstrate the Insertion Operation of B-Tree in detail.",
+   "answer": [
+    "The insertion operation for a B Tree is done like the Binary Search Tree but the elements are inserted into the same node until the maximum keys are reached. The insertion is done using the following procedure −",
+    "Step 1 − Calculate the maximum (m−1) and, minimum ( ⌈ m2 ⌉ −1) number of keys a node can hold, where m is denoted by the order of the B Tree.",
+    "Step 2 − The data is inserted into the tree using the binary search insertion and once the keys reach the maximum number, the node is split into half and the median key becomes the internal node while the left and right keys become its children.",
+    "Step 3 − All the leaf nodes must be on the same level.",
+    "The keys, 5, 3, 21, 9, 13 are all added into the node according to the binary search property but if we add the key 22, it will violate the maximum key property. Hence, the node is split in half, the median key is shifted to the parent node and the insertion is then continued.",
+    "Another hiccup occurs during the insertion of 11, so the node is split and median is shifted to the parent.",
+    "While inserting 16, even if the node is split in two parts, the parent node also overflows as it reached the maximum keys. Hence, the parent node is split first and the median key becomes the root. Then, the leaf node is split in half the median of leaf node is shifted to its parent.",
+    "The final B tree after inserting all the elements is achieved."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Y ou are developing a file indexing system for a mini file management software that requires fast insertion and retrieval of file IDs. To keep the data structure balanced and efficient for large datasets, your team has decided to implement a B-Tree of order 3. You are provided with a partial C implementation of B-Tree insertion. The initial insertion operations performed are: insertion(8), insertion(9), insertion(10), insertion(11), insertion(15), insertion(16), insertion(17), insertion(18), insertion(20), insertion(23)",
+   "answer": [
+    "#include <stdio.h> #include <stdlib.h>",
+    "#define MAX 3 #define MIN 2",
+    "struct btreeNode { int item[MAX + 1], count; struct btreeNode *link[MAX + 1]; };",
+    "struct btreeNode *root;",
+    "// Node creation struct btreeNode *createNode(int item, struct btreeNode *child) { struct btreeNode *newNode; newNode = (struct btreeNode *)malloc(sizeof(struct btreeNode)); newNode->item[1] = item; newNode->count = 1; newNode->link[0] = root; newNode->link[1] = child; return newNode; }",
+    "// Insert value into node void insertValue(int item, int pos, struct btreeNode *node, struct btreeNode *child) { int j = node->count; while (j > pos) { node->item[j + 1] = node->item[j]; node->link[j + 1] = node->link[j]; j--; } node->item[j + 1] = item; node->link[j + 1] = child; node->count++; }",
+    "// Split node void splitNode(int item, int *pval, int pos, struct btreeNode *node, struct btreeNode *child, struct btreeNode **newNode) { int median, j;",
+    "if (pos > MIN) median = MIN + 1; else median = MIN;",
+    "*newNode = (struct btreeNode *)malloc(sizeof(struct btreeNode)); j = median + 1; while (j <= MAX) { (*newNode)->item[j - median] = node->item[j]; (*newNode)->link[j - median] = node->link[j]; j++; } node->count = median; (*newNode)->count = MAX - median;",
+    "if (pos <= MIN) { insertValue(item, pos, node, child); } else { insertValue(item, pos - median, *newNode, child); } *pval = node->item[node->count]; (*newNode)->link[0] = node->link[node->count]; node->count--; }",
+    "// Set node value recursively int setNodeValue(int item, int *pval, struct btreeNode *node, struct btreeNode **child) { int pos; if (!node) { *pval = item; *child = NULL; return 1; }",
+    "if (item < node->item[1]) { pos = 0; } else { for (pos = node->count; (item < node->item[pos] && pos > 1); pos--); if (item == node->item[pos]) { printf(\"Duplicates not allowed\\n\"); return 0; } }",
+    "if (setNodeValue(item, pval, node->link[pos], child)) { if (node->count < MAX) { insertValue(*pval, pos, node, *child); } else { splitNode(*pval, pval, pos, node, *child, child); return 1; } } return 0; }",
+    "// Insertion function void insertion(int item) { int flag, i; struct btreeNode *child;",
+    "flag = setNodeValue(item, &i, root, &child); if (flag) root = createNode(i, child); }",
+    "// Copy successor (for deletion) void copySuccessor(struct btreeNode *myNode, int pos) { struct btreeNode *dummy = myNode->link[pos]; while (dummy->link[0] != NULL) dummy = dummy->link[0]; myNode->item[pos] = dummy->item[1]; }",
+    "// Right shift (for deletion balancing) void rightShift(struct btreeNode *myNode, int pos) { struct btreeNode *x = myNode->link[pos]; int j = x->count;",
+    "while (j > 0) { x->item[j + 1] = x->item[j]; x->link[j + 1] = x->link[j]; j--; } x->item[1] = myNode->item[pos]; x->link[1] = x->link[0]; x->count++;",
+    "x = myNode->link[pos - 1]; myNode->item[pos] = x->item[x->count]; myNode->link[pos] = x->link[x->count]; x->count--; }",
+    "// Left shift (for deletion balancing) void leftShift(struct btreeNode *myNode, int pos) { int j = 1; struct btreeNode *x = myNode->link[pos - 1];",
+    "x->count++; x->item[x->count] = myNode->item[pos]; x->link[x->count] = myNode->link[pos]->link[0];",
+    "x = myNode->link[pos]; myNode->item[pos] = x->item[1]; x->link[0] = x->link[1]; x->count--;",
+    "while (j <= x->count) { x->item[j] = x->item[j + 1]; x->link[j] = x->link[j + 1]; j++; } }",
+    "// Merge nodes (for deletion balancing) void mergeNodes(struct btreeNode *myNode, int pos) { int j = 1; struct btreeNode *x1 = myNode->link[pos], *x2 = myNode->link[pos - 1];",
+    "x2->count++; x2->item[x2->count] = myNode->item[pos]; x2->link[x2->count] = x1->link[0];",
+    "while (j <= x1->count) { x2->count++; x2->item[x2->count] = x1->item[j]; x2->link[x2->count] = x1->link[j]; j++; }",
+    "j = pos; while (j < myNode->count) { myNode->item[j] = myNode->item[j + 1]; myNode->link[j] = myNode->link[j + 1]; j++; } myNode->count--; free(x1); }",
+    "// Adjust node after deletion void adjustNode(struct btreeNode *myNode, int pos) { if (!pos) { if (myNode->link[1]->count > MIN) { leftShift(myNode, 1); } else { mergeNodes(myNode, 1); } } else { if (myNode->count != pos) { if (myNode->link[pos - 1]->count > MIN) { rightShift(myNode, pos); } else if (myNode->link[pos + 1]->count > MIN) { leftShift(myNode, pos + 1); } else { mergeNodes(myNode, pos); } } else { if (myNode->link[pos - 1]->count > MIN) rightShift(myNode, pos); else mergeNodes(myNode, pos); } } }",
+    "// In-order traversal of B-tree void traversal(struct btreeNode *myNode) { int i; if (myNode) { for (i = 0; i < myNode->count; i++) { traversal(myNode->link[i]); printf(\"%d \", myNode->item[i + 1]); } traversal(myNode->link[i]); } }",
+    "// Main function int main() { insertion(8); insertion(9); insertion(10); insertion(11); insertion(15); insertion(16); insertion(17); insertion(18); insertion(20); insertion(23);",
+    "printf(\"B-Tree traversal: \"); traversal(root); printf(\"\\n\"); return 0; }"
+   ]
+  }
+ ]
+}

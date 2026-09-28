@@ -1,0 +1,95 @@
+{
+ "course": "21CSC202J",
+ "code": "5021",
+ "unit": 5,
+ "session": 2,
+ "slo": 1,
+ "slo_title": "Describe the access matrix model for protection",
+ "mcq": [
+  {
+   "q": "In access lists for objects, an entry consists of:",
+   "options": {
+    "A": "<object, domain-set>",
+    "B": "<domain, rights-set>",
+    "C": "<rights-set, object>",
+    "D": "<domain, object>"
+   },
+   "answer": "B",
+   "answer_text": "<domain, rights-set>"
+  },
+  {
+   "q": "Which of the following is not a method to implement an access matrix?",
+   "options": {
+    "A": "Global table",
+    "B": "Access list for objects",
+    "C": "Capability lists for domains",
+    "D": "Linked list for objects"
+   },
+   "answer": "D",
+   "answer_text": "Linked list for objects"
+  },
+  {
+   "q": "Which implementation method uses a set of ordered triples <domain, object, rights-set>?",
+   "options": {
+    "A": "Access list for objects",
+    "B": "Capability list",
+    "C": "Global table",
+    "D": "Lock-key mechanism"
+   },
+   "answer": "C",
+   "answer_text": "Global table"
+  },
+  {
+   "q": "In capability lists, the capability represents:",
+   "options": {
+    "A": "Only the name of the object",
+    "B": "Physical name or address of the object",
+    "C": "Rights set of the object",
+    "D": "Domain name"
+   },
+   "answer": "B",
+   "answer_text": "Physical name or address of the object"
+  },
+  {
+   "q": "Which is a drawback of using a global table for access matrix implementation?",
+   "options": {
+    "A": "It requires less memory",
+    "B": "It is difficult to manage grouping of objects/domains",
+    "C": "It does not require virtual memory",
+    "D": "It is faster than other methods"
+   },
+   "answer": "B",
+   "answer_text": "It is difficult to manage grouping of objects/domains"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define capability list .",
+   "answer": [
+    "It is a list for a domain containing objects with their allowed operations, where possession of capability grants access."
+   ]
+  },
+  {
+   "q": "What is a global table in access matrix implementation?",
+   "answer": [
+    "A global table stores ordered triples <domain, object, rights-set> for all access rights, searched each time an operation is executed."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain any three methods for implementing an access matrix with their advantages or drawbacks.",
+   "answer": [
+    "Answer (Explain in detail):",
+    "Global Table: Uses ordered triples <domain, object, rights-set>; easy to implement but inefficient due to size and I/O needs.",
+    "Global Table: Uses ordered triples <domain, object, rights-set>; easy to implement but inefficient due to size and I/O needs.",
+    "Access Lists for Objects: Stores access lists per object, efficient in sparse matrices but requires default rights checking.",
+    "Access Lists for Objects: Stores access lists per object, efficient in sparse matrices but requires default rights checking.",
+    "Capability Lists for Domains: Associates domains with object-capability pairs; direct access control but requires secure management to prevent unauthorized capability use.",
+    "Capability Lists for Domains: Associates domains with object-capability pairs; direct access control but requires secure management to prevent unauthorized capability use.",
+    "A Lock-Key Mechanism: lock-key scheme is a compromise between access lists and capability lists.",
+    "A Lock-Key Mechanism: lock-key scheme is a compromise between access lists and capability lists."
+   ]
+  }
+ ]
+}

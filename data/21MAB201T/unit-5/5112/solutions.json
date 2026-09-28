@@ -1,0 +1,100 @@
+{
+ "course": "21MAB201T",
+ "code": "5112",
+ "unit": 5,
+ "session": 11,
+ "slo": 2,
+ "slo_title": "Relate the solution to real-world engineering systems governed by difference equations.",
+ "mcq": [
+  {
+   "q": "Which property of the Z-transform is primarily used to solve linear difference equations with constant coefficients?",
+   "options": {
+    "A": "Time Reversal",
+    "B": "Time Shifting",
+    "C": "Differentiation in z-domain",
+    "D": "Convolution"
+   },
+   "answer": "B",
+   "answer_text": "Time Shifting"
+  },
+  {
+   "q": "What is the unilateral Z-transform of the time-advanced signal $y(n+1)$ given the initial condition $y(0)$?",
+   "options": {
+    "A": "$zY(z)$",
+    "B": "$zY(z) - z y(0)$",
+    "C": "$zY(z) + z y(0)$",
+    "D": "$z^{-1}Y(z) + y(-1)$"
+   },
+   "answer": "B",
+   "answer_text": "$zY(z) - z y(0)$"
+  },
+  {
+   "q": "To find the solution $y(n)$ from the algebraic expression $Y(z)$, which technique is most commonly employed?",
+   "options": {
+    "A": "Differentiation",
+    "B": "Integration",
+    "C": "Partial Fraction Expansion",
+    "D": "Matrix Inversion"
+   },
+   "answer": "C",
+   "answer_text": "Partial Fraction Expansion"
+  },
+  {
+   "q": "What is the unilateral Z-transform of the time-delayed signal $y(n-1)$ given the initial condition $y(-1)$?",
+   "options": {
+    "A": "$z^{-1}Y(z)$",
+    "B": "$z^{-1}Y(z) + y(-1)$",
+    "C": "$z^{-1}Y(z) + z^{-1}y(-1)$",
+    "D": "$zY(z) - z y(0)$"
+   },
+   "answer": "B",
+   "answer_text": "$z^{-1}Y(z) + y(-1)$"
+  },
+  {
+   "q": "For the difference equation $y(n) - a y(n-1) = 0$ with $y(-1)$, the term corresponding to the initial condition in the Z-domain equation is:",
+   "options": {
+    "A": "$a y(-1)$",
+    "B": "$-a y(-1)$",
+    "C": "$y(-1)$",
+    "D": "$z^{-1} y(-1)$"
+   },
+   "answer": "B",
+   "answer_text": "$-a y(-1)$"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Solve } y_{n+2} - 5y_{n+1} + 6y_n = 0 \\text{ with } y_0=0, y_1=1 \\text{ using Z-transform.}\\)",
+   "answer": [
+    "\\(\\text{Take Z-transform: } (z^2Y(z)-z^2y_0 - z y_1) - 5(zY(z)-z y_0) + 6Y(z)=0\\)",
+    "\\((z^2-5z+6)Y(z) = z \\Rightarrow Y(z)=\\frac{z}{(z-2)(z-3)}\\)",
+    "\\(\\text{Partial fractions: } Y(z)=\\frac{z}{z-3} - \\frac{z}{z-2}\\)",
+    "\\(y_n = 3^n - 2^n\\)"
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Z-Transform Application:",
+    "Taking Z-transform and applying shifting property: $[z^{2}Y(z)-z^{2}y_{0}-zy_{1}]-3[zY(z)-zy_{0}]+2Y(z)=0$",
+    "Algebraic Simplification:",
+    "Substituting $y_0=0, y_1=1$ and solving for $Y(z)$: $Y(z)(z^2 - 3z + 2) = z \\Rightarrow Y(z) = \\frac{z}{(z-1)(z-2)}$",
+    "Partial Fractions:",
+    "Decomposing $\\frac{Y(z)}{z}$: $\\frac{Y(z)}{z} = \\frac{-1}{z-1} + \\frac{1}{z-2} \\Rightarrow Y(z) = -\\frac{z}{z-1} + \\frac{z}{z-2}$",
+    "Final Solution:",
+    "Taking Inverse Z-transform: $y_n = -(1)^n + (2)^n = 2^n - 1$"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Solve the following linear difference equations with constant coefficients using Z-transform method: a) \\(y(n+2) - 5y(n+1) + 6y(n) = 0\\) , with \\(y(0)=1\\) , \\(y(1)=2\\) . b) \\(y(n+2) - 4y(n) = 0\\) , with \\(y(0)=0\\) , \\(y(1)=2\\) . c) \\(y(n+2) - 3y(n+1) + 2y(n) = 4^n\\) , with \\(y(0)=0\\) , \\(y(1)=1\\) . d) \\(y(n+1) - 2y(n) = n\\) , with \\(y(0)=1\\) .",
+   "answer": [
+    "a) \\(y(n+2) - 5y(n+1) + 6y(n) = 0\\) , \\(y(0)=1, y(1)=2\\) . Take Z-transform: \\([z^2 Y(z) - z^2 y(0) - z y(1)] - 5[z Y(z) - z y(0)] + 6 Y(z) = 0\\) . \\((z^2 - 5z + 6)Y(z) = z^2 + 2z - 5z = z^2 - 3z\\) . \\(Y(z) = \\frac{z^2 - 3z}{(z-2)(z-3)} = \\frac{z(z-3)}{(z-2)(z-3)} = \\frac{z}{z-2}\\) , for z≠3. Inverse Z: \\(y(n) = 2^n u(n)\\) . Check: y(0)=1, y(1)=2. OK.",
+    "b) \\(y(n+2) - 4y(n) = 0\\) , \\(y(0)=0, y(1)=2\\) . Z-transform: \\(z^2 Y(z) - z^2\\cdot 0 - z\\cdot 2 - 4Y(z) = 0\\) . \\((z^2 - 4)Y(z) = 2z\\) . \\(Y(z) = \\frac{2z}{z^2-4} = \\frac{2z}{(z-2)(z+2)}\\) . Partial fractions: \\(\\frac{Y(z)}{z} = \\frac{2}{(z-2)(z+2)} = \\frac{A}{z-2} + \\frac{B}{z+2}\\) . 2 = A(z+2) + B(z-2). z=2: 2=4A => A=1/2. z=-2: 2=-4B => B=-1/2. \\(Y(z) = \\frac{1}{2} \\frac{z}{z-2} - \\frac{1}{2} \\frac{z}{z+2}\\) . Inverse: \\(y(n) = \\frac{1}{2}[2^n - (-2)^n] u(n)\\) .",
+    "c) \\(y(n+2) - 3y(n+1) + 2y(n) = 4^n\\) , \\(y(0)=0, y(1)=1\\) . Z-transform: \\([z^2 Y(z) - z^2\\cdot 0 - z\\cdot 1] - 3[z Y(z) - z\\cdot 0] + 2Y(z) = \\frac{z}{z-4}\\) . \\((z^2 - 3z + 2)Y(z) = \\frac{z}{z-4} + z = \\frac{z + z(z-4)}{z-4} = \\frac{z^2 - 3z}{z-4}\\) . \\(Y(z) = \\frac{z^2 - 3z}{(z-1)(z-2)(z-4)}\\) . Partial fractions: \\(\\frac{Y(z)}{z} = \\frac{z-3}{(z-1)(z-2)(z-4)} = \\frac{A}{z-1} + \\frac{B}{z-2} + \\frac{C}{z-4}\\) . Solving: A=1/3, B=1/2, C=-1/6? Let's compute: z-3 = A(z-2)(z-4) + B(z-1)(z-4) + C(z-1)(z-2). z=1: -2 = A(-1)(-3)=3A => A=-2/3. z=2: -1 = B(1)(-2)=-2B => B=1/2. z=4: 1 = C(3)(2)=6C => C=1/6. So, \\(Y(z) = -\\frac{2}{3} \\frac{z}{z-1} + \\frac{1}{2} \\frac{z}{z-2} + \\frac{1}{6} \\frac{z}{z-4}\\) . Inverse: \\(y(n) = \\left[ -\\frac{2}{3}(1)^n + \\frac{1}{2}(2^n) + \\frac{1}{6}(4^n) \\right] u(n)\\) .",
+    "d) \\(y(n+1) - 2y(n) = n\\) , \\(y(0)=1\\) . Z-transform: \\(z Y(z) - z y(0) - 2 Y(z) = \\frac{z}{(z-1)^2}\\) . \\((z-2)Y(z) = \\frac{z}{(z-1)^2} + z = \\frac{z + z(z-1)^2}{(z-1)^2} = \\frac{z + z(z^2 -2z+1)}{(z-1)^2} = \\frac{z^3 - 2z^2 + 2z}{(z-1)^2}\\) . \\(Y(z) = \\frac{z^3 - 2z^2 + 2z}{(z-2)(z-1)^2}\\) . Partial fractions: \\(\\frac{Y(z)}{z} = \\frac{z^2 - 2z + 2}{(z-2)(z-1)^2} = \\frac{A}{z-2} + \\frac{B}{z-1} + \\frac{C}{(z-1)^2}\\) . Solving: z^2-2z+2 = A(z-1)^2 + B(z-2)(z-1) + C(z-2). z=2: 4-4+2= A(1) => A=2. z=1: 1-2+2= C(-1) => C=-1. Coeff of z^2: 1 = A + B => B = 1-2 = -1. So, \\(Y(z) = \\frac{2z}{z-2} - \\frac{z}{z-1} - \\frac{z}{(z-1)^2}\\) . Inverse: \\(y(n) = [2\\cdot 2^n - 1^n - n\\cdot 1^n] u(n) = [2^{n+1} - 1 - n] u(n)\\) ."
+   ]
+  }
+ ]
+}

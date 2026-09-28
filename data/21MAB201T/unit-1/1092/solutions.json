@@ -1,0 +1,112 @@
+{
+ "course": "21MAB201T",
+ "code": "1092",
+ "unit": 1,
+ "session": 9,
+ "slo": 2,
+ "slo_title": " Type 1:e^{ax+by}",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Solve } (D^2-4DD'+4D'^2)z=0\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Auxiliary equation: } m^2-4m+4=0\\)",
+    "(1 Mark)",
+    "\\(\\text{Roots: } m=2,2\\)",
+    "(1 Mark)",
+    "\\(\\text{C.F. }=\\phi_1(y+2x)+x\\phi_2(y+2x)\\)",
+    "(2 Mark)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Find P.I. of } (D^2-3DD'+2D'^2)z=e^{x+y}\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Put } D=1,D'=1: F(1,1)=1-3+2=0\\)",
+    "(2 Mark)",
+    "\\(\\text{Since } F(1,1)=0, \\text{ use } \\frac{1}{F(D,D')}e^{x+y}=x\\cdot\\frac{1}{F_D(1,1)}e^{x+y}\\)",
+    "(2 Mark)",
+    "\\(\\text{Differentiate: } F_D=2D-3D'\\Rightarrow F_D(1,1)=-1\\)",
+    "(1 Mark)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Solve } (D^3-3DD'^2+2D'^3)z=e^{x+y}+e^{2x-y} \\text{ and find the complete solution}\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Auxiliary equation: } m^3-3m+2=0, m=1,1,-2\\)",
+    "(2 Mark)",
+    "\\(\\text{C.F.}=\\phi_1(y+x)+x\\phi_2(y+x)+\\phi_3(y-2x)\\)",
+    "(2 Mark)",
+    "\\(\\text{P.I.1: } \\frac{1}{0}e^{x+y} \\Rightarrow x\\cdot\\frac{1}{3D^2-3D'^2}e^{x+y}=\\frac{x}{9}e^{x+y}\\)",
+    "(5 Mark)",
+    "\\(\\text{P.I.2: } \\frac{1}{27}e^{2x-y}\\)",
+    "(5 Mark)",
+    "\\( \\text{ Complete: C.F.+P.I.1+P.I.2}\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

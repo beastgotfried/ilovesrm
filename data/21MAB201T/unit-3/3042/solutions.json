@@ -1,0 +1,99 @@
+{
+ "course": "21MAB201T",
+ "code": "3042",
+ "unit": 3,
+ "session": 4,
+ "slo": 2,
+ "slo_title": "Apply their understanding of wave equations to a variety of similar problems.",
+ "mcq": [
+  {
+   "q": "\\(\\text{When using separation of variables for the wave equation, the assumption } y(x,t)=X(x)T(t) \\text{ leads to:}\\)",
+   "options": {
+    "A": "\\(X T'' = c^2 X'' T\\)",
+    "B": "\\(X'' T = c^2 X T''\\)",
+    "C": "\\(X' T' = c^2 X'' T\\)",
+    "D": "\\(X T' = c^2 X' T\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(X'' T = c^2 X T''\\)"
+  },
+  {
+   "q": "\\(\\text{For a string with zero initial displacement and non-zero initial velocity } g(x), \\text{ the general solution is:}\\)",
+   "options": {
+    "A": "\\(\\sum_{n=1}^\\infty B_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\cos\\left(\\frac{n\\pi c t}{l}\\right)\\)",
+    "B": "\\(\\sum_{n=1}^\\infty B_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\sin\\left(\\frac{n\\pi c t}{l}\\right)\\)",
+    "C": "\\(\\sum_{n=1}^\\infty B_n \\cos\\left(\\frac{n\\pi x}{l}\\right) \\cos\\left(\\frac{n\\pi c t}{l}\\right)\\)",
+    "D": "\\(\\sum_{n=1}^\\infty B_n \\cos\\left(\\frac{n\\pi x}{l}\\right) \\sin\\left(\\frac{n\\pi c t}{l}\\right)\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\sum_{n=1}^\\infty B_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\sin\\left(\\frac{n\\pi c t}{l}\\right)\\)"
+  },
+  {
+   "q": "\\(\\text{The one-dimensional wave equation } \\frac{\\partial^2 y}{\\partial t^2}=c^2\\frac{\\partial^2 y}{\\partial x^2} \\text{ is classified as:}\\)",
+   "options": {
+    "A": "\\(\\text{Elliptic}\\)",
+    "B": "\\(\\text{Parabolic}\\)",
+    "C": "\\(\\text{Hyperbolic}\\)",
+    "D": "\\(\\text{Mixed type}\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(\\text{Hyperbolic}\\)"
+  },
+  {
+   "q": "\\(\\text{In the solution for a string with non-zero initial velocity, applying the initial condition } y(x,0)=0 \\text{ leads to:}\\)",
+   "options": {
+    "A": "\\(C=0 \\text{ in the time function } T(t)\\)",
+    "B": "\\(D=0 \\text{ in the time function } T(t)\\)",
+    "C": "\\(A=0 \\text{ in the space function } X(x)\\)",
+    "D": "\\(B=0 \\text{ in the space function } X(x)\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(C=0 \\text{ in the time function } T(t)\\)"
+  },
+  {
+   "q": "\\(\\text{If the initial velocity is } g(x)=\\lambda x(l-x), \\text{ the coefficients } B_n \\text{ in the wave equation solution are found by:}\\)",
+   "options": {
+    "A": "\\(\\text{Expanding } g(x) \\text{ in a Fourier cosine series}\\)",
+    "B": "\\(\\text{Expanding } g(x) \\text{ in a Fourier half-range sine series}\\)",
+    "C": "\\(\\text{Direct integration without expansion}\\)",
+    "D": "\\(\\text{Using the method of characteristics}\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\text{Expanding } g(x) \\text{ in a Fourier half-range sine series}\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{A string of length } l \\text{ is fixed at both ends. Initially in equilibrium, it is given an initial velocity } \\frac{\\partial y}{\\partial t}(x,0)=v_0 \\sin\\frac{2\\pi x}{l}. \\text{ Find } y(x,t).\\)",
+   "answer": [
+    "\\(\\text{Wave equation: } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}.\\)",
+    "\\(\\text{Boundary conditions: } y(0,t)=0, y(l,t)=0. \\text{ Initial conditions: } y(x,0)=0, \\frac{\\partial y}{\\partial t}(x,0)=v_0 \\sin\\frac{2\\pi x}{l}.\\)",
+    "\\(\\text{General solution: } y(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} \\sin\\frac{n\\pi c t}{l}.\\)",
+    "\\(\\text{Differentiate: } \\frac{\\partial y}{\\partial t} = \\sum_{n=1}^\\infty B_n \\frac{n\\pi c}{l} \\sin\\frac{n\\pi x}{l} \\cos\\frac{n\\pi c t}{l}.\\)",
+    "\\(\\text{At } t=0: v_0 \\sin\\frac{2\\pi x}{l} = \\sum_{n=1}^\\infty B_n \\frac{n\\pi c}{l} \\sin\\frac{n\\pi x}{l}.\\)",
+    "\\(\\text{Equate coefficients: } B_2 \\frac{2\\pi c}{l} = v_0 \\Rightarrow B_2 = \\frac{l v_0}{2\\pi c}, \\text{ other } B_n=0.\\)",
+    "\\(\\text{Hence } y(x,t) = \\frac{l v_0}{2\\pi c} \\sin\\frac{2\\pi x}{l} \\sin\\frac{2\\pi c t}{l}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{A string of length } l \\text{ is fixed at both ends. It is initially displaced into the shape } y(x,0)=kx(l-x) \\text{ and released from rest. Find the displacement } y(x,t).\\)",
+   "answer": [
+    "\\(\\text{Wave equation: } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}.\\)",
+    "\\(\\text{Boundary conditions: } y(0,t)=0, y(l,t)=0. \\text{ Initial conditions: } y(x,0)=kx(l-x), \\frac{\\partial y}{\\partial t}(x,0)=0.\\)",
+    "\\(\\text{General solution: } y(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} \\cos\\frac{n\\pi c t}{l}.\\)",
+    "\\(\\text{At } t=0: kx(l-x) = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l}.\\)",
+    "\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{l} \\int_0^l kx(l-x) \\sin\\frac{n\\pi x}{l} dx.\\)",
+    "\\(\\text{Evaluate integral: } B_n = \\frac{4kl^2}{n^3\\pi^3}[1-(-1)^n].\\)",
+    "\\(\\text{Hence } y(x,t) = \\frac{8kl^2}{\\pi^3} \\sum_{n=\\text{odd}} \\frac{1}{n^3} \\sin\\frac{n\\pi x}{l} \\cos\\frac{n\\pi c t}{l}.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Solve the boundary value problem: \\( \\frac{\\partial^2 y}{\\partial t^2} = 9 \\frac{\\partial^2 y}{\\partial x^2}, 00,\\)}\\\\ \\text{with \\( y(0,t)=0, y(2,t)=0, y(x,0)= \\sin(\\pi x) - \\sin(2\\pi x), \\frac{\\partial y}{\\partial t}(x,0)=0.\\)}\\\\ \\text{Also classify the PDE: \\( y^2 u_{xx} - 2xy u_{xy} + x^2 u_{yy} + 2u_x - 3u = 0.\\)}\\\\\\)",
+   "answer": [
+    "Step Marks \\(\\text{Wave equation: \\(c=3\\) (since \\(c^2=9\\)). Length \\(l=2\\).}\\) (1 Mark) \\(\\text{General solution: \\(y(x,t)= \\sum \\sin\\left(\\dfrac{n\\pi x}{2}\\right)\\left[C_n \\cos\\left(\\dfrac{3n\\pi t}{2}\\right)+D_n \\sin\\left(\\dfrac{3n\\pi t}{2}\\right)\\right].\\)}\\) (2 Marks) \\(\\text{\\(y(x,0)= \\sin(\\pi x) - \\sin(2\\pi x) = \\sin\\left(\\dfrac{\\pi x}{2}\\cdot 2\\right) - \\sin\\left(\\dfrac{\\pi x}{2}\\cdot 4\\right).\\) So \\(n=2\\) and \\(n=4\\) terms.}\\) (2 Marks) \\(\\text{Thus \\(C_2=1\\), \\(C_4=-1\\), all other \\(C_n=0.\\) \\(y_t(x,0)=0\\) \\(\\Rightarrow\\) \\(D_n=0\\) for all \\(n\\).}\\) (2 Marks) \\(\\text{Hence \\(y(x,t)= \\sin(\\pi x) \\cos(3\\pi t) - \\sin(2\\pi x) \\cos(6\\pi t).\\)}\\) (1 Mark) \\(\\text{Classification: \\(A=y^2\\), \\(B=-2xy\\), \\(C=x^2.\\) Discriminant \\(\\Delta = 4x^2y^2 - 4y^2x^2 = 0\\) for all \\(x,y\\).}\\) (2 Marks) \\(\\text{Thus PDE is parabolic everywhere (except possibly where coefficients vanish).}\\) (2 Marks) \\(\\text{Discuss: parabolic because discriminant identically zero.}\\) (2 Marks) \\(\\text{Combine results: solution of wave equation and classification of second PDE.}\\) (1 Mark)"
+   ]
+  }
+ ]
+}

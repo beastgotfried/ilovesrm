@@ -1,0 +1,165 @@
+{
+ "course": "21CSS201T",
+ "code": "2071",
+ "unit": 2,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Explain basic instructions and their purpose with examples.",
+ "mcq": [
+  {
+   "q": "The instruction ADD AX, BX performs which operation?",
+   "options": {
+    "A": "Subtracts AX from BX",
+    "B": "Adds BX to AX",
+    "C": "Moves AX to BX",
+    "D": "Multiplies AX and BX"
+   },
+   "answer": "B",
+   "answer_text": "Adds BX to AX"
+  },
+  {
+   "q": "Which instruction is used to compare two registers without storing the result?",
+   "options": {
+    "A": "CMP",
+    "B": "SUB",
+    "C": "TEST",
+    "D": "OR"
+   },
+   "answer": "A",
+   "answer_text": "CMP"
+  },
+  {
+   "q": "The instruction MUL BX in assembly language performs:",
+   "options": {
+    "A": "Signed multiplication of AX × BX",
+    "B": "Unsigned multiplication of AX × BX",
+    "C": "Adds AX and BX",
+    "D": "Divides AX by BX"
+   },
+   "answer": "B",
+   "answer_text": "Unsigned multiplication of AX × BX"
+  },
+  {
+   "q": "Which logical instruction is used to clear (reset) a register efficiently?",
+   "options": {
+    "A": "MOV AX, 0",
+    "B": "AND AX, 0",
+    "C": "XOR AX, AX",
+    "D": "OR AX, AX"
+   },
+   "answer": "C",
+   "answer_text": "XOR AX, AX"
+  },
+  {
+   "q": "Which of the following instructions is used for data transfer?",
+   "options": {
+    "A": "ADD",
+    "B": "MOV",
+    "C": "AND",
+    "D": "CMP"
+   },
+   "answer": "B",
+   "answer_text": "MOV"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Zero-address format",
+    "Zero-address format",
+    "One-address format",
+    "One-address format",
+    "Two-address format",
+    "Two-address format",
+    "Three-address format",
+    "Three-address format"
+   ]
+  },
+  {
+   "q": "",
+   "answer": []
+  }
+ ],
+ "lq": [
+  {
+   "q": "Identify the types of instruction formats in computer architecture. Explain each with examples.",
+   "answer": [
+    "1. Zero Address Instruction Format",
+    "Used in stack-based architectures .",
+    "No explicit operand field — operations are performed on the top of the stack .",
+    "Example:",
+    "PUSH 5",
+    "PUSH 3",
+    "ADD ; adds top two stack values → result = 8",
+    "Use Case: Arithmetic in stack machines (e.g., JVM).",
+    "🔹 2. One Address Instruction Format",
+    "Contains one explicit operand and assumes an accumulator (ACC) as the second operand.",
+    "Suitable for simple machines.",
+    "Example:",
+    "LOAD A ; ACC ← M[A]",
+    "ADD B ; ACC ← ACC + M[B]",
+    "STORE C ; M[C] ← ACC",
+    "Use Case: Early computers (e.g., IBM 7090).",
+    "🔹 3. Two Address Instruction Format",
+    "Contains two explicit operands .",
+    "Typically: OP Destination, Source.",
+    "First operand acts as both input and output.",
+    "Example:",
+    "MOV R1, A ; R1 ← M[A]",
+    "ADD R1, B ; R1 ← R1 + M[B]",
+    "Use Case: Common in CISC architectures like x86.",
+    "🔹 4. Three Address Instruction Format",
+    "Contains three explicit operands : two sources and one destination.",
+    "Requires more bits, but allows more flexible and faster execution.",
+    "Example:",
+    "ADD R1, R2, R3 ; R1 ← R2 + R3",
+    "Use Case: RISC architectures (e.g., MIPS, ARM).",
+    "🔹 5. Variable Length Instruction Format",
+    "Instructions have different sizes depending on operation and addressing mode.",
+    "Saves memory but complicates decoding.",
+    "Example (x86 ISA):",
+    "MOV AL, 34H ; 2 bytes",
+    "MOV EAX, [1000H] ; 5 bytes",
+    "Use Case: Intel x86 processors.",
+    "🔹 6. Fixed Length Instruction Format",
+    "All instructions have the same size (e.g., 32 bits).",
+    "Easier to fetch and decode in pipeline execution.",
+    "Example (MIPS ISA):",
+    "R-format: ADD R1, R2, R3",
+    "I-format: LW R1, 100(R2)",
+    "J-format: J LABEL",
+    "Use Case: RISC processors.",
+    "Summary Table",
+    "Format",
+    "No. of Explicit Operands",
+    "Example",
+    "Used In",
+    "Zero Address",
+    "0",
+    "ADD (stack: TOS1+TOS2)",
+    "Stack machines",
+    "One Address",
+    "1",
+    "ADD B (ACC + M[B])",
+    "IBM 7090",
+    "Two Address",
+    "2",
+    "ADD R1, B",
+    "x86 CISC",
+    "Three Address",
+    "3",
+    "ADD R1, R2, R3",
+    "MIPS, ARM",
+    "Variable Length",
+    "Varies",
+    "MOV EAX, [1000H]",
+    "Intel x86",
+    "Fixed Length",
+    "Fixed (e.g., 32 bits)",
+    "LW R1, 100(R2)",
+    "RISC"
+   ]
+  }
+ ]
+}

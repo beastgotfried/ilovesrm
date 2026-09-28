@@ -1,0 +1,104 @@
+{
+ "course": "21CSC202J",
+ "code": "1091",
+ "unit": 1,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Define what open source operating systems are and list popular examples",
+ "mcq": [
+  {
+   "q": "Which of the following is NOT a typical operating system service?",
+   "options": {
+    "A": "Resource Allocation",
+    "B": "User Interface",
+    "C": "Database Management",
+    "D": "I/O System Management"
+   },
+   "answer": "C",
+   "answer_text": "Database Management"
+  },
+  {
+   "q": "Which of the following licenses is most commonly used for open-source operating systems?",
+   "options": {
+    "A": "GNU General Public License (GPL)",
+    "B": "Microsoft End User License Agreement (EULA)",
+    "C": "Apple's Software License Agreement",
+    "D": "Oracle Enterprise License"
+   },
+   "answer": "A",
+   "answer_text": "GNU General Public License (GPL)"
+  },
+  {
+   "q": "Which component of the Linux operating system is responsible for hardware interaction and resource management?",
+   "options": {
+    "A": "Shell",
+    "B": "kernel",
+    "C": "Compiler",
+    "D": "GUI"
+   },
+   "answer": "B",
+   "answer_text": "kernel"
+  },
+  {
+   "q": "Which of the following is NOT an open-source operating system?",
+   "options": {
+    "A": "Linux",
+    "B": "FreeBSD",
+    "C": "Windows 11",
+    "D": "OpenSolaris"
+   },
+   "answer": "C",
+   "answer_text": "Windows 11"
+  },
+  {
+   "q": "Which OS service enables processes to communicate with each other?",
+   "options": {
+    "A": "Accounting",
+    "B": "Inter-Process Communication (IPC)",
+    "C": "Protection",
+    "D": "Scheduling"
+   },
+   "answer": "B",
+   "answer_text": "Inter-Process Communication (IPC)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What role does the GNU Project play in open source OS development?",
+   "answer": [
+    "The GNU Project provides essential tools (compilers, shells, libraries) for open source systems like Linux. It aims to develop a fully free operating system and introduced the widely used GNU General Public License (GPL)."
+   ]
+  },
+  {
+   "q": "Mention any two file management services provided by the OS.",
+   "answer": [
+    "File Access Control: Managing permissions and access rights.",
+    "Directory Structure Management: Organizing files hierarchically."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Inspect the impact of Open Source Operating Systems on technological innovation, enterprise adoption, and community-driven development. Discuss the benefits, challenges, and future prospects of open-source OS in modern computing environments.",
+   "answer": [
+    "Open-source operating systems have become engines of innovation in both academic and commercial sectors.",
+    "Collaborative Development: With source code open to the global community, developers worldwide contribute features, bug fixes, and enhancements, accelerating technological progress.",
+    "Rapid Prototyping and Experimentation: Researchers and startups use open-source OS as a base to test new concepts without high licensing costs.",
+    "Customization and Specialization: Enterprises and industries tailor open-source kernels for specific needs—examples include Android (based on Linux) and specialized server distributions.",
+    "Cost-Effectiveness: Open-source OS reduces licensing fees, making them attractive for startups, educational institutions, and enterprises managing large infrastructures.",
+    "Scalability and Flexibility: Open-source platforms support a wide range of hardware and applications, making them suitable for everything from cloud servers to embedded systems.",
+    "Vendor Independence: Enterprises avoid vendor lock-in, gaining control over their software environment and reducing dependency on single providers.",
+    "Example: Large corporations like Google, Facebook, and IBM leverage Linux-based systems in their server farms, cloud platforms, and development tools.",
+    "Global Developer Community: Open-source projects like Linux are maintained by thousands of contributors, ensuring diverse input and rapid problem-solving.",
+    "Transparent Security Audits: Open access to code allows security experts to identify and patch vulnerabilities quickly.",
+    "Knowledge Sharing: Open forums, documentation, and collaborative platforms enhance learning and foster a strong community of practice.",
+    "Fragmentation: Multiple distributions can lead to compatibility issues and lack of standardization.",
+    "Support and Accountability: Unlike proprietary systems with formal support, open-source relies on community or third-party providers, which may not meet enterprise SLAs.",
+    "Security Risks: While transparency aids security, it also exposes potential vulnerabilities to malicious actors if not managed vigilantly.",
+    "The open-source movement continues to expand, with emerging trends such as:",
+    "Cloud-Native Platforms: Kubernetes and containerized environments rely heavily on Linux-based OS.",
+    "Edge and IoT Systems: Lightweight open-source OS like Ubuntu Core power IoT devices."
+   ]
+  }
+ ]
+}

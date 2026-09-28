@@ -1,0 +1,96 @@
+{
+ "course": "21MAB201T",
+ "code": "3102",
+ "unit": 3,
+ "session": 10,
+ "slo": 2,
+ "slo_title": "Apply steady-state concepts to solve thermal equilibrium problems.",
+ "mcq": [
+  {
+   "q": "What defines the \"steady-state\" condition in heat transfer?",
+   "options": {
+    "A": "The temperature is uniform throughout the rod",
+    "B": "The temperature at the boundaries is zero",
+    "C": "The temperature does not change with time",
+    "D": "The heat flux is zero"
+   },
+   "answer": "C",
+   "answer_text": "The temperature does not change with time"
+  },
+  {
+   "q": "The general one-dimensional time-dependent heat diffusion equation (without internal heat generation) is ________. A. $$ B. $$ C. $$ D. $$",
+   "options": {
+    "A": "\\(\\frac{\\partial u}{\\partial t} = \\alpha \\frac{\\partial u}{\\partial x}\\)",
+    "B": "\\(\\frac{\\partial u}{\\partial t} = \\alpha \\frac{\\partial^2 u}{\\partial x^2}\\)",
+    "C": "\\(\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}\\)",
+    "D": "\\(\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\frac{\\partial u}{\\partial t} = \\alpha \\frac{\\partial^2 u}{\\partial x^2}\\)"
+  },
+  {
+   "q": "A boundary condition of the form \\(\\frac{\\partial u}{\\partial x}(0, t) = 0\\) represents _________.",
+   "options": {
+    "A": "A fixed temperature of 0",
+    "B": "A perfectly insulated boundary",
+    "C": "Infinite heat flux",
+    "D": "A convection boundary"
+   },
+   "answer": "B",
+   "answer_text": "A perfectly insulated boundary"
+  },
+  {
+   "q": "The general solution to the steady-state 1D heat equation $\\frac{d^2 u}{dx^2} = 0$ is ________. A. $$ B. $$ C. $$ D. $$",
+   "options": {
+    "A": "\\(u(x) = A \\sin(x) + B \\cos(x)\\)",
+    "B": "\\(u(x) = Ax^2 + Bx + C\\)",
+    "C": "\\(u(x) = Ax + B\\)",
+    "D": "\\(u(x) = Ae^{kx}\\)"
+   },
+   "answer": "C",
+   "answer_text": "\\(u(x) = Ax + B\\)"
+  },
+  {
+   "q": "In the steady state, the one-dimensional heat equation without heat generation simplifies to ___________.",
+   "options": {
+    "A": "\\(\\frac{d^2 u}{dx^2} = 0\\)",
+    "B": "\\(\\frac{du}{dx} = 0\\)",
+    "C": "\\(\\frac{du}{dx} = k\\)",
+    "D": "\\(u(x) = 0\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{d^2 u}{dx^2} = 0\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{A bar of length } l \\text{ has ends at } 0^\\circ\\text{C}. \\text{ Initial temperature is } u(x,0)=\\begin{cases} x, & 0\\leq x\\leq l/2 \\\\ l-x, & l/2\\leq x\\leq l \\end{cases}. \\text{ Find } u(x,t).\\)",
+   "answer": [
+    "\\(\\text{Conditions: } u(0,t)=0, u(l,t)=0, u(x,0) \\text{ as given.}\\)",
+    "\\(\\text{General solution: } u(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)",
+    "\\(\\text{At } t=0: u(x,0) = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l}.\\)",
+    "\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{l} \\left[ \\int_0^{l/2} x \\sin\\frac{n\\pi x}{l} dx + \\int_{l/2}^l (l-x) \\sin\\frac{n\\pi x}{l} dx \\right].\\)",
+    "\\(\\text{Evaluate: } B_n = \\frac{4l}{n^2\\pi^2} \\sin\\frac{n\\pi}{2}. \\text{ For odd } n, B_n = \\frac{4l}{n^2\\pi^2}(-1)^{(n-1)/2}.\\)",
+    "\\(\\text{Hence } u(x,t) = \\frac{4l}{\\pi^2} \\sum_{n=\\text{odd}} \\frac{(-1)^{(n-1)/2}}{n^2} \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{A bar of length 10 cm has ends at } 0^\\circ\\text{C}. \\text{ Initial temperature is } u(x,0)=3\\sin\\frac{\\pi x}{5}+2\\sin\\frac{2\\pi x}{5}. \\text{ Find } u(x,t).\\)",
+   "answer": [
+    "\\(\\text{Solve heat equation with } u(0,t)=0, u(10,t)=0, u(x,0)=3\\sin(\\pi x/5)+2\\sin(2\\pi x/5).\\)",
+    "\\(\\text{General solution: } u(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{10} e^{-\\alpha^2 n^2\\pi^2 t/100}.\\)",
+    "\\(\\text{At } t=0: 3\\sin(\\pi x/5)+2\\sin(2\\pi x/5) = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{10}.\\)",
+    "\\(\\text{Note: } \\pi x/5 = 2\\pi x/10, \\ 2\\pi x/5 = 4\\pi x/10. \\text{ So } B_2=3, B_4=2, \\text{ other } B_n=0.\\)",
+    "\\(\\text{Hence } u(x,t)=3\\sin\\frac{2\\pi x}{10} e^{-\\alpha^2 4\\pi^2 t/100} + 2\\sin\\frac{4\\pi x}{10} e^{-\\alpha^2 16\\pi^2 t/100}.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{A rod of length 10 cm has its ends kept at $0^\\circ$ C and $100^\\circ$ C until steady state.}\\\\ \\text{Then the temperature at the far end ($100^\\circ$ C) is suddenly reduced to $0^\\circ$ C while the near end is maintained at $0^\\circ$ C.}\\\\ \\text{Find the temperature $u(x,t).$}\\)",
+   "answer": [
+    "Step Marks \\(\\text{Steady state initially: \\(u_s(x) = 10x\\) (since \\((100/10)x\\)).}\\) (2 Marks) \\(\\text{After change: BCs: \\(u(0,t)=0\\), \\(u(10,t)=0.\\) Initial: \\(u(x,0)=10x.\\)}\\) (1 Mark) \\(\\text{General solution: \\(u(x,t)= \\sum B_n \\sin\\left(\\dfrac{n\\pi x}{10}\\right) e^{-\\alpha^2 n^2\\pi^2 t / 100}.\\)}\\) (2 Marks) \\(\\text{\\(B_n = \\dfrac{2}{10} \\int_0^{10} 10x \\sin\\left(\\dfrac{n\\pi x}{10}\\right) dx = 2 \\int_0^{10} x \\sin\\left(\\dfrac{n\\pi x}{10}\\right) dx.\\)}\\) (2 Marks) \\(\\text{Compute: \\(= 2 \\left[ \\dfrac{-10x \\cos\\left(\\dfrac{n\\pi x}{10}\\right)}{n\\pi} + \\dfrac{100}{n^2\\pi^2} \\sin\\left(\\dfrac{n\\pi x}{10}\\right) \\right]_0^{10}.\\)}\\) (3 Marks) \\(\\text{Simplify: \\(= 2 \\left[ \\dfrac{-100 \\cos(n\\pi)}{n\\pi} + 0 - 0 \\right] = -\\dfrac{200}{n\\pi} \\cos(n\\pi) = \\dfrac{200}{n\\pi} (-1)^{n+1}.\\)}\\) (3 Marks) \\(\\text{Thus \\(u(x,t)= \\dfrac{200}{\\pi} \\sum\\limits_{n=1}^{\\infty} \\dfrac{(-1)^{n+1}}{n} \\sin\\left(\\dfrac{n\\pi x}{10}\\right) e^{-\\alpha^2 n^2\\pi^2 t / 100}.\\)}\\) (2 Marks)"
+   ]
+  }
+ ]
+}

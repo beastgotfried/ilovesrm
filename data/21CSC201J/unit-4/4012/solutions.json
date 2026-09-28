@@ -1,0 +1,129 @@
+{
+ "course": "21CSC201J",
+ "code": "4012",
+ "unit": 4,
+ "session": 1,
+ "slo": 2,
+ "slo_title": "Different Types of Trees",
+ "mcq": [
+  {
+   "q": "What is the minimum number of nodes required to make a binary tree of height h?",
+   "options": {
+    "A": "h",
+    "B": "h+1",
+    "C": "2 ʰ - 1",
+    "D": "h-1"
+   },
+   "answer": "B",
+   "answer_text": "h+1"
+  },
+  {
+   "q": "Which of the following types of trees ensures logarithmic time complexity for insert, delete, and search operations?",
+   "options": {
+    "A": "AVL Tree",
+    "B": "Binary Search Tree (BST)",
+    "C": "Heap",
+    "D": "B-Tree"
+   },
+   "answer": "A",
+   "answer_text": "AVL Tree"
+  },
+  {
+   "q": "A complete binary tree of height h contains how many internal nodes?",
+   "options": {
+    "A": "2 ʰ - 1",
+    "B": "2 ʰ ⁺ ¹ - 1",
+    "C": "2 ʰ - 1 - (number of leaves)",
+    "D": "2 ʰ ⁺ ¹ - number of leaves"
+   },
+   "answer": "D",
+   "answer_text": "2 ʰ ⁺ ¹ - number of leaves"
+  },
+  {
+   "q": "Which type of binary tree is used in Huffman coding?",
+   "options": {
+    "A": "AVL Tree",
+    "B": "Ternary Tree",
+    "C": "Heap-based Binary Tree",
+    "D": "Red-Black Tree"
+   },
+   "answer": "C",
+   "answer_text": "Heap-based Binary Tree"
+  },
+  {
+   "q": "How can you determine if a Binary Tree is a Binary Search Tree (BST)?",
+   "options": {
+    "A": "Check if the tree is balanced.",
+    "B": "Verify if all nodes in the left subtree are less than the root and all nodes in the right subtree are greater than the root.",
+    "C": "Ensure all nodes have exactly two children.",
+    "D": "Verify the height of the tree."
+   },
+   "answer": "B",
+   "answer_text": "Verify if all nodes in the left subtree are less than the root and all nodes in the right subtree are greater than the root."
+  }
+ ],
+ "sq": [
+  {
+   "q": "Define a Tree in Data Structures. Explain its key terminologies with examples.",
+   "answer": [
+    "Tree data structure is a hierarchical structure that is used to represent and organize data in the form of parent child relationship. The following are some real world situations which are naturally a tree.",
+    "Folder structure in an operating system.",
+    "Tag structure in an HTML (root tag the as html tag) or XML document.",
+    "The topmost node of the tree is called the root, and the nodes below it are called the child nodes. Each node can have multiple child nodes, and these child nodes can also have their own child nodes, forming a recursive structure.",
+    "Basic Terminologies In Tree Data Structure:",
+    "Parent Node: The node which is an immediate predecessor of a node is called the parent node of that node. {B} is the parent node of {D, E}.",
+    "Child Node: The node which is the immediate successor of a node is called the child node of that node. Examples: {D, E} are the child nodes of {B}.",
+    "Root Node: The topmost node of a tree or the node which does not have any parent node is called the root node. {A} is the root node of the tree. A non-empty tree must contain exactly one root node and exactly one path from the root to all other nodes of the tree.",
+    "Leaf Node or External Node: The nodes which do not have any child nodes are called leaf nodes. {I, J, K, F, G, H} are the leaf nodes of the tree.",
+    "Ancestor of a Node: Any predecessor nodes on the path of the root to that node are called Ancestors of that node. {A,B} are the ancestor nodes of the node {E}",
+    "Descendant: A node x is a descendant of another node y if and only if y is an ancestor of x.",
+    "Sibling: Children of the same parent node are called siblings. {D,E} are called siblings.",
+    "Level of a node: The count of edges on the path from the root node to that node. The root node has level 0.",
+    "Internal node: A node with at least one child is called Internal Node.",
+    "Neighbour of a Node: Parent or child nodes of that node are called neighbors of that node.",
+    "Subtree: Any node of the tree along with its descendant."
+   ]
+  },
+  {
+   "q": "Describe the properties of tree data structure.",
+   "answer": [
+    "Recursive data structure: The tree is also known as a recursive data structure . A tree can be defined as recursively because the distinguished node in a tree data structure is known as a root node . The root node of the tree contains a link to all the roots of its subtrees. The left subtree is shown in the yellow color in the below figure, and the right subtree is shown in the red color. The left subtree can be further split into subtrees shown in three different colors. Recursion means reducing something in a self-similar manner. So, this recursive property of the tree data structure is implemented in various applications.",
+    "Number of edges: If there are n nodes, then there would n-1 edges. Each arrow in the structure represents the link or path. Each node, except the root node, will have atleast one incoming link known as an edge. There would be one link for the parent-child relationship.",
+    "Depth of node x: The depth of node x can be defined as the length of the path from the root to the node x. One edge contributes one-unit length in the path. So, the depth of node x can also be defined as the number of edges between the root node and the node x. The root node has 0 depth.",
+    "Height of node x: The height of node x can be defined as the longest path from the node x to the leaf node."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are hired as a junior software engineer in a tech company working on building intelligent systems. During a team discussion, your lead asks you to explore the different types of tree data structures that can be applied across various modules such as decision making, data organization, hierarchical relationships, and optimized searching. Based on this requirement, explain the various types of trees used in data structures.",
+   "answer": [
+    "Tree data structure can be classified into three types based upon the number of children each node of the tree can have. The types are:",
+    "1. Binary Tree",
+    "A binary tree is a tree data structure where each node has at most two children . These two children are usually referred to as the left child and right child . It is widely used in applications such as binary search trees and heaps.",
+    "Examples / Types of Binary Tree:",
+    "Complete Binary Tree : A binary tree in which every level, except possibly the last, is filled, and all nodes are as far left as possible. For example, a heap is a complete binary tree that satisfies the heap property (either max-heap or min-heap).",
+    "Full Binary Tree : A binary tree where every node has either 0 or 2 children.",
+    "Degenerate Binary Tree (or Pathological Tree) : A tree in which each parent node has only one child. This essentially forms a linked list, which leads to inefficient operations.",
+    "Binary Search Tree (BST) and its Variations : A BST is a binary tree where each node has at most two children, and for each node, the left child’s value is smaller than the node’s value, and the right child’s value is greater. An AVL Tree is a self-balancing BST where the heights of the two child subtrees of any node differ by no more than one. Red Black Tree and Splay Tree are more example variations of BST.",
+    "Binary Indexed Tree ( Fenwick Tree ) : A data structure that uses a binary tree to efficiently compute and update prefix sums in an array.",
+    "Perfect Binary Tree : A binary tree where all internal nodes have two children, and all leaf nodes are at the same level.",
+    "Balanced Binary Tree : A binary tree where the difference in heights between the left and right subtrees of any node is minimal (often defined as at most 1). Examples of Balanced Binary Tree are AVL Tree, Red Black Tree and Splay Tree",
+    "Segment Tree : A segment tree is a binary tree used for storing intervals or segments. It allows efficient querying and updating of ranges of values, making it particularly useful for problems that involve finding the sum, minimum, maximum, or other operations over a range of elements in an array.",
+    "Ternary Tree",
+    "A Ternary Tree is a tree data structure in which each node has at most three child nodes, usually distinguished as “left”, “mid” and “right”.",
+    "Examples of Ternary Tree:",
+    "Ternary Search Tree : A ternary search tree is a special trie data structure where the child nodes of a standard trie are ordered as a binary search tree.",
+    "Ternary Heap : A type of heap where each node can have up to three children, though less common than binary heaps.",
+    "N-ary Tree (Generic Tree)",
+    "Generic trees are a collection of nodes where each node is a data structure that consists of records and a list of references to its children(duplicate references are not allowed). Unlike the linked list, each node stores the address of multiple nodes.",
+    "Every node stores the addresses of its children and the very first node’s address will be stored in a separate pointer called root.",
+    "1. Many children at every node. 2. The number of nodes for each node is not known in advance .",
+    "Examples of N-ary Trees:",
+    "B-tree : A self-balancing search tree where nodes can have multiple children, usually used for indexing large databases.",
+    "B+ Tree : A B+ tree is a variation of the B-tree that only stores data in the leaf nodes, making range queries more efficient.",
+    "Trie (Prefix Tree) : A tree where each node represents a character, and paths from the root to leaves represent strings. It can have a variable number of children for each node, making it an N-ary tree."
+   ]
+  }
+ ]
+}

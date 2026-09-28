@@ -1,0 +1,95 @@
+{
+ "course": "21LEM202T",
+ "code": "1032",
+ "unit": 1,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Categorise aspirations into those relating to the self and those relating to physical facilities.",
+ "mcq": [
+  {
+   "q": "In the context of Harmony in Society, which of the following statements best explains the relationship between human goals and societal systems?",
+   "options": {
+    "A": "Human goals such as happiness, prosperity, fearlessness, and co-existence can be achieved solely through economic growth and technological advancements",
+    "B": "The realization of human goals requires a well-structured human order consisting of education, health, production, justice, and exchange systems, ensuring harmony at all levels.",
+    "C": "Societal harmony is only possible if individuals prioritize self-interest over collective well-being, leading to economic competitiveness and development",
+    "D": "Justice and preservation in society can be maintained by enforcing strict laws and punishments without the need for education or value-based transformation"
+   },
+   "answer": "B",
+   "answer_text": "The realization of human goals requires a well-structured human order consisting of education, health, production, justice, and exchange systems, ensuring harmony at all levels."
+  },
+  {
+   "q": "Justice in human relationships leads to ________________",
+   "options": {
+    "A": "Social disorder",
+    "B": "Mutual trust and harmony",
+    "C": "Conflict and exploitation",
+    "D": "Suppression of individual rights"
+   },
+   "answer": "B",
+   "answer_text": "Mutual trust and harmony"
+  },
+  {
+   "q": "Which of the following best describes \"Respect\" in the context of human relationships?",
+   "options": {
+    "A": "Accepting that every individual has the same level of competence and treating them equally",
+    "B": "Evaluating individuals based on their physical abilities and societal status to determine their worth",
+    "C": "Recognizing that all human beings share the same natural acceptance (intention), while competence may differ, and ensuring mutual complementarity",
+    "D": "Establishing superiority by highlighting one's strengths and differentiating based on competence."
+   },
+   "answer": "C",
+   "answer_text": "Recognizing that all human beings share the same natural acceptance (intention), while competence may differ, and ensuring mutual complementarity"
+  },
+  {
+   "q": "In a harmonious society, the interaction between individuals is guided by",
+   "options": {
+    "A": "Market-based principles",
+    "B": "Coercion and punishment",
+    "C": "Mutual fulfillment and trust",
+    "D": "Competition and rivalry"
+   },
+   "answer": "C",
+   "answer_text": "Mutual fulfillment and trust"
+  },
+  {
+   "q": "Which of the following describes \"right evaluation\"?",
+   "options": {
+    "A": "Evaluating someone based on their physical attributes",
+    "B": "Evaluating someone based on their perceived social status.",
+    "C": "Evaluating someone based on their Self and their shared purpose and program for harmony",
+    "D": "Evaluating someone based on their material possessions."
+   },
+   "answer": "C",
+   "answer_text": "Evaluating someone based on their Self and their shared purpose and program for harmony"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why are Right Understanding and Resolution considered activities of the Self?",
+   "answer": [
+    "Because they involve awareness, knowledge, and decision-making, which are functions of the human Self, not the body."
+   ]
+  },
+  {
+   "q": "How does Right Understanding help the Self?",
+   "answer": [
+    "It provides clarity about relationships, values, and harmony, guiding correct thoughts and behavior."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Q1. Explain self-exploration as “the dialogue within.” Between which two things does it take place, and what is the outcome when they are in harmony and when in contradiction? Q2. What is natural acceptance? List its characteristics. Q3. Describe the content and the process of self-exploration.",
+   "answer": [
+    "Q1 — The dialogue within",
+    "DEFINITE — single expected answer",
+    "Model answer: Self-exploration is a dialogue — first between the teacher and the student, then within one's own self. This inner dialogue is between what I am (my desire, thought, expectation, my competence) and what I really want to be (my natural acceptance, my intention). When the two are in harmony, the result is happiness; when in contradiction, unhappiness. The process has three parts: discover our natural acceptance (where we want to reach), find out what we are (where we are now), and ensure this dialogue and harmony within by evaluating our desires against our natural acceptance. As we refer to our natural acceptance, we become self-referential (self-organised, swatantra).",
+    "Q2 — Natural acceptance and its characteristics",
+    "DEFINITE — single expected answer",
+    "Model answer: Natural acceptance is what I accept innately; we have the innate potential to recognise what is right because we are endowed with it. Its characteristics: it is innate (part and parcel of our being); invariant, uncorrupted by pre-conditioning; definite; and universal, the same for all human beings across time and place. It must be distinguished from liking or appeal, which varies from person to person and concerns the details of how a relationship is fulfilled. Natural acceptance has to do with my relationship to the reality of concern and my purpose or role at different levels of existence (e.g. natural acceptance for nurturing the body).",
+    "Q3 — Content and process of self-exploration",
+    "DEFINITE — single expected answer",
+    "Model answer: The content of self-exploration is our basic human desire — happiness, prosperity and the continuity of both. We can verify that we desire happiness, prosperity and the continuity of both, and that if these are ensured there is nothing further we would desire; our desires are not unlimited. The process is self-investigation and self-verification: whatever is stated is a proposal, to be verified on our own right (not assuming it true or false) on the basis of natural acceptance, followed by experiential validation through living accordingly — leading to right understanding, and ultimately to living in harmony within, with others and with the entire existence."
+   ]
+  }
+ ]
+}

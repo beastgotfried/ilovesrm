@@ -1,0 +1,121 @@
+{
+ "course": "21CSC202J",
+ "code": "1031",
+ "unit": 1,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Explain how early operating systems evolved from manual programming to batch processing systems",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "Manual loading of programs",
+    "B": "Batch job processing",
+    "C": "Multithreaded process handling",
+    "D": "Use of card readers for job input"
+   },
+   "answer": "C",
+   "answer_text": "Multithreaded process handling"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Introduction of punch cards",
+    "B": "Transition from multiprogramming to GUI-based OS",
+    "C": "Disappearance of multi-user systems",
+    "D": "Exclusive reliance on batch processing"
+   },
+   "answer": "B",
+   "answer_text": "Transition from multiprogramming to GUI-based OS"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Manual program loading",
+    "B": "Batch processing only",
+    "C": "Multiprogramming and Time-Sharing",
+    "D": "Graphical User Interface (GUI)"
+   },
+   "answer": "C",
+   "answer_text": "Multiprogramming and Time-Sharing"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Interactive user interfaces",
+    "B": "Multiprocessing support",
+    "C": "Batch processing systems",
+    "D": "Virtual memory management"
+   },
+   "answer": "C",
+   "answer_text": "Batch processing systems"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "UNIX",
+    "B": "MS-DOS",
+    "C": "Windows 95",
+    "D": "Batch Monitor System"
+   },
+   "answer": "C",
+   "answer_text": "Windows 95"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "Multiprogramming did not exist in First and Second Generation systems; these concepts emerged later, as both generations focused on single-task or batch sequential processing."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Microsoft Windows and Mac OS are prominent examples, offering GUI-based environments for personal and business computing."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Discuss the evolution of Operating Systems across different generations, highlighting key technological advancements and operating system features.",
+   "answer": [
+    "The evolution of Operating Systems (OS) reflects the rapid progress of computer hardware and the growing complexity of user needs. From manual control in early computers to sophisticated multiuser environments and networked systems, OS development has undergone significant transformations across four major generations.",
+    "Hardware Technology: Vacuum tubes and plugboards",
+    "OS Characteristics: No real operating systems existed. Programs were written in machine language. Input/output operations were handled manually. No multitasking — computers executed a single job at a time.",
+    "No real operating systems existed.",
+    "Programs were written in machine language.",
+    "Input/output operations were handled manually.",
+    "No multitasking — computers executed a single job at a time.",
+    "User Interaction: Direct manual control by the user.",
+    "This generation laid the foundation of computing, though lacked software automation.",
+    "Hardware Technology: Transistors replaced vacuum tubes.",
+    "OS Characteristics: Batch Operating Systems were introduced to automate job execution. Jobs were submitted on punched cards, processed sequentially. Monitor Systems managed job sequencing. Still single-user, but improved utilization of CPU time.",
+    "Batch Operating Systems were introduced to automate job execution.",
+    "Jobs were submitted on punched cards, processed sequentially.",
+    "Monitor Systems managed job sequencing.",
+    "Still single-user, but improved utilization of CPU time.",
+    "User Interaction: Indirect — through batch jobs submitted to operators.",
+    "Introduced automation in job handling, reducing idle CPU time.",
+    "Hardware Technology: Integrated Circuits (ICs) led to powerful computers.",
+    "OS Characteristics: Multiprogramming: Multiple programs loaded in memory, CPU switches between them. Time-Sharing Systems: Allowed multiple users to access the computer simultaneously. Improved CPU scheduling, memory management, and process control. Introduction of early command-line interfaces. UNIX emerged as a powerful multiuser OS.",
+    "Multiprogramming: Multiple programs loaded in memory, CPU switches between them.",
+    "Time-Sharing Systems: Allowed multiple users to access the computer simultaneously.",
+    "Improved CPU scheduling, memory management, and process control.",
+    "Introduction of early command-line interfaces.",
+    "UNIX emerged as a powerful multiuser OS.",
+    "User Interaction: Interactive terminals enabled direct user engagement.",
+    "Enhanced efficiency and accessibility with support for multiple users and interactive computing.",
+    "Hardware Technology: Microprocessors led to personal computers (PCs).",
+    "OS Characteristics: Introduction of Graphical User Interfaces (GUI) for user-friendliness. Multiuser and multitasking capabilities on desktop systems. Support for networking , resource sharing, and distributed systems. Emergence of popular OS like Windows , Mac OS , and Linux . OS became platform for various user applications with advanced multimedia support.",
+    "Introduction of Graphical User Interfaces (GUI) for user-friendliness.",
+    "Multiuser and multitasking capabilities on desktop systems.",
+    "Support for networking , resource sharing, and distributed systems.",
+    "Emergence of popular OS like Windows , Mac OS , and Linux .",
+    "OS became platform for various user applications with advanced multimedia support.",
+    "User Interaction: Graphical interfaces enabled intuitive, user-friendly operation.",
+    "Shifted computing focus to personal and business applications, making computers accessible to non-technical users."
+   ]
+  }
+ ]
+}

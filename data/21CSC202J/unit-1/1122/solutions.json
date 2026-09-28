@@ -1,0 +1,114 @@
+{
+ "course": "21CSC202J",
+ "code": "1122",
+ "unit": 1,
+ "session": 12,
+ "slo": 2,
+ "slo_title": "List various types of system programs and describe their functionality",
+ "mcq": [
+  {
+   "q": "What is the primary function of the linker in system programming?",
+   "options": {
+    "A": "Editing files in source format",
+    "B": "Linking object files and libraries into a single executable file",
+    "C": "Translating machine code into high-level code",
+    "D": "Providing system-level I/O operations"
+   },
+   "answer": "B",
+   "answer_text": "Linking object files and libraries into a single executable file"
+  },
+  {
+   "q": "Which of the following system programs is primarily used for writing and editing source code?",
+   "options": {
+    "A": "Compiler",
+    "B": "Text Editor",
+    "C": "Loader",
+    "D": "Linker"
+   },
+   "answer": "B",
+   "answer_text": "Text Editor"
+  },
+  {
+   "q": "Which of the following is NOT a type of system program?",
+   "options": {
+    "A": "Debugger",
+    "B": "Linker",
+    "C": "Word Processor",
+    "D": "Loader"
+   },
+   "answer": "C",
+   "answer_text": "Word Processor"
+  },
+  {
+   "q": "Which category of system programs is responsible for controlling system resources and performing administrative tasks?",
+   "options": {
+    "A": "Text Editors",
+    "B": "System Utilities",
+    "C": "Application Programs",
+    "D": "Compilers"
+   },
+   "answer": "B",
+   "answer_text": "System Utilities"
+  },
+  {
+   "q": "Which system program is responsible for translating high-level source code into machine code?",
+   "options": {
+    "A": "Loader",
+    "B": "Debugger",
+    "C": "Assembler",
+    "D": "Compilers"
+   },
+   "answer": "D",
+   "answer_text": "Compilers"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Mention two examples of communication programs in system software.",
+   "answer": [
+    "ssh — Secure Shell for remote login",
+    "ftp — File Transfer Protocol for data exchange"
+   ]
+  },
+  {
+   "q": "How do system programs differ from application programs?",
+   "answer": [
+    "System programs support system operations and development tasks (e.g., compilers, linkers), while application programs are designed to perform user-oriented tasks like document editing or web browsing."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Explain the role of system programs in an operating system. Discuss their main types and analyze how they support both users and system operations.",
+   "answer": [
+    "The primary purpose of system programs is to offer a user-friendly and functional environment that supports:",
+    "Program Development: By providing tools like editors, compilers, assemblers, and debuggers.",
+    "Program Execution: Through loaders, linkers, and execution managers.",
+    "System Maintenance: Via utilities that help monitor, configure, and manage system resources.",
+    "Communication: Enabling data exchange between systems and users.",
+    "System programs simplify complex OS operations, abstracting hardware details, and enabling controlled access to system services.",
+    "System programs can be classified into several functional categories based on their roles:",
+    "These programs manage file operations like creation, deletion, copying, renaming, and editing. Examples: cp (copy), rm (remove), mv (move), chmod (change permissions). Purpose: Facilitate file handling and storage management.",
+    "Provide information about system performance, usage statistics, and hardware configuration. Examples: top (process monitoring), uptime (system status), df (disk usage). Purpose: Help users and administrators monitor and assess system health.",
+    "Tools that assist in software development by translating code and managing binaries. Examples:",
+    "Compiler (gcc): Converts source code to machine code.",
+    "Assembler (as): Translates assembly code to object code.",
+    "Interpreter (python): Executes code directly.",
+    "Purpose: Streamline program development and testing.",
+    "These handle loading executable programs into memory and managing their execution. Examples:",
+    "Loader: Loads programs into memory.",
+    "Linker: Combines object files and libraries into a single executable.",
+    "Purpose: Enable seamless program execution with proper resource allocation.",
+    "Allow communication between users, processes, or systems over networks or within the same system. Examples:",
+    "ssh: Secure remote login.",
+    "ftp: File transfer between systems.",
+    "Purpose: Facilitate secure data exchange and remote operations.",
+    "Perform essential maintenance tasks such as disk cleanup, backup, system configuration, and user management. Examples: cron (job scheduling), fsck (file system check), tar (archiving). Purpose: Ensure system efficiency, integrity, and manageability.",
+    "Efficiency: Simplify complex operations for users and developers.",
+    "Accessibility: Provide easy-to-use tools for managing files, programs, and devices.",
+    "Productivity: Support program development through integrated development tools.",
+    "Security and Maintenance: Offer utilities for monitoring, repairing, and securing the system."
+   ]
+  }
+ ]
+}

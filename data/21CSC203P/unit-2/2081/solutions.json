@@ -1,0 +1,87 @@
+{
+ "course": "21CSC203P",
+ "code": "2081",
+ "unit": 2,
+ "session": 8,
+ "slo": 1,
+ "slo_title": "Explain the concept of abstraction and implement it using abstract classes and interfaces in Java.",
+ "mcq": [
+  {
+   "q": "What is encapsulation primarily used for?",
+   "options": {
+    "A": "Reusing code",
+    "B": "Making classes static",
+    "C": "Hiding data and protecting access",
+    "D": "Overloading constructors"
+   },
+   "answer": "C",
+   "answer_text": "Hiding data and protecting access"
+  },
+  {
+   "q": "Which keyword is used in Java to define an abstract class?",
+   "options": {
+    "A": "interface",
+    "B": "abstract",
+    "C": "class",
+    "D": "virtual"
+   },
+   "answer": "B",
+   "answer_text": "abstract"
+  },
+  {
+   "q": "Which of these is true about abstract methods?",
+   "options": {
+    "A": "They must have a body",
+    "B": "They can be declared in regular classes",
+    "C": "They are declared using abstract and have no body",
+    "D": "They cannot be overridden"
+   },
+   "answer": "C",
+   "answer_text": "They are declared using abstract and have no body"
+  },
+  {
+   "q": "Which of the following demonstrates encapsulation in Java?",
+   "options": {
+    "A": "Using only public data members",
+    "B": "Keeping data members private and using public methods to access them",
+    "C": "Declaring methods as static",
+    "D": "Writing global variables"
+   },
+   "answer": "B",
+   "answer_text": "Keeping data members private and using public methods to access them"
+  },
+  {
+   "q": "Which of the following best defines abstraction in Java?",
+   "options": {
+    "A": "Binding data and methods together",
+    "B": "Hiding internal implementation and showing only functionality",
+    "C": "Inheriting properties from a superclass",
+    "D": "Overloading methods for flexibility"
+   },
+   "answer": "B",
+   "answer_text": "Hiding internal implementation and showing only functionality"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Write a simple Java class that demonstrates encapsulation using private variables and public getter/setter methods.",
+   "answer": [
+    "public class Student { private String name; public void setName(String newName) { name = newName; } public String getName() { return name; } } Here, name is private and accessed through public methods�an example of encapsulation."
+   ]
+  },
+  {
+   "q": "Differentiate between abstraction and encapsulation in object-oriented programming.",
+   "answer": [
+    "Abstraction is the process of hiding internal details and showing only essential features to the user. It's implemented using abstract classes or interfaces. Encapsulation is the process of wrapping data and methods that operate on the data into a single unit (class), and restricting direct access using private members and public getters/setters."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "You are designing a system for different types of bank accounts. All accounts must show a common message openAccount(), but the rules for interest calculation are different for each account type (Savings, FixedDeposit, etc.). Use abstraction to model this system. Write a Java program using an abstract class and explain how abstraction helps in such situations.",
+   "answer": [
+    "Java Code: abstract class BankAccount { abstract void calculateInterest(); void openAccount() { System.out.println(\"Account opened successfully.\"); } } class SavingsAccount extends BankAccount { void calculateInterest() { System.out.println(\"Savings Account: Interest = 4% per annum\"); } } class FixedDeposit extends BankAccount { void calculateInterest() { System.out.println(\"Fixed Deposit: Interest = 6.5% per annum\"); } } public class BankSystem { public static void main(String[] args) { BankAccount acc1 = new SavingsAccount(); BankAccount acc2 = new FixedDeposit(); acc1.openAccount(); acc1.calculateInterest(); acc2.openAccount(); acc2.calculateInterest(); } } Explanation: BankAccount is an abstract class with a common method openAccount() and an abstract method calculateInterest(). Subclasses SavingsAccount and FixedDeposit override the abstract method to provide specific logic. This demonstrates abstraction, where the interface is fixed (calculateInterest() must be implemented), but the implementation differs. Benefits of Abstraction: Promotes flexibility in design Enhances code extensibility�new account types can be added easily Enforces a contract: every account must implement calculateInterest() Reduces complexity by exposing only relevant behavior"
+   ]
+  }
+ ]
+}

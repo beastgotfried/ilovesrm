@@ -1,0 +1,93 @@
+{
+ "course": "21CSC202J",
+ "code": "2092",
+ "unit": 2,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "Implement multithreaded programs using thread libraries",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "-m flag",
+    "B": "-pthread flag",
+    "C": "-lib flag",
+    "D": "-thread flag"
+   },
+   "answer": "B",
+   "answer_text": "-pthread flag"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "Creates a new thread",
+    "B": "Terminates a thread",
+    "C": "Waits for a thread to finish",
+    "D": "Locks a mutex"
+   },
+   "answer": "C",
+   "answer_text": "Waits for a thread to finish"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "semaphores",
+    "B": "signals",
+    "C": "variables",
+    "D": "conditionals"
+   },
+   "answer": "A",
+   "answer_text": "semaphores"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "thread_create()",
+    "B": "pthread_create()",
+    "C": "create_thread()",
+    "D": "start_thread()"
+   },
+   "answer": "B",
+   "answer_text": "pthread_create()"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "exit()",
+    "B": "return()",
+    "C": "pthread_exit()",
+    "D": "end_thread()"
+   },
+   "answer": "C",
+   "answer_text": "pthread_exit()"
+  }
+ ],
+ "sq": [
+  {
+   "q": "",
+   "answer": [
+    "pthread_join() is used to wait for a thread to finish its execution. It helps synchronize threads and ensures that the main thread doesn’t terminate before child threads are done."
+   ]
+  },
+  {
+   "q": "",
+   "answer": [
+    "Synchronization is essential to avoid race conditions , ensure data consistency , and coordinate access to shared resources between threads running in parallel."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Write a C program using pthreads that creates two threads. One thread should print numbers from 1 to 5, and the other thread should print letters from A to E. Ensure that both threads run concurrently. Explain the output.",
+   "answer": [
+    "#include <stdio.h> #include <pthread.h> #include <unistd.h>",
+    "void* print_numbers(void* arg) { for (int i = 1; i <= 5; i++) { printf(\"Number: %d\\n\", i); sleep(1); } return NULL; }",
+    "void* print_letters(void* arg) { for (char ch = 'A'; ch <= 'E'; ch++) { printf(\"Letter: %c\\n\", ch); sleep(1); } return NULL; }",
+    "int main() { pthread_t tid1, tid2;",
+    "// Create two threads pthread_create(&tid1, NULL, print_numbers, NULL); pthread_create(&tid2, NULL, print_letters, NULL);",
+    "// Wait for threads to finish pthread_join(tid1, NULL); pthread_join(tid2, NULL);",
+    "printf(\"Main thread completed.\\n\"); return 0; }"
+   ]
+  }
+ ]
+}

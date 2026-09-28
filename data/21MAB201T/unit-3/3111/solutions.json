@@ -1,0 +1,98 @@
+{
+ "course": "21MAB201T",
+ "code": "3111",
+ "unit": 3,
+ "session": 11,
+ "slo": 1,
+ "slo_title": "Solve steady-state heat equations with non-zero boundary conditions.",
+ "mcq": [
+  {
+   "q": "\\(\\text{In steady-state heat conduction, the temperature distribution:}\\)",
+   "options": {
+    "A": "\\(\\text{Is independent of time}\\)",
+    "B": "\\(\\text{Varies linearly with time}\\)",
+    "C": "\\(\\text{Is periodic in time}\\)",
+    "D": "\\(\\text{Decays exponentially with time}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\text{Is independent of time}\\)"
+  },
+  {
+   "q": "\\(\\text{When solving the heat equation with zero boundary conditions and initial temperature } u(x,0)=f(x), \\text{ the coefficients are found by:}\\)",
+   "options": {
+    "A": "\\(\\text{Expanding } f(x) \\text{ in a Fourier cosine series}\\)",
+    "B": "\\(\\text{Expanding } f(x) \\text{ in a Fourier half-range sine series}\\)",
+    "C": "\\(\\text{Direct integration without expansion}\\)",
+    "D": "\\(\\text{Using the method of characteristics}\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\text{Expanding } f(x) \\text{ in a Fourier half-range sine series}\\)"
+  },
+  {
+   "q": "\\(\\text{The one-dimensional heat conduction equation for a homogeneous rod is:}\\)",
+   "options": {
+    "A": "\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}\\)",
+    "B": "\\(\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}\\)",
+    "C": "\\(\\frac{\\partial u}{\\partial t} = k \\frac{\\partial u}{\\partial x}\\)",
+    "D": "\\(\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}\\)"
+  },
+  {
+   "q": "\\(\\text{When solving the heat equation with non-zero boundary conditions, we split the solution as:}\\)",
+   "options": {
+    "A": "\\(u(x,t) = u_1(x) + u_2(x,t)\\)",
+    "B": "\\(u(x,t) = u_1(t) + u_2(x,t)\\)",
+    "C": "\\(u(x,t) = u_1(x) \\cdot u_2(x,t)\\)",
+    "D": "\\(u(x,t) = u_1(t) \\cdot u_2(x)\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(u(x,t) = u_1(x) + u_2(x,t)\\)"
+  },
+  {
+   "q": "\\(\\text{For a rod with ends maintained at constant temperatures } \\theta_1 \\text{ and } \\theta_2, \\text{ the steady-state temperature distribution is:}\\)",
+   "options": {
+    "A": "\\(u(x) = \\frac{\\theta_2 - \\theta_1}{l} x + \\theta_1\\)",
+    "B": "\\(u(x) = \\theta_1 \\cos\\left(\\frac{\\pi x}{l}\\right) + \\theta_2 \\sin\\left(\\frac{\\pi x}{l}\\right)\\)",
+    "C": "\\(u(x) = \\theta_1 e^{-x} + \\theta_2 e^{x}\\)",
+    "D": "\\(u(x) = \\theta_1 + (\\theta_2 - \\theta_1) \\frac{x^2}{l^2}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(u(x) = \\frac{\\theta_2 - \\theta_1}{l} x + \\theta_1\\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{A bar of length } l \\text{ has ends kept at } 0^\\circ\\text{C} \\text{ and } 100^\\circ\\text{C} \\text{ until steady state. Then ends are suddenly reduced to } 0^\\circ\\text{C}. \\text{ Find } u(x,t).\\)",
+   "answer": [
+    "\\(\\text{Steady state temperature: } u_s(x) = \\frac{100}{l}x.\\)",
+    "\\(\\text{New conditions: } u(0,t)=0, u(l,t)=0, u(x,0)=\\frac{100}{l}x.\\)",
+    "\\(\\text{General solution: } u(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)",
+    "\\(\\text{At } t=0: \\frac{100}{l}x = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l}.\\)",
+    "\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{l} \\int_0^l \\frac{100}{l} x \\sin\\frac{n\\pi x}{l} dx = \\frac{200}{n\\pi}(-1)^{n+1}.\\)",
+    "\\(\\text{Hence } u(x,t) = \\frac{200}{\\pi} \\sum_{n=1}^\\infty \\frac{(-1)^{n+1}}{n} \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{A bar of length } l \\text{ has ends kept at } 30^\\circ\\text{C} \\text{ and } 80^\\circ\\text{C} \\text{ until steady state. Then ends are changed to } 40^\\circ\\text{C} \\text{ and } 60^\\circ\\text{C}. \\text{ Find } u(x,t).\\)",
+   "answer": [
+    "\\(\\text{Steady state before change: } u_s(x) = \\frac{50}{l}x + 30.\\)",
+    "\\(\\text{New steady state: } u_1(x) = \\frac{20}{l}x + 40.\\)",
+    "\\(\\text{Let } u(x,t)=u_1(x)+u_2(x,t), \\text{ where } u_2 \\text{ satisfies heat equation with zero ends.}\\)",
+    "\\(\\text{Boundary conditions for } u_2: u_2(0,t)=0, u_2(l,t)=0.\\)",
+    "\\(\\text{Initial condition: } u_2(x,0)=u_s(x)-u_1(x)=\\frac{30}{l}x - 10.\\)",
+    "\\(\\text{Solve for } u_2 \\text{ using Fourier sine series: } u_2(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)",
+    "\\(\\text{Find } B_n \\text{ from } \\frac{30}{l}x - 10 = \\sum B_n \\sin\\frac{n\\pi x}{l}. \\text{ Then } u(x,t)=u_1(x)+u_2(x,t).\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{A rod of length 10 cm has ends $A$ and $B$ kept at $50^\\circ$ $C$ and $100^\\circ$ $C$ until steady state.}\\\\ \\text{Then the temperature at $A$ is raised to $90^\\circ$C and at B is lowered to $60^\\circ$C.}\\\\ \\text{Find the subsequent temperature distribution.}\\)",
+   "answer": [
+    "Step Marks \\(\\text{Initial steady state: \\(u_{s1}(x)= 50 + 5x\\) (since gradient \\((100-50)/10=5\\)).}\\) (2 Marks) \\(\\text{Final steady state (after change): \\(u_{s2}(x)= 90 - 3x\\) (since \\((60-90)/10 = -3\\), so \\(u=90-3x\\)).}\\) (2 Marks) \\(\\text{Let \\(u(x,t)= u_{s2}(x) + v(x,t)\\), \\(v\\) satisfies heat equation with zero BCs: \\(v(0,t)=0\\), \\(v(10,t)=0.\\)}\\) (2 Marks) \\(\\text{Initial: \\(u(x,0)= u_{s1}(x)= u_{s2}(x)+v(x,0)\\) \\(\\Rightarrow\\) \\(v(x,0)= u_{s1} - u_{s2} = (50+5x) - (90-3x) = -40 + 8x.\\)}\\) (3 Marks) \\(\\text{Solve for \\(v\\): \\(v(x,t)= \\sum B_n \\sin\\left(\\dfrac{n\\pi x}{10}\\right) e^{-\\alpha^2 n^2\\pi^2 t / 100}.\\)}\\) (2 Marks) \\(\\text{\\(B_n = \\dfrac{2}{10} \\int_0^{10} (-40+8x) \\sin\\left(\\dfrac{n\\pi x}{10}\\right) dx.\\)}\\) (2 Marks) \\(\\text{Compute integrals: \\(\\int \\sin\\left(\\dfrac{n\\pi x}{10}\\right) dx = -\\dfrac{10 \\cos\\left(\\dfrac{n\\pi x}{10}\\right)}{n\\pi}\\), \\(\\int x \\sin\\left(\\dfrac{n\\pi x}{10}\\right) dx = \\left[ -\\dfrac{10x \\cos\\left(\\dfrac{n\\pi x}{10}\\right)}{n\\pi} + \\dfrac{100}{n^2\\pi^2} \\sin\\left(\\dfrac{n\\pi x}{10}\\right) \\right].\\)}\\) (3 Marks) \\(\\text{Combine to get \\(B_n.\\) Then \\(u(x,t)= 90 - 3x + \\sum B_n \\sin\\left(\\dfrac{n\\pi x}{10}\\right) e^{-\\alpha^2 n^2\\pi^2 t / 100}.\\)}\\) (1 Mark)"
+   ]
+  }
+ ]
+}

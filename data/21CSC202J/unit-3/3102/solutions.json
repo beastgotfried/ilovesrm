@@ -1,0 +1,102 @@
+{
+ "course": "21CSC202J",
+ "code": "3102",
+ "unit": 3,
+ "session": 10,
+ "slo": 2,
+ "slo_title": "Describe multiple-processor scheduling and its challenges",
+ "mcq": [
+  {
+   "q": "Which Pthread scope setting allows user-level threads to compete within the same process ?",
+   "options": {
+    "A": "PTHREAD_SCOPE_PROCESS",
+    "B": "PTHREAD_SCOPE_KERNEL",
+    "C": "PTHREAD_SCOPE_GLOBAL",
+    "D": "PTHREAD_SCOPE_SYSTEM"
+   },
+   "answer": "A",
+   "answer_text": "PTHREAD_SCOPE_PROCESS"
+  },
+  {
+   "q": "What is the main difference between coarse-grained and fine-grained multithreading ?",
+   "options": {
+    "A": "Coarse-grained switches threads less frequently",
+    "B": "Fine-grained allows simultaneous execution of all threads",
+    "C": "Coarse-grained switches faster than fine-grained",
+    "D": "Coarse-grained runs only one thread at a time"
+   },
+   "answer": "A",
+   "answer_text": "Coarse-grained switches threads less frequently"
+  },
+  {
+   "q": "Which of the following best describes the concept of Processor Affinity ?",
+   "options": {
+    "A": "A process always runs on a different processor every time",
+    "B": "A process runs on the slowest available processor",
+    "C": "A process prefers to run on the same processor to benefit from cache memory",
+    "D": "A process only runs on processors with more threads"
+   },
+   "answer": "C",
+   "answer_text": "A process prefers to run on the same processor to benefit from cache memory"
+  },
+  {
+   "q": "In Symmetric Multiprocessing , what is true about the processors?",
+   "options": {
+    "A": "Only the master processor schedules tasks",
+    "B": "Each processor uses a different operating system",
+    "C": "All processors share scheduling responsibilities equally",
+    "D": "Only user processes are executed by the processors"
+   },
+   "answer": "C",
+   "answer_text": "All processors share scheduling responsibilities equally"
+  },
+  {
+   "q": "Push migration in load balancing refers to:",
+   "options": {
+    "A": "Idle processors requesting new tasks",
+    "B": "Periodic checking and redistributing load among processors",
+    "C": "Threads being assigned random processors",
+    "D": "Preventing threads from changing processors"
+   },
+   "answer": "B",
+   "answer_text": "Periodic checking and redistributing load among processors"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Differentiate between Symmetric and Asymmetric Multiprocessing with two points each.",
+   "answer": [
+    "Symmetric : All processors self-scheduling; duplicates of OS; system continues if one fails (50%)",
+    "Symmetric : All processors self-scheduling; duplicates of OS; system continues if one fails (50%)",
+    "Asymmetric : One processor (master) handles all I/O and scheduling; reduces data sharing (50%)",
+    "Asymmetric : One processor (master) handles all I/O and scheduling; reduces data sharing (50%)"
+   ]
+  },
+  {
+   "q": "Explain the two types of contention scope in thread scheduling with examples.",
+   "answer": [
+    "PCS (Process-Contention Scope): User-level threads compete within a process (50%)",
+    "PCS (Process-Contention Scope): User-level threads compete within a process (50%)",
+    "SCS (System-Contention Scope): Kernel-level threads compete across system (50%)",
+    "SCS (System-Contention Scope): Kernel-level threads compete across system (50%)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Analyze how multicore processors and multithreading techniques improve system performance. Describe coarse-grained and fine-grained multithreading in your answer.",
+   "answer": [
+    "Multicore performance benefit (20%)",
+    "Multicore performance benefit (20%)",
+    "Memory stalls explanation (20%)",
+    "Memory stalls explanation (20%)",
+    "Coarse-grained concept with example (20%)",
+    "Coarse-grained concept with example (20%)",
+    "Fine-grained concept with example (20%)",
+    "Fine-grained concept with example (20%)",
+    "Analytical conclusion on performance impact (20%)",
+    "Analytical conclusion on performance impact (20%)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,96 @@
+{
+ "course": "21MAB201T",
+ "code": "3031",
+ "unit": 3,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Solve wave equations with initial displacement and non-zero initial velocity.",
+ "mcq": [
+  {
+   "q": "The tension T caused by stretching the string before fixing it at the end points is",
+   "options": {
+    "A": "Increasing",
+    "B": "Decreasing",
+    "C": "Constant",
+    "D": "Zero"
+   },
+   "answer": "C",
+   "answer_text": "Constant"
+  },
+  {
+   "q": "One dimensional wave equation is used to find",
+   "options": {
+    "A": "Temperature",
+    "B": "Displacement",
+    "C": "Time",
+    "D": "Mass"
+   },
+   "answer": "B",
+   "answer_text": "Displacement"
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "\\(\\frac{T}{m}\\)",
+    "B": "\\(\\frac{k}{c}\\)",
+    "C": "\\(\\frac{m}{T}\\)",
+    "D": "\\(\\frac{\\rho }{c}\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(\\frac{T}{m}\\)"
+  },
+  {
+   "q": "A string is stretched between two fixed points x = 0 and x = l. The boundary conditions are",
+   "options": {
+    "A": "\\(y(0,t)=0;\\; y(l,t)=0\\)",
+    "B": "\\(y(0,t)=0;\\; y(x,t)=0\\)",
+    "C": "\\(y(0,t)=0;\\; \\frac{\\partial }{\\partial t}(l,t)=0\\)",
+    "D": "\\(\\frac{\\partial y}{\\partial x}(0,t)=0;\\; \\frac{\\partial y}{\\partial x}(l,t)=0\\)"
+   },
+   "answer": "A",
+   "answer_text": "\\(y(0,t)=0;\\; y(l,t)=0\\)"
+  },
+  {
+   "q": "How many initial and boundary conditions are required to solve \\(\\frac{\\partial^2 y}{\\partial t^2}=a^{2} \\frac{\\partial^2 y}{\\partial x^2} \\)",
+   "options": {
+    "A": "1",
+    "B": "2",
+    "C": "3",
+    "D": "4"
+   },
+   "answer": "D",
+   "answer_text": "4"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{A string of length } l \\text{ fixed at ends is initially at rest. Given initial velocity } \\frac{\\partial y}{\\partial t}(x,0) = kx(l-x), \\text{ find } y(x,t).\\)",
+   "answer": [
+    "\\(\\text{Conditions: } y(0,t)=0, y(l,t)=0, y(x,0)=0, y_t(x,0)=kx(l-x).\\)",
+    "\\(\\text{General solution: } y(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} \\sin\\frac{n\\pi c t}{l}.\\)",
+    "\\(\\text{Using initial velocity: } kx(l-x) = \\sum_{n=1}^\\infty B_n \\frac{n\\pi c}{l} \\sin\\frac{n\\pi x}{l}.\\)",
+    "\\(\\text{Express RHS as Fourier sine series: } B_n \\frac{n\\pi c}{l} = \\frac{2}{l} \\int_0^l kx(l-x) \\sin\\frac{n\\pi x}{l} dx.\\)",
+    "\\(\\text{Evaluate integral: } = \\frac{4kl^2}{n^3\\pi^3}[1-(-1)^n]. \\text{ For odd } n, B_n = \\frac{8kl^3}{n^4\\pi^4 c}.\\)",
+    "\\(\\text{Thus } y(x,t) = \\frac{8kl^3}{\\pi^4 c} \\sum_{n=\\text{odd}} \\frac{1}{n^4} \\sin\\frac{n\\pi x}{l} \\sin\\frac{n\\pi c t}{l}.\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{A string of length } l \\text{ fixed at both ends is initially at rest in equilibrium. Given initial velocity } \\frac{\\partial y}{\\partial t}(x,0) = v_0 \\sin\\frac{3\\pi x}{l}, \\text{ find the displacement } y(x,t).\\)",
+   "answer": [
+    "\\(\\text{Solve wave equation with conditions: } y(0,t)=0, y(l,t)=0, y(x,0)=0, y_t(x,0)=v_0 \\sin(3\\pi x/l).\\)",
+    "\\(\\text{General solution: } y(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} \\sin\\frac{n\\pi c t}{l}.\\)",
+    "\\(\\text{Using initial velocity: } v_0 \\sin\\frac{3\\pi x}{l} = \\sum_{n=1}^\\infty B_n \\frac{n\\pi c}{l} \\sin\\frac{n\\pi x}{l}.\\)",
+    "\\(\\text{Equate coefficients: } B_3 \\frac{3\\pi c}{l} = v_0 \\Rightarrow B_3 = \\frac{l v_0}{3\\pi c}, \\text{ other } B_n=0.\\)",
+    "\\(\\text{Hence } y(x,t) = \\frac{l v_0}{3\\pi c} \\sin\\frac{3\\pi x}{l} \\sin\\frac{3\\pi c t}{l}.\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{A string of length } \\pi \\text{ is fixed at both ends. It is given an initial displacement y(x,0)=0}\\\\ \\text{and an initial velocity \\(\\frac{\\partial y}{\\partial t}(x,0) = x(\\pi - x).\\)}\\\\ \\text{Find the displacement \\( y(x,t).\\)}\\)",
+   "answer": [
+    "Step Marks \\(\\text{Wave equation: \\(y_{tt} = c^2 y_{xx}\\)}\\) (1 Mark) \\(\\text{Initial conditions: \\(y(x,0)=0\\), \\(y_t(x,0)=x(\\pi-x).\\)}\\) (1 Mark) \\(\\text{General solution: \\(y(x,t)= \\sum\\limits_{n=1}^{\\infty} \\sin(nx)\\left[C_n \\cos(nct)+D_n \\sin(nct)\\right].\\)}\\) (2 Marks) \\(\\text{Apply \\(y(x,0)=0\\) \\(\\Rightarrow\\) \\(C_n=0\\) for all \\(n\\).}\\) (1 Mark) \\(\\text{Thus \\(y(x,t)= \\sum D_n \\sin(nx) \\sin(nct).\\)}\\) (1 Mark) \\(\\text{Then \\(y_t(x,t)= \\sum D_n nc \\sin(nx) \\cos(nct).\\)}\\) (1 Mark) \\(\\text{At \\(t=0\\): \\(y_t(x,0)= \\sum D_n nc \\sin(nx) = x(\\pi-x).\\)}\\) (1 Mark) \\(\\text{Expand \\(x(\\pi-x)\\) in Fourier sine series on \\((0,\\pi)\\): \\(x(\\pi-x)= \\sum b_n \\sin(nx),\\) where \\(b_n = \\dfrac{2}{\\pi}\\int_0^{\\pi} x(\\pi-x) \\sin(nx) dx.\\)}\\) (2 Marks) \\(\\text{Compute \\(b_n\\): integration by parts gives \\(b_n = \\dfrac{4}{\\pi n^3}[1-(-1)^n].\\) So \\(b_n = \\dfrac{8}{\\pi n^3}\\) for \\(n\\) odd, \\(0\\) for \\(n\\) even.}\\) (3 Marks) \\(\\text{Thus \\(D_n nc = b_n\\) \\(\\Rightarrow\\) \\(D_n = \\dfrac{b_n}{nc}.\\) For \\(n\\) odd: \\(D_n = \\dfrac{8}{\\pi n^4 c}.\\)}\\) (2 Marks) \\(\\text{Final: \\(y(x,t)= \\sum\\limits_{n \\text{ odd}} \\dfrac{8}{\\pi n^4 c} \\sin(nx) \\sin(nct).\\)}\\) (1 Mark)"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,95 @@
+{
+ "course": "21LEM202T",
+ "code": "1072",
+ "unit": 1,
+ "session": 7,
+ "slo": 2,
+ "slo_title": " Identify the consequences of an over-emphasis on physical facility and the resulting problems.",
+ "mcq": [
+  {
+   "q": "What is an all-encompassing resolution?",
+   "options": {
+    "A": "Focusing only on personal gain",
+    "B": "Holistic understanding and approach to life, integrating knowledge, values, and action",
+    "C": "Following scientific methods only",
+    "D": "Ignoring ethical considerations"
+   },
+   "answer": "B",
+   "answer_text": "Holistic understanding and approach to life, integrating knowledge, values, and action"
+  },
+  {
+   "q": "What is the role of understanding in all-encompassing resolution?",
+   "options": {
+    "A": "Analyzing how harmony exists in nature and human society",
+    "B": "Learning only technical skills",
+    "C": "Ignoring ethical issues",
+    "D": "Accumulating wealth"
+   },
+   "answer": "A",
+   "answer_text": "Analyzing how harmony exists in nature and human society"
+  },
+  {
+   "q": "Which of the following is a key aspect of all-encompassing resolution?",
+   "options": {
+    "A": "Ignoring human values",
+    "B": "Realization, understanding, and contemplation",
+    "C": "Maximizing wealth",
+    "D": "Physical fitness alone"
+   },
+   "answer": "B",
+   "answer_text": "Realization, understanding, and contemplation"
+  },
+  {
+   "q": "Contemplation in the self involves:",
+   "options": {
+    "A": "Physical exercise",
+    "B": "Reflecting on one’s role in maintaining harmony in the larger order",
+    "C": "Memorizing formulas",
+    "D": "Copying others’ behavior"
+   },
+   "answer": "B",
+   "answer_text": "Reflecting on one’s role in maintaining harmony in the larger order"
+  },
+  {
+   "q": "How does realization contribute to resolution?",
+   "options": {
+    "A": "By memorizing information",
+    "B": "By awakening to the truth of co-existence",
+    "C": "By performing repetitive tasks",
+    "D": "By avoiding reflection"
+   },
+   "answer": "B",
+   "answer_text": "By awakening to the truth of co-existence"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is meant by an all-encompassing resolution for a human being?",
+   "answer": [
+    "It is a holistic plan to live in harmony with oneself, family, society, and nature."
+   ]
+  },
+  {
+   "q": "Why is resolution important in human life?",
+   "answer": [
+    "Resolution provides clarity, purpose, and direction to fulfill human aspirations like happiness and prosperity"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Q1. Using the sequence “present effort → become something → get/do something → be something,” explain how our various efforts are only steps toward one basic aspiration. What is that basic aspiration? Q2. Compare life with clarity of basic aspiration and life without clarity of basic aspiration. Q3. When a “favourite path” to what we assume to be our goal is closed, what is the appropriate response, and why?",
+   "answer": [
+    "Q1 — From effort to the basic aspiration",
+    "DEFINITE — single expected answer",
+    "Model answer: Each present effort — studying, internship, coaching — is to become something (engineer, doctor, farmer, artist, teacher). Asking why, we find we want to get or do something (money, name, fame, respect, satisfaction, to care for parents, to build, to grow food). Asking why again, we find we ultimately want to be something every moment — happy and prosperous. So becoming, doing and getting are only steps or pathways; the goal, the basic aspiration, is to be happy and prosperous. Recognising this, we would like to make sure the steps we choose actually add up to happiness and prosperity.",
+    "Q2 — Life with vs without clarity of basic aspiration",
+    "DEFINITE — single expected answer",
+    "Model answer: Without clarity (a vague goal like “aim for the sky”), the direction of effort may keep changing as assumptions change, we may not know whether we have arrived, and there is likely to be a mix of satisfaction and dissatisfaction. With clarity, the human goal is clear so the destination is fixed (to always be happy and prosperous), we know our current state through right evaluation, and we plan steps that connect to and lead to the fulfilment of the basic aspiration, so the direction is definite. The basic aspiration is definite, does not keep changing, and appears to be the same for all human beings.",
+    "Q3 — When a favourite path is closed",
+    "DEFINITE — single expected answer",
+    "Model answer: Once we distinguish the basic aspiration from the steps to fulfil it, we see that the appropriate response is to find an alternate pathway, rather than to be unhappy, depressed or inactive. For example, if one had to take local admission instead of going abroad, or did not get the desired branch or roommate, the goal of being happy and prosperous is still open — only one path is closed. Since the goal can be reached by more than one path, the closing of a favourite path is not the closing of the goal, so the reasonable response is to choose another path leading to the same basic aspiration."
+   ]
+  }
+ ]
+}

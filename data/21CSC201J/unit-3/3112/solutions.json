@@ -1,0 +1,178 @@
+{
+ "course": "21CSC201J",
+ "code": "3112",
+ "unit": 3,
+ "session": 11,
+ "slo": 2,
+ "slo_title": "Circular Queue - Enqueue Operation",
+ "mcq": [
+  {
+   "q": "Which of the following applications commonly use a circular queue for efficient task management?",
+   "options": {
+    "A": "Scheduling tasks in an operating system",
+    "B": "Handling requests in web servers",
+    "C": "Memory management techniques like buffer allocation",
+    "D": "CPU register allocation"
+   },
+   "answer": "A",
+   "answer_text": "Scheduling tasks in an operating system"
+  },
+  {
+   "q": "How does a circular queue handle overflow differently from a linear queue?",
+   "options": {
+    "A": "It shifts elements",
+    "B": "It utilizes empty slots effectively",
+    "C": "It doubles the array size",
+    "D": "It does not handle overflow"
+   },
+   "answer": "B",
+   "answer_text": "It utilizes empty slots effectively"
+  },
+  {
+   "q": "A circular queue of size 6 has front = 2 and rear = 5. What happens when one more element is inserted?",
+   "options": {
+    "A": "Rear moves to 6",
+    "B": "Rear moves to 0",
+    "C": "Queue overflows",
+    "D": "Queue resizes itself"
+   },
+   "answer": "B",
+   "answer_text": "Rear moves to 0"
+  },
+  {
+   "q": "What happens if rear == N - 1 and an insertion is attempted in a circular queue?",
+   "options": {
+    "A": "Queue overflows",
+    "B": "Rear moves to the first position",
+    "C": "Queue underflows",
+    "D": "Elements shift left"
+   },
+   "answer": "B",
+   "answer_text": "Rear moves to the first position"
+  },
+  {
+   "q": "If a circular queue has a size of 5, what is the position of rear after inserting 3 elements into an initially empty queue?",
+   "options": {
+    "A": "2",
+    "B": "3",
+    "C": "4",
+    "D": "5"
+   },
+   "answer": "A",
+   "answer_text": "2"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is a circular queue? How does it differ from a linear queue?",
+   "answer": [
+    "A Circular Queue is a linear data structure in which the last position is connected back to the first position, forming a circle. It follows the FIFO (First-In-First-Out) principle, just like a regular queue. However, in a circular queue, when the rear of the queue reaches the last position of the array, it wraps around to the beginning of the array (if there is free space), using modulo arithmetic.",
+    "It is especially useful in situations where memory needs to be used efficiently and continuously without shifting elements, such as in CPU scheduling, buffering, and gaming systems.",
+    "Difference Between Linear Queue and Circular Queue:",
+    "Aspect",
+    "Linear Queue",
+    "Circular Queue",
+    "Structure",
+    "Simple straight-line array",
+    "End is connected to the beginning (circular structure)",
+    "Space Utilization",
+    "Wastes space after some deletions",
+    "Utilizes all available space using wrap-around",
+    "Rear Movement",
+    "Stops at the end of the array",
+    "Wraps around using (rear + 1) % size",
+    "Efficiency",
+    "Less efficient due to shifting or unused space",
+    "More efficient and space-optimized",
+    "Overflow Condition",
+    "When rear == size - 1",
+    "When (rear + 1) % size == front",
+    "Usage",
+    "Suitable for small, simple queues",
+    "Suitable for buffers, real-time systems, and scheduling algorithms"
+   ]
+  },
+  {
+   "q": "Why is the modulo (%) operator essential in implementing circular queue operations using arrays? Explain its role in maintaining the circular nature of the queue.",
+   "answer": [
+    "The modulo operator (%) plays a crucial role in maintaining the circular structure of a circular queue implemented using arrays. It ensures that the rear and front pointers wrap around to the beginning of the array when they reach the end, thereby allowing continuous use of memory without overflow (as long as space is available).",
+    "Understanding the Problem Without Modulo:",
+    "In a linear queue , when the rear reaches the end of the array (i.e., rear == size - 1), you cannot insert more elements even if there are empty slots at the beginning (due to dequeued elements). This leads to memory wastage",
+    "Purpose of Modulo in Circular Queue:",
+    "To solve this, we use the modulo operator (%) with the array size to wrap around the rear and front pointers.",
+    "Key Operations Using Modulo:",
+    "Enqueue (Insert Element):",
+    "rear = (rear + 1) % size;",
+    "This ensures that after reaching the last index (size - 1), the rear moves back to index 0 if space is available.",
+    "Dequeue (Remove Element):",
+    "front = (front + 1) % size;",
+    "Similarly, the front pointer wraps around to the beginning.",
+    "Why is Modulo Important?",
+    "Maintains Circular Nature: It allows the queue to behave like a circle by reusing emptied positions at the beginning of the array.",
+    "It allows the queue to behave like a circle by reusing emptied positions at the beginning of the array.",
+    "Prevents Array Index Out of Bounds: Without modulo, incrementing rear or front beyond the array size would cause illegal memory access or overflow.",
+    "Without modulo, incrementing rear or front beyond the array size would cause illegal memory access or overflow.",
+    "Simplifies Logic: No need to manually reset pointers to zero when they reach the end; modulo handles it automatically.",
+    "No need to manually reset pointers to zero when they reach the end; modulo handles it automatically.",
+    "Efficient Queue Operations: Modulo helps maintain O(1) time complexity by avoiding element shifting or dynamic memory allocation.",
+    "Modulo helps maintain O(1) time complexity by avoiding element shifting or dynamic memory allocation."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "In a multiplayer online game, players are allowed to take turns in a round-robin fashion. You are tasked with implementing a system where player turns are managed using a circular queue. Task: Justify the use of a circular queue for round-robin turn scheduling. Write the logic/pseudocode for the enqueue operation. Explain what happens when the rear reaches the end of the array.",
+   "answer": [
+    "1. Justify the Use of a Circular Queue for Round-Robin Scheduling:",
+    "A circular queue is ideal for managing player turns in a round-robin game because:",
+    "Circular Nature Matches Game Logic: In round-robin scheduling, after the last player finishes, the turn should return to the first player. This directly aligns with how circular queues operate, where the rear wraps back to the beginning.",
+    "Efficient Use of Memory: Unlike linear queues, which cannot reuse freed-up spaces at the front after dequeue operations, a circular queue reuses memory efficiently by wrapping around. This is essential in games with limited memory usage (e.g., mobile games).",
+    "Consistent Turn Flow: Players are enqueued once and the game keeps rotating their turns by dequeuing the front player and enqueuing them again at the rear (if they remain in the game). This maintains fairness and order.",
+    "Avoids Shifting: No need to shift elements after each turn, making it more efficient in terms of time complexity (O(1) for both enqueue and dequeue).",
+    "2. Pseudocode for Enqueue Operation in Circular Queue",
+    "#define SIZE 100",
+    "int queue[SIZE];",
+    "int front = -1, rear = -1;",
+    "void enqueue(int playerID) {",
+    "// Check if queue is full",
+    "if ((rear + 1) % SIZE == front) {",
+    "printf(\"Queue is Full. Cannot add new player.\\n\");",
+    "return;",
+    "}",
+    "// First element insertion",
+    "if (front == -1 && rear == -1) {",
+    "front = rear = 0;",
+    "queue[rear] = playerID;",
+    "} else {",
+    "rear = (rear + 1) % SIZE;",
+    "queue[rear] = playerID;",
+    "}",
+    "printf(\"Player %d added to the turn queue.\\n\", playerID);",
+    "}",
+    "3. What Happens When Rear Reaches the End of the Array?",
+    "In a circular queue:",
+    "The rear index keeps moving forward as new players are added.",
+    "When rear reaches the end of the array (index SIZE - 1) and another player needs to be added, instead of producing an overflow, the rear is wrapped around to the beginning of the array (index 0) using modulo :",
+    "rear = (rear + 1) % SIZE",
+    "This wrapping ensures that previously freed-up space at the front of the queue (from dequeued players) can now be reused .",
+    "Example:",
+    "Let’s say SIZE = 5. Queue starts empty.",
+    "1.Players 101, 102, 103, 104 are added.",
+    "rear = 3, front = 0",
+    "queue = [101, 102, 103, 104, _]",
+    "2.One player is dequeued (101), so front moves to index 1.",
+    "queue = [_, 102, 103, 104, _]",
+    "3. A new player (105) is added.",
+    "rear = (3 + 1) % 5 = 4",
+    "rear = (3 + 1) % 5 = 4",
+    "queue = [_, 102, 103, 104, 105]",
+    "4. Another player (106) is added.",
+    "rear = (4 + 1) % 5 = 0 → wrap-around!",
+    "rear = (4 + 1) % 5 = 0 → wrap-around!",
+    "queue = [106, 102, 103, 104, 105]",
+    "Thus, space is reused, and the queue behaves circularly.",
+    "Circular queues are perfectly suited for round-robin scenarios like player turn management in games. They provide efficient, fair, and memory-optimized scheduling. The modulo logic ensures that the queue wraps around without requiring extra space or data shifting, making gameplay smoother and system-friendly."
+   ]
+  }
+ ]
+}

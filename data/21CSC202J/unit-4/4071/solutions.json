@@ -1,0 +1,116 @@
+{
+ "course": "21CSC202J",
+ "code": "4071",
+ "unit": 4,
+ "session": 7,
+ "slo": 1,
+ "slo_title": "Describe basic working of page replacement algorithms",
+ "mcq": [
+  {
+   "q": "FIFO may suffer from Belady’s Anomaly , which means:",
+   "options": {
+    "A": "Page faults decrease as frames increase",
+    "B": "Page faults remain the same",
+    "C": "Page faults increase with more frames",
+    "D": "TLB is bypassed"
+   },
+   "answer": "C",
+   "answer_text": "Page faults increase with more frames"
+  },
+  {
+   "q": "Which data structure is used in FIFO implementation?",
+   "options": {
+    "A": "Stack",
+    "B": "Queue",
+    "C": "Heap",
+    "D": "Linked List"
+   },
+   "answer": "B",
+   "answer_text": "Queue"
+  },
+  {
+   "q": "What is thrashing in the context of memory management?",
+   "options": {
+    "A": "High CPU utilization",
+    "B": "Constant page faults and swapping",
+    "C": "Overloaded disk",
+    "D": "Memory leaks"
+   },
+   "answer": "B",
+   "answer_text": "Constant page faults and swapping"
+  },
+  {
+   "q": "Which of the following is a drawback of LRU?",
+   "options": {
+    "A": "It causes Belady’s anomaly",
+    "B": "It requires additional hardware or software support",
+    "C": "It is not accurate",
+    "D": "It is FIFO in disguise"
+   },
+   "answer": "B",
+   "answer_text": "It requires additional hardware or software support"
+  },
+  {
+   "q": "The Optimal page replacement algorithm replaces the page:",
+   "options": {
+    "A": "That was first loaded",
+    "B": "That will not be used for the longest time",
+    "C": "That was least recently used",
+    "D": "With the smallest size"
+   },
+   "answer": "B",
+   "answer_text": "That will not be used for the longest time"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the need for a page replacement algorithm?",
+   "answer": [
+    "When a requested page is not in memory (i.e., a page fault occurs ) and no free frame is available, the OS must select a page to remove to make space. A page replacement algorithm decides which page to replace to minimize future faults and improve efficiency. 📊 Mark Allocation:",
+    "When a requested page is not in memory (i.e., a page fault occurs ) and no free frame is available, the OS must select a page to remove to make space. A page replacement algorithm decides which page to replace to minimize future faults and improve efficiency.",
+    "📊 Mark Allocation:",
+    "Page fault context – 40%",
+    "Page fault context – 40%",
+    "Purpose of replacement – 40%",
+    "Purpose of replacement – 40%",
+    "Mention of efficiency – 20%",
+    "Mention of efficiency – 20%"
+   ]
+  },
+  {
+   "q": "Describe the Optimal page replacement algorithm. Why is it not used in practice?",
+   "answer": [
+    "Optimal replacement replaces the page that will not be used for the longest time in the future . It gives the lowest number of page faults , but is not practical because it requires future knowledge of page references. Mark Allocation:",
+    "Optimal replacement replaces the page that will not be used for the longest time in the future . It gives the lowest number of page faults , but is not practical because it requires future knowledge of page references.",
+    "Mark Allocation:",
+    "Algorithm logic – 50%",
+    "Algorithm logic – 50%",
+    "Example of “future use” – 30%",
+    "Example of “future use” – 30%",
+    "Reason for impracticality – 20%",
+    "Reason for impracticality – 20%"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Let the Reference String be 1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5 Number of Page Frames: 3. Apply FIFO Page Replacement Algorithm and explain Beledy's Anamoly.Why it happens?",
+   "answer": [
+    "Total Page Faults: 9",
+    "Total Page Faults: 9",
+    "Total Accesses: 12",
+    "Total Accesses: 12",
+    "Page Hits = 12 – 9 = 3 Hit Ratio = Page Hits / Total Accesses = 3 / 12 = 0.25 or 25% (10%) Belady’s Anomaly refers to the counterintuitive situation in FIFO Page Replacement Algorithm where increasing the number of page frames results in more page faults instead of fewer. This anomaly occurs only in FIFO , not in LRU or Optimal algorithms. Case 2: 4 Page Frames (30%) Step Page Frames Page Fault 1 1 1 _ _ _ ✔️ 2 2 1 2 _ _ ✔️ 3 3 1 2 3 _ ✔️ 4 4 1 2 3 4 ✔️ 5 1 1 2 3 4 ❌ 6 2 1 2 3 4 ❌ 7 5 2 3 4 5 ✔️ (1 out) 8 1 3 4 5 1 ✔️ (2 out) 9 2 4 5 1 2 ✔️ (3 out) 10 3 5 1 2 3 ✔️ (4 out) 11 4 1 2 3 4 ✔️ (5 out) 12 5 2 3 4 5 ✔️ (1 out) Page Faults (4 Frames): 10 Frames Page Faults 3 9 4 10 ❗ Belady’s Anomaly occurs here because: Adding an extra frame (from 3 to 4) increased the number of page faults (from 9 to 10) under the FIFO algorithm . Why does this happen? (10%)",
+    "Page Hits = 12 – 9 = 3 Hit Ratio = Page Hits / Total Accesses = 3 / 12 = 0.25 or 25% (10%)",
+    "Belady’s Anomaly refers to the counterintuitive situation in FIFO Page Replacement Algorithm where increasing the number of page frames results in more page faults instead of fewer.",
+    "This anomaly occurs only in FIFO , not in LRU or Optimal algorithms.",
+    "Page Faults (4 Frames): 10",
+    "Adding an extra frame (from 3 to 4) increased the number of page faults (from 9 to 10) under the FIFO algorithm .",
+    "FIFO doesn't consider how recently or frequently a page is used.",
+    "FIFO doesn't consider how recently or frequently a page is used.",
+    "So, adding more frames can sometimes lead to earlier useful pages being removed earlier, causing more faults.",
+    "So, adding more frames can sometimes lead to earlier useful pages being removed earlier, causing more faults."
+   ]
+  }
+ ]
+}

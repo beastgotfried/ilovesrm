@@ -1,0 +1,109 @@
+{
+ "course": "21CSC201J",
+ "code": "5032",
+ "unit": 5,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Graph Traversal - BFS",
+ "mcq": [
+  {
+   "q": "When implementing a Depth-first search (DFS) algorithm on a graph, what data structure is typically used to keep track of vertices in the order they are visited?",
+   "options": {
+    "A": "Stack",
+    "B": "Linked list",
+    "C": "Heap",
+    "D": "Queue"
+   },
+   "answer": "A",
+   "answer_text": "Stack"
+  },
+  {
+   "q": "What is the time complexity of DFS traversal using an adjacency list in a graph with V vertices and E edges",
+   "options": {
+    "A": "O(V²)",
+    "B": "O(V)",
+    "C": "O(V + E)",
+    "D": "O(E log V)"
+   },
+   "answer": "C",
+   "answer_text": "O(V + E)"
+  },
+  {
+   "q": "A person wants to visit some places. He starts from a vertex and then wants to visit every vertex till it finishes from one vertex, backtracks, and then explores another vertex from the same vertex. What algorithm he should use",
+   "options": {
+    "A": "Depth First Search",
+    "B": "Breadth-First Search",
+    "C": "Prim’s algorithm",
+    "D": "Kruskal’s Algorithm"
+   },
+   "answer": "A",
+   "answer_text": "Depth First Search"
+  },
+  {
+   "q": "Which data structure is most commonly used to implement BFS",
+   "options": {
+    "A": "Stack",
+    "B": "Recursion",
+    "C": "Queue",
+    "D": "Priority Queue"
+   },
+   "answer": "C",
+   "answer_text": "Queue"
+  },
+  {
+   "q": "When implementing a Depth-first search (DFS) algorithm on a graph, what data structure is typically used to keep track of vertices in the order they are visited?",
+   "options": {
+    "A": "Stack",
+    "B": "Linked list",
+    "C": "Heap",
+    "D": "Queue"
+   },
+   "answer": "A",
+   "answer_text": "Stack"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Examine the step-by-step procedure involved in traversing a graph using Depth First Search (DFS).",
+   "answer": [
+    "For the DFS implementation, we will categorize each vertex of the graph into two categories:",
+    "Visited",
+    "Not Visited",
+    "The reason for this division is to prevent the traversal of the same node again thus, avoiding cycles in the graph. Depth First Traversal in Data Structure uses a stack to keep track of the vertices to visit. A boolean visited array is used to mark the visited vertices.",
+    "Here's a step-by-step explanation of how the DFS algorithm works::",
+    "Step 1 - Define a Stack of size total number of vertices in the graph.",
+    "Step 2 - Select any vertex as starting point for traversal. Visit that vertex and push it on to the Stack.",
+    "Step 3 - Visit any one of the non-visited adjacent vertices of a vertex which is at the top of stack and push it on to the stack.",
+    "Step 4 - Repeat step 3 until there is no new vertex to be visited from the vertex which is at the top of the stack.",
+    "Step 5 - When there is no new vertex to visit then use back tracking and pop one vertex from the stack.",
+    "Step 6 - Repeat steps 3, 4 and 5 until stack becomes Empty.",
+    "Step 7 - When stack becomes Empty, then produce final spanning tree by removing unused edges from the graph"
+   ]
+  },
+  {
+   "q": "Describe the algorithm used to traverse a graph using Breadth First Search (BFS).",
+   "answer": [
+    "For the BFS implementation, we will categorize each vertex of the graph into two categories:",
+    "Visited",
+    "Not Visited",
+    "The reason for this division is to prevent the traversal of the same node again thus avoiding cycles in the graph . Breadth First Traversal in Data Structure uses a queue to keep track of the vertices to visit. By processing vertices in the order they were added to the queue, BFS ensures that all the vertices at the current level are visited before moving on to the next level. A boolean visited array is used to mark the visited vertices. This leads to a breadth-first exploration of the graph or tree, hence the name \"breadth-first traversal.\"",
+    "Here's a step-by-step explanation of how the BFS algorithm works:",
+    "Step 1 - Define a Queue of size total number of vertices in the graph.",
+    "Step 2 - Select any vertex as starting point for traversal. Visit that vertex and insert it into the Queue.",
+    "Step 3 - Visit all the non-visited adjacent vertices of the vertex which is at front of the Queue and insert them into the Queue.",
+    "Step 4 - When there is no new vertex to be visited from the vertex which is at front of the Queue then delete that vertex.",
+    "Step 5 - Repeat steps 3 and 4 until queue becomes empty.",
+    "Step 6 - When queue becomes empty, then produce final spanning tree by removing unused edges from the graph"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Consider the following graph representing a network of computers in a lab. Each node (A–G) represents a computer, and an edge between them represents a direct communication link. a) Perform a Depth First Search (DFS) traversal on the graph starting from node A. Write the order in which the nodes are visited. b) Perform a Breadth First Search (BFS) traversal on the graph starting from node A. Write the order in which the nodes are visited",
+   "answer": [
+    "Perform a Breadth First Search (BFS) traversal on the graph",
+    "Perform a Depth First Search (DFS) traversal on the graph"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,160 @@
+{
+ "course": "21CSS201T",
+ "code": "1102",
+ "unit": 1,
+ "session": 10,
+ "slo": 2,
+ "slo_title": "Explain the logic operation of the NAND gate and illustrate how it can be used to construct AND, OR, and NOT gates",
+ "mcq": [
+  {
+   "q": "To create an OR gate using only NAND gates, what is the sequence of operations?",
+   "options": {
+    "A": "NAND the inputs directly",
+    "B": "NAND the inputs, then NAND the output with itself",
+    "C": "NAND the inputs separately, then NAND the results",
+    "D": "NAND the inputs twice"
+   },
+   "answer": "C",
+   "answer_text": "NAND the inputs separately, then NAND the results"
+  },
+  {
+   "q": "Which configuration of NAND gates produces a NOT operation on input A?",
+   "options": {
+    "A": "Both inputs connected to A",
+    "B": "One input connected to A and the other to 0",
+    "C": "One input connected to A and the other to 1",
+    "D": "Inputs connected to different signals"
+   },
+   "answer": "A",
+   "answer_text": "Both inputs connected to A"
+  },
+  {
+   "q": "Given that a NOR gate outputs 1 only when all inputs are 0, which Boolean expression represents the NOR of two inputs A and B?",
+   "options": {
+    "A": "\\(\\overline{(A.B)}\\)",
+    "B": "\\(\\overline{(A+B)} ​\\)",
+    "C": "A+B",
+    "D": "A⋅B"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\overline{(A+B)} ​\\)"
+  },
+  {
+   "q": "How can you implement an AND gate using only NOR gates?",
+   "options": {
+    "A": "Take the NOR of the inputs, then NOR the result with itself",
+    "B": "Take the NOR of the inputs twice in series",
+    "C": "Take the NOR of the inputs, then invert each input with a NOR gate, then NOR the results",
+    "D": "NOR gates cannot implement AND gates"
+   },
+   "answer": "C",
+   "answer_text": "Take the NOR of the inputs, then invert each input with a NOR gate, then NOR the results"
+  },
+  {
+   "q": "Which of the following statements about NAND and NOR gates is TRUE?",
+   "options": {
+    "A": "NAND gates are universal gates but NOR gates are not",
+    "B": "Both NAND and NOR gates can be used to implement any logic function",
+    "C": "NOR gates cannot be used to implement NOT gates",
+    "D": "NAND gates can only implement NOT and AND gates"
+   },
+   "answer": "B",
+   "answer_text": "Both NAND and NOR gates can be used to implement any logic function"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A circuit uses three NAND gates. The first two act as inverters. The third takes their outputs. What gate does this form?",
+   "answer": [
+    "It forms an OR gate :",
+    "\\(A+B=A‾⋅B‾‾A + B = \\overline{\\overline{A} \\cdot \\overline{B}}A+B=A⋅B\\)",
+    "Using NAND gates:",
+    "First NAND: \\(A⋅A‾=A‾\\overline{A \\cdot A} = \\overline{A}A⋅A=A\\)",
+    "First NAND: \\(A⋅A‾=A‾\\overline{A \\cdot A} = \\overline{A}A⋅A=A\\)",
+    "Second NAND: \\(B⋅B‾=B‾\\overline{B \\cdot B} = \\overline{B}B⋅B=B\\)",
+    "Second NAND: \\(B⋅B‾=B‾\\overline{B \\cdot B} = \\overline{B}B⋅B=B\\)",
+    "Third NAND: A‾⋅B‾‾= \\(A+B\\overline{\\overline{A} \\cdot \\overline{B}}\\) = A + BA⋅B=A+B",
+    "Third NAND: A‾⋅B‾‾= \\(A+B\\overline{\\overline{A} \\cdot \\overline{B}}\\) = A + BA⋅B=A+B"
+   ]
+  },
+  {
+   "q": "Construct the Boolean expression using only NOR gates to represent the function:",
+   "answer": [
+    "Use DeMorgan’s theorem:",
+    "A⋅B‾=A‾‾+B‾ \\(\\overline{A \\cdot B} = \\overline{\\overline{\\overline{A}} + \\overline{\\overline{B}}}\\) A⋅B=A+B​",
+    "This means:",
+    "Invert A and B using NOR",
+    "Invert A and B using NOR",
+    "Apply them to a NOR gate",
+    "Apply them to a NOR gate",
+    "Invert again if needed",
+    "Invert again if needed"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Describe the logic function of the NOR gate and demonstrate its use in implementing AND, OR, and NOT gates. Explain the logic operation of the NAND gate and illustrate how it can be used to construct AND, OR, and NOT gates.",
+   "answer": [
+    "A NOR (NOT-OR) gate performs the logical OR operation followed by NOT .",
+    "A NOR (NOT-OR) gate performs the logical OR operation followed by NOT .",
+    "It outputs 1 only when all inputs are 0 . If any input is 1, the output is 0.",
+    "It outputs 1 only when all inputs are 0 . If any input is 1, the output is 0.",
+    "Boolean Expression: Y=A+B‾Y = \\( \\overline{A + B}\\)",
+    "Boolean Expression: Y=A+B‾Y = \\( \\overline{A + B}\\)",
+    "NOR gates can be combined to construct all basic logic gates (NOT, OR, AND).",
+    "Connect both inputs of NOR gate to the same input signal: Y=A+A‾=A‾Y = \\(\\overline{A + A}\\) = \\(\\overline{A}\\)",
+    "Connect both inputs of NOR gate to the same input signal:",
+    "Y=A+A‾=A‾Y = \\(\\overline{A + A}\\) = \\(\\overline{A}\\)",
+    "Y=A+A‾=A‾Y = \\(\\overline{A + A}\\) = \\(\\overline{A}\\)",
+    "Result: NOT gate behavior.",
+    "Result: NOT gate behavior.",
+    "Step 1: Use NOR gates to invert both inputs (NOT A and NOT B)",
+    "Step 1: Use NOR gates to invert both inputs (NOT A and NOT B)",
+    "Step 2: Feed both inverted outputs into a third NOR gate: Y=A‾+B‾‾=A⋅BY = \\( \\overline{\\overline{A} + \\overline{B}} = A \\cdot B\\) (using DeMorgan’s law, this is actually an AND gate)",
+    "Step 2: Feed both inverted outputs into a third NOR gate:",
+    "Y=A‾+B‾‾=A⋅BY = \\( \\overline{\\overline{A} + \\overline{B}} = A \\cdot B\\) (using DeMorgan’s law, this is actually an AND gate)",
+    "Y=A‾+B‾‾=A⋅BY = \\( \\overline{\\overline{A} + \\overline{B}} = A \\cdot B\\) (using DeMorgan’s law, this is actually an AND gate)",
+    "To make an OR gate using NOR, more steps are needed—so NOR is better at implementing NOT and AND directly.",
+    "To make an OR gate using NOR, more steps are needed—so NOR is better at implementing NOT and AND directly.",
+    "First invert both inputs using two NOR gates: \\(X=A+A‾=A‾X = \\overline{A + A} = \\overline{A} \\) \\(Y=B+B‾=B‾Y = \\overline{B + B} = \\overline{B}\\)",
+    "First invert both inputs using two NOR gates: \\(X=A+A‾=A‾X = \\overline{A + A} = \\overline{A} \\) \\(Y=B+B‾=B‾Y = \\overline{B + B} = \\overline{B}\\)",
+    "Feed these into a third NOR gate: Z=A‾+B‾‾=A⋅BZ = \\(\\overline{\\overline{A} + \\overline{B}} = A \\cdot B\\)",
+    "Feed these into a third NOR gate: Z=A‾+B‾‾=A⋅BZ = \\(\\overline{\\overline{A} + \\overline{B}} = A \\cdot B\\)",
+    "So, we get an AND gate using only NOR gates .",
+    "A NAND (NOT-AND) gate performs an AND operation followed by a NOT .",
+    "A NAND (NOT-AND) gate performs an AND operation followed by a NOT .",
+    "The output is 0 only when all inputs are 1 ; otherwise, the output is 1.",
+    "The output is 0 only when all inputs are 1 ; otherwise, the output is 1.",
+    "Boolean Expression: Y=A⋅B‾Y = \\( \\overline{A \\cdot B}\\)",
+    "Boolean Expression: Y=A⋅B‾Y = \\( \\overline{A \\cdot B}\\)",
+    "NAND gates can also be used to create any basic logic gate (AND, OR, NOT), making them universal .",
+    "Connect both inputs of the NAND gate to the same signal: Y=A⋅A‾=A‾Y = \\( \\overline{A \\cdot A} = \\overline{A}\\)",
+    "Connect both inputs of the NAND gate to the same signal: Y=A⋅A‾=A‾Y = \\( \\overline{A \\cdot A} = \\overline{A}\\)",
+    "Step 1: Perform NAND → \\(A⋅B‾\\overline{A \\cdot B}\\)",
+    "Step 1: Perform NAND → \\(A⋅B‾\\overline{A \\cdot B}\\)",
+    "Step 2: Invert output using another NAND gate (as a NOT): Final Output = \\(A⋅B‾‾=A⋅B\\overline{\\overline{A \\cdot B}} = A \\cdot B\\)",
+    "Step 2: Invert output using another NAND gate (as a NOT): Final Output = \\(A⋅B‾‾=A⋅B\\overline{\\overline{A \\cdot B}} = A \\cdot B\\)",
+    "Use the expression: A+B=A‾⋅B‾‾A + B = \\( \\overline{\\overline{A} \\cdot \\overline{B}}\\)",
+    "Use the expression: A+B=A‾⋅B‾‾A + B = \\( \\overline{\\overline{A} \\cdot \\overline{B}}\\)",
+    "Steps:",
+    "Invert A → A‾ \\(\\overline{A}\\) using a NAND gate (both inputs = A)",
+    "Invert A → A‾ \\(\\overline{A}\\) using a NAND gate (both inputs = A)",
+    "Invert B → B‾\\overline{B} using another NAND gate",
+    "Invert B → B‾\\overline{B} using another NAND gate",
+    "Apply both inverted outputs to a NAND gate: Y=A‾⋅B‾‾=A+BY = \\overline{\\overline{A} \\cdot \\overline{B}} = A + B",
+    "Apply both inverted outputs to a NAND gate: Y=A‾⋅B‾‾=A+BY = \\overline{\\overline{A} \\cdot \\overline{B}} = A + B",
+    "Thus, we get an OR gate using only NAND gates .",
+    "NOR and NAND are universal gates , meaning any logic circuit can be built using just one of them.",
+    "NOR and NAND are universal gates , meaning any logic circuit can be built using just one of them.",
+    "This is useful in digital electronics because it simplifies chip design and manufacturing.",
+    "This is useful in digital electronics because it simplifies chip design and manufacturing.",
+    "NAND gates are more commonly used in practice due to faster switching and easier implementation in hardware.",
+    "NAND gates are more commonly used in practice due to faster switching and easier implementation in hardware.",
+    "Understanding how to build AND, OR, and NOT using NAND or NOR is essential in logic design , circuit optimization , and computational architecture .",
+    "Understanding how to build AND, OR, and NOT using NAND or NOR is essential in logic design , circuit optimization , and computational architecture .",
+    "Would you like visual circuit diagrams or simulations for these implementations?"
+   ]
+  }
+ ]
+}

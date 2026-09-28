@@ -1,0 +1,95 @@
+{
+ "course": "21LEM202T",
+ "code": "1052",
+ "unit": 1,
+ "session": 5,
+ "slo": 2,
+ "slo_title": "Explain the continuity of happiness and the feeling of prosperity as distinct from accumulation of wealth.",
+ "mcq": [
+  {
+   "q": "Which is not there at the level of Body",
+   "options": {
+    "A": "Recognizing",
+    "B": "Fullfilling",
+    "C": "Assuming",
+    "D": "Physical Facility"
+   },
+   "answer": "C",
+   "answer_text": "Assuming"
+  },
+  {
+   "q": "Rahul is trying to understand the concept of self-exploration in his Universal Human Values class. He decides to apply the process of self-exploration to resolve a conflict with his friend. Which of the following steps should Rahul take to effectively apply self-exploration in this situation?",
+   "options": {
+    "A": "Ignore the conflict and focus on his personal goals.",
+    "B": "Blame his friend for the conflict without analyzing his own role.",
+    "C": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance.",
+    "D": "Avoid discussing the issue and wait for the conflict to resolve on its own."
+   },
+   "answer": "C",
+   "answer_text": "Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance."
+  },
+  {
+   "q": "If our imagination is based on pre-conditioning and sensation, we are in the state of:",
+   "options": {
+    "A": "Natural Acceptance",
+    "B": "Harmony",
+    "C": "Disharmony",
+    "D": "None of the above"
+   },
+   "answer": "C",
+   "answer_text": "Disharmony"
+  },
+  {
+   "q": "Which is definite, Continuous and Universal in self?",
+   "options": {
+    "A": "Knowing",
+    "B": "Assuming",
+    "C": "Recognising",
+    "D": "Fulfilling"
+   },
+   "answer": "A",
+   "answer_text": "Knowing"
+  },
+  {
+   "q": "What is not included in the process of self – exploration?",
+   "options": {
+    "A": "Verifying the proposal at the level of Natural Acceptance",
+    "B": "Listening to the proposal",
+    "C": "Comparing the proposal with other’s opinion",
+    "D": "Validating one's behaviour"
+   },
+   "answer": "C",
+   "answer_text": "Comparing the proposal with other’s opinion"
+  }
+ ],
+ "sq": [
+  {
+   "q": "Why is the Self considered central to human existence?",
+   "answer": [
+    "Because the Self governs thoughts, feelings, and decisions, guiding how humans live and interact."
+   ]
+  },
+  {
+   "q": "How does the Self differ from the body?",
+   "answer": [
+    "The body handles physical functions, while the Self deals with consciousness, understanding, and resolution."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Q1. Distinguish between happiness and excitement, with reference to the three sources of happiness. Q2. Examine the prevailing notion that “accumulation of wealth = prosperity.” Q3. Explain why dependence on sensation, on physical facility, and on feeling received from others cannot give continuous happiness, and what the role of sensation actually is.",
+   "answer": [
+    "Q1 — Happiness vs excitement",
+    "DEFINITE — single expected answer",
+    "Model answer: Every human being aspires for continuous happiness, but the program adopted depends on what one has understood or assumed, and one keeps shifting programs when they fail. Much of what is taken to be happiness is in fact excitement or escape. Happiness is harmony; it does not depend on the outside and can be continuous. Excitement may or may not be harmony, depends on the outside, has no provision of continuity and is momentary. The three sources of happiness are: right understanding and right feeling, both ensured in the self, continuous, with a definite completion point (self-organisation); and sensation through the body, which is temporary, dependent on the body and the other, indefinite and with no completion point. Taking sensation or feeling-from-others as the source of continuous happiness is the problem.",
+    "Q2 — Accumulation of wealth and prosperity",
+    "DEFINITE — single expected answer",
+    "Model answer: The prevailing notion is that the richer you are, the more you have accumulated, the more prosperous you are. Value education questions this: prosperity is defined as the feeling of having or producing more than the required physical facility — a state of the self, not the quantity of accumulation. Accumulation alone cannot ensure prosperity, because without right understanding one does not know how much is required, and however much is accumulated one may still feel deprived. Hence equating wealth with prosperity is a misconception; the feeling of prosperity arises from rightly identifying one's need and recognising that there is enough provision in nature.",
+    "Q3 — Why dependence cannot give continuous happiness",
+    "DEFINITE — single expected answer",
+    "Model answer: Happiness based on sensation is temporary and depends on the body and the other (a state of dependence), is indefinite and has no completion point; happiness sought from feeling received from others is likewise temporary and dependent on the other; and owning or accumulating physical facility cannot suffice for a human being and cannot be continuous. This is why none of these gives continuous happiness. Sensation, however, is not bad — it is a useful source of information about the state of the body, about a physical facility, and about what the other is communicating, so that we can decide about our health, about a facility or environment, and how to respond. Sensation becomes a problem only when treated as the source of continuous happiness."
+   ]
+  }
+ ]
+}

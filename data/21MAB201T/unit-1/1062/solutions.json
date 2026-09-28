@@ -1,0 +1,110 @@
+{
+ "course": "21MAB201T",
+ "code": "1062",
+ "unit": 1,
+ "session": 6,
+ "slo": 2,
+ "slo_title": "Standard type IV: Separation of variables 𝐹𝑥,𝑝=𝐺(𝑦,𝑞) ",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "B",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Solve } z=p^2+q^2\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Put } u=x+ay, p=\\frac{dz}{du}, q=a\\frac{dz}{du}\\)",
+    "(2 Mark)",
+    "\\(\\text{Substitute: } z=(1+a^2)(\\frac{dz}{du})^2\\)",
+    "(2 Mark)",
+    "\\(\\text{Integrate: } 2\\sqrt{1+a^2}\\sqrt{z}=x+ay+c\\)",
+    "(1 Mark)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Solve by separation: } p^2 y(1+x^2)=q x^2\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Separate: } \\frac{p^2(1+x^2)}{x^2}=\\frac{q}{y}=a\\)",
+    "(2 Mark)",
+    "\\(\\text{Then } q=ay, p=\\frac{\\sqrt{a}x}{\\sqrt{1+x^2}}\\)",
+    "(2 Mark)",
+    "\\(\\text{Integrate: } z=\\sqrt{a}\\sqrt{1+x^2}+\\frac{a}{2}y^2+c\\)",
+    "(1 Mark)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Solve the PDE } 9(p^2z+q^2)=4 \\text{ using the method for equations of the form F(z,p,q)=0}\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Put } u=x+ay, p=\\frac{dz}{du}, q=a\\frac{dz}{du}\\)",
+    "(2 Mark)",
+    "\\(\\text{Substitute: } 9\\left[z\\left(\\frac{dz}{du}\\right)^2+a^2\\left(\\frac{dz}{du}\\right)^2\\right]=4\\)",
+    "(2 Mark)",
+    "\\(\\text{Simplify: } \\frac{3}{2}\\sqrt{z+a^2}dz=du\\)",
+    "(2 Mark)",
+    "\\(\\text{Integrate: } (z+a^2)^{3/2}=x+ay+c\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

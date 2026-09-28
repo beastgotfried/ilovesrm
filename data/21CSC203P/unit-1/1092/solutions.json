@@ -1,0 +1,91 @@
+{
+ "course": "21CSC203P",
+ "code": "1092",
+ "unit": 1,
+ "session": 9,
+ "slo": 2,
+ "slo_title": "Analyze method call overhead in procedural and object-oriented paradigms",
+ "mcq": [
+  {
+   "q": "What is a key disadvantage of method calls in object-oriented programming compared to procedural calls?",
+   "options": {
+    "A": "a) Cannot use loops",
+    "B": "b) More overhead due to dynamic dispatch and object management",
+    "C": "c) Only works for small applications​​​​​",
+    "D": "d) Executes faster"
+   },
+   "answer": "B",
+   "answer_text": "b) More overhead due to dynamic dispatch and object management"
+  },
+  {
+   "q": "Which of the following paradigms is typically preferred in data transformation and list processing tasks, such as in compilers or AI?",
+   "options": {
+    "A": "a) Functional programming",
+    "B": "b) Procedural programming",
+    "C": "c) Object-oriented programming ​​​​​",
+    "D": "d) Machine code"
+   },
+   "answer": "A",
+   "answer_text": "a) Functional programming"
+  },
+  {
+   "q": "For a simple sequence of data processing tasks, which programming paradigm is most suitable?",
+   "options": {
+    "A": "a) Object-oriented",
+    "B": "b) Procedural",
+    "C": "c) Declarative ​​​​​​​ ​​​​​​​",
+    "D": "d) Logic-based"
+   },
+   "answer": "B",
+   "answer_text": "b) Procedural"
+  },
+  {
+   "q": "Which paradigm is best suited for applications involving complex real-world entities and reusable code components?",
+   "options": {
+    "A": "a) Logic programming",
+    "B": "b) Procedural programming",
+    "C": "c) Object-oriented programming ​​​​​​​ ​​​​​​​",
+    "D": "d) Functional programming"
+   },
+   "answer": "C",
+   "answer_text": "c) Object-oriented programming ​​​​​​​ ​​​​​​​"
+  },
+  {
+   "q": "In procedural programming, how is method call overhead generally managed?",
+   "options": {
+    "A": "a) Through object allocation",
+    "B": "b) By reducing inheritance chains",
+    "C": "c) With direct stack-based function calls ​​​​​",
+    "D": "d) By using abstract classes"
+   },
+   "answer": "C",
+   "answer_text": "c) With direct stack-based function calls ​​​​​"
+  }
+ ],
+ "sq": [
+  {
+   "q": "A cross-platform application is being developed with portability in mind. What advantage does a high-level language offer in this context?",
+   "answer": [
+    "High-level languages abstract hardware details, offering built-in libraries, error handling, and memory management, thus simplifying development and enhancing compatibility."
+   ]
+  },
+  {
+   "q": "An embedded system requires precise control over hardware. Why might machine-level programming be preferred over high-level languages?",
+   "answer": [
+    "Machine-level code allows direct access to registers and memory, resulting in optimized performance and smaller footprint critical for hardware-level operations."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "An embedded system requires precise control over hardware sensors. Compare the use of machine code and C language in terms of efficiency, readability, and control.",
+   "answer": [
+    "Machine code provides direct access to hardware but is difficult to write and maintain.",
+    "Machine code provides direct access to hardware but is difficult to write and maintain.",
+    "C language balances control with readability, allowing low-level access using pointers, bit manipulation, and memory-mapped IO.",
+    "C language balances control with readability, allowing low-level access using pointers, bit manipulation, and memory-mapped IO.",
+    "For embedded systems, C is typically preferred, with inline assembly used where needed."
+   ]
+  }
+ ]
+}

@@ -1,0 +1,97 @@
+{
+ "course": "21CSC203P",
+ "code": "3032",
+ "unit": 3,
+ "session": 3,
+ "slo": 2,
+ "slo_title": "Handle thread synchronization and communication",
+ "mcq": [
+  {
+   "q": "Which of the following methods is not directly involved in managing thread lifecycle?",
+   "options": {
+    "A": "start()",
+    "B": "run()",
+    "C": "destroy()",
+    "D": "join()"
+   },
+   "answer": "C",
+   "answer_text": "destroy()"
+  },
+  {
+   "q": "Consider the following code: Which of the following must also hold true for this code to execute successfully?",
+   "options": {
+    "A": "The object must be null",
+    "B": "The current thread must not hold the object's lock",
+    "C": "The current thread must hold the object's lock",
+    "D": "wait() can be called outside synchronized block"
+   },
+   "answer": "B",
+   "answer_text": "The current thread must not hold the object's lock"
+  },
+  {
+   "q": "When a thread calls join() on another thread, what happens?",
+   "options": {
+    "A": "It kills the other thread",
+    "B": "It starts executing in parallel",
+    "C": "It waits for the other thread to finish",
+    "D": "It sleeps for a specified time"
+   },
+   "answer": "C",
+   "answer_text": "It waits for the other thread to finish"
+  },
+  {
+   "q": "Which of the following is true about the sleep() method in Java?",
+   "options": {
+    "A": "It releases the lock and pauses execution",
+    "B": "It does not release any lock",
+    "C": "It causes deadlock",
+    "D": "It is not allowed inside synchronized blocks"
+   },
+   "answer": "B",
+   "answer_text": "It does not release any lock"
+  },
+  {
+   "q": "Which method places the current thread into waiting state until it is notified?",
+   "options": {
+    "A": "sleep()",
+    "B": "wait()",
+    "C": "notify()",
+    "D": "yield()"
+   },
+   "answer": "B",
+   "answer_text": "wait()"
+  }
+ ],
+ "sq": [
+  {
+   "q": "What is the role of synchronized keyword in Java thread management?",
+   "answer": [
+    "The synchronized keyword ensures mutual exclusion by allowing only one thread to access a block/method at a time. It prevents data inconsistency in concurrent environments."
+   ]
+  },
+  {
+   "q": "How does inter-thread communication occur using wait() , notify() , and notifyAll() ?",
+   "answer": [
+    "One thread calls wait() and releases the lock.",
+    "One thread calls wait() and releases the lock.",
+    "Another thread (holding the same lock) calls notify() or notifyAll() to wake the waiting thread(s).",
+    "Another thread (holding the same lock) calls notify() or notifyAll() to wake the waiting thread(s).",
+    "Ensures coordination between threads, especially in producer-consumer scenarios.",
+    "Ensures coordination between threads, especially in producer-consumer scenarios."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Design a thread-safe solution using Java's thread lifecycle methods, synchronization techniques, and inter-thread communication. Provide a class structure and sample code demonstrating withdrawal and deposit behavior using synchronized , wait() , and notify() .",
+   "answer": [
+    "class Account { private int balance = 1000;",
+    "public synchronized void withdraw(int amount) { while (balance < amount) { System.out.println(\"Insufficient balance. Waiting...\"); try { wait(); } catch (InterruptedException e) {} } balance -= amount; System.out.println(\"Withdrawn: \" + amount + \", Remaining: \" + balance); }",
+    "public synchronized void deposit(int amount) { balance += amount; System.out.println(\"Deposited: \" + amount + \", New Balance: \" + balance); notifyAll(); } }",
+    "public class BankApp { public static void main(String[] args) { Account acc = new Account();",
+    "Thread t1 = new Thread(() -> acc.withdraw(1200)); Thread t2 = new Thread(() -> acc.deposit(500));",
+    "t1.start(); t2.start(); } }"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,110 @@
+{
+ "course": "21MAB201T",
+ "code": "1031",
+ "unit": 1,
+ "session": 3,
+ "slo": 1,
+ "slo_title": "Formation of PDEs by eliminating arbitrary functions of the form F(u,v)=0",
+ "mcq": [
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "D",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "A",
+   "answer_text": ""
+  },
+  {
+   "q": "",
+   "options": {
+    "A": "",
+    "B": "",
+    "C": "",
+    "D": ""
+   },
+   "answer": "C",
+   "answer_text": ""
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Eliminate arbitrary function from } z = x + y + f(xy)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Differentiate w.r.t x: } p = 1 + f'(xy) \\cdot y\\)",
+    "(1 Mark)",
+    "\\(\\text{Differentiate w.r.t y: } q = 1 + f'(xy) \\cdot x\\)",
+    "(1 Mark)",
+    "\\(\\text{Eliminate } f'(xy): x(p-1) = y(q-1)\\)",
+    "(2 Mark)"
+   ]
+  },
+  {
+   "q": "\\(\\text{Eliminate arbitrary function from } z = f(x^2 + y^2)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Let } u = x^2 + y^2, \\text{ then } z = f(u)\\)",
+    "(1 Mark)",
+    "\\(\\frac{\\partial z}{\\partial x} = f'(u) \\cdot 2x, \\quad \\frac{\\partial z}{\\partial y} = f'(u) \\cdot 2y\\)",
+    "(2 Mark)",
+    "\\(\\text{Eliminate } f'(u): y\\frac{\\partial z}{\\partial x} - x\\frac{\\partial z}{\\partial y} = 0\\)",
+    "(2 Mark)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "\\(\\text{Form the PDE by eliminating the arbitrary function f from } z = f\\left(\\frac{xy}{z}\\right)\\)",
+   "answer": [
+    "Upto the step",
+    "Marks",
+    "\\(\\text{Differentiate w.r.t x: } p=f'\\left(\\frac{xy}{z}\\right)\\cdot\\frac{yz-xyp}{z^2}\\)",
+    "(2 Mark)",
+    "\\(\\text{Differentiate w.r.t y: } q=f'\\left(\\frac{xy}{z}\\right)\\cdot\\frac{xz-xyq}{z^2}\\)",
+    "(2 Mark)",
+    "\\(\\text{Equate f' terms: } \\frac{pz^2}{yz-xyp}=\\frac{qz^2}{xz-xyq}\\)",
+    "(2 Mark)",
+    "\\(\\text{Simplify: } px=qy\\)",
+    "(1 Mark)"
+   ]
+  }
+ ]
+}

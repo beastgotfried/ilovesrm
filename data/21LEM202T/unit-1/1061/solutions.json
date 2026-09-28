@@ -1,0 +1,95 @@
+{
+ "course": "21LEM202T",
+ "code": "1061",
+ "unit": 1,
+ "session": 6,
+ "slo": 1,
+ "slo_title": "Carry out a practice activity exploring the natural acceptance of human values.",
+ "mcq": [
+  {
+   "q": "Which of the following activities is primarily of the self?",
+   "options": {
+    "A": "Circulation of blood",
+    "B": "Thinking, analyzing, and decision-making",
+    "C": "Digestion",
+    "D": "Reflex actions"
+   },
+   "answer": "B",
+   "answer_text": "Thinking, analyzing, and decision-making"
+  },
+  {
+   "q": "Why is the self considered central to human existence?",
+   "options": {
+    "A": "Because it controls only physical movements",
+    "B": "Because it is the source of awareness, thoughts, and decisions",
+    "C": "Because it stores energy in the body",
+    "D": "Because it performs only biological functions"
+   },
+   "answer": "B",
+   "answer_text": "Because it is the source of awareness, thoughts, and decisions"
+  },
+  {
+   "q": "Which of the following best describes the relationship between self and body?",
+   "options": {
+    "A": "The self is physical; the body is conscious",
+    "B": "The self observes and guides the body, which performs physical functions",
+    "C": "The self and body are independent and unrelated",
+    "D": "The body controls the self completely"
+   },
+   "answer": "B",
+   "answer_text": "The self observes and guides the body, which performs physical functions"
+  },
+  {
+   "q": "Why should engineers understand the concept of self?",
+   "options": {
+    "A": "To enhance mechanical skills",
+    "B": "To design systems considering human needs, behavior, and ethics",
+    "C": "To memorize formulas faster",
+    "D": "To increase physical strength"
+   },
+   "answer": "B",
+   "answer_text": "To design systems considering human needs, behavior, and ethics"
+  },
+  {
+   "q": "How does the self influence human conduct?",
+   "options": {
+    "A": "By determining desires, choices, and actions consciously",
+    "B": "By regulating only breathing and heartbeat",
+    "C": "By controlling only muscle movement",
+    "D": "By generating external resources"
+   },
+   "answer": "A",
+   "answer_text": "By determining desires, choices, and actions consciously"
+  }
+ ],
+ "sq": [
+  {
+   "q": "How does focusing on the Self improve human relationships?",
+   "answer": [
+    "By promoting right understanding and harmony, leading to trust, respect, and mutual happiness."
+   ]
+  },
+  {
+   "q": "What happens if the Self is not properly understood?",
+   "answer": [
+    "It leads to confusion, conflict, and dissatisfaction in life."
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Q1. Describe the method to fulfil the basic human aspirations through understanding and living in harmony at all four levels of being. Q2. Explain “Our Program” — the two-fold effort of understanding harmony and living in harmony — and the process by which proposals are checked. Q3. If ensuring harmony at one level seems to disturb another, how can a program for continuity of happiness be made? Explain how working for harmony at the individual level helps at the other levels.",
+   "answer": [
+    "Q1 — Method via harmony at four levels",
+    "DEFINITE — single expected answer",
+    "Model answer: The basic human aspiration is continuous happiness and prosperity, and happiness is to be in harmony. Continuity of happiness is harmony at all four levels of being: as an individual human being, a member of a family, a member of society, and a unit in nature/existence. The method, therefore, is to ensure harmony at each level — harmony in the human being, the family, the society, and nature/existence. This is achieved by living with human consciousness, in which right understanding in the self comes first, fulfilment in relationship second, and physical facility third, leading to mutual happiness and mutual prosperity.",
+    "Q2 — Our Program",
+    "DEFINITE — single expected answer",
+    "Model answer: Our program has two parts. The first is to facilitate the understanding of harmony at all levels of being — in the human being, the family, the society, and nature/existence — and then to live in harmony at all these levels. The second is the manner of working with proposals: whatever is presented is a proposal, to be (a) verified on the basis of our natural acceptance and (b) validated experientially by living accordingly. Through this we develop right understanding and right feeling. So the program is, on one hand, understanding and living in harmony at the four levels, and on the other, self-verification of proposals by natural acceptance together with experiential validation.",
+    "Q3 — Harmony at one level supports the others",
+    "DEFINITE — single expected answer",
+    "Model answer: As things appear today, managing things at one level can seem to make another level difficult — for example, caring for a baby and doing justice to a job, or family members feeling upset when one invests time in right understanding. But the program is not about managing things; it is about ensuring harmony. If I try to understand and live in harmony at one level, it will help — or at least not contradict — harmony at the other levels. For instance, working for harmony at the individual level means ensuring right understanding and right feeling in the self; this facilitates harmony at the family level, because I can then ensure mutual fulfilment in my behaviour with right feelings, and similarly I can better participate in harmony at the level of society and nature."
+   ]
+  }
+ ]
+}

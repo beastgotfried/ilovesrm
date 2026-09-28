@@ -1,0 +1,92 @@
+{
+ "course": "21MAB201T",
+ "code": "2091",
+ "unit": 2,
+ "session": 9,
+ "slo": 1,
+ "slo_title": "Apply Parseval's theorem to find the sum of series or the mean square value of a function from its Fourier coefficients in a cosine series.",
+ "mcq": [
+  {
+   "q": "\\(\\textit{The formula for the coefficient $a_0$ in the half-range cosine series of a function $f(x)=x$ defined on $(0, \\ell)$ is}\\)",
+   "options": {
+    "A": "\\(\\displaystyle a_0 = \\frac{1}{\\ell} \\int_{0}^{\\ell} x \\, dx\\)",
+    "B": "\\(\\displaystyle a_0 = \\frac{2}{\\ell} \\int_{0}^{\\ell} x \\, dx\\)",
+    "C": "\\(\\displaystyle a_0 = \\frac{1}{\\ell} \\int_{0}^{\\ell} x\\, \\cos\\left( \\frac{n\\pi x}{\\ell} \\right) dx\\)",
+    "D": "\\(\\displaystyle a_0 = \\frac{2}{\\ell} \\int_{0}^{\\ell} x\\, \\sin\\left( \\frac{n\\pi x}{\\ell} \\right) dx\\)"
+   },
+   "answer": "B",
+   "answer_text": "\\(\\displaystyle a_0 = \\frac{2}{\\ell} \\int_{0}^{\\ell} x \\, dx\\)"
+  },
+  {
+   "q": "For half-range cosine series of \\( f(x) \\) on \\( (0, L) \\), Parseval's identity becomes:",
+   "options": {
+    "A": "\\( \\frac{1}{L} \\int_0^L [f(x)]^2 \\, dx = \\frac{a_0^2}{4} + \\frac{1}{2} \\sum_{n=1}^{\\infty} a_n^2 \\)",
+    "B": "\\( \\frac{1}{L} \\int_0^L [f(x)]^2 \\, dx = \\frac{a_0^2}{2} + \\sum_{n=1}^{\\infty} a_n^2 \\)",
+    "C": "\\( \\frac{1}{L} \\int_0^L [f(x)]^2 \\, dx = \\frac{a_0^2}{4} + \\sum_{n=1}^{\\infty} a_n^2 \\)",
+    "D": "\\( \\frac{1}{L} \\int_0^L [f(x)]^2 \\, dx = \\sum_{n=1}^{\\infty} a_n^2 \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( \\frac{1}{L} \\int_0^L [f(x)]^2 \\, dx = \\frac{a_0^2}{4} + \\frac{1}{2} \\sum_{n=1}^{\\infty} a_n^2 \\)"
+  },
+  {
+   "q": "\\(\\textit{The formula for the coefficient $a_n$ in the half-range cosine series of a function $f(x)=x(\\pi-x)$ defined on $(0, \\pi)$ is}\\)",
+   "options": {
+    "A": "\\(\\displaystyle a_n = \\frac{1}{\\pi} \\int_{0}^{\\pi} x \\, dx\\)",
+    "B": "\\(\\displaystyle a_n = \\frac{2}{\\pi} \\int_{0}^{\\pi} x \\, dx\\)",
+    "C": "\\(\\displaystyle a_n = \\frac{1}{\\pi} \\int_{0}^{\\pi} x(\\pi-x)\\, cosnx \\,\\,dx\\)",
+    "D": "\\(\\displaystyle a_n = \\frac{2}{\\pi} \\int_{0}^{\\pi} x(\\pi-x)\\, cosnx \\,\\,dx\\)"
+   },
+   "answer": "D",
+   "answer_text": "\\(\\displaystyle a_n = \\frac{2}{\\pi} \\int_{0}^{\\pi} x(\\pi-x)\\, cosnx \\,\\,dx\\)"
+  },
+  {
+   "q": "The RMS value of \\( f(x) \\) over \\( (a, b) \\) using Parseval's identity involves:",
+   "options": {
+    "A": "Square root of the average of \\( f^2(x) \\)",
+    "B": "Average of \\( f(x) \\)",
+    "C": "Maximum of \\( f(x) \\)",
+    "D": "Minimum of \\( f(x) \\)"
+   },
+   "answer": "A",
+   "answer_text": "Square root of the average of \\( f^2(x) \\)"
+  },
+  {
+   "q": "Using Parseval's identity for \\( f(x)=x \\) on \\( (-\\pi, \\pi) \\), one can find the sum of:",
+   "options": {
+    "A": "\\( \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\)",
+    "B": "\\( \\sum_{n=1}^{\\infty} \\frac{1}{n} \\)",
+    "C": "\\( \\sum_{n=1}^{\\infty} \\frac{1}{n^4} \\)",
+    "D": "\\( \\sum_{n=1}^{\\infty} \\frac{(-1)^n}{n} \\)"
+   },
+   "answer": "A",
+   "answer_text": "\\( \\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\)"
+  }
+ ],
+ "sq": [
+  {
+   "q": "\\(\\text{Using Parseval's identity for } f(x)=x^2 \\text{ in } (-\\pi,\\pi), \\text{ prove } \\sum_{n=1}^{\\infty} \\frac{1}{n^4} = \\frac{\\pi^4}{90}.\\)",
+   "answer": [
+    "\\(\\text{For } x^2: a_0 = \\frac{2\\pi^2}{3}, a_n = \\frac{4}{n^2}(-1)^n, b_n=0\\)",
+    "\\(\\text{LHS: } \\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi} x^4 dx = \\frac{\\pi^4}{5}\\)",
+    "\\(\\text{RHS: } \\frac{1}{4}(\\frac{2\\pi^2}{3})^2 + \\frac{1}{2}\\sum_{n=1}^{\\infty} (\\frac{4}{n^2})^2 = \\frac{\\pi^4}{9} + 8\\sum_{n=1}^{\\infty} \\frac{1}{n^4}\\)",
+    "\\(\\text{Equate: } \\frac{\\pi^4}{5} = \\frac{\\pi^4}{9} + 8\\sum \\frac{1}{n^4} \\Rightarrow \\sum \\frac{1}{n^4} = \\frac{\\pi^4}{90}\\)"
+   ]
+  },
+  {
+   "q": "\\(\\text{State Parseval's identity for Fourier series in } (-L, L).\\)",
+   "answer": [
+    "\\(\\frac{1}{2L} \\int_{-L}^{L} [f(x)]^2 dx = \\frac{a_0^2}{4} + \\frac{1}{2} \\sum_{n=1}^{\\infty} (a_n^2 + b_n^2)\\)",
+    "\\(\\text{where } a_n, b_n \\text{ are Fourier coefficients}\\)",
+    "\\(\\text{This relates mean square value to sum of squares of coefficients}\\)"
+   ]
+  }
+ ],
+ "lq": [
+  {
+   "q": "Find the Fourier series for \\(f(x)=x^3\\) in \\((-\\pi,\\pi)\\). Using Parseval's identity, prove that \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^6}=\\frac{\\pi^6}{945}\\).",
+   "answer": [
+    "Step Marks Since \\(x^3\\) is odd, \\(a_0=0\\), \\(a_n=0\\) (2) \\(b_n=\\frac{2}{\\pi}\\int_0^{\\pi}x^3\\sin nx\\,dx=\\frac{2(-1)^{n+1}}{n}\\left(\\pi^2-\\frac{6}{n^2}\\right)\\) (5) Thus, \\(x^3=2\\sum_{n=1}^{\\infty}(-1)^{n+1}\\left(\\frac{\\pi^2}{n}-\\frac{6}{n^3}\\right)\\sin nx\\) (3) Parseval's: \\(\\frac{1}{\\pi}\\int_{-\\pi}^{\\pi}x^6 dx=\\frac{1}{2}\\sum b_n^2\\) ⇒ \\(\\frac{2\\pi^6}{7}=\\sum_{n=1}^{\\infty}\\left[\\frac{4\\pi^4}{n^2}-\\frac{48\\pi^2}{n^4}+\\frac{144}{n^6}\\right]\\) (4) Using known sums, solve for \\(\\sum\\frac{1}{n^6}\\) (1)"
+   ]
+  }
+ ]
+}
