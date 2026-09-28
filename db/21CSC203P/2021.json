@@ -1,0 +1,17 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 2 : SLO \u2013 1 | Data Types and Variables",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "Output of BoolTest:",
+    "b is false",
+    "b is true",
+    "This is executed.",
+    "10 > 9 is true",
+    "(The second if(b) with b=false prints nothing.)",
+    "Static vs instance variable: A STATIC variable belongs to the class \u2014 one shared copy for all objects, created at class loading, accessed as ClassName.var. An INSTANCE variable belongs to each object \u2014 every object gets its own copy, created with new, accessed via the object reference. Changing a static variable affects all objects; changing an instance variable affects only that object."
+   ]
+  ]
+ ]
+}

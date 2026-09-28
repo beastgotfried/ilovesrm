@@ -1,0 +1,12 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 6 : SLO \u2013 1 | User-Defined vs Predefined Functions",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "Type classification: A. sum(5,10) call \u2192 User-Defined (calls our own method). B. sum definition \u2192 User-Defined. C. System.out.println \u2192 Predefined (Java library). D. import java.util.Scanner \u2192 Predefined (library import). E. new Scanner(System.in) \u2192 Predefined (library class). F. Math.sqrt(64) \u2192 Predefined (Java library).",
+    "Order in a working program: D (import first) \u2192 B (method definition in class) \u2192 then in main: E (create Scanner) \u2192 C (print welcome) \u2192 A (call sum) \u2192 F (call Math.sqrt)."
+   ]
+  ]
+ ]
+}

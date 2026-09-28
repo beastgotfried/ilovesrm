@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 1 : SLO \u2013 1 | Elements of Programming Languages",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) int x = 5 + 3; \u2014 SYNTAX: the grammatical structure of the statement: type keyword 'int', identifier 'x', assignment operator '=', expression '5 + 3' (two integer literals joined by the binary '+'), terminated by ';'. SEMANTICS: the meaning \u2014 evaluate 5 + 3 (value 8), allocate storage for an int variable x, and bind the value 8 to x.",
+    "2) Lexical tokens in 'int x = 5 + 3;' \u2014 keyword: int; identifier: x; operator: =, +; literals: 5, 3; separator/punctuator: ;. In a full program like public class Hello { public static void main(String[] a){ System.out.println(\"Hi\"); } } the tokens are: keywords (public, class, static, void), identifiers (Hello, main, System, out, println), string literal (\"Hi\"), separators ({ } ( ) ; .).",
+    "3) Grammar rules demo: changing 'int x = 5 + 3;' to 'int x = (5 + 3) * 2;' follows the grammar rule expression = expression operator expression with parentheses for precedence; removing the semicolon breaks the grammar (compile error: ';' expected), showing that grammar rules define valid program structure."
+   ]
+  ]
+ ]
+}

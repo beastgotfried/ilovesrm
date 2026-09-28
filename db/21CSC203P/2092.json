@@ -1,0 +1,15 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 9 : SLO \u2013 2 | Method Overloading",
+ "sections": [
+  [
+   "Activity \u2013 Fill in the Blanks (Answers)",
+   [
+    "public int add(INT a, INT b) { return a + b; }",
+    "public int add(int a, int b, INT C) { return a + b + c; }",
+    "public double add(double a, double b) { return A + B; }",
+    "Output of main: 15  /  30  /  8.7",
+    "Each call resolves at compile time by matching the number and types of arguments \u2014 compile-time polymorphism (overloading)."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 8 : SLO \u2013 1 | Abstract Classes",
+ "sections": [
+  [
+   "Activity \u2013 Complete the Code (Answer)",
+   [
+    "class Car extends Vehicle { void start() { System.out.println(\"Car starts with a key/button\"); } }  // implements the abstract method"
+   ]
+  ],
+  [
+   "Activity \u2013 Match the Following (Answers)",
+   [
+    "Abstract class \u2192 Cannot be instantiated",
+    "Abstract method \u2192 Must be overridden in a subclass",
+    "Concrete method \u2192 Has both implementation and declaration",
+    "Subclass of abstract class \u2192 Must provide implementations for abstract methods"
+   ]
+  ]
+ ]
+}

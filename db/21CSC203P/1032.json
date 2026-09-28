@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 3 : SLO \u2013 2 | Apply Control Structures",
+ "sections": [
+  [
+   "Activity (Solutions with output)",
+   [
+    "1) Prime check for n = 7: loop i = 2..3, 7 % 2 = 1 and 7 % 3 = 1, so flag stays 0 \u2192 Output: Prime. Uses selection inside iteration.",
+    "2) Factorial: fact = 1; for i = 1..n, fact *= i \u2192 for n = 5: 1\u00d72\u00d73\u00d74\u00d75 = 120. Uses iteration (sequence of multiplications).",
+    "3) Largest of a, b, c: if (a > b && a > c) print a; else if (b > c) print b; else print c \u2192 for a=3, b=9, c=5 \u2192 Output: 9. Uses nested selection (if-else ladder)."
+   ]
+  ]
+ ]
+}

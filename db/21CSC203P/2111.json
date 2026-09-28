@@ -1,0 +1,15 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 11 : SLO \u2013 1 | Interfaces",
+ "sections": [
+  [
+   "Activity \u2013 Match the Following (Answers)",
+   [
+    "interface Engine { void start(); } \u2192 Interface declaration",
+    "class Car implements Engine \u2192 Class implementing an interface",
+    "public void start() { System.out.println(\"Start!\"); } \u2192 Method overriding (implementing the interface method)",
+    "Engine e = new Car(); e.start(); \u2192 Polymorphism via interface",
+    "class Phone implements Camera, GPS {} \u2192 Implements multiple interfaces"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 7 : SLO \u2013 1 | Executing SQL Queries from Java",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: The method EXECUTEQUERY() of Statement is used to run a SELECT query in Java.",
+    "T/F: executeUpdate() returns a ResultSet object. \u2014 FALSE (returns an int row count)",
+    "MCQ: Method for INSERT/UPDATE/DELETE \u2192 B) executeUpdate()",
+    "Fill: To access the first column of the current row, use rs.GETSTRING(1) (or the appropriate getXxx(1) method).",
+    "Find the output: 2 records counted in the while loop \u2192 C) 2",
+    "T/F: A Statement object can be reused to execute multiple SQL commands. \u2014 TRUE",
+    "MCQ: Method that returns true if the SQL command returns a ResultSet \u2192 A) execute()",
+    "Fill: executeUpdate() returns an INT (integer) value representing affected rows.",
+    "Identify the error: assigning executeUpdate result to ResultSet \u2192 C) ResultSet should not be used with executeUpdate()",
+    "Fill: The Statement method execute() returns a BOOLEAN to indicate if the result is a ResultSet."
+   ]
+  ]
+ ]
+}

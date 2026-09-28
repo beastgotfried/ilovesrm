@@ -1,0 +1,15 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 7 : SLO \u2013 1 | Inheritance Basics",
+ "sections": [
+  [
+   "Activity \u2013 Fill in the Blanks (Answers)",
+   [
+    "In Java, inheritance allows a class to acquire properties and methods from another class using the keyword EXTENDS.",
+    "The class that inherits is called the SUBCLASS (child class).",
+    "The class being inherited from is called the SUPERCLASS (parent/base class).",
+    "Inheritance promotes code REUSE and reusability.",
+    "Java supports MULTIPLE inheritance through interfaces but not through classes."
+   ]
+  ]
+ ]
+}

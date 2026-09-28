@@ -1,0 +1,15 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 10 : SLO \u2013 1 | Inheritance with Overriding",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "class Figure { double dim1, dim2; Figure(double a, double b){ dim1=a; dim2=b; }  double area(){ System.out.println(\"Area undefined for Figure\"); return 0; } }",
+    "class Rectangle extends Figure { Rectangle(double l, double w){ super(l, w); }  @Override double area(){ return dim1 * dim2; } }",
+    "class Triangle extends Figure { Triangle(double b, double h){ super(b, h); }  @Override double area(){ return 0.5 * dim1 * dim2; } }",
+    "public class Main { public static void main(String[] a){ Figure f;  f = new Rectangle(10, 5); System.out.println(\"Rectangle area: \" + f.area());  f = new Triangle(10, 5); System.out.println(\"Triangle area: \" + f.area()); } }",
+    "Output: Rectangle area: 50.0  /  Triangle area: 25.0"
+   ]
+  ]
+ ]
+}

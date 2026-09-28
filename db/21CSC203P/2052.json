@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 5 : SLO \u2013 2 | Method Definition Errors",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "Code 1: public int printHello() { System.out.println(\"Hello\"); } \u2014 MISTAKE: declared return type int but returns nothing. FIX: public void printHello() { System.out.println(\"Hello\"); }  REASON: a non-void method must return a value; the method only prints, so void is correct.",
+    "Code 2: void calculateSum(int a, b) { return a + b; } \u2014 MISTAKES: parameter b lacks a type, and a void method cannot return a value. FIX: int calculateSum(int a, int b) { return a + b; }  REASON: every parameter needs its own type; to return the sum the return type must be int.",
+    "Code 3: int private multiply(int x, int y) { return x * y; } \u2014 MISTAKE: access modifier written after the return type. FIX: private int multiply(int x, int y) { return x * y; }  REASON: Java syntax order is: modifiers first, then return type, then method name."
+   ]
+  ]
+ ]
+}

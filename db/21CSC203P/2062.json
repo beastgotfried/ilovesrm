@@ -1,0 +1,15 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 6 : SLO \u2013 2 | Arguments and Parameters (MCQ)",
+ "sections": [
+  [
+   "Activity (Answers)",
+   [
+    "1. Actual argument \u2192 b) A value or variable passed during a method call",
+    "2. Formal parameter \u2192 d) A variable listed in the method signature to receive input",
+    "3. Java's mechanism \u2192 d) Pass by value",
+    "4. Primitive passed to a method \u2192 b) It gets modified only inside the method (the caller's copy is unchanged)",
+    "5. Arrays passed to methods \u2192 a) Arrays are passed by reference value (the reference is copied), and changes to elements reflect outside the method"
+   ]
+  ]
+ ]
+}

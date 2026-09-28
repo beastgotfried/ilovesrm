@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 4 : SLO \u2013 1 | Define Paradigms",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Procedural: program = procedures operating on data \u2014 static int add(int a, int b){ return a+b; } OOP: program = objects with state+behavior \u2014 class Calculator { int add(int a,int b){ return a+b; } } Functional: computation = evaluation of pure functions \u2014 IntBinaryOperator add = (a, b) -> a + b;",
+    "2) Same logic both ways (area of rectangle) \u2014 Procedural: static double area(double l, double w){ return l*w; } called as area(4,5). Object-oriented: class Rect { double l,w; Rect(double l,double w){this.l=l;this.w=w;} double area(){ return l*w; } } called as new Rect(4,5).area().",
+    "3) Java features supporting multiple paradigms: classes/inheritance (OOP), static methods and control structures (procedural/imperative), lambda expressions, method references, functional interfaces and the Stream API (functional), and annotations/generics (declarative flavor)."
+   ]
+  ]
+ ]
+}

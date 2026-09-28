@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 3 : SLO \u2013 1 | Bohm-Jacopini Theorem",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Three control structures in Java \u2014 SEQUENCE: int a = 5; int b = 10; int c = a + b; (statements run in order). SELECTION: if (c > 10) System.out.println(\"big\"); else System.out.println(\"small\"); ITERATION: for (int i = 0; i < 3; i++) System.out.println(i); \u2014 Bohm-Jacopini theorem: any algorithm can be expressed using only these three structures.",
+    "2) goto-like (nested if-break) converted to structured code \u2014 Unstructured: outer: while(true){ read(x); if(x<0) break outer; if(x==0) continue; process(x); } Structured: int x = read(); while (x >= 0) { if (x != 0) process(x); x = read(); } \u2014 same logic using a loop condition instead of break-to-label.",
+    "3) Importance of structure: single-entry/single-exit blocks make control flow predictable, so code is easier to read, debug, test and maintain; it eliminates spaghetti code caused by arbitrary jumps, enables modular reasoning, and lets compilers optimize better."
+   ]
+  ]
+ ]
+}

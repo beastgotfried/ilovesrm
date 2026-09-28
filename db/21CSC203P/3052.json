@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 5 : SLO \u2013 2 | JDBC Architecture",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: The JDBC API provides a DATABASE (vendor)-independent way to access databases from Java.",
+    "T/F: DriverManager manages a list of database drivers. \u2014 TRUE",
+    "MCQ: Interface between a Java application and the database driver \u2192 D) DriverManager",
+    "Fill: Class.forName(\"com.mysql.cj.jdbc.Driver\") registers the MySQL JDBC driver manually.",
+    "Find the output: connection succeeds, con != null \u2192 A) Connected",
+    "T/F: ResultSet allows forward and backward navigation by default. \u2014 FALSE (default is forward-only)",
+    "MCQ: Interface used to execute static SQL queries \u2192 A) Statement",
+    "Fill: executeQuery() of Statement returns a RESULTSET object.",
+    "Identify the error: executeUpdate(\"SELECT ...\") \u2192 B) executeQuery should be used",
+    "Fill: The JDBC architecture consists of two main layers: the JDBC API and the JDBC DRIVER (Driver API/Manager layer)."
+   ]
+  ]
+ ]
+}

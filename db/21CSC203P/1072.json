@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 7 : SLO \u2013 2 | Class Design & Inheritance",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) class Vehicle { String brand; void move(){ System.out.println(\"moving\"); } }  class Car extends Vehicle { int doors; }  class ElectricCar extends Car { int batteryKwh; void charge(){ System.out.println(\"charging\"); } } \u2014 multilevel hierarchy Vehicle \u2192 Car \u2192 ElectricCar.",
+    "2) class Employee { String name; double salary; void work(){ System.out.println(\"working\"); } }  class Manager extends Employee { String department; void conductMeeting(){ System.out.println(\"meeting\"); } }  Manager m = new Manager(); m.work(); m.conductMeeting();",
+    "3) Overriding + super: class Employee { void show(){ System.out.println(\"Employee\"); } }  class Manager extends Employee { @Override void show(){ super.show(); System.out.println(\"Manager\"); } }  new Manager().show(); prints Employee then Manager \u2014 super.show() invokes the superclass version, letting the subclass extend rather than fully replace the parent behavior."
+   ]
+  ]
+ ]
+}

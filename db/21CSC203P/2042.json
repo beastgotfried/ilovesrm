@@ -1,0 +1,15 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 4 : SLO \u2013 2 | Methods with Arrays",
+ "sections": [
+  [
+   "Activity \u2013 Match the Following (Answers)",
+   [
+    "1. Method that takes an array and returns the sum \u2192 C. public int getTotal(int[] arr)",
+    "2. Method that receives an array and sorts it \u2192 B. public void sortArray(int[] arr)",
+    "3. Method that returns an array of even numbers \u2192 A. public int[] getEvenNumbers(int[] arr)",
+    "4. Method that accepts an array of objects \u2192 D. public void processStudents(Student[] sList)",
+    "5. Method that reverses the contents of an array \u2192 E. public void reverseArray(int[] arr)"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 3 : SLO \u2013 2 | Loops",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "Completed code: int i = 1;  while (i <= 5) { System.out.println(\"Java Rocks \" + i);  i++;  // step counter  }",
+    "Output: Java Rocks 1 / Java Rocks 2 / Java Rocks 3 / Java Rocks 4 / Java Rocks 5",
+    "Explanation: the while loop checks i <= 5 before each iteration; the body prints the message with the current i, then i++ increments the counter; when i becomes 6 the condition fails and the loop ends \u2014 exactly 5 iterations."
+   ]
+  ]
+ ]
+}

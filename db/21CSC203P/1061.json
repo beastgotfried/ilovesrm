@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 6 : SLO \u2013 1 | Procedural Concepts",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Procedural factorial: static int factorial(int n){ int f = 1; for (int i = 1; i <= n; i++) f *= i; return f; }  called as factorial(5) \u2192 120.",
+    "2) Procedure vs method: a procedure is a standalone block of code performing a task (may not return a value, not tied to an object); a method is a function defined inside a class, tied to a class/object, invoked on an instance or class \u2014 every method is a procedure, but in Java all procedures must be methods of some class.",
+    "3) Drawbacks of procedural programming (long function demo): a 200-line main doing input, validation, computation and output mixes responsibilities \u2014 drawbacks: poor reusability (copy-paste), hard debugging, global/shared data prone to side effects, difficult maintenance and testing, no encapsulation."
+   ]
+  ]
+ ]
+}

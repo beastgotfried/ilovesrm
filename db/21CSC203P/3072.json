@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 7 : SLO \u2013 2 | ResultSet \u2014 Retrieve and Process Results",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: Before accessing data in a ResultSet, you must call NEXT() to move the cursor to a valid row.",
+    "T/F: The cursor of a new ResultSet is positioned before the first row. \u2014 TRUE",
+    "MCQ: Correctly retrieves an integer from column age \u2192 A) getInt(\"age\")",
+    "Fill: For a scroll-able result set, pass TYPE_SCROLL_INSENSITIVE (or TYPE_SCROLL_SENSITIVE) to createStatement.",
+    "Find the output: 'alice'.toUpperCase() \u2192 A) ALICE",
+    "T/F: rs.close() automatically closes the associated Statement. \u2014 FALSE (Statement must be closed separately)",
+    "MCQ: Tells whether the cursor is after the last row \u2192 A) isAfterLast()",
+    "Fill: For an updatable result set, use ResultSet.CONCUR_UPDATABLE.",
+    "Identify the error: getInt before moving cursor \u2192 B) Must call rs.next() first",
+    "Fill: The method ABSOLUTE() moves the cursor to a specific row number (positive, negative, or zero)."
+   ]
+  ]
+ ]
+}

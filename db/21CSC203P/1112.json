@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 11 : SLO \u2013 2 | Subroutine Overhead & Memory",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Call-stack trace of recursion: fact(3) \u2192 pushes frame fact(3); calls fact(2) \u2192 frame fact(2); calls fact(1) \u2192 frame fact(1) returns 1; fact(2) returns 2*1=2; fact(3) returns 3*2=6 \u2014 each call pushes a new stack frame (parameters, locals, return address); returns pop them. Depth too large \u2192 StackOverflowError.",
+    "2) Track memory: Runtime rt = Runtime.getRuntime();  long used = rt.totalMemory() - rt.freeMemory();  System.out.println(\"Used: \" + used/1024 + \" KB\"); \u2014 measure before/after allocations.",
+    "3) Static vs dynamic creation: a static/class-level object is created once (loaded with the class) \u2192 small fixed footprint, shared by all instances; dynamic creation with new inside a loop allocates a fresh heap object per iteration \u2192 footprint grows with count until GC runs. E.g., 10000 new StringBuilder() vs one reused instance \u2014 the static/reused one uses far less memory."
+   ]
+  ]
+ ]
+}

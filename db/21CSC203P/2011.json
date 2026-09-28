@@ -1,0 +1,17 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 1 : SLO \u2013 1 | Classes and Objects",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "class Product { String productName; double price; int quantity;",
+    "  void display() { System.out.println(\"Product: \" + productName + \", Price: \" + price + \", Qty: \" + quantity); } }",
+    "public class Main { public static void main(String[] args) {",
+    "  Product p1 = new Product(); p1.productName = \"Laptop\"; p1.price = 55000; p1.quantity = 3;",
+    "  Product p2 = new Product(); p2.productName = \"Mouse\"; p2.price = 499; p2.quantity = 25;",
+    "  p1.display(); p2.display(); } }",
+    "Output: Product: Laptop, Price: 55000.0, Qty: 3  /  Product: Mouse, Price: 499.0, Qty: 25"
+   ]
+  ]
+ ]
+}

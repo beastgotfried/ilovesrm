@@ -1,0 +1,12 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 2 : SLO \u2013 2 | Static Variables",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "Output: Count is: 1  /  Count is: 2  /  Count is: 3",
+    "Justification: count is STATIC, so a single copy is shared by all Counter objects. c1.increment() raises the shared count to 1; c2.increment() raises the SAME variable to 2; c1.increment() raises it to 3. If count were an instance variable, each object would have its own copy and the output would be 1, 1, 2."
+   ]
+  ]
+ ]
+}

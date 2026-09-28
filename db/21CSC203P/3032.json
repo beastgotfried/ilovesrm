@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 3 : SLO \u2013 2 | Synchronization and Inter-Thread Communication",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: The synchronized keyword is used to prevent RACE conditions between threads.",
+    "T/F: A synchronized block can only lock on this object. \u2014 FALSE (it can lock on any object reference)",
+    "MCQ: Method used for thread communication \u2192 A) notify()",
+    "Fill: The wait() method should be called inside a SYNCHRONIZED block or method.",
+    "Find the output: synchronized increment() called 2000 times total across two threads with join \u2192 A) 2000",
+    "T/F: notifyAll() wakes up all threads waiting on the object's monitor. \u2014 TRUE",
+    "MCQ: wait() throws an exception when \u2192 D) Both A and C (called outside synchronized context \u2192 IllegalMonitorStateException; thread interrupted \u2192 InterruptedException)",
+    "Fill: The notify() method wakes up one thread waiting on the OBJECT'S MONITOR.",
+    "Find the error: lock.wait() outside synchronized \u2192 C) IllegalMonitorStateException",
+    "Fill: The synchronized keyword can be applied to methods and BLOCKS."
+   ]
+  ]
+ ]
+}

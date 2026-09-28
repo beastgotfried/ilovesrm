@@ -1,0 +1,15 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 7 : SLO \u2013 2 | Single Inheritance",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "class Vehicle { String brand = \"Honda\"; void honk(){ System.out.println(\"Beep!\"); } }",
+    "class Bike extends Vehicle { int gears = 5; void show(){ System.out.println(brand + \" bike with \" + gears + \" gears\"); } }",
+    "public class Main { public static void main(String[] a){ Bike b = new Bike(); b.honk(); b.show(); } }",
+    "Output: Beep! / Honda bike with 5 gears",
+    "Why single inheritance: Bike extends exactly ONE superclass (Vehicle). There is a single parent-child link, so it is classified as single inheritance \u2014 unlike multiple inheritance (one class, many parents), which Java does not support with classes."
+   ]
+  ]
+ ]
+}

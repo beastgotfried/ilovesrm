@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 10 : SLO \u2013 2 | Database Processing",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) JDBC connection: Connection con = DriverManager.getConnection(\"jdbc:mysql://localhost:3306/mydb\", \"user\", \"pass\"); (after loading the MySQL driver).",
+    "2) INSERT: PreparedStatement ps = con.prepareStatement(\"INSERT INTO student(name, marks) VALUES (?, ?)\"); ps.setString(1, \"Sam\"); ps.setInt(2, 90); ps.executeUpdate();  SELECT: ResultSet rs = con.createStatement().executeQuery(\"SELECT * FROM student\"); while (rs.next()) System.out.println(rs.getString(\"name\") + \" \" + rs.getInt(\"marks\"));",
+    "3) Purpose of PreparedStatement: precompiled SQL \u2192 better performance for repeated execution; parameters via setXxx() prevent SQL injection by separating data from code; also improves readability and handles quoting/escaping automatically."
+   ]
+  ]
+ ]
+}

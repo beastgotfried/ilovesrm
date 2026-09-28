@@ -1,0 +1,16 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 9 : SLO \u2013 1 | Polymorphism Classification",
+ "sections": [
+  [
+   "Activity \u2013 Mystery Boxes (Answers)",
+   [
+    "A. area() in both Circle and Rectangle \u2192 RUN-TIME POLYMORPHISM (if they share a base class/interface and override area(); resolved by object type at run time)",
+    "B. Printer with print(String) and print(int) \u2192 COMPILE-TIME POLYMORPHISM (method overloading \u2014 chosen by argument types at compile time)",
+    "C. Loop printing \"Hello\" five times \u2192 NO POLYMORPHISM (plain iteration)",
+    "D. Subclass overrides speak() from superclass \u2192 RUN-TIME POLYMORPHISM (overriding)",
+    "E. Method that adds two numbers \u2192 NO POLYMORPHISM (ordinary method)",
+    "F. Animal reference pointing to a Dog object calling makeSound() \u2192 RUN-TIME POLYMORPHISM (dynamic dispatch through base reference)"
+   ]
+  ]
+ ]
+}

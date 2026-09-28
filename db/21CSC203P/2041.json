@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 4 : SLO \u2013 1 | Arrays",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) int[] arr = new int[3]; arr[0]=10; arr[3]=20; \u2014 ERROR: valid indices are 0..2; arr[3] throws ArrayIndexOutOfBoundsException. Fix: arr[2] = 20;",
+    "2) matrix[1][2] \u2014 ERROR: matrix is int[2][2], so column indices are 0..1; matrix[1][2] throws ArrayIndexOutOfBoundsException. Fix: System.out.println(matrix[1][1]); // prints 10",
+    "3) cube[1][1][1] = 100; print cube[1][1][1] \u2014 CORRECT: all indices 1 are valid for int[2][2][2]; output: 100."
+   ]
+  ]
+ ]
+}

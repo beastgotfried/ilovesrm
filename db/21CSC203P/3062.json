@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 6 : SLO \u2013 2 | JDBC Connection and Statement",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: The Connection interface is used to establish a CONNECTION (session) with a database.",
+    "T/F: Statement executes SQL queries dynamically compiled at runtime. \u2014 TRUE",
+    "MCQ: Method used to execute a SELECT query using Statement \u2192 B) executeQuery()",
+    "Fill: getConnection() of DriverManager returns a CONNECTION object.",
+    "Find the output: SELECT 'Java' AS lang \u2192 A) Java",
+    "T/F: createStatement() of Connection returns a Statement object. \u2014 TRUE",
+    "MCQ: Method for INSERT/UPDATE/DELETE \u2192 C) executeUpdate()",
+    "Fill: The Statement object must be created from a CONNECTION object before executing queries.",
+    "Identify the error: new Statement() \u2192 B) Statement cannot be instantiated directly",
+    "Fill: To retrieve data from a ResultSet, we typically use the method GETXXX() (e.g., getString()/getInt() with column name or index)."
+   ]
+  ]
+ ]
+}

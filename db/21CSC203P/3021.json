@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 2 : SLO \u2013 1 | Creating Threads by Extending Thread",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: In Java, a class can create a thread by extending the THREAD class.",
+    "T/F: The run() method contains the code that is executed by the thread. \u2014 TRUE",
+    "MCQ: Method used to start a Java thread \u2192 C) start()",
+    "Fill: A Java thread moves to the RUNNABLE state after calling the start() method.",
+    "T/F: The run() method is called directly to create and start a new thread. \u2014 FALSE (start() must be called; run() called directly executes on the current thread)",
+    "MCQ: Keyword used to define a subclass of Thread \u2192 B) extends",
+    "Fill: Calling start() on a Thread object internally calls the RUN() method.",
+    "T/F: A Java program can have multiple threads running at the same time. \u2014 TRUE",
+    "MCQ: Valid way to create a thread \u2192 A) Extend the Thread class",
+    "Fill: The Thread class is part of the java.lang PACKAGE."
+   ]
+  ]
+ ]
+}

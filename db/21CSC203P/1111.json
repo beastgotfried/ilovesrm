@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 11 : SLO \u2013 1 | High-level to Machine Code",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Compile + disassemble: javac Hello.java produces Hello.class; javap -c Hello shows the bytecode, e.g., main: 0: getstatic #2 (System.out)  3: ldc #3 (\"Hello\")  5: invokevirtual #4 (println)  8: return \u2014 mnemonics the JVM executes.",
+    "2) JVM bytecode \u2192 machine code: the interpreter executes bytecode instruction by instruction; the JIT (Just-In-Time) compiler detects hot spots (frequently run code) and compiles them to native machine code, which the CPU then executes directly.",
+    "3) Class loaders: Bootstrap loader loads core JDK classes (java.lang.*) from the runtime; Extension/Platform loader loads extension libraries; Application/System loader loads classes from the application classpath. They work in a delegation hierarchy \u2014 each loader first asks its parent, ensuring core classes cannot be overridden and classes load once."
+   ]
+  ]
+ ]
+}

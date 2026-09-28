@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 3 : SLO \u2013 1 | Thread Life Cycle and Methods",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: The start() method moves a thread to the RUNNABLE state.",
+    "T/F: The sleep() method pauses the thread for a specified time without releasing the lock. \u2014 TRUE",
+    "MCQ: Method that makes the current thread give up the CPU temporarily \u2192 B) yield()",
+    "Fill: A thread enters the TERMINATED (dead) state when its run() method finishes.",
+    "Find the output: t.start(); t.join(); then print \u2014 the child prints 'Hello ' first, join() makes main wait \u2192 A) Hello World",
+    "T/F: A thread can be restarted by calling start() again after it has finished. \u2014 FALSE (throws IllegalThreadStateException)",
+    "MCQ: Can cause a thread to go into the waiting state \u2192 A) join()",
+    "Fill: Calling join() on a thread causes the current thread to WAIT until the joined thread terminates.",
+    "Find the error: calling start() twice \u2192 C) IllegalThreadStateException",
+    "Fill: The method ISALIVE() is used to check if a thread is alive."
+   ]
+  ]
+ ]
+}

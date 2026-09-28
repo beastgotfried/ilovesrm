@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 4 : SLO \u2013 2 | join(), sleep() and yield()",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: The method SLEEP() is used to pause the current thread for a specific duration.",
+    "T/F: Calling join() makes the current thread wait until the other thread terminates. \u2014 TRUE",
+    "MCQ: True about yield() \u2192 C) It gives up the CPU voluntarily for other threads",
+    "Fill: The sleep() method throws INTERRUPTEDEXCEPTION if interrupted while sleeping.",
+    "Find the output: main prints immediately, child sleeps 100ms \u2192 B) Main done / Thread done",
+    "T/F: Calling yield() guarantees that the thread will lose the CPU. \u2014 FALSE (it is only a hint to the scheduler)",
+    "MCQ: Method that makes the current thread wait for another thread to finish \u2192 D) join()",
+    "Fill: The sleep() method is a STATIC method of the Thread class.",
+    "Identify the error: Thread.sleep(1000); without handling \u2192 B) Needs try-catch or throws clause",
+    "Fill: The join() method can be used to control the ORDER (execution sequence) of threads."
+   ]
+  ]
+ ]
+}

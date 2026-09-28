@@ -1,0 +1,17 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 5 : SLO \u2013 1 | Structured Programming Order",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "Correct logical order:",
+    "1. import java.util.Scanner;",
+    "2. Scanner sc = new Scanner(System.in);",
+    "3. System.out.println(\"Enter marks: \");",
+    "4. int marks = sc.nextInt();",
+    "5. if (marks >= 50) { System.out.println(\"Pass\"); }",
+    "6. System.out.println(\"Fail\");   // ideally placed in an else block: else { System.out.println(\"Fail\"); }"
+   ]
+  ]
+ ]
+}

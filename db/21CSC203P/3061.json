@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 6 : SLO \u2013 1 | Connecting to MySQL with JDBC",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: JDBC URL format: jdbc:mysql://<host>:<port>/<DATABASE>.",
+    "T/F: You must include the MySQL JDBC driver JAR in the classpath. \u2014 TRUE",
+    "MCQ: Class used to create a connection \u2192 C) DriverManager",
+    "Fill: Class.forName(\"com.mysql.cj.jdbc.Driver\") loads the MySQL driver explicitly.",
+    "Find the output (server running, credentials correct) \u2192 A) Connection successful",
+    "T/F: getConnection() throws SQLException. \u2014 TRUE",
+    "MCQ: Must be specified in a JDBC URL \u2192 B) Database name",
+    "Fill: A non-default port must be specified in the JDBC URL.",
+    "Identify the error: URL without database \u2192 B) Missing database name",
+    "Fill: getConnection() requires three arguments: URL, USERNAME (user), and password."
+   ]
+  ]
+ ]
+}

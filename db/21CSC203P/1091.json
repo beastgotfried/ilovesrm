@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 9 : SLO \u2013 1 | Functional Programming Concepts",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Pure function with Function<T,R>: java.util.function.Function<Integer,Integer> square = x -> x * x;  System.out.println(square.apply(6)); // 36 \u2014 pure: same input always gives same output, no side effects.",
+    "2) Higher-order function = a function that takes a function as an argument or returns one. Java example: static int applyTwice(IntUnaryOperator f, int v){ return f.applyAsInt(f.applyAsInt(v)); }  applyTwice(x -> x + 1, 5) \u2192 7. Also list.forEach(System.out::println).",
+    "3) Immutability with final: final int x = 10; // x = 20; // compile error \u2014 reassignment forbidden.  final List<String> names = List.of(\"a\",\"b\"); // names.add(\"c\") throws UnsupportedOperationException \u2014 state cannot change after creation, a core functional principle."
+   ]
+  ]
+ ]
+}

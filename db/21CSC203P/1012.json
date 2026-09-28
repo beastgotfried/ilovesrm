@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 1 : SLO \u2013 2 | Language Classification",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Java is BOTH compiled and interpreted (hybrid). The javac compiler translates source code (.java) into platform-independent bytecode (.class); the JVM then interprets this bytecode at run time (with JIT compilation to native machine code for speed). So Java is compiled to bytecode and interpreted/JIT-compiled by the JVM \u2014 this gives portability ('write once, run anywhere').",
+    "2) Simple program: public class Hi { public static void main(String[] a){ System.out.println(\"Hello\"); } } \u2014 Conversion: javac Hi.java compiles the source into Hi.class containing bytecode instructions (e.g., getstatic, ldc, invokevirtual). The JVM's class loader loads Hi.class, the bytecode verifier checks it, and the interpreter/JIT executes it as machine code.",
+    "3) Low-level vs high-level: Low-level languages (machine code, assembly) are close to hardware \u2014 one instruction maps to one machine operation, fast but hard to write and not portable. High-level languages (Java, Python, C++) use English-like abstractions, are portable and easier to read/write, and require a compiler/interpreter to translate them into machine code."
+   ]
+  ]
+ ]
+}

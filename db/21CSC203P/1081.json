@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 8 : SLO \u2013 1 | Understand Concurrency",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) A thread is the smallest unit of execution within a program \u2014 a lightweight path through code. A process is an independent program instance with its own memory space; threads share the process's memory (heap) but have their own stack and program counter, making inter-thread communication cheap but inter-process communication expensive.",
+    "2) Concurrency issues in shared memory: race conditions (two threads updating a balance simultaneously \u2192 lost updates), deadlocks (threads holding locks and waiting on each other), starvation, and visibility problems (stale cached values) \u2014 fixed with synchronized blocks, locks, and volatile variables.",
+    "3) Thread lifecycle: NEW (created, not started) \u2192 RUNNABLE (start() called, ready/running) \u2192 BLOCKED/WAITING/TIMED_WAITING (waiting for a lock, wait(), or sleep(ms)) \u2192 TERMINATED (run() completes). Example: Thread t = new Thread(() -> { try{ Thread.sleep(100);}catch(Exception e){} System.out.println(\"done\"); }); t.start(); \u2014 t moves NEW \u2192 RUNNABLE \u2192 TIMED_WAITING \u2192 TERMINATED."
+   ]
+  ]
+ ]
+}

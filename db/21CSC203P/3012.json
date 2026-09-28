@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 1 : SLO \u2013 2 | Multithreading vs Multitasking",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: Multithreading involves multiple THREADS running within a single process.",
+    "T/F: Multitasking refers to a system running multiple processes simultaneously. \u2014 TRUE",
+    "MCQ: Best represents multitasking \u2192 B) Running a web browser and a text editor at the same time",
+    "Fill: In multitasking, each PROCESS has its own memory space.",
+    "T/F: Multithreading consumes more system resources compared to multitasking. \u2014 FALSE (threads share memory and are lighter)",
+    "MCQ: Generally faster in terms of context switching \u2192 A) Multithreading",
+    "Fill: Multithreading is useful for tasks that need to run CONCURRENTLY (in parallel) within the same application.",
+    "T/F: In multitasking, processes are isolated from each other. \u2014 TRUE",
+    "MCQ: Typically shares memory space between its units \u2192 A) Multithreading",
+    "Fill: Multitasking is often managed by the OPERATING SYSTEM (OS)."
+   ]
+  ]
+ ]
+}

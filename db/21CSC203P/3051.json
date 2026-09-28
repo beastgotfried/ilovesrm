@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 5 : SLO \u2013 1 | Declarative Programming in Databases",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: In declarative programming, the focus is on WHAT (the result) rather than how the task is performed.",
+    "T/F: SQL is an example of a declarative programming language used in databases. \u2014 TRUE",
+    "MCQ: Best represents a declarative SQL statement \u2192 B) SELECT name FROM students WHERE grade > 90;",
+    "Fill: Declarative programming abstracts away the MECHANISM (control flow/details) of data access.",
+    "SQL Task: grade > 90 on Alice(85), Bob(92), Clara(88) \u2192 B) Bob",
+    "T/F: In declarative programming, the database engine determines the most efficient way to execute a query. \u2014 TRUE",
+    "MCQ: NOT a feature of declarative programming in databases \u2192 C) Explicit control flow",
+    "Fill: The WHERE clause in SQL is used to FILTER records in declarative queries.",
+    "Identify the error: grade => 90 \u2192 C) Invalid operator (>= is correct)",
+    "Fill: Declarative programming helps developers express logic of computation without describing its CONTROL FLOW (how it is done)."
+   ]
+  ]
+ ]
+}

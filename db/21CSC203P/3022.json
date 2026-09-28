@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 2 : SLO \u2013 2 | Creating Threads with Runnable",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: In Java, a class implements the RUNNABLE interface to create a thread using Runnable.",
+    "T/F: The run() method must be defined when implementing Runnable. \u2014 TRUE",
+    "MCQ: Correct way to create a thread using Runnable \u2192 A) new Thread(new MyRunnable()).start();",
+    "Fill: The Runnable interface belongs to the java.lang PACKAGE.",
+    "T/F: Runnable can be used to create multiple threads sharing the same task. \u2014 TRUE",
+    "MCQ: Keyword used when a class uses the Runnable interface \u2192 B) implements",
+    "Fill: The run() method of a Runnable object is invoked by the THREAD class.",
+    "T/F: Runnable allows better separation of thread creation and task definition. \u2014 TRUE",
+    "MCQ: Advantage of Runnable over extending Thread \u2192 B) Allows sharing the same task between threads",
+    "Fill: A thread is started by calling the START() method on the Thread object."
+   ]
+  ]
+ ]
+}

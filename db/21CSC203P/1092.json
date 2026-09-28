@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 9 : SLO \u2013 2 | Lambda and Stream API",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Filter + print: List<Integer> nums = List.of(1,2,3,4,5,6);  nums.stream().filter(n -> n % 2 == 0).forEach(System.out::println); \u2014 prints 2, 4, 6.",
+    "2) Lambda comparing two integers: (a, b) -> Integer.compare(a, b)  used as Comparator<Integer> cmp = (a, b) -> a - b;  or BiFunction<Integer,Integer,Integer> max = (a,b) -> a > b ? a : b;",
+    "3) Chained map/filter/collect: List<String> r = List.of(\"apple\",\"bat\",\"cherry\",\"dog\").stream().filter(s -> s.length() > 3).map(String::toUpperCase).collect(Collectors.toList()); \u2014 result: [APPLE, CHERRY]."
+   ]
+  ]
+ ]
+}

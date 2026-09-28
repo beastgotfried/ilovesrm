@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 10 : SLO \u2013 2 | Dynamic Method Dispatch",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "Output: Dog barks  /  Cat meows",
+    "Concept: run-time polymorphism (dynamic method dispatch) \u2014 an overridden method called through a superclass reference.",
+    "Why the subclass method runs: the JVM resolves the call based on the actual OBJECT type (Dog, then Cat), not the reference type (Animal). At run time the object's virtual method table points to the overridden sound(), so Dog.sound() and Cat.sound() execute \u2014 this is dynamic binding."
+   ]
+  ]
+ ]
+}

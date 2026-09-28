@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 7 : SLO \u2013 1 | OOP Principles",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Encapsulation + inheritance: class Person { private String name; public void setName(String n){ name=n; } public String getName(){ return name; } }  class Student extends Person { int roll; } \u2014 private field with public accessors = encapsulation; Student inherits Person's members = inheritance.",
+    "2) Abstraction with abstract class: abstract class Shape { abstract double area(); }  class Square extends Shape { double s; Square(double s){this.s=s;} double area(){ return s*s; } } \u2014 Shape cannot be instantiated; subclasses implement the abstract method.",
+    "3) Polymorphism via overriding: class Animal { void sound(){ System.out.println(\"some sound\"); } }  class Dog extends Animal { @Override void sound(){ System.out.println(\"bark\"); } }  Animal a = new Dog(); a.sound(); \u2192 prints 'bark' (run-time polymorphism)."
+   ]
+  ]
+ ]
+}

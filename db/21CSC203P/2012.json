@@ -1,0 +1,18 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 1 : SLO \u2013 2 | Constructors",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "class Animal { String name; String species; int age;",
+    "  Animal(String name, String species, int age) { this.name = name; this.species = species; this.age = age; }",
+    "  void display() { System.out.println(name + \" is a \" + species + \", age \" + age); } }",
+    "public class Main { public static void main(String[] args) {",
+    "  Animal a1 = new Animal(\"Leo\", \"Lion\", 5);",
+    "  Animal a2 = new Animal(\"Momo\", \"Cat\", 2);",
+    "  a1.display(); a2.display(); } }",
+    "Output: Leo is a Lion, age 5  /  Momo is a Cat, age 2"
+   ]
+  ]
+ ]
+}

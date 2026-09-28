@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 5 : SLO \u2013 1 | Classify Paradigms",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Classification: Java \u2192 imperative, object-oriented (with functional features). Prolog \u2192 declarative, logic programming. SQL \u2192 declarative, database/query. Python \u2192 multi-paradigm: imperative, object-oriented, functional.",
+    "2) Feature table \u2014 Imperative: explicit steps & state changes (Java loops, Python). Declarative: describes what, not how (SQL SELECT). Logic: facts + rules + inference (Prolog parent/ancestor rules). Functional: pure functions, immutability, higher-order functions (Java streams, Python map/lambda).",
+    "3) Hierarchical relationship: Programming paradigms divide into Imperative (how: procedural, object-oriented, parallel) and Declarative (what: functional, logic, database/query). Each sub-paradigm refines the parent style \u2014 e.g., OOP is imperative with encapsulated state; logic and functional are declarative specializations."
+   ]
+  ]
+ ]
+}

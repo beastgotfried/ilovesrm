@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 2 : SLO \u2013 1 | Language Theory Concepts",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Type checking verifies that operations are applied to compatible types. STATIC typing (Java): types are checked at compile time \u2014 int x = 5; x = \"hi\"; fails to compile. DYNAMIC typing (e.g., Python): types are checked at run time \u2014 x = 5; x = \"hi\" is legal. Java demo: String s = \"abc\"; int n = s.length(); // OK (length() returns int);  int n2 = s; // compile-time type error.",
+    "2) Variable scope demo: public class Scope { static int g = 10; // class scope  public static void main(String[] a){ int x = 5; // method scope  if (x > 0) { int y = 2; // block scope  System.out.println(x + y + g); } /* y not visible here */ } }",
+    "3) Binding time vs run time: Binding time is when an association (name\u2192type, variable\u2192value, method\u2192body) is made \u2014 e.g., 'int x' binds x to type int at compile time; static methods bind at compile time. Run time is when the program executes \u2014 dynamic (polymorphic) method calls bind to the actual method body at run time. Example: Animal a = new Dog(); a.sound(); \u2014 the reference type binds at compile time, but which sound() runs is decided at run time."
+   ]
+  ]
+ ]
+}

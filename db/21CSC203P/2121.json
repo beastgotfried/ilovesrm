@@ -1,0 +1,15 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 12 : SLO \u2013 1 | User-Defined Packages",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "// file mathutils/Adder.java:  package mathutils;  public class Adder { public int add(int a, int b){ return a + b; } }",
+    "// file mathutils/Multiplier.java:  package mathutils;  public class Multiplier { public int multiply(int a, int b){ return a * b; } }",
+    "// file Main.java:  import mathutils.Adder;  import mathutils.Multiplier;",
+    "public class Main { public static void main(String[] args){ Adder a = new Adder(); Multiplier m = new Multiplier(); System.out.println(a.add(4, 3)); System.out.println(m.multiply(4, 3)); } }",
+    "Output: 7  /  12"
+   ]
+  ]
+ ]
+}

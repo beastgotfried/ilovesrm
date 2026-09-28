@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 5 : SLO \u2013 2 | Compare Paradigms",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) OOP vs functional in Java \u2014 OOP: objects carry mutable state and behavior; class Counter { int n=0; void inc(){ n++; } }. Functional: stateless pure transformations; IntUnaryOperator inc = n -> n + 1; list.stream().map(inc).forEach(...). OOP emphasizes encapsulation and identity; functional emphasizes immutability and composition.",
+    "2) Same problem (sum of even numbers) \u2014 Procedural: int s=0; for(int x: arr) if(x%2==0) s+=x; OO/functional style: int s = Arrays.stream(arr).filter(x -> x%2==0).sum(); \u2014 the first states how step-by-step; the second declares what to compute.",
+    "3) Declarative strengths: concise, readable, closer to problem domain, easier parallelization. Weaknesses: less control over performance, harder debugging of hidden control flow. Imperative strengths: full control, predictable performance, maps to hardware. Weaknesses: verbose, error-prone state management."
+   ]
+  ]
+ ]
+}

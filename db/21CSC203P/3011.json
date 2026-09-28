@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 1 : SLO \u2013 1 | Introduction to Concurrent Programming",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: In concurrent programming, multiple THREADS (tasks) can be executed in overlapping time periods.",
+    "T/F: A thread is a lightweight process used in concurrent programming. \u2014 TRUE",
+    "MCQ: Commonly used for managing concurrency \u2192 A) Semaphore",
+    "Fill: A DEADLOCK condition occurs when two or more threads wait for each other indefinitely.",
+    "T/F: Context switching allows a single processor to execute multiple threads by rapidly switching between them. \u2014 TRUE",
+    "MCQ: Mechanism used to protect shared data \u2192 A) Mutex",
+    "Fill: RACE CONDITION is the term when two threads access shared data at the same time, leading to unpredictable results.",
+    "T/F: Concurrent programming is only possible on multi-core processors. \u2014 FALSE (possible on a single core via context switching)",
+    "MCQ: Example of a synchronization mechanism \u2192 A) Condition variable",
+    "Fill: A MUTEX (lock) ensures that only one thread accesses a critical section at a time."
+   ]
+  ]
+ ]
+}

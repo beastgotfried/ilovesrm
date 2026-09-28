@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 12 : SLO \u2013 2 | Using Packages",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "Snippet A: prints a random integer between 0 and 9 (inclusive) \u2014 e.g., 7; the exact value varies per run because rand.nextInt(10) is random.",
+    "Snippet B: prints 25 \u2014 c.square(5) computes 5 \u00d7 5 from the user-defined mymath.Calculator class.",
+    "Snippet C: prints the current date in ISO format (yyyy-MM-dd) \u2014 e.g., 2025-09-21, whatever LocalDate.now() returns on the day it runs."
+   ]
+  ]
+ ]
+}

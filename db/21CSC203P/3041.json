@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 3 : Session \u2013 4 : SLO \u2013 1 | Thread Priority and Daemon Threads",
+ "sections": [
+  [
+   "Worksheet (Answers)",
+   [
+    "Fill: The default priority of a thread in Java is 5 (Thread.NORM_PRIORITY).",
+    "T/F: Daemon threads continue running even after all user threads have finished. \u2014 FALSE (the JVM exits when only daemon threads remain)",
+    "MCQ: Method used to set the priority \u2192 C) setPriority()",
+    "Fill: The priority range for threads in Java is from 1 to 10.",
+    "Find the output: setDaemon(true) before start(), print isDaemon() \u2192 A) true",
+    "T/F: Calling setDaemon(true) after start() will throw an exception. \u2014 TRUE (IllegalThreadStateException)",
+    "MCQ: Thread type used for background services like garbage collection \u2192 C) Daemon thread",
+    "Fill: The method ISDAEMON() returns whether a thread is a daemon.",
+    "Identify the error: setDaemon(true) after start() \u2192 C) IllegalThreadStateException",
+    "Fill: Threads with higher priority are MORE likely to be scheduled before lower priority threads."
+   ]
+  ]
+ ]
+}

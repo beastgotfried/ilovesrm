@@ -1,0 +1,20 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 11 : SLO \u2013 2 | Interface Inheritance",
+ "sections": [
+  [
+   "Activity (Solution)",
+   [
+    "Fixed code:",
+    "interface Animal { void eat(); }   // added missing semicolon/brace fix",
+    "interface Pet extends Animal { void play(); }",
+    "class Cat implements Pet {",
+    "  public void eat() { System.out.println(\"Cat is eating.\"); }",
+    "  public void play() { System.out.println(\"Cat is playing.\"); }   // missing method added",
+    "}",
+    "public class TestPet { public static void main(String[] args){ Cat c = new Cat(); c.eat(); c.play(); } }",
+    "Output: Cat is eating. / Cat is playing.",
+    "Explanation: since Pet extends Animal, Pet inherits the eat() declaration; any class implementing Pet must implement BOTH eat() and play() \u2014 interface inheritance expands the contract the implementing class must fulfill."
+   ]
+  ]
+ ]
+}

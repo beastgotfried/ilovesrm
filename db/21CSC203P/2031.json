@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 3 : SLO \u2013 1 | Switch Statements",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Menu: switch (option) { case 1: System.out.println(\"New File\"); break; case 2: System.out.println(\"Open File\"); break; case 3: System.out.println(\"Save File\"); break; default: System.out.println(\"Invalid Option\"); }  \u2192 prints Open File.",
+    "2) Grade: switch (grade) { case 'A': System.out.println(\"Excellent\"); break; case 'B': System.out.println(\"Good\"); break; case 'C': System.out.println(\"Average\"); break; default: System.out.println(\"Fail\"); }  \u2192 prints Good.",
+    "3) Day: switch (day) { case 1: System.out.println(\"Monday\"); break; case 2: System.out.println(\"Tuesday\"); break; case 3: System.out.println(\"Wednesday\"); break; case 4: System.out.println(\"Thursday\"); break; case 5: System.out.println(\"Friday\"); break; default: System.out.println(\"Invalid Day\"); }  \u2192 prints Friday."
+   ]
+  ]
+ ]
+}

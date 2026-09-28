@@ -1,0 +1,13 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 10 : SLO \u2013 1 | Logic Programming Simulation",
+ "sections": [
+  [
+   "Activity (Solutions)",
+   [
+    "1) Expert-system rule in Java: int age = 20;  if (age > 18) System.out.println(\"Eligible to vote\"); else System.out.println(\"Not eligible\"); \u2014 mimics the Prolog rule eligible(X) :- age(X,A), A > 18.",
+    "2) Decision rules \u2192 conditions: rule 'discount if member AND purchase > 1000' \u2192 boolean discount = isMember && amount > 1000;  rule 'alarm if temp > 40 or smoke detected' \u2192 if (temp > 40 || smoke) alarm();",
+    "3) Rule-based quiz app design: class Quiz { String question; Map<Character,String> options; char key; boolean check(char ans){ return ans == key; } } \u2014 each question object stores its rule (correct key); the engine asks, reads input, applies the rule check(), and scores: score += q.check(ans) ? 1 : 0."
+   ]
+  ]
+ ]
+}
