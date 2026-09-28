@@ -1,0 +1,49 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 6 : SLO \u2013 2 | Binary Arithmetic \u2013 Multiplication and Division",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. Binary Multiplication \u2192 B. Use 0/1 multiplication and shifting",
+    "2. Binary Division \u2192 A. Repeated subtraction and shifting",
+    "3. Multiplying by 0 \u2192 C. Always gives 0",
+    "4. Multiplying by 1 \u2192 D. Gives the same number",
+    "5. Shift Left \u2192 E. Equivalent to multiplying by 2"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "Binary multiplication uses only two operations: AND and SHIFT LEFT.",
+    "Division in binary uses repeated SUBTRACTION with right shifts.",
+    "Shifting left by one bit is equal to MULTIPLYING by 2.",
+    "Shifting right by one bit is equal to DIVIDING by 2.",
+    "If divisor is greater than the dividend, the quotient is 0 and the remainder is the DIVIDEND."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task (Binary Multiplication)",
+   [
+    "(a) 1011 \u00d7 0101: partial products 1011 (\u00d71), 0000 (\u00d70), 1011 shifted 2 (\u00d71), 0000 shifted 3 (\u00d70); sum = 0110111. Answer: 1011 \u00d7 0101 = 0110111 (= 11 \u00d7 5 = 55).",
+    "(b) 1101 \u00d7 0011: partial products 1101 (\u00d71), 1101 shifted 1 (\u00d71), 0000, 0000; sum = 100111. Note: 1101 \u00d7 0011 = 13 \u00d7 3 = 39 = 0100111; adding shifted partial products 1101 + 11010 = 100111 \u2192 Answer: 1101 \u00d7 0011 = 100111."
+   ]
+  ],
+  [
+   "Section D \u2013 Activity Task (Binary Division)",
+   [
+    "(a) 10110 \u00f7 101: 101 goes into 1011 once (quotient bit 1), remainder 0110 brings down; 101 > 011 \u2192 quotient bit 0; final: Quotient = 100, Remainder = 10. Check: 10110\u2082 = 22, 101\u2082 = 5 \u2192 22 = 5\u00d74 + 2, so Quotient = 100 (4), Remainder = 010 (2).",
+    "(b) 11001 \u00f7 11: 11 into 110 twice (11), 11001 = 25, 11\u2082 = 3 \u2192 25 = 3\u00d78 + 1, so Quotient = 1000 (8), Remainder = 1. Long division: 11 into 110 \u2192 1 (rem 0), bring 0 \u2192 00 < 11 \u2192 0, bring 1 \u2192 001 < 11 \u2192 0, final remainder 1 \u2192 Quotient = 1000, Remainder = 001."
+   ]
+  ],
+  [
+   "Section E \u2013 True or False",
+   [
+    "Binary multiplication uses only 0, 1 and shifting. \u2014 TRUE",
+    "Division by shifting right is exact for any binary number. \u2014 FALSE (exact only when no 1-bits are shifted out, e.g. even numbers)",
+    "In binary multiplication, multiplying by 1 leaves the number unchanged. \u2014 TRUE",
+    "In binary division, if the divisor is bigger than the partial dividend, a 0 is placed in the quotient. \u2014 TRUE",
+    "Shifting left by two positions multiplies the number by 4. \u2014 TRUE"
+   ]
+  ]
+ ]
+}

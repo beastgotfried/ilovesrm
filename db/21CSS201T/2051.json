@@ -1,0 +1,43 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 5 : SLO \u2013 1 | Memory Locations and Addresses",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. Word Length \u2192 D. Number of bits grouped and accessed together",
+    "2. Byte \u2192 C. A group of 8 bits",
+    "3. Main Memory \u2192 A. Collection of storage locations with unique identifiers",
+    "4. Address \u2192 E. Unique identifier for a word in memory",
+    "5. Address Space \u2192 B. Minimum number of bits needed to represent all memory locations"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "The term BYTE refers to a group of 8 bits.",
+    "A word of 16 bits is commonly referred to as a HALF word.",
+    "The total number of uniquely identifiable locations in memory is called the ADDRESS SPACE.",
+    "Each storage location in memory has a unique identifier called an ADDRESS.",
+    "To access 32 MB of memory byte-wise, we need 25 bits for addressing (32 MB = 2^25 bytes)."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task",
+   [
+    "Task 1a: 64 MB memory, word = 4 bytes \u2192 number of words = 64M/4 = 16M = 2^24 \u2192 24 bits are needed to address a word.",
+    "Task 1b: 1 GB memory, word = 8 bytes \u2192 number of words = 2^30 / 2^3 = 2^27 \u2192 27 bits are required to address each word.",
+    "Task 2 \u2013 Memory layout (described): a column of words from address 0 (first word) to 2^k \u2013 1 (last word); each row is one n-bit word; the i-th word sits at address i; addresses label the rows, the n-bit contents are the data."
+   ]
+  ],
+  [
+   "Section D \u2013 True or False",
+   [
+    "A byte is made up of 16 bits. \u2014 FALSE (8 bits)",
+    "Memory addresses are expressed using unsigned binary numbers. \u2014 TRUE",
+    "The main memory stores data in single bits only. \u2014 FALSE",
+    "The term 'address space' refers to the number of address lines available. \u2014 FALSE",
+    "In computer hardware, names are used to identify memory locations. \u2014 FALSE (binary addresses are used)"
+   ]
+  ]
+ ]
+}

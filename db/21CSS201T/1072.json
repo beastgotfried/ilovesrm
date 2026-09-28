@@ -1,0 +1,30 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 7 : SLO \u2013 2  |  BCD addition",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. BCD \u2014 b) Binary representation of decimal digits",
+    "2. Correction rule \u2014 a) Add 0110 (6) if sum > 9",
+    "3. 1001 (BCD) + 0001 (BCD) \u2014 c) 1010 (Invalid BCD)",
+    "4. Valid BCD digit range \u2014 d) 0000 to 1001",
+    "5. Decimal 25 in BCD \u2014 e) 0010 0101"
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. Binary Coded Decimal  2. 4  3. 0000 to 1001 (0\u20139)",
+    "4. add 0110 (6)  5. 0001 0000 (i.e. decimal 10: 1010 \u2192 +0110 \u2192 0000 with carry 1)"
+   ]
+  ],
+  [
+   "III. Activity Question \u2014 BCD addition of 0101 (5) and 0111 (7)",
+   [
+    "Steps of BCD addition: (i) add the two 4-bit codes as plain binary; (ii) if the sum exceeds 1001 (9) or produces a carry, add the correction factor 0110; (iii) any carry out becomes the next higher BCD digit (0001).",
+    "Perform: 0101 + 0111 = 1100 (12 \u2014 invalid BCD). Correction: 1100 + 0110 = 1 0010.",
+    "Result: carry 1 to the tens digit and 0010 in the units digit \u2192 0001 0010 = 12 in BCD. (5 + 7 = 12 \u2713)"
+   ]
+  ]
+ ]
+}

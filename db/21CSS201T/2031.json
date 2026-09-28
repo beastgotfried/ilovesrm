@@ -1,0 +1,43 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 3 : SLO \u2013 1 | Bus structures and its types",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. Data Bus \u2192 B. Transfers data between components",
+    "2. Address Bus \u2192 C. Transfers address information",
+    "3. Control Bus \u2192 A. Transfers control signals",
+    "4. CPU \u2192 D. Executes instructions and manages data flow",
+    "5. Single Bus Structure \u2192 E. One shared line for all devices"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "A BUS (single bus) connects CPU, memory, and I/O devices through a common communication line.",
+    "In a bus system, the ADDRESS BUS is responsible for transferring address information.",
+    "The CONTROL bus is used to carry control signals such as read or write commands.",
+    "A SINGLE bus system allows only one device to use the bus at any given time.",
+    "One of the disadvantages of a single bus structure is BUS CONTENTION (slower communication due to sharing), which can degrade performance."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task",
+   [
+    "Single Bus Structure (described): CPU, Memory and I/O devices all connected to one shared bus, which logically consists of the Data Bus, Address Bus and Control Bus lines.",
+    "Why only one device at a time: all units share the same set of lines; if two devices drove the bus simultaneously their signals would clash, so an arbiter/the CPU grants the bus to one transfer at a time.",
+    "Effect on performance: transfers are serialized \u2014 only one data movement can occur per bus cycle, creating a bottleneck; however the design is simple and low-cost."
+   ]
+  ],
+  [
+   "Section D \u2013 True or False",
+   [
+    "The data bus transfers control signals. \u2014 FALSE",
+    "A single bus structure is more cost-effective than a multiple bus structure. \u2014 TRUE",
+    "In a single bus system, multiple devices can simultaneously communicate using the bus. \u2014 FALSE",
+    "The CPU manages and controls the flow of data in a bus system. \u2014 TRUE",
+    "A fault in the bus line can cause the entire system to fail. \u2014 TRUE"
+   ]
+  ]
+ ]
+}

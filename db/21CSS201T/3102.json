@@ -1,0 +1,19 @@
+{
+ "title": "Unit 3 : Session 10 : SLO 2 \u2014 Tutorial: Non-Restoring Division",
+ "sections": [
+  [
+   "Problem 2: Non-Restoring Division of 0101 (5) \u00f7 0010 (2)",
+   [
+    "Init: A = 0000, Q = 0101, M = 0010",
+    "Step 1: shift (A,Q) \u2192 A = 0000, Q = 1010; A \u2265 0 \u2192 A = A - M = 1110 (< 0), Q0 = 0 \u2192 A = 1110, Q = 1010",
+    "Step 2: shift \u2192 A = 1101, Q = 0100; A < 0 \u2192 A = A + M = 1101 + 0010 = 1111 (< 0), Q0 = 0 \u2192 A = 1111, Q = 0100",
+    "Step 3: shift \u2192 A = 1110, Q = 1000; A < 0 \u2192 A = A + M = 1110 + 0010 = 0000 (\u2265 0), Q0 = 1 \u2192 A = 0000, Q = 1001",
+    "Step 4: shift \u2192 A = 0001, Q = 0010; A \u2265 0 \u2192 A = A - M = 0001 - 0010 = 1111 (< 0), Q0 = 0 \u2192 A = 1111, Q = 0010",
+    "Final correction: A < 0 \u2192 A = A + M = 1111 + 0010 = 0001",
+    "Final Quotient = Q = 0010 (binary) = 2 (decimal)",
+    "Final Remainder = A = 0001 (binary) = 1 (decimal)",
+    "Verification: 5 \u00f7 2 = 2 remainder 1 \u2713"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 7 : SLO \u2013 1 | Representation of decimal numbers in BCD format",
+ "sections": [
+  [
+   "Match the Following (Answers)",
+   [
+    "A. 9 \u2192 4. 1001",
+    "B. 15 \u2192 1. 0001 0101",
+    "C. 28 \u2192 5. 0010 1000",
+    "D. 76 \u2192 3. 0111 0110",
+    "E. 100 \u2192 2. 0001 0000 0000"
+   ]
+  ],
+  [
+   "Fill in the Blanks",
+   [
+    "In BCD, each decimal digit is represented using 4 bits.",
+    "The BCD of the decimal number 12 is 0001 0010.",
+    "BCD stands for BINARY CODED DECIMAL.",
+    "In BCD, the decimal number 99 is written as 1001 1001.",
+    "BCD encoding is mainly used in DIGITAL DISPLAY devices like calculators and digital clocks."
+   ]
+  ],
+  [
+   "Activity Task \u2013 Convert and Create",
+   [
+    "Birthdate (DDMM, sample 1508): 1 \u2192 0001, 5 \u2192 0101, 0 \u2192 0000, 8 \u2192 1000.",
+    "BCD of 1508 = 0001 0101 0000 1000.",
+    "Method: convert each decimal digit separately into its 4-bit binary equivalent and concatenate the groups \u2014 this is what distinguishes BCD from straight binary (1508 in pure binary would be 10111100100)."
+   ]
+  ]
+ ]
+}

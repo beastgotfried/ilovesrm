@@ -1,0 +1,46 @@
+{
+ "title": "Unit 3 : Session 6 : SLO 1 \u2014 Array Multiplier and Wallace Tree Multiplier",
+ "sections": [
+  [
+   "1. Label the Diagram (Remembering) \u2014 2\u00d72 array multiplier",
+   [
+    "Inputs: A0, A1, B0, B1",
+    "Four AND gates produce the partial-product bits A0B0, A1B0, A0B1, A1B1.",
+    "One Half Adder and one Full Adder combine the partial products.",
+    "Outputs: Product bits P0, P1, P2, P3."
+   ]
+  ],
+  [
+   "2. Match the Concepts (Understanding)",
+   [
+    "1. Array Multiplier \u2192 b. Uses a systematic arrangement of adders to sum partial products",
+    "2. Wallace Tree Multiplier \u2192 c. Uses a tree-like structure of adders to sum partial products in parallel",
+    "3. Booth's Algorithm \u2192 a. Reduces the number of partial products by grouping multiplier bits"
+   ]
+  ],
+  [
+   "3. Step-by-Step Process (Applying): A = 11 (3) \u00d7 B = 10 (2)",
+   [
+    "Step 1 \u2014 partial products: PP1 = A \u00d7 B0 = 11 \u00d7 0 = 00;  PP2 = A \u00d7 B1 = 11 \u00d7 1 = 11",
+    "Step 2 \u2014 add the shifted partial products:   00 + 110 (PP2 shifted left by one) = 0110",
+    "Final binary product P3P2P1P0 = 0110 = 6 in decimal (3 \u00d7 2 = 6 \u2713)"
+   ]
+  ],
+  [
+   "4. Compare and Contrast (Analyzing)",
+   [
+    "Structure \u2014 Array: regular and systematic | Wallace Tree: irregular tree-like structure",
+    "Speed (delay) \u2014 Array: slower, delay depends on array depth | Wallace Tree: faster, logarithmic delay due to parallel summation",
+    "Hardware complexity \u2014 Array: simpler and more regular | Wallace Tree: more complex and irregular",
+    "Primary advantage \u2014 Array: simple, regular layout, easy to design and expand | Wallace Tree: higher speed"
+   ]
+  ],
+  [
+   "5. Design a Concept (Creating)",
+   [
+    "Choice: the Wallace Tree Multiplier.",
+    "Reasoning: the requirement is the fastest possible multiplier for real-time signal processing. The Wallace tree sums partial products in parallel using a tree of carry-save adders, which reduces the delay dramatically compared with the sequential ripple additions of an array multiplier. Although more complex, its superior speed and low latency make it ideal for performance-critical applications."
+   ]
+  ]
+ ]
+}

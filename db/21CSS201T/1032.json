@@ -1,0 +1,61 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 3 : SLO \u2013 2  |  ASCII and parity codes",
+ "sections": [
+  [
+   "MCQs",
+   [
+    "1. b \u2014 7",
+    "2. b \u2014 65\u201390",
+    "3. c \u2014 Detect errors",
+    "4. b \u2014 0\u201331 and 127",
+    "5. d \u2014 Even parity"
+   ]
+  ],
+  [
+   "Two-Mark Questions",
+   [
+    "1. ASCII (American Standard Code for Information Interchange) is a 7-bit code assigning a unique number to each letter, digit and control symbol. It lets any two digital systems exchange text unambiguously, forming the basis of digital communication.",
+    "2. Even parity adds a bit so the TOTAL number of 1s (including parity) is even; odd parity makes the total odd. Both detect a single-bit error; they differ only in the target parity convention."
+   ]
+  ],
+  [
+   "Scenario-Based Long Answer",
+   [
+    "Encoding: each character of the message is converted to its 7-bit ASCII code; a parity bit is computed and appended (MSB) to form an 8-bit frame; frames are transmitted over the noisy link.",
+    "Verification: the receiver recounts the 1s in each received frame; if the parity does not match the agreed convention, the frame is flagged as erroneous and retransmission is requested.",
+    "Example (even parity): letter 'A' = 65 = 1000001 (two 1s \u2014 already even) \u2192 parity bit 0 \u2192 sent as 01000001. If noise flips one bit to 01000011 (three 1s \u2014 odd), the receiver detects the parity violation and rejects the frame."
+   ]
+  ],
+  [
+   "Match the Following",
+   [
+    "ASCII \u2014 a) 7-bit code system",
+    "Control characters \u2014 b) Range 0\u201331, 127",
+    "Special characters \u2014 c) Used for punctuation",
+    "Even parity \u2014 d) Total 1s made even",
+    "Parity bit \u2014 e) Detects single-bit error"
+   ]
+  ],
+  [
+   "Fill in the Blanks",
+   [
+    "1. American Standard Code for Information Interchange  2. 65  3. odd  4. error  5. 7"
+   ]
+  ],
+  [
+   "Scenario-Based Small Activity",
+   [
+    "'B' = ASCII 66. 7-bit binary: 66 = 64 + 2 \u2192 1000010.",
+    "Count of 1s in 1000010 = 2 (already even), so the even-parity bit = 0.",
+    "Final 8-bit code with parity as MSB: 0 1000010 = 01000010."
+   ]
+  ],
+  [
+   "True or False",
+   [
+    "1. TRUE  2. TRUE  3. FALSE \u2014 Even parity makes the count even.",
+    "4. FALSE \u2014 Parity only detects single-bit errors; it cannot correct, nor detect all multi-bit errors.  5. TRUE"
+   ]
+  ]
+ ]
+}

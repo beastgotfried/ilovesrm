@@ -1,0 +1,59 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 2 : SLO \u2013 2  |  BCD, Gray code, Excess-3",
+ "sections": [
+  [
+   "Multiple Choice Questions",
+   [
+    "1. c \u2014 0110 (add 6 correction)",
+    "2. c \u2014 Copy the first bit",
+    "3. c \u2014 1011 (decimal 11 is not a valid BCD digit)",
+    "4. c \u2014 Better for analog-to-digital conversion (only one bit changes between consecutive values)",
+    "5. b \u2014 Handling sums greater than 9 in BCD"
+   ]
+  ],
+  [
+   "Two-Mark Questions",
+   [
+    "1. BCD (Binary-Coded Decimal) represents each decimal digit 0\u20139 with its own 4-bit binary code (8421 weighted). Application: digital clocks/calculators and financial systems where exact decimal display is needed.",
+    "2. Gray to binary (5-bit): (i) Copy the MSB of Gray as MSB of binary. (ii) Each next binary bit = previous BINARY bit XOR current Gray bit. (iii) Repeat left to right for all 5 bits."
+   ]
+  ],
+  [
+   "Scenario-Based Long Answer",
+   [
+    "Correction rule: after adding two BCD digits, if the 4-bit result is greater than 1001 (9) or a carry is generated, add 0110 (6) to that digit and propagate the carry to the next higher digit.",
+    "Example: 9 + 3: 1001 + 0011 = 1100 (12, invalid BCD). Add 0110 \u2192 1100 + 0110 = 1 0010. Result: 0010 in the units digit and a carry of 1 to the tens digit, i.e. 0001 0010 = 12 in BCD. The clock's display logic applies this per digit so every digit stays a valid 0\u20139 code."
+   ]
+  ],
+  [
+   "Match the Following",
+   [
+    "BCD \u2014 a) 8,4,2,1 weighted code",
+    "Excess-3 \u2014 b) Non-weighted, self-complementary code",
+    "Gray Code \u2014 c) Used for minimizing errors in A/D conversion",
+    "Invalid BCD Code \u2014 d) 1011",
+    "Binary to Gray Conversion \u2014 e) Copy first bit, then XOR"
+   ]
+  ],
+  [
+   "Fill in the Blanks",
+   [
+    "1. 0111  2. 0110  3. MSB (first/most significant)  4. 0110  5. errors"
+   ]
+  ],
+  [
+   "Scenario-Based Small Activity",
+   [
+    "Convert binary 1010 to Gray: (i) Copy first bit: g3 = 1. (ii) g2 = b3 XOR b2 = 1 XOR 0 = 1. (iii) g1 = b2 XOR b1 = 0 XOR 1 = 1. (iv) g0 = b1 XOR b0 = 1 XOR 0 = 1.",
+    "Output Gray code = 1111. Because only one bit changes between consecutive Gray values, transmitting 1111 avoids multi-bit transition errors from the sensor."
+   ]
+  ],
+  [
+   "True or False",
+   [
+    "1. FALSE \u2014 Only one bit changes between consecutive Gray values.  2. FALSE \u2014 BCD is not efficient for high-speed arithmetic (needs corrections).",
+    "3. TRUE  4. FALSE \u2014 Bits are XORed, not reversed.  5. TRUE"
+   ]
+  ]
+ ]
+}

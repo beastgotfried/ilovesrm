@@ -1,0 +1,56 @@
+{
+ "title": "Unit 3 : Session 2 : SLO 1 \u2014 Half Adder and Full Adder",
+ "sections": [
+  [
+   "1. Label the Components (Remembering)",
+   [
+    "Input 1: A    Input 2: B",
+    "Output 1: Sum    Output 2: Carry",
+    "Gate 1: XOR gate    Gate 2: AND gate"
+   ]
+  ],
+  [
+   "2. Complete the Truth Table \u2014 Full Adder (Understanding)",
+   [
+    "A=0, B=0, Cin=0 \u2192 S=0, Cout=0",
+    "A=0, B=0, Cin=1 \u2192 S=1, Cout=0",
+    "A=0, B=1, Cin=0 \u2192 S=1, Cout=0",
+    "A=0, B=1, Cin=1 \u2192 S=0, Cout=1",
+    "A=1, B=0, Cin=0 \u2192 S=1, Cout=0",
+    "A=1, B=0, Cin=1 \u2192 S=0, Cout=1",
+    "A=1, B=1, Cin=0 \u2192 S=0, Cout=1",
+    "A=1, B=1, Cin=1 \u2192 S=1, Cout=1"
+   ]
+  ],
+  [
+   "3. Trace the Circuit (Applying): A = 1, B = 0, Cin = 1",
+   [
+    "Output of first XOR gate: 1   (1 XOR 0 = 1)",
+    "Output of first AND gate: 0   (1 AND 0 = 0)",
+    "Final S (Sum) output: 0       (1 XOR 1 = 0)",
+    "Output of second AND gate: 1  (1 AND 1 = 1)",
+    "Final Cout (Carry Out) output: 1  (1 OR 0 = 1)"
+   ]
+  ],
+  [
+   "4. Compare and Contrast (Analyzing)",
+   [
+    "Number of inputs \u2014 Half Adder: 2 | Full Adder: 3",
+    "Names of inputs \u2014 Half Adder: A, B | Full Adder: A, B, Cin (carry in)",
+    "Number of outputs \u2014 Half Adder: 2 | Full Adder: 2",
+    "Names of outputs \u2014 Half Adder: Sum, Carry | Full Adder: Sum, Cout (carry out)",
+    "Accepts carry from previous stage \u2014 Half Adder: No | Full Adder: Yes",
+    "Primary purpose \u2014 Half Adder: adds two single bits | Full Adder: adds three single bits including a carry-in"
+   ]
+  ],
+  [
+   "5. Design a Multi-Bit Adder (Creating) \u2014 2-bit ripple-carry adder",
+   [
+    "Stage 1 (LSB): one HALF ADDER with inputs A0 and B0 \u2192 output S0 = A0 XOR B0, carry C1 = A0 AND B0.",
+    "Stage 2 (MSB): one FULL ADDER with inputs A1, B1 and Cin = C1 \u2192 output S1 and final Cout.",
+    "Connections: A0, B0 \u2192 HA (S0, C1); C1, A1, B1 \u2192 FA (S1, Cout).",
+    "Outputs: S0 (bit 0), S1 (bit 1), Cout (final carry)."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,50 @@
+{
+ "title": "Unit 3 : Session 1 : SLO 1 \u2014 State and Prove De Morgan's Theorems",
+ "sections": [
+  [
+   "1. State De Morgan's Theorems (Remember)",
+   [
+    "The complement of the sum of two variables is equal to the PRODUCT of the COMPLEMENTS of the variables. (A + B)' = A' . B'",
+    "The complement of the product of two variables is equal to the SUM of the COMPLEMENTS of the variables. (A . B)' = A' + B'"
+   ]
+  ],
+  [
+   "2. Match the Expressions (Understand)",
+   [
+    "1. (X + Y)' \u2192 d. The complement of a sum",
+    "2. X' . Y' \u2192 c. The product of the complements",
+    "3. (X . Y)' \u2192 b. The complement of a product",
+    "4. X' + Y' \u2192 a. The sum of the complements"
+   ]
+  ],
+  [
+   "3. Complete the Proof (Apply) \u2014 Truth table for (A + B)' = A' . B'",
+   [
+    "A=0, B=0: A+B=0, (A+B)'=1, A'=1, B'=1, A'.B'=1  \u2192 LHS = RHS",
+    "A=0, B=1: A+B=1, (A+B)'=0, A'=1, B'=0, A'.B'=0  \u2192 LHS = RHS",
+    "A=1, B=0: A+B=1, (A+B)'=0, A'=0, B'=1, A'.B'=0  \u2192 LHS = RHS",
+    "A=1, B=1: A+B=1, (A+B)'=0, A'=0, B'=0, A'.B'=0  \u2192 LHS = RHS",
+    "Since the columns for (A + B)' and A' . B' are identical in every row, the theorem is proved."
+   ]
+  ],
+  [
+   "4. Simplify the Expression (Analyze)",
+   [
+    "F = ((A . B)' + C)'",
+    "Step 1: F = ((A . B)')' . C'   (De Morgan's theorem applied to the outer complement)",
+    "Step 2: F = (A . B) . C'       (law of double complementation)",
+    "Final simplified expression: F = A . B . C'"
+   ]
+  ],
+  [
+   "5. Construct a Proof (Create) \u2014 Truth table for (A . B)' = A' + B'",
+   [
+    "A=0, B=0: A.B=0, (A.B)'=1, A'=1, B'=1, A'+B'=1  \u2192 LHS = RHS",
+    "A=0, B=1: A.B=0, (A.B)'=1, A'=1, B'=0, A'+B'=1  \u2192 LHS = RHS",
+    "A=1, B=0: A.B=0, (A.B)'=1, A'=0, B'=1, A'+B'=1  \u2192 LHS = RHS",
+    "A=1, B=1: A.B=1, (A.B)'=0, A'=0, B'=0, A'+B'=0  \u2192 LHS = RHS",
+    "The columns for (A . B)' and A' + B' are identical, so the second theorem is proved."
+   ]
+  ]
+ ]
+}

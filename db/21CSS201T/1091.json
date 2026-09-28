@@ -1,0 +1,33 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 9 : SLO \u2013 1  |  AND, OR, NOT gates",
+ "sections": [
+  [
+   "II. Multiple Choice Questions",
+   [
+    "1. b \u2014 All inputs are 1",
+    "2. c \u2014 All inputs are 0",
+    "3. c \u2014 Y = A\u0305",
+    "4. b \u2014 \u2219",
+    "5. b \u2014 1"
+   ]
+  ],
+  [
+   "I. Match the Following",
+   [
+    "1. AND gate output when all inputs are 1 \u2014 1 (HIGH), from Y = A\u2219B (b)",
+    "2. OR gate Boolean expression \u2014 a) Y = A + B",
+    "3. NOT gate symbol \u2014 c) \u00af (bar)",
+    "4. AND gate symbol \u2014 d) \u2219",
+    "5. OR gate output when all inputs are 0 \u2014 e) 0"
+   ]
+  ],
+  [
+   "III. Activity Question",
+   [
+    "AND gate: Y = A\u2219B \u2014 output 1 only when ALL inputs are 1. Symbol: D-shape with flat input side. Truth table: 00\u21920, 01\u21920, 10\u21920, 11\u21921. Example: two series switches lighting one lamp.",
+    "OR gate: Y = A+B \u2014 output 1 when ANY input is 1. Symbol: curved input side, pointed output. Truth table: 00\u21920, 01\u21921, 10\u21921, 11\u21921. Example: doorbell wired to two parallel push-buttons.",
+    "NOT gate: Y = A\u0305 \u2014 output is the inverse of the input. Symbol: triangle with inversion bubble. Truth table: 0\u21921, 1\u21920. Example: light that turns ON when a dark sensor reads 0."
+   ]
+  ]
+ ]
+}

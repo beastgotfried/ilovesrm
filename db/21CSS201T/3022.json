@@ -1,0 +1,47 @@
+{
+ "title": "Unit 3 : Session 2 : SLO 2 \u2014 Ripple-Carry vs Carry Look-ahead Adders",
+ "sections": [
+  [
+   "Section 1: The Ripple Effect (Understand)",
+   [
+    "When you push the first domino it falls and knocks over the next one, which knocks over the one after it, and so on; there is a delay as the fall propagates down the line.",
+    "Similarly, when adding 1111 + 0001, the first full adder generates a carry that must ripple to the second stage, which generates a carry for the third, and so on. The final correct sum is available only after the carry has propagated through all stages \u2014 just like waiting for the last domino to fall."
+   ]
+  ],
+  [
+   "Section 2: Identifying Limitations (Analyze) \u2014 single full adder delay = 10 ns",
+   [
+    "Total propagation delay for a 4-bit ripple-carry adder: 4 \u00d7 10 ns = 40 ns",
+    "Total propagation delay for a 16-bit ripple-carry adder: 16 \u00d7 10 ns = 160 ns",
+    "Major limitation: the delay grows linearly with the number of bits. A 64-bit adder would need about 640 ns, making the processor too slow for modern high-speed applications."
+   ]
+  ],
+  [
+   "Section 3: Introducing a Faster Solution (Remember/Understand)",
+   [
+    "A carry look-ahead adder improves performance by reducing the propagation (1) DELAY.",
+    "Instead of waiting for the carry to (2) RIPPLE through each full adder, the CLA uses special logic to calculate all the carry bits (3) SIMULTANEOUSLY.",
+    "It does this by looking at the input bits and determining if a carry will be (4) GENERATED (created at that stage) or (5) PROPAGATED (passed from a previous stage).",
+    "This makes the calculation of each carry (6) INDEPENDENT of the previous carry bit, speeding up the entire addition process."
+   ]
+  ],
+  [
+   "Section 4: Concept Matching (Analyze)",
+   [
+    "1. Ripple-Carry Adder \u2192 B. Carry-out of one stage is the carry-in of the next, creating a chain reaction",
+    "2. Carry Look-ahead Adder \u2192 C. Uses complex logic to calculate all carries in parallel, improving speed",
+    "3. Propagation Delay \u2192 A. Time for an input change to produce a stable output change",
+    "4. Carry 'Generate' (gi) \u2192 E. A carry is created at a bit stage \u2014 both input bits are 1",
+    "5. Carry 'Propagate' (pi) \u2192 D. A carry is passed through a bit stage \u2014 one input is 1 and the other is 0"
+   ]
+  ],
+  [
+   "Section 5: Justifying the Choice (Evaluate) \u2014 high-performance gaming CPU",
+   [
+    "Chosen adder: Carry Look-ahead Adder.",
+    "Why better: calculation speed is critical for a gaming CPU. A CLA computes all carry bits in parallel, so it is significantly faster than a ripple-carry adder; arithmetic completes quickly, preventing lag.",
+    "Drawback of the ripple-carry adder: its speed falls as the number of bits grows (e.g., 64-bit calculations) because of the long carry-ripple propagation delay, which would bottleneck the CPU."
+   ]
+  ]
+ ]
+}

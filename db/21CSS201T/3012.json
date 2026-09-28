@@ -1,0 +1,49 @@
+{
+ "title": "Unit 3 : Session 1 : SLO 2 \u2014 De Morgan's Theorems (Practice)",
+ "sections": [
+  [
+   "1. Match the Expressions (Remembering)",
+   [
+    "1. (A + B)' \u2192 c. A'B'",
+    "2. (XY)' \u2192 a. X' + Y'",
+    "3. (A' + B')' \u2192 b. AB   (since (A')'(B')' = AB)",
+    "4. (X'Y')' \u2192 d. X + Y",
+    "5. (A + B + C)' \u2192 e. A'B'C'"
+   ]
+  ],
+  [
+   "2. Complete the Simplification (Understanding): F = ((A + B)' . C)'",
+   [
+    "Step 1: ((A + B)' . C)' \u2014 given expression",
+    "Step 2: (A + B)'' + C' \u2014 De Morgan's theorem",
+    "Step 3: (A + B) + C' \u2014 double negation",
+    "Step 4: A + B + C' \u2014 final simplified expression"
+   ]
+  ],
+  [
+   "3. Simplify the Expressions (Applying)",
+   [
+    "a. F1 = (X' + Y' + Z')' = (X')'(Y')'(Z')' = X . Y . Z",
+    "b. F2 = (A'B)' + C = (A')' + B' + C = A + B' + C",
+    "c. F3 = ((A + B)' + C')' = ((A + B)')' . (C')' = (A + B) . C = AC + BC"
+   ]
+  ],
+  [
+   "4. Find the Error (Analyzing): F = (A(B + C))'",
+   [
+    "The error occurred in Step 2 (the student wrote A'(B + C)').",
+    "Mistake: De Morgan's theorem states (XY)' = X' + Y'. Treating A and (B + C) as the two terms, the complement of the product must become a SUM of the complements, not a product. The student kept multiplication after negating.",
+    "Correct simplification: F = (A(B + C))' = A' + (B + C)' = A' + B'C'"
+   ]
+  ],
+  [
+   "5. Create a Problem (Creating)",
+   [
+    "a. Created expression: F = (X' + YZ)'",
+    "b. F = (X')' . (YZ)'   (De Morgan's theorem)",
+    "F = X . (Y' + Z')       (double negation + De Morgan's theorem)",
+    "F = XY' + XZ'           (distributive law)"
+   ]
+  ]
+ ]
+}

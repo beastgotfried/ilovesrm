@@ -1,0 +1,54 @@
+{
+ "title": "Unit 3 : Session 4 : SLO 1 \u2014 Shift-and-Add Unsigned Multiplication",
+ "sections": [
+  [
+   "1. Vocabulary Match-Up (Remembering)",
+   [
+    "1. Multiplicand \u2192 C. The number that is being multiplied",
+    "2. Multiplier \u2192 D. The number by which you multiply",
+    "3. Partial Product \u2192 E. Result of multiplying the multiplicand by a single multiplier bit",
+    "4. Accumulator \u2192 B. Register that holds the intermediate product",
+    "5. Shift-Left \u2192 F. Moves all bits one position to the left",
+    "6. Product \u2192 A. The result of the multiplication"
+   ]
+  ],
+  [
+   "2. Step-by-Step Description (Understanding) \u2014 correct order",
+   [
+    "1 \u2192 Initialize the Accumulator to all zeros.",
+    "2 \u2192 If the LSB of the Multiplier is 1, add the Multiplicand to the Accumulator.",
+    "3 \u2192 Shift the Multiplicand one position to the left.",
+    "4 \u2192 Shift the Multiplier one position to the right.",
+    "(In hardware, steps 2\u20134 form one cycle repeated for each multiplier bit.)"
+   ]
+  ],
+  [
+   "3. Applying the Concept (Applying): 1101 (13) \u00d7 1011 (11) by shift-and-add",
+   [
+    "Initial: Multiplicand = 0000 1101, Multiplier = 1011, Accumulator = 0000 0000",
+    "Iteration 1: LSB = 1 \u2192 Add: Accumulator = 0000 1101; then shift \u2192 Mcand = 0001 1010, Mplier = 0101",
+    "Iteration 2: LSB = 1 \u2192 Add shifted multiplicand: 0000 1101 + 0001 1010 = 0010 0111 (Accumulator = 0010 0111); shift \u2192 Mcand = 0011 0100, Mplier = 0010",
+    "Iteration 3: LSB = 0 \u2192 No add; shift \u2192 Mcand = 0110 1000, Mplier = 0001",
+    "Iteration 4: LSB = 1 \u2192 Add shifted multiplicand: 0010 0111 + 0110 1000 = 1000 1111",
+    "Final Binary Product: 10001111    Final Decimal Product: 143   (13 \u00d7 11 = 143)"
+   ]
+  ],
+  [
+   "4. Error Analysis (Analyzing): 101 \u00d7 110",
+   [
+    "Incorrect step number: Step 3.",
+    "Error: in Step 3 the accumulator holds 001010 and the shifted multiplicand is 010100; since the multiplier LSB is 1 the sum must be 001010 + 010100 = 011110. The student wrote 011100 \u2014 a binary addition error."
+   ]
+  ],
+  [
+   "5. Design a Problem (Creating)",
+   [
+    "Chosen 3-bit multiplicand: 111 (7)    Chosen 3-bit multiplier: 101 (5)",
+    "Step 1: LSB = 1 \u2192 add \u2192 Accumulator = 000111; shift \u2192 Mcand = 001110, Mplier = 010",
+    "Step 2: LSB = 0 \u2192 no add; shift \u2192 Mcand = 011100, Mplier = 001",
+    "Step 3: LSB = 1 \u2192 add \u2192 000111 + 011100 = 100011; shift \u2192 done",
+    "Final Answer: 100011 (binary) = 35 (decimal)"
+   ]
+  ]
+ ]
+}

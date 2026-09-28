@@ -1,0 +1,22 @@
+{
+ "title": "Unit 3 : Session 11 : SLO 1 \u2014 IEEE 754 Single Precision Format",
+ "sections": [
+  [
+   "Section A: Match the Following (Remember)",
+   [
+    "A. Sign Bit \u2192 2. Indicates positive or negative number",
+    "B. Exponent Bias \u2192 3. 127 in single precision",
+    "C. Fraction (Mantissa) \u2192 1. 23 bits used for precision representation",
+    "D. Total bits in IEEE 754 (Single) \u2192 5. 32 bits total",
+    "E. Exponent Field \u2192 4. Converts decimal exponent to binary"
+   ]
+  ],
+  [
+   "Format Summary",
+   [
+    "IEEE 754 single precision = 32 bits: 1 sign bit (bit 31), 8 exponent bits with bias 127 (bits 30-23), 23 mantissa/fraction bits (bits 22-0).",
+    "Value = (-1)^sign \u00d7 1.mantissa \u00d7 2^(exponent - 127) for normalized numbers."
+   ]
+  ]
+ ]
+}

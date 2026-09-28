@@ -1,0 +1,24 @@
+{
+ "title": "Unit 3 : Session 9 : SLO 2 \u2014 Restoring Division (Simulation & Analysis)",
+ "sections": [
+  [
+   "Section C: Paper Simulation (Apply): 0110 (6) \u00f7 0010 (2) \u2014 restoring division",
+   [
+    "Init: A = 0000, Q = 0110, M = 0010",
+    "Step 1: shift (A,Q) \u2192 A = 0000, Q = 1100; A = A - M = 1110 (< 0) \u2192 restore A = 0000, Q0 = 0 \u2192 A = 0000, Q = 1100",
+    "Step 2: shift \u2192 A = 0001, Q = 1000; A = A - M = 1111 (< 0) \u2192 restore A = 0001, Q0 = 0 \u2192 A = 0001, Q = 1000",
+    "Step 3: shift \u2192 A = 0011, Q = 0000; A = A - M = 0001 (\u2265 0) \u2192 Q0 = 1 \u2192 A = 0001, Q = 0001",
+    "Step 4: shift \u2192 A = 0010, Q = 0010; A = A - M = 0000 (\u2265 0) \u2192 Q0 = 1 \u2192 A = 0000, Q = 0011",
+    "Final Quotient = 0011 (3), Remainder = 0000 (0)   (6 \u00f7 2 = 3 remainder 0 \u2713)"
+   ]
+  ],
+  [
+   "Section D: Role-Based Play Debrief (Analyze)",
+   [
+    "Restoration is triggered whenever the subtraction produces a negative remainder \u2014 the subtraction 'failed', so the divisor is added back to recover the previous remainder.",
+    "The division is complete after n cycles, where n is the number of bits of the quotient/dividend register; the quotient sits in Q and the remainder in A.",
+    "Each left shift brings the next dividend bit into the remainder for the trial subtraction and simultaneously frees the LSB of Q to receive the new quotient bit."
+   ]
+  ]
+ ]
+}

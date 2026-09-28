@@ -1,0 +1,51 @@
+{
+ "title": "Unit 3 : Session 5 : SLO 2 \u2014 Booth's Algorithm (Simulation)",
+ "sections": [
+  [
+   "1. Terminology Check (Remembering)",
+   [
+    "1. M \u2192 b. The register that holds the Multiplicand",
+    "2. Q \u2192 c. The register that holds the Multiplier",
+    "3. Q-1 \u2192 a. The bit to the right of the LSB of Q, initialized to 0",
+    "4. A \u2192 d. The register that holds the partial product, initialized to 0"
+   ]
+  ],
+  [
+   "2. Explaining the Steps (Understanding)",
+   [
+    "If the bits are 10: Subtract M from A (A = A - M), then perform an arithmetic right shift.",
+    "If the bits are 01: Add M to A (A = A + M), then perform an arithmetic right shift.",
+    "If the bits are 00 or 11: perform only the arithmetic right shift (no arithmetic operation)."
+   ]
+  ],
+  [
+   "3. Positive Multiplication Simulation (Applying): 5 \u00d7 3, M = 0101, Q = 0011",
+   [
+    "Initial: A = 0000, Q = 0011, Q-1 = 0",
+    "Cycle 1: Q0Q-1 = 10 \u2192 A = A - M = 1011; shift \u2192 A = 1101, Q = 1001, Q-1 = 1",
+    "Cycle 2: Q0Q-1 = 11 \u2192 no operation; shift \u2192 A = 1110, Q = 1100, Q-1 = 1",
+    "Cycle 3: Q0Q-1 = 01 \u2192 A = A + M = 0011; shift \u2192 A = 0001, Q = 1110, Q-1 = 0",
+    "Cycle 4: Q0Q-1 = 00 \u2192 no operation; shift \u2192 A = 0000, Q = 1111, Q-1 = 0",
+    "Final Answer (A, Q): 0000 1111 = +15   (5 \u00d7 3 = 15 \u2713)"
+   ]
+  ],
+  [
+   "4. Negative Multiplication Simulation (Applying): 4 \u00d7 -3, M = 0100, -M = 1100, Q = 1101",
+   [
+    "Initial: A = 0000, Q = 1101, Q-1 = 0",
+    "Cycle 1: Q0Q-1 = 10 \u2192 A = A - M = 1100; shift \u2192 A = 1110, Q = 0110, Q-1 = 1",
+    "Cycle 2: Q0Q-1 = 01 \u2192 A = A + M = 0010; shift \u2192 A = 0001, Q = 0011, Q-1 = 0",
+    "Cycle 3: Q0Q-1 = 10 \u2192 A = A - M = 1101; shift \u2192 A = 1110, Q = 1001, Q-1 = 1",
+    "Cycle 4: Q0Q-1 = 11 \u2192 no operation; shift \u2192 A = 1111, Q = 0100, Q-1 = 1",
+    "Final Answer (A, Q): 1111 0100 = -12 in 2's complement   (4 \u00d7 -3 = -12 \u2713)"
+   ]
+  ],
+  [
+   "5. Find the Mistake (Analyzing): 2 \u00d7 -2, M = 0010, Q = 1110",
+   [
+    "Mistake: the bits Q0 Q-1 are 10, so the correct action is A = A - M, not A = A + M as written in Cycle 1.",
+    "Corrected Cycle 1 row: M = 0010, A = 1110 \u2192 after shift A = 1111, Q = 0111, Q-1 = 0; Action: A = A - M (A = 1110), then arithmetic right shift."
+   ]
+  ]
+ ]
+}

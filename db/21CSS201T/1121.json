@@ -1,0 +1,29 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 12 : SLO \u2013 1  |  Logic gates (combined)",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. Symbol of AND gate \u2014 standard AND symbol (\u2219), Y = A\u2219B",
+    "2. Output of OR gate when A=0, B=1 \u2014 1",
+    "3. NOT gate logic function \u2014 c) Y = A\u0305",
+    "4. NOR gate implementation \u2014 d) Universal gate to implement AND, OR, NOT",
+    "5. EX-OR practical use \u2014 e) Parity generator/checker, Half Adder"
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. all  2. any  3. 0  4. universal  5. different"
+   ]
+  ],
+  [
+   "III. Activity / Describe and Perform",
+   [
+    "1. AND/OR/NOT \u2014 AND: Y=A\u2219B, truth table 00\u21920, 01\u21920, 10\u21920, 11\u21921. OR: Y=A+B, 00\u21920, 01\u21921, 10\u21921, 11\u21921. NOT: Y=A\u0305, 0\u21921, 1\u21920. Symbols: D-shape (AND), curved (OR), triangle+bubble (NOT).",
+    "2. NOR gate: Y = (A+B)\u0305 \u2014 output 1 only when both inputs are 0. Truth table: 00\u21921, 01\u21920, 10\u21920, 11\u21920. Implementations: NOT = A NOR A; OR = (A NOR B) NOR (A NOR B); AND = (A NOR A) NOR (B NOR B).",
+    "3. EX-OR gate: Y = A\u2295B = A\u0305B + AB\u0305 \u2014 output 1 when inputs differ. Truth table: 00\u21920, 01\u21921, 10\u21921, 11\u21920. Uses: parity generator/checker, Half Adder sum output, digital comparators."
+   ]
+  ]
+ ]
+}

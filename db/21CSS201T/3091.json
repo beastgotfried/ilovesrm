@@ -1,0 +1,25 @@
+{
+ "title": "Unit 3 : Session 9 : SLO 1 \u2014 Restoring Division Algorithm (Procedure)",
+ "sections": [
+  [
+   "Section A: Match the Following (Remember)",
+   [
+    "A. Sign Bit \u2192 4. Indicates positive or negative",
+    "B. Negative Remainder \u2192 5. Triggered when subtraction fails",
+    "C. Quotient Register \u2192 3. Stores result bits (0 or 1)",
+    "D. Shift Step \u2192 2. Logical left shift on registers",
+    "E. Restoring Step \u2192 1. Add divisor to restore remainder"
+   ]
+  ],
+  [
+   "Section B: Fill in the Blanks (Understand)",
+   [
+    "The restoring division algorithm is primarily used for BINARY division of binary numbers.",
+    "If subtraction in a cycle produces a NEGATIVE remainder, the algorithm restores the previous value.",
+    "The REMAINDER register is shifted left with the quotient during each iteration.",
+    "The divisor is SUBTRACTED from the remainder in each cycle.",
+    "The quotient bit is set to 1 if the subtraction is successful."
+   ]
+  ]
+ ]
+}

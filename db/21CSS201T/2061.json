@@ -1,0 +1,47 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 6 : SLO \u2013 1 | Memory Locations and Addresses (1's & 2's Complement)",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. 1's Complement \u2192 B. Flip all bits (0\u21921, 1\u21920)",
+    "2. 2's Complement \u2192 A. Add 1 to the 1's complement",
+    "3. Signed Number Representation \u2192 C. Represents negative numbers in binary",
+    "4. Most Significant Bit (MSB) \u2192 D. Indicates sign in signed numbers",
+    "5. Overflow \u2192 E. Error when result exceeds representable range"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "1's complement of a binary number is obtained by FLIPPING ALL BITS.",
+    "2's complement of a number is obtained by taking the 1's complement and then ADDING 1.",
+    "In 2's complement representation, a negative number always begins with 1 in the MSB.",
+    "The range of an 8-bit 2's complement number is from \u2013128 to +127.",
+    "When the result exceeds the possible range of values, it causes an OVERFLOW."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task",
+   [
+    "Task 1 \u2013 1's and 2's complements:",
+    "a) 0110 1001 \u2192 1's: 1001 0110, 2's: 1001 0111.",
+    "b) 1011 0000 \u2192 1's: 0100 1111, 2's: 0101 0000.",
+    "c) 0001 1110 \u2192 1's: 1110 0001, 2's: 1110 0010.",
+    "Task 2 \u2013 Convert to decimal (2's complement method):",
+    "1111 0100 \u2192 negative; 1's = 0000 1011, 2's = 0000 1100 = 12 \u2192 value = \u201312.",
+    "1000 1111 \u2192 negative; 1's = 0111 0000, 2's = 0111 0001 = 113 \u2192 value = \u2013113."
+   ]
+  ],
+  [
+   "Section D \u2013 True or False",
+   [
+    "1's complement is obtained by adding 1 to the binary number. \u2014 FALSE",
+    "2's complement is the most widely used method for representing signed numbers. \u2014 TRUE",
+    "In 2's complement, there are two representations for zero. \u2014 FALSE (only one)",
+    "MSB determines the sign of a signed number. \u2014 TRUE",
+    "Taking 2's complement twice returns the original number. \u2014 TRUE"
+   ]
+  ]
+ ]
+}

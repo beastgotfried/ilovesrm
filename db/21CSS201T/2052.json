@@ -1,0 +1,45 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 5 : SLO \u2013 2 | Memory Operations and Byte Addressing",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. Load Operation \u2192 E. Memory read from a specified address",
+    "2. Store Operation \u2192 B. Memory write from processor to specified location",
+    "3. Big-Endian \u2192 D. Most significant byte stored at lowest address",
+    "4. Little-Endian \u2192 A. Least significant byte stored at lowest address",
+    "5. 32-bit Data Alignment \u2192 C. Word starts at byte address 0, 4, 8\u2026"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "The LOAD operation reads the contents of a specified memory location.",
+    "The STORE operation stores processor data into a specific memory location.",
+    "In BIG-ENDIAN representation, the most significant byte is stored at the lowest memory address.",
+    "In LITTLE-ENDIAN representation, the least significant byte is stored at the lowest memory address.",
+    "In 64-bit data alignment, words begin at byte addresses such as 0, 8, 16, and so on."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task",
+   [
+    "Task 1 \u2013 Word 0x46789654 stored at address 8000h:",
+    "(a) Big-endian: 8000 \u2192 46, 8001 \u2192 78, 8002 \u2192 96, 8003 \u2192 54.",
+    "(b) Little-endian: 8000 \u2192 54, 8001 \u2192 96, 8002 \u2192 78, 8003 \u2192 46.",
+    "Task 2a \u2013 Why endianness matters: machines that use different byte orders interpret the same binary sequence differently; when binary data is transferred between systems the byte order must be agreed or converted, otherwise multi-byte values are read incorrectly.",
+    "Task 2b \u2013 Aligned vs unaligned access: an aligned word starts at an address that is a multiple of its size (e.g. 0, 4, 8 for 4-byte words) and is fetched in one memory cycle; an unaligned word straddles two word boundaries, needing multiple accesses and extra merging logic, so it is slower and on some architectures not permitted."
+   ]
+  ],
+  [
+   "Section D \u2013 True or False",
+   [
+    "In Big-endian format, the most significant byte is stored last. \u2014 FALSE (it is stored at the lowest address)",
+    "Aligned 16-bit words begin at addresses like 0, 2, 4\u2026 \u2014 TRUE",
+    "Little-endian format is commonly used in Intel processors. \u2014 TRUE",
+    "A load operation writes data to memory. \u2014 FALSE (load reads memory; store writes)",
+    "Word alignment helps in faster memory access and avoids errors in some architectures. \u2014 TRUE"
+   ]
+  ]
+ ]
+}

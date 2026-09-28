@@ -1,0 +1,25 @@
+{
+ "title": "Unit 3 : Session 12 : SLO 2 \u2014 Tutorial: IEEE 754 Double Precision Encoding",
+ "sections": [
+  [
+   "Section C: Activity \u2014 Encode -25.625 in IEEE 754 Double Precision",
+   [
+    "Convert the magnitude: 25 = 11001, 0.625 = 0.101 \u2192 11001.101",
+    "Normalize: 1.1001101 \u00d7 2^4",
+    "Sign bit: 1 (negative)",
+    "Biased exponent: 4 + 1023 = 1027 = 10000000011 (11-bit)",
+    "Mantissa (52-bit): 1001101000000000000000000000000000000000000000000000",
+    "IEEE 754 Double Precision: 1 10000000011 1001101000000000000000000000000000000000000000000000",
+    "(Hex: C039 A000 0000 0000)"
+   ]
+  ],
+  [
+   "Section D: Role-Based Play (Analyze)",
+   [
+    "Roles: Decimal Converter, Normalizer, Exponent Encoder (bias 1023, 11-bit), Sign Bit Decider, Mantissa Extractor (52-bit fraction), Encoder Assembler (final 64-bit word).",
+    "Execution: each student completes their stage and passes the result on; the final student reads out the full 64-bit binary.",
+    "Discussion: if the number is too large for the exponent range it overflows to infinity; if too small it underflows toward denormalized numbers or zero \u2014 precision is limited by the 52-bit mantissa."
+   ]
+  ]
+ ]
+}

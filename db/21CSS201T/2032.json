@@ -1,0 +1,44 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 3 : SLO \u2013 2 | Multiple Bus Structures & Expansion Bus Types",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. ISA \u2192 D. Industry Standard Architecture",
+    "2. Multiple Bus Architecture \u2192 A. Uses interleaved memory banks to improve performance",
+    "3. PCI \u2192 C. Peripheral Component Interconnect",
+    "4. AGP \u2192 B. Handles video-specific data transfers",
+    "5. PCMCIA \u2192 E. PC memory card interface"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "A MULTIPLE BUS is used to overcome the bandwidth limitations of a single bus system.",
+    "In a multiple bus system, memory is divided into multiple BANKS (modules) to allow parallel access.",
+    "To handle simultaneous memory requests, a BUS ARBITRATION policy is needed.",
+    "The AGP bus is specifically designed to accelerate graphics rendering.",
+    "EISA serves as an extended version of the ISA expansion bus."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task",
+   [
+    "Task 1 (described): Processors P1\u2026PN, each with a private cache, connect to multiple buses B1\u2026BB; the buses connect to interleaved memory banks M1\u2026MM; hardware arbiters at each bus resolve contention.",
+    "Task 2a \u2013 Interleaved memory: consecutive addresses are spread across different banks, so while one bank is being accessed another can start a new access; overlapping accesses raise effective memory bandwidth.",
+    "Task 2b \u2013 More processors than buses: contention grows; some processors must wait for a free bus, so throughput saturates at the number of buses and arbitration delays increase.",
+    "Task 2c \u2013 Hardware arbiters: several processors may request the same bus in the same cycle; arbiters grant access according to priority/fairness rules so that transfers do not collide and every requester is eventually served."
+   ]
+  ],
+  [
+   "Section D \u2013 True or False",
+   [
+    "In a multiple bus system, a processor is connected to only one bus. \u2014 FALSE",
+    "Interleaved memory allows simultaneous access to different memory banks. \u2014 TRUE",
+    "Bus allocation in a multiple bus system is handled by software scheduling. \u2014 FALSE (hardware arbiters)",
+    "The PCI bus is an expansion bus used for connecting external hardware. \u2014 TRUE",
+    "Even if some paths fail in a multiple bus architecture, the system can still operate. \u2014 TRUE"
+   ]
+  ]
+ ]
+}

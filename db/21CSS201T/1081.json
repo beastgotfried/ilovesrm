@@ -1,0 +1,31 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 8 : SLO \u2013 1  |  Binary arithmetic and BCD operations",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. Sign Magnitude representation \u2014 b) Separate bit for sign, remaining for magnitude",
+    "2. 1's Complement \u2014 e) Invert all bits of the subtrahend",
+    "3. 2's Complement \u2014 c) Invert all bits and add 1 to LSB",
+    "4. Binary Multiplication Rule \u2014 d) 1 \u00d7 1 = 1 (partial-product/shift-add rule)",
+    "5. BCD Addition \u2014 a) Add 0110 (6) for correction if sum > 9"
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. sign  2. inverting (complementing)  3. 1  4. 1  5. 0110"
+   ]
+  ],
+  [
+   "III. Activity / Describe and Perform",
+   [
+    "1. Sign Magnitude \u2014 Addition: same signs \u2192 add magnitudes, keep sign (+3=0011, +2=0010 \u2192 0101=+5). Subtraction (+5)-(+3): compare magnitudes, subtract smaller from larger (101-011=010), keep sign of larger \u2192 0010 = +2.",
+    "2. 1's Complement \u2014 Addition: add all bits incl. sign, add end-around carry. Subtraction 7-2: 0111 + 1's of 0010 (1101) = 1 0100 \u2192 EAC \u2192 0100+1 = 0101 = +5.",
+    "3. 2's Complement \u2014 Subtraction 7-2: 0111 + 2's of 0010 (1110) = 1 0101 \u2192 discard carry \u2192 0101 = +5. No carry \u2192 negative result, take 2's complement for magnitude.",
+    "4. Multiplication 1011 \u00d7 101 (11\u00d75): partial products by shift-and-add \u2192 0110111 (55). Division 1010 \u00f7 10 (10\u00f72): repeated shift-and-subtract (long division) \u2192 quotient 0101 (5), remainder 0.",
+    "5. BCD: each decimal digit \u2192 4-bit code. Example 8+5: 1000+0101 = 1101 (>1001) \u2192 +0110 \u2192 1 0011 \u2192 0001 0011 = 13."
+   ]
+  ]
+ ]
+}

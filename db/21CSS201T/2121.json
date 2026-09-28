@@ -1,0 +1,43 @@
+{
+ "title": "Unit 2 Activity Worksheet | Instruction Formats, Instruction Flow, Addressing Modes & 8086",
+ "sections": [
+  [
+   "1. Identifying Instruction Formats",
+   [
+    "ADD R1, R2, R3 \u2192 Three-address format \u2014 the instruction names three operands (two sources R2, R3 and destination R1).",
+    "MOV AX, BX \u2192 Two-address format \u2014 two operands are specified (source BX, destination AX).",
+    "PUSH AX \u2192 One-address format \u2014 only one explicit operand (AX); the stack pointer is implied.",
+    "ADD \u2192 Zero-address format \u2014 no explicit operands; operands are taken from the top of the stack (stack machine style).",
+    "LOAD R1, #10 \u2192 Two-address format \u2014 a destination register (R1) and a source operand (immediate constant 10) are both specified."
+   ]
+  ],
+  [
+   "2. Tracing Instruction Flow",
+   [
+    "START: MOV AX, #5 \u2192 PC points to START; AX \u2190 5; PC advances to next instruction.",
+    "ADD AX, #3 \u2192 AX \u2190 5 + 3 = 8; PC advances.",
+    "JMP END_LOOP \u2192 PC is loaded with the address of END_LOOP (non-sequential jump).",
+    "END_LOOP: HLT \u2192 processor halts.",
+    "Note: the instructions at LOOP (INC AX; JMP START) are never executed, because control jumps directly from ADD to END_LOOP; the PC therefore follows the sequence START \u2192 (next) \u2192 END_LOOP instead of incrementing through every line."
+   ]
+  ],
+  [
+   "3. Addressing Mode Scenarios",
+   [
+    "Loading a constant value directly into a register \u2192 Immediate addressing \u2014 the operand is part of the instruction, so no memory access is needed and it is fast.",
+    "Accessing an array element using an index stored in another register \u2192 Indexed addressing \u2014 effective address = base address + index register, ideal for stepping through arrays.",
+    "Retrieving data from a memory location whose address is stored in a register \u2192 Register indirect addressing \u2014 the register holds the pointer, allowing flexible access to computed locations.",
+    "Jumping to a subroutine whose address is known at assembly time \u2192 Direct (absolute) addressing \u2014 the target address is encoded directly in the instruction.",
+    "Accessing a variable located at a fixed memory address \u2192 Direct addressing \u2014 the instruction contains the fixed address of the variable, requiring only one memory reference."
+   ]
+  ],
+  [
+   "4. 8086 Architecture Diagram (described)",
+   [
+    "The 8086 is split into two units. Bus Interface Unit (BIU): contains the segment registers (CS, DS, SS, ES), Instruction Pointer (IP), address-generation logic (physical address = segment \u00d7 16 + offset), the 6-byte instruction queue and the bus control logic \u2014 it fetches instructions and data from memory.",
+    "Execution Unit (EU): contains the general-purpose registers (AX, BX, CX, DX, SP, BP, SI, DI), the ALU, the FLAG register and control circuitry \u2014 it decodes and executes the queued instructions.",
+    "The two units work in parallel (pipelining): while the EU executes, the BIU prefetches the next instructions into the queue."
+   ]
+  ]
+ ]
+}

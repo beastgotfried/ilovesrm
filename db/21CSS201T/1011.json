@@ -1,0 +1,32 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 1 : SLO \u2013 1  |  Functional units of a computer",
+ "sections": [
+  [
+   "I. Multiple Choice Questions",
+   [
+    "1. C \u2014 To design better programs and optimize performance",
+    "2. B \u2014 Operating System",
+    "3. B \u2014 Instruction Set Architecture",
+    "4. B \u2014 Level 5 \u2013 High-Level Language Level",
+    "5. C \u2014 Von Neumann bottleneck"
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE \u2014 The system software level (OS) handles memory protection and process synchronization.",
+    "2. FALSE \u2014 Cache memory is faster (and smaller) than RAM.",
+    "3. FALSE \u2014 Machine-level programs execute directly; compilers are needed for high-level languages.",
+    "4. TRUE \u2014 Harvard architecture uses separate buses for instructions and data.",
+    "5. FALSE \u2014 Control units can be hardwired or microprogrammed."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "Suggested change: Move from pure von Neumann architecture to a Harvard / modified-Harvard architecture with separate instruction and data buses (and add cache memory plus more RAM).",
+    "Why: In von Neumann architecture a single shared bus forces instruction fetches and data transfers to take turns, creating the von Neumann bottleneck. Separate buses let the CPU fetch instructions and read/write data simultaneously, and cache reduces trips to the slow main memory. Together these remove the memory lags and raise throughput without changing the programs themselves."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "title": "Unit 3 : Session 12 : SLO 1 \u2014 Tutorial: IEEE 754 Single Precision Encoding",
+ "sections": [
+  [
+   "Section B: Fill in the Blanks (Understand)",
+   [
+    "The IEEE 754 single precision format uses 32 bits in total.",
+    "The exponent is stored with a bias of 127 in single precision.",
+    "The sign bit is 0 for positive numbers and 1 for negative numbers.",
+    "The actual exponent is calculated by subtracting the BIAS (127) from the stored exponent.",
+    "The mantissa represents the FRACTIONAL part of the normalized binary number."
+   ]
+  ],
+  [
+   "Section C: Activity \u2014 Encode -12.375 in IEEE 754 Single Precision",
+   [
+    "Convert the magnitude: 12 = 1100, 0.375 = 0.011 \u2192 1100.011",
+    "Normalize: 1.100011 \u00d7 2^3",
+    "Biased exponent: 3 + 127 = 130 = 10000010",
+    "Sign bit: 1 (the number is negative)",
+    "Sign: 1   Exponent (8-bit): 10000010   Mantissa (23-bit): 10001100000000000000000",
+    "Final IEEE 754 Single Precision: 1 10000010 10001100000000000000000  (hex: C1460000)"
+   ]
+  ],
+  [
+   "Section D: Role-Based Play (Analyze)",
+   [
+    "Roles: Decimal Converter (decimal \u2192 binary), Normalizer (1.x \u00d7 2^E form), Exponent Encoder (adds bias 127, converts to 8-bit), Sign Bit Decider (0 for +, 1 for -), Mantissa Filler (fraction bits into 23-bit field), Encoder Assembler (combines into the 32-bit word).",
+    "Each role passes its result to the next stage, demonstrating how an FPU encodes a decimal value into IEEE 754 format step by step."
+   ]
+  ]
+ ]
+}

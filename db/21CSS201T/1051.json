@@ -1,0 +1,60 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 5 : SLO \u2013 1  |  Signed magnitude representation",
+ "sections": [
+  [
+   "Multiple Choice Questions (5)",
+   [
+    "1. d \u2014 Sign",
+    "2. b \u2014 1101 (sign 1, magnitude 101)",
+    "3. c \u2014 Efficient hardware implementation (it is NOT a limitation \u2014 it is false; signed magnitude has complex hardware)",
+    "4. c \u2014 +2 (different signs: subtract magnitudes 5-3=2, sign of larger = +)",
+    "5. a \u2014 Positive zero (equal magnitudes, different signs \u2192 0, conventionally +0)"
+   ]
+  ],
+  [
+   "Two-Mark Questions (2)",
+   [
+    "1. Signed magnitude is less preferred because it has two representations of zero (+0 and \u22120), and its arithmetic needs separate adder/subtractor hardware plus a magnitude comparator, making it slower and costlier than two's complement.",
+    "2. Rules of binary addition: 0+0=0; 0+1=1; 1+0=1; 1+1=0 with carry 1; 1+1+1=1 with carry 1."
+   ]
+  ],
+  [
+   "Scenario-Based Long Answer (1)",
+   [
+    "(-5) + (-3) in 4-bit signed magnitude: -5 = 1101, -3 = 1011. Same signs \u2192 add magnitudes: 101 + 011 = 1000 (8) and keep the common sign (negative).",
+    "But the magnitude field is only 3 bits (max 7). 8 needs 4 bits (1000) \u2192 the sum overflows the magnitude field. Result: OVERFLOW \u2014 the true result -8 cannot be represented in 4-bit signed magnitude (range -7 to +7)."
+   ]
+  ],
+  [
+   "Match the Following (5)",
+   [
+    "A. MSB in signed magnitude \u2014 3. Sign bit",
+    "B. 1 + 1 in binary \u2014 4. 0 with carry 1",
+    "C. Two's Complement \u2014 1. Preferred representation today",
+    "D. +0 and -0 \u2014 2. Dual zero issue",
+    "E. Overflow example \u2014 5. +5 + +3 = +8 in 4-bit"
+   ]
+  ],
+  [
+   "Fill in the Blanks (5)",
+   [
+    "1. sign  2. 0 (with carry 1)  3. magnitudes  4. 0000 and 1000  5. two's complement"
+   ]
+  ],
+  [
+   "Scenario-Based Small Activity (1)",
+   [
+    "+4 = 0100, -2 = 1010. Signs differ \u2192 compare magnitudes: 100 > 010. Subtract smaller from larger: 100 - 010 = 010 (2). Result takes the sign of the larger magnitude (positive).",
+    "Final result: 0010 = +2."
+   ]
+  ],
+  [
+   "True or False (5)",
+   [
+    "1. FALSE \u2014 It has two zeros (+0, -0).  2. TRUE",
+    "3. FALSE \u2014 1+1 gives 0 with carry 1.  4. TRUE",
+    "5. FALSE \u2014 Overflow occurs when the magnitude sum exceeds the magnitude range (e.g. 5+3 in 4-bit)."
+   ]
+  ]
+ ]
+}

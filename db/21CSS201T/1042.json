@@ -1,0 +1,60 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 4 : SLO \u2013 2  |  Codes and parity",
+ "sections": [
+  [
+   "5 MCQs",
+   [
+    "1. b \u2014 1110 (Gray of 1011: 1, 1^0=1, 0^1=1, 1^1=0)",
+    "2. c \u2014 1010 (7 + 3 = 10)",
+    "3. a \u2014 0000 (0) with carry (9+3=12 \u2192 1001+0011=1100, +0110 \u2192 0010 carry 1... i.e., BCD 12; as single digit it is 0010 with carry)",
+    "4. a \u2014 65",
+    "5. b \u2014 Ensures total number of 1s is even"
+   ]
+  ],
+  [
+   "2 Two-Mark Questions",
+   [
+    "1. Gray 10011 to binary: b4 = g4 = 1; b3 = b4^g3 = 1^0 = 1; b2 = b3^g2 = 1^0 = 1; b1 = b2^g1 = 1^1 = 0; b0 = b1^g0 = 0^1 = 1. Binary = 11011.",
+    "2. Decimal 2: BCD = 0010; Excess-3 = 0010 + 0011 = 0101."
+   ]
+  ],
+  [
+   "1 Scenario-Based Long Answer",
+   [
+    "Pipeline: take decimal digit 5 \u2192 BCD 0101 \u2192 Excess-3 1000 \u2192 count 1s in 1000 = 1 (odd) \u2192 even-parity bit = 1 \u2192 transmitted frame 1 1000.",
+    "At the receiver, the 1s in the 5-bit frame are counted: 11000 has two 1s (even) \u2192 no error. If a bit flips in transit (e.g. 11010, three 1s), the parity check fails and the digit is rejected/retransmitted. BCD\u2192XS-3\u2192parity thus gives both decimal-friendly encoding and single-bit error protection."
+   ]
+  ],
+  [
+   "5 Match the Following",
+   [
+    "Binary to Gray \u2014 a) Copy first bit, then XOR",
+    "ASCII of 'B' \u2014 b) 66",
+    "BCD Addition \u2014 c) Add 0110 if result > 1001",
+    "XS-3 code for 2 \u2014 d) 0101",
+    "Even Parity \u2014 e) Total number of 1s is even"
+   ]
+  ],
+  [
+   "5 Fill in the Blanks",
+   [
+    "1. 10101 (Gray of 11001: 1, 1^1=0, 1^0=1, 0^0=0, 0^1=1)",
+    "2. B  3. 0110  4. 0110 (3+3=6)  5. error"
+   ]
+  ],
+  [
+   "1 Scenario-Based Small Activity",
+   [
+    "Data 1100110: count of 1s = 4 (already even) \u2192 even parity bit = 0.",
+    "Appended as MSB, final 8-bit result: 01100110."
+   ]
+  ],
+  [
+   "5 True or False",
+   [
+    "1. FALSE \u2014 Standard ASCII uses 7 bits.  2. TRUE  3. TRUE",
+    "4. FALSE \u2014 Excess-3 is non-weighted.  5. FALSE \u2014 Even parity ensures an even number of 1s."
+   ]
+  ]
+ ]
+}

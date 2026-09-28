@@ -1,0 +1,34 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 11 : SLO \u2013 2  |  EX-NOR gate",
+ "sections": [
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. same (equal)",
+    "2. Y = (A\u2295B)\u0305 = AB + A\u0305B\u0305",
+    "3. \u2299 (EX-OR with inversion bubble)",
+    "4. equality (error/parity)",
+    "5. equality"
+   ]
+  ],
+  [
+   "I. Match the Following",
+   [
+    "1. EX-NOR Logic Expression \u2014 b) Y = (A\u2295B)\u0305",
+    "2. Output Condition \u2014 a) 1 when inputs are equal",
+    "3. Symbol Used \u2014 c) \u2299 or \u2295\u0305",
+    "4. Truth Table Output for (1,0) \u2014 d) 0",
+    "5. Practical Application \u2014 e) Digital comparators and equality checking"
+   ]
+  ],
+  [
+   "III. Activity / Describe and Perform",
+   [
+    "Logic function: EX-NOR is the complement of EX-OR \u2014 output 1 when both inputs are EQUAL. Boolean expression: Y = (A\u2295B)\u0305 = AB + A\u0305B\u0305.",
+    "Symbol: EX-OR symbol with an inversion bubble at the output.",
+    "Truth table: 00\u21921, 01\u21920, 10\u21920, 11\u21921.",
+    "Practical application: digital comparators \u2014 one EX-NOR per bit; all bits equal \u2192 all outputs 1 \u2192 AND them to detect equality of two numbers. Verifying all four input combinations experimentally reproduces the truth table."
+   ]
+  ]
+ ]
+}

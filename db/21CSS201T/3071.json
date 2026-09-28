@@ -1,0 +1,69 @@
+{
+ "title": "Unit 3 : Tutorial 2 \u2014 Signed, Unsigned and Fast Multiplication",
+ "sections": [
+  [
+   "Section A: Unsigned Multiplication",
+   [
+    "1a) 1101 \u00d7 1011: partial products 1101 + 0000 + 110100 + 1101000 \u2192 10001111. Answer: 10001111 (13 \u00d7 11 = 143)",
+    "1b) 10101 \u00d7 0110: partial products 000000 + 101010 + 1010100 + 0000000 \u2192 1111110. Answer: 1111110 (21 \u00d7 6 = 126)",
+    "2a) 12 \u00d7 5: 12 = 1100, 5 = 0101; binary product 1100 \u00d7 0101 = 111100; back to decimal: 32 + 16 + 8 + 4 = 60. Answer: 60",
+    "2b) 23 \u00d7 9: 23 = 10111, 9 = 1001; binary product = 11001111; decimal: 128 + 64 + 8 + 4 + 2 + 1 = 207. Answer: 207",
+    "3) 1110 (M) \u00d7 1001 (Q), 4-bit registers, add-and-shift hardware algorithm:",
+    "  Init: A = 0000, MQ = 1001, MD = 1110, counter = 4",
+    "  Step 0: MQ0 = 1 \u2192 A = A + MD = 0000 + 1110 = 1110 (product 1110 1001); logical shift right \u2192 0111 0100",
+    "  Step 1: MQ0 = 0 \u2192 no add; shift \u2192 0011 1010",
+    "  Step 2: MQ0 = 0 \u2192 no add; shift \u2192 0001 1101",
+    "  Step 3: MQ0 = 1 \u2192 A = A + MD = 0001 + 1110 = 1111 (1111 1101); final shift \u2192 0111 1110",
+    "  Product = 01111110 = 126   (check: 14 \u00d7 9 = 126 \u2713)"
+   ]
+  ],
+  [
+   "Section B: Signed Multiplication (Booth's Algorithm)",
+   [
+    "a) (+7) \u00d7 (+3): M = 0111, -M = 1001, Q = 0011, A = 0000, Q-1 = 0",
+    "  Cycle 1: Q0Q-1 = 10 \u2192 A = A - M = 1001; shift \u2192 A = 1100, Q = 1001, Q-1 = 1",
+    "  Cycle 2: Q0Q-1 = 11 \u2192 no op; shift \u2192 A = 1110, Q = 0100, Q-1 = 1",
+    "  Cycle 3: Q0Q-1 = 01 \u2192 A = A + M = 0101; shift \u2192 A = 0010, Q = 1010, Q-1 = 0",
+    "  Cycle 4: Q0Q-1 = 00 \u2192 no op; shift \u2192 A = 0001, Q = 0101, Q-1 = 0",
+    "  A + Q = 0001 0101 = 00010101 = 21   (7 \u00d7 3 = 21 \u2713)",
+    "b) (-5) \u00d7 (+4): M = 1011, -M = 0101, Q = 0100, A = 0000, Q-1 = 0",
+    "  Cycle 1: Q0Q-1 = 00 \u2192 shift \u2192 A = 0000, Q = 0010, Q-1 = 0",
+    "  Cycle 2: Q0Q-1 = 00 \u2192 shift \u2192 A = 0000, Q = 0001, Q-1 = 0",
+    "  Cycle 3: Q0Q-1 = 10 \u2192 A = A - M = 0000 + 0101 = 0101; shift \u2192 A = 0010, Q = 1000, Q-1 = 1",
+    "  Cycle 4: Q0Q-1 = 01 \u2192 A = A + M = 0010 + 1011 = 1101; shift \u2192 A = 1110, Q = 1100, Q-1 = 0",
+    "  A + Q = 1110 1100 = -20 in 2's complement   (-5 \u00d7 4 = -20 \u2713)",
+    "c) (-7) \u00d7 (-3) with 5-bit registers: M = 10001, -M = 01111, Q = 11101, A = 00000, Q-1 = 0",
+    "  Cycle 1: 10 \u2192 A = A - M = 01111; shift \u2192 A = 00111, Q = 11110, Q-1 = 1",
+    "  Cycle 2: 01 \u2192 A = A + M = 10110; shift \u2192 A = 11011, Q = 01111, Q-1 = 0",
+    "  Cycle 3: 10 \u2192 A = A - M = 01010; shift \u2192 A = 00101, Q = 00111, Q-1 = 1",
+    "  Cycle 4: 11 \u2192 no op; shift \u2192 A = 00010, Q = 10011, Q-1 = 1",
+    "  Cycle 5: 11 \u2192 no op; shift \u2192 A = 00001, Q = 01001, Q-1 = 1",
+    "  Product (A, Q) = 00001 01001 = 000010101 = +21   (-7 \u00d7 -3 = +21 \u2713)",
+    "d) M = 110011 (-13), Q = 101110 (-18): A = 000000, -M = 001101, Q-1 = 0",
+    "  Cycle 1: 00 \u2192 no op; shift \u2192 A = 000000, Q = 010111, Q-1 = 0",
+    "  Cycle 2: 10 \u2192 A = A - M = 001101; shift \u2192 A = 000110, Q = 101011, Q-1 = 1",
+    "  Cycle 3: 11 \u2192 no op; shift \u2192 A = 000011, Q = 010101, Q-1 = 1",
+    "  Cycle 4: 11 \u2192 no op; shift \u2192 A = 000001, Q = 101010, Q-1 = 1",
+    "  Cycle 5: 01 \u2192 A = A + M = 110100; shift \u2192 A = 111010, Q = 010101, Q-1 = 0",
+    "  Cycle 6: 10 \u2192 A = A - M = 000111; shift \u2192 A = 000011, Q = 101010, Q-1 = 1",
+    "  Product = 000011 101010 = 000011101010 = +234   (-13 \u00d7 -18 = +234 \u2713)"
+   ]
+  ],
+  [
+   "Section C: Fast Multiplication (Karatsuba)",
+   [
+    "a) 1011 \u00d7 1101 (4-bit): split X = 10|11, Y = 11|01 (halves of 2 bits)",
+    "  z2 = Xh\u00b7Yh = 10 \u00d7 11 = 110 (6);  z0 = Xl\u00b7Yl = 11 \u00d7 01 = 11 (3)",
+    "  z1 = (Xh + Xl)(Yh + Yl) - z2 - z0 = (101)(100) - 110 - 11 = 10100 - 1001 = 1011 (11)",
+    "  Product = z2\u00b72^4 + z1\u00b72^2 + z0 = 1100000 + 101100 + 11 = 10001111 = 143   (11 \u00d7 13 = 143 \u2713)",
+    "b) 54 \u00d7 87: 54 = 00110110, 87 = 01010111 (8-bit); split into 4-bit halves: Xh = 0011 (3), Xl = 0110 (6), Yh = 0101 (5), Yl = 0111 (7)",
+    "  z2 = 3 \u00d7 5 = 15;  z0 = 6 \u00d7 7 = 42;  z1 = (3 + 6)(5 + 7) - 15 - 42 = 9 \u00d7 12 - 57 = 108 - 57 = 51",
+    "  Product = 15 \u00d7 256 + 51 \u00d7 16 + 42 = 3840 + 816 + 42 = 4698   (54 \u00d7 87 = 4698 \u2713)",
+    "  In binary: 4698 = 1001001011010",
+    "c) X = 11011011, Y = 10111001 setup: Xh = 1101, Xl = 1011, Yh = 1011, Yl = 1001",
+    "  Three recursive terms: z2 = Xh\u00b7Yh = 1101 \u00d7 1011;  z0 = Xl\u00b7Yl = 1011 \u00d7 1001;  z1 = (Xh + Xl)(Yh + Yl) - z2 - z0 = (11000)(10100) - z2 - z0",
+    "  Final combination: Product = z2\u00b72^8 + z1\u00b72^4 + z0"
+   ]
+  ]
+ ]
+}

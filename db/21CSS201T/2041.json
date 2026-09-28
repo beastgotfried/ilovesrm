@@ -1,0 +1,25 @@
+{
+ "title": "Tutorial Sheet: Unit 2 \u2013 Sessions 1, 2 & 3 (Sections A & B)",
+ "sections": [
+  [
+   "Section A \u2013 Very Short Answers",
+   [
+    "1. Four main functional units: Input Unit, Output Unit, Memory Unit, and CPU (Arithmetic Logic Unit + Control Unit).",
+    "2. Control Unit: coordinates and controls all other units \u2014 it fetches and decodes instructions and issues timing/control signals that execute them.",
+    "3. Bus: a shared communication pathway (set of lines) that transfers data, addresses and control signals between CPU, memory and I/O devices.",
+    "4. ALU: the Arithmetic Logic Unit \u2014 the part of the CPU that performs arithmetic (add, subtract) and logic (AND, OR, compare) operations.",
+    "5. Address bus is used to transfer memory addresses."
+   ]
+  ],
+  [
+   "Section B \u2013 Short Answers",
+   [
+    "1. Data Bus carries actual data between units (bidirectional); Address Bus carries the location/address of the data (unidirectional, CPU \u2192 memory); Control Bus carries command and timing signals such as Read, Write and Interrupt.",
+    "2. Program Counter: holds the address of the next instruction; during fetch its value goes to the MAR, then it auto-increments (or is set by a branch) so instructions execute in sequence.",
+    "3. Steps for Load R2, LOC: (i) PC \u2192 MAR, instruction fetched to IR, PC incremented; (ii) instruction decoded; (iii) address field LOC \u2192 MAR, memory read; (iv) data \u2192 MDR; (v) MDR \u2192 R2.",
+    "4. Limitations of single bus: only one transfer at a time (serialized), bus contention slows the system, performance limited by bus speed, a bus fault can halt the whole system.",
+    "5. Advantages: simple/low cost, easy to connect devices. Disadvantages: slower due to sharing, not suitable for high-performance systems with many transfers."
+   ]
+  ]
+ ]
+}

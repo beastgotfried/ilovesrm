@@ -1,0 +1,26 @@
+{
+ "title": "Tutorial Sheet: Unit 2 \u2013 Sessions 1, 2 & 3 (Sections C, D & E)",
+ "sections": [
+  [
+   "Section C \u2013 Diagram-Based Questions",
+   [
+    "Basic Functional Units Diagram (described): Input Unit and Output Unit attached to Memory Unit; Memory Unit connected to CPU containing ALU + Control Unit; Control Unit sends control signals to all units; arrows show data flow Input \u2192 Memory \u2192 ALU \u2192 Memory \u2192 Output.",
+    "Single Bus Structure Diagram (described): CPU, Memory and all I/O devices each interfaced to one common bus; the bus is subdivided into Data Bus, Address Bus and Control Bus lines."
+   ]
+  ],
+  [
+   "Section D \u2013 Conceptual/Application Questions",
+   [
+    "Data and control flow during instruction execution: PC supplies the instruction address; the instruction is fetched from memory into IR; the Control Unit decodes it and issues control signals; operands are fetched using the Address Bus; the ALU performs the operation; the result is stored back in memory or a register; PC is updated for the next instruction.",
+    "Single Bus System Instruction Flow: PC \u2192 MAR \u2192 memory fetch; MDR \u2192 IR; Control Unit executes; any operand is fetched over the same shared bus; only one operation at a time is possible because the bus is shared.",
+    "Add R1, R2, R3 execution: fetch instruction; decode (identify ADD); fetch contents of R2 and R3; ALU computes R2 + R3; store the result in R1."
+   ]
+  ],
+  [
+   "Section E \u2013 Challenge Task / Group Activity",
+   [
+    "Discussion point: We prefer a multiple bus structure for high-performance systems because it allows parallel data transfer, reduces bottlenecks and improves CPU efficiency. However, it is costlier and more complex to manage, requiring hardware arbiters and more interconnections."
+   ]
+  ]
+ ]
+}

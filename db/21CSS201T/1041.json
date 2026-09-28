@@ -1,0 +1,61 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 4 : SLO \u2013 1  |  Number system conversions",
+ "sections": [
+  [
+   "5 MCQs",
+   [
+    "1. a \u2014 11001 (25 = 16+8+1)",
+    "2. b \u2014 4E (78 = 4\u00d716 + 14)",
+    "3. c \u2014 Octal",
+    "4. b \u2014 110110 (groups 110 110 = 6 6)",
+    "5. c \u2014 3C (111100 = 0011 1100 = 3 C)"
+   ]
+  ],
+  [
+   "2 Two-Mark Questions",
+   [
+    "1. 10110 = 1\u00d716 + 0\u00d78 + 1\u00d74 + 1\u00d72 + 0\u00d71 = 16 + 4 + 2 = 22 (decimal).",
+    "2. 3F hex: 3 = 0011, F = 1111 \u2192 00111111 (binary) = 63 decimal."
+   ]
+  ],
+  [
+   "1 Scenario-Based Long Answer",
+   [
+    "Decimal 78 \u2192 Binary (repeated division by 2): 78/2=39 r0, 39/2=19 r1, 19/2=9 r1, 9/2=4 r1, 4/2=2 r0, 2/2=1 r0, 1/2=0 r1. Reading remainders upward: 1001110.",
+    "Decimal 78 \u2192 Octal (division by 8): 78/8=9 r6, 9/8=1 r1, 1/8=0 r1 \u2192 116 (octal).",
+    "Decimal 78 \u2192 Hexadecimal (division by 16): 78/16=4 r14(E), 4/16=0 r4 \u2192 4E.",
+    "Exact values: 78\u2081\u2080 = 1001110\u2082 = 116\u2088 = 4E\u2081\u2086."
+   ]
+  ],
+  [
+   "5 Match the Following",
+   [
+    "Decimal to Binary \u2014 c) 2\u207f weight conversion (repeated division by 2)",
+    "Decimal to Hexadecimal \u2014 b) Divide by 16",
+    "Binary to Octal \u2014 a) Group digits in 3s",
+    "Hexadecimal to Binary \u2014 d) Replace each digit with 4-bit binary",
+    "Octal to Binary \u2014 e) Replace each digit with 3-bit binary"
+   ]
+  ],
+  [
+   "5 Fill in the Blanks",
+   [
+    "1. 1001110  2. base 8  3. 31  4. 4  5. 3C"
+   ]
+  ],
+  [
+   "1 Scenario-Based Small Activity",
+   [
+    "Binary 1010110 to octal: pad to groups of three from the right \u2192 001 010 110.",
+    "001 = 1, 010 = 2, 110 = 6. Final answer: 126 (octal)."
+   ]
+  ],
+  [
+   "5 True or False",
+   [
+    "1. TRUE (11001 = 25)  2. FALSE (7A = 1111010, not 1110101)",
+    "3. TRUE (57\u2088 = 101 111)  4. TRUE  5. TRUE (1010110 = 126\u2088)"
+   ]
+  ]
+ ]
+}

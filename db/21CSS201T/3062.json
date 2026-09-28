@@ -1,0 +1,35 @@
+{
+ "title": "Unit 3 : Session 6 : SLO 2 \u2014 Carry-Save Adders",
+ "sections": [
+  [
+   "1. Understanding the Core Concept (Remember)",
+   [
+    "Answer: b) To add three or more binary numbers by separating the sum and carry bits."
+   ]
+  ],
+  [
+   "2. The 'Save' in Carry-Save (Understand)",
+   [
+    "It is called carry-save addition because the carry bits are not propagated immediately to the next more significant bit; they are 'saved' and computed separately from the sum bits.",
+    "Each stage takes three input bits and produces a sum bit and a carry-out bit, avoiding the delay of waiting for a carry to ripple through the adder."
+   ]
+  ],
+  [
+   "3. Optimizing Multiplication (Apply)",
+   [
+    "Step 1 \u2014 Generate the partial products of the 4-bit multiplication.",
+    "Step 2 \u2014 First CSA stage: take three partial products and add them with a layer of carry-save adders, producing a sum vector and a carry vector.",
+    "Step 3 \u2014 Subsequent CSA stages: feed the previous sum and carry vectors plus the next partial product into another CSA layer; repeat until only two vectors (one sum, one carry) remain.",
+    "Step 4 \u2014 Final addition: add the final sum and carry vectors with a conventional carry-propagate adder (ripple-carry or carry-lookahead) to obtain the product."
+   ]
+  ],
+  [
+   "4. Analyzing the Advantage (Analyze)",
+   [
+    "With traditional ripple-carry adders, every addition has a delay proportional to the number of bits because the carry ripples from LSB to MSB, and these delays accumulate over multiple additions.",
+    "A carry-save adder tree adds three numbers in constant time regardless of bit-width, because carries are not propagated; the single carry-propagate addition happens only once at the very end.",
+    "Key advantage: a significant speed improvement \u2014 the expensive carry propagation is postponed to one final step, making carry-save addition much faster for multi-operand scenarios such as multiplication."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "title": "Unit 3 : Session 8 : SLO 2 \u2014 Restoring vs Non-Restoring Division",
+ "sections": [
+  [
+   "Section C: Simulate the Algorithm (Apply): 0100 (4) \u00f7 0010 (2) \u2014 non-restoring",
+   [
+    "Init: A = 0000, Q = 0100, M = 0010",
+    "Step 1: shift \u2192 A = 0000, Q = 1000; A = A - M = 1110 (< 0), Q0 = 0 \u2192 A = 1110, Q = 1000",
+    "Step 2: shift \u2192 A = 1101, Q = 0000; A < 0 \u2192 A = A + M = 1111 (< 0), Q0 = 0 \u2192 A = 1111, Q = 0000",
+    "Step 3: shift \u2192 A = 1110, Q = 0000; A < 0 \u2192 A = A + M = 0000 (\u2265 0), Q0 = 1 \u2192 A = 0000, Q = 0001",
+    "Step 4: shift \u2192 A = 0000, Q = 0010; A \u2265 0 \u2192 A = A - M = 1110 (< 0), Q0 = 0 \u2192 A = 1110, Q = 0010",
+    "Final correction: A = A + M = 0000. Quotient = 0010 (2), Remainder = 0000 (0) \u2713"
+   ]
+  ],
+  [
+   "Section D: Debrief \u2014 comparing logic flow and efficiency",
+   [
+    "Efficiency: non-restoring removes the restore step, so every cycle costs exactly one addition/subtraction plus a shift \u2014 fewer operations and simpler control than restoring division.",
+    "Correction at the end: a negative final A is not a valid remainder, so the divisor is added back once to fix it.",
+    "Quotient-bit assignment: restoring sets the bit only after a possible restore; non-restoring sets it straight from the sign of A (1 if A \u2265 0, 0 if A < 0).",
+    "Logic flow: restoring = shift \u2192 subtract \u2192 if negative restore (add back) \u2192 set bit; non-restoring = shift \u2192 add or subtract depending on the sign of A \u2192 set bit \u2192 single correction at the end."
+   ]
+  ]
+ ]
+}

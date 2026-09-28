@@ -1,0 +1,59 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 1 : SLO \u2013 2  |  Types of computers",
+ "sections": [
+  [
+   "Multiple Choice Questions",
+   [
+    "1. c \u2014 Supercomputer",
+    "2. c \u2014 High throughput and multi-user support",
+    "3. b \u2014 Built into another device for a specific task",
+    "4. c \u2014 Personal laptop",
+    "5. c \u2014 Speed and reliability"
+   ]
+  ],
+  [
+   "Two-Mark Questions",
+   [
+    "1. A minicomputer is a mid-range, multi-user computer smaller than a mainframe but more powerful than a microcomputer; it supports several terminals at once. Real-time application: process control in a factory / college server.",
+    "2. General-purpose vs special-purpose: (i) General-purpose computers run many different applications (PCs); special-purpose computers are designed for one dedicated task. (ii) General-purpose machines are flexible but less optimized; special-purpose machines are faster/cheaper for their single task but not reprogrammable for other work."
+   ]
+  ],
+  [
+   "Scenario-Based Long Answer",
+   [
+    "Recommended: a Mainframe-class server (a high-end minicomputer is the budget alternative).",
+    "Justification: The university needs simultaneous access by many users (student records, exam processing, library). Mainframes are built exactly for this: very high throughput, strong multi-user support, large memory and I/O capacity, high reliability/availability, and transaction processing at scale. A minicomputer could serve a smaller load, but for a mid-sized university with concurrent access across departments, a mainframe's multi-user capability and reliability make it the most suitable choice."
+   ]
+  ],
+  [
+   "Match the Following",
+   [
+    "Supercomputer \u2014 c) IMD weather forecasting",
+    "Mainframe \u2014 large multi-user transaction servers (e.g., bank/airline reservation systems)",
+    "Minicomputer \u2014 b) College server",
+    "(Smartwatches \u2014 a) \u2014 are examples of embedded/microcomputer systems.)"
+   ]
+  ],
+  [
+   "Fill in the Blanks",
+   [
+    "1. Supercomputer  2. Special-purpose  3. Embedded  4. microcomputers  5. Ubiquitous (pervasive)"
+   ]
+  ],
+  [
+   "Scenario-Based Small Activity",
+   [
+    "5 devices with embedded computers: smartphone, washing machine, microwave oven, smart TV, car (ECU).",
+    "Example \u2014 washing machine: its embedded controller runs a fixed control program; it reads sensors (water level, load, temperature), times each wash/rinse/spin stage, and drives the motor and valves automatically. It is special-purpose: it does only washing control, reliably and cheaply."
+   ]
+  ],
+  [
+   "True or False",
+   [
+    "1. FALSE \u2014 Microcomputers serve one/few users.  2. FALSE \u2014 Special-purpose are less flexible.",
+    "3. TRUE  4. FALSE \u2014 Minicomputers serve departments/organizations, not national defense scale.",
+    "5. TRUE"
+   ]
+  ]
+ ]
+}

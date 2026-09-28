@@ -1,0 +1,33 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 12 : SLO \u2013 2  |  Logic gates (combined)",
+ "sections": [
+  [
+   "II. Multiple Choice Questions",
+   [
+    "1. b \u2014 AND",
+    "2. b \u2014 Y = A\u0305",
+    "3. c \u2014 NAND",
+    "4. b \u2014 Inputs are the same",
+    "5. b \u2014 Digital comparator"
+   ]
+  ],
+  [
+   "I. Match the Following",
+   [
+    "1. AND gate logic symbol \u2014 b) Y = A\u2219B",
+    "2. OR gate output when both inputs are 0 \u2014 0 (LOW)",
+    "3. NOT gate Boolean expression \u2014 c) Y = A\u0305",
+    "4. NAND gate function \u2014 d) Universal gate for implementing AND, OR, NOT",
+    "5. EX-NOR gate application \u2014 e) Digital comparators and equality checking"
+   ]
+  ],
+  [
+   "III. Activity Questions",
+   [
+    "1. AND/OR/NOT circuit example: F = (A\u00b7B) + C\u0305 \u2014 AND of A,B ORed with NOT of C. Truth table: F=1 whenever A=B=1 or C=0. Symbols drawn as D-shape (AND), curved (OR), triangle+bubble (NOT).",
+    "2. NAND: Y = (A\u00b7B)' \u2014 output 0 only when both inputs are 1. Universal implementations: NOT = A NAND A; AND = (A NAND B) NAND (A NAND B); OR = (A NAND A) NAND (B NAND B).",
+    "3. EX-NOR: Y = (A\u2295B)\u0305 = AB + A\u0305B\u0305 \u2014 output 1 when inputs are equal. Truth table: 00\u21921, 01\u21920, 10\u21920, 11\u21921. Applications: digital comparators, equality checking, parity checking."
+   ]
+  ]
+ ]
+}

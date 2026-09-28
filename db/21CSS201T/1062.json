@@ -1,0 +1,61 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 6 : SLO \u2013 2  |  Complement arithmetic",
+ "sections": [
+  [
+   "MCQs",
+   [
+    "1. c \u2014 0110 (1010 \u2192 0101 + 1)",
+    "2. c \u2014 2's complement",
+    "3. b \u2014 0011",
+    "4. c \u2014 Take 1's complement and mark result negative",
+    "5. d \u2014 Sign of the number"
+   ]
+  ],
+  [
+   "Two-Mark Questions",
+   [
+    "1. 1's complement of a binary number is obtained by inverting every bit (0\u21921, 1\u21920). For a 4-bit number, e.g. 1011 \u2192 0100. It represents the negative of the number in 1's complement arithmetic.",
+    "2. 2's complement subtraction rules: (i) find 2's complement of the subtrahend; (ii) add it to the minuend; (iii) if a carry is generated, discard it \u2014 result is positive and final; (iv) if no carry, result is negative \u2014 take 2's complement again for the magnitude and attach '-'."
+   ]
+  ],
+  [
+   "Scenario-Based Long Answer",
+   [
+    "A - B = 1011 - 0101 using 1's complement: 1's complement of B = 1010.",
+    "Add: 1011 + 1010 = 1 0101. End-around carry present \u2192 add it back to the LSB: 0101 + 1 = 0110.",
+    "Final result: 0110\u2082 = 6\u2081\u2080 (positive, correct: 11 - 5 = 6). Had there been no carry, the result would be negative and interpreted by taking its 1's complement."
+   ]
+  ],
+  [
+   "Match the Following",
+   [
+    "1. 1's Complement \u2014 a) Invert all bits (0\u21921, 1\u21920)",
+    "2. 2's Complement \u2014 b) Add 1 to 1's complement",
+    "3. Carry in 2's complement \u2014 c) Ignore and result is positive",
+    "4. No carry in 1's complement \u2014 d) Take 1's complement and add '-'",
+    "5. Sign-magnitude representation \u2014 e) MSB for sign, remaining bits for value"
+   ]
+  ],
+  [
+   "Fill in the Blanks",
+   [
+    "1. 1000 (0111+1)  2. negative (2's complement form)  3. 1111  4. Most Significant Bit  5. 1's complement"
+   ]
+  ],
+  [
+   "Scenario-Based Small Activity",
+   [
+    "A - B = 0101 - 0011. 2's complement of B = 1100 + 1 = 1101.",
+    "Add: 0101 + 1101 = 1 0010 \u2192 discard carry \u2192 0010.",
+    "Final answer: 0010\u2082 = 2\u2081\u2080 (5 - 3 = 2)."
+   ]
+  ],
+  [
+   "True or False",
+   [
+    "1. FALSE \u2014 Flipping bits gives 1's complement; add 1 for 2's.  2. FALSE \u2014 2's complement is used today.",
+    "3. TRUE  4. TRUE  5. TRUE"
+   ]
+  ]
+ ]
+}

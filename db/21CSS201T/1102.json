@@ -1,0 +1,33 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 10 : SLO \u2013 2  |  NAND gate and universal implementation",
+ "sections": [
+  [
+   "Part B \u2013 Multiple Choice Questions",
+   [
+    "1. B \u2014 (A\u00b7B)'",
+    "2. B \u2014 It can implement AND, OR, NOT",
+    "3. B \u2014 Connect both inputs together",
+    "4. B \u2014 (A'\u00b7B')'",
+    "5. D \u2014 All of the above"
+   ]
+  ],
+  [
+   "Part A \u2013 Match the Following",
+   [
+    "1. NAND gate \u2014 c) Output is 0 only when all inputs are 1",
+    "2. NAND as NOT \u2014 a) Connect both inputs together",
+    "3. NAND as AND \u2014 e) Invert NAND output \u2192 (A\u00b7B)'' = A\u00b7B",
+    "4. NAND as OR \u2014 b) De Morgan: A + B = (A'\u00b7B')'",
+    "5. Universal Gate \u2014 d) Any logic function can be built using it"
+   ]
+  ],
+  [
+   "Part C \u2013 Activity Questions",
+   [
+    "1. 2-input NAND truth table: 00\u21921, 01\u21921, 10\u21921, 11\u21920.",
+    "2. NAND as NOT: tie both inputs together \u2192 Y = (A\u00b7A)' = A\u0305. Truth table: 0\u21921, 1\u21920.",
+    "3. OR using only NAND gates: invert A \u2192 A', invert B \u2192 B' (two NANDs as NOTs), then NAND the results: (A'\u00b7B')' = A + B. Total 3 NAND gates."
+   ]
+  ]
+ ]
+}

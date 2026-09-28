@@ -1,0 +1,31 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 8 : SLO \u2013 2  |  Binary arithmetic and BCD operations",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. Sign bit in binary number \u2014 b) 1 for negative and 0 for positive",
+    "2. 1's complement of 0101 \u2014 a) 1010",
+    "3. 2's complement of 1001 \u2014 e) 0111 (0110 + 1)",
+    "4. Binary division rule \u2014 c) Shift and subtract process",
+    "5. BCD for decimal 42 \u2014 d) 0100 0010"
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. 0  2. 1101  3. 1  4. decimal long  5. 4"
+   ]
+  ],
+  [
+   "III. Activity / Describe and Perform",
+   [
+    "1. Sign Magnitude \u2014 (+4)+(\u22122): different signs \u2192 100\u2212010 = 010, sign of larger (+) \u2192 0010 = +2. (\u22124)\u2212(+2) = \u2212(4+2) = \u22126 = 1110.",
+    "2. 1's complement subtraction, 11\u22125: 1011 + 1's of 0101 (1010) = 1 0101 \u2192 end-around carry \u2192 0101+1 = 0110 = +6.",
+    "3. 2's complement subtraction, 6\u22123: 0110 + 2's of 0011 (1101) = 1 0011 \u2192 discard carry \u2192 0011 = +3.",
+    "4. Multiplication 110 \u00d7 11 (6\u00d73): 110 + 1100 (shifted) = 10010 = 18. Division 1100 \u00f7 11 (12\u00f73): long division \u2192 quotient 0100 = 4, remainder 0.",
+    "5. BCD: 42 = 0100 0010. BCD addition 27+35: 0010 0111 + 0011 0101 = 0101 1100; units 1100 invalid \u2192 +0110 \u2192 0110 0010 with carry \u2192 = 62 (0110 0010)."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,36 @@
+{
+ "title": "Unit 3 : Session 11 : SLO 2 \u2014 IEEE 754 Double Precision Format",
+ "sections": [
+  [
+   "Section A: Match the Following (Remember)",
+   [
+    "A. Total bits in double precision \u2192 3. 64 bits",
+    "B. Sign bit \u2192 4. Indicates positive or negative",
+    "C. Exponent field \u2192 1. 11 bits",
+    "D. Mantissa (fraction) \u2192 2. 52 bits",
+    "E. Exponent bias in double precision \u2192 5. 1023"
+   ]
+  ],
+  [
+   "Section B: Fill in the Blanks (Understand)",
+   [
+    "Double precision format uses a total of 64 bits.",
+    "The exponent field in double precision is 11 bits long.",
+    "The exponent is stored with a bias of 1023 in double precision format.",
+    "The mantissa is composed of 52 bits and represents the fractional part.",
+    "The sign bit is set to 0 for positive numbers and 1 for negative numbers."
+   ]
+  ],
+  [
+   "Section C: Activity \u2014 Encode -25.625 in IEEE 754 Double Precision",
+   [
+    "Convert 25.625 to binary: 25 = 11001, 0.625 = 0.101 \u2192 11001.101",
+    "Normalize: 1.1001101 \u00d7 2^4",
+    "Sign bit: 1 (negative number)",
+    "Biased exponent: 4 + 1023 = 1027 = 10000000011",
+    "Mantissa (52 bits): 1001101 0000000000000000000000000000000000000000000000 (padded with zeros)",
+    "Full 64-bit representation: 1 10000000011 1001101000000000000000000000000000000000000000000000"
+   ]
+  ]
+ ]
+}

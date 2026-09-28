@@ -1,0 +1,30 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 11 : SLO \u2013 1  |  EX-OR gate",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. EX-OR Logic Expression \u2014 b) A\u2295B = A\u0305B + AB\u0305",
+    "2. Output Condition \u2014 a) 0 when inputs are equal",
+    "3. Symbol Used \u2014 c) \u2295",
+    "4. Truth Table Output for (1,0) \u2014 d) 1",
+    "5. Major Application \u2014 e) Half Adder and Parity Checker"
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. different  2. A\u0305B + AB\u0305  3. \u2295  4. parity  5. EX-OR"
+   ]
+  ],
+  [
+   "III. Activity / Describe and Perform",
+   [
+    "Logic operation: EX-OR outputs logic 1 only when the two inputs DIFFER. Boolean expression: Y = A\u2295B = A\u0305B + AB\u0305.",
+    "Truth table: 00\u21920, 01\u21921, 10\u21921, 11\u21920.",
+    "Circuit symbol: OR symbol with an extra curved line at the input side.",
+    "Practical application: parity generator/checker in data communication and the SUM output of a Half Adder (Sum = A\u2295B, Carry = A\u00b7B). Experimental verification: applying all four input combinations to the gate reproduces the truth table exactly."
+   ]
+  ]
+ ]
+}

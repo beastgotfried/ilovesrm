@@ -1,0 +1,43 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 1 : SLO \u2013 1 | Functional units of a computer",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. Input Unit \u2192 a. Accepts data and instructions",
+    "2. Output Unit \u2192 b. Displays processed data",
+    "3. ALU \u2192 c. Performs arithmetic and logic operations",
+    "4. Control Unit \u2192 d. Controls and coordinates activities",
+    "5. Memory Unit \u2192 e. Stores data and instructions"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "The INPUT unit accepts data from the user.",
+    "The ALU performs mathematical calculations and logical decisions.",
+    "MEMORY stores data, instructions, and results.",
+    "The CONTROL UNIT manages and coordinates all other units.",
+    "The OUTPUT unit provides output information to the user."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task",
+   [
+    "Block diagram (described): Input Unit \u2192 Memory Unit \u21c4 CPU (Control Unit + ALU) \u2192 Output Unit, with the Control Unit connected to and coordinating every block.",
+    "Data flow: data and instructions enter through the Input Unit and are stored in Memory; the Control Unit fetches instructions from memory, decodes them and directs the ALU to process the data; intermediate and final results return to Memory; the Output Unit presents the results to the user.",
+    "CU and ALU working together: The Control Unit fetches and decodes each instruction, then sends control signals telling the ALU which arithmetic/logic operation to perform and on which data. The ALU executes the operation and flags the result status back to the Control Unit, which then decides the next step. Thus the CU orchestrates while the ALU computes \u2014 together they execute instructions."
+   ]
+  ],
+  [
+   "Section D \u2013 True or False",
+   [
+    "The ALU is responsible for storing data permanently. \u2014 FALSE",
+    "The Control Unit directs the operation of the processor. \u2014 TRUE",
+    "Input unit converts results from machine form to human readable form. \u2014 FALSE",
+    "The memory unit only stores the final output. \u2014 FALSE",
+    "Output unit displays or prints the results of processing. \u2014 TRUE"
+   ]
+  ]
+ ]
+}

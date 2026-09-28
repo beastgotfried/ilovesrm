@@ -1,0 +1,47 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 2 : SLO \u2013 2 | Operational Concepts",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. PC (Program Counter) \u2192 C. Points to the next instruction to be executed",
+    "2. MAR (Memory Address Register) \u2192 D. Holds address for accessing memory",
+    "3. MDR (Memory Data Register) \u2192 E. Holds the fetched data or instruction",
+    "4. ALU (Arithmetic Logic Unit) \u2192 A. Performs arithmetic and logic operations",
+    "5. IR (Instruction Register) \u2192 B. Temporarily holds instruction fetched from memory"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "At the start of execution, the PC (PROGRAM COUNTER) is set to point to the first instruction.",
+    "The address from the PC is loaded into the MAR, which initiates a read operation.",
+    "The fetched instruction is placed into the IR for decoding.",
+    "The ALU performs the operation, and the result is written back using the MAR and MDR.",
+    "An INTERRUPT is a service request by an I/O device to the processor."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task: Program Execution Cycle",
+   [
+    "1. Program load via input device: the program and its data are transferred from an input device into main memory.",
+    "2. Fetch cycle (PC \u2192 MAR \u2192 Memory \u2192 MDR \u2192 IR): PC sends the instruction address to MAR; memory is read; the instruction travels through MDR into IR.",
+    "3. Decode instruction: the Control Unit examines IR, identifies the operation and the operands needed.",
+    "4. Fetch operands: operand addresses are sent to MAR and the data is read into MDR/registers.",
+    "5. ALU execution: the ALU performs the required arithmetic or logic operation on the operands.",
+    "6. Write back result: the result is sent through MDR to memory or into a destination register.",
+    "7. PC increment: PC is updated to point to the next instruction and the cycle repeats."
+   ]
+  ],
+  [
+   "Section D \u2013 True or False",
+   [
+    "The PC is used to perform arithmetic operations. \u2014 FALSE",
+    "The Instruction Register (IR) holds the address of data. \u2014 FALSE (it holds the instruction itself)",
+    "Interrupts help the processor handle I/O device requests. \u2014 TRUE",
+    "ALU operations are performed before fetching the instruction. \u2014 FALSE",
+    "After an interrupt is serviced, the processor resumes the program from where it was interrupted. \u2014 TRUE"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,45 @@
+{
+ "title": "Unit 3 : Session 8 : SLO 1 \u2014 Non-Restoring Division Algorithm",
+ "sections": [
+  [
+   "Section A: Match the Following (Remember)",
+   [
+    "A. Non-Restoring Division \u2192 3. No restoration; handled in next cycle",
+    "B. Shift Left Operation \u2192 2. Moves remainder and quotient bits to the left",
+    "C. Negative Partial Remainder \u2192 1. Adds divisor if the remainder is negative",
+    "D. Quotient Bit = 0 \u2192 4. Indicates subtraction failed",
+    "E. Positive Partial Remainder \u2192 5. Indicates subtraction succeeded"
+   ]
+  ],
+  [
+   "Section B: Fill in the Blanks (Understand)",
+   [
+    "Non-restoring division removes the need for the RESTORATION step found in restoring division.",
+    "If the partial remainder is negative, the divisor is ADDED in the next step.",
+    "The algorithm uses an initial SHIFT of the remainder and quotient registers.",
+    "The QUOTIENT bit is set to 0 when the partial remainder is negative.",
+    "The division result consists of the QUOTIENT and the final remainder."
+   ]
+  ],
+  [
+   "Section C: Simulate the Algorithm (Apply): 0100 (4) \u00f7 0010 (2)",
+   [
+    "Init: A = 0000, Q = 0100, M = 0010",
+    "Step 1: shift (A,Q) \u2192 A = 0000, Q = 1000; A \u2265 0 \u2192 A = A - M = 1110 (< 0), Q0 = 0 \u2192 A = 1110, Q = 1000",
+    "Step 2: shift \u2192 A = 1101, Q = 0000; A < 0 \u2192 A = A + M = 1111 (< 0), Q0 = 0 \u2192 A = 1111, Q = 0000",
+    "Step 3: shift \u2192 A = 1110, Q = 0000; A < 0 \u2192 A = A + M = 0000 (\u2265 0), Q0 = 1 \u2192 A = 0000, Q = 0001",
+    "Step 4: shift \u2192 A = 0000, Q = 0010; A \u2265 0 \u2192 A = A - M = 1110 (< 0), Q0 = 0 \u2192 A = 1110, Q = 0010",
+    "Final correction: A < 0 \u2192 A = A + M = 1110 + 0010 = 0000",
+    "Final Quotient = 0010 (2), Remainder = 0000 (0)   (4 \u00f7 2 = 2 remainder 0 \u2713)"
+   ]
+  ],
+  [
+   "Section D: Role-Play Debrief (Analyze)",
+   [
+    "More efficient than restoring because the extra restore (add-back) step inside every failed cycle is eliminated \u2014 each cycle performs exactly one add or subtract, so the loop is shorter and faster in hardware.",
+    "The end correction is needed because if the last partial remainder is negative it does not represent a valid remainder; adding the divisor once restores the true remainder.",
+    "In restoring division the quotient bit is decided after the restore check; in non-restoring the quotient bit is set directly from the sign of the partial remainder (1 if non-negative, 0 if negative) without restoring first."
+   ]
+  ]
+ ]
+}

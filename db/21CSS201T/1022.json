@@ -1,0 +1,61 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 2 : SLO \u2013 1  |  Digital systems and number systems",
+ "sections": [
+  [
+   "MCQs",
+   [
+    "1. c \u2014 Combinational",
+    "2. c \u2014 Discrete physical quantities",
+    "3. d \u2014 Hexadecimal",
+    "4. b \u2014 Synchronous",
+    "5. c/d \u2014 4 bits (rounded up from log2 10)"
+   ]
+  ],
+  [
+   "Two-Mark Questions",
+   [
+    "1. Synchronous sequential systems update their state only at fixed clock intervals (clock-driven, easier to design and debug); asynchronous systems change state whenever inputs change (no clock, faster but prone to race conditions and harder to analyze).",
+    "2. A binary signal is a signal that can take only one of two discrete values (0 or 1). Physical examples: voltage levels 0 V / +5 V in a circuit; switch OFF/ON; magnetic polarity on a storage disk."
+   ]
+  ],
+  [
+   "Scenario-Based Long Answer",
+   [
+    "Suitable system: a synchronous SEQUENTIAL digital system (a counter built from flip-flops).",
+    "State: the current count is stored in flip-flops (internal state with memory). Input: count pulses from the wheel sensor and a reset line. Output: the state drives the odometer display.",
+    "Synchronous is justified because all flip-flops update together on a common clock edge, so the count changes cleanly and predictably with no race conditions; an asynchronous ripple counter could show transient wrong values. A synchronous counter with a clear/reset input meets the precise-tracking and reset requirements."
+   ]
+  ],
+  [
+   "Match the Following",
+   [
+    "Binary \u2014 b) Base 2",
+    "Hexadecimal \u2014 a) Base 16",
+    "Byte \u2014 c) 8 bits",
+    "Synchronous System \u2014 d) Updates at fixed intervals",
+    "Asynchronous System \u2014 e) Updates at any time"
+   ]
+  ],
+  [
+   "Fill in the Blanks",
+   [
+    "1. combinational  2. octal  3. nibble  4. 0 and 1  5. Digital"
+   ]
+  ],
+  [
+   "Scenario-Based Small Activity",
+   [
+    "A basic calculator uses BOTH: combinational logic (adders/ALU that compute results from current inputs) and sequential logic (registers/memory that hold operands and running totals).",
+    "Components: (i) Inputs \u2014 keypad; (ii) Outputs \u2014 display; (iii) Memory/state \u2014 registers storing the first operand and intermediate result.",
+    "Classification logic: the arithmetic unit alone is combinational (output depends only on present inputs), but storing numbers between key presses requires state, making the overall calculator a sequential system."
+   ]
+  ],
+  [
+   "True or False",
+   [
+    "1. FALSE \u2014 A nibble is 4 bits.  2. FALSE \u2014 A digital signal takes only discrete values (0 or 1).",
+    "3. TRUE  4. FALSE \u2014 Sequential systems are usually synchronous.  5. TRUE"
+   ]
+  ]
+ ]
+}

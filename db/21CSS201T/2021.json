@@ -1,0 +1,42 @@
+{
+ "title": "Unit \u2013 2 : Session \u2013 2 : SLO \u2013 1 | Operational concepts",
+ "sections": [
+  [
+   "Section A \u2013 Match the Following (Answers)",
+   [
+    "1. MAR \u2192 C. Holds addresses for memory access",
+    "2. MDR \u2192 D. Temporary storage of data",
+    "3. IR \u2192 A. Holds the instruction currently being executed",
+    "4. PC \u2192 B. Points to the next instruction",
+    "5. General-purpose Registers \u2192 E. Scratch-pad registers for holding data and intermediate results"
+   ]
+  ],
+  [
+   "Section B \u2013 Fill in the Blanks",
+   [
+    "The PROCESSOR (CPU) executes tasks by following a sequence of instructions.",
+    "The MAR register holds the address of the memory location to be accessed.",
+    "The instruction LOAD loads data from a memory location into a register.",
+    "The MDR register stores data being transferred between memory and processor.",
+    "STORE instructions overwrite the content of the destination register or memory location."
+   ]
+  ],
+  [
+   "Section C \u2013 Activity Task",
+   [
+    "Instruction: Load R2, LOC | Operation: reads the contents of memory location LOC and copies them into register R2 | Involved: PC, MAR, MDR, memory location LOC, register R2 | Outcome: R2 \u2190 [LOC]; memory content unchanged (read is non-destructive).",
+    "Instruction: Add LOCA, R0 | Operation: adds the contents of memory location LOCA to register R0 | Involved: MAR, MDR, memory location LOCA, register R0, ALU | Outcome: R0 \u2190 R0 + [LOCA]; LOCA unchanged, R0 overwritten with the sum."
+   ]
+  ],
+  [
+   "Section D \u2013 True or False",
+   [
+    "The Program Counter (PC) holds the data that is currently being executed. \u2014 FALSE (it holds the address of the next instruction)",
+    "The Memory Address Register (MAR) holds the instruction being fetched from memory. \u2014 FALSE (it holds the address; MDR holds the instruction/data)",
+    "The contents of R2 and R3 are altered during the execution of Add R4, R2, R3. \u2014 FALSE (only R4 changes)",
+    "Load instructions preserve the original contents of the memory location. \u2014 TRUE",
+    "General-purpose registers can be used to store intermediate results of operations. \u2014 TRUE"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 10 : SLO \u2013 1  |  NOR gate and universal implementation",
+ "sections": [
+  [
+   "Part B \u2013 Multiple Choice Questions",
+   [
+    "1. B \u2014 (A + B)'",
+    "2. C \u2014 It can implement AND, OR, NOT gates",
+    "3. B \u2014 Connect inputs together",
+    "4. B \u2014 (A' + B')'",
+    "5. D \u2014 All of the above"
+   ]
+  ],
+  [
+   "Part A \u2013 Match the Following",
+   [
+    "1. NOR gate \u2014 c) Output is 1 only when all inputs are 0",
+    "2. NOR as NOT \u2014 a) Connect both inputs together",
+    "3. NOR as OR \u2014 NOR the inputs, then invert the output with another NOR: ((A+B)')' = A + B",
+    "4. NOR as AND \u2014 e) De Morgan: invert each input first, (A' + B')' = A\u00b7B",
+    "5. Universal Gate \u2014 d) Any gate can be built using it"
+   ]
+  ],
+  [
+   "Part C \u2013 Activity Questions",
+   [
+    "1. 2-input NOR truth table: 00\u21921, 01\u21920, 10\u21920, 11\u21920.",
+    "2. NOR as NOT: tie both inputs together \u2192 Y = (A+A)' = A\u0305. Truth table: 0\u21921, 1\u21920.",
+    "3. AND using only NOR gates: invert A (NOR with tied inputs) \u2192 A'; invert B \u2192 B'; then NOR the two results: (A' + B')' = A\u00b7B. Total 3 NOR gates."
+   ]
+  ]
+ ]
+}

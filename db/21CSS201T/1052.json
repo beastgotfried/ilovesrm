@@ -1,0 +1,61 @@
+{
+ "title": "Unit \u2013 1 : Session \u2013 5 : SLO \u2013 2  |  Signed magnitude subtraction",
+ "sections": [
+  [
+   "Multiple Choice Questions (5)",
+   [
+    "1. b \u2014 Sign",
+    "2. b \u2014 -2 ((+3)-(+5): smaller minus larger \u2192 negative, magnitude 5-3=2)",
+    "3. c \u2014 (+A) - (-B) (becomes addition of magnitudes, which can overflow)",
+    "4. b \u2014 +2 ((-3)-(-5) = +2: magnitudes 5-3=2, sign of larger magnitude operand is +)",
+    "5. b \u2014 -7 to +7"
+   ]
+  ],
+  [
+   "Two-Mark Questions (2)",
+   [
+    "1. (+A)-(-B) and (-A)-(+B) turn into magnitude ADDITION (subtracting a negative). The result magnitude A+B can exceed the (N-1)-bit magnitude field (e.g. 5+3=8 > 7 in 4-bit), so the true result cannot be represented \u2014 overflow.",
+    "2. Same-sign subtraction steps: (i) compare magnitudes; (ii) subtract the smaller magnitude from the larger; (iii) keep the common sign if the first operand's magnitude is larger, otherwise take the opposite sign; (iv) if magnitudes are equal the result is +0."
+   ]
+  ],
+  [
+   "Scenario-Based Long Answer (1)",
+   [
+    "(-5) - (+3): different signs \u2192 this becomes magnitude addition: 5 + 3 = 8, and the sign of the result is the sign of the first operand (negative) \u2192 true result -8.",
+    "Step-by-step: -5 = 1101, +3 = 0011. Magnitudes 101 + 011 = 1000 (8). Magnitude field is 3 bits (max 111 = 7). 8 > 7 \u2192 magnitude cannot fit.",
+    "OVERFLOW occurs: -8 is outside the 4-bit signed magnitude range (-7 to +7)."
+   ]
+  ],
+  [
+   "Match the Following (5)",
+   [
+    "A. MSB \u2014 1. Sign bit",
+    "B. (+A) - (-B) \u2014 2. Addition; possible overflow",
+    "C. (-A) - (+B) \u2014 3. Addition; same sign result",
+    "D. (-3) - (-5) \u2014 4. +2 (result)",
+    "E. 4-bit signed magnitude \u2014 5. Range from -7 to +7"
+   ]
+  ],
+  [
+   "Fill in the Blanks (5)",
+   [
+    "1. MSB (most significant / sign)  2. subtract/compare  3. (N-1)-bit magnitude  4. +8 (overflow)  5. less efficient (harder/more complex)"
+   ]
+  ],
+  [
+   "Scenario-Based Small Activity (1)",
+   [
+    "(+5) - (+3): both positive. Compare magnitudes: 101 > 011. Subtract: 101 - 011 = 010 (2). Sign stays positive.",
+    "Final result: 0010 = +2."
+   ]
+  ],
+  [
+   "True or False (5)",
+   [
+    "1. FALSE \u2014 MSB stores the sign, not magnitude.  2. TRUE",
+    "3. TRUE \u2014 (-5)-(-3) = -5+3 = -2.  4. FALSE \u2014 (+3)-(+5) = -2, not +2.",
+    "5. FALSE \u2014 Two's complement has the simpler hardware."
+   ]
+  ]
+ ]
+}

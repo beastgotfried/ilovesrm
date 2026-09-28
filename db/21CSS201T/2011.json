@@ -1,0 +1,34 @@
+{
+ "title": "Unit 2 : Session 1 : SLO 1 \u2014 Functional Units of a Computer",
+ "sections": [
+  [
+   "Section A \u2014 Match the Following",
+   [
+    "1. ALU \u2192 a. Executes arithmetic & logic operations",
+    "2. Control Unit \u2192 b. Manages and coordinates all units",
+    "3. Memory Unit \u2192 c. Stores data and instructions",
+    "4. Input Unit \u2192 d. Converts data into computer acceptable form",
+    "5. Output Unit \u2192 e. Displays results to the user"
+   ]
+  ],
+  [
+   "Section B \u2014 Fill in the Blanks",
+   [
+    "The ALU unit performs all arithmetic and logical operations in a computer.",
+    "The Control unit manages the coordination of all the units.",
+    "Memory unit stores data, instructions, and intermediate results.",
+    "The Input unit accepts data and instructions from the user.",
+    "The Output unit converts machine results into a form understandable by the user."
+   ]
+  ],
+  [
+   "Section C \u2014 Activity Task: Block Diagram of Functional Units",
+   [
+    "Block diagram: INPUT UNIT \u2192 MEMORY UNIT \u2194 CPU (CONTROL UNIT + ALU) \u2192 OUTPUT UNIT, with the Memory Unit connected bidirectionally to the CPU, and the Control Unit sending control signals to every other unit.",
+    "ALU \u2014 (1) Performs all arithmetic operations such as addition, subtraction, multiplication and division. (2) Performs logical operations such as AND, OR, NOT and comparisons used for decision making.",
+    "Control Unit \u2014 (1) Fetches instructions from memory, decodes them and generates control signals to coordinate all units. (2) Manages the timing and sequencing of data flow between memory, ALU and I/O units.",
+    "Memory Unit \u2014 (1) Stores data, instructions and intermediate results during processing (primary storage: RAM/ROM). (2) Holds final results before they are sent to the output unit."
+   ]
+  ]
+ ]
+}
