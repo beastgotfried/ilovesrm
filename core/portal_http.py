@@ -154,8 +154,14 @@ class Portal:
         raise PortalError("2captcha timed out")
 
     def refresh(self):
-        """Rotate the JWT via gettoken; updates cache. Returns True if ok."""
-        out = self._post("/curricula/gettoken", {"INFO": self.info, "KEY": KEY})
+        """Rotate the JWT via gettoken; updates cache. Best-effort: the
+        endpoint is only used by the frontend for multi-login detection and
+        intermittently 504s server-side, so failures are non-fatal."""
+        try:
+            out = self._post("/curricula/gettoken",
+                             {"INFO": self.info, "KEY": KEY}, timeout=20)
+        except Exception:
+            return False
         new = out.get("result")
         if new and new != self.token:
             self.token = new
@@ -245,7 +251,7 @@ def up():
     if not _session.token and not _session.load():
         return False
     try:
-        _session.refresh()
+        _session.list_courses()   # real validation; gettoken often 504s
         return True
     except Exception:
         return False
@@ -286,7 +292,11 @@ def read_slot(course_code, unit, session_n, retries=3):
     for slo in (1, 2):
         code = f"{sess}{slo}"
         states.append(_PRACTICE_STATE.get(practice.get(code, 0), "?"))
-        out_links.append(links.get(code))
+        link = links.get(code)
+        # SLOLINK values are {"view": url, "download": url, "fileId": 0}
+        if isinstance(link, dict):
+            link = link.get("view")
+        out_links.append(link)
     return {"states": states, "links": out_links}
 
 
