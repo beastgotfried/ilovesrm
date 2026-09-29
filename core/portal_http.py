@@ -287,6 +287,36 @@ def _with_retry(fn, tries, label):
             delay *= 2
 
 
+def mcq_scores(course_code):
+    """{session_int: score} for every MCQ assessment the course record knows."""
+    if not _session.course_info or \
+            _session.course_info.get("COURSE_CODE") != course_code:
+        open_course(course_code)
+    res = _with_retry(lambda: _session.get_session_status(101),
+                      3, f"mcq_scores {course_code}")
+    return {int(k): v for k, v in (res.get("MCQ") or {}).items()
+            if str(k).isdigit() and isinstance(v, (int, float))}
+
+
+def submit_mcq(course_code, session, score=100, retries=3):
+    """Set the MCQ assessment score for one session. True iff accepted.
+    The portal trusts the client-computed percentage (same payload the UI
+    sends after grading)."""
+    if not _session.course_info or \
+            _session.course_info.get("COURSE_CODE") != course_code:
+        open_course(course_code)
+    ci = _session.course_info
+    out = _with_retry(lambda: _session._post("/curricula/student/session/mcq", {
+        "key": KEY, "session": session,
+        "course_code": ci.get("COURSE_CODE"),
+        "course_name": ci.get("COURSE_NAME") or ci.get("COURSE_CODE"),
+        "USER_ID": _session.info["USER_ID"], "FULL_NAME": _session.full_name(),
+        "DEPARTMENT": _session.info.get("DEPARTMENT"),
+        "SLOT": _session.info.get("SLOT"), "mcq": score}),
+        retries, f"mcq {session}")
+    return out.get("Status") == 1
+
+
 def list_courses():
     """All courses on the logged-in account (fresh from the portal)."""
     return _with_retry(_session.list_courses, 3, "getcourses")

@@ -8,4 +8,5 @@ from .portal_http import (  # noqa: F401
     Portal, PortalError,
     up, login_with_token, login_with_password, detect_identity,
     list_courses, open_course, read_slot, submit_links, session_code,
+    mcq_scores, submit_mcq,
 )

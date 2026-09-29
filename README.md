@@ -34,6 +34,8 @@ coverage) and accepts multi-selects for both courses and units:
    portal UI sends)
 4. Re-reads via `student/session/getsessionstatus` and confirms the portal now
    serves the GitHub URL
+5. Sweeps the course's MCQ assessments: any score below 100 is topped up to
+   100 (`student/session/mcq` — same trusted-client payload the UI sends)
 
 ## Safety
 - **Course binding**: all reads/writes carry the course's own `COURSE_INFO`

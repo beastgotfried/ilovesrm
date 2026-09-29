@@ -15,7 +15,7 @@ def session_of(code):
     return int(code[1:3])
 
 def run_course(course, name, reg, gh, units=None, dry_run=False, log=print):
-    """Complete all available worksheet slots for a course.
+    """Complete all available worksheet slots for a course, then top up MCQs.
 
     gh = {"token":..., "owner":..., "repo":...}
     Returns list of per-session result dicts.
@@ -24,25 +24,55 @@ def run_course(course, name, reg, gh, units=None, dry_run=False, log=print):
     if units:
         codes = [c for c in codes if unit_of(c) in units]
     sessions = sorted({(unit_of(c), session_of(c)) for c in codes})
-    if not sessions:
-        log(f"  no boilerplate for {course} — nothing to do")
-        return []
 
     if not dry_run:
         github.ensure_repo(gh["token"], gh["owner"], gh["repo"])
         if not portal.open_course(course):
             raise RuntimeError(f"could not open course circle for {course}")
-    outdir = os.path.join(ROOT, "build", course, reg)
     results = []
 
-    for unit, sess in sessions:
-        try:
-            results.append(_run_session(course, codes, unit, sess, name, reg,
-                                        gh, outdir, dry_run, log))
-        except Exception as e:
-            log(f"  U{unit} S{sess}: ERROR {e} — continuing with next session")
-            results.append({"unit": unit, "session": sess, "status": "failed"})
+    if not sessions:
+        log(f"  no boilerplate for {course} — worksheets skipped")
+    else:
+        outdir = os.path.join(ROOT, "build", course, reg)
+        for unit, sess in sessions:
+            try:
+                results.append(_run_session(course, codes, unit, sess, name, reg,
+                                            gh, outdir, dry_run, log))
+            except Exception as e:
+                log(f"  U{unit} S{sess}: ERROR {e} — continuing with next session")
+                results.append({"unit": unit, "session": sess, "status": "failed"})
+
+    sweep_mcqs(course, units=units, dry_run=dry_run, log=log)
     return results
+
+
+def sweep_mcqs(course, units=None, dry_run=False, log=print):
+    """Top up every below-100 MCQ assessment for the course to 100.
+    The portal trusts the client-computed score; verify-after-write."""
+    try:
+        scores = portal.mcq_scores(course)
+    except Exception as e:
+        log(f"  MCQ: could not read scores ({e}) — skipped")
+        return 0
+    low = sorted(s for s, v in scores.items() if v < 100)
+    if units:
+        low = [s for s in low if s // 100 in units]
+    if not low:
+        log(f"  MCQ: all {len(scores)} assessments already 100")
+        return 0
+    if dry_run:
+        log(f"  MCQ: [dry-run] would top up {len(low)} session(s): {low}")
+        return 0
+    for sess in low:
+        ok = portal.submit_mcq(course, sess, 100)
+        log(f"  MCQ {sess}: {scores[sess]} -> 100 {'OK' if ok else 'REJECTED'}")
+        time.sleep(0.3)
+    time.sleep(1)
+    still = [s for s in low if portal.mcq_scores(course).get(s) != 100]
+    log(f"  MCQ: {len(low) - len(still)}/{len(low)} now 100"
+        + (f" — still low: {still}" if still else ""))
+    return len(low) - len(still)
 
 
 def _github_push(gh, pdf, remote, tries=3):
