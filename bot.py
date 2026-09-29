@@ -50,7 +50,11 @@ def portal_login(cfg):
     if portal.up():
         who = portal.detect_identity()
         if who["reg"]:
-            return who
+            ans = input(f"  Cached session: {who['name']} ({who['reg']}). "
+                        f"Use this account? [Y/n]: ").strip().lower()
+            if ans in ("", "y", "yes"):
+                return who
+            print("  Switching accounts — paste the new account's token below.")
 
     print("No usable portal session cached.")
     print("  [1] paste JWT  — log in on any browser, devtools console: "

@@ -47,31 +47,51 @@ def run_course(course, name, reg, gh, units=None, dry_run=False, log=print):
     return results
 
 
+def _data_sessions(course):
+    """Every session number with a local solutions.json — covers sessions
+    the student's MCQ record has never attempted or not yet listed."""
+    base = os.path.join(ROOT, "data", course)
+    out = set()
+    if os.path.isdir(base):
+        for unit in os.listdir(base):
+            udir = os.path.join(base, unit)
+            if not unit.startswith("unit-") or not os.path.isdir(udir):
+                continue
+            for code in os.listdir(udir):
+                if os.path.exists(os.path.join(udir, code, "solutions.json")):
+                    out.add(int(code[:3]))
+    return out
+
+
 def sweep_mcqs(course, units=None, dry_run=False, log=print):
-    """Top up every below-100 MCQ assessment for the course to 100.
-    The portal trusts the client-computed score; verify-after-write."""
+    """Top up every below-100 MCQ assessment for the course to 100 —
+    including sessions never attempted (absent from the MCQ record but
+    present in the local solution-key grid). Verify-after-write."""
     try:
         scores = portal.mcq_scores(course)
     except Exception as e:
         log(f"  MCQ: could not read scores ({e}) — skipped")
         return 0
-    low = sorted(s for s, v in scores.items() if v < 100)
+    candidates = sorted(set(scores) | _data_sessions(course))
+    low = [s for s in candidates if scores.get(s, 0) < 100]
     if units:
         low = [s for s in low if s // 100 in units]
     if not low:
-        log(f"  MCQ: all {len(scores)} assessments already 100")
+        log(f"  MCQ: all {len(candidates)} assessments already 100")
         return 0
     if dry_run:
         log(f"  MCQ: [dry-run] would top up {len(low)} session(s): {low}")
         return 0
     for sess in low:
         ok = portal.submit_mcq(course, sess, 100)
-        log(f"  MCQ {sess}: {scores[sess]} -> 100 {'OK' if ok else 'REJECTED'}")
+        tag = "new" if sess not in scores else str(scores[sess])
+        log(f"  MCQ {sess}: {tag} -> 100 {'OK' if ok else 'REJECTED'}")
         time.sleep(0.3)
     time.sleep(1)
-    still = [s for s in low if portal.mcq_scores(course).get(s) != 100]
+    after = portal.mcq_scores(course)
+    still = [s for s in low if after.get(s) != 100]
     log(f"  MCQ: {len(low) - len(still)}/{len(low)} now 100"
-        + (f" — still low: {still}" if still else ""))
+        + (f" — not recorded: {still}" if still else ""))
     return len(low) - len(still)
 
 
