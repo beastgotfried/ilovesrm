@@ -72,7 +72,7 @@ def portal_login(cfg):
         who = portal.login_with_password(user, pw, key)
     else:
         while True:
-            token = getpass.getpass("JWT token (paste is hidden — just press Enter after): ").strip()
+            token = input("JWT token (paste the full copy(localStorage.jwtToken) output): ").strip()
             # instant local decode — feedback even if the portal is slow
             try:
                 import time
