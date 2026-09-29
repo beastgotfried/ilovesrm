@@ -47,6 +47,7 @@ def scrub_cached_github_token(cfg):
 def portal_login(cfg):
     """Ensure an authenticated portal session. Returns identity dict."""
     # 1. cached token, auto-refreshed
+    print("  checking cached portal session...")
     if portal.up():
         who = portal.detect_identity()
         if who["reg"]:
@@ -67,10 +68,35 @@ def portal_login(cfg):
         user = input("Portal registration no (RA...): ").strip()
         pw = getpass.getpass("Portal password: ")
         key = cfg.get("captcha_key")
+        print("  logging in (captcha solve can take a minute)...")
         who = portal.login_with_password(user, pw, key)
     else:
-        token = getpass.getpass("JWT token: ").strip()
-        who = portal.login_with_token(token)
+        while True:
+            token = getpass.getpass("JWT token (paste is hidden — just press Enter after): ").strip()
+            # instant local decode — feedback even if the portal is slow
+            try:
+                import time
+                from core.portal_http import _jwt_payload
+                p = _jwt_payload(token)
+                print(f"  token decodes: {p.get('FULL_NAME')} ({p.get('USER_ID')})")
+                exp = p.get("exp")
+                if exp and exp < time.time():
+                    print("  this token is EXPIRED — copy a fresh one from the "
+                          "browser tab and paste again")
+                    continue
+            except Exception:
+                print("  that doesn't look like a JWT — paste the full "
+                      "copy(localStorage.jwtToken) output")
+                continue
+            print("  validating with the portal (can take up to a minute "
+                  "when it's flaky)...")
+            try:
+                who = portal.login_with_token(token)
+                print("  portal accepted the session")
+                break
+            except Exception as e:
+                print(f"  portal validation failed: {e}")
+                print("  paste the token again (or Ctrl+C to quit)")
 
     return {"reg": who["reg"], "name": who["name"], "logged_in": True}
 
