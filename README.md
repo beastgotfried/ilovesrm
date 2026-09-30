@@ -41,7 +41,10 @@ coverage) and accepts multi-selects for both courses and units:
 - **Course binding**: all reads/writes carry the course's own `COURSE_INFO`
   object (incl. its `BATCH_ID`) fetched from the account's course list — a
   wrong-course write is impossible even though session codes repeat across courses
-- **Idempotent**: slots already holding the correct link are skipped
+- **Idempotent / completion-aware**: a session is skipped entirely when its
+  MCQ is already 100 AND both SLO PDF slots hold links; slots holding the exact
+  target link are never re-submitted, and filled (possibly verified) slots are
+  never re-touched — only empty slots get a link
 - **Verify-after-write**: every submit is re-read before being counted as done
 - **Resilient**: transient portal failures (connection resets, 5xx) are
   retried with backoff; a failed session is logged and the run continues

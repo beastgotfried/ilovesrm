@@ -1,6 +1,8 @@
 """Pipeline: boilerplate db -> personalized PDF -> GitHub -> portal link -> verify.
 
-Idempotent: slots already holding the exact target URL are skipped.
+Idempotent: a session is skipped entirely when it is already complete —
+MCQ at 100 AND both SLO PDF slots holding links — so re-runs cost nothing.
+Partially done sessions only fill what is missing (empty SLO slots, low MCQ).
 Safety: every portal write is guarded by an on-screen course-code check.
 """
 import os, time
@@ -29,19 +31,32 @@ def run_course(course, name, reg, gh, units=None, dry_run=False, log=print):
         github.ensure_repo(gh["token"], gh["owner"], gh["repo"])
         if not portal.open_course(course):
             raise RuntimeError(f"could not open course circle for {course}")
+
+    # snapshot MCQ scores once — used for the per-session skip check
+    scores = {}
+    if not dry_run:
+        try:
+            scores = portal.mcq_scores(course)
+        except Exception as e:
+            log(f"  MCQ scores unreadable ({e}) — skip check will use links only")
     results = []
 
     if not sessions:
         log(f"  no boilerplate for {course} — worksheets skipped")
     else:
         outdir = os.path.join(ROOT, "build", course, reg)
+        skipped = 0
         for unit, sess in sessions:
             try:
-                results.append(_run_session(course, codes, unit, sess, name, reg,
-                                            gh, outdir, dry_run, log))
+                r = _run_session(course, codes, unit, sess, name, reg,
+                                 gh, outdir, dry_run, log, scores)
+                results.append(r)
+                skipped += r["status"] in ("already-complete", "already-correct")
             except Exception as e:
                 log(f"  U{unit} S{sess}: ERROR {e} — continuing with next session")
                 results.append({"unit": unit, "session": sess, "status": "failed"})
+        if skipped:
+            log(f"  {skipped}/{len(sessions)} session(s) already complete — skipped")
 
     sweep_mcqs(course, units=units, dry_run=dry_run, log=log)
     return results
@@ -107,28 +122,57 @@ def _github_push(gh, pdf, remote, tries=3):
             delay *= 2
 
 
-def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log):
+def _expected_url(gh, course, reg, code):
+    return (f"https://github.com/{gh['owner']}/{gh['repo']}"
+            f"/blob/main/{course}/{reg}/{code}_solved.pdf")
+
+
+def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log,
+                 scores=None):
     pair = sorted(c for c in codes if unit_of(c) == unit and session_of(c) == sess)
-    urls = []
-    for code in pair:
-        pdf = pdfgen.render(course, code, name, reg, outdir)
-        if dry_run:
-            urls.append(f"https://github.com/{gh['owner']}/{gh['repo']}/blob/main/{course}/{reg}/{code}_solved.pdf")
-        else:
-            remote = f"{course}/{reg}/{code}_solved.pdf"
-            urls.append(_github_push(gh, pdf, remote))
+    expected = [_expected_url(gh, course, reg, c) for c in pair]
+    sess_int = unit * 100 + sess
+    mcq = (scores or {}).get(sess_int, 0)
 
     if dry_run:
-        log(f"  U{unit} S{sess}: [dry-run] would submit {len(urls)} link(s)")
+        log(f"  U{unit} S{sess}: [dry-run] would submit {len(expected)} link(s)")
         return {"unit": unit, "session": sess, "status": "dry-run"}
 
-    # skip if both slots already hold the target links
+    # ---- skip check BEFORE any render/upload work -------------------------
     state = portal.read_slot(course, unit, sess)
-    if state["links"] and all(l == u for l, u in zip(state["links"], urls)):
-        log(f"  U{unit} S{sess}: already correct — skipped")
+    links = state["links"]                      # [slo1_url|None, slo2_url|None]
+    both_filled = all(links)
+    exact = both_filled and all(l == u for l, u in zip(links, expected))
+
+    if exact and mcq >= 100:
+        log(f"  U{unit} S{sess}: MCQ 100 + PDFs linked — skipped (already-complete)")
+        return {"unit": unit, "session": sess, "status": "already-complete"}
+    if exact:
+        log(f"  U{unit} S{sess}: PDFs already correct (MCQ {mcq} — sweep will top up)")
+        return {"unit": unit, "session": sess, "status": "already-correct"}
+    if both_filled and mcq >= 100:
+        # slots hold links (possibly older/catbox) and assessment is done —
+        # do NOT touch: resubmitting flips Verified -> Submitted
+        log(f"  U{unit} S{sess}: MCQ 100 + both PDF slots filled — skipped (untouched)")
+        return {"unit": unit, "session": sess, "status": "already-complete"}
+
+    # ---- fill only what is missing ---------------------------------------
+    urls = []
+    for i, code in enumerate(pair):
+        if i < len(links) and links[i]:
+            urls.append(links[i])               # keep existing link, don't resubmit
+            continue
+        pdf = pdfgen.render(course, code, name, reg, outdir)
+        urls.append(_github_push(gh, pdf, f"{course}/{reg}/{code}_solved.pdf"))
+
+    todo = [i for i in range(len(pair)) if i >= len(links) or not links[i]]
+    if not todo:
+        log(f"  U{unit} S{sess}: PDFs done (MCQ {mcq} — sweep will top up)")
         return {"unit": unit, "session": sess, "status": "already-correct"}
 
-    ok = portal.submit_links(course, unit, sess, urls)
+    # submit ONLY the empty slots — never re-touch a filled (possibly verified) slot
+    submit_urls = [u if i in todo else None for i, u in enumerate(urls)]
+    ok = portal.submit_links(course, unit, sess, submit_urls)
     if not ok:
         log(f"  U{unit} S{sess}: SUBMIT FAILED")
         return {"unit": unit, "session": sess, "status": "failed"}
@@ -138,5 +182,5 @@ def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log)
     check = portal.read_slot(course, unit, sess)
     good = bool(check["links"]) and all(l == u for l, u in zip(check["links"], urls))
     status = "verified" if good else "submitted-unverified"
-    log(f"  U{unit} S{sess}: {status}")
+    log(f"  U{unit} S{sess}: {status} (filled SLO {', '.join(str(i+1) for i in todo)})")
     return {"unit": unit, "session": sess, "status": status, "urls": urls}
