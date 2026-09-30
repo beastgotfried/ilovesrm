@@ -15,6 +15,7 @@ import getpass
 import json
 import os
 import re
+import subprocess
 import sys
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
@@ -195,9 +196,26 @@ def pick_units(course_codes):
         return units
 
 
+def staleness_hint():
+    """Warn when this clone is behind origin/main (missing new boilerplates).
+    Advisory only — never blocks a run, silently skips if git/remote absent."""
+    try:
+        subprocess.run(["git", "fetch", "-q", "origin"], cwd=ROOT,
+                       timeout=15, capture_output=True)
+        out = subprocess.run(["git", "rev-list", "--count", "HEAD..origin/main"],
+                             cwd=ROOT, timeout=10, capture_output=True, text=True)
+        behind = out.stdout.strip()
+        if behind and behind != "0":
+            print(f"  !! this copy is {behind} commit(s) behind origin/main — "
+                  f"run `git pull` or you will process an OLD boilerplate db")
+    except Exception:
+        pass
+
+
 def main():
     dry = "--dry-run" in sys.argv
     print("== ecurricula-bot ==")
+    staleness_hint()
 
     cfg = load_config()
     scrub_cached_github_token(cfg)
@@ -213,10 +231,13 @@ def main():
         print(f"\n== {course} ==")
         results = pipeline.run_course(course, who["name"], who["reg"], gh,
                                       units=units, dry_run=dry)
-        ok = sum(1 for r in results if r["status"] in ("verified", "already-correct"))
+        ok = sum(1 for r in results if r["status"] in
+                 ("verified", "already-correct", "already-complete"))
+        skip = sum(1 for r in results if r["status"] == "already-complete")
         warn = sum(1 for r in results if r["status"] == "submitted-unverified")
         bad = [r for r in results if r["status"] == "failed"]
-        print(f"  summary: {ok} ok, {warn} submitted-unverified, {len(bad)} failed")
+        print(f"  summary: {ok} ok ({skip} skipped-already-complete), "
+              f"{warn} submitted-unverified, {len(bad)} failed")
         for r in bad:
             print(f"    FAILED: U{r['unit']} S{r['session']}")
 
