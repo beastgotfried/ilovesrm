@@ -1,0 +1,36 @@
+{
+ "title": "Unit – 4 : Session – 6 : SLO – 2  |  Binary Search Trees — Searching Operation",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A Binary Search Tree (BST) is a BINARY TREE with a special property.",
+    "All left descendants must be LESS than the node.",
+    "All right descendants must be GREATER than the node.",
+    "BSTs provide EFFICIENT (O(log n)) searching.",
+    "BSTs are used in DATABASE INDEXING and DICTIONARY (lookup/sorting) applications.",
+    "In a BST, the left subtree contains nodes SMALLER THAN the root node.",
+    "The right subtree contains nodes GREATER THAN the root node.",
+    "Search begins at the ROOT node.",
+    "If the value to be searched is less than root, go to the LEFT subtree.",
+    "If the value to be searched is not found, the result is NULL (NOT FOUND)."
+   ]
+  ],
+  [
+   "II. Algorithm to Search a Value in a BST",
+   [
+    "SearchElement (TREE, VAL)",
+    "Step 1: IF TREE -> DATA = VAL OR TREE = NULL",
+    "    Return TREE",
+    "ELSE",
+    "    IF VAL < TREE -> DATA",
+    "        Return searchElement(TREE -> LEFT, VAL)",
+    "    ELSE",
+    "        Return searchElement(TREE -> RIGHT, VAL)",
+    "    [END OF IF]",
+    "[END OF IF]",
+    "Step 2: END"
+   ]
+  ]
+ ]
+}

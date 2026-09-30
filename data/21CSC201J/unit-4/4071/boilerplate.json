@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 4 : Session – 7 : SLO – 1  |  Binary Search Trees — Insertion Operation",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "In BST insertion, first compare the new value with the ROOT (current node).",
+    "If the new value to be inserted is smaller, go to the LEFT child.",
+    "If the new value to be inserted is larger, go to the RIGHT child.",
+    "To insert a new element in BST; continue until an appropriate LEAF (NULL) position is found.",
+    "After finding appropriate position the new node is inserted at the LEAF (NULL link) location."
+   ]
+  ],
+  [
+   "II. Algorithm to Insert a Value in a BST",
+   [
+    "Insert (TREE, VAL)",
+    "Step 1: IF TREE = NULL",
+    "    Allocate memory for TREE",
+    "    SET TREE -> DATA = VAL",
+    "    SET TREE -> LEFT = TREE -> RIGHT = NULL",
+    "ELSE",
+    "    IF VAL < TREE -> DATA",
+    "        Insert(TREE -> LEFT, VAL)",
+    "    ELSE",
+    "        Insert(TREE -> RIGHT, VAL)",
+    "    [END OF IF]",
+    "[END OF IF]",
+    "Step 2: END"
+   ]
+  ]
+ ]
+}

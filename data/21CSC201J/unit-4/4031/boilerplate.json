@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 3 : SLO – 1  |  Tree Traversals — Match the Following",
+ "sections": [
+  [
+   "I. Answers",
+   [
+    "1. Inorder — C. Left, Root, Right",
+    "2. Preorder — B. Root, Left, Right",
+    "3. Postorder — A. Left, Right, Root",
+    "4. Level Order — E. Breadth-first traversal",
+    "5. Depth First Search — D. Inorder/Preorder/Postorder",
+    "6. Root in Postorder — G. Last node visited",
+    "7. Root in Preorder — I. First node visited",
+    "8. Stack Used In — J. DFS",
+    "9. Queue Used In — H. BFS",
+    "10. Binary Tree Traversal — F. Node visiting technique"
+   ]
+  ]
+ ]
+}

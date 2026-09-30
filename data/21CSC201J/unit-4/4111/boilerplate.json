@@ -1,0 +1,19 @@
+{
+ "title": "Unit – 4 : Session – 11 : SLO – 1  |  B-Trees — Insertion Algorithm",
+ "sections": [
+  [
+   "I. Inserting a New Element in a B Tree",
+   [
+    "In a B tree, all insertions are done at the LEAF NODES.",
+    "Step 1: Search the B tree to find the LEAF NODE where the new key value should be inserted.",
+    "Step 2: If the leaf node is not full, that is, it contains less than m-1 values, then insert the new element",
+    "    in the node keeping the node's elements ordered.",
+    "Step 3: If the leaf node is FULL, that is, the leaf node already contains m-1 key values, then:",
+    "    a) Insert the new value IN ORDER into the existing set of keys,",
+    "    b) SPLIT the node at its median into two nodes (note that the split nodes are half full), and",
+    "    c) Push the median element up to its PARENT NODE. If the parent's node is already full, then",
+    "       SPLIT the parent node by following the same steps."
+   ]
+  ]
+ ]
+}

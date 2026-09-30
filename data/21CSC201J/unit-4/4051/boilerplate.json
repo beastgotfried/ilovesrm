@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 5 : SLO – 1  |  Implementation of Tree Using Array — Concepts",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "The array representation of binary tree can be done using a technique called SEQUENTIAL (LEVEL-ORDER) REPRESENTATION.",
+    "In level-order traversal, the elements of the binary tree are stored in the array in the order in which they are visited in a BREADTH-FIRST (LEVEL-ORDER) TRAVERSAL.",
+    "The array representation of binary tree allows for efficient RANDOM ACCESS to the elements of the tree.",
+    "If a binary tree has n nodes, the array representation of the tree can be stored in an array of size n, allowing for DIRECT (O(1)) access to each node in the tree.",
+    "The ROOT of the binary tree is stored at the first position of the array.",
+    "The left child of node i can be found at position 2*i.",
+    "The right child of node i can be found at position 2*i + 1.",
+    "The parent of node i can be found at position floor(i/2).",
+    "The array representation of binary tree can be useful in algorithms that require fast access to the elements of a tree, such as HEAP SORT or PRIORITY QUEUE (searching) algorithms.",
+    "It is important to note that not all binary trees can be EFFICIENTLY represented in an array, as the SIZE (number of nodes) in the array must be known in advance."
+   ]
+  ]
+ ]
+}

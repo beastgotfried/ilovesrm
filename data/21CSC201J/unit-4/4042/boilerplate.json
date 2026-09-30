@@ -1,0 +1,41 @@
+{
+ "title": "Unit – 4 : Session – 4 : SLO – 2  |  Tree Traversals — Post-Order Traversal",
+ "sections": [
+  [
+   "I. Algorithm for Post-Order Traversal (Left, Right, Root)",
+   [
+    "Step 1: Repeat Steps 2 to 4 while TREE != NULL",
+    "Step 2: POSTORDER(TREE -> LEFT)",
+    "Step 3: POSTORDER(TREE -> RIGHT)",
+    "Step 4: Write TREE -> DATA",
+    "[END OF LOOP]",
+    "Step 5: END"
+   ]
+  ],
+  [
+   "II. Post-Order Traversal — Tree 1 (root 41)",
+   [
+    "Tree structure: 41 -> left 30 (left 23; right 37 -> right 38); right 79 (left 45; right 81 -> right 96)",
+    "Post-order: 23, 38, 37, 30, 45, 96, 81, 79, 41"
+   ]
+  ],
+  [
+   "III. Post-Order Traversal — Tree 2 (root 73)",
+   [
+    "Tree structure: 73 -> left 39 (left 26 -> right 31; right 43 -> right 67); right 93 (left 73, right 95)",
+    "Post-order: 31, 26, 67, 43, 39, 73, 95, 93, 73"
+   ]
+  ],
+  [
+   "IV. True or False",
+   [
+    "1. Preorder + Postorder enough to reconstruct the original tree? FALSE — preorder and postorder do not uniquely",
+    "   determine a binary tree (unless it is a full binary tree); an inorder sequence is needed.",
+    "2. Postorder + Inorder enough to reconstruct the original tree? TRUE — the last element of postorder is the root;",
+    "   inorder splits left/right subtrees; recurse to rebuild the unique tree.",
+    "3. Leaf nodes appear in the same relative order in preorder, inorder and postorder? TRUE — leaves are always",
+    "   visited left-to-right in all three depth-first traversals."
+   ]
+  ]
+ ]
+}

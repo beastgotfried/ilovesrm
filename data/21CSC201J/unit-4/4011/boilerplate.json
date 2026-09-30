@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 1 : SLO – 1  |  Trees — Introduction",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A TREE is a non-linear data structure used to represent hierarchical relationships.",
+    "The topmost node in a tree is called the ROOT.",
+    "A node that has no children is called a LEAF (terminal node).",
+    "A node having at least one child is called an INTERNAL (non-terminal) node.",
+    "A PARENT is a node that has one or more child nodes.",
+    "The nodes that are directly connected and come after a node are its CHILDREN.",
+    "The number of edges from the root to the node is called the DEPTH (level).",
+    "The length of the path from a node to the deepest leaf is called the HEIGHT.",
+    "A tree with no nodes is called an EMPTY (NULL) tree.",
+    "A tree in which each node has at most two children is called a BINARY tree.",
+    "The degree of a node is the number of its CHILDREN.",
+    "The ANCESTORS of a node includes all the nodes along the path from the node to the root.",
+    "A tree in which all leaf nodes are at the same level is a PERFECT BINARY TREE.",
+    "The tree data structure is used in many applications such as FILE SYSTEMS, DATABASE INDEXING and COMPILER DESIGN.",
+    "The total number of nodes in a full binary tree is 2^(h+1) - 1, where h is the height."
+   ]
+  ]
+ ]
+}

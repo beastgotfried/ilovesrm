@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 10 : SLO – 2  |  Heaps",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A heap is a special TREE-BASED (complete binary tree) data structure.",
+    "Heaps are usually implemented as ARRAYS.",
+    "A MAX-heap has the largest element at the root.",
+    "A MIN-heap has the smallest element at the root.",
+    "A heap is a COMPLETE binary tree.",
+    "Heaps are used in PRIORITY queues.",
+    "In a max-heap, each parent is GREATER THAN OR EQUAL TO its children.",
+    "In a min-heap, each parent is LESS THAN OR EQUAL TO its children.",
+    "Heap insertion is done at the LAST (next available leaf) position.",
+    "After insertion, we perform HEAPIFY-UP (up-heap / bubble-up) to maintain heap property.",
+    "Deletion is done from the ROOT of the heap.",
+    "After deletion, we perform HEAPIFY-DOWN (down-heap / reheapification).",
+    "Heaps can be efficiently stored using ARRAYS.",
+    "The time complexity for insertion and deletion in a heap is O(log n).",
+    "Heap sort is a sorting technique based on the HEAP data structure."
+   ]
+  ]
+ ]
+}

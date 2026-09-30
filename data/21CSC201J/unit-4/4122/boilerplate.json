@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 12 : SLO – 2  |  Different Hashing Techniques — Match the Following",
+ "sections": [
+  [
+   "I. Answers",
+   [
+    "1. Linear Probing — E. Check next available index",
+    "2. Quadratic Probing — F. Use i^2 to resolve collisions",
+    "3. Double Hashing — G. Use second hash function",
+    "4. Chaining — A. Linked list at each bucket",
+    "5. Hash Function — C. Maps key to table index",
+    "6. Load Factor — B. Number of entries / table size",
+    "7. Open Addressing — D. All data in one array",
+    "8. Primary Clustering — H. Problem in linear probing",
+    "9. Secondary Clustering — I. Problem in quadratic probing",
+    "10. Hash Table — J. Data structure for fast search"
+   ]
+  ]
+ ]
+}

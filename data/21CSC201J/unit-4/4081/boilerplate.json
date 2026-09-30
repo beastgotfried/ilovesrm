@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 4 : Session – 8 : SLO – 1  |  AVL Tree — Rotations (LL, RR, LR, RL)",
+ "sections": [
+  [
+   "I. LL and RR Rotations",
+   [
+    "In an AVL tree, LL rotation is performed when a node becomes unbalanced due to insertion in the LEFT subtree of its LEFT child.",
+    "LL Rotation is a type of SINGLE (right) rotation used to balance an AVL tree.",
+    "After an LL rotation, the height difference between the left and right subtrees of the previously unbalanced node becomes at most 1.",
+    "In an LL rotation, the left child of the unbalanced node becomes the new ROOT of the subtree.",
+    "The time complexity of an LL rotation operation in an AVL tree is O(1).",
+    "RR rotation is used in an AVL tree when a node becomes unbalanced due to insertion in the RIGHT subtree of its RIGHT child.",
+    "RR rotation is a type of SINGLE (left) rotation in AVL trees.",
+    "In RR rotation, the right child of the unbalanced node becomes the new ROOT of the subtree.",
+    "After an RR rotation, the height difference between the left and right subtrees of the previously unbalanced node becomes at most 1.",
+    "The time complexity of an RR rotation operation in an AVL tree is O(1)."
+   ]
+  ],
+  [
+   "II. LR and RL Rotations",
+   [
+    "In an AVL tree, LR rotation is performed when the left child of a node is RIGHT heavy.",
+    "LR rotation is a combination of LEFT (RR) rotation followed by RIGHT (LL) rotation.",
+    "To fix an imbalance at a node caused by insertion in the right subtree of its left child, we perform an LR rotation.",
+    "After an LR rotation, the node that was inserted becomes the ROOT of the subtree.",
+    "In LR rotation, the imbalance occurs at node A, and its left child B has a right child C; the first step is a LEFT (RR) rotation on node B.",
+    "RL rotation is required when a node becomes unbalanced due to insertion in the LEFT subtree of its RIGHT child.",
+    "RL rotation is a combination of two rotations: first a RIGHT (LL) rotation on the right child, followed by a LEFT (RR) rotation on the unbalanced node.",
+    "RL rotation is a type of DOUBLE rotation in AVL trees.",
+    "In RL rotation, the node that becomes the new root of the subtree is the LEFT child of the right child of the unbalanced node.",
+    "The main goal of performing an RL rotation is to restore the BALANCE (height-balance) property of the AVL tree."
+   ]
+  ]
+ ]
+}

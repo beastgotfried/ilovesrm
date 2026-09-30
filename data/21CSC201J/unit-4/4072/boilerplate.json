@@ -1,0 +1,48 @@
+{
+ "title": "Unit – 4 : Session – 7 : SLO – 2  |  Binary Search Trees — Deletion Operation",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "Deletion in BST has THREE cases.",
+    "Case 1: Node to be deleted is a LEAF.",
+    "Case 2: Node has ONE child.",
+    "Case 3: Node has TWO children.",
+    "In case 3, find the INORDER SUCCESSOR (or inorder predecessor).",
+    "In case 3, replace the node with its INORDER SUCCESSOR'S value.",
+    "In case 3, finally DELETE the inorder successor node.",
+    "In case 2, if left child is missing, replace with RIGHT child.",
+    "In case 2, if right child is missing, replace with LEFT child.",
+    "A leaf node can be directly REMOVED (deleted)."
+   ]
+  ],
+  [
+   "II. Algorithm to Delete a Node from a BST",
+   [
+    "Delete (TREE, VAL)",
+    "Step 1: IF TREE = NULL",
+    "    Write \"VALUE NOT FOUND\"",
+    "ELSE IF VAL < TREE -> DATA",
+    "    Delete(TREE -> LEFT, VAL)",
+    "ELSE IF VAL > TREE -> DATA",
+    "    Delete(TREE -> RIGHT, VAL)",
+    "ELSE IF TREE -> LEFT AND TREE -> RIGHT",
+    "    SET TEMP = findLargestNode(TREE -> LEFT)",
+    "    SET TREE -> DATA = TEMP -> DATA",
+    "    Delete(TREE -> LEFT, TEMP -> DATA)",
+    "ELSE",
+    "    SET TEMP = TREE",
+    "    IF TREE -> LEFT = NULL AND TREE -> RIGHT = NULL",
+    "        SET TREE = NULL",
+    "    ELSE IF TREE -> LEFT != NULL",
+    "        SET TREE = TREE -> LEFT",
+    "    ELSE",
+    "        SET TREE = TREE -> RIGHT",
+    "    [END OF IF]",
+    "    FREE TEMP",
+    "[END OF IF]",
+    "Step 2: END"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "title": "Unit – 4 : Session – 3 : SLO – 2  |  Tree Traversals — In-Order Traversal",
+ "sections": [
+  [
+   "I. Algorithm for In-Order Traversal (Left, Root, Right)",
+   [
+    "Step 1: Repeat Steps 2 to 4 while TREE != NULL",
+    "Step 2: INORDER(TREE -> LEFT)",
+    "Step 3: Write TREE -> DATA",
+    "Step 4: INORDER(TREE -> RIGHT)",
+    "[END OF LOOP]",
+    "Step 5: END"
+   ]
+  ],
+  [
+   "II. In-Order Traversal — Tree 1 (root 46)",
+   [
+    "Tree structure: 46 -> left 20 (right 22 -> right 29); right 69 (left 57; right 88 -> left 73, right 91)",
+    "In-order: 20, 22, 29, 46, 57, 69, 73, 88, 91"
+   ]
+  ],
+  [
+   "III. In-Order Traversal — Tree 2 (root 58)",
+   [
+    "Tree structure: 58 -> left 30 (left 23; right 49 -> left 31); right 75 (left 69; right 99 -> left 87)",
+    "In-order: 23, 30, 31, 49, 58, 69, 75, 87, 99"
+   ]
+  ]
+ ]
+}

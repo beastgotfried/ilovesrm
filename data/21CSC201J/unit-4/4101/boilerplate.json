@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 10 : SLO – 1  |  B Trees",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A B Tree is a SELF-BALANCING (m-way search) tree.",
+    "B Trees are used in DATABASES and FILE SYSTEMS.",
+    "A B Tree of order m has at most m CHILDREN.",
+    "A node can contain at most m-1 keys.",
+    "All leaf nodes appear on the SAME LEVEL.",
+    "B Trees are BALANCED trees.",
+    "Internal nodes have at least ceil(m/2) children.",
+    "B Trees grow and shrink from the ROOT (top).",
+    "Insertion in B Trees is done at the LEAF LEVEL.",
+    "If a node overflows, it is SPLIT.",
+    "If a node underflows, it may MERGE or REDISTRIBUTE (borrow).",
+    "B Trees eliminate the need for REORGANIZATION (rebalancing of the whole tree) after insertions and deletions.",
+    "B Trees reduce time for DISK (secondary storage) accesses.",
+    "B Trees maintain SORTED data.",
+    "B Trees are generalizations of BINARY SEARCH TREES (2-3 trees)."
+   ]
+  ]
+ ]
+}

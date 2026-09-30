@@ -1,0 +1,34 @@
+{
+ "title": "Unit – 4 : Session – 6 : SLO – 1  |  Expression Tree",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "An EXPRESSION TREE is a binary tree representing arithmetic expressions.",
+    "The LEAVES of an expression tree are operands.",
+    "The INTERNAL NODES of an expression tree are operators.",
+    "The INORDER traversal of an expression tree gives the infix expression.",
+    "The POSTORDER traversal of an expression tree gives the postfix expression."
+   ]
+  ],
+  [
+   "II. Expression Tree for: a + (b * c) + d * (e + f)",
+   [
+    "Fully parenthesised: (a + ((b * c) + (d * (e + f))))",
+    "Tree structure (indentation shows children):",
+    "            +",
+    "          /   \\",
+    "         a     +",
+    "             /   \\",
+    "            *     *",
+    "           / \\   / \\",
+    "          b   c d   +",
+    "                  / \\",
+    "                 e   f",
+    "Root = + (the last operation evaluated).",
+    "Inorder (infix):  a + b * c + d * e + f",
+    "Postorder (postfix): a b c * d e f + * + +"
+   ]
+  ]
+ ]
+}

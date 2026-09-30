@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 1 : SLO – 2  |  Different Types of Trees — Match the Following",
+ "sections": [
+  [
+   "I. Answers",
+   [
+    "1. Binary Tree — E. At most 2 children",
+    "2. Full Binary Tree — C. Each node has 0 or 2 children",
+    "3. Complete Binary Tree — D. All levels filled except possibly last",
+    "4. Perfect Binary Tree — A. All leaves at same level",
+    "5. Balanced Tree — B. Heights of subtrees differ by at most 1",
+    "6. Degenerate Tree — F. Every node has one child",
+    "7. AVL Tree — J. Heights of subtrees differ by 1, 0, -1",
+    "8. B Tree — I. Generalized form of BST",
+    "9. Red-Black Tree — H. Self-balancing BST",
+    "10. Heap — G. Complete binary tree used in priority queues"
+   ]
+  ]
+ ]
+}

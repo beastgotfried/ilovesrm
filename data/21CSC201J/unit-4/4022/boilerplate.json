@@ -1,0 +1,19 @@
+{
+ "title": "Unit – 4 : Session – 2 : SLO – 2  |  Operations on Binary Trees — Insertion and Deletion",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "In a binary tree, each node has at most TWO children.",
+    "The first node inserted into a binary tree is called the ROOT node.",
+    "In a binary tree insertion algorithm, if a node's left child is NULL, the new node is inserted at the LEFT position.",
+    "In a level-order insertion (used for a complete binary tree), the new node is inserted at the first available position from LEFT to RIGHT.",
+    "In recursive insertion of a binary tree, the base case occurs when the current node is NULL.",
+    "Inserting into a binary tree without any specific order results in a GENERAL (unordered/random) binary tree.",
+    "In a binary tree, a node with ZERO (no) children can be deleted by simply removing the node.",
+    "A node with one child can be deleted by linking its parent directly to its CHILD.",
+    "When deleting a node with two children, the successor or predecessor must be deleted from its ORIGINAL location."
+   ]
+  ]
+ ]
+}

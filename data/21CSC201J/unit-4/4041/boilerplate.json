@@ -1,0 +1,30 @@
+{
+ "title": "Unit – 4 : Session – 4 : SLO – 1  |  Tree Traversals — Pre-Order Traversal",
+ "sections": [
+  [
+   "I. Algorithm for Pre-Order Traversal (Root, Left, Right)",
+   [
+    "Step 1: Repeat Steps 2 to 4 while TREE != NULL",
+    "Step 2: Write TREE -> DATA",
+    "Step 3: PREORDER(TREE -> LEFT)",
+    "Step 4: PREORDER(TREE -> RIGHT)",
+    "[END OF LOOP]",
+    "Step 5: END"
+   ]
+  ],
+  [
+   "II. Pre-Order Traversal — Tree 1 (root 63)",
+   [
+    "Tree structure: 63 -> left 26 (left 18 -> left 10, right 22; right 32 -> right 34); right 68 (right 82)",
+    "Pre-order: 63, 26, 18, 10, 22, 32, 34, 68, 82"
+   ]
+  ],
+  [
+   "III. Pre-Order Traversal — Tree 2 (root 62)",
+   [
+    "Tree structure: 62 -> left 39 (left 20; right 50 -> right 61); right 74 (left 62; right 84 -> right 95)",
+    "Pre-order: 62, 39, 20, 50, 61, 74, 62, 84, 95"
+   ]
+  ]
+ ]
+}

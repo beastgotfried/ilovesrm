@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 2 : SLO – 1  |  Binary Trees",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A binary tree can have at most TWO children.",
+    "The left and right children are known as the LEFT CHILD and RIGHT CHILD.",
+    "A FULL binary tree has all nodes with either 0 or 2 children.",
+    "A COMPLETE binary tree fills all levels except the last from left to right.",
+    "A PERFECT binary tree has all internal nodes with 2 children and all leaves at the same level.",
+    "PREORDER traversal visits the root before the subtrees.",
+    "INORDER traversal visits the left subtree, then root, then right subtree.",
+    "POSTORDER traversal visits the subtrees before the root.",
+    "The DEPTH (level) of a node is its distance from the root.",
+    "A LEAF has no children.",
+    "The number of children of a node is called the DEGREE.",
+    "A tree where all nodes are filled except possibly the last level is COMPLETE.",
+    "The HEIGHT of the tree is the number of levels.",
+    "A node's immediate descendant is called a CHILD.",
+    "The link between two nodes is called an EDGE."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,32 @@
+{
+ "title": "Unit – 4 : Session – 5 : SLO – 2  |  Array Representation of Binary Trees",
+ "sections": [
+  [
+   "I. Tree (a) — Root 73",
+   [
+    "Structure: 73 -> left 42 (left 31 -> left 23; right 51 -> left 42, right 72); right 97 (left 74)",
+    "Array (1-indexed, '-' = empty):",
+    "Index:  1   2   3   4   5   6   7   8   9   10  11",
+    "Value:  73  42  97  31  51  -   74  23  -   42  72"
+   ]
+  ],
+  [
+   "II. Tree (b) — Root 66",
+   [
+    "Structure: 66 -> left 58 (left 28 -> left 19, right 45); right 74 (left 71; right 85 -> right 94)",
+    "Array (1-indexed, '-' = empty):",
+    "Index:  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15",
+    "Value:  66  58  74  28  -   71  85  19  45  -   -   -   -   -   94"
+   ]
+  ],
+  [
+   "III. Tree (c) — Root 42",
+   [
+    "Structure: 42 -> left 25 (right 33 -> right 35); right 70 (left 55; right 81 -> left 76, right 85)",
+    "Array (1-indexed, '-' = empty):",
+    "Index:  1   2   3   4   5   6   7   8   9   10  11  12  13  14  15",
+    "Value:  42  25  70  -   33  55  81  -   -   -   35  -   -   76  85"
+   ]
+  ]
+ ]
+}

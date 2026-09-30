@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 12 : SLO – 1  |  Hashing — Introduction",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "Hashing is used to perform efficient SEARCHING (insertion/deletion/lookup).",
+    "A HASH FUNCTION maps keys to indices.",
+    "A good hash function distributes keys UNIFORMLY (evenly).",
+    "When two keys hash to the same index, it's called a COLLISION.",
+    "Collision RESOLUTION (handling) techniques handle situations when two keys hash to same index.",
+    "OPEN ADDRESSING and CHAINING are two major collision resolution techniques.",
+    "In open addressing, all elements are stored in the same TABLE (array).",
+    "In chaining, each bucket contains a LINKED LIST.",
+    "LOAD FACTOR is the ratio of number of elements to table size.",
+    "A hash function should be EASY (fast) to compute.",
+    "LINEAR PROBING handles collision by checking the next slot.",
+    "Quadratic probing uses a QUADRATIC FUNCTION (i^2) to find next slot.",
+    "DOUBLE HASHING uses a second hash function to calculate step size.",
+    "Hash tables are widely used in DATABASES and COMPILERS (caching/dictionaries).",
+    "The time complexity of hashing for search in average case is O(1)."
+   ]
+  ]
+ ]
+}
