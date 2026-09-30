@@ -141,6 +141,7 @@ def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log,
     # ---- skip check BEFORE any render/upload work -------------------------
     state = portal.read_slot(course, unit, sess)
     links = state["links"]                      # [slo1_url|None, slo2_url|None]
+    states = state.get("states") or ["?", "?"]
     both_filled = all(links)
     exact = both_filled and all(l == u for l, u in zip(links, expected))
 
@@ -150,28 +151,32 @@ def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log,
     if exact:
         log(f"  U{unit} S{sess}: PDFs already correct (MCQ {mcq} — sweep will top up)")
         return {"unit": unit, "session": sess, "status": "already-correct"}
-    if both_filled and mcq >= 100:
-        # slots hold links (possibly older/catbox) and assessment is done —
-        # do NOT touch: resubmitting flips Verified -> Submitted
-        log(f"  U{unit} S{sess}: MCQ 100 + both PDF slots filled — skipped (untouched)")
+    if both_filled and mcq >= 100 and all(s == "Verified" for s in states):
+        # verified slots are GREEN — never touch them, whatever the links are
+        log(f"  U{unit} S{sess}: MCQ 100 + verified PDF slots — skipped (untouched)")
         return {"unit": unit, "session": sess, "status": "already-complete"}
 
-    # ---- fill only what is missing ---------------------------------------
-    urls = []
+    # ---- fill only what is missing or WRONG -------------------------------
+    # a slot needs work when it is empty OR holds a link that is not the
+    # expected one AND the slot is not Verified (green slots stay untouched)
+    todo, urls = [], list(links)
     for i, code in enumerate(pair):
-        if i < len(links) and links[i]:
-            urls.append(links[i])               # keep existing link, don't resubmit
-            continue
+        if i < len(links) and links[i] == expected[i]:
+            continue                            # already correct
+        if i < len(states) and states[i] == "Verified":
+            if i < len(links) and links[i] and links[i] != expected[i]:
+                log(f"  U{unit} S{sess} SLO{i+1}: VERIFIED slot with unexpected link — left untouched")
+            continue                            # green rule: never modify
+        todo.append(i)
         pdf = pdfgen.render(course, code, name, reg, outdir)
-        urls.append(_github_push(gh, pdf, f"{course}/{reg}/{code}_solved.pdf"))
+        urls[i] = _github_push(gh, pdf, f"{course}/{reg}/{code}_solved.pdf")
 
-    todo = [i for i in range(len(pair)) if i >= len(links) or not links[i]]
     if not todo:
         log(f"  U{unit} S{sess}: PDFs done (MCQ {mcq} — sweep will top up)")
         return {"unit": unit, "session": sess, "status": "already-correct"}
 
-    # submit ONLY the empty slots — never re-touch a filled (possibly verified) slot
-    submit_urls = [u if i in todo else None for i, u in enumerate(urls)]
+    # submit ONLY the slots being (re)filled — never re-touch the rest
+    submit_urls = [urls[i] if i in todo else None for i in range(len(pair))]
     ok = portal.submit_links(course, unit, sess, submit_urls)
     if not ok:
         log(f"  U{unit} S{sess}: SUBMIT FAILED")
