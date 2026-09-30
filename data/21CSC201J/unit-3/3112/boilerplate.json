@@ -1,0 +1,47 @@
+{
+ "title": "Unit – 3 : Session – 11 : SLO – 2  |  Circular Queue — Enqueue Operation",
+ "sections": [
+  [
+   "I. Algorithm to Insert an Element in a Circular Queue",
+   [
+    "Step 1: IF FRONT = 0 AND REAR = MAX-1  (OR FRONT = REAR + 1)",
+    "    Write OVERFLOW",
+    "    Goto Step 4",
+    "[END OF IF]",
+    "Step 2: IF FRONT = -1 AND REAR = -1",
+    "    SET FRONT = REAR = 0",
+    "ELSE IF REAR = MAX-1 AND FRONT != 0",
+    "    SET REAR = 0",
+    "ELSE",
+    "    SET REAR = REAR + 1",
+    "[END OF IF]",
+    "Step 3: SET QUEUE[REAR] = VAL",
+    "Step 4: EXIT"
+   ]
+  ],
+  [
+   "II. Programming Code — insert()",
+   [
+    "void insert() {",
+    "    int num;",
+    "    printf(\"\\n Enter the number to be inserted in the queue : \");",
+    "    scanf(\"%d\", &num);",
+    "    if ((front == 0 && rear == MAX-1) || (front == rear + 1))",
+    "        printf(\"\\n OVERFLOW\");",
+    "    else if (front == -1 && rear == -1) {",
+    "        front = rear = 0;",
+    "        queue[rear] = num;",
+    "    }",
+    "    else if (rear == MAX-1 && front != 0) {",
+    "        rear = 0;",
+    "        queue[rear] = num;",
+    "    }",
+    "    else {",
+    "        rear++;",
+    "        queue[rear] = num;",
+    "    }",
+    "}"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 3 : Session – 3 : SLO – 2  |  Stack Applications — Match the Following",
+ "sections": [
+  [
+   "I. Answers",
+   [
+    "A. Expression Evaluation — 8. Converts infix to postfix or prefix",
+    "B. Reverse Characters — 3. Characters are popped in reverse order",
+    "C. Syntax Parsing — 9. Helps in checking for balanced symbols",
+    "D. Backtracking — 6. Used in solving mazes or puzzles",
+    "E. Undo Mechanism — 7. Maintains previous states of actions",
+    "F. Function Call Management — 4. Uses call stack to manage recursion",
+    "G. Parenthesis Checking — 5. Verifies matching of open/close brackets",
+    "H. Browser History — 1. Navigates forward and backward",
+    "I. Reversing a String — 10. Uses stack",
+    "J. Tower of Hanoi — 2. Uses recursion implemented via stack"
+   ]
+  ]
+ ]
+}

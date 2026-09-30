@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 3 : Session – 6 : SLO – 1  |  Stack Applications — Recursion",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "In recursion, each function call is stored in the STACK (call stack).",
+    "The LIFO principle is followed by stacks.",
+    "Stack is used internally to implement RECURSIVE function calls.",
+    "Every recursive function must have a BASE condition to avoid infinite calls.",
+    "The process of returning from a recursive function happens in the REVERSE order of calls.",
+    "Each recursive call adds a new ACTIVATION RECORD (stack frame) to the stack.",
+    "FACTORIAL (Tower of Hanoi / Fibonacci) is a classic example of a problem solved using recursion and stacks.",
+    "The return address and local variables are stored in the function's ACTIVATION RECORD (stack frame).",
+    "The system stack helps in managing NESTED (multiple) function calls during recursion.",
+    "When the base case is reached, the stack starts to UNWIND (pop frames)."
+   ]
+  ]
+ ]
+}

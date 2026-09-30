@@ -1,0 +1,50 @@
+{
+ "title": "Unit – 3 : Session – 2 : SLO – 1  |  Array Stack — Advantages, Disadvantages, Applications",
+ "sections": [
+  [
+   "I. Advantages of Array Implementation",
+   [
+    "Stack implementation using arrays is EASY (simple) to implement.",
+    "Accessing elements in an array is FAST due to direct indexing.",
+    "Stack operations like push and pop take O(1) (constant) time in array implementation.",
+    "Arrays provide STATIC memory allocation at compile time.",
+    "Array-based stacks have CONTIGUOUS (cache-friendly) memory access, improving performance.",
+    "There is no overhead of memory allocation and DEALLOCATION (pointer management) in arrays.",
+    "Array-based stack implementation avoids the extra memory used for POINTERS in linked lists.",
+    "It is easier to IMPLEMENT (code) a stack implemented using arrays in programming.",
+    "Array implementation of stack is EFFICIENT in terms of memory for small, fixed-size stacks.",
+    "Stack overflow in array implementation is EASY to detect."
+   ]
+  ],
+  [
+   "II. Disadvantages of Array Implementation",
+   [
+    "Stack implemented using arrays has a fixed MAXIMUM size.",
+    "If the stack size is too small, it may lead to OVERFLOW.",
+    "If the stack size is too large, it may lead to WASTAGE of memory.",
+    "Arrays use STATIC memory allocation, which is less flexible.",
+    "It is difficult to RESIZE the size of a stack implemented using arrays at runtime.",
+    "Stack operations using arrays are not memory EFFICIENT for large data.",
+    "Inserting or removing elements from the stack may require checking for OVERFLOW or underflow.",
+    "Reallocation of array memory is COSTLY and not always supported in some languages.",
+    "Array implementation is not suitable when the maximum stack size is UNKNOWN (unpredictable).",
+    "Stack implemented using arrays may not efficiently use MEMORY in dynamic scenarios."
+   ]
+  ],
+  [
+   "III. Applications of Stacks",
+   [
+    "Stacks are used in EXPRESSION evaluation and conversion.",
+    "Infix, postfix, and prefix expressions are evaluated using STACKS.",
+    "Stacks help in checking balanced PARENTHESES in an expression.",
+    "Stack is used to perform DEPTH-FIRST traversal in trees.",
+    "The function call mechanism uses a CALL stack.",
+    "Stacks are used in BACKTRACKING algorithms for backtracking.",
+    "Undo and redo operations in editors are managed using STACKS.",
+    "Stack is used in reversing a STRING (list).",
+    "Browser history navigation (back and forward) uses the concept of STACKS.",
+    "Stacks are used in memory management and RECURSION handling in programs."
+   ]
+  ]
+ ]
+}

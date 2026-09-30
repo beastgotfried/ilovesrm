@@ -1,0 +1,47 @@
+{
+ "title": "Unit – 3 : Session – 12 : SLO – 1  |  Circular Queue — Dequeue Operation",
+ "sections": [
+  [
+   "I. Algorithm to Delete an Element from a Circular Queue",
+   [
+    "Step 1: IF FRONT = -1",
+    "    Write UNDERFLOW",
+    "    Goto Step 4",
+    "[END OF IF]",
+    "Step 2: SET VAL = QUEUE[FRONT]",
+    "Step 3: IF FRONT = REAR",
+    "    SET FRONT = REAR = -1",
+    "ELSE",
+    "    IF FRONT = MAX-1",
+    "        SET FRONT = 0",
+    "    ELSE",
+    "        SET FRONT = FRONT + 1",
+    "    [END OF IF]",
+    "[END OF IF]",
+    "Step 4: EXIT"
+   ]
+  ],
+  [
+   "II. Programming Code — delete_element()",
+   [
+    "int delete_element() {",
+    "    int val;",
+    "    if (front == -1) {",
+    "        printf(\"\\n UNDERFLOW\");",
+    "        return -1;",
+    "    }",
+    "    val = queue[front];",
+    "    if (front == rear)",
+    "        front = rear = -1;",
+    "    else {",
+    "        if (front == MAX-1)",
+    "            front = 0;",
+    "        else",
+    "            front++;",
+    "    }",
+    "    return val;",
+    "}"
+   ]
+  ]
+ ]
+}

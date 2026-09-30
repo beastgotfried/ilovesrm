@@ -1,0 +1,55 @@
+{
+ "title": "Unit – 3 : Session – 12 : SLO – 2  |  DEQUE — Insertion Operations",
+ "sections": [
+  [
+   "I. Insert at Right of Double-Ended Queue",
+   [
+    "void insert_right() {",
+    "    int val;",
+    "    printf(\"\\n Enter the value to be added:\");",
+    "    scanf(\"%d\", &val);",
+    "    if ((left == 0 && right == MAX-1) || (left == right + 1)) {",
+    "        printf(\"\\n OVERFLOW\");",
+    "        return;",
+    "    }",
+    "    if (left == -1) {",
+    "        left = 0;",
+    "        right = 0;",
+    "    }",
+    "    else {",
+    "        if (right == MAX-1)",
+    "            right = 0;",
+    "        else",
+    "            right = right + 1;",
+    "    }",
+    "    deque[right] = val;",
+    "}"
+   ]
+  ],
+  [
+   "II. Insert at Left of Double-Ended Queue",
+   [
+    "void insert_left() {",
+    "    int val;",
+    "    printf(\"\\n Enter the value to be added:\");",
+    "    scanf(\"%d\", &val);",
+    "    if ((left == 0 && right == MAX-1) || (left == right + 1)) {",
+    "        printf(\"\\n Overflow\");",
+    "        return;",
+    "    }",
+    "    if (left == -1) {",
+    "        left = 0;",
+    "        right = 0;",
+    "    }",
+    "    else {",
+    "        if (left == 0)",
+    "            left = MAX-1;",
+    "        else",
+    "            left = left - 1;",
+    "    }",
+    "    deque[left] = val;",
+    "}"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,40 @@
+{
+ "title": "Unit – 3 : Session – 4 : SLO – 1  |  Stack Applications — Reversing a List and Balancing Symbols",
+ "sections": [
+  [
+   "I. Reversing a List Using a Stack",
+   [
+    "Step 1: List A = [10, 20, 30, 40, 50] (5 elements).",
+    "Step 2: Traverse A from the first element and push each onto Stack S:",
+    "    Push 10 -> S = [10]; Push 20 -> [10,20]; Push 30 -> [10,20,30];",
+    "    Push 40 -> [10,20,30,40]; Push 50 -> [10,20,30,40,50]. TOP = 50.",
+    "Step 3: Pop from TOP one by one into array B:",
+    "    Pop 50 -> B[0]=50; Pop 40 -> B[1]=40; Pop 30 -> B[2]=30;",
+    "    Pop 20 -> B[3]=20; Pop 10 -> B[4]=10.",
+    "Result: B = [50, 40, 30, 20, 10] — the reversed list."
+   ]
+  ],
+  [
+   "II. Balanced Parenthesis Check: { P + ( Q - R ) }",
+   [
+    "flag = 1. Scan left to right:",
+    "'{' -> push. Stack: {",
+    "'(' -> push. Stack: { (",
+    "')' -> pop '(' -> matches '('. Stack: {",
+    "'}' -> pop '{' -> matches '{'. Stack: EMPTY.",
+    "End of expression: stack empty and flag = 1 -> VALID (balanced)."
+   ]
+  ],
+  [
+   "III. Balanced Parenthesis Check: { D * ( S + A ) )",
+   [
+    "flag = 1. Scan left to right:",
+    "'{' -> push. Stack: {",
+    "'(' -> push. Stack: { (",
+    "')' -> pop '(' -> matches. Stack: {",
+    "')' -> pop '{' -> does NOT match ')' -> flag = 0.",
+    "End of expression: flag = 0 -> INVALID (unbalanced)."
+   ]
+  ]
+ ]
+}

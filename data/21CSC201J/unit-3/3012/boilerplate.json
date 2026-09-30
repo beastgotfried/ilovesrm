@@ -1,0 +1,40 @@
+{
+ "title": "Unit – 3 : Session – 1 : SLO – 2  |  Stack Implementation Using Array",
+ "sections": [
+  [
+   "I. Push Operation — Insert an Element",
+   [
+    "Step 1: IF TOP = MAX-1",
+    "    PRINT OVERFLOW",
+    "    Goto Step 4",
+    "[END OF IF]",
+    "Step 2: SET TOP = TOP + 1",
+    "Step 3: SET STACK[TOP] = VALUE",
+    "Step 4: END"
+   ]
+  ],
+  [
+   "II. Pop Operation — Delete an Element",
+   [
+    "Step 1: IF TOP = -1",
+    "    PRINT UNDERFLOW",
+    "    Goto Step 4",
+    "[END OF IF]",
+    "Step 2: SET VAL = STACK[TOP]",
+    "Step 3: SET TOP = TOP - 1",
+    "Step 4: END"
+   ]
+  ],
+  [
+   "III. Peek Operation",
+   [
+    "Step 1: IF TOP = -1",
+    "    PRINT STACK IS EMPTY",
+    "    Goto Step 3",
+    "[END OF IF]",
+    "Step 2: RETURN STACK[TOP]",
+    "Step 3: END"
+   ]
+  ]
+ ]
+}

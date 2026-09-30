@@ -1,0 +1,37 @@
+{
+ "title": "Unit – 3 : Session – 5 : SLO – 1  |  Infix to Postfix Conversion — Worked Example",
+ "sections": [
+  [
+   "I. Step-by-Step Trace: A - (B / C + (D % E * F) / G) * H",
+   [
+    "A   -> operand          | Output: A              | Stack: -",
+    "-   -> push             | Output: A              | Stack: -",
+    "(   -> push             | Output: A              | Stack: - (",
+    "B   -> operand          | Output: AB             | Stack: - (",
+    "/   -> push             | Output: AB             | Stack: - ( /",
+    "C   -> operand          | Output: ABC            | Stack: - ( /",
+    "+   -> pop /, push +    | Output: ABC/           | Stack: - ( +",
+    "(   -> push             | Output: ABC/           | Stack: - ( + (",
+    "D   -> operand          | Output: ABC/D          | Stack: - ( + (",
+    "%   -> push             | Output: ABC/D          | Stack: - ( + ( %",
+    "E   -> operand          | Output: ABC/DE         | Stack: - ( + ( %",
+    "*   -> pop %, push *    | Output: ABC/DE%        | Stack: - ( + ( *",
+    "F   -> operand          | Output: ABC/DE%F       | Stack: - ( + ( *",
+    ")   -> pop till (       | Output: ABC/DE%F*      | Stack: - ( +",
+    "/   -> pop +, push /    | Output: ABC/DE%F*+     | Stack: - ( /",
+    "G   -> operand          | Output: ABC/DE%F*+G    | Stack: - ( /",
+    ")   -> pop till (       | Output: ABC/DE%F*+G/   | Stack: -",
+    "*   -> push             | Output: ABC/DE%F*+G/   | Stack: - *",
+    "H   -> operand          | Output: ABC/DE%F*+G/H  | Stack: - *",
+    "END -> pop * , pop -    | Output: ABC/DE%F*+G/H*- | Stack: empty"
+   ]
+  ],
+  [
+   "II. Final Answer",
+   [
+    "Postfix expression: A B C / D E % F * G / + H * -",
+    "Compact form: ABC/DE%F*+G/H*-"
+   ]
+  ]
+ ]
+}

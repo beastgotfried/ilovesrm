@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 3 : Session – 8 : SLO – 1  |  Queue — Introduction",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A queue follows the FIFO (First-In-First-Out) principle.",
+    "In a queue, insertion is performed at the REAR end.",
+    "In a queue, deletion is performed at the FRONT end.",
+    "A SIMPLE (linear) queue is a linear data structure with a fixed size.",
+    "A CIRCULAR queue overcomes the limitation of fixed size by wrapping around.",
+    "A DEQUE (double-ended queue) allows insertion and deletion from both ends.",
+    "PRIORITY queue gives priority to elements based on certain criteria.",
+    "Queues are used in CPU (process/job) scheduling in operating systems.",
+    "In a queue, if the rear is just behind the front in a circular manner, the queue is said to be FULL.",
+    "An ARRAY (or linked list) is used to implement queues in programming languages like C.",
+    "The queue operation that checks whether it is full is called ISFULL.",
+    "The queue operation that checks whether it is empty is called ISEMPTY.",
+    "In breadth-first search (BFS) of a graph, A QUEUE is used to keep track of the next node to visit.",
+    "In printers, tasks are managed using a QUEUE to print in the order they arrive.",
+    "A queue where new elements are added based on priority rather than position is called a PRIORITY QUEUE."
+   ]
+  ]
+ ]
+}

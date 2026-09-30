@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 3 : Session – 9 : SLO – 2  |  Types of Queues — Match the Following",
+ "sections": [
+  [
+   "I. Answers",
+   [
+    "A. Linear Queue — 2. Basic FIFO structure",
+    "B. Circular Queue — 13. Last position connects to the first",
+    "C. Double-Ended Queue (Deque) — 11. Insertion and deletion at both ends",
+    "D. Input-Restricted Deque — 9. Deletion at both ends, insertion at one end only",
+    "E. Output-Restricted Deque — 12. Insertion at both ends, deletion at one end only",
+    "F. Priority Queue — 10. Elements served based on importance",
+    "G. Simple Queue — 15. Insertion at rear, deletion at front",
+    "H. Static Queue — 3. Fixed size queue implemented using arrays",
+    "I. Dynamic Queue — 1. Grows or shrinks using linked list",
+    "J. Circular Deque — 14. Ends are connected and operations at both ends",
+    "K. Single-Ended Queue — 8. Operation allowed at only one end",
+    "L. Blocking Queue — 5. Used for inter-thread communication",
+    "M. Non-blocking Queue — 7. Doesn't wait for operations to finish",
+    "N. Monotonic Queue — 6. Maintains increasing or decreasing order",
+    "O. Queue of Queues — 4. Nested queue structure (queue as elements)"
+   ]
+  ]
+ ]
+}

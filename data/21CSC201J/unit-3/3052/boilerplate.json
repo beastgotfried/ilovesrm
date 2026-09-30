@@ -1,0 +1,32 @@
+{
+ "title": "Unit – 3 : Session – 5 : SLO – 2  |  Evaluating a Postfix Expression",
+ "sections": [
+  [
+   "I. Algorithm to Evaluate a Postfix Expression",
+   [
+    "Step 1: Scan the postfix expression from left to right.",
+    "Step 2: If the symbol is an OPERAND, PUSH its value onto the stack.",
+    "Step 3: If the symbol is an OPERATOR, POP two operands (first pop = operand2, second pop = operand1),",
+    "    compute operand1 OPERATOR operand2, and PUSH the result back.",
+    "Step 4: Repeat until the expression ends.",
+    "Step 5: The single value remaining on the stack is the result.",
+    "Step 6: EXIT"
+   ]
+  ],
+  [
+   "II. Worked Example: 9 3 4 * 8 + 4 / -",
+   [
+    "9  -> push. Stack: [9]",
+    "3  -> push. Stack: [9, 3]",
+    "4  -> push. Stack: [9, 3, 4]",
+    "*  -> pop 4, 3; 3*4 = 12; push. Stack: [9, 12]",
+    "8  -> push. Stack: [9, 12, 8]",
+    "+  -> pop 8, 12; 12+8 = 20; push. Stack: [9, 20]",
+    "4  -> push. Stack: [9, 20, 4]",
+    "/  -> pop 4, 20; 20/4 = 5; push. Stack: [9, 5]",
+    "-  -> pop 5, 9; 9-5 = 4; push. Stack: [4]",
+    "Result: 4"
+   ]
+  ]
+ ]
+}

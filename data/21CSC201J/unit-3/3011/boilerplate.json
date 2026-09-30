@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 3 : Session – 1 : SLO – 1  |  Stacks — Introduction",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A stack is a LINEAR (LIFO) data structure.",
+    "The two main operations of a stack are PUSH and POP.",
+    "The operation that adds an element to a stack is called PUSH.",
+    "The operation that removes the top element from the stack is called POP.",
+    "The operation that returns the top element without removing it is called PEEK.",
+    "If a stack is full and a push operation is attempted, it is called OVERFLOW.",
+    "If a stack is empty and a pop operation is attempted, it is called UNDERFLOW.",
+    "Stacks are usually implemented using ARRAYS or LINKED LISTS.",
+    "In array implementation of stack, the top element is accessed using the TOP index.",
+    "In function calls, the system uses a stack to store RETURN ADDRESSES (activation records).",
+    "The initial value of top in an empty stack array implementation is usually -1.",
+    "Stack is used in POSTFIX (Reverse Polish) notation to evaluate expressions without parentheses.",
+    "A stack is also used in DEPTH-FIRST traversal of trees.",
+    "The time complexity of push and pop operations in a stack is O(1).",
+    "Reversing a string using stack works by PUSHING each character and then POPPING them."
+   ]
+  ]
+ ]
+}

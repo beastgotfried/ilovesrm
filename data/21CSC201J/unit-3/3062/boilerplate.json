@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 3 : Session – 6 : SLO – 2  |  Stack Applications — Tower of Hanoi",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "TOWER OF HANOI is a classic problem that demonstrates the use of recursion with stacks.",
+    "The minimum number of moves required to solve the Towers of Hanoi with n disks is 2^n - 1.",
+    "The recursive solution to Towers of Hanoi uses the STACK data structure to manage function calls.",
+    "In the Towers of Hanoi, disks are moved from the source rod to the DESTINATION rod using an auxiliary rod.",
+    "Each recursive call pushes a new STACK FRAME (activation record) onto the stack.",
+    "The Towers of Hanoi involves TWO recursive steps (move n-1 disks twice, plus one move).",
+    "The stack unwinds when the BASE case of the recursive function is reached.",
+    "The base condition in Towers of Hanoi is when ONE (n = 1) disk is to be moved.",
+    "Stacks in recursion help to TRACK (preserve) the order of operations in solving the puzzle.",
+    "The auxiliary rod in the Towers of Hanoi acts as a TEMPORARY STORAGE (buffer) during disk transfers."
+   ]
+  ]
+ ]
+}

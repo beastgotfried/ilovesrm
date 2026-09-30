@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 3 : Session – 8 : SLO – 2  |  Queue Implementation Using Array",
+ "sections": [
+  [
+   "I. Enqueue Operation — Insert an Element NUM",
+   [
+    "Step 1: IF REAR = MAX - 1",
+    "    Write OVERFLOW",
+    "    Goto Step 4",
+    "[END OF IF]",
+    "Step 2: IF FRONT = -1 AND REAR = -1",
+    "    SET FRONT = REAR = 0",
+    "ELSE",
+    "    SET REAR = REAR + 1",
+    "[END OF IF]",
+    "Step 3: SET QUEUE[REAR] = NUM",
+    "Step 4: EXIT"
+   ]
+  ],
+  [
+   "II. Dequeue Operation — Delete an Element",
+   [
+    "Step 1: IF FRONT = -1 OR FRONT > REAR",
+    "    Write UNDERFLOW",
+    "ELSE",
+    "    SET VAL = QUEUE[FRONT]",
+    "    SET FRONT = FRONT + 1",
+    "[END OF IF]",
+    "Step 2: EXIT"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,39 @@
+{
+ "title": "Unit – 3 : Session – 10 : SLO – 2  |  Implementation of Queue Using Linked List — Code",
+ "sections": [
+  [
+   "I. Node Structure",
+   [
+    "struct node { int data; struct node *next; };",
+    "struct queue { struct node *front, *rear; };"
+   ]
+  ],
+  [
+   "II. Enqueue Operation",
+   [
+    "void enqueue(struct queue *q, int val) {",
+    "    struct node *ptr = (struct node *)malloc(sizeof(struct node));",
+    "    ptr->data = val;",
+    "    ptr->next = NULL;",
+    "    if (q->front == NULL) { q->front = q->rear = ptr; return; }",
+    "    q->rear->next = ptr;",
+    "    q->rear = ptr;",
+    "}"
+   ]
+  ],
+  [
+   "III. Dequeue Operation",
+   [
+    "int dequeue(struct queue *q) {",
+    "    if (q->front == NULL) { printf(\"UNDERFLOW\\n\"); return -1; }",
+    "    struct node *ptr = q->front;",
+    "    int val = ptr->data;",
+    "    q->front = q->front->next;",
+    "    if (q->front == NULL) q->rear = NULL;",
+    "    free(ptr);",
+    "    return val;",
+    "}"
+   ]
+  ]
+ ]
+}

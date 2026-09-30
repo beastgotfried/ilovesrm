@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 3 : Session – 11 : SLO – 1  |  Circular Queue — Introduction",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A circular queue connects the LAST position back to the front.",
+    "Circular queue overcomes the problem of MEMORY WASTAGE (unused spaces) in a linear queue.",
+    "In a circular queue, when the rear reaches the end, it wraps around to index 0.",
+    "A circular queue follows the FIFO principle.",
+    "The condition for a full circular queue is: (rear + 1) % size == FRONT.",
+    "The condition for an empty circular queue is: front == -1.",
+    "When the first element is inserted, both front and rear point to the SAME (0th) index.",
+    "Circular queues are commonly used in ROUND-ROBIN scheduling.",
+    "The ISFULL function checks if a circular queue is full.",
+    "The ISEMPTY function checks if a circular queue is empty.",
+    "Circular queues help in utilizing memory more EFFICIENTLY than linear queues.",
+    "In a circular queue, incrementing the rear is done using MODULO (%) operator.",
+    "Circular queues can be implemented using arrays or LINKED LISTS.",
+    "The front element of a circular queue is accessed using the FRONT pointer.",
+    "In circular queues, rear and front move in a CIRCULAR (wrap-around) manner."
+   ]
+  ]
+ ]
+}

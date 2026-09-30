@@ -1,0 +1,39 @@
+{
+ "title": "Unit – 3 : Session – 7 : SLO – 1  |  Implementation of Stack Using Array — Code",
+ "sections": [
+  [
+   "I. Declaration and Initialisation",
+   [
+    "#define MAX 100",
+    "int top = -1;"
+   ]
+  ],
+  [
+   "II. Push Function",
+   [
+    "void push(int st[], int val) {",
+    "    if (top == MAX - 1) { printf(\"OVERFLOW\\n\"); return; }",
+    "    st[++top] = val;",
+    "}"
+   ]
+  ],
+  [
+   "III. Pop Function",
+   [
+    "int pop(int st[]) {",
+    "    if (top == -1) { printf(\"UNDERFLOW\\n\"); return -1; }",
+    "    return st[top--];",
+    "}"
+   ]
+  ],
+  [
+   "IV. Peek Function",
+   [
+    "int peek(int st[]) {",
+    "    if (top == -1) { printf(\"STACK IS EMPTY\\n\"); return -1; }",
+    "    return st[top];",
+    "}"
+   ]
+  ]
+ ]
+}

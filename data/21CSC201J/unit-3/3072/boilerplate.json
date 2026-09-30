@@ -1,0 +1,45 @@
+{
+ "title": "Unit – 3 : Session – 7 : SLO – 2  |  Implementation of Stack Using Linked List — Code",
+ "sections": [
+  [
+   "I. Node Structure",
+   [
+    "struct node { int data; struct node *next; };",
+    "struct node *top = NULL;"
+   ]
+  ],
+  [
+   "II. Push Operation",
+   [
+    "void push(int val) {",
+    "    struct node *new_node = (struct node *)malloc(sizeof(struct node));",
+    "    new_node->data = val;",
+    "    new_node->next = top;",
+    "    top = new_node;",
+    "}"
+   ]
+  ],
+  [
+   "III. Pop Operation",
+   [
+    "int pop() {",
+    "    if (top == NULL) { printf(\"UNDERFLOW\\n\"); return -1; }",
+    "    struct node *ptr = top;",
+    "    int val = ptr->data;",
+    "    top = top->next;",
+    "    free(ptr);",
+    "    return val;",
+    "}"
+   ]
+  ],
+  [
+   "IV. Peek Operation",
+   [
+    "int peek() {",
+    "    if (top == NULL) { printf(\"STACK IS EMPTY\\n\"); return -1; }",
+    "    return top->data;",
+    "}"
+   ]
+  ]
+ ]
+}

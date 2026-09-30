@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 3 : Session – 4 : SLO – 2  |  Stack Applications — Infix to Postfix Conversion",
+ "sections": [
+  [
+   "I. Algorithm: Infix to Postfix Using a Stack",
+   [
+    "Step 1: Scan the infix expression from left to right.",
+    "Step 2: If the scanned symbol is an OPERAND, add it to the postfix expression.",
+    "Step 3: If the scanned symbol is '(', PUSH it onto the stack.",
+    "Step 4: If the scanned symbol is ')', POP and output all symbols until '(' is found; discard '('.",
+    "Step 5: If the scanned symbol is an OPERATOR:",
+    "    a) If the stack is empty or top is '(', push the operator.",
+    "    b) Else, pop all operators from the stack whose precedence is GREATER THAN OR EQUAL to",
+    "       the scanned operator, output them, then push the scanned operator.",
+    "    c) Note: '^' is right-associative — pop only operators of strictly higher precedence.",
+    "Step 6: Repeat Steps 1-5 until the entire infix expression is scanned.",
+    "Step 7: Pop and output all remaining operators from the stack.",
+    "Step 8: EXIT"
+   ]
+  ],
+  [
+   "II. Example: A + B * C -> ABC*+",
+   [
+    "Scan A -> output A. Stack: empty",
+    "Scan + -> push. Stack: +",
+    "Scan B -> output B. Output: AB",
+    "Scan * -> * has higher precedence than + -> push. Stack: + *",
+    "Scan C -> output C. Output: ABC",
+    "End -> pop * and +. Output: ABC*+"
+   ]
+  ]
+ ]
+}
