@@ -1,0 +1,46 @@
+{
+ "title": "Unit – 5 : Session – 10 : SLO – 2  |  ARM Addressing Modes",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. C) Pre-indexed — the offset is applied to the base register before the memory access.",
+    "2. B) LDR R0, =value — the pseudo-instruction loads a constant from the literal pool.",
+    "3. B) Access memory — post-indexed accesses memory at the old base first, then updates the register."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. register — register-offset addressing uses a register operand as the offset.",
+    "2. literal — literal addressing loads constants from the literal pool.",
+    "3. after — post-indexed addressing updates the base register after accessing memory."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "1. TRUE.",
+    "2. FALSE — LDR/STR do support scaled index addressing (e.g. [R1, R2, LSL #2]).",
+    "3. TRUE — the literal pool is accessed PC-relative."
+   ]
+  ],
+  [
+   "IV. Match the Following",
+   [
+    "A) Immediate Offset — 3) Uses immediate displacement.",
+    "B) Pre-indexed — 2) Offset added before access.",
+    "C) Post-indexed — 4) Base updated after access.",
+    "D) Literal Addressing — 1) Uses PC-relative constant."
+   ]
+  ],
+  [
+   "V. Numerical Answers",
+   [
+    "1. 0x200C — 0x2000 + 12 = 0x200C.",
+    "2. 0x1010 — R2 LSL #2 = 4 × 4 = 16 = 0x10; 0x1000 + 0x10 = 0x1010.",
+    "3. 0x3004 — post-indexed: memory is accessed at 0x3000, then R1 = 0x3000 + 4 = 0x3004."
+   ]
+  ]
+ ]
+}

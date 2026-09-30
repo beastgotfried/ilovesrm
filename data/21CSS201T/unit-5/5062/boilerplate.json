@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 5 : Session – 6 : SLO – 2  |  ARM Thumb Instruction Set",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) To reduce code size and memory usage.",
+    "2. b) 16-bit.",
+    "3. c) They provide improved code density for memory-constrained systems.",
+    "4. a) By setting a bit in the CPSR (the T bit, changed via BX/BLX instructions).",
+    "5. b) Reduced program memory requirements."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE.",
+    "2. FALSE — Thumb reduces memory requirements.",
+    "3. TRUE — the CPSR T bit selects the instruction set state.",
+    "4. FALSE — NEON SIMD operations need ARM/NEON state, not Thumb.",
+    "5. TRUE."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "1. Use Thumb: 16-bit instructions cut code size roughly in half versus 32-bit ARM code, so the control logic plus lookup tables fit the 64 KB flash with room for features.",
+    "2. Switching: via the CPSR T bit — executing BX/BLX with the target address bit-0 set enters Thumb state; clearing it returns to ARM state.",
+    "3. Trade-off: Thumb has a reduced instruction set — some operations need multiple Thumb instructions where one ARM instruction suffices, so performance-critical inner loops may run slower; typical practice is Thumb for bulk code, ARM state for hot paths."
+   ]
+  ]
+ ]
+}

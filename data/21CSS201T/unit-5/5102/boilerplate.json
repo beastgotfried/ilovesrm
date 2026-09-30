@@ -1,0 +1,46 @@
+{
+ "title": "Unit – 5 : Session – 10 : SLO – 2  |  LDM/STM and RISC vs CISC",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. C) STM — Store Multiple saves a block of registers to memory.",
+    "2. B) RISC — RISC architectures typically use fixed-length instructions.",
+    "3. B) Write-back — '!' updates the base register after the transfer."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. Load — LDM = Load Multiple registers.",
+    "2. variable-length — CISC uses variable instruction size.",
+    "3. stack — STMFD (Store Multiple Full Descending) is the standard stack-push operation."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "1. TRUE.",
+    "2. FALSE — CISC supports more addressing modes than RISC.",
+    "3. TRUE — write-back ('!') updates the base register automatically."
+   ]
+  ],
+  [
+   "IV. Match the Following",
+   [
+    "A) RISC — 3) Simple fixed-length instructions.",
+    "B) CISC — 2) Complex instructions.",
+    "C) LDM — 1) Loads multiple registers.",
+    "D) STM — 4) Stores multiple registers."
+   ]
+  ],
+  [
+   "V. Numerical Answers",
+   [
+    "1. 12 bytes — 3 registers × 4 bytes each.",
+    "2. 24 bits — 32 − 8 = 24 bits left for operands.",
+    "3. STMFD SP!, {R1–R3} with SP = 0x1000: a full-descending push of 3 words decreases SP by 12 → new SP = 0x0FF4 (data stored at 0x0FF4–0x0FFF)."
+   ]
+  ]
+ ]
+}

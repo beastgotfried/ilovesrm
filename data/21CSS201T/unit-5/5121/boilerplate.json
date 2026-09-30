@@ -1,0 +1,46 @@
+{
+ "title": "Unit – 5 : Session – 12 : SLO – 1  |  ARM Addressing and Instruction Encoding",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. B) LDR R0, =0x40 — the literal-pool pseudo-instruction loads a constant.",
+    "2. B) Post-indexed — the base register is updated after the memory access.",
+    "3. C) Opcode + operands + condition — encoding covers all three fields."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. before — pre-indexed addressing updates the base register before access.",
+    "2. LDR — literal constants are loaded with LDR Rd, =constant.",
+    "3. shift — scaled register offset applies a shift (e.g. LSL) to the index register."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "1. TRUE.",
+    "2. FALSE — encoding identifies opcode, operands and condition fields, not just the opcode.",
+    "3. TRUE."
+   ]
+  ],
+  [
+   "IV. Match the Following",
+   [
+    "A) LDR — 3) Load data from memory.",
+    "B) STR — 1) Store register to memory.",
+    "C) Pre-indexed — 4) Base updated before access.",
+    "D) Literal LDR — 2) Load from constant pool."
+   ]
+  ],
+  [
+   "V. Numerical Answers",
+   [
+    "1. 0x400C — 0x4000 + 12.",
+    "2. ADD R4, R2, R1 → cond=1110 (AL), I=0, opcode=0100 (ADD), S=0, Rn=0010 (R2), Rd=0100 (R4), operand2=R1 → binary 1110 0000 1000 0010 0100 0000 0000 0001 = 0xE0824001.",
+    "3. 0xE2821005 → cond=1110, I=1 (immediate), opcode=0101 (ADC), S=0, Rn=R2, Rd=R1, operand2=#5 → ADC R1, R2, #5."
+   ]
+  ]
+ ]
+}

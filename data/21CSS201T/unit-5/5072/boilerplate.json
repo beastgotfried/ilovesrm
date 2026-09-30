@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 7 : SLO – 1  |  ARM Processor Modes and Banked Registers",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. B. User Mode — the unprivileged mode for normal application execution.",
+    "2. B. FIQ (Fast Interrupt Request) — handles fast interrupts, with extra banked registers for low-latency response.",
+    "3. C. R13, R14, SPSR — exception modes bank the stack pointer, link register and saved program status register (FIQ additionally banks R8–R12)."
+   ]
+  ]
+ ]
+}

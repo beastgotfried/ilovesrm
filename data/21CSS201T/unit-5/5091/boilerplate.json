@@ -1,0 +1,46 @@
+{
+ "title": "Unit – 5 : Session – 9 : SLO – 1  |  Instruction Formats (Zero/One/Two/Three-Address)",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. C) Stack — zero-address instructions operate on the stack.",
+    "2. D) Accumulator — the one-address format uses the accumulator as the implicit operand.",
+    "3. B) Destination operand — in the two-address format the result overwrites the destination."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. postfix — zero-address format is ideal for postfix (reverse-Polish) expressions.",
+    "2. accumulator — one-address format uses the accumulator for intermediate calculations.",
+    "3. three — the three-address format explicitly specifies three operands (two sources + destination)."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "1. FALSE — zero-address instructions take operands implicitly from the stack.",
+    "2. TRUE.",
+    "3. TRUE — an explicit destination removes the need for temporary memory."
+   ]
+  ],
+  [
+   "IV. Match the Following",
+   [
+    "A) Zero Address — 1) Stack-based.",
+    "B) One Address — 2) Accumulator.",
+    "C) Two Address — 3) Destination overwritten.",
+    "D) Three Address — 4) Three explicit operands."
+   ]
+  ],
+  [
+   "V. Numerical Answers",
+   [
+    "1. Zero-address code for (A + B) * (C + D):  PUSH A; PUSH B; ADD; PUSH C; PUSH D; ADD; MUL — the stack machine leaves (A+B)*(C+D) on top.",
+    "2. 4 bits — log2(16) = 4 bits encode 16 registers.",
+    "3. 24 bits — 8-bit opcode + 16-bit address = 24 bits per instruction."
+   ]
+  ]
+ ]
+}

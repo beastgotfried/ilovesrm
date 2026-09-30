@@ -1,0 +1,37 @@
+{
+ "title": "Unit – 5 : Session – 8 : SLO – 1  |  ARM Pipeline, Registers and Instructions",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. Fetch — a 3-stage pipeline is Fetch, Decode, Execute.",
+    "2. Stack Pointer (SP) — R13 points to the top of the stack.",
+    "3. BL (Branch with Link) — calls a subroutine, saving the return address in R14 (LR)."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE — pipelining overlaps instruction stages in ARM processors.",
+    "2. FALSE — R14 is the Link Register; R15 is the Program Counter.",
+    "3. TRUE — ADDEQ executes the ADD only when the Z (equal) condition flag is set."
+   ]
+  ],
+  [
+   "III. Match the Following",
+   [
+    "1. R13 — 3. Stack Pointer.",
+    "2. R14 — 1. Link Register.",
+    "3. LDR — 2. Load instruction."
+   ]
+  ],
+  [
+   "IV. Numerical Answers",
+   [
+    "1. 3 — three pipeline stages (Fetch, Decode, Execute).",
+    "2. 2 — one LDR plus one STR per iteration = 2 memory operations.",
+    "3. 13 — R0 through R12 are the general-purpose registers."
+   ]
+  ]
+ ]
+}

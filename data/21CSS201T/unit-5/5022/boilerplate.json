@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 5 : Session – 2 : SLO – 2  |  Memory Consistency and Communication Overhead",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) A contract that defines the order in which memory operations appear to execute.",
+    "2. b) Time spent transferring data between processors or nodes.",
+    "3. b) Memory coherence problem — inconsistent views of shared data across processors.",
+    "4. c) Parallel execution may become slower than sequential execution — overhead exceeds the benefit.",
+    "5. b) Sequential consistency — all processors observe all writes in exactly the same order."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE — consistency models define a common observed order of memory operations.",
+    "2. FALSE — weak models deliberately relax immediate visibility for performance.",
+    "3. TRUE — frequent data exchange across the network raises communication overhead.",
+    "4. TRUE — lower communication overhead means adding processors keeps paying off (better scalability).",
+    "5. FALSE — coherence is about keeping cached copies identical; consistency is about the ordering of operations — related but distinct."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "Issue 1 — inconsistent results across runs: a memory consistency/coherence problem. Processors exchange intermediate results but observe writes in different orders (relaxed visibility), so computations consume stale values; non-deterministic ordering makes each run differ.",
+    "Issue 2 — execution time grows with more processors: communication overhead. With 64 nodes exchanging results frequently, message-passing time grows faster than the per-node computation shrinks, so total time increases — the classic scalability limit (overhead > computation).",
+    "Fixes: enforce synchronization/consistency at exchange points (barriers, locks, release consistency), reduce communication frequency (larger messages, better partitioning), and overlap communication with computation."
+   ]
+  ]
+ ]
+}

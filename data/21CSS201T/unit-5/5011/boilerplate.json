@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 1 : SLO – 1  |  Parallelism in Computer Architecture",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. c) Improve performance by executing multiple operations simultaneously.",
+    "2. b) Pipelining instructions in a CPU — overlapping instruction stages is the classic example of instruction-level parallelism.",
+    "3. c) Number of instruction and data streams — Flynn's taxonomy: SISD, SIMD, MISD, MIMD."
+   ]
+  ]
+ ]
+}

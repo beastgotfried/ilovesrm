@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 7 : SLO – 1  |  ARM Architecture Fundamentals",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. A. Load/store architecture — only LDR/STR access memory; all data processing works on registers.",
+    "2. C. Cortex-M — the microcontroller series (Cortex-A = application processors, Cortex-R = real-time).",
+    "3. C. 32-bit — standard ARM-state instructions are 32 bits wide (Thumb uses 16-bit)."
+   ]
+  ]
+ ]
+}

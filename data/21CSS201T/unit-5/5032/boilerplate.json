@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 5 : Session – 3 : SLO – 1  |  Flynn's Taxonomy — Systems",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Number of instruction streams and data streams.",
+    "2. c) SISD — the traditional single-core, single-stream machine.",
+    "3. d) SIMD — GPUs apply one instruction to many data elements.",
+    "4. c) MIMD — multicore processors run independent instruction streams per core.",
+    "5. c) MISD — multiple instruction streams on a single data stream."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE.",
+    "2. FALSE — SIMD is one instruction stream on multiple data streams.",
+    "3. TRUE.",
+    "4. TRUE.",
+    "5. FALSE — MISD is uncommon; general-purpose systems are SISD/SIMD/MIMD."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "Answer: b) Current: SIMD | Upgrade: MIMD.",
+    "Current design: the same prediction algorithm runs on different data portions simultaneously — one instruction stream over many data streams = SIMD.",
+    "After upgrade: different algorithms run simultaneously on different data = multiple instruction streams and multiple data streams = MIMD."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 1 : SLO – 2  |  Challenges in Parallel Systems",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Memory consistency — when multiple processors access shared data, agreeing on the order/visibility of writes is a major challenge.",
+    "2. b) Communication overhead — the time spent dividing tasks, exchanging data and merging results.",
+    "3. b) Load balancing — when work is unevenly distributed some processors sit idle, wasting capacity."
+   ]
+  ]
+ ]
+}

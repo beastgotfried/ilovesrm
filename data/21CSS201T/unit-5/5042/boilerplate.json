@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 5 : Session – 4 : SLO – 2  |  Architecture Fundamentals + Amdahl's Law",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. c) Arithmetic Logic Unit (ALU) — executes the instruction's operation (the CU directs it).",
+    "2. b) RAM — volatile; loses contents without power.",
+    "3. c) Directs the flow of data and instructions.",
+    "4. a) Executing multiple instructions simultaneously in a sequence of stages.",
+    "5. b) Instruction-level parallelism (ILP)."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE.",
+    "2. FALSE — RAM is volatile; ROM/Flash are non-volatile.",
+    "3. TRUE.",
+    "4. TRUE.",
+    "5. FALSE — the CU controls; it does not store data permanently."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity — Amdahl's Law",
+   [
+    "Speedup with 8 cores: S = 1 / (0.30 + 0.70/8) = 1 / (0.30 + 0.0875) = 1 / 0.3875 ≈ 2.58×.",
+    "Beyond 8 cores: no significant gains — the maximum theoretical speedup with infinitely many cores is 1/0.30 ≈ 3.33×, so moving from 8 → ∞ cores gains only ~0.75× more; the 30% sequential portion dominates.",
+    "Strategy for the sequential part: optimize that code itself (better algorithm, faster single-core path), or boost single-thread performance (higher clock, more cache, ILP); alternatively restructure the workload to shrink the serial fraction (e.g. parallelize parts of Task B, pipeline it with Task A)."
+   ]
+  ]
+ ]
+}

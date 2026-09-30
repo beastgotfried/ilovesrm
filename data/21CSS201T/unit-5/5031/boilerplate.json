@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 5 : Session – 3 : SLO – 1  |  Flynn's Classification",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Number of instruction streams and data streams.",
+    "2. b) GPU executing the same instruction on multiple data points — classic SIMD.",
+    "3. b) Execute different instructions on different data.",
+    "4. a) Standard single-core processor.",
+    "5. d) MIMD — independent instruction and data streams scale to large clusters/multicores."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE — SISD = single instruction, single data.",
+    "2. FALSE — MISD is rare/specialized (e.g. redundant flight controllers), not general-purpose.",
+    "3. TRUE — image/vector workloads apply one operation to many data elements.",
+    "4. TRUE — that is exactly MIMD.",
+    "5. TRUE — both are parallel models in Flynn's scheme."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "System A — MIMD: multiple processors each running different instructions on different data (scientific simulation nodes).",
+    "System B — SIMD: one rendering operation applied simultaneously to large pixel arrays (GPU-style).",
+    "System C — SISD: a single-core embedded controller executing one instruction stream on one data stream."
+   ]
+  ]
+ ]
+}

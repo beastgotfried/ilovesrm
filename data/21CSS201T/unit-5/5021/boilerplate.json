@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 5 : Session – 2 : SLO – 1  |  Parallelism Challenges — Performance",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Load balancing among processors.",
+    "2. c) The impact of the serial portion of a program — Amdahl's Law: speedup ≤ 1/(s + (1−s)/N); the serial fraction caps speedup.",
+    "3. b) Memory coherence issues — simultaneous access to shared memory creates inconsistent cached copies.",
+    "4. b) Synchronization overhead — grows with processor count and limits scalability.",
+    "5. c) Distributed-memory parallel systems — data must travel over an interconnect/network, so latency dominates."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE — idle processors from load imbalance directly waste computational capacity.",
+    "2. FALSE — Amdahl's Law shows speedup saturates: the serial fraction bounds it regardless of processor count.",
+    "3. TRUE — multiple cached copies of shared data must be kept coherent, which is difficult.",
+    "4. FALSE — synchronization overhead increases as more processors must coordinate.",
+    "5. TRUE — communication delay is the dominant challenge in distributed-memory systems."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "Challenge 1 — Load imbalance: some processors remain idle during computation phases, so the effective parallelism is far below 16; per Amdahl's Law the idle/serial phases dominate and cap the speedup (4× instead of 16×).",
+    "Challenge 2 — Memory coherence/consistency: inconsistent output values show that processors read stale copies of shared variables; extra synchronization/coherence traffic needed to fix this adds overhead that further reduces speedup.",
+    "Both explain the gap: uneven work wastes processors, and coherence traffic steals cycles from useful computation."
+   ]
+  ]
+ ]
+}

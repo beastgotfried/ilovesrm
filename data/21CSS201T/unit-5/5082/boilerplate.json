@@ -1,0 +1,37 @@
+{
+ "title": "Unit – 5 : Session – 8 : SLO – 2  |  ARM CPSR, Modes and Software Interrupts",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. MRS — MRS Rd, CPSR moves the status register (including mode bits) into a general register.",
+    "2. Supervisor (SVC) — SWI triggers a software interrupt that enters Supervisor mode.",
+    "3. R8 — FIQ mode banks registers R8–R14."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE — FIQ banks R8–R14 (7 registers) vs IRQ's R13–R14 (2), so FIQ handlers avoid stacking overhead.",
+    "2. FALSE — the CONTROL register belongs to ARMv7-M (Cortex-M); ARMv7-A switches modes via CPSR writes/exceptions.",
+    "3. TRUE — SWI is precisely the User → Supervisor transition mechanism (system calls)."
+   ]
+  ],
+  [
+   "III. Match the Following",
+   [
+    "1. SWI — 3. Software interrupt.",
+    "2. CPSR — 2. Holds processor status.",
+    "3. FIQ — 1. Fast interrupt mode."
+   ]
+  ],
+  [
+   "IV. Numerical Answers",
+   [
+    "1. 5 — CPSR mode bits M[4:0] determine the processor mode.",
+    "2. 7 — FIQ banks R8_fiq through R14_fiq.",
+    "3. 2 — IRQ banks only R13_irq and R14_irq."
+   ]
+  ]
+ ]
+}

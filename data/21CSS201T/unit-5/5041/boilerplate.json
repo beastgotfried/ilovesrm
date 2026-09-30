@@ -1,0 +1,34 @@
+{
+ "title": "Unit – 5 : Session – 4 : SLO – 1  |  Parallelism, Control Unit and Pipelining Review",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Executing multiple instructions simultaneously within a single processor.",
+    "2. c) Coordinate and control the operations of other units.",
+    "3. c) Overlapping multiple instruction stages.",
+    "4. c) Synchronization and communication overhead.",
+    "5. b) Memory consistency problems — shared data cached per-core must stay coherent/consistent."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — Amdahl's Law: the serial fraction and overheads prevent linear speedup.",
+    "2. TRUE.",
+    "3. TRUE.",
+    "4. FALSE — communication overhead increases with more processors.",
+    "5. TRUE."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "1. Idle/overloaded cores = load imbalance → solution: dynamic work scheduling (work stealing, finer-grained tasks).",
+    "2. Poor scaling with more cores = Amdahl/serial fraction + synchronization overhead → solution: reduce the serial portion, minimize lock scope, use lock-free structures.",
+    "3. Results differ between runs = memory consistency/race conditions → solution: proper synchronization (locks, atomics, barriers) or a defined consistency discipline.",
+    "4. Waiting for data updates = communication overhead → solution: data locality, partition work to minimize sharing, overlap communication with computation."
+   ]
+  ]
+ ]
+}

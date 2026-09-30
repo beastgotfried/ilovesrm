@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 5 : Session – 5 : SLO – 2  |  ARM7 Processor",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) It is a 32-bit RISC processor.",
+    "2. c) 3-stage pipeline (Fetch, Decode, Execute).",
+    "3. c) Both ARM (32-bit) and Thumb (16-bit) instruction sets.",
+    "4. b) Store the status of the processor, including flags and mode.",
+    "5. b) The PC (Program Counter) is updated to a new address."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE.",
+    "2. TRUE.",
+    "3. FALSE — ARM7 uses a 3-stage pipeline (ARM9 moved to 5 stages).",
+    "4. TRUE.",
+    "5. FALSE — a branch writes the target address into the PC."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "1. Thumb benefit: 16-bit Thumb instructions roughly halve code size, so the firmware fits smaller/cheaper flash and makes better use of memory bandwidth — ideal for a memory-constrained embedded sensor device.",
+    "2. Instruction execution: handled by the datapath under the Control Unit — the CU decodes each instruction and drives the ALU/registers; the ALU performs the actual arithmetic/logical operations, and the CPSR records the resulting flags.",
+    "3. Data hazards: in the 3-stage pipeline an instruction may read a register before a previous instruction has written its result (RAW hazard), producing wrong values or stalls. Mitigation: insert NOPs/reorder instructions (software scheduling), since ARM7 has no forwarding; the compiler's instruction scheduler usually does this."
+   ]
+  ]
+ ]
+}

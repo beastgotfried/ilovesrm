@@ -1,0 +1,46 @@
+{
+ "title": "Unit – 5 : Session – 9 : SLO – 2  |  Instruction Encoding and Addressing Modes",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. B) Represent instructions in binary.",
+    "2. B) Fixed-length encoding — RISC's uniform length simplifies fetch/decode and pipelining.",
+    "3. C) How operands are accessed."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. machine code — encoding translates assembly into binary machine code.",
+    "2. fixed — RISC uses fixed instruction length.",
+    "3. is accessed — the addressing mode specifies how an operand is accessed."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "1. TRUE — decode complexity from encoding directly affects pipeline efficiency.",
+    "2. FALSE — variable-length instructions complicate and slow decoding.",
+    "3. TRUE."
+   ]
+  ],
+  [
+   "IV. Match the Following",
+   [
+    "A) Opcode — 2) Operation to perform.",
+    "B) Operand Specifier — 3) Register/memory location info.",
+    "C) Addressing Mode — 1) How the operand is accessed.",
+    "D) Instruction Length — 4) Bits used per instruction."
+   ]
+  ],
+  [
+   "V. Numerical Answers",
+   [
+    "1. 128 — 2^7 = 128 possible opcodes with a 7-bit opcode field.",
+    "2. 26 bits — 32 − 6 = 26 bits remain for operands/mode fields.",
+    "3. 32 — 2^5 = 32 registers are addressable with 5-bit specifiers."
+   ]
+  ]
+ ]
+}

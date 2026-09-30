@@ -1,0 +1,50 @@
+{
+ "title": "Unit – 5 : Session – 12 : SLO – 2  |  LDM/STM, Programmed I/O and Encoding",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. B) LDM — Load Multiple registers.",
+    "2. C) Polling — programmed I/O repeatedly checks the device status register.",
+    "3. D) DB (Decrement Before) — STMFD = Store Multiple, Full Descending stack = decrement-before addressing."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. status — program-controlled I/O repeatedly checks the device status register.",
+    "2. stack — LDMFD restores registers from the (full descending) stack.",
+    "3. operand — binary encoding identifies the opcode and operand fields."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "1. TRUE — polling burns CPU cycles continuously checking the device.",
+    "2. FALSE — LDMIA loads in increasing address order (Increment After).",
+    "3. TRUE — STR R1, [R2] stores R1's value at the address in R2."
+   ]
+  ],
+  [
+   "IV. Match the Following",
+   [
+    "A) STMFD — 2) Store multiple registers.",
+    "B) LDMFD — 3) Load multiple registers.",
+    "C) Polling — 1) Waiting for device ready.",
+    "D) STR — 4) Write to memory."
+   ]
+  ],
+  [
+   "V. Numerical Answers",
+   [
+    "1. MOV R1, #5 → cond=1110, I=1, opcode=1101 (MOV), S=0, Rn=0000, Rd=0001, immediate=0x005 → 0xE3A01005.",
+    "2. 20 bytes — 5 registers × 4 bytes.",
+    "3. Polling loop:",
+    "   LDR R2, =0x60000020",
+    "loop:  LDR R0, [R2]",
+    "   TST R0, #1        @ test bit 0",
+    "   BEQ loop          @ keep waiting until bit 0 = 1"
+   ]
+  ]
+ ]
+}

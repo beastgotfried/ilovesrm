@@ -1,0 +1,46 @@
+{
+ "title": "Unit – 5 : Session – 11 : SLO – 1  |  Memory-Mapped vs Port-Mapped I/O",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. B) Memory locations — MMIO treats device registers as memory addresses.",
+    "2. B) x86 CISC — port-mapped (isolated) I/O is characteristic of x86.",
+    "3. C) IN/OUT — the special instructions used for port-mapped I/O."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. memory — MMIO shares its address space with main memory.",
+    "2. IN/OUT — PMIO uses special instructions such as IN and OUT.",
+    "3. RISC — MMIO is commonly used in RISC processors (ARM, MIPS)."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "1. TRUE — MMIO uses ordinary LOAD/STORE instructions.",
+    "2. FALSE — PMIO has a separate port address space.",
+    "3. TRUE."
+   ]
+  ],
+  [
+   "IV. Match the Following",
+   [
+    "A) MMIO — 2) Uses memory addresses.",
+    "B) PMIO — 1) Uses ports.",
+    "C) LOAD — 3) Read from memory.",
+    "D) IN — 4) Read from port."
+   ]
+  ],
+  [
+   "V. Numerical Answers",
+   [
+    "1. 0x1004 — base 0x1000 + offset 4.",
+    "2. 50 — the polling loop checks the status 50 times.",
+    "3. 256 — an 8-bit port address gives 2^8 = 256 ports."
+   ]
+  ]
+ ]
+}

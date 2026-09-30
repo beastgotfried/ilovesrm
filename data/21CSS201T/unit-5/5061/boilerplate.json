@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 5 : Session – 6 : SLO – 1  |  ARM Instruction Set Architecture",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Reduced Instruction Set Computing (RISC).",
+    "2. b) Thumb — 16-bit instructions reduce code size and improve memory efficiency.",
+    "3. c) Multiple load/store (LDM/STM) — transfer blocks of registers in one instruction.",
+    "4. c) Change the program counter to a target address.",
+    "5. c) NEON — ARM's SIMD extension."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE.",
+    "2. FALSE — Thumb is designed to decrease code size.",
+    "3. TRUE.",
+    "4. TRUE.",
+    "5. TRUE."
+   ]
+  ],
+  [
+   "III. Scenario-Based Activity",
+   [
+    "1. Thumb — for memory-constrained parts, its 16-bit instructions give much better code density than 32-bit ARM code.",
+    "2. LDM/STM (Load/Store Multiple) — move whole register sets between memory and the register file in a single instruction, cutting instruction count for the repeated bulk transfers.",
+    "3. NEON — SIMD processes multiple audio/video samples per instruction (e.g. 8×16-bit values at once), accelerating the vector-heavy computation loops and keeping the streams real-time."
+   ]
+  ]
+ ]
+}
