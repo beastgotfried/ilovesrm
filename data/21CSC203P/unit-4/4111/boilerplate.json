@@ -1,0 +1,18 @@
+{
+ "title": "Unit – 4 : Session – 11 : SLO – 1  |  UDP Socket Behaviour",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. UDP does not guarantee reliable or ordered delivery (packets may be lost, duplicated or arrive out of order).",
+    "2. sendto() is used to send data along with a destination address (host, port) — UDP has no connection to default to."
+   ]
+  ],
+  [
+   "II. Multiple Choice",
+   [
+    "1. b) Unreliable and fast — UDP trades reliability for minimal overhead and low latency."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 4/5 : SLO – 2  |  Structures, Control and Backtracking in Prolog",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Backtracking — Prolog systematically returns to earlier choice points to explore alternative solutions."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. In logic programming, control flow is governed by unification and resolution (goal satisfaction).",
+    "2. Backtracking is used to try alternative solutions when the current one fails."
+   ]
+  ],
+  [
+   "III. Key Notes",
+   [
+    "Prolog executes goals depth-first, left-to-right, matching clause heads by unification.",
+    "On failure, the engine backtracks to the most recent choice point and tries the next matching clause."
+   ]
+  ]
+ ]
+}

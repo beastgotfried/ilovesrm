@@ -1,0 +1,21 @@
+{
+ "title": "Unit – 4 : Session – 4 : SLO – 2  |  Logic Programming — Facts, Rules and Queries",
+ "sections": [
+  [
+   "I. Programming Task",
+   [
+    "Fact: father(ram, ravi).            % Ram is the father of Ravi",
+    "Rule: parent(X, Y) :- father(X, Y). % father implies parent",
+    "Query: ?- parent(ram, ravi).        % → true"
+   ]
+  ],
+  [
+   "II. Match the Following",
+   [
+    "1. Fact — parent(john, mary).  (a ground clause stating a truth)",
+    "2. Rule — grandparent(X, Y) :- parent(X, Z), parent(Z, Y).  (a conditional clause with a body)",
+    "3. Query — ?- parent(john, mary).  (a question asked to the Prolog engine)"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "title": "Unit – 4 : Session – 1 : SLO – 1  |  Functional Programming — Core Principles",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. pure — functional programming emphasizes the use of pure functions.",
+    "2. Mutation of state (side effects) — changing shared state is avoided to keep code pure.",
+    "3. declarative — functional programming is a declarative programming paradigm (what to compute, not how)."
+   ]
+  ],
+  [
+   "II. Multiple Choice",
+   [
+    "1. b) Predictable outputs due to pure functions — the same input always produces the same output, making code easier to test, debug and parallelize."
+   ]
+  ]
+ ]
+}

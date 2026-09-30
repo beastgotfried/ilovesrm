@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 8 : SLO – 2  |  Close JDBC Resources Properly to Avoid Leaks",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. AutoCloseable — ResultSet, Statement and Connection all implement AutoCloseable, so they can be closed automatically.",
+    "2. try-with-resources — from Java 7 onwards resources are closed automatically using try-with-resources.",
+    "3. close() — the close() method is used to close a JDBC Connection.",
+    "4. resource (connection/memory) leaks — failing to close unused database resources leads to leaks in long-running applications."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — resources must be closed in the reverse order of creation: ResultSet → Statement → Connection.",
+    "2. TRUE — closing a Statement automatically closes its currently open ResultSet."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. B — the correct manual closing order is ResultSet → Statement → Connection.",
+    "2. C — ignoring exceptions during close() is NOT a best practice; close exceptions should be handled or logged."
+   ]
+  ],
+  [
+   "IV. Programming",
+   [
+    "1. Find the output: C — rs.close() and stmt.close() succeed, so the program prints \"Resources closed.\"",
+    "2. Identify the error: D — Connection.close() and Statement.close() throw the checked SQLException, so the finally block must handle it (try/catch or a throws declaration); additionally the close order should be reversed (stmt before con)."
+   ]
+  ]
+ ]
+}

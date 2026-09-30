@@ -1,0 +1,16 @@
+{
+ "title": "Unit – 4 : Session – 8 : SLO – 2  |  Shared vs Distributed Models — Real-World Application",
+ "sections": [
+  [
+   "I. Discussion Question",
+   [
+    "Application: Google Search (large-scale web search engine).",
+    "Why distributed computing: the web index is petabytes in size — far beyond any single machine — so it is sharded across thousands of servers, each searching its own partition in parallel.",
+    "Scalability: more machines are simply added as query volume and index size grow (horizontal scaling).",
+    "Fault tolerance: data and services are replicated, so individual machine failures do not interrupt search results.",
+    "Low response time: partial results from many nodes are aggregated in parallel, returning answers in milliseconds.",
+    "Other valid examples: Hadoop/MapReduce batch analytics, Netflix video streaming (CDN), blockchain networks, weather simulation clusters."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 11 : SLO – 2  |  Create Form-Based Input and Process Flow Using Swing",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. getText() — txtName.getText() retrieves the text entered into a JTextField.",
+    "2. Integer.parseInt() — Integer.parseInt(\"123\") converts the field text to an int.",
+    "3. add — panel.add(btnSubmit) adds the button to the form panel.",
+    "4. JOptionPane — used to display simple pop-up message dialogs in Swing."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — JTextArea is for multi-line input; JTextField is the single-line component.",
+    "2. TRUE — getText() returns a String, so it must be parsed (e.g. Integer.parseInt) before numeric operations."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. C — button.addActionListener() registers a click handler.",
+    "2. C — GridLayout gives the structured rows-and-columns arrangement suited to forms."
+   ]
+  ],
+  [
+   "IV. Programming",
+   [
+    "1. Output: B — clicking Submit prints the field's current text, \"John\".",
+    "2. Missing logic: B — JOptionPane.showMessageDialog(null, \"Hello \" + name) shows the greeting in a pop-up dialog."
+   ]
+  ]
+ ]
+}

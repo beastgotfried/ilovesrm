@@ -1,0 +1,18 @@
+{
+ "title": "Unit – 4 : Session – 8 : SLO – 1  |  Distributed Computing Principles",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. multiple autonomous (independent) — distributed computing involves multiple independent computer systems working together as one.",
+    "2. Message passing (communication/synchronization) — coordination between distributed nodes relies on message passing."
+   ]
+  ],
+  [
+   "II. Multiple Choice",
+   [
+    "1. c) High latency — network communication delays are a disadvantage of distributed systems; fault tolerance, scalability and resource sharing are advantages."
+   ]
+  ]
+ ]
+}

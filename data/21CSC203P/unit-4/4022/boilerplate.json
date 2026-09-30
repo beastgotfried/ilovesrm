@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 2 : SLO – 2  |  Built-in Higher-Order Functions (map, reduce, filter)",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. The filter() function in Python returns an object that contains elements from the iterable that satisfy a condition (predicate function).",
+    "2. A function is pure if it does not have side effects and does not change any external (global) state."
+   ]
+  ],
+  [
+   "II. Multiple Choice",
+   [
+    "1. list(map(lambda x: x + 1, [1, 2, 3])) → [2, 3, 4] — map applies the lambda to each element, adding 1 to each."
+   ]
+  ],
+  [
+   "III. Extra Examples",
+   [
+    "filter: list(filter(lambda x: x % 2 == 0, range(10))) → [0, 2, 4, 6, 8].",
+    "reduce: functools.reduce(lambda a, b: a * b, [1, 2, 3, 4]) → 24 (factorial of 4)."
+   ]
+  ]
+ ]
+}

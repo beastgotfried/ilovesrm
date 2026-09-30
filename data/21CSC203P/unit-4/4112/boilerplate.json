@@ -1,0 +1,26 @@
+{
+ "title": "Unit – 4 : Session – 11 : SLO – 2  |  Converting a TCP Client to UDP",
+ "sections": [
+  [
+   "I. Key Changes (TCP client → UDP client)",
+   [
+    "1. Socket type: socket.SOCK_STREAM → socket.SOCK_DGRAM.",
+    "2. No connection setup: remove connect() — UDP is connectionless.",
+    "3. Sending: send()/sendall() → sendto(data, (host, port)) — every datagram carries its destination.",
+    "4. Receiving: recv() → recvfrom(bufsize) — returns (data, address) because the sender must be identified.",
+    "5. No listen()/accept() on the peer; a UDP \"server\" just bind()s and calls recvfrom().",
+    "6. Error handling: no automatic retransmission — timeouts and retries must be implemented by the application."
+   ]
+  ],
+  [
+   "II. Example — UDP Client",
+   [
+    "import socket",
+    "s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)",
+    "s.sendto(b\"Hello\", (\"localhost\", 5000))",
+    "data, addr = s.recvfrom(1024)",
+    "print(data); s.close()"
+   ]
+  ]
+ ]
+}

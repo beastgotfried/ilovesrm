@@ -1,0 +1,26 @@
+{
+ "title": "Unit – 4 : Session – 3 : SLO – 2  |  Lambda Expressions and Anonymous Functions",
+ "sections": [
+  [
+   "I. Programming Task — Custom Higher-Order Function",
+   [
+    "def transform(items, func):",
+    "    \"\"\"Apply func to every element of items and return the new list.\"\"\"",
+    "    return [func(x) for x in items]",
+    "",
+    "# usage",
+    "nums = [1, 2, 3, 4]",
+    "print(transform(nums, lambda x: x * x))   # [1, 4, 9, 16]",
+    "print(transform(nums, lambda x: x + 10))  # [11, 12, 13, 14]"
+   ]
+  ],
+  [
+   "II. Explanation",
+   [
+    "transform() is higher-order because it accepts another function (func) as a parameter.",
+    "The lambda expressions are anonymous functions defined inline — no def or name needed.",
+    "This pattern generalizes map(): any transformation can be plugged in without changing transform() itself."
+   ]
+  ]
+ ]
+}

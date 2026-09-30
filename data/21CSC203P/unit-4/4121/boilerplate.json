@@ -1,0 +1,18 @@
+{
+ "title": "Unit – 4 : Session – 12 : SLO – 1  |  Mini Project Integrating a Programming Paradigm",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. paradigm — a good project should demonstrate a real-world application of a programming paradigm (functional, logic, OOP, parallel or distributed).",
+    "2. design — final documentation should include design (problem statement, architecture), implementation, and results."
+   ]
+  ],
+  [
+   "II. Multiple Choice",
+   [
+    "1. b) Web app using recursion and higher-order functions — this genuinely exercises the functional paradigm; the other options rely on mutable global state, side effects or randomness, which functional programming avoids."
+   ]
+  ]
+ ]
+}

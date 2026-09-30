@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 9 : SLO – 2  |  Identify Components — Model, View, Controller",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. Model — it maintains the application data and business logic.",
+    "2. Model — a class with getValue()/setValue()/updateData() methods manages state, so it is the Model.",
+    "3. View — the View defines how the user sees and interacts with the application.",
+    "4. View — the Model should never reference or update the View directly; changes flow back via the Controller/observers."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — the View only presents data; updating business data is the Model's responsibility (via the Controller).",
+    "2. TRUE — the Controller receives user input, processes it and delegates changes to the Model."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. B — an ActionListener is event-handling logic, which belongs to the Controller.",
+    "2. B — a JLabel displaying a name is pure presentation, i.e. the View."
+   ]
+  ],
+  [
+   "IV. Programming",
+   [
+    "1. Identify the component: B — UserData only stores and exposes data (name getter/setter), so it is the Model.",
+    "2. Identify the role: B — ButtonHandler reacts to an event, updates the Model and refreshes the View, so it is the Controller."
+   ]
+  ]
+ ]
+}

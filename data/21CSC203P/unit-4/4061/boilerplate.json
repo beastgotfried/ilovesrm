@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 6 : SLO – 1  |  Parallel Computing Paradigms and Key Models",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. Parallel — parallel computing allows multiple processes to run simultaneously.",
+    "2. Shared — shared-memory architecture gives all processors one global memory space."
+   ]
+  ],
+  [
+   "II. Multiple Choice",
+   [
+    "1. b) Shared Memory — tightly coupled processors communicate through a common address space with low latency, so the shared-memory model suits them best."
+   ]
+  ],
+  [
+   "III. Key Notes",
+   [
+    "Shared memory: tightly coupled, communication via variables in common memory (e.g. multicore CPUs, OpenMP).",
+    "Distributed memory: loosely coupled, each node owns private memory, communication via message passing (e.g. clusters, MPI)."
+   ]
+  ]
+ ]
+}

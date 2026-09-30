@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 7 : SLO – 1  |  Multiprocessing Using IPython",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. The multiprocessing module — it spawns separate OS processes so Python code runs truly in parallel (bypassing the GIL).",
+    "2. Pool — a Pool manages a group of worker processes and distributes tasks among them."
+   ]
+  ],
+  [
+   "II. Multiple Choice",
+   [
+    "1. [1, 4, 9] — p.map(square, [1, 2, 3]) applies square() to each element across 2 worker processes and returns the results in order."
+   ]
+  ],
+  [
+   "III. Key Notes",
+   [
+    "Pool(n) creates n worker processes; the with block ensures workers are closed and joined.",
+    "map() preserves input order regardless of which process finished first."
+   ]
+  ]
+ ]
+}

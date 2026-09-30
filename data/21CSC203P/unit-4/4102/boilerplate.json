@@ -1,0 +1,29 @@
+{
+ "title": "Unit – 4 : Session – 10 : SLO – 2  |  Client-Server Communication Using the socket Module",
+ "sections": [
+  [
+   "I. Steps to Create a Simple TCP Server",
+   [
+    "1. Create the socket: s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)  # IPv4 + TCP",
+    "2. Bind it to an address: s.bind((\"localhost\", 5000))",
+    "3. Start listening: s.listen(1)  # backlog of 1 pending connection",
+    "4. Accept a client: conn, addr = s.accept()  # blocks until a client connects",
+    "5. Exchange data: data = conn.recv(1024); conn.send(b\"Hello client\")",
+    "6. Close both sockets: conn.close(); s.close()"
+   ]
+  ],
+  [
+   "II. Minimal Working Example",
+   [
+    "import socket",
+    "s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)",
+    "s.bind((\"localhost\", 5000))",
+    "s.listen(1)",
+    "conn, addr = s.accept()",
+    "print(\"Connected:\", addr)",
+    "conn.sendall(b\"Welcome\")",
+    "conn.close(); s.close()"
+   ]
+  ]
+ ]
+}

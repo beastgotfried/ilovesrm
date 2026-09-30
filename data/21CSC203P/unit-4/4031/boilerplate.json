@@ -1,0 +1,26 @@
+{
+ "title": "Unit – 4 : Session – 3 : SLO – 1  |  Custom Higher-Order Functions",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. lambda — a lambda function in Python is a short anonymous function.",
+    "2. function — a higher-order function can take another function as an argument (or return one)."
+   ]
+  ],
+  [
+   "II. Multiple Choice",
+   [
+    "1. list(filter(lambda x: x % 2 == 0, [1, 2, 3, 4])) → [2, 4] — filter keeps only the even numbers."
+   ]
+  ],
+  [
+   "III. Example — Custom Higher-Order Function",
+   [
+    "def apply_twice(func, value): return func(func(value))",
+    "apply_twice(lambda x: x * 3, 2)  # → 18",
+    "Higher-order functions treat functions as first-class values: they can be passed, returned and stored like any other object."
+   ]
+  ]
+ ]
+}

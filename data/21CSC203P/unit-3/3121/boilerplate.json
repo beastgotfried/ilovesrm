@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 12 : SLO – 1  |  Initiate Java Mini-Project Following a Chosen Paradigm",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. blueprint (structure and behaviour) — a class defines the attributes and methods, i.e. the blueprint, of an object.",
+    "2. default (root/src) package — the main class is typically placed in the default package or top-level source folder of the project.",
+    "3. Controller — in MVC, user-triggered events are handled by the Controller.",
+    "4. package — the first line of each class file in a packaged project is the package statement."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — business logic belongs in the Model; the View only presents data.",
+    "2. FALSE — functional-style Java code can use lambdas, method references and instance methods; static is not mandatory."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. C — public static void main(String[] args) is the JVM entry point.",
+    "2. C — good OOP practice is to break the code into classes based on entities (User, Product, Order, ...)."
+   ]
+  ],
+  [
+   "IV. Programming / Identification",
+   [
+    "1. Paradigm: C — the model/, view/, controller/ package structure is the MVC paradigm.",
+    "2. Missing declaration: B — public static void main(String[] args) completes the entry point."
+   ]
+  ]
+ ]
+}

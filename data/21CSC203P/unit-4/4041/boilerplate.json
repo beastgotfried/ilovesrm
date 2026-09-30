@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 4 : SLO – 1  |  Logic Programming and Key Constructs",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. facts and rules are written using predicates (clauses) and terms — i.e. Horn clauses made of a head predicate and argument terms.",
+    "2. period (.) — every Prolog query (and clause) is terminated by a full stop."
+   ]
+  ],
+  [
+   "II. Programming Task",
+   [
+    "Fact: father(ram, ravi).            % Ram is the father of Ravi",
+    "Rule: parent(X, Y) :- father(X, Y). % X is a parent of Y if X is the father of Y",
+    "Query: ?- father(ram, ravi).        % → true"
+   ]
+  ]
+ ]
+}

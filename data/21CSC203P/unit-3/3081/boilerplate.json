@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 8 : SLO – 1  |  Apply Exception Handling in Database Access",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. SQLException — it is the base checked exception for all JDBC database access errors.",
+    "2. finally — the finally block (or try-with-resources) ensures database resources are closed properly.",
+    "3. AutoCloseable — try-with-resources automatically closes any object that implements the AutoCloseable interface.",
+    "4. subclass–superclass (inheritance) — in a multi-catch block the exception types must not be related by inheritance."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE — SQLException provides getMessage(), getSQLState() and getErrorCode() for diagnosing database errors.",
+    "2. TRUE — ResultSet and Statement must be explicitly closed in a finally block, or automatically via try-with-resources."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. B — catch(SQLException e) is the correct syntax for catching database-related exceptions.",
+    "2. C — getSQLState() returns a standardized five-character SQL error code string."
+   ]
+  ],
+  [
+   "IV. Programming",
+   [
+    "1. Identify the output: A — The connection fails, the SQLException is caught, and the program prints \"Error: \" followed by the driver-supplied message (e.g. invalid URL / connection refused).",
+    "2. Identify the error: B — executeQuery() throws SQLException, not IOException; the catch clause must declare SQLException (or Exception), otherwise the program does not compile."
+   ]
+  ]
+ ]
+}

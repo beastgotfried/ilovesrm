@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 4 : Session – 12 : SLO – 2  |  Evaluate and Document the Paradigm Usage",
+ "sections": [
+  [
+   "I. Description (2–3 lines)",
+   [
+    "In my project (a task-tracker web app), the entire data-transformation layer is written in the functional paradigm: every update is a pure function that maps the current task list to a new one instead of mutating shared state.",
+    "Filtering completed tasks, sorting by deadline and computing statistics are composed using map(), filter() and reduce() with lambda expressions, so each operation is independently testable.",
+    "Because the functions are side-effect free, the UI simply re-renders from the returned state — demonstrating referential transparency and making the code easier to debug and extend."
+   ]
+  ]
+ ]
+}

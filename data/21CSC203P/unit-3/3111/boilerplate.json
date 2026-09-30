@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 11 : SLO – 1  |  Integrate Event Handling in GUI Applications",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. ActionListener — the interface used to handle button clicks in Swing.",
+    "2. addActionListener — btn.addActionListener(listener) registers the listener.",
+    "3. getActionCommand() — returns the action command string from an ActionEvent.",
+    "4. java.awt.event — the ActionEvent class lives in the java.awt.event package."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. TRUE — Swing dispatches events synchronously on the Event Dispatch Thread (EDT), so long tasks should be moved off it.",
+    "2. TRUE — one ActionListener instance can be registered with any number of buttons (distinguished via getActionCommand())."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. B — actionPerformed(ActionEvent e) is the single method of the ActionListener interface.",
+    "2. B — an ActionEvent object is passed to actionPerformed()."
+   ]
+  ],
+  [
+   "IV. Programming",
+   [
+    "1. Output: C — clicking the button fires the lambda listener and prints \"Hello\".",
+    "2. Event-driven part: B — the anonymous ActionListener (its actionPerformed method) is the event-driven part of the snippet."
+   ]
+  ]
+ ]
+}

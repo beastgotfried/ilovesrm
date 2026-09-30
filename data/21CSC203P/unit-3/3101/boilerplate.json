@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 10 : SLO – 1  |  Use Java Swing Widgets for GUI Creation",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. JButton — the Swing class used to create a push button.",
+    "2. ButtonGroup — groups radio buttons so that only one can be selected at a time.",
+    "3. JTextArea — displays multiple lines of editable text.",
+    "4. HIDE_ON_CLOSE — setDefaultCloseOperation(JFrame.HIDE_ON_CLOSE) hides the frame when it is closed."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — JTextField accepts a single line of text; selecting from a list is done with JComboBox or JList.",
+    "2. FALSE — a JComboBox is not editable by default; setEditable(true) is required to allow free typing."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. B — JLabel displays a non-editable line of text.",
+    "2. C — JRadioButton (inside a ButtonGroup) allows exactly one choice among mutually exclusive options."
+   ]
+  ],
+  [
+   "IV. Programming",
+   [
+    "1. Identify the output: B — a window titled \"Test\" appears showing the label text \"Welcome\".",
+    "2. Find the error: C — neither setSize() nor pack() is called, so the frame would open with zero/default size; call f.setSize(...) or f.pack() before setVisible(true)."
+   ]
+  ]
+ ]
+}

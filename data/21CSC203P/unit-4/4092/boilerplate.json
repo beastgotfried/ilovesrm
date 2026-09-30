@@ -1,0 +1,21 @@
+{
+ "title": "Unit – 4 : Session – 9 : SLO – 2  |  TCP and UDP Socket Types",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. TCP — Reliable, ordered: connection-oriented byte stream with acknowledgements, retransmission and sequencing.",
+    "2. UDP — Fast, no guarantee: connectionless datagrams with no delivery or ordering guarantee, minimal overhead.",
+    "3. Port — Logical communication endpoint: a 16-bit number identifying a specific process/service on a host."
+   ]
+  ],
+  [
+   "II. Key Notes",
+   [
+    "TCP use cases: web (HTTP/HTTPS), email, file transfer — where correctness matters.",
+    "UDP use cases: live video/voice, DNS, online gaming — where speed matters more than perfection.",
+    "A socket = IP address + port + protocol; TCP sockets are SOCK_STREAM, UDP sockets are SOCK_DGRAM."
+   ]
+  ]
+ ]
+}

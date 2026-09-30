@@ -1,0 +1,14 @@
+{
+ "title": "Unit – 4 : Session – 5 : SLO – 2  |  Logic Programming — Rule Evaluation",
+ "sections": [
+  [
+   "I. Query Evaluation",
+   [
+    "Given:  likes(john, X) :- food(X).   with facts  food(pizza).  food(burger).",
+    "Query:  ?- likes(john, X).",
+    "Answer: X = pizza ;  X = burger.",
+    "Explanation: the rule succeeds for every X that satisfies food(X). Prolog first unifies X with pizza; on asking for more solutions (;) it backtracks and returns burger. Both values satisfy the query."
+   ]
+  ]
+ ]
+}

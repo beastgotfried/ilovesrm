@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 10 : SLO – 2  |  Design Forms Using Labels, Text Fields, Buttons and Layout Managers",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. JLabel — a JLabel displays static text next to an input field.",
+    "2. BoxLayout — BoxLayout with Y_AXIS stacks form components vertically.",
+    "3. BorderLayout — arranges components in five regions: North, South, East, West and Center.",
+    "4. GridLayout — organizes form fields in a table-like rows-and-columns structure."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — JTextField is single-line only; multi-line input needs JTextArea.",
+    "2. TRUE — label.setLabelFor(textField) associates a JLabel with a JTextField for accessibility (mnemonics/screen readers)."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. C — GridLayout arranges components in rows and columns.",
+    "2. B — frame.add(button, BorderLayout.SOUTH) places the button at the bottom region."
+   ]
+  ],
+  [
+   "IV. Programming",
+   [
+    "1. Identify the output layout: B — FlowLayout places the label, text field and button left to right in a row, wrapping to a new line if the frame is too narrow.",
+    "2. Identify the missing component: B — new JTextField(\"Enter email\", 20) creates the single-line input field for the form."
+   ]
+  ]
+ ]
+}

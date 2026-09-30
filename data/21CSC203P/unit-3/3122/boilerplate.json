@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 12 : SLO – 2  |  Document and Present the Complete Project in Dissertation Form",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. Introduction (Problem Statement) — the section that describes the problem being addressed.",
+    "2. Tools and Technologies (System Specifications) — lists the technologies, tools and platforms used in the project.",
+    "3. Conclusion (and Future Work) — summarizes key findings and suggests future improvements.",
+    "4. Introduction (first content) page — page numbering begins from the first content page, not the cover page."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — the abstract appears at the very beginning of the dissertation, right after the title page.",
+    "2. TRUE — GUI screenshots belong in the Implementation (or Results) section as evidence of the working system."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. A — the standard order is Abstract → Introduction → Implementation → Conclusion → References.",
+    "2. C — the Implementation section carries code snippets, database schemas and screenshots."
+   ]
+  ],
+  [
+   "IV. Identification",
+   [
+    "1. Missing heading: Introduction — between Acknowledgment and System Design the report needs an Introduction (with the problem statement and objectives).",
+    "2. Formatting error: C — \"visited: today's date\" is not a proper date; references must carry an actual access date (e.g. Visited: 15-Sep-2025), and ideally author/title capitalization should also be fixed."
+   ]
+  ]
+ ]
+}

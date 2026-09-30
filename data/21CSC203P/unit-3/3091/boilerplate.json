@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 3 : Session – 9 : SLO – 1  |  Describe MVC Architecture in GUI Development",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. View — the View is responsible for presenting the user interface.",
+    "2. Controller — it listens to user actions and modifies the Model.",
+    "3. Controller — an ActionListener attached to a button plays the Controller role in Swing MVC.",
+    "4. reusability — MVC promotes code reusability (separation of concerns) and testability."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "1. FALSE — the Controller updates the Model; the View is refreshed from the Model, not updated directly by the Controller bypassing it.",
+    "2. TRUE — MVC separates data (Model), presentation (View) and input handling (Controller), which is the separation of concerns."
+   ]
+  ],
+  [
+   "III. Multiple Choice",
+   [
+    "1. C — the Model contains and manages the application data and business logic.",
+    "2. C — the MVC control flow is View → Controller → Model → View."
+   ]
+  ],
+  [
+   "IV. Programming",
+   [
+    "1. Identify the output: A — each button click increments the counter in the Model and the label is updated with the new value.",
+    "2. Identify the missing part: C — view.updateDisplay(model.getData()); after the Model changes, the View must be refreshed from the Model to complete the MVC cycle."
+   ]
+  ]
+ ]
+}

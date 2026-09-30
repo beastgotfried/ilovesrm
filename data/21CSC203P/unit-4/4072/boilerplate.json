@@ -1,0 +1,26 @@
+{
+ "title": "Unit – 4 : Session – 7 : SLO – 2  |  Execute Parallel Tasks with Process Pools",
+ "sections": [
+  [
+   "I. Programming Task",
+   [
+    "from multiprocessing import Pool",
+    "",
+    "def cube(x):",
+    "    return x ** 3",
+    "",
+    "if __name__ == \"__main__\":",
+    "    with Pool(3) as p:",
+    "        print(p.map(cube, [1, 2, 3]))   # [1, 8, 27]"
+   ]
+  ],
+  [
+   "II. Explanation",
+   [
+    "Pool(3) creates three worker processes; map() sends each number to a worker and collects the cubes.",
+    "The __main__ guard is required so child processes (spawned/forked) do not re-run the pool creation code.",
+    "Output: [1, 8, 27] — computed in parallel across the worker processes."
+   ]
+  ]
+ ]
+}

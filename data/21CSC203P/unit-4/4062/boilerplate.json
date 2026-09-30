@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 6 : SLO – 2  |  Parallel Computing — Architecture Matching",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. Shared Memory — Common address space: all processors read/write one global memory.",
+    "2. Distributed Memory — Message passing: each node has private memory; data moves via explicit send/receive (MPI).",
+    "3. Multicore CPU — Parallel execution units: several cores on one chip execute threads simultaneously."
+   ]
+  ],
+  [
+   "II. Key Notes",
+   [
+    "Flynn's taxonomy context: multicore CPUs and shared-memory machines are typically MIMD systems.",
+    "Hybrid systems combine both: clusters of multicore nodes use shared memory inside a node and message passing across nodes."
+   ]
+  ]
+ ]
+}

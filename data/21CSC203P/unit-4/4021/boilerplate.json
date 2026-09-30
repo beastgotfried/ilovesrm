@@ -1,0 +1,22 @@
+{
+ "title": "Unit – 4 : Session – 2 : SLO – 1  |  Pure Functions with Examples",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. map() — Applies a function to each element. Example: list(map(str.upper, [\"a\", \"b\"])) → [\"A\", \"B\"].",
+    "2. filter() — Selects elements based on a condition. Example: list(filter(lambda x: x > 0, [-1, 2, -3, 4])) → [2, 4].",
+    "3. reduce() — Accumulates values to a single result. Example: reduce(lambda a, b: a + b, [1, 2, 3, 4]) → 10.",
+    "4. Pure Function — Same output for the same input, with no side effects. Example: def add(a, b): return a + b."
+   ]
+  ],
+  [
+   "II. Key Notes",
+   [
+    "A pure function never mutates its arguments, global variables, or performs I/O — its result depends only on its inputs.",
+    "map() and filter() return lazy iterators in Python 3; wrap them in list() to materialize the results.",
+    "reduce() lives in the functools module: from functools import reduce."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 4 : Session – 10 : SLO – 1  |  TCP Sockets in Python",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. c) Wait for connections — listen() puts the server socket into passive mode, queuing incoming connection requests."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. bind() associates the socket with an IP address and a port number.",
+    "2. accept() returns a new socket object for the client connection (plus the client's address)."
+   ]
+  ],
+  [
+   "III. Key Notes",
+   [
+    "Typical server sequence: socket() → bind() → listen() → accept() → recv()/send() → close().",
+    "listen(backlog) only configures the queue; the actual handshake completes at accept()."
+   ]
+  ]
+ ]
+}
