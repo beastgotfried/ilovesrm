@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 2 : SLO – 1  |  Constructing DFA and NFA for Basic Languages",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. DFA for strings over {0,1} ending with '0' — states {q0, q1}; start = q0, accepting = {q1}. Transitions: q0 --0--> q1, q0 --1--> q0, q1 --0--> q1, q1 --1--> q0. The machine is in q1 exactly when the last symbol read was 0.",
+    "2. NFA for strings starting with '1' — states {q0, q1}; start = q0, accepting = {q1}. Transitions: q0 --1--> q1, and q1 loops on 0 and 1. (From q0, input 0 has no transition — the string is rejected.)",
+    "3. Can an NFA have ε-transitions? — Yes. An ε-NFA may change state without consuming any input symbol; ε-transitions are the key tool in Thompson's construction, and every ε-NFA can be converted to an equivalent DFA."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,19 @@
+{
+ "title": "Unit – 5 : Session – 7 : SLO – 2  |  Event Loops, Event Sources and Handlers",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Event loop — the central infinite loop (e.g. Tkinter's mainloop()) that continuously waits for events, dequeues them and dispatches each to its registered handler.",
+    "2. Event source — the object that generates events, e.g. a button being clicked, a key being pressed, a timer expiring, or a socket receiving data.",
+    "3. Event handler — the function/method registered to run in response to a specific event from a source, e.g. the callback executed when a button is clicked."
+   ]
+  ],
+  [
+   "II. Flow",
+   [
+    "Event source raises event → event loop catches it → matching event handler executes → control returns to the loop."
+   ]
+  ]
+ ]
+}

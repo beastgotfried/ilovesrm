@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 2 : SLO – 2  |  State Transitions and Acceptance Conditions",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. If a DFA has no accepting state — it accepts nothing: its language is the empty set ∅. Every string, including ε, ends in a non-accepting state and is rejected.",
+    "2. What is a transition function? — the rule δ that maps a (state, input symbol) pair to the next state: δ: Q × Σ → Q for a DFA (and to a set of states, Q × (Σ ∪ {ε}) → 2^Q, for an NFA).",
+    "3. When is a string accepted? — when, starting from the start state and consuming the whole string, the automaton ends in one of its accepting (final) states. For an NFA, acceptance requires at least one computation path to finish in an accepting state."
+   ]
+  ]
+ ]
+}

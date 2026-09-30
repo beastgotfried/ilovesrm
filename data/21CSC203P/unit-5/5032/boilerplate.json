@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 3 : SLO – 2  |  Simulating Pattern Recognition with Input Strings",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. DFA for \"ends in 01\" — accepts exactly the strings over {0,1} whose last two symbols are 01, e.g. 01, 001, 101, 1101, 10101. It rejects ε, 0, 1, 00, 10, 11, 100, etc.",
+    "2. Simulating input '1010' (DFA ends-in-01, states q0=start/no-match, q1=last symbol 0, q2=accept/ends-01): read 1 → q0; read 0 → q1; read 1 → q2 (accept state); read 0 → q1. String exhausted at q1, which is not accepting → '1010' is REJECTED (it ends in 10, not 01).",
+    "3. Testing pattern recognition in code — with automata-lib, run dfa.read_input_stepwise(\"1010\") to trace the state at each symbol, or dfa.accepts_input(\"1010\") for the verdict; a hand-written simulator loops: state = δ(state, symbol) for each character, then checks state ∈ F."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 1 : SLO – 1  |  Finite Automata — Definition and Types (DFA, NFA)",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. What is a finite automaton? — A theoretical machine with a finite set of states that reads an input string symbol by symbol, transitions between states according to a transition function, and accepts or rejects the string depending on whether it ends in an accepting (final) state.",
+    "2. What distinguishes a DFA from an NFA? — In a DFA every state has exactly one transition per input symbol (deterministic); in an NFA a state may have multiple transitions for the same symbol, none at all, or ε-transitions that move without consuming input.",
+    "3. Can every NFA be converted to a DFA? — Yes. The subset construction method converts any NFA with n states into an equivalent DFA (with up to 2^n states) that recognizes exactly the same language."
+   ]
+  ]
+ ]
+}

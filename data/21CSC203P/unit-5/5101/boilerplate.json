@@ -1,0 +1,19 @@
+{
+ "title": "Unit – 5 : Session – 10 : SLO – 1  |  Real-Time Interaction Through Trigger Functions",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Trigger function — a callback function registered to a widget (or event) that is automatically invoked when the associated event fires, e.g. a button's command function.",
+    "2. When they execute — at the moment the triggering event occurs (button click, key press, timer), dispatched by the event loop in real time, not at a fixed point in the program's sequence.",
+    "3. Simple trigger function —",
+    "import tkinter as tk",
+    "def on_click():",
+    "    print(\"Button triggered!\")",
+    "root = tk.Tk()",
+    "tk.Button(root, text=\"Fire\", command=on_click).pack()",
+    "root.mainloop()"
+   ]
+  ]
+ ]
+}

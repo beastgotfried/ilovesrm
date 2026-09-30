@@ -1,0 +1,23 @@
+{
+ "title": "Unit – 5 : Session – 6 : SLO – 2  |  Symbolic Limits and Series",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. lim (x→∞) 1/x = 0 — as x grows without bound, 1/x shrinks to 0. In SymPy: limit(1/x, x, oo) → 0.",
+    "2. Sum of 1 + 1/2 + 1/4 + … — a geometric series with first term a = 1 and ratio r = 1/2; sum = a/(1 − r) = 1/(1 − 1/2) = 2.",
+    "3. lim (x→0) sin(x)/x = 1 — the classic standard limit. In SymPy: limit(sin(x)/x, x, 0) → 1."
+   ]
+  ],
+  [
+   "II. Code",
+   [
+    "from sympy import symbols, limit, sin, oo, summation",
+    "from sympy.abc import x, n",
+    "print(limit(1/x, x, oo))                    # 0",
+    "print(summation((1/2)**n, (n, 0, oo)))      # 2",
+    "print(limit(sin(x)/x, x, 0))                # 1"
+   ]
+  ]
+ ]
+}

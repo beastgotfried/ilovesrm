@@ -1,0 +1,23 @@
+{
+ "title": "Unit – 5 : Session – 5 : SLO – 2  |  Polynomial and Rational Expression Operations",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Multiply (x+2)(x+3) — expand((x + 2)*(x + 3)) → x**2 + 5*x + 6.",
+    "2. Factor x² − 4 — factor(x**2 − 4) → (x − 2)*(x + 2) (difference of squares).",
+    "3. Add 1/(x+1) + 1/(x−1) — together/simplify: combine over the common denominator (x+1)(x−1) → ((x − 1) + (x + 1)) / (x² − 1) = 2*x/(x**2 − 1)."
+   ]
+  ],
+  [
+   "II. Code",
+   [
+    "from sympy import symbols, expand, factor, simplify",
+    "x = symbols('x')",
+    "print(expand((x + 2)*(x + 3)))            # x**2 + 5*x + 6",
+    "print(factor(x**2 - 4))                   # (x - 2)*(x + 2)",
+    "print(simplify(1/(x + 1) + 1/(x - 1)))    # 2*x/(x**2 - 1)"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "title": "Unit – 5 : Session – 8 : SLO – 1  |  Event-Driven GUI with Tkinter",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Create a GUI window — import tkinter as tk; root = tk.Tk(); root.title(\"My App\"); root.geometry(\"300x150\"); root.mainloop().",
+    "2. Widget that displays a message — tk.Label (e.g. tk.Label(root, text=\"Hello\").pack()); for pop-ups, tkinter.messagebox.showinfo().",
+    "3. Widget that triggers a function on click — tk.Button with the command option: tk.Button(root, text=\"Go\", command=my_func)."
+   ]
+  ],
+  [
+   "II. Minimal Example",
+   [
+    "import tkinter as tk",
+    "root = tk.Tk()",
+    "tk.Label(root, text=\"Hello, Tkinter!\").pack()",
+    "tk.Button(root, text=\"Click\", command=lambda: print(\"clicked\")).pack()",
+    "root.mainloop()"
+   ]
+  ]
+ ]
+}

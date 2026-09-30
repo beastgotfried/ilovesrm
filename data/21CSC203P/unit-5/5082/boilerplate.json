@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 8 : SLO – 2  |  Defining and Binding Event Handlers to Widgets",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Binding a function to a button — either pass it at creation: tk.Button(root, text=\"Go\", command=my_func); or use the generic binder: button.bind(\"<Button-1>\", my_handler) where the handler receives an event object.",
+    "2. When a bound function is triggered — the event loop detects the event and calls the handler synchronously on the GUI thread; the handler runs to completion, then control returns to mainloop() and the UI updates.",
+    "3. Sharing handlers — yes. Multiple widgets can register the same handler; inside it, event.widget (or the command's shared state) identifies which widget fired, e.g. one on_key handler for several Entry fields."
+   ]
+  ]
+ ]
+}

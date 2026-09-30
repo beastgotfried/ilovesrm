@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 11 : SLO – 1  |  Initiating a Python Mini-Project on a Chosen Paradigm",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Programming paradigm — a fundamental style/approach to structuring programs, e.g. imperative, object-oriented, functional, logic, event-driven or parallel programming.",
+    "2. Example mini-project — a Tkinter-based expense tracker using the event-driven paradigm (buttons trigger add/delete/report handlers), or a symbolic algebra quizzer using SymPy (symbolic paradigm).",
+    "3. Why choose a paradigm before coding — the paradigm shapes the architecture (classes vs pure functions vs event handlers), the libraries you need, and how testable/maintainable the result is; deciding early prevents mid-project rewrites and keeps the design coherent."
+   ]
+  ]
+ ]
+}

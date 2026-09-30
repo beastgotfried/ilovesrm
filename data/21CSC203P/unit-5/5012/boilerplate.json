@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 1 : SLO – 2  |  Modelling Simple Regular Expressions Using Automata",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Regular expression for strings ending with 'ab' — (a + b)*ab  i.e. any string over {a, b} followed by the suffix ab.",
+    "2. DFA for a* — a single state q0 that is both the start and the accepting state, with a self-loop on 'a'. The empty string is accepted immediately, and every additional 'a' loops back to q0.",
+    "3. Converting a regular expression to an NFA — use Thompson's construction: build small NFAs for the basic symbols, then compose them with ε-transitions for union (|), concatenation, and Kleene star (*), yielding an ε-NFA equivalent to the expression."
+   ]
+  ]
+ ]
+}

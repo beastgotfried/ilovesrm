@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 7 : SLO – 1  |  Event-Driven Programming — Definition and Applications",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Event-driven programming — a paradigm where the flow of the program is determined by events (user actions, messages, sensor signals): the program waits in a loop and executes handler code when an event occurs, rather than following a fixed sequence.",
+    "2. Real-world example — a GUI application such as a calculator: nothing happens until the user clicks a button, and each click triggers the corresponding handler. (Other examples: web servers reacting to requests, JavaScript in browsers.)",
+    "3. Difference from sequential programming — in sequential programming statements run in a predetermined order from start to finish; in event-driven programming the order is determined at runtime by which events occur and when, with an event loop dispatching them to handlers."
+   ]
+  ]
+ ]
+}

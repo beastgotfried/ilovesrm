@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 12 : SLO – 1  |  Documenting and Presenting a Python-Based Dissertation",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Key parts of a project report — Abstract, Introduction (problem statement and objectives), Literature/Technology Survey, System Design (architecture, module diagram), Implementation (code, screenshots), Results and Testing, Conclusion and Future Work, References.",
+    "2. Presenting a Python project — start with the problem and chosen paradigm, show the architecture, give a live demo of the running program, walk through 2–3 key code sections, present test results, and close with limitations and future scope.",
+    "3. Why documentation matters — it lets others (and your future self) understand, reproduce, maintain and extend the project; it is also the primary artifact examiners evaluate for correctness of analysis, design and results."
+   ]
+  ]
+ ]
+}

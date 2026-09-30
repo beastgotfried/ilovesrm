@@ -1,0 +1,22 @@
+{
+ "title": "Unit – 5 : Session – 3 : SLO – 1  |  Implementing Automata with the Python automata Library",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Library — the automata-lib library (pip install automata-lib), specifically automata.fa.dfa.DFA and automata.fa.nfa.NFA, is used to define DFAs/NFAs in Python.",
+    "2. Acceptance check — dfa.accepts_input(\"0101\") returns True/False; dfa.read_input(\"0101\") returns the final state.",
+    "3. Defining a transition — transitions are given as a nested dictionary: transitions={\"q0\": {\"0\": \"q1\", \"1\": \"q0\"}, \"q1\": {\"0\": \"q1\", \"1\": \"q0\"}} — i.e. δ(state, symbol) = next state."
+   ]
+  ],
+  [
+   "II. Example",
+   [
+    "from automata.fa.dfa import DFA",
+    "dfa = DFA(states={\"q0\", \"q1\"}, input_symbols={\"0\", \"1\"},",
+    "          transitions={\"q0\": {\"0\": \"q1\", \"1\": \"q0\"}, \"q1\": {\"0\": \"q1\", \"1\": \"q0\"}},",
+    "          initial_state=\"q0\", final_states={\"q1\"})",
+    "print(dfa.accepts_input(\"1010\"))   # True — string ends with 0"
+   ]
+  ]
+ }

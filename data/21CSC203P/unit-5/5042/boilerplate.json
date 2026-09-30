@@ -1,0 +1,21 @@
+{
+ "title": "Unit – 5 : Session – 4 : SLO – 2  |  Symbolic Expressions and Algebraic Structures",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Symbolic expression — a mathematical expression built from symbolic variables (declared with sympy.symbols) that is stored unevaluated, e.g. x, y = symbols('x y'); expr = x**2 + 2*y.",
+    "2. Algebraic structure — a set equipped with one or more operations satisfying specific axioms, e.g. a group (closure, associativity, identity, inverse), a ring (addition + multiplication), or a field (a ring with multiplicative inverses).",
+    "3. Expanding (x+1)² in SymPy — expand((x + 1)**2) → x**2 + 2*x + 1."
+   ]
+  ],
+  [
+   "II. Code",
+   [
+    "from sympy import symbols, expand",
+    "x = symbols('x')",
+    "print(expand((x + 1)**2))   # x**2 + 2*x + 1"
+   ]
+  ]
+ ]
+}

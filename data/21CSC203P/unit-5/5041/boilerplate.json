@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 4 : SLO – 1  |  Symbolic Programming Concepts",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Symbolic computation — computation in which mathematical objects (variables, expressions, equations) are manipulated as exact symbols rather than approximate numbers, e.g. solving x² − 1 = 0 to get exactly x = 1 and x = −1.",
+    "2. Python library — SymPy is the standard Python library for symbolic computation (alternatives: SageMath; Octave/Mathematica outside Python).",
+    "3. Example of a symbolic equation — Eq(x**2 + 2*x + 1, 0), i.e. x² + 2x + 1 = 0; SymPy solves it exactly: solve(x**2 + 2*x + 1, x) → [−1]."
+   ]
+  ]
+ ]
+}

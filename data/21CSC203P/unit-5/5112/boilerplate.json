@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 11 : SLO – 2  |  Planning Modules, Libraries and Paradigm Selection",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Module in Python — a single .py file containing related functions, classes and variables that can be imported and reused (import math); a package is a directory of modules.",
+    "2. Two libraries — GUI: Tkinter (built-in) or PyQt; algebra/symbolic math: SymPy (numeric alternative: NumPy).",
+    "3. Why plan before coding — planning defines the module breakdown, data flow, libraries and paradigm up front, which reduces coupling, avoids duplicated effort, makes task division possible and catches design flaws when they are still cheap to fix."
+   ]
+  ]
+ ]
+}

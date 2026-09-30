@@ -1,0 +1,23 @@
+{
+ "title": "Unit – 5 : Session – 6 : SLO – 1  |  Symbolic Calculus — Differentiation and Integration",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Differentiate x³ — d/dx(x³) = 3x². In SymPy: diff(x**3, x) → 3*x**2.",
+    "2. Integrate 2x — ∫ 2x dx = x² + C. In SymPy: integrate(2*x, x) → x**2 (constant omitted).",
+    "3. Differentiate sin(x) — d/dx sin(x) = cos(x). In SymPy: diff(sin(x), x) → cos(x)."
+   ]
+  ],
+  [
+   "II. Code",
+   [
+    "from sympy import symbols, diff, integrate, sin",
+    "x = symbols('x')",
+    "print(diff(x**3, x))        # 3*x**2",
+    "print(integrate(2*x, x))    # x**2",
+    "print(diff(sin(x), x))      # cos(x)"
+   ]
+  ]
+ ]
+}

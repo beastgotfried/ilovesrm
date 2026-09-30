@@ -1,0 +1,21 @@
+{
+ "title": "Unit – 5 : Session – 9 : SLO – 1  |  Common Tkinter Widgets",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Widget that collects user input — tk.Entry (single-line text input).",
+    "2. Widget for multi-line text input — tk.Text.",
+    "3. Two display-only widgets — tk.Label (text/images) and tk.Message (multi-line read-only text); tk.Canvas can also serve for graphics display."
+   ]
+  ],
+  [
+   "II. Quick Reference",
+   [
+    "Entry: single-line input — value read with entry.get().",
+    "Text: multi-line input — value read with text.get(\"1.0\", tk.END).",
+    "Label: static display; Button: clickable action; Checkbutton/Radiobutton: option selection."
+   ]
+  ]
+ ]
+}

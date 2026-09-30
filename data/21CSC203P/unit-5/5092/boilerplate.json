@@ -1,0 +1,24 @@
+{
+ "title": "Unit – 5 : Session – 9 : SLO – 2  |  Designing Simple Interactive Forms Using Events",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Aligning widgets vertically — pack them with side=\"top\" (the default): widget.pack(), or use grid() placing each widget in its own row.",
+    "2. Reading user input from an Entry — call entry.get(), typically inside the submit button's handler: name = entry_name.get().",
+    "3. What makes a form \"interactive\" — widgets are bound to event handlers (button commands, key bindings, validation callbacks) so the application reacts immediately to user actions: submitting, validating, enabling/disabling fields and updating output dynamically."
+   ]
+  ],
+  [
+   "II. Mini Example",
+   [
+    "import tkinter as tk",
+    "root = tk.Tk()",
+    "e = tk.Entry(root); e.pack()",
+    "tk.Button(root, text=\"Submit\",",
+    "          command=lambda: print(\"Hello\", e.get())).pack()",
+    "root.mainloop()"
+   ]
+  ]
+ ]
+}

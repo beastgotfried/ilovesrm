@@ -1,0 +1,22 @@
+{
+ "title": "Unit – 5 : Session – 5 : SLO – 1  |  Algebraic Simplification Using SymPy",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Simplify (x² − 1)/(x − 1) — simplify((x**2 − 1)/(x − 1)) → x + 1 (the factor x − 1 cancels; valid for x ≠ 1).",
+    "2. What simplify() does — applies a battery of heuristics (algebraic, trigonometric, logarithmic rules) to rewrite an expression in a simpler, more compact equivalent form.",
+    "3. Expand (x+1)(x−1) — expand((x + 1)*(x − 1)) → x**2 − 1 (difference of squares)."
+   ]
+  ],
+  [
+   "II. Code",
+   [
+    "from sympy import symbols, simplify, expand",
+    "x = symbols('x')",
+    "print(simplify((x**2 - 1)/(x - 1)))  # x + 1",
+    "print(expand((x + 1)*(x - 1)))       # x**2 - 1"
+   ]
+  ]
+ ]
+}

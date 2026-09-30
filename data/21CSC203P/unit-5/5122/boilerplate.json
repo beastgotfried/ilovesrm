@@ -1,0 +1,13 @@
+{
+ "title": "Unit – 5 : Session – 12 : SLO – 2  |  Analyzing Outcomes and Challenges of Paradigm Implementation",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Coding challenge — a concrete difficulty encountered during implementation, e.g. managing callback state in an event-driven GUI, avoiding side effects in functional code, or debugging race conditions in parallel code.",
+    "2. Why review project outcomes — to verify the project actually meets its objectives, measure quality (correctness, performance, usability), learn what worked, and justify design decisions with evidence.",
+    "3. How to know the paradigm worked well — indicators: the code is modular and short, features were added without breaking existing ones, unit tests are easy to write and pass, bugs are rare and localized, and the paradigm's promised benefits (e.g. testability for functional, responsiveness for event-driven) are observable in practice."
+   ]
+  ]
+ ]
+}

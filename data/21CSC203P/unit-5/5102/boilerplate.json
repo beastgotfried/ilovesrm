@@ -1,0 +1,27 @@
+{
+ "title": "Unit – 5 : Session – 10 : SLO – 2  |  Integrating Backend Logic with Event Responses",
+ "sections": [
+  [
+   "I. Questions & Answers",
+   [
+    "1. Example of backend logic — a function that computes a result without touching the GUI, e.g. def add(a, b): return a + b, or a database query / file-processing routine.",
+    "2. Showing results on a label — the event handler calls the backend function and updates the widget: result_label.config(text=str(add(2, 3))) — the label refreshes immediately on screen.",
+    "3. Why integrate logic with events — so user actions drive real computation: the interface stays responsive and each interaction (click, input) produces meaningful output, separating presentation (GUI) from computation (backend) for cleaner, testable code."
+   ]
+  ],
+  [
+   "II. Mini Example",
+   [
+    "import tkinter as tk",
+    "def compute():",
+    "    lbl.config(text=f\"Sum = {int(e1.get()) + int(e2.get())}\")",
+    "root = tk.Tk()",
+    "e1, e2 = tk.Entry(root), tk.Entry(root)",
+    "e1.pack(); e2.pack()",
+    "tk.Button(root, text=\"Add\", command=compute).pack()",
+    "lbl = tk.Label(root, text=\"Sum = ?\"); lbl.pack()",
+    "root.mainloop()"
+   ]
+  ]
+ ]
+}
