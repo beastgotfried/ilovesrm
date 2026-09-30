@@ -1,0 +1,24 @@
+{
+ "title": "Unit – 2 : Session – 7 : SLO – 1  |  Singly Linked List — Deletion at the Middle",
+ "sections": [
+  [
+   "I. Delete the Node After a Given Node NUM",
+   [
+    "Step 1: IF START = NULL",
+    "    Write UNDERFLOW",
+    "    Go to Step 10",
+    "[END OF IF]",
+    "Step 2: SET PTR = START",
+    "Step 3: SET PREPTR = PTR",
+    "Step 4: Repeat Steps 5 and 6 while PTR -> DATA != NUM",
+    "Step 5: SET PREPTR = PTR",
+    "Step 6: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 7: SET TEMP = PTR -> NEXT",
+    "Step 8: SET PTR -> NEXT = TEMP -> NEXT",
+    "Step 9: FREE TEMP",
+    "Step 10: EXIT"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "title": "Unit – 2 : Session – 8 : SLO – 2  |  Circular Singly Linked List — Insertion",
+ "sections": [
+  [
+   "I. Insert a New Node VAL at the Beginning",
+   [
+    "Step 1: IF AVAIL = NULL",
+    "    Write OVERFLOW",
+    "    Go to Step 11",
+    "[END OF IF]",
+    "Step 2: SET NEW_NODE = AVAIL",
+    "Step 3: SET AVAIL = AVAIL -> NEXT",
+    "Step 4: SET NEW_NODE -> DATA = VAL",
+    "Step 5: SET PTR = START",
+    "Step 6: Repeat Step 7 while PTR -> NEXT != START",
+    "Step 7: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 8: SET NEW_NODE -> NEXT = START",
+    "Step 9: SET PTR -> NEXT = NEW_NODE",
+    "Step 10: SET START = NEW_NODE",
+    "Step 11: EXIT"
+   ]
+  ],
+  [
+   "II. Insert a New Node at the End",
+   [
+    "Step 1: IF AVAIL = NULL",
+    "    Write OVERFLOW",
+    "    Go to Step 10",
+    "[END OF IF]",
+    "Step 2: SET NEW_NODE = AVAIL",
+    "Step 3: SET AVAIL = AVAIL -> NEXT",
+    "Step 4: SET NEW_NODE -> DATA = VAL",
+    "Step 5: SET NEW_NODE -> NEXT = START",
+    "Step 6: SET PTR = START",
+    "Step 7: Repeat Step 8 while PTR -> NEXT != START",
+    "Step 8: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 9: SET PTR -> NEXT = NEW_NODE",
+    "Step 10: EXIT"
+   ]
+  ]
+ ]
+}

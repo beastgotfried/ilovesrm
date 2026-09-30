@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 2 : Session – 1 : SLO – 1  |  Fundamentals of Arrays and Their Operations",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. contiguous — array elements are stored in contiguous memory locations.",
+    "2. 0 — the first index is usually 0 (in C).",
+    "3. arr[4] — the 5th element is at index 4.",
+    "4. append — adding at the end of a dynamic array.",
+    "5. searching — finding the position of an element.",
+    "6. shifting — middle insertion requires shifting elements right.",
+    "7. data type — arrays are declared as: type name[size];",
+    "8. two-dimensional (2D) — used to represent matrices.",
+    "9. same — all elements share one data type.",
+    "10. size (capacity/length) — how many elements it can hold.",
+    "11. single-dimensional (one-dimensional).",
+    "12. deletion — removing an element from a position.",
+    "13. integer (non-negative integer) — indices must be integers.",
+    "14. fixed — size is fixed once declared in C.",
+    "15. for — the for loop is the common traversal loop."
+   ]
+  ]
+ ]
+}

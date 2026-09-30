@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 2 : Session – 12 : SLO – 1  |  Implementation of Doubly Linked Lists — Concepts I",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A doubly linked list node typically contains data, a pointer to the next node, and a pointer to the PREVIOUS node.",
+    "The structure of a doubly linked list node in C often uses the keyword STRUCT.",
+    "In C, to create a node dynamically, we use the function MALLOC().",
+    "The first node of a doubly linked list is called the HEAD (START).",
+    "To insert a node at the beginning, the new node's next pointer should point to the OLD HEAD (first) node.",
+    "When inserting at the beginning, the previous pointer of the old head should point to the NEW node.",
+    "To insert a node at the end, we must traverse the list until we find the node whose next is NULL.",
+    "While inserting at the end, the new node's previous pointer should point to the LAST (current tail) node.",
+    "To delete the first node, we move the head pointer to the SECOND (next) node.",
+    "When deleting the first node, the new head's previous pointer must be set to NULL."
+   ]
+  ]
+ ]
+}

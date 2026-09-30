@@ -1,0 +1,30 @@
+{
+ "title": "Unit – 2 : Session – 3 : SLO – 1  |  Advantages and Disadvantages of an Array",
+ "sections": [
+  [
+   "I. Advantages — Fill in the Blanks",
+   [
+    "1. direct (random/constant-time) — index-based O(1) access.",
+    "2. contiguous — elements sit in contiguous memory locations.",
+    "3. fixed (large) — good for storing a fixed number of similar-typed items.",
+    "4. fixed — size is fixed once declared.",
+    "5. repetitive (iterative) — loops make bulk operations easy.",
+    "6. overhead (need) — no need to declare many separate variables.",
+    "7. known (exact/sufficient) — memory is efficient when the size matches the need.",
+    "8. constant (O(1)) — index lookup time."
+   ]
+  ],
+  [
+   "II. Disadvantages — Fill in the Blanks",
+   [
+    "1. compile (declaration) — size must be known at compile time (for static arrays).",
+    "2. fixed — size cannot change at runtime.",
+    "3. shifting — middle insertion requires shifting other elements.",
+    "4. shifting — deletion also involves shifting elements.",
+    "5. too large (over-declared) — over-declaring wastes memory.",
+    "6. same — only one data type per array.",
+    "7. O(n) (linear) — worst-case search time in an unsorted array."
+   ]
+  ]
+ ]
+}

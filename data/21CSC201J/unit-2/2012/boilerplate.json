@@ -1,0 +1,27 @@
+{
+ "title": "Unit – 2 : Session – 1 : SLO – 2  |  Inserting an Element into an Array",
+ "sections": [
+  [
+   "I. Pseudocode — Append VAL",
+   [
+    "Step 1: Set upper_bound = N + 1  (the array grows by one; new upper bound)",
+    "Step 2: Set A[N + 1] = VAL  (place the value at the new last position)",
+    "Step 3: EXIT"
+   ]
+  ],
+  [
+   "II. Pseudocode — Insert VAL at position POS",
+   [
+    "Step 1: [INITIALIZATION] SET I = N",
+    "Step 2: Repeat Steps 3 and 4 while I >= POS",
+    "Step 3: SET A[I + 1] = A[I]   (shift element right)",
+    "Step 4: SET I = I − 1",
+    "[END OF LOOP]",
+    "Step 5: SET N = N + 1",
+    "Step 6: SET A[POS] = VAL",
+    "Step 7: EXIT",
+    "Note: shifting starts from the last element downward so no element is overwritten before being copied."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 2 : Session – 9 : SLO – 2  |  Doubly Linked List — Introduction",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "In a doubly linked list, each node contains TWO pointers.",
+    "The two pointers in a doubly linked list point to the PREVIOUS and the NEXT nodes.",
+    "The pointer to the next node in a doubly linked list is commonly called NEXT (RLINK).",
+    "The pointer to the previous node in a doubly linked list is commonly called PREV (LLINK).",
+    "In a doubly linked list, the previous pointer of the head node is always set to NULL.",
+    "In a doubly linked list, the next pointer of the tail node is always set to NULL.",
+    "Insertion at the beginning of a doubly linked list requires updating the PREV pointer of the old head node.",
+    "Deletion of a node in a doubly linked list requires adjusting the pointers of its PREVIOUS and NEXT nodes.",
+    "Traversing a doubly linked list can be done in both FORWARD and BACKWARD directions.",
+    "A doubly linked list allows for more efficient deletion operations compared to a SINGLY linked list."
+   ]
+  ]
+ ]
+}

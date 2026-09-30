@@ -1,0 +1,39 @@
+{
+ "title": "Unit – 2 : Session – 9 : SLO – 1  |  Circular Singly Linked List — Deletion",
+ "sections": [
+  [
+   "I. Delete the First Node",
+   [
+    "Step 1: IF START = NULL",
+    "    Write UNDERFLOW",
+    "    Go to Step 8",
+    "[END OF IF]",
+    "Step 2: SET PTR = START",
+    "Step 3: Repeat Step 4 while PTR -> NEXT != START",
+    "Step 4: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 5: SET PTR -> NEXT = START -> NEXT",
+    "Step 6: FREE START",
+    "Step 7: SET START = PTR -> NEXT",
+    "Step 8: EXIT"
+   ]
+  ],
+  [
+   "II. Delete the Last Node",
+   [
+    "Step 1: IF START = NULL",
+    "    Write UNDERFLOW",
+    "    Go to Step 8",
+    "[END OF IF]",
+    "Step 2: SET PTR = START",
+    "Step 3: Repeat Steps 4 and 5 while PTR -> NEXT != START",
+    "Step 4: SET PREPTR = PTR",
+    "Step 5: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 6: SET PREPTR -> NEXT = START",
+    "Step 7: FREE PTR",
+    "Step 8: EXIT"
+   ]
+  ]
+ ]
+}

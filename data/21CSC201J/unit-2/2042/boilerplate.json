@@ -1,0 +1,41 @@
+{
+ "title": "Unit – 2 : Session – 4 : SLO – 2  |  Array Implementation of Lists — Programming Practice II",
+ "sections": [
+  [
+   "I. Sum and Average",
+   [
+    "int sum = 0; for (i = 0; i < n; i++) sum += a[i];",
+    "float avg = (float) sum / n;"
+   ]
+  ],
+  [
+   "II. Armstrong Numbers",
+   [
+    "for (i = 0; i < n; i++) { int x = a[i], s = 0, t = x;",
+    "  while (t) { int d = t % 10; s += d * d * d; t /= 10; }",
+    "  if (s == x) printf(\"%d is Armstrong\\n\", x); }   // e.g. 153, 370, 371, 407"
+   ]
+  ],
+  [
+   "III. Decimal to Octal",
+   [
+    "int oct[32], k = 0, x = num;",
+    "while (x) { oct[k++] = x % 8; x /= 8; }",
+    "while (k) printf(\"%d\", oct[--k]);   // prints octal digits in reverse"
+   ]
+  ],
+  [
+   "IV. Sum of Even Numbers",
+   [
+    "int s = 0; for (i = 0; i < n; i++) if (a[i] % 2 == 0) s += a[i];"
+   ]
+  ],
+  [
+   "V. Search an Element (Linear Search)",
+   [
+    "int found = -1; for (i = 0; i < n; i++) if (a[i] == key) { found = i; break; }",
+    "if (found >= 0) printf(\"Found at index %d\", found); else printf(\"Not found\");"
+   ]
+  ]
+ ]
+}

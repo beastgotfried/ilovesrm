@@ -1,0 +1,47 @@
+{
+ "title": "Unit – 2 : Session – 10 : SLO – 2  |  Doubly Linked List — Insertion at the Middle",
+ "sections": [
+  [
+   "I. Insert a New Node VAL After a Given Node NUM",
+   [
+    "Step 1: IF AVAIL = NULL",
+    "    Write OVERFLOW",
+    "    Go to Step 12",
+    "[END OF IF]",
+    "Step 2: SET NEW_NODE = AVAIL",
+    "Step 3: SET AVAIL = AVAIL -> NEXT",
+    "Step 4: SET NEW_NODE -> DATA = VAL",
+    "Step 5: SET PTR = START",
+    "Step 6: Repeat Step 7 while PTR -> DATA != NUM",
+    "Step 7: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 8: SET NEW_NODE -> NEXT = PTR -> NEXT",
+    "Step 9: SET NEW_NODE -> PREV = PTR",
+    "Step 10: SET PTR -> NEXT -> PREV = NEW_NODE",
+    "Step 11: SET PTR -> NEXT = NEW_NODE",
+    "Step 12: EXIT"
+   ]
+  ],
+  [
+   "II. Insert a New Node VAL Before a Given Node NUM",
+   [
+    "Step 1: IF AVAIL = NULL",
+    "    Write OVERFLOW",
+    "    Go to Step 12",
+    "[END OF IF]",
+    "Step 2: SET NEW_NODE = AVAIL",
+    "Step 3: SET AVAIL = AVAIL -> NEXT",
+    "Step 4: SET NEW_NODE -> DATA = VAL",
+    "Step 5: SET PTR = START",
+    "Step 6: Repeat Step 7 while PTR -> DATA != NUM",
+    "Step 7: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 8: SET NEW_NODE -> NEXT = PTR",
+    "Step 9: SET NEW_NODE -> PREV = PTR -> PREV",
+    "Step 10: SET PTR -> PREV -> NEXT = NEW_NODE",
+    "Step 11: SET PTR -> PREV = NEW_NODE",
+    "Step 12: EXIT"
+   ]
+  ]
+ ]
+}

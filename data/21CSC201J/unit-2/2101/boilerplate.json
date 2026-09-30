@@ -1,0 +1,42 @@
+{
+ "title": "Unit – 2 : Session – 10 : SLO – 1  |  Doubly Linked List — Insertion at the Beginning and End",
+ "sections": [
+  [
+   "I. Insert a New Node VAL at the Beginning",
+   [
+    "Step 1: IF AVAIL = NULL",
+    "    Write OVERFLOW",
+    "    Go to Step 9",
+    "[END OF IF]",
+    "Step 2: SET NEW_NODE = AVAIL",
+    "Step 3: SET AVAIL = AVAIL -> NEXT",
+    "Step 4: SET NEW_NODE -> DATA = VAL",
+    "Step 5: SET NEW_NODE -> PREV = NULL",
+    "Step 6: SET NEW_NODE -> NEXT = START",
+    "Step 7: SET START -> PREV = NEW_NODE",
+    "Step 8: SET START = NEW_NODE",
+    "Step 9: EXIT"
+   ]
+  ],
+  [
+   "II. Insert a New Node VAL at the End",
+   [
+    "Step 1: IF AVAIL = NULL",
+    "    Write OVERFLOW",
+    "    Go to Step 11",
+    "[END OF IF]",
+    "Step 2: SET NEW_NODE = AVAIL",
+    "Step 3: SET AVAIL = AVAIL -> NEXT",
+    "Step 4: SET NEW_NODE -> DATA = VAL",
+    "Step 5: SET NEW_NODE -> NEXT = NULL",
+    "Step 6: SET PTR = START",
+    "Step 7: Repeat Step 8 while PTR -> NEXT != NULL",
+    "Step 8: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 9: SET PTR -> NEXT = NEW_NODE",
+    "Step 10: SET NEW_NODE -> PREV = PTR",
+    "Step 11: EXIT"
+   ]
+  ]
+ ]
+}

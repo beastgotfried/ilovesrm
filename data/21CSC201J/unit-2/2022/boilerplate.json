@@ -1,0 +1,26 @@
+{
+ "title": "Unit – 2 : Session – 2 : SLO – 2  |  Traversal and Searching in an Array",
+ "sections": [
+  [
+   "I. Pseudocode — Array Traversal",
+   [
+    "Step 1: [INITIALIZATION] SET I = 1  (or 0 in C indexing)",
+    "Step 2: Repeat Steps 3 to 4 while I <= N",
+    "Step 3: Apply Process to A[I]",
+    "Step 4: SET I = I + 1",
+    "[END OF LOOP]",
+    "Step 5: EXIT"
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "1. loop — a loop (typically for) accesses each element.",
+    "2. 0 — traversal typically starts at index 0.",
+    "3. n − 1 — the last index of an n-element array.",
+    "4. bounds — never let the index go out of bounds.",
+    "5. n − 1 — reverse traversal starts from the last index, n − 1."
+   ]
+  ]
+ ]
+}

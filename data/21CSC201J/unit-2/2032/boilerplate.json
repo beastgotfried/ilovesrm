@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 2 : Session – 3 : SLO – 2  |  Introduction to Linked Lists",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. sequence (chain/collection) — a linked list is a sequence of data elements.",
+    "2. nodes — the data elements of a linked list.",
+    "3. foundation (base/building block) — linked lists underlie stacks, queues and their variants.",
+    "4. chain (sequence) of nodes — each node holds data field(s) and a pointer to the next node.",
+    "5. self-referential structure — a node points to another node of the same type.",
+    "6. address of the first node — START stores the first node's address.",
+    "7. START — traversal begins from START, following next pointers.",
+    "8. list is empty — START = NULL means the linked list is empty.",
+    "9. data (records/elements) — efficient storage with insertion, deletion and updation at the cost of extra pointer space.",
+    "10. C implementation: struct node { int data; struct node *next; };"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,27 @@
+{
+ "title": "Unit – 2 : Session – 7 : SLO – 2  |  Implementation of Linked Lists — Concepts",
+ "sections": [
+  [
+   "I. Fill in the Blanks — Linked List Basics",
+   [
+    "A linked list is a collection of NODES, where each node contains data and a pointer to the NEXT NODE.",
+    "In C, the keyword STRUCT is used to define a node in a linked list.",
+    "The pointer used to point to the first node of the linked list is called the HEAD (START).",
+    "The pointer in the last node of a singly linked list points to NULL.",
+    "A node in a linked list typically contains two fields: DATA and NEXT (LINK).",
+    "Dynamic memory allocation for a new node is done using the MALLOC() function."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks — Traversal, Insertion and Deletion",
+   [
+    "To traverse a linked list, a TEMPORARY (PTR) pointer is used to iterate through each node.",
+    "To insert a node at the beginning of the linked list, update the new node's link to point to the CURRENT HEAD (START).",
+    "After inserting a node at the beginning, the HEAD (START) must be updated to point to the new node.",
+    "To delete a node, it's important to FREE the memory after unlinking the node.",
+    "A NULL check should always be done before accessing a node's data through a pointer.",
+    "Inserting a node at the end requires traversal until the node's NEXT pointer is NULL."
+   ]
+  ]
+ ]
+}

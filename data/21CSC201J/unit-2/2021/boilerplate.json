@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 2 : Session – 2 : SLO – 1  |  Deleting an Element from an Array",
+ "sections": [
+  [
+   "I. Pseudocode — Delete Last Element",
+   [
+    "Step 1: SET upper_bound = upper_bound − 1  (N = N − 1; simply shrink the array)",
+    "Step 2: EXIT"
+   ]
+  ],
+  [
+   "II. Pseudocode — Delete Element at Position POS",
+   [
+    "Step 1: [INITIALIZATION] SET I = POS",
+    "Step 2: Repeat Steps 3 and 4 while I <= N − 1",
+    "Step 3: SET A[I] = A[I + 1]   (shift next element left over the deleted slot)",
+    "Step 4: SET I = I + 1",
+    "[END OF LOOP]",
+    "Step 5: SET N = N − 1",
+    "Step 6: EXIT",
+    "Note: shifting moves left from POS upward; the last element is duplicated then dropped by reducing N."
+   ]
+  ]
+ ]
+}

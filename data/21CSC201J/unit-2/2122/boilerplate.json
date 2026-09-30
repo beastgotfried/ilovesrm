@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 2 : Session – 12 : SLO – 2  |  Implementation of Doubly Linked Lists — Concepts II",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "To delete the last node, set the next pointer of the previous node to NULL.",
+    "To delete a specific node, update the previous node's next pointer and the next node's PREV pointer.",
+    "A doubly linked list can be traversed in both forward and BACKWARD directions.",
+    "In C, the last node is identified when its next pointer is equal to NULL.",
+    "In a doubly linked list, the head pointer points to the FIRST node.",
+    "The previous pointer of the head node and the next pointer of the tail node should both be set to NULL.",
+    "When freeing a node in C, we use the function FREE().",
+    "A doubly linked list avoids the need for a temporary pointer for backward traversal because of the PREV pointer.",
+    "While inserting after a given node, the new node's next pointer should point to the given node's NEXT (successor).",
+    "In a doubly linked list, each node is connected in TWO directions."
+   ]
+  ]
+ ]
+}

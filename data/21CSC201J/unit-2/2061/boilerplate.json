@@ -1,0 +1,47 @@
+{
+ "title": "Unit – 2 : Session – 6 : SLO – 1  |  Singly Linked List — Insertion at the Middle",
+ "sections": [
+  [
+   "I. Insert a New Node VAL After a Node that has Value NUM",
+   [
+    "Step 1: IF AVAIL = NULL",
+    "    Write OVERFLOW",
+    "    Go to Step 12",
+    "[END OF IF]",
+    "Step 2: SET NEW_NODE = AVAIL",
+    "Step 3: SET AVAIL = AVAIL -> NEXT",
+    "Step 4: SET NEW_NODE -> DATA = VAL",
+    "Step 5: SET PTR = START",
+    "Step 6: SET PREPTR = PTR",
+    "Step 7: Repeat Steps 8 and 9 while PTR -> DATA != NUM",
+    "Step 8: SET PREPTR = PTR",
+    "Step 9: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 10: SET NEW_NODE -> NEXT = PTR -> NEXT",
+    "Step 11: SET PTR -> NEXT = NEW_NODE",
+    "Step 12: EXIT"
+   ]
+  ],
+  [
+   "II. Insert a New Node VAL Before a Node that has Value NUM",
+   [
+    "Step 1: IF AVAIL = NULL",
+    "    Write OVERFLOW",
+    "    Go to Step 12",
+    "[END OF IF]",
+    "Step 2: SET NEW_NODE = AVAIL",
+    "Step 3: SET AVAIL = AVAIL -> NEXT",
+    "Step 4: SET NEW_NODE -> DATA = VAL",
+    "Step 5: SET PTR = START",
+    "Step 6: SET PREPTR = PTR",
+    "Step 7: Repeat Steps 8 and 9 while PTR -> DATA != NUM",
+    "Step 8: SET PREPTR = PTR",
+    "Step 9: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 10: SET PREPTR -> NEXT = NEW_NODE",
+    "Step 11: SET NEW_NODE -> NEXT = PTR",
+    "Step 12: EXIT"
+   ]
+  ]
+ ]
+}

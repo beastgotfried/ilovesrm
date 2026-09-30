@@ -1,0 +1,41 @@
+{
+ "title": "Unit – 2 : Session – 11 : SLO – 2  |  Doubly Linked List — Deletion at the Middle",
+ "sections": [
+  [
+   "I. Delete a Node After a Given Node NUM",
+   [
+    "Step 1: IF START = NULL",
+    "    Write UNDERFLOW",
+    "    Go to Step 9",
+    "[END OF IF]",
+    "Step 2: SET PTR = START",
+    "Step 3: Repeat Step 4 while PTR -> DATA != NUM",
+    "Step 4: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 5: SET TEMP = PTR -> NEXT",
+    "Step 6: SET PTR -> NEXT = TEMP -> NEXT",
+    "Step 7: SET TEMP -> NEXT -> PREV = PTR",
+    "Step 8: FREE TEMP",
+    "Step 9: EXIT"
+   ]
+  ],
+  [
+   "II. Delete a Node Before a Given Node NUM",
+   [
+    "Step 1: IF START = NULL",
+    "    Write UNDERFLOW",
+    "    Go to Step 9",
+    "[END OF IF]",
+    "Step 2: SET PTR = START",
+    "Step 3: Repeat Step 4 while PTR -> DATA != NUM",
+    "Step 4: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 5: SET TEMP = PTR -> PREV",
+    "Step 6: SET TEMP -> PREV -> NEXT = PTR",
+    "Step 7: SET PTR -> PREV = TEMP -> PREV",
+    "Step 8: FREE TEMP",
+    "Step 9: EXIT"
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 2 : Session – 11 : SLO – 1  |  Doubly Linked List — Deletion at the Beginning and End",
+ "sections": [
+  [
+   "I. Delete the First Node",
+   [
+    "Step 1: IF START = NULL",
+    "    Write UNDERFLOW",
+    "    Go to Step 6",
+    "[END OF IF]",
+    "Step 2: SET PTR = START",
+    "Step 3: SET START = START -> NEXT",
+    "Step 4: SET START -> PREV = NULL",
+    "Step 5: FREE PTR",
+    "Step 6: EXIT"
+   ]
+  ],
+  [
+   "II. Delete the Last Node",
+   [
+    "Step 1: IF START = NULL",
+    "    Write UNDERFLOW",
+    "    Go to Step 7",
+    "[END OF IF]",
+    "Step 2: SET PTR = START",
+    "Step 3: Repeat Step 4 while PTR -> NEXT != NULL",
+    "Step 4: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 5: SET PTR -> PREV -> NEXT = NULL",
+    "Step 6: FREE PTR",
+    "Step 7: EXIT"
+   ]
+  ]
+ ]
+}

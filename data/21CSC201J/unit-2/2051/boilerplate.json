@@ -1,0 +1,45 @@
+{
+ "title": "Unit – 2 : Session – 5 : SLO – 1  |  Singly Linked List — Traversal and Searching",
+ "sections": [
+  [
+   "I. Algorithm for Traversing a Linked List",
+   [
+    "Step 1: [INITIALIZE] SET PTR = START",
+    "Step 2: Repeat Steps 3 and 4 while PTR != NULL",
+    "Step 3: Apply Process to PTR -> DATA",
+    "Step 4: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 5: EXIT"
+   ]
+  ],
+  [
+   "II. Algorithm to Print the Number of Nodes",
+   [
+    "Step 1: [INITIALIZE] SET COUNT = 0",
+    "Step 2: [INITIALIZE] SET PTR = START",
+    "Step 3: Repeat Steps 4 and 5 while PTR != NULL",
+    "Step 4: SET COUNT = COUNT + 1",
+    "Step 5: SET PTR = PTR -> NEXT",
+    "[END OF LOOP]",
+    "Step 6: Write COUNT",
+    "Step 7: EXIT"
+   ]
+  ],
+  [
+   "III. Algorithm to Search a Linked List",
+   [
+    "Step 1: [INITIALIZE] SET PTR = START",
+    "Step 2: Repeat Step 3 while PTR != NULL",
+    "Step 3: IF VAL = PTR -> DATA",
+    "    SET POS = PTR",
+    "    Go To Step 5",
+    "ELSE",
+    "    SET PTR = PTR -> NEXT",
+    "[END OF IF]",
+    "[END OF LOOP]",
+    "Step 4: SET POS = NULL",
+    "Step 5: EXIT"
+   ]
+  ]
+ ]
+}
