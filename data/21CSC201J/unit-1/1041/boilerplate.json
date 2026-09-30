@@ -1,0 +1,30 @@
+{
+ "title": "Unit – 1 : Session – 4 : SLO – 1  |  Self-Referential Structures and Structure Pointers — Match the Following",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. Self-referential structure — P. Has a pointer to the same structure type.",
+    "2. Linked list node — O. Data + pointer.",
+    "3. malloc — L. Allocates memory.",
+    "4. -> operator — R. Access pointer member (ptr->member).",
+    "5. . operator — M. Access normal structure member.",
+    "6. Dynamic node creation — T. malloc(sizeof(struct Node)).",
+    "7. List head — N. First node pointer.",
+    "8. Node traversal — K. Loop using pointer.",
+    "9. Null pointer check — J. if (ptr != NULL).",
+    "10. Free memory — S. free(ptr).",
+    "11. Circular list — H. Last node points to first.",
+    "12. Doubly linked list — C. Prev and next pointers.",
+    "13. Memory leak — E. No free() called.",
+    "14. sizeof — G. Gets memory size.",
+    "15. Data field access — B. ptr->data.",
+    "16. Insertion at head — A. New node before head.",
+    "17. List deletion — I. Adjust pointers, free memory.",
+    "18. List length — D. Traverse and count nodes.",
+    "19. Node allocation check — Q. ptr == NULL (malloc failed).",
+    "20. Last node check — F. ptr->next == NULL."
+   ]
+  ]
+ ]
+}

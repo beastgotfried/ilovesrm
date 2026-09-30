@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 1 : Session – 7 : SLO – 2  |  Data Structure Operations and ADTs",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. insertion — adding an element.",
+    "2. deletion — removing an element.",
+    "3. access (retrieval) — accessing a specific element.",
+    "4. searching — locating a particular element.",
+    "5. sorting — arranging elements in a specific order.",
+    "6. push — stack insertion.",
+    "7. pop — stack deletion.",
+    "8. enqueue — queue insertion.",
+    "9. dequeue — queue deletion.",
+    "10. node — traversal visits each node exactly once.",
+    "11. sorted — binary search requires a sorted array.",
+    "12. copy (clone) — creates a copy of the data structure.",
+    "13. rear — queue insertion happens at the rear end.",
+    "14. front — queue deletion happens at the front end.",
+    "15. LIFO (Last In First Out) — the stack principle."
+   ]
+  ]
+ ]
+}

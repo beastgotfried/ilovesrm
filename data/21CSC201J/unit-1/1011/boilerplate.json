@@ -1,0 +1,31 @@
+{
+ "title": "Unit – 1 : Session – 1 : SLO – 1  |  Introduction to C Programming — Crossword",
+ "sections": [
+  [
+   "I. Across",
+   [
+    "4. variable — a named memory location used to store a data value.",
+    "7. flowchart — pictorial representation of an algorithm.",
+    "9. switch — the decision-making statement used for menu selection.",
+    "10. printf — the function used to print output.",
+    "11. int — data type used to store whole numbers.",
+    "12. increment — ++ is the increment operator.",
+    "14. main — execution of any C program begins at main().",
+    "15. float — data type used to store real numbers.",
+    "16. sqrt — built-in function (math.h) to find the square root."
+   ]
+  ],
+  [
+   "II. Down",
+   [
+    "1. scanf — built-in function to read data from the keyboard.",
+    "2. keywords — pre-defined words in a C compiler.",
+    "3. Dennis Ritchie — father of the C language.",
+    "5. newline — \\n refers to a newline character.",
+    "6. relational — operators used to compare two quantities.",
+    "8. void — the data type that has no value.",
+    "13. compiler — converts the C program into machine code."
+   ]
+  ]
+ ]
+}

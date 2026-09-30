@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 1 : Session – 7 : SLO – 1  |  Data Structures — Definition and Types",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. data structure — a way of organizing and storing data for efficient access and modification.",
+    "2. linear and non-linear — the two broad types.",
+    "3. linear — elements arranged sequentially.",
+    "4. Queue — the FIFO linear data structure.",
+    "5. Tree — the non-linear structure for hierarchical relationships.",
+    "6. graph — elements point to multiple elements, forming a network.",
+    "7. push and pop — the two stack operations.",
+    "8. array — a collection of elements identified by index.",
+    "9. linked list — nodes containing data plus a next pointer.",
+    "10. storage (organization) and retrieval (processing) — efficient management of data."
+   ]
+  ],
+  [
+   "II. Match the Following",
+   [
+    "1. Array — C. Sequential memory allocation.",
+    "2. Stack — A. Last In First Out.",
+    "3. Queue — B. First In First Out.",
+    "4. Linked List — D. Each node points to the next node.",
+    "5. Tree — J. Hierarchical structure.",
+    "6. Graph — H. Represents complex relationships.",
+    "7. Linear Data Structure — F. Stack (example).",
+    "8. Non-Linear Data Structure — I. Graph (example).",
+    "9. Stack Operations — G. Push and Pop.",
+    "10. Queue Operations — E. Enqueue and Dequeue."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,30 @@
+{
+ "title": "Unit – 1 : Session – 3 : SLO – 2  |  Implementation of Structures in C — Match the Following",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. struct keyword — O. Used to define a structure.",
+    "2. Dot operator (.) — K. var.member.",
+    "3. Structure variable declaration — T. After structure definition.",
+    "4. Member access — M. Access structure members.",
+    "5. Structure with array — A. Structure array.",
+    "6. Pointer to structure — R. struct *ptr;.",
+    "7. Arrow operator (->) — S. Member access via pointer.",
+    "8. Nested structure — N. Structure inside structure.",
+    "9. Structure parameter passing — L. Pass by value.",
+    "10. Structure with function — Q. Can return a structure.",
+    "11. typedef — D. Define custom type name.",
+    "12. Structure size — I. Sum of all members (aligned).",
+    "13. Enum with structure — H. Valid declaration.",
+    "14. Array inside structure — B. Allowed in structure.",
+    "15. Structure inside array — P. struct Student s[5];.",
+    "16. Self-referential structure — E. Points to same type.",
+    "17. Structure initialization — J. = { val1, val2 }.",
+    "18. Dynamic structure allocation — F. malloc(sizeof(struct)).",
+    "19. sizeof with structure — G. Gives memory size.",
+    "20. Structure copy — C. Allowed with = operator."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 1 : Session – 4 : SLO – 2  |  Implementation of Structures Using Pointers — Fill in the Blanks",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. * (asterisk) — a structure pointer is declared using the * operator: struct S *ptr;",
+    "2. -> (arrow) — the arrow operator is used to access members via a pointer.",
+    "3. the address — a structure pointer stores the address of a structure variable.",
+    "4. &var — ptr = &var; assigns the address.",
+    "5. direct (efficient member) — pointers enable direct access to the structure's members without copying.",
+    "6. allocated (initialized) — memory for the pointed structure must be allocated before use.",
+    "7. in-place (permanent) — passing a pointer to a function lets it modify the original structure.",
+    "8. ptr->member — (*ptr).member is the same as ptr->member.",
+    "9. structure (data) — pointers reduce structure copying overhead.",
+    "10. malloc — dynamic allocation: ptr = malloc(sizeof(struct S));",
+    "11. size (amount of memory) — sizeof(struct) ensures the correct allocation size.",
+    "12. freed — unused structure pointers' memory should be freed.",
+    "13. dynamic — pointers enable dynamic structures like linked lists.",
+    "14. dangling pointers (undefined behavior) — always initialize to NULL or a valid address.",
+    "15. member access (the dot) — the arrow operator combines dereference and member access."
+   ]
+  ]
+ ]
+}

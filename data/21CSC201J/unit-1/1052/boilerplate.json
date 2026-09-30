@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 1 : Session – 5 : SLO – 2  |  Matrix Multiplication",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. columns — valid only if columns of the first matrix equal rows of the second.",
+    "2. rows of first — the result has dimensions (rows of first) × (columns of second).",
+    "3. corresponding — multiply each row element with the corresponding column element.",
+    "4. each element (repeated/dot-product) — a loop is required for each computation.",
+    "5. nested — use three nested loops (i, j, k).",
+    "6. zero — initialize result elements to 0.",
+    "7. dot — the innermost loop calculates the dot product.",
+    "8. accumulated (running sum) — sum += a[i][k] * b[k][j].",
+    "9. result — store the computed value in the result matrix res[i][j].",
+    "10. dimension mismatch (runtime/logical) error.",
+    "11. 2D arrays (contiguous memory) — matrix elements are stored in two-dimensional arrays.",
+    "12. use (computation) — initialize arrays before computing.",
+    "13. dimensions — declare the result with proper r1 × c2 dimensions.",
+    "14. 2×4 — (2×3) × (3×4) → 2×4.",
+    "15. integer (element-wise multiply-accumulate) arithmetic."
+   ]
+  ]
+ ]
+}

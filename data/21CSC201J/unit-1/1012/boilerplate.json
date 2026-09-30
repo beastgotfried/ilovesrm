@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 1 : Session – 1 : SLO – 2  |  C Rules and Primitive Data Types — Match the Following",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. int — G. Used to store whole numbers.",
+    "2. float — I. Floating-point data type.",
+    "3. char — H. Used to print/store characters.",
+    "4. main() — F. Keyword/function to start the main function.",
+    "5. return 0; — J. Ends a function and returns value to the OS.",
+    "6. #include<stdio.h> — C. Preprocessor directive.",
+    "7. ; (semicolon) — D. Statement terminator.",
+    "8. %d — B. Format specifier for integers.",
+    "9. %f — A. Format specifier for float.",
+    "10. %c — E. Format specifier for characters."
+   ]
+  ]
+ ]
+}

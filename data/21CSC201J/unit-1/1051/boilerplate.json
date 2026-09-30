@@ -1,0 +1,35 @@
+{
+ "title": "Unit – 1 : Session – 5 : SLO – 1  |  Dynamic Memory Allocation",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. run — dynamic memory is allocated at run time.",
+    "2. allocate — malloc() allocates raw memory.",
+    "3. deallocate (release) — free() releases memory.",
+    "4. initializes — calloc() allocates and zero-initializes memory.",
+    "5. resize — realloc() resizes previously allocated memory.",
+    "6. the size (in bytes) — sizeof() gives the size of a data type.",
+    "7. freed — a memory leak happens if memory is not freed.",
+    "8. void* (generic) — malloc() returns a void pointer.",
+    "9. malloc() — type casting is needed when using malloc in C (void* → target type).",
+    "10. fails — NULL is returned if allocation fails.",
+    "11. 5 — malloc(5 * sizeof(int)) allocates memory for 5 integers.",
+    "12. dereference (*) / arrow — dynamic memory is accessed via the dereference or array operator.",
+    "13. heap — dynamic arrays use heap memory.",
+    "14. stack (static) — static arrays use stack/static memory.",
+    "15. use-after-free (dangling pointer access)."
+   ]
+  ],
+  [
+   "II. Code Snippets",
+   [
+    "1. int *arr = (int*) malloc(10 * sizeof(int));",
+    "2. float *f = (float*) calloc(5, sizeof(float));",
+    "3. arr = (int*) realloc(arr, 20 * sizeof(int));",
+    "4. free(arr); arr = NULL;",
+    "5. if (arr == NULL) { printf(\"Allocation failed\"); exit(1); }"
+   ]
+  ]
+ ]
+}

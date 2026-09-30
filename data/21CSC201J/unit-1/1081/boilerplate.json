@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 1 : Session – 8 : SLO – 1  |  Asymptotic Notations — Big O, Big Omega, Big Theta",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. Big O — the upper bound on running time.",
+    "2. Big Omega (Ω) — the lower bound.",
+    "3. Big Theta (Θ) — the tight bound.",
+    "4. worst — Big O analyzes worst-case performance.",
+    "5. best — Big Omega analyzes best-case performance.",
+    "6. upper and lower — Θ bounds from both sides.",
+    "7. O(n) — linear search.",
+    "8. O(log n) — binary search.",
+    "9. O(n²) — bubble sort worst case.",
+    "10. O — f(n) = 3n + 2 is O(n).",
+    "11. O — f(n) = 5n² + 3n + 7 is O(n²).",
+    "12. lower-order — constants and lower-order terms are ignored.",
+    "13. O(1) (constant) — same time regardless of input size.",
+    "14. Ω — f(n) ≥ c·g(n) for n ≥ n₀ means f(n) = Ω(g(n)).",
+    "15. O and Ω — Θ(g(n)) means both O(g(n)) and Ω(g(n))."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,28 @@
+{
+ "title": "Unit – 1 : Session – 2 : SLO – 1  |  Define, Declare and Access a Structure",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. struct — a structure is defined using the struct keyword.",
+    "2. member declarations (data members) — struct StructName { members };",
+    "3. variableName — struct StructName { ... } varName;",
+    "4. dot (.) — members are accessed with the dot operator via a structure variable.",
+    "5. arrow (->) — members are accessed with the arrow operator via a pointer to a structure.",
+    "6. variableName — struct StructName variableName;",
+    "7. pointerName — struct StructName *ptr;",
+    "8. variableName — ptr = &variableName;",
+    "9. single (user-defined) — structures group different types into one user-defined type.",
+    "10. semicolon — structure definitions end with a semicolon."
+   ]
+  ],
+  [
+   "II. Practice the Code",
+   [
+    "1. Student record: struct Student { char name[50]; int roll; float marks; };  struct Student s = {\"Asha\", 12, 89.5};  printf(\"%s %d %.1f\", s.name, s.roll, s.marks);",
+    "2. Three employees: struct Emp { char name[50]; float salary; };  struct Emp e[3];  for (int i = 0; i < 3; i++) scanf(\"%s %f\", e[i].name, &e[i].salary);  // access: e[i].name, e[i].salary",
+    "3. Book with pointer: struct Book { char title[50]; float price; };  struct Book b = {\"C Programming\", 450};  struct Book *ptr = &b;  printf(\"%s %.2f\", ptr->title, ptr->price);"
+   ]
+  ]
+ ]
+}

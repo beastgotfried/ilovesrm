@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 1 : Session – 8 : SLO – 2  |  Complexity — Time and Space Trade-off",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. Time — the amount of time an algorithm takes.",
+    "2. Space — the amount of memory an algorithm uses.",
+    "3. time and space — the trade-off balances the two.",
+    "4. time — more memory (e.g. caching) can reduce time complexity.",
+    "5. slowly (longer) — using less space may cost more time.",
+    "6. memoization (caching) — storing precomputed values to save time.",
+    "7. operations (elementary steps) — how time complexity is measured.",
+    "8. input — space complexity includes auxiliary space plus input space.",
+    "9. space (stack) — recursion uses call-stack memory, unlike iteration.",
+    "10. constant — O(1) space uses a fixed amount of memory.",
+    "11. trade-off — sorting algorithms show clear time/space trade-offs.",
+    "12. iteratively — iterative binary search is O(log n) time, O(1) space.",
+    "13. computational (algorithmic) — both are forms of computational complexity.",
+    "14. computations (subproblems) — DP stores results to avoid recomputation.",
+    "15. balance (trade-off) — optimization seeks the best time–space balance."
+   ]
+  ]
+ ]
+}

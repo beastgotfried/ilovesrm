@@ -1,0 +1,24 @@
+{
+ "title": "Unit – 1 : Session – 6 : SLO – 1  |  Matrix Multiplication with DMA — Allocation",
+ "sections": [
+  [
+   "I. Fill in the Missing Code",
+   [
+    "1. Declarations: int **mat1, **mat2, **res; int i, j, k; int r1, c1, r2, c2;",
+    "2. Looping variables: int i, j, k;",
+    "3. Dimensions: printf(\"Enter rows & cols of mat1 and mat2\"); scanf(\"%d %d %d %d\", &r1, &c1, &r2, &c2);",
+    "4. Validity check: if (c1 != r2) { printf(\"Multiplication not possible\\n\"); return 0; }",
+    "5. mat1: mat1 = (int**) malloc(r1 * sizeof(int*)); for (i = 0; i < r1; i++) mat1[i] = (int*) malloc(c1 * sizeof(int));",
+    "6. mat2: mat2 = (int**) malloc(r2 * sizeof(int*)); for (i = 0; i < r2; i++) mat2[i] = (int*) malloc(c2 * sizeof(int));",
+    "7. res: res = (int**) malloc(r1 * sizeof(int*)); for (i = 0; i < r1; i++) res[i] = (int*) calloc(c2, sizeof(int));"
+   ]
+  ],
+  [
+   "II. Notes",
+   [
+    "malloc for input matrices (values will be read in), calloc for the result so accumulators start at 0.",
+    "Always check c1 == r2 before allocating the result matrix."
+   ]
+  ]
+ ]
+}

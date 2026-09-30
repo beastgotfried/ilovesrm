@@ -1,0 +1,39 @@
+{
+ "title": "Unit – 1 : Session – 3 : SLO – 1  |  Nested Structures",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. inside — a nested structure means a structure inside another structure.",
+    "2. struct — the struct keyword defines the nested structure.",
+    "3. member (inner member name) — outer.inner.member.",
+    "4. multiple (two or more) — one dot per nesting level.",
+    "5. nested structure.",
+    "6. variable — memory is allocated when the outer structure variable is declared.",
+    "7. inner (nested) — B is the inner/nested structure.",
+    "8. related (logically grouped) — nested structures group related sets of information.",
+    "9. FALSE — age is not a member of address; the correct path depends on the design, e.g. student.age or student.dob.date.",
+    "10. the dot operator applied repeatedly, outer to inner (outer.inner.member)."
+   ]
+  ],
+  [
+   "II. Code Snippets",
+   [
+    "1. Student/address: struct Address { char city[30]; int pincode; }; struct Student { char name[50]; struct Address addr; }; — access: s.addr.city.",
+    "2. Employee/salary: struct Salary { float basic, bonus; }; struct Emp { char name[50]; struct Salary sal; }; — e.sal.basic.",
+    "3. Book/author: struct Author { char name[50]; char country[20]; }; struct Book { char title[50]; struct Author auth; }; — b.auth.name.",
+    "4. Car/engine: struct Engine { int capacity; char type[20]; }; struct Car { char brand[20], model[20]; struct Engine eng; }; — c.eng.capacity.",
+    "5. Hospital/contact: struct Contact { char phone[15]; char email[40]; }; struct Patient { char name[50]; int age; struct Contact con; }; — p.con.phone."
+   ]
+  ],
+  [
+   "III. Practice the Code",
+   [
+    "struct Date { int day, month, year; };",
+    "struct Employee { char name[50]; int id; struct Date joining; };",
+    "struct Employee e = {\"Ravi\", 101, {12, 8, 2023}};",
+    "printf(\"Joined on %d-%d-%d\", e.joining.day, e.joining.month, e.joining.year);"
+   ]
+  ]
+ ]
+}
