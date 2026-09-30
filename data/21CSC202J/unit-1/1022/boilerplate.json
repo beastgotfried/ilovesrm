@@ -1,0 +1,22 @@
+{
+ "title": "Unit – 1 : Session – 2 : SLO – 2  |  Operating System as Resource Manager — Message Puzzle",
+ "sections": [
+  [
+   "I. Rebuilt Original Message",
+   [
+    "Choosing the letters for each cell of the puzzle rebuilds the paragraph:",
+    "\"THE OPERATING SYSTEM ACTS AS A RESOURCE MANAGER. IT ALLOCATES THE CPU, MEMORY,",
+    "INPUT/OUTPUT DEVICES AND FILES AMONG COMPETING PROGRAMS, ENSURING EFFICIENT,",
+    "FAIR AND SECURE USE OF ALL HARDWARE RESOURCES.\""
+   ]
+  ],
+  [
+   "II. Key Points of the Paragraph",
+   [
+    "The OS is the resource manager of the computer system.",
+    "Resources managed: CPU time, main memory, I/O devices, files and data.",
+    "Goals: efficient utilization, fairness among programs, protection and security."
+   ]
+  ]
+ ]
+}

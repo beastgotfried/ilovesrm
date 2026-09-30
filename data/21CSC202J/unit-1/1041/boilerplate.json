@@ -1,0 +1,18 @@
+{
+ "title": "Unit – 1 : Session – 4 : SLO – 1  |  Kernel Structures — Reverse Word Search",
+ "sections": [
+  [
+   "I. Words to Place in the Grid",
+   [
+    "EXOKERNEL — minimalist kernel that exposes hardware to applications, giving them more direct control.",
+    "HYBRID KERNEL — combines features of monolithic and microkernels; used in modern OS like Windows and macOS.",
+    "LAYERED — organized in levels; each one builds on services provided by the one below it.",
+    "MICROKERNEL — only includes essential functions like IPC and basic scheduling; everything else runs in user space.",
+    "MODULAR — allows components to be loaded and unloaded at runtime, often used in Linux systems.",
+    "MONOLITHIC — single large process running entirely in kernel mode with all OS services included.",
+    "SIMPLE — basic structure with minimal functionalities, often used in teaching or early systems.",
+    "VIRTUAL MACHINE — creates an abstraction of physical hardware; runs multiple OSes on the same physical system."
+   ]
+  ]
+ ]
+}

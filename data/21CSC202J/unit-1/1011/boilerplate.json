@@ -1,0 +1,33 @@
+{
+ "title": "Unit – 1 : Session – 1 : SLO – 1  |  Computer System Components — Crossword Puzzle",
+ "sections": [
+  [
+   "I. ACROSS",
+   [
+    "2. MOUSE — pointing device that detects two-dimensional motion relative to a surface.",
+    "3. MONITOR — output device that displays visual information from the computer.",
+    "6. HARD DISK — non-volatile storage device that retains data even when powered off.",
+    "8. I/O INTERFACE (I/O MODULE) — hardware interface connecting input/output devices, managing data",
+    "   exchange between them and memory or CPU.",
+    "9. KEYBOARD — primary input device used to enter text, numbers and commands."
+   ]
+  ],
+  [
+   "II. DOWN",
+   [
+    "1. DISK CONTROLLER — manages reading/writing of data to and from the hard disk; mediator between",
+    "   hard disk and memory.",
+    "4. MEMORY (RAM) — temporarily stores data and instructions currently used by the CPU or devices.",
+    "5. PRINTER — peripheral that produces a paper copy (hard copy) of documents.",
+    "7. MEMORY (RAM) — same as 4."
+   ]
+  ],
+  [
+   "III. Hidden Word",
+   [
+    "Reading the letters in the bold rectangles top-to-bottom gives the hidden word: COMPUTER",
+    "(the puzzle is built from the main components of a computer system)."
+   ]
+  ]
+ ]
+}

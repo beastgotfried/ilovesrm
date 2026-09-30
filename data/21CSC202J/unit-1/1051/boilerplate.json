@@ -1,0 +1,26 @@
+{
+ "title": "Unit – 1 : Session – 5 : SLO – 1  |  Exokernel and Layered Operating Systems — Word Reassembly",
+ "sections": [
+  [
+   "I. Key Terms (reassembled)",
+   [
+    "EXOKERNEL — a minimalist kernel that exposes hardware directly to applications through library",
+    "operating systems; applications control resource management themselves.",
+    "LAYERED STRUCTURE — the OS is divided into layers; each layer uses services only of the layer below",
+    "it (layer 0 = hardware, top layer = user interface).",
+    "IPC (Inter-Process Communication) — minimal service kept inside small kernels.",
+    "LIBRARY OS — in exokernels, untrusted application libraries implement abstractions like files.",
+    "MODULARITY — layered design allows debugging and verification layer by layer."
+   ]
+  ],
+  [
+   "II. Summary Answers",
+   [
+    "Exokernel: purpose is maximum flexibility and performance by multiplexing hardware securely and",
+    "letting applications manage resources via library OSes (e.g. MIT's Aegis/XN).",
+    "Layered OS: architecture where functions are grouped into ordered layers; advantage is simplicity",
+    "of construction/debugging; disadvantage is overhead of crossing layers and careful layer definition."
+   ]
+  ]
+ ]
+}

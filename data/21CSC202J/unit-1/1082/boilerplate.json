@@ -1,0 +1,18 @@
+{
+ "title": "Unit – 1 : Session – 8 : SLO – 2  |  Types of Computing Environments — Unscramble",
+ "sections": [
+  [
+   "I. Unscrambled Words (Computing Environments)",
+   [
+    "TRADITIONAL — standalone PCs/workstations on a LAN with client-server services.",
+    "CLIENT-SERVER — clients request services; centralized servers respond.",
+    "PEER-TO-PEER (P2P) — every node acts as both client and server; no central server.",
+    "CLOUD COMPUTING — on-demand compute/storage over the internet (IaaS, PaaS, SaaS).",
+    "MOBILE — smartphones/tablets with resource-constrained, touch-centric OSes (Android, iOS).",
+    "EMBEDDED — OS inside dedicated devices (cars, appliances, IoT); often real-time.",
+    "DISTRIBUTED — many networked computers cooperating to appear as one system.",
+    "REAL-TIME — strict timing deadlines; used in control systems."
+   ]
+  ]
+ ]
+}

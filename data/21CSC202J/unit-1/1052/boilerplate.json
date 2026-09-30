@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 1 : Session – 5 : SLO – 2  |  Modular OS and Virtualization — Unscramble",
+ "sections": [
+  [
+   "I. Unscrambled Words",
+   [
+    "uSn -> SUN — first half of the example of a modular-structure OS.",
+    "Sslario -> SOLARIS — second half; Sun Solaris is the classic modular-structure OS example.",
+    "iVrtual -> VIRTUAL — as in Virtual Machine.",
+    "Mnoolith -> MONOLITH — the monolithic kernel structure.",
+    "uGest -> GUEST — a virtual computer that runs inside a virtual environment on a host machine.",
+    "Htso -> HOST — the physical computer system on which the virtual machine software runs.",
+    "Kernle -> KERNEL — responsible for all major operations of the operating system."
+   ]
+  ],
+  [
+   "II. Modular OS and Virtualization Layers",
+   [
+    "A modular OS uses loadable kernel modules (LKMs) — drivers and services are linked at runtime,",
+    "which lets a virtualization layer (hypervisor) be integrated cleanly, as in Linux KVM.",
+    "The hypervisor runs on the HOST and creates GUEST virtual machines, each with its own OS."
+   ]
+  ]
+ ]
+}

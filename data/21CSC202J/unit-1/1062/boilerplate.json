@@ -1,0 +1,23 @@
+{
+ "title": "Unit – 1 : Session – 6 : SLO – 2  |  Storage Management — Unscramble and Concepts",
+ "sections": [
+  [
+   "I. Key Terms (unscrambled)",
+   [
+    "SECONDARY STORAGE — non-volatile storage (HDD, SSD) managed by the OS.",
+    "FILE SYSTEM — OS component that organizes files and directories on storage.",
+    "FREE-SPACE MANAGEMENT — tracking which disk blocks are free (bitmap, linked list).",
+    "ALLOCATION — assigning disk blocks to files: contiguous, linked, or indexed allocation.",
+    "DISK SCHEDULING — ordering pending disk I/O requests (FCFS, SSTF, SCAN, C-SCAN).",
+    "CACHING and BUFFERING — keeping frequently used data in memory to reduce disk access."
+   ]
+  ],
+  [
+   "II. Role of the OS in Secondary Storage Management",
+   [
+    "The OS manages free space, allocates storage to files, schedules disk requests to minimize",
+    "seek time, and uses caching/buffering to improve I/O performance."
+   ]
+  ]
+ ]
+}

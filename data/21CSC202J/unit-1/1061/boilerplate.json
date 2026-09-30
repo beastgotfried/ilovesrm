@@ -1,0 +1,27 @@
+{
+ "title": "Unit – 1 : Session – 6 : SLO – 1  |  Process Life Cycle — Fill in the Missing Words",
+ "sections": [
+  [
+   "I. Completed Sentences (Process Life Cycle)",
+   [
+    "A PROCESS is a program in execution.",
+    "A process passes through states: NEW, READY, RUNNING, WAITING (BLOCKED) and TERMINATED.",
+    "The OS creates a process and assigns it a PROCESS CONTROL BLOCK (PCB) holding its state,",
+    "program counter, registers and memory information.",
+    "The SCHEDULER (dispatcher) picks a ready process and gives it the CPU.",
+    "When a running process requests I/O it moves to the WAITING state.",
+    "After I/O completes, the process returns to the READY queue.",
+    "When a process finishes execution it is TERMINATED and its resources are deallocated.",
+    "CONTEXT SWITCHING saves the state of one process and restores the state of another."
+   ]
+  ],
+  [
+   "II. Role of the OS",
+   [
+    "Creation: fork()/spawn, PCB allocation, memory setup.",
+    "Scheduling: choosing which ready process runs next (short-term scheduler).",
+    "Termination: exit(), releasing memory, closing open files, removing the PCB."
+   ]
+  ]
+ ]
+}

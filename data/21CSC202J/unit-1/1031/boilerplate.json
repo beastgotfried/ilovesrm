@@ -1,0 +1,24 @@
+{
+ "title": "Unit – 1 : Session – 3 : SLO – 1  |  Evolution of OS — Batch Systems Crossword",
+ "sections": [
+  [
+   "I. Clues and Answers",
+   [
+    "1. PUNCHED CARDS — input devices used in the first generation to submit jobs.",
+    "3. BATCH (SERIAL) PROCESSING — processing model where one job was done at a time.",
+    "4. JCL (JOB CONTROL LANGUAGE) — language used to describe jobs to the monitor in second-generation systems.",
+    "6. FORTRAN — programming language commonly used for batch programs (also COBOL).",
+    "7. BATCHING — organizing multiple jobs together for execution in sequence.",
+    "8. KERNEL MODE (PRIVILEGED MODE) — special OS mode used to execute system-level instructions.",
+    "9. MONITOR — device used for showing, watching, or listening to something."
+   ]
+  ],
+  [
+   "II. Hidden Word",
+   [
+    "The letters in the bold rectangles spell the hidden word: BATCH (the theme of the worksheet is",
+    "batch processing in early operating systems)."
+   ]
+  ]
+ ]
+}

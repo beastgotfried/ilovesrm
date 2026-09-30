@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 1 : Session – 1 : SLO – 2  |  Functional Units of a Computer — Clues",
+ "sections": [
+  [
+   "I. Answers",
+   [
+    "1. CONTROL UNIT — directs the operation of the processor by telling other parts of the computer how to",
+    "   respond to instructions.",
+    "2. OUTPUT UNIT — conveys information from the computer to the user or external device in usable form.",
+    "3. MAIN MEMORY (RAM) — temporarily stores data and instructions the CPU needs while executing programs.",
+    "4. INPUT UNIT — receives data from the user or environment and converts it into computer-readable form.",
+    "7. MEMORY (STORAGE UNIT) — holds data, instructions and results either temporarily or permanently.",
+    "11. SECONDARY STORAGE — non-volatile memory storing data and programs permanently (hard drives, SSDs).",
+    "19. CPU (Central Processing Unit) — the brain of the computer; processes instructions and manages all",
+    "    other units.",
+    "20. ALU (Arithmetic and Logic Unit) — part of the CPU performing mathematical and logical operations."
+   ]
+  ]
+ ]
+}

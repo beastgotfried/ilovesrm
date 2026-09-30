@@ -1,0 +1,24 @@
+{
+ "title": "Unit – 1 : Session – 4 : SLO – 2  |  Unscramble the Words — OS Structures and Virtualization",
+ "sections": [
+  [
+   "I. Unscrambled Words",
+   [
+    "uSn -> SUN — first half of the example of a modular-structure OS.",
+    "Sslario -> SOLARIS — second half; Sun Solaris is the classic modular-structure OS example.",
+    "iVrtual -> VIRTUAL — as in Virtual Machine.",
+    "Mnoolith -> MONOLITH — the monolithic kernel structure.",
+    "uGest -> GUEST — a virtual computer that runs inside a virtual environment on a host machine.",
+    "Htso -> HOST — the physical computer system on which the virtual machine software runs.",
+    "Kernle -> KERNEL — responsible for all major operations of the operating system."
+   ]
+  ],
+  [
+   "II. Key Idea",
+   [
+    "HOST = physical machine running the VM software; GUEST = virtual machine running inside it.",
+    "The KERNEL is the core of the OS; Sun SOLARIS is an example of a modular kernel structure."
+   ]
+  ]
+ ]
+}

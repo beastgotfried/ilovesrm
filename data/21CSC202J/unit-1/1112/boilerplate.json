@@ -1,0 +1,17 @@
+{
+ "title": "Unit – 1 : Session – 11 : SLO – 2  |  Classification of System Calls — Match",
+ "sections": [
+  [
+   "I. Answers",
+   [
+    "Used to start, end, or abort a process -> PROCESS CONTROL (create, terminate, load, execute).",
+    "Involves opening, reading, writing, and closing files -> FILE MANIPULATION (open, read, write, close).",
+    "Deals with request and release of hardware like printers or drives -> DEVICE MANIPULATION",
+    "    (request device, release device, read, write, ioctl).",
+    "Includes getting system date, time, or system info -> INFORMATION MAINTENANCE (getpid, time, attributes).",
+    "Used when two processes exchange data or messages -> COMMUNICATION (pipe, shmget, send/receive, sockets).",
+    "Used to set permissions and access rights -> PROTECTION (chmod, umask, chown, access control)."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "title": "Unit – 1 : Session – 10 : SLO – 2  |  User Mode to Kernel Mode Transition — Scrambled Sentences",
+ "sections": [
+  [
+   "I. Sentences in Correct Order (System Call Transition)",
+   [
+    "1. A user program runs in USER MODE with limited privileges.",
+    "2. When the program needs an OS service (I/O, file access), it invokes a SYSTEM CALL.",
+    "3. The system call triggers a TRAP (software interrupt) that switches the CPU to KERNEL MODE.",
+    "4. The kernel validates the request and executes the corresponding service routine.",
+    "5. The result is returned and the CPU switches back to USER MODE.",
+    "6. The user program resumes execution with the system call's return value."
+   ]
+  ],
+  [
+   "II. Key Point",
+   [
+    "Mode bit in the CPU distinguishes kernel mode (0) from user mode (1); the trap instruction is the",
+    "controlled gateway that flips the bit, keeping user programs from executing privileged instructions."
+   ]
+  ]
+ ]
+}

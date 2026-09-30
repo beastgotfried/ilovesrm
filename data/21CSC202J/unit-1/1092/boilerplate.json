@@ -1,0 +1,24 @@
+{
+ "title": "Unit – 1 : Session – 9 : SLO – 2  |  Operating System Services — Crossword",
+ "sections": [
+  [
+   "I. Clues and Answers",
+   [
+    "1. COMMUNICATION (IPC) — allows processes to exchange data through message passing or shared memory.",
+    "2. PROTECTION — prevents unauthorized access to programs, data or devices by enforcing security rules.",
+    "3. PROGRAM EXECUTION — the OS loads and runs user applications by managing CPU and memory.",
+    "4. ERROR DETECTION — identifies and handles hardware/software problems to maintain stability.",
+    "9. ACCOUNTING — tracks how resources are used, helping with billing, auditing or statistics.",
+    "11. I/O OPERATIONS — the OS handles input from keyboards and output to screens or printers.",
+    "12. FILE MANIPULATION (FILE SYSTEM) — organizes and stores data in files and directories.",
+    "13. RESOURCE ALLOCATION — distributes CPU, memory and I/O devices to programs as needed."
+   ]
+  ],
+  [
+   "II. Hidden Word",
+   [
+    "The letters in the bold rectangles spell: SERVICES (the worksheet theme is OS services)."
+   ]
+  ]
+ ]
+}

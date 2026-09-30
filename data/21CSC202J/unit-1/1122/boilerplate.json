@@ -1,0 +1,27 @@
+{
+ "title": "Unit – 1 : Session – 12 : SLO – 2  |  Types of System Programs — Crossword",
+ "sections": [
+  [
+   "I. Clues and Answers",
+   [
+    "1. COMMUNICATION PROGRAMS — enable virtual communication between users, processes and systems",
+    "   (remote login, messaging, web browsers, file transfer).",
+    "4. FILE MANIPULATION PROGRAMS — create, delete, copy, rename, print, dump, list files and directories.",
+    "8. PROGRAM LOADING AND EXECUTION — after compilation, loaders/absolute loaders/relocatable loaders",
+    "   and linkage editors load programs into memory for execution.",
+    "9. STATUS INFORMATION — programs report date, time, free memory, disk space, number of users,",
+    "   performance statistics and debugging info.",
+    "10. FILE MODIFICATION — text editors create/modify files; commands support searching and transforming",
+    "    text (grep, sed, awk).",
+    "12. PROGRAMMING-LANGUAGE SUPPORT — compilers, assemblers, debuggers and interpreters for C, C++,",
+    "    Java, PERL."
+   ]
+  ],
+  [
+   "II. Hidden Word",
+   [
+    "The letters in the bold rectangles spell: PROGRAMS (system programs / utilities)."
+   ]
+  ]
+ ]
+}

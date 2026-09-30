@@ -1,0 +1,26 @@
+{
+ "title": "Unit – 1 : Session – 3 : SLO – 2  |  Multiprogramming / Time-Sharing Word Search + Kernel Structures",
+ "sections": [
+  [
+   "I. Word Search — Words to Find",
+   [
+    "MONITOR, MULTITASKING, PROCESSOR, VIEW, ROUND ROBIN, SHORTEST, SIMULTANEOUSLY, TIME SHARING",
+    "All eight words are located in the grid (horizontal, vertical, and diagonal directions).",
+    "Hidden message from the unused letters: \"MULTIPROGRAMMING IMPROVES CPU UTILIZATION\"."
+   ]
+  ],
+  [
+   "II. Kernel Structures — Reverse Word Search (place these words)",
+   [
+    "EXOKERNEL — minimalist kernel that exposes hardware to applications, giving them direct control.",
+    "HYBRID KERNEL — combines features of monolithic and microkernels; used in Windows and macOS.",
+    "LAYERED — organized in levels; each layer builds on services provided by the one below it.",
+    "MICROKERNEL — only essential functions like IPC and basic scheduling; everything else in user space.",
+    "MODULAR — components can be loaded and unloaded at runtime; used in Linux systems (LKMs).",
+    "MONOLITHIC — single large process running entirely in kernel mode with all OS services included.",
+    "SIMPLE — basic structure with minimal functionality, used in teaching or early systems (e.g. MS-DOS).",
+    "VIRTUAL MACHINE (HYPERVISOR) — abstracts physical hardware; runs multiple OSes on the same system."
+   ]
+  ]
+ ]
+}

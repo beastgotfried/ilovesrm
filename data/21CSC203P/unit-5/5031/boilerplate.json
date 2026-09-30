@@ -19,4 +19,5 @@
     "print(dfa.accepts_input(\"1010\"))   # True — string ends with 0"
    ]
   ]
- }
+ ]
+}

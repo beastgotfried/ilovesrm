@@ -1,0 +1,25 @@
+{
+ "title": "Unit – 1 : Session – 10 : SLO – 1  |  User Interfaces — Riddles",
+ "sections": [
+  [
+   "I. Riddle Answers",
+   [
+    "\"I listen, not see. You speak, I agree. Who am I?\" -> VOICE USER INTERFACE (voice assistant,",
+    "    e.g. Siri/Alexa — a speech-recognition interface).",
+    "\"Icons, buttons, colors bright — I let you click from left to right.\" -> GUI",
+    "    (Graphical User Interface).",
+    "\"No clicks, just keys — you talk to me with letters, please.\" -> CLI",
+    "    (Command Line Interface / shell).",
+    "\"No mouse or keys in sight, your fingers make everything right.\" -> TOUCHSCREEN INTERFACE",
+    "    (touch-based UI used in phones and tablets)."
+   ]
+  ],
+  [
+   "II. Interfaces and Utilities",
+   [
+    "Users interact with the OS through CLI shells, GUIs, touch and voice interfaces, and batch files.",
+    "System utilities: file managers, task manager, settings panels, disk tools, terminal emulators."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,23 @@
+{
+ "title": "Unit – 1 : Session – 12 : SLO – 1  |  System Programs vs System Calls — Diagram Keywords",
+ "sections": [
+  [
+   "I. Diagram Keywords (Layered View)",
+   [
+    "Top layer: USER PROGRAMS / APPLICATIONS",
+    "Next: SYSTEM PROGRAMS (utilities: shells, editors, compilers, loaders)",
+    "Next: SYSTEM CALL INTERFACE (API: open, read, write, fork, exec)",
+    "Core: KERNEL (process management, memory management, file system, device drivers)",
+    "Bottom: HARDWARE (CPU, memory, devices)"
+   ]
+  ],
+  [
+   "II. Distinction",
+   [
+    "SYSTEM CALLS: the programmatic interface between a process and the kernel (e.g. fork, read).",
+    "SYSTEM PROGRAMS (utilities): executable programs shipped with the OS that USE system calls to",
+    "provide user-facing functionality (e.g. ls, cp, gcc, top). They run in user mode, not kernel mode."
+   ]
+  ]
+ ]
+}

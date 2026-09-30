@@ -1,0 +1,24 @@
+{
+ "title": "Unit – 1 : Session – 7 : SLO – 2  |  Protection and Security — Scrambled Sentences",
+ "sections": [
+  [
+   "I. Sentences in Correct Order (Protection and Security Mechanisms)",
+   [
+    "1. Protection ensures that each process accesses only the resources it is authorized to use.",
+    "2. The OS uses an access matrix of domains versus objects to define allowed operations.",
+    "3. User authentication (passwords, biometrics) verifies identity before granting access.",
+    "4. Access control lists and capability lists implement the access matrix in practice.",
+    "5. Encryption protects data confidentiality during storage and transmission.",
+    "6. Firewalls and intrusion detection systems defend the system from network threats.",
+    "7. Auditing and logging record security-relevant events for later analysis."
+   ]
+  ],
+  [
+   "II. Summary",
+   [
+    "Protection = controlling internal access to resources (access matrix, ACLs, capabilities).",
+    "Security = defending against external/internal threats (authentication, encryption, firewalls)."
+   ]
+  ]
+ ]
+}

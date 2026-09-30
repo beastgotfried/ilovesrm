@@ -1,0 +1,19 @@
+{
+ "title": "Unit – 1 : Session – 11 : SLO – 1  |  Steps Involved in Executing a System Call — Gap Fill",
+ "sections": [
+  [
+   "I. Completed Sentences (System Call Execution Steps)",
+   [
+    "1. The user program pushes the system call PARAMETERS onto the stack or into registers.",
+    "2. The program invokes the LIBRARY wrapper function for the system call.",
+    "3. The wrapper places the system call NUMBER in a register.",
+    "4. A TRAP (software interrupt) instruction switches the CPU from user mode to KERNEL MODE.",
+    "5. The kernel uses the SYSTEM CALL TABLE to find the address of the service routine.",
+    "6. The service routine executes with KERNEL privileges.",
+    "7. On completion, the RETURN VALUE is placed in a register.",
+    "8. The CPU switches back to USER MODE and the library wrapper returns to the caller.",
+    "9. The user program CONTINUES execution after the system call."
+   ]
+  ]
+ ]
+}

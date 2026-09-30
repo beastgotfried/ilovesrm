@@ -1,0 +1,23 @@
+{
+ "title": "Unit – 1 : Session – 2 : SLO – 1  |  Operating System Functions — Fill the Clues",
+ "sections": [
+  [
+   "I. Answers",
+   [
+    "1. The OS acts as an INTERFACE between the user and computer hardware.",
+    "2. One of the OS's key functions is EFFICIENT (resource) management of CPU, memory, and I/O devices.",
+    "3. MEMORY management involves allocation and deallocation of RAM.",
+    "4. File system organization is part of STORAGE (file) management.",
+    "5. The OS helps prevent UNAUTHORIZED access to data.",
+    "6. The OS also handles PROCESS scheduling and synchronization."
+   ]
+  ],
+  [
+   "II. Rebuilt Message",
+   [
+    "Arranging the letters from each cell gives the sentence:",
+    "\"THE OPERATING SYSTEM MANAGES THE COMPUTER'S HARDWARE AND SOFTWARE RESOURCES.\""
+   ]
+  ]
+ ]
+}

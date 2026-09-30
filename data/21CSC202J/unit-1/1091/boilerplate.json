@@ -1,0 +1,21 @@
+{
+ "title": "Unit – 1 : Session – 9 : SLO – 1  |  Open Source Operating Systems — Rebuild the Message",
+ "sections": [
+  [
+   "I. Rebuilt Message",
+   [
+    "Choosing the letters for each cell rebuilds the sentence:",
+    "\"LINUX IS A FREE AND OPEN SOURCE OPERATING SYSTEM.\""
+   ]
+  ],
+  [
+   "II. Open Source Operating Systems — Definition and Examples",
+   [
+    "Open source OS: operating system whose source code is freely available to study, modify and",
+    "redistribute under an open license (GPL, BSD, Apache).",
+    "Examples: LINUX (Ubuntu, Fedora, Debian), FreeBSD, OpenBSD, Android (AOSP), ReactOS, MINIX.",
+    "Advantages: transparency, community support, no licence cost, customizability, security auditing."
+   ]
+  ]
+ ]
+}

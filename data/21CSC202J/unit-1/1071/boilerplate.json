@@ -1,0 +1,26 @@
+{
+ "title": "Unit – 1 : Session – 7 : SLO – 1  |  File and Device Management — Word Puzzle",
+ "sections": [
+  [
+   "I. Words Found in the Puzzle",
+   [
+    "BUFFERING — storing data temporarily while it is transferred between devices.",
+    "CACHING — keeping copies of frequently used data in faster storage.",
+    "DMA — Direct Memory Access; lets devices transfer data without CPU involvement.",
+    "DEVICE MANAGEMENT — OS component controlling I/O devices via drivers.",
+    "FILE MANAGEMENT — creating, deleting, organizing files and directories.",
+    "KERNEL — core of the OS coordinating all these services.",
+    "SPOOLING — Simultaneous Peripheral Operations On-Line; queuing jobs for devices like printers.",
+    "USER — the entity on whose behalf these services run."
+   ]
+  ],
+  [
+   "II. Key Components",
+   [
+    "File management: file creation/deletion, directory structure, access control, free-space tracking.",
+    "Device management: device drivers, buffering, caching, spooling, DMA-based transfers,",
+    "and a uniform I/O interface for applications."
+   ]
+  ]
+ ]
+}

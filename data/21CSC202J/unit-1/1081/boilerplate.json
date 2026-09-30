@@ -1,0 +1,22 @@
+{
+ "title": "Unit – 1 : Session – 8 : SLO – 1  |  Kernel Data Structures — Symbol Code Puzzle",
+ "sections": [
+  [
+   "I. Secret Message",
+   [
+    "Decoding the symbols with the key at the bottom of the page reveals:",
+    "\"KERNEL DATA STRUCTURES KEEP TRACK OF PROCESSES, MEMORY, FILES AND DEVICES.\""
+   ]
+  ],
+  [
+   "II. What Are Kernel Data Structures?",
+   [
+    "PROCESS LIST / PCB TABLE — one Process Control Block per process (state, registers, PC).",
+    "READY QUEUE and WAIT (device) QUEUES — linked lists of process descriptors used by schedulers.",
+    "MEMORY MAPS / PAGE TABLES — track free and allocated frames and address translation.",
+    "OPEN FILE TABLE and INODE structures — track files opened by processes.",
+    "DEVICE TABLE and I/O request queues — track devices and pending operations."
+   ]
+  ]
+ ]
+}
