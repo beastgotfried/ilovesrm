@@ -1,0 +1,150 @@
+{
+ "mcq": [
+  {
+   "_id": 20783,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Process Management</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Memory Management</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Compiling User Programs</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">File System Management</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which of the following is NOT a primary function of an Operating System?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 20783
+  },
+  {
+   "_id": 20791,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Device Management</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Kernel Services</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Command Interpreter</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">User Interface</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which OS function provides an interface between hardware and user applications?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 20791
+  },
+  {
+   "_id": 20796,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Command Interpreter</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Device Management</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">CPU Scheduling</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">File System Interface</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which OS function is responsible for managing I/O devices and drivers?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 20796
+  },
+  {
+   "_id": 20799,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Executes user programs sequentially</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Compiles and debugs user applications</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Allocates and manages system resources among users and applications</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Provides graphical user interface</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which of the following best describes the role of the Operating System as a Resource Manager?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 20799
+  },
+  {
+   "_id": 20801,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Bootstrapping</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Resource Scheduling</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Command Interpretation</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Compilation</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which OS function ensures fair and efficient allocation of resources among competing processes?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 20801
+  }
+ ],
+ "sq": [
+  {
+   "_id": 20805,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Virtual memory is a memory management technique where the OS uses secondary storage to simulate additional main memory, managing it through paging or segmentation.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>What is virtual memory, and how is it managed by the OS?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "sq",
+   "key": 20805
+  },
+  {
+   "_id": 20808,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The OS is called a Resource Manager because it allocates, manages, and monitors system resources such as CPU, memory, I/O devices, and files among various processes and users efficiently.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Why is the Operating System called a Resource Manager?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "sq",
+   "key": 20808
+  }
+ ],
+ "lq": [
+  {
+   "_id": 20818,
+   "ANSWER": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The Operating System (OS) is a crucial software layer that manages hardware resources and provides services to application programs. Its key functions include:</span></span></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">1. Process Management:</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The OS manages processes in a multitasking environment by handling their creation, scheduling, execution, and termination.</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It allocates CPU time to processes based on scheduling algorithms like <b>Round Robin</b>, <b>Priority Scheduling</b>, or <b>Shortest Job First</b>.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Example: In a multi-user system, the OS ensures each user&#39;s task gets fair CPU time through time-sharing.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">2. Memory Management:</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The OS handles the allocation and deallocation of memory space for processes.</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It tracks memory usage, handles paging and segmentation, and manages virtual memory to optimize performance.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Example: Using <b>virtual memory</b>, the OS allows processes to use more memory than physically available by swapping data to disk.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">3. File System Management:</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The OS organizes files on storage devices, manages directories, and controls access permissions.</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It provides file creation, deletion, reading, writing, and access control mechanisms.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Example: OS manages user permissions to prevent unauthorized access to sensitive files.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">4. Device Management (I/O Management):</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The OS manages communication with I/O devices through drivers and ensures coordinated access.</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It handles device allocation, I/O operations, and buffering.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Example: When printing, the OS queues print jobs and sends them to the printer in order.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">5. Security and Protection:</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The OS enforces security policies, authenticates users, and prevents unauthorized access.</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It implements protection mechanisms like access control lists (ACLs) and user authentication.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Example: Operating systems require password authentication before granting access to system resources.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">6. User Interface Management:</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The OS provides a user interface, either <b>Command-Line Interface (CLI)</b> or <b>Graphical User Interface (GUI)</b>, to facilitate user interaction with the system.</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Example: Windows OS provides a GUI, while Linux offers both GUI and CLI options.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">7. Networking:</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Modern operating systems support networking functionalities for communication between devices and over the internet.</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Example: The OS manages network protocols, connections, and data transfer.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">8. Resource Allocation:</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The OS allocates hardware resources like CPU, memory, and I/O devices efficiently among multiple applications and users.</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It resolves conflicts and prevents deadlocks using scheduling and synchronization techniques.</span></span></span></span></span></span></li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Explain the major functions of an Operating System with examples.</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "lq",
+   "key": 20818
+  }
+ ]
+}

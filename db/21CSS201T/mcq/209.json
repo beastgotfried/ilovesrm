@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 31200,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Instructions are executed in the correct order</p>\n",
+   "OPT_2": "<p>Registers are reset after every instruction</p>\n",
+   "OPT_3": "<p>Memory is cleared before execution</p>\n",
+   "OPT_4": "<p>The program counter is always zero</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Instruction sequencing in computer architecture mainly ensures:</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 31200
+  },
+  {
+   "_id": 31201,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Control Unit</p>\n",
+   "OPT_2": "<p>ALU</p>\n",
+   "OPT_3": "<p>Register File</p>\n",
+   "OPT_4": "<p>Cache</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The component responsible for sequencing instructions in a CPU is:</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 31201
+  },
+  {
+   "_id": 31203,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>MAR (Memory Address Register)</p>\n",
+   "OPT_2": "<p>MDR (Memory Data Register)</p>\n",
+   "OPT_3": "<p>PC (Program Counter)</p>\n",
+   "OPT_4": "<p>IR (Instruction Register)</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which register is most important in instruction sequencing?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 31203
+  },
+  {
+   "_id": 31204,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>2000</p>\n",
+   "OPT_2": "<p>2001</p>\n",
+   "OPT_3": "<p>2004</p>\n",
+   "OPT_4": "<p>2008</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>If the Program Counter (PC) currently holds address <strong data-end=\"993\" data-start=\"985\">2000</strong>, and instructions are <strong data-end=\"1027\" data-start=\"1016\">4 bytes</strong> long, after fetching one instruction the PC will point to:</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 31204
+  },
+  {
+   "_id": 31206,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Sequential execution model</p>\n",
+   "OPT_2": "<p>Branch instructions</p>\n",
+   "OPT_3": "<p>Program counter increment</p>\n",
+   "OPT_4": "<p>Clock cycles</p>\n",
+   "OUTCOMES": [
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Which of the following allows <strong data-end=\"1567\" data-start=\"1527\">non-sequential instruction execution</strong>?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 31206
+  }
+ ],
+ "sq": [
+  {
+   "_id": 31987,
+   "ANSWER": "<p data-end=\"478\" data-start=\"453\">Instruction flow is the sequence in which a computer fetches, decodes, and executes instructions, controlled mainly by the <strong data-end=\"410\" data-start=\"386\">Program Counter (PC)</strong>.</p>\n\n<p data-end=\"960\" data-start=\"890\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"248\" data-start=\"188\"><strong data-end=\"246\" data-start=\"192\">What is instruction flow in program execution?</strong></h3>\n\n<p data-end=\"413\" data-start=\"249\">&nbsp;</p>\n\n<p data-end=\"639\" data-start=\"525\">&nbsp;</p>\n\n<p data-end=\"445\" data-start=\"253\">&nbsp;</p>\n\n<p data-end=\"449\" data-start=\"436\">&nbsp;</p>\n\n<p data-end=\"367\" data-start=\"220\">&nbsp;</p>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "sq",
+   "key": 31987
+  },
+  {
+   "_id": 31988,
+   "ANSWER": "<p data-end=\"478\" data-start=\"453\">The <strong data-end=\"1295\" data-start=\"1279\">control unit</strong> interprets the opcode and decides what actions (ALU operation, memory access, register update) are needed.</p>\n\n<p data-end=\"960\" data-start=\"890\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1260\" data-start=\"1209\"><strong data-end=\"1258\" data-start=\"1213\">What happens during the decode phase?</strong></h3>\n\n<p data-end=\"1404\" data-start=\"1261\">&nbsp;</p>\n\n<p data-end=\"413\" data-start=\"249\">&nbsp;</p>\n\n<p data-end=\"639\" data-start=\"525\">&nbsp;</p>\n\n<p data-end=\"445\" data-start=\"253\">&nbsp;</p>\n\n<p data-end=\"449\" data-start=\"436\">&nbsp;</p>\n\n<p data-end=\"367\" data-start=\"220\">&nbsp;</p>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "sq",
+   "key": 31988
+  }
+ ],
+ "lq": [
+  {
+   "_id": 32003,
+   "ANSWER": "<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction flow refers to the sequence of operations carried out by the CPU to execute a program stored in memory. It involves several coordinated steps that ensure instructions are fetched, decoded, and executed in the correct order.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The flow can be explained in the following stages:</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. Program Counter (PC) Initialization</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The Program Counter (PC) holds the address of the next instruction to be executed.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>At the beginning of program execution, the PC points to the first instruction in memory.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nIf the first instruction is stored at memory location 2000H, then PC = 2000H.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. Instruction Fetch (IF)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The CPU fetches the instruction from the memory address stored in the PC.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The instruction is loaded into the Instruction Register (IR).</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>After fetching, the PC is incremented to point to the next instruction.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nIf instruction at 2000H is MOV A, B, then IR = MOV A, B, and PC updates to 2001H.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. Instruction Decode (ID)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The Control Unit decodes the instruction present in IR.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>It identifies:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Operation (e.g., ADD, MOV, LOAD)</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Addressing mode (immediate, direct, indirect, etc.)</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Operands (registers/memory involved).</b></span></span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nADD R1, R2 &rarr; operation = ADD, source operand = R2, destination operand = R1.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>4. Operand Fetch (OF)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>If the instruction needs data from memory or registers, the CPU fetches operands.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Addressing mode decides how the operand is accessed (immediate, direct, indirect, etc.).</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nMOV A, 5000H &rarr; operand is at memory location 5000H, so CPU reads value from that address.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>5. Instruction Execution (EX)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The Arithmetic Logic Unit (ALU) or relevant hardware executes the instruction.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Operations may include arithmetic (ADD, SUB), logical (AND, OR), data transfer, or control (JUMP, CALL).</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nADD R1, R2 &rarr; ALU adds contents of R2 to R1.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>6. Result Write-Back (WB)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The result of the operation is written back to the destination register or memory.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nAfter ADD R1, R2, the result is stored in R1.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>7. Program Counter Update &amp; Sequencing</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Normally, PC increments sequentially to the next instruction.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>For branching instructions (e.g., JUMP, CALL, RETURN), the PC is updated with a new target address.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>This allows conditional and loop execution.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>JMP 3000H &rarr; PC = 3000H (non-sequential execution).</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>BEQ LABEL &rarr; PC changes only if condition = TRUE.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>8. Repeat Cycle</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The fetch&ndash;decode&ndash;execute cycle repeats until the program ends (HALT instruction) or control is transferred elsewhere.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction Flow Example (Simple Program)</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2000H: LOAD R1, 5000H&nbsp; </b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2001H: ADD&nbsp; R1, R2&nbsp; </b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2002H: STORE R1, 6000H&nbsp; </b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2003H: HALT</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Execution Flow:</b></span></span></span></p>\n\n<ol>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>PC = 2000H &rarr; Fetch LOAD &rarr; R1 &larr; M[5000H]</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>PC = 2001H &rarr; Fetch ADD &rarr; R1 &larr; R1 + R2</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>PC = 2002H &rarr; Fetch STORE &rarr; M[6000H] &larr; R1</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>PC = 2003H &rarr; Fetch HALT &rarr; Stop execution.</b></span></span></span></span></li>\n</ol>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Describe the instruction flow during program execution. Explain with the help of different steps and relevant examples.</b></span></span></span></p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "lq",
+   "key": 32003
+  }
+ ]
+}

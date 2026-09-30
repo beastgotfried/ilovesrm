@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9647,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"265\" data-start=\"249\">socket.close()</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) <code data-end=\"1320\" data-start=\"1312\">socket.bind()</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"1320\" data-start=\"1312\">socket.listen()</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"366\" data-start=\"315\">socket.socket(socket.AF_INET, socket.SOCK_STREAM)</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"244\" data-start=\"175\"><strong data-end=\"244\" data-start=\"179\">1. What is the first step in creating a TCP socket in Python?</strong></h3>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 9647
+  },
+  {
+   "_id": 9648,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"544\" data-start=\"533\">connect()</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) send()</p>\n",
+   "OPT_3": "<p>C) <code data-end=\"574\" data-start=\"564\">accept()</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"591\" data-start=\"580\">receive()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"528\" data-start=\"445\"><strong data-end=\"528\" data-start=\"449\">2. Which method is used by the server to accept a connection from a client?</strong></h3>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 9648
+  },
+  {
+   "_id": 9649,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"743\" data-start=\"735\">bind()</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) <code data-end=\"760\" data-start=\"749\">connect()</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"574\" data-start=\"564\">accept()</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"792\" data-start=\"782\">listen()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"730\" data-start=\"629\"><strong data-end=\"730\" data-start=\"633\">3. In a basic TCP client-server program, what does the client use to initiate the connection?</strong></h3>\n\n<p data-end=\"794\" data-start=\"732\"><br data-end=\"763\" data-start=\"760\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 9649
+  },
+  {
+   "_id": 9650,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Waits for incoming connections</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) Closes the socket</p>\n",
+   "OPT_3": "<p>C) Receives data from a socket</p>\n",
+   "OPT_4": "<p>D) Sends data to the connected socket</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"903\" data-start=\"831\"><strong data-end=\"903\" data-start=\"835\">4. What does the <code data-end=\"862\" data-start=\"854\">send()</code> function do in TCP socket programming?</strong></h3>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 9650
+  },
+  {
+   "_id": 9651,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It uses less memory</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) It guarantees delivery and maintains the order of messages</p>\n",
+   "OPT_3": "<p>C) It allows more simultaneous users than UDP</p>\n",
+   "OPT_4": "<p>D) It doesn&rsquo;t require ports</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1155\" data-start=\"1096\"><strong data-end=\"1155\" data-start=\"1100\">5. Why is TCP preferred for reliable communication?</strong></h3>\n\n<p data-end=\"1323\" data-start=\"1157\">&nbsp;</p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 9651
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9860,
+   "ANSWER": "<p><br data-end=\"6248\" data-start=\"6245\" />\nUse a TCP socket, which establishes a reliable connection before data transfer.<br data-end=\"6330\" data-start=\"6327\" />\nIt ensures packets arrive in order and handles retransmissions if needed.<br data-end=\"6406\" data-start=\"6403\" />\nThis is important for login, file transfer, etc.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4958\" data-start=\"4681\">How would you ensure messages are reliably delivered using Python?<br data-end=\"6239\" data-start=\"6236\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "sq",
+   "key": 9860
+  },
+  {
+   "_id": 9861,
+   "ANSWER": "<p><code>import socket s = socket.socket(socket.AF_INET, socket.SOCK_STREAM) s.connect((&#39;localhost&#39;, 12345)) </code></p>\n\n<p data-end=\"6699\" data-start=\"6639\">This code connects the client to a TCP server on port 12345.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"6516\" data-start=\"6456\">Write code to create a TCP client socket.</p>\n\n<pre data-end=\"6638\" data-start=\"6517\">\n\n&nbsp;</pre>\n\n<p data-end=\"4958\" data-start=\"4681\">&nbsp;</p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "sq",
+   "key": 9861
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9840,
+   "ANSWER": "<h3 data-end=\"154\" data-start=\"94\"><strong data-end=\"152\" data-start=\"98\">1. Role of TCP in Reliable Communication (4 marks)</strong></h3>\n\n<ul data-end=\"364\" data-start=\"155\">\n\t<li data-end=\"201\" data-start=\"155\">\n\t<p data-end=\"201\" data-start=\"157\">TCP is a <strong data-end=\"198\" data-start=\"166\">connection-oriented protocol</strong>.</p>\n\t</li>\n\t<li data-end=\"267\" data-start=\"202\">\n\t<p data-end=\"267\" data-start=\"204\">Ensures <strong data-end=\"229\" data-start=\"212\">data delivery</strong>, <strong data-end=\"240\" data-start=\"231\">order</strong>, and <strong data-end=\"264\" data-start=\"246\">error checking</strong>.</p>\n\t</li>\n\t<li data-end=\"364\" data-start=\"268\">\n\t<p data-end=\"364\" data-start=\"270\">Suitable for applications where <strong data-end=\"329\" data-start=\"302\">reliability is critical</strong> (e.g., messaging, file transfers).</p>\n\t</li>\n</ul>\n\n<hr data-end=\"369\" data-start=\"366\" />\n<h3 data-end=\"427\" data-start=\"371\"><strong data-end=\"425\" data-start=\"375\">2. Python TCP Server and Client Code (7 marks)</strong></h3>\n\n<p data-end=\"440\" data-start=\"429\"><strong data-end=\"440\" data-start=\"429\">Server:</strong></p>\n\n<p data-end=\"440\" data-start=\"429\"><strong data-end=\"440\" data-start=\"429\">import socket</strong></p>\n\n<p><strong data-end=\"440\" data-start=\"429\">server = socket.socket()<br />\nserver.bind((&#39;localhost&#39;, 12345))<br />\nserver.listen(1)<br />\nconn, addr = server.accept()<br />\nprint(&quot;Connected:&quot;, addr)<br />\ndata = conn.recv(1024)<br />\nprint(&quot;Received:&quot;, data.decode())<br />\nconn.close()</strong></p>\n\n<p><strong data-end=\"440\" data-start=\"429\">Client:</strong></p>\n\n<p>import socket</p>\n\n<p>client = socket.socket()<br />\nclient.connect((&#39;localhost&#39;, 12345))<br />\nclient.send(b&quot;Hello Server&quot;)<br />\nclient.close()</p>\n\n<h3 data-end=\"885\" data-start=\"825\"><strong data-end=\"883\" data-start=\"829\">3. Real-World Communication + Limitation (4 marks)</strong></h3>\n\n<ul data-end=\"1044\" data-start=\"886\">\n\t<li data-end=\"966\" data-start=\"886\">\n\t<p data-end=\"966\" data-start=\"888\">Models a <strong data-end=\"912\" data-start=\"897\">chat system</strong>: server listens, client connects and sends message.</p>\n\t</li>\n\t<li data-end=\"1044\" data-start=\"967\">\n\t<p data-end=\"1044\" data-start=\"969\"><strong data-end=\"983\" data-start=\"969\">Limitation</strong>: Doesn&#39;t support multiple clients or asynchronous messaging.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"394\" data-start=\"150\">You are developing a Python-based chat application where messages must be reliably delivered between users. The system should allow one server and multiple clients to exchange messages over a stable connection using TCP sockets.</p>\n\n<p data-end=\"405\" data-start=\"396\"><strong data-end=\"405\" data-start=\"396\">Task:</strong></p>\n\n<ol data-end=\"777\" data-start=\"407\">\n\t<li data-end=\"495\" data-start=\"407\">\n\t<p data-end=\"495\" data-start=\"410\"><strong data-end=\"421\" data-start=\"410\">Explain</strong> the role of TCP in ensuring reliable network communication. <em data-end=\"493\" data-start=\"482\">(4 marks)</em></p>\n\t</li>\n\t<li data-end=\"651\" data-start=\"496\">\n\t<p data-end=\"651\" data-start=\"499\"><strong data-end=\"520\" data-start=\"499\">Write Python code</strong> to create a basic TCP server that accepts client connections and a client script that sends a message to the server. <em data-end=\"649\" data-start=\"638\">(7 marks)</em></p>\n\t</li>\n\t<li data-end=\"777\" data-start=\"652\">\n\t<p data-end=\"777\" data-start=\"655\"><strong data-end=\"667\" data-start=\"655\">Describe</strong> how this implementation models real-world client-server communication and mention one limitation. <em data-end=\"777\" data-start=\"766\">(4 marks)</em></p>\n\t</li>\n</ol>\n\n<p data-end=\"492\" data-start=\"153\">&nbsp;</p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "lq",
+   "key": 9840
+  }
+ ]
+}

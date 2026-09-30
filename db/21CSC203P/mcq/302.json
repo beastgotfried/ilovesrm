@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 10383,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Call <code data-end=\"364\" data-start=\"357\">run()</code> method directly</p>\n",
+   "OPT_2": "<p>Call <code data-end=\"400\" data-start=\"391\">start()</code> on a <code data-end=\"414\" data-start=\"406\">Thread</code> object</p>\n",
+   "OPT_3": "<p>Use <code data-end=\"446\" data-start=\"431\">Thread.init()</code></p>\n",
+   "OPT_4": "<p>Instantiate <code data-end=\"474\" data-start=\"464\">Runnable</code> and call <code data-end=\"495\" data-start=\"484\">execute()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What is the correct way to start a thread when using the <code data-end=\"331\" data-start=\"323\">Thread</code> class in Java?<br data-end=\"349\" data-start=\"346\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 10383
+  },
+  {
+   "_id": 10384,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A new thread is created</p>\n",
+   "OPT_2": "<p>It throws a runtime exception</p>\n",
+   "OPT_3": "<p>The code runs in the current thread, not concurrently</p>\n",
+   "OPT_4": "<p>It pauses the main thread</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What happens if you call <code data-end=\"655\" data-start=\"648\">run()</code> instead of <code data-end=\"676\" data-start=\"667\">start()</code> on a thread object?<br data-end=\"699\" data-start=\"696\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 10384
+  },
+  {
+   "_id": 10385,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Better GUI performance</p>\n",
+   "OPT_2": "<p>Runnable allows use of multiple constructors</p>\n",
+   "OPT_3": "<p>Java supports only one class inheritance</p>\n",
+   "OPT_4": "<p>No need to override <code data-end=\"1247\" data-start=\"1240\">run()</code> method</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What is the main advantage of implementing the <code data-end=\"1045\" data-start=\"1035\">Runnable</code> interface over extending the <code data-end=\"1083\" data-start=\"1075\">Thread</code> class?<br data-end=\"1093\" data-start=\"1090\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 10385
+  },
+  {
+   "_id": 10386,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"1650\" data-start=\"1633\">MyThread.run();</code></p>\n",
+   "OPT_2": "<p><code data-end=\"1681\" data-start=\"1656\">new MyThread().start();</code></p>\n",
+   "OPT_3": "<p><code data-end=\"1726\" data-start=\"1687\">MyThread t = new MyThread(); t.run();</code></p>\n",
+   "OPT_4": "<p><code data-end=\"1749\" data-start=\"1732\">Thread.start();</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1449\" data-start=\"1413\">Consider the following code:</p>\n\n<pre data-end=\"1571\" data-start=\"1450\">\n<code>class MyThread extends Thread { public void run() { System.out.println(\"Thread running\"); } }</code></pre>\n\n<p>Which statement correctly creates and runs this thread?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 10386
+  },
+  {
+   "_id": 10387,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"2104\" data-start=\"2085\">new Task().run();</code></p>\n",
+   "OPT_2": "<p><code data-end=\"2149\" data-start=\"2110\">Runnable r = new Task(); r.execute();</code></p>\n",
+   "OPT_3": "<p><code data-end=\"2202\" data-start=\"2155\">Thread t = new Thread(new Task()); t.start();</code></p>\n",
+   "OPT_4": "<p><code data-end=\"2221\" data-start=\"2208\">Task.run();</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1907\" data-start=\"1875\">Given this code snippet:</p>\n\n<pre data-end=\"2028\" data-start=\"1908\">\n<code>class Task implements Runnable { public void run() { System.out.println(&quot;Task running&quot;); } } </code></pre>\n\n<p data-end=\"2319\" data-start=\"2029\">How would you properly execute it in a new thread?<br data-end=\"2082\" data-start=\"2079\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 10387
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10388,
+   "ANSWER": "<p>&quot;Thread is running&quot;</p>\n\n<p><code data-end=\"3150\" data-start=\"3141\">start()</code> initiates a new thread, and <code data-end=\"3186\" data-start=\"3179\">run()</code> prints the message.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What is the output of this code?</p>\n\n<pre data-end=\"3019\" data-start=\"2799\">\n<code>class Test extends Thread \n{ \npublic void run()\n { \nSystem.out.println(\"Thread is running\"); \n} public static void main(String[] args) \n{ \nTest t = new Test(); t.start(); \n} \n}</code></pre>\n",
+   "SESSION_ID": 302,
+   "TYPE": "sq",
+   "key": 10388
+  },
+  {
+   "_id": 10389,
+   "ANSWER": "<ul>\n\t<li data-end=\"3409\" data-start=\"3369\">\n\t<p data-end=\"3409\" data-start=\"3371\">Create a class that extends <code data-end=\"3407\" data-start=\"3399\">Thread</code></p>\n\t</li>\n\t<li data-end=\"3441\" data-start=\"3410\">\n\t<p data-end=\"3441\" data-start=\"3412\">Override the <code data-end=\"3432\" data-start=\"3425\">run()</code> method</p>\n\t</li>\n\t<li data-end=\"3477\" data-start=\"3442\">\n\t<p data-end=\"3477\" data-start=\"3444\">Create an instance of the class</p>\n\t</li>\n\t<li data-end=\"3533\" data-start=\"3478\">\n\t<p data-end=\"3533\" data-start=\"3480\">Call the <code data-end=\"3498\" data-start=\"3489\">start()</code> method to begin thread execution</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Explain the steps to create a thread using the <code data-end=\"3337\" data-start=\"3329\">Thread</code> class in Java.</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "sq",
+   "key": 10389
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10390,
+   "ANSWER": "<p data-end=\"5191\" data-start=\"5180\"><strong data-end=\"5191\" data-start=\"5180\"><span id=\"cke_bm_21147S\" style=\"display: none;\">&nbsp;</span>Design:</strong></p>\n\n<ul data-end=\"5428\" data-start=\"5192\">\n\t<li data-end=\"5246\" data-start=\"5192\">\n\t<p data-end=\"5246\" data-start=\"5194\">Create <code data-end=\"5219\" data-start=\"5201\">FileReaderThread</code> class extending <code data-end=\"5244\" data-start=\"5236\">Thread</code></p>\n\t</li>\n\t<li data-end=\"5296\" data-start=\"5247\">\n\t<p data-end=\"5296\" data-start=\"5249\">Implement <code data-end=\"5271\" data-start=\"5259\">Compressor</code> class using <code data-end=\"5294\" data-start=\"5284\">Runnable</code></p>\n\t</li>\n\t<li data-end=\"5346\" data-start=\"5297\">\n\t<p data-end=\"5346\" data-start=\"5299\">Use shared object (e.g., queue) for file data</p>\n\t</li>\n\t<li data-end=\"5428\" data-start=\"5347\">\n\t<p data-end=\"5428\" data-start=\"5349\">Use <code data-end=\"5367\" data-start=\"5353\">synchronized</code> blocks or <code data-end=\"5393\" data-start=\"5378\">ReentrantLock</code> to manage shared resource access</p>\n\t</li>\n</ul>\n\n<p data-end=\"5447\" data-start=\"5430\"><strong data-end=\"5447\" data-start=\"5430\">Code Snippet:</strong></p>\n\n<pre data-end=\"6127\" data-start=\"5449\">\n<code>class FileReaderThread extends Thread \n{ \nprivate List&lt;String&gt; fileList; \npublic FileReaderThread(List&lt;String&gt; files) \n{ this.fileList = files; \n} \npublic void run() \n{ \nfor (String file : fileList)\n { System.out.println(\"Reading: \" + file); \nCompressor task = new Compressor(file); \nThread t = new Thread(task); t.start(); \n} \n} \n}\n class Compressor implements Runnable \n{ \nprivate String file; \npublic Compressor(String file) \n{ \nthis.file = file; \n} \npublic void run() \n{ \nSystem.out.println(\"Compressing: \" + file); // Compression logic here \n} \n} </code></pre>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4682\" data-start=\"4597\">You are building a file processing tool in Java. The tool needs to:</p>\n\n<ul data-end=\"4850\" data-start=\"4683\">\n\t<li data-end=\"4713\" data-start=\"4683\">\n\t<p data-end=\"4713\" data-start=\"4685\">Read large files from disk</p>\n\t</li>\n\t<li data-end=\"4763\" data-start=\"4714\">\n\t<p data-end=\"4763\" data-start=\"4716\">Compress each file using a CPU-intensive task</p>\n\t</li>\n\t<li data-end=\"4850\" data-start=\"4764\">\n\t<p data-end=\"4850\" data-start=\"4766\">Log progress in real-time<br data-end=\"4794\" data-start=\"4791\" />\n\tYou decide to use multithreading to improve performance.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"4855\" data-start=\"4852\" />\n<p data-end=\"4892\" data-start=\"4857\"><br data-end=\"4866\" data-start=\"4863\" />\nDesign a solution where:</p>\n\n<ul data-end=\"5141\" data-start=\"4893\">\n\t<li data-end=\"4938\" data-start=\"4893\">\n\t<p data-end=\"4938\" data-start=\"4895\">You use <strong data-end=\"4919\" data-start=\"4903\">Thread class</strong> for file reading</p>\n\t</li>\n\t<li data-end=\"5141\" data-start=\"4939\">\n\t<p data-end=\"5141\" data-start=\"4941\">You use <strong data-end=\"4971\" data-start=\"4949\">Runnable interface</strong> for compression tasks<br data-end=\"4996\" data-start=\"4993\" />\n\tExplain how the&nbsp;threads interact and how you will manage concurrency to avoid race conditions. Include code snippets to support your explanation.</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 302,
+   "TYPE": "lq",
+   "key": 10390
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 23883,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>It doubles the divisor before each subtraction<br data-end=\"429\" data-start=\"426\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>It always adds the quotient to the divisor<br data-end=\"481\" data-start=\"478\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>It restores the original remainder if a subtraction results in a negative value<br data-end=\"570\" data-start=\"567\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>It multiplies the remainder by 2 in every step</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"371\" data-start=\"267\">What is the key step that differentiates <strong data-end=\"342\" data-start=\"320\">restoring division</strong> from non-restoring division?</h3>\n\n<h3 data-end=\"371\" data-start=\"267\">&nbsp;</h3>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 23883
+  },
+  {
+   "_id": 23884,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Addition of the divisor<br data-end=\"1120\" data-start=\"1117\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>Subtraction of the divisor from the remainder<br data-end=\"1175\" data-start=\"1172\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>Multiplication by 2<br data-end=\"1204\" data-start=\"1201\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>XOR operation between remainder and divisor</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1085\" data-start=\"934\">During restoring division, what operation is performed after shifting the contents of the remainder and quotient registers left by one bit?</h3>\n\n<p data-end=\"1256\" data-start=\"1087\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 23884
+  },
+  {
+   "_id": 23907,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>n&minus;1 times<br data-end=\"2710\" data-start=\"2707\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>Exactly n&nbsp;times<br data-end=\"2739\" data-start=\"2736\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>2n times<br data-end=\"2757\" data-start=\"2754\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>Once for each 1 in the dividend</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2685\" data-start=\"2595\">How many times is the restoring division loop executed for <strong data-end=\"2675\" data-start=\"2666\">n-bit</strong> operands?</h3>\n\n<p data-end=\"2797\" data-start=\"2687\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 23907
+  },
+  {
+   "_id": 23908,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>The quotient bit is set to 1<br data-end=\"1679\" data-start=\"1676\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>The quotient bit is set to 0<br data-end=\"1717\" data-start=\"1714\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>The quotient bit is left unchanged<br data-end=\"1761\" data-start=\"1758\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>The quotient bit is shifted out</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1639\" data-start=\"1504\">In the restoring division algorithm, what happens to the quotient bit when the subtraction yields a <strong data-end=\"1628\" data-start=\"1616\">negative</strong> remainder?</h3>\n\n<p data-end=\"1801\" data-start=\"1641\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 23908
+  },
+  {
+   "_id": 23909,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OPT_1": "<p>To increase the precision of the quotient<br data-end=\"2211\" data-start=\"2208\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>To avoid overflow in the remainder<br data-end=\"2255\" data-start=\"2252\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>To correct the remainder if subtraction overshoots<br data-end=\"2315\" data-start=\"2312\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>To normalize the divisor</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2158\" data-start=\"2034\">Which of the following best describes the <strong data-end=\"2121\" data-start=\"2088\">purpose of the restoring step</strong> in the restoring division algorithm?</h3>\n\n<p data-end=\"2348\" data-start=\"2160\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 23909
+  }
+ ],
+ "sq": [
+  {
+   "_id": 25220,
+   "ANSWER": "<p>If the MSB of A is <strong data-end=\"24\" data-start=\"19\">1</strong> (i.e. A &lt; 0), A must be <strong data-end=\"61\" data-start=\"49\">restored</strong> (A &larr; A + M) .</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What condition determines whether the Subtractor result is restored?</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "sq",
+   "key": 25220
+  },
+  {
+   "_id": 25221,
+   "ANSWER": "<p>A is initialized to <strong data-end=\"25\" data-is-last-node=\"\" data-start=\"20\">0</strong></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is the initial value of the Accumulator (A) in restoring division?</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "sq",
+   "key": 25221
+  }
+ ],
+ "lq": [
+  {
+   "_id": 25391,
+   "ANSWER": "<p>Type Here</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Provide illustrative examples demonstrating how restoring and non restoring&nbsp;algorithm processes the same dividend and divisor, detailing the intermediate steps and final results.</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "lq",
+   "key": 25391
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9607,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) A function that modifies its input parameters</p>\n",
+   "OPT_2": "<p>B) A function that always returns the same output for the same input and causes no side effects</p>\n",
+   "OPT_3": "<p>C) A function that uses global variables</p>\n",
+   "OPT_4": "<p>D) A function that depends on user input</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best describes a pure function?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 9607
+  },
+  {
+   "_id": 9608,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) [2, 4, 6]</p>\n",
+   "OPT_2": "<p>B) [1, 2, 3, 2, 4, 6]</p>\n",
+   "OPT_3": "<p>C) [1, 2, 3]</p>\n",
+   "OPT_4": "<p>D) Error</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the output of the following Python code?</p>\n\n<p>list(map(lambda x: x*2, [1, 2, 3]))</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 9608
+  },
+  {
+   "_id": 9609,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) map()</p>\n",
+   "OPT_2": "<p>B) reduce()</p>\n",
+   "OPT_3": "<p>C) filter()</p>\n",
+   "OPT_4": "<p>D) apply()</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which Python function is used to filter elements from a list based on a condition?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 9609
+  },
+  {
+   "_id": 9610,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) By hiding implementation details and allowing functions to be passed as arguments</p>\n",
+   "OPT_2": "<p>B) By modifying data in place</p>\n",
+   "OPT_3": "<p>C) By increasing code duplication</p>\n",
+   "OPT_4": "<p>D) By using global variables</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>How do higher-order functions help promote abstraction?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 9610
+  },
+  {
+   "_id": 9611,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It improves readability but reduces performance</p>\n",
+   "OPT_2": "<p>B) It makes code less reusable</p>\n",
+   "OPT_3": "<p>C) It helps avoid side effects and makes programs easier to reason about</p>\n",
+   "OPT_4": "<p>D) It prevents function calls</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Why is immutability encouraged in functional programming?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 9611
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9844,
+   "ANSWER": "<p><br data-end=\"1115\" data-start=\"1112\" />\n<code data-end=\"1125\" data-start=\"1115\">filter()</code> can be used with a pure lambda like <code data-end=\"1189\" data-start=\"1162\">lambda x: x[&#39;marks&#39;] &gt; 50</code>.<br data-end=\"1193\" data-start=\"1190\" />\nIt returns only those records that satisfy the condition without modifying the original data.<br data-end=\"1289\" data-start=\"1286\" />\nThis ensures data immutability and reusability across different program parts.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>A student record system filters only passed students. How can <code data-end=\"1078\" data-start=\"1068\">filter()</code> and pure functions help?<br data-end=\"1106\" data-start=\"1103\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 9844
+  },
+  {
+   "_id": 9845,
+   "ANSWER": "<p><br data-end=\"1461\" data-start=\"1458\" />\nPure functions don&rsquo;t rely on or change external state, avoiding conflicts during execution.<br data-end=\"1555\" data-start=\"1552\" />\nThis makes them safer and more efficient in multi-threaded or distributed systems.<br data-end=\"1640\" data-start=\"1637\" />\nThey also enhance reproducibility and make debugging easier.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Why are pure functions preferred in parallel or multi-user environments?<br data-end=\"1452\" data-start=\"1449\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 9845
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9832,
+   "ANSWER": "<h3 data-end=\"160\" data-start=\"96\"><strong data-end=\"160\" data-start=\"100\">1. Definition and Importance of Pure Functions (4 marks)</strong></h3>\n\n<p data-end=\"201\" data-start=\"162\">A <strong data-end=\"181\" data-start=\"164\">pure function</strong> is a function that:</p>\n\n<ul data-end=\"334\" data-start=\"202\">\n\t<li data-end=\"254\" data-start=\"202\">\n\t<p data-end=\"254\" data-start=\"204\">Always returns the same output for the same input.</p>\n\t</li>\n\t<li data-end=\"334\" data-start=\"255\">\n\t<p data-end=\"334\" data-start=\"257\">Has <strong data-end=\"280\" data-start=\"261\">no side effects</strong> (does not modify global state or external variables).</p>\n\t</li>\n</ul>\n\n<p data-end=\"351\" data-start=\"336\"><strong data-end=\"351\" data-start=\"336\">Importance:</strong></p>\n\n<ul data-end=\"564\" data-start=\"352\">\n\t<li data-end=\"428\" data-start=\"352\">\n\t<p data-end=\"428\" data-start=\"354\"><strong data-end=\"370\" data-start=\"354\">Reusability:</strong> Can be used in different contexts without altering logic.</p>\n\t</li>\n\t<li data-end=\"496\" data-start=\"429\">\n\t<p data-end=\"496\" data-start=\"431\"><strong data-end=\"447\" data-start=\"431\">Testability:</strong> Easy to test since output depends only on input.</p>\n\t</li>\n\t<li data-end=\"564\" data-start=\"497\">\n\t<p data-end=\"564\" data-start=\"499\"><strong data-end=\"513\" data-start=\"499\">Debugging:</strong> Easier, as functions are isolated and predictable.</p>\n\t</li>\n</ul>\n\n<p data-end=\"564\" data-start=\"499\">&nbsp;</p>\n\n<h3 data-end=\"648\" data-start=\"571\"><strong data-end=\"648\" data-start=\"575\">2. Python Program Using <code data-end=\"608\" data-start=\"601\">map()</code>, <code data-end=\"620\" data-start=\"610\">filter()</code>, and <code data-end=\"636\" data-start=\"626\">reduce()</code> (6 marks)</strong></h3>\n\n<pre data-end=\"1182\" data-start=\"650\">\nfrom functools import reduce</pre>\n\n<p># Pure function to normalize score<br />\ndef normalize(score):<br />\n&nbsp; &nbsp; return score / 10 &nbsp;# Example: if max score is 10</p>\n\n<p># Sample data<br />\nscores = [8, 5, 9, 3, 7]</p>\n\n<p># Step 1: Normalize using map<br />\nnormalized_scores = list(map(normalize, scores))</p>\n\n<p># Step 2: Filter scores &gt;= 0.5<br />\nfiltered_scores = list(filter(lambda x: x &gt;= 0.5, normalized_scores))</p>\n\n<p># Step 3: Average using reduce<br />\ntotal = reduce(lambda x, y: x + y, filtered_scores)<br />\naverage = total / len(filtered_scores)</p>\n\n<p>print(&quot;Average score:&quot;, average)</p>\n\n<h3 data-end=\"1468\" data-start=\"1408\"><strong data-end=\"1468\" data-start=\"1412\">3. Immutability and Higher-Order Functions (5 marks)</strong></h3>\n\n<ul data-end=\"1930\" data-start=\"1470\">\n\t<li data-end=\"1673\" data-start=\"1470\">\n\t<p data-end=\"1491\" data-start=\"1472\"><strong data-end=\"1489\" data-start=\"1472\">Immutability:</strong></p>\n\n\t<ul data-end=\"1673\" data-start=\"1494\">\n\t\t<li data-end=\"1589\" data-start=\"1494\">\n\t\t<p data-end=\"1589\" data-start=\"1496\">Original list <code data-end=\"1518\" data-start=\"1510\">scores</code> is <strong data-end=\"1540\" data-start=\"1522\">never modified</strong>, ensuring data safety and no unintended changes.</p>\n\t\t</li>\n\t\t<li data-end=\"1673\" data-start=\"1592\">\n\t\t<p data-end=\"1673\" data-start=\"1594\">Functional programming encourages working with <strong data-end=\"1653\" data-start=\"1641\">new data</strong>, not modifying old.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1930\" data-start=\"1675\">\n\t<p data-end=\"1706\" data-start=\"1677\"><strong data-end=\"1704\" data-start=\"1677\">Higher-Order Functions:</strong></p>\n\n\t<ul data-end=\"1930\" data-start=\"1709\">\n\t\t<li data-end=\"1825\" data-start=\"1709\">\n\t\t<p data-end=\"1825\" data-start=\"1711\"><code data-end=\"1718\" data-start=\"1711\">map()</code>, <code data-end=\"1730\" data-start=\"1720\">filter()</code>, and <code data-end=\"1746\" data-start=\"1736\">reduce()</code> accept functions as arguments, allowing logic to be <strong data-end=\"1813\" data-start=\"1799\">abstracted</strong> and reused.</p>\n\t\t</li>\n\t\t<li data-end=\"1930\" data-start=\"1828\">\n\t\t<p data-end=\"1930\" data-start=\"1830\">They eliminate the need for verbose loops and make the code more <strong data-end=\"1929\" data-start=\"1895\">concise, modular, and readable</strong>.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p><br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"310\" data-start=\"153\">You are designing a data analysis tool that processes customer feedback scores stored in a list. The tool should perform the following tasks:</p>\n\n<ul data-end=\"461\" data-start=\"312\">\n\t<li data-end=\"369\" data-start=\"312\">\n\t<p data-end=\"369\" data-start=\"314\">Normalize the scores using a transformation function.</p>\n\t</li>\n\t<li data-end=\"410\" data-start=\"370\">\n\t<p data-end=\"410\" data-start=\"372\">Filter out scores below a threshold.</p>\n\t</li>\n\t<li data-end=\"461\" data-start=\"411\">\n\t<p data-end=\"461\" data-start=\"413\">Calculate the average of the remaining scores.</p>\n\t</li>\n</ul>\n\n<p data-end=\"576\" data-start=\"463\">Your team insists on writing the tool using a <strong data-end=\"534\" data-start=\"509\">pure functional style</strong> with <strong data-end=\"575\" data-start=\"540\">built-in higher-order functions</strong>.</p>\n\n<p data-end=\"589\" data-start=\"578\"><strong data-end=\"587\" data-start=\"578\">Task:</strong></p>\n\n<ol data-end=\"934\" data-start=\"590\">\n\t<li data-end=\"695\" data-start=\"590\">\n\t<p data-end=\"695\" data-start=\"593\"><strong data-end=\"603\" data-start=\"593\">Define</strong> a pure function. Explain why it is important for reusability and testability. <em data-end=\"693\" data-start=\"682\">(4 marks)</em></p>\n\t</li>\n\t<li data-end=\"814\" data-start=\"696\">\n\t<p data-end=\"814\" data-start=\"699\"><strong data-end=\"725\" data-start=\"699\">Write a Python program</strong> using <code data-end=\"739\" data-start=\"732\">map()</code>, <code data-end=\"751\" data-start=\"741\">filter()</code>, and <code data-end=\"767\" data-start=\"757\">reduce()</code> to implement the above scenario. <em data-end=\"812\" data-start=\"801\">(6 marks)</em></p>\n\t</li>\n\t<li data-end=\"934\" data-start=\"815\">\n\t<p data-end=\"934\" data-start=\"818\"><strong data-end=\"829\" data-start=\"818\">Explain</strong> how immutability and higher-order functions promote abstraction and reliability in the code. <em data-end=\"934\" data-start=\"923\">(5 marks)</em></p>\n\t</li>\n</ol>\n\n<hr data-end=\"939\" data-start=\"936\" />",
+   "SESSION_ID": 402,
+   "TYPE": "lq",
+   "key": 9832
+  }
+ ]
+}

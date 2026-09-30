@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36836,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Humans have unlimited physical needs</p>\n",
+   "OPT_2": "<p>Without it, the self remains in contradiction, leading to dissatisfaction and conflict</p>\n",
+   "OPT_3": "<p>It helps in accumulating more power</p>\n",
+   "OPT_4": "<p>It eliminates the need for society</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>The need for inner evolution arises because:</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 36836
+  },
+  {
+   "_id": 36837,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Clarity about one&rsquo;s desires and goals</p>\n",
+   "OPT_2": "<p>More confusion</p>\n",
+   "OPT_3": "<p>More dependency on others</p>\n",
+   "OPT_4": "<p>Ignorance of inner needs</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>The outcome of self-exploration is:</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 36837
+  },
+  {
+   "_id": 36838,
+   "ANSWER": 4,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Self-exploration</p>\n",
+   "OPT_2": "<p>Self-awareness</p>\n",
+   "OPT_3": "<p>Self-evaluation</p>\n",
+   "OPT_4": "<p>Blind competition</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT a process of inner evolution?</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 36838
+  },
+  {
+   "_id": 36839,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Helping identify contradictions in thoughts and actions</p>\n",
+   "OPT_2": "<p>Ignoring feelings</p>\n",
+   "OPT_3": "<p>Promoting blind imitation</p>\n",
+   "OPT_4": "<p>Suppressing inner needs</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Self-awareness contributes to harmony in the self by:</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 36839
+  },
+  {
+   "_id": 36840,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Growth of ego</p>\n",
+   "OPT_2": "<p>Consistency between desires, thoughts, and actions</p>\n",
+   "OPT_3": "<p>More external dependency</p>\n",
+   "OPT_4": "<p>Disharmony in relationships</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Continuous self-evaluation leads to:</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 36840
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36450,
+   "ANSWER": "<p>Self-awareness allows us to observe our mental activities, recognize our strengths and weaknesses, and align our behavior with values and goals.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>How does self-awareness support inner evolution?</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "sq",
+   "key": 36450
+  },
+  {
+   "_id": 36451,
+   "ANSWER": "<p>Self-evaluation helps us reflect on past decisions and actions, learn from mistakes, and make better choices in the future.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What role does self-evaluation play in the process?</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "sq",
+   "key": 36451
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122517,
+   "ANSWER": "<p>Holistic perception means seeing existence as a complete and interconnected reality. It includes the Self, Body, family, society, nature and space as part of one co-existence. When the Self is deluded, imagination is based on sensation and preconditioning. This leads to conflict, confusion and unhappiness. When the Self is awakened to right understanding, imagination is based on realisation, understanding and contemplation. Then the person begins to live with harmony in the Self, harmony with the Body, harmony in relationship, harmony in society and harmony with nature. Happiness is a feedback that we are understanding and living in harmony, while unhappiness is a feedback that harmony is missing at one or more levels. Therefore, holistic perception helps us move from animal consciousness to human consciousness and from personal transformation to societal transformation.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain holistic perception of harmony in existence.</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "lq",
+   "key": 122517
+  }
+ ]
+}

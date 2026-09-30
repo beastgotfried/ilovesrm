@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 9910,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Faster compilation of code</p>\n",
+   "OPT_2": "<p>Increased readabilityre</p>\n",
+   "OPT_3": "<p>Efficient use of CPU resources by running multiple tasks simultaneously</p>\n",
+   "OPT_4": "<p>&nbsp;Increased code security</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>In Java, which of the following best describes the key benefit of concurrent programming?<br data-end=\"391\" data-start=\"388\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 9910
+  },
+  {
+   "_id": 9911,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Threads share memory</p>\n",
+   "OPT_2": "<p>Threads run in the same process</p>\n",
+   "OPT_3": "<p>Each thread has its own stack</p>\n",
+   "OPT_4": "<p>Threads cannot be interrupted</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is <em data-end=\"737\" data-start=\"732\">NOT</em> a characteristic of multithreading in Java?<br data-end=\"784\" data-start=\"781\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 9911
+  },
+  {
+   "_id": 9912,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Tasks must be threads within a single process</p>\n",
+   "OPT_2": "<p>Each task must be in the same address space</p>\n",
+   "OPT_3": "<p>Tasks may run in different address spaces and can be either threads or processes</p>\n",
+   "OPT_4": "<p>Only one task is allowed in memory at a time</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>In a multitasking environment, which of the following statements is <strong data-end=\"1113\" data-start=\"1105\">true</strong>?<br data-end=\"1117\" data-start=\"1114\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 9912
+  },
+  {
+   "_id": 9913,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Processes share memory, threads do not</p>\n",
+   "OPT_2": "<p>Threads require more resources than processes</p>\n",
+   "OPT_3": "<p>Processes are independent, threads share memory and resources</p>\n",
+   "OPT_4": "<p>There is no difference</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What is the major difference between <strong data-end=\"2258\" data-start=\"2241\">process-based</strong> multitasking and <strong data-end=\"2292\" data-start=\"2276\">thread-based</strong> multitasking?<br data-end=\"2309\" data-start=\"2306\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 9913
+  },
+  {
+   "_id": 9914,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>No issues occur as threads run independently</p>\n",
+   "OPT_2": "<p>The JVM blocks the access automatically</p>\n",
+   "OPT_3": "<p>Data inconsistency or race condition may occur</p>\n",
+   "OPT_4": "<p>The thread is terminated</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What happens if two threads access a shared variable without synchronization?<br data-end=\"2692\" data-start=\"2689\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 9914
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9915,
+   "ANSWER": "<p>Concurrent programming enables multiple computations to run in overlapping time periods&mdash;either in parallel or interleaved. It&#39;s important in modern software to efficiently use multi-core processors, reduce response time, and enhance application performance.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Define concurrent programming and explain its importance in modern software development.</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "sq",
+   "key": 9915
+  },
+  {
+   "_id": 9916,
+   "ANSWER": "<ul>\n\t<li data-end=\"3650\" data-start=\"3543\">\n\t<p data-end=\"3650\" data-start=\"3545\"><strong data-end=\"3572\" data-start=\"3545\">Preemptive multitasking</strong> allows the OS to interrupt and switch between tasks (e.g., Windows, Linux).</p>\n\t</li>\n\t<li data-end=\"3810\" data-start=\"3651\">\n\t<p data-end=\"3810\" data-start=\"3653\"><strong data-end=\"3681\" data-start=\"3653\">Cooperative multitasking</strong> relies on the running task to yield control (e.g., early Mac OS).<br data-end=\"3750\" data-start=\"3747\" />\n\tJava uses preemptive scheduling via the OS thread scheduler.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Differentiate between preemptive and cooperative multitasking with examples.</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "sq",
+   "key": 9916
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9917,
+   "ANSWER": "<ul>\n\t<li data-end=\"5381\" data-start=\"5123\">\n\t<p data-end=\"5145\" data-start=\"5125\">Use <strong data-end=\"5142\" data-start=\"5129\">4 threads</strong>:</p>\n\n\t<ul data-end=\"5381\" data-start=\"5148\">\n\t\t<li data-end=\"5187\" data-start=\"5148\">\n\t\t<p data-end=\"5187\" data-start=\"5150\">InputThread for live response input</p>\n\t\t</li>\n\t\t<li data-end=\"5266\" data-start=\"5190\">\n\t\t<p data-end=\"5266\" data-start=\"5192\">AutoSaveThread using <code data-end=\"5222\" data-start=\"5213\">sleep()</code> and <code data-end=\"5243\" data-start=\"5227\">synchronized()</code> to save periodically</p>\n\t\t</li>\n\t\t<li data-end=\"5343\" data-start=\"5269\">\n\t\t<p data-end=\"5343\" data-start=\"5271\">MonitorThread for cheating detection (e.g., reading running processes)</p>\n\t\t</li>\n\t\t<li data-end=\"5381\" data-start=\"5346\">\n\t\t<p data-end=\"5381\" data-start=\"5348\">SubmitThread triggered by timer</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"5455\" data-start=\"5382\">\n\t<p data-end=\"5455\" data-start=\"5384\">Use <strong data-end=\"5417\" data-start=\"5388\">shared memory (variables)</strong> between threads to access responses</p>\n\t</li>\n\t<li data-end=\"5572\" data-start=\"5456\">\n\t<p data-end=\"5572\" data-start=\"5458\">Use <code data-end=\"5476\" data-start=\"5462\">synchronized</code> blocks or <code data-end=\"5502\" data-start=\"5487\">ReentrantLock</code> to ensure data is not corrupted between AutoSave and Submit threads</p>\n\t</li>\n\t<li data-end=\"5700\" data-start=\"5573\">\n\t<p data-end=\"5700\" data-start=\"5575\">Prefer multithreading over multitasking because threads are lightweight, share memory (no IPC needed), and faster to create</p>\n\t</li>\n\t<li data-end=\"5774\" data-start=\"5701\">\n\t<p data-end=\"5774\" data-start=\"5703\">Java&rsquo;s <strong data-end=\"5735\" data-start=\"5710\">Thread Pool Executors</strong> can manage these threads efficiently</p>\n\t</li>\n\t<li data-end=\"5869\" data-start=\"5775\">\n\t<p data-end=\"5869\" data-start=\"5777\">Possible use of <code data-end=\"5804\" data-start=\"5793\">TimerTask</code>, <code data-end=\"5823\" data-start=\"5806\">ExecutorService</code>, and shared data model with locking mechanism</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4621\" data-start=\"4498\">You&#39;re developing a Java-based online exam platform. The platform must handle simultaneous tasks such as:</p>\n\n<ol data-end=\"4793\" data-start=\"4622\">\n\t<li data-end=\"4651\" data-start=\"4622\">\n\t<p data-end=\"4651\" data-start=\"4625\">Accepting student inputs</p>\n\t</li>\n\t<li data-end=\"4696\" data-start=\"4652\">\n\t<p data-end=\"4696\" data-start=\"4655\">Auto-saving responses every few seconds</p>\n\t</li>\n\t<li data-end=\"4753\" data-start=\"4697\">\n\t<p data-end=\"4753\" data-start=\"4700\">Preventing cheating by monitoring external software</p>\n\t</li>\n\t<li data-end=\"4793\" data-start=\"4754\">\n\t<p data-end=\"4793\" data-start=\"4757\">Submitting answers at the end timeAs the lead developer&nbsp;&nbsp;&nbsp;Design a multithreading solution to this scenario. Explain how you would implement concurrency and distinguish why multithreading is preferred over multitasking in this use case. Also mention how data consistency is ensured during auto-save and submission.</p>\n\t</li>\n</ol>\n",
+   "SESSION_ID": 301,
+   "TYPE": "lq",
+   "key": 9917
+  }
+ ]
+}

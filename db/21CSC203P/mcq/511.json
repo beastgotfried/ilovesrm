@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11382,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File structure</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Network type</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A style or way of programming</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File format</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A programming paradigm is:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 11382
+  },
+  {
+   "_id": 11383,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File formats</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">OOP and functional programming</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">JSON and XML</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">TCP and UDP</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Paradigm examples include:</span></span></span></b><br />\n<br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 11383
+  },
+  {
+   "_id": 11384,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It sorts data</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It reads files</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It provides needed functionality</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It lists directories</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Library selection matters because:</span></span></span></b><br />\n<br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 11384
+  },
+  {
+   "_id": 11385,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File paths</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">String sorting</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Network type</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Project structure and logic</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Paradigm selection impacts:</span></span></span></b><br />\n&nbsp;</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 11385
+  },
+  {
+   "_id": 11386,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sorting arrays</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Listing files</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Easier debugging and updates</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Reading JSON</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Modularity helps in:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 11386
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11412,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> To apply a programming paradigm in solving a practical problem.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2477\" data-start=\"2375\"><strong data-end=\"2879\" data-start=\"2834\">What is the aim of a Python mini-project?</strong><br data-end=\"2882\" data-start=\"2879\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "sq",
+   "key": 11412
+  },
+  {
+   "_id": 11413,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> It helps in organizing code for easier maintenance and scalability.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2477\" data-start=\"2375\"><strong data-end=\"3002\" data-start=\"2953\">Why is modular design important in a project?</strong><br data-end=\"3005\" data-start=\"3002\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "sq",
+   "key": 11413
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11426,
+   "ANSWER": "<p data-end=\"7767\" data-start=\"7642\">Paradigm choice affects scalability, modularity, and code clarity. For example, in a Library Management System:</p>\n\n<ul data-end=\"7932\" data-start=\"7768\">\n\t<li data-end=\"7833\" data-start=\"7768\">\n\t<p data-end=\"7833\" data-start=\"7770\"><strong data-end=\"7777\" data-start=\"7770\">OOP</strong> helps in defining classes for Book, Member, Transaction</p>\n\t</li>\n\t<li data-end=\"7878\" data-start=\"7834\">\n\t<p data-end=\"7878\" data-start=\"7836\"><strong data-end=\"7852\" data-start=\"7836\">Event-driven</strong> supports UI interactivity</p>\n\t</li>\n\t<li data-end=\"7932\" data-start=\"7879\">\n\t<p data-end=\"7932\" data-start=\"7881\"><strong data-end=\"7895\" data-start=\"7881\">Procedural</strong> handles reports and batch operations</p>\n\t</li>\n</ul>\n\n<p data-end=\"7944\" data-start=\"7934\">Using OOP:</p>\n\n<p data-end=\"7944\" data-start=\"7934\">class Book:<br />\n&nbsp; &nbsp; def __init__(self, title, author):<br />\n&nbsp; &nbsp; &nbsp; &nbsp; self.title = title<br />\n&nbsp; &nbsp; &nbsp; &nbsp; self.author = author<br />\nParadigm selection depends on use-case complexity. Evaluating this ensures long-term maintainability and cleaner design.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Evaluate the importance of paradigm selection (procedural, OOP, event-driven) when planning a Python mini-project. Justify with a real-world scenario.</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "lq",
+   "key": 11426
+  }
+ ]
+}

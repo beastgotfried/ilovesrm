@@ -1,0 +1,196 @@
+{
+ "mcq": [
+  {
+   "_id": 49959,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Both the series expansion and the sum of certain series</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Only the series expansion</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Only the sum of series</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Neither</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">When combining half-range series and Parseval's identity, you can determine:</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 49959
+  },
+  {
+   "_id": 49960,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Approximate Fourier coefficients</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Exact Fourier coefficients</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">The analytic form of \\( f(x) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">The derivative of \\( f(x) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For numerical data, harmonic analysis provides:</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 49960
+  },
+  {
+   "_id": 49961,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">First few harmonics</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">All harmonics exactly</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Only the fundamental harmonic</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Only even harmonics</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">In practice, harmonic analysis is limited to finding:</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 49961
+  },
+  {
+   "_id": 49962,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Approximate energy/power</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Exact energy/power</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">The function values</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">The derivative values</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">When using Parseval's identity with experimentally obtained Fourier coefficients, you get:</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 49962
+  },
+  {
+   "_id": 49963,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Harmonic analysis followed by Parseval's identity</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Only harmonic analysis</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Only Parseval's identity</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Taylor series expansion</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">A complete Fourier analysis of empirical data involves:</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 49963
+  }
+ ],
+ "sq": [
+  {
+   "_id": 50062,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Half-range cosine for } x^2: a_0 = \\frac{2\\pi^2}{3}, a_n = \\frac{4}{n^2}(-1)^n\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Parseval: } \\frac{1}{\\pi}\\int_0^{\\pi} x^4 dx = \\frac{\\pi^4}{5} = \\frac{a_0^2}{4} + \\frac{1}{2}\\sum a_n^2\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{\\pi^4}{9} + \\frac{1}{2}\\sum_{n=1}^{\\infty} \\frac{16}{n^4}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Solve: } \\frac{\\pi^4}{5} - \\frac{\\pi^4}{9} = 8\\sum \\frac{1}{n^4} \\Rightarrow \\sum \\frac{1}{n^4} = \\frac{\\pi^4}{90}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Parseval for } f(x)=x^2 \\text{ half-range cosine series in } (0,\\pi), \\text{ verify } \\sum_{n=1}^{\\infty} \\frac{1}{n^4}.\\)</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 50062
+  },
+  {
+   "_id": 50063,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{For m=6: } a_0 = \\frac{2}{6} \\times 8.7 = 2.9\\)</span></p></td><td>(4 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_1 = \\frac{2}{6} \\times (-1.1) = -0.3667 \\approx -0.367\\)</span></p></td><td>(4 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{From harmonic analysis table, if } \\sum y_i = 8.7, \\sum y_i \\cos x_i = -1.1, \\text{ find } a_0, a_1.\\)</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 50063
+  },
+  {
+   "_id": 50064,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Uses numerical integration (trapezoidal rule) instead of exact integrals}\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Approximation error depends on number of data points}\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{More points give better approximation to integrals}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Explain why harmonic analysis gives approximate Fourier coefficients.}\\)</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 50064
+  },
+  {
+   "_id": 50065,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Parseval for sine series: } \\frac{1}{\\pi}\\int_0^{\\pi} [f(x)]^2 dx = \\frac{1}{2}\\sum b_n^2\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{2}\\sum_{n=1}^{\\infty} \\frac{4}{n^2} = 2\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = 2 \\cdot \\frac{\\pi^2}{6} = \\frac{\\pi^2}{3}\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus RMS} = \\sqrt{\\frac{\\pi^2}{3}} = \\frac{\\pi}{\\sqrt{3}}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given half-range sine series } f(x) = \\sum b_n \\sin nx \\text{ with } b_n = \\frac{2}{n}, \\text{ find RMS value.}\\)</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 50065
+  },
+  {
+   "_id": 50066,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Fourier series represents periodic functions as sum of harmonics}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Half-range series for functions defined on half interval using symmetry}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Parseval relates function energy to sum of squared coefficients}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Harmonic analysis computes coefficients numerically from data}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Summarize key relationships between Fourier series, half-range series, Parseval, harmonic analysis.}\\)</span></p>",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 50066
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50089,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Period 4 \u21d2 \\(l=2\\)</td><td>(1)</td></tr><tr><td>\\(a_0=\\frac{1}{2}\\int_{-2}^2 f(x)dx=\\frac{1}{2}\\left[\\int_{-2}^0 2\\,dx+\\int_0^2 x\\,dx\\right]=\\frac{3}{2}\\)</td><td>(3)</td></tr><tr><td>\\(a_n=\\frac{1}{2}\\int_{-2}^2 f(x)\\cos\\frac{n\\pi x}{2}dx=\\frac{1}{2}\\left[2\\int_{-2}^0 \\cos\\frac{n\\pi x}{2}dx+\\int_0^2 x\\cos\\frac{n\\pi x}{2}dx\\right]=-\\frac{4}{n^2\\pi^2}[1-(-1)^n]\\)</td><td>(4)</td></tr><tr><td>\\(b_n=\\frac{1}{2}\\int_{-2}^2 f(x)\\sin\\frac{n\\pi x}{2}dx=\\frac{1}{2}\\left[2\\int_{-2}^0 \\sin\\frac{n\\pi x}{2}dx+\\int_0^2 x\\sin\\frac{n\\pi x}{2}dx\\right]=-\\frac{2}{n\\pi}[1+2(-1)^n]\\)</td><td>(4)</td></tr><tr><td>Thus, \\(f(x)=\\frac{3}{4}-\\frac{4}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1-(-1)^n}{n^2}\\cos\\frac{n\\pi x}{2}-\\frac{2}{\\pi}\\sum_{n=1}^{\\infty}\\frac{1+2(-1)^n}{n}\\sin\\frac{n\\pi x}{2}\\)</td><td>(2)</td></tr><tr><td>Put \\(x=1\\) for (i) and \\(x=0\\) for (ii)</td><td>(1)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=\\begin{cases} 2, & -2<x<0 \\\\ x, & 0<x<2 \\end{cases}\\) of period 4. Hence, deduce (i) \\(1-\\frac{1}{3}+\\frac{1}{5}-...=\\frac{\\pi}{4}\\) (ii) \\(\\frac{1}{1^2}+\\frac{1}{3^2}+\\frac{1}{5^2}+...=\\frac{\\pi^2}{8}\\).</p>",
+   "SESSION_ID": 212,
+   "TYPE": "lq",
+   "key": 50089
+  },
+  {
+   "_id": 50090,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Sine series: \\(f(x)=\\sum_{n=1}^{\\infty}b_n\\sin nx\\)</td><td>(1)</td></tr><tr><td>\\(b_n=\\frac{2}{\\pi}\\int_0^{\\pi}f(x)\\sin nx\\,dx=\\frac{2}{\\pi}\\int_0^{\\pi/2}x\\sin nx\\,dx\\)</td><td>(2)</td></tr><tr><td>Compute: \\(b_n=\\frac{2}{\\pi}\\left[-\\frac{x\\cos nx}{n}+\\frac{\\sin nx}{n^2}\\right]_0^{\\pi/2}=\\frac{2}{\\pi}\\left[-\\frac{\\pi}{2n}\\cos\\frac{n\\pi}{2}+\\frac{1}{n^2}\\sin\\frac{n\\pi}{2}\\right]\\)</td><td>(5)</td></tr><tr><td>Thus, \\(f(x)=\\frac{2}{\\pi}\\sum_{n=1}^{\\infty}\\left[-\\frac{\\pi}{2n}\\cos\\frac{n\\pi}{2}+\\frac{1}{n^2}\\sin\\frac{n\\pi}{2}\\right]\\sin nx\\)</td><td>(3)</td></tr><tr><td>Put \\(x=\\frac{\\pi}{2}\\): \\(\\frac{\\pi}{2}=\\frac{2}{\\pi}\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\sin^2\\frac{n\\pi}{2}\\) \u21d2 \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\sin\\frac{n\\pi}{2}=\\frac{\\pi^2}{4}\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the half-range sine series for \\(f(x)=\\begin{cases} x, & 0<x<\\frac{\\pi}{2} \\\\ 0, & \\frac{\\pi}{2}<x<\\pi \\end{cases}\\). Hence, compute the sum of the series \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\sin\\frac{n\\pi}{2}\\).</p>",
+   "SESSION_ID": 212,
+   "TYPE": "lq",
+   "key": 50090
+  }
+ ]
+}

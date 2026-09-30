@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9617,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Procedural</p>\n",
+   "OPT_2": "<p>B) Imperative</p>\n",
+   "OPT_3": "<p>C) Declarative</p>\n",
+   "OPT_4": "<p>D) Object-oriented</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"243\" data-start=\"182\"><strong data-end=\"243\" data-start=\"186\">What is the primary paradigm of logic programming?</strong></h3>\n\n<p data-end=\"314\" data-start=\"245\"><br data-end=\"261\" data-start=\"258\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 9617
+  },
+  {
+   "_id": 9618,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"461\" data-start=\"421\">father(X, Y) :- parent(X, Y), male(X).</code></p>\n",
+   "OPT_2": "<p>B) <code data-end=\"491\" data-start=\"467\">?- father(john, mary).</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"569\" data-start=\"524\">if X is the father of Y then X is a parent.</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"518\" data-start=\"497\">father(john, mary).</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"416\" data-start=\"351\"><strong data-end=\"416\" data-start=\"355\">In Prolog, which of the following represents a <em data-end=\"413\" data-start=\"407\">fact</em>?</strong></h3>\n\n<p data-end=\"571\" data-start=\"418\"><br data-end=\"464\" data-start=\"461\" />\n<br data-end=\"494\" data-start=\"491\" />\n&nbsp;</p>\n\n<p data-end=\"314\" data-start=\"245\"><br data-end=\"261\" data-start=\"258\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 9618
+  },
+  {
+   "_id": 9619,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) To define a data type</p>\n",
+   "OPT_2": "<p>B) To match exact strings only</p>\n",
+   "OPT_3": "<p>C) To express logical relationships based on conditions</p>\n",
+   "OPT_4": "<p>D) To store user inputs</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"671\" data-start=\"618\"><strong data-end=\"671\" data-start=\"622\">3. What is the purpose of a <em data-end=\"658\" data-start=\"652\">rule</em> in Prolog?</strong></h3>\n\n<p data-end=\"816\" data-start=\"673\"><br data-end=\"700\" data-start=\"697\" />\n<br data-end=\"733\" data-start=\"730\" />\n&nbsp;</p>\n\n<p data-end=\"571\" data-start=\"418\"><br data-end=\"464\" data-start=\"461\" />\n<br data-end=\"494\" data-start=\"491\" />\n&nbsp;</p>\n\n<p data-end=\"314\" data-start=\"245\"><br data-end=\"261\" data-start=\"258\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 9619
+  },
+  {
+   "_id": 9620,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It checks if <code data-end=\"1009\" data-start=\"1003\">john</code> is a variable</p>\n",
+   "OPT_2": "<p>B) It declares a new fact</p>\n",
+   "OPT_3": "<p>C) It finds all <code data-end=\"1073\" data-start=\"1070\">X</code> such that <code data-end=\"1090\" data-start=\"1084\">john</code> is the father of <code data-end=\"1111\" data-start=\"1108\">X</code></p>\n",
+   "OPT_4": "<p>D) It causes a syntax error</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"953\" data-start=\"894\"><strong data-end=\"953\" data-start=\"898\">4. What would the following query return in Prolog?</strong></h3>\n\n<pre data-end=\"985\" data-start=\"955\">\nprolog</pre>\n\n<p><code>father(john, X). </code></p>\n\n<p data-end=\"1143\" data-start=\"987\"><br data-end=\"1026\" data-start=\"1023\" />\n<br data-end=\"1054\" data-start=\"1051\" />\n<br data-end=\"1114\" data-start=\"1111\" />\nD) It causes a syntax error<br data-end=\"261\" data-start=\"258\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 9620
+  },
+  {
+   "_id": 9621,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It allows direct memory access</p>\n",
+   "OPT_2": "<p>B) It uses loops and mutable variables</p>\n",
+   "OPT_3": "<p>C)&nbsp;It stores data as arrays</p>\n",
+   "OPT_4": "<p>D) It models problems with logical relationships and uses unification to match patterns</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1316\" data-start=\"1223\"><strong data-end=\"1316\" data-start=\"1227\">5. What makes logic programming suitable for symbolic reasoning and pattern matching?</strong></h3>\n\n<p data-end=\"1514\" data-start=\"1318\"><br data-end=\"1354\" data-start=\"1351\" />\n<br data-end=\"1395\" data-start=\"1392\" />\n<br data-end=\"1485\" data-start=\"1482\" />\nD) It stores data as arrays</p>\n\n<p data-end=\"1143\" data-start=\"987\">&nbsp;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 9621
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9848,
+   "ANSWER": "<p data-end=\"2361\" data-start=\"2095\"><br data-end=\"2493\" data-start=\"2490\" />\nIn Prolog, siblings can be defined using a rule like:<br data-end=\"2549\" data-start=\"2546\" />\n<code data-end=\"2603\" data-start=\"2549\">sibling(X, Y) :- parent(Z, X), parent(Z, Y), X \\= Y.</code><br data-end=\"2606\" data-start=\"2603\" />\nThis captures the logic declaratively and allows for easy querying</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2361\" data-start=\"2095\">A family tree app needs to find all siblings. How would logic programming model this?<br data-end=\"2484\" data-start=\"2481\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 9848
+  },
+  {
+   "_id": 9849,
+   "ANSWER": "<p data-end=\"2361\" data-start=\"2095\"><br data-end=\"2757\" data-start=\"2754\" />\nProlog queries search a knowledge base of facts and rules to find matches.<br data-end=\"2834\" data-start=\"2831\" />\nThey don&#39;t explicitly invoke functions like in Python but explore logical possibilities.<br data-end=\"2925\" data-start=\"2922\" />\nThis enables symbolic reasoning and backtracking for multiple solutions.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2361\" data-start=\"2095\">How do queries in Prolog differ from function calls in Python?<br data-end=\"2748\" data-start=\"2745\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 9849
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9834,
+   "ANSWER": "<h3 data-end=\"168\" data-start=\"118\"><strong data-end=\"168\" data-start=\"122\">1. Definition and Key Constructs (5 marks)</strong></h3>\n\n<p data-end=\"399\" data-start=\"170\"><strong data-end=\"191\" data-start=\"170\">Logic programming</strong> is a <strong data-end=\"233\" data-start=\"197\">declarative programming paradigm</strong> where programs are expressed in terms of <strong data-end=\"284\" data-start=\"275\">facts</strong> and <strong data-end=\"298\" data-start=\"289\">rules</strong>, and computation is performed through <strong data-end=\"348\" data-start=\"337\">queries</strong> using <strong data-end=\"398\" data-start=\"355\">pattern matching and symbolic reasoning</strong>.</p>\n\n<p data-end=\"420\" data-start=\"401\"><strong data-end=\"420\" data-start=\"401\">Key Constructs:</strong></p>\n\n<ul data-end=\"713\" data-start=\"421\">\n\t<li data-end=\"492\" data-start=\"421\">\n\t<p data-end=\"492\" data-start=\"423\"><strong data-end=\"432\" data-start=\"423\">Facts</strong>: Declare known information.<br data-end=\"463\" data-start=\"460\" />\n\t<em data-end=\"474\" data-start=\"465\">Example</em>: <code data-end=\"492\" data-start=\"476\">student(john).</code></p>\n\t</li>\n\t<li data-end=\"610\" data-start=\"493\">\n\t<p data-end=\"610\" data-start=\"495\"><strong data-end=\"504\" data-start=\"495\">Rules</strong>: Define logical relationships using existing facts.<br data-end=\"559\" data-start=\"556\" />\n\t<em data-end=\"570\" data-start=\"561\">Example</em>: <code data-end=\"610\" data-start=\"572\">eligible(X) :- cgpa(X, C), C &gt;= 7.0.</code></p>\n\t</li>\n\t<li data-end=\"713\" data-start=\"611\">\n\t<p data-end=\"713\" data-start=\"613\"><strong data-end=\"624\" data-start=\"613\">Queries</strong>: Questions posed to the system to infer information.<br data-end=\"680\" data-start=\"677\" />\n\t<em data-end=\"691\" data-start=\"682\">Example</em>: <code data-end=\"713\" data-start=\"693\">?- eligible(john).</code></p>\n\t</li>\n</ul>\n\n<p data-end=\"713\" data-start=\"613\"><strong data-end=\"768\" data-start=\"724\">2. Prolog Program with Queries (6 marks)</strong></p>\n\n<pre data-end=\"1245\" data-start=\"770\">\n% Facts\nstudent(john).\nstudent(riya).\nstudent(kiran).\n\ncgpa(john, 7.5).\ncgpa(riya, 6.2).\ncgpa(kiran, 8.1).\n\narrears(john, 0).\narrears(riya, 2).\narrears(kiran, 1).\n\ncertified(john, yes).\ncertified(riya, no).\ncertified(kiran, yes).\n\n% Rule for placement eligibility\neligible(X) :-\n&nbsp; &nbsp; cgpa(X, C), C &gt;= 7.0,\n&nbsp; &nbsp; arrears(X, A), A =&lt; 1,\n&nbsp; &nbsp; certified(X, yes).\n\n% Sample Queries\n?- eligible(john). &nbsp; &nbsp; &nbsp;% Yes\n?- eligible(riya). &nbsp; &nbsp; &nbsp;% No\n?- eligible(kiran). &nbsp; &nbsp; % Yes\n\n</pre>\n\n<h3 data-end=\"1305\" data-start=\"1252\"><strong data-end=\"1305\" data-start=\"1256\">3. Benefits of Declarative Modeling (4 marks)</strong></h3>\n\n<ul data-end=\"1649\" data-start=\"1307\">\n\t<li data-end=\"1395\" data-start=\"1307\">\n\t<p data-end=\"1395\" data-start=\"1309\">Logic programming allows focusing on <strong data-end=\"1354\" data-start=\"1346\">what</strong> the problem is, not <strong data-end=\"1382\" data-start=\"1375\">how</strong> to solve it.</p>\n\t</li>\n\t<li data-end=\"1456\" data-start=\"1396\">\n\t<p data-end=\"1456\" data-start=\"1398\">Rules and facts are <strong data-end=\"1436\" data-start=\"1418\">human-readable</strong> and easy to update.</p>\n\t</li>\n\t<li data-end=\"1558\" data-start=\"1457\">\n\t<p data-end=\"1558\" data-start=\"1459\">Promotes <strong data-end=\"1488\" data-start=\"1468\">pattern matching</strong> and <strong data-end=\"1515\" data-start=\"1493\">symbolic reasoning</strong>, useful in AI and knowledge-based systems.</p>\n\t</li>\n\t<li data-end=\"1649\" data-start=\"1559\">\n\t<p data-end=\"1649\" data-start=\"1561\">Changes in conditions (e.g., CGPA threshold) can be made without rewriting program flow.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"492\" data-start=\"153\"><strong data-end=\"166\" data-start=\"153\">Scenario:</strong><br data-end=\"169\" data-start=\"166\" />\nYou are developing a knowledge-based system for a college to determine student eligibility for placement based on multiple rules, such as CGPA, number of arrears, and soft skills certification. Instead of writing imperative code, your mentor suggests using a <strong data-end=\"458\" data-start=\"428\">logic programming approach</strong> for better clarity and reasoning.</p>\n\n<p data-end=\"503\" data-start=\"494\"><strong data-end=\"503\" data-start=\"494\">Task:</strong></p>\n\n<ol data-end=\"908\" data-start=\"505\">\n\t<li data-end=\"615\" data-start=\"505\">\n\t<p data-end=\"615\" data-start=\"508\"><strong data-end=\"518\" data-start=\"508\">Define</strong> logic programming. List and explain its key constructs: facts, rules, and queries. <em data-end=\"613\" data-start=\"602\">(5 marks)</em></p>\n\t</li>\n\t<li data-end=\"752\" data-start=\"616\">\n\t<p data-end=\"752\" data-start=\"619\"><strong data-end=\"645\" data-start=\"619\">Write a Prolog program</strong> that models facts about students and rules to determine eligibility. Include sample queries. <em data-end=\"750\" data-start=\"739\">(6 marks)</em></p>\n\t</li>\n\t<li data-end=\"908\" data-start=\"753\">\n\t<p data-end=\"908\" data-start=\"756\"><strong data-end=\"767\" data-start=\"756\">Explain</strong> how declarative modeling using logic rules improves understanding, maintainability, and pattern-based reasoning in such systems. <em data-end=\"908\" data-start=\"897\">(4 marks)</em></p>\n\t</li>\n</ol>\n\n<hr data-end=\"939\" data-start=\"936\" />",
+   "SESSION_ID": 404,
+   "TYPE": "lq",
+   "key": 9834
+  }
+ ]
+}

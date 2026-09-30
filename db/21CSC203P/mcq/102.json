@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9294,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) To make code run faster<br data-end=\"502\" data-start=\"499\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) To simplify and organize code<br data-end=\"537\" data-start=\"534\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) To use more memory<br data-end=\"561\" data-start=\"558\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) To hide errors in code</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the main goal of structured programming?</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 9294
+  },
+  {
+   "_id": 9295,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Sequence<br data-end=\"787\" data-start=\"784\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Selection<br data-end=\"802\" data-start=\"799\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Loop<br data-end=\"812\" data-start=\"809\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Inheritance</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"740\" data-start=\"609\">Which of the following is NOT a basic structure in structured programming (according to the structured programming theorem)?</strong><br data-end=\"743\" data-start=\"740\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 9295
+  },
+  {
+   "_id": 9296,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Class, Object, and Method<br data-end=\"1021\" data-start=\"1018\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Sequence, Selection, and Iteration<br data-end=\"1061\" data-start=\"1058\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Loop, Function, and Recursion<br data-end=\"1096\" data-start=\"1093\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Variables, Constants, and Arrays<br data-end=\"1134\" data-start=\"1131\" />\n&nbsp;</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"957\" data-start=\"849\">The structured programming theorem states that any program can be built using which three constructs?</strong><br data-end=\"960\" data-start=\"957\" />\n<br data-end=\"990\" data-start=\"987\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 9296
+  },
+  {
+   "_id": 9297,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OPT_1": "<p>a) Only an object-oriented language<br data-end=\"1276\" data-start=\"1273\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Only a functional language<br data-end=\"1308\" data-start=\"1305\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) A multi-paradigm language<br data-end=\"1339\" data-start=\"1336\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) A database language</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best categorizes Python?<br data-end=\"960\" data-start=\"957\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 9297
+  },
+  {
+   "_id": 9298,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) Imperative paradigm<br data-end=\"1518\" data-start=\"1515\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Functional paradigm<br data-end=\"1543\" data-start=\"1540\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Logic paradigm<br data-end=\"1563\" data-start=\"1560\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Procedural paradigm<br data-end=\"1588\" data-start=\"1585\" />\n&nbsp;</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1458\" data-start=\"1384\">Which paradigm uses facts and rules to drive logic-based reasoning?</strong><br data-end=\"1461\" data-start=\"1458\" />\n<br data-end=\"1493\" data-start=\"1490\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 9298
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9351,
+   "ANSWER": "<p><strong data-end=\"1167\" data-start=\"1147\">procedural logic</strong>&nbsp;is used for utility functions, <strong data-end=\"1214\" data-start=\"1191\">OOP for data models</strong>, and <strong data-end=\"1246\" data-start=\"1220\">functional programming</strong> for data transformations. This reflects increasing abstraction from low to high level.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A language claims to support procedural, object-oriented, and functional paradigms. How would you structure an app to reflect this hierarchy?<br data-end=\"1127\" data-start=\"1124\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "sq",
+   "key": 9351
+  },
+  {
+   "_id": 9352,
+   "ANSWER": "<p>Both are declarative. <strong data-end=\"1523\" data-start=\"1502\">Logic programming</strong> focuses on rules and inference (e.g., Prolog), while <strong data-end=\"1603\" data-start=\"1577\">functional programming</strong> emphasizes mathematical function application and purity (e.g., Haskell).</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>You are teaching a mixed-paradigm language. How would you explain the relationship between logic and functional paradigms?</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "sq",
+   "key": 9352
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9374,
+   "ANSWER": "<ol data-end=\"2645\" data-start=\"1511\">\n\t<li data-end=\"1941\" data-start=\"1511\">\n\t<p data-end=\"1568\" data-start=\"1514\"><strong data-end=\"1568\" data-start=\"1514\">Hierarchical Organization with Examples (6 marks):</strong></p>\n\n\t<ul data-end=\"1941\" data-start=\"1572\">\n\t\t<li data-end=\"1676\" data-start=\"1572\">\n\t\t<p data-end=\"1676\" data-start=\"1574\"><strong data-end=\"1594\" data-start=\"1574\">Procedural Layer</strong>: Handles foundational logic like input/output, validation, and utility functions.</p>\n\t\t</li>\n\t\t<li data-end=\"1810\" data-start=\"1680\">\n\t\t<p data-end=\"1810\" data-start=\"1682\"><strong data-end=\"1707\" data-start=\"1682\">Object-Oriented Layer</strong>: Manages core domain entities like <code data-end=\"1753\" data-start=\"1743\">Customer</code>, <code data-end=\"1762\" data-start=\"1755\">Order</code>, <code data-end=\"1775\" data-start=\"1764\">Inventory</code>, encapsulating state and behavior.</p>\n\t\t</li>\n\t\t<li data-end=\"1941\" data-start=\"1814\">\n\t\t<p data-end=\"1941\" data-start=\"1816\"><strong data-end=\"1837\" data-start=\"1816\">Declarative Layer</strong>: Encodes business rules using logic programming or SQL for dynamic compliance checks and data querying.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2302\" data-start=\"1943\">\n\t<p data-end=\"1980\" data-start=\"1946\"><strong data-end=\"1980\" data-start=\"1946\">Paradigm Comparison (5 marks):</strong></p>\n\n\t<ul data-end=\"2302\" data-start=\"1984\">\n\t\t<li data-end=\"2111\" data-start=\"1984\">\n\t\t<p data-end=\"2111\" data-start=\"1986\"><strong data-end=\"2005\" data-start=\"1986\">Object-Oriented</strong>: Ideal for structuring domain logic, supporting encapsulation, modularity, and code reuse across clients.</p>\n\t\t</li>\n\t\t<li data-end=\"2236\" data-start=\"2115\">\n\t\t<p data-end=\"2236\" data-start=\"2117\"><strong data-end=\"2132\" data-start=\"2117\">Declarative</strong>: Enables dynamic rule evaluation (e.g., health policy enforcement) and simplifies complex data queries.</p>\n\t\t</li>\n\t\t<li data-end=\"2302\" data-start=\"2240\">\n\t\t<p data-end=\"2302\" data-start=\"2242\">Discussion of how they complement each other enhances score.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2645\" data-start=\"2304\">\n\t<p data-end=\"2357\" data-start=\"2307\"><strong data-end=\"2357\" data-start=\"2307\">Evaluation of Hierarchical Approach (4 marks):</strong></p>\n\n\t<ul data-end=\"2645\" data-start=\"2361\">\n\t\t<li data-end=\"2504\" data-start=\"2361\">\n\t\t<p data-end=\"2504\" data-start=\"2363\"><strong data-end=\"2375\" data-start=\"2363\">Benefits</strong>: Encourages separation of concerns, improves maintainability, supports specialization, and leverages strengths of each paradigm.</p>\n\t\t</li>\n\t\t<li data-end=\"2645\" data-start=\"2508\">\n\t\t<p data-end=\"2645\" data-start=\"2510\"><strong data-end=\"2525\" data-start=\"2510\">Limitations</strong>: Higher architectural complexity, increased onboarding time, potential performance overhead due to paradigm mismatches.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"508\" data-start=\"295\">A technology startup is building a modular software platform intended to serve diverse clients, including e-commerce, education, and healthcare sectors. The architecture must support the following:</p>\n\n<ul data-end=\"729\" data-start=\"510\">\n\t<li data-end=\"557\" data-start=\"510\">\n\t<p data-end=\"557\" data-start=\"512\">Plug-in modules for business-specific logic</p>\n\t</li>\n\t<li data-end=\"594\" data-start=\"558\">\n\t<p data-end=\"594\" data-start=\"560\">Real-time transaction processing</p>\n\t</li>\n\t<li data-end=\"686\" data-start=\"595\">\n\t<p data-end=\"686\" data-start=\"597\">Integration with rule-based compliance systems (e.g., health standards or tax policies)</p>\n\t</li>\n\t<li data-end=\"729\" data-start=\"687\">\n\t<p data-end=\"729\" data-start=\"689\">Scalable data transformation pipelines</p>\n\t</li>\n</ul>\n\n<p data-end=\"940\" data-start=\"731\">The CTO proposes organizing the system using a hierarchy of paradigms, starting from procedural constructs, layered with object-oriented abstractions, and optionally integrating declarative logic where needed.</p>\n\n<p data-end=\"1005\" data-start=\"942\"><strong data-end=\"951\" data-start=\"942\">Task:</strong><br data-end=\"954\" data-start=\"951\" />\nAnalyze this proposal and respond to the following:</p>\n\n<ol data-end=\"1471\" data-start=\"1007\">\n\t<li data-end=\"1198\" data-start=\"1007\">\n\t<p data-end=\"1198\" data-start=\"1010\">Illustrate how programming paradigms can be organized hierarchically in a modern software architecture. Provide examples of how each level would be applied in the above system. (6 marks)</p>\n\t</li>\n\t<li data-end=\"1336\" data-start=\"1199\">\n\t<p data-end=\"1336\" data-start=\"1202\">Compare the roles of object-oriented and declarative paradigms in meeting the domain-specific requirements of this system. (5 marks)</p>\n\t</li>\n\t<li data-end=\"1471\" data-start=\"1337\">\n\t<p data-end=\"1471\" data-start=\"1340\">Critically evaluate the benefits and limitations of combining paradigms hierarchically in large-scale enterprise systems. (4 marks)</p>\n\t</li>\n</ol>\n",
+   "SESSION_ID": 102,
+   "TYPE": "lq",
+   "key": 9374
+  }
+ ]
+}

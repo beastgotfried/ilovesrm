@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 31944,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Stored in memory</p>\n",
+   "OPT_2": "<p>Present in a register</p>\n",
+   "OPT_3": "<p>Specified directly in the instruction</p>\n",
+   "OPT_4": "<p>Obtained from the stack</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"300\" data-start=\"271\">Immediate Addressing Mode</strong>, the operand is:</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 31944
+  },
+  {
+   "_id": 31945,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A memory address specified in the instruction</p>\n",
+   "OPT_2": "<p>Found in a CPU register</p>\n",
+   "OPT_3": "<p>Always on the stack</p>\n",
+   "OPT_4": "<p>Indirectly accessed using pointers</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"796\" data-start=\"768\">Register Addressing Mode</strong>, the operand is:</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 31945
+  },
+  {
+   "_id": 31947,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Immediate</p>\n",
+   "OPT_2": "<p>Direct</p>\n",
+   "OPT_3": "<p>Register Indirect</p>\n",
+   "OPT_4": "<p>Indexed</p>\n",
+   "OUTCOMES": [
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Which addressing mode uses a register to hold the <strong data-end=\"1127\" data-start=\"1101\">address of the operand</strong> rather than the operand itself?<br data-end=\"1162\" data-start=\"1159\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 31947
+  },
+  {
+   "_id": 31948,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Base address + offset stored in memory</p>\n",
+   "OPT_2": "<p>Program Counter (PC) + displacement</p>\n",
+   "OPT_3": "<p>Register value + immediate value</p>\n",
+   "OPT_4": "<p>Direct memory location</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"1556\" data-start=\"1528\">Relative Addressing Mode</strong>, the effective address is calculated as:<br data-end=\"1600\" data-start=\"1597\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 31948
+  },
+  {
+   "_id": 31950,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Direct Addressing</p>\n",
+   "OPT_2": "<p>Register Addressing</p>\n",
+   "OPT_3": "<p>Indexed Addressing</p>\n",
+   "OPT_4": "<p>Stack Addressing</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which addressing mode minimizes instruction size and execution time?<br data-end=\"2460\" data-start=\"2457\" />\na)<br data-end=\"2483\" data-start=\"2480\" />\nb)<br data-end=\"2508\" data-start=\"2505\" />\nc)<br data-end=\"2532\" data-start=\"2529\" />\nd)</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 31950
+  }
+ ],
+ "sq": [
+  {
+   "_id": 31985,
+   "ANSWER": "<p data-end=\"478\" data-start=\"453\">Instruction sequencing is the process by which the CPU ensures that program instructions are executed in the correct logical order, usually controlled by the <strong data-end=\"442\" data-start=\"418\">Program Counter (PC)</strong>.</p>\n\n<p data-end=\"960\" data-start=\"890\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"252\" data-start=\"207\"><strong data-end=\"250\" data-start=\"211\">What is instruction sequencing?</strong></h3>\n\n<p data-end=\"445\" data-start=\"253\">&nbsp;</p>\n\n<p data-end=\"449\" data-start=\"436\">&nbsp;</p>\n\n<p data-end=\"367\" data-start=\"220\">&nbsp;</p>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "sq",
+   "key": 31985
+  },
+  {
+   "_id": 31986,
+   "ANSWER": "<p data-end=\"478\" data-start=\"453\">The <strong data-end=\"557\" data-start=\"536\">Control Unit (CU)</strong>, with the help of the <strong data-end=\"604\" data-start=\"580\">Program Counter (PC)</strong>, manages instruction sequencing.</p>\n\n<p data-end=\"960\" data-start=\"890\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"524\" data-start=\"452\"><strong data-end=\"522\" data-start=\"456\">Which component is responsible for instruction sequencing?</strong></h3>\n\n<p data-end=\"639\" data-start=\"525\">&nbsp;</p>\n\n<p data-end=\"445\" data-start=\"253\">&nbsp;</p>\n\n<p data-end=\"449\" data-start=\"436\">&nbsp;</p>\n\n<p data-end=\"367\" data-start=\"220\">&nbsp;</p>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "sq",
+   "key": 31986
+  }
+ ],
+ "lq": [
+  {
+   "_id": 32001,
+   "ANSWER": "<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. Meaning of Instruction Sequencing</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction sequencing refers to the process by which the control unit of the CPU ensures that program instructions are fetched and executed in the correct order.</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Normally, instructions are executed sequentially as stored in memory.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The sequencing is controlled by the Program Counter (PC), which always points to the address of the next instruction to be executed.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>After fetching an instruction, the PC is incremented automatically (or updated in case of a branch/jump instruction).</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. Basic Flow of Instruction Sequencing</b></span></span></span></p>\n\n<ol>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Fetch: CPU fetches the instruction from the address stored in the PC.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Decode: The instruction is decoded to determine the operation and operands.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Execute: CPU executes the instruction.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Update PC: PC is incremented to the next instruction (or updated if a branch/loop is encountered).</b></span></span></span></span></li>\n</ol>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. Sequential Execution Example</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Consider the following program segment:</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. LOAD R1, 1000H</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. ADD&nbsp; R1, R2</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. STORE R1, 2000H</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Initially, PC = address of instruction 1.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>After LOAD, PC increments to instruction 2.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>After ADD, PC increments to instruction 3.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>After STORE, PC points to the next instruction.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Here, the PC ensures linear sequencing of instructions.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>4. Branching Example</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Now consider:</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. LOAD R1, 1000H</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. CMP&nbsp; R1, R2</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. BEQ&nbsp; 50</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>4. SUB&nbsp; R1, R3</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>5. STORE R1, 2000H</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>BEQ 50 is a conditional branch instruction.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>If R1 = R2, PC will be updated to address 50 (jumping execution).</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Otherwise, execution continues sequentially with instruction 4.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>This shows how branch instructions alter instruction sequencing.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>5. Instruction Sequencing in Loops</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example of a simple loop:</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. LOAD R1, #10</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. LOOP: DEC R1</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. JNZ LOOP</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>4. HALT</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>PC executes sequentially for LOAD and DEC.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>JNZ LOOP checks if R1 &ne; 0 &rarr; if true, PC jumps back to label LOOP.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Loop continues until R1 = 0, then PC moves to HALT.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Loops demonstrate non-linear sequencing controlled by the PC.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>6. Importance of Instruction Sequencing</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Ensures correct program flow.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Allows for branching, looping, and decision-making in programs.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Enables pipelining and parallelism in modern processors by predicting instruction sequences.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Explain Instruction Sequencing in computer architecture with simple examples.</b></span></span></span></p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "lq",
+   "key": 32001
+  }
+ ]
+}

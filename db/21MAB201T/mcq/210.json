@@ -1,0 +1,218 @@
+{
+ "mcq": [
+  {
+   "_id": 49087,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Complex Analysis</p>\n",
+   "OPT_2": "<p>Numerical Methods</p>\n",
+   "OPT_3": "<p>Harmonic Analysis</p>\n",
+   "OPT_4": "<p>None</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The process of finding the Fourier series for the function given by the numerical values is known as __________.</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 49087
+  },
+  {
+   "_id": 49091,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>&nbsp;</p>\n\n<p>Exploration of infinite sequences</p>\n",
+   "OPT_2": "<p>Study of non-periodic discrete structures</p>\n",
+   "OPT_3": "<p>Analysis of polynomial functions exclusively</p>\n",
+   "OPT_4": "<p>Study of periodic functions and their representations</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best describes harmonic analysis?</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 49091
+  },
+  {
+   "_id": 49949,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( a_1 \\cos(x) + b_1 \\sin(x) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac{a_0}{2} \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( a_2 \\cos(2x) + b_2 \\sin(2x) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">The constant term</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">In harmonic analysis, the first harmonic refers to:</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 49949
+  },
+  {
+   "_id": 49950,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac{2}{m} \\sum_{i=0}^{m-1} y_i \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac{1}{m} \\sum_{i=0}^{m-1} y_i \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\frac{2}{m-1} \\sum_{i=0}^{m-1} y_i \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( \\frac{1}{m-1} \\sum_{i=0}^{m-1} y_i \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">When using trapezoidal rule for harmonic analysis with \\( m \\) subintervals, \\( a_0 \\) is approximated by:</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 49950
+  },
+  {
+   "_id": 49951,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\sqrt{a_1^2 + b_1^2} \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( a_1 + b_1 \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( a_1^2 + b_1^2 \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( \\max(|a_1|, |b_1|) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The amplitude of the first harmonic is:</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 49951
+  },
+  {
+   "_id": 49952,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">6, 12, or 24</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">2, 4, or 8</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">10, 20, or 30</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Any integer</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">In harmonic analysis, if data is given at equally spaced points over one period, we typically take \\( m \\) as:</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 49952
+  },
+  {
+   "_id": 49953,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\( f(x) \\) is given by a table of values</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( f(x) \\) has a simple analytic form</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( f(x) \\) is discontinuous</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( f(x) \\) is constant</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Harmonic analysis is used when:</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 49953
+  }
+ ],
+ "sq": [
+  {
+   "_id": 50052,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Harmonic analysis is numerical computation of Fourier coefficients from tabular data}\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Used when function given by experimental values, not analytical expression}\\)</span></p></td><td>(3 Mark)</tr><tr><td><p><span class=\"math-tex\">\\(\\text{Involves trapezoidal rule for approximate integration}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{What is harmonic analysis in context of Fourier series?}\\)</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 50052
+  },
+  {
+   "_id": 50053,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{For } m=6 \\text{ intervals, } h = \\frac{2\\pi}{6} = \\frac{\\pi}{3}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_0 = \\frac{2}{6} \\sum_{i=0}^{5} y_i, \\quad a_n = \\frac{2}{6} \\sum_{i=0}^{5} y_i \\cos(nx_i)\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{2}{6} \\sum_{i=0}^{5} y_i \\sin(nx_i), \\quad x_i = i\\cdot\\frac{\\pi}{3}\\)</span></p></td><td>(3 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given 6 equidistant points in } (0, 2\\pi), \\text{ write formulas for } a_n, b_n \\text{ using trapezoidal rule.}\\)</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 50053
+  },
+  {
+   "_id": 50055,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{These give convenient trigonometric values (multiples of } 30^\\circ, 15^\\circ, 7.5^\\circ)\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Easier computation of } \\cos(nx_i), \\sin(nx_i) \\text{ at these angles}\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Good balance between accuracy and computational effort}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Why are m=6,12,24 commonly used in harmonic analysis?}\\)</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 50055
+  },
+  {
+   "_id": 50056,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Compute } \\cos x_i \\text{ at each point: } 1, 0.5, -0.5, -1, -0.5, 0.5\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Multiply each } y_i \\text{ by corresponding } \\cos x_i\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Sum products: } \\sum y_i \\cos x_i\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_1 = \\frac{2}{6} \\times \\text{sum} = \\frac{1}{3} \\sum y_i \\cos x_i\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For data at } x=0,\\frac{\\pi}{3},\\frac{2\\pi}{3},\\pi,\\frac{4\\pi}{3},\\frac{5\\pi}{3} \\text{ with y-values, how to compute } a_1?\\)</span></p>",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 50056
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50085,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Form: \\(y=\\frac{a_0}{2}+a_1\\cos x+a_2\\cos 2x+b_1\\sin x+b_2\\sin 2x\\)</td><td>(1)</td></tr><tr><td>\\(a_0=\\frac{2}{6}\\sum y=2.9\\)</td><td>(2)</td></tr><tr><td>\\(a_1=\\frac{2}{6}\\sum y\\cos x=-0.367\\), \\(a_2=\\frac{2}{6}\\sum y\\cos 2x=-0.1\\)</td><td>(4)</td></tr><tr><td>\\(b_1=\\frac{2}{6}\\sum y\\sin x=0.175\\), \\(b_2=\\frac{2}{6}\\sum y\\sin 2x=-0.0593\\)</td><td>(4)</td></tr><tr><td>Thus, \\(y=1.45-0.367\\cos x-0.1\\cos 2x+0.175\\sin x-0.0593\\sin 2x\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Given the data: \\(x:0,\\frac{\\pi}{3},\\frac{2\\pi}{3},\\pi,\\frac{4\\pi}{3},\\frac{5\\pi}{3}; y:0,1.4,1.9,1.7,1.5,1.2\\). Find the Fourier series upto second harmonic.</p>",
+   "SESSION_ID": 210,
+   "TYPE": "lq",
+   "key": 50085
+  },
+  {
+   "_id": 50086,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Map to \\((0,2\\pi)\\): Let \\(t=\\frac{2\\pi x}{T}\\)</td><td>(2)</td></tr><tr><td>Form: \\(y=\\frac{a_0}{2}+a_1\\cos t+a_2\\cos 2t+b_1\\sin t+b_2\\sin 2t\\)</td><td>(1)</td></tr><tr><td>Compute sums: \\(\\sum y=4.5\\), \\(\\sum y\\cos t=1.12\\), \\(\\sum y\\cos 2t=2.67\\)</td><td>(4)</td></tr><tr><td>\\(\\sum y\\sin t=3.014\\), \\(\\sum y\\sin 2t=-0.328\\)</td><td>(3)</td></tr><tr><td>Coefficients: \\(a_0=1.5,a_1=0.373,a_2=0.89,b_1=1.005,b_2=-0.109\\)</td><td>(3)</td></tr><tr><td>Thus, \\(y=0.75+0.373\\cos t+0.89\\cos 2t+1.005\\sin t-0.109\\sin 2t\\)</td><td>(2)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The following table gives the variations of a periodic function over a period \\(T\\): \\(x:0,T/6,T/3,T/2,2T/3,5T/6; y:1.98,1.30,1.05,1.30,-0.88,-0.25\\). Find the first two harmonics.</p>",
+   "SESSION_ID": 210,
+   "TYPE": "lq",
+   "key": 50086
+  }
+ ]
+}

@@ -1,0 +1,309 @@
+{
+ "mcq": [
+  {
+   "_id": 28631,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(e^2-1 \\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(0\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(e\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(e^2\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(If \\ f(x)=e^x \\ in \\ the \\ interval \\ (0,2),\\ then \\ the \\ value \\ of \\ a_0 \\ in \\ the \\ Fourier \\ series \\ expansion \\ is\\)</span></p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 28631
+  },
+  {
+   "_id": 28632,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1</p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(0\\)</span></p>\n",
+   "OPT_3": "<p>2</p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(l/2\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(If\\ f(x)=2x\\ in \\ the \\ interval \\ (0,4), \\ then \\ the \\ value \\ of \\ a_2 \\ in \\ the \\ Fourier \\ series \\ expansion \\ is\\)</span></p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 28632
+  },
+  {
+   "_id": 28633,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(l/2\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(0\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(l\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(2l\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(If \\ f(x)=x \\ in \\ the \\ interval \\ (0,2l), \\ then \\ the \\ value \\ of \\ a_0 \\ in \\ the \\ Fourier \\ series \\ expansion\\  is\\)</span></p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 28633
+  },
+  {
+   "_id": 28634,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(l/2\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(l\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(1\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(2\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(If \\ f(x) = \\left\\{ \\begin{array}{cl}\nx &amp; : \\ 0&lt; x &lt; l \\\\\n0 &amp; : \\ l&lt; x &lt; 2l\n\\end{array} \\right.\\ and \\ f(x)=f(x+2l) \\ for \\ all \\ x,\\ find\\ the \\ sum \n\\ of \\ the \\  Fourier \\ series \\ f(x) \\ at  \\ x=l.\\)</span></p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 28634
+  },
+  {
+   "_id": 28635,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1</p>\n",
+   "OPT_2": "<p>0</p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(l\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(l/2\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(If \\ f(x) = \\left\\{ \\begin{array}{cl}\nl-x &amp; : \\ 0 \\le  x \\le  l \\\\\n0 &amp; : \\ l\\le  x \\le  2l\n\\end{array} \\right.\\ and \\ f(x)=f(x+2l) \\ for \\ all \\ x,\\ then\\ the \\ value \n\\ of \\ a_0 \\ in \\ the \\  Fourier \\ series \\ expansion \\ is\n\\)</span></p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 28635
+  },
+  {
+   "_id": 49914,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( b_n = \\frac{1}{l} \\int_0^{2l} f(x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( b_n = \\frac{2}{l} \\int_0^{2l} f(x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( b_n = \\frac{1}{l} \\int_0^{2l} f(x) \\cos\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( b_n = \\frac{1}{2l} \\int_0^{2l} f(x) \\sin\\left(\\frac{n\\pi x}{l}\\right) \\, dx \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) \\) defined on \\( (0, 2l) \\), the Fourier coefficient \\( b_n \\) is:</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 49914
+  },
+  {
+   "_id": 49915,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\( z = \\frac{\\pi x}{l} \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( z = \\frac{2\\pi x}{l} \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( z = \\frac{x}{l} \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( z = \\frac{\\pi x}{2l} \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">When changing from interval \\( (0, 2\\pi) \\) to \\( (0, 2l) \\), the variable transformation used is:</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 49915
+  },
+  {
+   "_id": 49916,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos\\left(\\frac{n\\pi x}{l}\\right) + b_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\right] \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos(nx) + b_n \\sin(nx) \\right] \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\sum_{n=1}^{\\infty} \\left[ a_n \\cos\\left(\\frac{n\\pi x}{l}\\right) + b_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\right] \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( a_0 + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos\\left(\\frac{n\\pi x}{l}\\right) + b_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\right] \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) \\) defined on \\( (0, 2l) \\), the Fourier series is:</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 49916
+  },
+  {
+   "_id": 49917,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\( l = 2 \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( l = 4 \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( l = 1 \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( l = \\pi \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">If \\( f(x) \\) has period 4 and is defined on \\( (0, 4) \\), what is the value of \\( l \\) in the Fourier series?</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 49917
+  },
+  {
+   "_id": 49918,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( a_0 = \\frac{1}{l} \\int_0^{2l} f(x) \\, dx \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( a_0 = \\frac{2}{l} \\int_0^{2l} f(x) \\, dx \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( a_0 = \\frac{1}{2l} \\int_0^{2l} f(x) \\, dx \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( a_0 = \\int_0^{2l} f(x) \\, dx \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) \\) defined on \\( (0, 2l) \\), the formula for \\( a_0 \\) is:</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 49918
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28629,
+   "ANSWER": "<p>Type Here</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(Find \\ the \\ Fourier\\  series \\ expansion \\ for \\ f(x) = \\left\\{ \\begin{array}{cl}\n1 &amp; : \\ 0&lt; x &lt; l \\\\\n0 &amp; : \\ l&lt; x &lt; 2l.\n\\end{array} \\right.  \n\\)</span>Type Here</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 28629
+  },
+  {
+   "_id": 28630,
+   "ANSWER": "<p>Type Here</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(Find \\ the\\  Fourier\\  series\\  expansion \\ for \\ f(x)= (l-x)^2  \\ in \\ the \\ interval \\ (0,2l). \\)</span>Type Here</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 28630
+  },
+  {
+   "_id": 50017,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} [a_n \\cos(\\frac{n\\pi x}{l}) + b_n \\sin(\\frac{n\\pi x}{l})]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{where: } a_0 = \\frac{1}{l} \\int_0^{2l} f(x) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_n = \\frac{1}{l} \\int_0^{2l} f(x) \\cos(\\frac{n\\pi x}{l}) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{1}{l} \\int_0^{2l} f(x) \\sin(\\frac{n\\pi x}{l}) dx\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Write Fourier series for function of period } 2l \\text{ in } (0, 2l).\\)</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 50017
+  },
+  {
+   "_id": 50018,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Use transformation: } z = \\frac{\\pi x}{l} \\text{ so that when } x \\text{ varies over } (0, 2l), z \\text{ varies over } (0, 2\\pi)\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Then } f(x) = f(\\frac{lz}{\\pi}) = g(z) \\text{ and standard Fourier series in } z \\text{ applies}\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Replace } z \\text{ by } \\frac{\\pi x}{l} \\text{ in series to get series in } x\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Explain change of interval from } (0, 2\\pi) \\text{ to } (0, 2l).\\)</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 50018
+  },
+  {
+   "_id": 50019,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(a_0 = \\frac{1}{l} \\int_0^l (l-x) dx = \\frac{l}{2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_n = \\frac{1}{l} \\int_0^l (l-x) \\cos(\\frac{n\\pi x}{l}) dx = \\frac{2l}{n^2\\pi^2}[1-(-1)^n]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{1}{l} \\int_0^l (l-x) \\sin(\\frac{n\\pi x}{l}) dx = \\frac{l}{n\\pi}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Series: } f(x) = \\frac{l}{4} + \\frac{2l}{\\pi^2}\\sum_{n=\\text{odd}} \\frac{1}{n^2} \\cos(\\frac{n\\pi x}{l}) + \\frac{l}{\\pi}\\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin(\\frac{n\\pi x}{l})\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find Fourier series for } f(x) = \\begin{cases} l-x & 0<x\\leq l \\\\ 0 & l<x<2l \\end{cases}.\\)</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 50019
+  },
+  {
+   "_id": 50021,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{If } f(2l-x) = f(x), \\text{ function is symmetric about } x=l\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Then } \\int_0^{2l} f(x) dx = 2\\int_0^l f(x) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Similarly for cosine integrals: } \\int_0^{2l} f(x) \\cos(\\frac{n\\pi x}{l}) dx = 2\\int_0^l f(x) \\cos(\\frac{n\\pi x}{l}) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{For sine: } \\int_0^{2l} f(x) \\sin(\\frac{n\\pi x}{l}) dx = 0\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For function in } (0, 2l), \\text{ if } f(2l-x) = f(x), \\text{ what simplification occurs?}\\)</span></p>",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 50021
+  }
+ ],
+ "lq": [
+  {
+   "_id": 28628,
+   "ANSWER": "<p>Type Here</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(Find \\ the \\  Fourier \\ series\\ expansion \\ for \\ f(x) = x^2 \\ in\\  the \\ interval\\  (0,2l). \\ Also, \\ deduce \\ the \\ sum \\ of \\ the \\ series \\ \\frac{1}{1^2} +\\frac{1}{2^2} +\\frac{1}{3^2} +\\frac{1}{4^2} +... \\)</span>Type Here</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "lq",
+   "key": 28628
+  },
+  {
+   "_id": 50071,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Fourier series: \\(f(x)=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}\\left[a_n\\cos\\frac{n\\pi x}{l}+b_n\\sin\\frac{n\\pi x}{l}\\right]\\)</td><td>(1)</td></tr><tr><td>\\(a_0=\\frac{1}{l}\\int_0^{2l}f(x)dx=\\frac{1}{l}\\int_0^l(l-x)dx=\\frac{l}{2}\\)</td><td>(2)</td></tr><tr><td>\\(a_n=\\frac{1}{l}\\int_0^{2l}f(x)\\cos\\frac{n\\pi x}{l}dx=\\frac{1}{l}\\int_0^l(l-x)\\cos\\frac{n\\pi x}{l}dx=\\frac{l}{n^2\\pi^2}[1-(-1)^n]\\)</td><td>(4)</td></tr><tr><td>\\(b_n=\\frac{1}{l}\\int_0^{2l}f(x)\\sin\\frac{n\\pi x}{l}dx=\\frac{1}{l}\\int_0^l(l-x)\\sin\\frac{n\\pi x}{l}dx=\\frac{l}{n\\pi}\\)</td><td>(4)</td></tr><tr><td>Thus, \\(f(x)=\\frac{l}{4}+\\frac{l}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1-(-1)^n}{n^2}\\cos\\frac{n\\pi x}{l}+\\frac{l}{\\pi}\\sum_{n=1}^{\\infty}\\frac{1}{n}\\sin\\frac{n\\pi x}{l}\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=\\begin{cases} l-x, & 0<x<l \\\\ 0, & l<x<2l \\end{cases}\\) of period \\(2l\\).</p>",
+   "SESSION_ID": 203,
+   "TYPE": "lq",
+   "key": 50071
+  },
+  {
+   "_id": 50072,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Fourier series form with period \\(2l\\)</td><td>(1)</td></tr><tr><td>\\(a_0=\\frac{1}{l}\\int_0^{2l}x(2l-x)dx=\\frac{4l^2}{3}\\)</td><td>(2)</td></tr><tr><td>\\(a_n=\\frac{1}{l}\\int_0^{2l}x(2l-x)\\cos\\frac{n\\pi x}{l}dx=-\\frac{4l^2}{n^2\\pi^2}\\)</td><td>(4)</td></tr><tr><td>\\(b_n=\\frac{1}{l}\\int_0^{2l}x(2l-x)\\sin\\frac{n\\pi x}{l}dx=\\frac{4l^2}{n\\pi}(-1)^{n+1}\\)</td><td>(4)</td></tr><tr><td>Thus, \\(x(2l-x)=\\frac{2l^2}{3}-\\frac{4l^2}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\cos\\frac{n\\pi x}{l}+\\frac{4l^2}{\\pi}\\sum_{n=1}^{\\infty}\\frac{(-1)^{n+1}}{n}\\sin\\frac{n\\pi x}{l}\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=x(2l-x)\\) in \\((0,2l)\\) of period \\(2l\\).</p>",
+   "SESSION_ID": 203,
+   "TYPE": "lq",
+   "key": 50072
+  }
+ ]
+}

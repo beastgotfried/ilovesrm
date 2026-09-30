@@ -1,0 +1,148 @@
+{
+ "mcq": [
+  {
+   "_id": 11944,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "Many classes",
+   "OPT_2": "One function, many forms",
+   "OPT_3": "One class, one form",
+   "OPT_4": "Multiple inheritance",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What does the term \"polymorphism\" literally mean?",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 11944
+  },
+  {
+   "_id": 11945,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "Method overriding",
+   "OPT_2": "Method overloading",
+   "OPT_3": "Inheritance",
+   "OPT_4": "Abstract classes",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following implements compile-time polymorphism in Java?",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 11945
+  },
+  {
+   "_id": 11946,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Defining the same method in different classes",
+   "OPT_2": "Defining multiple methods with the same name but different parameters",
+   "OPT_3": "Using the same class name in multiple packages",
+   "OPT_4": "Calling parent methods using super",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following best describes method overloading?",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 11946
+  },
+  {
+   "_id": 11947,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Different number of parameters",
+   "OPT_2": "Different parameter types",
+   "OPT_3": "Different method names",
+   "OPT_4": "Different order of parameters",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following is NOT allowed in method overloading?",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 11947
+  },
+  {
+   "_id": 11948,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "It hides data",
+   "OPT_2": "It allows dynamic memory allocation",
+   "OPT_3": "It enables objects to behave differently based on context",
+   "OPT_4": "It allows unlimited inheritance",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Why is polymorphism considered an important feature in object-oriented programming?",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 11948
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11980,
+   "ANSWER": "Polymorphism in Java refers to the ability of an object to take on many forms. The two main types are:\nCompile-time polymorphism (achieved through method overloading)\nRuntime polymorphism (achieved through method overriding)",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Define polymorphism in Java and state its two main types.",
+   "SESSION_ID": 209,
+   "TYPE": "sq",
+   "key": 11980
+  },
+  {
+   "_id": 11981,
+   "ANSWER": "public class AreaCalculator {\n    void area(int side) {\n        System.out.println(\"Area of square: \" + (side * side));\n    }\n    void area(int length, int breadth) {\n        System.out.println(\"Area of rectangle: \" + (length * breadth));\n    }\n}\nHere, both area() methods have the same name but different parameter lists \ufffd this is compile-time polymorphism.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a simple Java class that demonstrates method overloading for calculating the area of a square and a rectangle.",
+   "SESSION_ID": 209,
+   "TYPE": "sq",
+   "key": 11981
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12008,
+   "ANSWER": "Java Code:\npublic class Calculator {\n    void calculate(int a, int b) {\n        System.out.println(\"Sum (int): \" + (a + b));\n    }\n    void calculate(double a, double b) {\n        System.out.println(\"Sum (double): \" + (a + b));\n    }\n    void calculate(int a, int b, int c) {\n        System.out.println(\"Sum (3 ints): \" + (a + b + c));\n    }\n    public static void main(String[] args) {\n        Calculator calc = new Calculator();\n        calc.calculate(5, 10);           // Calls first method\n        calc.calculate(5.5, 6.3);        // Calls second method\n        calc.calculate(1, 2, 3);         // Calls third method\n    }\n}\nJVM Method Resolution:\nThe Java compiler determines which calculate() method to invoke at compile time, based on the number and type of arguments.\nThis is why it's called compile-time polymorphism.\nBenefits:\nCode clarity: A single method name can perform logically similar operations without confusion.\nEase of use: Users don\ufffdt need to remember multiple method names.\nFlexibility: The same method can handle various input types or conditions.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are developing a calculator tool. Users should be able to call a method calculate() to add:\nTwo integers\nTwo doubles\nThree integers\nDesign a Java class using method overloading to support this. Explain how the JVM identifies which method to call. Discuss how compile-time polymorphism improves code clarity and flexibility.",
+   "SESSION_ID": 209,
+   "TYPE": "lq",
+   "key": 12008
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 12423,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Head</p>\n",
+   "OPT_2": "<p>Sector</p>\n",
+   "OPT_3": "<p>Cylinder</p>\n",
+   "OPT_4": "<p>Zone</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The combination of all tracks aligned vertically on multiple platters is called a:</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 12423
+  },
+  {
+   "_id": 12424,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Transfer data from disk to memory</p>\n",
+   "OPT_2": "<p>Rotate the disk</p>\n",
+   "OPT_3": "<p>Move the disk arm to the required track</p>\n",
+   "OPT_4": "<p>Access cache</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Seek time is the time required to:</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 12424
+  },
+  {
+   "_id": 12425,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Seek time</p>\n",
+   "OPT_2": "<p>Transfer time</p>\n",
+   "OPT_3": "<p>Latency</p>\n",
+   "OPT_4": "<p>Delay time</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The time taken to transfer data after reaching the correct sector is called:</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 12425
+  },
+  {
+   "_id": 12426,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>LOOK</p>\n",
+   "OPT_2": "<p>FCFS</p>\n",
+   "OPT_3": "<p>C-LOOK</p>\n",
+   "OPT_4": "<p>SCAN</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which algorithm moves the head in one direction, services requests, then reverses?</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 12426
+  },
+  {
+   "_id": 12427,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>It ignores request order</p>\n",
+   "OPT_2": "<p>It only goes as far as the last request</p>\n",
+   "OPT_3": "<p>It scans the entire disk</p>\n",
+   "OPT_4": "<p>It is round-robin</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The <strong data-end=\"2441\" data-start=\"2433\">LOOK</strong> algorithm differs from SCAN because:</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 12427
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12534,
+   "ANSWER": "<ol data-end=\"2708\" data-start=\"2499\">\n\t<li data-end=\"1567\" data-start=\"1491\"><strong data-end=\"1492\" data-start=\"1478\">Seek time:</strong> Time to move the read/write head to the correct track\n\t<p data-end=\"3001\" data-start=\"2744\">&nbsp;</p>\n\t</li>\n\t<li data-end=\"1548\" data-start=\"1476\">\n\t<p data-end=\"1548\" data-start=\"1478\"><strong data-end=\"1574\" data-start=\"1551\">Rotational latency:</strong> Time for the desired sector to rotate under the head</p>\n\t</li>\n\t<li data-end=\"1629\" data-start=\"1549\">\n\t<p data-end=\"1629\" data-start=\"1551\"><strong data-end=\"1650\" data-start=\"1632\">Transfer time:</strong> Time to transfer data once the sector is under the head<br />\n\t<br />\n\t&nbsp;<strong data-end=\"1731\" data-start=\"1711\">Mark Allocation:</strong>All 3 correct definitions &ndash; 60%Proper terminology &ndash; 40%</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"291\" data-start=\"205\">Define seek time, rotational latency, and transfer time.</h3>\n",
+   "SESSION_ID": 411,
+   "TYPE": "sq",
+   "key": 12534
+  },
+  {
+   "_id": 12536,
+   "ANSWER": "<p>&nbsp;</p>\n\n<p data-end=\"1115\" data-start=\"1000\">Disk attachment refers to how secondary storage (disks) are connected to the system.<br data-end=\"1103\" data-start=\"1100\" />\nTwo types:</p>\n\n<p data-end=\"1192\" data-start=\"1119\"><strong data-end=\"1144\" data-start=\"1119\">Host-Attached Storage</strong> &ndash; connected directly to computer (e.g., SATA)</p>\n\n<p data-end=\"1255\" data-start=\"1196\"><strong data-end=\"1230\" data-start=\"1196\">Network-Attached Storage (NAS)</strong> &ndash; accessed via a network</p>\n\n<p data-end=\"1629\" data-start=\"1551\">&nbsp;</p>\n\n<p data-end=\"1282\" data-start=\"1257\"><strong data-end=\"1280\" data-start=\"1260\">Mark Allocation:</strong></p>\n\n<p data-end=\"1303\" data-start=\"1285\">Definition &ndash; 40%</p>\n\n<p data-end=\"1335\" data-start=\"1306\">Any two correct types &ndash; 60%</p>\n\n<p data-end=\"1382\" data-start=\"1338\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"291\" data-start=\"205\">What is disk attachment? Name any two types.</h3>\n",
+   "SESSION_ID": 411,
+   "TYPE": "sq",
+   "key": 12536
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12734,
+   "ANSWER": "<h3 data-end=\"404\" data-start=\"366\"><strong data-end=\"404\" data-start=\"373\">1. Magnetic Disk Structure: (40%)</strong></h3>\n\n<p data-end=\"598\" data-start=\"406\">Magnetic disks are the <strong data-end=\"462\" data-start=\"429\">most common secondary storage</strong> used in computer systems. Each disk (called a <strong data-end=\"520\" data-start=\"509\">platter</strong>) is coated with <strong data-end=\"558\" data-start=\"537\">magnetic material</strong> and data is stored using magnetization.</p>\n\n<p data-end=\"635\" data-start=\"600\">\ud83d\udd39 <strong data-end=\"635\" data-start=\"603\">Components of Magnetic Disk:</strong></p>\n\n<ul data-end=\"1056\" data-start=\"637\">\n\t<li data-end=\"698\" data-start=\"637\">\n\t<p data-end=\"698\" data-start=\"639\"><strong data-end=\"651\" data-start=\"639\">Platters</strong>: Circular disks coated with magnetic material.</p>\n\t</li>\n\t<li data-end=\"759\" data-start=\"699\">\n\t<p data-end=\"759\" data-start=\"701\"><strong data-end=\"712\" data-start=\"701\">Spindle</strong>: Holds the platters together and rotates them.</p>\n\t</li>\n\t<li data-end=\"822\" data-start=\"760\">\n\t<p data-end=\"822\" data-start=\"762\"><strong data-end=\"781\" data-start=\"762\">Read/Write Head</strong>: Used to read from or write to the disk.</p>\n\t</li>\n\t<li data-end=\"868\" data-start=\"823\">\n\t<p data-end=\"868\" data-start=\"825\"><strong data-end=\"841\" data-start=\"825\">Arm Assembly</strong>: Moves the heads radially.</p>\n\t</li>\n\t<li data-end=\"921\" data-start=\"869\">\n\t<p data-end=\"921\" data-start=\"871\"><strong data-end=\"880\" data-start=\"871\">Track</strong>: Circular division on a platter surface.</p>\n\t</li>\n\t<li data-end=\"988\" data-start=\"922\">\n\t<p data-end=\"988\" data-start=\"924\"><strong data-end=\"934\" data-start=\"924\">Sector</strong>: Pie-shaped wedge of a track (smallest storage unit).</p>\n\t</li>\n\t<li data-end=\"1056\" data-start=\"989\">\n\t<p data-end=\"1056\" data-start=\"991\"><strong data-end=\"1003\" data-start=\"991\">Cylinder</strong>: All tracks aligned vertically on multiple platters.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1085\" data-start=\"1058\">\ud83d\udd38 <strong data-end=\"1360\" data-start=\"1329\">2. Disk Attachment Methods: (60%)</strong></p>\n\n<p data-end=\"1466\" data-start=\"1362\">Disks are attached to a computer system using several methods depending on performance and architecture.</p>\n\n<h4 data-end=\"1502\" data-start=\"1468\">A. <strong data-end=\"1502\" data-start=\"1476\">Host-Attached Storage:</strong></h4>\n\n<ul data-end=\"1666\" data-start=\"1503\">\n\t<li data-end=\"1617\" data-start=\"1503\">\n\t<p data-end=\"1569\" data-start=\"1505\">Disk is connected directly to the system via <strong data-end=\"1563\" data-start=\"1550\">I/O buses</strong> like:</p>\n\n\t<ul data-end=\"1617\" data-start=\"1572\">\n\t\t<li data-end=\"1591\" data-start=\"1572\">\n\t\t<p data-end=\"1591\" data-start=\"1574\">SATA (Serial ATA)</p>\n\t\t</li>\n\t\t<li data-end=\"1600\" data-start=\"1594\">\n\t\t<p data-end=\"1600\" data-start=\"1596\">SCSI</p>\n\t\t</li>\n\t\t<li data-end=\"1617\" data-start=\"1603\">\n\t\t<p data-end=\"1617\" data-start=\"1605\">NVMe or PCIe</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1666\" data-start=\"1618\">\n\t<p data-end=\"1666\" data-start=\"1620\">Common in personal computers and workstations.</p>\n\t</li>\n</ul>\n\n<h4 data-end=\"1711\" data-start=\"1668\">B. <strong data-end=\"1711\" data-start=\"1676\">Network-Attached Storage (NAS):</strong></h4>\n\n<ul data-end=\"1850\" data-start=\"1712\">\n\t<li data-end=\"1791\" data-start=\"1712\">\n\t<p data-end=\"1791\" data-start=\"1714\">Storage is shared over a <strong data-end=\"1750\" data-start=\"1739\">network</strong> using protocols like <strong data-end=\"1779\" data-start=\"1772\">NFS</strong> or <strong data-end=\"1790\" data-start=\"1783\">SMB</strong>.</p>\n\t</li>\n\t<li data-end=\"1850\" data-start=\"1792\">\n\t<p data-end=\"1850\" data-start=\"1794\">Each disk appears as a <strong data-end=\"1849\" data-start=\"1817\">file system over the network</strong>.</p>\n\t</li>\n</ul>\n\n<h4 data-end=\"1891\" data-start=\"1852\">C. <strong data-end=\"1891\" data-start=\"1860\">Storage Area Network (SAN):</strong></h4>\n\n<ul data-end=\"2064\" data-start=\"1892\">\n\t<li data-end=\"1932\" data-start=\"1892\">\n\t<p data-end=\"1932\" data-start=\"1894\">High-speed network of storage devices.</p>\n\t</li>\n\t<li data-end=\"2025\" data-start=\"1933\">\n\t<p data-end=\"2025\" data-start=\"1935\">Disk blocks are accessed <strong data-end=\"1972\" data-start=\"1960\">directly</strong> using protocols like <strong data-end=\"2003\" data-start=\"1994\">iSCSI</strong> or <strong data-end=\"2024\" data-start=\"2007\">Fibre Channel</strong>.</p>\n\t</li>\n\t<li data-end=\"2064\" data-start=\"2026\">\n\t<p data-end=\"2064\" data-start=\"2028\">Used in <strong data-end=\"2063\" data-start=\"2036\">enterprise environments</strong>.</p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<ul data-end=\"1270\" data-start=\"1186\">\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"114\" data-start=\"0\">Explain the structure of a magnetic disk and the various methods of disk attachment in operating systems.</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "lq",
+   "key": 12734
+  }
+ ]
+}

@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 10399,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Daemon threads prevent the JVM from shutting down</p>\n",
+   "OPT_2": "<p>Daemon threads must be started with <code data-end=\"508\" data-start=\"501\">run()</code></p>\n",
+   "OPT_3": "<p>JVM exits when all non-daemon threads finish, regardless of daemon threads</p>\n",
+   "OPT_4": "<p>Daemon threads have higher priority than user threads</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which of the following statements about daemon threads is <strong data-end=\"403\" data-start=\"395\">true</strong>?<br data-end=\"407\" data-start=\"404\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 10399
+  },
+  {
+   "_id": 10400,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>The thread becomes a daemon</p>\n",
+   "OPT_2": "<p>The thread dies immediately</p>\n",
+   "OPT_3": "<p>An <code data-end=\"993\" data-start=\"964\">IllegalThreadStateException</code> is thrown</p>\n",
+   "OPT_4": "<p>The thread is ignored by the scheduler</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What happens when you call <code data-end=\"850\" data-start=\"833\">setDaemon(true)</code> on a thread after it has been started?<br data-end=\"892\" data-start=\"889\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 10400
+  },
+  {
+   "_id": 10401,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>It guarantees faster execution</p>\n",
+   "OPT_2": "<p>The thread will not run at all</p>\n",
+   "OPT_3": "<p>It provides a hint to the scheduler for prioritization</p>\n",
+   "OPT_4": "<p>It causes the thread to run in foreground</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1222\" data-start=\"1186\">Consider the following code:</p>\n\n<pre data-end=\"1330\" data-start=\"1223\">\n<code>Thread t = new Thread(() -&gt; System.out.println(&quot;Running&quot;)); t.setPriority(Thread.MAX_PRIORITY); </code></pre>\n\n<p data-end=\"1671\" data-start=\"1331\">What is the effect of setting thread priority here?<br data-end=\"1385\" data-start=\"1382\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 10401
+  },
+  {
+   "_id": 10402,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Terminates the current thread</p>\n",
+   "OPT_2": "<p>Pauses the current thread until the target thread finishes</p>\n",
+   "OPT_3": "<p>Switches context</p>\n",
+   "OPT_4": "<p>Kills the target thread</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1222\" data-start=\"1186\">What does the <code data-end=\"2484\" data-start=\"2476\">join()</code> method do in thread management?<br data-end=\"2519\" data-start=\"2516\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 10402
+  },
+  {
+   "_id": 10403,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Priorities can be any number from 1 to 100</p>\n",
+   "OPT_2": "<p>Default priority is 1</p>\n",
+   "OPT_3": "<p>JVM always follows priorities strictly</p>\n",
+   "OPT_4": "<p>Thread priority ranges from <code data-end=\"3043\" data-start=\"3022\">Thread.MIN_PRIORITY</code> (1) to <code data-end=\"3072\" data-start=\"3051\">Thread.MAX_PRIORITY</code> (10)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1222\" data-start=\"1186\">Which of these is <strong data-end=\"2836\" data-start=\"2828\">true</strong> about setting thread priorities?<br data-end=\"2872\" data-start=\"2869\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 10403
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10404,
+   "ANSWER": "<p>The main thread pauses and waits until the child thread completes its execution. Only then does the main thread resume</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What is the output when the main thread calls <code data-end=\"4198\" data-start=\"4190\">join()</code> on a child thread?<br data-end=\"4220\" data-start=\"4217\" />\n<br data-end=\"4236\" data-start=\"4233\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "sq",
+   "key": 10404
+  },
+  {
+   "_id": 10405,
+   "ANSWER": "<p>Higher-priority threads are more likely to be chosen by the scheduler. However, thread priority <strong data-end=\"4062\" data-start=\"4040\">does not guarantee</strong> execution order; it&#39;s only a hint. Behavior is platform-dependent.<br data-end=\"4220\" data-start=\"4217\" />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>How can thread priority affect execution?<br data-end=\"3928\" data-start=\"3925\" />\n<br data-end=\"3944\" data-start=\"3941\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "sq",
+   "key": 10405
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10406,
+   "ANSWER": "<p>class MonitorDaemon extends Thread {<br />\n&nbsp; &nbsp; public MonitorDaemon() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setDaemon(true);<br />\n&nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; public void run() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; while (true) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Monitoring memory...&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Thread.sleep(2000);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } catch (InterruptedException e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; }<br />\n}</p>\n\n<p>class UserRequest extends Thread {<br />\n&nbsp; &nbsp; private String requestName;</p>\n\n<p>&nbsp; &nbsp; public UserRequest(String name, int priority) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; this.requestName = name;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setPriority(priority);<br />\n&nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; public void run() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Processing request: &quot; + requestName);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; for (int i = 0; i &lt; 5; i++) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(requestName + &quot; step &quot; + i);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Thread.yield(); &nbsp;// Allow other threads to proceed<br />\n&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; }<br />\n}</p>\n\n<p>public class Server {<br />\n&nbsp; &nbsp; public static void main(String[] args) throws InterruptedException {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; MonitorDaemon md = new MonitorDaemon();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; md.start();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; UserRequest u1 = new UserRequest(&quot;Request1&quot;, Thread.MIN_PRIORITY);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; UserRequest u2 = new UserRequest(&quot;UrgentRequest&quot;, Thread.MAX_PRIORITY);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; u1.start();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; u2.start();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; u1.join(); &nbsp;// Wait for both threads to complete<br />\n&nbsp; &nbsp; &nbsp; &nbsp; u2.join();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;All requests processed. Server shutting down.&quot;);<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Design a thread model for the above scenario. Implement:</p>\n\n<ul data-end=\"5114\" data-start=\"4945\">\n\t<li data-end=\"4974\" data-start=\"4945\">\n\t<p data-end=\"4974\" data-start=\"4947\">Daemon thread for logging</p>\n\t</li>\n\t<li data-end=\"5018\" data-start=\"4975\">\n\t<p data-end=\"5018\" data-start=\"4977\">Use of <code data-end=\"4992\" data-start=\"4984\">join()</code> to synchronize shutdown</p>\n\t</li>\n\t<li data-end=\"5060\" data-start=\"5019\">\n\t<p data-end=\"5060\" data-start=\"5021\">Thread priorities for urgent requests</p>\n\t</li>\n\t<li data-end=\"5114\" data-start=\"5061\">\n\t<p data-end=\"5114\" data-start=\"5063\">Use of <code data-end=\"5079\" data-start=\"5070\">sleep()</code> or <code data-end=\"5092\" data-start=\"5083\">yield()</code> for load management</p>\n\t</li>\n</ul>\n\n<p data-end=\"5161\" data-start=\"5116\">Provide Java code to demonstrate this design.</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "lq",
+   "key": 10406
+  }
+ ]
+}

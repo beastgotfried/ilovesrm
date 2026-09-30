@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 25203,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Shift + subtract divisor</p>\n",
+   "OPT_2": "<p>Shift + add divisor</p>\n",
+   "OPT_3": "<p>Shift only</p>\n",
+   "OPT_4": "<p>Stop</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">In Non\u2011Restoring Division, if remainder R is negative, the next step does:</strong></p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 25203
+  },
+  {
+   "_id": 25401,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Based on the size of the divisor</strong></p>\n",
+   "OPT_2": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Based on the sign of the remainder after the operation&nbsp;</strong></p>\n",
+   "OPT_3": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Bsed on whether the dividend is even or odd</strong></p>\n",
+   "OPT_4": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Randomly assigned during each cycle</strong></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">In non-restoring division, how is the quotient bit decided at each step?</strong></p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 25401
+  },
+  {
+   "_id": 25402,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">It uses fewer registers</strong></p>\n",
+   "OPT_2": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">It does not require restoring after every subtraction&nbsp;</strong></p>\n",
+   "OPT_3": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">It produces more accurate results</strong></p>\n",
+   "OPT_4": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">It can divide both positive and negative numbers directly</strong></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">What is the primary advantage of the non-restoring division algorithm over the restoring division algorithm?</strong></p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 25402
+  },
+  {
+   "_id": 25403,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Discard the remainder</strong></p>\n",
+   "OPT_2": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Add the divisor to the remainder&nbsp;</strong></p>\n",
+   "OPT_3": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Subtract the divisor from the remainder</strong></p>\n",
+   "OPT_4": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Multiply the quotient by 2</strong></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">What is the final step in the non-restoring division algorithm if the remainder is negative after all iterations?</strong></p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 25403
+  },
+  {
+   "_id": 25406,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">The number of shifts is always 2n</strong><br />\n&nbsp;</p>\n",
+   "OPT_2": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">The number of shifts is n+1</strong><br />\n&nbsp;</p>\n",
+   "OPT_3": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">The number of shifts is exactly n&nbsp;</strong><br />\n&nbsp;</p>\n",
+   "OPT_4": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">It depends on the size of the divisor only</strong></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"78\" data-is-last-node=\"\" data-is-only-node=\"\" data-start=\"0\">Which of the following is true regarding the number of shifts in a non-restoring division algorithm for n-bit operands?</strong><br />\n&nbsp;</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 25406
+  }
+ ],
+ "sq": [
+  {
+   "_id": 25204,
+   "ANSWER": "<p><em data-end=\"267\" data-start=\"179\">A (accumulator) = 0, Q = dividend, M = divisor, n = bit-width of dividend</em></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><em data-end=\"176\" data-start=\"73\">What are the main registers and initial values needed to perform single-cycle non\u2011restoring division?</em></p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 25204
+  },
+  {
+   "_id": 25217,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th align=\"center\">Cycle</th>\n\t\t\t<th align=\"center\">A before shift</th>\n\t\t\t<th align=\"center\">Shift (A,Q) &rarr; A</th>\n\t\t\t<th align=\"center\">A op= &plusmn;\u202fM</th>\n\t\t\t<th align=\"center\">Q\u2080</th>\n\t\t\t<th align=\"center\">A after op</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td align=\"center\">1</td>\n\t\t\t<td align=\"center\">00000</td>\n\t\t\t<td align=\"center\">00000</td>\n\t\t\t<td align=\"center\">subtract M &rarr; 11101\u2082</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t\t<td align=\"center\">11101</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">2</td>\n\t\t\t<td align=\"center\">(11101 neg)</td>\n\t\t\t<td align=\"center\">shift &rarr; 1110</td>\n\t\t\t<td align=\"center\">add M &rarr; 1110 + 00011 = 11111\u2082</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t\t<td align=\"center\">11111</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">3</td>\n\t\t\t<td align=\"center\">(11111 neg)</td>\n\t\t\t<td align=\"center\">shift &rarr; 1111</td>\n\t\t\t<td align=\"center\">add M &rarr; 1111 + 0011 = 00010\u2082 (carry out)</td>\n\t\t\t<td align=\"center\">1</td>\n\t\t\t<td align=\"center\">00010</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">4</td>\n\t\t\t<td align=\"center\">(00010 pos)</td>\n\t\t\t<td align=\"center\">shift &rarr; 0010</td>\n\t\t\t<td align=\"center\">subtract M &rarr; 0010 &minus; 0011 = 11111\u2082 (neg)</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t\t<td align=\"center\">11111</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\"><strong>Final adj.</strong></td>\n\t\t\t<td align=\"center\">A is negative</td>\n\t\t\t<td align=\"center\">&mdash;</td>\n\t\t\t<td align=\"center\">add M &rarr; 11111 + 00011 = 00010\u2082</td>\n\t\t\t<td align=\"center\">&mdash;</td>\n\t\t\t<td align=\"center\"><strong>00010</strong> (positive)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Using non\u2011restoring division, divide <strong data-end=\"601\" data-start=\"586\">10101\u2082 (21)</strong> by <strong data-end=\"618\" data-start=\"605\">0011\u2082 (3)</strong>. Show <strong data-end=\"642\" data-start=\"625\">4 full cycles</strong>, listing A, Q, the operation (add/sub), and new Q\u2080 bit each step.</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 25217
+  }
+ ],
+ "lq": [
+  {
+   "_id": 25238,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th align=\"center\">Cycle</th>\n\t\t\t<th>Step</th>\n\t\t\t<th>Shifted A\u2016Q</th>\n\t\t\t<th>A (after shift)</th>\n\t\t\t<th>Operation</th>\n\t\t\t<th>A (after op)</th>\n\t\t\t<th align=\"center\">Q\u2080</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td align=\"center\">1</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>000000&nbsp;110110 &rarr; 000000&nbsp;110110</td>\n\t\t\t<td>000000</td>\n\t\t\t<td>&minus;M: 000000 &minus; 00101 = 111011\u2082</td>\n\t\t\t<td>111011</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td align=\"center\">&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">2</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>111011&nbsp;10110 &rarr; 111011&nbsp;10110</td>\n\t\t\t<td>110111</td>\n\t\t\t<td>+M: 110111 + 00101 = 111100\u2082</td>\n\t\t\t<td>111100</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">3</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>111100&nbsp;0110 &rarr; 111100&nbsp;0110</td>\n\t\t\t<td>111000</td>\n\t\t\t<td>+M: 111000 + 00101 = 111101\u2082</td>\n\t\t\t<td>111101</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">4</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>111101&nbsp;110 &rarr; 111101&nbsp;110</td>\n\t\t\t<td>111011</td>\n\t\t\t<td>+M: 111011 + 00101 = 111110\u2082</td>\n\t\t\t<td>111110</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">5</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>111110&nbsp;10 &rarr; 111110&nbsp;10</td>\n\t\t\t<td>111100</td>\n\t\t\t<td>+M: 111100 + 00101 = 000001\u2082 (overflow)</td>\n\t\t\t<td>000001</td>\n\t\t\t<td align=\"center\">1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">6</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>000001&nbsp;0 &rarr; 000001&nbsp;0</td>\n\t\t\t<td>000010</td>\n\t\t\t<td>&minus;M: 000010 &minus; 00101 = 111101\u2082</td>\n\t\t\t<td>111101</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">Final</td>\n\t\t\t<td>Correction if A &lt; 0</td>\n\t\t\t<td>&mdash;</td>\n\t\t\t<td>111101</td>\n\t\t\t<td>+M: 111101 + 00101 = 000010\u2082</td>\n\t\t\t<td><strong>000010</strong></td>\n\t\t\t<td align=\"center\">&mdash;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"314\" data-start=\"252\"><strong data-end=\"314\" data-start=\"252\">Perform Non\u2011Restoring Division of unsigned binary numbers:</strong></p>\n\n<p><code>Dividend = 110110\u2082 (decimal 54) Divisor = 00101\u2082 (decimal 5)</code></p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "lq",
+   "key": 25238
+  }
+ ]
+}

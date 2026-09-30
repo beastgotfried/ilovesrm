@@ -1,0 +1,210 @@
+{
+ "mcq": [
+  {
+   "_id": 20732,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Execute</p>\n",
+   "OPT_2": "<p>Instruction Decode</p>\n",
+   "OPT_3": "<p>Instruction Fetch</p>\n",
+   "OPT_4": "<p>Write Back</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is the first stage in a typical instruction pipeline?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 20732
+  },
+  {
+   "_id": 20733,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>5</p>\n",
+   "OPT_2": "<p>9</p>\n",
+   "OPT_3": "<p>13</p>\n",
+   "OPT_4": "<p>17</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A pipelined processor takes 1 cycle per stage. Without forwarding, how many cycles will it take to execute 5 dependent instructions with 5 stages?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 20733
+  },
+  {
+   "_id": 20736,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>User</p>\n",
+   "OPT_2": "<p>FIQ</p>\n",
+   "OPT_3": "<p>Supervisor</p>\n",
+   "OPT_4": "<p>Abort</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In ARM architecture, which mode is used when handling interrupts?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 20736
+  },
+  {
+   "_id": 20737,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Instructions with register dependencies</p>\n",
+   "OPT_2": "<p>Instructions accessing different registers</p>\n",
+   "OPT_3": "<p>Unrelated instructions</p>\n",
+   "OPT_4": "<p>Instructions with only immediate values</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What type of instruction sequence can cause a data hazard in a pipelined processor?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 20737
+  },
+  {
+   "_id": 20738,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>64-bit instructions</p>\n",
+   "OPT_2": "<p>16-bit compressed instructions</p>\n",
+   "OPT_3": "<p>Optimized for floating-point</p>\n",
+   "OPT_4": "<p>Only used in ARMv8</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best describes the ARM Thumb instruction set?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 20738
+  }
+ ],
+ "sq": [
+  {
+   "_id": 21143,
+   "ANSWER": "<p data-end=\"572\" data-start=\"547\">Load/store architecture</p>\n\n<p data-end=\"619\" data-start=\"578\">Fixed instruction width (mostly 32-bit)</p>\n\n<p data-end=\"648\" data-start=\"625\">Conditional execution</p>\n\n<p data-end=\"682\" data-start=\"654\">Orthogonal instruction set</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"519\" data-start=\"453\">List and explain any four features of ARM architecture.</h3>\n\n<ul data-end=\"756\" data-start=\"520\">\n\t<li data-end=\"682\" data-start=\"520\">\n\t<p data-end=\"541\" data-start=\"522\">&nbsp;</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 21143
+  },
+  {
+   "_id": 21165,
+   "ANSWER": "<p data-end=\"978\" data-start=\"922\">Banked registers (R13, R14, SPSR) isolate mode context</p>\n\n<p data-end=\"1100\" data-start=\"981\">Speeds up exception/interrupt handling</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Define register banking. Mention its importance in ARM processor.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 21165
+  },
+  {
+   "_id": 21166,
+   "ANSWER": "<p data-end=\"1233\" data-start=\"1202\">User: unprivileged, app-level</p>\n\n<p data-end=\"1349\" data-start=\"1236\">Supervisor: privileged, OS-level</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Differentiate between User Mode and Supervisor Mode in ARM.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 21166
+  },
+  {
+   "_id": 21168,
+   "ANSWER": "<p data-end=\"1447\" data-start=\"1436\">Low power</p>\n\n<p data-end=\"1473\" data-start=\"1450\">High performance/watt</p>\n\n<p data-end=\"1486\" data-start=\"1476\">Scalable</p>\n\n<p data-end=\"1582\" data-start=\"1489\">Rich ecosystem</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>State any four advantages of ARM processors.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 21168
+  },
+  {
+   "_id": 21172,
+   "ANSWER": "<p data-end=\"1713\" data-start=\"1687\">64-bit support (AArch64)</p>\n\n<p data-end=\"1828\" data-start=\"1716\">Backward compatible with 32-bit</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Write a short note on ARMv8 architecture and its significance.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 21172
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21173,
+   "ANSWER": "<p data-end=\"2066\" data-start=\"1998\">User, FIQ, IRQ, Supervisor, Abort, Undefined, System, Monitor, Hyp</p>\n\n<p data-end=\"2211\" data-start=\"2069\">Used for interrupts, OS kernel, faults, security, virtualization</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain all ARM operating modes with their specific use cases.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "lq",
+   "key": 21173
+  },
+  {
+   "_id": 21174,
+   "ANSWER": "<p data-end=\"2381\" data-start=\"2354\">A: High performance, apps</p>\n\n<p data-end=\"2406\" data-start=\"2384\">R: Real-time control</p>\n\n<p data-end=\"2506\" data-start=\"2409\">M: Microcontrollers</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Compare ARM Cortex-A, Cortex-R, and Cortex-M series with respect to application domain and features.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "lq",
+   "key": 21174
+  },
+  {
+   "_id": 21178,
+   "ANSWER": "<p data-end=\"2663\" data-start=\"2623\"><strong data-end=\"2937\" data-start=\"2922\">Advantages:</strong> Simplicity, power efficiency, scalability<br data-end=\"2982\" data-start=\"2979\" />\n<strong data-end=\"2998\" data-start=\"2982\">Limitations:</strong> Toolchain complexity, instruction expansion</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Highlight the advantages and limitations of ARM processors over CISC processors.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "lq",
+   "key": 21178
+  },
+  {
+   "_id": 21181,
+   "ANSWER": "<p data-end=\"3302\" data-start=\"3276\">Thread: Application code</p>\n\n<p data-end=\"3336\" data-start=\"3305\">Handler: Exception/interrupts</p>\n\n<p data-end=\"3464\" data-start=\"3339\">CONTROL register decides mode, stack, privilege</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain the role of execution modes (Thread and Handler) in ARM Cortex-M and how CONTROL register manages them.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "lq",
+   "key": 21181
+  }
+ ]
+}

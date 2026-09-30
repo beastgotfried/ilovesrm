@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17400,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Data hazard</p>\n",
+   "OPT_2": "<p>Control hazard</p>\n",
+   "OPT_3": "<p>Structural hazard</p>\n",
+   "OPT_4": "<p>Cache hazard</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which type of hazard occurs when two instructions need the same hardware resource?</strong></p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 17400
+  },
+  {
+   "_id": 17401,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Memory bus contention</p>\n",
+   "OPT_2": "<p>ALU operation delay</p>\n",
+   "OPT_3": "<p>Register file overflow</p>\n",
+   "OPT_4": "<p>Branch or jump instructions changing the PC unpredictably</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What causes a control hazard?</strong></p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 17401
+  },
+  {
+   "_id": 17402,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>It involves resource conflicts rather than data dependencies</p>\n",
+   "OPT_2": "<p>It only occurs in the MEM stage</p>\n",
+   "OPT_3": "<p>It cannot be resolved</p>\n",
+   "OPT_4": "<p>It improves performance</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>How does a structural hazard differ from a data hazard?</strong></p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 17402
+  },
+  {
+   "_id": 17403,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Faster ALU operations</p>\n",
+   "OPT_2": "<p>Higher IPC</p>\n",
+   "OPT_3": "<p>Pipeline bubbles (stalled cycles)</p>\n",
+   "OPT_4": "<p>Fewer registers needed</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What is the primary effect of control hazards on performance?</strong></p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 17403
+  },
+  {
+   "_id": 17404,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Structural</p>\n",
+   "OPT_2": "<p>WAW</p>\n",
+   "OPT_3": "<p>WAR</p>\n",
+   "OPT_4": "<p>RAW (SUB needs R1 before ADD writes it)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>For the sequence:<br />\n<code>ADD R1, R2, R3</code><br />\n<code>SUB R4, R1, R5</code><br />\nWhat hazard occurs?</strong></p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 17404
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17443,
+   "ANSWER": "<ol data-end=\"2619\" data-start=\"2260\">\n\t<li data-end=\"2350\" data-start=\"2260\">\n\t<p data-end=\"1252\" data-start=\"943\">Data hazards occur when instructions depend on the results of previous instructions that have not yet completed. For example, if instruction 2 needs a value being calculated by instruction 1, instruction 2 might have to wait until the value is available. There are three types of data hazards:</p>\n\t</li>\n\t<li data-end=\"1380\" data-start=\"1253\">\n\t<p data-end=\"1380\" data-start=\"1255\"><strong data-end=\"1282\" data-start=\"1255\">Read After Write (RAW):</strong> The most common, where an instruction tries to read a register before a previous write is done.</p>\n\t</li>\n\t<li data-end=\"1581\" data-start=\"1381\">\n\t<p data-end=\"1581\" data-start=\"1383\"><strong data-end=\"1409\" data-start=\"1383\">Write After Read (WAR)</strong> and <strong data-end=\"1442\" data-start=\"1414\">Write After Write (WAW):</strong> Less common in simple pipelines.<br data-end=\"1478\" data-start=\"1475\" />\n\tData hazards can cause pipeline stalls or require techniques like forwarding to resolve the dependency.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain data hazards in pipelining with an example.</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "sq",
+   "key": 17443
+  },
+  {
+   "_id": 17444,
+   "ANSWER": "<p>&nbsp;</p>\n\n<p data-end=\"1252\" data-start=\"943\">Hazards in pipelining are situations that prevent the next instruction in the pipeline from executing during its designated clock cycle, causing delays or stalls. They arise because pipelining overlaps instruction execution stages, which can lead to conflicts or dependencies between instructions. Hazards reduce the pipeline&rsquo;s efficiency and can be classified mainly into three types: <strong data-end=\"687\" data-start=\"671\">data hazards</strong>, <strong data-end=\"708\" data-start=\"689\">control hazards</strong>, and <strong data-end=\"736\" data-start=\"714\">structural hazards</strong> (also called instruction hazards). Handling hazards is essential for maintaining pipeline performance.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What are hazards in pipelining?</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "sq",
+   "key": 17444
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17613,
+   "ANSWER": "<p data-end=\"3378\" data-start=\"3221\"><strong data-end=\"3254\" data-start=\"3235\">Control hazards</strong> occur due to the uncertainty of instruction flow in pipelined processors, typically caused by branch and jump instructions.</p>\n\n<hr data-end=\"3383\" data-start=\"3380\" />\n<p data-end=\"3416\" data-start=\"3385\"><strong data-end=\"3414\" data-start=\"3385\">How Branch Hazards Occur:</strong></p>\n\n<ul data-end=\"3784\" data-start=\"3417\">\n\t<li data-end=\"3468\" data-start=\"3417\">\n\t<p data-end=\"3468\" data-start=\"3419\">The pipeline fetches instructions sequentially.</p>\n\t</li>\n\t<li data-end=\"3591\" data-start=\"3469\">\n\t<p data-end=\"3591\" data-start=\"3471\">When a branch instruction is encountered, the next instruction to fetch depends on whether the branch is taken or not.</p>\n\t</li>\n\t<li data-end=\"3784\" data-start=\"3592\">\n\t<p data-end=\"3784\" data-start=\"3594\">The actual branch decision (taken/not taken) is usually made late in the pipeline (e.g., during the execute stage), so the instructions fetched immediately after the branch may be incorrect.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"3789\" data-start=\"3786\" />\n<p data-end=\"3818\" data-start=\"3791\"><strong data-end=\"3818\" data-start=\"3791\">Effects on Performance:</strong></p>\n\n<ul data-end=\"4024\" data-start=\"3820\">\n\t<li data-end=\"3947\" data-start=\"3820\">\n\t<p data-end=\"3947\" data-start=\"3822\">If the branch is <strong data-end=\"3848\" data-start=\"3839\">taken</strong>, the instructions fetched after the branch must be discarded (flushed), causing pipeline stalls.</p>\n\t</li>\n\t<li data-end=\"4024\" data-start=\"3948\">\n\t<p data-end=\"4024\" data-start=\"3950\">This causes a <strong data-end=\"3975\" data-start=\"3964\">penalty</strong> of several cycles, reducing pipeline efficiency.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"4029\" data-start=\"4026\" />\n<p data-end=\"4057\" data-start=\"4031\"><strong data-end=\"4057\" data-start=\"4031\">Mitigation Techniques:</strong></p>\n\n<ol data-end=\"4411\" data-start=\"4059\">\n\t<li data-end=\"4128\" data-start=\"4059\">\n\t<p data-end=\"4128\" data-start=\"4062\"><strong data-end=\"4075\" data-start=\"4062\">Stalling:</strong> Pipeline waits until the branch decision is known.</p>\n\t</li>\n\t<li data-end=\"4215\" data-start=\"4129\">\n\t<p data-end=\"4215\" data-start=\"4132\"><strong data-end=\"4154\" data-start=\"4132\">Branch Prediction:</strong> Guess the outcome of the branch to keep the pipeline full.</p>\n\t</li>\n\t<li data-end=\"4325\" data-start=\"4216\">\n\t<p data-end=\"4325\" data-start=\"4219\"><strong data-end=\"4238\" data-start=\"4219\">Delayed Branch:</strong> Schedule instructions after a branch that will execute regardless of branch outcome.</p>\n\t</li>\n\t<li data-end=\"4411\" data-start=\"4326\">\n\t<p data-end=\"4411\" data-start=\"4329\"><strong data-end=\"4360\" data-start=\"4329\">Branch Target Buffer (BTB):</strong> Caches the destination address of recent branches.</p>\n\t</li>\n</ol>\n\n<hr data-end=\"4416\" data-start=\"4413\" />\n<p data-end=\"4575\" data-start=\"4418\"><strong data-end=\"4430\" data-start=\"4418\">Summary:</strong><br data-end=\"4433\" data-start=\"4430\" />\nControl hazards reduce pipeline throughput by causing stalls or flushing, but modern techniques like prediction greatly mitigate their impact.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What are control hazards in pipelining? Discuss branch hazards and how they affect pipeline performance.</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "lq",
+   "key": 17613
+  }
+ ]
+}

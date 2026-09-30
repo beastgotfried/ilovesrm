@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 31183,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>010010</p>\n",
+   "OPT_2": "<p>101101</p>\n",
+   "OPT_3": "<p>010001</p>\n",
+   "OPT_4": "<p>111111</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The 1&rsquo;s complement of the binary number <code data-end=\"414\" data-start=\"406\">101101</code> is:</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 31183
+  },
+  {
+   "_id": 31184,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>10011</p>\n",
+   "OPT_2": "<p>10101</p>\n",
+   "OPT_3": "<p>10011</p>\n",
+   "OPT_4": "<p>10111</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The 2&rsquo;s complement of <code data-end=\"629\" data-start=\"622\">01101</code> (5-bit binary) is:</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 31184
+  },
+  {
+   "_id": 31186,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>0110</p>\n",
+   "OPT_2": "<p>0101</p>\n",
+   "OPT_3": "<p>0111</p>\n",
+   "OPT_4": "<p>1001</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Perform subtraction using 1&rsquo;s complement:&nbsp;1011\u200b&minus;01012</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 31186
+  },
+  {
+   "_id": 31188,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>In 1&rsquo;s complement method, end-around carry is discarded.</p>\n",
+   "OPT_2": "<p>In 2&rsquo;s complement method, end-around carry is added back.</p>\n",
+   "OPT_3": "<p>2&rsquo;s complement method never requires end-around carry.</p>\n",
+   "OPT_4": "<p>Both methods require end-around carry.</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which statement is <strong data-end=\"1493\" data-start=\"1485\">TRUE</strong> about subtraction using complements?</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 31188
+  },
+  {
+   "_id": 31189,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"2715\" data-start=\"2709\">0011</code> (3)</p>\n",
+   "OPT_2": "<p><code data-end=\"2731\" data-start=\"2725\">0001</code> (1)</p>\n",
+   "OPT_3": "<p><code data-end=\"2747\" data-start=\"2741\">1110</code> (-2)</p>\n",
+   "OPT_4": "<p><code data-end=\"2764\" data-start=\"2758\">0111</code> (7)</p>\n",
+   "OUTCOMES": [
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Subtract <code data-end=\"2657\" data-start=\"2647\">0010 (2)</code> from <code data-end=\"2673\" data-start=\"2663\">0101 (5)</code> using 1&rsquo;s complement method.</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 31189
+  }
+ ],
+ "sq": [
+  {
+   "_id": 31979,
+   "ANSWER": "<p>Copies data from source to destination.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"523\" data-start=\"457\"><strong data-end=\"521\" data-start=\"461\">What does the <code data-end=\"486\" data-start=\"481\">MOV</code> instruction do? Give an example.</strong></h3>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "sq",
+   "key": 31979
+  },
+  {
+   "_id": 31980,
+   "ANSWER": "<h3 data-end=\"889\" data-start=\"830\">Subtracts source operand from destination operand.</h3>\n\n<p data-end=\"960\" data-start=\"890\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"889\" data-start=\"830\"><strong data-end=\"887\" data-start=\"834\">What is the purpose of the <code data-end=\"872\" data-start=\"867\">SUB</code> instruction?</strong></h3>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "sq",
+   "key": 31980
+  }
+ ],
+ "lq": [
+  {
+   "_id": 31993,
+   "ANSWER": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">Assembly language is a <b>low-level programming language</b> that uses symbolic mnemonics to represent machine instructions. Each instruction has a specific <b>syntax</b> and <b>operation</b>. Below are some basic categories of instructions with explanation, syntax, and examples:</span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. Data Transfer Instructions</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">These move data between registers, memory, and I/O.</span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Syntax:</b> MOV destination, source</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b> MOV AX, BX &rarr; copies contents of register BX into AX.</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Interpretation:</b> Does not alter source, only destination changes.</span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. Arithmetic Instructions</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">Used for basic operations like addition, subtraction, increment, etc.</span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Syntax:</b> ADD destination, source</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b> ADD AX, 05H &rarr; adds hexadecimal 05 to AX register.</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Other Instructions:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">SUB AX, BX &rarr; subtract BX from AX.</span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">INC AX &rarr; increment AX by 1.</span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">DEC BX &rarr; decrement BX by 1.</span></span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. Logical Instructions</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">Perform bitwise operations such as AND, OR, XOR, and NOT.</span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Syntax:</b> AND destination, source</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b> AND AL, 0FH &rarr; masks higher nibble of AL register (keeps only lower 4 bits).</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Other Instructions:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">OR AX, BX &rarr; bitwise OR between AX and BX.</span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">XOR AX, AX &rarr; clears AX (XOR with itself = 0).</span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">NOT BL &rarr; bitwise NOT of BL register.</span></span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>4. Control Transfer Instructions</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">Alter the flow of program execution (jumps, loops, calls).</span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Syntax:</b> JMP label</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">JMP START&nbsp; </span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">START: MOV AX, 10</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Other Instructions:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">JZ label &rarr; jump if zero flag is set.</span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">LOOP label &rarr; decrements CX and jumps if CX &ne; 0.</span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">CALL subroutine / RET &rarr; call and return from subroutine.</span></span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>5. Comparison Instructions</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">Used for testing conditions and setting flags.</span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Syntax:</b> CMP destination, source</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b> CMP AX, BX &rarr; compares AX and BX by subtracting BX from AX (result stored in flags).</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">Typically followed by conditional jumps like JE, JNE.</span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>6. Shift and Rotate Instructions</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">Manipulate bits in registers.</span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Syntax:</b> SHL destination, count</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b> SHL AX, 1 &rarr; shifts bits of AX left by 1 (multiply by 2).</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Other Instructions:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">SHR BX, 1 &rarr; shift right (divide by 2).</span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">ROL AL, 1 &rarr; rotate AL left.</span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">ROR BL, 1 &rarr; rotate BL right.</span></span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>7. Input/Output Instructions</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">Used for communication with I/O devices.</span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Syntax:</b> IN accumulator, port</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b> IN AL, 60H &rarr; reads data from port 60H into AL.</span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Other:</b> OUT port, accumulator &rarr; sends data to port.</span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Identify and interpret basic assembly language instructions with their correct syntax, giving suitable examples.</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "lq",
+   "key": 31993
+  }
+ ]
+}

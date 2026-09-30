@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 18740,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Many-to-One</p>\n",
+   "OPT_2": "<p>One-to-One</p>\n",
+   "OPT_3": "<p>Many-to-Many</p>\n",
+   "OPT_4": "<p>One-to-Many</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT a standard multithreading model in operating systems?</p>\n\n<p data-end=\"480\" data-start=\"413\">&nbsp;</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 18740
+  },
+  {
+   "_id": 18741,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Multiple kernel threads</p>\n",
+   "OPT_2": "<p>One kernel thread</p>\n",
+   "OPT_3": "<p>Hardware interrupts</p>\n",
+   "OPT_4": "<p>Multiple processes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"585\" data-start=\"515\"><strong data-end=\"583\" data-start=\"519\">In the many-to-one model, all user threads are mapped to:</strong></h3>\n\n<p data-end=\"686\" data-start=\"586\">&nbsp;</p>\n\n<p data-end=\"480\" data-start=\"413\">&nbsp;</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 18741
+  },
+  {
+   "_id": 18742,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>One-to-One</p>\n",
+   "OPT_2": "<p>Many-to-Many</p>\n",
+   "OPT_3": "<p>Many-to-One</p>\n",
+   "OPT_4": "<p>One-to-Many</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"813\" data-start=\"727\"><strong data-end=\"811\" data-start=\"731\">Which model allows many user threads to be mapped to many kernel threads?</strong></h3>\n\n<p data-end=\"881\" data-start=\"814\">&nbsp;</p>\n\n<p data-end=\"480\" data-start=\"413\">&nbsp;</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 18742
+  },
+  {
+   "_id": 18744,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Lack of parallelism</p>\n",
+   "OPT_2": "<p>Inability to use kernel-level threads</p>\n",
+   "OPT_3": "<p>High overhead due to kernel thread creation</p>\n",
+   "OPT_4": "<p>No blocking issues</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"978\" data-start=\"917\"><strong data-end=\"976\" data-start=\"921\">A major disadvantage of the one-to-one model is:</strong></h3>\n\n<p data-end=\"1119\" data-start=\"979\">&nbsp;</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 18744
+  },
+  {
+   "_id": 18747,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Many-to-One</p>\n",
+   "OPT_2": "<p>One-to-One</p>\n",
+   "OPT_3": "<p>Many-to-Many</p>\n",
+   "OPT_4": "<p>Hybrid</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1257\" data-start=\"1186\"><strong data-end=\"1255\" data-start=\"1190\">Which model provides the most flexibility and scalability?</strong></h3>\n\n<p data-end=\"1320\" data-start=\"1258\">A.<br data-end=\"1275\" data-start=\"1272\" />\nB.<br data-end=\"1291\" data-start=\"1288\" />\nC.<br data-end=\"1309\" data-start=\"1306\" />\nD.</p>\n\n<p data-end=\"1349\" data-start=\"1322\"><strong data-end=\"1333\" data-start=\"1322\">Answer:</strong> C. Many-to-Many</p>\n\n<p data-end=\"1119\" data-start=\"979\">&nbsp;</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 18747
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18772,
+   "ANSWER": "<p><br data-end=\"1466\" data-start=\"1463\" />\nIn the <strong data-end=\"1489\" data-start=\"1473\">many-to-many</strong> model, <strong data-end=\"1522\" data-start=\"1497\">multiple user threads</strong> are mapped to <strong data-end=\"1584\" data-start=\"1537\">a smaller or equal number of kernel threads</strong>. This model allows the operating system to schedule kernel threads independently and supports concurrency without blocking all threads when one is waiting.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1451\" data-start=\"1392\"><strong data-end=\"1449\" data-start=\"1396\">What is the many-to-many multithreading model?</strong></h3>\n\n<p data-end=\"1740\" data-start=\"1452\">&nbsp;</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 18772
+  },
+  {
+   "_id": 18773,
+   "ANSWER": "<p><br data-end=\"1823\" data-start=\"1820\" />\nA major disadvantage of the <strong data-end=\"1866\" data-start=\"1851\">many-to-one</strong> model is that if <strong data-end=\"1927\" data-start=\"1884\">one thread makes a blocking system call</strong>, <strong data-end=\"1950\" data-start=\"1929\">all other threads</strong> are also blocked because only one kernel thread manages all user threads.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1808\" data-start=\"1747\"><strong data-end=\"1806\" data-start=\"1751\">What is a disadvantage of the many-to-one model?</strong></h3>\n\n<p data-end=\"2024\" data-start=\"1809\">&nbsp;</p>\n\n<p data-end=\"1740\" data-start=\"1452\">&nbsp;</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 18773
+  }
+ ],
+ "lq": [
+  {
+   "_id": 18775,
+   "ANSWER": "<p data-end=\"2430\" data-start=\"2249\">Multithreading models define how <strong data-end=\"2304\" data-start=\"2282\">user-level threads</strong> are <strong data-end=\"2343\" data-start=\"2309\">mapped to kernel-level threads</strong>. The operating system uses these models to manage thread execution and CPU scheduling.</p>\n\n<hr data-end=\"2435\" data-start=\"2432\" />\n<h2 data-end=\"2467\" data-start=\"2437\">&nbsp;<strong data-end=\"2467\" data-start=\"2443\">1. Many-to-One Model</strong></h2>\n\n<ul data-end=\"2615\" data-start=\"2469\">\n\t<li data-end=\"2551\" data-start=\"2469\">\n\t<p data-end=\"2551\" data-start=\"2471\"><strong data-end=\"2487\" data-start=\"2471\">Description:</strong> Multiple user threads are mapped to a <strong data-end=\"2550\" data-start=\"2526\">single kernel thread</strong>.</p>\n\t</li>\n\t<li data-end=\"2615\" data-start=\"2552\">\n\t<p data-end=\"2615\" data-start=\"2554\"><strong data-end=\"2566\" data-start=\"2554\">Used in:</strong> Green Threads (e.g., early Java implementations)</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"2638\" data-start=\"2617\"><strong data-end=\"2638\" data-start=\"2623\">Advantages:</strong></h3>\n\n<ul data-end=\"2715\" data-start=\"2639\">\n\t<li data-end=\"2658\" data-start=\"2639\">\n\t<p data-end=\"2658\" data-start=\"2641\">Easy to implement</p>\n\t</li>\n\t<li data-end=\"2715\" data-start=\"2659\">\n\t<p data-end=\"2715\" data-start=\"2661\">Efficient thread creation and management at user level</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"2741\" data-start=\"2717\">&nbsp;<strong data-end=\"2741\" data-start=\"2723\">Disadvantages:</strong></h3>\n\n<ul data-end=\"2836\" data-start=\"2742\">\n\t<li data-end=\"2790\" data-start=\"2742\">\n\t<p data-end=\"2790\" data-start=\"2744\"><strong data-end=\"2769\" data-start=\"2744\">No parallel execution</strong> on multicore systems</p>\n\t</li>\n\t<li data-end=\"2836\" data-start=\"2791\">\n\t<p data-end=\"2836\" data-start=\"2793\"><strong data-end=\"2818\" data-start=\"2793\">Blocking system calls</strong> block all threads</p>\n\t</li>\n</ul>\n\n<h2 data-end=\"2872\" data-start=\"2843\">&nbsp;<strong data-end=\"2872\" data-start=\"2849\">2. One-to-One Model</strong></h2>\n\n<ul data-end=\"2988\" data-start=\"2874\">\n\t<li data-end=\"2944\" data-start=\"2874\">\n\t<p data-end=\"2944\" data-start=\"2876\"><strong data-end=\"2892\" data-start=\"2876\">Description:</strong> Each user thread maps to <strong data-end=\"2943\" data-start=\"2918\">its own kernel thread</strong>.</p>\n\t</li>\n\t<li data-end=\"2988\" data-start=\"2945\">\n\t<p data-end=\"2988\" data-start=\"2947\"><strong data-end=\"2959\" data-start=\"2947\">Used in:</strong> Windows, Linux with pthreads</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3011\" data-start=\"2990\">&nbsp;<strong data-end=\"3011\" data-start=\"2996\">Advantages:</strong></h3>\n\n<ul data-end=\"3111\" data-start=\"3012\">\n\t<li data-end=\"3064\" data-start=\"3012\">\n\t<p data-end=\"3064\" data-start=\"3014\">Allows <strong data-end=\"3041\" data-start=\"3021\">true parallelism</strong> on multiple processors</p>\n\t</li>\n\t<li data-end=\"3111\" data-start=\"3065\">\n\t<p data-end=\"3111\" data-start=\"3067\">A blocking thread does <strong data-end=\"3104\" data-start=\"3090\">not affect</strong> others</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3137\" data-start=\"3113\">&nbsp;<strong data-end=\"3137\" data-start=\"3119\">Disadvantages:</strong></h3>\n\n<ul data-end=\"3234\" data-start=\"3138\">\n\t<li data-end=\"3189\" data-start=\"3138\">\n\t<p data-end=\"3189\" data-start=\"3140\"><strong data-end=\"3159\" data-start=\"3140\">Higher overhead</strong> due to kernel thread creation</p>\n\t</li>\n\t<li data-end=\"3234\" data-start=\"3190\">\n\t<p data-end=\"3234\" data-start=\"3192\"><strong data-end=\"3209\" data-start=\"3192\">System limits</strong> on the number of threads</p>\n\t</li>\n</ul>\n\n<h2 data-end=\"3272\" data-start=\"3241\">&nbsp;<strong data-end=\"3272\" data-start=\"3247\">3. Many-to-Many Model</strong></h2>\n\n<ul data-end=\"3406\" data-start=\"3274\">\n\t<li data-end=\"3362\" data-start=\"3274\">\n\t<p data-end=\"3362\" data-start=\"3276\"><strong data-end=\"3292\" data-start=\"3276\">Description:</strong> Multiple user threads are mapped to <strong data-end=\"3347\" data-start=\"3329\">equal or fewer</strong> kernel threads</p>\n\t</li>\n\t<li data-end=\"3406\" data-start=\"3363\">\n\t<p data-end=\"3406\" data-start=\"3365\"><strong data-end=\"3377\" data-start=\"3365\">Used in:</strong> Solaris, Windows Thread Pool</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3429\" data-start=\"3408\"><strong data-end=\"3429\" data-start=\"3414\">Advantages:</strong></h3>\n\n<ul data-end=\"3547\" data-start=\"3430\">\n\t<li data-end=\"3463\" data-start=\"3430\">\n\t<p data-end=\"3463\" data-start=\"3432\">Allows <strong data-end=\"3463\" data-start=\"3439\">scalable concurrency</strong></p>\n\t</li>\n\t<li data-end=\"3508\" data-start=\"3464\">\n\t<p data-end=\"3508\" data-start=\"3466\">Threads can be <strong data-end=\"3508\" data-start=\"3481\">independently scheduled</strong></p>\n\t</li>\n\t<li data-end=\"3547\" data-start=\"3509\">\n\t<p data-end=\"3547\" data-start=\"3511\">Balances performance and flexibility</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3573\" data-start=\"3549\"><strong data-end=\"3573\" data-start=\"3555\">Disadvantages:</strong></h3>\n\n<ul data-end=\"3655\" data-start=\"3574\">\n\t<li data-end=\"3605\" data-start=\"3574\">\n\t<p data-end=\"3605\" data-start=\"3576\">More <strong data-end=\"3605\" data-start=\"3581\">complex to implement</strong></p>\n\t</li>\n\t<li data-end=\"3655\" data-start=\"3606\">\n\t<p data-end=\"3655\" data-start=\"3608\">May require <strong data-end=\"3655\" data-start=\"3620\">additional user-level libraries</strong></p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3687\" data-start=\"3662\"><strong data-end=\"3687\" data-start=\"3666\">Comparison Table:</strong></h3>\n\n<table data-end=\"4163\" data-start=\"3689\">\n\t<thead data-end=\"3782\" data-start=\"3689\">\n\t\t<tr data-end=\"3782\" data-start=\"3689\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"3705\" data-start=\"3689\">Model</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"3719\" data-start=\"3705\">Parallelism</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"3737\" data-start=\"3719\">Blocking Issues</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"3755\" data-start=\"3737\">Thread Overhead</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"3782\" data-start=\"3755\">Example Use Case</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"4163\" data-start=\"3879\">\n\t\t<tr data-end=\"3973\" data-start=\"3879\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3895\" data-start=\"3879\">Many-to-One</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3909\" data-start=\"3895\">\u274c No</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3927\" data-start=\"3909\">\u2705 Yes</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3946\" data-start=\"3927\">Low</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3973\" data-start=\"3946\">Simple user-thread apps</td>\n\t\t</tr>\n\t\t<tr data-end=\"4068\" data-start=\"3974\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3990\" data-start=\"3974\">One-to-One</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4004\" data-start=\"3990\">\u2705 Yes</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4022\" data-start=\"4004\">\u274c No</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4041\" data-start=\"4022\">High</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4068\" data-start=\"4041\">Java, Pthreads</td>\n\t\t</tr>\n\t\t<tr data-end=\"4163\" data-start=\"4069\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"4085\" data-start=\"4069\">Many-to-Many</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4099\" data-start=\"4085\">\u2705 Yes</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4117\" data-start=\"4099\">\u274c No</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4136\" data-start=\"4117\">Moderate</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4163\" data-start=\"4136\">Thread pools, servers</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2203\" data-start=\"2080\">Explain different multithreading models in operating systems. Discuss their advantages and disadvantages with examples.</strong></p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "lq",
+   "key": 18775
+  }
+ ]
+}

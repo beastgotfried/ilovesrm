@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 13231,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Smart card</p>\n",
+   "OPT_2": "<p>Fingerprint</p>\n",
+   "OPT_3": "<p>Password</p>\n",
+   "OPT_4": "<p>OTP token</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a <strong data-end=\"326\" data-start=\"285\">knowledge-based authentication factor</strong>?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 13231
+  },
+  {
+   "_id": 13232,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Something you know</p>\n",
+   "OPT_2": "<p>Something you have</p>\n",
+   "OPT_3": "<p>Something you are</p>\n",
+   "OPT_4": "<p>Somewhere you are</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"459\" data-start=\"431\">Biometric authentication</strong> falls under which factor category?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 13232
+  },
+  {
+   "_id": 13233,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Password only</p>\n",
+   "OPT_2": "<p>Password + OTP</p>\n",
+   "OPT_3": "<p>PIN only</p>\n",
+   "OPT_4": "<p>Fingerprint only</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which is an example of <strong data-end=\"919\" data-start=\"888\">multi-factor authentication</strong>?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 13233
+  },
+  {
+   "_id": 13234,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Encryption</p>\n",
+   "OPT_2": "<p>Authentication</p>\n",
+   "OPT_3": "<p>Deadlock prevention</p>\n",
+   "OPT_4": "<p>Firewalling</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is <strong data-end=\"1324\" data-start=\"1317\">not</strong> a security defense technique?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 13234
+  },
+  {
+   "_id": 13235,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Firewall</p>\n",
+   "OPT_2": "<p>Encryption</p>\n",
+   "OPT_3": "<p>Authentication</p>\n",
+   "OPT_4": "<p>RAID</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which security defense ensures <strong data-end=\"1788\" data-start=\"1764\">data confidentiality</strong>?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 13235
+  }
+ ],
+ "sq": [
+  {
+   "_id": 13251,
+   "ANSWER": "<ul data-end=\"2711\" data-start=\"2570\">\n\t<li data-end=\"2608\" data-start=\"2570\">\n\t<p data-end=\"2608\" data-start=\"2572\"><strong data-end=\"2592\" data-start=\"2572\">Knowledge-based:</strong> Password, PIN</p>\n\t</li>\n\t<li data-end=\"2656\" data-start=\"2609\">\n\t<p data-end=\"2656\" data-start=\"2611\"><strong data-end=\"2632\" data-start=\"2611\">Possession-based:</strong> Smart card, OTP token</p>\n\t</li>\n\t<li data-end=\"2711\" data-start=\"2657\">\n\t<p data-end=\"2711\" data-start=\"2659\"><strong data-end=\"2679\" data-start=\"2659\">Biometric-based:</strong> Fingerprint, facial recognition</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>List <strong data-end=\"2529\" data-start=\"2491\">three types of user authentication</strong> with one example each.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 13251
+  },
+  {
+   "_id": 13253,
+   "ANSWER": "<ul data-end=\"2711\" data-start=\"2570\">\n\t<li data-end=\"2893\" data-start=\"2819\">\n\t<p data-end=\"2893\" data-start=\"2821\"><strong data-end=\"2836\" data-start=\"2821\">Encryption:</strong> Protects data confidentiality by encoding information.</p>\n\t</li>\n\t<li data-end=\"2966\" data-start=\"2894\">\n\t<p data-end=\"2966\" data-start=\"2896\"><strong data-end=\"2912\" data-start=\"2896\">Firewalling:</strong> Filters network traffic to block unauthorized access.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain <strong data-end=\"2774\" data-start=\"2735\">any two security defense techniques</strong> used in operating systems.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 13253
+  }
+ ],
+ "lq": [
+  {
+   "_id": 13261,
+   "ANSWER": "<p data-end=\"8111\" data-start=\"7758\"><strong data-end=\"7771\" data-start=\"7760\">Answer Key:</strong></p>\n\n<ol data-end=\"2831\" data-start=\"2257\">\n\t<li data-end=\"2335\" data-start=\"2184\">\n\t<p data-end=\"3238\" data-start=\"3130\"><strong data-end=\"3183\" data-start=\"3146\">Multi-factor authentication (MFA)</strong> combines two or more authentication factors such as:</p>\n\t</li>\n\t<li data-end=\"3275\" data-start=\"3239\">\n\t<p data-end=\"3275\" data-start=\"3241\"><strong data-end=\"3264\" data-start=\"3241\">Something you know:</strong> Password</p>\n\t</li>\n\t<li data-end=\"3325\" data-start=\"3276\">\n\t<p data-end=\"3325\" data-start=\"3278\"><strong data-end=\"3301\" data-start=\"3278\">Something you have:</strong> OTP token, smart card</p>\n\t</li>\n\t<li data-end=\"2335\" data-start=\"2184\">\n\t<p data-end=\"4624\" data-start=\"4473\">&nbsp;</p>\n\n\t<p data-end=\"3647\" data-start=\"3362\"><strong data-end=\"3377\" data-start=\"3362\">Importance:</strong><br data-end=\"3380\" data-start=\"3377\" />\n\tEnhances security by requiring multiple proofs of identity, making unauthorized access significantly harder.<br data-end=\"3491\" data-start=\"3488\" />\n\t<strong data-end=\"3503\" data-start=\"3491\">Example:</strong> Logging into a bank account requires both password (knowledge) and OTP sent to mobile (possession), reducing risks of credential theft attacks.</p>\n\t</li>\n\t<li data-end=\"3360\" data-start=\"3326\">\n\t<p data-end=\"3360\" data-start=\"3328\"><strong data-end=\"3350\" data-start=\"3328\">Something you are:</strong> Biometric</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Describe <strong data-end=\"3047\" data-start=\"3016\">multi-factor authentication</strong> and explain its importance in enhancing operating system security with examples.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "lq",
+   "key": 13261
+  }
+ ]
+}

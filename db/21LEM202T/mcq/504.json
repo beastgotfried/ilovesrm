@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36872,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Blind experimentation</p>\n",
+   "OPT_2": "<p>Technology</p>\n",
+   "OPT_3": "<p>Competition</p>\n",
+   "OPT_4": "<p>Wealth creation</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The practical application of science guided by wisdom is called:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 36872
+  },
+  {
+   "_id": 36873,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Live in isolation</p>\n",
+   "OPT_2": "<p>Align thoughts, behavior, and work with harmony in existence</p>\n",
+   "OPT_3": "<p>Prioritize wealth over relationships</p>\n",
+   "OPT_4": "<p>Focus only on physical comfort</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>All-encompassing resolution helps a human being to:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 36873
+  },
+  {
+   "_id": 36874,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Understanding</p>\n",
+   "OPT_2": "<p>Wisdom</p>\n",
+   "OPT_3": "<p>Exploitation</p>\n",
+   "OPT_4": "<p>Science</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT part of all-encompassing resolution?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 36874
+  },
+  {
+   "_id": 36875,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Self-realization and right understanding</p>\n",
+   "OPT_2": "<p>Competition and jealousy</p>\n",
+   "OPT_3": "<p>Power and domination</p>\n",
+   "OPT_4": "<p>Technology</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The foundation of all-encompassing resolution lies in:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 36875
+  },
+  {
+   "_id": 36876,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Sustainable conduct</p>\n",
+   "OPT_2": "<p>Confusion and contradictions</p>\n",
+   "OPT_3": "<p>Harmony in society</p>\n",
+   "OPT_4": "<p>Clarity in decisions</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Wisdom without understanding may lead to:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 36876
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36478,
+   "ANSWER": "<p>Understanding is clarity at the individual level, while wisdom is the ability to apply that understanding universally for harmony in society and nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How does wisdom differ from understanding?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 36478
+  },
+  {
+   "_id": 36480,
+   "ANSWER": "<p>Science provides methods and tools to explore nature and develop technology, but it must be guided by wisdom and values for sustainable development.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the role of science in the all-encompassing resolution?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 36480
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122525,
+   "ANSWER": "<p>Right understanding gives the foundation for human values and ethical human conduct. With this understanding, we can visualise holistic development that leads to a humane society, which means undivided society and universal human order. A humane society is people-friendly, eco-friendly and sustainable. To move toward it, human beings need humanistic education, human conduct, human constitution and universal human order. Humanistic education is the entry point because it develops the competence to live with definite human conduct. Human conduct ensures mutual happiness and prosperity. Human constitution supports a society living in mutual fulfilment. Universal human order is the society in which the human goal is realised. Thus, humanistic education leads to human conduct, human constitution and universal human order generation after generation.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain how right understanding leads to humane society and humanistic tradition.</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "lq",
+   "key": 122525
+  }
+ ]
+}

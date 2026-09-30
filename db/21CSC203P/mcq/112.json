@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9344,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) To use more memory<br data-end=\"446\" data-start=\"443\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) To execute tasks sequentially<br data-end=\"481\" data-start=\"478\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) To perform multiple tasks simultaneously for faster performance<br data-end=\"550\" data-start=\"547\" />\n<br data-end=\"1514\" data-start=\"1511\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) To simplify code structure</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"419\" data-start=\"368\">What is the main goal of parallel computing?</strong><br data-end=\"422\" data-start=\"419\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 9344
+  },
+  {
+   "_id": 9345,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) A data structure for sorting<br data-end=\"734\" data-start=\"731\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) A single independent path of execution within a program<br data-end=\"795\" data-start=\"792\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) A wrapper class for variables<br data-end=\"830\" data-start=\"827\" />\n<br data-end=\"550\" data-start=\"547\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) A type of database connection</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"697\" data-start=\"634\">What is a thread in the context of parallel programming?</strong><br data-end=\"700\" data-start=\"697\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 9345
+  },
+  {
+   "_id": 9346,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Tasks are executed in strict order<br data-end=\"1015\" data-start=\"1012\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Tasks are scheduled to appear as if they are running simultaneously<br data-end=\"1088\" data-start=\"1085\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Only one thread is used per program<br data-end=\"1129\" data-start=\"1126\" />\n<br data-end=\"830\" data-start=\"827\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) Execution is done without any synchronization</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"972\" data-start=\"915\">Which of the following best describes concurrency?</strong><br data-end=\"975\" data-start=\"972\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 9346
+  },
+  {
+   "_id": 9347,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Through manual memory management<br data-end=\"1361\" data-start=\"1358\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Using threading libraries, executors, or multiprocessing modules<br data-end=\"1431\" data-start=\"1428\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) By converting code to machine language<br data-end=\"1475\" data-start=\"1472\" />\n<br data-end=\"1129\" data-start=\"1126\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) Using only loops and conditions</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1320\" data-start=\"1232\">How is parallelism typically implemented in modern languages like Java or Python?</strong><br data-end=\"1323\" data-start=\"1320\" />\n<br data-end=\"975\" data-start=\"972\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 9347
+  },
+  {
+   "_id": 9348,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Reducing object-oriented features<br data-end=\"1687\" data-start=\"1684\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Handling synchronization, race conditions, and shared resource conflicts<br data-end=\"1765\" data-start=\"1762\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Avoiding any thread usage<br data-end=\"1796\" data-start=\"1793\" />\n<br data-end=\"1323\" data-start=\"1320\" />\n<br data-end=\"1475\" data-start=\"1472\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) Eliminating variable declarations</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1645\" data-start=\"1559\">What is a key challenge when evaluating parallel computing in modern languages?</strong><br data-end=\"1648\" data-start=\"1645\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 9348
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9371,
+   "ANSWER": "<p>Serialization converts objects into a storable format (e.g., binary or JSON), enabling persistent storage and easy reconstruction of object state when needed.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A chat application needs to store user messages for future retrieval. How does object serialization fulfill this requirement?</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "sq",
+   "key": 9371
+  },
+  {
+   "_id": 9372,
+   "ANSWER": "<p>Implementing multi-threading allows concurrent uploads, while serialization can be used to store metadata for tracking and recovery, improving throughput and reliability.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A web server must handle file uploads from multiple clients simultaneously. What approach ensures better efficiency in this scenario?</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "sq",
+   "key": 9372
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9385,
+   "ANSWER": "<ul data-end=\"8074\" data-start=\"7867\">\n\t<li data-end=\"7984\" data-start=\"7867\">\n\t<p data-end=\"7899\" data-start=\"7869\"><strong data-end=\"7898\" data-start=\"7869\">class Message implements Serializable {<br />\n\t&nbsp; &nbsp; private String sender;<br />\n\t&nbsp; &nbsp; private String content;<br />\n\t}</strong>class ReceiveThread extends Thread {<br />\n\t&nbsp; &nbsp; public void run() {<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; // read and deserialize messages<br />\n\t&nbsp; &nbsp; }<br />\n\t}</p>\n\t</li>\n\t<li data-end=\"9306\" data-start=\"9185\">\n\t<p data-end=\"9200\" data-start=\"9187\"><strong data-end=\"9199\" data-start=\"9187\">Security</strong>:</p>\n\n\t<ul data-end=\"9306\" data-start=\"9203\">\n\t\t<li data-end=\"9251\" data-start=\"9203\">\n\t\t<p data-end=\"9251\" data-start=\"9205\">Use <code data-end=\"9228\" data-start=\"9209\">ObjectInputStream</code> with input validation.</p>\n\t\t</li>\n\t\t<li data-end=\"9306\" data-start=\"9254\">\n\t\t<p data-end=\"9306\" data-start=\"9256\">Employ encryption (e.g., TLS) during transmission.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"9438\" data-start=\"9308\">\n\t<p data-end=\"9325\" data-start=\"9310\"><strong data-end=\"9324\" data-start=\"9310\">Efficiency</strong>:</p>\n\n\t<ul data-end=\"9438\" data-start=\"9328\">\n\t\t<li data-end=\"9392\" data-start=\"9328\">\n\t\t<p data-end=\"9392\" data-start=\"9330\">Thread pool management ensures responsiveness and parallelism.</p>\n\t\t</li>\n\t\t<li data-end=\"9438\" data-start=\"9395\">\n\t\t<p data-end=\"9438\" data-start=\"9397\">Proper synchronization avoids data races.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"613\" data-start=\"371\">A chat application requires objects to be sent over a network and support for concurrent message handling. Explain how <strong data-end=\"8643\" data-start=\"8626\">serialization</strong> and <strong data-end=\"8668\" data-start=\"8648\">parallel threads</strong> can be integrated to achieve secure and efficient</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "lq",
+   "key": 9385
+  }
+ ]
+}

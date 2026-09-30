@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 13184,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Global table</p>\n",
+   "OPT_2": "<p>Access list for objects</p>\n",
+   "OPT_3": "<p>Capability lists for domains</p>\n",
+   "OPT_4": "<p>Linked list for objects</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is <strong data-end=\"227\" data-start=\"220\">not</strong> a method to implement an access matrix?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 13184
+  },
+  {
+   "_id": 13185,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Access list for objects</p>\n",
+   "OPT_2": "<p>Capability list</p>\n",
+   "OPT_3": "<p>Global table</p>\n",
+   "OPT_4": "<p>Lock-key mechanism</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which implementation method uses a set of ordered triples &lt;domain, object, rights-set&gt;?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 13185
+  },
+  {
+   "_id": 13186,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>It requires less memory</p>\n",
+   "OPT_2": "<p>It is difficult to manage grouping of objects/domains</p>\n",
+   "OPT_3": "<p>It does not require virtual memory</p>\n",
+   "OPT_4": "<p>It is faster than other methods</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which is a drawback of using a global table for access matrix implementation?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 13186
+  },
+  {
+   "_id": 13187,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>&lt;object, domain-set&gt;</p>\n",
+   "OPT_2": "<p>&lt;domain, rights-set&gt;</p>\n",
+   "OPT_3": "<p>&lt;rights-set, object&gt;</p>\n",
+   "OPT_4": "<p>&lt;domain, object&gt;</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In access lists for objects, an entry consists of:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 13187
+  },
+  {
+   "_id": 13241,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Only the name of the object</p>\n",
+   "OPT_2": "<p>Physical name or address of the object</p>\n",
+   "OPT_3": "<p>Rights set of the object</p>\n",
+   "OPT_4": "<p>Domain name</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In capability lists, the capability represents:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 13241
+  }
+ ],
+ "sq": [
+  {
+   "_id": 13182,
+   "ANSWER": "<p>A global table stores ordered triples &lt;domain, object, rights-set&gt; for all access rights, searched each time an operation is executed.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is a <strong data-end=\"1640\" data-start=\"1624\">global table</strong> in access matrix implementation?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 13182
+  },
+  {
+   "_id": 13189,
+   "ANSWER": "<p>It is a list for a domain containing objects with their allowed operations, where possession of capability grants access.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Define <strong data-end=\"1865\" data-start=\"1846\">capability list</strong>.</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 13189
+  }
+ ],
+ "lq": [
+  {
+   "_id": 13181,
+   "ANSWER": "<p data-end=\"2500\" data-start=\"2453\"><strong data-end=\"2466\" data-start=\"2455\">Answer (Explain in detail):</strong></p>\n\n<ul>\n\t<li data-end=\"2600\" data-start=\"2467\">\n\t<p data-end=\"2600\" data-start=\"2469\"><strong data-end=\"2486\" data-start=\"2469\">Global Table:</strong> Uses ordered triples &lt;domain, object, rights-set&gt;; easy to implement but inefficient due to size and I/O needs.</p>\n\t</li>\n\t<li data-end=\"2733\" data-start=\"2601\">\n\t<p data-end=\"2733\" data-start=\"2603\"><strong data-end=\"2632\" data-start=\"2603\">Access Lists for Objects:</strong> Stores access lists per object, efficient in sparse matrices but requires default rights checking.</p>\n\t</li>\n\t<li data-end=\"2959\" data-start=\"2734\">\n\t<p data-end=\"2959\" data-start=\"2736\"><strong data-end=\"2769\" data-start=\"2736\">Capability Lists for Domains:</strong> Associates domains with object-capability pairs; direct access control but requires secure management to prevent unauthorized capability use.</p>\n\t</li>\n\t<li data-end=\"2959\" data-start=\"2734\">\n\t<p data-end=\"2959\" data-start=\"2736\"><strong>A Lock-Key Mechanism:</strong>&nbsp;lock-key scheme is a compromise between access lists and capability lists.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Explain <strong data-end=\"2379\" data-start=\"2358\">any three methods</strong> for implementing an access matrix with their advantages or drawbacks.</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "lq",
+   "key": 13181
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "mcq": [
+  {
+   "_id": 23929,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p data-end=\"856\" data-start=\"803\">Normalized numbers always have zero exponent</p>\n\n<p data-end=\"856\" data-start=\"803\">&nbsp;</p>\n",
+   "OPT_2": "<p>Normalized numbers begin with an implicit leading 1 in the mantissa<br data-end=\"560\" data-start=\"557\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>Denormalized numbers are always negative<br data-end=\"610\" data-start=\"607\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>Normalized numbers do not use bias</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"427\" data-start=\"326\">What distinguishes <strong data-end=\"388\" data-start=\"357\">IEEE 754 normalized numbers</strong> from denormalized (subnormal) numbers?</h3>\n\n<p data-end=\"653\" data-start=\"429\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq"
+  },
+  {
+   "_id": 23932,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p data-end=\"1693\" data-start=\"1471\">1 sign bit, 10 exponent bits, 21 fraction bits</p>\n\n<p data-end=\"1693\" data-start=\"1471\">&nbsp;</p>\n\n<p data-end=\"856\" data-start=\"803\">&nbsp;</p>\n",
+   "OPT_2": "<p>1 sign bit, 8 exponent bits, 23 fraction bits<br data-end=\"1582\" data-start=\"1579\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>2 sign bits, 8 exponent bits, 22 fraction bits<br data-end=\"1638\" data-start=\"1635\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>1 sign bit, 11 exponent bits, 20 fraction bits</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1469\" data-start=\"1346\">Which of the following bit-field combinations defines the structure of an <strong data-end=\"1468\" data-start=\"1432\">IEEE 754 single precision number</strong>?</h3>\n\n<p data-end=\"1693\" data-start=\"1471\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 23932
+  },
+  {
+   "_id": 23934,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 5,
+   "OPT_1": "<p data-end=\"856\" data-start=\"803\"><code data-end=\"232\" data-start=\"212\">0x43EFE00000000000</code><br data-end=\"235\" data-start=\"232\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p><code data-end=\"259\" data-start=\"238\">0x43EFE000000000001</code><br data-end=\"262\" data-start=\"259\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p><code data-end=\"285\" data-start=\"265\">0x43EFE00000000001</code><br data-end=\"288\" data-start=\"285\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p><code data-end=\"311\" data-start=\"291\">0xC3EFE00000000000</code></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"137\" data-start=\"100\">Consider representing the decimal number <strong data-end=\"56\" data-start=\"41\">&ndash;2.5\u202f&times;\u202f10&sup1;\u2075</strong> in IEEE\u202f754 double\u2011precision (64-bit), using the default &ldquo;round to nearest, ties to even&rdquo; rule.</p>\n\n<p data-end=\"207\" data-start=\"139\"><strong data-end=\"207\" data-start=\"139\">What is the correctly rounded 64-bit hexadecimal representation?</strong></p>\n\n<p data-end=\"313\" data-start=\"209\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 23934
+  },
+  {
+   "_id": 23935,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p data-end=\"1693\" data-start=\"1471\">1 sign bit, 10 exponent bits, 21 fraction bits</p>\n\n<p data-end=\"1693\" data-start=\"1471\">&nbsp;</p>\n\n<p data-end=\"856\" data-start=\"803\">&nbsp;</p>\n",
+   "OPT_2": "<p>1 sign bit, 8 exponent bits, 23 fraction bits<br data-end=\"1582\" data-start=\"1579\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>2 sign bits, 8 exponent bits, 22 fraction bits<br data-end=\"1638\" data-start=\"1635\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>1 sign bit, 11 exponent bits, 20 fraction bits</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1469\" data-start=\"1346\">Which of the following bit-field combinations defines the structure of an <strong data-end=\"1468\" data-start=\"1432\">IEEE 754 single precision number</strong>?</h3>\n\n<p data-end=\"1693\" data-start=\"1471\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 23935
+  },
+  {
+   "_id": 23936,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p data-end=\"1693\" data-start=\"1471\">+126</p>\n\n<p data-end=\"856\" data-start=\"803\">&nbsp;</p>\n",
+   "OPT_2": "<p>+127<br data-end=\"606\" data-start=\"603\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>+128<br data-end=\"616\" data-start=\"613\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>+254</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"584\" data-start=\"547\">What is the largest unbiased exponent value (<em data-end=\"48\" data-start=\"45\">e</em>, before bias) that can be represented for a <strong data-end=\"114\" data-start=\"93\">normalized number</strong>?</p>\n\n<p data-end=\"625\" data-start=\"586\">&nbsp;</p>\n\n<p data-end=\"658\" data-start=\"537\">&nbsp;</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 23936
+  }
+ ],
+ "sq": [
+  {
+   "_id": 25224,
+   "ANSWER": "<p><strong data-end=\"28\" data-is-only-node=\"\" data-start=\"0\">Subnormal (denormalized)</strong> number: Exponent = 0, Fraction &ne;\u202f0</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>When the exponent field is all zeros but the fraction is non-zero, what type of number does this represent?</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "sq",
+   "key": 25224
+  },
+  {
+   "_id": 25225,
+   "ANSWER": "<p><strong data-end=\"22\" data-is-only-node=\"\" data-start=\"0\">Exponent = 11 bits</strong>, <strong data-end=\"46\" data-start=\"24\">Fraction = 52 bits</strong>; <strong data-end=\"63\" data-is-last-node=\"\" data-start=\"48\">Bias = 1023</strong></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>How many bits are used for the exponent and fraction fields in IEEE\u202f754 double precision, and what is the exponent bias?</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "sq",
+   "key": 25225
+  }
+ ],
+ "lq": [
+  {
+   "_id": 25393,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Decimal</th>\n\t\t\t<th align=\"center\">Sign</th>\n\t\t\t<th align=\"center\">Exponent (bin)</th>\n\t\t\t<th align=\"center\">Mantissa prefix</th>\n\t\t\t<th align=\"center\">Final 64-bit binary</th>\n\t\t\t<th align=\"left\">Hexadecimal</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0.75</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t\t<td align=\"center\">&nbsp;01111111110 (1022)</td>\n\t\t\t<td align=\"center\">1000&hellip;0</td>\n\t\t\t<td align=\"center\"><code inline=\"\">0 01111111110 1000&hellip;0</code></td>\n\t\t\t<td align=\"left\"><code inline=\"\">0x3FE8000000000000</code></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>12.375</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t\t<td align=\"center\">&nbsp;10000000010 (1026)</td>\n\t\t\t<td align=\"center\">100011000&hellip;0</td>\n\t\t\t<td align=\"center\"><code inline=\"\">0 10000000010 100011000&hellip;0</code></td>\n\t\t\t<td align=\"left\"><code inline=\"\">0x4025800000000000</code></td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Convert the following numbers to&nbsp;IEEE\u2011754 double-precision</p>\n\n<p>12.375</p>\n\n<p>0.75</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "lq",
+   "key": 25393
+  }
+ ]
+}

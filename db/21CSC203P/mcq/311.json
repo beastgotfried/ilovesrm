@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 10543,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"694\" data-start=\"687\">run()</code></p>\n",
+   "OPT_2": "<p><code data-end=\"716\" data-start=\"700\">mouseClicked()</code></p>\n",
+   "OPT_3": "<p><code data-end=\"736\" data-start=\"722\">keyPressed()</code></p>\n",
+   "OPT_4": "<p><code data-end=\"761\" data-start=\"742\">actionPerformed()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>Which method is invoked when an <code data-end=\"655\" data-start=\"639\">ActionListener</code> is triggered by a button?<br data-end=\"684\" data-start=\"681\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 10543
+  },
+  {
+   "_id": 10544,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"694\" data-start=\"687\">run()</code></p>\n",
+   "OPT_2": "<p><code data-end=\"716\" data-start=\"700\">mouseClicked()</code></p>\n",
+   "OPT_3": "<p><code data-end=\"736\" data-start=\"722\">keyPressed()</code></p>\n",
+   "OPT_4": "<p><code data-end=\"761\" data-start=\"742\">actionPerformed()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>Which method is invoked when an <code data-end=\"655\" data-start=\"639\">ActionListener</code> is triggered by a button?<br data-end=\"684\" data-start=\"681\" />\n<br data-end=\"764\" data-start=\"761\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq"
+  },
+  {
+   "_id": 10551,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Implement the <code data-end=\"341\" data-start=\"331\">Runnable</code> interface</p>\n",
+   "OPT_2": "<p>Register a <code data-end=\"383\" data-start=\"368\">MouseListener</code></p>\n",
+   "OPT_3": "<p>Register an <code data-end=\"417\" data-start=\"401\">ActionListener</code></p>\n",
+   "OPT_4": "<p>Use <code data-end=\"452\" data-start=\"427\">ActionEvent.getSource()</code> directly</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>In Swing, how do you respond to a button click event?<br data-end=\"314\" data-start=\"311\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 10551
+  },
+  {
+   "_id": 10552,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>To get event timestamp</p>\n",
+   "OPT_2": "<p>To identify the event source (e.g., which button was clicked)</p>\n",
+   "OPT_3": "<p>To capture user input</p>\n",
+   "OPT_4": "<p>To display output</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>What is the purpose of <code data-end=\"958\" data-start=\"943\">e.getSource()</code> in <code data-end=\"981\" data-start=\"962\">actionPerformed()</code>?<br data-end=\"985\" data-start=\"982\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 10552
+  },
+  {
+   "_id": 10553,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"1398\" data-start=\"1387\">getText()</code></p>\n",
+   "OPT_2": "<p><code data-end=\"1415\" data-start=\"1404\">setText()</code></p>\n",
+   "OPT_3": "<p><code data-end=\"1433\" data-start=\"1421\">toString()</code></p>\n",
+   "OPT_4": "<p><code data-end=\"1451\" data-start=\"1439\">readText()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>In a form with multiple input fields, which component is used to retrieve entered text from a <code data-end=\"1380\" data-start=\"1368\">JTextField</code>?<br data-end=\"1384\" data-start=\"1381\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 10553
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10554,
+   "ANSWER": "<p>When a <code data-end=\"3404\" data-start=\"3395\">JButton</code> is clicked, it generates an <code data-end=\"3446\" data-start=\"3433\">ActionEvent</code>, which is passed to the registered <code data-end=\"3498\" data-start=\"3482\">ActionListener</code>&#39;s <code data-end=\"3520\" data-start=\"3501\">actionPerformed()</code> method to process the action</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>What happens when a <code data-end=\"3335\" data-start=\"3326\">JButton</code> is clicked and how is it handled?<br data-end=\"3388\" data-start=\"3385\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "sq",
+   "key": 10554
+  },
+  {
+   "_id": 10555,
+   "ANSWER": "<p>User input is entered in components like <code data-end=\"3707\" data-start=\"3695\">JTextField</code>. On clicking a button, the input is retrieved using <code data-end=\"3771\" data-start=\"3760\">getText()</code>, validated, and processed in the <code data-end=\"3824\" data-start=\"3805\">actionPerformed()</code> method of the button&rsquo;s listener.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>Describe the process flow of collecting user input using a Swing form.<br data-end=\"3638\" data-start=\"3635\" />\n<br data-end=\"3654\" data-start=\"3651\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "sq",
+   "key": 10555
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10556,
+   "ANSWER": "<p>import javax.swing.*;<br />\nimport java.awt.*;<br />\nimport java.awt.event.*;</p>\n\n<p>public class StudentForm extends JFrame {<br />\n&nbsp; &nbsp; public StudentForm() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setTitle(&quot;Student Info Form&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setLayout(new GridLayout(4, 2, 10, 10));<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setSize(350, 200);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; JLabel nameLabel = new JLabel(&quot;Name:&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; JTextField nameField = new JTextField();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; JLabel ageLabel = new JLabel(&quot;Age:&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; JTextField ageField = new JTextField();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; JLabel deptLabel = new JLabel(&quot;Department:&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; JTextField deptField = new JTextField();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; JButton submitButton = new JButton(&quot;Submit&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; add(nameLabel); add(nameField);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; add(ageLabel); add(ageField);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; add(deptLabel); add(deptField);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; add(new JLabel()); add(submitButton);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; submitButton.addActionListener(new ActionListener() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; public void actionPerformed(ActionEvent e) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String name = nameField.getText();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String age = ageField.getText();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String dept = deptField.getText();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; if (name.isEmpty() || age.isEmpty() || dept.isEmpty()) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; JOptionPane.showMessageDialog(null, &quot;Please fill all fields.&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } else {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; JOptionPane.showMessageDialog(null,<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;Student Info:\\nName: &quot; + name + &quot;\\nAge: &quot; + age + &quot;\\nDepartment: &quot; + dept);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; &nbsp; &nbsp; });</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; setVisible(true);<br />\n&nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; new StudentForm();<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>You are developing a Java Swing application that collects student information (Name, Age, Department) and processes it when the &quot;Submit&quot; button is clicked. The application should display the entered details in a dialog box.Design and implement a Swing form with event handling. Include <code data-end=\"4244\" data-start=\"4236\">JLabel</code>, <code data-end=\"4258\" data-start=\"4246\">JTextField</code>, and <code data-end=\"4273\" data-start=\"4264\">JButton</code>, and use <code data-end=\"4299\" data-start=\"4283\">ActionListener</code> to process the form submission.</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "lq",
+   "key": 10556
+  }
+ ]
+}

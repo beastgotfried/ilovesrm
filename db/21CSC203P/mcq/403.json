@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9612,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) A function that only works with numbers</p>\n",
+   "OPT_2": "<p>B) A function that can return another function or take a function as an argument</p>\n",
+   "OPT_3": "<p>C) A function that executes faster than others</p>\n",
+   "OPT_4": "<p>D) A function that cannot use parameters</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is a higher-order function?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 9612
+  },
+  {
+   "_id": 9613,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"657\" data-start=\"642\">lambda x + 10</code></p>\n",
+   "OPT_2": "<p>B) <code data-end=\"681\" data-start=\"663\">lambda x: x + 10</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"709\" data-start=\"687\">function(x) = x + 10</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"736\" data-start=\"715\">add = (x -&gt; x + 10)</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the correct syntax for a lambda function that adds 10 to its argument?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 9613
+  },
+  {
+   "_id": 9614,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) 5</p>\n",
+   "OPT_2": "<p>B) <font face=\"SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace\">7</font></p>\n",
+   "OPT_3": "<p>C) <font face=\"SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace\">9</font></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"736\" data-start=\"715\">Error</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What does the following code return?</p>\n\n<p>def apply_twice(f, x):<br />\n&nbsp; &nbsp; return f(f(x))</p>\n\n<p>apply_twice(lambda x: x + 2, 3)</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 9614
+  },
+  {
+   "_id": 9615,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Concise function declaration</p>\n",
+   "OPT_2": "<p>B) Readability in short functions</p>\n",
+   "OPT_3": "<p>C) Named reusability across modules</p>\n",
+   "OPT_4": "<p>D) Quick anonymous usage in expressions</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT a benefit of using lambda functions?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 9615
+  },
+  {
+   "_id": 9616,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) They reduce the need for parameters</p>\n",
+   "OPT_2": "<p>B) They allow building reusable logic blocks by accepting or returning functions</p>\n",
+   "OPT_3": "<p>C) They depend on global variables for functionality</p>\n",
+   "OPT_4": "<p>D) They are only used in object-oriented programming</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>How do custom higher-order functions help with modular design?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 9616
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9846,
+   "ANSWER": "<p>You can write a function that takes another function as an argument to apply the discount.<br data-end=\"1946\" data-start=\"1943\" />\nThis allows the discount logic to be reused for different pricing models.<br data-end=\"2022\" data-start=\"2019\" />\nHigher-order functions increase modularity and reduce code duplication.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>A program should apply a discount formula to many products. How would a custom higher-order function help?<br data-end=\"1844\" data-start=\"1841\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "sq",
+   "key": 9846
+  },
+  {
+   "_id": 9847,
+   "ANSWER": "<p><br data-end=\"2176\" data-start=\"2173\" />\nThe code is: <code data-end=\"2227\" data-start=\"2189\">list(map(lambda x: x**2, [1, 2, 3]))</code>.<br data-end=\"2231\" data-start=\"2228\" />\nThis uses a lambda to define the transformation logic in-line.<br data-end=\"2296\" data-start=\"2293\" />\nIt results in a new list with the squares of the original values.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2361\" data-start=\"2095\">Write a lambda to square all numbers in a list using <code data-end=\"2163\" data-start=\"2156\">map()</code>.</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "sq",
+   "key": 9847
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9833,
+   "ANSWER": "<h3 data-end=\"146\" data-start=\"80\"><strong data-end=\"144\" data-start=\"84\">1. Definition and Use of Higher-Order Function (4 marks)</strong></h3>\n\n<p data-end=\"333\" data-start=\"147\">A <strong data-end=\"174\" data-start=\"149\">higher-order function</strong> takes other functions as arguments or returns a function.<br data-end=\"235\" data-start=\"232\" />\nIt promotes <strong data-end=\"265\" data-start=\"247\">modular design</strong> by allowing flexible logic without changing the function structure.</p>\n\n<h3 data-end=\"421\" data-start=\"340\"><strong data-end=\"421\" data-start=\"344\">2. Python Program with Custom Higher-Order Function and Lambdas (6 marks)</strong></h3>\n\n<pre data-end=\"810\" data-start=\"423\">\n<code>def apply_grading(scores, grading_func): return [grading_func(score) for score in scores] scores = [85, 70, 45, 90] # Convert to grades grades = apply_grading(scores, lambda x: &#39;A&#39; if x &gt;= 80 else &#39;B&#39; if x &gt;= 60 else &#39;C&#39;) print(&quot;Grades:&quot;, grades) # Add bonus bonus_scores = apply_grading(scores, lambda x: x + 5 if x &gt; 80 else x) print(&quot;Bonus Scores:&quot;, bonus_scores) </code></pre>\n\n<h3 data-end=\"881\" data-start=\"817\"><strong data-end=\"879\" data-start=\"821\">3. Benefits of Lambdas and Functional Idioms (5 marks)</strong></h3>\n\n<ul data-end=\"1126\" data-start=\"882\">\n\t<li data-end=\"960\" data-start=\"882\">\n\t<p data-end=\"960\" data-start=\"884\"><strong data-end=\"895\" data-start=\"884\">Lambdas</strong> provide quick, in-place logic without defining full functions.</p>\n\t</li>\n\t<li data-end=\"1045\" data-start=\"961\">\n\t<p data-end=\"1045\" data-start=\"963\"><strong data-end=\"984\" data-start=\"963\">Functional idioms</strong> like mapping functions keep code <strong data-end=\"1042\" data-start=\"1018\">concise and readable</strong>.</p>\n\t</li>\n\t<li data-end=\"1126\" data-start=\"1046\">\n\t<p data-end=\"1126\" data-start=\"1048\">Help create <strong data-end=\"1096\" data-start=\"1060\">flexible, reusable, and testable</strong> code for real-world problems.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"323\" data-start=\"156\">You are building a student grading system. The system receives a list of student scores and must apply different grading policies dynamically, such as:</p>\n\n<ul data-end=\"460\" data-start=\"324\">\n\t<li data-end=\"369\" data-start=\"324\">\n\t<p data-end=\"369\" data-start=\"326\">Converting marks to grades (A, B, C, etc.).</p>\n\t</li>\n\t<li data-end=\"419\" data-start=\"370\">\n\t<p data-end=\"419\" data-start=\"372\">Adding bonus marks to high-performing students.</p>\n\t</li>\n\t<li data-end=\"460\" data-start=\"420\">\n\t<p data-end=\"460\" data-start=\"422\">Applying penalties for low attendance.</p>\n\t</li>\n</ul>\n\n<p data-end=\"603\" data-start=\"462\">Your lead developer recommends using <strong data-end=\"532\" data-start=\"499\">custom higher-order functions</strong> and <strong data-end=\"559\" data-start=\"537\">lambda expressions</strong> to make the system <strong data-end=\"602\" data-start=\"579\">modular and concise</strong>.</p>\n\n<p data-end=\"614\" data-start=\"605\"><strong data-end=\"614\" data-start=\"605\">Task:</strong></p>\n\n<ol data-end=\"986\" data-start=\"616\">\n\t<li data-end=\"708\" data-start=\"616\">\n\t<p data-end=\"708\" data-start=\"619\"><strong data-end=\"629\" data-start=\"619\">Define</strong> a higher-order function and explain how it helps modular design. <em data-end=\"706\" data-start=\"695\">(4 marks)</em></p>\n\t</li>\n\t<li data-end=\"856\" data-start=\"709\">\n\t<p data-end=\"856\" data-start=\"712\"><strong data-end=\"738\" data-start=\"712\">Write a Python program</strong> that defines a custom higher-order function to apply different grading logics using lambda expressions. <em data-end=\"854\" data-start=\"843\">(6 marks)</em></p>\n\t</li>\n\t<li data-end=\"986\" data-start=\"857\">\n\t<p data-end=\"986\" data-start=\"860\"><strong data-end=\"871\" data-start=\"860\">Explain</strong> how using anonymous functions (lambdas) and functional idioms improves flexibility in problem-solving. <em data-end=\"986\" data-start=\"975\">(5 marks)</em></p>\n\t</li>\n</ol>\n\n<hr data-end=\"939\" data-start=\"936\" />",
+   "SESSION_ID": 403,
+   "TYPE": "lq",
+   "key": 9833
+  }
+ ]
+}

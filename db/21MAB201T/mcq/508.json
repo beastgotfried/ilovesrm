@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 52938,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">0</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">1</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">2</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">3</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( X(z) = \\frac{z^2 + 2z + 1}{z^2 - 3z + 2} \\), using initial value theorem, \\( x(0) \\) is:</span></p>",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 52938
+  },
+  {
+   "_id": 52939,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">0</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">0.5</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">1</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">2</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The final value of \\( x(n) \\) for \\( X(z) = \\frac{0.5z}{z^2 - 1.5z + 0.5} \\) (if exists) is:</span></p>",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 52939
+  },
+  {
+   "_id": 52940,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">0, 1, 3</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">1, 3, 7</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">0, 1, 2</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">1, 2, 4</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Using long division, the first three terms of the inverse Z-transform of \\( \\frac{z}{z^2 - 3z + 2} \\) (ROC |z|>2) are:</span></p>",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 52940
+  },
+  {
+   "_id": 52941,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( (2^n - 1) u(n) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( (1 - 2^n) u(n) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( (2^{-n} - 1) u(n) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( (1 - 2^{-n}) u(n) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The inverse Z-transform of \\( X(z) = \\frac{z}{(z-1)(z-2)} \\) using partial fractions is:</span></p>",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 52941
+  },
+  {
+   "_id": 52942,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( (0.5)^n u(n) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( (0.5)^n u(n) + (-0.5)^n u(n) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( (0.5)^n u(n) - (-0.5)^n u(n) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( (-0.5)^n u(n) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( H(z) = \\frac{z}{z^2 - 0.25} \\), the causal impulse response \\( h(n) \\) is:</span></p>",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 52942
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52923,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By IVT: } f(0) = \\lim_{z \\to \\infty} F(z)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\lim_{z \\to \\infty} \\frac{z}{(z-1)(z-2)}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\lim_{z \\to \\infty} \\frac{z}{z^2} = 0\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{If } F(z) = \\frac{z}{(z-1)(z-2)}, \\text{ find } f(0) \\text{ using Initial Value Theorem.}\\)</span></p>",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 52923
+  },
+  {
+   "_id": 52924,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\frac{z^2+z}{(z-1)^3} = \\frac{A}{z-1} + \\frac{B}{(z-1)^2} + \\frac{C}{(z-1)^3}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(z^2+z = A(z-1)^2 + B(z-1) + C\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Solve: } A=1, B=3, C=2\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(X(z) = \\frac{z}{z-1} + \\frac{3z}{(z-1)^2} + \\frac{2z}{(z-1)^3}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(x(n) = 1 + 3n + n(n-1) = n^2 + 2n + 1\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the inverse Z-transform of } \\frac{z^2 + z}{(z-1)^3} \\text{ using partial fractions.}\\)</span></p>",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 52924
+  }
+ ],
+ "lq": [
+  {
+   "_id": 52903,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td><p><b>1.</b> <span class=\"math-tex\">\\(X(z) = \\frac{2z^2-3z}{z^2-4z+3} = \\frac{2z^2-3z}{(z-1)(z-3)}\\)</span>, ROC: |z|>3.<br>IVT: <span class=\"math-tex\">\\(x(0) = \\lim_{z \\to \\infty} X(z) = \\lim_{z \\to \\infty} \\frac{2 - 3/z}{1 - 4/z + 3/z^2} = 2\\)</span>.<br>FVT: <span class=\"math-tex\">\\(\\lim_{n \\to \\infty} x(n) = \\lim_{z \\to 1} (z-1)X(z) = \\lim_{z \\to 1} (z-1)\\frac{2z^2-3z}{(z-1)(z-3)} = \\lim_{z \\to 1} \\frac{2z^2-3z}{z-3} = \\frac{2-3}{1-3} = \\frac{-1}{-2} = 0.5\\)</span>.<br>But note: There is a pole at z=3 (>1). FVT requires poles of (z-1)X(z) inside unit circle. Here, (z-1)X(z) has pole at z=3 outside |z|=1, so FVT technically not applicable. The limit does not exist (sequence diverges). So answer from formula (0.5) is not the actual limit.</p></td><td>(5 Marks)</td></tr><tr><td><p><b>2.</b> <span class=\"math-tex\">\\(X(z) = \\frac{z^3-2z^2+z}{z^3-4z^2+5z-2}\\)</span>. Factor denominator: <span class=\"math-tex\">\\(z^3-4z^2+5z-2 = (z-1)^2(z-2)\\)</span>.<br>Long division (|z|>2): Perform division of numerator by denominator to get first 5 terms: 1 + 2z^{-1} + 5z^{-2} + 12z^{-3} + 29z^{-4} + ... So x(0)=1, x(1)=2, x(2)=5, x(3)=12, x(4)=29.<br>Partial fractions: <span class=\"math-tex\">\\(\\frac{X(z)}{z} = \\frac{z^2-2z+1}{z(z-1)^2(z-2)}? Actually, better: X(z) = 1 + \\frac{2z^2-4z+2}{z^3-4z^2+5z-2}\\)</span> from division.<br>Alternatively, find complete inverse: <span class=\"math-tex\">\\(X(z) = \\frac{z(z^2-2z+1)}{(z-1)^2(z-2)} = \\frac{z(z-1)^2}{(z-1)^2(z-2)} = \\frac{z}{z-2}\\)</span> for z\u22601. So actually X(z) simplifies to <span class=\"math-tex\">\\(\\frac{z}{z-2}\\)</span>. Then inverse is <span class=\"math-tex\">\\(x(n)=2^n u(n)\\)</span>. Check: 2^0=1, 2^1=2, 2^2=4, 2^3=8, 2^4=16. This doesn't match long division result (5,12,29). There is a mistake: The numerator is z^3-2z^2+z = z(z^2-2z+1)=z(z-1)^2. Denominator is (z-1)^2(z-2). So indeed X(z)=z/(z-2) provided z\u22601. But then long division of z/(z-2) gives 1 + 2z^{-1} + 4z^{-2} + 8z^{-3}+16z^{-4}+... So my initial long division was wrong. Correct sequence: x(n)=2^n u(n).</p></td><td>(5 Marks)</td></tr><tr><td><p><b>3.</b> <span class=\"math-tex\">\\(X(z) = \\frac{1}{(1-0.5z^{-1})(1-0.25z^{-1})} = \\frac{z^2}{(z-0.5)(z-0.25)}\\)</span>.<br>Let <span class=\"math-tex\">\\(\\frac{X(z)}{z} = \\frac{z}{(z-0.5)(z-0.25)} = \\frac{A}{z-0.5} + \\frac{B}{z-0.25}\\)</span>.<br>Solve: z = A(z-0.25) + B(z-0.5).<br>z=0.5: 0.5 = A(0.25) => A=2.<br>z=0.25: 0.25 = B(-0.25) => B=-1.<br>So, <span class=\"math-tex\">\\(X(z) = \\frac{2z}{z-0.5} - \\frac{z}{z-0.25}\\)</span>.<br>Inverse: <span class=\"math-tex\">\\(x(n) = [2(0.5)^n - (0.25)^n] u(n)\\)</span>.</p></td><td>(3 Marks)</td></tr><tr><td><p><b>4.</b> <span class=\"math-tex\">\\(H(z) = \\frac{z}{z^2-0.25} = \\frac{z}{(z-0.5)(z+0.5)}\\)</span>.<br>Case 1: ROC |z|>0.5 (right-sided, causal).<br>Partial fractions: <span class=\"math-tex\">\\(\\frac{H(z)}{z} = \\frac{1}{(z-0.5)(z+0.5)} = \\frac{A}{z-0.5} + \\frac{B}{z+0.5}\\)</span>.<br>1 = A(z+0.5) + B(z-0.5).<br>z=0.5: 1 = A(1) => A=1.<br>z=-0.5: 1 = B(-1) => B=-1.<br>So, <span class=\"math-tex\">\\(H(z) = \\frac{z}{z-0.5} - \\frac{z}{z+0.5}\\)</span>.<br><span class=\"math-tex\">\\(h(n) = [(0.5)^n - (-0.5)^n] u(n)\\)</span>.<br>Case 2: ROC |z|<0.5 (left-sided, anti-causal).<br>For this ROC, we want poles outside ROC, so sequence is left-sided.<br>We have same partial fraction expansion but now inverse transform gives: <span class=\"math-tex\">\\(h(n) = [-(0.5)^n + (-0.5)^n] u(-n-1)\\)</span>.<br>Causality: For system to be causal, ROC must be outside the outermost pole (|z|>0.5). So only Case 1 is causal.</p></td><td>(4 Marks)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>1. Using Initial and Final Value Theorems, analyze the sequence corresponding to <span class=\"math-tex\">\\(X(z) = \\frac{2z^2 - 3z}{z^2 - 4z + 3}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>3\\)</span>. Find <span class=\"math-tex\">\\(x(0)\\)</span> and <span class=\"math-tex\">\\(\\lim_{n \\to \\infty} x(n)\\)</span> if it exists.</p><p>2. Find the inverse Z-transform of <span class=\"math-tex\">\\(X(z) = \\frac{z^3 - 2z^2 + z}{z^3 - 4z^2 + 5z - 2}\\)</span> by long division for first 5 terms and then verify using partial fractions. ROC: <span class=\"math-tex\">\\(|z|>2\\)</span>.</p><p>3. Using partial fractions, find the inverse Z-transform of <span class=\"math-tex\">\\(X(z) = \\frac{1}{(1 - 0.5z^{-1})(1 - 0.25z^{-1})}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>0.5\\)</span>.</p><p>4. A system has transfer function <span class=\"math-tex\">\\(H(z) = \\frac{z}{z^2 - 0.25}\\)</span>. Find its impulse response <span class=\"math-tex\">\\(h(n)\\)</span> using partial fractions for ROC: <span class=\"math-tex\">\\(|z|>0.5\\)</span> and ROC: <span class=\"math-tex\">\\(|z|<0.5\\)</span>. Comment on causality.</p>",
+   "SESSION_ID": 508,
+   "TYPE": "lq",
+   "key": 52903
+  }
+ ]
+}

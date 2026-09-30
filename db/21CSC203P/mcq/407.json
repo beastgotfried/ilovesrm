@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9632,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"280\" data-start=\"269\">threading</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) <code data-end=\"298\" data-start=\"286\">concurrent</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"321\" data-start=\"304\">multiprocessing</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"336\" data-start=\"327\">asyncio</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"264\" data-start=\"187\"><strong data-end=\"264\" data-start=\"191\">1. Which Python module is commonly used to implement multiprocessing?</strong></h3>\n\n<p data-end=\"338\" data-start=\"266\"><br data-end=\"283\" data-start=\"280\" />\n<br data-end=\"301\" data-start=\"298\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 9632
+  },
+  {
+   "_id": 9633,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) To increase memory usage</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) To create infinite background threads</p>\n",
+   "OPT_3": "<p>C) To run tasks sequentially</p>\n",
+   "OPT_4": "<p>D) To manage a fixed number of worker processes for executing tasks in parallel</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"460\" data-start=\"381\"><strong data-end=\"460\" data-start=\"385\">2. What is the main purpose of using a process pool in multiprocessing?</strong></h3>\n\n<p data-end=\"338\" data-start=\"266\"><br data-end=\"283\" data-start=\"280\" />\n<br data-end=\"301\" data-start=\"298\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 9633
+  },
+  {
+   "_id": 9634,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Slower execution</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) No effect</p>\n",
+   "OPT_3": "<p>C) Improved performance by distributing computation across CPU cores</p>\n",
+   "OPT_4": "<p>D) Memory error</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"830\" data-start=\"749\"><strong data-end=\"830\" data-start=\"753\">3. What would be the effect of using multiprocessing on a CPU-bound task?</strong></h3>\n\n<p data-end=\"338\" data-start=\"266\"><br data-end=\"283\" data-start=\"280\" />\n<br data-end=\"301\" data-start=\"298\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 9634
+  },
+  {
+   "_id": 9635,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"1161\" data-start=\"1146\">pool.assign()</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) <code data-end=\"1209\" data-start=\"1189\">pool.apply_async()</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"1183\" data-start=\"1167\">pool.execute()</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"1229\" data-start=\"1215\">pool.write()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1141\" data-start=\"1048\"><strong data-end=\"1141\" data-start=\"1052\">4. Which of the following methods is used to submit a function to a <code data-end=\"1128\" data-start=\"1122\">Pool</code> in Python?</strong></h3>\n\n<p data-end=\"1231\" data-start=\"1143\">&nbsp;</p>\n\n<p data-end=\"338\" data-start=\"266\"><br data-end=\"283\" data-start=\"280\" />\n<br data-end=\"301\" data-start=\"298\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 9635
+  },
+  {
+   "_id": 9636,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It automatically runs all processes in the cloud</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) It supports live output and simplifies interactive debugging</p>\n",
+   "OPT_3": "<p>C) It restricts multiprocessing features</p>\n",
+   "OPT_4": "<p>D) It converts Python code to C automatically</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1359\" data-start=\"1277\"><strong data-end=\"1359\" data-start=\"1281\">5. Why is IPython/Jupyter a good environment for learning multiprocessing?</strong></h3>\n\n<p data-end=\"1571\" data-start=\"1361\">&nbsp;</p>\n\n<p data-end=\"338\" data-start=\"266\"><br data-end=\"283\" data-start=\"280\" />\n<br data-end=\"301\" data-start=\"298\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 9636
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9854,
+   "ANSWER": "<p><br data-end=\"4119\" data-start=\"4116\" />\nThe <code data-end=\"4474\" data-start=\"4457\">multiprocessing</code> module allows the task to run across multiple CPU cores.<br data-end=\"4534\" data-start=\"4531\" />\nThis speeds up CPU-bound tasks by avoiding Python&#39;s GIL limitations.<br data-end=\"4605\" data-start=\"4602\" />\nIt&rsquo;s useful for heavy computations like video processing or data analysis.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4326\" data-start=\"4032\">A task takes too long in a single process. How can <code data-end=\"4429\" data-start=\"4412\">multiprocessing</code> improve it?<br data-end=\"4444\" data-start=\"4441\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 9854
+  },
+  {
+   "_id": 9855,
+   "ANSWER": "<p><br data-end=\"4119\" data-start=\"4116\" />\n<br data-end=\"4739\" data-start=\"4736\" />\nA process pool manages a group of worker processes that run tasks in parallel.<br data-end=\"4820\" data-start=\"4817\" />\nTasks are distributed to idle processes automatically, improving performance.<br data-end=\"4900\" data-start=\"4897\" />\nIt simplifies concurrent programming and reduces overhead.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4958\" data-start=\"4681\">What does a process pool do in Python?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 9855
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9837,
+   "ANSWER": "<h3 data-end=\"158\" data-start=\"100\"><strong data-end=\"156\" data-start=\"104\">1. Multiprocessing and CPU-Bound Tasks (4 marks)</strong></h3>\n\n<ul data-end=\"417\" data-start=\"159\">\n\t<li data-end=\"234\" data-start=\"159\">\n\t<p data-end=\"234\" data-start=\"161\"><strong data-end=\"180\" data-start=\"161\">Multiprocessing</strong> allows parallel execution using multiple CPU cores.</p>\n\t</li>\n\t<li data-end=\"359\" data-start=\"235\">\n\t<p data-end=\"359\" data-start=\"237\">Best for <strong data-end=\"265\" data-start=\"246\">CPU-bound tasks</strong> like image filtering, simulations, etc., where the bottleneck is processing power, not I/O.</p>\n\t</li>\n\t<li data-end=\"417\" data-start=\"360\">\n\t<p data-end=\"417\" data-start=\"362\">Each process runs independently, avoiding Python&#39;s GIL.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"484\" data-start=\"424\"><strong data-end=\"484\" data-start=\"428\">2. Python Code Using <code data-end=\"472\" data-start=\"451\">ProcessPoolExecutor</code> (6 marks)</strong></h3>\n\n<p><strong data-end=\"484\" data-start=\"428\">from concurrent.futures import ProcessPoolExecutor<br />\nimport time</strong></p>\n\n<p><strong data-end=\"484\" data-start=\"428\">def filter_image(img):<br />\n&nbsp; &nbsp; # Dummy CPU-bound task<br />\n&nbsp; &nbsp; for _ in range(1000000):<br />\n&nbsp; &nbsp; &nbsp; &nbsp; img = img * 1.01<br />\n&nbsp; &nbsp; return img</strong></p>\n\n<p><strong data-end=\"484\" data-start=\"428\">images = [10, 20, 30, 40]</strong></p>\n\n<p><strong data-end=\"484\" data-start=\"428\">with ProcessPoolExecutor() as executor:<br />\n&nbsp; &nbsp; results = list(executor.map(filter_image, images))</strong></p>\n\n<p><strong data-end=\"484\" data-start=\"428\">print(&quot;Processed:&quot;, results)</strong><br />\n&nbsp;</p>\n\n<h3 data-end=\"901\" data-start=\"842\"><strong data-end=\"899\" data-start=\"846\">3. Performance Measurement with IPython (5 marks)</strong></h3>\n\n<ul data-end=\"1116\" data-start=\"902\">\n\t<li data-end=\"961\" data-start=\"902\">\n\t<p data-end=\"961\" data-start=\"904\">Use <code data-end=\"915\" data-start=\"908\">%time</code> to measure total run time of one execution.</p>\n\t</li>\n\t<li data-end=\"1022\" data-start=\"962\">\n\t<p data-end=\"1022\" data-start=\"964\">Use <code data-end=\"977\" data-start=\"968\">%timeit</code> to run multiple trials for average timing.</p>\n\t</li>\n\t<li data-end=\"1116\" data-start=\"1023\">\n\t<p data-end=\"1116\" data-start=\"1025\">Parallel execution shows <strong data-end=\"1073\" data-start=\"1050\">lower total runtime</strong> than sequential due to <strong data-end=\"1115\" data-start=\"1097\">multiple cores</strong>.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1130\" data-start=\"1118\"><strong data-end=\"1130\" data-start=\"1118\">Example:</strong></p>\n\n<pre data-end=\"1266\" data-start=\"1131\">\n%timeit [filter_image(x) for x in images] &nbsp; &nbsp; &nbsp; &nbsp;# Sequential\n%timeit executor.map(filter_image, images) &nbsp; &nbsp; &nbsp; # Parallel\n\n</pre>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"461\" data-start=\"153\">You are tasked with building a Python-based system to perform CPU-intensive operations such as image filtering on a batch of large images. The sequential execution is taking too long, and your manager suggests using <strong data-end=\"423\" data-start=\"385\">multiprocessing with process pools</strong> in <strong data-end=\"438\" data-start=\"427\">IPython</strong> to speed up execution.</p>\n\n<p data-end=\"472\" data-start=\"463\"><strong data-end=\"472\" data-start=\"463\">Task:</strong></p>\n\n<ol data-end=\"954\" data-start=\"474\">\n\t<li data-end=\"577\" data-start=\"474\">\n\t<p data-end=\"577\" data-start=\"477\"><strong data-end=\"488\" data-start=\"477\">Explain</strong> the concept of multiprocessing and why it is suitable for CPU-bound tasks. <em data-end=\"575\" data-start=\"564\">(4 marks)</em></p>\n\t</li>\n\t<li data-end=\"774\" data-start=\"578\">\n\t<p data-end=\"774\" data-start=\"581\"><strong data-end=\"604\" data-start=\"581\">Write a Python code</strong> snippet using <code data-end=\"659\" data-start=\"619\">concurrent.futures.ProcessPoolExecutor</code> to apply a dummy image processing function (e.g., <code data-end=\"726\" data-start=\"710\">filter_image()</code>) in parallel on a list of images. <em data-end=\"772\" data-start=\"761\">(6 marks)</em></p>\n\t</li>\n\t<li data-end=\"954\" data-start=\"775\">\n\t<p data-end=\"954\" data-start=\"778\"><strong data-end=\"789\" data-start=\"778\">Discuss</strong> the role of IPython&rsquo;s <code data-end=\"819\" data-start=\"812\">%time</code> and <code data-end=\"833\" data-start=\"824\">%timeit</code> in measuring performance. Show how parallel execution improves performance compared to sequential execution. <em data-end=\"954\" data-start=\"943\">(5 marks)</em></p>\n\t</li>\n</ol>\n\n<p data-end=\"492\" data-start=\"153\">&nbsp;</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "lq",
+   "key": 9837
+  }
+ ]
+}

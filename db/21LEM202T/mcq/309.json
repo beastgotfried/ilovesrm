@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 36816,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Choosing a career based on both competence and interest</p>\n",
+   "OPT_2": "<p>Blindly imitating peers&rsquo; lifestyle</p>\n",
+   "OPT_3": "<p>Accumulating wealth without responsibility</p>\n",
+   "OPT_4": "<p>Making random decisions</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>An example of harmony in the Self is:</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 36816
+  },
+  {
+   "_id": 36817,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Wanting good health but indulging in harmful habits</p>\n",
+   "OPT_2": "<p>Setting clear goals with realistic plan</p>\n",
+   "OPT_3": "<p>Acting based on right understanding</p>\n",
+   "OPT_4": "<p>Respecting and trusting others</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>An example of contradiction in the Self is:</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 36817
+  },
+  {
+   "_id": 36818,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Lack of physical exercise</p>\n",
+   "OPT_2": "<p>Lack of right understanding and self-evaluation</p>\n",
+   "OPT_3": "<p>Having fewer desires</p>\n",
+   "OPT_4": "<p>Being socially active</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The root cause of contradiction in the Self is:</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 36818
+  },
+  {
+   "_id": 36819,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Wealth accumulation</p>\n",
+   "OPT_2": "<p>Self-exploration and realization of coexistence</p>\n",
+   "OPT_3": "<p>Competing with others</p>\n",
+   "OPT_4": "<p>Ignoring relationships</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What ensures harmony in the Self continuously?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 36819
+  },
+  {
+   "_id": 36820,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>It helps to make ethical, sustainable, and responsible choices in technology and society</p>\n",
+   "OPT_2": "<p>It improves only their physical health</p>\n",
+   "OPT_3": "<p>It increases profit-making without responsibility</p>\n",
+   "OPT_4": "<p>It removes the need for teamwork</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is harmony in the Self important?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 36820
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36428,
+   "ANSWER": "<p>When a student desires to learn, thinks of a study plan, and then follows it, there is alignment between desire, thought, and action&mdash;showing harmony.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Give an example of harmony in the self.</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 36428
+  },
+  {
+   "_id": 36429,
+   "ANSWER": "<p>If a student desires to excel in exams but spends time on distractions instead of studying, the desire and action contradict, causing dissatisfaction and inner conflict.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Give an example of contradiction in the self.</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 36429
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122512,
+   "ANSWER": "<p>The purpose of social projects in UHV is to help students develop a holistic perspective and experience social participation. These projects shift students from self-centred thinking to connectedness with family, society and nature. A socially relevant project should contribute to one or more dimensions of the human order: education-sanskar, health-sanyam, production-work, justice-suraksha and exchange-storage. Such projects also connect with the human goals: right understanding in every human being, prosperity in every family, fearlessness or trust in society, and co-existence with nature. Through social projects, students can observe real examples, collect and understand relevant data, and see how a wholesome way of living can support a humane society. Therefore, social projects are not only academic activities; they are steps toward understanding and participating in universal human order.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the purpose of social projects in UHV?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "lq",
+   "key": 122512
+  }
+ ]
+}

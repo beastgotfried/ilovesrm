@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12547,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>CPU burst time</p>\n",
+   "OPT_2": "<p>Process ID</p>\n",
+   "OPT_3": "<p>Queue priority level</p>\n",
+   "OPT_4": "<p>Random assignment</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"356\" data-start=\"325\">Multilevel Queue Scheduling</strong>, what determines the priority of process execution between queues?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 12547
+  },
+  {
+   "_id": 12549,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>All queues use the same scheduling algorithm</p>\n",
+   "OPT_2": "<p>Only one queue is created for all processes</p>\n",
+   "OPT_3": "<p>Each queue can use a different scheduling algorithm</p>\n",
+   "OPT_4": "<p>Processes can move between queues dynamically</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is true about <strong data-end=\"631\" data-start=\"600\">Multilevel Queue Scheduling</strong>?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 12549
+  },
+  {
+   "_id": 12551,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>SJF Scheduling</p>\n",
+   "OPT_2": "<p>Priority Scheduling</p>\n",
+   "OPT_3": "<p>Multilevel Queue Scheduling</p>\n",
+   "OPT_4": "<p>Multilevel Feedback Queue Scheduling</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>If the foreground queue uses <strong data-end=\"935\" data-start=\"920\">Round Robin</strong> and the background queue uses <strong data-end=\"974\" data-start=\"966\">FCFS</strong>, which scheduling strategy is being followed?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 12551
+  },
+  {
+   "_id": 12554,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>High throughput</p>\n",
+   "OPT_2": "<p>Frequent context switching</p>\n",
+   "OPT_3": "<p>Starvation of low-priority processes</p>\n",
+   "OPT_4": "<p>High CPU utilization</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the <strong data-end=\"1226\" data-start=\"1209\">main drawback</strong> of fixed priority scheduling in Multilevel Queue Scheduling?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 12554
+  },
+  {
+   "_id": 12604,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>System and interactive queues</p>\n",
+   "OPT_2": "<p>Only batch queue</p>\n",
+   "OPT_3": "<p>Low priority queue</p>\n",
+   "OPT_4": "<p>Background queue</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In MLQ, which of the following queues <strong data-end=\"1518\" data-start=\"1501\">must be empty</strong> before a batch queue process can run?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 12604
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12748,
+   "ANSWER": "<ul>\n\t<li data-end=\"1914\" data-start=\"1873\">\n\t<p data-end=\"1914\" data-start=\"1875\">Priority setting between queues &ndash; 25%</p>\n\t</li>\n\t<li data-end=\"1956\" data-start=\"1915\">\n\t<p data-end=\"1956\" data-start=\"1917\">Efficient resource distribution &ndash; 25%</p>\n\t</li>\n\t<li data-end=\"2016\" data-start=\"1957\">\n\t<p data-end=\"2016\" data-start=\"1959\">Reduced response time for high-priority processes &ndash; 25%</p>\n\t</li>\n\t<li data-end=\"2063\" data-start=\"2017\">\n\t<p data-end=\"2063\" data-start=\"2019\">Improved performance/customizability &ndash; 25%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>List any <strong data-end=\"1805\" data-start=\"1786\">four advantages</strong> of using <strong data-end=\"1846\" data-start=\"1815\">Multilevel Queue Scheduling</strong>.</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 12748
+  },
+  {
+   "_id": 12749,
+   "ANSWER": "<ul>\n\t<li data-end=\"2359\" data-start=\"2296\">\n\t<p data-end=\"2359\" data-start=\"2298\">Role of foreground queue and its algorithm (e.g., RR) &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2425\" data-start=\"2360\">\n\t<p data-end=\"2425\" data-start=\"2362\">Role of background queue and its algorithm (e.g., FCFS) &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2499\" data-start=\"2426\">\n\t<p data-end=\"2499\" data-start=\"2428\">Scheduling strategy between them (fixed priority or time-slice) &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"2568\" data-start=\"2500\">\n\t<p data-end=\"2568\" data-start=\"2502\">Example scenario (e.g., interactive user vs batch process) &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Explain the <strong data-end=\"2175\" data-start=\"2155\">main differences</strong> between <strong data-end=\"2198\" data-start=\"2184\">foreground</strong> and <strong data-end=\"2217\" data-start=\"2203\">background</strong> queues in Multilevel Queue Scheduling with examples.</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 12749
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12995,
+   "ANSWER": "<ul data-end=\"1701\" data-start=\"932\">\n\t<li data-end=\"982\" data-start=\"932\">\n\t<p data-end=\"982\" data-start=\"934\">New jobs enter the highest-priority queue (Q0)</p>\n\t</li>\n\t<li data-end=\"1032\" data-start=\"983\">\n\t<p data-end=\"1032\" data-start=\"985\">If not completed in 8 ms, moved to Q1 (16 ms)</p>\n\t</li>\n\t<li data-end=\"1161\" data-start=\"1033\">\n\t<p data-end=\"1161\" data-start=\"1035\">If still not completed, moved to Q2 (FCFS) <strong>(30%)</strong><br />\n\t| <strong data-end=\"1116\" data-start=\"1096\">Process Movement</strong> | - Processes demoted on excessive CPU use</p>\n\t</li>\n\t<li data-end=\"1214\" data-start=\"1162\">\n\t<p data-end=\"1214\" data-start=\"1164\">Processes promoted (aging) to prevent starvation</p>\n\t</li>\n\t<li data-end=\"1266\" data-start=\"1215\">\n\t<p data-end=\"1266\" data-start=\"1217\">Example: A CPU-bound process moves Q0 &rarr; Q1 &rarr; Q2</p>\n\t</li>\n\t<li data-end=\"1414\" data-start=\"1267\">\n\t<p data-end=\"1414\" data-start=\"1269\">An I/O-bound or interactive process may remain in Q0 <strong>(30%)</strong><br />\n\t| <strong data-end=\"1360\" data-start=\"1340\">Example Scenario</strong> | - Describe a sample process P1 using 25 ms of CPU</p>\n\t</li>\n\t<li data-end=\"1473\" data-start=\"1415\">\n\t<p data-end=\"1473\" data-start=\"1417\">P1 starts in Q0 (uses 8 ms) &rarr; moves to Q1 (uses 16 ms)</p>\n\t</li>\n\t<li data-end=\"1619\" data-start=\"1474\">\n\t<p data-end=\"1619\" data-start=\"1476\">Remaining 1 ms served in Q2 (FCFS) <strong>(20%)</strong><br />\n\t| <strong data-end=\"1554\" data-start=\"1529\">Starvation Prevention</strong> | - Aging used to move long-waiting processes to higher queues</p>\n\t</li>\n\t<li data-end=\"1701\" data-start=\"1620\">\n\t<p data-end=\"1701\" data-start=\"1622\">Prevents low-priority processes from being indefinitely delayed <strong>(20%)</strong></p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p data-end=\"450\" data-start=\"338\"><strong data-end=\"447\" data-start=\"347\">Explain the working of a Multilevel Feedback Queue (MLFQ) with an example involving three queues</strong>:</p>\n\n<ul data-end=\"550\" data-start=\"451\">\n\t<li data-end=\"493\" data-start=\"451\">\n\t<p data-end=\"493\" data-start=\"453\">Q0: Round Robin with time quantum 8 ms</p>\n\t</li>\n\t<li data-end=\"537\" data-start=\"494\">\n\t<p data-end=\"537\" data-start=\"496\">Q1: Round Robin with time quantum 16 ms</p>\n\t</li>\n\t<li data-end=\"550\" data-start=\"538\">\n\t<p data-end=\"550\" data-start=\"540\">Q2: FCFS</p>\n\t</li>\n</ul>\n\n<p data-end=\"635\" data-start=\"552\">Illustrate how a process moves between queues and how the system avoids starvation.</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "lq",
+   "key": 12995
+  }
+ ]
+}

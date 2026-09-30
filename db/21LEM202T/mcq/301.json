@@ -1,0 +1,137 @@
+{
+ "mcq": [
+  {
+   "_id": 31171,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">I am committed to understand from the other</span></span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">I am not committed to understand from the other</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">I will impose my understanding on other</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The other is not having rights to make me understand</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">If the other has more understanding, is more responsible than me&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 31171
+  },
+  {
+   "_id": 31173,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Over Evaluation</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Right Evaluation</span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Under Evaluation</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Otherwise Evaluation</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9",
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">When an individual&#39;s true value is recognized and acknowledged appropriately, it reflects:&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 31173
+  },
+  {
+   "_id": 31174,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Prejudice and discrimination</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Justice and equality</span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Conflict and rivalry</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Segregation of communities</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9",
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which principle is essential for maintaining social harmony?&nbsp;</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 31174
+  },
+  {
+   "_id": 31175,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Wealth</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Trust</span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Physical Strength</span></span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Fear</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9",
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">What is the foundational value in human relationships?&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 31175
+  },
+  {
+   "_id": 31176,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">One person should always give in to maintain peace</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Arguments should be avoided at all costs</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Open discussions should be encouraged with mutual respect</span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Whoever is the loudest should be considered right</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9",
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">What is the most effective way to handle disagreements in a family?&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 31176
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36318,
+   "ANSWER": "<p data-end=\"1190\" data-start=\"1035\">Because a human being is the central participant in existence, and right understanding of the self forms the foundation for harmony in family, society, and nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is understanding the human being considered the first step in this course?</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "sq",
+   "key": 36318
+  },
+  {
+   "_id": 36341,
+   "ANSWER": "<p data-end=\"1190\" data-start=\"1035\">A human being functions as the <strong data-end=\"635\" data-start=\"607\">knower (who understands)</strong>, <strong data-end=\"689\" data-start=\"637\">experiencer (who feels emotions and aspirations)</strong>, and <strong data-end=\"762\" data-is-only-node=\"\" data-start=\"695\">doer (who performs actions based on understanding and feelings)</strong>.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What are the three key roles of the human being?</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "sq",
+   "key": 36341
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122503,
+   "ANSWER": "<p>Family is the basic unit of human organisation because it is the first place where a human being learns to live in relationship. The main issue in family is not only physical facility, but the fulfilment of relationship. To live in relationship, we must understand relationship correctly. Relationship exists between one Self and another Self; the body is only used as an instrument to express feelings. Feelings such as trust, respect, affection, care, guidance, reverence, glory, gratitude and love are definite in relationship. When these feelings are understood, recognised and fulfilled, the result is mutual happiness. If relationship is not understood, even people living together may remain in opposition, irritation or conflict. Therefore, harmony in the family begins with understanding the Self, understanding feelings in relationship, and living with the intention of fulfilling relationship.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Explain why family is considered the basic unit of human interaction.</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "lq",
+   "key": 122503
+  }
+ ]
+}

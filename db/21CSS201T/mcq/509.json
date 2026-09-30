@@ -1,0 +1,192 @@
+{
+ "mcq": [
+  {
+   "_id": 20776,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>CISC</p>\n",
+   "OPT_2": "<p>ARM</p>\n",
+   "OPT_3": "<p>Thumb - 2</p>\n",
+   "OPT_4": "<p>VLIW</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a fixed-length instruction encoding format?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 20776
+  },
+  {
+   "_id": 20780,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>8</p>\n",
+   "OPT_2": "<p>16</p>\n",
+   "OPT_3": "<p>32</p>\n",
+   "OPT_4": "<p>64</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>How many bits are typically used for an ARM instruction in the ARM state?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 20780
+  },
+  {
+   "_id": 20785,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Store register value</p>\n",
+   "OPT_2": "<p>Specify the operation to perform</p>\n",
+   "OPT_3": "<p>Indicate address</p>\n",
+   "OPT_4": "<p>Store memory data</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the purpose of the opcode field in an instruction?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 20785
+  },
+  {
+   "_id": 20790,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Result register</p>\n",
+   "OPT_2": "<p>Condition register</p>\n",
+   "OPT_3": "<p>Immediate value</p>\n",
+   "OPT_4": "<p>First source register</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In the format <code data-end=\"1785\" data-start=\"1751\">[cond][opcode][Rn][Rd][operand2]</code>, what does <code data-end=\"1801\" data-start=\"1797\">Rn</code> represent?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 20790
+  },
+  {
+   "_id": 20797,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>0007</p>\n",
+   "OPT_2": "<p>1000</p>\n",
+   "OPT_3": "<p>0111</p>\n",
+   "OPT_4": "<p>1110</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">What is the binary representation for register R7 in a 4-bit field?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 20797
+  }
+ ],
+ "sq": [
+  {
+   "_id": 21767,
+   "ANSWER": "<p style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">In a zero-address format (used in stack-based architectures), instructions do not explicitly mention operands. Operations are performed on the top elements of the stack.<br />\nExample:<br />\nPUSH A<br />\nPUSH B<br />\nADD&nbsp; &rarr; Result = A + B (pushed on top of stack)</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span lang=\"EN-US\" style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Cambria&quot;,serif\">Define zero-address instruction format with a suitable example.</span></span></span></p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 21767
+  },
+  {
+   "_id": 21768,
+   "ANSWER": "<p style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">Typical instruction fields include:<br />\n1. Opcode<br />\n2. Source operand<br />\n3. Destination operand<br />\n4. Addressing mode<br />\n5. Condition/Function code</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p class=\"MsoListNumber\" style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">List any five fields typically present in an instruction format.</span></span></span></p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 21768
+  },
+  {
+   "_id": 21769,
+   "ANSWER": "<p style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">Opcode specifies the operation to be performed, while operand specifiers indicate the data sources. Together, they ensure the instruction is properly decoded and executed by the CPU.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p class=\"MsoListNumber\" style=\"margin-bottom:13px\"><span lang=\"EN-US\" style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Cambria&quot;,serif\">Explain the importance of opcode and operand specifiers in encoding</span></span></span></p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 21769
+  },
+  {
+   "_id": 21772,
+   "ANSWER": "<p style=\"margin-bottom:13px\"><span lang=\"EN-US\" style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Cambria&quot;,serif\">Differentiate between one-address and two-address instruction formats.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p class=\"MsoListNumber\" style=\"margin-bottom:13px\"><span lang=\"EN-US\" style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Cambria&quot;,serif\">Differentiate between one-address and two-address instruction formats.</span></span></span></p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 21772
+  },
+  {
+   "_id": 21779,
+   "ANSWER": "<p style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">Encoding affects instruction size, decoding complexity, and fetch cycles. Efficient encoding improves instruction throughput, reduces memory usage, and simplifies pipeline design.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p class=\"MsoListNumber\" style=\"margin-bottom:13px\"><font face=\"Cambria, serif\"><span style=\"font-size: 14.6667px;\"><i>What is the impact of instruction encoding on CPU performance?</i></span></font></p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 21779
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21782,
+   "ANSWER": "<p class=\"MsoListBulletCxSpFirst\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">-Zero-address format: Uses implicit operands on stack (e.g., PUSH, ADD).</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- One-address format: Uses accumulator (e.g., LOAD A).</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Two-address format: Source and destination in one (e.g., ADD A, B).</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Three-address format: Explicitly lists all operands (e.g., ADD R1, R2, R3).</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Register and immediate formats: Use registers and constants.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Example for each format provided to show usage.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Encoding varies based on architecture and instruction width.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Simpler formats reduce decoding complexity.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- More addresses increase flexibility but require more bits.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpLast\" style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Each format suits specific processor designs (e.g., RISC, CISC).</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p class=\"MsoListNumber\" style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">Explain the various instruction formats used in CPU design with examples.</span></span></span></p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "lq",
+   "key": 21782
+  },
+  {
+   "_id": 21784,
+   "ANSWER": "<p class=\"MsoListBulletCxSpFirst\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 1. Identify the operation: Determine opcode (e.g., ADD).</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 2. Identify operands: Registers, memory, or immediate values.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 3. Assign binary codes to opcode and operands.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 4. Arrange fields in fixed or variable format.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 5. Example: ADD R1, R2 &rarr; 0001 0001 0010 (for fixed RISC).</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 6. Include condition flags if applicable.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 7. Consider alignment for fetch and decode efficiency.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 8. Compact encoding improves memory use.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpLast\" style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 9. Encoding affects instruction length and speed.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpLast\" style=\"margin-bottom:13px\">&nbsp;</p>\n\n<p class=\"MsoListBullet\" style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">-10. Correct encoding ensures compatibility with decoder logic.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p class=\"MsoListNumber\" style=\"margin-bottom:13px\"><span lang=\"EN-US\" style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Cambria&quot;,serif\">Describe the steps involved in instruction encoding with examples.</span></span></span></p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "lq",
+   "key": 21784
+  }
+ ]
+}

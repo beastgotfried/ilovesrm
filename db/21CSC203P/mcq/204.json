@@ -1,0 +1,163 @@
+{
+ "mcq": [
+  {
+   "_id": 11919,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "int arr[] = new int[5];",
+   "OPT_2": "int arr = new int[5];",
+   "OPT_3": "array int arr = new array[5];",
+   "OPT_4": "int arr[5];",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following is the correct way to declare a one-dimensional array in Java?",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 11919
+  },
+  {
+   "_id": 11920,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "array[row][column]",
+   "OPT_2": "array(column, row)",
+   "OPT_3": "array -> row -> column",
+   "OPT_4": "array[column][row]",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "How are elements in a two-dimensional array accessed in Java?",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 11920
+  },
+  {
+   "_id": 11921,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "null",
+   "OPT_2": "1",
+   "OPT_3": "0",
+   "OPT_4": "garbage value",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What will be the default value of elements in a newly declared integer array in Java?",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 11921
+  },
+  {
+   "_id": 11922,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "passArray(int[] arr);",
+   "OPT_2": "method(int arr);",
+   "OPT_3": "arrayCall(arr);",
+   "OPT_4": "method[] array;",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following correctly passes an array to a method in Java?",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 11922
+  },
+  {
+   "_id": 11923,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Single object",
+   "OPT_2": "Array of objects",
+   "OPT_3": "Primitive array",
+   "OPT_4": "Function",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which data structure allows you to store multiple objects of a class in a single structure?",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 11923
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11970,
+   "ANSWER": "A one-dimensional array is a linear collection of elements, e.g.,\nint[] numbers = {1, 2, 3};\nA two-dimensional array is like a table with rows and columns, e.g.,\nint[][] matrix = { {1, 2}, {3, 4} };\nAccess in 1D: numbers[1] = 2\nAccess in 2D: matrix[1][0] = 3",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Differentiate between a one-dimensional and a two-dimensional array in Java with examples.",
+   "SESSION_ID": 204,
+   "TYPE": "sq",
+   "key": 11970
+  },
+  {
+   "_id": 11971,
+   "ANSWER": "public class ArrayUtils {\n    public static int[] doubleArray(int[] input) {\n        int[] result = new int[input.length];\n        for (int i = 0; i < input.length; i++) {\n            result[i] = input[i] * 2;\n        }\n        return result;\n    }\n}\nThis method demonstrates array manipulation and returning arrays from methods.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a Java method that takes an array of integers as input and returns a new array with each element doubled.",
+   "SESSION_ID": 204,
+   "TYPE": "sq",
+   "key": 11971
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11991,
+   "ANSWER": "Java Code:\nclass Student {\n    String name;\n    int[] marks;\n    Student(String name, int[] marks) {\n        this.name = name;\n        this.marks = marks;\n    }\n}\npublic class StudentResults {\n    public static void calculateAverages(Student[] students) {\n        for (Student s : students) {\n            int total = 0;\n            for (int mark : s.marks) {\n                total += mark;\n            }\n            double avg = (double) total / s.marks.length;\n            System.out.println(\"Student: \" + s.name + \" | Average: \" + avg);\n        }\n    }\n    public static void main(String[] args) {\n        Student[] studentArray = {\n            new Student(\"Alice\", new int[]{85, 90, 88}),\n            new Student(\"Bob\", new int[]{70, 65, 75})\n        };\n        calculateAverages(studentArray);\n    }\n}\nExplanation:\nAn array of objects (Student[]) stores multiple student records. The method calculateAverages() accepts the array and processes each object. This modular approach supports code reuse, clarity, and object-oriented handling of structured data.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are building a student result system. Each student has marks in 3 subjects. You are given an array of student objects, and each object contains the student name and marks. Write a Java program that does the following:\nUses an array of Student objects\nPasses the array to a method that calculates and prints each student\ufffds average mark",
+   "SESSION_ID": 204,
+   "TYPE": "lq",
+   "key": 11991
+  },
+  {
+   "_id": 12003,
+   "ANSWER": "Java Code:\nclass Student {\n    String name;\n    int[] marks;\n    Student(String name, int[] marks) {\n        this.name = name;\n        this.marks = marks;\n    }\n}\npublic class StudentResults {\n    public static void calculateAverages(Student[] students) {\n        for (Student s : students) {\n            int total = 0;\n            for (int mark : s.marks) {\n                total += mark;\n            }\n            double avg = (double) total / s.marks.length;\n            System.out.println(\"Student: \" + s.name + \" | Average: \" + avg);\n        }\n    }\n    public static void main(String[] args) {\n        Student[] studentArray = {\n            new Student(\"Alice\", new int[]{85, 90, 88}),\n            new Student(\"Bob\", new int[]{70, 65, 75})\n        };\n        calculateAverages(studentArray);\n    }\n}\nExplanation:\nAn array of objects (Student[]) stores multiple student records. The method calculateAverages() accepts the array and processes each object. This modular approach supports code reuse, clarity, and object-oriented handling of structured data.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are building a student result system. Each student has marks in 3 subjects. You are given an array of student objects, and each object contains the student name and marks. Write a Java program that does the following:\nUses an array of Student objects\nPasses the array to a method that calculates and prints each student\ufffds average mark",
+   "SESSION_ID": 204,
+   "TYPE": "lq",
+   "key": 12003
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9299,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) High-level vs. low-level languages<br data-end=\"507\" data-start=\"504\" />\n<br data-end=\"1461\" data-start=\"1458\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Imperative vs. Declarative paradigms<br data-end=\"549\" data-start=\"546\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Structured vs. Unstructured programming<br data-end=\"594\" data-start=\"591\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Dynamic vs. Static typing</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"464\" data-start=\"358\">Which of the following best describes the top-level division in the programming paradigm hierarchy?</strong><br data-end=\"467\" data-start=\"464\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 9299
+  },
+  {
+   "_id": 9300,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Logic programming<br data-end=\"764\" data-start=\"761\" />\n<br data-end=\"467\" data-start=\"464\" />\n<br data-end=\"507\" data-start=\"504\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Functional programming<br data-end=\"792\" data-start=\"789\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Procedural programming<br data-end=\"820\" data-start=\"817\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) SQL programming</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"738\" data-start=\"677\">Which paradigm is a subset of the Imperative paradigm?</strong><br data-end=\"741\" data-start=\"738\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 9300
+  },
+  {
+   "_id": 9301,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OPT_1": "<p>a) Functional programming allows frequent state changes<br data-end=\"1052\" data-start=\"1049\" />\n<br data-end=\"467\" data-start=\"464\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Procedural programming avoids state changes<br data-end=\"1101\" data-start=\"1098\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Functional programming discourages changing states<br data-end=\"1157\" data-start=\"1154\" />\n<br data-end=\"764\" data-start=\"761\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Both rely heavily on mutable states</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"991\" data-start=\"891\">How does functional programming differ from procedural programming in terms of state changes?</strong><br data-end=\"994\" data-start=\"991\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 9301
+  },
+  {
+   "_id": 9302,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) Logical inference<br data-end=\"1388\" data-start=\"1385\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Rule-based computation<br data-end=\"1416\" data-start=\"1413\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Encapsulation and reuse through objects<br data-end=\"1461\" data-start=\"1458\" />\n<br data-end=\"1157\" data-start=\"1154\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Declarative SQL-based queries</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1362\" data-start=\"1247\">Which of the following is a key feature of the Object-Oriented paradigm compared to the Procedural paradigm?</strong><br data-end=\"1365\" data-start=\"1362\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 9302
+  },
+  {
+   "_id": 9303,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) All are top-level paradigms with no hierarchy<br data-end=\"1732\" data-start=\"1729\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Object-Oriented and Procedural are under Imperative; Logic and Functional under Declarative<br data-end=\"1829\" data-start=\"1826\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Logic and Object-Oriented fall under Functional<br data-end=\"1882\" data-start=\"1879\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Procedural and Functional are subsets of Declarative<br data-end=\"1461\" data-start=\"1458\" />\n&nbsp;</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1678\" data-start=\"1548\">In a hierarchical view, how would you position the following paradigms: Procedural, Object-Oriented, Logic, and Functional?</strong><br data-end=\"1681\" data-start=\"1678\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 9303
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9353,
+   "ANSWER": "<p>Procedural programming facilitates organizing logic into distinct procedures such as <code data-end=\"550\" data-start=\"532\">calculateTotal()</code> and <code data-end=\"572\" data-start=\"555\">applyDiscount()</code>, enabling step-by-step execution, reducing complexity, and enhancing maintainability.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A billing system needs to process orders and apply discounts efficiently. How does procedural programming assist in such design?</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "sq",
+   "key": 9353
+  },
+  {
+   "_id": 9354,
+   "ANSWER": "<p>Adopting modular design and using local variables within procedures can limit scope, reducing side effects and improving clarity and testability.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A program frequently uses global variables across modules, causing unintended behavior. How can procedural programming practices resolve this?<br data-end=\"813\" data-start=\"810\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "sq",
+   "key": 9354
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9375,
+   "ANSWER": "<ol data-end=\"2645\" data-start=\"1511\">\n\t<li data-end=\"1851\" data-start=\"1479\">\n\t<p data-end=\"1532\" data-start=\"1482\"><strong data-end=\"1532\" data-start=\"1482\">Procedural Features and Suitability (6 marks):</strong></p>\n\n\t<ul data-end=\"1851\" data-start=\"1536\">\n\t\t<li data-end=\"1655\" data-start=\"1536\">\n\t\t<p data-end=\"1655\" data-start=\"1538\"><strong data-end=\"1554\" data-start=\"1538\">Modular Code</strong>: Functions/subroutines like <code data-end=\"1597\" data-start=\"1583\">addStudent()</code>, <code data-end=\"1617\" data-start=\"1599\">generateReport()</code> separate logic and reduce complexity.</p>\n\t\t</li>\n\t\t<li data-end=\"1736\" data-start=\"1659\">\n\t\t<p data-end=\"1736\" data-start=\"1661\"><strong data-end=\"1684\" data-start=\"1661\">Global Control Flow</strong>: Easy to trace and debug due to top-down structure.</p>\n\t\t</li>\n\t\t<li data-end=\"1851\" data-start=\"1740\">\n\t\t<p data-end=\"1851\" data-start=\"1742\"><strong data-end=\"1765\" data-start=\"1742\">Efficient Execution</strong>: Minimal abstraction overhead, suitable for systems with low RAM/processing capacity.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2212\" data-start=\"1853\">\n\t<p data-end=\"1909\" data-start=\"1856\"><strong data-end=\"1909\" data-start=\"1856\">Step-by-Step Control Flow Illustration (5 marks):</strong></p>\n\n\t<ul data-end=\"2212\" data-start=\"1913\">\n\t\t<li data-end=\"2164\" data-start=\"1913\">\n\t\t<p data-end=\"1935\" data-start=\"1915\">Describe the use of:</p>\n\n\t\t<ul data-end=\"2164\" data-start=\"1941\">\n\t\t\t<li data-end=\"2028\" data-start=\"1941\">\n\t\t\t<p data-end=\"2028\" data-start=\"1943\"><strong data-end=\"1955\" data-start=\"1943\">Sequence</strong>: Operations executed one after another (e.g., input &rarr; validate &rarr; store).</p>\n\t\t\t</li>\n\t\t\t<li data-end=\"2102\" data-start=\"2034\">\n\t\t\t<p data-end=\"2102\" data-start=\"2036\"><strong data-end=\"2049\" data-start=\"2036\">Selection</strong>: <code data-end=\"2062\" data-start=\"2051\">if...else</code> to decide eligibility for scholarships.</p>\n\t\t\t</li>\n\t\t\t<li data-end=\"2164\" data-start=\"2108\">\n\t\t\t<p data-end=\"2164\" data-start=\"2110\"><strong data-end=\"2123\" data-start=\"2110\">Iteration</strong>: <code data-end=\"2130\" data-start=\"2125\">for</code> loops for printing student lists.</p>\n\t\t\t</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li data-end=\"2212\" data-start=\"2168\">\n\t\t<p data-end=\"2212\" data-start=\"2170\">A brief pseudocode block earns full marks.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2454\" data-start=\"2214\">\n\t<p data-end=\"2257\" data-start=\"2217\"><strong data-end=\"2257\" data-start=\"2217\">Evaluation of Limitations (4 marks):</strong></p>\n\n\t<ul data-end=\"2454\" data-start=\"2261\">\n\t\t<li data-end=\"2307\" data-start=\"2261\">\n\t\t<p data-end=\"2307\" data-start=\"2263\">Lack of abstraction leads to tight coupling.</p>\n\t\t</li>\n\t\t<li data-end=\"2388\" data-start=\"2311\">\n\t\t<p data-end=\"2388\" data-start=\"2313\">Difficult to manage when requirements grow (e.g., user roles, permissions).</p>\n\t\t</li>\n\t\t<li data-end=\"2454\" data-start=\"2392\">\n\t\t<p data-end=\"2454\" data-start=\"2394\">Limited support for real-time updates or plug-in extensions.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"613\" data-start=\"371\"><strong data-end=\"384\" data-start=\"371\">Question:</strong><br data-end=\"387\" data-start=\"384\" />\nA university is developing a lightweight academic record system to be used in rural outreach centers. Due to limited computing resources, the software must be highly efficient, easy to test, and deployable on basic hardware.</p>\n\n<p data-end=\"780\" data-start=\"615\">The project manager suggests implementing the system using a procedural approach, leveraging structured programming and explicit control flow to maintain simplicity.</p>\n\n<p data-end=\"850\" data-start=\"782\"><strong data-end=\"791\" data-start=\"782\">Task:</strong><br data-end=\"794\" data-start=\"791\" />\nAnalyze the above scenario and respond to the following:</p>\n\n<ol data-end=\"1433\" data-start=\"852\">\n\t<li data-end=\"1057\" data-start=\"852\">\n\t<p data-end=\"1057\" data-start=\"855\">Explain how the characteristics of procedural programming address the resource limitations and functional requirements of this system. Include at least three relevant features with examples. (6 marks)</p>\n\t</li>\n\t<li data-end=\"1279\" data-start=\"1058\">\n\t<p data-end=\"1279\" data-start=\"1061\">Illustrate how step-by-step execution and structured control flow (sequence, selection, iteration) contribute to simplicity and maintainability in this context. Provide a logical flow or pseudocode example. (5 marks)</p>\n\t</li>\n\t<li data-end=\"1433\" data-start=\"1280\">\n\t<p data-end=\"1433\" data-start=\"1283\">Evaluate potential limitations of procedural programming in case the system needs to scale or integrate more complex features in the future. (4 marks)</p>\n\t</li>\n</ol>\n",
+   "SESSION_ID": 103,
+   "TYPE": "lq",
+   "key": 9375
+  }
+ ]
+}

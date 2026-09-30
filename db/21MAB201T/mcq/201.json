@@ -1,0 +1,320 @@
+{
+ "mcq": [
+  {
+   "_id": 29049,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(f(x-p) = f(x)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(f(x+p) = f(x)\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(f(x+2p) = f(x)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(f(2x+p) = f(x)\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify\"><span style=\"font-size:11pt\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">A function <span class=\"math-tex\">\\(f(x)\\)</span></span><span style=\"font-family:&quot;Times New Roman&quot;,serif\">&nbsp;is said to be periodic if </span></span></span></p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 29049
+  },
+  {
+   "_id": 29050,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>It is single valued and finite in any interval.</p>\n",
+   "OPT_2": "<p>It has atmost a finite number of discontinuities within the period.</p>\n",
+   "OPT_3": "<p>It has finite number of discontinuities within the period.</p>\n",
+   "OPT_4": "<p>&nbsp;It has infinite number of maxima and minima in any one period.</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is not a Dirichlet condition for a periodic function?</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 29050
+  },
+  {
+   "_id": 29051,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\n\\boxed{\ne^{-x} = \\frac{1 - e^{-2\\pi}}{\\pi} \\left[ \\frac{1}{2} + \\sum_{n=1}^{\\infty} \\frac{1}{n^2 + 1} \\left( \\cos(nx) + n \\sin(nx) \\right) \\right]\n}\n\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\n\\boxed{\ne^{-x} = \\frac{1 +e^{2\\pi}}{\\pi} \\left[ \\frac{1}{2} + \\sum_{n=1}^{\\infty} \\frac{1}{n^2 + 1} \\left( \\cos(nx) + n \\sin(nx) \\right) \\right]\n}\n\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\n\\boxed{\ne^{-x} = \\frac{1 +e^{-2\\pi}}{\\pi} \\left[ \\frac{1}{2} + \\sum_{n=1}^{\\infty} \\frac{1}{n^2 + 1} \\left( \\cos(nx) + n \\sin(nx) \\right) \\right]\n}\n\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\n\\boxed{\ne^{-x} = \\frac{1 - e^{-2\\pi}}{\\pi} \\left[ \\frac{1}{2} + \\sum_{n=1}^{\\infty} \\frac{1}{n^2 + 1} \\left( n\\sin(nx) + n \\cos(nx) \\right) \\right]\n}\n\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Fourier series of&nbsp;<span class=\"math-tex\">\\(f(x)=e^{-x}\\)</span>&nbsp;with periodicity&nbsp;<span class=\"math-tex\">\\(2\\pi\\)</span>,&nbsp;<span class=\"math-tex\">\\(0&lt;x&lt;2\\pi\\)</span>,</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 29051
+  },
+  {
+   "_id": 29052,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos(nx) + b_n \\sin(nx) \\right]\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(f(x) = \\frac{b_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos(nx) + b_n \\sin(nx) \\right]\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(f(x) = \\frac{a_n}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos(nx) + b_n \\sin(nx) \\right]\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\sin(nx) + b_n \\cos(nx) \\right]\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Fourier series of the function<span class=\"math-tex\">\\(f(x)\\)</span>&nbsp;with period&nbsp;<span class=\"math-tex\">\\(2\\pi\\)</span>&nbsp;in the interval&nbsp;<span class=\"math-tex\">\\([0,2\\pi]\\)</span></p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 29052
+  },
+  {
+   "_id": 29053,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\int_{0}^{2\\pi} \\sin(mx) \\cos(nx) \\, dx \\neq 0 \\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\int_{0}^{2\\pi} \\sin(mx) \\cos(nx) \\, dx = 0 \\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\int_{0}^{2\\pi} \\sin(mx) \\cos(mx) \\, dx \\neq 0 \\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\( \\int_{0}^{2\\pi} \\sin(mx) \\sin(nx) \\, dx = 1 \\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>If&nbsp;<span class=\"math-tex\">\\(m\\neq n\\)</span>, then</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 29053
+  },
+  {
+   "_id": 49904,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( a_0 = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) \\, dx \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( a_0 = \\frac{2}{\\pi} \\int_0^{2\\pi} f(x) \\, dx \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( a_0 = \\frac{1}{2\\pi} \\int_0^{2\\pi} f(x) \\, dx \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( a_0 = \\int_0^{2\\pi} f(x) \\, dx \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For a function \\( f(x) \\) with period \\( 2\\pi \\) defined on \\( (0, 2\\pi) \\), which formula gives the Fourier coefficient \\( a_0 \\)?</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 49904
+  },
+  {
+   "_id": 49905,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( b_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) \\sin(nx) \\, dx \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( b_n = \\frac{2}{\\pi} \\int_0^{2\\pi} f(x) \\sin(nx) \\, dx \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( b_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) \\cos(nx) \\, dx \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( b_n = \\frac{1}{2\\pi} \\int_0^{2\\pi} f(x) \\sin(nx) \\, dx \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) \\) defined on \\( (0, 2\\pi) \\), the Fourier coefficient \\( b_n \\) is given by:</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 49905
+  },
+  {
+   "_id": 49906,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\( a_0 \\) can be obtained from the formula for \\( a_n \\) by setting \\( n=0 \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">It makes the formulas symmetrical</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">It's a historical convention</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">It simplifies calculations</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The constant term in Fourier series expansion on \\( (0, 2\\pi) \\) is written as \\( a_0/2 \\) rather than \\( a_0 \\) because:</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 49906
+  },
+  {
+   "_id": 49907,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\( f(x) = k \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( f(x) = \\frac{k}{2} + \\sum_{n=1}^{\\infty} \\frac{k}{\\pi} \\sin(nx) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( f(x) = k + \\sum_{n=1}^{\\infty} \\cos(nx) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( f(x) = \\frac{k}{2} \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">If \\( f(x) = k \\) (constant) in \\( (0, 2\\pi) \\), what is its Fourier series?</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 49907
+  },
+  {
+   "_id": 49908,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Only \\( b_1 \\) is non-zero</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Only \\( a_1 \\) is non-zero</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Both \\( a_1 \\) and \\( b_1 \\) are non-zero</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">All coefficients are zero</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) = \\sin(x) \\) defined on \\( (0, 2\\pi) \\), which statement is true about its Fourier coefficients?</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 49908
+  }
+ ],
+ "sq": [
+  {
+   "_id": 49594,
+   "ANSWER": "<p><span class=\"math-tex\">\\(\na_0 = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) dx --(1m)\\\\ \n\na_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x)\\cos nx\\, dx --(2m)\\\\\n\nb_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x)\\sin nx\\, dx --(2m)\n\\)</span></p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>If &nbsp;f(x) is a periodic function with period <span class=\"math-tex\">\\(2\\pi\\)</span>, then the Fourier series of the function f(x) in the interval <span class=\"math-tex\">\\([0,2\\pi]\\)</span>&nbsp;is given by&nbsp;<span class=\"math-tex\">\\( f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} \\left[ a_n \\cos nx + b_n \\sin nx \\right]\n\\)</span></p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 49594
+  },
+  {
+   "_id": 49595,
+   "ANSWER": "<ul>\n\t<li>It is a single valued and finite in any interval -- (1 m)</li>\n\t<li>It has at at most a finite number of discontinuities with in the period -- (2 m)</li>\n\t<li>It has finite number of maxima and minima in any one period --(2 m)</li>\n</ul>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>A periodic function said to be satisfy <strong>Dirichlets Conditions</strong> if:</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 49595
+  },
+  {
+   "_id": 50007,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{The Fourier series is: } f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} (a_n \\cos nx + b_n \\sin nx)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{where coefficients are: } a_0 = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{ } a_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) \\cos nx \\, dx, \\quad n \\ge 1\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{ } b_n = \\frac{1}{\\pi} \\int_0^{2\\pi} f(x) \\sin nx \\, dx, \\quad n \\ge 1\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Define Fourier series of a function } f(x) \\text{ of period } 2\\pi \\text{ in the interval } (0, 2\\pi).\\)</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 50007
+  },
+  {
+   "_id": 50008,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{1. } f(x) \\text{ is periodic with period } 2\\pi \\text{ and bounded in } (0, 2\\pi)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{2. } f(x) \\text{ is piecewise continuous with finite discontinuities}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{3. } f(x) \\text{ has finite number of maxima and minima in } (0, 2\\pi)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{If satisfied, series converges to } f(x) \\text{ at continuity points, to average at discontinuities}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State Dirichlet's conditions for convergence of Fourier series.}\\)</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 50008
+  },
+  {
+   "_id": 50009,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Compute } a_0 = \\frac{1}{\\pi} \\int_0^{2\\pi} x dx = 2\\pi\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Compute } a_n = 0, \\quad b_n = -\\frac{2}{n}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } x = \\pi - 2\\sum_{n=1}^{\\infty} \\frac{\\sin nx}{n}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Put } x = \\frac{\\pi}{2}: \\frac{\\pi}{2} = \\pi - 2(1 - \\frac{1}{3} + \\frac{1}{5} - \\cdots) \\Rightarrow 1 - \\frac{1}{3} + \\frac{1}{5} - \\cdots = \\frac{\\pi}{4}\\)</span></p></td><td>(3 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find Fourier series for } f(x) = x \\text{ in } 0 < x < 2\\pi. \\text{ Deduce } \\sum_{n=1}^{\\infty} \\frac{1}{n}.\\)</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 50009
+  },
+  {
+   "_id": 50010,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{At discontinuity } x = \\alpha, \\text{ series converges to average: } \\frac{1}{2}[f(\\alpha^-) + f(\\alpha^+)]\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{where } f(\\alpha^-) = \\lim_{h \\to 0^+} f(\\alpha - h), \\quad f(\\alpha^+) = \\lim_{h \\to 0^+} f(\\alpha + h)\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{This is Dirichlet's convergence theorem at discontinuities}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Explain convergence at discontinuity point in Fourier series.}\\)</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 50010
+  },
+  {
+   "_id": 50011,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(a_0 = \\frac{1}{\\pi} \\int_0^{2\\pi} e^{ax} dx = \\frac{1}{a\\pi}(e^{2a\\pi} - 1)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_n = \\frac{1}{\\pi} \\int_0^{2\\pi} e^{ax} \\cos nx dx = \\frac{a(e^{2a\\pi} - 1)}{\\pi(a^2 + n^2)}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{1}{\\pi} \\int_0^{2\\pi} e^{ax} \\sin nx dx = \\frac{-n(e^{2a\\pi} - 1)}{\\pi(a^2 + n^2)}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Series: } e^{ax} = \\frac{e^{2a\\pi} - 1}{\\pi}[\\frac{1}{2a} + \\sum_{n=1}^{\\infty} (\\frac{a\\cos nx}{a^2+n^2} - \\frac{n\\sin nx}{a^2+n^2})]\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find Fourier coefficients for } f(x) = e^{ax} \\text{ in } (0, 2\\pi).\\)</span></p>",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 50011
+  }
+ ],
+ "lq": [
+  {
+   "_id": 49653,
+   "ANSWER": "<p><span class=\"math-tex\">\\(The \\quad Fourier \\quad series \\quad of \\quad a\\quad  function \\quad in \\quad the \\quad interval \\quad [0,2\\pi]\\\\\n\nf(x)=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}\\left(a_n\\cos nx + b_n\\sin nx\\right)\\\\\n\n\na_0 = \\frac{1}{\\pi}\\int_{0}^{2\\pi} x\\, dx,\\qquad\\\\\na_n = \\frac{1}{\\pi}\\int_{0}^{2\\pi} x \\cos nx\\, dx,\\qquad\\\\\nb_n = \\frac{1}{\\pi}\\int_{0}^{2\\pi} x \\sin nx\\, dx.\\\\\n\n\n\\textbf{1. Computation of $a_0$:}\n\na_0 = \\frac{1}{\\pi}\\int_{0}^{2\\pi} x\\,dx\\\\\n= \\frac{1}{\\pi}\\left[\\frac{x^2}{2}\\right]_{0}^{2\\pi}\\\\\n= \\frac{1}{\\pi}\\left(\\frac{4\\pi^2}{2}\\right)\\\\\n= 2\\pi.\\\\\n\n\n\\frac{a_0}{2} = \\pi.\\\\\n\n\\textbf{2. Computation of $a_n$:}\\\\\n\na_n = \\frac{1}{\\pi}\\int_{0}^{2\\pi} x\\cos nx\\, dx.\\\\\n\nUsing \\quad integration \\quad by \\quad parts \\quad with \\quad u=x, dv=\\cos nx\\,dx:\\\\\na_n=\\frac{1}{\\pi}\\left[\\frac{x\\sin nx}{n} - \\int \\frac{\\sin nx}{n}\\,dx\\right]_{0}^{2\\pi}.\\\\\nSince \\sin(0)=0 and \\sin(2n\\pi)=0, this becomes\\\\\n\na_n = \\frac{1}{\\pi}\\cdot \\frac{1}{n^2}(\\cos 2n\\pi - \\cos 0)=0.\\\\\nHence,\n\na_n = 0.\\\\\n\n\\textbf{3. Computation of b_n:}\\\\\n\nb_n = \\frac{1}{\\pi}\\int_{0}^{2\\pi} x\\sin nx\\, dx. \\\\\n\nUsing \\quad integration \\quad by \\quad parts \\quad with \\quad u=x, dv=\\sin nx\\,dx\\\\\n\nb_n = \\frac{1}{\\pi}\\left[-\\frac{x\\cos nx}{n} + \\int \\frac{\\cos nx}{n}\\, dx\\right]_{0}^{2\\pi}.\\\\\n\nEvaluate \\quad at \\quad limits:\\\\\n\nb_n=\\frac{1}{\\pi}\\left[-\\frac{2\\pi}{n}\\right] = -\\frac{2}{n}.\\\\\n\n\n\\textbf{Final Fourier Series:}\\\\\n\nx = \\pi - 2\\sum_{n=1}^{\\infty} \\frac{1}{n}\\sin(nx), \\qquad 0&lt;x&lt;2\\pi.\\\\\n\\)</span></p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Expand the periodic function&nbsp;<span class=\"math-tex\">\\(f(x)=x, 0&lt;x&lt;2\\pi\\)</span>&nbsp;as a Fourier series in the interval&nbsp;<span class=\"math-tex\">\\([0,2\\pi]\\)</span></p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "lq",
+   "key": 49653
+  },
+  {
+   "_id": 50067,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Fourier series form: \\(f(x)=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)\\)</td><td>(1)</td></tr><tr><td>\\(a_0=\\frac{1}{\\pi}\\int_0^{2\\pi}x^2 dx=\\frac{1}{\\pi}\\left[\\frac{x^3}{3}\\right]_0^{2\\pi}=\\frac{8\\pi^2}{3}\\)</td><td>(2)</td></tr><tr><td>\\(a_n=\\frac{1}{\\pi}\\int_0^{2\\pi}x^2\\cos nx\\,dx=\\frac{4}{n^2}\\)</td><td>(3)</td></tr><tr><td>\\(b_n=\\frac{1}{\\pi}\\int_0^{2\\pi}x^2\\sin nx\\,dx=-\\frac{4\\pi}{n}\\)</td><td>(3)</td></tr><tr><td>Thus, \\(x^2=\\frac{4\\pi^2}{3}+4\\sum_{n=1}^{\\infty}\\frac{\\cos nx}{n^2}-4\\pi\\sum_{n=1}^{\\infty}\\frac{\\sin nx}{n}\\)</td><td>(2)</td></tr><tr><td>Put \\(x=\\pi\\): \\(\\pi^2=\\frac{4\\pi^2}{3}+4\\sum_{n=1}^{\\infty}\\frac{\\cos n\\pi}{n^2}\\) \u21d2 \\(\\frac{\\pi^2}{6}=\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=x^2\\) in the interval \\((0,2\\pi)\\). Hence, deduce that \\(\\sum_{n=1}^{\\infty}\\frac{1}{n^2} = \\frac{\\pi^2}{6}\\).</p>",
+   "SESSION_ID": 201,
+   "TYPE": "lq",
+   "key": 50067
+  },
+  {
+   "_id": 50068,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Fourier series form: \\(f(x)=\\frac{a_0}{2}+\\sum_{n=1}^{\\infty}(a_n\\cos nx+b_n\\sin nx)\\)</td><td>(1)</td></tr><tr><td>\\(a_0=\\frac{1}{\\pi}\\int_0^{2\\pi}e^{ax}dx=\\frac{e^{2a\\pi}-1}{a\\pi}\\)</td><td>(2)</td></tr><tr><td>\\(a_n=\\frac{1}{\\pi}\\int_0^{2\\pi}e^{ax}\\cos nx\\,dx=\\frac{a(e^{2a\\pi}-1)}{\\pi(a^2+n^2)}\\)</td><td>(3)</td></tr><tr><td>\\(b_n=\\frac{1}{\\pi}\\int_0^{2\\pi}e^{ax}\\sin nx\\,dx=\\frac{-n(e^{2a\\pi}-1)}{\\pi(a^2+n^2)}\\)</td><td>(3)</td></tr><tr><td>Thus, \\(e^{ax}=\\frac{e^{2a\\pi}-1}{\\pi}\\left[\\frac{1}{2a}+a\\sum_{n=1}^{\\infty}\\frac{\\cos nx}{a^2+n^2}-\\sum_{n=1}^{\\infty}\\frac{n\\sin nx}{a^2+n^2}\\right]\\)</td><td>(2)</td></tr><tr><td>Put \\(x=0\\): \\(1=\\frac{e^{2a\\pi}-1}{\\pi}\\left[\\frac{1}{2a}+a\\sum_{n=1}^{\\infty}\\frac{1}{a^2+n^2}\\right]\\) \u21d2 \\(\\sum_{n=1}^{\\infty}\\frac{1}{a^2+n^2}=\\frac{\\pi\\coth a\\pi}{2a}-\\frac{1}{2a^2}\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=e^{ax}\\) in \\((0,2\\pi)\\). Hence, find the sum of the series \\(\\sum_{n=1}^{\\infty}\\frac{1}{a^2+n^2}\\).</p>",
+   "SESSION_ID": 201,
+   "TYPE": "lq",
+   "key": 50068
+  }
+ ]
+}

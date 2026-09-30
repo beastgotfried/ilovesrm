@@ -1,0 +1,148 @@
+{
+ "mcq": [
+  {
+   "_id": 11929,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "main()",
+   "OPT_2": "println()",
+   "OPT_3": "myFunction()",
+   "OPT_4": "add()",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following is a predefined function in Java?",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 11929
+  },
+  {
+   "_id": 11930,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "functionName[]",
+   "OPT_2": "call functionName",
+   "OPT_3": "functionName();",
+   "OPT_4": "method.call(functionName)",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "In Java, how are functions called in code?",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 11930
+  },
+  {
+   "_id": 11931,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Variables used inside the function",
+   "OPT_2": "Variables declared as return types",
+   "OPT_3": "Variables passed to a function during the call",
+   "OPT_4": "Default values of functions",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following best describes actual parameters in Java?",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 11931
+  },
+  {
+   "_id": 11932,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "The reference to the variable is passed",
+   "OPT_2": "The address of the variable is passed",
+   "OPT_3": "A copy of the value is passed to the function",
+   "OPT_4": "The original value is modified directly",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What does pass by value mean in Java?",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 11932
+  },
+  {
+   "_id": 11933,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Only the first element is passed",
+   "OPT_2": "A copy of the array is passed",
+   "OPT_3": "The original array reference is passed",
+   "OPT_4": "An exception is thrown",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What happens when you pass an array to a function in Java?",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 11933
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11974,
+   "ANSWER": "Actual parameters are the values passed to a function when it is called.\nFormal parameters are the variables defined in the function declaration to receive the passed values.\nExample:\nvoid greet(String name) { // 'name' is a formal parameter\n    System.out.println(\"Hello \" + name);\n}\ngreet(\"John\"); // \"John\" is the actual parameter",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Differentiate between actual parameters and formal parameters with an example.",
+   "SESSION_ID": 206,
+   "TYPE": "sq",
+   "key": 11974
+  },
+  {
+   "_id": 11975,
+   "ANSWER": "public void addNumbers(int a, int b) {\n    System.out.println(\"Sum = \" + (a + b));\n}\n// Function call\naddNumbers(5, 10);\nHere, a and b are formal parameters, and 5, 10 are actual parameters passed by value.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a Java function that accepts two integers and prints their sum. Also, show how to call this function.",
+   "SESSION_ID": 206,
+   "TYPE": "sq",
+   "key": 11975
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11993,
+   "ANSWER": "Java Code:\npublic class Utility {\n    public static void swap(int a, int b) {\n        int temp = a;\n        a = b;\n        b = temp;\n        System.out.println(\"Inside swap: a = \" + a + \", b = \" + b);\n    }\n    public static void main(String[] args) {\n        int x = 10, y = 20;\n        swap(x, y);\n        System.out.println(\"After swap: x = \" + x + \", y = \" + y);\n    }\n}\nOutput:\nInside swap: a = 20, b = 10  \nAfter swap: x = 10, y = 20  \nExplanation:\nJava uses pass by value, even for primitives.\nx and y are actual parameters, and a and b are formal parameters.\nThe swap occurs only within the scope of the function. The original values remain unchanged because only copies were modified.\nThis illustrates the concept of pass by value, where changes to parameters inside the method do not affect the original arguments.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are writing a utility class with a function to swap two numbers. You observe that after calling the function, the original values are not swapped. Write a Java method to swap two integers. Then, explain why the values don\ufffdt change outside the function. What concept does this illustrate about argument passing in Java?",
+   "SESSION_ID": 206,
+   "TYPE": "lq",
+   "key": 11993
+  }
+ ]
+}

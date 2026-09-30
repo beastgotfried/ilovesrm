@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17389,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Clock speed (GHz)</p>\n",
+   "OPT_2": "<p>Instructions Per Cycle (IPC)</p>\n",
+   "OPT_3": "<p>Memory size (GB)</p>\n",
+   "OPT_4": "<p>Power consumption (W)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What is the primary performance metric for pipelined processors?</strong></p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 17389
+  },
+  {
+   "_id": 17390,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Throughput = (Number of instructions) / (Total cycles)</p>\n",
+   "OPT_2": "<p>Clock speed &times; Cache size</p>\n",
+   "OPT_3": "<p>IPC &times; Power</p>\n",
+   "OPT_4": "<p>Stages &times; Registers</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What is the formula for pipeline throughput?</strong></p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 17390
+  },
+  {
+   "_id": 17392,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Stack pointer</p>\n",
+   "OPT_2": "<p>Status register</p>\n",
+   "OPT_3": "<p>Accumulator</p>\n",
+   "OPT_4": "<p>Pipeline registers (e.g., IF/ID, EX/MEM)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which register tracks instructions across pipeline stages?</strong></p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 17392
+  },
+  {
+   "_id": 17394,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Reduce memory usage</p>\n",
+   "OPT_2": "<p>Increase clock speed</p>\n",
+   "OPT_3": "<p>Force stalls or require forwarding</p>\n",
+   "OPT_4": "<p>Disable the ALU</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>How do data hazards affect pipeline performance?</strong></p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 17394
+  },
+  {
+   "_id": 17395,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Faster cache access</p>\n",
+   "OPT_2": "<p>Reduced power</p>\n",
+   "OPT_3": "<p>Higher IPC</p>\n",
+   "OPT_4": "<p>Pipeline flush + wasted cycles</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What is the impact of a branch misprediction on performance?</strong></p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 17395
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17438,
+   "ANSWER": "<ol data-end=\"2619\" data-start=\"2260\">\n\t<li data-end=\"2350\" data-start=\"2260\">\n\t<p data-end=\"2350\" data-start=\"2263\">Pipelining is a technique used in computer architecture to improve instruction throughput. It divides the instruction execution process into several stages, with each stage handling a part of the instruction, such as fetch, decode, execute, memory access, and write-back. Multiple instructions are overlapped in execution by processing different stages simultaneously, similar to an assembly line in manufacturing. This increases CPU efficiency by executing more instructions per unit time, even though the time to complete a single instruction remains the same.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What is pipelining in computer architecture?</p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "sq",
+   "key": 17438
+  },
+  {
+   "_id": 17439,
+   "ANSWER": "<ol data-end=\"2619\" data-start=\"2260\">\n\t<li data-end=\"2350\" data-start=\"2260\">\n\t<p data-end=\"2381\" data-start=\"2309\">Pipeline performance can be affected by several factors:</p>\n\t</li>\n\t<li data-end=\"2565\" data-start=\"2382\">\n\t<p data-end=\"2565\" data-start=\"2384\"><strong data-end=\"2405\" data-start=\"2384\">Pipeline hazards:</strong> Data hazards (dependency between instructions), control hazards (branch instructions), and structural hazards (resource conflicts) can cause pipeline stalls.</p>\n\t</li>\n\t<li data-end=\"2657\" data-start=\"2566\">\n\t<p data-end=\"2657\" data-start=\"2568\"><strong data-end=\"2599\" data-start=\"2568\">Pipeline stalls or bubbles:</strong> Introduced to resolve hazards, these reduce throughput.</p>\n\t</li>\n\t<li data-end=\"2764\" data-start=\"2658\">\n\t<p data-end=\"2764\" data-start=\"2660\"><strong data-end=\"2681\" data-start=\"2660\">Branch penalties:</strong> Incorrect branch predictions force the pipeline to discard fetched instructions.</p>\n\t</li>\n\t<li data-end=\"2959\" data-start=\"2765\">\n\t<p data-end=\"2959\" data-start=\"2767\"><strong data-end=\"2786\" data-start=\"2767\">Pipeline depth:</strong> Deeper pipelines increase throughput but can suffer more from hazards.<br data-end=\"2860\" data-start=\"2857\" />\n\tEffective hazard detection and resolution techniques are necessary to maintain pipeline efficiency.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Describe the factors that can affect the performance of a pipeline.</p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "sq",
+   "key": 17439
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17610,
+   "ANSWER": "<p data-end=\"2009\" data-start=\"1856\"><strong data-end=\"1881\" data-start=\"1870\">Speedup</strong> due to pipelining is the ratio of the execution time of non-pipelined processor to the execution time of a pipelined processor.</p>\n\n<hr data-end=\"2014\" data-start=\"2011\" />\n<p data-end=\"2046\" data-start=\"2016\"><strong data-end=\"2046\" data-start=\"2016\">Ideal Speedup Calculation:</strong></p>\n\n<ul data-end=\"2788\" data-start=\"2048\">\n\t<li data-end=\"2303\" data-start=\"2048\">\n\t<p data-end=\"2303\" data-start=\"2050\">If the processor has <strong data-end=\"2092\" data-start=\"2071\">k pipeline stages</strong>, and each instruction takes <strong data-end=\"2133\" data-start=\"2121\">k cycles</strong> in a non-pipelined processor, then the execution time for <strong data-end=\"2210\" data-start=\"2192\">n instructions</strong> is:<br data-end=\"2217\" data-start=\"2214\" />\n\tTnon&minus;pipelined=n&times;k&times;tT_{non-pipelined} = n \\times k \\times tTnon&minus;pipelined\u200b=n&times;k&times;t where ttt is the clock cycle time.</p>\n\t</li>\n\t<li data-end=\"2528\" data-start=\"2305\">\n\t<p data-end=\"2528\" data-start=\"2307\">In an ideal pipelined processor, the pipeline is filled and one instruction completes every cycle after the initial fill:<br data-end=\"2431\" data-start=\"2428\" />\n\tTpipelined=(k+n&minus;1)&times;tpT_{pipelined} = (k + n - 1) \\times t_pTpipelined\u200b=(k+n&minus;1)&times;tp\u200b, where tpt_ptp\u200b is the pipeline clock cycle time.</p>\n\t</li>\n\t<li data-end=\"2719\" data-start=\"2530\">\n\t<p data-end=\"2599\" data-start=\"2532\">Assuming tp&asymp;tkt_p \\approx \\frac{t}{k}tp\u200b&asymp;kt\u200b, the <strong data-end=\"2593\" data-start=\"2576\">ideal speedup</strong> is:</p>\n\tSpeedup=n&times;k&times;t(k+n&minus;1)&times;tk=n&times;k2k+n&minus;1\\text{Speedup} = \\frac{n \\times k \\times t}{(k + n -1) \\times \\frac{t}{k}} = \\frac{n \\times k^2}{k + n - 1}Speedup=(k+n&minus;1)&times;kt\u200bn&times;k&times;t\u200b=k+n&minus;1n&times;k2\u200b</li>\n\t<li data-end=\"2788\" data-start=\"2721\">\n\t<p data-end=\"2788\" data-start=\"2723\">For large nnn, speedup approaches kkk (number of stages).</p>\n\t</li>\n</ul>\n\n<hr data-end=\"2793\" data-start=\"2790\" />\n<p data-end=\"2832\" data-start=\"2795\"><strong data-end=\"2832\" data-start=\"2795\">Factors Affecting Actual Speedup:</strong></p>\n\n<ol data-end=\"3404\" data-start=\"2834\">\n\t<li data-end=\"3075\" data-start=\"2834\">\n\t<p data-end=\"2858\" data-start=\"2837\"><strong data-end=\"2858\" data-start=\"2837\">Pipeline Hazards:</strong></p>\n\n\t<ul data-end=\"3075\" data-start=\"2862\">\n\t\t<li data-end=\"2934\" data-start=\"2862\">\n\t\t<p data-end=\"2934\" data-start=\"2864\"><strong data-end=\"2887\" data-start=\"2864\">Structural hazards:</strong> Resource conflicts reduce pipeline efficiency.</p>\n\t\t</li>\n\t\t<li data-end=\"3000\" data-start=\"2938\">\n\t\t<p data-end=\"3000\" data-start=\"2940\"><strong data-end=\"2957\" data-start=\"2940\">Data hazards:</strong> Instruction dependencies may cause stalls.</p>\n\t\t</li>\n\t\t<li data-end=\"3075\" data-start=\"3004\">\n\t\t<p data-end=\"3075\" data-start=\"3006\"><strong data-end=\"3026\" data-start=\"3006\">Control hazards:</strong> Branch instructions can cause pipeline flushing.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3177\" data-start=\"3077\">\n\t<p data-end=\"3113\" data-start=\"3080\"><strong data-end=\"3113\" data-start=\"3080\">Pipeline Fill and Drain Time:</strong></p>\n\n\t<ul data-end=\"3177\" data-start=\"3117\">\n\t\t<li data-end=\"3177\" data-start=\"3117\">\n\t\t<p data-end=\"3177\" data-start=\"3119\">Initial latency for pipeline to fill and drain at the end.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3279\" data-start=\"3179\">\n\t<p data-end=\"3207\" data-start=\"3182\"><strong data-end=\"3207\" data-start=\"3182\">Unequal Stage Delays:</strong></p>\n\n\t<ul data-end=\"3279\" data-start=\"3211\">\n\t\t<li data-end=\"3279\" data-start=\"3211\">\n\t\t<p data-end=\"3279\" data-start=\"3213\">The slowest stage dictates the clock cycle time, reducing speedup.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3404\" data-start=\"3281\">\n\t<p data-end=\"3326\" data-start=\"3284\"><strong data-end=\"3326\" data-start=\"3284\">Overheads from Control and Forwarding:</strong></p>\n\n\t<ul data-end=\"3404\" data-start=\"3330\">\n\t\t<li data-end=\"3404\" data-start=\"3330\">\n\t\t<p data-end=\"3404\" data-start=\"3332\">Additional logic to handle hazards can slow down clock or cause bubbles.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<hr data-end=\"3409\" data-start=\"3406\" />\n<p data-end=\"3579\" data-start=\"3411\"><strong data-end=\"3426\" data-start=\"3411\">Conclusion:</strong><br data-end=\"3429\" data-start=\"3426\" />\nIdeal speedup is approximately equal to the number of pipeline stages, but actual speedup is reduced by hazards, stalls, and implementation overheads.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain how the speedup of a pipelined processor is calculated and what factors affect the actual speedup achieved.</p>\n",
+   "SESSION_ID": 410,
+   "TYPE": "lq",
+   "key": 17610
+  }
+ ]
+}

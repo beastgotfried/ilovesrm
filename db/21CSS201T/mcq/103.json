@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 27599,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>11010</p>\n",
+   "OPT_2": "<p>11001</p>\n",
+   "OPT_3": "<p>11101</p>\n",
+   "OPT_4": "<p>10101</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the binary equivalent of the decimal number 25?</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 27599
+  },
+  {
+   "_id": 27600,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>45</p>\n",
+   "OPT_2": "<p>51</p>\n",
+   "OPT_3": "<p>41</p>\n",
+   "OPT_4": "<p>47</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Convert the binary number 101101 to decimal.</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 27600
+  },
+  {
+   "_id": 27601,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>EE</p>\n",
+   "OPT_2": "<p>7E</p>\n",
+   "OPT_3": "<p>FE</p>\n",
+   "OPT_4": "<p>AE</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the hexadecimal equivalent of the binary number 11101110?</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 27601
+  },
+  {
+   "_id": 27602,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>485</p>\n",
+   "OPT_2": "<p>487</p>\n",
+   "OPT_3": "<p>490</p>\n",
+   "OPT_4": "<p>434</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the decimal equivalent of the octal number 745?</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 27602
+  },
+  {
+   "_id": 27603,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>EE</p>\n",
+   "OPT_2": "<p>FF</p>\n",
+   "OPT_3": "<p>AB</p>\n",
+   "OPT_4": "<p>BA</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Convert the decimal number 255 to hexadecimal.</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 27603
+  }
+ ],
+ "sq": [
+  {
+   "_id": 27588,
+   "ANSWER": "<p data-end=\"404\" data-start=\"250\">In <strong data-end=\"149\" data-start=\"133\">BCD addition</strong>, if the sum of 4-bit digits exceeds <strong data-end=\"198\" data-start=\"186\">9 (1001)</strong> or generates an <strong data-end=\"235\" data-start=\"215\">illegal BCD code</strong>, then <strong data-end=\"258\" data-start=\"242\">add 0110 (6)</strong> to the result to correct it.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"705\" data-start=\"649\">What is the rule followed in BCD addition when the sum exceeds 9 or an illegal code appears?</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "sq",
+   "key": 27588
+  },
+  {
+   "_id": 27589,
+   "ANSWER": "<p data-end=\"404\" data-start=\"250\">Gray code is preferred because <strong data-end=\"183\" data-start=\"149\">only one bit changes at a time</strong> between successive values, which <strong data-end=\"237\" data-start=\"217\">minimizes errors</strong> during transitions and improves <strong data-end=\"298\" data-start=\"270\">accuracy and reliability</strong> in digital systems like analog to digital converters.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"705\" data-start=\"649\">Why is Gray code preferred in digital systems like analog to digital converters?</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "sq",
+   "key": 27589
+  }
+ ],
+ "lq": [
+  {
+   "_id": 27587,
+   "ANSWER": "<h4 data-end=\"937\" data-start=\"885\">\ud83d\udd39 Step 1: Convert the decimal numbers into BCD</h4>\n\n<p data-end=\"954\" data-start=\"939\">We are given:</p>\n\n<ul data-end=\"972\" data-start=\"955\">\n\t<li data-end=\"965\" data-start=\"955\">\n\t<p data-end=\"965\" data-start=\"957\">59 and</p>\n\t</li>\n\t<li data-end=\"972\" data-start=\"966\">\n\t<p data-end=\"972\" data-start=\"968\">73</p>\n\t</li>\n</ul>\n\n<p data-end=\"1056\" data-start=\"974\">Break them into individual decimal digits and convert each digit to its 4-bit BCD:</p>\n\n<ul data-end=\"1222\" data-start=\"1058\">\n\t<li data-end=\"1139\" data-start=\"1058\">\n\t<p data-end=\"1070\" data-start=\"1060\"><strong data-end=\"1066\" data-start=\"1060\">59</strong> &rarr;</p>\n\n\t<ul data-end=\"1139\" data-start=\"1073\">\n\t\t<li data-end=\"1087\" data-start=\"1073\">\n\t\t<p data-end=\"1087\" data-start=\"1075\">5 &rarr; <code data-end=\"1085\" data-start=\"1079\">0101</code></p>\n\t\t</li>\n\t\t<li data-end=\"1139\" data-start=\"1090\">\n\t\t<p data-end=\"1139\" data-start=\"1092\">9 &rarr; <code data-end=\"1102\" data-start=\"1096\">1001</code><br data-end=\"1105\" data-start=\"1102\" />\n\t\t&rarr; So, BCD for 59 is: <code data-end=\"1139\" data-start=\"1128\">0101 1001</code></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1222\" data-start=\"1141\">\n\t<p data-end=\"1153\" data-start=\"1143\"><strong data-end=\"1149\" data-start=\"1143\">73</strong> &rarr;</p>\n\n\t<ul data-end=\"1222\" data-start=\"1156\">\n\t\t<li data-end=\"1170\" data-start=\"1156\">\n\t\t<p data-end=\"1170\" data-start=\"1158\">7 &rarr; <code data-end=\"1168\" data-start=\"1162\">0111</code></p>\n\t\t</li>\n\t\t<li data-end=\"1222\" data-start=\"1173\">\n\t\t<p data-end=\"1222\" data-start=\"1175\">3 &rarr; <code data-end=\"1185\" data-start=\"1179\">0011</code><br data-end=\"1188\" data-start=\"1185\" />\n\t\t&rarr; So, BCD for 73 is: <code data-end=\"1222\" data-start=\"1211\">0111 0011</code></p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1227\" data-start=\"1224\" />\n<h4 data-end=\"1285\" data-start=\"1229\">\ud83d\udd39 Step 2: Add the lower nibbles (rightmost digits)</h4>\n\n<p data-end=\"1319\" data-start=\"1287\">Add <code data-end=\"1297\" data-start=\"1291\">1001</code> (9) and <code data-end=\"1312\" data-start=\"1306\">0011</code> (3):</p>\n\n<ul data-end=\"1349\" data-start=\"1320\">\n\t<li data-end=\"1349\" data-start=\"1320\">\n\t<p data-end=\"1349\" data-start=\"1322\">9 + 3 = <strong data-end=\"1336\" data-start=\"1330\">12</strong> (in decimal)</p>\n\t</li>\n</ul>\n\n<p data-end=\"1463\" data-start=\"1351\">Now, 12 is <strong data-end=\"1380\" data-start=\"1362\">greater than 9</strong>, which is the maximum valid value in BCD.<br data-end=\"1425\" data-start=\"1422\" />\nSo, this result is <strong data-end=\"1462\" data-start=\"1444\">invalid in BCD</strong>.</p>\n\n<p data-end=\"1542\" data-start=\"1465\"><strong data-end=\"1485\" data-start=\"1465\">Correction Rule:</strong><br data-end=\"1488\" data-start=\"1485\" />\nIf the sum &gt; 9, <strong data-end=\"1513\" data-start=\"1504\">add 6</strong> (i.e., add 0110) to correct.</p>\n\n<ul data-end=\"1624\" data-start=\"1544\">\n\t<li data-end=\"1576\" data-start=\"1544\">\n\t<p data-end=\"1576\" data-start=\"1546\">12 + 6 = <strong data-end=\"1561\" data-start=\"1555\">18</strong> (in decimal)</p>\n\t</li>\n\t<li data-end=\"1624\" data-start=\"1577\">\n\t<p data-end=\"1624\" data-start=\"1579\">18 &rarr; 2 (with a carry of 1 to the next nibble)</p>\n\t</li>\n</ul>\n\n<p data-end=\"1700\" data-start=\"1626\">So, we keep <strong data-end=\"1643\" data-start=\"1638\">2</strong> in the lower nibble and <strong data-end=\"1679\" data-start=\"1668\">carry 1</strong> to the upper nibble.</p>\n\n<hr data-end=\"1705\" data-start=\"1702\" />\n<h4 data-end=\"1773\" data-start=\"1707\">\ud83d\udd39 Step 3: Add the upper nibbles (leftmost digits) with carry</h4>\n\n<p data-end=\"1817\" data-start=\"1775\">Add <code data-end=\"1785\" data-start=\"1779\">0101</code> (5), <code data-end=\"1797\" data-start=\"1791\">0111</code> (7), and carry 1:</p>\n\n<ul data-end=\"1851\" data-start=\"1818\">\n\t<li data-end=\"1851\" data-start=\"1818\">\n\t<p data-end=\"1851\" data-start=\"1820\">5 + 7 + 1 = <strong data-end=\"1838\" data-start=\"1832\">13</strong> (in decimal)</p>\n\t</li>\n</ul>\n\n<p data-end=\"1884\" data-start=\"1853\">Again, 13 &gt; 9 &rarr; <strong data-end=\"1884\" data-start=\"1869\">Invalid BCD</strong></p>\n\n<p data-end=\"1903\" data-start=\"1886\"><strong data-end=\"1901\" data-start=\"1886\">Correction:</strong></p>\n\n<ul data-end=\"1963\" data-start=\"1904\">\n\t<li data-end=\"1923\" data-start=\"1904\">\n\t<p data-end=\"1923\" data-start=\"1906\">13 + 6 = <strong data-end=\"1921\" data-start=\"1915\">19</strong></p>\n\t</li>\n\t<li data-end=\"1963\" data-start=\"1924\">\n\t<p data-end=\"1963\" data-start=\"1926\">So we keep <strong data-end=\"1942\" data-start=\"1937\">3</strong> and carry over <strong data-end=\"1963\" data-start=\"1958\">1</strong></p>\n\t</li>\n</ul>\n\n<hr data-end=\"1968\" data-start=\"1965\" />\n<h4 data-end=\"2008\" data-start=\"1970\">\ud83d\udd39 Step 4: Write the final result</h4>\n\n<p data-end=\"2024\" data-start=\"2010\">We now have:</p>\n\n<ul data-end=\"2146\" data-start=\"2025\">\n\t<li data-end=\"2052\" data-start=\"2025\">\n\t<p data-end=\"2052\" data-start=\"2027\">Carry-over digit: <strong data-end=\"2050\" data-start=\"2045\">1</strong></p>\n\t</li>\n\t<li data-end=\"2100\" data-start=\"2053\">\n\t<p data-end=\"2100\" data-start=\"2055\">Upper nibble result after correction: <strong data-end=\"2098\" data-start=\"2093\">3</strong></p>\n\t</li>\n\t<li data-end=\"2146\" data-start=\"2101\">\n\t<p data-end=\"2146\" data-start=\"2103\">Lower nibble result after correction: <strong data-end=\"2146\" data-start=\"2141\">2</strong></p>\n\t</li>\n</ul>\n\n<p data-end=\"2177\" data-start=\"2148\">So the final BCD result is:</p>\n\n<ul data-end=\"2222\" data-start=\"2178\">\n\t<li data-end=\"2192\" data-start=\"2178\">\n\t<p data-end=\"2192\" data-start=\"2180\">1 &rarr; <code data-end=\"2190\" data-start=\"2184\">0001</code></p>\n\t</li>\n\t<li data-end=\"2207\" data-start=\"2193\">\n\t<p data-end=\"2207\" data-start=\"2195\">3 &rarr; <code data-end=\"2205\" data-start=\"2199\">0011</code></p>\n\t</li>\n\t<li data-end=\"2222\" data-start=\"2208\">\n\t<p data-end=\"2222\" data-start=\"2210\">2 &rarr; <code data-end=\"2220\" data-start=\"2214\">0010</code></p>\n\t</li>\n</ul>\n\n<p data-end=\"2249\" data-start=\"2224\">That is: <code data-end=\"2249\" data-start=\"2233\">0001 0011 0010</code></p>\n\n<hr data-end=\"2254\" data-start=\"2251\" />\n<h4 data-end=\"2295\" data-start=\"2256\">\ud83d\udd39 Step 5: Convert back to decimal</h4>\n\n<ul data-end=\"2349\" data-start=\"2297\">\n\t<li data-end=\"2349\" data-start=\"2297\">\n\t<p data-end=\"2349\" data-start=\"2299\">132 in decimal &rarr; 1 (hundreds), 3 (tens), 2 (units)</p>\n\t</li>\n</ul>\n\n<p data-end=\"2372\" data-start=\"2351\">So, <strong data-end=\"2372\" data-start=\"2355\">59 + 73 = 132</strong></p>\n\n<hr data-end=\"2377\" data-start=\"2374\" />\n<h3 data-end=\"2398\" data-start=\"2379\">\u2705 Final Answer:</h3>\n\n<ul data-end=\"2547\" data-start=\"2400\">\n\t<li data-end=\"2431\" data-start=\"2400\">\n\t<p data-end=\"2431\" data-start=\"2402\"><strong data-end=\"2415\" data-start=\"2402\">BCD of 59</strong> = <code data-end=\"2429\" data-start=\"2418\">0101 1001</code></p>\n\t</li>\n\t<li data-end=\"2463\" data-start=\"2432\">\n\t<p data-end=\"2463\" data-start=\"2434\"><strong data-end=\"2447\" data-start=\"2434\">BCD of 73</strong> = <code data-end=\"2461\" data-start=\"2450\">0111 0011</code></p>\n\t</li>\n\t<li data-end=\"2510\" data-start=\"2464\">\n\t<p data-end=\"2510\" data-start=\"2466\"><strong data-end=\"2489\" data-start=\"2466\">BCD Addition Result</strong> = <code data-end=\"2508\" data-start=\"2492\">0001 0011 0010</code></p>\n\t</li>\n\t<li data-end=\"2547\" data-start=\"2511\">\n\t<p data-end=\"2547\" data-start=\"2513\"><strong data-end=\"2537\" data-start=\"2513\">Final Decimal Result</strong> = <strong data-end=\"2547\" data-start=\"2540\">132</strong></p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain the process of BCD addition. Perform BCD addition for the numbers <strong data-end=\"280\" data-start=\"267\">59 and 73</strong> using binary-coded decimal. Show each step in detail, including necessary corrections, and provide the final answer in both BCD and decimal.</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "lq",
+   "key": 27587
+  }
+ ]
+}

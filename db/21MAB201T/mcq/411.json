@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 52843,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\int_0^\\infty f(x)g(x) dx = \\int_0^\\infty F_c(s)G_c(s) ds\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\int_0^\\infty f(x)g(x) dx = \\int_0^\\infty F_s(s)G_s(s) ds\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\int_0^\\infty f(x)^2 dx = \\int_0^\\infty F_c(s)^2 ds\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\int_0^\\infty f(x) dx = \\int_0^\\infty F_c(s) ds\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Parseval's identity for Fourier cosine transforms applied to two functions } f(x) \\text{ and } g(x) \\text{ states:}\\)</span></p>",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 52843
+  },
+  {
+   "_id": 52844,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2ab(a+b)}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{ab(a+b)}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2(a+b)}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{ab}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Parseval's identity for Fourier cosine transforms with } f(x)=e^{-ax} \\text{ and } g(x)=e^{-bx}, \\text{ evaluate } \\int_0^\\infty \\frac{dx}{(x^2+a^2)(x^2+b^2)}.\\)</span></p>",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 52844
+  },
+  {
+   "_id": 52845,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{60}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{30}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{20}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{10}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For } a=2, b=3, \\text{ the value of } \\int_0^\\infty \\frac{dx}{(x^2+4)(x^2+9)} \\text{ using Parseval's identity is:}\\)</span></p>",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 52845
+  },
+  {
+   "_id": 52846,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\int_0^\\infty \\frac{x^2 dx}{(x^2+a^2)(x^2+b^2)}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\int_0^\\infty \\frac{dx}{(x^2+a^2)(x^2+b^2)}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\int_0^\\infty \\frac{x dx}{(x^2+a^2)(x^2+b^2)}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\int_0^\\infty \\frac{dx}{x^2+a^2}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Parseval's identity for Fourier sine transforms with } f(x)=e^{-ax} \\text{ and } g(x)=e^{-bx}, \\text{ what integral would be evaluated?}\\)</span></p>",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 52846
+  },
+  {
+   "_id": 52847,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{4}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{8}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{16}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given } F_c\\{e^{-x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\text{ and } F_c\\{e^{-2x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{2}{4+s^2}, \\text{ use Parseval's identity to find } \\int_0^\\infty \\frac{dx}{(x^2+1)^2}.\\)</span></p>",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 52847
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52819,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Identity: } \\int_{0}^{\\infty} |f(x)|^2 dx = \\int_{0}^{\\infty} |F_c(s)|^2 ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Take } f(x)=e^{-x}, \\text{ then } F_c(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{LHS: } \\int_{0}^{\\infty} e^{-2x} dx = \\frac{1}{2}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{RHS: } \\int_{0}^{\\infty} \\frac{2}{\\pi} \\frac{1}{(1+s^2)^2} ds\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Equate: } \\frac{1}{2} = \\frac{2}{\\pi} \\int_{0}^{\\infty} \\frac{1}{(1+s^2)^2} ds\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)^2} = \\frac{\\pi}{4}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State Parseval's identity for Fourier cosine transform and use it to evaluate } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)^2}.\\)</span></p>",
+   "SESSION_ID": 411,
+   "TYPE": "sq",
+   "key": 52819
+  },
+  {
+   "_id": 52820,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Identity: } \\int_{0}^{\\infty} |f(x)|^2 dx = \\int_{0}^{\\infty} |F_s(s)|^2 ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Take } f(x)=e^{-x}, \\text{ then } F_s(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{s}{1+s^2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{LHS: } \\int_{0}^{\\infty} e^{-2x} dx = \\frac{1}{2}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{RHS: } \\int_{0}^{\\infty} \\frac{2}{\\pi} \\frac{s^2}{(1+s^2)^2} ds\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Equate: } \\frac{1}{2} = \\frac{2}{\\pi} \\int_{0}^{\\infty} \\frac{s^2}{(1+s^2)^2} ds\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{x^2}{(x^2+1)^2} dx = \\frac{\\pi}{4}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State Parseval's identity for Fourier sine transform and use it to evaluate } \\int_{0}^{\\infty} \\frac{x^2}{(x^2+1)^2} dx.\\)</span></p>",
+   "SESSION_ID": 411,
+   "TYPE": "sq",
+   "key": 52820
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50688,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>For Fourier cosine transform: \\(\\int_{0}^{\\infty} [f(x)]^2 dx = \\int_{0}^{\\infty} [F_c(s)]^2 ds\\)</td><td>(3)</td></tr><tr><td>For Fourier sine transform: \\(\\int_{0}^{\\infty} [f(x)]^2 dx = \\int_{0}^{\\infty} [F_s(s)]^2 ds\\)</td><td>(3)</td></tr><tr><td>where \\(F_c(s) = \\mathcal{F}_c\\{f(x)\\}\\) and \\(F_s(s) = \\mathcal{F}_s\\{f(x)\\}\\)</td><td>(2)</td></tr><tr><td>General form: \\(\\int_{0}^{\\infty} f(x)g(x) dx = \\int_{0}^{\\infty} F_c(s)G_c(s) ds = \\int_{0}^{\\infty} F_s(s)G_s(s) ds\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State Parseval's identities for Fourier cosine and sine transforms.}\\)</span></p>",
+   "SESSION_ID": 411,
+   "TYPE": "lq",
+   "key": 50688
+  }
+ ]
+}

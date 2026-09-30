@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36723,
+   "ANSWER": 4,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Rock cycle</p>\n",
+   "OPT_2": "<p>Carbon cycle</p>\n",
+   "OPT_3": "<p>Nitrogen cycle</p>\n",
+   "OPT_4": "<p>All of the above</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which cycle shows interconnectedness of living and non-living units?</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 36723
+  },
+  {
+   "_id": 36724,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Helps design technologies in isolation</p>\n",
+   "OPT_2": "<p>Encourages innovations aligned with sustainability and harmony</p>\n",
+   "OPT_3": "<p>Reduces concern for environment</p>\n",
+   "OPT_4": "<p>Focuses only on profit-making</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the significance of co-existence for engineers?</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 36724
+  },
+  {
+   "_id": 36725,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Chaos and randomness</p>\n",
+   "OPT_2": "<p>Order, harmony, and interconnection</p>\n",
+   "OPT_3": "<p>Disconnection of units</p>\n",
+   "OPT_4": "<p>Isolation of living beings only</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Existence is characterized by:</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 36725
+  },
+  {
+   "_id": 36726,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Exploiting nature as much as possible</p>\n",
+   "OPT_2": "<p>Aligning human activities with the balance of nature</p>\n",
+   "OPT_3": "<p>Ignoring interdependence</p>\n",
+   "OPT_4": "<p>Isolating humans from the ecosystem</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is meant by &ldquo;living in harmony with existence&rdquo;?</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 36726
+  },
+  {
+   "_id": 36727,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To understand how technology impacts environment and society, and to innovate responsibly</p>\n",
+   "OPT_2": "<p>To make profit at any cost</p>\n",
+   "OPT_3": "<p>To memorize environmental facts</p>\n",
+   "OPT_4": "<p>None of the above</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why should students study interconnectedness and coexistence?</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 36727
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36309,
+   "ANSWER": "<p>It encourages using resources responsibly without disturbing the balance of ecosystems</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How does right understanding of nature help in sustainable living?</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "sq",
+   "key": 36309
+  },
+  {
+   "_id": 36310,
+   "ANSWER": "<p>To live in harmony with oneself, others, and the entire existence, ensuring peace and sustainability.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is the ultimate aim of understanding existence as co-existence?</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "sq",
+   "key": 36310
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122499,
+   "ANSWER": "<p>The Hiware Bazaar practice session shows that society can change when people work together with a common goal, good governance and participation. The village became an example of how individuals can participate in improving society rather than simply blaming the system. The discussion asks us to observe the goal of the village society, the program followed by the people, and the participation of each person. It also helps us reflect on our own family goal, family program and contribution of each member. The session shows that physical facility alone is not enough; right utilisation, responsibility, cooperation and participation are essential. A society based on relationship and co-existence can move toward justice, prosperity and mutual happiness</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What does the Hiware Bazaar practice session show about society, participation and right utilisation?</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "lq",
+   "key": 122499
+  }
+ ]
+}

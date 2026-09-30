@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36718,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To exploit resources better</p>\n",
+   "OPT_2": "<p>To live sustainably and harmoniously</p>\n",
+   "OPT_3": "<p>To dominate other species</p>\n",
+   "OPT_4": "<p>To separate humans from nature</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why is understanding interconnectedness in nature important for humans?</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 36718
+  },
+  {
+   "_id": 36719,
+   "ANSWER": 4,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Oxygen-Carbon dioxide cycle</p>\n",
+   "OPT_2": "<p>Food chain</p>\n",
+   "OPT_3": "<p>Recycling of nutrients in soil</p>\n",
+   "OPT_4": "<p>Deforestation for profit</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT an example of harmony in existence?</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 36719
+  },
+  {
+   "_id": 36720,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To understand harmony and consciously participate in maintaining it</p>\n",
+   "OPT_2": "<p>To consume as much as possible</p>\n",
+   "OPT_3": "<p>To dominate other living beings</p>\n",
+   "OPT_4": "<p>To ignore interdependence</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the role of human beings in coexistence?</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 36720
+  },
+  {
+   "_id": 36721,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Existence is a dynamic web of relationships and balance</p>\n",
+   "OPT_2": "<p>Existence is disconnected parts</p>\n",
+   "OPT_3": "<p>Existence is limited to human-made systems</p>\n",
+   "OPT_4": "<p>Existence is temporary and meaningless</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which statement about existence is correct?</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 36721
+  },
+  {
+   "_id": 36722,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Harmony increases</p>\n",
+   "OPT_2": "<p>Environmental degradation, conflict, and imbalance occur</p>\n",
+   "OPT_3": "<p>Sustainability improves</p>\n",
+   "OPT_4": "<p>Co-existence remains unaffected</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What happens when humans ignore co-existence in nature?</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 36722
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36307,
+   "ANSWER": "<p>Plants provide oxygen for humans and animals, while humans and animals release carbon dioxide needed by plants.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Give an example of interconnectedness in nature.</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "sq",
+   "key": 36307
+  },
+  {
+   "_id": 36308,
+   "ANSWER": "<p>Because human well-being is directly dependent on the health and balance of natural systems.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is it important to understand the co-existence of humans and nature?</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "sq",
+   "key": 36308
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122498,
+   "ANSWER": "<p>Harmony in the Self means that the activities of the Self are aligned with natural acceptance and right understanding. The Self has activities such as desire, thought and expectation. If these are guided by preconditioning or sensation, then the Self becomes confused and unhappy. For example, a person may desire physical facility assuming it will give continuous happiness, but after getting it, the happiness may remain temporary. When desire, thought and expectation are guided by right understanding, the Self becomes clear about what it really wants: continuous happiness. In harmony, the Self verifies proposals on the basis of natural acceptance and acts according to right understanding. This leads to clarity, peace and satisfaction within.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is harmony in the Self? Explain with the activities of desire, thought and expectation.</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "lq",
+   "key": 122498
+  }
+ ]
+}

@@ -1,0 +1,155 @@
+{
+ "mcq": [
+  {
+   "_id": 10433,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><font face=\"SFMono-Regular, Consolas, Liberation Mono, Menlo, Courier, monospace\">for</font></p>\n",
+   "OPT_2": "<p>do-while</p>\n",
+   "OPT_3": "<p><code data-end=\"2131\" data-start=\"2112\">while (rs.next())</code></p>\n",
+   "OPT_4": "<p><code data-end=\"2151\" data-start=\"2137\">foreach (rs)</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which loop structure is typically used to iterate over the rows of a <code data-end=\"2078\" data-start=\"2067\">ResultSet</code>?<br data-end=\"2082\" data-start=\"2079\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 10433
+  },
+  {
+   "_id": 10434,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><code data-end=\"1048\" data-start=\"1031\">rs.get(&quot;email&quot;)</code></p>\n",
+   "OPT_2": "<p><code data-end=\"1077\" data-start=\"1054\">rs.getString(&quot;email&quot;)</code></p>\n",
+   "OPT_3": "<p><code data-end=\"1102\" data-start=\"1083\">rs.fetch(&quot;email&quot;)</code></p>\n",
+   "OPT_4": "<p><code data-end=\"1136\" data-start=\"1108\">rs.retrieveString(&quot;email&quot;)</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Given a <code data-end=\"928\" data-start=\"914\">ResultSet rs</code>, which of the following correctly retrieves the value of a column named <code data-end=\"1010\" data-start=\"1001\">&quot;email&quot;</code> as a <code data-end=\"1024\" data-start=\"1016\">String</code>?<br data-end=\"1028\" data-start=\"1025\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 10434
+  },
+  {
+   "_id": 10435,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>An object to connect with database</p>\n",
+   "OPT_2": "<p>An object that updates records</p>\n",
+   "OPT_3": "<p>A table of data representing the result of a SQL query</p>\n",
+   "OPT_4": "<p>A method to delete rows</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What does the <code data-end=\"588\" data-start=\"577\">ResultSet</code> object represent in JDBC?<br data-end=\"617\" data-start=\"614\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 10435
+  },
+  {
+   "_id": 10436,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>It throws an <code data-end=\"1777\" data-start=\"1763\">SQLException</code></p>\n",
+   "OPT_2": "<p>It returns null</p>\n",
+   "OPT_3": "<p>It returns -1</p>\n",
+   "OPT_4": "<p>It moves to the next row automatically</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What will happen if you call <code data-end=\"1716\" data-start=\"1698\">rs.getInt(&quot;age&quot;)</code> before calling <code data-end=\"1743\" data-start=\"1732\">rs.next()</code>?<br data-end=\"1747\" data-start=\"1744\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 10436
+  },
+  {
+   "_id": 10437,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>It returns a <code data-end=\"1389\" data-start=\"1378\">ResultSet</code> object</p>\n",
+   "OPT_2": "<p>It is used only for <code data-end=\"1430\" data-start=\"1422\">SELECT</code> queries</p>\n",
+   "OPT_3": "<p>It returns the number of rows affected</p>\n",
+   "OPT_4": "<p>It creates a new table in the database</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which of the following statements is <strong data-end=\"1315\" data-start=\"1307\">true</strong> about the <code data-end=\"1343\" data-start=\"1326\">executeUpdate()</code> method in JDBC?<br data-end=\"1362\" data-start=\"1359\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 10437
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10438,
+   "ANSWER": "<p data-end=\"2797\" data-start=\"2618\">Use <code data-end=\"2733\" data-start=\"2722\">Statement</code> or <code data-end=\"2756\" data-start=\"2737\">PreparedStatement</code> and <code data-end=\"2778\" data-start=\"2761\">executeUpdate()</code> method.</p>\n\n<p data-end=\"2797\" data-start=\"2618\"><code>Statement stmt = con.createStatement(); int rows = stmt.executeUpdate(&quot;INSERT INTO students(name, age) VALUES(&#39;John&#39;, 20)&quot;);</code></p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>How can you execute an <code data-end=\"2657\" data-start=\"2649\">INSERT</code> SQL query from a Java program using JDBC?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "sq",
+   "key": 10438
+  },
+  {
+   "_id": 10439,
+   "ANSWER": "<ul data-end=\"3478\" data-start=\"3326\">\n\t<li data-end=\"3416\" data-start=\"3326\">\n\t<p data-end=\"3416\" data-start=\"3328\"><code data-end=\"3345\" data-start=\"3328\">executeUpdate()</code> is used for INSERT, UPDATE, DELETE; returns number of affected rows.</p>\n\t</li>\n\t<li data-end=\"3478\" data-start=\"3417\">\n\t<p data-end=\"3478\" data-start=\"3419\"><code data-end=\"3435\" data-start=\"3419\">executeQuery()</code> is used for SELECT; returns a <code data-end=\"3477\" data-start=\"3466\">ResultSet</code>.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3325\" data-start=\"3234\">How is <code data-end=\"3266\" data-start=\"3249\">executeUpdate()</code> different from <code data-end=\"3298\" data-start=\"3282\">executeQuery()</code> in JDBC?<br data-end=\"3310\" data-start=\"3307\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "sq",
+   "key": 10439
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10571,
+   "ANSWER": "<p>import java.sql.*;</p>\n\n<p>public class TopStudents {<br />\n&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String url = &quot;jdbc:mysql://localhost:3306/college&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String user = &quot;root&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String password = &quot;admin&quot;;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; Connection con = null;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; Statement stmt = null;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; ResultSet rs = null;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; try {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Load driver<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Create connection<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; con = DriverManager.getConnection(url, user, password);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Create statement<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stmt = con.createStatement();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Execute query<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; rs = stmt.executeQuery(&quot;SELECT name, department, marks FROM students WHERE marks &gt; 80&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Process result<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while (rs.next()) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String name = rs.getString(&quot;name&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String dept = rs.getString(&quot;department&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int marks = rs.getInt(&quot;marks&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(name + &quot; | &quot; + dept + &quot; | &quot; + marks);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } catch (Exception e) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; e.printStackTrace();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } finally {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (rs != null) rs.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (stmt != null) stmt.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (con != null) con.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO3",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>You are building a student management system. Your task is to fetch and display the details (name, department, and marks) of all students who scored above 80 from the <code data-end=\"3978\" data-start=\"3968\">students</code> table using JDBC. Use proper SQL execution and result processing techniques.</p>\n\n<p data-end=\"4099\" data-start=\"4062\">Write a Java program that:</p>\n\n<ul data-end=\"4319\" data-start=\"4100\">\n\t<li data-end=\"4144\" data-start=\"4100\">\n\t<p data-end=\"4144\" data-start=\"4102\">Connects to the MySQL database <code data-end=\"4142\" data-start=\"4133\">college</code></p>\n\t</li>\n\t<li data-end=\"4206\" data-start=\"4145\">\n\t<p data-end=\"4206\" data-start=\"4147\">Executes a <code data-end=\"4166\" data-start=\"4158\">SELECT</code> query to get students with marks &gt; 80</p>\n\t</li>\n\t<li data-end=\"4259\" data-start=\"4207\">\n\t<p data-end=\"4259\" data-start=\"4209\">Retrieves and displays results using <code data-end=\"4257\" data-start=\"4246\">ResultSet</code></p>\n\t</li>\n\t<li data-end=\"4319\" data-start=\"4260\">\n\t<p data-end=\"4319\" data-start=\"4262\">Handles exceptions and closes all JDBC resources properly</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 307,
+   "TYPE": "lq",
+   "key": 10571
+  }
+ ]
+}

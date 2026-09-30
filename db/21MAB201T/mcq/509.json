@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 52943,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( (2^n - 1) u(n) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( (1 - 2^n) u(n) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( (2^{-n} - 1) u(n) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( (1 - 2^{-n}) u(n) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Using residue theorem, the inverse Z-transform of \\( \\frac{z}{(z-1)(z-2)} \\) (ROC |z|>2) is:</span></p>",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 52943
+  },
+  {
+   "_id": 52944,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( n^2 \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( 2n+1 \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( n(n-1) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( n^3 \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The residue at pole z=1 for \\( X(z) = \\frac{z^2 + z}{(z-1)^3} \\) is:</span></p>",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 52944
+  },
+  {
+   "_id": 52945,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( (2^{n+1} - n - 2) u(n) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( (2^n - n - 1) u(n) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( (2^{n+1} - 2n - 1) u(n) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( (2^n - 2n - 2) u(n) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Using residue theorem, \\( Z^{-1} \\left\\{ \\frac{z^2}{(z-1)^2(z-2)} \\right\\} \\) (ROC |z|>2) is:</span></p>",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 52945
+  },
+  {
+   "_id": 52946,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( 2^{n+1}(n-2) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( 2^n(n-2) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( 2^{n+1}(n+2) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( 2^n(n+2) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( X(z) = \\frac{z^3}{(z-1)^2(z-2)^2} \\), the residue at the pole z=2 is:</span></p>",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 52946
+  },
+  {
+   "_id": 52947,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac{2}{7}(5^n) + \\frac{5}{7}(-2)^n \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac{5}{7}(5^n) + \\frac{2}{7}(-2)^n \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\frac{2}{7}(-5)^n + \\frac{5}{7}(2)^n \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( \\frac{5}{7}(-5)^n + \\frac{2}{7}(2)^n \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Using residue theorem, \\( Z^{-1} \\left\\{ \\frac{z^2 - 3z}{(z+2)(z-5)} \\right\\} \\) (ROC |z|>5) gives \\( x(n) \\) proportional to:</span></p>",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 52947
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52925,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Poles: } z=-2, z=5\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Residue at } z=-2: \\lim_{z \\to -2} (z+2) \\frac{z^2-3z}{(z+2)(z-5)} z^{n-1} = \\frac{5}{7}(-2)^n\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Residue at } z=5: \\lim_{z \\to 5} (z-5) \\frac{z^2-3z}{(z+2)(z-5)} z^{n-1} = \\frac{2}{7} 5^n\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(x(n) = \\frac{5}{7}(-2)^n + \\frac{2}{7} 5^n\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the inverse Z-transform of } \\frac{z^2 - 3z}{(z+2)(z-5)} \\text{ using residue theorem.}\\)</span></p>",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 52925
+  },
+  {
+   "_id": 52926,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Pole at } z=1 \\text{ (double)}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Residue } = \\lim_{z \\to 1} \\frac{d}{dz} \\left[ (z-1)^2 \\cdot \\frac{z^2+z}{(z-1)^2} z^{n-1} \\right]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\lim_{z \\to 1} \\frac{d}{dz} [z^{n+1} + z^n] = \\lim_{z \\to 1} [(n+1)z^n + n z^{n-1}]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= (n+1) + n = 2n+1\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the inverse Z-transform of } \\frac{z^2 + z}{(z-1)^2} \\text{ using residue theorem.}\\)</span></p>",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 52926
+  }
+ ],
+ "lq": [
+  {
+   "_id": 52904,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td><p><b>a)</b> <span class=\"math-tex\">\\(X(z) = \\frac{z}{(z-1)(z-2)}\\)</span>, ROC: |z|>2 (right-sided, so use contour outside |z|=2).<br><span class=\"math-tex\">\\(x(n) = \\sum \\text{Residues of } X(z) z^{n-1} \\text{ at poles inside contour C (|z|=R>2)}\\)</span>.<br>Poles: z=1, z=2. Both inside.<br>Res at z=1: <span class=\"math-tex\">\\(\\lim_{z \\to 1} (z-1) \\frac{z \\cdot z^{n-1}}{(z-1)(z-2)} = \\lim_{z \\to 1} \\frac{z^n}{z-2} = \\frac{1^n}{-1} = -1\\)</span>.<br>Res at z=2: <span class=\"math-tex\">\\(\\lim_{z \\to 2} (z-2) \\frac{z^n}{z-2} \\cdot \\frac{1}{z-1} = \\frac{2^n}{2-1} = 2^n\\)</span>.<br>So, <span class=\"math-tex\">\\(x(n) = (-1 + 2^n) u(n)\\)</span>.</p></td><td>(4 Marks)</td></tr><tr><td><p><b>b)</b> <span class=\"math-tex\">\\(X(z) = \\frac{z^2+z}{(z-1)^3}\\)</span>, ROC: |z|>1.<br>Pole: z=1 (order 3).<br><span class=\"math-tex\">\\(x(n) = \\text{Residue at } z=1 \\text{ of } \\frac{(z^2+z)z^{n-1}}{(z-1)^3} = \\frac{1}{2!} \\lim_{z \\to 1} \\frac{d^2}{dz^2} [ (z^2+z) z^{n-1} ]\\)</span>.<br>Let <span class=\"math-tex\">\\(f(z) = (z^2+z)z^{n-1} = z^{n+1} + z^n\\)</span>.<br><span class=\"math-tex\">\\(f'(z) = (n+1)z^n + n z^{n-1}\\)</span>.<br><span class=\"math-tex\">\\(f''(z) = n(n+1)z^{n-1} + n(n-1)z^{n-2}\\)</span>.<br>Evaluate at z=1: <span class=\"math-tex\">\\(f''(1) = n(n+1) + n(n-1) = n^2+n + n^2 - n = 2n^2\\)</span>.<br>Thus, residue = <span class=\"math-tex\">\\(\\frac{1}{2} \\cdot 2n^2 = n^2\\)</span>.<br>So, <span class=\"math-tex\">\\(x(n) = n^2 u(n)\\)</span>.</p></td><td>(4 Marks)</td></tr><tr><td><p><b>c)</b> <span class=\"math-tex\">\\(X(z) = \\frac{z^2}{(z-1)^2(z-2)}\\)</span>, ROC: |z|>2.<br>Poles: z=1 (order 2), z=2 (order 1).<br>Res at z=2: <span class=\"math-tex\">\\(\\lim_{z \\to 2} (z-2) \\frac{z^{n+1}}{(z-1)^2(z-2)} = \\frac{2^{n+1}}{(1)^2} = 2^{n+1}\\)</span>.<br>Res at z=1: For double pole:<br><span class=\"math-tex\">\\(\\lim_{z \\to 1} \\frac{d}{dz} \\left[ (z-1)^2 \\frac{z^{n+1}}{(z-1)^2(z-2)} \\right] = \\lim_{z \\to 1} \\frac{d}{dz} \\left( \\frac{z^{n+1}}{z-2} \\right)\\)</span>.<br>Derivative: <span class=\"math-tex\">\\(\\frac{(n+1)z^n (z-2) - z^{n+1}}{(z-2)^2}\\)</span>.<br>At z=1: <span class=\"math-tex\">\\(\\frac{(n+1)1^n (-1) - 1}{(-1)^2} = - (n+1) - 1 = -n-2\\)</span>.<br>So, total residue: <span class=\"math-tex\">\\(2^{n+1} + (-n-2) = 2^{n+1} - n - 2\\)</span>.<br>Thus, <span class=\"math-tex\">\\(x(n) = [2^{n+1} - n - 2] u(n)\\)</span>.</p></td><td>(4 Marks)</td></tr><tr><td><p><b>d)</b> <span class=\"math-tex\">\\(X(z) = \\frac{z^3}{(z-1)^2(z-2)^2}\\)</span>, ROC: |z|>2.<br>Poles: z=1 (order 2), z=2 (order 2).<br>Res at z=1: Compute <span class=\"math-tex\">\\(\\lim_{z \\to 1} \\frac{d}{dz} \\left[ (z-1)^2 X(z) z^{n-1} \\right] = \\lim_{z \\to 1} \\frac{d}{dz} \\left( \\frac{z^{n+2}}{(z-2)^2} \\right)\\)</span>.<br>Let <span class=\"math-tex\">\\(g(z) = \\frac{z^{n+2}}{(z-2)^2}\\)</span>.<br><span class=\"math-tex\">\\(g'(z) = \\frac{(n+2)z^{n+1}(z-2)^2 - 2(z-2)z^{n+2}}{(z-2)^4} = \\frac{z^{n+1}(z-2)[(n+2)(z-2) - 2z]}{(z-2)^4} = \\frac{z^{n+1}[(n+2)(z-2) - 2z]}{(z-2)^3}\\)</span>.<br>At z=1: <span class=\"math-tex\">\\(\\frac{1^{n+1}[(n+2)(-1) - 2]}{(-1)^3} = \\frac{[-n-2 -2]}{-1} = \\frac{-n-4}{-1} = n+4\\)</span>.<br>Res at z=2: Compute <span class=\"math-tex\">\\(\\lim_{z \\to 2} \\frac{d}{dz} \\left[ (z-2)^2 X(z) z^{n-1} \\right] = \\lim_{z \\to 2} \\frac{d}{dz} \\left( \\frac{z^{n+2}}{(z-1)^2} \\right)\\)</span>.<br>Let <span class=\"math-tex\">\\(h(z) = \\frac{z^{n+2}}{(z-1)^2}\\)</span>.<br><span class=\"math-tex\">\\(h'(z) = \\frac{(n+2)z^{n+1}(z-1)^2 - 2(z-1)z^{n+2}}{(z-1)^4} = \\frac{z^{n+1}(z-1)[(n+2)(z-1) - 2z]}{(z-1)^4} = \\frac{z^{n+1}[(n+2)(z-1) - 2z]}{(z-1)^3}\\)</span>.<br>At z=2: <span class=\"math-tex\">\\(\\frac{2^{n+1}[(n+2)(1) - 4]}{(1)^3} = 2^{n+1}(n+2-4) = 2^{n+1}(n-2)\\)</span>.<br>So, total residue: <span class=\"math-tex\">\\((n+4) + 2^{n+1}(n-2)\\)</span>.<br>Thus, <span class=\"math-tex\">\\(x(n) = [n+4 + 2^{n+1}(n-2)] u(n)\\)</span>.</p></td><td>(3 Marks)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the inverse Z-transform of the following functions using the Residue Theorem (Contour Integration) method:</p><p>a) <span class=\"math-tex\">\\(X(z) = \\frac{z}{(z-1)(z-2)}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>2\\)</span></p><p>b) <span class=\"math-tex\">\\(X(z) = \\frac{z^2 + z}{(z-1)^3}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>1\\)</span></p><p>c) <span class=\"math-tex\">\\(X(z) = \\frac{z^2}{(z-1)^2(z-2)}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>2\\)</span></p><p>d) <span class=\"math-tex\">\\(X(z) = \\frac{z^3}{(z-1)^2(z-2)^2}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>2\\)</span></p>",
+   "SESSION_ID": 509,
+   "TYPE": "lq",
+   "key": 52904
+  }
+ ]
+}

@@ -1,0 +1,131 @@
+{
+ "mcq": [
+  {
+   "_id": 27604,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>11.11</p>\n",
+   "OPT_2": "<p>111.0011</p>\n",
+   "OPT_3": "<p>10010.001</p>\n",
+   "OPT_4": "<p>1100.11</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Decimal 7.2 to binary (approx.):</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 27604
+  },
+  {
+   "_id": 27605,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1010.101</p>\n",
+   "OPT_2": "<p>1100.101</p>\n",
+   "OPT_3": "<p>1010.11</p>\n",
+   "OPT_4": "<p>1011.101</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Convert decimal 10.625 to binary:</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 27605
+  },
+  {
+   "_id": 27606,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>13.75</p>\n",
+   "OPT_2": "<p>12.75</p>\n",
+   "OPT_3": "<p>14.75</p>\n",
+   "OPT_4": "<p>13.5</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Binary 1101.11 is equal to which decimal value?</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 27606
+  },
+  {
+   "_id": 27607,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1A.A</p>\n",
+   "OPT_2": "<p>1B.9</p>\n",
+   "OPT_3": "<p>1A.8</p>\n",
+   "OPT_4": "<p>1B.A</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the hexadecimal equivalent of decimal 26.625?</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 27607
+  },
+  {
+   "_id": 27608,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>8.75</p>\n",
+   "OPT_2": "<p>9.75</p>\n",
+   "OPT_3": "<p>9.5</p>\n",
+   "OPT_4": "<p>8.0</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Convert binary 1001.101 to decimal:</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 27608
+  }
+ ],
+ "sq": [
+  {
+   "_id": 27591,
+   "ANSWER": "<p data-end=\"404\" data-start=\"250\">Hexadecimal</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"705\" data-start=\"649\">Identify the number system: 0x1F</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "sq",
+   "key": 27591
+  },
+  {
+   "_id": 27592,
+   "ANSWER": "<p data-end=\"404\" data-start=\"250\">Octal number system</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"705\" data-start=\"649\">Which number system uses only digits 0 to 7?</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "sq"
+  }
+ ],
+ "lq": [
+  {
+   "_id": 27590,
+   "ANSWER": "<p data-end=\"717\" data-start=\"652\">In hexadecimal, each digit is converted into <strong data-end=\"716\" data-start=\"697\">4 binary digits</strong>.</p>\n\n<ul data-end=\"826\" data-start=\"719\">\n\t<li data-end=\"760\" data-start=\"719\">\n\t<p data-end=\"760\" data-start=\"721\">The digit <strong data-end=\"736\" data-start=\"731\">2</strong> in binary is <strong data-end=\"758\" data-start=\"750\">0010</strong></p>\n\t</li>\n\t<li data-end=\"826\" data-start=\"761\">\n\t<p data-end=\"826\" data-start=\"763\">The digit <strong data-end=\"778\" data-start=\"773\">F</strong> in binary is <strong data-end=\"800\" data-start=\"792\">1111</strong> (since F = 15 in decimal)</p>\n\t</li>\n</ul>\n\n<p data-end=\"878\" data-start=\"828\">Therefore,<br data-end=\"841\" data-start=\"838\" />\n<strong data-end=\"878\" data-start=\"841\">Hexadecimal 2F = Binary 0010 1111</strong></p>\n\n<p data-end=\"926\" data-start=\"880\">So, the final binary number is:<br data-end=\"914\" data-start=\"911\" />\n<strong data-end=\"926\" data-start=\"914\">00101111</strong></p>\n\n<hr data-end=\"931\" data-start=\"928\" />\n<h3 data-end=\"970\" data-start=\"933\">\ud83d\udd37 Step 2: Hexadecimal to Decimal</h3>\n\n<p data-end=\"1093\" data-start=\"972\">To convert from hexadecimal to decimal, multiply each digit with powers of 16 based on its position (from right to left).</p>\n\n<p data-end=\"1118\" data-start=\"1095\">Given: 2F<br data-end=\"1107\" data-start=\"1104\" />\nThis means:</p>\n\n<ul data-end=\"1174\" data-start=\"1119\">\n\t<li data-end=\"1146\" data-start=\"1119\">\n\t<p data-end=\"1146\" data-start=\"1121\">2 is in the <strong data-end=\"1146\" data-start=\"1133\">16&sup1; place</strong></p>\n\t</li>\n\t<li data-end=\"1174\" data-start=\"1147\">\n\t<p data-end=\"1174\" data-start=\"1149\">F is in the <strong data-end=\"1174\" data-start=\"1161\">16\u2070 place</strong></p>\n\t</li>\n</ul>\n\n<p data-end=\"1190\" data-start=\"1176\">Now calculate:</p>\n\n<ul data-end=\"1232\" data-start=\"1192\">\n\t<li data-end=\"1207\" data-start=\"1192\">\n\t<p data-end=\"1207\" data-start=\"1194\">2 &times; 16 = 32</p>\n\t</li>\n\t<li data-end=\"1232\" data-start=\"1208\">\n\t<p data-end=\"1232\" data-start=\"1210\">F = 15 &rarr; 15 &times; 1 = 15</p>\n\t</li>\n</ul>\n\n<p data-end=\"1272\" data-start=\"1234\">Add the two values:<br data-end=\"1256\" data-start=\"1253\" />\n<strong data-end=\"1272\" data-start=\"1256\">32 + 15 = 47</strong></p>\n\n<p data-end=\"1311\" data-start=\"1274\">So,<br data-end=\"1280\" data-start=\"1277\" />\n<strong data-end=\"1311\" data-start=\"1280\">Hexadecimal 2F = Decimal 47</strong></p>\n\n<hr data-end=\"1316\" data-start=\"1313\" />\n<h3 data-end=\"1353\" data-start=\"1318\">\ud83d\udd37 Step 3: Hexadecimal to Octal</h3>\n\n<p data-end=\"1411\" data-start=\"1355\">To convert hexadecimal to octal, the simplest method is:</p>\n\n<p data-end=\"1492\" data-start=\"1413\"><strong data-end=\"1424\" data-start=\"1413\">Step 1:</strong> Convert hexadecimal to binary<br data-end=\"1457\" data-start=\"1454\" />\n<strong data-end=\"1468\" data-start=\"1457\">Step 2:</strong> Convert binary to octal</p>\n\n<p data-end=\"1537\" data-start=\"1494\">Already we have:<br data-end=\"1513\" data-start=\"1510\" />\n<strong data-end=\"1537\" data-start=\"1513\">2F = Binary 00101111</strong></p>\n\n<p data-end=\"1655\" data-start=\"1539\">Now, group binary digits in sets of 3 from <strong data-end=\"1599\" data-start=\"1582\">right to left</strong>. If needed, add zeros in front to complete groups of 3:</p>\n\n<p data-end=\"1739\" data-start=\"1657\">Binary: <code data-end=\"1675\" data-start=\"1665\">00101111</code><br data-end=\"1678\" data-start=\"1675\" />\nAdd a zero at the start to make 3-bit groups: &rarr; <code data-end=\"1739\" data-start=\"1726\">000 010 111</code></p>\n\n<p data-end=\"1794\" data-start=\"1741\">Now convert each group into its octal (base 8) value:</p>\n\n<ul data-end=\"1829\" data-start=\"1796\">\n\t<li data-end=\"1807\" data-start=\"1796\">\n\t<p data-end=\"1807\" data-start=\"1798\">000 &rarr; 0</p>\n\t</li>\n\t<li data-end=\"1819\" data-start=\"1808\">\n\t<p data-end=\"1819\" data-start=\"1810\">010 &rarr; 2</p>\n\t</li>\n\t<li data-end=\"1829\" data-start=\"1820\">\n\t<p data-end=\"1829\" data-start=\"1822\">111 &rarr; 7</p>\n\t</li>\n</ul>\n\n<p data-end=\"1868\" data-start=\"1831\">So,<br data-end=\"1837\" data-start=\"1834\" />\n<strong data-end=\"1868\" data-start=\"1837\">Binary 00101111 = Octal 057</strong></p>\n\n<p data-end=\"1907\" data-start=\"1870\">Thus,<br data-end=\"1878\" data-start=\"1875\" />\n<strong data-end=\"1907\" data-start=\"1878\">Hexadecimal 2F = Octal 57</strong></p>\n\n<hr data-end=\"1912\" data-start=\"1909\" />\n<h3 data-end=\"1933\" data-start=\"1914\">\u2705 Final Answer:</h3>\n\n<ul data-end=\"1995\" data-start=\"1935\">\n\t<li data-end=\"1959\" data-start=\"1935\">\n\t<p data-end=\"1959\" data-start=\"1937\"><strong data-end=\"1947\" data-start=\"1937\">Binary</strong>: 00101111</p>\n\t</li>\n\t<li data-end=\"1979\" data-start=\"1960\">\n\t<p data-end=\"1979\" data-start=\"1962\"><strong data-end=\"1973\" data-start=\"1962\">Decimal</strong>: 47</p>\n\t</li>\n\t<li data-end=\"1995\" data-start=\"1980\">\n\t<p data-end=\"1995\" data-start=\"1982\"><strong data-end=\"1991\" data-start=\"1982\">Octal</strong>: 57</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"433\" data-start=\"240\"><strong data-end=\"433\" data-start=\"240\">Explain the process of converting a number from hexadecimal to binary, decimal, and octal systems. Convert the hexadecimal number 2F into binary, decimal, and octal. Show each step clearly.</strong></p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "lq",
+   "key": 27590
+  }
+ ]
+}

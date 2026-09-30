@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9642,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) A virtual wire connecting two web pages</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) An interface for sending and receiving data across a network</p>\n",
+   "OPT_3": "<p>C) A type of web server</p>\n",
+   "OPT_4": "<p>D) A data encryption method</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"194\" data-start=\"143\"><strong data-end=\"194\" data-start=\"147\">1. What is a socket in network programming?</strong></h3>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 9642
+  },
+  {
+   "_id": 9643,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"541\" data-start=\"522\">socket.SOCK_DGRAM</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) <code data-end=\"593\" data-start=\"573\">socket.HTTP_STREAM</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"615\" data-start=\"599\">socket.RAW_TCP</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"567\" data-start=\"547\">socket.SOCK_STREAM</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"517\" data-start=\"448\"><strong data-end=\"517\" data-start=\"452\">2. Which socket type is used for TCP communication in Python?</strong></h3>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 9643
+  },
+  {
+   "_id": 9644,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) TCP is faster but less reliable</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) UDP uses handshaking to establish a connection</p>\n",
+   "OPT_3": "<p>C) TCP guarantees delivery and order of packets, UDP does not</p>\n",
+   "OPT_4": "<p>D) TCP is used only for emails</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"729\" data-start=\"663\"><strong data-end=\"729\" data-start=\"667\">3. What is a key difference between TCP and UDP protocols?</strong></h3>\n\n<p data-end=\"916\" data-start=\"731\">&nbsp;</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 9644
+  },
+  {
+   "_id": 9645,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Online banking</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) File transfer</p>\n",
+   "OPT_3": "<p>C) Live video streaming or gaming</p>\n",
+   "OPT_4": "<p>D) Sending login credentials</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1062\" data-start=\"1000\"><strong data-end=\"1062\" data-start=\"1004\">4. In which case would you prefer to use UDP over TCP?</strong></h3>\n\n<p data-end=\"1169\" data-start=\"1064\">&nbsp;</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 9645
+  },
+  {
+   "_id": 9646,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"1306\" data-start=\"1297\">network</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) <code data-end=\"1320\" data-start=\"1312\">socket</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"1334\" data-start=\"1326\">webapi</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"1352\" data-start=\"1340\">httpserver</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1292\" data-start=\"1225\"><strong data-end=\"1292\" data-start=\"1229\">5. Which Python library is commonly used to create sockets?</strong></h3>\n\n<p data-end=\"1354\" data-start=\"1294\">&nbsp;</p>\n\n<p data-end=\"1169\" data-start=\"1064\">&nbsp;</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 9646
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9858,
+   "ANSWER": "<p><br data-end=\"5688\" data-start=\"5685\" />\nUDP is faster and doesn&rsquo;t wait for acknowledgments, which reduces latency.<br data-end=\"5765\" data-start=\"5762\" />\nIn real-time games, losing a few packets is acceptable.<br data-end=\"5823\" data-start=\"5820\" />\nTCP&#39;s overhead would introduce unnecessary delays.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4958\" data-start=\"4681\">You are sending real-time game updates. Why choose UDP over TCP?<br data-end=\"5679\" data-start=\"5676\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 9858
+  },
+  {
+   "_id": 9859,
+   "ANSWER": "<p><br data-end=\"5948\" data-start=\"5945\" />\nA socket acts as an endpoint for sending or receiving data over a network.<br data-end=\"6025\" data-start=\"6022\" />\nIt uses IP and port numbers to connect devices.<br data-end=\"6075\" data-start=\"6072\" />\nPython&rsquo;s <code data-end=\"6092\" data-start=\"6084\">socket</code> module supports both TCP and UDP sockets.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4958\" data-start=\"4681\">How does a socket facilitate communication in Python?<br data-end=\"5939\" data-start=\"5936\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 9859
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9839,
+   "ANSWER": "<h3 data-end=\"146\" data-start=\"93\"><strong data-end=\"144\" data-start=\"97\">1. Definition and Role of Sockets (5 marks)</strong></h3>\n\n<p data-end=\"363\" data-start=\"147\"><strong data-end=\"170\" data-start=\"147\">Network programming</strong> allows programs to communicate over a network.<br data-end=\"220\" data-start=\"217\" />\n<strong data-end=\"231\" data-start=\"220\">Sockets</strong> are endpoints for sending/receiving data across a network using protocols like TCP or UDP. They enable client-server communication.</p>\n\n<p data-end=\"363\" data-start=\"147\"><strong data-end=\"412\" data-start=\"374\">2. TCP vs UDP Comparison (6 marks)</strong></p>\n\n<table data-end=\"808\" data-start=\"416\">\n\t<thead data-end=\"492\" data-start=\"416\">\n\t\t<tr data-end=\"492\" data-start=\"416\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"432\" data-start=\"416\">Feature</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"462\" data-start=\"432\">TCP</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"492\" data-start=\"462\">UDP</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"808\" data-start=\"572\">\n\t\t<tr data-end=\"650\" data-start=\"572\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"588\" data-start=\"572\">Reliability</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"619\" data-start=\"588\">Reliable (connection-based)</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"650\" data-start=\"619\">Unreliable (connectionless)</td>\n\t\t</tr>\n\t\t<tr data-end=\"729\" data-start=\"651\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"667\" data-start=\"651\">Speed</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"698\" data-start=\"667\">Slower due to checks</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"729\" data-start=\"698\">Faster, no checks</td>\n\t\t</tr>\n\t\t<tr data-end=\"808\" data-start=\"730\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"746\" data-start=\"730\">Use Case</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"777\" data-start=\"746\">File transfer, emails</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"808\" data-start=\"777\">Games, video streaming</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><button></button><strong data-end=\"850\" data-start=\"819\">3. Recommendation (4 marks)</strong></p>\n\n<p data-end=\"907\" data-start=\"853\"><strong data-end=\"871\" data-start=\"853\">Recommendation</strong>: Use <strong data-end=\"884\" data-start=\"877\">UDP</strong><br data-end=\"887\" data-start=\"884\" />\n<strong data-end=\"904\" data-start=\"887\">Justification</strong>:</p>\n\n<ul data-end=\"1076\" data-start=\"908\">\n\t<li data-end=\"1011\" data-start=\"908\">\n\t<p data-end=\"1011\" data-start=\"910\">UDP is <strong data-end=\"927\" data-start=\"917\">faster</strong> and better for real-time games where speed matters more than guaranteed delivery.</p>\n\t</li>\n\t<li data-end=\"1076\" data-start=\"1012\">\n\t<p data-end=\"1076\" data-start=\"1014\">Minor data loss is acceptable in exchange for quick responses.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"445\" data-start=\"153\">You are developing a real-time multiplayer quiz game. You need to choose an appropriate socket protocol (TCP or UDP) for communication between the server and players. The system should handle fast responses with minimal delay, but also ensure messages are correctly delivered.</p>\n\n<p data-end=\"456\" data-start=\"447\"><strong data-end=\"456\" data-start=\"447\">Task:</strong></p>\n\n<ol data-end=\"782\" data-start=\"458\">\n\t<li data-end=\"544\" data-start=\"458\">\n\t<p data-end=\"544\" data-start=\"461\"><strong data-end=\"471\" data-start=\"461\">Define</strong> network programming and explain the role of sockets in it. <em data-end=\"542\" data-start=\"531\">(5 marks)</em></p>\n\t</li>\n\t<li data-end=\"659\" data-start=\"545\">\n\t<p data-end=\"659\" data-start=\"548\"><strong data-end=\"565\" data-start=\"548\">Differentiate</strong> between TCP and UDP socket types in terms of reliability, speed, and use cases. <em data-end=\"657\" data-start=\"646\">(6 marks)</em></p>\n\t</li>\n\t<li data-end=\"782\" data-start=\"660\">\n\t<p data-end=\"782\" data-start=\"663\"><strong data-end=\"676\" data-start=\"663\">Recommend</strong> which protocol is better for your quiz game and justify your decision with protocol behavior. <em data-end=\"782\" data-start=\"771\">(4 marks)</em></p>\n\t</li>\n</ol>\n\n<p data-end=\"492\" data-start=\"153\">&nbsp;</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "lq",
+   "key": 9839
+  }
+ ]
+}

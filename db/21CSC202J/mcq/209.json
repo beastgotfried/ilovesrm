@@ -1,0 +1,141 @@
+{
+ "mcq": [
+  {
+   "_id": 18788,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"396\" data-start=\"379\">thread_create()</code></p>\n",
+   "OPT_2": "<p><code data-end=\"420\" data-start=\"402\">pthread_create()</code></p>\n",
+   "OPT_3": "<p><code data-end=\"443\" data-start=\"426\">create_thread()</code></p>\n",
+   "OPT_4": "<p><code data-end=\"465\" data-start=\"449\">start_thread()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"375\" data-start=\"289\"><strong data-end=\"373\" data-start=\"293\">Which function is used in C to create a thread using the pthread library?</strong></h3>\n\n<p data-end=\"467\" data-start=\"376\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 18788
+  },
+  {
+   "_id": 18789,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Creates a new thread</p>\n",
+   "OPT_2": "<p>Terminates a thread</p>\n",
+   "OPT_3": "<p>Waits for a thread to finish</p>\n",
+   "OPT_4": "<p>Locks a mutex</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"565\" data-start=\"509\"><strong data-end=\"563\" data-start=\"513\">What does the <code data-end=\"548\" data-start=\"532\">pthread_join()</code> function do?</strong></h3>\n\n<p data-end=\"669\" data-start=\"566\">&nbsp;</p>\n\n<p data-end=\"467\" data-start=\"376\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 18789
+  },
+  {
+   "_id": 18790,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><code data-end=\"807\" data-start=\"803\">-m</code> flag</p>\n",
+   "OPT_2": "<p><code data-end=\"828\" data-start=\"818\">-pthread</code> flag</p>\n",
+   "OPT_3": "<p><code data-end=\"845\" data-start=\"839\">-lib</code> flag</p>\n",
+   "OPT_4": "<p><code data-end=\"865\" data-start=\"856\">-thread</code> flag</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"799\" data-start=\"721\"><strong data-end=\"797\" data-start=\"725\">What is required to compile a C program with <code data-end=\"785\" data-start=\"775\">pthreads</code> on Linux?</strong></h3>\n\n<p data-end=\"872\" data-start=\"800\">&nbsp;</p>\n\n<p data-end=\"467\" data-start=\"376\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 18790
+  },
+  {
+   "_id": 18791,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><code data-end=\"988\" data-start=\"980\">exit()</code></p>\n",
+   "OPT_2": "<p><code data-end=\"1004\" data-start=\"994\">return()</code></p>\n",
+   "OPT_3": "<p><code data-end=\"1026\" data-start=\"1010\">pthread_exit()</code></p>\n",
+   "OPT_4": "<p><code data-end=\"1046\" data-start=\"1032\">end_thread()</code></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"976\" data-start=\"911\"><strong data-end=\"974\" data-start=\"915\">Which function is used to exit a thread in pthreads?</strong></h3>\n\n<p data-end=\"1048\" data-start=\"977\">&nbsp;</p>\n\n<p data-end=\"467\" data-start=\"376\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 18791
+  },
+  {
+   "_id": 18792,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>semaphores</p>\n",
+   "OPT_2": "<p>signals</p>\n",
+   "OPT_3": "<p>variables</p>\n",
+   "OPT_4": "<p>conditionals</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1167\" data-start=\"1088\"><strong data-end=\"1165\" data-start=\"1092\">Which of the following ensures mutual exclusion in multithreading?</strong></h3>\n\n<p data-end=\"1229\" data-start=\"1168\">&nbsp;</p>\n\n<p data-end=\"467\" data-start=\"376\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 18792
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18793,
+   "ANSWER": "<p><br data-end=\"1381\" data-start=\"1378\" />\n<code data-end=\"1397\" data-start=\"1381\">pthread_join()</code> is used to <strong data-end=\"1440\" data-start=\"1409\">wait for a thread to finish</strong> its execution. It helps synchronize threads and ensures that the main thread doesn&rsquo;t terminate before child threads are done.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1366\" data-start=\"1299\"><strong data-end=\"1364\" data-start=\"1303\">What is the use of <code data-end=\"1343\" data-start=\"1327\">pthread_join()</code> in multithreading?</strong></h3>\n\n<p data-end=\"1566\" data-start=\"1367\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "sq",
+   "key": 18793
+  },
+  {
+   "_id": 18794,
+   "ANSWER": "<p><br data-end=\"1660\" data-start=\"1657\" />\nSynchronization is essential to <strong data-end=\"1717\" data-start=\"1692\">avoid race conditions</strong>, <strong data-end=\"1746\" data-start=\"1719\">ensure data consistency</strong>, and <strong data-end=\"1793\" data-start=\"1752\">coordinate access to shared resources</strong> between threads running in parallel.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1645\" data-start=\"1573\"><strong data-end=\"1643\" data-start=\"1577\">Why is synchronization important in multithreaded programs?</strong></h3>\n\n<p data-end=\"1830\" data-start=\"1646\">&nbsp;</p>\n\n<p data-end=\"1566\" data-start=\"1367\">&nbsp;</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "sq",
+   "key": 18794
+  }
+ ],
+ "lq": [
+  {
+   "_id": 18795,
+   "ANSWER": "<p>#include &lt;stdio.h&gt;<br />\n#include &lt;pthread.h&gt;<br />\n#include &lt;unistd.h&gt;</p>\n\n<p>void* print_numbers(void* arg) {<br />\n&nbsp; &nbsp; for (int i = 1; i &lt;= 5; i++) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; printf(&quot;Number: %d\\n&quot;, i);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; sleep(1);<br />\n&nbsp; &nbsp; }<br />\n&nbsp; &nbsp; return NULL;<br />\n}</p>\n\n<p>void* print_letters(void* arg) {<br />\n&nbsp; &nbsp; for (char ch = &#39;A&#39;; ch &lt;= &#39;E&#39;; ch++) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; printf(&quot;Letter: %c\\n&quot;, ch);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; sleep(1);<br />\n&nbsp; &nbsp; }<br />\n&nbsp; &nbsp; return NULL;<br />\n}</p>\n\n<p>int main() {<br />\n&nbsp; &nbsp; pthread_t tid1, tid2;</p>\n\n<p>&nbsp; &nbsp; // Create two threads<br />\n&nbsp; &nbsp; pthread_create(&amp;tid1, NULL, print_numbers, NULL);<br />\n&nbsp; &nbsp; pthread_create(&amp;tid2, NULL, print_letters, NULL);</p>\n\n<p>&nbsp; &nbsp; // Wait for threads to finish<br />\n&nbsp; &nbsp; pthread_join(tid1, NULL);<br />\n&nbsp; &nbsp; pthread_join(tid2, NULL);</p>\n\n<p>&nbsp; &nbsp; printf(&quot;Main thread completed.\\n&quot;);<br />\n&nbsp; &nbsp; return 0;<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2121\" data-start=\"1896\">Write a C program using pthreads that creates two threads. One thread should print numbers from 1 to 5, and the other thread should print letters from A to E. Ensure that both threads run concurrently. Explain the output.</strong></p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "lq",
+   "key": 18795
+  }
+ ]
+}

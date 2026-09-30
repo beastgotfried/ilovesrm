@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12752,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>&nbsp;They guarantee a process will eventually be serviced</p>\n",
+   "OPT_2": "<p>They provide best-effort scheduling</p>\n",
+   "OPT_3": "<p>Missing a deadline is equivalent to a failure</p>\n",
+   "OPT_4": "<p>They prioritize non-critical processes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In real-time systems, which of the following best describes <strong data-end=\"447\" data-start=\"421\">hard real-time systems</strong>?</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 12752
+  },
+  {
+   "_id": 12753,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Based on process ID</p>\n",
+   "OPT_2": "<p>Based on deadline time</p>\n",
+   "OPT_3": "<p>Based on CPU burst time</p>\n",
+   "OPT_4": "<p>Based on period duration (inverse)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In real-time systems, which of the following best describes <strong data-end=\"447\" data-start=\"421\">hard real-time systems</strong>?</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 12753
+  },
+  {
+   "_id": 12754,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Cache miss rate</p>\n",
+   "OPT_2": "<p>Length of the user process</p>\n",
+   "OPT_3": "<p>Time the interrupts are disabled during kernel operations</p>\n",
+   "OPT_4": "<p>Amount of memory used</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the <strong data-end=\"991\" data-start=\"976\">main factor</strong> affecting <strong data-end=\"1023\" data-start=\"1002\">interrupt latency</strong>?</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 12754
+  },
+  {
+   "_id": 12755,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Process ID</p>\n",
+   "OPT_2": "<p>CPU usage history</p>\n",
+   "OPT_3": "<p>Time quantum</p>\n",
+   "OPT_4": "<p>Deadline of the process</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What does the <strong data-end=\"1280\" data-start=\"1247\">Earliest Deadline First (EDF)</strong> algorithm use to assign priorities?</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 12755
+  },
+  {
+   "_id": 12757,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>Interrupt masking</p>\n",
+   "OPT_2": "<p>Round-robin scheduling</p>\n",
+   "OPT_3": "<p>Preemptive kernel</p>\n",
+   "OPT_4": "<p>Thread pooling</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which technique is most effective in minimizing <strong data-end=\"1536\" data-start=\"1516\">dispatch latency</strong>?</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "mcq",
+   "key": 12757
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12606,
+   "ANSWER": "<ul>\n\t<li data-end=\"2007\" data-start=\"1914\">\n\t<p data-end=\"2007\" data-start=\"1916\"><strong data-end=\"1937\" data-start=\"1916\">Interrupt Latency</strong>: Time between the arrival of an interrupt and start of servicing it</p>\n\t</li>\n\t<li data-end=\"2100\" data-start=\"2008\">\n\t<p data-end=\"2100\" data-start=\"2010\"><strong data-end=\"2030\" data-start=\"2010\">Dispatch Latency</strong>: Time taken by the dispatcher to stop one process and start another</p>\n\t</li>\n\t<li data-end=\"2210\" data-start=\"2101\">\n\t<p data-end=\"2210\" data-start=\"2103\"><strong data-end=\"2113\" data-start=\"2103\">Impact</strong>: Both affect response time; longer latency leads to missed deadlines in hard real-time systems</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Define <strong data-end=\"1823\" data-start=\"1802\">interrupt latency</strong> and <strong data-end=\"1848\" data-start=\"1828\">dispatch latency</strong>. How do they affect real-time CPU scheduling?</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "sq",
+   "key": 12606
+  },
+  {
+   "_id": 12759,
+   "ANSWER": "<ul>\n\t<li data-end=\"2790\" data-start=\"2761\">\n\t<p data-end=\"2790\" data-start=\"2763\">RMS explanation (40%)</p>\n\t</li>\n\t<li data-end=\"2820\" data-start=\"2791\">\n\t<p data-end=\"2820\" data-start=\"2793\">EDF explanation (40 %)</p>\n\t</li>\n\t<li data-end=\"2851\" data-start=\"2821\">\n\t<p data-end=\"2851\" data-start=\"2823\">Comparative insight (20%)</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Compare <strong data-end=\"2379\" data-start=\"2350\">Rate Monotonic Scheduling</strong> and <strong data-end=\"2402\" data-start=\"2384\">EDF Scheduling</strong> based on priority assignment and deadline handling.</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "sq",
+   "key": 12759
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12760,
+   "ANSWER": "<ul data-end=\"3854\" data-start=\"3695\">\n\t<li data-end=\"3744\" data-start=\"3695\">\n\t<p data-end=\"3744\" data-start=\"3697\">Explanation of hard real-time needs (20%)</p>\n\t</li>\n\t<li data-end=\"3781\" data-start=\"3745\">\n\t<p data-end=\"3781\" data-start=\"3747\">RMS strategy &amp; example (30%)</p>\n\t</li>\n\t<li data-end=\"3818\" data-start=\"3782\">\n\t<p data-end=\"3818\" data-start=\"3784\">EDF strategy &amp; example (30%)</p>\n\t</li>\n\t<li data-end=\"3854\" data-start=\"3819\">\n\t<p data-end=\"3854\" data-start=\"3821\">Analysis and comparison (20%)</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align: justify;\">Analyze the importance of <strong data-end=\"3018\" data-start=\"2990\">real-time CPU scheduling</strong> in hard real-time systems. Discuss how RMS and EDF scheduling strategies help meet task deadlines. Provide suitable examples.</p>\n",
+   "SESSION_ID": 311,
+   "TYPE": "lq",
+   "key": 12760
+  }
+ ]
+}

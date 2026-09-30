@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9329,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Logic programming<br data-end=\"494\" data-start=\"491\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Procedural programming<br data-end=\"522\" data-start=\"519\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Object-oriented programming<br data-end=\"555\" data-start=\"552\" />\n<br data-end=\"1702\" data-start=\"1699\" />\n<br />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"838\" data-start=\"835\" />\n<br data-end=\"1492\" data-start=\"1489\" />\n<br data-end=\"1214\" data-start=\"1211\" />\n<br data-end=\"1275\" data-start=\"1272\" />\n<br data-end=\"886\" data-start=\"883\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br data-end=\"578\" data-start=\"575\" />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"1793\" data-start=\"1790\" />\n<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Functional programming</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"468\" data-start=\"347\">Which paradigm is best suited for applications involving complex real-world entities and reusable code components?</strong><br data-end=\"471\" data-start=\"468\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 9329
+  },
+  {
+   "_id": 9330,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Object-oriented<br data-end=\"756\" data-start=\"753\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Procedural<br data-end=\"772\" data-start=\"769\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Declarative<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"555\" data-start=\"552\" />\n<br data-end=\"1702\" data-start=\"1699\" />\n<br />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"838\" data-start=\"835\" />\n<br data-end=\"1492\" data-start=\"1489\" />\n<br data-end=\"1214\" data-start=\"1211\" />\n<br data-end=\"1275\" data-start=\"1272\" />\n<br data-end=\"886\" data-start=\"883\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br data-end=\"578\" data-start=\"575\" />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"1793\" data-start=\"1790\" />\n<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Logic-based</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"732\" data-start=\"633\">For a simple sequence of data processing tasks, which programming paradigm is most suitable?</strong><br data-end=\"735\" data-start=\"732\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 9330
+  },
+  {
+   "_id": 9331,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Cannot use loops<br data-end=\"991\" data-start=\"988\" />\n<br data-end=\"735\" data-start=\"732\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) More overhead due to dynamic dispatch and object management<br data-end=\"1056\" data-start=\"1053\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Only works for small applications\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Executes faster</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"966\" data-start=\"856\">What is a key disadvantage of method calls in object-oriented programming compared to procedural calls?</strong><br data-end=\"969\" data-start=\"966\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 9331
+  },
+  {
+   "_id": 9332,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Through object allocation<br data-end=\"1279\" data-start=\"1276\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) By reducing inheritance chains<br data-end=\"1315\" data-start=\"1312\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) With direct stack-based function calls<br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) By using abstract classes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1245\" data-start=\"1165\">In procedural programming, how is method call overhead generally managed?</strong><br data-end=\"1248\" data-start=\"1245\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 9332
+  },
+  {
+   "_id": 9333,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Functional programming<br data-end=\"1610\" data-start=\"1607\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Procedural programming<br data-end=\"1638\" data-start=\"1635\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Object-oriented programming</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) Machine code</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1579\" data-start=\"1439\">Which of the following paradigms is typically preferred in data transformation and list processing tasks, such as in compilers or AI?</strong><br data-end=\"1582\" data-start=\"1579\" />\n<br data-end=\"1248\" data-start=\"1245\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 9333
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9365,
+   "ANSWER": "<p>Machine-level code allows direct access to registers and memory, resulting in optimized performance and smaller footprint critical for hardware-level operations.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>An embedded system requires precise control over hardware. Why might machine-level programming be preferred over high-level languages?</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "sq",
+   "key": 9365
+  },
+  {
+   "_id": 9366,
+   "ANSWER": "<p>High-level languages abstract hardware details, offering built-in libraries, error handling, and memory management, thus simplifying development and enhancing compatibility.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A cross-platform application is being developed with portability in mind. What advantage does a high-level language offer in this context?</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "sq",
+   "key": 9366
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9382,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Feature</th>\n\t\t\t<th>Machine Code</th>\n\t\t\t<th>C Language</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Efficiency</td>\n\t\t\t<td>High, no abstraction</td>\n\t\t\t<td>Slightly less due to abstraction</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Readability</td>\n\t\t\t<td>Poor, not human-friendly</td>\n\t\t\t<td>High, uses meaningful syntax</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Control</td>\n\t\t\t<td>Maximum hardware control</td>\n\t\t\t<td>Provides low-level memory access</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul data-end=\"6456\" data-start=\"6229\">\n\t<li data-end=\"6322\" data-start=\"6229\">\n\t<p data-end=\"6322\" data-start=\"6231\"><strong data-end=\"6247\" data-start=\"6231\">Machine code</strong> provides direct access to hardware but is difficult to write and maintain.</p>\n\t</li>\n\t<li data-end=\"6456\" data-start=\"6323\">\n\t<p data-end=\"6456\" data-start=\"6325\"><strong data-end=\"6339\" data-start=\"6325\">C language</strong> balances control with readability, allowing low-level access using pointers, bit manipulation, and memory-mapped IO.</p>\n\t</li>\n</ul>\n\n<p data-end=\"6549\" data-start=\"6458\">For embedded systems, C is typically preferred, with <strong data-end=\"6530\" data-start=\"6511\">inline assembly</strong> used where needed.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"613\" data-start=\"371\">An embedded system requires precise control over hardware sensors. Compare the use of <strong data-end=\"5665\" data-start=\"5649\">machine code</strong> and <strong data-end=\"5684\" data-start=\"5670\">C language</strong> in terms of efficiency, readability, and control.</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "lq",
+   "key": 9382
+  }
+ ]
+}

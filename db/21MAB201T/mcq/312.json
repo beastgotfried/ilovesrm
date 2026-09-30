@@ -1,0 +1,154 @@
+{
+ "mcq": [
+  {
+   "_id": 52770,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\text{The steady-state solution}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\text{The transient solution}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\text{The initial condition}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{The boundary condition}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{In the heat equation solution, the function } u_1(x) \\text{ represents:}\\)</span></p>",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 52770
+  },
+  {
+   "_id": 52771,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\text{Thermal diffusivity}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\text{Thermal conductivity}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\text{Specific heat}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{Density}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{The constant } \\alpha^2 \\text{ in the heat equation is called:}\\)</span></p>",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 52771
+  },
+  {
+   "_id": 52772,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(u(0,t)=0, u(l,t)=0\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(0,t)=T_1, u(l,t)=T_2\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial x}(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(u(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{If a rod of length } l \\text{ has both ends kept at } 0^\\circ C, \\text{ the boundary conditions are:}\\)</span></p>",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 52772
+  },
+  {
+   "_id": 52773,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(u(x,t)=(A\\cos\\lambda x+B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(x,t)=(A\\cos\\lambda x+B\\sin\\lambda x)e^{\\alpha^2\\lambda^2 t}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(u(x,t)=(A e^{\\lambda x}+B e^{-\\lambda x})e^{-\\alpha^2\\lambda^2 t}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(u(x,t)=Ax+B\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For the heat equation with ends at } 0^\\circ C, \\text{ the appropriate separated solution is:}\\)</span></p>",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 52773
+  },
+  {
+   "_id": 52774,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial x}(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(0,t)=0, u(l,t)=0\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(u(0,t)=T_1, u(l,t)=T_2\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t}(0,t)=0, \\frac{\\partial u}{\\partial t}(l,t)=0\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{When the ends of a rod are insulated, the boundary conditions are:}\\)</span></p>",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 52774
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52792,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Wave equation: } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Boundary conditions: } y(0,t)=0, y(\\pi,t)=0.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Initial conditions: } y(x,0)=f(x) \\text{ (given), } \\frac{\\partial y}{\\partial t}(x,0)=0.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{General solution: } y(x,t)=\\sum_{n=1}^\\infty B_n \\sin(nx) \\cos(nct).\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{\\pi} \\left[ \\int_0^{\\pi/2} x \\sin(nx) dx + \\int_{\\pi/2}^\\pi (\\pi-x) \\sin(nx) dx \\right].\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Evaluate integrals: } B_n = \\frac{4}{n^2\\pi} \\sin\\left(\\frac{n\\pi}{2}\\right).\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Hence } y(x,t) = \\frac{4}{\\pi} \\sum_{n=1}^\\infty \\frac{1}{n^2} \\sin\\left(\\frac{n\\pi}{2}\\right) \\sin(nx) \\cos(nct).\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"\"math-tex\"\">\\(\\text{A string of length } \\pi \\text{ is fixed at both ends. It is initially displaced into the shape } y(x,0) = \\begin{cases} x, & 0 \\leq x \\leq \\pi/2 \\\\ \\pi - x, & \\pi/2 \\leq x \\leq \\pi \\end{cases} \\text{ and released from rest. Find the displacement } y(x,t).\\)</span></p>",
+   "SESSION_ID": 312,
+   "TYPE": "sq",
+   "key": 52792
+  },
+  {
+   "_id": 52793,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Initial steady state: } u_s(x) = \\frac{100}{20}x = 5x.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{New boundary conditions: } u(0,t)=100, u(20,t)=0.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{New steady state: } u_1(x) = \\frac{0-100}{20}x + 100 = -5x + 100.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Let } u(x,t)=u_1(x)+u_2(x,t), \\text{ where } u_2 \\text{ satisfies heat equation with } u_2(0,t)=0, u_2(20,t)=0.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Initial condition for } u_2: u_2(x,0)=u_s(x)-u_1(x)=5x-(-5x+100)=10x-100.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Solve for } u_2: u_2(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\left(\\frac{n\\pi x}{20}\\right) e^{-\\alpha^2 n^2\\pi^2 t/400}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{20} \\int_0^{20} (10x-100) \\sin\\left(\\frac{n\\pi x}{20}\\right) dx = \\frac{200}{n\\pi}[1-(-1)^n].\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Hence } u(x,t) = -5x+100 + \\frac{200}{\\pi} \\sum_{n=1}^\\infty \\frac{1-(-1)^n}{n} \\sin\\left(\\frac{n\\pi x}{20}\\right) e^{-\\alpha^2 n^2\\pi^2 t/400}.\\)</span></p></td><td></td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"\"math-tex\"\">\\(\\text{A rod of length 20 cm has its ends kept at } 0^\\circ\\text{C} \\text{ and } 100^\\circ\\text{C} \\text{ until steady state. Then the temperatures at the ends are interchanged. Find the temperature } u(x,t) \\text{ after the change.}\\)</span></p>",
+   "SESSION_ID": 312,
+   "TYPE": "sq",
+   "key": 52793
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50410,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Initial steady state: \\(u_s(x)= \\dfrac{100}{l}x.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{After ends insulated: BCs become \\(u_x(0,t)=0\\), \\(u_x(l,t)=0\\) (no heat flow).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution for insulated ends: \\(u(x,t)= A_0 + \\sum A_n \\cos\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\)</span></td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Initial condition: \\(u(x,0)= \\dfrac{100}{l}x = A_0 + \\sum A_n \\cos\\left(\\dfrac{n\\pi x}{l}\\right).\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Compute \\(A_0 = \\dfrac{1}{l} \\int_0^l \\dfrac{100}{l}x dx = \\dfrac{100}{l^2} \\cdot \\dfrac{l^2}{2} = 50.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(A_n = \\dfrac{2}{l} \\int_0^l \\dfrac{100}{l}x \\cos\\left(\\dfrac{n\\pi x}{l}\\right) dx\\) for \\(n\\geq1.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Evaluate: \\(A_n = \\dfrac{200}{l^2} \\int_0^l x \\cos\\left(\\dfrac{n\\pi x}{l}\\right) dx = \\dfrac{200}{l^2} \\left[ \\dfrac{l^2}{n^2\\pi^2} (\\cos(n\\pi)-1) \\right] = \\dfrac{200}{n^2\\pi^2} ( (-1)^n - 1 ).\\)}\\)</span></td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(u(x,t)= 50 + \\sum\\limits_{n=1}^{\\infty} \\dfrac{200}{n^2\\pi^2}((-1)^n -1) \\cos\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A rod of length $l$ with insulated sides has ends kept at temperatures $0^\\circ$ C and $100^\\circ$C until steady state.}\\\\\n\\text{Then both ends are suddenly insulated. Find the temperature distribution.}\\)</span></p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "lq",
+   "key": 50410
+  },
+  {
+   "_id": 50411,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Heat equation solution: \\(u(x,t)= \\sum B_n \\sin(nx) e^{-\\alpha^2 n^2 t}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(u(x,0)= \\sin x + \\sin 2x\\) \\(\\Rightarrow\\) \\(B_1=1\\), \\(B_2=1\\), others zero.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(u(x,t)= \\sin x e^{-\\alpha^2 t} + \\sin 2x e^{-4\\alpha^2 t}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Wave equation solution: \\(y(x,t)= \\sum \\sin\\left(\\dfrac{n\\pi x}{l}\\right)\\left[C_n \\cos\\left(\\dfrac{n\\pi c t}{l}\\right)+D_n \\sin\\left(\\dfrac{n\\pi c t}{l}\\right)\\right].\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(y(x,0)= \\sin\\left(\\dfrac{\\pi x}{l}\\right)\\) \\(\\Rightarrow\\) \\(C_1=1\\), others zero. \\(y_t(x,0)=0\\) \\(\\Rightarrow\\) \\(D_n=0.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(y(x,t)= \\sin\\left(\\dfrac{\\pi x}{l}\\right) \\cos\\left(\\dfrac{\\pi c t}{l}\\right).\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Combine both solutions.</td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Discuss physical difference: heat solution decays exponentially, wave solution oscillates indefinitely.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Solve the heat conduction problem: \u00a0$\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}$\u00a0with boundary conditions \u00a0$u(0,t)=0, u(\\pi,t)=0,$ \u00a0and initial condition \u00a0$u(x,0)= \\sin x + \\sin 2x.$}\\\\\n\\text{Also solve the wave equation: \u00a0$\\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2},$ with $y(0,t)=0, y(l,t)=0, y(x,0)= \\sin\\left(\\dfrac{\\pi x}{l}\\right), y_t(x,0)=0.$}\\)</span></p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "lq",
+   "key": 50411
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 52933,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( (2^n - 1) u(n) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( (1 - 2^n) u(n) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( (2^{-n} - 1) u(n) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( (1 - 2^{-n}) u(n) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">If \\( X(z) = \\frac{z}{(z-1)(z-2)} \\) with ROC \\( |z| > 2 \\), then \\( x(n) \\) is:</span></p>",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 52933
+  },
+  {
+   "_id": 52934,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac{1}{(z-a)^2} \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac{z}{(z-a)^2} \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\frac{1}{z(z-a)^2} \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( \\frac{z^{-1}}{(z-a)^2} \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The Z-transform of \\( x(n) = n a^{n-1} u(n-1) \\) is:</span></p>",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 52934
+  },
+  {
+   "_id": 52935,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( (0.5)^n u(n) + (0.25)^n u(n) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( (0.5)^n u(n) - (0.25)^n u(n) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( 2(0.5)^n u(n) - (0.25)^n u(n) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( (0.5)^n u(n) + 2(0.25)^n u(n) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">If \\( Z\\{x(n)\\} = \\frac{1}{1-0.5z^{-1}} + \\frac{1}{1-0.25z^{-1}} \\) with ROC \\( |z| > 0.5 \\), then \\( x(n) \\) is:</span></p>",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 52935
+  },
+  {
+   "_id": 52936,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac{2a^2}{z(z-a)^3} \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac{2}{z(z-a)^3} \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\frac{2a^2}{(z-a)^3} \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( \\frac{2z}{(z-a)^3} \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Using time shifting property, \\( Z\\{n^2 a^{n-2} u(n-2)\\} \\) is:</span></p>",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 52936
+  },
+  {
+   "_id": 52937,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac{z^2}{(z-1)(z-a)} \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac{z}{(z-1)(z-a)} \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\frac{z^2}{(z-1)(z-a)^2} \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( \\frac{1}{(z-1)(z-a)} \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The Z-transform of \\( x(n) = \\sum_{k=0}^{n} a^k \\) is:</span></p>",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 52937
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52915,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{We know } Z[a^n] = \\frac{z}{z-a}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Using differentiation: } Z[n x(n)] = -z \\frac{d}{dz} X(z)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(Z[n a^n] = -z \\frac{d}{dz} \\left( \\frac{z}{z-a} \\right)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= -z \\cdot \\frac{(z-a)-z}{(z-a)^2} = \\frac{az}{(z-a)^2}\\)</span></p></td><td>(3 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find } Z[n a^n] \\text{ using properties.}\\)</span></p>",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 52915
+  },
+  {
+   "_id": 52916,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{We know } Z[n^2] = \\frac{z(z+1)}{(z-1)^3}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\((n+1)^2 = n^2 + 2n + 1\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(Z[(n+1)^2] = Z[n^2] + 2Z[n] + Z[1]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{z(z+1)}{(z-1)^3} + \\frac{2z}{(z-1)^2} + \\frac{z}{z-1} = \\frac{z^2(z+1)}{(z-1)^3}\\)</span></p></td><td>(3 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find } Z[(n+1)^2] \\text{ using time shifting and linearity.}\\)</span></p>",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 52916
+  }
+ ],
+ "lq": [
+  {
+   "_id": 52899,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td><p><b>1.</b> <span class=\"math-tex\">\\(x(n) = 3^n \\cos(n\\pi/4) u(n) + 2 \\delta(n-3)\\)</span>:<br>Using linearity.<br><span class=\"math-tex\">\\(Z\\{3^n \\cos(n\\pi/4) u(n)\\} = \\frac{z(z-3\\cos(\\pi/4))}{z^2 - 6z\\cos(\\pi/4) + 9} = \\frac{z(z-3/\\sqrt{2})}{z^2 - (6/\\sqrt{2})z + 9}\\)</span>.<br><span class=\"math-tex\">\\(Z\\{2\\delta(n-3)\\} = 2z^{-3}\\)</span>.<br>So, <span class=\"math-tex\">\\(X(z) = \\frac{z(z-3/\\sqrt{2})}{z^2 - (3\\sqrt{2})z + 9} + \\frac{2}{z^3}\\)</span>.</p></td><td>(4 Marks)</td></tr><tr><td><p><b>2.</b> <span class=\"math-tex\">\\(x(n) = n 2^{n-1} u(n-1)\\)</span>:<br>We know <span class=\"math-tex\">\\(Z\\{n a^n u(n)\\} = \\frac{az}{(z-a)^2}\\)</span>. For a=2, <span class=\"math-tex\">\\(Z\\{n 2^n u(n)\\} = \\frac{2z}{(z-2)^2}\\)</span>.<br>Now, <span class=\"math-tex\">\\(n 2^{n-1} u(n-1) = \\frac{1}{2} \\cdot (n-1+1) 2^{n-1} u(n-1) = \\frac{1}{2}[ (n-1)2^{n-1} u(n-1) + 2^{n-1} u(n-1) ]\\)</span>.<br>Using shifting: <span class=\"math-tex\">\\(Z\\{(n-1)2^{n-1} u(n-1)\\} = z^{-1} \\cdot \\frac{2z}{(z-2)^2} = \\frac{2}{z(z-2)^2}\\)</span>.<br>And <span class=\"math-tex\">\\(Z\\{2^{n-1} u(n-1)\\} = z^{-1} \\cdot \\frac{z}{z-2} = \\frac{1}{z-2}\\)</span>.<br>So, <span class=\"math-tex\">\\(X(z) = \\frac{1}{2} \\left[ \\frac{2}{z(z-2)^2} + \\frac{1}{z-2} \\right] = \\frac{1}{z(z-2)^2} + \\frac{1}{2(z-2)}\\)</span>.</p></td><td>(4 Marks)</td></tr><tr><td><p><b>3.</b> Given <span class=\"math-tex\">\\(X(z)=\\frac{z}{(z-2)^2}\\)</span>:<br>i) <span class=\"math-tex\">\\(Z\\{n x(n)\\} = -z \\frac{d}{dz} X(z) = -z \\cdot \\frac{(z-2)^2 - 2z(z-2)}{(z-2)^4} = -z \\cdot \\frac{-(z+2)(z-2)}{(z-2)^4} = \\frac{z(z+2)}{(z-2)^3}\\)</span>.<br>ii) <span class=\"math-tex\">\\(Z\\{2^n x(n)\\} = X\\left(\\frac{z}{2}\\right) = \\frac{(z/2)}{((z/2)-2)^2} = \\frac{z/2}{( (z-4)/2 )^2} = \\frac{z/2}{(z-4)^2 / 4} = \\frac{2z}{(z-4)^2}\\)</span>.</p></td><td>(4 Marks)</td></tr><tr><td><p><b>4.</b> <span class=\"math-tex\">\\(X(z) = \\log\\left(\\frac{z}{z-1}\\right) = -\\log\\left(1-\\frac{1}{z}\\right)\\)</span> for |z|>1.<br>Use expansion: <span class=\"math-tex\">\\(\\log(1-y) = -\\sum_{m=1}^{\\infty} \\frac{y^m}{m}\\)</span> for |y|<1.<br>Here, <span class=\"math-tex\">\\(y=1/z\\)</span>, so <span class=\"math-tex\">\\(X(z) = \\sum_{m=1}^{\\infty} \\frac{(1/z)^m}{m} = \\sum_{m=1}^{\\infty} \\frac{1}{m} z^{-m}\\)</span>.<br>Comparing with <span class=\"math-tex\">\\(X(z)=\\sum_{n=0}^{\\infty} x(n) z^{-n}\\)</span>, we get:<br><span class=\"math-tex\">\\(x(0)=0\\)</span>, and for <span class=\"math-tex\">\\(n \\ge 1\\)</span>, <span class=\"math-tex\">\\(x(n) = \\frac{1}{n}\\)</span>.<br>So, <span class=\"math-tex\">\\(x(n) = \\begin{cases} 0, & n=0 \\\\ \\frac{1}{n}, & n \\ge 1 \\end{cases}\\)</span>.</p></td><td>(3 Marks)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>1. Find the Z-transform of <span class=\"math-tex\">\\(x(n) = 3^n \\cos\\left(\\frac{n\\pi}{4}\\right) u(n) + 2 \\delta(n-3)\\)</span>.</p><p>2. Using properties, find the Z-transform of <span class=\"math-tex\">\\(x(n) = n 2^{n-1} u(n-1)\\)</span>.</p><p>3. If <span class=\"math-tex\">\\(Z\\{x(n)\\} = \\frac{z}{(z-2)^2}\\)</span>, find <span class=\"math-tex\">\\(Z\\{n x(n)\\}\\)</span> and <span class=\"math-tex\">\\(Z\\{2^n x(n)\\}\\)</span>.</p><p>4. Determine the sequence <span class=\"math-tex\">\\(x(n)\\)</span> whose Z-transform is given by <span class=\"math-tex\">\\(X(z) = \\log\\left(\\frac{z}{z-1}\\right)\\)</span>, for <span class=\"math-tex\">\\(|z|>1\\)</span>. (Hint: Use series expansion of log(1+x))</p>",
+   "SESSION_ID": 504,
+   "TYPE": "lq",
+   "key": 52899
+  }
+ ]
+}

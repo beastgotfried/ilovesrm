@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36877,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Balanced progress</p>\n",
+   "OPT_2": "<p>Technology harmful to society and environment</p>\n",
+   "OPT_3": "<p>Right utilization of resources</p>\n",
+   "OPT_4": "<p>Long-term sustainability</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Science without wisdom often results in:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 36877
+  },
+  {
+   "_id": 36878,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Comprehensive human development in harmony</p>\n",
+   "OPT_2": "<p>Material progress only</p>\n",
+   "OPT_3": "<p>Unbalanced growth</p>\n",
+   "OPT_4": "<p>Conflict with nature</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The integration of understanding, wisdom, and science leads to:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 36878
+  },
+  {
+   "_id": 36879,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Science</p>\n",
+   "OPT_2": "<p>Understanding</p>\n",
+   "OPT_3": "<p>Skill</p>\n",
+   "OPT_4": "<p>Competition</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which aspect ensures the Self&rsquo;s activities are guided towards harmony?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 36879
+  },
+  {
+   "_id": 36880,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Domination of humans over nature</p>\n",
+   "OPT_2": "<p>Ensuring happiness, prosperity, and harmony at all levels of existence</p>\n",
+   "OPT_3": "<p>Rapid industrialization</p>\n",
+   "OPT_4": "<p>Personal success only</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The ultimate purpose of all-encompassing resolution is:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 36880
+  },
+  {
+   "_id": 36881,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Skills to exploit nature</p>\n",
+   "OPT_2": "<p>Guidance to design technologies that ensure sustainable and ethical progress</p>\n",
+   "OPT_3": "<p>Methods to maximize competition</p>\n",
+   "OPT_4": "<p>Rules to accumulate wealth</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The all-encompassing resolution provides</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 36881
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36482,
+   "ANSWER": "<p>Without values, science can lead to misuse and harm (e.g., weapons, pollution), but with values, it supports human welfare and ecological balance.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why is it important to integrate science with human values?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "sq",
+   "key": 36482
+  },
+  {
+   "_id": 36484,
+   "ANSWER": "<p>The outcome is a harmonious coexistence of self, society, and nature, where technology, wisdom, and human values work together for holistic well-being.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the ultimate outcome of the all-encompassing resolution?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "sq",
+   "key": 36484
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122526,
+   "ANSWER": "<p>Holistic technologies, production systems and management models are those that are guided by right understanding and support sustainable human welfare. A holistic technology should fulfil real human needs, be compatible with natural systems, be safe, low-cost, energy-efficient, locally producible, durable and recyclable. A holistic production system should answer what to produce, how to produce, for whom to produce and how much to produce in the light of human need and local resources. It should support local consumption, meaningful employment, decentralisation and eco-friendly production. A holistic management model should be relationship-based, cooperative, just and mutually fulfilling, rather than profit-centred and exploitative. Such systems support human development, prosperity and preservation of nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What are holistic technologies, production systems and management models?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "lq",
+   "key": 122526
+  }
+ ]
+}

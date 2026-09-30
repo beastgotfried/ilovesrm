@@ -1,0 +1,149 @@
+{
+ "mcq": [
+  {
+   "_id": 10441,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Use <code data-end=\"359\" data-start=\"338\">throws SQLException</code> in the main method only</p>\n",
+   "OPT_2": "<p>Catch <code data-end=\"409\" data-start=\"395\">SQLException</code> and log the error</p>\n",
+   "OPT_3": "<p>Ignore exceptions to prevent app termination</p>\n",
+   "OPT_4": "<p>Use <code data-end=\"502\" data-start=\"487\">System.exit()</code> on exception</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>What is the recommended approach to handle SQL exceptions in JDBC code?<br data-end=\"331\" data-start=\"328\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 10441
+  },
+  {
+   "_id": 10442,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>try block</p>\n",
+   "OPT_2": "<p>catch block</p>\n",
+   "OPT_3": "<p>finally block</p>\n",
+   "OPT_4": "<p>if block</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Which block is best suited for closing JDBC resources like <code data-end=\"728\" data-start=\"716\">Connection</code>, <code data-end=\"741\" data-start=\"730\">Statement</code>, and <code data-end=\"758\" data-start=\"747\">ResultSet</code>?<br data-end=\"762\" data-start=\"759\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 10442
+  },
+  {
+   "_id": 10443,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Manual close statements</p>\n",
+   "OPT_2": "<p><code data-end=\"1076\" data-start=\"1057\">try-catch-finally</code></p>\n",
+   "OPT_3": "<p>Try-with-resources</p>\n",
+   "OPT_4": "<p>Using static variables</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Which Java feature simplifies closing JDBC resources automatically?<br data-end=\"1025\" data-start=\"1022\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 10443
+  },
+  {
+   "_id": 10444,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>JVM will auto-close</p>\n",
+   "OPT_2": "<p>Nothing will happen</p>\n",
+   "OPT_3": "<p>Memory leak and DB resource exhaustion</p>\n",
+   "OPT_4": "<p>The application crashes immediately</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>What will happen if you don&rsquo;t close the <code data-end=\"1329\" data-start=\"1318\">ResultSet</code> and <code data-end=\"1346\" data-start=\"1334\">Connection</code> after query execution?<br data-end=\"1372\" data-start=\"1369\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 10444
+  },
+  {
+   "_id": 10445,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>IOException</p>\n",
+   "OPT_2": "<p>NullPointerException</p>\n",
+   "OPT_3": "<p>SQLException</p>\n",
+   "OPT_4": "<p>ClassNotFoundException</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>In JDBC, which exception is thrown when a query fails due to invalid SQL syntax?<br data-end=\"2296\" data-start=\"2293\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 10445
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10446,
+   "ANSWER": "<p data-end=\"3293\" data-start=\"3119\">A Java feature that auto-closes resources implementing <code data-end=\"3281\" data-start=\"3266\">AutoCloseable</code>.<br data-end=\"3285\" data-start=\"3282\" />\nExample:</p>\n\n<pre data-end=\"3437\" data-start=\"3294\">\n<code>try (Connection con = DriverManager.getConnection(...)) \n{ // use connection } \ncatch (SQLException e) \n{ e.printStackTrace(); \n}</code></pre>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>What is <code data-end=\"3155\" data-start=\"3135\">try-with-resources</code>? Give an example of its use in JDBC.</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 10446
+  },
+  {
+   "_id": 10572,
+   "ANSWER": "<p data-end=\"3293\" data-start=\"3119\">The <code data-end=\"2940\" data-start=\"2931\">finally</code> block ensures that resources like <code data-end=\"2987\" data-start=\"2975\">Connection</code>, <code data-end=\"3000\" data-start=\"2989\">Statement</code>, and <code data-end=\"3017\" data-start=\"3006\">ResultSet</code> are closed regardless of whether an exception occurs or not, preventing memory/resource leaks.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3112\" data-start=\"2831\">What is the purpose of the <code data-end=\"2875\" data-start=\"2866\">finally</code> block in JDBC resource handling?<br data-end=\"2911\" data-start=\"2908\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 10572
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10448,
+   "ANSWER": "<p>import java.sql.*;</p>\n\n<p>public class EmployeeData {<br />\n&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String url = &quot;jdbc:mysql://localhost:3306/company&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String user = &quot;root&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String pass = &quot;admin&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp;&nbsp;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; Connection con = null;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; Statement stmt = null;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; ResultSet rs = null;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; try {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Load Driver<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Establish Connection<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; con = DriverManager.getConnection(url, user, pass);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Create Statement<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stmt = con.createStatement();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Execute Query<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; rs = stmt.executeQuery(&quot;SELECT name, salary FROM employees&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Process Results<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while (rs.next()) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Name: &quot; + rs.getString(&quot;name&quot;) +<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&quot;, Salary: &quot; + rs.getDouble(&quot;salary&quot;));<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; } catch (SQLException e) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.err.println(&quot;Database error: &quot; + e.getMessage());<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } catch (ClassNotFoundException e) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.err.println(&quot;Driver not found: &quot; + e.getMessage());<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } finally {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Close resources<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (rs != null) rs.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (stmt != null) stmt.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (con != null) con.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO5",
+    "PLO4",
+    "PLO3",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3908\" data-start=\"3770\">You are developing a Java application that retrieves employee data from a MySQL database. Implement a JDBC program that:</p>\n\n<ul data-end=\"4095\" data-start=\"3909\">\n\t<li data-end=\"3937\" data-start=\"3909\">\n\t<p data-end=\"3937\" data-start=\"3911\">Connects to the database</p>\n\t</li>\n\t<li data-end=\"4006\" data-start=\"3938\">\n\t<p data-end=\"4006\" data-start=\"3940\">Retrieves employee names and salaries from the <code data-end=\"3998\" data-start=\"3987\">employees</code> table</p>\n\t</li>\n\t<li data-end=\"4044\" data-start=\"4007\">\n\t<p data-end=\"4044\" data-start=\"4009\">Applies proper exception handling</p>\n\t</li>\n\t<li data-end=\"4095\" data-start=\"4045\">\n\t<p data-end=\"4095\" data-start=\"4047\">Closes all JDBC resources in the <code data-end=\"4089\" data-start=\"4080\">finally</code> block</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 308,
+   "TYPE": "lq",
+   "key": 10448
+  }
+ ]
+}

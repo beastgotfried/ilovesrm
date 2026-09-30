@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 13236,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Encrypt files on disk</p>\n",
+   "OPT_2": "<p>Allocate memory frames</p>\n",
+   "OPT_3": "<p>Filter incoming and outgoing network traffic</p>\n",
+   "OPT_4": "<p>Schedule CPU processes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>The primary function of a firewall is to:</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 13236
+  },
+  {
+   "_id": 13237,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Cannot block malware in encrypted traffic</p>\n",
+   "OPT_2": "<p>Cannot filter based on IP addresses</p>\n",
+   "OPT_3": "<p>Cannot restrict port-based traffic</p>\n",
+   "OPT_4": "<p>Cannot monitor any traffic</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of these is a limitation of firewalls?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 13237
+  },
+  {
+   "_id": 13238,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Blocking all incoming traffic by default</p>\n",
+   "OPT_2": "<p>Acting as an intermediary between internal users and external resources</p>\n",
+   "OPT_3": "<p>Encrypting all data packets</p>\n",
+   "OPT_4": "<p>Allocating IP addresses dynamically</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>A <strong data-end=\"1023\" data-start=\"1005\">proxy firewall</strong> works by:</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 13238
+  },
+  {
+   "_id": 13239,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Packet-filtering firewall</p>\n",
+   "OPT_2": "<p>Proxy firewall</p>\n",
+   "OPT_3": "<p>Stateful inspection firewall</p>\n",
+   "OPT_4": "<p>Application firewall</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which type of firewall maintains a <strong data-end=\"1385\" data-start=\"1370\">state table</strong> to track active connections?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 13239
+  },
+  {
+   "_id": 13240,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>DAC</p>\n",
+   "OPT_2": "<p>RBAC</p>\n",
+   "OPT_3": "<p>MAC</p>\n",
+   "OPT_4": "<p>Rule-Based Access Control</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following uses <strong data-end=\"595\" data-start=\"550\">security labels and classification levels</strong> to enforce access?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 13240
+  }
+ ],
+ "sq": [
+  {
+   "_id": 13254,
+   "ANSWER": "<ul data-end=\"2711\" data-start=\"2570\">\n\t<li data-end=\"2893\" data-start=\"2819\">\n\t<p data-end=\"3003\" data-start=\"2778\">A firewall is a security system that monitors and controls incoming and outgoing network traffic based on predefined rules.<br data-end=\"2920\" data-start=\"2917\" />\n\t<strong data-end=\"2930\" data-start=\"2920\">Types:</strong> Packet-filtering firewall, Stateful inspection firewall, Proxy firewall.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Define <strong data-end=\"2749\" data-start=\"2737\">firewall</strong> and mention any two types.</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 13254
+  },
+  {
+   "_id": 13255,
+   "ANSWER": "<ul data-end=\"2711\" data-start=\"2570\">\n\t<li data-end=\"2893\" data-start=\"2819\">\n\t<p data-end=\"3003\" data-start=\"2778\">RBAC assigns access rights based on user roles. Users are grouped into roles, and roles have permissions.<br data-end=\"1969\" data-start=\"1966\" />\n\t<strong data-end=\"1981\" data-start=\"1969\">Example:</strong> Database Admin role has permissions to create and delete databases, while Developer role only has read/write access.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain <strong data-end=\"1826\" data-start=\"1790\">Role-Based Access Control (RBAC)</strong> with an example.</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 13255
+  }
+ ],
+ "lq": [
+  {
+   "_id": 13262,
+   "ANSWER": "<p data-end=\"8111\" data-start=\"7758\"><strong data-end=\"7771\" data-start=\"7760\">Answer Key:</strong></p>\n\n<p>&nbsp;</p>\n\n<ol data-end=\"2831\" data-start=\"2257\">\n\t<li data-end=\"2383\" data-start=\"2270\">\n\t<p data-end=\"2383\" data-start=\"2273\"><strong data-end=\"2281\" data-start=\"2273\">DAC:</strong> Access rights managed by resource owners.<br data-end=\"2326\" data-start=\"2323\" />\n\t<em data-end=\"2339\" data-start=\"2329\">Example:</em> File permissions set by users in Windows.</p>\n\t</li>\n\t<li data-end=\"2507\" data-start=\"2384\">\n\t<p data-end=\"2507\" data-start=\"2387\"><strong data-end=\"2395\" data-start=\"2387\">MAC:</strong> System-enforced labels define access.<br data-end=\"2436\" data-start=\"2433\" />\n\t<em data-end=\"2449\" data-start=\"2439\">Example:</em> Top Secret, Secret classifications in military systems.</p>\n\t</li>\n\t<li data-end=\"2645\" data-start=\"2508\">\n\t<p data-end=\"2645\" data-start=\"2511\"><strong data-end=\"2520\" data-start=\"2511\">RBAC:</strong> Permissions assigned to roles, users assigned roles.<br data-end=\"2576\" data-start=\"2573\" />\n\t<em data-end=\"2589\" data-start=\"2579\">Example:</em> HR role can access employee records in an ERP system.</p>\n\t</li>\n\t<li data-end=\"2787\" data-start=\"2646\">\n\t<p data-end=\"2787\" data-start=\"2649\"><strong data-end=\"2679\" data-start=\"2649\">Rule-Based Access Control:</strong> Decisions based on predefined rules.<br data-end=\"2719\" data-start=\"2716\" />\n\t<em data-end=\"2732\" data-start=\"2722\">Example:</em> Firewall rules allowing HTTP traffic and blocking FTP.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Describe <strong data-end=\"2227\" data-start=\"2147\">four types of computer security classifications (DAC, MAC, RBAC, Rule-Based)</strong> with practical examples.</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "lq",
+   "key": 13262
+  }
+ ]
+}

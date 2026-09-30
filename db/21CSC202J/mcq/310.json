@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12733,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>A process always runs on a different processor every time</p>\n",
+   "OPT_2": "<p>A process runs on the slowest available processor</p>\n",
+   "OPT_3": "<p>A process prefers to run on the same processor to benefit from cache memory</p>\n",
+   "OPT_4": "<p>A process only runs on processors with more threads</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best describes the concept of <strong data-end=\"594\" data-start=\"572\">Processor Affinity</strong>?</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 12733
+  },
+  {
+   "_id": 12735,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Only the master processor schedules tasks</p>\n",
+   "OPT_2": "<p>Each processor uses a different operating system</p>\n",
+   "OPT_3": "<p>All processors share scheduling responsibilities equally</p>\n",
+   "OPT_4": "<p>Only user processes are executed by the processors</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"914\" data-start=\"885\">Symmetric Multiprocessing</strong>, what is true about the processors?</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 12735
+  },
+  {
+   "_id": 12736,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>&nbsp;&nbsp;PTHREAD_SCOPE_PROCESS</p>\n",
+   "OPT_2": "<p>PTHREAD_SCOPE_KERNEL</p>\n",
+   "OPT_3": "<p>PTHREAD_SCOPE_GLOBAL</p>\n",
+   "OPT_4": "<p>PTHREAD_SCOPE_SYSTEM</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which Pthread scope setting allows user-level threads to compete <strong data-end=\"1292\" data-start=\"1265\">within the same process</strong>?</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 12736
+  },
+  {
+   "_id": 12737,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>&nbsp;Coarse-grained switches threads less frequently</p>\n",
+   "OPT_2": "<p>Fine-grained allows simultaneous execution of all threads</p>\n",
+   "OPT_3": "<p>Coarse-grained switches faster than fine-grained</p>\n",
+   "OPT_4": "<p>Coarse-grained runs only one thread at a time</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the main <strong data-end=\"1515\" data-start=\"1446\">difference between coarse-grained and fine-grained multithreading</strong>?</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 12737
+  },
+  {
+   "_id": 12738,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Idle processors requesting new tasks</p>\n",
+   "OPT_2": "<p>Periodic checking and redistributing load among processors</p>\n",
+   "OPT_3": "<p>Threads being assigned random processors</p>\n",
+   "OPT_4": "<p>Preventing threads from changing processors</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1786\" data-start=\"1768\">Push migration</strong> in load balancing refers to:</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 12738
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12739,
+   "ANSWER": "<ul>\n\t<li data-end=\"2372\" data-start=\"2274\">\n\t<p data-end=\"2372\" data-start=\"2276\"><strong data-end=\"2289\" data-start=\"2276\">Symmetric</strong>: All processors self-scheduling; duplicates of OS; system continues if one fails<strong> (50%)</strong></p>\n\t</li>\n\t<li data-end=\"2468\" data-start=\"2373\">\n\t<p data-end=\"2468\" data-start=\"2375\"><strong data-end=\"2389\" data-start=\"2375\">Asymmetric</strong>: One processor (master) handles all I/O and scheduling; reduces data sharing <strong>(50%)</strong></p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Differentiate between <strong data-end=\"2213\" data-start=\"2169\">Symmetric and Asymmetric Multiprocessing</strong> with two points each.</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "sq",
+   "key": 12739
+  },
+  {
+   "_id": 12740,
+   "ANSWER": "<ul>\n\t<li data-end=\"2744\" data-start=\"2665\">\n\t<p data-end=\"2744\" data-start=\"2667\">PCS (Process-Contention Scope): User-level threads compete within a process&nbsp;<strong> (50%)</strong></p>\n\t</li>\n\t<li data-end=\"2822\" data-start=\"2745\">\n\t<p data-end=\"2822\" data-start=\"2747\">&nbsp;SCS (System-Contention Scope): Kernel-level threads compete across system&nbsp;<strong>(50%)</strong></p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Explain the two <strong data-end=\"2609\" data-start=\"2580\">types of contention scope</strong> in thread scheduling with examples.</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "sq",
+   "key": 12740
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12741,
+   "ANSWER": "<ul>\n\t<li data-end=\"3734\" data-start=\"3691\">\n\t<p data-end=\"3734\" data-start=\"3693\">Multicore performance benefit <strong>(20%)</strong></p>\n\t</li>\n\t<li data-end=\"3774\" data-start=\"3735\">\n\t<p data-end=\"3774\" data-start=\"3737\">Memory stalls explanation <strong>(20%)</strong></p>\n\t</li>\n\t<li data-end=\"3824\" data-start=\"3775\">\n\t<p data-end=\"3824\" data-start=\"3777\">Coarse-grained concept with example <strong>(20%)</strong></p>\n\t</li>\n\t<li data-end=\"3872\" data-start=\"3825\">\n\t<p data-end=\"3872\" data-start=\"3827\">Fine-grained concept with example&nbsp;<strong>(20%)</strong></p>\n\t</li>\n\t<li data-end=\"3928\" data-start=\"3873\">\n\t<p data-end=\"3928\" data-start=\"3875\">Analytical conclusion on performance impact&nbsp;<strong>(20%)</strong></p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Analyze how <strong data-end=\"3074\" data-start=\"3050\">multicore processors</strong> and <strong data-end=\"3108\" data-start=\"3079\">multithreading techniques</strong> improve system performance. Describe coarse-grained and fine-grained multithreading in your answer.</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "lq",
+   "key": 12741
+  }
+ ]
+}

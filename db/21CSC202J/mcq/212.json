@@ -1,0 +1,146 @@
+{
+ "mcq": [
+  {
+   "_id": 19168,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Manage memory allocation</p>\n",
+   "OPT_2": "<p>Prevent deadlock</p>\n",
+   "OPT_3": "<p>Provide mutual exclusion for shared resources</p>\n",
+   "OPT_4": "<p>Schedule processes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"474\" data-start=\"215\"><strong data-end=\"282\" data-start=\"215\">What is the primary purpose of a mutex in operating systems?</strong><br data-end=\"285\" data-start=\"282\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 19168
+  },
+  {
+   "_id": 19169,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>A binary semaphore has only two states: unlocked and broken</p>\n",
+   "OPT_2": "<p>Semaphores are used only in uniprocessor systems</p>\n",
+   "OPT_3": "<p>Semaphores can be used to solve synchronization problems</p>\n",
+   "OPT_4": "<p>A semaphore is always implemented using spinlocks</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"474\" data-start=\"215\"><strong data-end=\"551\" data-start=\"481\">Which of the following statements is <strong data-end=\"531\" data-start=\"523\">true</strong> about semaphores?</strong><br data-end=\"554\" data-start=\"551\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 19169
+  },
+  {
+   "_id": 19171,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>One</p>\n",
+   "OPT_2": "<p>Two</p>\n",
+   "OPT_3": "<p>Unlimited</p>\n",
+   "OPT_4": "<p>Depends on CPU</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p data-end=\"474\" data-start=\"215\"><strong data-end=\"931\" data-start=\"870\">A mutex can be acquired by how many threads at a time?</strong><br data-end=\"934\" data-start=\"931\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 19171
+  },
+  {
+   "_id": 19172,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Binary semaphore</p>\n",
+   "OPT_2": "<p>Counting semaphore</p>\n",
+   "OPT_3": "<p>Recursive semaphore</p>\n",
+   "OPT_4": "<p>Hardware semaphore</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1214\" data-start=\"1014\"><strong data-end=\"1081\" data-start=\"1014\">Which of the following is <strong data-end=\"1052\" data-start=\"1045\">not</strong> a valid type of semaphore?</strong><br data-end=\"1084\" data-start=\"1081\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 19172
+  },
+  {
+   "_id": 19174,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Releasing a lock after use</p>\n",
+   "OPT_2": "<p>Acquiring multiple locks in different orders</p>\n",
+   "OPT_3": "<p>Using a single shared resource</p>\n",
+   "OPT_4": "<p>Preventing access to a critical section</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1214\" data-start=\"1014\"><strong data-end=\"1301\" data-start=\"1221\">Which scenario can <strong data-end=\"1265\" data-start=\"1245\">cause a deadlock</strong> when using semaphores or mutexes?</strong><br data-end=\"1304\" data-start=\"1301\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 19174
+  }
+ ],
+ "sq": [
+  {
+   "_id": 19176,
+   "ANSWER": "<p>A binary semaphore is a signaling mechanism that does not have ownership; any process can signal or wait. A mutex is a locking mechanism where only the thread that acquired the lock can release it.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1646\" data-start=\"1571\"><strong data-end=\"1644\" data-start=\"1571\">What is the key difference between a binary semaphore and a mutex?</strong></p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 19176
+  },
+  {
+   "_id": 19177,
+   "ANSWER": "<p>Semaphores use a counter to manage access to a shared resource. By using <code data-end=\"1993\" data-start=\"1985\">wait()</code> and <code data-end=\"2008\" data-start=\"1998\">signal()</code> operations, semaphores can control the number of threads accessing the resource, thus preventing race conditions.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1909\" data-start=\"1853\"><strong data-end=\"1907\" data-start=\"1853\">Explain how semaphores prevent race conditions.</strong></p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 19177
+  }
+ ],
+ "lq": [
+  {
+   "_id": 19179,
+   "ANSWER": "<p data-end=\"482\" data-start=\"191\">In operating systems, multiple processes or threads often need to access shared resources like memory, files, or I/O devices. To avoid <strong data-end=\"345\" data-start=\"326\">race conditions</strong>, synchronization mechanisms like <strong data-end=\"394\" data-start=\"379\">mutex locks</strong> and <strong data-end=\"413\" data-start=\"399\">semaphores</strong> are used to ensure <strong data-end=\"453\" data-start=\"433\">mutual exclusion</strong> and <strong data-end=\"481\" data-start=\"458\">proper coordination</strong>.</p>\n\n<h3 data-end=\"512\" data-start=\"489\">&nbsp;<strong data-end=\"512\" data-start=\"496\">Mutex Locks:</strong></h3>\n\n<ul data-end=\"778\" data-start=\"514\">\n\t<li data-end=\"593\" data-start=\"514\">\n\t<p data-end=\"593\" data-start=\"516\">A <strong data-end=\"527\" data-start=\"518\">mutex</strong> (short for <em data-end=\"557\" data-start=\"539\">mutual exclusion</em>) is a <strong data-end=\"592\" data-start=\"564\">binary locking mechanism</strong>.</p>\n\t</li>\n\t<li data-end=\"648\" data-start=\"594\">\n\t<p data-end=\"648\" data-start=\"596\">Only <strong data-end=\"615\" data-start=\"601\">one thread</strong> can acquire the mutex at a time.</p>\n\t</li>\n\t<li data-end=\"727\" data-start=\"649\">\n\t<p data-end=\"727\" data-start=\"651\">The <strong data-end=\"701\" data-start=\"655\">thread that locks the mutex must unlock it</strong> &mdash; this ensures ownership.</p>\n\t</li>\n\t<li data-end=\"778\" data-start=\"728\">\n\t<p data-end=\"778\" data-start=\"730\">Used primarily to protect <strong data-end=\"777\" data-start=\"756\">critical sections</strong>.</p>\n\t</li>\n</ul>\n\n<p><code>pthread_mutex_t lock; pthread_mutex_lock(&amp;lock); // Critical section pthread_mutex_unlock(&amp;lock); </code></p>\n\n<h3 data-end=\"930\" data-start=\"908\"><strong data-end=\"930\" data-start=\"915\">Semaphores:</strong></h3>\n\n<ul data-end=\"1327\" data-start=\"932\">\n\t<li data-end=\"1097\" data-start=\"932\">\n\t<p data-end=\"1005\" data-start=\"934\">A <strong data-end=\"949\" data-start=\"936\">semaphore</strong> is an integer variable that uses two atomic operations:</p>\n\n\t<ul data-end=\"1097\" data-start=\"1008\">\n\t\t<li data-end=\"1050\" data-start=\"1008\">\n\t\t<p data-end=\"1050\" data-start=\"1010\"><code data-end=\"1018\" data-start=\"1010\">wait()</code> (or <code data-end=\"1026\" data-start=\"1023\">P</code>) &ndash; decrements the value</p>\n\t\t</li>\n\t\t<li data-end=\"1097\" data-start=\"1053\">\n\t\t<p data-end=\"1097\" data-start=\"1055\"><code data-end=\"1065\" data-start=\"1055\">signal()</code> (or <code data-end=\"1073\" data-start=\"1070\">V</code>) &ndash; increments the value</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1255\" data-start=\"1098\">\n\t<p data-end=\"1124\" data-start=\"1100\">There are <strong data-end=\"1123\" data-start=\"1110\">two types</strong>:</p>\n\n\t<ol data-end=\"1255\" data-start=\"1127\">\n\t\t<li data-end=\"1186\" data-start=\"1127\">\n\t\t<p data-end=\"1186\" data-start=\"1130\"><strong data-end=\"1150\" data-start=\"1130\">Binary Semaphore</strong> (similar to mutex, value is 0 or 1)</p>\n\t\t</li>\n\t\t<li data-end=\"1255\" data-start=\"1189\">\n\t\t<p data-end=\"1255\" data-start=\"1192\"><strong data-end=\"1214\" data-start=\"1192\">Counting Semaphore</strong> (value can be &gt;1, allows limited access)</p>\n\t\t</li>\n\t</ol>\n\t</li>\n\t<li data-end=\"1327\" data-start=\"1256\">\n\t<p data-end=\"1327\" data-start=\"1258\">Semaphores do <strong data-end=\"1294\" data-start=\"1272\">not have ownership</strong> &mdash; any thread can signal or wait.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1378\" data-start=\"1329\"><strong data-end=\"1378\" data-start=\"1329\">Example (Pseudo-code for Counting Semaphore):</strong></p>\n\n<p><code>semaphore full = 0; semaphore empty = n; semaphore mutex = 1; Producer: wait(empty); wait(mutex); // Add item signal(mutex); signal(full); </code></p>\n\n<h3 data-end=\"1561\" data-start=\"1534\">&nbsp;<strong data-end=\"1561\" data-start=\"1541\">Key Differences:</strong></h3>\n\n<table data-end=\"2233\" data-start=\"1563\">\n\t<thead data-end=\"1654\" data-start=\"1563\">\n\t\t<tr data-end=\"1654\" data-start=\"1563\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"1586\" data-start=\"1563\">Feature</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"1619\" data-start=\"1586\">Mutex</th>\n\t\t\t<th data-col-size=\"md\" data-end=\"1654\" data-start=\"1619\">Semaphore</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"2233\" data-start=\"1750\">\n\t\t<tr data-end=\"1843\" data-start=\"1750\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1773\" data-start=\"1750\">Type</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1807\" data-start=\"1773\">Binary Lock</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"1843\" data-start=\"1807\">Binary or Counting</td>\n\t\t</tr>\n\t\t<tr data-end=\"1937\" data-start=\"1844\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1867\" data-start=\"1844\">Ownership</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1901\" data-start=\"1867\">Yes (only owner can unlock)</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"1937\" data-start=\"1901\">No (any thread can signal)</td>\n\t\t</tr>\n\t\t<tr data-end=\"2031\" data-start=\"1938\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1961\" data-start=\"1938\">Use Case</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1995\" data-start=\"1961\">Mutual exclusion</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2031\" data-start=\"1995\">Signaling, Resource counting</td>\n\t\t</tr>\n\t\t<tr data-end=\"2125\" data-start=\"2032\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2055\" data-start=\"2032\">Example Use</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2089\" data-start=\"2055\">Critical section protection</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2125\" data-start=\"2089\">Producer-consumer problem</td>\n\t\t</tr>\n\t\t<tr data-end=\"2233\" data-start=\"2126\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2149\" data-start=\"2126\">Deadlock Possibility</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2183\" data-start=\"2149\">Possible if not handled properly</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2233\" data-start=\"2183\">Possible (especially with multiple semaphores)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2367\" data-start=\"2179\">Compare and contrast Mutex Locks and Semaphores in terms of usage, behavior, and implementation. Also, explain their role in solving synchronization problems with suitable examples.</strong></p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "lq",
+   "key": 19179
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 13188,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>1980s</p>\n",
+   "OPT_2": "<p>Early 1970s</p>\n",
+   "OPT_3": "<p>1990s</p>\n",
+   "OPT_4": "<p>Early 2000s</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Capability-based protection was introduced in:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 13188
+  },
+  {
+   "_id": 13212,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>User-level and kernel-level</p>\n",
+   "OPT_2": "<p>Separate, fine-grained privileges</p>\n",
+   "OPT_3": "<p>Threads and processes</p>\n",
+   "OPT_4": "<p>Lock-key pairs</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In Linux, capabilities split root privileges into:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 13212
+  },
+  {
+   "_id": 13213,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Permitted set</p>\n",
+   "OPT_2": "<p>Effective set</p>\n",
+   "OPT_3": "<p>Inheritable set</p>\n",
+   "OPT_4": "<p>Virtual set</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which is <strong data-end=\"6644\" data-start=\"6637\">not</strong> a bitmask used in Linux capabilities?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 13213
+  },
+  {
+   "_id": 13214,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>It can be reacquired anytime</p>\n",
+   "OPT_2": "<p>It cannot be reacquired</p>\n",
+   "OPT_3": "<p>It is transferred to another process</p>\n",
+   "OPT_4": "<p>It becomes dormant</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Once a capability is revoked in Linux:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 13214
+  },
+  {
+   "_id": 13215,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Capability lists</p>\n",
+   "OPT_2": "<p>Kernel modules</p>\n",
+   "OPT_3": "<p>XML property lists (.plist)</p>\n",
+   "OPT_4": "<p>Access matrices</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Apple&rsquo;s entitlement system stores entitlements in:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 13215
+  }
+ ],
+ "sq": [
+  {
+   "_id": 13245,
+   "ANSWER": "<ul data-end=\"1670\" data-start=\"1327\">\n\t<li data-end=\"1494\" data-start=\"1327\">\n\t<p data-end=\"1494\" data-start=\"1329\">Linux capabilities split root privileges into fine-grained bits assigned per process/thread (permitted, effective, inheritable). Processes can drop unneeded capabilities during execution.<br data-end=\"2048\" data-start=\"2045\" />\n\t<strong data-end=\"2065\" data-start=\"2048\">Significance:</strong> Implements least privilege principle, reducing security risks by limiting process privileges to only what is necessary.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Describe <strong data-end=\"1796\" data-start=\"1774\">Linux capabilities</strong> and their significance in process security.</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 13245
+  },
+  {
+   "_id": 13246,
+   "ANSWER": "<ul data-end=\"1670\" data-start=\"1327\">\n\t<li data-end=\"1494\" data-start=\"1327\">\n\t<p data-end=\"443\" data-start=\"291\">Stack inspection is a runtime enforcement mechanism in Java where the JVM checks the call stack when a protected resource is accessed.</p>\n\t</li>\n\t<li data-end=\"491\" data-start=\"444\">\n\t<p data-end=\"491\" data-start=\"446\">Each method call adds a frame to the stack.</p>\n\t</li>\n\t<li data-end=\"552\" data-start=\"492\">\n\t<p data-end=\"552\" data-start=\"494\">The <code data-end=\"515\" data-start=\"498\">doPrivileged {}</code> block marks a frame as privileged.</p>\n\t</li>\n\t<li data-end=\"835\" data-start=\"553\">\n\t<p data-end=\"617\" data-start=\"555\">When <code data-end=\"579\" data-start=\"560\">checkPermission()</code> is called, the JVM scans the stack:</p>\n\n\t<ul data-end=\"835\" data-start=\"620\">\n\t\t<li data-end=\"679\" data-start=\"620\">\n\t\t<p data-end=\"679\" data-start=\"622\">If it finds a <code data-end=\"650\" data-start=\"636\">doPrivileged</code> frame &rarr; access is granted.</p>\n\t\t</li>\n\t\t<li data-end=\"835\" data-start=\"682\">\n\t\t<p data-end=\"835\" data-start=\"684\">If it finds an unprivileged frame &rarr; throws <code data-end=\"751\" data-start=\"727\">AccessControlException</code>.<br data-end=\"755\" data-start=\"752\" />\n\t\tIt ensures only methods with declared privileges can access sensitive resources.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is <strong data-end=\"233\" data-start=\"213\">stack inspection</strong> in Java language-based protection and how does it work?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 13246
+  }
+ ],
+ "lq": [
+  {
+   "_id": 13257,
+   "ANSWER": "<p data-end=\"8111\" data-start=\"7758\"><strong data-end=\"7771\" data-start=\"7760\">Answer Key:</strong><br data-end=\"7774\" data-start=\"7771\" />\nLinux capabilities divide root privileges into fine-grained capabilities represented as bitmasks (permitted, effective, inheritable). Processes can drop unneeded capabilities during execution, ensuring they hold only minimal privileges necessary for tasks, directly implementing the principle of least privilege to reduce security risks.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain <strong data-end=\"7687\" data-start=\"7665\">Linux capabilities</strong> and their role in implementing the <strong data-end=\"7755\" data-start=\"7723\">principle of least privilege</strong>.</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "lq",
+   "key": 13257
+  }
+ ]
+}

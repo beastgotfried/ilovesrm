@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36831,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Physical growth of the body</p>\n",
+   "OPT_2": "<p>Improvement of external wealth only</p>\n",
+   "OPT_3": "<p>Growth in right understanding, clarity, and harmony within the self</p>\n",
+   "OPT_4": "<p>Development of machines</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Inner evolution in a human being means:</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 36831
+  },
+  {
+   "_id": 36832,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Accumulating wealth</p>\n",
+   "OPT_2": "<p>Self-exploration</p>\n",
+   "OPT_3": "<p>Competing with others</p>\n",
+   "OPT_4": "<p>Physical exercise</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>The first step in inner evolution is:</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 36832
+  },
+  {
+   "_id": 36833,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Observing and analyzing one&rsquo;s own desires, thoughts, and expectations</p>\n",
+   "OPT_2": "<p>Exploring material objects only</p>\n",
+   "OPT_3": "<p>Blindly imitating others</p>\n",
+   "OPT_4": "<p>Studying body fitness</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Self-exploration refers to:</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 36833
+  },
+  {
+   "_id": 36834,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Recognize one&rsquo;s physical health only</p>\n",
+   "OPT_2": "<p>Be conscious of one&rsquo;s thoughts, feelings, and intentions</p>\n",
+   "OPT_3": "<p>Compare with others continuously</p>\n",
+   "OPT_4": "<p>Focus only on external achievements</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Self-awareness is the ability to:</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 36834
+  },
+  {
+   "_id": 36835,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Blindly following social trends</p>\n",
+   "OPT_2": "<p>Judging actions and desires against right understanding and values</p>\n",
+   "OPT_3": "<p>Increasing desires without limit</p>\n",
+   "OPT_4": "<p>Physical performance measurement</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Self-evaluation involves:</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 36835
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36448,
+   "ANSWER": "<p>Inner evolution is the continuous growth of the self through better understanding, awareness, and refinement of thoughts, leading to a harmonious and meaningful life.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What is meant by inner evolution?</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 36448
+  },
+  {
+   "_id": 36449,
+   "ANSWER": "<p>Self-exploration helps us examine our desires, thoughts, and actions, so we can identify whether they are based on right understanding or mere assumptions.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Why is self-exploration important in inner evolution?</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 36449
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122516,
+   "ANSWER": "<p>Existence means all that exists. In UHV, existence is understood as co-existence: units submerged in space. Units are limited in size and active, while space is unlimited, all-pervading and no-activity. Every unit is energised in space, self-organised in space, and recognises and fulfils its relationship with other units in space. Units may be material units or consciousness units. Material units have the activity of recognising and fulfilling, while consciousness has knowing, assuming, recognising and fulfilling. The four orders of nature are made of such units. Existence is not a collection of isolated things; it is an ordered reality where units exist together in space. Therefore, harmony is inherent in existence. The role of the human being is to understand this co-existence and live with the feeling of co-existence.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain the statement &ldquo;Existence is co-existence.&rdquo;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "lq",
+   "key": 122516
+  }
+ ]
+}

@@ -1,0 +1,153 @@
+{
+ "mcq": [
+  {
+   "_id": 8806,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Sends email</p>\n",
+   "OPT_2": "<p>b) Converts code into human language</p>\n",
+   "OPT_3": "<p>c) Converts high-level code into machine code</p>\n",
+   "OPT_4": "<p>d) Formats the text</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"629\" data-start=\"601\">What does a compiler do?</strong></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 8806
+  },
+  {
+   "_id": 8807,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Router</p>\n",
+   "OPT_2": "<p>b) Compiler</p>\n",
+   "OPT_3": "<p>c) Syntax</p>\n",
+   "OPT_4": "<p>d) Hard disk</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"512\" data-start=\"440\">Which of the following is a basic element of a programming language?</strong></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq"
+  },
+  {
+   "_id": 9291,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a)A tool to build hardware</p>\n",
+   "OPT_2": "<p>b) A set of instructions to communicate with computers<br data-end=\"344\" data-start=\"341\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) A language spoken by developers</p>\n",
+   "OPT_4": "<p>d) A type of operating systemeHere</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is a programming language?</p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 9291
+  },
+  {
+   "_id": 9292,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Python</p>\n",
+   "OPT_2": "<p>b) Java</p>\n",
+   "OPT_3": "<p>c) HTML</p>\n",
+   "OPT_4": "<p>d) Microsoft Word</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"835\" data-start=\"791\">Which one is NOT a programming language?</strong></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 9292
+  },
+  {
+   "_id": 9293,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) To store data temporarily<br data-end=\"1012\" data-start=\"1009\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) To decorate the code<br data-end=\"1041\" data-start=\"1038\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) To print text<br data-end=\"1063\" data-is-only-node=\"\" data-start=\"1060\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) To delete files</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"975\" data-start=\"923\">What is the purpose of variables in programming?</strong></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 9293
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9349,
+   "ANSWER": "<p>I would use the <strong data-end=\"428\" data-start=\"400\">object-oriented paradigm</strong>, as contacts can be modeled as objects with attributes like name, phone, and email. It enables encapsulation and easier data manipulation.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>You&rsquo;re building a contact management system. Which paradigm would you use and why?</p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "sq",
+   "key": 9349
+  },
+  {
+   "_id": 9873,
+   "ANSWER": "<ul data-end=\"605\" data-start=\"170\">\n\t<li data-end=\"390\" data-start=\"170\">\n\t<p data-end=\"302\" data-start=\"172\"><strong data-end=\"182\" data-start=\"172\">Syntax</strong> refers to the structure or form of code&mdash;how symbols, keywords, and characters are arranged according to language rules.</p>\n\n\t<ul data-end=\"390\" data-start=\"305\">\n\t\t<li data-end=\"387\" data-start=\"305\">\n\t\t<p data-end=\"387\" data-start=\"307\">Example: In C++, <code data-end=\"336\" data-start=\"324\">int x = 5;</code> is syntactically correct, but <code data-end=\"379\" data-start=\"367\">int = x 5;</code> is not.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"605\" data-start=\"391\">\n\t<p data-end=\"488\" data-start=\"393\"><strong data-end=\"406\" data-start=\"393\">Semantics</strong> refers to the meaning of the syntactically correct statements&mdash;what the code does.</p>\n\n\t<ul data-end=\"605\" data-start=\"491\">\n\t\t<li data-end=\"605\" data-start=\"491\">\n\t\t<p data-end=\"605\" data-start=\"493\">Example: <code data-end=\"514\" data-start=\"502\">x = y + z;</code> is syntactically correct, but if <code data-end=\"551\" data-start=\"548\">y</code> and <code data-end=\"559\" data-start=\"556\">z</code> are not defined, it has a <strong data-end=\"604\" data-start=\"586\">semantic error</strong>.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p data-end=\"628\" data-start=\"607\"><strong data-end=\"626\" data-start=\"607\">Key Difference:</strong></p>\n\n<ul data-end=\"762\" data-start=\"629\">\n\t<li data-end=\"762\" data-start=\"629\">\n\t<p data-end=\"762\" data-start=\"631\">Syntax errors are caught at <strong data-end=\"675\" data-start=\"659\">compile time</strong>, while semantic errors may be detected at <strong data-end=\"729\" data-start=\"718\">runtime</strong> or result in incorrect behavior.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain the key differences between syntax and semantics in programming languages. Give examples to support your answer.</p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "sq",
+   "key": 9873
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9874,
+   "ANSWER": "<p>class Student {<br />\n&nbsp; &nbsp; String name;</p>\n\n<p>&nbsp; &nbsp; // Parameterized constructor<br />\n&nbsp; &nbsp; Student(String n) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; name = n;<br />\n&nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; public void display() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Name: &quot; + name);<br />\n&nbsp; &nbsp; }<br />\n}</p>\n\n<p>public class Main {<br />\n&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; Student s1 = new Student(); // Error: no default constructor<br />\n&nbsp; &nbsp; &nbsp; &nbsp; s1.display();<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A student is learning Java and writes a program that creates an object of a class without using a constructor explicitly. Later, she adds a parameterized constructor and finds that the program throws an error when creating an object without arguments. Explain why this happens, and write Java code to demonstrate the issue and the correct solution.</p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "lq",
+   "key": 9874
+  },
+  {
+   "_id": 10440,
+   "ANSWER": "<p>import java.sql.*;</p>\n\n<p>public class TopStudents {<br />\n&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String url = &quot;jdbc:mysql://localhost:3306/college&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String user = &quot;root&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String password = &quot;admin&quot;;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; Connection con = null;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; Statement stmt = null;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; ResultSet rs = null;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; try {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Load driver<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Create connection<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; con = DriverManager.getConnection(url, user, password);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Create statement<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stmt = con.createStatement();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Execute query<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; rs = stmt.executeQuery(&quot;SELECT name, department, marks FROM students WHERE marks &gt; 80&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Process result<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while (rs.next()) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String name = rs.getString(&quot;name&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String dept = rs.getString(&quot;department&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; int marks = rs.getInt(&quot;marks&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(name + &quot; | &quot; + dept + &quot; | &quot; + marks);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } catch (Exception e) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; e.printStackTrace();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } finally {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (rs != null) rs.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (stmt != null) stmt.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (con != null) con.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4055\" data-start=\"3785\">You are building a student management system. Your task is to fetch and display the details (name, department, and marks) of all students who scored above 80 from the <code data-end=\"3978\" data-start=\"3968\">students</code> table using JDBC. Use proper SQL execution and result processing techniques.</p>\n\n<p data-end=\"4099\" data-start=\"4062\">Write a Java program that:</p>\n\n<ul data-end=\"4319\" data-start=\"4100\">\n\t<li data-end=\"4144\" data-start=\"4100\">\n\t<p data-end=\"4144\" data-start=\"4102\">Connects to the MySQL database <code data-end=\"4142\" data-start=\"4133\">college</code></p>\n\t</li>\n\t<li data-end=\"4206\" data-start=\"4145\">\n\t<p data-end=\"4206\" data-start=\"4147\">Executes a <code data-end=\"4166\" data-start=\"4158\">SELECT</code> query to get students with marks &gt; 80</p>\n\t</li>\n\t<li data-end=\"4259\" data-start=\"4207\">\n\t<p data-end=\"4259\" data-start=\"4209\">Retrieves and displays results using <code data-end=\"4257\" data-start=\"4246\">ResultSet</code></p>\n\t</li>\n\t<li data-end=\"4319\" data-start=\"4260\">\n\t<p data-end=\"4319\" data-start=\"4262\">Handles exceptions and closes all JDBC resources properly</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 101,
+   "TYPE": "lq",
+   "key": 10440
+  }
+ ]
+}

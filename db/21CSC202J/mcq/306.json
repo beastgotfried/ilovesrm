@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12404,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Shortest job first</p>\n",
+   "OPT_2": "<p>Highest burst time</p>\n",
+   "OPT_3": "<p>Lowest priority value among arrived processes</p>\n",
+   "OPT_4": "<p>First come, first served</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What condition determines process selection in <strong data-end=\"398\" data-start=\"360\">non-preemptive priority scheduling</strong>?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 12404
+  },
+  {
+   "_id": 12405,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>When another process arrives with equal priority</p>\n",
+   "OPT_2": "<p>When another process arrives with lower priority</p>\n",
+   "OPT_3": "<p>When another process arrives with higher priority</p>\n",
+   "OPT_4": "<p>When it finishes execution</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"620\" data-start=\"586\">preemptive priority scheduling</strong>, when is a running process interrupted?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 12405
+  },
+  {
+   "_id": 12406,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>&nbsp;It is terminated</p>\n",
+   "OPT_2": "<p>It is blocked</p>\n",
+   "OPT_3": "<p>It is returned to the ready queue</p>\n",
+   "OPT_4": "<p>It is sent to I/O</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In Round Robin scheduling, what happens to a process if it is <strong data-end=\"986\" data-start=\"969\">not completed</strong> after using its time quantum?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 12406
+  },
+  {
+   "_id": 12407,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>&nbsp;All processes are enqueued at time 1</p>\n",
+   "OPT_2": "<p>Only those with priority &gt; 0 are added</p>\n",
+   "OPT_3": "<p>Only processes with ArrivalTime = 0</p>\n",
+   "OPT_4": "<p>Randomly assigned</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the <strong data-end=\"1209\" data-start=\"1188\">initial condition</strong> for processes being enqueued in Round Robin scheduling?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 12407
+  },
+  {
+   "_id": 12408,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>&nbsp;<code data-end=\"1581\" data-start=\"1563\">ExecutionTime[i]</code></p>\n",
+   "OPT_2": "<p><code data-end=\"1601\" data-start=\"1587\">Completed[i]</code></p>\n",
+   "OPT_3": "<p><code data-end=\"1625\" data-start=\"1607\">RemainingTime[i]</code></p>\n",
+   "OPT_4": "<p><code data-end=\"1643\" data-start=\"1631\">Visited[i]</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In preemptive priority scheduling, which variable keeps track of remaining execution time?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 12408
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12409,
+   "ANSWER": "<ul>\n\t<li data-end=\"1996\" data-start=\"1919\">\n\t<p data-end=\"1996\" data-start=\"1921\">Selection logic in Non-Preemptive Priority (including tie-breaking) &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2045\" data-start=\"1997\">\n\t<p data-end=\"2045\" data-start=\"1999\">Selection logic in Preemptive Priority &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2099\" data-start=\"2046\">\n\t<p data-end=\"2099\" data-start=\"2048\">Role of <code data-end=\"2068\" data-start=\"2056\">Visited[i]</code> and <code data-end=\"2091\" data-start=\"2073\">RemainingTime[i]</code> &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"2163\" data-start=\"2100\">\n\t<p data-end=\"2163\" data-start=\"2102\">Explanation of switching condition (interrupt or not) &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What are the key differences in how processes are selected and executed in <strong data-end=\"1888\" data-start=\"1836\">Non-Preemptive vs Preemptive Priority Scheduling</strong>?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "sq",
+   "key": 12409
+  },
+  {
+   "_id": 12410,
+   "ANSWER": "<ul>\n\t<li data-end=\"2481\" data-start=\"2416\">\n\t<p data-end=\"2481\" data-start=\"2418\">Handling of newly arrived processes (ArrivalTime check) &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2540\" data-start=\"2482\">\n\t<p data-end=\"2540\" data-start=\"2484\">Execution using time quantum and <code data-end=\"2532\" data-start=\"2517\">ExecutionTime</code> &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2585\" data-start=\"2541\">\n\t<p data-end=\"2585\" data-start=\"2543\">Re-queuing of incomplete processes &ndash; 40%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2293\" data-start=\"2229\">Describe how <strong data-end=\"2284\" data-start=\"2258\">Round Robin Scheduling</strong> handles:</p>\n\n<ol data-end=\"2386\" data-start=\"2294\">\n\t<li data-end=\"2324\" data-start=\"2294\">\n\t<p data-end=\"2324\" data-start=\"2297\">Arrival of new processes,</p>\n\t</li>\n\t<li data-end=\"2361\" data-start=\"2325\">\n\t<p data-end=\"2361\" data-start=\"2328\">Execution of running processes,</p>\n\t</li>\n\t<li data-end=\"2386\" data-start=\"2362\">\n\t<p data-end=\"2386\" data-start=\"2365\">Incomplete processes.</p>\n\t</li>\n</ol>\n",
+   "SESSION_ID": 306,
+   "TYPE": "sq",
+   "key": 12410
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12411,
+   "ANSWER": "<ul>\n\t<li data-end=\"3194\" data-start=\"3127\">\n\t<p data-end=\"3194\" data-start=\"3129\">Process Selection Logic (priority, arrival time, quantum) &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3246\" data-start=\"3195\">\n\t<p data-end=\"3246\" data-start=\"3197\">Context Switching and Scheduling Overhead &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3295\" data-start=\"3247\">\n\t<p data-end=\"3295\" data-start=\"3249\">Fairness vs Starvation (with examples) &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3340\" data-start=\"3296\">\n\t<p data-end=\"3340\" data-start=\"3298\">Variables/Flags Used in Algorithms &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3413\" data-start=\"3341\">\n\t<p data-end=\"3413\" data-start=\"3343\">Example scenario or pseudocode from lab (1 algorithm at least) &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2872\" data-start=\"2688\">Write a comparative analysis of <strong data-end=\"2763\" data-start=\"2736\">Non-Preemptive Priority</strong>, <strong data-end=\"2788\" data-start=\"2765\">Preemptive Priority</strong>, and <strong data-end=\"2820\" data-start=\"2794\">Round Robin Scheduling</strong> algorithms with respect to the following aspects:</p>\n\n<ol data-end=\"3092\" data-start=\"2874\">\n\t<li data-end=\"2905\" data-start=\"2874\">\n\t<p data-end=\"2905\" data-start=\"2877\">Process selection strategy</p>\n\t</li>\n\t<li data-end=\"2941\" data-start=\"2906\">\n\t<p data-end=\"2941\" data-start=\"2909\">Context switching and overhead</p>\n\t</li>\n\t<li data-end=\"2970\" data-start=\"2942\">\n\t<p data-end=\"2970\" data-start=\"2945\">Fairness and starvation</p>\n\t</li>\n\t<li data-end=\"3036\" data-start=\"2971\">\n\t<p data-end=\"3036\" data-start=\"2974\">Use of variables like <code data-end=\"3008\" data-start=\"2996\">Visited[i]</code>, <code data-end=\"3028\" data-start=\"3010\">RemainingTime[i]</code>, etc.</p>\n\t</li>\n\t<li data-end=\"3092\" data-start=\"3037\">\n\t<p data-end=\"3092\" data-start=\"3040\">Example scenario/pseudocode explanation from the lab</p>\n\t</li>\n</ol>\n",
+   "SESSION_ID": 306,
+   "TYPE": "lq",
+   "key": 12411
+  }
+ ]
+}

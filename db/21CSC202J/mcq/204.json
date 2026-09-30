@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 17977,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Terminates the current process</p>\n",
+   "OPT_2": "<p>Creates a new thread</p>\n",
+   "OPT_3": "<p>Creates a new process by duplicating the parent</p>\n",
+   "OPT_4": "<p>Switches context to another process</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO4",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"307\" data-start=\"237\"><strong data-end=\"305\" data-start=\"241\">What does the <code data-end=\"268\" data-start=\"260\">fork()</code> system call do in a Unix-based OS?</strong></h3>\n\n<p data-end=\"463\" data-start=\"308\">&nbsp;</p>\n\n<p data-end=\"347\" data-start=\"250\">&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq"
+  },
+  {
+   "_id": 18021,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>getppid()</p>\n",
+   "OPT_2": "<p>fork()</p>\n",
+   "OPT_3": "<p>getpid()</p>\n",
+   "OPT_4": "<p>wait()</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO4",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"624\" data-start=\"534\"><strong data-end=\"622\" data-start=\"538\">Which function returns the Process ID (PID) of the currently running process?</strong></h3>\n\n<p data-end=\"677\" data-start=\"625\">&nbsp;</p>\n\n<p data-end=\"347\" data-start=\"250\">&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 18021
+  },
+  {
+   "_id": 18023,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>0</p>\n",
+   "OPT_2": "<p>Negative number</p>\n",
+   "OPT_3": "<p>Child&rsquo;s PID</p>\n",
+   "OPT_4": "<p>Parent&rsquo;s PID</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"781\" data-start=\"709\"><strong data-end=\"779\" data-start=\"713\">In the child process, what is the return value of <code data-end=\"776\" data-start=\"768\">fork()</code>?</strong></h3>\n\n<p data-end=\"844\" data-start=\"782\">&nbsp;</p>\n\n<p data-end=\"347\" data-start=\"250\">&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 18023
+  },
+  {
+   "_id": 18026,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Waits for memory allocation</p>\n",
+   "OPT_2": "<p>Waits for a signal</p>\n",
+   "OPT_3": "<p>Waits for a child process to finish</p>\n",
+   "OPT_4": "<p>Suspends the process permanently</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"920\" data-start=\"869\"><strong data-end=\"918\" data-start=\"873\">What does the <code data-end=\"900\" data-start=\"892\">wait()</code> system call do?</strong></h3>\n\n<p data-end=\"1056\" data-start=\"921\">&nbsp;</p>\n\n<p data-end=\"347\" data-start=\"250\">&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 18026
+  },
+  {
+   "_id": 18030,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Parent&#39;s process ID</p>\n",
+   "OPT_2": "<p>Process ID of grandparent</p>\n",
+   "OPT_3": "<p>Process priority</p>\n",
+   "OPT_4": "<p>Process execution time</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO4",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1170\" data-start=\"1115\"><strong data-end=\"1168\" data-start=\"1119\">What does the function <code data-end=\"1158\" data-start=\"1147\">getppid()</code> return?</strong></h3>\n\n<p data-end=\"1276\" data-start=\"1171\">&nbsp;</p>\n\n<p data-end=\"1056\" data-start=\"921\">&nbsp;</p>\n\n<p data-end=\"347\" data-start=\"250\">&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 18030
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18033,
+   "ANSWER": "<p><br data-end=\"1431\" data-start=\"1428\" />\nThe <code data-end=\"1443\" data-start=\"1435\">fork()</code> system call is used to <strong data-end=\"1491\" data-start=\"1467\">create a new process</strong> by duplicating the calling (parent) process. It returns <strong data-end=\"1553\" data-start=\"1548\">0</strong> to the child process and <strong data-end=\"1599\" data-start=\"1579\">PID of the child</strong> to the parent process, allowing both processes to run independently.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1416\" data-start=\"1355\"><strong data-end=\"1414\" data-start=\"1359\">What is the purpose of the <code data-end=\"1399\" data-start=\"1391\">fork()</code> system call?</strong></h3>\n\n<p data-end=\"1668\" data-start=\"1417\">&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "sq",
+   "key": 18033
+  },
+  {
+   "_id": 18034,
+   "ANSWER": "<p data-end=\"1760\" data-start=\"1747\">&nbsp;</p>\n\n<ul data-end=\"1991\" data-start=\"1761\">\n\t<li data-end=\"1826\" data-start=\"1761\">\n\t<p data-end=\"1826\" data-start=\"1763\"><code data-end=\"1773\" data-start=\"1763\">getpid()</code> returns the <strong data-end=\"1800\" data-start=\"1786\">Process ID</strong> of the current process.</p>\n\t</li>\n\t<li data-end=\"1991\" data-start=\"1827\">\n\t<p data-end=\"1991\" data-start=\"1829\"><code data-end=\"1840\" data-start=\"1829\">getppid()</code> returns the <strong data-end=\"1874\" data-start=\"1853\">Parent Process ID</strong> of the current process.<br data-end=\"1901\" data-start=\"1898\" />\n\tThese are useful for tracking and managing parent-child relationships in process creation.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1746\" data-start=\"1675\"><strong data-end=\"1744\" data-start=\"1679\">Explain the difference between <code data-end=\"1725\" data-start=\"1715\">getpid()</code> and <code data-end=\"1741\" data-start=\"1730\">getppid()</code>.</strong></h3>\n\n<p data-end=\"1760\" data-start=\"1747\">&nbsp;</p>\n\n<ul data-end=\"1991\" data-start=\"1761\">\n\t<li data-end=\"1991\" data-start=\"1827\">&nbsp;</li>\n</ul>\n\n<p data-end=\"1668\" data-start=\"1417\">&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "sq",
+   "key": 18034
+  }
+ ],
+ "lq": [
+  {
+   "_id": 18097,
+   "ANSWER": "<p data-end=\"2462\" data-start=\"2233\">In Unix/Linux operating systems, a new process is created using the <strong data-end=\"2313\" data-start=\"2301\"><code data-end=\"2311\" data-start=\"2303\">fork()</code></strong> system call. It duplicates the calling process and creates a <strong data-end=\"2392\" data-start=\"2375\">child process</strong>, which runs independently but initially shares the same memory space.</p>\n\n<h3 data-end=\"2497\" data-start=\"2469\"><strong data-end=\"2497\" data-start=\"2473\">Working of <code data-end=\"2494\" data-start=\"2486\">fork()</code>:</strong></h3>\n\n<ul data-end=\"2645\" data-start=\"2498\">\n\t<li data-end=\"2539\" data-start=\"2498\">\n\t<p data-end=\"2539\" data-start=\"2500\">Returns <strong data-end=\"2513\" data-start=\"2508\">0</strong> to the <strong data-end=\"2530\" data-start=\"2521\">child</strong> process.</p>\n\t</li>\n\t<li data-end=\"2601\" data-start=\"2540\">\n\t<p data-end=\"2601\" data-start=\"2542\">Returns the <strong data-end=\"2574\" data-start=\"2554\">PID of the child</strong> to the <strong data-end=\"2592\" data-start=\"2582\">parent</strong> process.</p>\n\t</li>\n\t<li data-end=\"2645\" data-start=\"2602\">\n\t<p data-end=\"2645\" data-start=\"2604\">Returns <strong data-end=\"2618\" data-start=\"2612\">-1</strong> if process creation fails.</p>\n\t</li>\n</ul>\n\n<pre data-end=\"2801\" data-start=\"2647\">\n\n&nbsp;</pre>\n\n<p><code>pid_t pid = fork(); if (pid == 0) { // Child process } else if (pid &gt; 0) { // Parent process } else { // Error in creating process } </code></p>\n\n<h3 data-end=\"2827\" data-start=\"2808\"><strong data-end=\"2825\" data-start=\"2812\">getpid():</strong></h3>\n\n<p data-end=\"2945\" data-start=\"2828\">This function returns the <strong data-end=\"2868\" data-start=\"2854\">Process ID</strong> of the current process. It is useful for identifying and managing processes.</p>\n\n<pre data-end=\"2992\" data-start=\"2947\">\n<code>printf(&quot;Child PID: %d\\n&quot;, getpid()); </code></pre>\n\n<h3 data-end=\"3019\" data-start=\"2999\"><strong data-end=\"3017\" data-start=\"3003\">getppid():</strong></h3>\n\n<p data-end=\"3107\" data-start=\"3020\">Returns the <strong data-end=\"3053\" data-start=\"3032\">Parent Process ID</strong>. Useful for checking who created the current process.</p>\n\n<pre data-end=\"3159\" data-start=\"3109\">\n<code>printf(&quot;My Parent PID: %d\\n&quot;, getppid()); </code></pre>\n\n<h3 data-end=\"3183\" data-start=\"3166\"><strong data-end=\"3181\" data-start=\"3170\">wait():</strong></h3>\n\n<p data-end=\"3313\" data-start=\"3184\">The <code data-end=\"3196\" data-start=\"3188\">wait()</code> system call makes the <strong data-end=\"3234\" data-start=\"3219\">parent wait</strong> until the child process <strong data-end=\"3273\" data-start=\"3259\">terminates</strong>, helping to avoid <strong data-end=\"3312\" data-start=\"3292\">zombie processes</strong>.</p>\n\n<pre data-end=\"3371\" data-start=\"3315\">\n<code>wait(NULL); // Waits for any child to terminate </code></pre>\n\n<h3 data-end=\"3399\" data-start=\"3378\"><strong data-end=\"3399\" data-start=\"3382\">Example Code:</strong></h3>\n\n<pre data-end=\"3847\" data-start=\"3401\">\n\n&nbsp;</pre>\n\n<p><code>#include &lt;stdio.h&gt; #include &lt;unistd.h&gt; #include &lt;sys/wait.h&gt; int main() { pid_t pid = fork(); if (pid == 0) { // Child process printf(&quot;Child Process: PID = %d, PPID = %d\\n&quot;, getpid(), getppid()); } else if (pid &gt; 0) { // Parent process wait(NULL); // Wait for child printf(&quot;Parent Process: PID = %d\\n&quot;, getpid()); } else { printf(&quot;Fork failed!\\n&quot;); } return 0; } </code></p>\n\n<h3 data-end=\"3873\" data-start=\"3854\"><strong data-end=\"3873\" data-start=\"3858\">Conclusion:</strong></h3>\n\n<ul data-end=\"4138\" data-start=\"3875\">\n\t<li data-end=\"3916\" data-start=\"3875\">\n\t<p data-end=\"3916\" data-start=\"3877\"><code data-end=\"3885\" data-start=\"3877\">fork()</code> is key for process creation.</p>\n\t</li>\n\t<li data-end=\"3976\" data-start=\"3917\">\n\t<p data-end=\"3976\" data-start=\"3919\"><code data-end=\"3929\" data-start=\"3919\">getpid()</code> and <code data-end=\"3945\" data-start=\"3934\">getppid()</code> help track process identity.</p>\n\t</li>\n\t<li data-end=\"4138\" data-start=\"3977\">\n\t<p data-end=\"4138\" data-start=\"3979\"><code data-end=\"3987\" data-start=\"3979\">wait()</code> ensures the parent waits for its child, preventing resource leaks.<br data-end=\"4057\" data-start=\"4054\" />\n\tThese functions form the <strong data-end=\"4115\" data-start=\"4082\">foundation of process control</strong> in Unix/Linux systems.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2209\" data-start=\"2047\">Explain how process creation is done using <code data-end=\"2100\" data-start=\"2092\">fork()</code> in Unix/Linux systems. Describe the role of <code data-end=\"2155\" data-start=\"2145\">getpid()</code>, <code data-end=\"2168\" data-start=\"2157\">getppid()</code>, and <code data-end=\"2182\" data-start=\"2174\">wait()</code> functions with examples.</strong></p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "lq",
+   "key": 18097
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 36748,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Because humans control technology</p>\n",
+   "OPT_2": "<p>Because human beings are the foundation for understanding harmony in self, society, nature, and existence</p>\n",
+   "OPT_3": "<p>Because humans are physically strong</p>\n",
+   "OPT_4": "<p>Because humans consume resources</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is understanding the human being considered the first step in this course?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 36748
+  },
+  {
+   "_id": 36749,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Only physical body functions</p>\n",
+   "OPT_2": "<p>Only self (consciousness)</p>\n",
+   "OPT_3": "<p>Both self (knower, experiencer, doer) and body (instrument) in coexistence</p>\n",
+   "OPT_4": "<p>Only environment</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>A comprehensive understanding of the human being requires studying:</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 36749
+  },
+  {
+   "_id": 36750,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Circulation of blood</p>\n",
+   "OPT_2": "<p>Desires, thoughts, and expectations</p>\n",
+   "OPT_3": "<p>Physical growth</p>\n",
+   "OPT_4": "<p>Reflex actions</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The self in a human being is primarily responsible for:</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 36750
+  },
+  {
+   "_id": 36751,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Emotions and values</p>\n",
+   "OPT_2": "<p>Physiological functions and physical activities</p>\n",
+   "OPT_3": "<p>Decision-making</p>\n",
+   "OPT_4": "<p>Understanding coexistence</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The body in a human being is primarily responsible for:</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 36751
+  },
+  {
+   "_id": 36752,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>It helps maintain only physical health</p>\n",
+   "OPT_2": "<p>It helps in realizing desires, intentions, and guiding proper conduct</p>\n",
+   "OPT_3": "<p>It increases competition</p>\n",
+   "OPT_4": "<p>It reduces bodily needs</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is self-awareness important in understanding the human being?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 36752
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36343,
+   "ANSWER": "<p data-end=\"1190\" data-start=\"1035\">It enables clarity of purpose, responsible choices, and ethical actions, thereby reducing conflicts and contradictions in life.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How does comprehensive self-understanding influence decision-making?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "sq",
+   "key": 36343
+  },
+  {
+   "_id": 36344,
+   "ANSWER": "<p data-end=\"1190\" data-start=\"1035\">The core theme is to explore and develop the <strong data-end=\"1153\" data-start=\"1111\">right understanding of the human being</strong>, which helps in achieving harmony at all levels of existence.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is the core theme of this course on Human Values?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "sq",
+   "key": 36344
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122504,
+   "ANSWER": "<p>Trust means the assurance that the other person wants to make me happy and prosperous. In relationship, trust is foundational because without trust, other feelings like respect, affection, care and guidance cannot be properly established. In UHV, trust is explored by distinguishing between <strong data-end=\"1629\" data-start=\"1616\">intention</strong> and <strong data-end=\"1648\" data-start=\"1634\">competence</strong>. At the level of natural acceptance, every human being wants to make oneself happy and also wants to make the other happy. The problem usually lies in competence, not in intention. However, when the other makes a mistake, we often doubt the other&rsquo;s intention and create opposition, irritation or anger. But when we make a mistake, we usually see it as lack of competence. Right understanding helps us see that the intention of the other is also naturally acceptable, while competence may need improvement. This assurance about intention is trust, and it leads to mutual happiness in relationship.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Explain trust as the foundational value in relationship.</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "lq",
+   "key": 122504
+  }
+ ]
+}

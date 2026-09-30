@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 27609,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Aptos&quot;,sans-serif\">1000 (Decimal -0)</span></span></span></b></p>\n",
+   "OPT_2": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Aptos&quot;,sans-serif\">0010 (Decimal +2)</span></span></span></b></p>\n",
+   "OPT_3": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Aptos&quot;,sans-serif\">1100 (Decimal -4)</span></span></span></b><br />\n&nbsp;</p>\n",
+   "OPT_4": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Aptos&quot;,sans-serif\">0100 (Decimal +4)</span></span></span></b></p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Aptos&quot;,sans-serif\">Add (+6) and (-2) using 4-bit sign-magnitude. What is the result?</span></span></span></b></p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 27609
+  },
+  {
+   "_id": 27610,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1001 (Decimal -1)</p>\n",
+   "OPT_2": "<p>1111 (Overflow)</p>\n",
+   "OPT_3": "<p>1011 (Decimal -7)</p>\n",
+   "OPT_4": "<p>0011 (Decimal +3)</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Add (-4) and (-3) in 4-bit sign-magnitude. What is the result?</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 27610
+  },
+  {
+   "_id": 27611,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>0001</p>\n",
+   "OPT_2": "<p>1000</p>\n",
+   "OPT_3": "<p>1111</p>\n",
+   "OPT_4": "<p>0111</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Add (-4) and (-3) in 4-bit sign-magnitude. What is the result?</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 27611
+  },
+  {
+   "_id": 27612,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>0000</p>\n",
+   "OPT_2": "<p>1111</p>\n",
+   "OPT_3": "<p>1000</p>\n",
+   "OPT_4": "<p>0110</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Add (-5) and (+5) using 4-bit sign-magnitude representation:</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 27612
+  },
+  {
+   "_id": 27613,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1100</p>\n",
+   "OPT_2": "<p>1110</p>\n",
+   "OPT_3": "<p>1010</p>\n",
+   "OPT_4": "<p>1111</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Add (-6) and (-2) using 4-bit sign-magnitude representation:</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 27613
+  }
+ ],
+ "sq": [
+  {
+   "_id": 27593,
+   "ANSWER": "<p data-end=\"255\" data-start=\"212\">+5 in binary = 0101<br data-end=\"219\" data-start=\"216\" />\n-3 in binary = 1101 (2&rsquo;s complement of 0011)<br data-end=\"266\" data-start=\"263\" />\nAdd:</p>\n\n<p data-end=\"255\" data-start=\"212\">&nbsp; 0101 &nbsp;<br />\n+ 1101 &nbsp;<br />\n= 10010 &nbsp;<br />\nDiscard the carry (5th bit): result = 0010 = <strong data-end=\"359\" data-start=\"354\">2</strong></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Add the signed binary numbers (using 2&rsquo;s complement): +5 and -3</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "sq",
+   "key": 27593
+  },
+  {
+   "_id": 27594,
+   "ANSWER": "<p data-end=\"255\" data-start=\"212\">&ndash;6 in binary = 1010 (2&rsquo;s complement of 0110)<br data-end=\"560\" data-start=\"557\" />\n&ndash;5 in binary = 1011 (2&rsquo;s complement of 0101)<br data-end=\"607\" data-start=\"604\" />\nAdd:</p>\n\n<p data-end=\"255\" data-start=\"212\">&nbsp;</p>\n\n<p data-end=\"255\" data-start=\"212\">&nbsp; 1010 &nbsp;<br />\n+ 1011 &nbsp;<br />\n= 10101 &nbsp;<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Add the signed binary numbers &ndash;6 and &ndash;5 using 2&rsquo;s complement (4-bit representation).</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "sq",
+   "key": 27594
+  }
+ ],
+ "lq": [
+  {
+   "_id": 27598,
+   "ANSWER": "<p data-end=\"542\" data-start=\"369\"><strong data-end=\"395\" data-start=\"369\">Signed binary addition</strong> is used to add both positive and negative numbers in binary form. One common way to represent signed numbers in binary is <strong data-end=\"536\" data-start=\"518\">2&rsquo;s complement</strong> form.</p>\n\n<h4 data-end=\"579\" data-start=\"544\">\ud83e\udde0 <strong data-end=\"579\" data-start=\"552\">What is 2&rsquo;s Complement?</strong></h4>\n\n<p data-end=\"742\" data-start=\"580\">2&rsquo;s complement allows us to represent both positive and negative integers using binary. It simplifies subtraction and makes addition of signed numbers consistent.</p>\n\n<ul data-end=\"958\" data-start=\"744\">\n\t<li data-end=\"802\" data-start=\"744\">\n\t<p data-end=\"802\" data-start=\"746\"><strong data-end=\"766\" data-start=\"746\">Positive numbers</strong> are represented normally in binary.</p>\n\t</li>\n\t<li data-end=\"958\" data-start=\"803\">\n\t<p data-end=\"901\" data-start=\"805\"><strong data-end=\"825\" data-start=\"805\">Negative numbers</strong> are represented by taking the 2&rsquo;s complement of the positive binary number:</p>\n\n\t<ul data-end=\"958\" data-start=\"904\">\n\t\t<li data-end=\"934\" data-start=\"904\">\n\t\t<p data-end=\"934\" data-start=\"906\">1&rsquo;s complement (invert bits)</p>\n\t\t</li>\n\t\t<li data-end=\"958\" data-start=\"937\">\n\t\t<p data-end=\"958\" data-start=\"939\">Add 1 to the result</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p data-end=\"496\" data-start=\"387\"><strong data-end=\"428\" data-start=\"387\">Binary of +78 (8-bit 2&rsquo;s complement):</strong> <code data-end=\"439\" data-start=\"429\">01001110</code><br data-end=\"442\" data-start=\"439\" />\n<strong data-end=\"483\" data-start=\"442\">Binary of &ndash;45 (8-bit 2&rsquo;s complement):</strong> <code data-end=\"494\" data-start=\"484\">11010011</code></p>\n\n<p data-end=\"577\" data-start=\"498\"><strong data-end=\"533\" data-start=\"498\">Binary Addition Result (8-bit):</strong> <code data-end=\"544\" data-start=\"534\">00100001</code><br data-end=\"547\" data-start=\"544\" />\n<strong data-end=\"570\" data-start=\"547\">Decimal Equivalent:</strong> <code data-end=\"575\" data-start=\"571\">33</code></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain how signed binary numbers are added using 2&rsquo;s complement method. Illustrate the process with a complete example: Add +78 and &ndash;45 using 8-bit signed binary representation. Show all steps including conversion, binary addition, and final interpretation.**</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "lq",
+   "key": 27598
+  }
+ ]
+}

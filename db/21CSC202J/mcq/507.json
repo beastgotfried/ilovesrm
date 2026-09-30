@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 13226,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>System availability</p>\n",
+   "OPT_2": "<p>Authentication only</p>\n",
+   "OPT_3": "<p>Data confidentiality and integrity</p>\n",
+   "OPT_4": "<p>Hardware performance</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which main security service does cryptography provide?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 13226
+  },
+  {
+   "_id": 13227,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Asymmetric encryption</p>\n",
+   "OPT_2": "<p>Public key encryption</p>\n",
+   "OPT_3": "<p>Symmetric encryption</p>\n",
+   "OPT_4": "<p>Hashing</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which cryptographic technique uses a <strong data-end=\"592\" data-start=\"578\">single key</strong> for both encryption and decryption?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 13227
+  },
+  {
+   "_id": 13228,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>Paging</p>\n",
+   "OPT_2": "<p>Context switching</p>\n",
+   "OPT_3": "<p>File encryption and secure email</p>\n",
+   "OPT_4": "<p>Disk scheduling</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is an example of cryptography in everyday OS use?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 13228
+  },
+  {
+   "_id": 13229,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>To allocate RAM</p>\n",
+   "OPT_2": "<p>To verify the identity of a user or process</p>\n",
+   "OPT_3": "<p>To manage files</p>\n",
+   "OPT_4": "<p>To switch processes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the <strong data-end=\"1576\" data-start=\"1557\">primary purpose</strong> of user authentication?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 13229
+  },
+  {
+   "_id": 13230,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>At the hardware layer only</p>\n",
+   "OPT_2": "<p>In the file system only</p>\n",
+   "OPT_3": "<p>As part of system security services</p>\n",
+   "OPT_4": "<p>Only in the kernel scheduler</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Where is authentication handled in an OS?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 13230
+  }
+ ],
+ "sq": [
+  {
+   "_id": 13252,
+   "ANSWER": "<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p data-end=\"2125\" data-start=\"1833\">&nbsp;</p>\n\n<ul data-end=\"1625\" data-start=\"1403\">\n\t<li data-end=\"2937\" data-start=\"2832\">\n\t<p data-end=\"2937\" data-start=\"2834\">User enters a password &rarr; OS hashes it &rarr; compares it with stored hash &rarr; grants access if match is valid; ensures only authenticated users gain system access.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain the <strong data-end=\"3438\" data-start=\"3394\">working of password-based authentication</strong> in an OS.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 13252
+  },
+  {
+   "_id": 13256,
+   "ANSWER": "<ul data-end=\"1625\" data-start=\"1403\">\n\t<li data-end=\"2937\" data-start=\"2832\">\n\t<p data-end=\"2937\" data-start=\"2834\"><strong data-end=\"2859\" data-start=\"2834\">Symmetric encryption:</strong> Same key for encryption &amp; decryption; faster but needs secure key exchange.</p>\n\t</li>\n\t<li data-end=\"3074\" data-start=\"2938\">\n\t<p data-end=\"3074\" data-start=\"2940\"><strong data-end=\"2966\" data-start=\"2940\">Asymmetric encryption:</strong> Uses a public key for encryption and a private key for decryption; more secure for key exchange but slower.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is the difference between <strong data-end=\"2812\" data-start=\"2773\">symmetric and asymmetric encryption</strong>?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 13256
+  }
+ ],
+ "lq": [
+  {
+   "_id": 13260,
+   "ANSWER": "<p data-end=\"8111\" data-start=\"7758\"><strong data-end=\"7771\" data-start=\"7760\">Answer Key:</strong></p>\n\n<ol data-end=\"2831\" data-start=\"2257\">\n\t<li data-end=\"2335\" data-start=\"2184\">\n\t<p data-end=\"4295\" data-start=\"4063\"><strong data-end=\"4095\" data-start=\"4079\">Cryptography</strong> encrypts files, network data, and system credentials to ensure data confidentiality and integrity. For example, Linux uses LUKS for full disk encryption; SSH uses encryption for secure remote logins.</p>\n\t</li>\n\t<li data-end=\"2335\" data-start=\"2184\">\n\t<p data-end=\"4295\" data-start=\"4063\"><strong data-end=\"4320\" data-start=\"4297\">User authentication</strong> verifies user identity before granting system access. For instance, login credentials, biometric scanners, or smart cards prevent unauthorized logins.</p>\n\n\t<p data-end=\"4624\" data-start=\"4473\">Together, these mechanisms protect against data theft, unauthorized access, and ensure that only trusted users can access sensitive resources in an OS.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Describe how <strong data-end=\"4035\" data-start=\"3954\">cryptography and user authentication together help secure an operating system</strong>. Give practical examples.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "lq",
+   "key": 13260
+  }
+ ]
+}

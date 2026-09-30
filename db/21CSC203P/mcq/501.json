@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11290,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Algorithms</p>\n",
+   "OPT_2": "<p>Computations</p>\n",
+   "OPT_3": "<p>Data structures</p>\n",
+   "OPT_4": "<p>Programs</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Finite automata are used to model:</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 11290
+  },
+  {
+   "_id": 11293,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>DFA</p>\n",
+   "OPT_2": "<p>CFG</p>\n",
+   "OPT_3": "<p>PDA</p>\n",
+   "OPT_4": "<p>Turing Machine</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a type of finite automaton?</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 11293
+  },
+  {
+   "_id": 11296,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Dynamic Finite Automaton</p>\n",
+   "OPT_2": "<p>Deterministic Finite Automaton</p>\n",
+   "OPT_3": "<p>Dual Finite Automaton</p>\n",
+   "OPT_4": "<p>Defined Finite Automaton</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>DFA stands for:</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 11296
+  },
+  {
+   "_id": 11298,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>All strings of a&rsquo;s only</p>\n",
+   "OPT_2": "<p>All strings of b&rsquo;s only</p>\n",
+   "OPT_3": "<p>All combinations of a and b including empty string</p>\n",
+   "OPT_4": "<p>Only empty string</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><em data-end=\"1486\" data-start=\"1444\"><em data-end=\"1473\" data-start=\"1445\">A regular expression (a|b)</em> represents:</em>*</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 11298
+  },
+  {
+   "_id": 11299,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Transitions</p>\n",
+   "OPT_2": "<p>Configurations during computation</p>\n",
+   "OPT_3": "<p>Input symbols</p>\n",
+   "OPT_4": "<p>Output values</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2086\" data-start=\"2041\">In automata theory, states correspond to:</strong></p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 11299
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11392,
+   "ANSWER": "<p>Finite automata is a mathematical model of computation that consists of states and transitions, used to recognize patterns in input strings.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is finite automata?</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 11392
+  },
+  {
+   "_id": 11393,
+   "ANSWER": "<p>Deterministic Finite Automata (DFA) and Non-Deterministic Finite Automata (NFA).</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Name two types of finite automata.</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 11393
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11416,
+   "ANSWER": "<p data-end=\"427\" data-start=\"333\">To recognize binary strings ending in &lsquo;01&rsquo;, we can define a DFA with 3 states:</p>\n\n<ul data-end=\"516\" data-start=\"428\">\n\t<li data-end=\"447\" data-start=\"428\">\n\t<p data-end=\"447\" data-start=\"430\">q0: Start state</p>\n\t</li>\n\t<li data-end=\"472\" data-start=\"448\">\n\t<p data-end=\"472\" data-start=\"450\">q1: After seeing &lsquo;0&rsquo;</p>\n\t</li>\n\t<li data-end=\"516\" data-start=\"473\">\n\t<p data-end=\"516\" data-start=\"475\">q2: After seeing &lsquo;01&rsquo; (accepting state)</p>\n\t</li>\n</ul>\n\n<p data-end=\"528\" data-start=\"518\"><strong data-end=\"526\" data-start=\"518\">DFA:</strong></p>\n\n<ul data-end=\"636\" data-start=\"529\">\n\t<li data-end=\"546\" data-start=\"529\">\n\t<p data-end=\"546\" data-start=\"531\">&delta;(q0, 0) = q1</p>\n\t</li>\n\t<li data-end=\"564\" data-start=\"547\">\n\t<p data-end=\"564\" data-start=\"549\">&delta;(q0, 1) = q0</p>\n\t</li>\n\t<li data-end=\"582\" data-start=\"565\">\n\t<p data-end=\"582\" data-start=\"567\">&delta;(q1, 0) = q1</p>\n\t</li>\n\t<li data-end=\"600\" data-start=\"583\">\n\t<p data-end=\"600\" data-start=\"585\">&delta;(q1, 1) = q2</p>\n\t</li>\n\t<li data-end=\"618\" data-start=\"601\">\n\t<p data-end=\"618\" data-start=\"603\">&delta;(q2, 0) = q1</p>\n\t</li>\n\t<li data-end=\"636\" data-start=\"619\">\n\t<p data-end=\"636\" data-start=\"621\">&delta;(q2, 1) = q0</p>\n\t</li>\n</ul>\n\n<p data-end=\"663\" data-start=\"638\"><strong data-end=\"645\" data-start=\"638\">NFA</strong> can be simpler:</p>\n\n<ul data-end=\"735\" data-start=\"664\">\n\t<li data-end=\"679\" data-start=\"664\">\n\t<p data-end=\"679\" data-start=\"666\">Start at q0</p>\n\t</li>\n\t<li data-end=\"700\" data-start=\"680\">\n\t<p data-end=\"700\" data-start=\"682\">On 0, move to q1</p>\n\t</li>\n\t<li data-end=\"735\" data-start=\"701\">\n\t<p data-end=\"735\" data-start=\"703\">On 1 from q1, move to q2 (final)</p>\n\t</li>\n</ul>\n\n<p data-end=\"759\" data-start=\"737\"><strong data-end=\"757\" data-start=\"737\">NFA Transitions:</strong></p>\n\n<ul data-end=\"791\" data-start=\"760\">\n\t<li data-end=\"775\" data-start=\"760\">\n\t<p data-end=\"775\" data-start=\"762\">q0 &rarr; 0 &rarr; q1</p>\n\t</li>\n\t<li data-end=\"791\" data-start=\"776\">\n\t<p data-end=\"791\" data-start=\"778\">q1 &rarr; 1 &rarr; q2</p>\n\t</li>\n</ul>\n\n<p data-end=\"852\" data-start=\"793\">This demonstrates both automata modeling the same language.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Apply the concept of DFA and NFA to recognize the pattern of binary strings ending in &lsquo;01&rsquo;. Construct both DFA and NFA for the pattern.</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "lq",
+   "key": 11416
+  }
+ ]
+}

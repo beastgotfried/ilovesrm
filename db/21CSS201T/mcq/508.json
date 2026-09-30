@@ -1,0 +1,204 @@
+{
+ "mcq": [
+  {
+   "_id": 20741,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>System</p>\n",
+   "OPT_2": "<p>User</p>\n",
+   "OPT_3": "<p>IRQ</p>\n",
+   "OPT_4": "<p>Abort</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A developer wants to access full system resources without triggering a mode switch. Which mode should be used?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 20741
+  },
+  {
+   "_id": 20746,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Abort</p>\n",
+   "OPT_2": "<p>Undefined</p>\n",
+   "OPT_3": "<p>Supervisor</p>\n",
+   "OPT_4": "<p>IRQ</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In which mode does the ARM processor enter upon reset or system boot?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 20746
+  },
+  {
+   "_id": 20750,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Illegal instruction</p>\n",
+   "OPT_2": "<p>Data or prefetch memory fault</p>\n",
+   "OPT_3": "<p>Reset</p>\n",
+   "OPT_4": "<p>Interrupt request</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In ARM, what triggers Abort mode?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 20750
+  },
+  {
+   "_id": 20753,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Same stack pointer</p>\n",
+   "OPT_2": "<p>Dedicated program counter</p>\n",
+   "OPT_3": "<p>Separate banked registers for SP and LR</p>\n",
+   "OPT_4": "<p>Shared LR</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is a common feature among all ARM exception modes?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 20753
+  },
+  {
+   "_id": 20759,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>1 read, 1 write</p>\n",
+   "OPT_2": "<p>2 read, 1 write</p>\n",
+   "OPT_3": "<p>3 read, 2 write</p>\n",
+   "OPT_4": "<p>4 read, 1 write</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>How many read and write ports are typically found in a register file for a 3-stage RISC pipeline?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 20759
+  }
+ ],
+ "sq": [
+  {
+   "_id": 21679,
+   "ANSWER": "<p data-end=\"332\" data-start=\"184\"><strong data-end=\"197\" data-start=\"186\">Answer:</strong> A pipeline stall occurs when the next instruction cannot execute in the following clock cycle due to data dependency.<br data-end=\"318\" data-start=\"315\" />\n<strong data-end=\"330\" data-start=\"318\">Example:</strong></p>\n\n<pre data-end=\"373\" data-start=\"333\">\nasm\n</pre>\n\n<p><code>MOV R1, #5 ADD R2, R1, #1 </code></p>\n\n<p data-end=\"403\" data-start=\"374\">ADD must wait for R1&#39;s value.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Define pipeline stall with an example.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 21679
+  },
+  {
+   "_id": 21683,
+   "ANSWER": "<p data-end=\"613\" data-start=\"556\"><strong data-end=\"569\" data-start=\"556\">R13 (SP):</strong> Stack Pointer &ndash; used to manage the stack.</p>\n\n<p data-end=\"690\" data-start=\"616\"><strong data-end=\"629\" data-start=\"616\">R14 (LR):</strong> Link Register &ndash; stores return address during function calls.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What are the uses of R13 and R14 in ARM?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 21683
+  },
+  {
+   "_id": 21684,
+   "ANSWER": "<p data-end=\"613\" data-start=\"556\">The CONTROL register determines if the processor is in <strong data-end=\"940\" data-start=\"917\">Thread/Handler Mode</strong>, <strong data-end=\"969\" data-start=\"942\">privileged/unprivileged</strong>, and <strong data-end=\"1002\" data-start=\"975\">stack pointer selection</strong> (MSP/PSP).</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain how the CONTROL register affects privilege levels in Cortex-M.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 21684
+  },
+  {
+   "_id": 21686,
+   "ANSWER": "<p data-end=\"1256\" data-start=\"1171\"><strong data-end=\"1180\" data-start=\"1171\">CPSR:</strong> Current Program Status Register &ndash; contains condition flags and mode bits.</p>\n\n<p data-end=\"1331\" data-start=\"1259\"><strong data-end=\"1268\" data-start=\"1259\">SPSR:</strong> Saved Program Status Register &ndash; stores CPSR during exceptions.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is the purpose of CPSR and SPSR in ARM?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 21686
+  },
+  {
+   "_id": 21689,
+   "ANSWER": "<p data-end=\"1256\" data-start=\"1171\">Conditional execution (like <code data-end=\"1526\" data-start=\"1519\">ADDEQ</code>, <code data-end=\"1535\" data-start=\"1528\">SUBNE</code>) allows instructions to be executed based on the CPSR flags, reducing branch overhead.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Describe the role of conditional instructions in ARM.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 21689
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21709,
+   "ANSWER": "<p data-end=\"2891\" data-start=\"2855\">CMP R0, #0 &nbsp;<br />\nADDEQ R1, R1, R2 &nbsp;</p>\n\n<p data-end=\"2891\" data-start=\"2855\">Execution depends on Z flag in CPSR (set if R0 = 0)</p>\n\n<p data-end=\"2007\" data-start=\"1914\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2568\" data-start=\"2548\">Write an ARM program to test conditional execution. Explain with CPSR status bits.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "lq",
+   "key": 21709
+  },
+  {
+   "_id": 21711,
+   "ANSWER": "<p data-end=\"2891\" data-start=\"2855\">MOV R0, #5 &nbsp;<br />\nADD R1, R0, #1 &nbsp;<br />\nSTR R1, [R2]</p>\n\n<p data-end=\"2007\" data-start=\"1914\">Explanation: Shows how instructions are fetched, decoded, and executed in overlapping cycles.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2568\" data-start=\"2548\">Write and explain an ARM assembly program that demonstrates pipeline overlap</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "lq",
+   "key": 21711
+  },
+  {
+   "_id": 21723,
+   "ANSWER": "<ul>\n\t<li data-end=\"2568\" data-start=\"2546\">\n\t<p data-end=\"2568\" data-start=\"2548\">Start in User Mode</p>\n\t</li>\n\t<li data-end=\"2602\" data-start=\"2569\">\n\t<p data-end=\"2602\" data-start=\"2571\">Use <code data-end=\"2580\" data-start=\"2575\">SWI</code> to enter Supervisor</p>\n\t</li>\n\t<li data-end=\"2633\" data-start=\"2603\">\n\t<p data-end=\"2633\" data-start=\"2605\">Access SPSR_svc and SP_svc</p>\n\t</li>\n\t<li data-end=\"2673\" data-start=\"2634\">\n\t<p data-end=\"2673\" data-start=\"2636\">Return using exception return logic</p>\n\t</li>\n</ul>\n\n<p data-end=\"2007\" data-start=\"1914\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2568\" data-start=\"2548\">Simulate a mode switch from User to Supervisor and back using SWI. Explain the steps.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "lq",
+   "key": 21723
+  }
+ ]
+}

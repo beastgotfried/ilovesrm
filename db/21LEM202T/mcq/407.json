@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36846,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Respiration</p>\n",
+   "OPT_2": "<p>Realization, understanding, contemplation</p>\n",
+   "OPT_3": "<p>Digestion</p>\n",
+   "OPT_4": "<p>Circulation of blood</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is an activity of the Self?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 36846
+  },
+  {
+   "_id": 36847,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Observing body functions</p>\n",
+   "OPT_2": "<p>Directly experiencing the reality of coexistence in existence</p>\n",
+   "OPT_3": "<p>Memorizing facts</p>\n",
+   "OPT_4": "<p>Collecting external resources</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Realization in the Self primarily refers to:</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 36847
+  },
+  {
+   "_id": 36848,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Awareness of physiological processes</p>\n",
+   "OPT_2": "<p>Clarity about harmony in nature and its interconnectedness</p>\n",
+   "OPT_3": "<p>Collecting information only</p>\n",
+   "OPT_4": "<p>Copying ideas from others</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Understanding in the Self means</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 36848
+  },
+  {
+   "_id": 36849,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Participation of human beings in harmony/order with existence</p>\n",
+   "OPT_2": "<p>Building physical strength</p>\n",
+   "OPT_3": "<p>Observing external appearances</p>\n",
+   "OPT_4": "<p>Material accumulation</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Contemplation in the Self refers to:</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 36849
+  },
+  {
+   "_id": 36850,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Conflict in society</p>\n",
+   "OPT_2": "<p>Clarity that nothing exists in isolation, but in relationship</p>\n",
+   "OPT_3": "<p>Exploitation of nature</p>\n",
+   "OPT_4": "<p>Separation from others</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What does realization of coexistence lead to?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 36850
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36459,
+   "ANSWER": "<p>The three activities are <strong data-end=\"282\" data-start=\"267\">Realization</strong>, <strong data-end=\"301\" data-start=\"284\">Understanding</strong>, and <strong data-end=\"324\" data-start=\"307\">Contemplation</strong>.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What are the three key awakening activities of the self?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 36459
+  },
+  {
+   "_id": 36460,
+   "ANSWER": "<p>Realization means becoming aware of the reality of existence, especially the co-existence of all entities (living and non-living).</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What does realization in the self mean?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 36460
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122519,
+   "ANSWER": "<p>Practice Session 10 helps us understand that many present-day problems are connected with the lack of right understanding in human conduct. Environmental breakdown, climate change, water insecurity, food insecurity, excessive consumption and resource depletion are not merely technical problems. They are also connected with greed, accumulation, profit obsession and wrong assumptions about development. The session shows that human beings have often disturbed the balance in nature by overusing resources and ignoring mutual fulfilment. The main learning is that the solution must begin with right understanding. Human beings must move from exploitation of nature to preservation, protection, enrichment and right utilisation of nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is the main learning from Practice Session 10 related to nature and present-day problems?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "lq",
+   "key": 122519
+  }
+ ]
+}

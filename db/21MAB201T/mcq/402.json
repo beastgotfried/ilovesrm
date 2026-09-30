@@ -1,0 +1,175 @@
+{
+ "mcq": [
+  {
+   "_id": 52738,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(i^n F(s)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\((-i)^n \\frac{d^n}{ds^n} F(s)\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{d^n}{dx^n}F(s)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\((-1)^nF(s)\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>If&nbsp;<span class=\"math-tex\">\\(F{f(x)}=F(s)\\)</span>, then the Fourier transform of&nbsp;<span class=\"math-tex\">\\(x^n f(x)\\)</span> is</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 52738
+  },
+  {
+   "_id": 52739,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(isF(s)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(-isF(s)\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(F(s)^2\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\dfrac{F(s)}{is}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>If&nbsp;<span class=\"math-tex\">\\(f(x) \\to 0\\)</span>&nbsp;as&nbsp;<span class=\"math-tex\">\\(x \\to \\pm\\infty\\)</span>, then&nbsp;<span class=\"math-tex\">\\(\nF\\{ f'(x) \\} = \n\\)</span></p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 52739
+  },
+  {
+   "_id": 52741,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(f(x)g(x)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\int_{0}^{x} f(t)g(t)\\, dt\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\dfrac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t)g(x-t)\\, dt\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\int_{-\\infty}^{\\infty} f(x-t)g(t)\\, dx\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The convolution of two functions&nbsp;<span class=\"math-tex\">\\(f(x)\\)</span>&nbsp;and&nbsp;<span class=\"math-tex\">\\(g(x)\\)</span> is defined as&nbsp;</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 52741
+  },
+  {
+   "_id": 52742,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>energy in time = energy in x-domain</p>\n",
+   "OPT_2": "<p>energy in frequency = energy in Fourier domain</p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\displaystyle \\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} |F(s)|^2 ds\\)</span></p>\n",
+   "OPT_4": "<p>Fourier transform preserves amplitude only</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Parseval&rsquo;s identity states that:</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 52742
+  },
+  {
+   "_id": 52744,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OPT_1": "<p><span class=\"math-tex\">\\(F(-S)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(F(s)^2\\)</span></p>\n",
+   "OPT_3": "<p>Complex conjugate of&nbsp;<span class=\"math-tex\">\\( F(s)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(0\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>If&nbsp;<span class=\"math-tex\">\\(F\\{f(x)\\} = F(s)\\)</span>, then&nbsp;<span class=\"math-tex\">\\(F\\{f(-x)\\}\\)</span>&nbsp;equals</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 52744
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52745,
+   "ANSWER": "<p><span class=\"math-tex\">\\(\\dfrac{F(s)}{-is}\\)</span></p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The Fourier transform of&nbsp;<span class=\"math-tex\">\\(\\displaystyle \\int_{a}^{x} f(t)\\, dt\\)</span>&nbsp;is&nbsp;</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 52745
+  },
+  {
+   "_id": 52746,
+   "ANSWER": "<p><span class=\"math-tex\">\\(F(s)G(s)\\)</span></p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The Fourier transform of convolution&nbsp;<span class=\"math-tex\">\\(f *g\\)</span>&nbsp;equals&nbsp;</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 52746
+  },
+  {
+   "_id": 52801,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} e^{-a|x|} e^{i s x} dx\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{\\sqrt{2\\pi}} \\left[ \\int_{-\\infty}^{0} e^{a x} e^{i s x} dx + \\int_{0}^{\\infty} e^{-a x} e^{i s x} dx \\right]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{\\sqrt{2\\pi}} \\left[ \\int_{-\\infty}^{0} e^{(a+ i s)x} dx + \\int_{0}^{\\infty} e^{-(a - i s)x} dx \\right]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{\\sqrt{2\\pi}} \\left[ \\frac{1}{a+ i s} + \\frac{1}{a - i s} \\right]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{a}{a^2 + s^2}\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier transform of } f(x) = e^{-a|x|}, a>0.\\)</span></p>",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 52801
+  },
+  {
+   "_id": 52802,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-a}^{a} 1 \\cdot e^{i s x} dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{\\sqrt{2\\pi}} \\left[ \\frac{e^{i s x}}{i s} \\right]_{-a}^{a}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{e^{i s a} - e^{-i s a}}{i s}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{\\sin(a s)}{s}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier transform of } f(x) = \\begin{cases} 1 & |x| < a \\\\ 0 & |x| > a \\end{cases}.\\)</span></p>",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 52802
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50674,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>\\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) e^{isx} dx = \\frac{1}{\\sqrt{2\\pi}} \\int_{-a}^{a} e^{isx} dx\\)</td><td>(2)</td></tr><tr><td>\\(= \\frac{1}{\\sqrt{2\\pi}} \\left[ \\frac{e^{isx}}{is} \\right]_{-a}^{a} = \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{e^{isa} - e^{-isa}}{is}\\)</td><td>(3)</td></tr><tr><td>\\(= \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{2i \\sin(as)}{is} = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{\\sin(as)}{s}\\)</td><td>(3)</td></tr><tr><td>For \\(s = 0\\): \\(F(0) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-a}^{a} dx = \\frac{2a}{\\sqrt{2\\pi}} = \\sqrt{\\frac{2}{\\pi}} a\\)</td><td>(2)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier transform of } f(x) = \\begin{cases} 1 & |x| \\leq a \\\\ 0 & |x| > a \\end{cases}.\\)</span></p>",
+   "SESSION_ID": 402,
+   "TYPE": "lq",
+   "key": 50674
+  },
+  {
+   "_id": 50675,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>\\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} e^{-a|x|} e^{isx} dx = \\frac{1}{\\sqrt{2\\pi}} \\left[ \\int_{-\\infty}^{0} e^{ax} e^{isx} dx + \\int_{0}^{\\infty} e^{-ax} e^{isx} dx \\right]\\)</td><td>(2)</td></tr><tr><td>First integral: \\(\\int_{-\\infty}^{0} e^{(a+is)x} dx = \\left[ \\frac{e^{(a+is)x}}{a+is} \\right]_{-\\infty}^{0} = \\frac{1}{a+is}\\)</td><td>(3)</td></tr><tr><td>Second integral: \\(\\int_{0}^{\\infty} e^{-(a-is)x} dx = \\left[ \\frac{e^{-(a-is)x}}{-(a-is)} \\right]_{0}^{\\infty} = \\frac{1}{a-is}\\)</td><td>(3)</td></tr><tr><td>\\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\left[ \\frac{1}{a+is} + \\frac{1}{a-is} \\right] = \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{2a}{a^2 + s^2}\\)</td><td>(3)</td></tr><tr><td>\\(= \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{a}{a^2 + s^2}\\)</td><td>(2)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier transform of } f(x) = e^{-a|x|} \\text{ where } a>0.\\)</span></p>",
+   "SESSION_ID": 402,
+   "TYPE": "lq",
+   "key": 50675
+  }
+ ]
+}

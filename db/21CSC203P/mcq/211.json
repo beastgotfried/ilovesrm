@@ -1,0 +1,163 @@
+{
+ "mcq": [
+  {
+   "_id": 11954,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "implements",
+   "OPT_2": "extends",
+   "OPT_3": "interface",
+   "OPT_4": "abstract",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which keyword is used in Java to create an interface?",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 11954
+  },
+  {
+   "_id": 11955,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "private",
+   "OPT_2": "protected",
+   "OPT_3": "final and static",
+   "OPT_4": "public and abstract",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is the default modifier for interface methods in Java (Java 8 and below)?",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 11955
+  },
+  {
+   "_id": 11956,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Interfaces can have constructors\n",
+   "OPT_2": "A class can implement multiple interfaces",
+   "OPT_3": "Interfaces support method overloading but not overriding",
+   "OPT_4": "Interfaces cannot have any variables",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following statements is true about interfaces in Java?",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 11956
+  },
+  {
+   "_id": 11957,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "It marks a class with metadata but contains no methods",
+   "OPT_2": "It forces a class to implement all methods",
+   "OPT_3": "It allows multiple inheritance",
+   "OPT_4": "It helps with garbage collection",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is the purpose of a tagging interface in Java?",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 11957
+  },
+  {
+   "_id": 11958,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "interface A implements B {}",
+   "OPT_2": "class A extends B {}",
+   "OPT_3": "interface A extends B {}",
+   "OPT_4": "interface A inherits B {}",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following shows interface extension correctly in Java?",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 11958
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11984,
+   "ANSWER": "Interface: All methods are abstract by default (until Java 8), cannot have instance variables, supports multiple inheritance.\nAbstract class: Can have both abstract and concrete methods, can include constructors, and support single inheritance.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Differentiate between an interface and an abstract class in Java.",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 11984
+  },
+  {
+   "_id": 11985,
+   "ANSWER": "interface Drawable {\n    void draw();\n}\nclass Circle implements Drawable {\n    public void draw() {\n        System.out.println(\"Drawing a circle\");\n    }\n}\nThe class Circle provides the concrete implementation of the draw() method defined in the interface Drawable.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a simple Java interface and a class that implements it.",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 11985
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11998,
+   "ANSWER": "Java Code:\n// Main interface\ninterface FileHandler {\n    void open();\n    void close();\n}\n// Tagging interface\ninterface Secure {}\n// PDF class\nclass PDFFile implements FileHandler, Secure {\n    public void open() {\n        System.out.println(\"Opening PDF file\");\n    }\n    public void close() {\n        System.out.println(\"Closing PDF file\");\n    }\n}\n// Word class\nclass WordFile implements FileHandler {\n    public void open() {\n        System.out.println(\"Opening Word file\");\n    }\n    public void close() {\n        System.out.println(\"Closing Word file\");\n    }\n}\nExplanation:\nFileHandler is an interface that defines the abstraction for common file operations (open() and close()). Secure is a tagging interface\ufffdit has no methods but acts as a marker. PDFFile implements both interfaces. We can later use instanceof checks to identify secure classes:\nif (file instanceof Secure) {\n    System.out.println(\"Security checks enabled.\");\n}\nBenefits:\nAbstraction: Interfaces let you define what operations must be implemented, not how.\nMultiple inheritance: Java allows classes to implement multiple interfaces.\nTagging: Marker interfaces like Secure enable metadata tagging without altering logic.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You're creating a file handling system where different file types (PDF, Word, Excel) need to support common operations like open() and close(). Additionally, some classes should be marked as \"Secure\" but without enforcing any methods.\nDesign a solution using interfaces, including one tagging interface, and explain how abstraction and tagging are achieved through this approach.",
+   "SESSION_ID": 211,
+   "TYPE": "lq",
+   "key": 11998
+  },
+  {
+   "_id": 12010,
+   "ANSWER": "Java Code:\n// Main interface\ninterface FileHandler {\n    void open();\n    void close();\n}\n// Tagging interface\ninterface Secure {}\n// PDF class\nclass PDFFile implements FileHandler, Secure {\n    public void open() {\n        System.out.println(\"Opening PDF file\");\n    }\n    public void close() {\n        System.out.println(\"Closing PDF file\");\n    }\n}\n// Word class\nclass WordFile implements FileHandler {\n    public void open() {\n        System.out.println(\"Opening Word file\");\n    }\n    public void close() {\n        System.out.println(\"Closing Word file\");\n    }\n}\nExplanation:\nFileHandler is an interface that defines the abstraction for common file operations (open() and close()). Secure is a tagging interface\ufffdit has no methods but acts as a marker. PDFFile implements both interfaces. We can later use instanceof checks to identify secure classes:\nif (file instanceof Secure) {\n    System.out.println(\"Security checks enabled.\");\n}\nBenefits:\nAbstraction: Interfaces let you define what operations must be implemented, not how.\nMultiple inheritance: Java allows classes to implement multiple interfaces.\nTagging: Marker interfaces like Secure enable metadata tagging without altering logic.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You're creating a file handling system where different file types (PDF, Word, Excel) need to support common operations like open() and close(). Additionally, some classes should be marked as \"Secure\" but without enforcing any methods.\nDesign a solution using interfaces, including one tagging interface, and explain how abstraction and tagging are achieved through this approach.",
+   "SESSION_ID": 211,
+   "TYPE": "lq",
+   "key": 12010
+  }
+ ]
+}

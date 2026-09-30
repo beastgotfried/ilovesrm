@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 36786,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Giving it nutrition</p>\n",
+   "OPT_2": "<p>Guiding it through desires, thoughts, and decisions</p>\n",
+   "OPT_3": "<p>Maintaining metabolism</p>\n",
+   "OPT_4": "<p>Performing reflexes</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The Self directs the body by:</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 36786
+  },
+  {
+   "_id": 36788,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Exploitation of resources</p>\n",
+   "OPT_2": "<p>Self-exploration, awareness, and right understanding</p>\n",
+   "OPT_3": "<p>Blind competition</p>\n",
+   "OPT_4": "<p>Focus on body fitness alone</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The potential of the Self can be fully realized through:</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 36788
+  },
+  {
+   "_id": 36789,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Knowing and understanding</p>\n",
+   "OPT_2": "<p>Imagining and desiring</p>\n",
+   "OPT_3": "<p>Digesting and metabolizing</p>\n",
+   "OPT_4": "<p>Analyzing and deciding</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT an activity of the Self?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 36789
+  },
+  {
+   "_id": 36790,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Independent of the Self</p>\n",
+   "OPT_2": "<p>Temporary and require rest or breaks</p>\n",
+   "OPT_3": "<p>Non-existent</p>\n",
+   "OPT_4": "<p>Eternal</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The activities of the Self are continuous, whereas the activities of the body are:</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 36790
+  },
+  {
+   "_id": 36792,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To design user-friendly and ethical technologies</p>\n",
+   "OPT_2": "<p>To improve body metabolism</p>\n",
+   "OPT_3": "<p>To compete without values</p>\n",
+   "OPT_4": "<p>To ignore social and ecological concerns</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is it important for engineers to understand the potentialities of the Self?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 36792
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36422,
+   "ANSWER": "<p>The potentialities of the self include the ability to gain right understanding, ensure harmony within, live with ethical conduct, and evolve towards happiness and mutual coexistence.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What are the potentialities of the self?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "sq",
+   "key": 36422
+  },
+  {
+   "_id": 36423,
+   "ANSWER": "<p>It is important because it guides us toward <strong data-end=\"1060\" data-start=\"991\">self-development, responsible decision-making, and ethical living</strong>, which are essential for personal growth and professional practice.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why is understanding the activities and potentialities of the self important?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "sq",
+   "key": 36423
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122510,
+   "ANSWER": "<p>Practice Session 7 helps us reflect on whether human beings are playing their role properly in nature. The main learning is that nature already has an inherent order, and the role of human beings is to understand this harmony and live without violating it. Human participation should facilitate the activity, innateness and inheritance of all orders of nature. For the physical order, we must help maintain its constitution; for the bio order, we must support growth and protect seeds; for the animal order, we must ensure an environment for its body and breed; and for the human order, we must support right understanding, human education-sanskar, undivided society and universal human order. Environmental crisis shows that when human beings act without right understanding, they disturb harmony. Therefore, this session leads us to responsible participation in nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the main learning from Practice Session 7?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "lq",
+   "key": 122510
+  }
+ ]
+}

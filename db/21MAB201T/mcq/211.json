@@ -1,0 +1,182 @@
+{
+ "mcq": [
+  {
+   "_id": 49954,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Complete Fourier analysis</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Partial differential equations</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Complex analysis</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Numerical integration</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Which of the following combines Fourier series, half-range expansions, and Parseval's identity?</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 49954
+  },
+  {
+   "_id": 49955,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Harmonic analysis</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Direct integration</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Differentiation</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Taylor series expansion</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For a function given numerically, which technique would you use to find its frequency components?</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 49955
+  },
+  {
+   "_id": 49956,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Electrical engineering and signal processing</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Pure mathematics only</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Heat conduction problems</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Mechanical vibration analysis</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The complex form of Fourier series is particularly useful in:</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 49956
+  },
+  {
+   "_id": 49957,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">The desired boundary behavior</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">The complexity of the function</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">The period of the function</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">The smoothness of the function</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">When a function is defined on \\( (0, L) \\), the choice between sine and cosine series depends on:</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 49957
+  },
+  {
+   "_id": 49958,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Power or energy in signals</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Maximum values of functions</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Derivatives of functions</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Integrals of products</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Parseval's identity is especially useful for calculating:</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 49958
+  }
+ ],
+ "sq": [
+  {
+   "_id": 50057,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Half-range sine series: } b_n = \\frac{2}{\\pi}\\int_0^{\\pi} x \\sin nx dx = \\frac{2}{n}(-1)^{n+1}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Parseval: } \\frac{1}{\\pi}\\int_0^{\\pi} x^2 dx = \\frac{1}{2}\\sum_{n=1}^{\\infty} b_n^2\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{LHS: } \\frac{1}{\\pi} \\cdot \\frac{\\pi^3}{3} = \\frac{\\pi^2}{3}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{RHS: } \\frac{1}{2}\\sum_{n=1}^{\\infty} \\frac{4}{n^2} = 2\\sum_{n=1}^{\\infty} \\frac{1}{n^2} = 2 \\cdot \\frac{\\pi^2}{6} = \\frac{\\pi^2}{3}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Combine Fourier series, half-range series, Parseval: Given } f(x)=x \\text{ in } (0,\\pi), \\text{ find RMS value.}\\)</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 50057
+  },
+  {
+   "_id": 50058,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Compute } a_2 = \\frac{2}{6}\\sum y_i \\cos(2x_i), \\quad b_2 = \\frac{2}{6}\\sum y_i \\sin(2x_i)\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Use } x_i = 0, \\frac{\\pi}{3}, \\frac{2\\pi}{3}, \\pi, \\frac{4\\pi}{3}, \\frac{5\\pi}{3}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Compute } \\cos(2x_i): 1, -0.5, -0.5, 1, -0.5, -0.5\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Amplitude } A_2 = \\sqrt{a_2^2 + b_2^2}\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{From harmonic analysis table with 6 points, how would you find amplitude of second harmonic?}\\)</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 50058
+  },
+  {
+   "_id": 50060,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Total power = } \\frac{1}{2\\pi}\\int_0^{2\\pi} [f(x)]^2 dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By Parseval: } = \\frac{a_0^2}{4} + \\frac{1}{2}\\sum_{n=1}^{\\infty} (a_n^2 + b_n^2)\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Each term } \\frac{1}{2}(a_n^2 + b_n^2) \\text{ is power in nth harmonic}\\)</span></p></td><td>(3 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given Fourier series } f(x) = \\frac{a_0}{2} + \\sum (a_n \\cos nx + b_n \\sin nx), \\text{ find total power using Parseval.}\\)</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 50060
+  },
+  {
+   "_id": 50061,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Analytical: Exact integrals, for known functions}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Harmonic analysis: Approximate using numerical integration from data}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Harmonic analysis used when only discrete data available}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Accuracy depends on number of data points}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Compare analytical Fourier coefficients vs harmonic analysis coefficients.}\\)</span></p>",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 50061
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50087,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Period =4, so \\(l=2\\)</td><td>(1)</td></tr><tr><td>Since even, \\(b_n=0\\)</td><td>(1)</td></tr><tr><td>\\(a_0=\\frac{2}{2}\\int_0^2 f(x)dx=2\\int_0^1(1-x)dx=1\\)</td><td>(3)</td></tr><tr><td>\\(a_n=\\frac{2}{2}\\int_0^2 f(x)\\cos\\frac{n\\pi x}{2}dx=2\\int_0^1(1-x)\\cos\\frac{n\\pi x}{2}dx=\\frac{8}{n^2\\pi^2}\\sin^2\\frac{n\\pi}{4}\\)</td><td>(5)</td></tr><tr><td>Thus, \\(f(x)=\\frac{1}{2}+\\frac{8}{\\pi^2}\\sum_{n=1}^{\\infty}\\frac{1}{n^2}\\sin^2\\frac{n\\pi}{4}\\cos\\frac{n\\pi x}{2}\\)</td><td>(5)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=\\begin{cases} 0, & -2<x<-1 \\\\ 1+x, & -1<x<0 \\\\ 1-x, & 0<x<1 \\\\ 0, & 1<x<2 \\end{cases}\\).</p>",
+   "SESSION_ID": 211,
+   "TYPE": "lq",
+   "key": 50087
+  },
+  {
+   "_id": 50088,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Complex form: \\(f(x)=\\sum_{n=-\\infty}^{\\infty}C_n e^{inx}\\)</td><td>(1)</td></tr><tr><td>\\(C_n=\\frac{1}{2\\pi}\\int_{-\\pi}^{\\pi}e^{ax}e^{-inx}dx=\\frac{1}{2\\pi}\\cdot\\frac{e^{(a-in)\\pi}-e^{-(a-in)\\pi}}{a-in}\\)</td><td>(4)</td></tr><tr><td>Simplify: \\(C_n=\\frac{(a+in)\\sinh a\\pi}{\\pi(a^2+n^2)}(-1)^n\\)</td><td>(4)</td></tr><tr><td>Thus, \\(e^{ax}=\\frac{\\sinh a\\pi}{\\pi}\\sum_{n=-\\infty}^{\\infty}\\frac{(a+in)(-1)^n}{a^2+n^2}e^{inx}\\)</td><td>(4)</td></tr><tr><td>Deduce \\(\\sum_{n=-\\infty}^{\\infty}\\frac{(-1)^n}{a^2+n^2}=\\frac{\\pi}{a\\sinh a\\pi}\\)</td><td>(2)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the complex form of Fourier series for \\(f(x)=e^{ax}\\) in \\((-\\pi,\\pi)\\).</p>",
+   "SESSION_ID": 211,
+   "TYPE": "lq",
+   "key": 50088
+  }
+ ]
+}

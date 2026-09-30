@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12360,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>The process with shortest burst time is selected</p>\n",
+   "OPT_2": "<p>CPU is allocated to another process</p>\n",
+   "OPT_3": "<p>CPU remains idle until the next process arrives</p>\n",
+   "OPT_4": "<p>Current time is reset to zero</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In FCFS algorithm, if the CPU is idle and the next process hasn&rsquo;t arrived yet, what happens?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 12360
+  },
+  {
+   "_id": 12365,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Burst Time</p>\n",
+   "OPT_2": "<p>Arrival Time</p>\n",
+   "OPT_3": "<p>Completion Time</p>\n",
+   "OPT_4": "<p>Waiting Time</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the sorting criteria for FCFS before scheduling starts?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 12365
+  },
+  {
+   "_id": 12369,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>BT[i] = 0</p>\n",
+   "OPT_2": "<p>Arrival time &gt; current time</p>\n",
+   "OPT_3": "<p>isCompleted = true</p>\n",
+   "OPT_4": "<p>Arrival time &le; current time AND isCompleted = false</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In SJF implementation, which condition allows a process to be selected for execution?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 12369
+  },
+  {
+   "_id": 12371,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Scheduler picks any random process</p>\n",
+   "OPT_2": "<p>CPU is halted permanently</p>\n",
+   "OPT_3": "<p>current_time is incremented by 1</p>\n",
+   "OPT_4": "<p>Loop ends</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In SJF, when no process has arrived by the current time, what is done?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 12371
+  },
+  {
+   "_id": 12375,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>ACT &ndash; AT</p>\n",
+   "OPT_2": "<p>WT + BT</p>\n",
+   "OPT_3": "<p>BT &ndash; WT1</p>\n",
+   "OPT_4": "<p>CT &ndash; BT</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the formula for Turnaround Time in both FCFS and SJF?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 12375
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12377,
+   "ANSWER": "<p>&nbsp;</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th><strong>Point</strong></th>\n\t\t\t<th><strong>Marks</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Formula for Waiting Time (WT = TAT &ndash; BT)</td>\n\t\t\t<td>(20%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Example input (AT, BT for at least 2 processes)</td>\n\t\t\t<td>(20%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Waiting Time calculation for each</td>\n\t\t\t<td>&nbsp;(60%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>&nbsp;Explain how waiting time is calculated in both FCFS and SJF with example data.</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "sq",
+   "key": 12377
+  },
+  {
+   "_id": 12380,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th><strong>Point</strong></th>\n\t\t\t<th><strong>Marks</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>FCFS: based on Arrival Time, no preemption</td>\n\t\t\t<td>(40%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>SJF: based on shortest burst time, considers arrival</td>\n\t\t\t<td>(40%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Mention of execution order or selection logic</td>\n\t\t\t<td>(20%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Compare the algorithmic approach of FCFS and SJF based on how processes are selected and completed.</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "sq",
+   "key": 12380
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12381,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th><strong>Component</strong></th>\n\t\t\t<th><strong>Marks</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Step-by-step algorithm for FCFS and SJF (with logic)</td>\n\t\t\t<td>(20%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Correct Gantt Chart or process sequence</td>\n\t\t\t<td>(20%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>CT, TAT, WT calculated correctly for both</td>\n\t\t\t<td>(25%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Correct Averages (AWT, ATAT) for both</td>\n\t\t\t<td>&nbsp;(15%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Comparison of outcomes and logical conclusion</td>\n\t\t\t<td>(20%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align: justify;\">Write and explain the algorithmic steps for FCFS and SJF. Use a common input of 4 processes with Arrival Time and Burst Time. Show the computed values for CT, TAT, and WT. Compare the average waiting time and draw conclusions on which is better for the given input.</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Process</th>\n\t\t\t<th>AT</th>\n\t\t\t<th>BT</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>P1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>5</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P2</td>\n\t\t\t<td>2</td>\n\t\t\t<td>3</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P3</td>\n\t\t\t<td>4</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>P4</td>\n\t\t\t<td>6</td>\n\t\t\t<td>2</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "SESSION_ID": 304,
+   "TYPE": "lq",
+   "key": 12381
+  }
+ ]
+}

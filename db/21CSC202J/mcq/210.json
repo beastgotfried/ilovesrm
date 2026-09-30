@@ -1,0 +1,141 @@
+{
+ "mcq": [
+  {
+   "_id": 18797,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Speed up execution</p>\n",
+   "OPT_2": "<p>Reduce memory usage</p>\n",
+   "OPT_3": "<p>Avoid conflicts while accessing shared resources</p>\n",
+   "OPT_4": "<p>Allocate CPU time fairly</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"445\" data-start=\"383\"><strong data-end=\"443\" data-start=\"387\">What is the main goal of process synchronization?</strong></h3>\n\n<p data-end=\"578\" data-start=\"446\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 18797
+  },
+  {
+   "_id": 18798,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Section where a process waits</p>\n",
+   "OPT_2": "<p>Section where a process terminates</p>\n",
+   "OPT_3": "<p>Section where shared resources are accessed</p>\n",
+   "OPT_4": "<p>Section for I/O handling</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"719\" data-start=\"650\"><strong data-end=\"717\" data-start=\"654\">What is the critical section in process synchronization?</strong></h3>\n\n<p data-end=\"873\" data-start=\"720\">&nbsp;</p>\n\n<p data-end=\"578\" data-start=\"446\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 18798
+  },
+  {
+   "_id": 18799,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Mutual exclusion</p>\n",
+   "OPT_2": "<p>Deadlock</p>\n",
+   "OPT_3": "<p>Progress</p>\n",
+   "OPT_4": "<p>Bounded waiting</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1033\" data-start=\"940\"><strong data-end=\"1031\" data-start=\"944\">Which of the following is <strong data-end=\"982\" data-start=\"975\">not</strong> a requirement of the critical section problem?</strong></h3>\n\n<p data-end=\"1104\" data-start=\"1034\">&nbsp;</p>\n\n<p data-end=\"578\" data-start=\"446\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 18799
+  },
+  {
+   "_id": 18800,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Semaphore</p>\n",
+   "OPT_2": "<p>Thread pool</p>\n",
+   "OPT_3": "<p>Kernel</p>\n",
+   "OPT_4": "<p>Compiler</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1202\" data-start=\"1136\"><strong data-end=\"1200\" data-start=\"1140\">Which mechanism is used to implement synchronization?</strong></h3>\n\n<p data-end=\"1260\" data-start=\"1203\">&nbsp;</p>\n\n<p data-end=\"578\" data-start=\"446\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 18800
+  },
+  {
+   "_id": 18801,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>1</p>\n",
+   "OPT_2": "<p>2</p>\n",
+   "OPT_3": "<p>unlimited</p>\n",
+   "OPT_4": "<p>4</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1369\" data-start=\"1293\"><strong data-end=\"1367\" data-start=\"1297\">In Peterson&rsquo;s solution, how many processes can be synchronized?</strong></h3>\n\n<p data-end=\"1405\" data-start=\"1370\">&nbsp;</p>\n\n<p data-end=\"578\" data-start=\"446\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 18801
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18802,
+   "ANSWER": "<p><br data-end=\"1563\" data-start=\"1560\" />\nA <strong data-end=\"1585\" data-start=\"1565\">critical section</strong> is a segment of code in which a process <strong data-end=\"1655\" data-start=\"1626\">accesses shared resources</strong> (like variables, files, or devices). Only <strong data-end=\"1713\" data-start=\"1698\">one process</strong> should execute in the critical section at a time to avoid <strong data-end=\"1791\" data-start=\"1772\">race conditions</strong>.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1548\" data-start=\"1466\"><strong data-end=\"1546\" data-start=\"1470\">What is a critical section in the context of process synchronization?</strong></h3>\n\n<p data-end=\"1792\" data-start=\"1549\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 18802
+  },
+  {
+   "_id": 18803,
+   "ANSWER": "<p data-end=\"1899\" data-start=\"1886\">&nbsp;</p>\n\n<ol data-end=\"2238\" data-start=\"1900\">\n\t<li data-end=\"1985\" data-start=\"1900\">\n\t<p data-end=\"1985\" data-start=\"1903\"><strong data-end=\"1924\" data-start=\"1903\">Mutual Exclusion:</strong> Only one process can enter the critical section at a time.</p>\n\t</li>\n\t<li data-end=\"2119\" data-start=\"1986\">\n\t<p data-end=\"2119\" data-start=\"1989\"><strong data-end=\"2002\" data-start=\"1989\">Progress:</strong> If no process is in the critical section, then the selection of the next process cannot be postponed indefinitely.</p>\n\t</li>\n\t<li data-end=\"2238\" data-start=\"2120\">\n\t<p data-end=\"2238\" data-start=\"2123\"><strong data-end=\"2143\" data-start=\"2123\">Bounded Waiting:</strong> A process waiting to enter the critical section should be limited to a finite number of turns.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1885\" data-start=\"1799\"><strong data-end=\"1883\" data-start=\"1803\">List the three conditions required to solve the critical section problem.</strong></h3>\n\n<p data-end=\"1792\" data-start=\"1549\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 18803
+  }
+ ],
+ "lq": [
+  {
+   "_id": 18805,
+   "ANSWER": "<h3 data-end=\"2542\" data-start=\"2510\"><strong data-end=\"2542\" data-start=\"2514\">Process Synchronization:</strong></h3>\n\n<p data-end=\"2826\" data-start=\"2544\">In a multi-process system, <strong data-end=\"2598\" data-start=\"2571\">process synchronization</strong> ensures that <strong data-end=\"2636\" data-start=\"2612\">concurrent processes</strong> accessing <strong data-end=\"2667\" data-start=\"2647\">shared resources</strong> (like memory or files) do so <strong data-end=\"2737\" data-start=\"2697\">without conflicts or inconsistencies</strong>. It prevents issues such as <strong data-end=\"2785\" data-start=\"2766\">race conditions</strong>, <strong data-end=\"2800\" data-start=\"2787\">deadlocks</strong>, and <strong data-end=\"2825\" data-start=\"2806\">data corruption</strong>.</p>\n\n<h3 data-end=\"2866\" data-start=\"2833\"><strong data-end=\"2866\" data-start=\"2837\">Critical Section Problem:</strong></h3>\n\n<p data-end=\"3103\" data-start=\"2868\">The <strong data-end=\"2892\" data-start=\"2872\">critical section</strong> is the part of the program where a process accesses <strong data-end=\"2965\" data-start=\"2945\">shared resources</strong>. The <strong data-end=\"2999\" data-start=\"2971\">critical section problem</strong> is to design a protocol that ensures only <strong data-end=\"3057\" data-start=\"3042\">one process</strong> is in its critical section at any given time.</p>\n\n<h3 data-end=\"3165\" data-start=\"3110\"><strong data-end=\"3165\" data-start=\"3114\">Requirements to Solve Critical Section Problem:</strong></h3>\n\n<ol data-end=\"3558\" data-start=\"3167\">\n\t<li data-end=\"3268\" data-start=\"3167\">\n\t<p data-end=\"3268\" data-start=\"3170\"><strong data-end=\"3191\" data-start=\"3170\">Mutual Exclusion:</strong><br data-end=\"3194\" data-start=\"3191\" />\n\tNo two processes should enter their critical sections at the same time.</p>\n\t</li>\n\t<li data-end=\"3402\" data-start=\"3270\">\n\t<p data-end=\"3402\" data-start=\"3273\"><strong data-end=\"3286\" data-start=\"3273\">Progress:</strong><br data-end=\"3289\" data-start=\"3286\" />\n\tIf no process is in the critical section, others waiting should be allowed to enter without unnecessary delay.</p>\n\t</li>\n\t<li data-end=\"3558\" data-start=\"3404\">\n\t<p data-end=\"3558\" data-start=\"3407\"><strong data-end=\"3427\" data-start=\"3407\">Bounded Waiting:</strong><br data-end=\"3430\" data-start=\"3427\" />\n\tThere should be a limit on how many times other processes can enter the critical section before a waiting process is allowed.</p>\n\t</li>\n</ol>\n\n<h3 data-end=\"3610\" data-start=\"3565\"><strong data-end=\"3610\" data-start=\"3569\">Using Semaphores for Synchronization:</strong></h3>\n\n<p data-end=\"3696\" data-start=\"3612\">A <strong data-end=\"3627\" data-start=\"3614\">semaphore</strong> is a synchronization tool that controls access using two operations:</p>\n\n<ul data-end=\"3738\" data-start=\"3697\">\n\t<li data-end=\"3716\" data-start=\"3697\">\n\t<p data-end=\"3716\" data-start=\"3699\"><code data-end=\"3707\" data-start=\"3699\">wait()</code> (or <code data-end=\"3715\" data-start=\"3712\">P</code>)</p>\n\t</li>\n\t<li data-end=\"3738\" data-start=\"3717\">\n\t<p data-end=\"3738\" data-start=\"3719\"><code data-end=\"3729\" data-start=\"3719\">signal()</code> (or <code data-end=\"3737\" data-start=\"3734\">V</code>)</p>\n\t</li>\n</ul>\n\n<h4 data-end=\"3773\" data-start=\"3740\"><strong data-end=\"3773\" data-start=\"3745\">Semaphore-Based Example:</strong></h4>\n\n<p><code>#include &lt;stdio.h&gt; #include &lt;pthread.h&gt; #include &lt;semaphore.h&gt; sem_t mutex; void* critical_section(void* arg) { sem_wait(&amp;mutex); // Entering critical section printf(&quot;Process %d in critical section\\n&quot;, *(int*)arg); sleep(1); sem_post(&amp;mutex); // Exiting critical section return NULL; } int main() { pthread_t t1, t2; int a = 1, b = 2; sem_init(&amp;mutex, 0, 1); pthread_create(&amp;t1, NULL, critical_section, &amp;a); pthread_create(&amp;t2, NULL, critical_section, &amp;b); pthread_join(t1, NULL); pthread_join(t2, NULL); sem_destroy(&amp;mutex); return 0; } </code></p>\n\n<h3 data-end=\"4415\" data-start=\"4395\"><strong data-end=\"4415\" data-start=\"4399\">Explanation:</strong></h3>\n\n<ul data-end=\"4612\" data-start=\"4417\">\n\t<li data-end=\"4488\" data-start=\"4417\">\n\t<p data-end=\"4488\" data-start=\"4419\"><code data-end=\"4431\" data-start=\"4419\">sem_wait()</code> locks the critical section so only one thread can enter.</p>\n\t</li>\n\t<li data-end=\"4539\" data-start=\"4489\">\n\t<p data-end=\"4539\" data-start=\"4491\">Other threads wait until <code data-end=\"4528\" data-start=\"4516\">sem_post()</code> is called.</p>\n\t</li>\n\t<li data-end=\"4612\" data-start=\"4540\">\n\t<p data-end=\"4612\" data-start=\"4542\">This ensures <strong data-end=\"4575\" data-start=\"4555\">mutual exclusion</strong> and safe access to shared resources.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"4638\" data-start=\"4619\"><strong data-end=\"4638\" data-start=\"4623\">Conclusion:</strong></h3>\n\n<h3 data-end=\"4638\" data-start=\"4619\">Process synchronization is essential in multiprogramming environments. It ensures <strong data-end=\"4742\" data-start=\"4722\">data consistency</strong>, <strong data-end=\"4766\" data-start=\"4744\">resource integrity</strong>, and <strong data-end=\"4798\" data-start=\"4772\">fair process execution</strong>. The critical section problem highlights the need for designing synchronization techniques like <strong data-end=\"4919\" data-start=\"4895\">semaphores, monitors</strong>, and <strong data-end=\"4936\" data-start=\"4925\">mutexes</strong> to manage concurrent access effectively.</h3>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO3",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain the concept of process synchronization. Describe the working of synchronization using semaphores and explain the critical section problem along with its requirements.</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "lq",
+   "key": 18805
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36733,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Physical fitness of a person</p>\n",
+   "OPT_2": "<p>The expression of values and understanding in daily life through behavior and actions</p>\n",
+   "OPT_3": "<p>Biological growth of the body</p>\n",
+   "OPT_4": "<p>Automatic functioning of organs</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is meant by human conduct?</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 36733
+  },
+  {
+   "_id": 36734,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Because humans can consciously understand and ensure harmony</p>\n",
+   "OPT_2": "<p>Because humans dominate nature</p>\n",
+   "OPT_3": "<p>Because humans are physically stronger than animals</p>\n",
+   "OPT_4": "<p>Because humans live independently</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why is human conduct central to existence?</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 36734
+  },
+  {
+   "_id": 36735,
+   "ANSWER": 4,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Respect in relationships</p>\n",
+   "OPT_2": "<p>Sustainable use of resources</p>\n",
+   "OPT_3": "<p>Ethical work practices</p>\n",
+   "OPT_4": "<p>All of the above</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is an element of right human conduct?</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 36735
+  },
+  {
+   "_id": 36736,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>It&nbsp;leads to harmony</p>\n",
+   "OPT_2": "<p>It results in exploitation, conflicts, and imbalance</p>\n",
+   "OPT_3": "<p>It improves sustainability</p>\n",
+   "OPT_4": "<p>It promotes peaceful coexistence</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What happens when human conduct lacks right understanding?</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 36736
+  },
+  {
+   "_id": 36737,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Profit-making</p>\n",
+   "OPT_2": "<p>Achieving harmony within self, with others, and with nature</p>\n",
+   "OPT_3": "<p>Domination of resources</p>\n",
+   "OPT_4": "<p>Unlimited consumption</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the ultimate goal of human conduct?</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 36737
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36311,
+   "ANSWER": "<p>Human conduct refers to the way a person lives and behaves in harmony with self, family, society, and nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is meant by human conduct?</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 36311
+  },
+  {
+   "_id": 36312,
+   "ANSWER": "<p>Right understanding helps humans act responsibly, ensuring peace, prosperity, and harmony with existence.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is right understanding important for human conduct?</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 36312
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122500,
+   "ANSWER": "<p>Self-regulation means the feeling of responsibility toward the Body for its nurturing, protection and right utilisation. Health means the Body acts according to the Self and the parts of the Body are in harmony. The programme to ensure self-regulation and health gives priority to four areas: intake and routine, labour and exercise, posture and regulated breathing, and medicine and treatment. Intake includes air, water, sunlight, food and sensory inputs. Routine includes proper rising time, sleeping time and eating time. Labour produces physical facility, while exercise supports the health of the Body. Postures and regulated breathing help regulate the internal and external organs. Medicine and treatment are required when the Body temporarily moves away from harmony. This programme helps the Self take responsibility for the Body naturally, not through fear or force.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain prosperity in the light of harmony between Self and Body.</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "lq",
+   "key": 122500
+  }
+ ]
+}

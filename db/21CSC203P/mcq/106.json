@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9314,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) Describe how to do something step-by-step<br data-end=\"462\" data-start=\"459\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Focus on defining <em data-end=\"489\" data-start=\"483\">what</em> the result should be<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Always use loops and variables<br data-end=\"549\" data-start=\"546\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Avoid using any rules or logic</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"412\" data-start=\"357\">In declarative programming, such as Prolog, you:</strong><br data-end=\"415\" data-start=\"412\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 9314
+  },
+  {
+   "_id": 9315,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Loop<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"415\" data-start=\"412\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Class<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Fact and Rule<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Method</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"706\" data-start=\"637\">Which of the following is a basic element in a Prolog program?</strong><br data-end=\"709\" data-start=\"706\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 9315
+  },
+  {
+   "_id": 9316,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) A process of repeating loops using <code data-end=\"908\" data-start=\"903\">for</code><br data-end=\"911\" data-start=\"908\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) A function calling itself to solve smaller problems<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) A process of assigning global variables<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) A way to declare objects</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"862\" data-start=\"811\">What is recursion in functional programming?</strong><br data-end=\"865\" data-start=\"862\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 9316
+  },
+  {
+   "_id": 9317,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) A function that only returns numbers<br data-end=\"1179\" data-start=\"1176\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) A function that can take other functions as arguments or return them<br data-end=\"1253\" data-start=\"1250\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) A class method in object-oriented programming<br data-end=\"1304\" data-start=\"1301\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) A loop used in logic programming</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1134\" data-start=\"1095\">What is a higher-order function?</strong><br data-end=\"1137\" data-start=\"1134\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 9317
+  },
+  {
+   "_id": 9318,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Prolog<br data-end=\"1487\" data-start=\"1484\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) C++<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Haskell<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) SQL</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1472\" data-start=\"1394\">Which language is most commonly associated with functional programming?</strong><br data-end=\"1475\" data-start=\"1472\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 9318
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9359,
+   "ANSWER": "<p>Logic programming allows expressing medical rules as logical clauses, and the inference engine derives diagnoses using backtracking and pattern matching without procedural control flow.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A medical diagnosis system needs to infer conditions based on symptoms. How is logic programming beneficial in such a scenario?</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "sq",
+   "key": 9359
+  },
+  {
+   "_id": 9360,
+   "ANSWER": "<p>Regulations can be encoded as facts and rules, allowing logical evaluation and automated reasoning to validate whether constraints are met.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A legal compliance system must verify adherence to numerous regulations. Why is logic programming appropriate for this purpose?</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "sq",
+   "key": 9360
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9386,
+   "ANSWER": "<p>Logic programming is suitable for rule-based systems as it allows defining relationships and rules declaratively. Prolog can be used to express medical knowledge:</p>\n\n<p>symptom(john, fever).<br />\nsymptom(john, rash).<br />\ndiagnosis(Patient, measles) :- symptom(Patient, fever), symptom(Patient, rash).</p>\n\n<ul data-end=\"3716\" data-start=\"3499\">\n\t<li data-end=\"3556\" data-start=\"3499\">\n\t<p data-end=\"3556\" data-start=\"3501\">In this example, <code data-end=\"3524\" data-start=\"3518\">john</code> has symptoms of fever and rash.</p>\n\t</li>\n\t<li data-end=\"3640\" data-start=\"3557\">\n\t<p data-end=\"3640\" data-start=\"3559\">The rule defines that if a patient has both symptoms, the diagnosis is <code data-end=\"3639\" data-start=\"3630\">measles</code>.</p>\n\t</li>\n\t<li data-end=\"3716\" data-start=\"3641\">\n\t<p data-end=\"3716\" data-start=\"3643\">When queried as <code data-end=\"3685\" data-start=\"3659\">diagnosis(john, Disease)</code>, the system returns <code data-end=\"3715\" data-start=\"3706\">measles</code>.</p>\n\t</li>\n</ul>\n\n<p data-end=\"3827\" data-start=\"3718\">This paradigm emphasizes <strong data-end=\"3774\" data-start=\"3743\">declarative rule definition</strong>, <strong data-end=\"3799\" data-start=\"3776\">automatic inference</strong>, and <strong data-end=\"3826\" data-start=\"3805\">logical deduction</strong>.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Develop a rule-based medical diagnosis system using logic programming. Justify the choice of this paradigm and provide a sample rule along with its reasoning process.</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "lq",
+   "key": 9386
+  }
+ ]
+}

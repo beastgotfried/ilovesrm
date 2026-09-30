@@ -1,0 +1,145 @@
+{
+ "mcq": [
+  {
+   "_id": 18174,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Running a program on a single CPU</p>\n",
+   "OPT_2": "<p>Using multiple programs in one thread</p>\n",
+   "OPT_3": "<p>Executing multiple threads/processes across multiple CPU cores</p>\n",
+   "OPT_4": "<p>Compressing code to save space</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"318\" data-start=\"254\"><strong data-end=\"316\" data-start=\"258\">What is multicore programming in operating systems?</strong></h3>\n\n<p data-end=\"504\" data-start=\"319\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 18174
+  },
+  {
+   "_id": 18175,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Slower context switching</p>\n",
+   "OPT_2": "<p>Better user interface design</p>\n",
+   "OPT_3": "<p>Improved responsiveness and CPU utilization</p>\n",
+   "OPT_4": "<p>Increased memory usage</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"825\" data-start=\"767\"><strong data-end=\"823\" data-start=\"771\">What is the main advantage of multithreading?</strong></h3>\n\n<p data-end=\"966\" data-start=\"826\">&nbsp;</p>\n\n<p data-end=\"504\" data-start=\"319\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 18175
+  },
+  {
+   "_id": 18182,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Faster context switching</p>\n",
+   "OPT_2": "<p>Parallelism</p>\n",
+   "OPT_3": "<p>Isolation between threads</p>\n",
+   "OPT_4": "<p>Responsiveness</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1104\" data-start=\"1033\"><strong data-end=\"1102\" data-start=\"1037\">Which of the following is NOT a benefit of multithreading?</strong></h3>\n\n<p data-end=\"1202\" data-start=\"1105\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 18182
+  },
+  {
+   "_id": 18184,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Translates source code</p>\n",
+   "OPT_2": "<p>Handles hardware design</p>\n",
+   "OPT_3": "<p>Schedules threads/processes across cores</p>\n",
+   "OPT_4": "<p>Stores data in databases</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1381\" data-start=\"1302\"><strong data-end=\"1379\" data-start=\"1306\">What role does the operating system play in multicore programming?</strong></h3>\n\n<p data-end=\"1514\" data-start=\"1382\">&nbsp;</p>\n\n<p data-end=\"1202\" data-start=\"1105\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 18184
+  },
+  {
+   "_id": 18186,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Sequential model</p>\n",
+   "OPT_2": "<p>Monolithic model</p>\n",
+   "OPT_3": "<p>Layered model</p>\n",
+   "OPT_4": "<p>Multithreaded model</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1171\" data-start=\"1096\"><strong data-end=\"1169\" data-start=\"1100\">Which programming model is commonly used in multicore systems?</strong></h3>\n\n<p data-end=\"1259\" data-start=\"1172\">A.<br data-end=\"1194\" data-start=\"1191\" />\nB.<br data-end=\"1216\" data-start=\"1213\" />\nC.<br data-end=\"1241\" data-start=\"1238\" />\nD.</p>\n\n<p data-end=\"1295\" data-start=\"1261\"><strong data-end=\"1272\" data-start=\"1261\">Answer:</strong> C. Multithreaded model</p>\n\n<p data-end=\"1202\" data-start=\"1105\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "mcq",
+   "key": 18186
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18187,
+   "ANSWER": "<p>Multicore programming enables operating systems to <strong data-end=\"1782\" data-start=\"1760\">maximize CPU usage</strong> by executing multiple processes or threads in parallel, leading to <strong data-end=\"1895\" data-start=\"1850\">better performance, faster response times</strong>, and <strong data-end=\"1927\" data-start=\"1901\">efficient multitasking</strong>.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1694\" data-start=\"1614\"><strong data-end=\"1692\" data-start=\"1618\">Why is multicore programming important in modern operating systems?</strong></h3>\n\n<p data-end=\"1928\" data-start=\"1695\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "sq",
+   "key": 18187
+  },
+  {
+   "_id": 18250,
+   "ANSWER": "<p data-end=\"1931\" data-start=\"1918\">&nbsp;</p>\n\n<ol data-end=\"2154\" data-start=\"1932\">\n\t<li data-end=\"2040\" data-start=\"1932\">\n\t<p data-end=\"2040\" data-start=\"1935\"><strong data-end=\"1963\" data-start=\"1935\">Improved responsiveness:</strong> Threads can handle tasks like user input and background work concurrently.</p>\n\t</li>\n\t<li data-end=\"2154\" data-start=\"2041\">\n\t<p data-end=\"2154\" data-start=\"2044\"><strong data-end=\"2068\" data-start=\"2044\">Efficient CPU usage:</strong> Threads keep the CPU busy by switching between tasks during I/O operations or delays.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1917\" data-start=\"1860\"><strong data-end=\"1915\" data-start=\"1864\">Name two advantages of using multithreading.</strong></h3>\n\n<p data-end=\"1928\" data-start=\"1695\">&nbsp;</p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "sq",
+   "key": 18250
+  }
+ ],
+ "lq": [
+  {
+   "_id": 18251,
+   "ANSWER": "<h3 data-end=\"2425\" data-start=\"2404\"><strong data-end=\"2423\" data-start=\"2408\">Definition:</strong></h3>\n\n<p data-end=\"2648\" data-start=\"2426\">Multithreading is a feature of operating systems where <strong data-end=\"2518\" data-start=\"2481\">multiple threads run concurrently</strong> within a single process. Threads share the same code, data, and system resources but operate independently in terms of execution.</p>\n\n<h3 data-end=\"2690\" data-start=\"2655\"><strong data-end=\"2690\" data-start=\"2659\">Benefits of Multithreading:</strong></h3>\n\n<ol data-end=\"3091\" data-start=\"2692\">\n\t<li data-end=\"2773\" data-start=\"2692\">\n\t<p data-end=\"2773\" data-start=\"2695\"><strong data-end=\"2716\" data-start=\"2695\">Faster Execution:</strong> Threads run in parallel, improving task completion time.</p>\n\t</li>\n\t<li data-end=\"2892\" data-start=\"2774\">\n\t<p data-end=\"2892\" data-start=\"2777\"><strong data-end=\"2806\" data-start=\"2777\">Increased Responsiveness:</strong> In GUI applications, one thread can handle UI while another handles background tasks.</p>\n\t</li>\n\t<li data-end=\"2988\" data-start=\"2893\">\n\t<p data-end=\"2988\" data-start=\"2896\"><strong data-end=\"2917\" data-start=\"2896\">Resource Sharing:</strong> Threads use less memory than processes since they share address space.</p>\n\t</li>\n\t<li data-end=\"3091\" data-start=\"2989\">\n\t<p data-end=\"3091\" data-start=\"2992\"><strong data-end=\"3022\" data-start=\"2992\">Efficient CPU Utilization:</strong> Threads can run while others wait (e.g., for I/O), keeping CPU busy.</p>\n\t</li>\n</ol>\n\n<h3 data-end=\"3133\" data-start=\"3098\"><strong data-end=\"3133\" data-start=\"3102\">Key Components of a Thread:</strong></h3>\n\n<ul data-end=\"3358\" data-start=\"3135\">\n\t<li data-end=\"3187\" data-start=\"3135\">\n\t<p data-end=\"3187\" data-start=\"3137\"><strong data-end=\"3151\" data-start=\"3137\">Thread ID:</strong> Unique identifier for each thread</p>\n\t</li>\n\t<li data-end=\"3246\" data-start=\"3188\">\n\t<p data-end=\"3246\" data-start=\"3190\"><strong data-end=\"3210\" data-start=\"3190\">Program Counter:</strong> Points to the current instruction</p>\n\t</li>\n\t<li data-end=\"3293\" data-start=\"3247\">\n\t<p data-end=\"3293\" data-start=\"3249\"><strong data-end=\"3263\" data-start=\"3249\">Registers:</strong> CPU register set per thread</p>\n\t</li>\n\t<li data-end=\"3358\" data-start=\"3294\">\n\t<p data-end=\"3358\" data-start=\"3296\"><strong data-end=\"3306\" data-start=\"3296\">Stack:</strong> Separate for each thread to manage function calls</p>\n\t</li>\n</ul>\n\n<p data-end=\"3402\" data-start=\"3360\"><strong data-end=\"3402\" data-start=\"3360\">Shared by threads in the same process:</strong></p>\n\n<ul data-end=\"3451\" data-start=\"3403\">\n\t<li data-end=\"3419\" data-start=\"3403\">\n\t<p data-end=\"3419\" data-start=\"3405\">Code segment</p>\n\t</li>\n\t<li data-end=\"3436\" data-start=\"3420\">\n\t<p data-end=\"3436\" data-start=\"3422\">Data segment</p>\n\t</li>\n\t<li data-end=\"3451\" data-start=\"3437\">\n\t<p data-end=\"3451\" data-start=\"3439\">Open files</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3495\" data-start=\"3458\"><strong data-end=\"3495\" data-start=\"3462\">Challenges in Multithreading:</strong></h3>\n\n<ol data-end=\"3859\" data-start=\"3497\">\n\t<li data-end=\"3596\" data-start=\"3497\">\n\t<p data-end=\"3596\" data-start=\"3500\"><strong data-end=\"3520\" data-start=\"3500\">Race Conditions:</strong> Two threads accessing shared data simultaneously can cause inconsistencies.</p>\n\t</li>\n\t<li data-end=\"3672\" data-start=\"3597\">\n\t<p data-end=\"3672\" data-start=\"3600\"><strong data-end=\"3614\" data-start=\"3600\">Deadlocks:</strong> Threads waiting on each other indefinitely for resources.</p>\n\t</li>\n\t<li data-end=\"3760\" data-start=\"3673\">\n\t<p data-end=\"3760\" data-start=\"3676\"><strong data-end=\"3701\" data-start=\"3676\">Debugging Difficulty:</strong> Errors are harder to reproduce and fix in concurrent code.</p>\n\t</li>\n\t<li data-end=\"3859\" data-start=\"3761\">\n\t<p data-end=\"3859\" data-start=\"3764\"><strong data-end=\"3795\" data-start=\"3764\">Context Switching Overhead:</strong> Still involves some CPU overhead for switching between threads.</p>\n\t</li>\n</ol>\n\n<h3 data-end=\"3893\" data-start=\"3866\"><strong data-end=\"3893\" data-start=\"3870\">Real-World Example:</strong></h3>\n\n<ul data-end=\"4128\" data-start=\"3895\">\n\t<li data-end=\"4034\" data-start=\"3895\">\n\t<p data-end=\"4034\" data-start=\"3897\"><strong data-end=\"3912\" data-start=\"3897\">Web Server:</strong> Each client request is handled by a separate thread. While one waits for database access, others can continue processing.</p>\n\t</li>\n\t<li data-end=\"4128\" data-start=\"4035\">\n\t<p data-end=\"4128\" data-start=\"4037\"><strong data-end=\"4053\" data-start=\"4037\">Text Editor:</strong> One thread handles user typing, while another handles background autosave.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"4156\" data-start=\"4135\"><strong data-end=\"4154\" data-start=\"4139\">Conclusion:</strong></h3>\n\n<p data-end=\"4414\" data-start=\"4157\">Multithreading is a powerful mechanism in modern operating systems that improves <strong data-end=\"4294\" data-start=\"4238\">performance, responsiveness, and resource efficiency</strong>. However, it requires careful design to <strong data-end=\"4363\" data-start=\"4335\">avoid concurrency issues</strong> and to <strong data-end=\"4393\" data-start=\"4371\">synchronize access</strong> to shared resources.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2380\" data-start=\"2210\">Explain multithreading in operating systems. Discuss its benefits, key components, and challenges. Provide examples of how multithreading improves system performance.</strong></p>\n",
+   "SESSION_ID": 206,
+   "TYPE": "lq",
+   "key": 18251
+  }
+ ]
+}

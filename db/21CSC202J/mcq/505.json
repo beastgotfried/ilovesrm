@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 13216,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Hardware malfunction</p>\n",
+   "OPT_2": "<p>Poor user interface design</p>\n",
+   "OPT_3": "<p>Unauthorized access to resources</p>\n",
+   "OPT_4": "<p>Insufficient RAM</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>The <strong data-end=\"798\" data-start=\"773\">main security problem</strong> in an operating system arises due to:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 13216
+  },
+  {
+   "_id": 13217,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Spoofing</p>\n",
+   "OPT_2": "<p>Trojan horse</p>\n",
+   "OPT_3": "<p>Denial of Service (DoS)</p>\n",
+   "OPT_4": "<p>Phishing</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which type of attack floods a system with excessive requests to make it unavailable to legitimate users?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 13217
+  },
+  {
+   "_id": 13218,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Encryption</p>\n",
+   "OPT_2": "<p>Authentication</p>\n",
+   "OPT_3": "<p>Integrity</p>\n",
+   "OPT_4": "<p>Availability</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"225\" data-start=\"202\">Masquerading attack</strong> primarily targets which security mechanism?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 13218
+  },
+  {
+   "_id": 13219,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Masquerading</p>\n",
+   "OPT_2": "<p>Session hijacking</p>\n",
+   "OPT_3": "<p>Replay attack</p>\n",
+   "OPT_4": "<p>Privilege escalation</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which attack involves <strong data-end=\"453\" data-start=\"408\">reusing captured valid data transmissions</strong> to perform unauthorized actions?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 13219
+  },
+  {
+   "_id": 13220,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Availability</p>\n",
+   "OPT_2": "<p>Authentication</p>\n",
+   "OPT_3": "<p>Integrity</p>\n",
+   "OPT_4": "<p>Encryption</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4",
+    "PLO3",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"643\" data-start=\"619\">Message modification</strong> attacks affect which aspect of security?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 13220
+  }
+ ],
+ "sq": [
+  {
+   "_id": 13247,
+   "ANSWER": "<p>&nbsp;</p>\n\n<ul data-end=\"1625\" data-start=\"1403\">\n\t<li data-end=\"1471\" data-start=\"1403\">\n\t<p data-end=\"1471\" data-start=\"1405\"><strong data-end=\"1425\" data-start=\"1405\">Confidentiality:</strong> Ensuring only authorized users access data.</p>\n\t</li>\n\t<li data-end=\"1538\" data-start=\"1472\">\n\t<p data-end=\"1538\" data-start=\"1474\"><strong data-end=\"1488\" data-start=\"1474\">Integrity:</strong> Protecting data from unauthorized modification.</p>\n\t</li>\n\t<li data-end=\"1625\" data-start=\"1539\">\n\t<p data-end=\"1625\" data-start=\"1541\"><strong data-end=\"1558\" data-start=\"1541\">Availability:</strong> Ensuring resources are accessible to authorized users when needed.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What are the <strong data-end=\"1359\" data-start=\"1311\">three key goals of operating system security</strong> and briefly explain each?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "sq",
+   "key": 13247
+  },
+  {
+   "_id": 13248,
+   "ANSWER": "<p>&nbsp;</p>\n\n<ul data-end=\"1625\" data-start=\"1403\">\n\t<li data-end=\"1471\" data-start=\"1403\">\n\t<p data-end=\"2125\" data-start=\"1833\">A man-in-the-middle attack involves intercepting and potentially modifying communication between two parties without their knowledge, compromising confidentiality and integrity.<br data-end=\"2029\" data-start=\"2026\" />\n\t<strong data-end=\"2041\" data-start=\"2029\">Example:</strong> An attacker intercepts data between a client and server to steal login credentials.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is a <strong data-end=\"1780\" data-start=\"1752\">man-in-the-middle attack</strong> and how does it compromise communication security?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "sq",
+   "key": 13248
+  }
+ ],
+ "lq": [
+  {
+   "_id": 13258,
+   "ANSWER": "<p data-end=\"8111\" data-start=\"7758\"><strong data-end=\"7771\" data-start=\"7760\">Answer Key:</strong></p>\n\n<p data-end=\"2256\" data-start=\"2241\">&nbsp;</p>\n\n<ol data-end=\"2831\" data-start=\"2257\">\n\t<li data-end=\"2388\" data-start=\"2257\">\n\t<p data-end=\"2388\" data-start=\"2260\"><strong data-end=\"2277\" data-start=\"2260\">Masquerading:</strong> Pretending to be another user to bypass authentication.<br data-end=\"2336\" data-start=\"2333\" />\n\t<em data-end=\"2349\" data-start=\"2339\">Example:</em> Logging in using stolen credentials.</p>\n\t</li>\n\t<li data-end=\"2550\" data-start=\"2389\">\n\t<p data-end=\"2550\" data-start=\"2392\"><strong data-end=\"2411\" data-start=\"2392\">Replay Attacks:</strong> Reusing captured valid data to repeat transactions.<br data-end=\"2466\" data-start=\"2463\" />\n\t<em data-end=\"2479\" data-start=\"2469\">Example:</em> Re-sending a captured bank transfer request to transfer money again.</p>\n\t</li>\n\t<li data-end=\"2678\" data-start=\"2551\">\n\t<p data-end=\"2678\" data-start=\"2554\"><strong data-end=\"2579\" data-start=\"2554\">Message Modification:</strong> Changing data in transit.<br data-end=\"2608\" data-start=\"2605\" />\n\t<em data-end=\"2621\" data-start=\"2611\">Example:</em> Altering a file sent over a network to insert malware.</p>\n\t</li>\n\t<li data-end=\"2831\" data-start=\"2679\">\n\t<p data-end=\"2831\" data-start=\"2682\"><strong data-end=\"2707\" data-start=\"2682\">Privilege Escalation:</strong> Gaining higher system privileges illegally.<br data-end=\"2754\" data-start=\"2751\" />\n\t<em data-end=\"2767\" data-start=\"2757\">Example:</em> Using a malicious script to gain root access in a Linux system.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain <strong data-end=\"2215\" data-start=\"2173\">any four methods of attacking security</strong> with examples for each.</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "lq",
+   "key": 13258
+  }
+ ]
+}

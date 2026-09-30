@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 20883,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Linux</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">FreeBSD</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Windows 11</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">OpenSolaris</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which of the following is NOT an open-source operating system?</span></span></span></strong></p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 20883
+  },
+  {
+   "_id": 20885,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Shell</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">kernel</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Compiler</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">GUI</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which component of the Linux operating system is responsible for hardware interaction and resource management?</span></span></span></strong><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 20885
+  },
+  {
+   "_id": 20887,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">GNU General Public License (GPL)</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Microsoft End User License Agreement (EULA)</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Apple&#39;s Software License Agreement</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Oracle Enterprise License</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which of the following licenses is most commonly used for open-source operating systems?</span></span></span></strong></p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 20887
+  },
+  {
+   "_id": 20889,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Accounting</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Inter-Process Communication (IPC)</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Protection</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Scheduling</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which OS service enables processes to communicate with each other?</span></span></span></strong></p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 20889
+  },
+  {
+   "_id": 20891,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Resource Allocation</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">User Interface</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Database Management</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">I/O System Management</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which of the following is NOT a typical operating system service?</span></span></span></strong></p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "mcq",
+   "key": 20891
+  }
+ ],
+ "sq": [
+  {
+   "_id": 20941,
+   "ANSWER": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">The GNU Project provides essential tools (compilers, shells, libraries) for open source systems like Linux. It aims to develop a fully free operating system and introduced the widely used GNU General Public License (GPL).</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>What role does the GNU Project play in open source OS development?</strong></span></span></p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "sq",
+   "key": 20941
+  },
+  {
+   "_id": 20942,
+   "ANSWER": "<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>File Access Control:</strong> Managing permissions and access rights.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Directory Structure Management:</strong> Organizing files hierarchically.</span></span></span></li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Mention any two file management services provided by the OS.</strong></span></span></p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "sq",
+   "key": 20942
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21150,
+   "ANSWER": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Impact on Technological Innovation</strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Open-source operating systems have become engines of innovation in both academic and commercial sectors.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Collaborative Development:</strong> With source code open to the global community, developers worldwide contribute features, bug fixes, and enhancements, accelerating technological progress.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Rapid Prototyping and Experimentation:</strong> Researchers and startups use open-source OS as a base to test new concepts without high licensing costs.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Customization and Specialization:</strong> Enterprises and industries tailor open-source kernels for specific needs&mdash;examples include Android (based on Linux) and specialized server distributions.</span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Enterprise Adoption and Business Transformation</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Cost-Effectiveness:</strong> Open-source OS reduces licensing fees, making them attractive for startups, educational institutions, and enterprises managing large infrastructures.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Scalability and Flexibility:</strong> Open-source platforms support a wide range of hardware and applications, making them suitable for everything from cloud servers to embedded systems.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Vendor Independence:</strong> Enterprises avoid vendor lock-in, gaining control over their software environment and reducing dependency on single providers.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong><br />\nLarge corporations like Google, Facebook, and IBM leverage Linux-based systems in their server farms, cloud platforms, and development tools.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Community-Driven Development and Knowledge Sharing</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Global Developer Community:</strong> Open-source projects like Linux are maintained by thousands of contributors, ensuring diverse input and rapid problem-solving.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Transparent Security Audits:</strong> Open access to code allows security experts to identify and patch vulnerabilities quickly.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Knowledge Sharing:</strong> Open forums, documentation, and collaborative platforms enhance learning and foster a strong community of practice.</span></span></span></li>\n</ul>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Challenges of Open Source Operating Systems</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Fragmentation:</strong> Multiple distributions can lead to compatibility issues and lack of standardization.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Support and Accountability:</strong> Unlike proprietary systems with formal support, open-source relies on community or third-party providers, which may not meet enterprise SLAs.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Security Risks:</strong> While transparency aids security, it also exposes potential vulnerabilities to malicious actors if not managed vigilantly.</span></span></span></li>\n</ul>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Future Prospects of Open Source OS</strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">The open-source movement continues to expand, with emerging trends such as:</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Cloud-Native Platforms:</strong> Kubernetes and containerized environments rely heavily on Linux-based OS.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Edge and IoT Systems:</strong> Lightweight open-source OS like Ubuntu Core power IoT devices.</span></span></span></li>\n</ul>\n\n<h3><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Open Governance Models:</span></span></span></strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\"> Increasing collaboration between enterprises and communities ensures sustainability and quality control.</span></span></span></h3>\n\n<p align=\"center\" style=\"text-align:center\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Inspect the impact of Open Source Operating Systems on technological innovation, enterprise adoption, and community-driven development. Discuss the benefits, challenges, and future prospects of open-source OS in modern computing environments.</span></span></span></b></p>\n",
+   "SESSION_ID": 109,
+   "TYPE": "lq",
+   "key": 21150
+  }
+ ]
+}

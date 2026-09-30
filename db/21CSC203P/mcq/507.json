@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11362,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Events triggering code</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sequential loops</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Recursion only</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File reading</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Event-driven programming is based on:</span></span></span></b></p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 11362
+  },
+  {
+   "_id": 11363,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Events to occur</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File I/O</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Recursion</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sorting</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">An event loop waits for:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 11363
+  },
+  {
+   "_id": 11364,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">For interactive, responsive applications</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">To sort arrays</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">To store files</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">To compute sums</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Why use event-driven programming?</span></span></span></b><br />\n<br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 11364
+  },
+  {
+   "_id": 11365,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Continuously checking for user actions</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sorting data</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Reading files</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Generating random numbers</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Event loops help by:</span></span></span></b><br />\n&nbsp;</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 11365
+  },
+  {
+   "_id": 11366,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">GUI applications</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Batch jobs</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File storage</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sorting integers</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Event-driven systems suit:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 11366
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11404,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span>A programming paradigm where the flow is determined by events like user actions or sensor outputs.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1850\" data-start=\"1813\">What is event-driven programming?</strong><br data-end=\"1853\" data-start=\"1850\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 11404
+  },
+  {
+   "_id": 11405,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span>Event loop.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2012\" data-start=\"1959\">Name a key component of event-driven programming.</strong><br data-end=\"2015\" data-start=\"2012\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 11405
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11422,
+   "ANSWER": "<p data-end=\"2008\" data-start=\"1821\">In procedural programming, execution flows in a predefined sequence. In event-driven programming, control depends on events like mouse clicks or keypresses.</p>\n\n<p>from tkinter import *</p>\n\n<p>def on_click():<br />\n&nbsp; &nbsp; print(&quot;Button clicked&quot;)</p>\n\n<p>window = Tk()<br />\nButton(window, text=&quot;Click&quot;, command=on_click).pack()<br />\nwindow.mainloop()<br />\n&nbsp;</p>\n\n<p data-end=\"5328\" data-start=\"5130\">Here, <code data-end=\"5148\" data-start=\"5136\">on_click()</code> runs <strong data-end=\"5167\" data-start=\"5154\">only when</strong> the button is clicked, not sequentially. This model improves responsiveness and is suited for GUIs, games, or IoT systems where asynchronous behavior is needed.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Analyze how event-driven programming differs from procedural programming in terms of control flow and responsiveness.</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "lq",
+   "key": 11422
+  }
+ ]
+}

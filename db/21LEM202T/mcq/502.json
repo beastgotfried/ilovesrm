@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36862,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Actions driven by biological needs only</p>\n",
+   "OPT_2": "<p>Behavior guided by right understanding and values in the Self</p>\n",
+   "OPT_3": "<p>Random social behavior</p>\n",
+   "OPT_4": "<p>Mere obedience to laws</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Human conduct is best understood as:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 36862
+  },
+  {
+   "_id": 36863,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Social pressure</p>\n",
+   "OPT_2": "<p>Fear of punishment</p>\n",
+   "OPT_3": "<p>Right understanding of harmony in existence</p>\n",
+   "OPT_4": "<p>Material wealth</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The basis for ethical human conduct is:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 36863
+  },
+  {
+   "_id": 36864,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Proper realization and contemplation</p>\n",
+   "OPT_2": "<p>Contradictions and lack of clarity in the Self</p>\n",
+   "OPT_3": "<p>Mutual respect and trust</p>\n",
+   "OPT_4": "<p>Understanding coexistence</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Disharmonious human conduct arises mainly from:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 36864
+  },
+  {
+   "_id": 36865,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Exploitation of others</p>\n",
+   "OPT_2": "<p>Mutual happiness and prosperity in relationships and society</p>\n",
+   "OPT_3": "<p>Domination over nature</p>\n",
+   "OPT_4": "<p>Accumulation of wealth alone</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is an indicator of right human conduct?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 36865
+  },
+  {
+   "_id": 36866,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Developing sustainable and ethical living at individual, family, society, and global levels</p>\n",
+   "OPT_2": "<p>Promoting competition and conflict</p>\n",
+   "OPT_3": "<p>Maximizing resource consumption</p>\n",
+   "OPT_4": "<p>Ignoring social responsibilities</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Understanding human conduct helps in:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 36866
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36473,
+   "ANSWER": "<p>A student submitting original work instead of copying shows integrity and responsible conduct.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Give an example of responsible human conduct.</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 36473
+  },
+  {
+   "_id": 36474,
+   "ANSWER": "<p>When individuals act with fairness, cooperation, and respect, it builds trust and harmony in families, workplaces, and communities.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How is human conduct connected to harmony in society?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 36474
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122523,
+   "ANSWER": "<p>Ethical human conduct is definite because it is based on right understanding, natural acceptance and harmony at all levels. It is not dependent on time, place, person or situation. When a human being understands harmony in the Self, harmony with the Body, harmony in family, harmony in society and harmony with nature, the conduct becomes definite. Ethical conduct can be understood through <strong data-end=\"1578\" data-start=\"1546\">values, policy and character</strong>. Values tell us what to do and what not to do as a human being. Policy gives the plan for how to live with those values. Character is the expression of those values in behaviour, work and participation. Therefore, ethical human conduct is self-satisfying, people-friendly and eco-friendly.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain the definitiveness of ethical human conduct.</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "lq",
+   "key": 122523
+  }
+ ]
+}

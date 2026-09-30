@@ -1,0 +1,137 @@
+{
+ "mcq": [
+  {
+   "_id": 26587,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Complex design</p>\n",
+   "OPT_2": "<p>B) High cost</p>\n",
+   "OPT_3": "<p>C) Slower communication due to shared bus</p>\n",
+   "OPT_4": "<p>D) Requires multiple processors</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"317\" data-start=\"258\">What is a key disadvantage of the single bus structure?</strong><br data-end=\"320\" data-start=\"317\" />\n<br data-end=\"343\" data-start=\"340\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 26587
+  },
+  {
+   "_id": 26589,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Data Bus</p>\n",
+   "OPT_2": "<p>B) Address Bus</p>\n",
+   "OPT_3": "<p>C) Control Bus</p>\n",
+   "OPT_4": "<p>D) Expansion Bus</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which bus in a computer system is responsible for transferring addresses?<br data-end=\"320\" data-start=\"317\" />\n<br data-end=\"603\" data-start=\"600\" />\n<br data-end=\"623\" data-start=\"620\" />\n<br data-end=\"643\" data-start=\"640\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 26589
+  },
+  {
+   "_id": 49254,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a)&nbsp;<code>1001</code></p>\n",
+   "OPT_2": "<p>b)&nbsp;<code>1011</code></p>\n",
+   "OPT_3": "<p>c)&nbsp;<code>111</code></p>\n",
+   "OPT_4": "<p>d)&nbsp;<code>0111</code></p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the 4-bit Gray code for the binary number&nbsp;<code>1101</code>?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 49254
+  },
+  {
+   "_id": 49255,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) A single binary number representing the decimal value of &quot;Cat&quot;</p>\n",
+   "OPT_2": "<p>b) Three separate 7-bit codes, one for each character</p>\n",
+   "OPT_3": "<p>c) A single 7-bit code that is a hash of the entire word</p>\n",
+   "OPT_4": "<p>d) A 21-bit code where the case of the letters is ignored</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The word &quot;Cat&quot; is to be stored in memory using standard 7-bit ASCII. Which of the following best describes the binary representation?</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 49255
+  },
+  {
+   "_id": 49256,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) To compress the data and reduce storage space</p>\n",
+   "OPT_2": "<p>b) To encrypt the data for secure transmission</p>\n",
+   "OPT_3": "<p>c) To detect a single-bit error that may have occurred during transmission or storage</p>\n",
+   "OPT_4": "<p>d) To correct any single-bit error that is detected</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is the primary function of adding a parity bit to an ASCII code?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 49256
+  }
+ ],
+ "sq": [
+  {
+   "_id": 26585,
+   "ANSWER": "<p>a)&nbsp;<strong>Binary to Gray Code:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Binary:&nbsp;<code>1 1 0 0 1 0 1</code></p>\n\t</li>\n\t<li>\n\t<p>Gray code conversion:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>MSB: Same as binary &rarr;&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 1 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 0 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 0 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 1 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 0 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 1 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Gray Code:&nbsp;<code>1010111</code></strong></p>\n\t</li>\n</ul>\n\n<p>b)&nbsp;<strong>Decimal to BCD:</strong></p>\n\n<ul>\n\t<li>\n\t<p><code>83</code>&nbsp;in BCD:&nbsp;<code>8</code>&nbsp;=&nbsp;<code>1000</code>,&nbsp;<code>3</code>&nbsp;=&nbsp;<code>0011</code></p>\n\t</li>\n\t<li>\n\t<p><strong>BCD:&nbsp;<code>1000 0011</code></strong></p>\n\t</li>\n</ul>\n\n<p>c)&nbsp;<strong>BCD to Excess-3:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Add&nbsp;<code>0011</code>&nbsp;to each BCD group:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p><code>1000</code>&nbsp;+&nbsp;<code>0011</code>&nbsp;=&nbsp;<code>1011</code></p>\n\t\t</li>\n\t\t<li>\n\t\t<p><code>0011</code>&nbsp;+&nbsp;<code>0011</code>&nbsp;=&nbsp;<code>0110</code></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Excess-3:&nbsp;<code>1011 0110</code></strong></p>\n\t</li>\n</ul>\n\n<p>d)&nbsp;<strong>Advantage of Excess-3 over BCD:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>Self-complementing property:</strong>&nbsp;Excess-3 code is self-complementing, meaning the 9&#39;s complement of a decimal number can be obtained simply by complementing (inverting) each bit of its Excess-3 code. This makes subtraction operations easier to implement in digital systems.</p>\n\t</li>\n\t<li>\n\t<p><strong>OR</strong>&nbsp;Avoids issues with all-zero states in BCD representations.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong>Perform the following conversions and answer the subsequent questions:</strong></p>\n\n<p>a) Convert the Binary number&nbsp;<code>1100101</code>&nbsp;to its equivalent Gray code.<br />\nb) Convert the Decimal number&nbsp;<code>83</code>&nbsp;to its BCD (Binary Coded Decimal) representation.<br />\nc) Convert the BCD result from part (b) to its equivalent Excess-3 code.<br />\nd)&nbsp;<strong>Analysis:</strong>&nbsp;In a digital system, why might we use Excess-3 code instead of straight BCD? Provide one specific advantage.</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 26585
+  },
+  {
+   "_id": 49313,
+   "ANSWER": "<p>a)&nbsp;<strong>Completed Table:</strong></p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Character</th>\n\t\t\t<th>7-bit ASCII</th>\n\t\t\t<th>Even Parity Bit (MSB)</th>\n\t\t\t<th>Complete 8-bit Frame</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>T</td>\n\t\t\t<td>1010100</td>\n\t\t\t<td><strong>0</strong>&nbsp;(3 ones - odd, so add 0 for even parity)</td>\n\t\t\t<td><strong>01010100</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>e</td>\n\t\t\t<td>1100101</td>\n\t\t\t<td><strong>1</strong>&nbsp;(4 ones - even, so add 1 for even parity)</td>\n\t\t\t<td><strong>11100101</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>c</td>\n\t\t\t<td>1100011</td>\n\t\t\t<td><strong>0</strong>&nbsp;(4 ones - even, so add 0 for even parity)</td>\n\t\t\t<td><strong>01100011</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>h</td>\n\t\t\t<td>1101000</td>\n\t\t\t<td><strong>1</strong>&nbsp;(3 ones - odd, so add 1 for even parity)</td>\n\t\t\t<td><strong>11101000</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>b)&nbsp;<strong>Error Analysis:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Received byte:&nbsp;<code>1 1100101</code>&nbsp;(Parity bit = 1, Data = 1100101)</p>\n\t</li>\n\t<li>\n\t<p>Count total 1s: Parity bit (1) + Data bits (1100101 has 4 ones) = 5 ones total</p>\n\t</li>\n\t<li>\n\t<p>System uses&nbsp;<strong>even parity</strong>, but total ones = 5 (odd)</p>\n\t</li>\n\t<li>\n\t<p><strong>Conclusion:</strong>&nbsp;The parity check&nbsp;<strong>fails</strong>, indicating that at least one bit error has occurred during transmission. The receiver knows the data is corrupted but cannot determine which bit is wrong or correct the error.</p>\n\t</li>\n</ul>\n\n<p>c)&nbsp;<strong>Fundamental Limitation of Single Parity Bit:</strong></p>\n\n<ul>\n\t<li>\n\t<p>A single parity bit can only detect&nbsp;<strong>odd numbers of bit errors</strong>&nbsp;(1, 3, 5, etc.).</p>\n\t</li>\n\t<li>\n\t<p>If an&nbsp;<strong>even number of bits</strong>&nbsp;(2, 4, 6, etc.) are flipped during transmission, the parity check will still pass, and the errors will go&nbsp;<strong>undetected</strong>.</p>\n\t</li>\n\t<li>\n\t<p>This is why more sophisticated error detection methods like CRC (Cyclic Redundancy Check) or checksums are used in modern communication systems.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong>A computer system transmits the word &quot;Tech&quot; using 7-bit ASCII codes with an even parity bit added as the most significant bit (MSB).</strong></p>\n\n<p>a) Complete the following table showing the transmission frame for each character:</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Character</th>\n\t\t\t<th>7-bit ASCII</th>\n\t\t\t<th>Even Parity Bit (MSB)</th>\n\t\t\t<th>Complete 8-bit Frame</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>T</td>\n\t\t\t<td>1010100</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>e</td>\n\t\t\t<td>1100101</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>c</td>\n\t\t\t<td>1100011</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>h</td>\n\t\t\t<td>1101000</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>b) During transmission, the receiver gets the 8-bit sequence&nbsp;<code>11100101</code>&nbsp;for what was supposed to be the character &#39;e&#39;. What does the receiver conclude about this received byte? Justify your answer.</p>\n\n<p>c)&nbsp;<strong>Critical Thinking:</strong>&nbsp;What is the fundamental limitation of using a single parity bit for error detection in data communication?</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 49313
+  }
+ ],
+ "lq": [
+  {
+   "_id": 49322,
+   "ANSWER": "<h4><strong>a) Conversions:</strong></h4>\n\n<p><strong>1. 8-bit Binary Representation:</strong></p>\n\n<ul>\n\t<li>\n\t<p>157 in binary:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>157 &divide; 2 = 78 remainder&nbsp;<strong>1</strong>&nbsp;(LSB)</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>78 &divide; 2 = 39 remainder&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>39 &divide; 2 = 19 remainder&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>19 &divide; 2 = 9 remainder&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>9 &divide; 2 = 4 remainder&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>4 &divide; 2 = 2 remainder&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>2 &divide; 2 = 1 remainder&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &divide; 2 = 0 remainder&nbsp;<strong>1</strong>&nbsp;(MSB)</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p>Reading remainders from bottom to top:&nbsp;<strong>10011101</strong></p>\n\t</li>\n\t<li>\n\t<p><strong>8-bit Binary:&nbsp;<code>10011101</code></strong></p>\n\t</li>\n</ul>\n\n<p><strong>2. Gray Code Equivalent:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Binary:&nbsp;<code>1 0 0 1 1 1 0 1</code></p>\n\t</li>\n\t<li>\n\t<p>Gray code conversion:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>MSB: Same as binary &rarr;&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 0 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 0 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 1 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 1 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 1 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 0 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 1 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Gray Code:&nbsp;<code>11010011</code></strong></p>\n\t</li>\n</ul>\n\n<p><strong>3. BCD (Binary Coded Decimal) Representation:</strong></p>\n\n<ul>\n\t<li>\n\t<p>157 = 1 (0001), 5 (0101), 7 (0111)</p>\n\t</li>\n\t<li>\n\t<p><strong>BCD:&nbsp;<code>0001 0101 0111</code></strong></p>\n\t</li>\n</ul>\n\n<p><strong>4. Excess-3 Code Representation:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Add 3 (0011) to each BCD digit:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>1 + 3 = 4 &rarr; 0100 &rarr;&nbsp;<strong>0100</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>5 + 3 = 8 &rarr; 1000 &rarr;&nbsp;<strong>1000</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>7 + 3 = 10 &rarr; 1010 &rarr;&nbsp;<strong>1010</strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Excess-3:&nbsp;<code>0100 1000 1010</code></strong></p>\n\t</li>\n</ul>\n\n<hr />\n<h4><strong>b) Error Detection in Gray Code Transmission:</strong></h4>\n\n<p><strong>Original Gray Code (from part a):</strong>&nbsp;<code>11010011</code></p>\n\n<p><strong>Received Gray Code:</strong>&nbsp;<code>11001101</code></p>\n\n<p><strong>Convert Received Gray Code to Binary:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Gray:&nbsp;<code>1 1 0 0 1 1 0 1</code></p>\n\t</li>\n\t<li>\n\t<p>Binary conversion:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>MSB: Same as Gray &rarr;&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 1 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 0 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 0 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 1 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 1 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 0 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 1 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Binary from Received Gray:&nbsp;<code>10001001</code></strong></p>\n\t</li>\n</ul>\n\n<p><strong>Convert Original Binary to Decimal for Comparison:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Original binary:&nbsp;<code>10011101</code>&nbsp;= 128 + 16 + 8 + 4 + 1 =&nbsp;<strong>157</strong></p>\n\t</li>\n\t<li>\n\t<p>Received binary:&nbsp;<code>10001001</code>&nbsp;= 128 + 8 + 1 =&nbsp;<strong>137</strong></p>\n\t</li>\n</ul>\n\n<p><strong>Error Analysis:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>\u2713 Error Detected:</strong>&nbsp;The received Gray code converts to decimal 137 instead of the original 157</p>\n\t</li>\n\t<li>\n\t<p><strong>Error Type:</strong>&nbsp;Transmission error occurred in the noisy channel</p>\n\t</li>\n\t<li>\n\t<p><strong>Bit Positions Changed:</strong>&nbsp;Comparing original Gray&nbsp;<code>11010011</code>&nbsp;with received Gray&nbsp;<code>11001101</code>, bits at positions 3, 4, 5, and 6 (from left, 0-based) have changed</p>\n\t</li>\n\t<li>\n\t<p><strong>Impact:</strong>&nbsp;This represents a significant error where the value changed from 157 to 137</p>\n\t</li>\n</ul>\n\n<hr />\n<h3><b>ANSWER:</b></h3>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Conversion Type</th>\n\t\t\t<th>Result</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>8-bit Binary</td>\n\t\t\t<td><code>10011101</code></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Gray Code</td>\n\t\t\t<td><code>11010011</code></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>BCD</td>\n\t\t\t<td><code>0001 0101 0111</code></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Excess-3</td>\n\t\t\t<td><code>0100 1000 1010</code></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Received Gray</td>\n\t\t\t<td><code>11001101</code>&nbsp;&rarr; Binary&nbsp;<code>10001001</code>&nbsp;(137)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Error Status</td>\n\t\t\t<td><strong>Error Detected</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>The transmission error in the Gray code resulted in an incorrect decimal value of 137 instead of the original 157, confirming that data corruption occurred during transmission through the noisy channel.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong>A industrial control system uses multiple coding schemes for different applications. The system processes the decimal number 157 through various code conversion stages. Analyze the complete conversion process and answer all parts below:</strong></p>\n\n<hr />\n<h4><strong>Part A: Basic Conversions (20 points)</strong></h4>\n\n<p>Perform the following conversions for decimal number 157:</p>\n\n<p>a) Convert 157 to its:</p>\n\n<ul>\n\t<li>\n\t<p>8-bit binary representation</p>\n\t</li>\n\t<li>\n\t<p>Gray code equivalent</p>\n\t</li>\n\t<li>\n\t<p>BCD (Binary Coded Decimal) representation</p>\n\t</li>\n\t<li>\n\t<p>Excess-3 code representation</p>\n\t</li>\n</ul>\n\n<p>b) The Gray code obtained in part (a) is transmitted through a noisy channel and received as&nbsp;<code>11001101</code>. Convert this received Gray code back to binary and identify if an error occurred during transmission.</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "lq",
+   "key": 49322
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "mcq": [
+  {
+   "_id": 49261,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a)&nbsp;<code>10100101</code><br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b)&nbsp;<code>11011011</code><br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c)&nbsp;<code>10100110</code><br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d)&nbsp;<code>00100101</code></p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In an 8-bit Sign-Magnitude system, how is the decimal number -37 represented? (The magnitude of 37 in binary is&nbsp;<code>0100101</code>).</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 49261
+  },
+  {
+   "_id": 49262,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a)&nbsp;<code>0 1101</code>&nbsp;(+13)<br />\n<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b)&nbsp;<code>1 0101</code>&nbsp;(-5)<br />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c)&nbsp;<code>0 0101</code>&nbsp;(+5)<br />\n<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d)&nbsp;<code>1 1101</code>&nbsp;(-13)</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Using 5-bit Sign-Magnitude, what is the result of adding&nbsp;<code>+9</code>&nbsp;and&nbsp;<code>-4</code>? (<code>+9</code>&nbsp;magnitude is&nbsp;<code>1001</code>,&nbsp;<code>+4</code>&nbsp;magnitude is&nbsp;<code>0100</code>).</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 49262
+  },
+  {
+   "_id": 49263,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) It is difficult for humans to understand.<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) It requires complex hardware to perform addition and subtraction because it requires both an adder and a subtractor, and a magnitude comparator.<br />\n.</p>\n",
+   "OPT_3": "<p>c) It cannot represent negative numbers.<br />\n<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) It uses more bits than Two&#39;s Complement</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is a major disadvantage of the Sign-Magnitude representation?</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 49263
+  },
+  {
+   "_id": 49264,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a)&nbsp;<code>0 000</code>&nbsp;(+0)<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b)&nbsp;<code>1 000</code>&nbsp;(-0)<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c)&nbsp;<code>0 111</code>&nbsp;(+7)<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d)&nbsp;<code>1 111</code>&nbsp;(-7)</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Perform the subtraction&nbsp;<code>+7 - +7</code>&nbsp;in 4-bit Sign-Magnitude. What is the result?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 49264
+  },
+  {
+   "_id": 49265,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a)&nbsp;<code>0 000</code>&nbsp;(+0)<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b)&nbsp;<code>1 000</code>&nbsp;(-0)<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c)&nbsp;<code>0 111</code>&nbsp;(+7)<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d)&nbsp;<code>1 111</code>&nbsp;(-7)</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Perform the subtraction&nbsp;<code>+7 - +7</code>&nbsp;in 4-bit Sign-Magnitude. What is the result?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 49265
+  }
+ ],
+ "sq": [
+  {
+   "_id": 49318,
+   "ANSWER": "<p>a)&nbsp;<strong><code>+17 + (-13)</code>&nbsp;in 6-bit Sign-Magnitude:</strong></p>\n\n<ul>\n\t<li>\n\t<p><code>+17</code>&nbsp;=&nbsp;<code>0 10001</code>&nbsp;(sign bit 0, magnitude 10001)</p>\n\t</li>\n\t<li>\n\t<p><code>-13</code>&nbsp;=&nbsp;<code>1 01101</code>&nbsp;(sign bit 1, magnitude 01101)</p>\n\t</li>\n\t<li>\n\t<p><strong>Signs are different</strong>, compare magnitudes: 17 &gt; 13</p>\n\t</li>\n\t<li>\n\t<p>Subtract smaller magnitude from larger:&nbsp;<code>10001 - 01101 = 00100</code></p>\n\t</li>\n\t<li>\n\t<p>Result takes sign of larger magnitude (positive):&nbsp;<code>0 00100</code></p>\n\t</li>\n\t<li>\n\t<p><strong>Final Result:&nbsp;<code>+4</code>&nbsp;=&nbsp;<code>000100</code></strong></p>\n\t</li>\n</ul>\n\n<p>b)&nbsp;<strong><code>-20 + (-15)</code>&nbsp;in 6-bit Sign-Magnitude:</strong></p>\n\n<ul>\n\t<li>\n\t<p><code>-20</code>&nbsp;=&nbsp;<code>1 10100</code>&nbsp;(sign bit 1, magnitude 10100)</p>\n\t</li>\n\t<li>\n\t<p><code>-15</code>&nbsp;=&nbsp;<code>1 01111</code>&nbsp;(sign bit 1, magnitude 01111)</p>\n\t</li>\n\t<li>\n\t<p><strong>Signs are same</strong>&nbsp;(both negative)</p>\n\t</li>\n\t<li>\n\t<p>Add magnitudes:&nbsp;<code>10100 + 01111 = 100011</code></p>\n\t</li>\n\t<li>\n\t<p>This produces a&nbsp;<strong>carry-out</strong>&nbsp;from the 5-bit magnitude field</p>\n\t</li>\n\t<li>\n\t<p><strong>Result: Overflow</strong>&nbsp;- cannot be represented in 6-bit Sign-Magnitude</p>\n\t</li>\n</ul>\n\n<p>c)&nbsp;<strong>Hardware Challenges of Sign-Magnitude:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>Multiple Operations Required:</strong>&nbsp;The hardware must first check the signs, then decide whether to add or subtract magnitudes</p>\n\t</li>\n\t<li>\n\t<p><strong>Magnitude Comparator Needed:</strong>&nbsp;Requires additional circuitry to determine which number has larger magnitude</p>\n\t</li>\n\t<li>\n\t<p><strong>Separate Adder/Subtractor:</strong>&nbsp;Needs both addition and subtraction units</p>\n\t</li>\n\t<li>\n\t<p><strong>Complex Sign Determination:</strong>&nbsp;Final sign depends on both the operation and which magnitude is larger</p>\n\t</li>\n\t<li>\n\t<p><strong>Inefficiency:</strong>&nbsp;This multi-step process is much slower and requires more hardware than Two&#39;s Complement, which uses a single adder for both addition and subtraction</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3><strong>Sign-Magnitude Addition with Analysis</strong></h3>\n\n<p><strong>Perform the following Sign-Magnitude additions using 6-bit representation and analyze the results:</strong></p>\n\n<p>a) Add&nbsp;<code>+17</code>&nbsp;and&nbsp;<code>-13</code>&nbsp;in Sign-Magnitude format<br />\nb) Add&nbsp;<code>-20</code>&nbsp;and&nbsp;<code>-15</code>&nbsp;in Sign-Magnitude format<br />\nc)&nbsp;<strong>Analysis:</strong>&nbsp;What specific hardware challenges make Sign-Magnitude arithmetic inefficient compared to Two&#39;s Complement? Explain with reference to your calculations above.</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "sq",
+   "key": 49318
+  },
+  {
+   "_id": 49319,
+   "ANSWER": "<p>a)&nbsp;<strong><code>+11 - +11</code>&nbsp;in 5-bit Sign-Magnitude:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Convert to addition:&nbsp;<code>+11 + (-11)</code></p>\n\t</li>\n\t<li>\n\t<p><code>+11</code>&nbsp;=&nbsp;<code>0 1011</code>&nbsp;(sign bit 0, magnitude 1011)</p>\n\t</li>\n\t<li>\n\t<p><code>-11</code>&nbsp;=&nbsp;<code>1 1011</code>&nbsp;(sign bit 1, magnitude 1011)</p>\n\t</li>\n\t<li>\n\t<p><strong>Signs are different</strong>, magnitudes are equal</p>\n\t</li>\n\t<li>\n\t<p>Subtract magnitudes:&nbsp;<code>1011 - 1011 = 0000</code></p>\n\t</li>\n\t<li>\n\t<p>Result is zero:&nbsp;<code>0 0000</code>&nbsp;(<strong>positive zero</strong>)</p>\n\t</li>\n</ul>\n\n<p>b)&nbsp;<strong><code>-8 - +8</code>&nbsp;in 5-bit Sign-Magnitude:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Convert to addition:&nbsp;<code>-8 + (-8)</code></p>\n\t</li>\n\t<li>\n\t<p><code>-8</code>&nbsp;=&nbsp;<code>1 1000</code>&nbsp;(sign bit 1, magnitude 1000)</p>\n\t</li>\n\t<li>\n\t<p><code>-8</code>&nbsp;=&nbsp;<code>1 1000</code>&nbsp;(sign bit 1, magnitude 1000)</p>\n\t</li>\n\t<li>\n\t<p><strong>Signs are same</strong>&nbsp;(both negative)</p>\n\t</li>\n\t<li>\n\t<p>Add magnitudes:&nbsp;<code>1000 + 1000 = 10000</code></p>\n\t</li>\n\t<li>\n\t<p>This produces a&nbsp;<strong>carry-out</strong>&nbsp;from the 4-bit magnitude field</p>\n\t</li>\n\t<li>\n\t<p><strong>Result: Overflow</strong>&nbsp;- cannot be represented in 5-bit Sign-Magnitude</p>\n\t</li>\n</ul>\n\n<p>c)&nbsp;<strong>Fundamental Limitations of Sign-Magnitude:</strong></p>\n\n<ol start=\"1\">\n\t<li>\n\t<p><strong>Dual Representation of Zero:</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Evidence: In part (a), we got&nbsp;<code>0 0000</code>&nbsp;(+0)</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>The system can also represent&nbsp;<code>1 0000</code>&nbsp;(-0)</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>This complicates zero-checking logic and is mathematically redundant</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Complex Overflow Handling:</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Evidence: Both examples (b) and previous question showed overflow issues</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Overflow detection is complicated because it depends on both the operation and the signs of operands</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>In part (b), adding two valid numbers (<code>-8 + -8</code>) produced an invalid result due to magnitude overflow</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Additional Limitations Evidenced:</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p><strong>Inefficient Hardware:</strong>&nbsp;As shown in both questions, the need for multiple operations (compare, add/subtract, determine sign) requires complex circuitry</p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>Limited Range:</strong>&nbsp;The magnitude field has one less bit due to sign bit, reducing the range of representable numbers compared to unsigned binary</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong>Perform the following operations using 5-bit Sign-Magnitude representation and identify any special cases:</strong></p>\n\n<p>a) Subtract&nbsp;<code>+11</code>&nbsp;from&nbsp;<code>+11</code>&nbsp;(<code>+11 - +11</code>)<br />\nb) Subtract&nbsp;<code>+8</code>&nbsp;from&nbsp;<code>-8</code>&nbsp;(<code>-8 - +8</code>)<br />\nc)&nbsp;<strong>Critical Analysis:</strong>&nbsp;Identify and explain two fundamental limitations of the Sign-Magnitude representation system evidenced by your calculations.</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "sq",
+   "key": 49319
+  }
+ ],
+ "lq": [
+  {
+   "_id": 49324,
+   "ANSWER": "<h4><strong>a) Addition Operations</strong></h4>\n\n<p><strong>i) (+45) + (+27)</strong></p>\n\n<p><strong>Step 1: Convert to Sign-Magnitude</strong></p>\n\n<ul>\n\t<li>\n\t<p>+45 =&nbsp;<code>0 0101101</code>&nbsp;(Sign 0, Magnitude 0101101)</p>\n\t</li>\n\t<li>\n\t<p>+27 =&nbsp;<code>0 0011011</code>&nbsp;(Sign 0, Magnitude 0011011)</p>\n\t</li>\n</ul>\n\n<p><strong>Step 2: Perform Addition</strong></p>\n\n<ul>\n\t<li>\n\t<p>Signs are same (both positive) &rarr; Add magnitudes</p>\n\t</li>\n\t<li>\n\t<p>Magnitude addition:&nbsp;<code>0101101 + 0011011 = 1001000</code></p>\n\t</li>\n\t<li>\n\t<p>Check for carry: Result is 7 bits&nbsp;<code>1001000</code>&nbsp;(no carry-out)</p>\n\t</li>\n\t<li>\n\t<p>Final sign: Positive (0)</p>\n\t</li>\n</ul>\n\n<p><strong>Result:</strong>&nbsp;<code>0 1001000</code>&nbsp;=&nbsp;<strong>+72</strong>&nbsp;\u2713</p>\n\n<hr />\n<p><strong>ii) (-68) + (+39)</strong></p>\n\n<p><strong>Step 1: Convert to Sign-Magnitude</strong></p>\n\n<ul>\n\t<li>\n\t<p>-68 =&nbsp;<code>1 1000100</code>&nbsp;(Sign 1, Magnitude 1000100)</p>\n\t</li>\n\t<li>\n\t<p>+39 =&nbsp;<code>0 0100111</code>&nbsp;(Sign 0, Magnitude 0100111)</p>\n\t</li>\n</ul>\n\n<p><strong>Step 2: Compare and Operate</strong></p>\n\n<ul>\n\t<li>\n\t<p>Signs are different &rarr; Compare magnitudes</p>\n\t</li>\n\t<li>\n\t<p>68 &gt; 39 &rarr; Subtract smaller from larger:&nbsp;<code>1000100 - 0100111 = 0011101</code></p>\n\t</li>\n\t<li>\n\t<p>Sign of result: Sign of larger magnitude (negative) &rarr; 1</p>\n\t</li>\n</ul>\n\n<p><strong>Result:</strong>&nbsp;<code>1 0011101</code>&nbsp;=&nbsp;<strong>-29</strong>&nbsp;\u2713</p>\n\n<p><strong>iii) (-52) + (-75)</strong></p>\n\n<p><strong>Step 1: Convert to Sign-Magnitude</strong></p>\n\n<ul>\n\t<li>\n\t<p>-52 =&nbsp;<code>1 0110100</code>&nbsp;(Sign 1, Magnitude 0110100)</p>\n\t</li>\n\t<li>\n\t<p>-75 =&nbsp;<code>1 1001011</code>&nbsp;(Sign 1, Magnitude 1001011)</p>\n\t</li>\n</ul>\n\n<p><strong>Step 2: Perform Addition</strong></p>\n\n<ul>\n\t<li>\n\t<p>Signs are same (both negative) &rarr; Add magnitudes</p>\n\t</li>\n\t<li>\n\t<p>Magnitude addition:&nbsp;<code>0110100 + 1001011 = 1111111</code></p>\n\t</li>\n\t<li>\n\t<p>Check for carry: Result is 7 bits&nbsp;<code>1111111</code>&nbsp;(no carry-out)</p>\n\t</li>\n\t<li>\n\t<p>Final sign: Negative (1)</p>\n\t</li>\n</ul>\n\n<p><strong>Result:</strong>&nbsp;<code>1 1111111</code>&nbsp;=&nbsp;<strong>-127</strong>&nbsp;\u2713</p>\n\n<h4><strong>b) Subtraction Operations</strong></h4>\n\n<p><strong>i) (+60) - (+35)</strong></p>\n\n<p><strong>Step 1: Convert to Addition</strong></p>\n\n<ul>\n\t<li>\n\t<p>(+60) - (+35) = (+60) + (-35)</p>\n\t</li>\n\t<li>\n\t<p>+60 =&nbsp;<code>0 0111100</code>&nbsp;(Sign 0, Magnitude 0111100)</p>\n\t</li>\n\t<li>\n\t<p>-35 =&nbsp;<code>1 0100011</code>&nbsp;(Sign 1, Magnitude 0100011)</p>\n\t</li>\n</ul>\n\n<p><strong>Step 2: Compare and Operate</strong></p>\n\n<ul>\n\t<li>\n\t<p>Signs are different &rarr; Compare magnitudes</p>\n\t</li>\n\t<li>\n\t<p>60 &gt; 35 &rarr; Subtract smaller from larger:&nbsp;<code>0111100 - 0100011 = 0011001</code></p>\n\t</li>\n\t<li>\n\t<p>Sign of result: Sign of larger magnitude (positive) &rarr; 0</p>\n\t</li>\n</ul>\n\n<p><strong>Result:</strong>&nbsp;<code>0 0011001</code>&nbsp;=&nbsp;<strong>+25</strong>&nbsp;\u2713</p>\n\n<p><strong>ii) (-42) - (+18)</strong></p>\n\n<p><strong>Step 1: Convert to Addition</strong></p>\n\n<ul>\n\t<li>\n\t<p>(-42) - (+18) = (-42) + (-18)</p>\n\t</li>\n\t<li>\n\t<p>-42 =&nbsp;<code>1 0101010</code>&nbsp;(Sign 1, Magnitude 0101010)</p>\n\t</li>\n\t<li>\n\t<p>-18 =&nbsp;<code>1 0010010</code>&nbsp;(Sign 1, Magnitude 0010010)</p>\n\t</li>\n</ul>\n\n<p><strong>Step 2: Perform Addition</strong></p>\n\n<ul>\n\t<li>\n\t<p>Signs are same (both negative) &rarr; Add magnitudes</p>\n\t</li>\n\t<li>\n\t<p>Magnitude addition:&nbsp;<code>0101010 + 0010010 = 0111100</code></p>\n\t</li>\n\t<li>\n\t<p>Check for carry: Result is 7 bits&nbsp;<code>0111100</code>&nbsp;(no carry-out)</p>\n\t</li>\n\t<li>\n\t<p>Final sign: Negative (1)</p>\n\t</li>\n</ul>\n\n<p><strong>Result:</strong>&nbsp;<code>1 0111100</code>&nbsp;=&nbsp;<strong>-60</strong>&nbsp;\u2713</p>\n\n<p><strong>iii) (+25) - (+25)</strong></p>\n\n<p><strong>Step 1: Convert to Addition</strong></p>\n\n<ul>\n\t<li>\n\t<p>(+25) - (+25) = (+25) + (-25)</p>\n\t</li>\n\t<li>\n\t<p>+25 =&nbsp;<code>0 0011001</code>&nbsp;(Sign 0, Magnitude 0011001)</p>\n\t</li>\n\t<li>\n\t<p>-25 =&nbsp;<code>1 0011001</code>&nbsp;(Sign 1, Magnitude 0011001)</p>\n\t</li>\n</ul>\n\n<p><strong>Step 2: Compare and Operate</strong></p>\n\n<ul>\n\t<li>\n\t<p>Signs are different &rarr; Compare magnitudes</p>\n\t</li>\n\t<li>\n\t<p>Magnitudes are equal (25 = 25) &rarr; Result magnitude = 0</p>\n\t</li>\n\t<li>\n\t<p>Sign determination: When magnitudes are equal and signs different, result is zero</p>\n\t</li>\n\t<li>\n\t<p>By convention, use positive zero</p>\n\t</li>\n</ul>\n\n<p><strong>Result:</strong>&nbsp;<code>0 0000000</code>&nbsp;=&nbsp;<strong>+0</strong>&nbsp;\u2713</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Operation</th>\n\t\t\t<th>Result</th>\n\t\t\t<th>Correct?</th>\n\t\t\t<th>Overflow?</th>\n\t\t\t<th>Special Cases</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>(+45)+(+27)</td>\n\t\t\t<td>+72</td>\n\t\t\t<td>\u2713 Yes</td>\n\t\t\t<td>No</td>\n\t\t\t<td>None</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(-68)+(+39)</td>\n\t\t\t<td>-29</td>\n\t\t\t<td>\u2713 Yes</td>\n\t\t\t<td>No</td>\n\t\t\t<td>Different signs, magnitude subtraction</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(-52)+(-75)</td>\n\t\t\t<td>-127</td>\n\t\t\t<td>\u2713 Yes</td>\n\t\t\t<td>No</td>\n\t\t\t<td><strong>Boundary case</strong>: Largest magnitude negative</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(+60)-(+35)</td>\n\t\t\t<td>+25</td>\n\t\t\t<td>\u2713 Yes</td>\n\t\t\t<td>No</td>\n\t\t\t<td>Subtraction via addition</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(-42)-(+18)</td>\n\t\t\t<td>-60</td>\n\t\t\t<td>\u2713 Yes</td>\n\t\t\t<td>No</td>\n\t\t\t<td>Subtraction of positive from negative</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>(+25)-(+25)</td>\n\t\t\t<td>+0</td>\n\t\t\t<td>\u2713 Yes</td>\n\t\t\t<td>No</td>\n\t\t\t<td><strong>Dual zero</strong>: Result is positive zero</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<hr />\n<h3>&nbsp;</h3>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong>A legacy digital system uses 8-bit Sign-Magnitude representation for all arithmetic operations. The system processes various calculations, and you need to analyze its performance, limitations, and potential improvements. Answer all parts below:</strong></p>\n\n<h4>Perform the following operations using 8-bit Sign-Magnitude representation. Show all steps and identify any special conditions:</h4>\n\n<p>a)&nbsp;<strong>Addition:</strong></p>\n\n<ul>\n\t<li>\n\t<p>i) (+45) + (+27)</p>\n\t</li>\n\t<li>\n\t<p>ii) (-68) + (+39)</p>\n\t</li>\n\t<li>\n\t<p>iii) (-52) + (-75)</p>\n\t</li>\n</ul>\n\n<p>b)&nbsp;<strong>Subtraction:</strong></p>\n\n<ul>\n\t<li>\n\t<p>i) (+60) - (+35)</p>\n\t</li>\n\t<li>\n\t<p>ii) (-42) - (+18)</p>\n\t</li>\n\t<li>\n\t<p>iii) (+25) - (+25)</p>\n\t</li>\n</ul>\n\n<p>c) For each operation above, indicate:</p>\n\n<ul>\n\t<li>\n\t<p>Whether the result is correct</p>\n\t</li>\n\t<li>\n\t<p>Any overflow conditions</p>\n\t</li>\n\t<li>\n\t<p>Any special cases encountered</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 205,
+   "TYPE": "lq",
+   "key": 49324
+  }
+ ]
+}

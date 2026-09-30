@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 18806,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Memory allocation</p>\n",
+   "OPT_2": "<p>Disk scheduling</p>\n",
+   "OPT_3": "<p>Process synchronization</p>\n",
+   "OPT_4": "<p>Deadlock detection</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"356\" data-start=\"306\"><strong data-end=\"354\" data-start=\"310\">What is Peterson&rsquo;s Solution used for?</strong></h3>\n\n<p data-end=\"453\" data-start=\"357\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 18806
+  },
+  {
+   "_id": 18807,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>One</p>\n",
+   "OPT_2": "<p>Two</p>\n",
+   "OPT_3": "<p>Unlimited</p>\n",
+   "OPT_4": "<p>Four</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"576\" data-start=\"500\"><strong data-end=\"574\" data-start=\"504\">Peterson&rsquo;s solution is designed to work for how many processes?</strong></h3>\n\n<p data-end=\"619\" data-start=\"577\">&nbsp;</p>\n\n<p data-end=\"453\" data-start=\"357\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 18807
+  },
+  {
+   "_id": 18808,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Store process IDs</p>\n",
+   "OPT_2": "<p>Indicate interest of a process in entering the critical section</p>\n",
+   "OPT_3": "<p>Hold shared resources</p>\n",
+   "OPT_4": "<p>Schedule I/O operations</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"725\" data-start=\"646\"><strong data-end=\"723\" data-start=\"650\">In Peterson&rsquo;s solution, what is the purpose of the <code data-end=\"714\" data-start=\"706\">flag[]</code> array?</strong></h3>\n\n<p data-end=\"873\" data-start=\"726\">&nbsp;</p>\n\n<p data-end=\"453\" data-start=\"357\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 18808
+  },
+  {
+   "_id": 18809,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>cache memory</p>\n",
+   "OPT_2": "<p>test_and_set instruction</p>\n",
+   "OPT_3": "<p>pipeline architecture</p>\n",
+   "OPT_4": "<p>load balancer</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1050\" data-start=\"960\"><strong data-end=\"1048\" data-start=\"964\">Which of the following is an example of hardware support for synchronization?</strong></h3>\n\n<p data-end=\"1144\" data-start=\"1051\">&nbsp;</p>\n\n<p data-end=\"453\" data-start=\"357\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 18809
+  },
+  {
+   "_id": 18810,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>To reduce power consumption</p>\n",
+   "OPT_2": "<p>To avoid compiler errors</p>\n",
+   "OPT_3": "<p>To ensure indivisible access to memory</p>\n",
+   "OPT_4": "<p>To speed up display output</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1282\" data-start=\"1192\"><strong data-end=\"1280\" data-start=\"1196\">Why do hardware-based synchronization techniques require atomic instructions?</strong></h3>\n\n<p data-end=\"1421\" data-start=\"1283\">&nbsp;</p>\n\n<p data-end=\"453\" data-start=\"357\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 18810
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18811,
+   "ANSWER": "<p><br data-end=\"1575\" data-start=\"1572\" />\nPeterson&rsquo;s solution is a <strong data-end=\"1628\" data-start=\"1600\">software-based algorithm</strong> that provides <strong data-end=\"1663\" data-start=\"1643\">mutual exclusion</strong> between <strong data-end=\"1689\" data-start=\"1672\">two processes</strong>. It uses two variables: <code data-end=\"1722\" data-start=\"1714\">flag[]</code> to indicate interest in entering the critical section, and <code data-end=\"1788\" data-start=\"1782\">turn</code> to determine whose turn it is to enter.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1560\" data-start=\"1519\"><strong data-end=\"1558\" data-start=\"1523\">What is Peterson&rsquo;s solution?</strong></h3>\n\n<p data-end=\"1828\" data-start=\"1561\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 18811
+  },
+  {
+   "_id": 18812,
+   "ANSWER": "<p data-end=\"1918\" data-start=\"1905\">&nbsp;</p>\n\n<ol data-end=\"2060\" data-start=\"1919\">\n\t<li data-end=\"1940\" data-start=\"1919\">\n\t<p data-end=\"1940\" data-start=\"1922\"><strong data-end=\"1938\" data-start=\"1922\">Test-and-Set</strong></p>\n\t</li>\n\t<li data-end=\"2060\" data-start=\"1941\">\n\t<p data-end=\"2060\" data-start=\"1944\"><strong data-end=\"1964\" data-start=\"1944\">Compare-and-Swap</strong><br data-end=\"1967\" data-start=\"1964\" />\n\tThese are atomic instructions that help implement <strong data-end=\"2047\" data-start=\"2017\">lock-based synchronization</strong> in hardware.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1904\" data-start=\"1835\"><strong data-end=\"1902\" data-start=\"1839\">Name two hardware instructions used for synchronization.</strong></h3>\n\n<p data-end=\"1828\" data-start=\"1561\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 18812
+  }
+ ],
+ "lq": [
+  {
+   "_id": 18813,
+   "ANSWER": "<h3 data-end=\"2411\" data-start=\"2383\"><strong data-end=\"2411\" data-start=\"2387\">Peterson&rsquo;s Solution:</strong></h3>\n\n<p data-end=\"2613\" data-start=\"2413\">Peterson&rsquo;s solution is a <strong data-end=\"2461\" data-start=\"2438\">classical algorithm</strong> for achieving <strong data-end=\"2496\" data-start=\"2476\">mutual exclusion</strong> between two processes <strong data-end=\"2525\" data-start=\"2519\">P0</strong> and <strong data-end=\"2536\" data-start=\"2530\">P1</strong> without using hardware instructions. It works by using two shared variables:</p>\n\n<ul data-end=\"2733\" data-start=\"2614\">\n\t<li data-end=\"2686\" data-start=\"2614\">\n\t<p data-end=\"2686\" data-start=\"2616\"><code data-end=\"2625\" data-start=\"2616\">flag[2]</code>: Indicates if a process wants to enter the critical section.</p>\n\t</li>\n\t<li data-end=\"2733\" data-start=\"2687\">\n\t<p data-end=\"2733\" data-start=\"2689\"><code data-end=\"2695\" data-start=\"2689\">turn</code>: Indicates whose turn it is to enter.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"2758\" data-start=\"2740\"><strong data-end=\"2758\" data-start=\"2744\">Algorithm:</strong></h3>\n\n<p><code>// For Process Pi (i = 0 or 1) flag[i] = true; </code></p>\n\n<p><code>turn = j; </code></p>\n\n<p><code>while (flag[j] == true &amp;&amp; turn == j); </code></p>\n\n<p><code>// Wait // </code></p>\n\n<p><code>Critical Section flag[i] = false; </code></p>\n\n<h3 data-end=\"2936\" data-start=\"2916\"><strong data-end=\"2936\" data-start=\"2920\">Explanation:</strong></h3>\n\n<ul data-end=\"3173\" data-start=\"2938\">\n\t<li data-end=\"3049\" data-start=\"2938\">\n\t<p data-end=\"3049\" data-start=\"2940\">When both processes want to enter the critical section, the <code data-end=\"3006\" data-start=\"3000\">turn</code> variable ensures that only one is allowed.</p>\n\t</li>\n\t<li data-end=\"3091\" data-start=\"3050\">\n\t<p data-end=\"3091\" data-start=\"3052\">The other process waits until its turn.</p>\n\t</li>\n\t<li data-end=\"3173\" data-start=\"3092\">\n\t<p data-end=\"3173\" data-start=\"3094\">The <code data-end=\"3106\" data-start=\"3098\">flag[]</code> variable shows the process&#39;s intent to enter the critical section.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3228\" data-start=\"3180\"><strong data-end=\"3228\" data-start=\"3184\">Satisfies Critical Section Requirements:</strong></h3>\n\n<ol data-end=\"3482\" data-start=\"3230\">\n\t<li data-end=\"3310\" data-start=\"3230\">\n\t<p data-end=\"3310\" data-start=\"3233\"><strong data-end=\"3254\" data-start=\"3233\">Mutual Exclusion:</strong> Only one process enters the critical section at a time.</p>\n\t</li>\n\t<li data-end=\"3399\" data-start=\"3311\">\n\t<p data-end=\"3399\" data-start=\"3314\"><strong data-end=\"3327\" data-start=\"3314\">Progress:</strong> If no process is in the critical section, decision cannot be postponed.</p>\n\t</li>\n\t<li data-end=\"3482\" data-start=\"3400\">\n\t<p data-end=\"3482\" data-start=\"3403\"><strong data-end=\"3423\" data-start=\"3403\">Bounded Waiting:</strong> No indefinite postponement; each process gets a fair turn.</p>\n\t</li>\n</ol>\n\n<h3 data-end=\"3509\" data-start=\"3489\"><strong data-end=\"3509\" data-start=\"3493\">Limitations:</strong></h3>\n\n<ul data-end=\"3604\" data-start=\"3510\">\n\t<li data-end=\"3545\" data-start=\"3510\">\n\t<p data-end=\"3545\" data-start=\"3512\">Works only for <strong data-end=\"3544\" data-start=\"3527\">two processes</strong>.</p>\n\t</li>\n\t<li data-end=\"3604\" data-start=\"3546\">\n\t<p data-end=\"3604\" data-start=\"3548\">Assumes <strong data-end=\"3583\" data-start=\"3556\">atomic reads and writes</strong> to shared variables.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3652\" data-start=\"3611\"><strong data-end=\"3652\" data-start=\"3615\">Synchronization Hardware Support:</strong></h3>\n\n<p data-end=\"3746\" data-start=\"3654\">Modern CPUs provide <strong data-end=\"3695\" data-start=\"3674\">atomic operations</strong> that help in synchronization without busy waiting.</p>\n\n<h4 data-end=\"3785\" data-start=\"3748\">&nbsp;Common Hardware Instructions:</h4>\n\n<ol data-end=\"4077\" data-start=\"3787\">\n\t<li data-end=\"3896\" data-start=\"3787\">\n\t<p data-end=\"3813\" data-start=\"3790\"><strong data-end=\"3813\" data-start=\"3790\">Test-and-Set (TAS):</strong></p>\n\n\t<ul data-end=\"3896\" data-start=\"3817\">\n\t\t<li data-end=\"3865\" data-start=\"3817\">\n\t\t<p data-end=\"3865\" data-start=\"3819\">Tests and sets a lock in one atomic operation.</p>\n\t\t</li>\n\t\t<li data-end=\"3896\" data-start=\"3869\">\n\t\t<p data-end=\"3896\" data-start=\"3871\">Prevents race conditions.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"4077\" data-start=\"3898\">\n\t<p data-end=\"3928\" data-start=\"3901\"><strong data-end=\"3928\" data-start=\"3901\">Compare-and-Swap (CAS):</strong></p>\n\n\t<ul data-end=\"4077\" data-start=\"3932\">\n\t\t<li data-end=\"4010\" data-start=\"3932\">\n\t\t<p data-end=\"4010\" data-start=\"3934\">Compares the value of a variable and swaps it if the expected value matches.</p>\n\t\t</li>\n\t\t<li data-end=\"4077\" data-start=\"4014\">\n\t\t<p data-end=\"4077\" data-start=\"4016\">Commonly used for implementing <strong data-end=\"4076\" data-start=\"4047\">lock-free data structures</strong>.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<h3 data-end=\"4116\" data-start=\"4084\"><strong data-end=\"4116\" data-start=\"4088\">Example of Test-and-Set:</strong></h3>\n\n<p><code>boolean test_and_set(boolean *target)</code></p>\n\n<p><code>{ boolean rv = *target; *target = true; return rv; } </code></p>\n\n<ul data-end=\"4307\" data-start=\"4231\">\n\t<li data-end=\"4307\" data-start=\"4231\">\n\t<p data-end=\"4307\" data-start=\"4233\">Returns <code data-end=\"4247\" data-start=\"4241\">true</code> if already locked, otherwise sets lock and returns <code data-end=\"4306\" data-start=\"4299\">false</code>.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2357\" data-start=\"2128\">Explain Peterson&rsquo;s solution for mutual exclusion. How does it work, and how does it meet the requirements of the critical section problem? Also explain how hardware instructions like Test-and-Set help achieve synchronization.</strong></p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "lq",
+   "key": 18813
+  }
+ ]
+}

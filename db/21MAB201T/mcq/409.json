@@ -1,0 +1,154 @@
+{
+ "mcq": [
+  {
+   "_id": 52833,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\((f*g)(t) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^\\infty f(\\tau)g(t-\\tau)d\\tau\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\((f*g)(t) = \\int_{-\\infty}^\\infty f(\\tau)g(t-\\tau)d\\tau\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\((f*g)(t) = \\frac{1}{2\\pi} \\int_{-\\infty}^\\infty f(\\tau)g(\\tau-t)d\\tau\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\((f*g)(t) = \\sqrt{\\frac{2}{\\pi}} \\int_{-\\infty}^\\infty f(t)g(\\tau-t)d\\tau\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{The convolution of two functions } f(t) \\text{ and } g(t) \\text{ in the context of Fourier transforms is defined as:}\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 52833
+  },
+  {
+   "_id": 52834,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot 2\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot (t-1)\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot (5-t)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{2\\pi}} \\cdot 1\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given } f(t) = \\begin{cases} 1, & 0 \\leq t \\leq 3 \\\\ 0, & \\text{otherwise} \\end{cases} \\text{ and } g(t) = \\begin{cases} 1, & 0 \\leq t \\leq 2 \\\\ 0, & \\text{otherwise} \\end{cases}, \\text{ what is } (f*g)(t) \\text{ for } 2 \\leq t < 3?\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 52834
+  },
+  {
+   "_id": 52835,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(F\\{(f*g)(t)\\} = F(s) \\cdot G(s)\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(F\\{(f*g)(t)\\} = F(s) + G(s)\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(F\\{(f*g)(t)\\} = F(s) * G(s)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(F\\{(f*g)(t)\\} = F(s) / G(s)\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{If } F\\{f(t)\\} = F(s) \\text{ and } F\\{g(t)\\} = G(s), \\text{ then according to the convolution theorem:}\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 52835
+  },
+  {
+   "_id": 52836,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\text{The convolution of } f(t) \\text{ and } g(t)\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\text{The sum of } f(t) \\text{ and } g(t)\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\text{The product of } f(t) \\text{ and } g(t)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{The difference of } f(t) \\text{ and } g(t)\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{The inverse Fourier transform of the product } F(s)G(s) \\text{ is:}\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 52836
+  },
+  {
+   "_id": 52837,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\text{Triangular pulse of width } 2a\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\text{Rectangular pulse of width } 2a\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\text{Trapezoidal pulse of width } 3a\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{Parabolic pulse of width } a\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For two rectangular pulses of equal width } a, \\text{ the convolution results in a:}\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 52837
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52815,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Convolution: } (f*g)(x) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) g(x-t) dt\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Theorem: } F[f*g] = F[f] \\cdot F[g]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Proof: } F[f*g] = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} (f*g)(x) e^{i s x} dx\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{2\\pi} \\int_{-\\infty}^{\\infty} \\int_{-\\infty}^{\\infty} f(t) g(x-t) e^{i s x} dt dx\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Change variable } u=x-t, dx=du, x=u+t\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) e^{i s t} dt \\cdot \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} g(u) e^{i s u} du = F(s) G(s)\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Define convolution of two functions. State and prove the convolution theorem for Fourier transforms.}\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 52815
+  },
+  {
+   "_id": 52816,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Let } F(s) = \\frac{1}{1+is}, G(s) = \\frac{1}{2+is}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{We know } f(x) = e^{-x} u(x), g(x) = e^{-2x} u(x) \\text{ where } u(x) \\text{ is unit step}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By convolution theorem, inverse of } F(s)G(s) \\text{ is } (f*g)(x)\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\((f*g)(x) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) g(x-t) dt = \\frac{1}{\\sqrt{2\\pi}} \\int_{0}^{x} e^{-t} e^{-2(x-t)} dt \\text{ for } x>0\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{\\sqrt{2\\pi}} e^{-2x} \\int_{0}^{x} e^{t} dt = \\frac{1}{\\sqrt{2\\pi}} e^{-2x} (e^{x} - 1)\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{1}{\\sqrt{2\\pi}} (e^{-x} - e^{-2x}) \\text{ for } x>0, \\text{ and 0 for } x<0.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Use convolution theorem to find the inverse Fourier transform of } \\frac{1}{(1+is)(2+is)}.\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 52816
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50684,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>The convolution of f(x) and g(x) is: \\((f * g)(x) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) g(x-t) dt\\)</td><td>(3)</td></tr><tr><td>Properties: Commutative \\(f*g = g*f\\), Associative, Distributive</td><td>(2)</td></tr><tr><td>Convolution theorem: \\(\\mathcal{F}\\{f * g\\} = \\mathcal{F}\\{f\\} \\cdot \\mathcal{F}\\{g\\}\\)</td><td>(3)</td></tr><tr><td>Equivalently: \\(\\mathcal{F}^{-1}\\{F(s)G(s)\\} = f(x) * g(x)\\)</td><td>(2)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Define convolution of two functions } f(x) \\text{ and } g(x). \\text{ State the convolution theorem for Fourier transforms.}\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "lq",
+   "key": 50684
+  },
+  {
+   "_id": 50685,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Let \\(F(s) = \\frac{1}{a+is} \\cdot \\frac{1}{b+is}\\)</td><td>(1)</td></tr><tr><td>We know: \\(\\mathcal{F}\\{e^{-ax}u(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{1}{a+is}\\) where \\(u(x)\\) is unit step</td><td>(3)</td></tr><tr><td>Similarly: \\(\\mathcal{F}\\{e^{-bx}u(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{1}{b+is}\\)</td><td>(3)</td></tr><tr><td>By convolution theorem: \\(\\mathcal{F}^{-1}\\{F(s)\\} = \\sqrt{2\\pi} [e^{-ax}u(x) * e^{-bx}u(x)]\\)</td><td>(2)</td></tr><tr><td>Compute convolution: \\((e^{-ax}u(x) * e^{-bx}u(x)) = \\int_{0}^{x} e^{-at} e^{-b(x-t)} dt\\) for \\(x > 0\\)</td><td>(3)</td></tr><tr><td>\\(= e^{-bx} \\int_{0}^{x} e^{(b-a)t} dt = e^{-bx} \\left[ \\frac{e^{(b-a)t}}{b-a} \\right]_{0}^{x}\\)</td><td>(3)</td></tr><tr><td>\\(= \\frac{e^{-ax} - e^{-bx}}{b-a}\\) for \\(x > 0\\), and \\(0\\) for \\(x < 0\\)</td><td>(3)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using convolution theorem, find the inverse Fourier transform of } \\frac{1}{(a+is)(b+is)}.\\)</span></p>",
+   "SESSION_ID": 409,
+   "TYPE": "lq",
+   "key": 50685
+  }
+ ]
+}

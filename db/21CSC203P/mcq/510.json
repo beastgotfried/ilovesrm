@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11377,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A function called on event</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File reader</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sort function</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Loop condition</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A trigger function in GUI means:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 11377
+  },
+  {
+   "_id": 11378,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Events to backend logic</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Files to directories</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Loops to arrays</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Strings to numbers</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Trigger functions connect:</span></span></span></b><br />\n<br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 11378
+  },
+  {
+   "_id": 11379,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">To sort arrays</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">To process data based on user input</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">To compress files</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">To read JSON</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Why integrate backend logic with frontend?</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 11379
+  },
+  {
+   "_id": 11380,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Faster file reads</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">String sorting</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Consistent data flow</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Array merging</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Frontend-backend sync ensures:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 11380
+  },
+  {
+   "_id": 11381,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File path reading</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">JSON writing</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Directory listing</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Backend action triggered by event</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Event response in GUI means:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 11381
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11410,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> A function that executes in response to a specific event, such as clicking a button.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2477\" data-start=\"2375\"><strong data-end=\"2557\" data-start=\"2507\">What is a trigger function in GUI programming?</strong><br data-end=\"2560\" data-start=\"2557\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "sq",
+   "key": 11410
+  },
+  {
+   "_id": 11411,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> It ensures the GUI actions result in correct data processing and functionality.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2477\" data-start=\"2375\"><strong data-end=\"2720\" data-start=\"2652\">Why is integrating backend logic important in event-driven apps?</strong><br data-end=\"2723\" data-start=\"2720\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "sq",
+   "key": 11411
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11425,
+   "ANSWER": "<p data-end=\"6911\" data-start=\"6808\">Effective integration ensures the GUI reflects backend computations dynamically. Example:</p>\n\n<p>from tkinter import *</p>\n\n<p>def calculate():<br />\n&nbsp; &nbsp; try:<br />\n&nbsp; &nbsp; &nbsp; &nbsp; result = eval(entry.get())<br />\n&nbsp; &nbsp; &nbsp; &nbsp; label.config(text=f&quot;Result: {result}&quot;)<br />\n&nbsp; &nbsp; except:<br />\n&nbsp; &nbsp; &nbsp; &nbsp; label.config(text=&quot;Invalid input&quot;)</p>\n\n<p>window = Tk()<br />\nentry = Entry(window)<br />\nentry.pack()<br />\nButton(window, text=&quot;Compute&quot;, command=calculate).pack()<br />\nlabel = Label(window, text=&quot;&quot;)<br />\nlabel.pack()<br />\nwindow.mainloop()<br />\n&nbsp;</p>\n\n<p>Here, user input is processed via backend (<code data-end=\"7333\" data-start=\"7325\">eval()</code>), and output is reflected in GUI. Evaluation shows how events act as the bridge between UI and logic.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Evaluate how backend logic can be effectively integrated with frontend GUI elements using events. Provide a Python example.</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "lq",
+   "key": 11425
+  }
+ ]
+}

@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 21780,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A&sdot;B</p>\n",
+   "OPT_2": "<p>A + B</p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(A  \\oplus B = A \\overline B + \\overline AB\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\overline{A+B}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is the logic function of an EX-OR gate with inputs A and B?</p>\n",
+   "SESSION_ID": 111,
+   "TYPE": "mcq",
+   "key": 21780
+  },
+  {
+   "_id": 21781,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Buffering signals</p>\n",
+   "OPT_2": "<p>Parity checking and generation</p>\n",
+   "OPT_3": "<p>Power regulation</p>\n",
+   "OPT_4": "<p>Voltage amplification</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a common application of an EX-OR gate?</p>\n",
+   "SESSION_ID": 111,
+   "TYPE": "mcq",
+   "key": 21781
+  },
+  {
+   "_id": 21783,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Output equals the other input</p>\n",
+   "OPT_2": "<p>Output is always 0</p>\n",
+   "OPT_3": "<p>Output is always 1</p>\n",
+   "OPT_4": "<p>Output is the negation of the other input</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>How does the EX-OR gate behave when one input is 0?</p>\n",
+   "SESSION_ID": 111,
+   "TYPE": "mcq",
+   "key": 21783
+  },
+  {
+   "_id": 21786,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Inverter</p>\n",
+   "OPT_2": "<p>Equality gate</p>\n",
+   "OPT_3": "<p>Multiplexer</p>\n",
+   "OPT_4": "<p>Demultiplexer</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The EX-NOR gate is also called the:</p>\n",
+   "SESSION_ID": 111,
+   "TYPE": "mcq",
+   "key": 21786
+  },
+  {
+   "_id": 21787,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Voltage level shifting</p>\n",
+   "OPT_2": "<p>Equality detectors</p>\n",
+   "OPT_3": "<p>Analog signal modulation</p>\n",
+   "OPT_4": "<p>Power supply filtering</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is a practical application of the EX-NOR gate?</p>\n",
+   "SESSION_ID": 111,
+   "TYPE": "mcq",
+   "key": 21787
+  }
+ ],
+ "sq": [
+  {
+   "_id": 22070,
+   "ANSWER": "<p data-end=\"504\" data-start=\"321\">Because it performs binary addition <strong data-end=\"465\" data-start=\"446\">without a carry</strong>, following modulo-2 arithmetic, where:</p>\n\n<p>0+0=0,&nbsp;1+0=1,&nbsp;0+1=1,&nbsp;1+1=00 + 0 = 0,\\ 1 + 0 = 1,\\ 0 + 1 = 1,\\ 1 + 1 = 00+0=0,&nbsp;1+0=1,&nbsp;0+1=1,&nbsp;1+1=0</p>\n\n<p data-end=\"606\" data-start=\"559\">This is identical to the <strong data-end=\"605\" data-start=\"584\">EX-OR truth table</strong>.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Why is the EX-OR gate called a &ldquo;mod-2 adder&rdquo; in digital circuits?</p>\n",
+   "SESSION_ID": 111,
+   "TYPE": "sq",
+   "key": 22070
+  },
+  {
+   "_id": 22071,
+   "ANSWER": "<p data-end=\"504\" data-start=\"321\">It outputs <strong data-end=\"1275\" data-start=\"1243\">1 when both inputs are equal</strong>, making it suitable to compare two binary values.<br data-end=\"1328\" data-start=\"1325\" />\nIn a multi-bit comparator, EX-NOR gates are applied <strong data-end=\"1394\" data-start=\"1380\">bit by bit</strong>, and outputs are ANDed to check full equality.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>How does the EX-NOR gate function as a digital comparator?</p>\n",
+   "SESSION_ID": 111,
+   "TYPE": "sq",
+   "key": 22071
+  }
+ ],
+ "lq": [
+  {
+   "_id": 22072,
+   "ANSWER": "<p>\ud83d\udd39 <strong>EX-OR (Exclusive OR) Gate</strong></p>\n\n<h4>\u27a4 <strong>Logic Operation:</strong></h4>\n\n<ul>\n\t<li>\n\t<p>The EX-OR gate is a digital logic gate that outputs <strong>1 only when the two inputs are different</strong>.</p>\n\t</li>\n\t<li>\n\t<p>It performs the logical operation:</p>\n\t<span class=\"math-tex\">\\(Y=A\u2295B=A\u22c5B\u203e+A\u203e\u22c5BY = A \\oplus B = A \\cdot \\overline{B} + \\overline{A} \\cdot B\\)</span></li>\n\t<li>\n\t<p>This means it acts like a <strong>difference detector</strong>.</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>Truth Table:</strong></h4>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>A &oplus; B (Output)</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p>The output is <strong>HIGH (1)</strong> only when <strong>exactly one input is HIGH</strong>.</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>Symbol:</strong></h4>\n\n<ul>\n\t<li>\n\t<p>The symbol of an EX-OR gate looks like an OR gate with an <strong>additional curved line</strong> on the input side.</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>Practical Applications:</strong></h4>\n\n<ol>\n\t<li>\n\t<p><strong>Half-Adder and Full-Adder Circuits</strong>: EX-OR gates are used to calculate the <strong>sum</strong> bit.</p>\n\t</li>\n\t<li>\n\t<p><strong>Parity Generators and Checkers</strong>: To detect even or odd parity in data transmission.</p>\n\t</li>\n\t<li>\n\t<p><strong>Binary Comparators</strong>: To compare two bits and detect mismatches.</p>\n\t</li>\n\t<li>\n\t<p><strong>Bit Flipping / Conditional Inversion</strong>: If one input is used as a control line, the other input can be inverted or passed.</p>\n\t</li>\n</ol>\n\n<hr />\n<h3>\ud83d\udd39 <strong>EX-NOR (Exclusive NOR) Gate</strong></h3>\n\n<h4>\u27a4 <strong>Logic Operation:</strong></h4>\n\n<ul>\n\t<li>\n\t<p>The EX-NOR gate is the complement (inverse) of the EX-OR gate.</p>\n\t</li>\n\t<li>\n\t<p>It outputs <strong>1 only when the inputs are the same</strong> &mdash; either both 0 or both 1.</p>\n\t</li>\n\t<li>\n\t<p>Boolean Expression:</p>\n\t<span class=\"math-tex\">\\(Y=A\u2299B=A\u2295B\u203e=A\u22c5B+A\u203e\u22c5B\u203eY = A \\odot B = \\overline{A \\oplus B} = A \\cdot B + \\overline{A} \\cdot \\overline{B}\\)</span></li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>Truth Table:</strong></h4>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>A \u2299 B (Output)</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p>The output is <strong>HIGH (1)</strong> when both inputs are <strong>equal</strong>.</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>Symbol:</strong></h4>\n\n<ul>\n\t<li>\n\t<p>The EX-NOR gate symbol looks like an EX-OR gate with a small <strong>inversion circle</strong> (NOT) at the output.</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>Practical Applications:</strong></h4>\n\n<ol>\n\t<li>\n\t<p><strong>Digital Comparators</strong>: Used to check if two inputs are <strong>equal</strong>.</p>\n\t</li>\n\t<li>\n\t<p><strong>Equality Detectors in Authentication Systems</strong>: Verifies if a user&rsquo;s input matches a stored pattern.</p>\n\t</li>\n\t<li>\n\t<p><strong>Phase Detectors in Communication Systems</strong>: Compares two signals&#39; phases.</p>\n\t</li>\n\t<li>\n\t<p><strong>Logic Matching in Memory Systems</strong>: Helps determine if an address or data pattern matches a reference.</p>\n\t</li>\n</ol>\n\n<hr />\n<h3>\ud83d\udd38 <strong>Comparison of EX-OR and EX-NOR Gates:</strong></h3>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Feature</th>\n\t\t\t<th>EX-OR Gate</th>\n\t\t\t<th>EX-NOR Gate</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Logic Condition</td>\n\t\t\t<td>Output is 1 when inputs differ</td>\n\t\t\t<td>Output is 1 when inputs match</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Boolean Expression</td>\n\t\t\t<td>A&oplus;BA \\oplus B</td>\n\t\t\t<td>A&oplus;B&oline;\\overline{A \\oplus B}</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Functionality</td>\n\t\t\t<td>Difference detector</td>\n\t\t\t<td>Equality checker</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Common Use</td>\n\t\t\t<td>Adders, parity circuits</td>\n\t\t\t<td>Comparators, match verification</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<hr />\n<h3>\ud83d\udd39 <strong>Conclusion:</strong></h3>\n\n<p>EX-OR and EX-NOR gates are essential in <strong>decision-making logic</strong> where <strong>comparison and parity checking</strong> are needed.</p>\n\n<ul>\n\t<li>\n\t<p>EX-OR is widely used in arithmetic circuits like <strong>adders</strong>.</p>\n\t</li>\n\t<li>\n\t<p>EX-NOR is crucial in <strong>equality checkers</strong> and <strong>digital authentication</strong>.</p>\n\t</li>\n</ul>\n\n<p>Together, they enhance the efficiency and accuracy of complex digital systems in communication, computing, and control.</p>\n\n<hr />\n<p>Would you like follow-up questions or circuit design examples based on these gates?</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Explain in detail the logic operation, truth table, and practical applications of the EX-OR (Exclusive OR) gate and EX-NOR (Exclusive NOR) gate. Compare their functions and highlight their importance in digital logic systems.</p>\n",
+   "SESSION_ID": 111,
+   "TYPE": "lq",
+   "key": 22072
+  }
+ ]
+}

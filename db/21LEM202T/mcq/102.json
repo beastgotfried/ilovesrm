@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 31222,
+   "ANSWER": 4,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Trust</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Love</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Care</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Guidance</span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Feeling of responsibility toward the&nbsp;<b>self</b>&nbsp;of my relative&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 31222
+  },
+  {
+   "_id": 31223,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Other humans are complementary to me</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It leads to unconditional relationship</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Effort to accentuate the difference</span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Definite and absolute feeling</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which of the following is not true about excellence?&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 31223
+  },
+  {
+   "_id": 31224,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It ensures people fear you</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It fosters love, gratitude, and respect</span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It creates a sense of competition</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">&nbsp;It is only important in religious practices</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">What is the significance of reverence in human relationships?</span></span></span></p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 31224
+  },
+  {
+   "_id": 31225,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Constant criticism and blame</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Effective communication and respect for each other</span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Avoiding family interactions</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Giving importance only to personal goals</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which of the following is essential for maintaining harmony in the family?&nbsp;&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 31225
+  },
+  {
+   "_id": 31227,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Care</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Guidance</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Respect</span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Reverence</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The statement &ndash; &ldquo;the other is similar to me and we are complementary to each other&rdquo; indicates the&nbsp;complete content of_____________&nbsp;&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 31227
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36283,
+   "ANSWER": "<p>he two basic human aspirations are <strong data-end=\"375\" data-start=\"362\">happiness</strong> (continuous inner satisfaction) and <strong data-end=\"426\" data-start=\"412\">prosperity</strong> (availability of physical facilities). They can be fulfilled through <strong data-end=\"519\" data-start=\"496\">Right Understanding</strong> (correct knowledge of self, relationships, and nature) and <strong data-end=\"593\" data-start=\"579\">Resolution</strong> (living in harmony with self, family, society, and nature based on this understanding).</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What are the two basic human aspirations, and how can they be fulfilled?</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "sq",
+   "key": 36283
+  },
+  {
+   "_id": 36284,
+   "ANSWER": "<p>Applying Right Understanding in daily living to create harmony.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is Resolution in human life?</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "sq",
+   "key": 36284
+  }
+ ],
+ "lq": [
+  {
+   "_id": 116184,
+   "ANSWER": "<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q1 &mdash; Value of a unit and human values</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>The value of a unit is its participation in the larger order, and this participation is its role; the context is always the larger order, and the value is definite. For example, the value of wheat with respect to the human being is to provide nutrition to the body, and a kilogram of wheat provides the same nutrition irrespective of time, place or person. Similarly, the role of a piece of chalk is to write on the blackboard in the classroom. Extending this to the human being: my participation in the family defines my value in the family. For order in the family, behaviour with a feeling of respect is valuable; I feel happy when I have a feeling of respect, and the other feels happy when I express respect. Living in accordance with human values with human beings leads to mutual happiness, and with the rest of nature leads to mutual prosperity.</span></span></span></p>\n\n<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q2 &mdash; The four guidelines for value education</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>(1) Universal &mdash; applicable to all human beings and true at all times and places; not dependent on sect, creed, nationality, race or gender. (2) Rational &mdash; amenable to logical reasoning and open to questioning; not based on blind beliefs, dogmas or sermons. (3) Verifiable &mdash; the student should be able to verify the values on his or her own right, on the basis of natural acceptance and experiential validation, rather than being asked to believe because it is stated. (4) Leading to Harmony &mdash; the values must enable us to live in peace and harmony within ourselves and with others (human beings and the rest of nature), covering all dimensions of being and all levels of living.</span></span></span></p>\n\n<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q3 &mdash; Values and skills</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>Understanding what to do relates to values (value education), while learning how to do relates to skills (skill development); doing is the practice, guided by values. The problems around us are more due to a lack of values than a lack of skills, but both are required &mdash; values and skills are complementary. As for priority, values (what to do) come first and then skills (how to do), though both are needed. The present state of education has become skill-biased, and there is a need to make appropriate changes so that education helps students understand values and develop holistically.</span></span></span></p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:5px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q1. </b>&ldquo;Value of a unit is its participation in the larger order.&rdquo; Explain this statement with examples, and extend it to human values.</span></span></span></p>\n\n<div style=\"border-bottom:solid #aaaaaa 1.0pt; padding:0cm 0cm 1.0pt 0cm\">\n<p style=\"border:none; margin-top:8px; margin-bottom:9px; padding:0cm\">&nbsp;</p>\n\n<p style=\"border:none; margin-top:8px; margin-bottom:9px; padding:0cm\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q2. </b>State and explain the four guidelines for value education.</span></span></span></p>\n\n<p style=\"border:none; margin-top:8px; margin-bottom:9px; padding:0cm\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q3. </b>Distinguish between values and skills. Explain their priority and complementarity, and comment on the present state of education.</span></span></span></p>\n</div>\n",
+   "SESSION_ID": 102,
+   "TYPE": "lq",
+   "key": 116184
+  }
+ ]
+}

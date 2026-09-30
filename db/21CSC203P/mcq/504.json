@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11305,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Symbols and expressions</p>\n",
+   "OPT_2": "<p>Only numbers</p>\n",
+   "OPT_3": "<p>Arrays</p>\n",
+   "OPT_4": "<p>Files</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Symbolic programming manipulates:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 11305
+  },
+  {
+   "_id": 11311,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Exact algebraic calculations</p>\n",
+   "OPT_2": "<p>Sorting lists</p>\n",
+   "OPT_3": "<p>Generating random numbers</p>\n",
+   "OPT_4": "<p>Reading files</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Symbolic computation helps in:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 11311
+  },
+  {
+   "_id": 11312,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Numeric to symbolic forms</p>\n",
+   "OPT_2": "<p>Strings to files</p>\n",
+   "OPT_3": "<p>Loops to conditions</p>\n",
+   "OPT_4": "<p>Arrays to lists</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Symbolic programming transitions computation from:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 11312
+  },
+  {
+   "_id": 11313,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>An unknown quantity</p>\n",
+   "OPT_2": "<p>A fixed number</p>\n",
+   "OPT_3": "<p>A file handle</p>\n",
+   "OPT_4": "<p>A GUI element</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>A symbolic variable in SymPy can represent:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 11313
+  },
+  {
+   "_id": 11315,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Operations and symbols</p>\n",
+   "OPT_2": "<p>Files and directories</p>\n",
+   "OPT_3": "<p>Loops and conditions</p>\n",
+   "OPT_4": "<p>Arrays and lists</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Algebraic structures are collections of:</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 11315
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11398,
+   "ANSWER": "<p>Symbolic programming deals with symbols and expressions rather than only numeric values.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1152\" data-start=\"1119\">What is symbolic programming?</strong><br data-end=\"1155\" data-start=\"1152\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 11398
+  },
+  {
+   "_id": 11399,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span>An example is&nbsp;<span class=\"math-tex\">\\(x^2+3x+2\\)</span></p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1296\" data-start=\"1251\">Give an example of a symbolic expression.</strong><br data-end=\"1299\" data-start=\"1296\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 11399
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11419,
+   "ANSWER": "<p data-end=\"2008\" data-start=\"1821\">Symbolic programming allows manipulation of algebraic structures without numerical approximation.<br data-end=\"2782\" data-start=\"2779\" />\nUsing Sympy in Python:</p>\n\n<p>from sympy import symbols, expand, factor</p>\n\n<p>x = symbols(&#39;x&#39;)<br />\nexpr = (x + 2)**2<br />\nexpanded = expand(expr)<br />\nfactored = factor(expanded)</p>\n\n<p>print(expanded) &nbsp;# x**2 + 4*x + 4<br />\nprint(factored) &nbsp;# (x + 2)**2</p>\n\n<p>This retains exact forms, enables simplification, factoring, and substitution. Unlike numerical methods, symbolic computation ensures algebraic integrity, which is vital in proof-based tasks or when exact forms are required (e.g., calculus, theorem solving).</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Evaluate the advantages of symbolic programming over numerical computation in algebraic problem-solving. Use Python symbolic expressions to justify your answer.</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "lq",
+   "key": 11419
+  }
+ ]
+}

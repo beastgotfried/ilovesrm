@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 12359,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Equal-sized pages</p>\n",
+   "OPT_2": "<p>Fixed-size blocks</p>\n",
+   "OPT_3": "<p>Logical segments such as code, stack, and data</p>\n",
+   "OPT_4": "<p>Bytes</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In segmentation, a program is divided into:</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 12359
+  },
+  {
+   "_id": 12362,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Page number is invalid</p>\n",
+   "OPT_2": "<p>Stack overflows</p>\n",
+   "OPT_3": "<p>Logical address is outside the segment limit</p>\n",
+   "OPT_4": "<p>Segment is fragmented</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In segmentation, a <strong data-end=\"878\" data-start=\"856\">segmentation fault</strong> occurs when:</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 12362
+  },
+  {
+   "_id": 12363,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Virtual memory to real memory</p>\n",
+   "OPT_2": "<p>Logical address to physical address</p>\n",
+   "OPT_3": "<p>Segment number to offset</p>\n",
+   "OPT_4": "<p>Pages to segments</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The <strong data-end=\"1768\" data-start=\"1754\">page table</strong> is used to map:</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 12363
+  },
+  {
+   "_id": 12366,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>1000 bytes</p>\n",
+   "OPT_2": "<p>1024 bits</p>\n",
+   "OPT_3": "<p>1024 bytes</p>\n",
+   "OPT_4": "<p>1000 bits</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>A page size of 1KB means each page contains</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 12366
+  },
+  {
+   "_id": 12367,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Segmentation</p>\n",
+   "OPT_2": "<p>Paging</p>\n",
+   "OPT_3": "<p>Swapping</p>\n",
+   "OPT_4": "<p>Demand paging</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following suffers from <strong data-end=\"2202\" data-start=\"2176\">internal fragmentation</strong>?</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 12367
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12517,
+   "ANSWER": "<ul data-end=\"1976\" data-start=\"1833\">\n\t<li data-end=\"2208\" data-start=\"2153\">\n\t<p data-end=\"2208\" data-start=\"2155\">Page size = 4 KB = 2&sup1;&sup2; bytes &rarr; Offset = <strong data-end=\"2206\" data-start=\"2195\">12 bits</strong></p>\n\t</li>\n\t<li data-end=\"2271\" data-start=\"2209\">\n\t<p data-end=\"2271\" data-start=\"2211\">Total address = 16 bits &rarr; Page number = <strong data-end=\"2271\" data-start=\"2251\">16 &ndash; 12 = 4 bits</strong><br />\n\t&nbsp;</p>\n\t</li>\n\t<li data-end=\"2271\" data-start=\"2209\">\n\t<p data-end=\"2271\" data-start=\"2211\"><strong data-end=\"2296\" data-start=\"2276\">Mark Allocation:</strong></p>\n\t</li>\n</ul>\n\n<ul data-end=\"2145\" data-start=\"2004\">\n\t<li data-end=\"2343\" data-start=\"2299\">\n\t<p data-end=\"2343\" data-start=\"2301\">Correct calculation of offset bits &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"2393\" data-start=\"2344\">\n\t<p data-end=\"2393\" data-start=\"2346\">Correct calculation of page number bits &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"2442\" data-start=\"2394\">\n\t<p data-end=\"2442\" data-start=\"2396\">Final correct answer &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2065\" data-start=\"1993\">A logical address is 16 bits long. The page size is 4 KB.</h3>\n\n<p data-end=\"2135\" data-start=\"2066\">How many bits are used for the page number and how many for offset?**</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 12517
+  },
+  {
+   "_id": 12518,
+   "ANSWER": "<ul data-end=\"1976\" data-start=\"1833\">\n\t<li data-end=\"2208\" data-start=\"2153\">\n\t<p data-end=\"635\" data-start=\"441\">Segmentation divides the logical memory into <strong data-end=\"529\" data-start=\"502\">variable-sized segments</strong> based on logical divisions like code, stack, data, etc. Each segment has a <strong data-end=\"634\" data-start=\"605\">segment number and offset</strong>.</p>\n\n\t<p data-end=\"832\" data-start=\"637\">Unlike paging, segmentation is <strong data-end=\"697\" data-start=\"668\">visible to the programmer</strong> and represents the program&#39;s logical structure, whereas paging divides memory into fixed-size blocks and is <strong data-end=\"831\" data-start=\"806\">invisible to the user</strong>.</p>\n\n\t<p data-end=\"859\" data-start=\"834\"><strong data-end=\"857\" data-start=\"837\">Mark Allocation:</strong></p>\n\t</li>\n</ul>\n\n<ul data-end=\"2145\" data-start=\"2004\">\n\t<li data-end=\"896\" data-start=\"860\">\n\t<p data-end=\"896\" data-start=\"862\">Definition of segmentation &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"929\" data-start=\"897\">\n\t<p data-end=\"929\" data-start=\"899\">Comparison with paging &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"981\" data-start=\"930\">\n\t<p data-end=\"981\" data-start=\"932\">Terminology and clarity &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2065\" data-start=\"1993\">What is segmentation in memory management? How is it different from paging?</h3>\n",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 12518
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12611,
+   "ANSWER": "<p data-end=\"652\" data-start=\"536\"><strong data-end=\"552\" data-start=\"536\">Segmentation</strong> is a memory management technique where each process is divided into <strong data-end=\"641\" data-start=\"621\">logical segments</strong> such as:</p>\n\n<ul data-end=\"694\" data-start=\"653\">\n\t<li data-end=\"668\" data-start=\"653\">\n\t<p data-end=\"668\" data-start=\"655\">Code (text)</p>\n\t</li>\n\t<li data-end=\"677\" data-start=\"669\">\n\t<p data-end=\"677\" data-start=\"671\">Data</p>\n\t</li>\n\t<li data-end=\"687\" data-start=\"678\">\n\t<p data-end=\"687\" data-start=\"680\">Stack</p>\n\t</li>\n\t<li data-end=\"694\" data-start=\"688\">\n\t<p data-end=\"694\" data-start=\"690\">Heap</p>\n\t</li>\n</ul>\n\n<p data-end=\"818\" data-start=\"696\">Each segment is given a <strong data-end=\"728\" data-start=\"720\">name</strong> and a <strong data-end=\"745\" data-start=\"735\">length</strong>, and the memory is allocated <strong data-end=\"795\" data-start=\"775\">non-contiguously</strong> but logically grouped.</p>\n\n<p data-end=\"876\" data-start=\"820\">Every address in segmentation is a <strong data-end=\"875\" data-start=\"855\">two-part address</strong>:</p>\n\n<ul data-end=\"931\" data-start=\"877\">\n\t<li data-end=\"899\" data-start=\"877\">\n\t<p data-end=\"899\" data-start=\"879\"><strong data-end=\"897\" data-start=\"879\">Segment Number</strong></p>\n\t</li>\n\t<li data-end=\"931\" data-start=\"900\">\n\t<p data-end=\"931\" data-start=\"902\"><strong data-end=\"931\" data-start=\"902\">Offset within the segment</strong></p>\n\t</li>\n</ul>\n\n<p data-end=\"987\" data-start=\"933\">The OS maintains a <strong data-end=\"969\" data-start=\"952\">segment table</strong> for each process:</p>\n\n<ul data-end=\"1069\" data-start=\"988\">\n\t<li data-end=\"1069\" data-start=\"988\">\n\t<p data-end=\"1069\" data-start=\"990\">Each entry contains the <strong data-end=\"1030\" data-start=\"1014\">base address</strong> and <strong data-end=\"1053\" data-start=\"1035\">limit (length)</strong> of the segment.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1105\" data-start=\"1071\">\ud83e\udde0 <strong data-end=\"1105\" data-start=\"1074\">Advantages of Segmentation:</strong></p>\n\n<ul data-end=\"1250\" data-start=\"1106\">\n\t<li data-end=\"1147\" data-start=\"1106\">\n\t<p data-end=\"1147\" data-start=\"1108\">Matches <strong data-end=\"1145\" data-start=\"1116\">logical program structure</strong></p>\n\t</li>\n\t<li data-end=\"1209\" data-start=\"1148\">\n\t<p data-end=\"1209\" data-start=\"1150\">Supports <strong data-end=\"1178\" data-start=\"1159\">dynamic growing</strong> segments (e.g., stack, heap)</p>\n\t</li>\n\t<li data-end=\"1250\" data-start=\"1210\">\n\t<p data-end=\"1250\" data-start=\"1212\">Allows <strong data-end=\"1233\" data-start=\"1219\">protection</strong> at segment level</p>\n\t</li>\n</ul>\n\n<p data-end=\"1273\" data-start=\"1252\">\ud83d\uded1 <strong data-end=\"1273\" data-start=\"1255\">Disadvantages:</strong></p>\n\n<ul data-end=\"1354\" data-start=\"1274\">\n\t<li data-end=\"1313\" data-start=\"1274\">\n\t<p data-end=\"1313\" data-start=\"1276\">Leads to <strong data-end=\"1311\" data-start=\"1285\">external fragmentation</strong></p>\n\t</li>\n\t<li data-end=\"1354\" data-start=\"1314\">\n\t<p data-end=\"1354\" data-start=\"1316\">Requires <strong data-end=\"1354\" data-start=\"1325\">complex memory management&nbsp; (60%)</strong></p>\n\t</li>\n</ul>\n\n<hr data-end=\"1359\" data-start=\"1356\" />\n<h3 data-end=\"1390\" data-start=\"1361\">\u2705 Comparison with Paging: (40%)</h3>\n\n<table data-end=\"1917\" data-start=\"1392\">\n\t<thead data-end=\"1466\" data-start=\"1392\">\n\t\t<tr data-end=\"1466\" data-start=\"1392\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"1413\" data-start=\"1392\">Aspect</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"1439\" data-start=\"1413\">Segmentation</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"1466\" data-start=\"1439\">Paging</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"1917\" data-start=\"1543\">\n\t\t<tr data-end=\"1617\" data-start=\"1543\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1564\" data-start=\"1543\">Division</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1590\" data-start=\"1564\">Logical (code, data)</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1617\" data-start=\"1590\">Fixed-size blocks</td>\n\t\t</tr>\n\t\t<tr data-end=\"1692\" data-start=\"1618\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1639\" data-start=\"1618\">Fragmentation</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1665\" data-start=\"1639\">External</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1692\" data-start=\"1665\">Internal</td>\n\t\t</tr>\n\t\t<tr data-end=\"1767\" data-start=\"1693\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1714\" data-start=\"1693\">Address</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1740\" data-start=\"1714\">Segment + Offset</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1767\" data-start=\"1740\">Page Number + Offset</td>\n\t\t</tr>\n\t\t<tr data-end=\"1842\" data-start=\"1768\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1789\" data-start=\"1768\">Table Maintained</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1815\" data-start=\"1789\">Segment Table</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1842\" data-start=\"1815\">Page Table</td>\n\t\t</tr>\n\t\t<tr data-end=\"1917\" data-start=\"1843\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1864\" data-start=\"1843\">View</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1890\" data-start=\"1864\">Programmer&#39;s perspective</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1917\" data-start=\"1890\">OS-level (transparent)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1770\" data-start=\"1716\">Explain segmentation in memory management. How does it differ from paging?</p>\n\n<p data-end=\"1817\" data-start=\"1772\">&nbsp;</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "lq",
+   "key": 12611
+  }
+ ]
+}

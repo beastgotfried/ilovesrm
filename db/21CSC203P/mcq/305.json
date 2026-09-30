@@ -1,0 +1,149 @@
+{
+ "mcq": [
+  {
+   "_id": 10407,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Writing Java methods to fetch data</p>\n",
+   "OPT_2": "<p>Using SQL statements to describe <em data-end=\"414\" data-start=\"408\">what</em> result is needed</p>\n",
+   "OPT_3": "<p>Using loops to process records manually</p>\n",
+   "OPT_4": "<p>Implementing database queries in Python scripts</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best represents <strong data-end=\"315\" data-start=\"288\">declarative programming</strong> in databases?<br data-end=\"332\" data-start=\"329\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 10407
+  },
+  {
+   "_id": 10408,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>JDBC Driver</p>\n",
+   "OPT_2": "<p>JDBC API</p>\n",
+   "OPT_3": "<p>ResultSet</p>\n",
+   "OPT_4": "<p>Statement object</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>In the context of JDBC, which component provides the implementation of JDBC interfaces?<br data-end=\"769\" data-start=\"766\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 10408
+  },
+  {
+   "_id": 10409,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Acts as an interface to load SQL drivers</p>\n",
+   "OPT_2": "<p>Represents a session with the database</p>\n",
+   "OPT_3": "<p>Fetches rows from a table</p>\n",
+   "OPT_4": "<p>Prints query results to the console</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>What is the purpose of <code data-end=\"2263\" data-start=\"2251\">Connection</code> object in JDBC architecture?<br data-end=\"2295\" data-start=\"2292\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 10409
+  },
+  {
+   "_id": 10410,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Executes queries</p>\n",
+   "OPT_2": "<p>Manages SQL connections</p>\n",
+   "OPT_3": "<p>Loads and manages database drivers</p>\n",
+   "OPT_4": "<p>Reads database schemas</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>What role does <code data-end=\"1961\" data-start=\"1946\">DriverManager</code> play in JDBC?<br data-end=\"1978\" data-start=\"1975\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 10410
+  },
+  {
+   "_id": 10411,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Loading driver</p>\n",
+   "OPT_2": "<p>Creating connection</p>\n",
+   "OPT_3": "<p>Parsing XML</p>\n",
+   "OPT_4": "<p>Executing SQL statement</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Which of the following <strong data-end=\"1014\" data-start=\"1002\">does not</strong> belong to the steps of JDBC architecture?<br data-end=\"1059\" data-start=\"1056\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 10411
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10412,
+   "ANSWER": "<p>Declarative programming focuses on describing <em data-end=\"2808\" data-start=\"2802\">what</em> the program should accomplish. SQL is a declarative language because users state what data is needed without specifying how to retrieve it. For example: <code data-end=\"3012\" data-start=\"2962\">SELECT name FROM employees WHERE salary &gt; 50000;</code></p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Define declarative programming and explain how SQL represents this paradigm in databases.<br data-end=\"2740\" data-start=\"2737\" />\n<br data-end=\"2756\" data-start=\"2753\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "sq",
+   "key": 10412
+  },
+  {
+   "_id": 10413,
+   "ANSWER": "<ul data-end=\"3425\" data-start=\"3095\">\n\t<li data-end=\"3146\" data-start=\"3095\">\n\t<p data-end=\"3146\" data-start=\"3097\"><strong data-end=\"3110\" data-start=\"3097\">JDBC API:</strong> Provides interfaces for DB access</p>\n\t</li>\n\t<li data-end=\"3201\" data-start=\"3147\">\n\t<p data-end=\"3201\" data-start=\"3149\"><strong data-end=\"3173\" data-start=\"3149\">JDBC Driver Manager:</strong> Loads and manages drivers</p>\n\t</li>\n\t<li data-end=\"3275\" data-start=\"3202\">\n\t<p data-end=\"3275\" data-start=\"3204\"><strong data-end=\"3221\" data-start=\"3204\">JDBC Drivers:</strong> Vendor-specific implementations to interact with DB</p>\n\t</li>\n\t<li data-end=\"3318\" data-start=\"3276\">\n\t<p data-end=\"3318\" data-start=\"3278\"><strong data-end=\"3293\" data-start=\"3278\">Connection:</strong> Establishes link to DB</p>\n\t</li>\n\t<li data-end=\"3386\" data-start=\"3319\">\n\t<p data-end=\"3386\" data-start=\"3321\"><strong data-end=\"3371\" data-start=\"3321\">Statement/PreparedStatement/CallableStatement:</strong> Executes SQL</p>\n\t</li>\n\t<li data-end=\"3425\" data-start=\"3387\">\n\t<p data-end=\"3425\" data-start=\"3389\"><strong data-end=\"3403\" data-start=\"3389\">ResultSet:</strong> Stores retrieved data</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3094\" data-start=\"3019\">Describe the key components of JDBC architecture.<br data-end=\"3079\" data-start=\"3076\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "sq",
+   "key": 10413
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10414,
+   "ANSWER": "<p>import java.sql.*;</p>\n\n<p>public class UniversityApp {<br />\n&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String url = &quot;jdbc:mysql://localhost:3306/university&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String user = &quot;root&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String password = &quot;admin&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String sql = &quot;SELECT name, marks FROM students WHERE department = ? AND marks &gt; ?&quot;;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; try {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Load driver<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Create connection<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Connection con = DriverManager.getConnection(url, user, password);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Prepare statement (imperative)<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; PreparedStatement pstmt = con.prepareStatement(sql);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pstmt.setString(1, &quot;CSE&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pstmt.setInt(2, 75);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Execute query<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ResultSet rs = pstmt.executeQuery();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Process result<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while (rs.next()) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(rs.getString(&quot;name&quot;) + &quot; - &quot; + rs.getInt(&quot;marks&quot;));<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Close resources<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; rs.close();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; pstmt.close();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; con.close();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } catch (Exception e) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; e.printStackTrace();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; }<br />\n}</p>\n\n<p data-end=\"5831\" data-start=\"5815\"><strong data-end=\"5831\" data-start=\"5815\">Explanation:</strong></p>\n\n<table data-end=\"6234\" data-start=\"5833\">\n\t<thead data-end=\"5867\" data-start=\"5833\">\n\t\t<tr data-end=\"5867\" data-start=\"5833\">\n\t\t\t<th data-col-size=\"md\" data-end=\"5845\" data-start=\"5833\">Component</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"5852\" data-start=\"5845\">Type</th>\n\t\t\t<th data-col-size=\"md\" data-end=\"5867\" data-start=\"5852\">Description</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"6234\" data-start=\"5902\">\n\t\t<tr data-end=\"5977\" data-start=\"5902\">\n\t\t\t<td data-col-size=\"md\" data-end=\"5929\" data-start=\"5902\">SQL Query (<code data-end=\"5927\" data-start=\"5915\">SELECT ...</code>)</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"5943\" data-start=\"5929\">Declarative</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"5977\" data-start=\"5943\">Specifies <em data-end=\"5961\" data-start=\"5955\">what</em> data to fetch</td>\n\t\t</tr>\n\t\t<tr data-end=\"6074\" data-start=\"5978\">\n\t\t\t<td data-col-size=\"md\" data-end=\"5995\" data-start=\"5978\">Java JDBC Code</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"6008\" data-start=\"5995\">Imperative</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"6074\" data-start=\"6008\">Specifies <em data-end=\"6025\" data-start=\"6020\">how</em> to connect, prepare, execute, and process data</td>\n\t\t</tr>\n\t\t<tr data-end=\"6234\" data-start=\"6075\">\n\t\t\t<td data-col-size=\"md\" data-end=\"6141\" data-start=\"6075\"><code data-end=\"6092\" data-start=\"6077\">DriverManager</code>, <code data-end=\"6106\" data-start=\"6094\">Connection</code>, <code data-end=\"6127\" data-start=\"6108\">PreparedStatement</code>, <code data-end=\"6140\" data-start=\"6129\">ResultSet</code></td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"6159\" data-start=\"6141\">JDBC Components</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"6234\" data-start=\"6159\">Follow the architecture pipeline: Driver &rarr; Manager &rarr; Statement &rarr; Result</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>TypYou are developing a university management system in Java. You need to retrieve student data based on department and marks using <strong data-end=\"4201\" data-start=\"4193\">JDBC</strong>, and you must use <strong data-end=\"4247\" data-start=\"4220\">declarative SQL queries</strong> within an <strong data-end=\"4287\" data-start=\"4258\">imperative JDBC structure</strong>. You also need to explain the JDBC architecture behind this process.</p>\n\n<p data-end=\"4410\" data-start=\"4363\">Write Java code to do the following:</p>\n\n<ul data-end=\"4626\" data-start=\"4411\">\n\t<li data-end=\"4431\" data-start=\"4411\">\n\t<p data-end=\"4431\" data-start=\"4413\">Load JDBC driver</p>\n\t</li>\n\t<li data-end=\"4456\" data-start=\"4432\">\n\t<p data-end=\"4456\" data-start=\"4434\">Establish connection</p>\n\t</li>\n\t<li data-end=\"4534\" data-start=\"4457\">\n\t<p data-end=\"4534\" data-start=\"4459\">Retrieve names and scores of students in &#39;CSE&#39; department with marks &gt; 75</p>\n\t</li>\n\t<li data-end=\"4626\" data-start=\"4535\">\n\t<p data-end=\"4626\" data-start=\"4537\">Close all resources<br data-end=\"4559\" data-start=\"4556\" />\n\tAlso, explain which parts are declarative and which are imperative.</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 305,
+   "TYPE": "lq",
+   "key": 10414
+  }
+ ]
+}

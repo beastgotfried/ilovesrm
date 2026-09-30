@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 26576,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) The result of an ALU operation</p>\n",
+   "OPT_2": "<p>B) The address of the next instruction</p>\n",
+   "OPT_3": "<p>C) The data fetched from memory</p>\n",
+   "OPT_4": "<p>D) The name of the program</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What does the Program Counter (PC) hold?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 26576
+  },
+  {
+   "_id": 26578,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) MAR</p>\n",
+   "OPT_2": "<p>B) MDR</p>\n",
+   "OPT_3": "<p>C) IR</p>\n",
+   "OPT_4": "<p>D) PC</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which register temporarily holds the instruction being executed?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 26578
+  },
+  {
+   "_id": 26579,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) To hold the data from I/O</p>\n",
+   "OPT_2": "<p>B) To store operation codes</p>\n",
+   "OPT_3": "<p>C) To point to the address in memory from which data is to be read or written</p>\n",
+   "OPT_4": "<p>D) To decode the instruction</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the function of the Memory Address Register (MAR)?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 26579
+  },
+  {
+   "_id": 26581,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It resets to zero</p>\n",
+   "OPT_2": "<p>B) It is disabled</p>\n",
+   "OPT_3": "<p>C) It increments to point to the next instruction</p>\n",
+   "OPT_4": "<p>D) It copies the IR</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What happens to the Program Counter (PC) after an instruction is executed?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 26581
+  },
+  {
+   "_id": 26583,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It executes the main program</p>\n",
+   "OPT_2": "<p>B) It performs multiplication</p>\n",
+   "OPT_3": "<p>C) It handles I/O requests and resumes the interrupted task</p>\n",
+   "OPT_4": "<p>D) It restarts the processor</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the role of an Interrupt Service Routine (ISR)?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 26583
+  }
+ ],
+ "sq": [
+  {
+   "_id": 26584,
+   "ANSWER": "<p>The Program Counter holds the address of the <strong data-end=\"1808\" data-start=\"1788\">next instruction</strong> to be executed. During execution, its contents are transferred to the <strong data-end=\"1912\" data-start=\"1879\">Memory Address Register (MAR)</strong> to fetch the instruction from memory. After each fetch, the PC is <strong data-end=\"1994\" data-start=\"1979\">incremented</strong> to point to the next instruction, ensuring sequential execution of the program.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the role of the Program Counter (PC) in instruction execution?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 26584
+  },
+  {
+   "_id": 49384,
+   "ANSWER": "<p data-end=\"45\" data-start=\"17\">Binary <strong data-end=\"35\" data-start=\"24\">101101\u2082</strong> &rarr; Decimal</p>\n\n<p data-end=\"70\" data-start=\"47\">Calculate place values:</p>\n\n<ul data-end=\"162\" data-start=\"72\">\n\t<li data-end=\"87\" data-start=\"72\">\n\t<p data-end=\"87\" data-start=\"74\">1 &times; 2\u2075 = 32</p>\n\t</li>\n\t<li data-end=\"102\" data-start=\"88\">\n\t<p data-end=\"102\" data-start=\"90\">0 &times; 2\u2074 = 0</p>\n\t</li>\n\t<li data-end=\"117\" data-start=\"103\">\n\t<p data-end=\"117\" data-start=\"105\">1 &times; 2&sup3; = 8</p>\n\t</li>\n\t<li data-end=\"132\" data-start=\"118\">\n\t<p data-end=\"132\" data-start=\"120\">1 &times; 2&sup2; = 4</p>\n\t</li>\n\t<li data-end=\"147\" data-start=\"133\">\n\t<p data-end=\"147\" data-start=\"135\">0 &times; 2&sup1; = 0</p>\n\t</li>\n\t<li data-end=\"162\" data-start=\"148\">\n\t<p data-end=\"162\" data-start=\"150\">1 &times; 2\u2070 = 1</p>\n\t</li>\n</ul>\n\n<p data-end=\"173\" data-start=\"164\">Add them:</p>\n\n<p data-end=\"206\" data-start=\"175\"><strong data-end=\"206\" data-start=\"175\">32 + 0 + 8 + 4 + 0 + 1 = 45</strong></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"827\" data-start=\"786\">Convert the binary number 101101\u2082 to its decimal equivalent.</h3>\n\n<p data-end=\"912\" data-start=\"828\">&nbsp;</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 49384
+  }
+ ],
+ "lq": [
+  {
+   "_id": 26586,
+   "ANSWER": "<p data-end=\"2891\" data-start=\"2739\">The process of executing a program in a computer system follows a <strong data-end=\"2835\" data-start=\"2805\">Fetch&ndash;Decode&ndash;Execute Cycle</strong>, coordinated by various registers and the control unit.</p>\n\n<h3 data-end=\"2931\" data-start=\"2893\">\ud83d\udd38 Step-by-Step Execution Process:</h3>\n\n<ol data-end=\"4207\" data-start=\"2933\">\n\t<li data-end=\"3026\" data-start=\"2933\">\n\t<p data-end=\"3026\" data-start=\"2936\"><strong data-end=\"2956\" data-start=\"2936\">Program Loading:</strong><br data-end=\"2959\" data-start=\"2956\" />\n\tThe program is loaded into <strong data-end=\"3004\" data-start=\"2989\">main memory</strong> from an input device.</p>\n\t</li>\n\t<li data-end=\"3412\" data-start=\"3028\">\n\t<p data-end=\"3062\" data-start=\"3031\"><strong data-end=\"3060\" data-start=\"3031\">Fetching the Instruction:</strong></p>\n\n\t<ul data-end=\"3412\" data-start=\"3066\">\n\t\t<li data-end=\"3146\" data-start=\"3066\">\n\t\t<p data-end=\"3146\" data-start=\"3068\">The <strong data-end=\"3096\" data-start=\"3072\">Program Counter (PC)</strong> is set to the address of the first instruction.</p>\n\t\t</li>\n\t\t<li data-end=\"3225\" data-start=\"3150\">\n\t\t<p data-end=\"3225\" data-start=\"3152\">The PC&rsquo;s value is transferred to the <strong data-end=\"3222\" data-start=\"3189\">Memory Address Register (MAR)</strong>.</p>\n\t\t</li>\n\t\t<li data-end=\"3269\" data-start=\"3229\">\n\t\t<p data-end=\"3269\" data-start=\"3231\">A <strong data-end=\"3248\" data-start=\"3233\">Read signal</strong> is sent to memory.</p>\n\t\t</li>\n\t\t<li data-end=\"3412\" data-start=\"3273\">\n\t\t<p data-end=\"3412\" data-start=\"3275\">The instruction is fetched from memory into the <strong data-end=\"3353\" data-start=\"3323\">Memory Data Register (MDR)</strong> and then transferred to the <strong data-end=\"3411\" data-start=\"3382\">Instruction Register (IR)</strong>.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3588\" data-start=\"3414\">\n\t<p data-end=\"3448\" data-start=\"3417\"><strong data-end=\"3446\" data-start=\"3417\">Decoding the Instruction:</strong></p>\n\n\t<ul data-end=\"3588\" data-start=\"3452\">\n\t\t<li data-end=\"3588\" data-start=\"3452\">\n\t\t<p data-end=\"3588\" data-start=\"3454\">The <strong data-end=\"3474\" data-start=\"3458\">Control Unit</strong> examines the operation field of the instruction in the IR to determine the type of operation (e.g., ADD, LOAD).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3838\" data-start=\"3590\">\n\t<p data-end=\"3617\" data-start=\"3593\"><strong data-end=\"3615\" data-start=\"3593\">Fetching Operands:</strong></p>\n\n\t<ul data-end=\"3838\" data-start=\"3621\">\n\t\t<li data-end=\"3726\" data-start=\"3621\">\n\t\t<p data-end=\"3726\" data-start=\"3623\">If the operation requires operands, the addresses are sent to MAR, and operands are fetched into MDR.</p>\n\t\t</li>\n\t\t<li data-end=\"3838\" data-start=\"3730\">\n\t\t<p data-end=\"3838\" data-start=\"3732\">These are then passed to <strong data-end=\"3786\" data-start=\"3757\">General-Purpose Registers</strong> or directly to the <strong data-end=\"3837\" data-start=\"3806\">Arithmetic Logic Unit (ALU)</strong>.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"4089\" data-start=\"3840\">\n\t<p data-end=\"3875\" data-start=\"3843\"><strong data-end=\"3873\" data-start=\"3843\">Executing the Instruction:</strong></p>\n\n\t<ul data-end=\"4089\" data-start=\"3879\">\n\t\t<li data-end=\"3940\" data-start=\"3879\">\n\t\t<p data-end=\"3940\" data-start=\"3881\">The ALU performs the specified operation on the operands.</p>\n\t\t</li>\n\t\t<li data-end=\"3974\" data-start=\"3944\">\n\t\t<p data-end=\"3974\" data-start=\"3946\">The result is sent to MDR.</p>\n\t\t</li>\n\t\t<li data-end=\"4089\" data-start=\"3978\">\n\t\t<p data-end=\"4089\" data-start=\"3980\">The address of the destination (memory/register) is sent to MAR, and a <strong data-end=\"4060\" data-start=\"4051\">Write</strong> operation stores the result.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"4207\" data-start=\"4091\">\n\t<p data-end=\"4113\" data-start=\"4094\"><strong data-end=\"4111\" data-start=\"4094\">PC Increment:</strong></p>\n\n\t<ul data-end=\"4207\" data-start=\"4117\">\n\t\t<li data-end=\"4207\" data-start=\"4117\">\n\t\t<p data-end=\"4207\" data-start=\"4119\">After execution, the <strong data-end=\"4161\" data-start=\"4140\">PC is incremented</strong> to point to the next instruction in sequence.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<h3 data-end=\"4242\" data-start=\"4209\">\ud83d\udd38 Role of Registers and ALU:</h3>\n\n<ul data-end=\"4599\" data-start=\"4244\">\n\t<li data-end=\"4295\" data-start=\"4244\">\n\t<p data-end=\"4295\" data-start=\"4246\"><strong data-end=\"4253\" data-start=\"4246\">MAR</strong>: Holds the address of memory to access.</p>\n\t</li>\n\t<li data-end=\"4363\" data-start=\"4296\">\n\t<p data-end=\"4363\" data-start=\"4298\"><strong data-end=\"4305\" data-start=\"4298\">MDR</strong>: Temporarily holds data read from or written to memory.</p>\n\t</li>\n\t<li data-end=\"4424\" data-start=\"4364\">\n\t<p data-end=\"4424\" data-start=\"4366\"><strong data-end=\"4372\" data-start=\"4366\">IR</strong>: Stores the instruction currently being executed.</p>\n\t</li>\n\t<li data-end=\"4473\" data-start=\"4425\">\n\t<p data-end=\"4473\" data-start=\"4427\"><strong data-end=\"4433\" data-start=\"4427\">PC</strong>: Keeps track of instruction sequence.</p>\n\t</li>\n\t<li data-end=\"4542\" data-start=\"4474\">\n\t<p data-end=\"4542\" data-start=\"4476\"><strong data-end=\"4505\" data-start=\"4476\">General-Purpose Registers</strong>: Temporarily hold data or results.</p>\n\t</li>\n\t<li data-end=\"4599\" data-start=\"4543\">\n\t<p data-end=\"4599\" data-start=\"4545\"><strong data-end=\"4552\" data-start=\"4545\">ALU</strong>: Performs all arithmetic and logic operations.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"4619\" data-start=\"4601\">\ud83d\udd38 Conclusion:</h3>\n\n<p data-end=\"4817\" data-start=\"4621\">This cycle continues until the program completes. The coordination between memory, registers, ALU, and control unit ensures <strong data-end=\"4779\" data-start=\"4745\">smooth and efficient execution</strong> of instructions in a computer system.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain the typical operational steps of executing a program in a computer system. Include the role of registers and ALU.</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "lq",
+   "key": 26586
+  }
+ ]
+}

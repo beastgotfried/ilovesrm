@@ -1,0 +1,184 @@
+{
+ "mcq": [
+  {
+   "_id": 21674,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1&rsquo;s complement inverts all bits, while 2&rsquo;s complement inverts all bits and adds 1</p>\n",
+   "OPT_2": "<p>1&rsquo;s complement adds 1 to the binary number, 2&rsquo;s complement does not</p>\n",
+   "OPT_3": "<p>2&rsquo;s complement inverts all bits, 1&rsquo;s complement does not</p>\n",
+   "OPT_4": "<p>Both represent negative numbers the same way</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is the main difference between 1&rsquo;s complement and 2&rsquo;s complement representation of negative numbers?</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 21674
+  },
+  {
+   "_id": 21677,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Add the carry back to the least significant bit of the result</p>\n",
+   "OPT_2": "<p>Ignore the carry and take the result as is</p>\n",
+   "OPT_3": "<p>Subtract the carry from the result</p>\n",
+   "OPT_4": "<p>Convert the result to 2&rsquo;s complement</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>When performing binary subtraction using 1&rsquo;s complement, what must you do if there is an end-around carry after addition?</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 21677
+  },
+  {
+   "_id": 21680,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>1011</p>\n",
+   "OPT_2": "<p>1010</p>\n",
+   "OPT_3": "<p>1101</p>\n",
+   "OPT_4": "<p>1110</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is the 2&rsquo;s complement of the 4-bit binary number 0101?</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 21680
+  },
+  {
+   "_id": 21681,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Add the 1&rsquo;s complement of the subtrahend to the minuend and add 1 to the result</p>\n",
+   "OPT_2": "<p>Add the minuend and the subtrahend directly</p>\n",
+   "OPT_3": "<p>Add the 2&rsquo;s complement of the subtrahend to the minuend</p>\n",
+   "OPT_4": "<p>Subtract the bits one by one starting from the least significant bit</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>How do you perform binary subtraction using 2&rsquo;s complement?</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 21681
+  },
+  {
+   "_id": 21687,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>10011 (5-bit result)</p>\n",
+   "OPT_2": "<p>0011 (3 in decimal)</p>\n",
+   "OPT_3": "<p>1111 (-1 in decimal)</p>\n",
+   "OPT_4": "<p>1000 (-8 in decimal)</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Given two 4-bit binary numbers, 1101 (-3 in 2&rsquo;s complement) and 0110 (+6), what is the result of their addition using 2&rsquo;s complement arithmetic?</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 21687
+  }
+ ],
+ "sq": [
+  {
+   "_id": 21789,
+   "ANSWER": "<p>BCD stands for Binary Coded Decimal. Each decimal digit (0-9) is represented by its 4-bit binary equivalent.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong>1. What does BCD stand for and how is a decimal digit represented in BCD?</strong></p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 21789
+  },
+  {
+   "_id": 21790,
+   "ANSWER": "<p>&nbsp;</p>\n\n<p>57 in decimal is represented as:<br data-end=\"464\" data-start=\"461\" />\n5 &rarr; 0101<br data-end=\"475\" data-start=\"472\" />\n7 &rarr; 0111<br data-end=\"486\" data-start=\"483\" />\nSo, BCD = 0101 0111</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Represent the decimal number 57 in BCD format.</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 21790
+  },
+  {
+   "_id": 21792,
+   "ANSWER": "<p>BCD makes it easier to convert between human-readable decimal numbers and binary form and avoids rounding errors in decimal arithmetic.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Why is BCD preferred over pure binary for representing decimal numbers in some applications?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 21792
+  },
+  {
+   "_id": 21793,
+   "ANSWER": "<p data-end=\"916\" data-start=\"894\">25 in BCD: 0010 0101</p>\n\n<p data-end=\"941\" data-start=\"919\">37 in BCD: 0011 0111</p>\n\n<p data-end=\"961\" data-start=\"943\">Add:<br data-end=\"950\" data-start=\"947\" />\n0010 0101</p>\n\n<p data-end=\"989\" data-start=\"964\">0011 0111&nbsp;= 0101 1100</p>\n\n<p data-end=\"1121\" data-start=\"991\">Since the right nibble (1100 = 12 decimal) is greater than 9, add 6 (0110):<br data-end=\"1069\" data-start=\"1066\" />\n1100 + 0110 = 1 0010 (carry 1, digit becomes 0010)</p>\n\n<p data-end=\"1171\" data-start=\"1123\">Add carry to left nibble:<br data-end=\"1151\" data-start=\"1148\" />\n0101 + 0001 = 0110</p>\n\n<p data-end=\"1209\" data-start=\"1173\">Final result: 0110 0010 &rarr; 62 decimal</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Perform the BCD addition of 25 and 37. Show any necessary correction.</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 21793
+  },
+  {
+   "_id": 21795,
+   "ANSWER": "<p data-end=\"916\" data-start=\"894\">Add 6 (0110 in binary) to the digit, and propagate any carry to the next higher digit.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What correction is applied during BCD addition when the sum of a digit exceeds 9?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 21795
+  },
+  {
+   "_id": 21796,
+   "ANSWER": "<ul data-end=\"1574\" data-start=\"380\">\n\t<li data-end=\"651\" data-start=\"380\">\n\t<p data-end=\"651\" data-start=\"382\"><strong data-end=\"397\" data-start=\"382\">BCD System:</strong><br data-end=\"400\" data-start=\"397\" />\n\tBCD stands for Binary Coded Decimal. In this system, each decimal digit (0 to 9) is represented separately by its 4-bit binary equivalent. Instead of representing the entire number as a single binary number, each decimal digit is encoded individually.</p>\n\t</li>\n\t<li data-end=\"935\" data-start=\"653\">\n\t<p data-end=\"935\" data-start=\"655\"><strong data-end=\"687\" data-start=\"655\">Difference from Pure Binary:</strong><br data-end=\"690\" data-start=\"687\" />\n\tIn pure binary representation, the entire decimal number is converted into one binary number (e.g., decimal 9 is 1001, decimal 10 is 1010, decimal 1947 is 11110011011). BCD keeps each digit independent, so it&rsquo;s easier to convert back to decimal.</p>\n\t</li>\n\t<li data-end=\"1090\" data-start=\"937\">\n\t<p data-end=\"1090\" data-start=\"939\"><strong data-end=\"970\" data-start=\"939\">BCD Representation of 1947:</strong><br data-end=\"973\" data-start=\"970\" />\n\tDecimal digits: 1, 9, 4, 7<br data-end=\"1002\" data-start=\"999\" />\n\tBCD:<br data-end=\"1009\" data-start=\"1006\" />\n\t1 &rarr; 0001<br data-end=\"1020\" data-start=\"1017\" />\n\t9 &rarr; 1001<br data-end=\"1031\" data-start=\"1028\" />\n\t4 &rarr; 0100<br data-end=\"1042\" data-start=\"1039\" />\n\t7 &rarr; 0111<br data-end=\"1053\" data-start=\"1050\" />\n\tSo, 1947 in BCD = 0001 1001 0100 0111</p>\n\t</li>\n\t<li data-end=\"1307\" data-start=\"1092\">\n\t<p data-end=\"1111\" data-start=\"1094\"><strong data-end=\"1109\" data-start=\"1094\">Advantages:</strong></p>\n\n\t<ul data-end=\"1307\" data-start=\"1114\">\n\t\t<li data-end=\"1175\" data-start=\"1114\">\n\t\t<p data-end=\"1175\" data-start=\"1116\">Easier to convert to/from human-readable decimal numbers.</p>\n\t\t</li>\n\t\t<li data-end=\"1237\" data-start=\"1178\">\n\t\t<p data-end=\"1237\" data-start=\"1180\">Useful in digital displays like calculators and clocks.</p>\n\t\t</li>\n\t\t<li data-end=\"1307\" data-start=\"1240\">\n\t\t<p data-end=\"1307\" data-start=\"1242\">Reduces errors in decimal calculations caused by binary rounding.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1574\" data-start=\"1309\">\n\t<p data-end=\"1331\" data-start=\"1311\"><strong data-end=\"1329\" data-start=\"1311\">Disadvantages:</strong></p>\n\n\t<ul data-end=\"1574\" data-start=\"1334\">\n\t\t<li data-end=\"1413\" data-start=\"1334\">\n\t\t<p data-end=\"1413\" data-start=\"1336\">Less storage efficient (each digit takes 4 bits even if the value is less).</p>\n\t\t</li>\n\t\t<li data-end=\"1502\" data-start=\"1416\">\n\t\t<p data-end=\"1502\" data-start=\"1418\">Arithmetic operations are slower and more complex due to the need for corrections.</p>\n\t\t</li>\n\t\t<li data-end=\"1574\" data-start=\"1505\">\n\t\t<p data-end=\"1574\" data-start=\"1507\">Not suitable for large number computations compared to pure binary.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1579\" data-start=\"1576\" />",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Explain the Binary Coded Decimal (BCD) system in detail. How does it differ from pure binary representation? Provide the BCD representation for the decimal number 1947. Discuss the advantages and disadvantages of using BCD over pure binary.</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 21796
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21800,
+   "ANSWER": "<ul data-end=\"1574\" data-start=\"380\">\n\t<li data-end=\"651\" data-start=\"380\">\n\t<p data-end=\"651\" data-start=\"382\"><strong data-end=\"397\" data-start=\"382\">BCD System:</strong><br data-end=\"400\" data-start=\"397\" />\n\tBCD stands for Binary Coded Decimal. In this system, each decimal digit (0 to 9) is represented separately by its 4-bit binary equivalent. Instead of representing the entire number as a single binary number, each decimal digit is encoded individually.</p>\n\t</li>\n\t<li data-end=\"935\" data-start=\"653\">\n\t<p data-end=\"935\" data-start=\"655\"><strong data-end=\"687\" data-start=\"655\">Difference from Pure Binary:</strong><br data-end=\"690\" data-start=\"687\" />\n\tIn pure binary representation, the entire decimal number is converted into one binary number (e.g., decimal 9 is 1001, decimal 10 is 1010, decimal 1947 is 11110011011). BCD keeps each digit independent, so it&rsquo;s easier to convert back to decimal.</p>\n\t</li>\n\t<li data-end=\"1090\" data-start=\"937\">\n\t<p data-end=\"1090\" data-start=\"939\"><strong data-end=\"970\" data-start=\"939\">BCD Representation of 1947:</strong><br data-end=\"973\" data-start=\"970\" />\n\tDecimal digits: 1, 9, 4, 7<br data-end=\"1002\" data-start=\"999\" />\n\tBCD:<br data-end=\"1009\" data-start=\"1006\" />\n\t1 &rarr; 0001<br data-end=\"1020\" data-start=\"1017\" />\n\t9 &rarr; 1001<br data-end=\"1031\" data-start=\"1028\" />\n\t4 &rarr; 0100<br data-end=\"1042\" data-start=\"1039\" />\n\t7 &rarr; 0111<br data-end=\"1053\" data-start=\"1050\" />\n\tSo, 1947 in BCD = 0001 1001 0100 0111</p>\n\t</li>\n\t<li data-end=\"1307\" data-start=\"1092\">\n\t<p data-end=\"1111\" data-start=\"1094\"><strong data-end=\"1109\" data-start=\"1094\">Advantages:</strong></p>\n\n\t<ul data-end=\"1307\" data-start=\"1114\">\n\t\t<li data-end=\"1175\" data-start=\"1114\">\n\t\t<p data-end=\"1175\" data-start=\"1116\">Easier to convert to/from human-readable decimal numbers.</p>\n\t\t</li>\n\t\t<li data-end=\"1237\" data-start=\"1178\">\n\t\t<p data-end=\"1237\" data-start=\"1180\">Useful in digital displays like calculators and clocks.</p>\n\t\t</li>\n\t\t<li data-end=\"1307\" data-start=\"1240\">\n\t\t<p data-end=\"1307\" data-start=\"1242\">Reduces errors in decimal calculations caused by binary rounding.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1574\" data-start=\"1309\">\n\t<p data-end=\"1331\" data-start=\"1311\"><strong data-end=\"1329\" data-start=\"1311\">Disadvantages:</strong></p>\n\n\t<ul data-end=\"1574\" data-start=\"1334\">\n\t\t<li data-end=\"1413\" data-start=\"1334\">\n\t\t<p data-end=\"1413\" data-start=\"1336\">Less storage efficient (each digit takes 4 bits even if the value is less).</p>\n\t\t</li>\n\t\t<li data-end=\"1502\" data-start=\"1416\">\n\t\t<p data-end=\"1502\" data-start=\"1418\">Arithmetic operations are slower and more complex due to the need for corrections.</p>\n\t\t</li>\n\t\t<li data-end=\"1574\" data-start=\"1505\">\n\t\t<p data-end=\"1574\" data-start=\"1507\">Not suitable for large number computations compared to pure binary.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1579\" data-start=\"1576\" />",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Explain the Binary Coded Decimal (BCD) system in detail. How does it differ from pure binary representation? Provide the BCD representation for the decimal number 1947. Discuss the advantages and disadvantages of using BCD over pure binary.</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "lq",
+   "key": 21800
+  }
+ ]
+}

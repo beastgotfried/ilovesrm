@@ -1,0 +1,141 @@
+{
+ "mcq": [
+  {
+   "_id": 17920,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>A set of instructions stored on disk</p>\n",
+   "OPT_2": "<p>A program in execution</p>\n",
+   "OPT_3": "<p>A user command entered in a terminal</p>\n",
+   "OPT_4": "<p>A hardware component</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>What is a process in an operating system?</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 17920
+  },
+  {
+   "_id": 17921,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Process ID (PID)</p>\n",
+   "OPT_2": "<p>Program Counter</p>\n",
+   "OPT_3": "<p>Stack Pointer</p>\n",
+   "OPT_4": "<p>Device Driver</p>\n",
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is <strong data-end=\"424\" data-start=\"417\">not</strong> an attribute of a process in an operating system?</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 17921
+  },
+  {
+   "_id": 17922,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>CPU registers</p>\n",
+   "OPT_2": "<p>Memory limits</p>\n",
+   "OPT_3": "<p>Program source code</p>\n",
+   "OPT_4": "<p>Process state</p>\n",
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>The process control block (PCB) does NOT contain which of the following?</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 17922
+  },
+  {
+   "_id": 17923,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>The memory usage of the process</p>\n",
+   "OPT_2": "<p>The input/output status of the process</p>\n",
+   "OPT_3": "<p>The current activity or stage of the process</p>\n",
+   "OPT_4": "<p>The result of the process</p>\n",
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What does the &#39;process state&#39; indicate?</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 17923
+  },
+  {
+   "_id": 17924,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Running</p>\n",
+   "OPT_2": "<p>Ready</p>\n",
+   "OPT_3": "<p>Blocked (or Waiting)</p>\n",
+   "OPT_4": "<p>Suspended</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>When a process is waiting for an event to occur (like input), what is its state?</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "mcq",
+   "key": 17924
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17926,
+   "ANSWER": "<p>A <strong data-end=\"179\" data-start=\"168\">process</strong> is a program in execution, which includes the program code, current activity, and a set of resources like CPU registers, memory, and files. A <strong data-end=\"333\" data-start=\"322\">program</strong> is a passive set of instructions stored on disk, while a process is an active entity.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Define a process and differentiate it from a program.</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 17926
+  },
+  {
+   "_id": 17927,
+   "ANSWER": "<p>A <strong data-end=\"549\" data-start=\"518\">Process Control Block (PCB)</strong> is a data structure used by the operating system to store information about a process, such as its ID, state, CPU registers, memory limits, and scheduling information. It is crucial for <strong data-end=\"758\" data-start=\"736\">process management</strong> and <strong data-end=\"784\" data-start=\"763\">context switching</strong>.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>What is a Process Control Block (PCB) and why is it important?</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "sq",
+   "key": 17927
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17929,
+   "ANSWER": "<p data-end=\"677\" data-start=\"314\">A <strong data-end=\"327\" data-start=\"316\">process</strong> is a program in execution. It is an active entity, unlike a program, which is just a passive set of instructions. Each process in an operating system is assigned a unique Process ID (PID) and is managed independently. The operating system uses a data structure called the <strong data-end=\"631\" data-start=\"600\">Process Control Block (PCB)</strong> to store all the information about a process.</p>\n\n<p data-end=\"741\" data-start=\"679\">The key <strong data-end=\"714\" data-start=\"687\">attributes of a process</strong> stored in the PCB include:</p>\n\n<ol data-end=\"1713\" data-start=\"743\">\n\t<li data-end=\"846\" data-start=\"743\">\n\t<p data-end=\"846\" data-start=\"746\"><strong data-end=\"767\" data-start=\"746\">Process ID (PID):</strong><br data-end=\"770\" data-start=\"767\" />\n\tA unique identifier assigned to each process for tracking and management.</p>\n\t</li>\n\t<li data-end=\"980\" data-start=\"848\">\n\t<p data-end=\"980\" data-start=\"851\"><strong data-end=\"869\" data-start=\"851\">Process State:</strong><br data-end=\"872\" data-start=\"869\" />\n\tIndicates the current state of the process &ndash; e.g., New, Ready, Running, Waiting (Blocked), or Terminated.</p>\n\t</li>\n\t<li data-end=\"1073\" data-start=\"982\">\n\t<p data-end=\"1073\" data-start=\"985\"><strong data-end=\"1010\" data-start=\"985\">Program Counter (PC):</strong><br data-end=\"1013\" data-start=\"1010\" />\n\tHolds the address of the next instruction to be executed.</p>\n\t</li>\n\t<li data-end=\"1199\" data-start=\"1075\">\n\t<p data-end=\"1199\" data-start=\"1078\"><strong data-end=\"1096\" data-start=\"1078\">CPU Registers:</strong><br data-end=\"1099\" data-start=\"1096\" />\n\tStores the current values of CPU registers for the process during execution or context switching.</p>\n\t</li>\n\t<li data-end=\"1352\" data-start=\"1201\">\n\t<p data-end=\"1352\" data-start=\"1204\"><strong data-end=\"1238\" data-start=\"1204\">Memory Management Information:</strong><br data-end=\"1241\" data-start=\"1238\" />\n\tIncludes information about memory allocated to the process, such as base and limit registers or page tables.</p>\n\t</li>\n\t<li data-end=\"1465\" data-start=\"1354\">\n\t<p data-end=\"1465\" data-start=\"1357\"><strong data-end=\"1384\" data-start=\"1357\">Accounting Information:</strong><br data-end=\"1387\" data-start=\"1384\" />\n\tTracks resource usage statistics like CPU time, job or process number, etc.</p>\n\t</li>\n\t<li data-end=\"1577\" data-start=\"1467\">\n\t<p data-end=\"1577\" data-start=\"1470\"><strong data-end=\"1497\" data-start=\"1470\">I/O Status Information:</strong><br data-end=\"1500\" data-start=\"1497\" />\n\tDetails of input/output devices allocated, files opened, and I/O requests.</p>\n\t</li>\n\t<li data-end=\"1713\" data-start=\"1579\">\n\t<p data-end=\"1713\" data-start=\"1582\"><strong data-end=\"1609\" data-start=\"1582\">Scheduling Information:</strong><br data-end=\"1612\" data-start=\"1609\" />\n\tIncludes priority level, pointers for scheduling queues, and other data used by the CPU scheduler.</p>\n\t</li>\n</ol>\n\n<p data-end=\"1946\" data-start=\"1715\">The PCB plays a crucial role during <strong data-end=\"1772\" data-start=\"1751\">context switching</strong>, where the state of a process is saved and restored so that execution can be resumed later without data loss. This allows multitasking and ensures efficient CPU utilization.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO3",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain the concept of a process in an operating system. Describe the various attributes of a process stored in the Process Control Block (PCB).</p>\n",
+   "SESSION_ID": 201,
+   "TYPE": "lq",
+   "key": 17929
+  }
+ ]
+}

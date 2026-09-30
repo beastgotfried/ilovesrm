@@ -1,0 +1,165 @@
+{
+ "mcq": [
+  {
+   "_id": 52732,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{1}{(1-z)}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{z}{z-1}\n\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{1}{z-1}\n\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{1}{z}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The Z-transform of the constant sequence&nbsp;<span class=\"math-tex\">\\(f(n) = 1 \\)</span>is:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 52732
+  },
+  {
+   "_id": 52733,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{1}{(z-a)}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{z}{z-a}\n\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{a}{z-1}\n\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{1}{z(a-1)}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>For the sequence <span class=\"math-tex\">\\(f(n)=a^n\\)</span>,&nbsp;the Z-transfrom is:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 52733
+  },
+  {
+   "_id": 52734,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{z}{(z-1)^2}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{1}{(z-1)^2}\n\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{z}{z-1}\n\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{1}{z-1}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The&nbsp;&nbsp;Z-transfrom of&nbsp;<span class=\"math-tex\">\\(f(n)=n \n\\)</span> is:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 52734
+  },
+  {
+   "_id": 52736,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OPT_1": "<p><span class=\"math-tex\">\\(0\n\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{1}{z}\n\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(1\n\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(z\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The&nbsp;&nbsp;Z-transfrom of&nbsp;the unit impulse sequence&nbsp;<span class=\"math-tex\">\\(\\delta(n)\n\\)</span> is:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 52736
+  },
+  {
+   "_id": 52737,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{1}{z-1}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{z}{z-1}\n\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{1}{z}\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{1}{1-z}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The&nbsp;&nbsp;Z-transfrom of&nbsp;the unit step&nbsp;sequence&nbsp;<span class=\"math-tex\">\\(u(n)\n\\)</span>&nbsp;equals:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 52737
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52743,
+   "ANSWER": "<p><span class=\"math-tex\">\\(Z[\\frac{1}{n!}]=\\sum_{n=0}^{\\infty} \\frac{1}{n!} z ^{-n}=\\sum_{n=0}^{\\infty} \\frac{1}{n!}(\\frac{1}{z})^n=e^\\frac{1}{z}\\)</span></p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Show that the Z-- transform of&nbsp;<span class=\"math-tex\">\\(\\frac{1}{n!}\\)</span>&nbsp;is&nbsp;<span class=\"math-tex\">\\(e^\\frac{1}{z}\\)</span></p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 52743
+  },
+  {
+   "_id": 52911,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{If } Z[x_1(n)] = X_1(z) \\text{ and } Z[x_2(n)] = X_2(z), \\text{ then}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(Z[a_1 x_1(n) + a_2 x_2(n)] = a_1 X_1(z) + a_2 X_2(z)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{for any constants } a_1, a_2.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State the linearity property of Z-transform.}\\)</span></p>",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 52911
+  },
+  {
+   "_id": 52912,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{If } Z[x(n)] = X(z), \\text{ then for } k>0:\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(Z[x(n-k)] = z^{-k} X(z)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{and } Z[x(n+k)] = z^k \\left[ X(z) - \\sum_{m=0}^{k-1} x(m) z^{-m} \\right].\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State the time shifting property of Z-transform.}\\)</span></p>",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 52912
+  }
+ ],
+ "lq": [
+  {
+   "_id": 52748,
+   "ANSWER": "<p data-end=\"503\" data-start=\"451\">Unilateral Z-transform:&nbsp;<span class=\"math-tex\">\\(Z\\{f(n)\\} = \\sum_{n=0}^{\\infty} f(n) z^{-n}\n\\)</span>,&nbsp;convergence determined by values of zzz for which the series converges.</p>\n\n<p data-end=\"503\" data-start=\"451\"><span class=\"math-tex\">\\(f(n)=1\\)</span>&nbsp;,</p>\n\n<p data-end=\"503\" data-start=\"451\"><span class=\"math-tex\">\\(Z\\{1\\} = \\sum_{n=0}^{\\infty} z^{-n} = \\sum_{n=0}^{\\infty} \\left(\\frac{1}{z}\\right)^n\n\\)</span>.This is a geometric series with ratio&nbsp;<span class=\"math-tex\">\\(x=\\frac{1}{x}\\)</span>. For&nbsp;<span class=\"math-tex\">\\(|x|&lt;1\\)</span>&nbsp;the sum is&nbsp;<span class=\"math-tex\">\\((1-x)^{-1}\\)</span>.Hence&nbsp;<span class=\"math-tex\">\\(Z\\{1\\} = \\frac{1}{1 - \\frac{1}{z}} = \\frac{z}{z - 1}\n\\)</span>.Region of convergence&nbsp;&nbsp;<span class=\"math-tex\">\\(|\\frac{1}{z}|&lt;1 \\implies |z|&gt;1\\)</span>.</p>\n\n<p data-end=\"503\" data-start=\"451\"><span class=\"math-tex\">\\(f(n)=a^n\\)</span></p>\n\n<p data-end=\"503\" data-start=\"451\"><span class=\"math-tex\">\\(\nZ\\{a_n\\} = \\sum_{n=0}^{\\infty} a^n z^{-n} = \\sum_{n=0}^{\\infty} (\\frac{a}{z})^{n}\\)</span></p>\n\n<p data-end=\"503\" data-start=\"451\">Again a geometric series with ratio&nbsp;<span class=\"math-tex\">\\(x = \\frac{a}{z}\\)</span>.For&nbsp;<span class=\"math-tex\">\\(|x|&lt;1,\n Z\\{a^n\\} = \\frac{1}{1 - \\frac{a}{z}} = \\frac{z}{z - a}\n\n\\)</span>.</p>\n\n<p data-end=\"503\" data-start=\"451\">ROC:<span class=\"math-tex\">\\(|\\frac{a}{z}|&lt;2 \\implies|z|&gt;|a|\\)</span></p>\n\n<p data-end=\"503\" data-start=\"451\">&nbsp;</p>\n\n<p data-end=\"503\" data-start=\"451\"><span class=\"math-tex\">\\(f(n)=n\\)</span></p>\n\n<p data-end=\"503\" data-start=\"451\">Start from the known power-series identity&nbsp;(for<span class=\"math-tex\">\\(\n |x| &lt; 1\\)</span>):<span class=\"math-tex\">\\({Z}\\{n\\} = \\sum_{n=0}^{\\infty} n z^{-n} = \\sum_{n=0}^{\\infty} n \\left(\\frac{1}{z}\\right)^n = \\frac{\\frac{1}{z}}{\\left(1-\\frac{1}{z}\\right)^2}.\n\\)</span></p>\n\n<p data-end=\"503\" data-start=\"451\">Simplify&nbsp;<span class=\"math-tex\">\\(\\frac{\\frac{1}{z}}{\\left(1-\\frac{1}{z}\\right)^2} = \\frac{\\frac{1}{z}}{\\left(\\frac{z-1}{z}\\right)^2} = \\frac{\\frac{1}{z}}{\\frac{(z-1)^2}{z^2}} = \\frac{z^2}{z (z-1)^2} = \\frac{z}{(z-1)^2}\\)</span>.</p>\n\n<p data-end=\"503\" data-start=\"451\">ROC:needs&nbsp;<span class=\"math-tex\">\\(|\\frac{1}{z}|&lt;1\\implies|z|&gt;1\\)</span></p>\n\n<p data-end=\"503\" data-start=\"451\">&nbsp;</p>\n\n<p data-end=\"503\" data-start=\"451\">&nbsp;</p>\n\n<p data-end=\"503\" data-start=\"451\">&nbsp;</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Derive the Z-transforms of the sequences <span class=\"math-tex\">\\(1, a^n \\)</span>and&nbsp;<span class=\"math-tex\">\\(n\\)</span>.State the region of convergence for each and briefly explain the principle used.</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "lq",
+   "key": 52748
+  },
+  {
+   "_id": 52897,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td><p><b>a) Linearity:</b><br>If <span class=\"math-tex\">\\(Z\\{x_1(n)\\}=X_1(z)\\)</span> and <span class=\"math-tex\">\\(Z\\{x_2(n)\\}=X_2(z)\\)</span>, then <span class=\"math-tex\">\\(Z\\{a x_1(n) + b x_2(n)\\} = a X_1(z) + b X_2(z)\\)</span>.<br><i>Proof:</i> Directly follows from the definition of summation.</p></td><td>(2 Marks)</td></tr><tr><td><p><b>b) Time Shifting:</b><br>i) <span class=\"math-tex\">\\(Z\\{x(n-k) u(n-k)\\} = z^{-k} X(z)\\)</span>.<br>ii) <span class=\"math-tex\">\\(Z\\{x(n+k)\\} = z^k [ X(z) - \\sum_{r=0}^{k-1} x(r) z^{-r} ]\\)</span>.<br><i>Proof:</i> By manipulating the summation indices in the definition.</p></td><td>(3 Marks)</td></tr><tr><td><p><b>c) Scaling:</b><br><span class=\"math-tex\">\\(Z\\{a^n x(n)\\} = X\\left(\\frac{z}{a}\\right)\\)</span>, ROC scaled by <span class=\"math-tex\">\\(|a|\\)</span>.<br><i>Proof:</i> Substitute directly into the definition.</p></td><td>(2 Marks)</td></tr><tr><td><p><b>d) Differentiation:</b><br><span class=\"math-tex\">\\(Z\\{n x(n)\\} = -z \\frac{d}{dz} X(z)\\)</span>.<br><i>Proof:</i> Differentiate <span class=\"math-tex\">\\(X(z) = \\sum x(n) z^{-n}\\)</span> w.r.t. z.</p></td><td>(2 Marks)</td></tr><tr><td><p><b>Application:</b> Find <span class=\"math-tex\">\\(Z\\{n^2 a^n u(n)\\}\\)</span>.<br>We know <span class=\"math-tex\">\\(Z\\{n u(n)\\} = \\frac{z}{(z-1)^2}\\)</span>.<br>Using scaling: <span class=\"math-tex\">\\(Z\\{n a^n u(n)\\} = \\left[ \\frac{z}{(z-1)^2} \\right]_{z \\to z/a} = \\frac{(z/a)}{((z/a)-1)^2} = \\frac{az}{(z-a)^2}\\)</span>.<br>Now, using differentiation property on <span class=\"math-tex\">\\(n a^n u(n)\\)</span>:<br>Let <span class=\"math-tex\">\\(y(n)=n a^n u(n)\\)</span>, then <span class=\"math-tex\">\\(Y(z) = \\frac{az}{(z-a)^2}\\)</span>.<br><span class=\"math-tex\">\\(Z\\{n y(n)\\} = Z\\{n^2 a^n u(n)\\} = -z \\frac{d}{dz} Y(z)\\)</span>.<br><span class=\"math-tex\">\\(\\frac{d}{dz} \\left( \\frac{az}{(z-a)^2} \\right) = a \\cdot \\frac{(z-a)^2 - 2z(z-a)}{(z-a)^4} = a \\cdot \\frac{-(z+a)(z-a)}{(z-a)^4} = \\frac{-a(z+a)}{(z-a)^3}\\)</span>.<br>Therefore, <span class=\"math-tex\">\\(Z\\{n^2 a^n u(n)\\} = -z \\cdot \\frac{-a(z+a)}{(z-a)^3} = \\frac{az(z+a)}{(z-a)^3}\\)</span>.</p></td><td>(6 Marks for derivation and final result)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>State and prove the following properties of the Z-transform:<br>a) Linearity Property<br>b) Time Shifting Property (for both advance and delay)<br>c) Multiplication by <span class=\"math-tex\">\\(a^n\\)</span> (Scaling in z-domain)<br>d) Differentiation in z-domain</p><p>Using these properties, find <span class=\"math-tex\">\\(Z\\{n^2 a^n u(n)\\}\\)</span>.</p>",
+   "SESSION_ID": 502,
+   "TYPE": "lq",
+   "key": 52897
+  }
+ ]
+}

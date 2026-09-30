@@ -1,0 +1,149 @@
+{
+ "mcq": [
+  {
+   "_id": 49398,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\partial^2 u}{\\partial t^2} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial x} = \\alpha^2 \\frac{\\partial^2 u}{\\partial t^2} \\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><span style=\"font-size:12pt\"><span style=\"line-height:normal\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The one dimensional heat equation is,&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 49398
+  },
+  {
+   "_id": 49399,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Five</p>\n",
+   "OPT_2": "<p>Four</p>\n",
+   "OPT_3": "<p>Three</p>\n",
+   "OPT_4": "<p>Two</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\">How many initial and boundary conditions are required to solve&nbsp;&nbsp;<span lang=\"EN-US\" style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"> </span></span></span><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\)</span>&nbsp; ,</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 49399
+  },
+  {
+   "_id": 49400,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(u(x) = \\frac {20x}l +30\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(x) = \\frac {10x}l +20\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(u(x) = \\frac {10x}l \\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(u(x) = \\frac {10x}l +30\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><span style=\"font-size:12pt\"><span style=\"line-height:normal\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The steady state temperature of a rod of length <i>l </i>whose ends are kept at <span class=\"math-tex\">\\(30 ^0\\)</span>&nbsp;and <span class=\"math-tex\">\\(40 ^0\\)</span>&nbsp;is,</span></span></span></p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 49400
+  },
+  {
+   "_id": 49401,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac k\\rho \\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac Tm\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\frac k{\\rho c} \\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\( \\frac kc\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><font face=\"Times New Roman, serif\"><span style=\"font-size: 16px;\">In one dimensional heat equation&nbsp;<span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\)</span></span></font>&nbsp; &nbsp;,&nbsp;&nbsp;<span class=\"math-tex\">\\(\\alpha^2\\)</span>&nbsp; stand for,</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 49401
+  },
+  {
+   "_id": 49402,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(u(x,t)\\,=(Acos\\lambda x \\,+Bsin\\lambda x) \\, e^ {-\\alpha^2\\lambda^2t}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(x,t)\\,=(Acos\\lambda t \\,+Bsin\\lambda t) \\, e^ {\\alpha^2\\lambda^2x}\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(u(x,t)\\,=(Acos\\lambda x \\,-Bsin\\lambda x) \\, e^ {\\alpha^2\\lambda^2t}\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(u(x,t)\\,=(Acos\\lambda x \\,-Bsin\\lambda x) \\, e^ {-\\alpha^2\\lambda^2t}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><font face=\"Times New Roman, serif\"><span style=\"font-size: 16px;\">The proper solution of one dimensional heat equation&nbsp;<span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\)</span></span></font>&nbsp; is,</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 49402
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52784,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Heat equation: } \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}, \\text{ where } \\alpha^2 = \\frac{k}{c\\rho}.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Consider a thin bar of cross-section A. Let } u(x,t) \\text{ be temperature.}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Heat in element: } Q = c \\rho A \\Delta x \\Delta u. \\text{ Rate of increase: } c\\rho A \\Delta x \\frac{\\partial u}{\\partial t}.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Heat inflow at x: } R_1 = -kA \\left(\\frac{\\partial u}{\\partial x}\\right)_x, \\text{ outflow at } x+\\Delta x: R_2 = -kA \\left(\\frac{\\partial u}{\\partial x}\\right)_{x+\\Delta x}.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Net inflow } = kA \\left[\\left(\\frac{\\partial u}{\\partial x}\\right)_{x+\\Delta x} - \\left(\\frac{\\partial u}{\\partial x}\\right)_x\\right]. \\text{ Equate and take limit to get heat equation.}\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State the one-dimensional heat equation and derive it from first principles.}\\)</span></p>",
+   "SESSION_ID": 307,
+   "TYPE": "sq",
+   "key": 52784
+  },
+  {
+   "_id": 52785,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Assume } u(x,t)=X(x)T(t). \\text{ Substituting gives } XT' = \\alpha^2 X''T.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Separate: } \\frac{T'}{\\alpha^2 T} = \\frac{X''}{X} = k. \\text{ For } k<0 \\ (k=-\\lambda^2), \\text{ get } T'+\\alpha^2\\lambda^2 T=0, X''+\\lambda^2 X=0.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Solve: } T = Ce^{-\\alpha^2\\lambda^2 t}, X = A\\cos\\lambda x + B\\sin\\lambda x.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } u(x,t)=(A\\cos\\lambda x+B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{This solution decays with time, representing transient (unsteady) state. For steady state, temperature becomes independent of time.}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using separation of variables, solve } \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2} \\text{ and obtain the general solution. Why is } u=(A\\cos\\lambda x+B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t} \\text{ chosen for transient problems?}\\)</span></p>",
+   "SESSION_ID": 307,
+   "TYPE": "sq",
+   "key": 52785
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50400,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Assume \\(u(x,t)=X(x)T(t).\\) Substitute: \\(XT' = \\alpha^2 X''T.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Separate: \\(X''/X = T'/(\\alpha^2T) = k\\) (constant).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Case \\(k &gt; 0\\) (\\(k=\\lambda^2\\)): \\(X'' - \\lambda^2X=0\\), \\(T' - \\alpha^2\\lambda^2T=0\\) \\(\\Rightarrow\\) solutions: \\(X = Ae^{\\lambda x}+Be^{-\\lambda x}\\), \\(T = Ce^{\\alpha^2\\lambda^2 t}\\) (growing exponential in time).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Case \\(k &lt; 0\\) (\\(k=-\\lambda^2\\)): \\(X'' + \\lambda^2X=0\\), \\(T' + \\alpha^2\\lambda^2T=0\\) \\(\\Rightarrow\\) solutions: \\(X = A \\cos(\\lambda x) + B \\sin(\\lambda x)\\), \\(T = Ce^{-\\alpha^2\\lambda^2 t}\\) (decaying exponential).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Case \\(k = 0\\): \\(X''=0\\), \\(T'=0\\) \\(\\Rightarrow\\) \\(X = Ax+B\\), \\(T = C\\) (constant in time).}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{For transient heat flow, temperature should decay to steady state as \\(t\\to\\infty.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Solution with positive exponential in time is physically unrealistic (temperature blows up).</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Constant solution (\\(k=0\\)) corresponds to steady state.}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus decaying exponential (\\(k\\) negative) is appropriate for transient problems.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Derive the three possible solutions of the one-dimensional heat equation \u00a0$\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}$}\\\\\n\\text{by separation of variables. Explain why the exponential decay solution is suitable for transient problems.}\\)</span></p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "lq",
+   "key": 50400
+  },
+  {
+   "_id": 50401,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Assume \\(u(x,t)=X(x)T(t).\\) Separate: \\(X''/X = T'/(\\alpha^2T) = k.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{For transient: choose \\(k = -\\lambda^2\\) (negative).}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Solve \\(X'' + \\lambda^2X = 0\\) with \\(X(0)=0\\), \\(X(l)=0.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Get \\(X(x) = B \\sin(\\lambda x).\\) Apply \\(X(l)=0\\) \\(\\Rightarrow\\) \\(\\sin(\\lambda l) = 0\\) \\(\\Rightarrow\\) \\(\\lambda = \\dfrac{n\\pi}{l}, n=1,2,3,\\ldots\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Solve \\(T' + \\alpha^2\\lambda^2T = 0\\) \\(\\Rightarrow\\) \\(T(t) = C e^{-\\alpha^2\\lambda^2 t}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus for each \\(n\\): \\(u_n(x,t) = B_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(u(x,t) = \\sum\\limits_{n=1}^{\\infty} B_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{The coefficients \\(B_n\\) are determined from initial condition \\(u(x,0)=f(x).\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>This series represents a sum of modes decaying exponentially in time.</td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Solve the one-dimensional heat equation \u00a0$\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}$\u00a0\u00a0for a rod of length \u00a0$l$}\\\\\n\\text{with insulated sides and ends kept at zero temperature: \u00a0$u(0,t)=0, u(l,t)=0.$}\\\\\n\\text{Obtain the general solution in series form.}\\)</span></p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "lq",
+   "key": 50401
+  }
+ ]
+}

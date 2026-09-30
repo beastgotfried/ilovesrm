@@ -1,0 +1,147 @@
+{
+ "mcq": [
+  {
+   "_id": 28852,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) THUMB</p>\n",
+   "OPT_2": "<p>b) NEON</p>\n",
+   "OPT_3": "<p>c) Cortex-M</p>\n",
+   "OPT_4": "<p>d) Jazelle</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which ARM feature enables efficient execution of multimedia and signal processing applications?</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 28852
+  },
+  {
+   "_id": 28856,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) THUMB</p>\n",
+   "OPT_2": "<p>b) NEON</p>\n",
+   "OPT_3": "<p>c) Cortex-M</p>\n",
+   "OPT_4": "<p>d) Jazelle</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which ARM feature enables efficient execution of multimedia and signal processing applications?</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 28856
+  },
+  {
+   "_id": 28857,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) B</p>\n",
+   "OPT_2": "<p>b) BL</p>\n",
+   "OPT_3": "<p>c) BX</p>\n",
+   "OPT_4": "<p>d) MOV</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In ARM, which instruction is used to branch to a subroutine while saving the return address in <strong data-end=\"2376\" data-start=\"2354\">LR (Link Register)</strong>?</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 28857
+  },
+  {
+   "_id": 28858,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) Advanced Reduced Machine</p>\n",
+   "OPT_2": "<p>b) Advanced RISC Machine</p>\n",
+   "OPT_3": "<p>c) Application RISC Microcontroller</p>\n",
+   "OPT_4": "<p>d) Advanced Register Machine</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What does <strong data-end=\"257\" data-start=\"250\">ARM</strong> stand for?</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 28858
+  },
+  {
+   "_id": 28859,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) CISC</p>\n",
+   "OPT_2": "<p>b) RISC</p>\n",
+   "OPT_3": "<p>c) VLIW</p>\n",
+   "OPT_4": "<p>d) EPIC</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which type of instruction set architecture does ARM use?</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 28859
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28966,
+   "ANSWER": "<h2 data-end=\"167\" data-start=\"115\"><strong data-end=\"167\" data-start=\"118\">Benefits of Thumb Instruction Set (T Variant)</strong></h2>\n\n<ol data-end=\"1441\" data-start=\"169\">\n\t<li data-end=\"369\" data-start=\"169\">\n\t<p data-end=\"195\" data-start=\"172\"><strong data-end=\"193\" data-start=\"172\">Reduced Code Size</strong></p>\n\n\t<ul data-end=\"369\" data-start=\"199\">\n\t\t<li data-end=\"262\" data-start=\"199\">\n\t\t<p data-end=\"262\" data-start=\"201\">Thumb instructions are <strong data-end=\"235\" data-start=\"224\">16 bits</strong> wide instead of 32 bits.</p>\n\t\t</li>\n\t\t<li data-end=\"369\" data-start=\"266\">\n\t\t<p data-end=\"369\" data-start=\"268\">Reduces program memory usage by up to <strong data-end=\"316\" data-start=\"306\">30&ndash;40%</strong>, useful for embedded systems with limited ROM/Flash.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"533\" data-start=\"371\">\n\t<p data-end=\"399\" data-start=\"374\"><strong data-end=\"397\" data-start=\"374\">Higher Code Density</strong></p>\n\n\t<ul data-end=\"533\" data-start=\"403\">\n\t\t<li data-end=\"533\" data-start=\"403\">\n\t\t<p data-end=\"533\" data-start=\"405\">Smaller instruction size means <strong data-end=\"488\" data-start=\"436\">more instructions fit into the same memory space</strong>, improving efficiency in low-memory devices.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"762\" data-start=\"535\">\n\t<p data-end=\"589\" data-start=\"538\"><strong data-end=\"587\" data-start=\"538\">Improved Performance in Narrow Memory Systems</strong></p>\n\n\t<ul data-end=\"762\" data-start=\"593\">\n\t\t<li data-end=\"762\" data-start=\"593\">\n\t\t<p data-end=\"762\" data-start=\"595\">In systems with a 16-bit memory bus, Thumb instructions can be fetched in a <strong data-end=\"695\" data-start=\"671\">single memory access</strong>, increasing execution speed compared to ARM&rsquo;s 32-bit instructions.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"908\" data-start=\"764\">\n\t<p data-end=\"796\" data-start=\"767\"><strong data-end=\"794\" data-start=\"767\">Better Power Efficiency</strong></p>\n\n\t<ul data-end=\"908\" data-start=\"800\">\n\t\t<li data-end=\"908\" data-start=\"800\">\n\t\t<p data-end=\"908\" data-start=\"802\">Reduced memory accesses lead to <strong data-end=\"861\" data-start=\"834\">lower power consumption</strong>, which is crucial for battery-powered devices.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1111\" data-start=\"910\">\n\t<p data-end=\"954\" data-start=\"913\"><strong data-end=\"952\" data-start=\"913\">Compatibility with ARM Architecture</strong></p>\n\n\t<ul data-end=\"1111\" data-start=\"958\">\n\t\t<li data-end=\"1111\" data-start=\"958\">\n\t\t<p data-end=\"1111\" data-start=\"960\">Thumb mode uses a subset of ARM instructions but executes them in the ARM core, so switching between ARM (A variant) and Thumb (T variant) is seamless.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1277\" data-start=\"1113\">\n\t<p data-end=\"1157\" data-start=\"1116\"><strong data-end=\"1155\" data-start=\"1116\">Efficient for Control-Oriented Code</strong></p>\n\n\t<ul data-end=\"1277\" data-start=\"1161\">\n\t\t<li data-end=\"1277\" data-start=\"1161\">\n\t\t<p data-end=\"1277\" data-start=\"1163\">Ideal for applications like microcontrollers, where control logic is more common than heavy numerical computation.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1441\" data-start=\"1279\">\n\t<p data-end=\"1322\" data-start=\"1282\"><strong data-end=\"1320\" data-start=\"1282\">Lower Memory Bandwidth Requirement</strong></p>\n\n\t<ul data-end=\"1441\" data-start=\"1326\">\n\t\t<li data-end=\"1441\" data-start=\"1326\">\n\t\t<p data-end=\"1441\" data-start=\"1328\">Smaller instruction fetch size reduces pressure on the memory subsystem, especially in low-cost embedded devices.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Discuss about the benefits of Thumb instruction set (T Variant).&nbsp;</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "sq",
+   "key": 28966
+  },
+  {
+   "_id": 28968,
+   "ANSWER": "<h2 data-end=\"143\" data-start=\"114\"><strong data-end=\"143\" data-start=\"117\">Operating Modes of ARM</strong></h2>\n\n<p data-end=\"312\" data-start=\"145\">The ARM processor operates in <strong data-end=\"199\" data-start=\"175\">seven distinct modes</strong>. These modes determine <strong data-end=\"311\" data-start=\"223\">how the CPU executes instructions, manages exceptions, and accesses system resources</strong>.</p>\n\n<hr data-end=\"317\" data-start=\"314\" />\n<h3 data-end=\"345\" data-start=\"319\"><strong data-end=\"345\" data-start=\"323\">1. User Mode (usr)</strong></h3>\n\n<ul data-end=\"520\" data-start=\"346\">\n\t<li data-end=\"393\" data-start=\"346\">\n\t<p data-end=\"393\" data-start=\"348\"><strong data-end=\"360\" data-start=\"348\">Purpose:</strong> Normal program execution mode.</p>\n\t</li>\n\t<li data-end=\"520\" data-start=\"394\">\n\t<p data-end=\"411\" data-start=\"396\"><strong data-end=\"409\" data-start=\"396\">Features:</strong></p>\n\n\t<ul data-end=\"520\" data-start=\"414\">\n\t\t<li data-end=\"440\" data-start=\"414\">\n\t\t<p data-end=\"440\" data-start=\"416\">Least privileged mode.</p>\n\t\t</li>\n\t\t<li data-end=\"484\" data-start=\"443\">\n\t\t<p data-end=\"484\" data-start=\"445\">No direct access to system resources.</p>\n\t\t</li>\n\t\t<li data-end=\"520\" data-start=\"487\">\n\t\t<p data-end=\"520\" data-start=\"489\">Used by application software.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"525\" data-start=\"522\" />\n<h3 data-end=\"571\" data-start=\"527\"><strong data-end=\"571\" data-start=\"531\">2. FIQ Mode (Fast Interrupt Request)</strong></h3>\n\n<ul data-end=\"757\" data-start=\"572\">\n\t<li data-end=\"632\" data-start=\"572\">\n\t<p data-end=\"632\" data-start=\"574\"><strong data-end=\"586\" data-start=\"574\">Purpose:</strong> Handles <strong data-end=\"629\" data-start=\"595\">fast, high-priority interrupts</strong>.</p>\n\t</li>\n\t<li data-end=\"757\" data-start=\"633\">\n\t<p data-end=\"650\" data-start=\"635\"><strong data-end=\"648\" data-start=\"635\">Features:</strong></p>\n\n\t<ul data-end=\"757\" data-start=\"653\">\n\t\t<li data-end=\"722\" data-start=\"653\">\n\t\t<p data-end=\"722\" data-start=\"655\">Has extra banked registers (R8&ndash;R14) for faster context switching.</p>\n\t\t</li>\n\t\t<li data-end=\"757\" data-start=\"725\">\n\t\t<p data-end=\"757\" data-start=\"727\">Minimizes interrupt latency.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"762\" data-start=\"759\" />\n<h3 data-end=\"803\" data-start=\"764\"><strong data-end=\"803\" data-start=\"768\">3. IRQ Mode (Interrupt Request)</strong></h3>\n\n<ul data-end=\"959\" data-start=\"804\">\n\t<li data-end=\"860\" data-start=\"804\">\n\t<p data-end=\"860\" data-start=\"806\"><strong data-end=\"818\" data-start=\"806\">Purpose:</strong> Handles <strong data-end=\"857\" data-start=\"827\">general-purpose interrupts</strong>.</p>\n\t</li>\n\t<li data-end=\"959\" data-start=\"861\">\n\t<p data-end=\"878\" data-start=\"863\"><strong data-end=\"876\" data-start=\"863\">Features:</strong></p>\n\n\t<ul data-end=\"959\" data-start=\"881\">\n\t\t<li data-end=\"917\" data-start=\"881\">\n\t\t<p data-end=\"917\" data-start=\"883\">Fewer banked registers than FIQ.</p>\n\t\t</li>\n\t\t<li data-end=\"959\" data-start=\"920\">\n\t\t<p data-end=\"959\" data-start=\"922\">Used for normal interrupt handling.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"964\" data-start=\"961\" />\n<h3 data-end=\"998\" data-start=\"966\"><strong data-end=\"998\" data-start=\"970\">4. Supervisor Mode (svc)</strong></h3>\n\n<ul data-end=\"1182\" data-start=\"999\">\n\t<li data-end=\"1088\" data-start=\"999\">\n\t<p data-end=\"1088\" data-start=\"1001\"><strong data-end=\"1013\" data-start=\"1001\">Purpose:</strong> Entered after a <strong data-end=\"1039\" data-start=\"1030\">reset</strong> or when a <strong data-end=\"1078\" data-start=\"1050\">software interrupt (SWI)</strong> occurs.</p>\n\t</li>\n\t<li data-end=\"1182\" data-start=\"1089\">\n\t<p data-end=\"1106\" data-start=\"1091\"><strong data-end=\"1104\" data-start=\"1091\">Features:</strong></p>\n\n\t<ul data-end=\"1182\" data-start=\"1109\">\n\t\t<li data-end=\"1143\" data-start=\"1109\">\n\t\t<p data-end=\"1143\" data-start=\"1111\">Privileged mode for OS kernel.</p>\n\t\t</li>\n\t\t<li data-end=\"1182\" data-start=\"1146\">\n\t\t<p data-end=\"1182\" data-start=\"1148\">Full access to system resources.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1187\" data-start=\"1184\" />\n<h3 data-end=\"1216\" data-start=\"1189\"><strong data-end=\"1216\" data-start=\"1193\">5. Abort Mode (abt)</strong></h3>\n\n<ul data-end=\"1380\" data-start=\"1217\">\n\t<li data-end=\"1302\" data-start=\"1217\">\n\t<p data-end=\"1302\" data-start=\"1219\"><strong data-end=\"1231\" data-start=\"1219\">Purpose:</strong> Handles <strong data-end=\"1268\" data-start=\"1240\">memory access violations</strong> (e.g., invalid address access).</p>\n\t</li>\n\t<li data-end=\"1380\" data-start=\"1303\">\n\t<p data-end=\"1320\" data-start=\"1305\"><strong data-end=\"1318\" data-start=\"1305\">Features:</strong></p>\n\n\t<ul data-end=\"1380\" data-start=\"1323\">\n\t\t<li data-end=\"1380\" data-start=\"1323\">\n\t\t<p data-end=\"1380\" data-start=\"1325\">Used for virtual memory and memory protection errors.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1385\" data-start=\"1382\" />\n<h3 data-end=\"1418\" data-start=\"1387\"><strong data-end=\"1418\" data-start=\"1391\">6. Undefined Mode (und)</strong></h3>\n\n<ul data-end=\"1561\" data-start=\"1419\">\n\t<li data-end=\"1471\" data-start=\"1419\">\n\t<p data-end=\"1471\" data-start=\"1421\"><strong data-end=\"1433\" data-start=\"1421\">Purpose:</strong> Handles <strong data-end=\"1468\" data-start=\"1442\">undefined instructions</strong>.</p>\n\t</li>\n\t<li data-end=\"1561\" data-start=\"1472\">\n\t<p data-end=\"1489\" data-start=\"1474\"><strong data-end=\"1487\" data-start=\"1474\">Features:</strong></p>\n\n\t<ul data-end=\"1561\" data-start=\"1492\">\n\t\t<li data-end=\"1561\" data-start=\"1492\">\n\t\t<p data-end=\"1561\" data-start=\"1494\">Used to trap unsupported instructions for emulation or debugging.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1566\" data-start=\"1563\" />\n<h3 data-end=\"1596\" data-start=\"1568\"><strong data-end=\"1596\" data-start=\"1572\">7. System Mode (sys)</strong></h3>\n\n<ul data-end=\"1773\" data-start=\"1597\">\n\t<li data-end=\"1689\" data-start=\"1597\">\n\t<p data-end=\"1689\" data-start=\"1599\"><strong data-end=\"1611\" data-start=\"1599\">Purpose:</strong> Privileged mode for <strong data-end=\"1644\" data-start=\"1632\">OS tasks</strong>, but uses the same registers as User mode.</p>\n\t</li>\n\t<li data-end=\"1773\" data-start=\"1690\">\n\t<p data-end=\"1707\" data-start=\"1692\"><strong data-end=\"1705\" data-start=\"1692\">Features:</strong></p>\n\n\t<ul data-end=\"1773\" data-start=\"1710\">\n\t\t<li data-end=\"1773\" data-start=\"1710\">\n\t\t<p data-end=\"1773\" data-start=\"1712\">Allows privileged access without changing banked registers.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Interpret the operating modes of ARM&nbsp;</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "sq",
+   "key": 28968
+  }
+ ],
+ "lq": [
+  {
+   "_id": 37198,
+   "ANSWER": "<p data-end=\"493\" data-start=\"272\">Flynn&rsquo;s taxonomy classifies computer systems based on the number of instruction streams and data streams they can handle. Each class has distinct <strong data-end=\"444\" data-start=\"432\">benefits</strong> and <strong data-end=\"462\" data-start=\"449\">use cases</strong>, which are summarized below:</p>\n\n<hr data-end=\"498\" data-start=\"495\" />\n<h3 data-end=\"551\" data-start=\"500\">1. <strong data-end=\"549\" data-start=\"507\">SISD (Single Instruction, Single Data)</strong></h3>\n\n<ul data-end=\"855\" data-start=\"552\">\n\t<li data-end=\"674\" data-start=\"552\">\n\t<p data-end=\"569\" data-start=\"554\"><strong data-end=\"567\" data-start=\"554\">Benefits:</strong></p>\n\n\t<ul data-end=\"674\" data-start=\"572\">\n\t\t<li data-end=\"601\" data-start=\"572\">\n\t\t<p data-end=\"601\" data-start=\"574\">Simple and cost-effective</p>\n\t\t</li>\n\t\t<li data-end=\"635\" data-start=\"604\">\n\t\t<p data-end=\"635\" data-start=\"606\">Easy to design and maintain</p>\n\t\t</li>\n\t\t<li data-end=\"674\" data-start=\"638\">\n\t\t<p data-end=\"674\" data-start=\"640\">Suitable for sequential programs</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"759\" data-start=\"675\">\n\t<p data-end=\"693\" data-start=\"677\"><strong data-end=\"691\" data-start=\"677\">Use Cases:</strong></p>\n\n\t<ul data-end=\"759\" data-start=\"696\">\n\t\t<li data-end=\"718\" data-start=\"696\">\n\t\t<p data-end=\"718\" data-start=\"698\">Personal computers</p>\n\t\t</li>\n\t\t<li data-end=\"759\" data-start=\"721\">\n\t\t<p data-end=\"759\" data-start=\"723\">Basic laptops and microcontrollers</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"855\" data-start=\"760\">\n\t<p data-end=\"780\" data-start=\"762\"><strong data-end=\"778\" data-start=\"762\">Limitations:</strong></p>\n\n\t<ul data-end=\"855\" data-start=\"783\">\n\t\t<li data-end=\"813\" data-start=\"783\">\n\t\t<p data-end=\"813\" data-start=\"785\">Cannot exploit parallelism</p>\n\t\t</li>\n\t\t<li data-end=\"855\" data-start=\"816\">\n\t\t<p data-end=\"855\" data-start=\"818\">Slower for large-scale computations</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"860\" data-start=\"857\" />\n<h3 data-end=\"915\" data-start=\"862\">2. <strong data-end=\"913\" data-start=\"869\">SIMD (Single Instruction, Multiple Data)</strong></h3>\n\n<ul data-end=\"1453\" data-start=\"916\">\n\t<li data-end=\"1138\" data-start=\"916\">\n\t<p data-end=\"933\" data-start=\"918\"><strong data-end=\"931\" data-start=\"918\">Benefits:</strong></p>\n\n\t<ul data-end=\"1138\" data-start=\"936\">\n\t\t<li data-end=\"1000\" data-start=\"936\">\n\t\t<p data-end=\"1000\" data-start=\"938\">High performance for repetitive operations on large datasets</p>\n\t\t</li>\n\t\t<li data-end=\"1057\" data-start=\"1003\">\n\t\t<p data-end=\"1057\" data-start=\"1005\">Efficient for vectorized or array-based processing</p>\n\t\t</li>\n\t\t<li data-end=\"1138\" data-start=\"1060\">\n\t\t<p data-end=\"1138\" data-start=\"1062\">Reduces execution time by processing multiple data elements simultaneously</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1303\" data-start=\"1139\">\n\t<p data-end=\"1157\" data-start=\"1141\"><strong data-end=\"1155\" data-start=\"1141\">Use Cases:</strong></p>\n\n\t<ul data-end=\"1303\" data-start=\"1160\">\n\t\t<li data-end=\"1190\" data-start=\"1160\">\n\t\t<p data-end=\"1190\" data-start=\"1162\">Graphics rendering in GPUs</p>\n\t\t</li>\n\t\t<li data-end=\"1240\" data-start=\"1193\">\n\t\t<p data-end=\"1240\" data-start=\"1195\">Scientific computing with vector processors</p>\n\t\t</li>\n\t\t<li data-end=\"1303\" data-start=\"1243\">\n\t\t<p data-end=\"1303\" data-start=\"1245\">Image processing, matrix operations, and AI computations</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1453\" data-start=\"1304\">\n\t<p data-end=\"1324\" data-start=\"1306\"><strong data-end=\"1322\" data-start=\"1306\">Limitations:</strong></p>\n\n\t<ul data-end=\"1453\" data-start=\"1327\">\n\t\t<li data-end=\"1403\" data-start=\"1327\">\n\t\t<p data-end=\"1403\" data-start=\"1329\">Not suitable for tasks requiring different instructions per data element</p>\n\t\t</li>\n\t\t<li data-end=\"1453\" data-start=\"1406\">\n\t\t<p data-end=\"1453\" data-start=\"1408\">Programming requires data-level parallelism</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1458\" data-start=\"1455\" />\n<h3 data-end=\"1513\" data-start=\"1460\">3. <strong data-end=\"1511\" data-start=\"1467\">MISD (Multiple Instruction, Single Data)</strong></h3>\n\n<ul data-end=\"1872\" data-start=\"1514\">\n\t<li data-end=\"1654\" data-start=\"1514\">\n\t<p data-end=\"1531\" data-start=\"1516\"><strong data-end=\"1529\" data-start=\"1516\">Benefits:</strong></p>\n\n\t<ul data-end=\"1654\" data-start=\"1534\">\n\t\t<li data-end=\"1607\" data-start=\"1534\">\n\t\t<p data-end=\"1607\" data-start=\"1536\">Fault-tolerant design, as multiple instructions process the same data</p>\n\t\t</li>\n\t\t<li data-end=\"1654\" data-start=\"1610\">\n\t\t<p data-end=\"1654\" data-start=\"1612\">Provides redundancy for critical systems</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1771\" data-start=\"1655\">\n\t<p data-end=\"1673\" data-start=\"1657\"><strong data-end=\"1671\" data-start=\"1657\">Use Cases:</strong></p>\n\n\t<ul data-end=\"1771\" data-start=\"1676\">\n\t\t<li data-end=\"1716\" data-start=\"1676\">\n\t\t<p data-end=\"1716\" data-start=\"1678\">Space shuttle flight control systems</p>\n\t\t</li>\n\t\t<li data-end=\"1771\" data-start=\"1719\">\n\t\t<p data-end=\"1771\" data-start=\"1721\">Safety-critical or mission-critical applications</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1872\" data-start=\"1772\">\n\t<p data-end=\"1792\" data-start=\"1774\"><strong data-end=\"1790\" data-start=\"1774\">Limitations:</strong></p>\n\n\t<ul data-end=\"1872\" data-start=\"1795\">\n\t\t<li data-end=\"1822\" data-start=\"1795\">\n\t\t<p data-end=\"1822\" data-start=\"1797\">Rarely used in practice</p>\n\t\t</li>\n\t\t<li data-end=\"1872\" data-start=\"1825\">\n\t\t<p data-end=\"1872\" data-start=\"1827\">Not efficient for general-purpose computing</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1877\" data-start=\"1874\" />\n<h3 data-end=\"1934\" data-start=\"1879\">4. <strong data-end=\"1932\" data-start=\"1886\">MIMD (Multiple Instruction, Multiple Data)</strong></h3>\n\n<ul data-end=\"2440\" data-start=\"1935\">\n\t<li data-end=\"2120\" data-start=\"1935\">\n\t<p data-end=\"1952\" data-start=\"1937\"><strong data-end=\"1950\" data-start=\"1937\">Benefits:</strong></p>\n\n\t<ul data-end=\"2120\" data-start=\"1955\">\n\t\t<li data-end=\"1994\" data-start=\"1955\">\n\t\t<p data-end=\"1994\" data-start=\"1957\">Highly flexible and general-purpose</p>\n\t\t</li>\n\t\t<li data-end=\"2075\" data-start=\"1997\">\n\t\t<p data-end=\"2075\" data-start=\"1999\">Supports task-level parallelism, running different programs simultaneously</p>\n\t\t</li>\n\t\t<li data-end=\"2120\" data-start=\"2078\">\n\t\t<p data-end=\"2120\" data-start=\"2080\">Scales well with additional processors</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2319\" data-start=\"2121\">\n\t<p data-end=\"2139\" data-start=\"2123\"><strong data-end=\"2137\" data-start=\"2123\">Use Cases:</strong></p>\n\n\t<ul data-end=\"2319\" data-start=\"2142\">\n\t\t<li data-end=\"2190\" data-start=\"2142\">\n\t\t<p data-end=\"2190\" data-start=\"2144\">Multicore processors in desktops and servers</p>\n\t\t</li>\n\t\t<li data-end=\"2256\" data-start=\"2193\">\n\t\t<p data-end=\"2256\" data-start=\"2195\">Distributed computing, cloud computing, and cluster systems</p>\n\t\t</li>\n\t\t<li data-end=\"2319\" data-start=\"2259\">\n\t\t<p data-end=\"2319\" data-start=\"2261\">Big data processing, AI training, scientific simulations</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2440\" data-start=\"2320\">\n\t<p data-end=\"2340\" data-start=\"2322\"><strong data-end=\"2338\" data-start=\"2322\">Limitations:</strong></p>\n\n\t<ul data-end=\"2440\" data-start=\"2343\">\n\t\t<li data-end=\"2377\" data-start=\"2343\">\n\t\t<p data-end=\"2377\" data-start=\"2345\">Complex design and programming</p>\n\t\t</li>\n\t\t<li data-end=\"2440\" data-start=\"2380\">\n\t\t<p data-end=\"2440\" data-start=\"2382\">Requires sophisticated synchronization and communication</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"2445\" data-start=\"2442\" />\n<h3 data-end=\"2474\" data-start=\"2447\"><strong data-end=\"2472\" data-start=\"2451\">Comparison Table:</strong></h3>\n\n<table data-end=\"3252\" data-start=\"2476\">\n\t<thead data-end=\"2544\" data-start=\"2476\">\n\t\t<tr data-end=\"2544\" data-start=\"2476\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"2494\" data-start=\"2476\"><strong data-end=\"2493\" data-start=\"2478\">Flynn Class</strong></th>\n\t\t\t<th data-col-size=\"md\" data-end=\"2509\" data-start=\"2494\"><strong data-end=\"2508\" data-start=\"2496\">Benefits</strong></th>\n\t\t\t<th data-col-size=\"md\" data-end=\"2525\" data-start=\"2509\"><strong data-end=\"2524\" data-start=\"2511\">Use Cases</strong></th>\n\t\t\t<th data-col-size=\"md\" data-end=\"2544\" data-start=\"2525\"><strong data-end=\"2542\" data-start=\"2527\">Limitations</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"3252\" data-start=\"2613\">\n\t\t<tr data-end=\"2753\" data-start=\"2613\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2631\" data-start=\"2613\">SISD</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2674\" data-start=\"2631\">Simple, easy to maintain, cost-effective</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2713\" data-start=\"2674\">Personal computers, microcontrollers</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2753\" data-start=\"2713\">No parallelism, slow for large tasks</td>\n\t\t</tr>\n\t\t<tr data-end=\"2923\" data-start=\"2754\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2772\" data-start=\"2754\">SIMD</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2838\" data-start=\"2772\">High throughput for repetitive tasks, efficient data processing</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2882\" data-start=\"2838\">GPUs, image processing, matrix operations</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2923\" data-start=\"2882\">Not suitable for diverse instructions</td>\n\t\t</tr>\n\t\t<tr data-end=\"3092\" data-start=\"2924\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2942\" data-start=\"2924\">MISD</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"2992\" data-start=\"2942\">Fault-tolerant, redundancy for critical systems</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"3042\" data-start=\"2992\">Space shuttle control, mission-critical systems</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"3092\" data-start=\"3042\">Rarely used, inefficient for general computing</td>\n\t\t</tr>\n\t\t<tr data-end=\"3252\" data-start=\"3093\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3111\" data-start=\"3093\">MIMD</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"3165\" data-start=\"3111\">Flexible, scalable, supports task-level parallelism</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"3206\" data-start=\"3165\">Multicore CPUs, clusters, big data, AI</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"3252\" data-start=\"3206\">Complex design, synchronization challenges</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Compare and contrast the benefits and use cases for SISD, SIMD, MISD, and MIMD computer systems.</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "lq",
+   "key": 37198
+  }
+ ]
+}

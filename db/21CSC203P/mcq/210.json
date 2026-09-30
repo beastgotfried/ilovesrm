@@ -1,0 +1,148 @@
+{
+ "mcq": [
+  {
+   "_id": 11949,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "parent",
+   "OPT_2": "base",
+   "OPT_3": "super",
+   "OPT_4": "\nthis",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which keyword is used to call the parent class\ufffds version of an overridden method?",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 11949
+  },
+  {
+   "_id": 11950,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Same method name and different return type",
+   "OPT_2": "Same method name, same parameter list, and same return type",
+   "OPT_3": "Same method name with static modifier",
+   "OPT_4": "Same method name and private access",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is required for a method to be overridden in Java?",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 11950
+  },
+  {
+   "_id": 11951,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "Method overloading",
+   "OPT_2": "Inheritance",
+   "OPT_3": "Dynamic method dispatch",
+   "OPT_4": "Encapsulation",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which concept allows a parent class reference to point to a child class object and call overridden methods at runtime?",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 11951
+  },
+  {
+   "_id": 11952,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "public method",
+   "OPT_2": "protected method",
+   "OPT_3": "static method",
+   "OPT_4": "void method",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which method can not be overridden in Java?",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 11952
+  },
+  {
+   "_id": 11953,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "A method overloaded with different parameters",
+   "OPT_2": "A method returning an object",
+   "OPT_3": "A subclass providing its own implementation of a superclass method",
+   "OPT_4": "A class using multiple interfaces",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following best demonstrates runtime polymorphism in Java?",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 11953
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11982,
+   "ANSWER": "The method in the subclass must have the same name, return type, and parameter list as in the superclass.\nThe method must not be static, private, or final, as these prevent overriding.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "State two key rules of method overriding in Java.",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 11982
+  },
+  {
+   "_id": 11983,
+   "ANSWER": "class Animal {\n    void display() {\n        System.out.println(\"Animal class\");\n    }\n}\nclass Dog extends Animal {\n    @Override\n    void display() {\n        System.out.println(\"Dog class\");\n    }\n}\nThis is an example of method overriding, where Dog provides its own version of display().",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a short Java code snippet to override a method display() from a parent class in a subclass.",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 11983
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11997,
+   "ANSWER": "Java Code:\nclass Shape {\n    void draw() {\n        System.out.println(\"Drawing a generic shape\");\n    }\n}\nclass Circle extends Shape {\n    void draw() {\n        System.out.println(\"Drawing a Circle\");\n    }\n}\nclass Rectangle extends Shape {\n    void draw() {\n        System.out.println(\"Drawing a Rectangle\");\n    }\n}\npublic class TestPolymorphism {\n    public static void main(String[] args) {\n        Shape s;\n        s = new Circle();\n        s.draw(); // Output: Drawing a Circle\n        s = new Rectangle();\n        s.draw(); // Output: Drawing a Rectangle\n    }\n}\nExplanation:\nThe reference variable s is of type Shape but refers to different subclass objects (Circle, Rectangle). When s.draw() is called, Java dynamically determines which version to execute at runtime, depending on the actual object. This is runtime polymorphism, implemented using dynamic method dispatch.\nKey Benefits:\nAllows flexible and extensible code design\nReduces the need for complex if-else or switch logic\nSupports object-oriented principles like substitutability and polymorphic behavior",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are designing a shape-drawing tool. There is a base class Shape with a method draw(). Each specific shape (like Circle, Rectangle) should override draw() to provide its own implementation. Use dynamic method dispatch to demonstrate how a superclass reference can invoke overridden methods at runtime.",
+   "SESSION_ID": 210,
+   "TYPE": "lq",
+   "key": 11997
+  }
+ ]
+}

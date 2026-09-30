@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36867,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Material progress only</p>\n",
+   "OPT_2": "<p>Harmony in the Self, family, society, nature, and existence</p>\n",
+   "OPT_3": "<p>Unlimited competition</p>\n",
+   "OPT_4": "<p>Ignoring coexistence</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The all-encompassing resolution for a human being aims at:</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 36867
+  },
+  {
+   "_id": 36868,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Understanding</p>\n",
+   "OPT_2": "<p>Science</p>\n",
+   "OPT_3": "<p>Technology</p>\n",
+   "OPT_4": "<p>Skill</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which aspect of resolution refers to clarity about human purpose and living?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 36868
+  },
+  {
+   "_id": 36869,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Ability to accumulate wealth</p>\n",
+   "OPT_2": "<p>Application of understanding in decision-making and human conduct</p>\n",
+   "OPT_3": "<p>Memorizing information</p>\n",
+   "OPT_4": "<p>Exploiting resources</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Wisdom as an aspect of resolution primarily means:</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 36869
+  },
+  {
+   "_id": 36870,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Systematic study of natural laws in harmony with existence</p>\n",
+   "OPT_2": "<p>Competition between technologies</p>\n",
+   "OPT_3": "<p>Invention without responsibility</p>\n",
+   "OPT_4": "<p>Collection of random data</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Science in the context of resolution refers to:</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 36870
+  },
+  {
+   "_id": 36871,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Understanding</p>\n",
+   "OPT_2": "<p>Science</p>\n",
+   "OPT_3": "<p>Technology</p>\n",
+   "OPT_4": "<p>Information</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which aspect of resolution connects wisdom to material reality?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 36871
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36475,
+   "ANSWER": "<p>An all-encompassing resolution is the holistic understanding of human purpose, harmony in existence, and the right way to live, integrating knowledge, values, and practice.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is meant by an all-encompassing resolution?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "sq",
+   "key": 36475
+  },
+  {
+   "_id": 36476,
+   "ANSWER": "<p>Understanding gives clarity about reality, human needs, and relationships, forming the foundation for right living.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the role of understanding in all-encompassing resolution?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "sq",
+   "key": 36476
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122524,
+   "ANSWER": "<p>Professional ethics means the right utilisation of professional skills for participation in the larger order and for the fulfilment of the comprehensive human goal. A profession is not merely a means of earning money; it is also a means for one&rsquo;s growth and meaningful participation in society and nature. In the light of right understanding, professional success should not be judged only by wealth generation, but by whether it supports mutual happiness, mutual prosperity and harmony. Professional ethics requires clarity of the comprehensive human goal, confidence in harmony and co-existence, competence in mutually fulfilling behaviour, competence in mutually enriching interaction with nature, holistic vision about technology and management, and understanding of social responsibility.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain professional ethics in the light of right understanding.</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "lq",
+   "key": 122524
+  }
+ ]
+}

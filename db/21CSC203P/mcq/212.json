@@ -1,0 +1,163 @@
+{
+ "mcq": [
+  {
+   "_id": 11959,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "import",
+   "OPT_2": "package",
+   "OPT_3": "module",
+   "OPT_4": "namespace",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which keyword is used in Java to define a package?",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 11959
+  },
+  {
+   "_id": 11960,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "include mypack.*;",
+   "OPT_2": "import all from mypack;",
+   "OPT_3": "use package mypack;",
+   "OPT_4": "import mypack.*;",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is the correct syntax to import all classes from a package named mypack?",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 11960
+  },
+  {
+   "_id": 11961,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Slower compilation",
+   "OPT_2": "Memory optimization",
+   "OPT_3": "Logical organization and code reusability",
+   "OPT_4": "Debugging becomes harder",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is the main advantage of creating user-defined packages?",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 11961
+  },
+  {
+   "_id": 11962,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "java.util",
+   "OPT_2": "system.core",
+   "OPT_3": "net.io",
+   "OPT_4": "core.java",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following is a built-in Java package?",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 11962
+  },
+  {
+   "_id": 11963,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "It must be random",
+   "OPT_2": "It must match the class name",
+   "OPT_3": "It must match the package name",
+   "OPT_4": "It must match the import statement",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "To compile a class inside a package, what should the folder structure match?",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 11963
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11986,
+   "ANSWER": "Importing packages allows access to classes, interfaces, and methods defined in another package. This improves code reusability, supports modular design, and makes programs more organized.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is the purpose of importing packages in Java?",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 11986
+  },
+  {
+   "_id": 11987,
+   "ANSWER": "Step 1: Create the class inside the package\n// File: shapes/Circle.java\npackage shapes;\npublic class Circle {\n    public void draw() {\n        System.out.println(\"Drawing a circle\");\n    }\n}\nStep 2: Import and use the package\n// File: Main.java\nimport shapes.Circle;\npublic class Main {\n    public static void main(String[] args) {\n        Circle c = new Circle();\n        c.draw();\n    }\n}\nStep 3: Compile with folder structure\njavac shapes/Circle.java  \njavac -cp . Main.java  ",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write the steps and code snippet to create a user-defined package named shapes containing a class Circle.",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 11987
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11999,
+   "ANSWER": "Folder Structure:\nlibrary/\n??? books/\n?   ??? Book.java\n??? users/\n?   ??? User.java\n??? transactions/\n?   ??? Transaction.java\n??? Main.java\nSample Code:\nbooks/Book.java\npackage books;\npublic class Book {\n    public void displayBook() {\n        System.out.println(\"Displaying book info...\");\n    }\n}\nusers/User.java\npackage users;\npublic class User {\n    public void displayUser() {\n        System.out.println(\"Displaying user info...\");\n    }\n}\ntransactions/Transaction.java\npackage transactions;\npublic class Transaction {\n    public void displayTransaction() {\n        System.out.println(\"Displaying transaction info...\");\n    }\n}\nMain.java\nimport books.Book;\nimport users.User;\nimport transactions.Transaction;\npublic class Main {\n    public static void main(String[] args) {\n        Book b = new Book();\n        User u = new User();\n        Transaction t = new Transaction();\n        b.displayBook();\n        u.displayUser();\n        t.displayTransaction();\n    }\n}\nBenefits of This Modular Approach:\nBetter organization of code by separating concerns\nEncourages code reusability across projects\nSupports team collaboration, as different teams can work on separate packages\nMakes maintenance and scaling easier",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are building a Java-based library management system. You want to organize your project into different functional units: books, users, and transactions.\nExplain how you can use user-defined packages to structure your codebase. Illustrate with Java code how to define and import classes from these packages. What are the benefits of this modular approach?",
+   "SESSION_ID": 212,
+   "TYPE": "lq",
+   "key": 11999
+  },
+  {
+   "_id": 12011,
+   "ANSWER": "Folder Structure:\nlibrary/\n??? books/\n?   ??? Book.java\n??? users/\n?   ??? User.java\n??? transactions/\n?   ??? Transaction.java\n??? Main.java\nSample Code:\nbooks/Book.java\npackage books;\npublic class Book {\n    public void displayBook() {\n        System.out.println(\"Displaying book info...\");\n    }\n}\nusers/User.java\npackage users;\npublic class User {\n    public void displayUser() {\n        System.out.println(\"Displaying user info...\");\n    }\n}\ntransactions/Transaction.java\npackage transactions;\npublic class Transaction {\n    public void displayTransaction() {\n        System.out.println(\"Displaying transaction info...\");\n    }\n}\nMain.java\nimport books.Book;\nimport users.User;\nimport transactions.Transaction;\npublic class Main {\n    public static void main(String[] args) {\n        Book b = new Book();\n        User u = new User();\n        Transaction t = new Transaction();\n        b.displayBook();\n        u.displayUser();\n        t.displayTransaction();\n    }\n}\nBenefits of This Modular Approach:\nBetter organization of code by separating concerns\nEncourages code reusability across projects\nSupports team collaboration, as different teams can work on separate packages\nMakes maintenance and scaling easier",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are building a Java-based library management system. You want to organize your project into different functional units: books, users, and transactions.\nExplain how you can use user-defined packages to structure your codebase. Illustrate with Java code how to define and import classes from these packages. What are the benefits of this modular approach?",
+   "SESSION_ID": 212,
+   "TYPE": "lq",
+   "key": 12011
+  }
+ ]
+}

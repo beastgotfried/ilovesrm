@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 20847,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Text Editors</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">System Utilities</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Application Programs</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Compilers</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which category of system programs is responsible for controlling system resources and performing administrative tasks?</span></span></span></strong></p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 20847
+  },
+  {
+   "_id": 20849,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Loader</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Debugger</span></span></span></p>\n",
+   "OPT_3": "<p>Assembler</p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Compilers</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which system program is responsible for translating high-level source code into machine code?</span></span></span></strong><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 20849
+  },
+  {
+   "_id": 20850,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Editing files in source format</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Linking object files and libraries into a single executable file</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Translating machine code into high-level code</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Providing system-level I/O operations</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">What is the primary function of the linker in system programming?</span></span></span></strong><br />\n&nbsp;</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 20850
+  },
+  {
+   "_id": 20851,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Debugger</span></span></span><br />\n<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">&nbsp;Linker</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Word Processor</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Loader</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which of the following is NOT a type of system program?</span></span></span></strong></p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 20851
+  },
+  {
+   "_id": 20852,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Compiler</span></span></span><br />\n<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Text Editor</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Loader</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Linker</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which of the following system programs is primarily used for writing and editing source code?</span></span></span></strong></p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 20852
+  }
+ ],
+ "sq": [
+  {
+   "_id": 21105,
+   "ANSWER": "<p style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">System programs support system operations and development tasks (e.g., compilers, linkers), while application programs are designed to perform user-oriented tasks like document editing or web browsing.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>How do system programs differ from application programs?</strong></span></span></p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "sq",
+   "key": 21105
+  },
+  {
+   "_id": 21108,
+   "ANSWER": "<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">ssh</span></code> &mdash; Secure Shell for remote login</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">ftp</span></code> &mdash; File Transfer Protocol for data exchange</span></span></span></li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Mention two examples of communication programs in system software.</strong></span></span></p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "sq",
+   "key": 21108
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21144,
+   "ANSWER": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong><span style=\"font-weight:normal\">Purpose of System Programs</span></strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">The primary purpose of system programs is to offer a user-friendly and functional environment that supports:</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Program Development:</strong> By providing tools like editors, compilers, assemblers, and debuggers.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Program Execution:</strong> Through loaders, linkers, and execution managers.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>System Maintenance:</strong> Via utilities that help monitor, configure, and manage system resources.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Communication:</strong> Enabling data exchange between systems and users.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">System programs simplify complex OS operations, abstracting hardware details, and enabling controlled access to system services.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong><span style=\"font-weight:normal\">Types of System Programs</span></strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">System programs can be classified into several functional categories based on their roles:</span></span></p>\n\n<h4 style=\"margin-top:3px\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\"><span style=\"color:#2e74b5\"><span style=\"font-weight:normal\"><span style=\"font-style:italic\">1<strong><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\">File Manipulation Programs</span></strong></span></span></span></span></span></span></h4>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">These programs manage file operations like creation, deletion, copying, renaming, and editing.<br />\n<strong>Examples:</strong> <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">cp</span></code> (copy), <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">rm</span></code> (remove), <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">mv</span></code> (move), <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">chmod</span></code> (change permissions).<br />\n<strong>Purpose:</strong> Facilitate file handling and storage management.</span></span></p>\n\n<h4 style=\"margin-top:3px\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\"><span style=\"color:#2e74b5\"><span style=\"font-weight:normal\"><span style=\"font-style:italic\">2 <strong><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\">Status Information Programs</span></strong></span></span></span></span></span></span></h4>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Provide information about system performance, usage statistics, and hardware configuration.<br />\n<strong>Examples:</strong> <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">top</span></code> (process monitoring), <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">uptime</span></code> (system status), <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">df</span></code> (disk usage).<br />\n<strong>Purpose:</strong> Help users and administrators monitor and assess system health.</span></span></p>\n\n<h4 style=\"margin-top:3px\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\"><span style=\"color:#2e74b5\"><span style=\"font-weight:normal\"><span style=\"font-style:italic\">3 <strong><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\">Programming Language Support Programs</span></strong></span></span></span></span></span></span></h4>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Tools that assist in software development by translating code and managing binaries.<br />\n<strong>Examples:</strong></span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Compiler (gcc):</strong> Converts source code to machine code.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Assembler (as):</strong> Translates assembly code to object code.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Interpreter (python):</strong> Executes code directly.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Purpose:</strong> Streamline program development and testing.</span></span></p>\n\n<h4 style=\"margin-top:3px\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\"><span style=\"color:#2e74b5\"><span style=\"font-weight:normal\"><span style=\"font-style:italic\">4 <strong><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\">Program Loading and Execution Programs</span></strong></span></span></span></span></span></span></h4>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">These handle loading executable programs into memory and managing their execution.<br />\n<strong>Examples:</strong></span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Loader:</strong> Loads programs into memory.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Linker:</strong> Combines object files and libraries into a single executable.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Purpose:</strong> Enable seamless program execution with proper resource allocation.</span></span></p>\n\n<h4 style=\"margin-top:3px\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\"><span style=\"color:#2e74b5\"><span style=\"font-weight:normal\"><span style=\"font-style:italic\">5<strong><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\">Communication Programs</span></strong></span></span></span></span></span></span></h4>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Allow communication between users, processes, or systems over networks or within the same system.<br />\n<strong>Examples:</strong></span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>ssh:</strong> Secure remote login.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>ftp:</strong> File transfer between systems.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Purpose:</strong> Facilitate secure data exchange and remote operations.</span></span></p>\n\n<h4 style=\"margin-top:3px\"><span style=\"font-size:11pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\"><span style=\"color:#2e74b5\"><span style=\"font-weight:normal\"><span style=\"font-style:italic\">6<strong><span style=\"font-family:&quot;Calibri Light&quot;,&quot;sans-serif&quot;\">System Utilities</span></strong></span></span></span></span></span></span></h4>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Perform essential maintenance tasks such as disk cleanup, backup, system configuration, and user management.<br />\n<strong>Examples:</strong> <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">cron</span></code> (job scheduling), <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">fsck</span></code> (file system check), <code style=\"font-family:&quot;Courier New&quot;\"><span style=\"font-size:10.0pt\">tar</span></code> (archiving).<br />\n<strong>Purpose:</strong> Ensure system efficiency, integrity, and manageability.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong><span style=\"font-weight:normal\">Significance of System Programs</span></strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Efficiency:</strong> Simplify complex operations for users and developers.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Accessibility:</strong> Provide easy-to-use tools for managing files, programs, and devices.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Productivity:</strong> Support program development through integrated development tools.</span></span></span></li>\n</ul>\n\n<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Security and Maintenance:</span></span></span></strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\"> Offer utilities for monitoring, repairing, and securing the system.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><b>Explain the role of system programs in an operating system. Discuss their main types and analyze how they support both users and system operations.</b></span></span></p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "lq",
+   "key": 21144
+  }
+ ]
+}

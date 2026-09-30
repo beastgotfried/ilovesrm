@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36743,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Ethical decision-making</p>\n",
+   "OPT_2": "<p>Dishonesty and exploitation</p>\n",
+   "OPT_3": "<p>Sustainable living</p>\n",
+   "OPT_4": "<p>Respectful relationships</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which is NOT a part of human conduct?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 36743
+  },
+  {
+   "_id": 36744,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Selfishness</p>\n",
+   "OPT_2": "<p>Right understanding of self, relationships, society, and nature</p>\n",
+   "OPT_3": "<p>Accumulation of power</p>\n",
+   "OPT_4": "<p>Random behavior</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the basis for harmony in human conduct?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 36744
+  },
+  {
+   "_id": 36745,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Exploiting workers for profit</p>\n",
+   "OPT_2": "<p>Fair treatment of employees and sustainable practices in industry</p>\n",
+   "OPT_3": "<p>Ignoring environmental laws</p>\n",
+   "OPT_4": "<p>Using harmful materials for cost-cutting</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following demonstrates harmony in human conduct?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 36745
+  },
+  {
+   "_id": 36746,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>It ensures balance and mutual enrichment among humans, society, and nature</p>\n",
+   "OPT_2": "<p>It creates conflict among entities</p>\n",
+   "OPT_3": "<p>It isolates humans from nature</p>\n",
+   "OPT_4": "<p>It focuses only on material development</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How does right human conduct relate to coexistence?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 36746
+  },
+  {
+   "_id": 36747,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Sustainable development and peaceful coexistence</p>\n",
+   "OPT_2": "<p>Unlimited exploitation of nature</p>\n",
+   "OPT_3": "<p>Short-term personal gain</p>\n",
+   "OPT_4": "<p>Conflict and imbalance</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the long-term benefit of right human conduct?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "mcq",
+   "key": 36747
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36315,
+   "ANSWER": "<p>Using natural resources wisely without overexploiting them is responsible human conduct.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Give an example of responsible human conduct.</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "sq",
+   "key": 36315
+  },
+  {
+   "_id": 36316,
+   "ANSWER": "<p data-end=\"1190\" data-start=\"1035\">By practicing values like trust, respect, justice, and sustainability in daily life.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How can human beings ensure harmony in existence?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "sq",
+   "key": 36316
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122502,
+   "ANSWER": "<p>The Economics of Happiness practice session helps us examine the prevailing worldview and its impact on society. The session uses a documentary on the impact of globalisation on Ladakh and asks us to observe the goal of society, the achievements and side effects of the prevalent worldview, and whether there is a solution to present-day problems. The main learning is that development should not be measured only by economic growth, consumption or physical facility. If society focuses only on material growth, it may create side effects such as loss of relationship, cultural breakdown, environmental damage and dissatisfaction. True development must support happiness, prosperity, right relationship, right utilisation and harmony with nature.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is the main learning from the Economics of Happiness practice session?</p>\n",
+   "SESSION_ID": 209,
+   "TYPE": "lq",
+   "key": 122502
+  }
+ ]
+}

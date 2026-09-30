@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11387,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File paths</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Code and design decisions</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">String lengths</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">JSON formats</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Project documentation explains:</span></span></span></b><br />\n<br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 11387
+  },
+  {
+   "_id": 11388,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sorting numbers</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Reading files</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Listing directories</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Combining code parts into final system</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Code integration means:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 11388
+  },
+  {
+   "_id": 11389,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Improve future projects</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sort files</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Parse XML</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Generate random numbers</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Analyzing challenges helps:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 11389
+  },
+  {
+   "_id": 11390,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Bugs in combining parts</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File paths</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">String lengths</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Directory names</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Code integration review finds:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 11390
+  },
+  {
+   "_id": 11391,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Files are sorted</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Strings are concatenated</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Directories are listed</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">The project can be implemented</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Project feasibility review ensures:</span></span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A)<br />\nB)<br />\nC)<br />\nD) </span></span></span><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 11391
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11414,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> To document the design, implementation, and results of a project in detail.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2477\" data-start=\"2375\">What is the purpose of a project dissertation?</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "sq",
+   "key": 11414
+  },
+  {
+   "_id": 11415,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> It helps improve future designs and understand limitations of chosen approaches.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2477\" data-start=\"2375\"><strong data-end=\"3290\" data-start=\"3240\">Why is analyzing project challenges important?</strong><br data-end=\"3293\" data-start=\"3290\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "sq",
+   "key": 11415
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11427,
+   "ANSWER": "<p data-end=\"8425\" data-start=\"8382\">Documentation should include:</p>\n\n<ul data-end=\"8572\" data-start=\"8426\">\n\t<li data-end=\"8460\" data-start=\"8426\">\n\t<p data-end=\"8460\" data-start=\"8428\">Problem statement and objectives</p>\n\t</li>\n\t<li data-end=\"8481\" data-start=\"8461\">\n\t<p data-end=\"8481\" data-start=\"8463\">Design methodology</p>\n\t</li>\n\t<li data-end=\"8517\" data-start=\"8482\">\n\t<p data-end=\"8517\" data-start=\"8484\">Code structure and libraries used</p>\n\t</li>\n\t<li data-end=\"8542\" data-start=\"8518\">\n\t<p data-end=\"8542\" data-start=\"8520\">Test cases and results</p>\n\t</li>\n\t<li data-end=\"8572\" data-start=\"8543\">\n\t<p data-end=\"8572\" data-start=\"8545\">Challenges and future scope</p>\n\t</li>\n</ul>\n\n<p data-end=\"8595\" data-start=\"8574\">Presentation ensures:</p>\n\n<ul data-end=\"8725\" data-start=\"8596\">\n\t<li data-end=\"8635\" data-start=\"8596\">\n\t<p data-end=\"8635\" data-start=\"8598\">Clear articulation of problem-solving</p>\n\t</li>\n\t<li data-end=\"8683\" data-start=\"8636\">\n\t<p data-end=\"8683\" data-start=\"8638\">Code walkthroughs with UI screenshots or demo</p>\n\t</li>\n\t<li data-end=\"8725\" data-start=\"8684\">\n\t<p data-end=\"8725\" data-start=\"8686\">Outcome analysis and performance review</p>\n\t</li>\n</ul>\n\n<p data-end=\"8853\" data-start=\"8727\">This reflective process evaluates feasibility, encourages feedback, and prepares students for industry or research-level work.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Evaluate the process of documenting and presenting a Python project. What are the key components, and how do they reflect project success?</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "lq",
+   "key": 11427
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17337,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>ALU</p>\n",
+   "OPT_2": "<p>Control Unit (CU)</p>\n",
+   "OPT_3": "<p>Cache</p>\n",
+   "OPT_4": "<p>RAM</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which component generates control signals in a CPU?</strong></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 17337
+  },
+  {
+   "_id": 17338,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Opcode of the current instruction</p>\n",
+   "OPT_2": "<p>Data in registers</p>\n",
+   "OPT_3": "<p>User input</p>\n",
+   "OPT_4": "<p>Power supply voltage</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Control signals are generated based on:</strong></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 17338
+  },
+  {
+   "_id": 17339,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>LOAD enables memory-to-register transfer; STORE enables register-to-memory</p>\n",
+   "OPT_2": "<p>Both use identical signals</p>\n",
+   "OPT_3": "<p>LOAD disables the ALU</p>\n",
+   "OPT_4": "<p>STORE ignores the memory bus</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>How does a LOAD instruction differ from a STORE in control signals?</strong></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 17339
+  },
+  {
+   "_id": 17345,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Memory Write</p>\n",
+   "OPT_2": "<p>ALU Enable</p>\n",
+   "OPT_3": "<p>&nbsp;PC Update</p>\n",
+   "OPT_4": "<p>Interrupt Disable</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which control signal is unique to branch instructions?</strong></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 17345
+  },
+  {
+   "_id": 17347,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Only one signal per instruction</p>\n",
+   "OPT_2": "<p>No signals are needed</p>\n",
+   "OPT_3": "<p>They are identical</p>\n",
+   "OPT_4": "<p>Signals change per clock phase (fetch/decode/execute)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>In a multicycle processor, how do control signals differ from single-cycle?</strong></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 17347
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17425,
+   "ANSWER": "<p data-end=\"1039\" data-start=\"973\"><strong data-end=\"348\" data-start=\"327\">Hardwired control</strong> refers to a control unit in a CPU where control signals are generated using fixed logic circuits like <strong data-end=\"500\" data-start=\"451\">gates, flip-flops, decoders, and multiplexers</strong>. These circuits are hard-coded to perform specific operations based on the current instruction. Once designed, they can&#39;t be easily modified. Hardwired control units are <strong data-end=\"679\" data-start=\"671\">fast</strong> and <strong data-end=\"697\" data-start=\"684\">efficient</strong> because signal generation is immediate. However, they lack flexibility and are complex to design, especially for CPUs with large instruction sets. They are commonly used in <strong data-end=\"879\" data-start=\"871\">RISC</strong> processors where instruction sets are simple and speed is crucial.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What is hardwired control in computer architecture?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 17425
+  },
+  {
+   "_id": 17426,
+   "ANSWER": "<p data-end=\"1122\" data-start=\"1062\">A hardwired control unit typically includes:</p>\n\n<ol data-end=\"1600\" data-start=\"1123\">\n\t<li data-end=\"1190\" data-start=\"1123\">\n\t<p data-end=\"1190\" data-start=\"1126\"><strong data-end=\"1155\" data-start=\"1126\">Instruction Register (IR)</strong> &ndash; Holds the current instruction.</p>\n\t</li>\n\t<li data-end=\"1247\" data-start=\"1191\">\n\t<p data-end=\"1247\" data-start=\"1194\"><strong data-end=\"1217\" data-start=\"1194\">Control Logic Gates</strong> &ndash; Generate control signals.</p>\n\t</li>\n\t<li data-end=\"1310\" data-start=\"1248\">\n\t<p data-end=\"1310\" data-start=\"1251\"><strong data-end=\"1266\" data-start=\"1251\">Timing Unit</strong> &ndash; Produces timing signals for sequencing.</p>\n\t</li>\n\t<li data-end=\"1383\" data-start=\"1311\">\n\t<p data-end=\"1383\" data-start=\"1314\"><strong data-end=\"1325\" data-start=\"1314\">Decoder</strong> &ndash; Decodes the opcode to determine the instruction type.</p>\n\t</li>\n\t<li data-end=\"1600\" data-start=\"1384\">\n\t<p data-end=\"1600\" data-start=\"1387\"><strong data-end=\"1414\" data-start=\"1387\">Flip-Flops and Counters</strong> &ndash; Manage control sequences.<br data-end=\"1445\" data-start=\"1442\" />\n\tThese components work together to generate precise control signals for each step of instruction execution, all without using software or microinstructions.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What are the main components used in a hardwired control unit?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 17426
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17577,
+   "ANSWER": "<p data-end=\"2245\" data-start=\"1966\">In a <strong data-end=\"2011\" data-start=\"1985\">hardwired control unit</strong>, control signals are generated using <strong data-end=\"2081\" data-start=\"2049\">combinational logic circuits</strong> such as decoders, encoders, and logic gates. These signals are produced based on the <strong data-end=\"2177\" data-start=\"2167\">opcode</strong> of the instruction and the <strong data-end=\"2221\" data-start=\"2205\">timing steps</strong> of the execution cycle.</p>\n\n<h4 data-end=\"2290\" data-start=\"2247\"><strong data-end=\"2290\" data-start=\"2252\">Control Signal Generation Process:</strong></h4>\n\n<ol data-end=\"3064\" data-start=\"2292\">\n\t<li data-end=\"2415\" data-start=\"2292\">\n\t<p data-end=\"2325\" data-start=\"2295\"><strong data-end=\"2325\" data-start=\"2295\">Instruction Register (IR):</strong></p>\n\n\t<ul data-end=\"2415\" data-start=\"2329\">\n\t\t<li data-end=\"2368\" data-start=\"2329\">\n\t\t<p data-end=\"2368\" data-start=\"2331\">Holds the instruction to be executed.</p>\n\t\t</li>\n\t\t<li data-end=\"2415\" data-start=\"2372\">\n\t\t<p data-end=\"2415\" data-start=\"2374\">The <strong data-end=\"2388\" data-start=\"2378\">opcode</strong> part is sent to a decoder.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2554\" data-start=\"2417\">\n\t<p data-end=\"2444\" data-start=\"2420\"><strong data-end=\"2444\" data-start=\"2420\">Instruction Decoder:</strong></p>\n\n\t<ul data-end=\"2554\" data-start=\"2448\">\n\t\t<li data-end=\"2554\" data-start=\"2448\">\n\t\t<p data-end=\"2554\" data-start=\"2450\">Decodes the opcode and activates a specific line corresponding to the instruction (e.g., ADD, SUB, JMP).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2679\" data-start=\"2556\">\n\t<p data-end=\"2580\" data-start=\"2559\"><strong data-end=\"2580\" data-start=\"2559\">Timing Generator:</strong></p>\n\n\t<ul data-end=\"2679\" data-start=\"2584\">\n\t\t<li data-end=\"2679\" data-start=\"2584\">\n\t\t<p data-end=\"2679\" data-start=\"2586\">A clock-driven counter generates timing steps (T1, T2, T3&hellip;) to sequence the micro-operations.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2913\" data-start=\"2681\">\n\t<p data-end=\"2710\" data-start=\"2684\"><strong data-end=\"2710\" data-start=\"2684\">Control Logic Circuit:</strong></p>\n\n\t<ul data-end=\"2913\" data-start=\"2714\">\n\t\t<li data-end=\"2816\" data-start=\"2714\">\n\t\t<p data-end=\"2816\" data-start=\"2716\">Combinational logic combines timing signals and opcode decoding to produce specific control signals.</p>\n\t\t</li>\n\t\t<li data-end=\"2913\" data-start=\"2820\">\n\t\t<p data-end=\"2834\" data-start=\"2822\">For example:</p>\n\n\t\t<ul data-end=\"2913\" data-start=\"2840\">\n\t\t\t<li data-end=\"2913\" data-start=\"2840\">\n\t\t\t<p data-end=\"2913\" data-start=\"2842\">If (Opcode = ADD) and (T = T3) &rarr; Generate <code data-end=\"2893\" data-start=\"2884\">ALU_ADD</code>, <code data-end=\"2912\" data-start=\"2895\">Enable Register</code>.</p>\n\t\t\t</li>\n\t\t</ul>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3064\" data-start=\"2915\">\n\t<p data-end=\"2937\" data-start=\"2918\"><strong data-end=\"2937\" data-start=\"2918\">Signal Routing:</strong></p>\n\n\t<ul data-end=\"3064\" data-start=\"2941\">\n\t\t<li data-end=\"3064\" data-start=\"2941\">\n\t\t<p data-end=\"3064\" data-start=\"2943\">These control signals are sent to the <strong data-end=\"3004\" data-start=\"2981\">datapath components</strong> to enable buses, select inputs, and activate ALU or memory.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<h4 data-end=\"3086\" data-start=\"3066\"><strong data-end=\"3086\" data-start=\"3071\">Advantages:</strong></h4>\n\n<ul data-end=\"3145\" data-start=\"3087\">\n\t<li data-end=\"3145\" data-start=\"3087\">\n\t<p data-end=\"3145\" data-start=\"3089\">Fast and efficient, suitable for <strong data-end=\"3144\" data-start=\"3122\">RISC architectures</strong>.</p>\n\t</li>\n</ul>\n\n<h4 data-end=\"3170\" data-start=\"3147\"><strong data-end=\"3170\" data-start=\"3152\">Disadvantages:</strong></h4>\n\n<ul data-end=\"3222\" data-start=\"3171\">\n\t<li data-end=\"3222\" data-start=\"3171\">\n\t<p data-end=\"3222\" data-start=\"3173\">Complex to modify or extend for new instructions.</p>\n\t</li>\n</ul>\n\n<p data-end=\"3353\" data-start=\"3224\">Thus, hardwired control enables precise and rapid control signal generation based on fixed logic tailored to the instruction set.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain how control signals are generated in a hardwired control unit.</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "lq",
+   "key": 17577
+  }
+ ]
+}

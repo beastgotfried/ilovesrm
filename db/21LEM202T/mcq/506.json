@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36882,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Living for physical comfort only</p>\n",
+   "OPT_2": "<p>Integration of realization, thought, behavior, and work in harmony</p>\n",
+   "OPT_3": "<p>Competing for resources</p>\n",
+   "OPT_4": "<p>Blindly imitating others</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Holistic way of living means:</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 36882
+  },
+  {
+   "_id": 36883,
+   "ANSWER": 4,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Realization</p>\n",
+   "OPT_2": "<p>Thought</p>\n",
+   "OPT_3": "<p>Behavior</p>\n",
+   "OPT_4": "<p>Exploitation</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT a dimension of human endeavor?</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 36883
+  },
+  {
+   "_id": 36884,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Accumulation of information</p>\n",
+   "OPT_2": "<p>Direct awareness of coexistence in existence</p>\n",
+   "OPT_3": "<p>Social pressure</p>\n",
+   "OPT_4": "<p>Copying others&rsquo; knowledge</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"678\" data-start=\"631\">Realization in human endeavor refers to:</strong></p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 36884
+  },
+  {
+   "_id": 36885,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Random imagination</p>\n",
+   "OPT_2": "<p>Reflection based on right understanding</p>\n",
+   "OPT_3": "<p>Blind beliefs</p>\n",
+   "OPT_4": "<p>Physical reactions</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Thought as a dimension of human endeavor involves:</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 36885
+  },
+  {
+   "_id": 36886,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Actions based on fear</p>\n",
+   "OPT_2": "<p>Relationship guided by trust, respect, and mutual happiness</p>\n",
+   "OPT_3": "<p>Competition in society</p>\n",
+   "OPT_4": "<p>Resource accumulation</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Behavior in human endeavor reflects:</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 36886
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36486,
+   "ANSWER": "<p>A holistic way of living means living with balance and harmony in all aspects&mdash;self, family, society, and nature&mdash;guided by right understanding and values.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is meant by a holistic way of living?</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "sq",
+   "key": 36486
+  },
+  {
+   "_id": 36487,
+   "ANSWER": "<p>The four dimensions are <strong data-end=\"530\" data-start=\"486\">realization, thought, behavior, and work</strong>.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What are the four dimensions of human endeavor in holistic living?</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "sq",
+   "key": 36487
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122527,
+   "ANSWER": "<p>Transition towards value-based life and profession begins with individual transformation and gradually moves toward societal transformation. The first step is to gain right understanding through self-exploration. This helps us move from animal consciousness to human consciousness. The next step is to create mass awareness about holistic development and the human goal. Then education must be humanised by incorporating value education, value-based education and practice-oriented skill development. Finally, models for holistic living must be developed in educational institutions and communities. In professional life, this means using one&rsquo;s knowledge of engineering, technology, management or any profession for universal human order. The aim is to ensure happiness, prosperity, ethical conduct and sustainable systems.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain the strategies for transition towards value-based life and profession.</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "lq",
+   "key": 122527
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36738,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Plagiarizing academic work</p>\n",
+   "OPT_2": "<p>Developing eco-friendly technology</p>\n",
+   "OPT_3": "<p>Ignoring social responsibilities</p>\n",
+   "OPT_4": "<p>Exploiting natural resources</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a correct example of responsible human conduct?</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 36738
+  },
+  {
+   "_id": 36739,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Plants</p>\n",
+   "OPT_2": "<p>Animals</p>\n",
+   "OPT_3": "<p>Human beings</p>\n",
+   "OPT_4": "<p>Non-living things</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which unit of existence has the ability to consciously ensure harmony?</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 36739
+  },
+  {
+   "_id": 36740,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>It has no impact on society</p>\n",
+   "OPT_2": "<p>Right conduct builds trust, peace, and cooperation in relationships</p>\n",
+   "OPT_3": "<p>Wrong conduct strengthens harmony</p>\n",
+   "OPT_4": "<p>Conduct influences only personal success</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How does human conduct affect society?</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 36740
+  },
+  {
+   "_id": 36741,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Right understanding and values</p>\n",
+   "OPT_2": "<p>Physical strength</p>\n",
+   "OPT_3": "<p>Technology alone</p>\n",
+   "OPT_4": "<p>Environmental factors only</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Human conduct is guided primarily by:</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 36741
+  },
+  {
+   "_id": 36742,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To increase mechanical efficiency</p>\n",
+   "OPT_2": "<p>To integrate ethics, responsibility, and sustainability in technological solutions</p>\n",
+   "OPT_3": "<p>To compete aggressively in market</p>\n",
+   "OPT_4": "<p>To focus only on technical aspects</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why is it important for engineers to understand human conduct?</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 36742
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36313,
+   "ANSWER": "<p>Good conduct promotes trust, cooperation, and mutual respect, while wrong conduct leads to conflict and exploitation.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How does human conduct affect society?</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "sq",
+   "key": 36313
+  },
+  {
+   "_id": 36314,
+   "ANSWER": "<p>To live harmoniously, contribute positively, and protect the balance of society and nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is the ultimate role of a human being in existence?</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "sq",
+   "key": 36314
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122501,
+   "ANSWER": "<p>Self-regulation means the feeling of responsibility toward the Body for its nurturing, protection and right utilisation. Health means the Body acts according to the Self and the parts of the Body are in harmony. The programme to ensure self-regulation and health gives priority to four areas: intake and routine, labour and exercise, posture and regulated breathing, and medicine and treatment. Intake includes air, water, sunlight, food and sensory inputs. Routine includes proper rising time, sleeping time and eating time. Labour produces physical facility, while exercise supports the health of the Body. Postures and regulated breathing help regulate the internal and external organs. Medicine and treatment are required when the Body temporarily moves away from harmony. This programme helps the Self take responsibility for the Body naturally, not through fear or force.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain prosperity in the light of harmony between Self and Body.</p>\n",
+   "SESSION_ID": 208,
+   "TYPE": "lq",
+   "key": 122501
+  }
+ ]
+}

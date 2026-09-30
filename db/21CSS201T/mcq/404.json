@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17306,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Instruction Register (IR)</p>\n",
+   "OPT_2": "<p>Program Counter (PC)</p>\n",
+   "OPT_3": "<p>Accumulator</p>\n",
+   "OPT_4": "<p>Memory Data Register (MDR)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which register is updated by a branch instruction?</strong></p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 17306
+  },
+  {
+   "_id": 17307,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>ALU</p>\n",
+   "OPT_2": "<p>Instruction operand or register</p>\n",
+   "OPT_3": "<p>Cache memory</p>\n",
+   "OPT_4": "<p>Hard disk</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>The target address in a branch instruction is stored in:</strong></p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 17307
+  },
+  {
+   "_id": 17308,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>It checks CPU flags before branching</p>\n",
+   "OPT_2": "<p>&nbsp;It only works in loops</p>\n",
+   "OPT_3": "<p>It ignores the PC</p>\n",
+   "OPT_4": "<p>It skips the next instruction</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>How does a conditional branch differ from an unconditional branch?</strong></p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 17308
+  },
+  {
+   "_id": 17309,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Alter sequential execution</p>\n",
+   "OPT_2": "<p>Increase clock speed</p>\n",
+   "OPT_3": "<p>Disable interrupts</p>\n",
+   "OPT_4": "<p>Store data in RAM</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>The purpose of a branch instruction is to:</strong></p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 17309
+  },
+  {
+   "_id": 17310,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>R1 == R2</p>\n",
+   "OPT_2": "<p>R1 &gt; R2 (signed)</p>\n",
+   "OPT_3": "<p>R1 &lt; R2</p>\n",
+   "OPT_4": "<p>Zero flag is set</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>If &quot;CMP R1, R2&quot; is followed by &quot;BGT Label&quot;, branching occurs if:</strong></p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 17310
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17416,
+   "ANSWER": "<p data-end=\"1107\" data-start=\"1030\">The instruction execution cycle involves the following steps:</p>\n\n<ol data-end=\"1609\" data-start=\"1108\">\n\t<li data-end=\"1193\" data-start=\"1108\">\n\t<p data-end=\"1193\" data-start=\"1111\"><strong data-end=\"1120\" data-start=\"1111\">Fetch</strong> &ndash; Retrieve the instruction from memory using the program counter (PC).</p>\n\t</li>\n\t<li data-end=\"1278\" data-start=\"1194\">\n\t<p data-end=\"1278\" data-start=\"1197\"><strong data-end=\"1207\" data-start=\"1197\">Decode</strong> &ndash; Interpret the instruction to determine the operation and operands.</p>\n\t</li>\n\t<li data-end=\"1347\" data-start=\"1279\">\n\t<p data-end=\"1347\" data-start=\"1282\"><strong data-end=\"1293\" data-start=\"1282\">Execute</strong> &ndash; Perform the action using the ALU or control unit.</p>\n\t</li>\n\t<li data-end=\"1417\" data-start=\"1348\">\n\t<p data-end=\"1417\" data-start=\"1351\"><strong data-end=\"1372\" data-start=\"1351\">Store (if needed)</strong> &ndash; Save the result in a register or memory.</p>\n\t</li>\n\t<li data-end=\"1609\" data-start=\"1418\">\n\t<p data-end=\"1609\" data-start=\"1421\"><strong data-end=\"1437\" data-start=\"1421\">Increment PC</strong> &ndash; Move to the next instruction.<br data-end=\"1472\" data-start=\"1469\" />\n\tThese steps are repeated continuously until the program ends. This sequence ensures orderly and correct operation of programs in the CPU.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What are the main steps in the instruction execution cycle?</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 17416
+  },
+  {
+   "_id": 17418,
+   "ANSWER": "<p data-end=\"1107\" data-start=\"1030\">Instruction execution is the process by which a computer&#39;s CPU carries out the commands specified in program instructions. Each instruction goes through a series of steps: <strong data-end=\"487\" data-start=\"478\">fetch</strong>, <strong data-end=\"499\" data-start=\"489\">decode</strong>, and <strong data-end=\"516\" data-start=\"505\">execute</strong>. During <strong data-end=\"534\" data-start=\"525\">fetch</strong>, the instruction is retrieved from memory. In the <strong data-end=\"595\" data-start=\"585\">decode</strong> phase, the control unit interprets what action is needed. Finally, during <strong data-end=\"681\" data-start=\"670\">execute</strong>, the required operation (like arithmetic, data transfer, or logic) is performed. This process repeats for every instruction in a program. It enables the system to respond to tasks such as calculations, decisions, and memory operations.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What do you mean by instruction execution in a CPU?</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 17418
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17574,
+   "ANSWER": "<p data-end=\"1938\" data-start=\"1756\">Branch instructions are classified into several categories based on how and when they transfer control. Understanding these types is critical for managing program flow.</p>\n\n<h4 data-end=\"1973\" data-start=\"1940\"><strong data-end=\"1973\" data-start=\"1945\">1. Unconditional Branch:</strong></h4>\n\n<ul data-end=\"2188\" data-start=\"1974\">\n\t<li data-end=\"2055\" data-start=\"1974\">\n\t<p data-end=\"2055\" data-start=\"1976\"><strong data-end=\"1992\" data-start=\"1976\">Description:</strong> Jumps to a specified address without evaluating any condition.</p>\n\t</li>\n\t<li data-end=\"2188\" data-start=\"2056\">\n\t<p data-end=\"2083\" data-start=\"2058\"><strong data-end=\"2081\" data-start=\"2058\">Example (Assembly):</strong></p>\n\n\t<ul data-end=\"2188\" data-start=\"2086\">\n\t\t<li data-end=\"2138\" data-start=\"2086\">\n\t\t<p data-end=\"2138\" data-start=\"2088\"><code data-end=\"2100\" data-start=\"2088\">JMP 0x0040</code> &mdash; sets PC to address 0x0040 directly.</p>\n\t\t</li>\n\t\t<li data-end=\"2188\" data-start=\"2141\">\n\t\t<p data-end=\"2188\" data-start=\"2143\"><code data-end=\"2152\" data-start=\"2143\">B LABEL</code> &mdash; in ARM, this branches to <code data-end=\"2187\" data-start=\"2180\">LABEL</code>.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<h4 data-end=\"2221\" data-start=\"2190\"><strong data-end=\"2221\" data-start=\"2195\">2. Conditional Branch:</strong></h4>\n\n<ul data-end=\"2642\" data-start=\"2222\">\n\t<li data-end=\"2294\" data-start=\"2222\">\n\t<p data-end=\"2294\" data-start=\"2224\"><strong data-end=\"2240\" data-start=\"2224\">Description:</strong> Transfers control only if a certain condition is met.</p>\n\t</li>\n\t<li data-end=\"2372\" data-start=\"2295\">\n\t<p data-end=\"2372\" data-start=\"2297\"><strong data-end=\"2337\" data-start=\"2297\">Conditions are based on status flags</strong> (Zero, Negative, Carry, Overflow).</p>\n\t</li>\n\t<li data-end=\"2642\" data-start=\"2373\">\n\t<p data-end=\"2388\" data-start=\"2375\"><strong data-end=\"2388\" data-start=\"2375\">Examples:</strong></p>\n\n\t<ul data-end=\"2642\" data-start=\"2391\">\n\t\t<li data-end=\"2457\" data-start=\"2391\">\n\t\t<p data-end=\"2457\" data-start=\"2393\"><code data-end=\"2404\" data-start=\"2393\">BEQ LABEL</code> &ndash; Branch if zero flag is set (i.e., result is zero).</p>\n\t\t</li>\n\t\t<li data-end=\"2507\" data-start=\"2460\">\n\t\t<p data-end=\"2507\" data-start=\"2462\"><code data-end=\"2473\" data-start=\"2462\">BNE LABEL</code> &ndash; Branch if zero flag is not set.</p>\n\t\t</li>\n\t\t<li data-end=\"2566\" data-start=\"2510\">\n\t\t<p data-end=\"2566\" data-start=\"2512\"><code data-end=\"2523\" data-start=\"2512\">BLT LABEL</code> &ndash; Branch if less than (negative flag set).</p>\n\t\t</li>\n\t\t<li data-end=\"2642\" data-start=\"2569\">\n\t\t<p data-end=\"2642\" data-start=\"2571\"><code data-end=\"2582\" data-start=\"2571\">BGT LABEL</code> &ndash; Branch if greater than (zero and negative flags cleared).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<h4 data-end=\"2672\" data-start=\"2644\"><strong data-end=\"2672\" data-start=\"2649\">3. Relative Branch:</strong></h4>\n\n<ul data-end=\"2809\" data-start=\"2673\">\n\t<li data-end=\"2760\" data-start=\"2673\">\n\t<p data-end=\"2760\" data-start=\"2675\">Uses a signed offset to jump to a nearby instruction rather than an absolute address.</p>\n\t</li>\n\t<li data-end=\"2809\" data-start=\"2761\">\n\t<p data-end=\"2809\" data-start=\"2763\">Useful in embedded systems for efficient code.</p>\n\t</li>\n</ul>\n\n<h4 data-end=\"2839\" data-start=\"2811\"><strong data-end=\"2839\" data-start=\"2816\">4. Indirect Branch:</strong></h4>\n\n<ul data-end=\"2958\" data-start=\"2840\">\n\t<li data-end=\"2901\" data-start=\"2840\">\n\t<p data-end=\"2901\" data-start=\"2842\">The address to branch to is stored in a register or memory.</p>\n\t</li>\n\t<li data-end=\"2958\" data-start=\"2902\">\n\t<p data-end=\"2958\" data-start=\"2904\">Used for function calls, virtual methods, jump tables.</p>\n\t</li>\n</ul>\n\n<h4 data-end=\"3006\" data-start=\"2960\"><strong data-end=\"3006\" data-start=\"2965\">5. Branch and Link (Subroutine Call):</strong></h4>\n\n<ul data-end=\"3144\" data-start=\"3007\">\n\t<li data-end=\"3069\" data-start=\"3007\">\n\t<p data-end=\"3069\" data-start=\"3009\"><strong data-end=\"3025\" data-start=\"3009\">Description:</strong> Calls a function and stores return address.</p>\n\t</li>\n\t<li data-end=\"3144\" data-start=\"3070\">\n\t<p data-end=\"3144\" data-start=\"3072\"><strong data-end=\"3084\" data-start=\"3072\">Example:</strong> <code data-end=\"3098\" data-start=\"3085\">BL FUNCTION</code> &ndash; stores return address in the link register.</p>\n\t</li>\n</ul>\n\n<p data-end=\"3266\" data-start=\"3146\">Branch instructions are fundamental for implementing decision-making and repeating operations in machine-level programs.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain different types of branch instructions with examples.</p>\n",
+   "SESSION_ID": 404,
+   "TYPE": "lq",
+   "key": 17574
+  }
+ ]
+}

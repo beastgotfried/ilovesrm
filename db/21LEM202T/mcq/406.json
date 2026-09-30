@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36841,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Sustainable happiness and harmony</p>\n",
+   "OPT_2": "<p>Unlimited consumption</p>\n",
+   "OPT_3": "<p>Conflicts in society</p>\n",
+   "OPT_4": "<p>Environmental imbalance</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Inner evolution through right understanding results in:</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 36841
+  },
+  {
+   "_id": 36842,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>It helps apply ethics and responsibility in technology development</p>\n",
+   "OPT_2": "<p>It improves only physical performance</p>\n",
+   "OPT_3": "<p>It eliminates teamwork</p>\n",
+   "OPT_4": "<p>It avoids social responsibility</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Inner evolution is important because:</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 36842
+  },
+  {
+   "_id": 36843,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Clarity in goals</p>\n",
+   "OPT_2": "<p>Confusion, conflict, and dependence on external validation</p>\n",
+   "OPT_3": "<p>Sustainable living</p>\n",
+   "OPT_4": "<p>Right understanding</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Lack of self-exploration leads to:</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 36843
+  },
+  {
+   "_id": 36844,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Reflecting on one&rsquo;s experiences and learning from them</p>\n",
+   "OPT_2": "<p>Blindly following external trends</p>\n",
+   "OPT_3": "<p>Only physical training</p>\n",
+   "OPT_4": "<p>Accumulating more material wealth</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Which practice supports inner evolution the most?</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 36844
+  },
+  {
+   "_id": 36845,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To dominate others</p>\n",
+   "OPT_2": "<p>To ensure right understanding and harmony at all levels of existence</p>\n",
+   "OPT_3": "<p>To compete for success only</p>\n",
+   "OPT_4": "<p>To avoid social participation</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>The ultimate purpose of inner evolution is:</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 36845
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36454,
+   "ANSWER": "<p>It enables to handle academic pressure, make ethical decisions in technology, improve relationships, and contribute positively to society</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Why do we&nbsp;need inner evolution?</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "sq",
+   "key": 36454
+  },
+  {
+   "_id": 36456,
+   "ANSWER": "<p>The outcome is harmony within oneself, responsible conduct, professional integrity, and a balanced, fulfilling life.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What is the overall outcome of inner evolution?</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "sq",
+   "key": 36456
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122518,
+   "ANSWER": "<p>The program of action for human beings is to understand co-existence and live in co-existence. At the individual level, this begins with self-exploration, self-awareness and self-evaluation. We verify proposals on the basis of natural acceptance and develop right understanding. We become aware of our desires, thoughts and expectations, and evaluate them on the basis of harmony. This purifies our sanskar and leads to harmonious behaviour, work and participation. At the level of society, the program includes people&rsquo;s education for adults, education-sanskar for children, and efforts toward undivided society and universal human order. The way forward is personal transformation through right understanding, which gradually leads to societal transformation and fulfilment of the human goal.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is the program of action for human beings after understanding harmony in existence?</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "lq",
+   "key": 122518
+  }
+ ]
+}

@@ -1,0 +1,135 @@
+{
+ "mcq": [
+  {
+   "_id": 26000,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Performing calculations</p>\n",
+   "OPT_2": "<p>B) Storing data permanently</p>\n",
+   "OPT_3": "<p>C) Directing the operation of the processor</p>\n",
+   "OPT_4": "<p>D) Generating graphical output</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The Control Unit is responsible for:</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 26000
+  },
+  {
+   "_id": 26001,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Only programs</p>\n",
+   "OPT_2": "<p>B) Only data</p>\n",
+   "OPT_3": "<p>C) Data and instructions</p>\n",
+   "OPT_4": "<p>D) None of the above</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The Memory Unit stores:</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 26001
+  },
+  {
+   "_id": 26002,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Control Unit</p>\n",
+   "OPT_2": "<p>B) Memory Unit</p>\n",
+   "OPT_3": "<p>C) Input Unit</p>\n",
+   "OPT_4": "<p>D) Arithmetic Logic Unit (ALU)</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which unit performs logical comparisons like AND, OR operations?</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 26002
+  },
+  {
+   "_id": 26003,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Stores data</p>\n",
+   "OPT_2": "<p>B) Sends data to the CPU</p>\n",
+   "OPT_3": "<p>C) Receives data from the CPU and converts it into human-readable form</p>\n",
+   "OPT_4": "<p>D) Processes instructions</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What does the Output Unit do?</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 26003
+  },
+  {
+   "_id": 27619,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Monitor</p>\n",
+   "OPT_2": "<p>Printer</p>\n",
+   "OPT_3": "<p>Keyboard</p>\n",
+   "OPT_4": "<p>Speaker</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is <strong data-end=\"101\" data-start=\"94\">not</strong> an example of an output device?</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "mcq",
+   "key": 27619
+  }
+ ],
+ "sq": [
+  {
+   "_id": 27584,
+   "ANSWER": "<p data-end=\"81\" data-start=\"0\">Digital computers use the binary number system because it is easier and more reliable to design electronic circuits that have only two states&mdash;<strong data-end=\"377\" data-start=\"367\">ON (1)</strong> and <strong data-end=\"393\" data-start=\"382\">OFF (0)</strong>. These two states can be easily represented using voltage levels, which makes binary ideal for digital processing and storage. Unlike the decimal system which uses ten digits, binary&#39;s simplicity allows for faster, cheaper, and more error-resistant hardware design.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain why the binary number system is used in digital computers instead of the decimal number system.</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "sq",
+   "key": 27584
+  },
+  {
+   "_id": 27585,
+   "ANSWER": "<p data-end=\"404\" data-start=\"250\">The <strong data-end=\"274\" data-start=\"264\">binary</strong> and <strong data-end=\"294\" data-start=\"279\">hexadecimal</strong> number systems are both widely used in digital electronics and computing, but they differ in several aspects:</p>\n\n<ul data-end=\"1146\" data-start=\"406\">\n\t<li data-end=\"600\" data-start=\"406\">\n\t<p data-end=\"419\" data-start=\"408\"><strong data-end=\"417\" data-start=\"408\">Base:</strong></p>\n\n\t<ul data-end=\"600\" data-start=\"422\">\n\t\t<li data-end=\"488\" data-start=\"422\">\n\t\t<p data-end=\"488\" data-start=\"424\">Binary has a <strong data-end=\"450\" data-start=\"437\">base of 2</strong>, using only <strong data-end=\"476\" data-start=\"463\">2 symbols</strong>: 0 and 1.</p>\n\t\t</li>\n\t\t<li data-end=\"597\" data-start=\"491\">\n\t\t<p data-end=\"597\" data-start=\"493\">Hexadecimal has a <strong data-end=\"525\" data-start=\"511\">base of 16</strong>, using <strong data-end=\"547\" data-start=\"533\">16 symbols</strong>: 0&ndash;9 and A&ndash;F (where A = 10, B = 11, ..., F = 15).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"749\" data-start=\"601\">\n\t<p data-end=\"622\" data-start=\"603\"><strong data-end=\"620\" data-start=\"603\">Symbols Used:</strong></p>\n\n\t<ul data-end=\"749\" data-start=\"625\">\n\t\t<li data-end=\"670\" data-start=\"625\">\n\t\t<p data-end=\"670\" data-start=\"627\">In binary, only <strong data-end=\"648\" data-start=\"643\">0</strong> and <strong data-end=\"658\" data-start=\"653\">1</strong> are used.</p>\n\t\t</li>\n\t\t<li data-end=\"746\" data-start=\"673\">\n\t\t<p data-end=\"746\" data-start=\"675\">In hexadecimal, digits from <strong data-end=\"713\" data-start=\"703\">0 to 9</strong> and letters <strong data-end=\"736\" data-start=\"726\">A to F</strong> are used.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1146\" data-start=\"750\">\n\t<p data-end=\"771\" data-start=\"752\"><strong data-end=\"769\" data-start=\"752\">Applications:</strong></p>\n\n\t<ul data-end=\"1146\" data-start=\"774\">\n\t\t<li data-end=\"895\" data-start=\"774\">\n\t\t<p data-end=\"895\" data-start=\"776\"><strong data-end=\"786\" data-start=\"776\">Binary</strong> is the fundamental number system used internally by computers and digital systems for data representation.</p>\n\t\t</li>\n\t\t<li data-end=\"1146\" data-start=\"898\">\n\t\t<p data-end=\"1146\" data-start=\"900\"><strong data-end=\"915\" data-start=\"900\">Hexadecimal</strong> is commonly used in programming and digital electronics to represent large binary numbers more compactly. Each hexadecimal digit corresponds to exactly four binary digits (bits), making it easier to read and work with binary data.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p data-end=\"1334\" data-start=\"1148\">In short, while <strong data-end=\"1174\" data-start=\"1164\">binary</strong> is used by computers to perform computations, <strong data-end=\"1236\" data-start=\"1221\">hexadecimal</strong> simplifies the representation of binary numbers for human understanding and software development.</p>\n\n<hr data-end=\"1339\" data-start=\"1336\" />\n<p data-end=\"1474\" data-start=\"1341\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"705\" data-start=\"649\">Explain the main differences between the binary and hexadecimal number systems, including their bases, symbols used, and applications.</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "sq",
+   "key": 27585
+  }
+ ],
+ "lq": [
+  {
+   "_id": 27586,
+   "ANSWER": "<p data-end=\"320\" data-start=\"0\">Number systems are fundamental in digital electronics and computer science, as they provide different ways to represent and process numerical data. The most common number systems used in computing are <strong data-end=\"258\" data-start=\"215\">decimal, binary, octal, and hexadecimal</strong>, each with its own base, symbol set, and area of application.</p>\n\n<ol data-end=\"1644\" data-start=\"322\">\n\t<li data-end=\"643\" data-start=\"322\">\n\t<p data-end=\"363\" data-start=\"325\"><strong data-end=\"361\" data-start=\"325\">Decimal Number System (Base-10):</strong></p>\n\n\t<ul data-end=\"643\" data-start=\"367\">\n\t\t<li data-end=\"428\" data-start=\"367\">\n\t\t<p data-end=\"428\" data-start=\"369\">This is the standard number system used in everyday life.</p>\n\t\t</li>\n\t\t<li data-end=\"467\" data-start=\"432\">\n\t\t<p data-end=\"467\" data-start=\"434\">It uses <strong data-end=\"456\" data-start=\"442\">10 symbols</strong>: 0 to 9.</p>\n\t\t</li>\n\t\t<li data-end=\"549\" data-start=\"471\">\n\t\t<p data-end=\"549\" data-start=\"473\">Each digit has a place value based on powers of 10 (e.g., 10\u2070, 10&sup1;, 10&sup2;&hellip;).</p>\n\t\t</li>\n\t\t<li data-end=\"643\" data-start=\"553\">\n\t\t<p data-end=\"643\" data-start=\"555\">It is human-friendly but not suitable for computers, which operate using binary logic.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"978\" data-start=\"645\">\n\t<p data-end=\"684\" data-start=\"648\"><strong data-end=\"682\" data-start=\"648\">Binary Number System (Base-2):</strong></p>\n\n\t<ul data-end=\"978\" data-start=\"688\">\n\t\t<li data-end=\"759\" data-start=\"688\">\n\t\t<p data-end=\"759\" data-start=\"690\">Used internally by almost all modern computers and digital systems.</p>\n\t\t</li>\n\t\t<li data-end=\"803\" data-start=\"763\">\n\t\t<p data-end=\"803\" data-start=\"765\">It uses only <strong data-end=\"791\" data-start=\"778\">2 symbols</strong>: 0 and 1.</p>\n\t\t</li>\n\t\t<li data-end=\"879\" data-start=\"807\">\n\t\t<p data-end=\"879\" data-start=\"809\">Each binary digit (bit) represents a power of 2 (e.g., 2\u2070, 2&sup1;, 2&sup2;&hellip;).</p>\n\t\t</li>\n\t\t<li data-end=\"978\" data-start=\"883\">\n\t\t<p data-end=\"978\" data-start=\"885\">All data and instructions in a computer are ultimately stored and processed in binary form.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1308\" data-start=\"980\">\n\t<p data-end=\"1018\" data-start=\"983\"><strong data-end=\"1016\" data-start=\"983\">Octal Number System (Base-8):</strong></p>\n\n\t<ul data-end=\"1308\" data-start=\"1022\">\n\t\t<li data-end=\"1053\" data-start=\"1022\">\n\t\t<p data-end=\"1053\" data-start=\"1024\">Uses <strong data-end=\"1042\" data-start=\"1029\">8 symbols</strong>: 0 to 7.</p>\n\t\t</li>\n\t\t<li data-end=\"1116\" data-start=\"1057\">\n\t\t<p data-end=\"1116\" data-start=\"1059\">Each digit represents a power of 8 (e.g., 8\u2070, 8&sup1;, 8&sup2;&hellip;).</p>\n\t\t</li>\n\t\t<li data-end=\"1246\" data-start=\"1120\">\n\t\t<p data-end=\"1246\" data-start=\"1122\">It is often used as a shorthand for binary numbers since one octal digit can represent exactly three binary digits (bits).</p>\n\t\t</li>\n\t\t<li data-end=\"1308\" data-start=\"1250\">\n\t\t<p data-end=\"1308\" data-start=\"1252\">It simplifies the representation of long binary codes.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1644\" data-start=\"1310\">\n\t<p data-end=\"1355\" data-start=\"1313\"><strong data-end=\"1353\" data-start=\"1313\">Hexadecimal Number System (Base-16):</strong></p>\n\n\t<ul data-end=\"1644\" data-start=\"1359\">\n\t\t<li data-end=\"1432\" data-start=\"1359\">\n\t\t<p data-end=\"1432\" data-start=\"1361\">Uses <strong data-end=\"1380\" data-start=\"1366\">16 symbols</strong>: 0 to 9 and A to F (where A=10, B=11, ..., F=15).</p>\n\t\t</li>\n\t\t<li data-end=\"1499\" data-start=\"1436\">\n\t\t<p data-end=\"1499\" data-start=\"1438\">Each digit represents a power of 16 (e.g., 16\u2070, 16&sup1;, 16&sup2;&hellip;).</p>\n\t\t</li>\n\t\t<li data-end=\"1644\" data-start=\"1503\">\n\t\t<p data-end=\"1644\" data-start=\"1505\">It is widely used in programming, memory addressing, and error codes because one hexadecimal digit represents exactly four binary digits.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<p data-end=\"1681\" data-start=\"1646\"><strong data-end=\"1679\" data-start=\"1646\">Differences and Applications:</strong></p>\n\n<ul data-end=\"2015\" data-start=\"1682\">\n\t<li data-end=\"1750\" data-start=\"1682\">\n\t<p data-end=\"1750\" data-start=\"1684\"><strong data-end=\"1692\" data-start=\"1684\">Base</strong>: Decimal (10), Binary (2), Octal (8), Hexadecimal (16).</p>\n\t</li>\n\t<li data-end=\"1833\" data-start=\"1751\">\n\t<p data-end=\"1833\" data-start=\"1753\"><strong data-end=\"1764\" data-start=\"1753\">Symbols</strong>: Binary (0&ndash;1), Octal (0&ndash;7), Decimal (0&ndash;9), Hexadecimal (0&ndash;9, A&ndash;F).</p>\n\t</li>\n\t<li data-end=\"2015\" data-start=\"1834\">\n\t<p data-end=\"1854\" data-start=\"1836\"><strong data-end=\"1851\" data-start=\"1836\">Application</strong>:</p>\n\n\t<ul data-end=\"2015\" data-start=\"1858\">\n\t\t<li data-end=\"1888\" data-start=\"1858\">\n\t\t<p data-end=\"1888\" data-start=\"1860\">Decimal is used by humans.</p>\n\t\t</li>\n\t\t<li data-end=\"1924\" data-start=\"1892\">\n\t\t<p data-end=\"1924\" data-start=\"1894\">Binary is used by computers.</p>\n\t\t</li>\n\t\t<li data-end=\"2015\" data-start=\"1928\">\n\t\t<p data-end=\"2015\" data-start=\"1930\">Octal and hexadecimal are used by programmers to simplify binary data representation.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Explain the different types of number systems used in digital electronics. How do binary, octal, decimal, and hexadecimal number systems differ in terms of base, symbols used, and applications?</p>\n",
+   "SESSION_ID": 102,
+   "TYPE": "lq",
+   "key": 27586
+  }
+ ]
+}

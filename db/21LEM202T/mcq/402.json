@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36821,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Only human society</p>\n",
+   "OPT_2": "<p>All that exists as units in space in the form of co-existence</p>\n",
+   "OPT_3": "<p>Only living beings</p>\n",
+   "OPT_4": "<p>Only material world</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Existence can be understood as:</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 36821
+  },
+  {
+   "_id": 36822,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Conflict</p>\n",
+   "OPT_2": "<p>Coexistence and mutual interdependence</p>\n",
+   "OPT_3": "<p>Isolation of units</p>\n",
+   "OPT_4": "<p>Domination of humans</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What is the fundamental characteristic of existence?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 36822
+  },
+  {
+   "_id": 36823,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Only plants and animals</p>\n",
+   "OPT_2": "<p>Material things only</p>\n",
+   "OPT_3": "<p>Four orders: material, pranic (plants), animal, and human</p>\n",
+   "OPT_4": "<p>Only humans and their creations</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Nature consists of:</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 36823
+  },
+  {
+   "_id": 36824,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Understanding only physical reality</p>\n",
+   "OPT_2": "<p>Realizing harmony among self, society, nature, and existence</p>\n",
+   "OPT_3": "<p>Studying only human behavior</p>\n",
+   "OPT_4": "<p>Limiting knowledge to technology</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Comprehensive knowledge of existence involves:</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 36824
+  },
+  {
+   "_id": 36825,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Balanced ecosystem and sustainable processes</p>\n",
+   "OPT_2": "<p>Exploitation of resources</p>\n",
+   "OPT_3": "<p>Overconsumption of fossil fuels</p>\n",
+   "OPT_4": "<p>Pollution of air and water</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Which of the following reflects harmony in nature?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 36825
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36443,
+   "ANSWER": "<p>Human beings play a unique role because they have the self (consciousness) and the body, enabling them to understand existence and live in harmony with it.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What is the role of human beings in existence?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 36443
+  },
+  {
+   "_id": 36444,
+   "ANSWER": "<p>Misunderstanding leads to exploitation of nature, conflicts among humans, and imbalance in ecosystems, creating disharmony.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>How does misunderstanding existence lead to problems?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 36444
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122514,
+   "ANSWER": "<p>The four orders of nature are interconnected because each order is related to and fulfils the other orders. The physical order provides soil, water, air and minerals for the bio order. The bio order provides food, oxygen and nourishment for animals and human beings. The animal order participates in maintaining ecological balance. The human order receives fulfilment from all the other three orders and has the responsibility to understand and preserve them. The first three orders are already self-regulated and definite in conduct. Human beings, however, need right understanding to regulate their conduct. When human beings live with right understanding, they protect the activity, innateness and inheritance of all orders. This leads to mutual fulfilment, prosperity for human beings and preservation of nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain interconnectedness and mutual fulfilment among the four orders of nature.</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "lq",
+   "key": 122514
+  }
+ ]
+}

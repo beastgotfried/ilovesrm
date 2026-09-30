@@ -1,0 +1,182 @@
+{
+ "mcq": [
+  {
+   "_id": 49939,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Half-range cosine series</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Half-range sine series</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Full Fourier series on \\( (-L, L) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Complex Fourier series</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">Which expansion would you use for \\( f(x) = x^2 \\) on \\( (0, L) \\) if you want a series with only cosine terms?</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 49939
+  },
+  {
+   "_id": 49940,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Half-range cosine series</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Half-range sine series</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Full Fourier series on \\( (-\\pi, \\pi) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Either sine or cosine series</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) = \\sin(x) \\) on \\( (0, \\pi) \\), which expansion would be most appropriate?</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 49940
+  },
+  {
+   "_id": 49941,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Periodic with period \\( 2L \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Periodic with period \\( L \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Non-periodic</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Continuous</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">When finding half-range expansions, we extend \\( f(x) \\) to \\( (-L, L) \\) to make it:</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 49941
+  },
+  {
+   "_id": 49942,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Half-range cosine series</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Half-range sine series</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Either would work</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Neither would work</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">If \\( f(x) \\) is given on \\( (0, L) \\) and you want a series that converges to \\( f(x) \\) at \\( x=0 \\), which expansion should you use?</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 49942
+  },
+  {
+   "_id": 49943,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Half-range sine series</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Half-range cosine series</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Both</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Neither</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) \\) defined on \\( (0, L) \\) with \\( f(0)=0 \\), which expansion is guaranteed to converge to \\( f(x) \\) at \\( x=0 \\)?</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "mcq",
+   "key": 49943
+  }
+ ],
+ "sq": [
+  {
+   "_id": 50042,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(a_0 = \\frac{2}{L} \\int_0^{L/2} k dx = k\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_n = \\frac{2}{L} \\int_0^{L/2} k \\cos(\\frac{n\\pi x}{L}) dx = \\frac{2k}{n\\pi} \\sin(\\frac{n\\pi}{2})\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{For even } n: a_n=0; \\text{ for odd } n=2m-1: a_n = \\frac{2k}{(2m-1)\\pi}(-1)^{m+1}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } f(x) = \\frac{k}{2} + \\frac{2k}{\\pi}\\sum_{m=1}^{\\infty} \\frac{(-1)^{m+1}}{2m-1} \\cos(\\frac{(2m-1)\\pi x}{L})\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given } f(x) = \\begin{cases} k & 0 < x < L/2 \\\\ 0 & L/2 < x < L \\end{cases}, \\text{ find half-range cosine series.}\\)</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "sq",
+   "key": 50042
+  },
+  {
+   "_id": 50043,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Even extension gives cosine series, continuous at } x=0 \\text{ if } f(0) \\neq 0\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Odd extension gives sine series, forces zero at } x=0 \\text{ and } x=L\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Cosine series better if function values at boundaries are important}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Sine series better if function is zero at boundaries or derivative conditions matter}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Compare even and odd extensions for same function in } (0, L).\\)</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "sq",
+   "key": 50043
+  },
+  {
+   "_id": 50045,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{When function defined only on } (0, L) \\text{ (half interval)}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{When boundary conditions suggest even/odd behavior}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{When computational simplicity needed (fewer coefficients)}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{In physical problems with symmetry (heat conduction, waves)}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{When would you choose half-range series over full Fourier series?}\\)</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "sq",
+   "key": 50045
+  },
+  {
+   "_id": 50046,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{2}{L} \\int_0^{L} 1 \\cdot \\sin(\\frac{n\\pi x}{L}) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{2}{L} \\left[ -\\frac{L}{n\\pi} \\cos(\\frac{n\\pi x}{L}) \\right]_0^L\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{2}{n\\pi} [1 - \\cos(n\\pi)] = \\frac{2}{n\\pi}[1 - (-1)^n]\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } 1 = \\frac{4}{\\pi}\\sum_{n=\\text{odd}} \\frac{1}{n} \\sin(\\frac{n\\pi x}{L})\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given half-range sine series } f(x) = \\sum b_n \\sin(\\frac{n\\pi x}{L}), \\text{ find } b_n \\text{ if } f(x) = 1.\\)</span></p>",
+   "SESSION_ID": 208,
+   "TYPE": "sq",
+   "key": 50046
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50081,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Since \\(f(x)\\) is even, \\(b_n=0\\)</td><td>(1)</td></tr><tr><td>\\(a_0=\\frac{2}{\\pi}\\int_0^{\\pi}(\\pi-x)dx=\\pi\\)</td><td>(2)</td></tr><tr><td>\\(a_n=\\frac{2}{\\pi}\\int_0^{\\pi}(\\pi-x)\\cos nx\\,dx=\\frac{2}{n^2\\pi}[1-(-1)^n]\\)</td><td>(4)</td></tr><tr><td>Thus, \\(f(x)=\\frac{\\pi}{2}+\\frac{4}{\\pi}\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}\\cos(2n-1)x\\)</td><td>(3)</td></tr><tr><td>Put \\(x=0\\): \\(\\pi=\\frac{\\pi}{2}+\\frac{4}{\\pi}\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}\\) \u21d2 \\(\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}=\\frac{\\pi^2}{8}\\)</td><td>(5)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=\\begin{cases} \\pi+x, & -\\pi\\leq x\\leq0 \\\\ \\pi-x, & 0\\leq x\\leq\\pi \\end{cases}\\) and deduce that \\(\\sum_{n=1}^{\\infty}\\frac{1}{(2n-1)^2}=\\frac{\\pi^2}{8}\\).</p>",
+   "SESSION_ID": 208,
+   "TYPE": "lq",
+   "key": 50081
+  },
+  {
+   "_id": 50082,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Sine series: \\(b_n=\\frac{2}{\\pi}\\int_0^{\\pi}f(x)\\sin nx\\,dx\\)</td><td>(1)</td></tr><tr><td>Compute: \\(b_n=\\frac{4}{\\pi n^2}\\sin\\frac{n\\pi}{2}\\)</td><td>(4)</td></tr><tr><td>Cosine series: \\(a_0=\\frac{2}{\\pi}\\int_0^{\\pi}f(x)dx=\\frac{\\pi}{2}\\)</td><td>(2)</td></tr><tr><td>\\(a_n=\\frac{2}{\\pi}\\int_0^{\\pi}f(x)\\cos nx\\,dx=\\frac{2}{\\pi n^2}\\left[2\\cos\\frac{n\\pi}{2}-1-(-1)^n\\right]\\)</td><td>(4)</td></tr><tr><td>Write both series explicitly</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the half-range sine and cosine series for \\(f(x)=\\begin{cases} x, & 0\\leq x\\leq\\frac{\\pi}{2} \\\\ \\pi-x, & \\frac{\\pi}{2}\\leq x\\leq\\pi \\end{cases}\\).</p>",
+   "SESSION_ID": 208,
+   "TYPE": "lq",
+   "key": 50082
+  }
+ ]
+}

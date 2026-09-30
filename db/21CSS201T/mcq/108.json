@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 25955,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>&ndash;127 to +127</p>\n",
+   "OPT_2": "<p>&ndash;128&nbsp;to +127</p>\n",
+   "OPT_3": "<p>&ndash;127 to +126</p>\n",
+   "OPT_4": "<p>&ndash;127 to +127</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>When using 8-bit sign-magnitude representation, what is the range of representable signed integers?</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 25955
+  },
+  {
+   "_id": 25957,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>10011000</p>\n",
+   "OPT_2": "<p>11100110</p>\n",
+   "OPT_3": "<p>Invalid operation due to overflow</p>\n",
+   "OPT_4": "<p>10010010</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is the result of adding &ndash;25 and &ndash;15 using 8-bit sign-magnitude?</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 25957
+  },
+  {
+   "_id": 25959,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>10000000</p>\n",
+   "OPT_2": "<p>11111111</p>\n",
+   "OPT_3": "<p>01111111</p>\n",
+   "OPT_4": "<p>Overflow</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Using 8-bit 2&rsquo;s complement, what is the representation of &ndash;128?</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 25959
+  },
+  {
+   "_id": 25960,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Negating both operands</p>\n",
+   "OPT_2": "<p>Adding 1&rsquo;s complement of subtrahend</p>\n",
+   "OPT_3": "<p>Adding 2&rsquo;s complement of subtrahend</p>\n",
+   "OPT_4": "<p>Performing bitwise XOR</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Subtracting using 2&rsquo;s complement can be achieved by:</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 25960
+  },
+  {
+   "_id": 25962,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Subtract divisor again</p>\n",
+   "OPT_2": "<p>Add divisor and set quotient bit to 0</p>\n",
+   "OPT_3": "<p>Ignore remainder</p>\n",
+   "OPT_4": "<p>Take 1&rsquo;s complement of quotient</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In non-restoring division, when the remainder is negative:</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 25962
+  }
+ ],
+ "sq": [
+  {
+   "_id": 25965,
+   "ANSWER": "<p>Because signs must be handled separately, and addition/subtraction logic changes based on operand signs.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Explain why arithmetic operations are more complex in sign-magnitude representation.</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "sq",
+   "key": 25965
+  },
+  {
+   "_id": 25966,
+   "ANSWER": "<p>Division by zero is undefined (causes exception in hardware).</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What happens if you divide a binary number by zero?</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "sq",
+   "key": 25966
+  }
+ ],
+ "lq": [
+  {
+   "_id": 25968,
+   "ANSWER": "<h3 data-end=\"560\" data-start=\"520\"><strong data-end=\"560\" data-start=\"524\">1. Sign-Magnitude Representation</strong></h3>\n\n<ul data-end=\"1162\" data-start=\"562\">\n\t<li data-end=\"739\" data-start=\"562\">\n\t<p data-end=\"739\" data-start=\"564\"><strong data-end=\"576\" data-start=\"564\">Concept:</strong><br data-end=\"579\" data-start=\"576\" />\n\tIn Sign-Magnitude, the <strong data-end=\"634\" data-start=\"604\">MSB (Most Significant Bit)</strong> represents the sign:<br data-end=\"658\" data-start=\"655\" />\n\t<code data-end=\"663\" data-start=\"660\">0</code> = Positive, <code data-end=\"679\" data-start=\"676\">1</code> = Negative.<br data-end=\"694\" data-start=\"691\" />\n\tThe remaining bits represent the magnitude.</p>\n\t</li>\n\t<li data-end=\"929\" data-start=\"741\">\n\t<p data-end=\"764\" data-start=\"743\"><strong data-end=\"762\" data-start=\"743\">Addition Rules:</strong></p>\n\n\t<ul data-end=\"929\" data-start=\"767\">\n\t\t<li data-end=\"825\" data-start=\"767\">\n\t\t<p data-end=\"825\" data-start=\"769\">If signs are the same &rarr; add magnitudes, keep the sign.</p>\n\t\t</li>\n\t\t<li data-end=\"929\" data-start=\"828\">\n\t\t<p data-end=\"929\" data-start=\"830\">If signs differ &rarr; subtract smaller magnitude from larger and keep the sign of the larger magnitude.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1033\" data-start=\"931\">\n\t<p data-end=\"1033\" data-start=\"933\"><strong data-end=\"949\" data-start=\"933\">Subtraction:</strong><br data-end=\"952\" data-start=\"949\" />\n\tConvert subtraction to addition by <strong data-end=\"1011\" data-start=\"989\">inverting the sign</strong> of the second number.</p>\n\t</li>\n\t<li data-end=\"1162\" data-start=\"1035\">\n\t<p data-end=\"1162\" data-start=\"1037\"><strong data-end=\"1049\" data-start=\"1037\">Example:</strong><br data-end=\"1052\" data-start=\"1049\" />\n\tAdd (+9) and (&ndash;4) in 8-bit sign-magnitude:<br data-end=\"1099\" data-start=\"1096\" />\n\t+9 &rarr; <code data-end=\"1116\" data-start=\"1106\">00001001</code>, &ndash;4 &rarr; <code data-end=\"1133\" data-start=\"1123\">10000100</code><br data-end=\"1136\" data-start=\"1133\" />\n\tResult = +5 &rarr; <code data-end=\"1162\" data-start=\"1152\">00000101</code></p>\n\t</li>\n</ul>\n\n<hr data-end=\"1167\" data-start=\"1164\" />\n<h3 data-end=\"1209\" data-start=\"1169\"><strong data-end=\"1209\" data-start=\"1173\">2. 1&rsquo;s Complement Representation</strong></h3>\n\n<ul data-end=\"1756\" data-start=\"1211\">\n\t<li data-end=\"1312\" data-start=\"1211\">\n\t<p data-end=\"1312\" data-start=\"1213\"><strong data-end=\"1225\" data-start=\"1213\">Concept:</strong><br data-end=\"1228\" data-start=\"1225\" />\n\tNegative numbers are represented by <strong data-end=\"1288\" data-start=\"1266\">inverting all bits</strong> of the positive number.</p>\n\t</li>\n\t<li data-end=\"1426\" data-start=\"1314\">\n\t<p data-end=\"1337\" data-start=\"1316\"><strong data-end=\"1335\" data-start=\"1316\">Addition Rules:</strong></p>\n\n\t<ul data-end=\"1426\" data-start=\"1340\">\n\t\t<li data-end=\"1361\" data-start=\"1340\">\n\t\t<p data-end=\"1361\" data-start=\"1342\">Add both numbers.</p>\n\t\t</li>\n\t\t<li data-end=\"1426\" data-start=\"1364\">\n\t\t<p data-end=\"1426\" data-start=\"1366\">If carry out of MSB &rarr; add it back to LSB (end-around carry).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1558\" data-start=\"1428\">\n\t<p data-end=\"1558\" data-start=\"1430\"><strong data-end=\"1446\" data-start=\"1430\">Subtraction:</strong><br data-end=\"1449\" data-start=\"1446\" />\n\tConvert subtraction to addition by taking the <strong data-end=\"1515\" data-start=\"1497\">1&rsquo;s complement</strong> of the subtrahend and performing addition.</p>\n\t</li>\n\t<li data-end=\"1756\" data-start=\"1560\">\n\t<p data-end=\"1600\" data-start=\"1562\"><strong data-end=\"1574\" data-start=\"1562\">Example:</strong><br data-end=\"1577\" data-start=\"1574\" />\n\tSubtract 6 from 10:</p>\n\n\t<ul data-end=\"1756\" data-start=\"1603\">\n\t\t<li data-end=\"1623\" data-start=\"1603\">\n\t\t<p data-end=\"1623\" data-start=\"1605\">+10 = <code data-end=\"1621\" data-start=\"1611\">00001010</code></p>\n\t\t</li>\n\t\t<li data-end=\"1676\" data-start=\"1626\">\n\t\t<p data-end=\"1676\" data-start=\"1628\">&ndash;6 = 1&rsquo;s complement of <code data-end=\"1661\" data-start=\"1651\">00000110</code> = <code data-end=\"1674\" data-start=\"1664\">11111001</code></p>\n\t\t</li>\n\t\t<li data-end=\"1756\" data-start=\"1679\">\n\t\t<p data-end=\"1756\" data-start=\"1681\">Add: <code data-end=\"1696\" data-start=\"1686\">00001010</code> + <code data-end=\"1709\" data-start=\"1699\">11111001</code> = <code data-end=\"1722\" data-start=\"1712\">00000011</code> + carry &rarr; result: <code data-end=\"1751\" data-start=\"1741\">00000100</code> = +4</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1761\" data-start=\"1758\" />\n<h3 data-end=\"1803\" data-start=\"1763\"><strong data-end=\"1803\" data-start=\"1767\">3. 2&rsquo;s Complement Representation</strong></h3>\n\n<ul data-end=\"2307\" data-start=\"1805\">\n\t<li data-end=\"1891\" data-start=\"1805\">\n\t<p data-end=\"1891\" data-start=\"1807\"><strong data-end=\"1819\" data-start=\"1807\">Concept:</strong><br data-end=\"1822\" data-start=\"1819\" />\n\tNegative numbers are formed by <strong data-end=\"1890\" data-start=\"1855\">inverting all bits and adding 1</strong>.</p>\n\t</li>\n\t<li data-end=\"2018\" data-start=\"1893\">\n\t<p data-end=\"2018\" data-start=\"1895\"><strong data-end=\"1920\" data-start=\"1895\">Addition/Subtraction:</strong><br data-end=\"1923\" data-start=\"1920\" />\n\tUse the <strong data-end=\"1958\" data-start=\"1933\">same process for both</strong>, using 2&rsquo;s complement of the second operand in subtraction.</p>\n\t</li>\n\t<li data-end=\"2130\" data-start=\"2020\">\n\t<p data-end=\"2130\" data-start=\"2022\"><strong data-end=\"2045\" data-start=\"2022\">Overflow Detection:</strong><br data-end=\"2048\" data-start=\"2045\" />\n\tOccurs if two numbers with the same sign produce a result with a different sign.</p>\n\t</li>\n\t<li data-end=\"2307\" data-start=\"2132\">\n\t<p data-end=\"2184\" data-start=\"2134\"><strong data-end=\"2146\" data-start=\"2134\">Example:</strong><br data-end=\"2149\" data-start=\"2146\" />\n\tSubtract 9 from 12 using 8-bit:</p>\n\n\t<ul data-end=\"2307\" data-start=\"2187\">\n\t\t<li data-end=\"2206\" data-start=\"2187\">\n\t\t<p data-end=\"2206\" data-start=\"2189\">12 = <code data-end=\"2204\" data-start=\"2194\">00001100</code></p>\n\t\t</li>\n\t\t<li data-end=\"2259\" data-start=\"2209\">\n\t\t<p data-end=\"2259\" data-start=\"2211\">&ndash;9 = 2&rsquo;s complement of <code data-end=\"2244\" data-start=\"2234\">00001001</code> = <code data-end=\"2257\" data-start=\"2247\">11110111</code></p>\n\t\t</li>\n\t\t<li data-end=\"2307\" data-start=\"2262\">\n\t\t<p data-end=\"2307\" data-start=\"2264\">Sum = <code data-end=\"2302\" data-start=\"2270\">00001100 + 11110111 = 11110011</code> &rarr; &ndash;3</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"2312\" data-start=\"2309\" />\n<h3 data-end=\"2346\" data-start=\"2314\"><strong data-end=\"2346\" data-start=\"2318\">4. Binary Multiplication</strong></h3>\n\n<ul data-end=\"2767\" data-start=\"2348\">\n\t<li data-end=\"2449\" data-start=\"2348\">\n\t<p data-end=\"2449\" data-start=\"2350\"><strong data-end=\"2362\" data-start=\"2350\">Process:</strong><br data-end=\"2365\" data-start=\"2362\" />\n\tSimilar to decimal: shift and add partial products. Only <code data-end=\"2427\" data-start=\"2424\">0</code> and <code data-end=\"2435\" data-start=\"2432\">1</code> are involved.</p>\n\t</li>\n\t<li data-end=\"2544\" data-start=\"2451\">\n\t<p data-end=\"2465\" data-start=\"2453\"><strong data-end=\"2463\" data-start=\"2453\">Rules:</strong></p>\n\n\t<ul data-end=\"2544\" data-start=\"2468\">\n\t\t<li data-end=\"2490\" data-start=\"2468\">\n\t\t<p data-end=\"2490\" data-start=\"2470\"><code data-end=\"2488\" data-start=\"2470\">0 &times; anything = 0</code></p>\n\t\t</li>\n\t\t<li data-end=\"2544\" data-start=\"2493\">\n\t\t<p data-end=\"2544\" data-start=\"2495\"><code data-end=\"2516\" data-start=\"2495\">1 &times; number = number</code> (shifted based on position)</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2667\" data-start=\"2546\">\n\t<p data-end=\"2582\" data-start=\"2548\"><strong data-end=\"2560\" data-start=\"2548\">Example:</strong><br data-end=\"2563\" data-start=\"2560\" />\n\tMultiply 5 &times; 3:</p>\n\n\t<ul data-end=\"2625\" data-start=\"2585\">\n\t\t<li data-end=\"2611\" data-start=\"2585\">\n\t\t<p data-end=\"2611\" data-start=\"2587\">5 = <code data-end=\"2597\" data-start=\"2591\">0101</code>, 3 = <code data-end=\"2609\" data-start=\"2603\">0011</code></p>\n\t\t</li>\n\t\t<li data-end=\"2622\" data-start=\"2614\">\n\t\t<p data-end=\"2622\" data-start=\"2616\">0101</p>\n\t\t</li>\n\t</ul>\n\n\t<ul data-end=\"2667\" data-start=\"2625\">\n\t\t<li data-end=\"2667\" data-start=\"2625\">\n\t\t<p data-end=\"2667\" data-start=\"2627\">1010 (shifted one bit)<br data-end=\"2652\" data-start=\"2649\" />\n\t\t= <code data-end=\"2662\" data-start=\"2656\">1111</code> &rarr; 15</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2767\" data-start=\"2669\">\n\t<p data-end=\"2767\" data-start=\"2671\"><strong data-end=\"2697\" data-start=\"2671\">Signed Multiplication:</strong><br data-end=\"2700\" data-start=\"2697\" />\n\tUse 2&rsquo;s complement and manage sign separately using sign-bit XOR.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"2772\" data-start=\"2769\" />\n<h3 data-end=\"2800\" data-start=\"2774\"><strong data-end=\"2800\" data-start=\"2778\">5. Binary Division</strong></h3>\n\n<ul data-end=\"3278\" data-start=\"2802\">\n\t<li data-end=\"2872\" data-start=\"2802\">\n\t<p data-end=\"2872\" data-start=\"2804\"><strong data-end=\"2816\" data-start=\"2804\">Process:</strong><br data-end=\"2819\" data-start=\"2816\" />\n\tSimilar to long division: compare, subtract, shift.</p>\n\t</li>\n\t<li data-end=\"2985\" data-start=\"2874\">\n\t<p data-end=\"2985\" data-start=\"2876\"><strong data-end=\"2899\" data-start=\"2876\">Restoring Division:</strong><br data-end=\"2902\" data-start=\"2899\" />\n\tIf subtraction gives negative result &rarr; restore remainder and write 0 in quotient.</p>\n\t</li>\n\t<li data-end=\"3077\" data-start=\"2987\">\n\t<p data-end=\"3077\" data-start=\"2989\"><strong data-end=\"3016\" data-start=\"2989\">Non-Restoring Division:</strong><br data-end=\"3019\" data-start=\"3016\" />\n\tAvoids restoring step, uses add/subtract decision logic.</p>\n\t</li>\n\t<li data-end=\"3167\" data-start=\"3079\">\n\t<p data-end=\"3115\" data-start=\"3081\"><strong data-end=\"3093\" data-start=\"3081\">Example:</strong><br data-end=\"3096\" data-start=\"3093\" />\n\tDivide 12 by 3:</p>\n\n\t<ul data-end=\"3167\" data-start=\"3118\">\n\t\t<li data-end=\"3167\" data-start=\"3118\">\n\t\t<p data-end=\"3167\" data-start=\"3120\">1100 &divide; 0011 = Quotient <code data-end=\"3149\" data-start=\"3143\">0100</code>, Remainder <code data-end=\"3167\" data-start=\"3161\">0000</code></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3278\" data-start=\"3169\">\n\t<p data-end=\"3278\" data-start=\"3171\"><strong data-end=\"3191\" data-start=\"3171\">Signed Division:</strong><br data-end=\"3194\" data-start=\"3191\" />\n\tConvert operands to 2&rsquo;s complement; use sign rules to determine the result&rsquo;s sign.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO13",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"483\" data-start=\"270\">Explain and perform binary addition and subtraction using Sign-Magnitude, 1&rsquo;s Complement, and 2&rsquo;s Complement methods. Also, describe and solve binary multiplication and division problems using proper rules.</strong></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "lq",
+   "key": 25968
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12438,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Shortest burst time gets priority</p>\n",
+   "OPT_2": "<p>Highest priority gets the CPU</p>\n",
+   "OPT_3": "<p>Processes are served in the order they arrive</p>\n",
+   "OPT_4": "<p>Time is equally distributed among all processes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the basic principle of <strong data-end=\"356\" data-start=\"337\">FCFS scheduling</strong>?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 12438
+  },
+  {
+   "_id": 12439,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>A</p>\n",
+   "OPT_2": "<p>B</p>\n",
+   "OPT_3": "<p>C</p>\n",
+   "OPT_4": "<p>Depends on burst time</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In FCFS, which process executes first among the following?<br data-end=\"648\" data-start=\"645\" />\nProcess A (AT=2), B (AT=0), C (AT=1)</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 12439
+  },
+  {
+   "_id": 12440,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Arrival time</p>\n",
+   "OPT_2": "<p>Priority value</p>\n",
+   "OPT_3": "<p>Shortest burst time among available processes</p>\n",
+   "OPT_4": "<p>Longest burst time</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"814\" data-start=\"792\">non-preemptive SJF</strong>, what determines the next process to execute?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 12440
+  },
+  {
+   "_id": 12445,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>P1 &rarr; P2 &rarr; P3 &rarr; P4</p>\n",
+   "OPT_2": "<p>P3 &rarr; P4 &rarr; P2 &rarr; P1</p>\n",
+   "OPT_3": "<p>P2 &rarr; P1 &rarr; P3 &rarr; P4</p>\n",
+   "OPT_4": "<p>P4 &rarr; P3 &rarr; P1 &rarr; P2</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Given:<br data-end=\"1034\" data-start=\"1031\" />\nP1 (BT=8), P2 (BT=7), P3 (BT=2), P4 (BT=4)<br data-end=\"1079\" data-start=\"1076\" />\nUsing SJF (no arrival time), what is the <strong data-end=\"1142\" data-start=\"1120\">order of execution</strong>?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 12445
+  },
+  {
+   "_id": 12447,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>A</p>\n",
+   "OPT_2": "<p>B</p>\n",
+   "OPT_3": "<p>C</p>\n",
+   "OPT_4": "<p>D</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In SJF with arrival times:<br data-end=\"1316\" data-start=\"1313\" />\nA(0,3), B(1,6), C(4,4), D(6,2)<br data-end=\"1349\" data-start=\"1346\" />\nWhich process runs <strong data-end=\"1378\" data-start=\"1368\">second</strong>?</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "mcq",
+   "key": 12447
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12449,
+   "ANSWER": "<ul>\n\t<li data-end=\"1800\" data-start=\"1736\">\n\t<p data-end=\"1800\" data-start=\"1738\">Explanation of FCFS working (arrival-based scheduling) &ndash; 25%</p>\n\t</li>\n\t<li data-end=\"1867\" data-start=\"1801\">\n\t<p data-end=\"1867\" data-start=\"1803\">Formula for waiting time: <code data-end=\"1859\" data-start=\"1829\">WT = StartTime - ArrivalTime</code> &ndash; 25%</p>\n\t</li>\n\t<li data-end=\"1943\" data-start=\"1868\">\n\t<p data-end=\"1943\" data-start=\"1870\">Formula for turnaround time: <code data-end=\"1935\" data-start=\"1899\">TAT = CompletionTime - ArrivalTime</code> &ndash; 25%</p>\n\t</li>\n\t<li data-end=\"1989\" data-start=\"1944\">\n\t<p data-end=\"1989\" data-start=\"1946\">Use of Gantt chart to visualize order &ndash; 25%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Explain how the <strong data-end=\"1639\" data-start=\"1610\">FCFS scheduling algorithm</strong> calculates <strong data-end=\"1667\" data-start=\"1651\">waiting time</strong> and <strong data-end=\"1691\" data-start=\"1672\">turnaround time</strong> for each process.</p>\n",
+   "SESSION_ID": 307,
+   "TYPE": "sq",
+   "key": 12449
+  },
+  {
+   "_id": 12452,
+   "ANSWER": "<ul>\n\t<li data-end=\"2525\" data-start=\"2475\">\n\t<p data-end=\"2525\" data-start=\"2477\">Correct execution order with Gantt chart &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2570\" data-start=\"2526\">\n\t<p data-end=\"2570\" data-start=\"2528\">Individual WT and TAT calculations &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"2622\" data-start=\"2571\">\n\t<p data-end=\"2622\" data-start=\"2573\">Correct average WT and TAT (6.75 ms each) &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"2650\" data-start=\"2623\">\n\t<p data-end=\"2650\" data-start=\"2625\">Logical explanation &ndash; 10%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Given the following processes, apply <strong data-end=\"2130\" data-start=\"2108\">non-preemptive SJF</strong> and calculate the <strong data-end=\"2193\" data-start=\"2149\">average waiting time and turnaround time</strong>.</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Process</th>\n\t\t\t<th>Arrival Time</th>\n\t\t\t<th>Burst Time</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>0</td>\n\t\t\t<td>3</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>1</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>4</td>\n\t\t\t<td>4</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>6</td>\n\t\t\t<td>2</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "SESSION_ID": 307,
+   "TYPE": "sq",
+   "key": 12452
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12453,
+   "ANSWER": "<ul>\n\t<li data-end=\"3192\" data-start=\"3113\">\n\t<p data-end=\"3192\" data-start=\"3115\">Explanation of scheduling logic (criteria, use of arrival/burst time) &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3240\" data-start=\"3193\">\n\t<p data-end=\"3240\" data-start=\"3195\">Discussion on fairness and starvation &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3305\" data-start=\"3241\">\n\t<p data-end=\"3305\" data-start=\"3243\">Comparative performance on waiting and turnaround time &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3374\" data-start=\"3306\">\n\t<p data-end=\"3374\" data-start=\"3308\">Example (like Problem 1 or 2 for FCFS and SJF) with WT/TAT &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3415\" data-start=\"3375\">\n\t<p data-end=\"3415\" data-start=\"3377\">Final summary of key differences &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2890\" data-start=\"2777\">Compare and contrast <strong data-end=\"2822\" data-start=\"2814\">FCFS</strong> and <strong data-end=\"2834\" data-start=\"2827\">SJF</strong> scheduling algorithms based on the following aspects:</p>\n\n<ol data-end=\"3086\" data-start=\"2891\">\n\t<li data-end=\"2925\" data-start=\"2891\">\n\t<p data-end=\"2925\" data-start=\"2894\">Scheduling criteria and order</p>\n\t</li>\n\t<li data-end=\"2961\" data-start=\"2926\">\n\t<p data-end=\"2961\" data-start=\"2929\">Use of arrival and burst times</p>\n\t</li>\n\t<li data-end=\"2990\" data-start=\"2962\">\n\t<p data-end=\"2990\" data-start=\"2965\">Fairness and starvation</p>\n\t</li>\n\t<li data-end=\"3035\" data-start=\"2991\">\n\t<p data-end=\"3035\" data-start=\"2994\">Waiting and turnaround time performance</p>\n\t</li>\n\t<li data-end=\"3086\" data-start=\"3036\">\n\t<p data-end=\"3086\" data-start=\"3039\">Example execution (based on class/lab problems)</p>\n\t</li>\n</ol>\n",
+   "SESSION_ID": 307,
+   "TYPE": "lq",
+   "key": 12453
+  }
+ ]
+}

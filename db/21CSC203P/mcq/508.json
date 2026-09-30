@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11367,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">GUI programming</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File reading</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Web scraping</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sorting lists</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Tkinter is used for:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 11367
+  },
+  {
+   "_id": 11368,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Respond to widget events</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sort arrays</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Save files</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Read JSON</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Tkinter event handlers:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 11368
+  },
+  {
+   "_id": 11369,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Code run when event occurs</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A sorting function</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A file handler</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A loop condition</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A callback function in Tkinter is:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 11369
+  },
+  {
+   "_id": 11370,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It waits for user actions</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It sorts files</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It runs loops continuously</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It reads files automatically</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Tkinter GUI is called event-driven because:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 11370
+  },
+  {
+   "_id": 11371,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Arrange widgets</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sort numbers</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Parse XML</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Save files</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Tkinter uses geometry managers to:</span></span></span></b><br />\n&nbsp;</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 11371
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11406,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> Tkinter.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2126\" data-start=\"2057\">Which Python library is used to create GUI event-driven programs?</strong><br data-end=\"2129\" data-start=\"2126\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 11406
+  },
+  {
+   "_id": 11407,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> It defines what action to take when a specific event occurs (e.g., button click).</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2197\" data-start=\"2145\">What is the role of an event handler in Tkinter?</strong><br data-end=\"2200\" data-start=\"2197\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 11407
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11423,
+   "ANSWER": "<p>from tkinter import *</p>\n\n<p>def show_message():<br />\n&nbsp; &nbsp; label.config(text=&quot;Hello, Tkinter!&quot;)</p>\n\n<p>window = Tk()<br />\nwindow.title(&quot;Event Demo&quot;)</p>\n\n<p>label = Label(window, text=&quot;&quot;)<br />\nlabel.pack()</p>\n\n<p>button = Button(window, text=&quot;Click Me&quot;, command=show_message)<br />\nbutton.pack()</p>\n\n<p>window.mainloop()<br />\n&nbsp;</p>\n\n<p>This GUI reacts to user interaction via an event (button click), demonstrating core event-driven principles of input handling and dynamic output.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Apply Tkinter to create a basic event-driven GUI where a button displays a message when clicked.</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "lq",
+   "key": 11423
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9309,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Hiding data and showing only necessary parts<br data-end=\"481\" data-start=\"478\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Connecting multiple programs<br data-end=\"515\" data-start=\"512\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Creating duplicate code<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Inheriting from multiple classes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"428\" data-start=\"368\">What is encapsulation in object-oriented programming?</strong><br data-end=\"431\" data-start=\"428\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 9309
+  },
+  {
+   "_id": 9310,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Destroy an object<br data-end=\"729\" data-start=\"726\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Hide its methods<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Use features of another class<br data-end=\"786\" data-start=\"783\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Run programs in parallel</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"703\" data-start=\"634\">In object-oriented programming, inheritance allows a class to:</strong><br data-end=\"706\" data-start=\"703\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 9310
+  },
+  {
+   "_id": 9311,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OPT_1": "<p>a) inherit<br data-end=\"944\" data-start=\"941\" />\n<br data-end=\"706\" data-start=\"703\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) extends<br data-end=\"957\" data-start=\"954\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) implements<br data-end=\"973\" data-start=\"970\" />\n<br data-end=\"786\" data-start=\"783\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) include</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"928\" data-start=\"866\">Which keyword in Java is used to implement inheritance?</strong><br data-end=\"931\" data-start=\"928\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 9311
+  },
+  {
+   "_id": 9312,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) Through database queries<br data-end=\"1155\" data-start=\"1152\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Using threads or multi-threading APIs<br data-end=\"1198\" data-start=\"1195\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Using logic rules<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) With HTML tags</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1122\" data-start=\"1033\">How is parallel processing typically integrated in imperative languages like Java?</strong><br data-end=\"1125\" data-start=\"1122\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 9312
+  },
+  {
+   "_id": 9313,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Makes code harder to debug<br data-end=\"1409\" data-start=\"1406\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Reduces memory usage<br data-end=\"1435\" data-start=\"1432\" />\n<br data-end=\"1198\" data-start=\"1195\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Improves performance by executing tasks simultaneously<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Eliminates the need for variables</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1374\" data-start=\"1293\">What is the advantage of using parallel processing in imperative programs?</strong><br data-end=\"1377\" data-start=\"1374\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 9313
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9357,
+   "ANSWER": "<p>By distributing tasks across multiple cores or processors, parallel computing enables simultaneous data processing, thereby reducing execution time and increasing efficiency.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A data processing system handles large datasets and experiences delays. How can parallel computing improve performance?</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "sq",
+   "key": 9357
+  },
+  {
+   "_id": 9358,
+   "ANSWER": "<p>Tasks such as image transformations and shading can be processed concurrently, maximizing hardware utilization and delivering faster rendering speeds.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A graphics rendering engine must perform multiple calculations at once. What advantage does parallelism offer in this scenario?</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "sq",
+   "key": 9358
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9378,
+   "ANSWER": "<ol data-end=\"2645\" data-start=\"1511\">\n\t<li data-end=\"1851\" data-start=\"1479\">\n\t<p><strong data-end=\"1532\" data-start=\"1482\">class WeatherProcessor extends Thread {<br />\n\t&nbsp; &nbsp; private List&lt;String&gt; dataChunk;</strong></p>\n\n\t<p><strong data-end=\"1532\" data-start=\"1482\">&nbsp; &nbsp; public WeatherProcessor(List&lt;String&gt; dataChunk) {<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; this.dataChunk = dataChunk;<br />\n\t&nbsp; &nbsp; }</strong></p>\n\n\t<p><strong data-end=\"1532\" data-start=\"1482\">&nbsp; &nbsp; public void run() {<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; for (String data : dataChunk) {<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // simulate processing<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n\t&nbsp; &nbsp; }<br />\n\t}</strong></p>\n\t</li>\n\t<li data-end=\"2815\" data-start=\"2647\">\n\t<p data-end=\"2664\" data-start=\"2649\"><strong data-end=\"2663\" data-start=\"2649\">Challenges</strong>:</p>\n\n\t<ul data-end=\"2815\" data-start=\"2667\">\n\t\t<li data-end=\"2721\" data-start=\"2667\">\n\t\t<p data-end=\"2721\" data-start=\"2669\"><strong data-end=\"2688\" data-start=\"2669\">Race conditions</strong> when accessing shared resources.</p>\n\t\t</li>\n\t\t<li data-end=\"2762\" data-start=\"2724\">\n\t\t<p data-end=\"2762\" data-start=\"2726\"><strong data-end=\"2752\" data-start=\"2726\">Thread synchronization</strong> overhead.</p>\n\t\t</li>\n\t\t<li data-end=\"2815\" data-start=\"2765\">\n\t\t<p data-end=\"2815\" data-start=\"2767\">Difficulty in <strong data-end=\"2794\" data-start=\"2781\">debugging</strong> parallel executions.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1851\" data-start=\"1479\">\n\t<p data-end=\"2925\" data-start=\"2817\">Proper use of synchronization and thread-safe structures (e.g., <code data-end=\"2900\" data-start=\"2881\">ConcurrentHashMap</code>) mitigates these issues.</p>\n\n\t<p>&nbsp;</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"613\" data-start=\"371\">A weather forecasting system requires optimization due to long processing times. Explain how <strong data-end=\"2005\" data-start=\"1987\">multithreading</strong> can improve performance and describe the potential challenges associated with this approach.</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "lq",
+   "key": 9378
+  }
+ ]
+}

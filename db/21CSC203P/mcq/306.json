@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 10415,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><code data-end=\"406\" data-start=\"367\">jdbc:mysql://localhost:3306/studentdb</code></p>\n",
+   "OPT_2": "<p><code data-end=\"446\" data-start=\"412\">mysql://jdbc:localhost/studentdb</code></p>\n",
+   "OPT_3": "<p><code data-end=\"484\" data-start=\"452\">jdbc:mysql:localhost:studentdb</code></p>\n",
+   "OPT_4": "<p><code data-end=\"524\" data-start=\"490\">jdbc:mysql://studentdb.localhost</code></p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO1",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is the correct JDBC URL to connect to a MySQL database named <code data-end=\"345\" data-start=\"334\">studentdb</code> hosted locally?<br data-end=\"364\" data-start=\"361\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 10415
+  },
+  {
+   "_id": 10416,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Executes the SQL command</p>\n",
+   "OPT_2": "<p>Loads and registers the MySQL driver</p>\n",
+   "OPT_3": "<p>Opens the database</p>\n",
+   "OPT_4": "<p>Authenticates the user</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO1",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What is the role of the <code data-end=\"713\" data-start=\"670\">Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;)</code> line in JDBC code?<br data-end=\"735\" data-start=\"732\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 10416
+  },
+  {
+   "_id": 10417,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><code data-end=\"1387\" data-start=\"1371\">executeQuery()</code> is used for DML (INSERT/UPDATE)</p>\n",
+   "OPT_2": "<p><code data-end=\"1442\" data-start=\"1425\">executeUpdate()</code> returns a <code data-end=\"1464\" data-start=\"1453\">ResultSet</code></p>\n",
+   "OPT_3": "<p><code data-end=\"1486\" data-start=\"1470\">executeQuery()</code> returns a <code data-end=\"1508\" data-start=\"1497\">ResultSet</code> for SELECT queries</p>\n",
+   "OPT_4": "<p><code data-end=\"1544\" data-start=\"1533\">execute()</code> always throws an exception</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO1",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which statement is <strong data-end=\"1307\" data-start=\"1299\">true</strong> regarding the execution of a SQL query using <code data-end=\"1364\" data-start=\"1353\">Statement</code>?<br data-end=\"1368\" data-start=\"1365\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 10417
+  },
+  {
+   "_id": 10418,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>An exception is thrown</p>\n",
+   "OPT_2": "<p>SQL query will not execute</p>\n",
+   "OPT_3": "<p>Memory leak and DB resource exhaustion may occur</p>\n",
+   "OPT_4": "<p>JVM closes it automatically</p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO1",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>In JDBC, what happens if a connection object is not closed after use?<br data-end=\"1755\" data-start=\"1752\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 10418
+  },
+  {
+   "_id": 10429,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><code data-end=\"2429\" data-start=\"2410\">createStatement()</code></p>\n",
+   "OPT_2": "<p><code data-end=\"2455\" data-start=\"2435\">prepareStatement()</code></p>\n",
+   "OPT_3": "<p><code data-end=\"2471\" data-start=\"2461\">commit()</code></p>\n",
+   "OPT_4": "<p><code data-end=\"2493\" data-start=\"2477\">executeQuery()</code></p>\n",
+   "OUTCOMES": [
+    "PLO3",
+    "PLO1",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is <strong data-end=\"2364\" data-start=\"2357\">not</strong> a method in the <code data-end=\"2393\" data-start=\"2381\">Connection</code> interface?<br data-end=\"2407\" data-start=\"2404\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 10429
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10430,
+   "ANSWER": "<ul>\n\t<li data-end=\"2809\" data-start=\"2743\">\n\t<p data-end=\"2809\" data-start=\"2746\">Load the driver: <code data-end=\"2807\" data-start=\"2763\">Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);</code></p>\n\t</li>\n\t<li data-end=\"2967\" data-start=\"2810\">\n\t<p data-end=\"2833\" data-start=\"2813\">Create connection:</p>\n\n\t<pre data-end=\"2967\" data-start=\"2837\">\n<code>Connection con = DriverManager.getConnection( &quot;jdbc:mysql://localhost:3306/studentdb&quot;, &quot;root&quot;, &quot;password&quot;);</code></pre>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>How do you establish a JDBC connection to a MySQL database?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "sq",
+   "key": 10430
+  },
+  {
+   "_id": 10431,
+   "ANSWER": "<ul data-end=\"3497\" data-start=\"3333\">\n\t<li data-end=\"3372\" data-start=\"3333\">\n\t<p data-end=\"3372\" data-start=\"3335\">Create <code data-end=\"3354\" data-start=\"3342\">Connection</code> and <code data-end=\"3370\" data-start=\"3359\">Statement</code></p>\n\t</li>\n\t<li data-end=\"3453\" data-start=\"3373\">\n\t<p data-end=\"3453\" data-start=\"3375\">Execute query: <code data-end=\"3451\" data-start=\"3390\">ResultSet rs = stmt.executeQuery(&quot;SELECT * FROM students&quot;);</code></p>\n\t</li>\n\t<li data-end=\"3497\" data-start=\"3454\">\n\t<p data-end=\"3497\" data-start=\"3456\">Loop through <code data-end=\"3480\" data-start=\"3469\">ResultSet</code> to process rows.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3332\" data-start=\"3257\">Explain how to execute a SELECT query using JDBC.<br data-end=\"3317\" data-start=\"3314\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "sq",
+   "key": 10431
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10432,
+   "ANSWER": "<p>import java.sql.*;</p>\n\n<p>public class StudentInfoApp {<br />\n&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String url = &quot;jdbc:mysql://localhost:3306/college&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String user = &quot;root&quot;;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; String password = &quot;admin&quot;;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; Connection con = null;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; Statement stmt = null;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; ResultSet rs = null;</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; try {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Load MySQL JDBC Driver<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Class.forName(&quot;com.mysql.cj.jdbc.Driver&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Establish connection<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; con = DriverManager.getConnection(url, user, password);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Create Statement<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; stmt = con.createStatement();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Execute SELECT query<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; rs = stmt.executeQuery(&quot;SELECT name, department FROM students&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Process ResultSet<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; while (rs.next()) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Name: &quot; + rs.getString(&quot;name&quot;) +<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&quot;, Department: &quot; + rs.getString(&quot;department&quot;));<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } catch (Exception e) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; e.printStackTrace();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; } finally {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; // Close resources<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (rs != null) rs.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (stmt != null) stmt.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try { if (con != null) con.close(); } catch (Exception e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>You are developing a student information system in Java. The application should connect to a MySQL database named <code data-end=\"3980\" data-start=\"3971\">college</code>, fetch all student records from the <code data-end=\"4027\" data-start=\"4017\">students</code> table, and display them on the console. Use JDBC classes <code data-end=\"4097\" data-start=\"4085\">Connection</code> and <code data-end=\"4113\" data-start=\"4102\">Statement</code> and ensure that proper exception handling and resource closing are implemented.</p>\n\n<p data-end=\"4244\" data-start=\"4200\">Write a complete Java program to:</p>\n\n<ul data-end=\"4442\" data-start=\"4245\">\n\t<li data-end=\"4265\" data-start=\"4245\">\n\t<p data-end=\"4265\" data-start=\"4247\">Load JDBC driver</p>\n\t</li>\n\t<li data-end=\"4292\" data-start=\"4266\">\n\t<p data-end=\"4292\" data-start=\"4268\">Establish a connection</p>\n\t</li>\n\t<li data-end=\"4359\" data-start=\"4293\">\n\t<p data-end=\"4359\" data-start=\"4295\">Use <code data-end=\"4310\" data-start=\"4299\">Statement</code> to retrieve all students from <code data-end=\"4351\" data-start=\"4341\">students</code> table</p>\n\t</li>\n\t<li data-end=\"4413\" data-start=\"4360\">\n\t<p data-end=\"4413\" data-start=\"4362\">Print the <code data-end=\"4378\" data-start=\"4372\">name</code> and <code data-end=\"4395\" data-start=\"4383\">department</code> of each student</p>\n\t</li>\n\t<li data-end=\"4442\" data-start=\"4414\">\n\t<p data-end=\"4442\" data-start=\"4416\">Close resources properly</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 306,
+   "TYPE": "lq",
+   "key": 10432
+  }
+ ]
+}

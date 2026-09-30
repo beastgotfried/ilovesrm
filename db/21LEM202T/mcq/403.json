@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36826,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To design solutions that exploit natural resources faster</p>\n",
+   "OPT_2": "<p>To integrate sustainability and harmony in technological development</p>\n",
+   "OPT_3": "<p>To focus only on profit-making</p>\n",
+   "OPT_4": "<p>To ignore ecological balance</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Why is understanding nature important?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 36826
+  },
+  {
+   "_id": 36827,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Dynamic, contradictory, and temporary</p>\n",
+   "OPT_2": "<p>Co-existence, continuous, and all-encompassing</p>\n",
+   "OPT_3": "<p>Limited to living beings</p>\n",
+   "OPT_4": "<p>Non-systematic and random</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Existence is described as:</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 36827
+  },
+  {
+   "_id": 36828,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Harmony in society improves</p>\n",
+   "OPT_2": "<p>Resource exploitation, conflict, and imbalance</p>\n",
+   "OPT_3": "<p>Sustainability increases</p>\n",
+   "OPT_4": "<p>Mutual trust grows</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What happens when humans do not understand existence comprehensively?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 36828
+  },
+  {
+   "_id": 36829,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Dominate and exploit resources</p>\n",
+   "OPT_2": "<p>Ensure harmony by understanding and participating responsibly</p>\n",
+   "OPT_3": "<p>Remain passive observers</p>\n",
+   "OPT_4": "<p>Focus only on self-development</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Human role in nature and existence is to:</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 36829
+  },
+  {
+   "_id": 36830,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Disharmony between humans and nature</p>\n",
+   "OPT_2": "<p>Sustainable living and peaceful coexistence</p>\n",
+   "OPT_3": "<p>Isolation of human beings from nature</p>\n",
+   "OPT_4": "<p>Short-term material growth</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Comprehensive knowledge of existence ultimately leads to:</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 36830
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36445,
+   "ANSWER": "<p>It helps engineers design technologies that are sustainable, ethical, and in harmony with humans, society, and nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Why is it important for engineers to understand existence comprehensively?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "sq",
+   "key": 36445
+  },
+  {
+   "_id": 36446,
+   "ANSWER": "<p>The water cycle shows harmony in existence&mdash;clouds, rain, rivers, and plants all function in balance, supporting life.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Give an example of harmony in existence</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "sq",
+   "key": 36446
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122515,
+   "ANSWER": "<p>The role of human beings is to understand the inherent harmony in nature and live accordingly. Human beings must facilitate the activity, innateness and inheritance of all four orders. For the physical order, human beings should help maintain its constitution and avoid pollution or destruction. For the bio order, they should protect and enrich growth, seeds, forests and agriculture. For the animal order, they should ensure an environment for the body, food, shelter and breed. For the human order, they should ensure human education-sanskar, right understanding, undivided society and universal human order. Human prosperity should not come by exploiting nature. It should come through right utilisation, protection and enrichment of nature. Thus, the human role is responsible participation for mutual fulfilment.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is the role of human beings in ensuring mutual fulfilment in nature?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "lq",
+   "key": 122515
+  }
+ ]
+}

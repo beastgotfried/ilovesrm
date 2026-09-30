@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 30771,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Dialogue</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Natural acceptance</span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Own understanding</span></span></span></span></span></span></p>\n",
+   "OPT_4": "<p>&nbsp;<span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Preconditioning</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">UHV is a proposal. Verify it on the basis of your&nbsp;&nbsp;___________</span></span></span></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 30771
+  },
+  {
+   "_id": 30772,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Physical facility</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Right feeling</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Right understanding</span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Sensation</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which of the following will bring fulfilment in the self?</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 30772
+  },
+  {
+   "_id": 30792,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Knowing</span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Assuming</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Recognising</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Fulfilling</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which is definite, Continuous and Universal&nbsp;&nbsp;in self?</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 30792
+  },
+  {
+   "_id": 31076,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Dream</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Imagination</span></span></span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Behaviour</span></span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Expression</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The activities of desire, thought and expectation happens in&nbsp; ______________</span></span></span></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 31076
+  },
+  {
+   "_id": 31077,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Natural Acceptance</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Harmony</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Disharmony</span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">None of the above</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">If our imagination is based on pre-conditioning and sensation, we are in the state of:&nbsp;</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "mcq",
+   "key": 31077
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36280,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><i>Happiness is a state of contentment and inner satisfaction, while prosperity refers to the feeling of having sufficient physical facilities to meet basic needs.</i></span></span></span></p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">Define happiness and prosperity.</span></span></span></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "sq",
+   "key": 36280
+  },
+  {
+   "_id": 36282,
+   "ANSWER": "<p><i><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">Right understanding helps family members respect each other, fulfill mutual responsibilities, and build trust and affection, which leads to harmony.</span></span></span></i></p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Calibri&quot;,sans-serif\">How does right understanding help in achieving harmony in family?</span></span></span></p>\n",
+   "SESSION_ID": 101,
+   "TYPE": "sq",
+   "key": 36282
+  }
+ ],
+ "lq": [
+  {
+   "_id": 116183,
+   "ANSWER": "<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>Physical facility is necessary for both animals and human beings, but for an animal it is necessary as well as largely adequate &mdash; a cow with a stomach-full of grass becomes comfortable, sits and chews the cud. For a human being it is necessary but NOT adequate: once the required physical facility is obtained, the human soon forgets it and thinks of a hundred other things. We can verify this &mdash; we do not feel happy every single day merely because we have enough food or clothes. The unhappiness in our families is more due to lack of fulfilment in relationship than lack of physical facility, yet most of our time and effort goes to physical facility. Hence, in addition to physical facility (with nature), relationship (with human beings) and right understanding (in the self) are also required for a human being.</span></span></span></p>\n\n<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q2 &mdash; Holistic Development and the role of education&ndash;sanskar</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>Holistic development means transformation &mdash; from animal consciousness to human consciousness. It is not the mere increase of physical facility; however much physical facility increases, it alone cannot ensure this transformation. Holistic development is ensuring all three &mdash; right understanding in the self, fulfilment in relationship, and physical facility &mdash; in the correct priority. The role of education&ndash;sanskar is to enable this transformation, by ensuring right understanding in every child, the capacity to live in relationship with other human beings, and the capacity to identify the need for physical facility together with the skills and practice for sustainable production of more than what is required, leading to the feeling of prosperity. Parents, teachers and society share the responsibility of providing such education&ndash;sanskar.</span></span></span></p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:5px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\">For a human being, &ldquo;physical facility is necessary but something more is also required.&rdquo; Explain the fundamental difference between animals and human beings on this basis.</span></span></span></p>\n\n<div style=\"border-bottom:solid #aaaaaa 1.0pt; padding:0cm 0cm 1.0pt 0cm\">\n<p style=\"border:none; margin-top:8px; margin-bottom:9px; padding:0cm\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\">What is meant by Holistic Development, and what is the role of education&ndash;sanskar in achieving it?</span></span></span></p>\n</div>\n",
+   "SESSION_ID": 101,
+   "TYPE": "lq",
+   "key": 116183
+  }
+ ]
+}

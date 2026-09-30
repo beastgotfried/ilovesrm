@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9659,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) To reduce file size</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) To demonstrate theoretical understanding only</p>\n",
+   "OPT_3": "<p>C) To apply conceptual knowledge through real-world coding</p>\n",
+   "OPT_4": "<p>D) To memorize syntax</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"274\" data-start=\"185\"><strong data-end=\"274\" data-start=\"189\">1. What is the main goal of integrating a programming paradigm in a mini project?</strong></h3>\n\n<p data-end=\"436\" data-start=\"276\">&nbsp;</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 9659
+  },
+  {
+   "_id": 9662,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Using <code data-end=\"640\" data-start=\"635\">for</code> loops for iteration</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) Maintaining global mutable variables</p>\n",
+   "OPT_3": "<p>C) Using a GUI framework</p>\n",
+   "OPT_4": "<p>D) Implementing logic with pure functions and <code data-end=\"758\" data-start=\"751\">map()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"624\" data-start=\"517\"><strong data-end=\"624\" data-start=\"521\">2. Which of the following is a valid example of a functional programming concept in a mini project?</strong></h3>\n\n<p data-end=\"787\" data-start=\"626\">&nbsp;</p>\n\n<p data-end=\"436\" data-start=\"276\">&nbsp;</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 9662
+  },
+  {
+   "_id": 9665,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Size of the codebase</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) List of errors encountered</p>\n",
+   "OPT_3": "<p>C) Explanation of how the paradigm influenced design and code structure</p>\n",
+   "OPT_4": "<p>D) Number of comments in the code</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"952\" data-start=\"863\"><strong data-end=\"952\" data-start=\"867\">3. What is a key element in documenting a programming paradigm used in a project?</strong></h3>\n\n<p data-end=\"1121\" data-start=\"954\"><br data-end=\"980\" data-start=\"977\" />\n&nbsp;</p>\n\n<p data-end=\"787\" data-start=\"626\">&nbsp;</p>\n\n<p data-end=\"436\" data-start=\"276\">&nbsp;</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 9665
+  },
+  {
+   "_id": 9668,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) To compare it with unrelated topics</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) To validate that the correct programming model was applied effectively</p>\n",
+   "OPT_3": "<p>C) To reduce the amount of code</p>\n",
+   "OPT_4": "<p>D) To focus only on front-end performance</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1291\" data-start=\"1215\"><strong data-end=\"1291\" data-start=\"1219\">4. Why is evaluation important in a mini project based on paradigms?</strong></h3>\n\n<p data-end=\"1487\" data-start=\"1293\"><br data-end=\"1334\" data-start=\"1331\" />\n<br data-end=\"1410\" data-start=\"1407\" />\n&nbsp;</p>\n\n<p data-end=\"1121\" data-start=\"954\"><br data-end=\"980\" data-start=\"977\" />\n&nbsp;</p>\n\n<p data-end=\"787\" data-start=\"626\">&nbsp;</p>\n\n<p data-end=\"436\" data-start=\"276\">&nbsp;</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 9668
+  },
+  {
+   "_id": 9677,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Including only screenshots</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) Memorizing all syntax</p>\n",
+   "OPT_3": "<p>C) Clearly explaining design choices and paradigm benefits</p>\n",
+   "OPT_4": "<p data-end=\"1813\" data-start=\"1664\">D) Avoiding technical term</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1662\" data-start=\"1583\"><strong data-end=\"1662\" data-start=\"1587\">5. Which of the following best strengthens project presentation skills?</strong></h3>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 9677
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9864,
+   "ANSWER": "<p><br data-end=\"7403\" data-start=\"7400\" />\nCheck if it uses pure functions, immutability, and clear modular structure.<br data-end=\"7481\" data-start=\"7478\" />\nEvaluate performance, maintainability, and testability.<br data-end=\"7539\" data-start=\"7536\" />\nAlso assess how well it follows functional paradigms.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"7085\" data-start=\"7016\">You built a log analyzer using functional programming. How would you evaluate its design?</p>\n\n<p>&nbsp;</p>\n\n<p data-end=\"6516\" data-start=\"6456\">&nbsp;</p>\n\n<p data-end=\"4958\" data-start=\"4681\">&nbsp;</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "sq",
+   "key": 9864
+  },
+  {
+   "_id": 9865,
+   "ANSWER": "<p data-end=\"7085\" data-start=\"7016\"><br data-end=\"7669\" data-start=\"7666\" />\nIt explains design choices and how they align with problem requirements.<br data-end=\"7744\" data-start=\"7741\" />\nHelps future developers understand, maintain, and extend the code.<br data-end=\"7813\" data-start=\"7810\" />\nAlso improves clarity and academic/professional presentation.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"7085\" data-start=\"7016\">Why is documenting paradigm use in a project important?<br data-end=\"7660\" data-start=\"7657\" />\n&nbsp;</p>\n\n<p data-end=\"6516\" data-start=\"6456\">&nbsp;</p>\n\n<p data-end=\"4958\" data-start=\"4681\">&nbsp;</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "sq",
+   "key": 9865
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9842,
+   "ANSWER": "<h3 data-end=\"140\" data-start=\"94\"><strong data-end=\"138\" data-start=\"98\">1. Problem &amp; Paradigm Used (4 marks)</strong></h3>\n\n<ul data-end=\"289\" data-start=\"141\">\n\t<li data-end=\"203\" data-start=\"141\">\n\t<p data-end=\"203\" data-start=\"143\"><strong data-end=\"154\" data-start=\"143\">Problem</strong>: Analyzing and filtering large user log files.</p>\n\t</li>\n\t<li data-end=\"289\" data-start=\"204\">\n\t<p data-end=\"289\" data-start=\"206\"><strong data-end=\"218\" data-start=\"206\">Paradigm</strong>: <strong data-end=\"246\" data-start=\"220\">Functional programming</strong> used for cleaner, modular data processing.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"337\" data-start=\"296\"><strong data-end=\"335\" data-start=\"300\">2. Implementation (7 marks)</strong></h3>\n\n<p data-end=\"378\" data-start=\"338\">Using <code data-end=\"351\" data-start=\"344\">map()</code>, <code data-end=\"363\" data-start=\"353\">filter()</code>, and <code data-end=\"377\" data-start=\"369\">lambda</code>:</p>\n\n<pre data-end=\"567\" data-start=\"380\">\n<code>logs = [&quot;error: disk&quot;, &quot;info: start&quot;, &quot;error: memory&quot;] error_logs = list(filter(lambda x: x.startswith(&quot;error&quot;), logs)) print(error_logs) # [&#39;error: disk&#39;, &#39;error: memory&#39;] </code></pre>\n\n<ul data-end=\"642\" data-start=\"569\">\n\t<li data-end=\"642\" data-start=\"569\">\n\t<p data-end=\"642\" data-start=\"571\">Code avoids side effects and uses pure functions for clarity and reuse.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"682\" data-start=\"649\"><strong data-end=\"680\" data-start=\"653\">3. Evaluation (4 marks)</strong></h3>\n\n<ul data-end=\"881\" data-start=\"683\">\n\t<li data-end=\"757\" data-start=\"683\">\n\t<p data-end=\"757\" data-start=\"685\">Functional paradigm improved <strong data-end=\"734\" data-start=\"714\">code readability</strong> and <strong data-end=\"754\" data-start=\"739\">testability</strong>.</p>\n\t</li>\n\t<li data-end=\"829\" data-start=\"758\">\n\t<p data-end=\"829\" data-start=\"760\">Encouraged <strong data-end=\"789\" data-start=\"771\">modular design</strong>, making debugging and updates easier.</p>\n\t</li>\n\t<li data-end=\"881\" data-start=\"830\">\n\t<p data-end=\"881\" data-start=\"832\">Helped avoid bugs caused by shared mutable state.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"437\" data-start=\"154\">You are asked to develop a mini project in Python that incorporates at least one programming paradigm (functional, logic, or parallel/distributed computing). The goal is to solve a real-world problem such as processing user data, analyzing logs, or automating a task.</p>\n\n<p data-end=\"448\" data-start=\"439\"><strong data-end=\"448\" data-start=\"439\">Task:</strong></p>\n\n<ol data-end=\"847\" data-start=\"450\">\n\t<li data-end=\"569\" data-start=\"450\">\n\t<p data-end=\"569\" data-start=\"453\"><strong data-end=\"465\" data-start=\"453\">Describe</strong> the real-world problem your project addresses and identify the programming paradigm used. <em data-end=\"567\" data-start=\"556\">(4 marks)</em></p>\n\t</li>\n\t<li data-end=\"719\" data-start=\"570\">\n\t<p data-end=\"719\" data-start=\"573\"><strong data-end=\"594\" data-start=\"573\">Explain with code</strong> how key concepts of the chosen paradigm are implemented (e.g., pure functions, Prolog rules, multiprocessing). <em data-end=\"717\" data-start=\"706\">(7 marks)</em></p>\n\t</li>\n\t<li data-end=\"847\" data-start=\"720\">\n\t<p data-end=\"847\" data-start=\"723\"><strong data-end=\"735\" data-start=\"723\">Evaluate</strong> the advantages of using this paradigm in your project and how it influenced the design and outcome. <em data-end=\"847\" data-start=\"836\">(4 marks)</em></p>\n\t</li>\n</ol>\n\n<p data-end=\"492\" data-start=\"153\">&nbsp;</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "lq",
+   "key": 9842
+  }
+ ]
+}

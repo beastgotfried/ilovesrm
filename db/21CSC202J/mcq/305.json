@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12388,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>&nbsp;It terminates immediately</p>\n",
+   "OPT_2": "<p>It goes to the end of the ready queue</p>\n",
+   "OPT_3": "<p>It moves to the blocked state</p>\n",
+   "OPT_4": "<p>It runs until the CPU is free</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In Round Robin scheduling, what happens when a process exhausts its time quantum?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 12388
+  },
+  {
+   "_id": 12389,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>High CPU utilization</p>\n",
+   "OPT_2": "<p>Starvation of low priority processes</p>\n",
+   "OPT_3": "<p>Large response time for high priority processes</p>\n",
+   "OPT_4": "<p>None of the above</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a major drawback of Priority Scheduling?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 12389
+  },
+  {
+   "_id": 12390,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>&nbsp;Swapping</p>\n",
+   "OPT_2": "<p>Aging</p>\n",
+   "OPT_3": "<p>L Paging</p>\n",
+   "OPT_4": "<p>Preemption</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What technique is used to avoid starvation in Priority Scheduling?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 12390
+  },
+  {
+   "_id": 12391,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>&nbsp;15.67 ms</p>\n",
+   "OPT_2": "<p>5.67 ms</p>\n",
+   "OPT_3": "<p>12 ms</p>\n",
+   "OPT_4": "<p>10.33 ms</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the average turnaround time for the RR Scheduling example with 3 processes (P1=24, P2=3, P3=3) and time quantum = 4ms?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 12391
+  },
+  {
+   "_id": 12396,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>&nbsp;If a process with lower priority arrives</p>\n",
+   "OPT_2": "<p>If a process with higher priority arrives</p>\n",
+   "OPT_3": "<p>If the current process finishes</p>\n",
+   "OPT_4": "<p>Never</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In Preemptive Priority Scheduling, when does a process get preempted?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 12396
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12397,
+   "ANSWER": "<ul>\n\t<li data-end=\"1929\" data-start=\"1840\">\n\t<p data-end=\"1929\" data-start=\"1842\">Preemptive: a running process can be interrupted if a higher-priority process arrives</p>\n\t</li>\n\t<li data-end=\"2009\" data-start=\"1930\">\n\t<p data-end=\"2009\" data-start=\"1932\">Non-preemptive: the current process finishes before CPU is given to another</p>\n\t</li>\n\t<li data-end=\"2090\" data-start=\"2010\">\n\t<p data-end=\"2090\" data-start=\"2012\">Example scenarios for both</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the main difference between Preemptive and Non-Preemptive Priority Scheduling?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "sq",
+   "key": 12397
+  },
+  {
+   "_id": 12400,
+   "ANSWER": "<ul>\n\t<li data-end=\"1929\" data-start=\"1840\">\n\t<p data-end=\"2250\" data-start=\"2097\"><strong data-end=\"2248\" data-start=\"2233\">Advantages: 50%</strong></p>\n\t</li>\n\t<li data-end=\"2291\" data-start=\"2251\">\n\t<p data-end=\"2291\" data-start=\"2253\">Fairness: all processes get CPU time</p>\n\t</li>\n\t<li data-end=\"2346\" data-start=\"2292\">\n\t<p data-end=\"2346\" data-start=\"2294\">Good for time-sharing systems<br data-end=\"2326\" data-start=\"2323\" />\n\t<strong data-end=\"2344\" data-start=\"2326\">Disadvantages: 50%</strong></p>\n\t</li>\n\t<li data-end=\"2387\" data-start=\"2347\">\n\t<p data-end=\"2387\" data-start=\"2349\">High overhead from context switching</p>\n\t</li>\n\t<li data-end=\"2486\" data-start=\"2388\">\n\t<p data-end=\"2486\" data-start=\"2390\">Poor performance for long burst time processes<br data-end=\"2439\" data-start=\"2436\" />\n\t<b>&nbsp;</b></p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>List two advantages and two disadvantages of Round Robin Scheduling.</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "sq",
+   "key": 12400
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12403,
+   "ANSWER": "<ul>\n\t<li data-end=\"3087\" data-start=\"2917\">\n\t<p data-end=\"2946\" data-start=\"2919\"><strong data-end=\"2944\" data-start=\"2919\">Scheduling Mechanism: 20%</strong></p>\n\n\t<ul data-end=\"3087\" data-start=\"2949\">\n\t\t<li data-end=\"3023\" data-start=\"2949\">\n\t\t<p data-end=\"3023\" data-start=\"2951\">RR uses a fixed time quantum and cycles through processes (time-based)</p>\n\t\t</li>\n\t\t<li data-end=\"3087\" data-start=\"3026\">\n\t\t<p data-end=\"3087\" data-start=\"3028\">Priority assigns CPU based on priority values (value-based)</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3278\" data-start=\"3089\">\n\t<p data-end=\"3119\" data-start=\"3091\"><strong data-end=\"3117\" data-start=\"3091\">Fairness &amp; Starvation:&nbsp;</strong><strong data-end=\"2944\" data-start=\"2919\">20%</strong></p>\n\n\t<ul data-end=\"3278\" data-start=\"3122\">\n\t\t<li data-end=\"3180\" data-start=\"3122\">\n\t\t<p data-end=\"3180\" data-start=\"3124\">RR is fair (equal CPU share), low chance of starvation</p>\n\t\t</li>\n\t\t<li data-end=\"3278\" data-start=\"3183\">\n\t\t<p data-end=\"3278\" data-start=\"3185\">Priority can lead to starvation, especially for low-priority processes (unless aging is used)</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3427\" data-start=\"3280\">\n\t<p data-end=\"3300\" data-start=\"3282\"><strong data-end=\"3298\" data-start=\"3282\">Suitability:&nbsp;</strong><strong data-end=\"2944\" data-start=\"2919\">20%</strong></p>\n\n\t<ul data-end=\"3427\" data-start=\"3303\">\n\t\t<li data-end=\"3344\" data-start=\"3303\">\n\t\t<p data-end=\"3344\" data-start=\"3305\">RR: time-sharing, interactive systems</p>\n\t\t</li>\n\t\t<li data-end=\"3427\" data-start=\"3347\">\n\t\t<p data-end=\"3427\" data-start=\"3349\">Priority: real-time systems where critical processes must be executed promptly</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3602\" data-start=\"3429\">\n\t<p data-end=\"3470\" data-start=\"3431\"><strong data-end=\"3468\" data-start=\"3431\">Waiting/Turnaround Time Handling:&nbsp;</strong><strong data-end=\"2944\" data-start=\"2919\">20%</strong></p>\n\n\t<ul data-end=\"3602\" data-start=\"3473\">\n\t\t<li data-end=\"3536\" data-start=\"3473\">\n\t\t<p data-end=\"3536\" data-start=\"3475\">RR: waiting time depends on number of processes and quantum</p>\n\t\t</li>\n\t\t<li data-end=\"3602\" data-start=\"3539\">\n\t\t<p data-end=\"3602\" data-start=\"3541\">Priority: variable based on process priority and arrival time</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3720\" data-start=\"3604\">\n\t<p data-end=\"3621\" data-start=\"3606\"><strong data-end=\"3619\" data-start=\"3606\">Examples:&nbsp;</strong><strong data-end=\"2944\" data-start=\"2919\">20%</strong></p>\n\n\t<ul data-end=\"3720\" data-start=\"3624\">\n\t\t<li data-end=\"3720\" data-start=\"3624\">\n\t\t<p data-end=\"3720\" data-start=\"3626\">Reference examples from documents (RR: P1, P2, P3 with Q=4ms; Priority: P1&ndash;P5 with priorities)</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2703\" data-start=\"2575\">Compare and contrast Round Robin Scheduling and Priority Scheduling algorithms in terms of:</p>\n\n<ul data-end=\"2892\" data-start=\"2704\">\n\t<li data-end=\"2731\" data-start=\"2704\">\n\t<p data-end=\"2731\" data-start=\"2706\">Mechanism of scheduling</p>\n\t</li>\n\t<li data-end=\"2759\" data-start=\"2732\">\n\t<p data-end=\"2759\" data-start=\"2734\">Fairness and starvation</p>\n\t</li>\n\t<li data-end=\"2797\" data-start=\"2760\">\n\t<p data-end=\"2797\" data-start=\"2762\">Suitability for different systems</p>\n\t</li>\n\t<li data-end=\"2892\" data-start=\"2798\">\n\t<p data-end=\"2892\" data-start=\"2800\">Handling of waiting and turnaround times<br data-end=\"2843\" data-start=\"2840\" />\n\tProvide suitable examples to justify your answer.</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 305,
+   "TYPE": "lq",
+   "key": 12403
+  }
+ ]
+}

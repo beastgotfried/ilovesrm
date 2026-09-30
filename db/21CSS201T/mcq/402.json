@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17260,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Store program instructions</p>\n",
+   "OPT_2": "<p>Perform arithmetic and logic operations</p>\n",
+   "OPT_3": "<p>Manage memory access</p>\n",
+   "OPT_4": "<p>Control input/output devices</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What is the primary function of the ALU in a CPU?</strong></p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 17260
+  },
+  {
+   "_id": 17264,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>RAM</p>\n",
+   "OPT_2": "<p>Control Unit (CU)</p>\n",
+   "OPT_3": "<p>Cache</p>\n",
+   "OPT_4": "<p>SSD</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which component sends control signals to the ALU to specify the operation to be performed?</strong></p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 17264
+  },
+  {
+   "_id": 17268,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Addition</p>\n",
+   "OPT_2": "<p>Multiplication</p>\n",
+   "OPT_3": "<p>XOR</p>\n",
+   "OPT_4": "<p>Division</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which of the following is a logical operation performed by the ALU?</strong></p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 17268
+  },
+  {
+   "_id": 17270,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Carry flag</p>\n",
+   "OPT_2": "<p>Zero flag</p>\n",
+   "OPT_3": "<p>Overflow flag</p>\n",
+   "OPT_4": "<p>Sign flag</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which flag is set by the ALU when the result of an operation is zero?</strong></p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 17270
+  },
+  {
+   "_id": 17276,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Overflow flag is set</p>\n",
+   "OPT_2": "<p>The result is truncated</p>\n",
+   "OPT_3": "<p>The system shuts down</p>\n",
+   "OPT_4": "<p>The ALU stops working</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What happens when an ALU operation results in a value larger than the register size?</strong></p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 17276
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17412,
+   "ANSWER": "<p data-end=\"1922\" data-start=\"1848\">The <strong data-end=\"296\" data-start=\"265\">Arithmetic Logic Unit (ALU)</strong> is a core component of the CPU that performs all <strong data-end=\"360\" data-start=\"346\">arithmetic</strong> and <strong data-end=\"387\" data-start=\"365\">logical operations</strong>. Arithmetic operations include addition, subtraction, multiplication, and division. Logical operations involve comparisons and bitwise functions like AND, OR, NOT, and XOR. The ALU receives input data from the processor&#39;s registers, executes the required operation, and then returns the result to the register or memory. It is directed by the control unit, which tells the ALU what operation to perform based on the instruction currently being executed. Without the ALU, a CPU would not be able to carry out calculations or make logical decisions.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What is the role of the ALU in a CPU?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 17412
+  },
+  {
+   "_id": 17419,
+   "ANSWER": "<p data-end=\"1107\" data-start=\"1030\">The <strong data-end=\"1761\" data-start=\"1737\">Program Counter (PC)</strong> plays a crucial role in instruction execution by keeping track of the address of the <strong data-end=\"1867\" data-start=\"1847\">next instruction</strong> to be executed. At the beginning of each cycle, the PC&rsquo;s value is used to fetch the current instruction from memory. After fetching, the PC is <strong data-end=\"2026\" data-start=\"2011\">incremented</strong> to point to the next instruction unless the current instruction is a jump or branch. In that case, the PC is updated with a new address. Thus, the PC ensures the <strong data-end=\"2213\" data-start=\"2189\">sequence and control</strong> of instruction flow during execution.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>How does the Program Counter help in instruction execution?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 17419
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17512,
+   "ANSWER": "<p data-end=\"2877\" data-start=\"2626\">The ALU performs <strong data-end=\"2679\" data-start=\"2657\">logical operations</strong> using combinational logic circuits that operate on individual bits of input operands. Each bit of the input is independently processed using <strong data-end=\"2836\" data-start=\"2821\">logic gates</strong>, without regard to carries or overflows.</p>\n\n<p data-end=\"2917\" data-start=\"2879\"><strong data-end=\"2917\" data-start=\"2879\">Common Logical Operations Include:</strong></p>\n\n<ol data-end=\"3485\" data-start=\"2918\">\n\t<li data-end=\"3033\" data-start=\"2918\">\n\t<p data-end=\"3033\" data-start=\"2921\"><strong data-end=\"2929\" data-start=\"2921\">AND:</strong><br data-end=\"2932\" data-start=\"2929\" />\n\tBitwise comparison; output bit is 1 if both input bits are 1.<br data-end=\"2999\" data-start=\"2996\" />\n\tExample: <code data-end=\"3033\" data-start=\"3011\">1010 AND 1100 = 1000</code></p>\n\t</li>\n\t<li data-end=\"3154\" data-start=\"3035\">\n\t<p data-end=\"3154\" data-start=\"3038\"><strong data-end=\"3045\" data-start=\"3038\">OR:</strong><br data-end=\"3048\" data-start=\"3045\" />\n\tBitwise comparison; output bit is 1 if at least one input bit is 1.<br data-end=\"3121\" data-start=\"3118\" />\n\tExample: <code data-end=\"3154\" data-start=\"3133\">1010 OR 1100 = 1110</code></p>\n\t</li>\n\t<li data-end=\"3265\" data-start=\"3156\">\n\t<p data-end=\"3265\" data-start=\"3159\"><strong data-end=\"3182\" data-start=\"3159\">XOR (Exclusive OR):</strong><br data-end=\"3185\" data-start=\"3182\" />\n\tOutput is 1 if input bits are different.<br data-end=\"3231\" data-start=\"3228\" />\n\tExample: <code data-end=\"3265\" data-start=\"3243\">1010 XOR 1100 = 0110</code></p>\n\t</li>\n\t<li data-end=\"3358\" data-start=\"3267\">\n\t<p data-end=\"3358\" data-start=\"3270\"><strong data-end=\"3278\" data-start=\"3270\">NOT:</strong><br data-end=\"3281\" data-start=\"3278\" />\n\tBitwise inversion (only for single input).<br data-end=\"3329\" data-start=\"3326\" />\n\tExample: <code data-end=\"3358\" data-start=\"3341\">NOT 1010 = 0101</code></p>\n\t</li>\n\t<li data-end=\"3485\" data-start=\"3360\">\n\t<p data-end=\"3485\" data-start=\"3363\"><strong data-end=\"3380\" data-start=\"3363\">Shift/Rotate:</strong><br data-end=\"3383\" data-start=\"3380\" />\n\tLogical or arithmetic shifts left or right, useful in multiplication/division and bit manipulation.</p>\n\t</li>\n</ol>\n\n<p data-end=\"3655\" data-start=\"3487\">These logical operations do not typically affect arithmetic flags like carry or overflow but may influence other control decisions or condition checking in the program.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>How does the ALU handle logical operations?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "lq",
+   "key": 17512
+  }
+ ]
+}

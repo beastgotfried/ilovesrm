@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9304,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) What the result should be<br data-end=\"539\" data-start=\"536\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) How to achieve the result through instructions<br data-end=\"591\" data-start=\"588\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Defining rules and relationships<br data-end=\"629\" data-start=\"626\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Describing logical facts</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"505\" data-start=\"436\">What is the main focus of the imperative programming paradigm?</strong><br data-end=\"508\" data-start=\"505\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 9304
+  },
+  {
+   "_id": 9305,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Uses objects and classes exclusively<br data-end=\"823\" data-start=\"820\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Focuses on facts and rules<br data-end=\"855\" data-start=\"852\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Code is organized into reusable procedures/functions<br data-end=\"913\" data-start=\"910\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Only supports graphical interfaces</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"778\" data-start=\"711\">Which one is a key characteristic of procedural programming?</strong><br data-end=\"781\" data-start=\"778\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 9305
+  },
+  {
+   "_id": 9306,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) if<br data-end=\"1119\" data-start=\"1116\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) for<br data-end=\"1128\" data-start=\"1125\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) switch<br data-end=\"1140\" data-start=\"1137\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) break</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1108\" data-start=\"1003\">In Java, which control structure is used to repeat a block of code as long as a condition is true?</strong><br data-end=\"1111\" data-start=\"1108\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 9306
+  },
+  {
+   "_id": 9307,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OPT_1": "<p>a) Hello &nbsp;<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Bye &nbsp;<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Error &nbsp;<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Nothing&nbsp;</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1108\" data-start=\"1003\">int x = 5;<br />\nif (x &gt; 3) {<br />\n&nbsp; &nbsp;System.out.print(&quot;Hello&quot;);<br />\n} else {<br />\n&nbsp; &nbsp;System.out.print(&quot;Bye&quot;);<br />\n}</strong></p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 9307
+  },
+  {
+   "_id": 9308,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><strong data-end=\"1108\" data-start=\"1003\">a) Code is executed randomly &nbsp;</strong><br />\n&nbsp;</p>\n",
+   "OPT_2": "<p><strong data-end=\"1108\" data-start=\"1003\">b) Code is compiled but not executed &nbsp;</strong><br />\n&nbsp;</p>\n",
+   "OPT_3": "<p><strong data-end=\"1108\" data-start=\"1003\">c) Code is executed step-by-step from top to bottom &nbsp;</strong><br />\n&nbsp;</p>\n",
+   "OPT_4": "<p><strong data-end=\"1108\" data-start=\"1003\">d) Only class declarations are executed &nbsp;</strong></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1108\" data-start=\"1003\">Which of the following correctly describes the execution of procedural code in Java?** &nbsp;</strong><br />\n&nbsp;</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 9308
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9355,
+   "ANSWER": "<p>Inheritance allows shared vehicle attributes, encapsulation manages private data such as engine details, and polymorphism enables common interfaces for all vehicle types, enhancing scalability.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A vehicle management application includes categories like cars, trucks, and motorcycles. What object-oriented features are most suitable for this system?</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "sq",
+   "key": 9355
+  },
+  {
+   "_id": 9356,
+   "ANSWER": "<p>Abstracting shared logic into a superclass or utility class promotes code reuse and simplifies updates by centralizing common behavior.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>An application has repetitive code across several classes for logging activities. How can object-oriented design address this issue?</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "sq",
+   "key": 9356
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9376,
+   "ANSWER": "<ol data-end=\"2645\" data-start=\"1511\">\n\t<li data-end=\"1851\" data-start=\"1479\">\n\t<p><strong data-end=\"1532\" data-start=\"1482\">class Book {<br />\n\t&nbsp; &nbsp; private String title;<br />\n\t&nbsp; &nbsp; private String author;<br />\n\t&nbsp; &nbsp; private boolean isAvailable;</strong></p>\n\n\t<p><strong data-end=\"1532\" data-start=\"1482\">&nbsp; &nbsp; public Book(String title, String author) {<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; this.title = title;<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; this.author = author;<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; this.isAvailable = true;<br />\n\t&nbsp; &nbsp; }</strong></p>\n\n\t<p><strong data-end=\"1532\" data-start=\"1482\">&nbsp; &nbsp; public boolean isAvailable() { return isAvailable; }<br />\n\t&nbsp; &nbsp; public void borrowBook() { isAvailable = false; }<br />\n\t&nbsp; &nbsp; public void returnBook() { isAvailable = true; }<br />\n\t}</strong></p>\n\n\t<p><strong data-end=\"1532\" data-start=\"1482\">class User {<br />\n\t&nbsp; &nbsp; protected String name;<br />\n\t&nbsp; &nbsp; protected String userId;<br />\n\t}</strong></p>\n\n\t<p><strong data-end=\"1532\" data-start=\"1482\">class Member extends User {<br />\n\t&nbsp; &nbsp; private List&lt;Book&gt; borrowedBooks = new ArrayList&lt;&gt;();</strong></p>\n\n\t<p><strong data-end=\"1532\" data-start=\"1482\">&nbsp; &nbsp; public void borrow(Book b) {<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; if (b.isAvailable()) {<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; borrowedBooks.add(b);<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; b.borrowBook();<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n\t&nbsp; &nbsp; }<br />\n\t}</strong></p>\n\n\t<p><strong data-end=\"1532\" data-start=\"1482\">class Librarian extends User {<br />\n\t&nbsp; &nbsp; public void addBook(List&lt;Book&gt; library, Book b) {<br />\n\t&nbsp; &nbsp; &nbsp; &nbsp; library.add(b);<br />\n\t&nbsp; &nbsp; }<br />\n\t}</strong><br />\n\t&nbsp;</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"613\" data-start=\"371\">Design a library management system using object-oriented programming principles. Demonstrate how <strong data-end=\"468\" data-start=\"457\">classes</strong>, <strong data-end=\"485\" data-start=\"470\">inheritance</strong>, and <strong data-end=\"508\" data-start=\"491\">encapsulation</strong> can be applied to model books, members, and librarians.</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "lq",
+   "key": 9376
+  }
+ ]
+}

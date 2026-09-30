@@ -1,0 +1,137 @@
+{
+ "mcq": [
+  {
+   "_id": 36332,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Yes, that&rsquo;s true, values vary from person to person.</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">When you say nothing is universal, you are assuming this statement to be universal. It&#39;s contradicting itself.</span></span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Values depends on person time place and country.</span></span></span></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Values do vary with person but not with time.</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">A students says: Nothing is universal in this world. Everything varies from person to person. So how can values be universal? What is the most appropriate response to this?</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 36332
+  },
+  {
+   "_id": 36333,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Ignore the conflict and focus on his personal goals.</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Blame his friend for the conflict without analyzing his own role.</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance.</span></span></span></span></span></span></span></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Avoid discussing the issue and wait for the conflict to resolve on its own.</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Rahul is trying to understand the concept of self-exploration in his Universal Human Values class. He decides to apply the process of self-exploration to resolve a conflict with his friend. Which of the following steps should Rahul take to effectively apply self-exploration in this situation?</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 36333
+  },
+  {
+   "_id": 36335,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Ignore the conflict and focus on his personal goals.</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Blame his friend for the conflict without analyzing his own role.</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance.</span></span></span></span></span></span></span></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Avoid discussing the issue and wait for the conflict to resolve on its own.</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Rahul is trying to understand the concept of self-exploration in his Universal Human Values class. He decides to apply the process of self-exploration to resolve a conflict with his friend. Which of the following steps should Rahul take to effectively apply self-exploration in this situation?</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 36335
+  },
+  {
+   "_id": 36336,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Transformation from animal consciousness to human consciousness</span></span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Keep progressing in life in terms of money, post and fame</span></span></span></span></span></span></p>\n",
+   "OPT_3": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Keeping oneself always ahead of others</span></span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Working day and night for wealth</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Development of human being essentially means___&nbsp; &nbsp;&nbsp;</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 36336
+  },
+  {
+   "_id": 36499,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Digestion and respiration</p>\n",
+   "OPT_2": "<p>Right understanding and resolution</p>\n",
+   "OPT_3": "<p>Walking and sleeping</p>\n",
+   "OPT_4": "<p>Circulation of blood</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following are activities of the Self?</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "mcq",
+   "key": 36499
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36287,
+   "ANSWER": "<p>Resolution directs choices and actions, ensuring alignment with values and long-term well-being.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What role does Resolution play in daily life?</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "sq",
+   "key": 36287
+  },
+  {
+   "_id": 36288,
+   "ANSWER": "<p>Right Understanding gives correct knowledge, and Resolution applies it in life, leading to harmony within self, family, society, and nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How do Right Understanding and Resolution together lead to happiness?</p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "sq",
+   "key": 36288
+  }
+ ],
+ "lq": [
+  {
+   "_id": 116186,
+   "ANSWER": "<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q1 &mdash; Happiness, unhappiness and continuity</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>The state in which I live, if there is harmony/synergy in it, is naturally acceptable and I want to continue in it &mdash; to be in such a state is happiness. If there is disharmony/contradiction, it is not naturally acceptable and I want to get out of it &mdash; to be forced into such a state is unhappiness. Thus happiness is to be in harmony and unhappiness is disharmony. The expanse of my being is at four levels: as an individual, a member of a family, a member of society, and a unit in nature/existence. Continuity of happiness therefore means harmony at all these levels &mdash; harmony in the human being, the family, the society, and nature/existence.</span></span></span></p>\n\n<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q2 &mdash; Prosperity: prosperous vs deprived</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>Prosperity is the feeling of having or producing more than the required physical facility &mdash; it is a feeling, not merely the amount of wealth one possesses. The distinction lies in the feeling and the resulting conduct: a prosperous person thinks of right utilisation and of nurturing the other, whereas a deprived person thinks of accumulation and of exploiting the other. Dealing with physical facility rightly involves identification of need, production, consuming what is required (right utilisation), sharing for the wellbeing of all, and storing the remaining for future right utilisation. What is naturally acceptable here is right utilisation, rather than indulgence or renunciation.</span></span></span></p>\n\n<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q3 &mdash; Clarity of basic aspiration and our program</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>Clarity lets us make effort in the intended direction and know when we have reached it. Without it we may get busy with the &ldquo;how to,&rdquo; waver from the aspiration, or over-evaluate our own part so much that the overall target is compromised; our efforts may be directionless. Our basic desire is happiness, prosperity and their continuity. Our program is two-fold: first, to facilitate the understanding of harmony at all four levels of being and to live in harmony at those levels; second, to verify the proposals on the basis of natural acceptance and to validate them experientially by living accordingly &mdash; developing right understanding and right feeling.</span></span></span></p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:5px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q1. </b>Define happiness and unhappiness as presented, and explain what is meant by &ldquo;continuity of happiness.&rdquo;</span></span></span></p>\n\n<p style=\"margin-bottom:5px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q2. </b>What is prosperity? Distinguish between a prosperous person and a deprived person.</span></span></span></p>\n\n<p style=\"margin-bottom:5px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q3. </b>Explain why clarity about the basic human aspiration is important, and what our program is for fulfilling it.</span></span></span></p>\n",
+   "SESSION_ID": 104,
+   "TYPE": "lq",
+   "key": 116186
+  }
+ ]
+}

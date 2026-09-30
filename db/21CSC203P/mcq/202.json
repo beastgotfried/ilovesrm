@@ -1,0 +1,163 @@
+{
+ "mcq": [
+  {
+   "_id": 11909,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "String",
+   "OPT_2": "Integer",
+   "OPT_3": "boolean",
+   "OPT_4": "Array",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following is a primitive data type in Java?",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 11909
+  },
+  {
+   "_id": 11910,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "2 bytes",
+   "OPT_2": "4 bytes",
+   "OPT_3": "8 bytes",
+   "OPT_4": "Depends on the system",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is the size of the int data type in Java?",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 11910
+  },
+  {
+   "_id": 11911,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "final int x = 5;",
+   "OPT_2": "int final x = 5;",
+   "OPT_3": "x final = 5;",
+   "OPT_4": "constant int x = 5;",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following correctly declares a final variable in Java?",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 11911
+  },
+  {
+   "_id": 11912,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Equal to (=)",
+   "OPT_2": "Colon Equal to (:=)",
+   "OPT_3": "Equals (==)",
+   "OPT_4": "Function (equals())",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which operator is used to compare two values for equality in Java?",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 11912
+  },
+  {
+   "_id": 11913,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "public",
+   "OPT_2": "protected",
+   "OPT_3": "private",
+   "OPT_4": "default",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which modifier would you use to make a method accessible only within the same class?",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 11913
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11966,
+   "ANSWER": "Primitive data types are predefined by the language and include int, char, boolean, float, etc. They store actual values.\nNon-primitive data types (like String, arrays, classes) are user-defined or derived types that store references to objects.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Differentiate between primitive and non-primitive data types in Java.",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 11966
+  },
+  {
+   "_id": 11967,
+   "ANSWER": "class MathUtil {\n    static final double PI = 3.14159;\n    static double areaOfCircle(double radius) {\n        return PI * radius * radius;\n    }\n}\nHere, PI is a constant (final) and shared across all instances (static). The method areaOfCircle is also static, so it can be called without creating an object.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a Java code snippet that demonstrates the use of the static and final modifiers in a class.",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 11967
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11989,
+   "ANSWER": "Answer:\nOperator precedence determines the order in which operators are evaluated in an expression. If operators have the same precedence, associativity rules apply (e.g., left-to-right). Ignoring precedence can lead to logic errors.\nExample:\nint a = 10;\nint b = 5;\nint c = 2;\nint result = a - b + c * 3;\nSystem.out.println(result);\nExplanation:\nHere, c * 3 is evaluated first (due to higher precedence), so:\nresult = 10 - 5 + 6 = 11\nIf someone assumes left-to-right evaluation without considering precedence, they might wrongly expect:\n(10 - 5 + 2) * 3 = 21 \ufffd which is incorrect.\nAvoiding the Issue:\nAlways use parentheses to clarify and enforce the desired order of evaluation.\nint result = (a - b + c) * 3; // Explicit and clear\nConclusion:\nUnderstanding operator precedence helps prevent bugs and improves code readability. Parentheses are a good practice, especially when expressions involve multiple operators.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Analyze the importance of operator precedence in Java. Demonstrate with an example how a wrong assumption about precedence could lead to unexpected results. How can this be avoided?",
+   "SESSION_ID": 202,
+   "TYPE": "lq",
+   "key": 11989
+  },
+  {
+   "_id": 12001,
+   "ANSWER": "Answer:\nOperator precedence determines the order in which operators are evaluated in an expression. If operators have the same precedence, associativity rules apply (e.g., left-to-right). Ignoring precedence can lead to logic errors.\nExample:\nint a = 10;\nint b = 5;\nint c = 2;\nint result = a - b + c * 3;\nSystem.out.println(result);\nExplanation:\nHere, c * 3 is evaluated first (due to higher precedence), so:\nresult = 10 - 5 + 6 = 11\nIf someone assumes left-to-right evaluation without considering precedence, they might wrongly expect:\n(10 - 5 + 2) * 3 = 21 \ufffd which is incorrect.\nAvoiding the Issue:\nAlways use parentheses to clarify and enforce the desired order of evaluation.\nint result = (a - b + c) * 3; // Explicit and clear\nConclusion:\nUnderstanding operator precedence helps prevent bugs and improves code readability. Parentheses are a good practice, especially when expressions involve multiple operators.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Analyze the importance of operator precedence in Java. Demonstrate with an example how a wrong assumption about precedence could lead to unexpected results. How can this be avoided?",
+   "SESSION_ID": 202,
+   "TYPE": "lq",
+   "key": 12001
+  }
+ ]
+}

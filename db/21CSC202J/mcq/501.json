@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 13173,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>To prevent misuse of system resources</p>\n",
+   "OPT_2": "<p>To ensure user convenience only</p>\n",
+   "OPT_3": "<p>To ensure controlled access to system resources</p>\n",
+   "OPT_4": "<p>To enforce security policies</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is <strong data-end=\"264\" data-start=\"257\">not</strong> a goal of protection in an operating system?</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 13173
+  },
+  {
+   "_id": 13174,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Giving users all available privileges</p>\n",
+   "OPT_2": "<p>Giving processes only necessary privileges to perform tasks</p>\n",
+   "OPT_3": "<p>Removing all privileges from users</p>\n",
+   "OPT_4": "<p>Giving maximum privileges to kernel</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>The <strong data-end=\"577\" data-start=\"545\">principle of least privilege</strong> in protection means</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 13174
+  },
+  {
+   "_id": 13175,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Randomly</p>\n",
+   "OPT_2": "<p>In a linear hierarchy with the outermost ring having highest privilege</p>\n",
+   "OPT_3": "<p>In concentric layers with innermost ring having highest privilege</p>\n",
+   "OPT_4": "<p>Without any structure</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>The <strong data-end=\"909\" data-start=\"884\">protection ring model</strong> organizes system privileges</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 13175
+  },
+  {
+   "_id": 13176,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>The set of all files in the system</p>\n",
+   "OPT_2": "<p>A set of objects and the types of operations allowed on them</p>\n",
+   "OPT_3": "<p>The memory allocated to a process</p>\n",
+   "OPT_4": "<p>A user&rsquo;s password storage area</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Which of these best defines a <strong data-end=\"1279\" data-start=\"1255\">domain of protection</strong>?</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 13176
+  },
+  {
+   "_id": 13177,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>User applications</p>\n",
+   "OPT_2": "<p>Kernel mode with highest privileges</p>\n",
+   "OPT_3": "<p>Device drivers</p>\n",
+   "OPT_4": "<p>User-level libraries</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO13",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>In the protection ring model, <strong data-end=\"1595\" data-start=\"1585\">Ring 0</strong> generally refers to:</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 13177
+  }
+ ],
+ "sq": [
+  {
+   "_id": 13178,
+   "ANSWER": "<p>The main goal is to ensure controlled and secure access to system resources by preventing unauthorized use or misuse.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the <strong data-end=\"1862\" data-start=\"1835\">main goal of protection</strong> in an operating system?</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 13178
+  },
+  {
+   "_id": 13179,
+   "ANSWER": "<p>A protection domain is a set of objects together with the operations allowed on them. For example, a user process that can read a file but cannot write to it forms a protection domain.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Define a <strong data-end=\"2065\" data-start=\"2044\">protection domain</strong> with an example.</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 13179
+  }
+ ],
+ "lq": [
+  {
+   "_id": 13180,
+   "ANSWER": "<p data-end=\"2500\" data-start=\"2453\"><strong data-end=\"2466\" data-start=\"2455\">Answer:</strong><br data-end=\"2469\" data-start=\"2466\" />\n<strong data-end=\"2498\" data-start=\"2469\">Principles of Protection:</strong></p>\n\n<ul data-end=\"2839\" data-start=\"2501\">\n\t<li data-end=\"2590\" data-start=\"2501\">\n\t<p data-end=\"2590\" data-start=\"2503\"><strong data-end=\"2523\" data-start=\"2503\">Least Privilege:</strong> Granting minimum privileges necessary for a task to reduce risk.</p>\n\t</li>\n\t<li data-end=\"2680\" data-start=\"2591\">\n\t<p data-end=\"2680\" data-start=\"2593\"><strong data-end=\"2621\" data-start=\"2593\">Separation of Privilege:</strong> Multiple conditions to grant access, enhancing security.</p>\n\t</li>\n\t<li data-end=\"2761\" data-start=\"2681\">\n\t<p data-end=\"2761\" data-start=\"2683\"><strong data-end=\"2706\" data-start=\"2683\">Fail-safe Defaults:</strong> Denying access by default unless explicitly granted.</p>\n\t</li>\n\t<li data-end=\"2839\" data-start=\"2762\">\n\t<p data-end=\"2839\" data-start=\"2764\"><strong data-end=\"2789\" data-start=\"2764\">Economy of Mechanism:</strong> Keeping protection design simple for reliability.</p>\n\t</li>\n</ul>\n\n<p data-end=\"2869\" data-start=\"2841\"><strong data-end=\"2867\" data-start=\"2841\">Protection Ring Model (Explain with Diagram):</strong></p>\n\n<ul data-end=\"3173\" data-start=\"2870\">\n\t<li data-end=\"2936\" data-start=\"2870\">\n\t<p data-end=\"2936\" data-start=\"2872\">Organizes system in concentric rings (e.g., Ring 0 to Ring 3).</p>\n\t</li>\n\t<li data-end=\"2986\" data-start=\"2937\">\n\t<p data-end=\"2986\" data-start=\"2939\"><strong data-end=\"2950\" data-start=\"2939\">Ring 0:</strong> Kernel mode with full privileges.</p>\n\t</li>\n\t<li data-end=\"3037\" data-start=\"2987\">\n\t<p data-end=\"3037\" data-start=\"2989\"><strong data-end=\"3000\" data-start=\"2989\">Ring 3:</strong> User mode with limited privileges.</p>\n\t</li>\n\t<li data-end=\"3173\" data-start=\"3038\">\n\t<p data-end=\"3173\" data-start=\"3040\">Prevents user applications from directly accessing hardware, enforcing layered security and controlled access to critical operations.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Explain the <strong data-end=\"2364\" data-start=\"2336\">principles of protection</strong> and describe how the <strong data-end=\"2411\" data-start=\"2386\">protection ring model</strong> enforces security in operating systems.</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "lq",
+   "key": 13180
+  }
+ ]
+}

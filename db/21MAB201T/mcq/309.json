@@ -1,0 +1,154 @@
+{
+ "mcq": [
+  {
+   "_id": 52775,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(u(x,t) = (A\\cos\\lambda x + B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(x,t) = Ax + B\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(u(x,t) = \\frac{\\theta_2 - \\theta_1}{l} x + \\theta_1\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(u(x) = \\text{constant}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For the heat equation } \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}, \\text{ which of these solutions represents a transient (time-dependent) solution?}\\)</span></p>",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 52775
+  },
+  {
+   "_id": 52776,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial x}(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(0,t)=0, u(l,t)=0\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(u(0,t)=T_1, u(l,t)=T_2\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t}(0,t)=0, \\frac{\\partial u}{\\partial t}(l,t)=0\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For a heat conduction problem with both ends insulated, the boundary conditions are:}\\)</span></p>",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 52776
+  },
+  {
+   "_id": 52777,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(n=1,3,5,\\ldots\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(n=2,4,6,\\ldots\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(n=1,2,3,\\ldots\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(n=0\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{In Example 4 of the heat equation section, the initial temperature is triangular with maximum k at the center. The Fourier coefficients } B_n \\text{ are non-zero for:}\\)</span></p>",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 52777
+  },
+  {
+   "_id": 52778,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{8kl^2}{n^3\\pi^3} \\text{ for odd n}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{4kl^2}{n^3\\pi^3} \\text{ for all n}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{2k}{n\\pi} \\text{ for odd n}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{8k}{n^2\\pi^2} \\text{ for odd n}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For a rod with initial temperature } u(x,0)=kx(l-x) \\text{ and ends kept at 0\u00b0C, the Fourier coefficient } B_n \\text{ is:}\\)</span></p>",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 52778
+  },
+  {
+   "_id": 52779,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\text{Zero boundary conditions}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\text{The original non-zero boundary conditions}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\text{Insulated boundary conditions}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{Mixed boundary conditions}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{When solving the heat equation with non-zero boundary conditions, the transient solution } u_2(x,t) \\text{ satisfies:}\\)</span></p>",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 52779
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52786,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Solve heat equation with } u(0,t)=0, u(l,t)=0, u(x,0)=x(l-x).\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{General solution: } u(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{At } t=0: x(l-x) = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{l} \\int_0^l x(l-x) \\sin\\frac{n\\pi x}{l} dx.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Evaluate: } B_n = \\frac{4l^2}{n^3\\pi^3}[1-(-1)^n]. \\text{ For odd } n, B_n = \\frac{8l^2}{n^3\\pi^3}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } u(x,t) = \\frac{8l^2}{\\pi^3} \\sum_{n=\\text{odd}} \\frac{1}{n^3} \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A bar of length } l \\text{ has ends kept at } 0^\\circ\\text{C}. \\text{ Initial temperature is } u(x,0)=x(l-x). \\text{ Find } u(x,t).\\)</span></p>",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 52786
+  },
+  {
+   "_id": 52787,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Boundary conditions: } \\frac{\\partial u}{\\partial x}(0,t)=0, \\frac{\\partial u}{\\partial x}(l,t)=0.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{General solution: } u(x,t)=A_0 + \\sum_{n=1}^\\infty A_n \\cos\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{At } t=0: f(x) = A_0 + \\sum_{n=1}^\\infty A_n \\cos\\frac{n\\pi x}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Fourier cosine coefficients: } A_0 = \\frac{1}{l} \\int_0^l f(x) dx, A_n = \\frac{2}{l} \\int_0^l f(x) \\cos\\frac{n\\pi x}{l} dx.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence the solution is obtained by substituting these coefficients.}\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A bar of length } l \\text{ has insulated ends. Initial temperature is } u(x,0)=f(x). \\text{ Find the temperature distribution.}\\)</span></p>",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 52787
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50404,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Heat equation: \\(u_t = \\alpha^2 u_{xx}.\\) BCs: \\(u(0,t)=0\\), \\(u(l,t)=0.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(u(x,t)= \\sum B_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Initial condition: \\(u(x,0)= \\sum B_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) = \\sin\\left(\\dfrac{\\pi x}{l}\\right).\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{By orthogonality, \\(B_1=1\\), \\(B_n=0\\) for \\(n\\neq1.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(u(x,t)= \\sin\\left(\\dfrac{\\pi x}{l}\\right) e^{-\\alpha^2 \\pi^2 t / l^2}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Interpretation: single mode decaying exponentially with time constant \\(\\tau = l^2/(\\alpha^2\\pi^2).\\)}\\)</span></td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Sketch temperature profiles at different times: amplitude decreases but shape remains sinusoidal.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{As \\(t\\to\\infty\\), \\(u\\to 0\\) (steady state zero temperature).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A rod of length \u00a0$l$ with insulated sides has its ends kept at zero temperature.}\\\\\n\\text{The initial temperature is $u(x,0)= \\sin\\left(\\dfrac{\\pi x}{l}\\right).$\u00a0\u00a0Find the temperature distribution \u00a0$u(x,t).$}\\)</span></p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "lq",
+   "key": 50404
+  },
+  {
+   "_id": 50405,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Heat equation: \\(u_t = \\alpha^2 u_{xx}\\)}\\)</span><x<\\pi.\\) bcs:=\"\"></x<\\pi.\\)></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(u(x,t)= \\sum B_n \\sin(nx) e^{-\\alpha^2 n^2 t}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(u(x,0)= x(\\pi-x) = \\sum B_n \\sin(nx).\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Compute \\(B_n = \\dfrac{2}{\\pi} \\int_0^{\\pi} x(\\pi-x) \\sin(nx) dx.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Integration: use formula or integrate by parts. Result: \\(B_n = \\dfrac{4}{\\pi n^3}[1-(-1)^n].\\)}\\)</span></td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(B_n = \\dfrac{8}{\\pi n^3}\\) for \\(n\\) odd, \\(0\\) for \\(n\\) even.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{So \\(u(x,t)= \\sum\\limits_{n \\text{ odd}} \\dfrac{8}{\\pi n^3} \\sin(nx) e^{-\\alpha^2 n^2 t}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Write first few terms: \\(u(x,t)= \\dfrac{8}{\\pi}\\left[ \\sin(x) e^{-\\alpha^2 t} + \\dfrac{1}{27} \\sin(3x) e^{-9\\alpha^2 t} + \\cdots \\right].\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A rod of length $\\pi$ has its ends kept at zero temperature.}\\\\\n\\text{The initial temperature is $u(x,0)= x(\\pi-x).$ Find \u00a0$u(x,t).$}\\)</span></p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "lq",
+   "key": 50405
+  }
+ ]
+}

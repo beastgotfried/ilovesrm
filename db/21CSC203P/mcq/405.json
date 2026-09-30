@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9622,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Repeating the same query multiple times</p>\n",
+   "OPT_2": "<p>B) Returning to a previous state to try alternative solutions when a rule fails</p>\n",
+   "OPT_3": "<p>C) Tracking memory usage</p>\n",
+   "OPT_4": "<p>D) Using recursion in a loop</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"242\" data-start=\"189\"><strong data-end=\"242\" data-start=\"193\">What is backtracking in logic programming?</strong></h3>\n\n<p data-end=\"428\" data-start=\"244\"><br data-end=\"289\" data-start=\"286\" />\n<br data-end=\"371\" data-start=\"368\" />\n&nbsp;</p>\n\n<p data-end=\"1143\" data-start=\"987\">&nbsp;</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 9622
+  },
+  {
+   "_id": 9623,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Conditional branching</p>\n",
+   "OPT_2": "<p>B) Backtracking</p>\n",
+   "OPT_3": "<p>C) Function overloading</p>\n",
+   "OPT_4": "<p>D) Switch statements</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"634\" data-start=\"530\"><strong data-end=\"634\" data-start=\"534\">2. In Prolog, which control flow feature allows automatic exploration of multiple possibilities?</strong></h3>\n\n<p data-end=\"729\" data-start=\"636\"><br data-end=\"663\" data-start=\"660\" />\n<br data-end=\"681\" data-start=\"678\" />\n<br data-end=\"707\" data-start=\"704\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 9623
+  },
+  {
+   "_id": 9624,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"869\" data-start=\"849\">likes(john, pizza)</code></p>\n",
+   "OPT_2": "<p>B)&nbsp;<code data-end=\"843\" data-start=\"836\">X = 5</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"894\" data-start=\"875\">?- likes(john, Y)</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"920\" data-start=\"900\">if likes then true</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"831\" data-start=\"767\"><strong data-end=\"831\" data-start=\"771\">3. Which of the following represents a Prolog structure?</strong></h3>\n\n<p data-end=\"922\" data-start=\"833\"><br data-end=\"846\" data-start=\"843\" />\n<br data-end=\"872\" data-start=\"869\" />\n&nbsp;</p>\n\n<p data-end=\"729\" data-start=\"636\"><br data-end=\"663\" data-start=\"660\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 9624
+  },
+  {
+   "_id": 9625,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Return an error</p>\n",
+   "OPT_2": "<p>B) Return only one answer</p>\n",
+   "OPT_3": "<p>C) Return all food items Alice likes through backtracking</p>\n",
+   "OPT_4": "<p>D) Return the variable X unchanged</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1021\" data-start=\"968\"><strong data-end=\"1021\" data-start=\"972\">What will the following Prolog program do?</strong></h3>\n\n<pre data-end=\"1095\" data-start=\"1023\">\nprolog</pre>\n\n<p><code>likes(alice, pizza). likes(alice, pasta). likes(alice, X).</code><br data-end=\"1206\" data-start=\"1203\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 9625
+  },
+  {
+   "_id": 9626,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Because it uses GUI-based inputs</p>\n",
+   "OPT_2": "<p>B) It performs better in arithmetic operations</p>\n",
+   "OPT_3": "<p>C) It enables rule-based reasoning and pattern-based inference</p>\n",
+   "OPT_4": "<p>D) It avoids symbolic representation</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1395\" data-start=\"1322\"><strong data-end=\"1395\" data-start=\"1326\">Why is logic programming suitable for knowledge-based systems?</strong></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "mcq",
+   "key": 9626
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9850,
+   "ANSWER": "<p data-end=\"2361\" data-start=\"2095\"><br data-end=\"3131\" data-start=\"3128\" />\nBacktracking lets Prolog explore all possible rule matches by reverting to earlier states.<br data-end=\"3224\" data-start=\"3221\" />\nIt automatically tries different combinations to find valid solutions.<br data-end=\"3297\" data-start=\"3294\" />\nThis makes Prolog ideal for solving search and constraint problems.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2361\" data-start=\"2095\">A Prolog program must find all ways to solve a puzzle. How is backtracking useful here?<br data-end=\"3122\" data-start=\"3119\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "sq",
+   "key": 9850
+  },
+  {
+   "_id": 9851,
+   "ANSWER": "<p data-end=\"2361\" data-start=\"2095\"><br data-end=\"3466\" data-start=\"3463\" />\nLogic programming uses rules and logical inference instead of sequential control flow.<br data-end=\"3555\" data-start=\"3552\" />\nThere&#39;s no explicit loop or <code data-end=\"3587\" data-start=\"3583\">if</code>; control is driven by matching facts and goals.<br data-end=\"3638\" data-start=\"3635\" />\nThis leads to a more declarative and concise representation.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3698\" data-start=\"3366\">How do control structures in logic programming differ from procedural languages?</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "sq",
+   "key": 9851
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9835,
+   "ANSWER": "<h3 data-end=\"219\" data-start=\"141\"><strong data-end=\"219\" data-start=\"145\">1. Explanation of Structures, Control Flow, and Backtracking (5 marks)</strong></h3>\n\n<ul data-end=\"585\" data-start=\"221\">\n\t<li data-end=\"324\" data-start=\"221\">\n\t<p data-end=\"324\" data-start=\"223\"><strong data-end=\"237\" data-start=\"223\">Structures</strong> in logic programming allow grouping of related data (e.g., <code data-end=\"322\" data-start=\"297\">disease(name, symptoms)</code>).</p>\n\t</li>\n\t<li data-end=\"424\" data-start=\"325\">\n\t<p data-end=\"424\" data-start=\"327\"><strong data-end=\"343\" data-start=\"327\">Control flow</strong> is governed by rule matching and logical inference, not by sequential execution.</p>\n\t</li>\n\t<li data-end=\"585\" data-start=\"425\">\n\t<p data-end=\"585\" data-start=\"427\"><strong data-end=\"443\" data-start=\"427\">Backtracking</strong> is the process by which Prolog automatically <strong data-end=\"522\" data-start=\"489\">retries different rules/facts</strong> when a goal fails, allowing it to find all possible solutions.</p>\n\t</li>\n</ul>\n\n<p data-end=\"585\" data-start=\"427\"><strong>2. Prolog Program Using Structures and Demonstrating Backtracking (6 marks)</strong></p>\n\n<p>% Facts: disease(Name, [List of symptoms])<br />\ndisease(flu, [fever, cough, fatigue]).<br />\ndisease(covid, [fever, cough, loss_of_smell]).<br />\ndisease(malaria, [fever, chills, sweating]).<br />\ndisease(cold, [cough, sneezing, sore_throat]).</p>\n\n<p>% Rule to check if a disease has all given symptoms<br />\nhas_symptoms(Disease, Symptoms) :-<br />\n&nbsp; &nbsp; disease(Disease, SymptomList),<br />\n&nbsp; &nbsp; subset(Symptoms, SymptomList).</p>\n\n<p>% Helper rule to check if all elements of one list are in another<br />\nsubset([], _).<br />\nsubset([H|T], List) :-<br />\n&nbsp; &nbsp; member(H, List),<br />\n&nbsp; &nbsp; subset(T, List).<br />\n<strong>Sample Query</strong><br />\n?- has_symptoms(D, [fever, cough]).<br />\nD = flu ;<br />\nD = covid ;<br />\nfalse.</p>\n\n<h3 data-end=\"1698\" data-start=\"1619\"><strong data-end=\"1698\" data-start=\"1623\">3. Role of Backtracking and Logic Reasoning in Expert Systems (4 marks)</strong></h3>\n\n<ul data-end=\"2096\" data-start=\"1700\">\n\t<li data-end=\"1851\" data-start=\"1700\">\n\t<p data-end=\"1851\" data-start=\"1702\"><strong data-end=\"1718\" data-start=\"1702\">Backtracking</strong> allows Prolog to <strong data-end=\"1770\" data-start=\"1736\">automatically search all paths</strong>, useful in diagnosis systems where more than one disease may match the symptoms.</p>\n\t</li>\n\t<li data-end=\"1914\" data-start=\"1852\">\n\t<p data-end=\"1914\" data-start=\"1854\">It eliminates the need for manually coding loops and checks.</p>\n\t</li>\n\t<li data-end=\"2096\" data-start=\"1915\">\n\t<p data-end=\"2096\" data-start=\"1917\"><strong data-end=\"1936\" data-start=\"1917\">Logic reasoning</strong> lets systems infer conclusions from rules and facts, making it ideal for <strong data-end=\"2038\" data-start=\"2010\">decision support systems</strong>, <strong data-end=\"2066\" data-start=\"2040\">recommendation engines</strong>, and <strong data-end=\"2095\" data-start=\"2072\">medical diagnostics</strong>.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"506\" data-start=\"153\">You are developing a knowledge-based expert system to assist in diagnosing common symptoms of diseases. Multiple diseases may share overlapping symptoms (e.g., fever, cough, fatigue). The system must be able to <strong data-end=\"410\" data-start=\"380\">try multiple possibilities</strong>, backtrack when necessary, and provide a list of all matching diseases based on given symptoms.</p>\n\n<p data-end=\"517\" data-start=\"508\"><strong data-end=\"517\" data-start=\"508\">Task:</strong></p>\n\n<ol data-end=\"944\" data-start=\"519\">\n\t<li data-end=\"624\" data-start=\"519\">\n\t<p data-end=\"624\" data-start=\"522\"><strong data-end=\"533\" data-start=\"522\">Explain</strong> the role of structures, control flow, and backtracking in logic programming. <em data-end=\"622\" data-start=\"611\">(5 marks)</em></p>\n\t</li>\n\t<li data-end=\"808\" data-start=\"625\">\n\t<p data-end=\"808\" data-start=\"628\"><strong data-end=\"654\" data-start=\"628\">Write a Prolog program</strong> that stores diseases and symptoms using structured facts, and uses rules to find possible diagnoses. Demonstrate backtracking with queries. <em data-end=\"806\" data-start=\"795\">(6 marks)</em></p>\n\t</li>\n\t<li data-end=\"944\" data-start=\"809\">\n\t<p data-end=\"944\" data-start=\"812\"><strong data-end=\"823\" data-start=\"812\">Discuss</strong> how backtracking helps explore multiple solutions and how logic reasoning is applied in such expert systems. <em data-end=\"944\" data-start=\"933\">(4 marks)</em></p>\n\t</li>\n</ol>\n\n<p data-end=\"492\" data-start=\"153\">&nbsp;</p>\n",
+   "SESSION_ID": 405,
+   "TYPE": "lq",
+   "key": 9835
+  }
+ ]
+}

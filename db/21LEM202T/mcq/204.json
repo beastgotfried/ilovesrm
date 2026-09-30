@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36711,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Independent existence of all entities</p>\n",
+   "OPT_2": "<p>Mutual existence where all entities support each other</p>\n",
+   "OPT_3": "<p>Survival of the fittest only</p>\n",
+   "OPT_4": "<p>A random process without order</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is meant by co-existence in nature/existence?</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 36711
+  },
+  {
+   "_id": 36713,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Chaotic and disconnected</p>\n",
+   "OPT_2": "<p>Continuous and interconnected whole</p>\n",
+   "OPT_3": "<p>Limited to human beings only</p>\n",
+   "OPT_4": "<p>Temporary and isolated</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best describes the nature of existence?</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 36713
+  },
+  {
+   "_id": 36714,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Competition among entities</p>\n",
+   "OPT_2": "<p>Interconnectedness and harmony in nature</p>\n",
+   "OPT_3": "<p>Disconnection between units</p>\n",
+   "OPT_4": "<p>Random process without order</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The water cycle is an example of:</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 36714
+  },
+  {
+   "_id": 36715,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>They compete endlessly</p>\n",
+   "OPT_2": "<p>Plants provide oxygen and food, animals provide carbon dioxide and nutrients</p>\n",
+   "OPT_3": "<p>They live independently without relation</p>\n",
+   "OPT_4": "<p>Only animals depend on plants</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How do plants and animals show co-existence?</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 36715
+  },
+  {
+   "_id": 36717,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Only physical matter</p>\n",
+   "OPT_2": "<p>Co-existence of all units &ndash; material and conscious</p>\n",
+   "OPT_3": "<p>Only conscious entities</p>\n",
+   "OPT_4": "<p>Limited to human perception</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Existence can best be described as:</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 36717
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36305,
+   "ANSWER": "<p>It means all entities in nature are linked and depend on each other for survival and balance.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What does interconnectedness in nature mean?</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "sq",
+   "key": 36305
+  },
+  {
+   "_id": 36306,
+   "ANSWER": "<p>Co-existence is the harmony of all units in nature where each supports and sustains the other.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is co-existence in the context of nature?</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "sq",
+   "key": 36306
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122497,
+   "ANSWER": "<p>The Body is an instrument of the Self because the Self uses the Body for behaviour with human beings and work with the rest of nature. The Self is central to human existence, because it is the Self that wants to live with continuous happiness. The Body does not decide its own use; the decision regarding the fulfilment of the Body&rsquo;s needs and the use of the Body is made by the Self. The Body requires physical facility for nurturing, protection and right utilisation. The transaction between the Self and Body is through information: the Self gives instructions to the Body, and the Body gives sensations to the Self. Therefore, keeping the Body healthy is important, but the purpose of the Body is to act as a useful instrument for the Self to live in harmony at all levels.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain the statement: &ldquo;The Body is an instrument of the Self.&rdquo;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "lq",
+   "key": 122497
+  }
+ ]
+}

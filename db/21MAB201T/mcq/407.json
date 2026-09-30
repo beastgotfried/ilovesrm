@@ -1,0 +1,149 @@
+{
+ "mcq": [
+  {
+   "_id": 49403,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac1{\\sqrt{2\\pi}} \\,[ \\frac4{16-s^2}]\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\sqrt\\frac2\\pi \\,[ \\frac4{16+s^2}]\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac1{\\sqrt{2\\pi}} \\,[ \\frac4{16+s^2}]\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sqrt\\frac2\\pi \\,[ \\frac4{16-s^2}]\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><font face=\"Times New Roman, serif\"><span style=\"font-size: 16px;\">Fourier cosine transform of&nbsp;<span class=\"math-tex\">\\(f(x) = e^{-4x}\\)</span></span></font></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 49403
+  },
+  {
+   "_id": 49404,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac12[F_S(s+a) \\, + \\, F_S(s-a)]\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac12[F_S(s+a) \\, - \\, F_S(s-a)]\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac12[F_C(s+a) \\, + \\, F_C(s-a)]\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac12[F_C(s+a) \\, - \\, F_C(s-a)]\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><font face=\"Times New Roman, serif\"><span class=\"math-tex\">\\(F_C \\, [f(x) \\, cosax ]  \\, = \\)</span></font></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 49404
+  },
+  {
+   "_id": 49405,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Cosine function</p>\n",
+   "OPT_2": "<p>Inverse function</p>\n",
+   "OPT_3": "<p>complex function</p>\n",
+   "OPT_4": "<p>Self-reciprocal function</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\">Under Fourier cosine transform&nbsp;<span class=\"math-tex\">\\(f(x) = \\frac1{\\sqrt x}\\)</span>&nbsp; is</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 49405
+  },
+  {
+   "_id": 49406,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac d{ds} F_s(s)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(-\\frac d{ds} F_s(s)\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(-\\frac d{ds} F_c(s)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac d{ds} F_c(s)\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><span class=\"math-tex\">\\(F_S[x \\, f(x) ] \\, = \\)</span></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 49406
+  },
+  {
+   "_id": 49407,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\sqrt \\frac \\pi2\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\sqrt \\frac 2\\pi\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\sqrt \\frac \\pi4\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sqrt \\frac 1\\pi\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\">The fourier sine transform of&nbsp;<span class=\"math-tex\">\\(\\frac 1x\\)</span>&nbsp;is,</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 49407
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52811,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{We know } F_s[e^{-ax}] = \\sqrt{\\frac{2}{\\pi}} \\frac{s}{s^2+a^2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By inverse sine transform: } e^{-ax} = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_s(s) \\sin(sx) ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{2}{\\pi} \\int_{0}^{\\infty} \\frac{s}{s^2+a^2} \\sin(sx) ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Interchange x and s: } \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} \\frac{x}{x^2+a^2} \\sin(sx) dx = \\sqrt{\\frac{\\pi}{2}} e^{-as}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } F_s\\left[\\frac{x}{x^2+a^2}\\right] = \\sqrt{\\frac{\\pi}{2}} e^{-as}.\\)</span></p></td><td></td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier sine transform of } f(x) = \\frac{x}{x^2+a^2}.\\)</span></p>",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 52811
+  },
+  {
+   "_id": 52812,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{We know } F_c[e^{-ax}] = \\sqrt{\\frac{2}{\\pi}} \\frac{a}{a^2+s^2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By inverse cosine transform: } e^{-ax} = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_c(s) \\cos(sx) ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{2a}{\\pi} \\int_{0}^{\\infty} \\frac{1}{a^2+s^2} \\cos(sx) ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Interchange x and s: } \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} \\frac{1}{x^2+a^2} \\cos(sx) dx = \\sqrt{\\frac{\\pi}{2}} \\frac{e^{-as}}{a}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } F_c\\left[\\frac{1}{x^2+a^2}\\right] = \\sqrt{\\frac{\\pi}{2}} \\frac{e^{-as}}{a}.\\)</span></p></td><td></td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier cosine transform of } f(x) = \\frac{1}{x^2+a^2}.\\)</span></p>",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 52812
+  }
+ ],
+ "lq": [
+  {
+   "_id": 49441,
+   "ANSWER": "<p><br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><img src=\"data:image/png;base64,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\" /></p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "lq",
+   "key": 49441
+  },
+  {
+   "_id": 50682,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>\\(F_c(s) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} f(x) \\cos(sx) dx = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{a} \\cos(sx) dx\\)</td><td>(3)</td></tr><tr><td>\\(= \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{\\sin(sx)}{s} \\right]_{0}^{a} = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{\\sin(as)}{s}\\) for \\(s \\neq 0\\)</td><td>(4)</td></tr><tr><td>For \\(s = 0\\): \\(F_c(0) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{a} dx = \\sqrt{\\frac{2}{\\pi}} a\\)</td><td>(3)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier cosine transform of } f(x)=\\begin{cases} 1 & 0<x<a \\\\ 0 & x>a \\end{cases}.\\)</span></p>",
+   "SESSION_ID": 407,
+   "TYPE": "lq",
+   "key": 50682
+  }
+ ]
+}

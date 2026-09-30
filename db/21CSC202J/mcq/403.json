@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 12351,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>500 KB</p>\n",
+   "OPT_2": "<p>300 KB</p>\n",
+   "OPT_3": "<p>200 KB</p>\n",
+   "OPT_4": "<p>100 KB</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Given memory blocks of 100 KB, 500 KB, 200 KB, and 300 KB. A process of 210 KB is to be allocated.<br data-end=\"1593\" data-start=\"1590\" />\nWhich block will Best Fit strategy choose?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 12351
+  },
+  {
+   "_id": 12352,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>500 KB</p>\n",
+   "OPT_2": "<p>300 KB</p>\n",
+   "OPT_3": "<p>200 KB</p>\n",
+   "OPT_4": "<p>100 KB</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Using the same memory blocks (100, 500, 200, 300 KB), which block will Worst Fit choose for a process of 210 KB?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 12352
+  },
+  {
+   "_id": 12354,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Increase large memory holes</p>\n",
+   "OPT_2": "<p>Have no free memory left</p>\n",
+   "OPT_3": "<p>Create many small unusable holes</p>\n",
+   "OPT_4": "<p>Reduce turnaround time</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>If a system continuously uses Best Fit, over time, it will likely:</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 12354
+  },
+  {
+   "_id": 12356,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>420 KB</p>\n",
+   "OPT_2": "<p>600 KB</p>\n",
+   "OPT_3": "<p>430 KB</p>\n",
+   "OPT_4": "<p>Not enough memory</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A process of 430 KB is best suited to which block in Worst Fit allocation?<br data-end=\"2214\" data-start=\"2211\" />\nAvailable blocks: 420 KB, 600 KB, 430 KB</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 12356
+  },
+  {
+   "_id": 12357,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>It takes longer to search largest block</p>\n",
+   "OPT_2": "<p>It uses smallest possible memory</p>\n",
+   "OPT_3": "<p>It causes internal fragmentation</p>\n",
+   "OPT_4": "<p>It never allocates memory</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In lab experiments, Worst Fit can be <strong data-end=\"2399\" data-start=\"2384\">unfavorable</strong> because:</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 12357
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12515,
+   "ANSWER": "<ul data-end=\"1976\" data-start=\"1833\">\n\t<li data-end=\"1885\" data-start=\"1833\">\n\t<p data-end=\"1885\" data-start=\"1835\"><strong data-end=\"1849\" data-start=\"1835\">First Fit:</strong> 500 KB (first block large enough)</p>\n\t</li>\n\t<li data-end=\"1936\" data-start=\"1886\">\n\t<p data-end=\"1936\" data-start=\"1888\"><strong data-end=\"1901\" data-start=\"1888\">Best Fit:</strong> 300 KB (smallest block &ge; 212 KB)</p>\n\t</li>\n\t<li data-end=\"1976\" data-start=\"1937\">\n\t<p data-end=\"1976\" data-start=\"1939\"><strong data-end=\"1953\" data-start=\"1939\">Worst Fit:</strong> 600 KB (largest block)</p>\n\t</li>\n</ul>\n\n<p data-end=\"2003\" data-start=\"1978\"><strong data-end=\"2001\" data-start=\"1981\">Mark Allocation:</strong></p>\n\n<ul data-end=\"2145\" data-start=\"2004\">\n\t<li data-end=\"2056\" data-start=\"2004\">\n\t<p data-end=\"2056\" data-start=\"2006\">Correct answers for each method &ndash; 60% (20% each)</p>\n\t</li>\n\t<li data-end=\"2097\" data-start=\"2057\">\n\t<p data-end=\"2097\" data-start=\"2059\">Correct explanation for choice &ndash; 40%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>A memory has free blocks of size: 100 KB, 500 KB, 200 KB, 300 KB, and 600 KB. A process requires 212 KB. Using First Fit, Best Fit, and Worst Fit, which blocks will be allocated?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "sq",
+   "key": 12515
+  },
+  {
+   "_id": 12557,
+   "ANSWER": "<ul data-end=\"1976\" data-start=\"1833\">\n\t<li data-end=\"1885\" data-start=\"1833\">\n\t<p data-end=\"1885\" data-start=\"1835\">Best Fit (50%)</p>\n\t</li>\n</ul>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Process (KB)</th>\n\t\t\t<th>Block Chosen</th>\n\t\t\t<th>Reason</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>115</td>\n\t\t\t<td>150</td>\n\t\t\t<td>Smallest block &ge; 115</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>350</td>\n\t\t\t<td>400</td>\n\t\t\t<td>Only block large enough after 150 used</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>90</td>\n\t\t\t<td>200</td>\n\t\t\t<td>Smallest suitable remaining block</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>275</td>\n\t\t\t<td><strong>Not Allocated</strong></td>\n\t\t\t<td>No block large enough left</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>Worst Fit (50%)</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Process (KB)</th>\n\t\t\t<th>Block Chosen</th>\n\t\t\t<th>Reason</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>115</td>\n\t\t\t<td>400</td>\n\t\t\t<td>Largest available block</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>350</td>\n\t\t\t<td><strong>Not Allocated</strong></td>\n\t\t\t<td>No remaining block &ge; 350</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>90</td>\n\t\t\t<td>250</td>\n\t\t\t<td>Largest available after 400 used</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>275</td>\n\t\t\t<td>350</td>\n\t\t\t<td>Largest available left</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"329\" data-start=\"266\"><strong data-end=\"301\" data-start=\"269\">Given Memory Blocks (in KB):</strong><br data-end=\"304\" data-start=\"301\" />\n<code data-end=\"329\" data-start=\"304\">150, 350, 200, 400, 250</code></p>\n\n<p data-end=\"387\" data-start=\"331\"><strong data-end=\"365\" data-start=\"331\">Processes to Allocate (in KB):</strong><br data-end=\"368\" data-start=\"365\" />\n<code data-end=\"387\" data-start=\"368\">115, 350, 90, 275</code></p>\n\n<p data-end=\"436\" data-start=\"389\"><strong data-end=\"401\" data-start=\"392\">Task:</strong><br data-end=\"404\" data-start=\"401\" />\nPerform allocation using both:</p>\n\n<ol data-end=\"561\" data-start=\"437\">\n\t<li data-end=\"454\" data-start=\"437\">\n\t<p data-end=\"454\" data-start=\"440\"><strong data-end=\"452\" data-start=\"440\">Best Fit</strong></p>\n\t</li>\n\t<li data-end=\"561\" data-start=\"455\">\n\t<p data-end=\"561\" data-start=\"458\"><strong data-end=\"471\" data-start=\"458\">Worst Fit</strong><br data-end=\"474\" data-start=\"471\" />\n\tShow which block is assigned to each process. Indicate <strong data-end=\"544\" data-start=\"529\">unallocated</strong> if not possible.</p>\n\t</li>\n</ol>\n",
+   "SESSION_ID": 403,
+   "TYPE": "sq",
+   "key": 12557
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12610,
+   "ANSWER": "<h3 data-end=\"1853\" data-start=\"1824\"><strong data-end=\"1853\" data-start=\"1830\">Best Fit Allocation (40%)</strong></h3>\n\n<table data-end=\"2039\" data-start=\"1855\">\n\t<thead data-end=\"1884\" data-start=\"1855\">\n\t\t<tr data-end=\"1884\" data-start=\"1855\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"1865\" data-start=\"1855\">Process</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"1884\" data-start=\"1865\">Allocated Block</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"2039\" data-start=\"1916\">\n\t\t<tr data-end=\"1946\" data-start=\"1916\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1926\" data-start=\"1916\">212</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1946\" data-start=\"1926\">300</td>\n\t\t</tr>\n\t\t<tr data-end=\"1977\" data-start=\"1947\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1957\" data-start=\"1947\">417</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1977\" data-start=\"1957\">500</td>\n\t\t</tr>\n\t\t<tr data-end=\"2008\" data-start=\"1978\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1988\" data-start=\"1978\">112</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2008\" data-start=\"1988\">200</td>\n\t\t</tr>\n\t\t<tr data-end=\"2039\" data-start=\"2009\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2019\" data-start=\"2009\">426</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2039\" data-start=\"2019\">600</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<hr data-end=\"2044\" data-start=\"2041\" />\n<h3 data-end=\"2076\" data-start=\"2046\">\u2705 <strong data-end=\"2076\" data-start=\"2052\">Worst Fit Allocation (40%)</strong></h3>\n\n<table data-end=\"2261\" data-start=\"2078\">\n\t<thead data-end=\"2107\" data-start=\"2078\">\n\t\t<tr data-end=\"2107\" data-start=\"2078\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"2088\" data-start=\"2078\">Process</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"2107\" data-start=\"2088\">Allocated Block</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"2261\" data-start=\"2139\">\n\t\t<tr data-end=\"2169\" data-start=\"2139\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2149\" data-start=\"2139\">212</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2169\" data-start=\"2149\">600</td>\n\t\t</tr>\n\t\t<tr data-end=\"2200\" data-start=\"2170\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2180\" data-start=\"2170\">417</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2200\" data-start=\"2180\">500</td>\n\t\t</tr>\n\t\t<tr data-end=\"2231\" data-start=\"2201\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2211\" data-start=\"2201\">112</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2231\" data-start=\"2211\">300</td>\n\t\t</tr>\n\t\t<tr data-end=\"2261\" data-start=\"2232\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"2242\" data-start=\"2232\">426</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2261\" data-start=\"2242\">\u274c Not Allocated</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;\n<p>Worst Fit caused <strong data-end=\"2726\" data-start=\"2695\">more internal fragmentation</strong> because it allocates large blocks to small processes, leaving large leftover memory chunks that may not be reused efficiently. (20%)</p>\n</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1770\" data-start=\"1716\"><strong data-end=\"1742\" data-start=\"1719\">Given<br />\nMemory Blocks (KB):</strong><br data-end=\"1745\" data-start=\"1742\" />\n<code data-end=\"1770\" data-start=\"1745\">100, 500, 200, 300, 600</code></p>\n\n<p data-end=\"1817\" data-start=\"1772\">&nbsp;<strong data-end=\"1794\" data-start=\"1775\">Processes (KB):</strong><br data-end=\"1797\" data-start=\"1794\" />\n<code data-end=\"1817\" data-start=\"1797\">212, 417, 112, 426<br />\n<br />\nGive Best Fit and Worst Fit Allocation.&nbsp;</code>Which strategy caused more fragmentation and why?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "lq",
+   "key": 12610
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9627,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Executing a program in sequential steps only</p>\n",
+   "OPT_2": "<p>B) Running multiple tasks at the same time to improve performance</p>\n",
+   "OPT_3": "<p>C) Compressing programs for faster execution</p>\n",
+   "OPT_4": "<p>D) Storing all data in one location</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"252\" data-start=\"186\"><strong data-end=\"252\" data-start=\"190\">1. Which of the following best defines parallel computing?</strong></h3>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 9627
+  },
+  {
+   "_id": 9628,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Have no access to each other&rsquo;s memory</p>\n",
+   "OPT_2": "<p>B) Use a network to communicate</p>\n",
+   "OPT_3": "<p>C) Share a common memory space and communicate via that memory</p>\n",
+   "OPT_4": "<p>D) Use message passing for data sharing</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"599\" data-start=\"544\"><strong data-end=\"599\" data-start=\"548\">2. In a shared memory architecture, processors:</strong></h3>\n\n<p data-end=\"784\" data-start=\"601\">&nbsp;</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 9628
+  },
+  {
+   "_id": 9629,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Distributed systems do not support concurrency</p>\n",
+   "OPT_2": "<p>B) Shared memory systems require a network interface</p>\n",
+   "OPT_3": "<p>C) Distributed memory systems use message passing for communication</p>\n",
+   "OPT_4": "<p>D) Shared memory systems are not used in parallel computing</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"969\" data-start=\"869\"><strong data-end=\"969\" data-start=\"873\">3. Which of the following is a key difference between shared and distributed memory systems?</strong></h3>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 9629
+  },
+  {
+   "_id": 9630,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Shared memory model</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) Distributed memory model</p>\n",
+   "OPT_3": "<p>C) Thread model</p>\n",
+   "OPT_4": "<p>D) SIMD model</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1428\" data-start=\"1299\"><strong data-end=\"1428\" data-start=\"1303\">4. Which parallel computing model involves independent processors with their own local memory communicating via messages?</strong></h3>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 9630
+  },
+  {
+   "_id": 9631,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) They limit performance for complex systems</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) They help optimize execution based on hardware constraints and concurrency models</p>\n",
+   "OPT_3": "<p>C) They eliminate the need for synchronization</p>\n",
+   "OPT_4": "<p>D) They reduce programming flexibility</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1649\" data-start=\"1568\"><strong data-end=\"1649\" data-start=\"1572\">5. Why are architecture-specific designs important in parallel computing?</strong></h3>\n",
+   "SESSION_ID": 406,
+   "TYPE": "mcq",
+   "key": 9631
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9852,
+   "ANSWER": "<p data-end=\"2361\" data-start=\"2095\">Parallel programming allows simultaneous execution of multiple parts of the simulation.<br data-end=\"3913\" data-start=\"3910\" />\nThis drastically reduces computation time for large datasets.<br data-end=\"3977\" data-start=\"3974\" />\nIt also utilizes hardware resources more effectively.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3698\" data-start=\"3366\">A weather simulation runs on a supercomputer. Why choose parallel programming?<br data-end=\"3814\" data-start=\"3811\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "sq",
+   "key": 9852
+  },
+  {
+   "_id": 9853,
+   "ANSWER": "<p><br data-end=\"4119\" data-start=\"4116\" />\nDistributed memory is suitable for geographically separated or high-scale systems.<br data-end=\"4204\" data-start=\"4201\" />\nEach node works independently and communicates via messages.<br data-end=\"4267\" data-start=\"4264\" />\nIt avoids memory bottlenecks and allows horizontal scaling.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4326\" data-start=\"4032\">When would a distributed memory model be better than shared memory?</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "sq",
+   "key": 9853
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9836,
+   "ANSWER": "<h3 data-end=\"149\" data-start=\"93\"><strong data-end=\"147\" data-start=\"97\">1. Parallel Computing and Key Models (5 marks)</strong></h3>\n\n<p data-end=\"273\" data-start=\"150\"><strong data-end=\"172\" data-start=\"150\">Parallel computing</strong> is the process of executing multiple tasks or data operations simultaneously to improve performance.</p>\n\n<ul data-end=\"481\" data-start=\"275\">\n\t<li data-end=\"369\" data-start=\"275\">\n\t<p data-end=\"369\" data-start=\"277\"><strong data-end=\"297\" data-start=\"277\">Data Parallelism</strong>: Same operation on different parts of data (e.g., matrix operations).</p>\n\t</li>\n\t<li data-end=\"481\" data-start=\"370\">\n\t<p data-end=\"481\" data-start=\"372\"><strong data-end=\"392\" data-start=\"372\">Task Parallelism</strong>: Different operations on the same or different data (e.g., modules running in parallel).</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"553\" data-start=\"488\"><strong data-end=\"551\" data-start=\"492\">2. Shared vs Distributed Memory Architectures (6 marks)</strong></h3>\n\n<table data-end=\"1195\" data-start=\"555\">\n\t<thead data-end=\"661\" data-start=\"555\">\n\t\t<tr data-end=\"661\" data-start=\"555\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"579\" data-start=\"555\">Feature</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"619\" data-start=\"579\">Shared Memory</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"661\" data-start=\"619\">Distributed Memory</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"1195\" data-start=\"769\">\n\t\t<tr data-end=\"875\" data-start=\"769\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"792\" data-start=\"769\"><strong data-end=\"786\" data-start=\"771\">Scalability</strong></td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"833\" data-start=\"792\">Limited, due to memory contention</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"875\" data-start=\"833\">Highly scalable</td>\n\t\t</tr>\n\t\t<tr data-end=\"982\" data-start=\"876\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"899\" data-start=\"876\"><strong data-end=\"895\" data-start=\"878\">Communication</strong></td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"940\" data-start=\"899\">Fast via shared variables</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"982\" data-start=\"940\">Slower, needs message passing</td>\n\t\t</tr>\n\t\t<tr data-end=\"1089\" data-start=\"983\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1006\" data-start=\"983\"><strong data-end=\"1000\" data-start=\"985\">Programming</strong></td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1047\" data-start=\"1006\">Easier (e.g., threads)</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1089\" data-start=\"1047\">Complex (e.g., MPI setup)</td>\n\t\t</tr>\n\t\t<tr data-end=\"1195\" data-start=\"1090\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1113\" data-start=\"1090\"><strong data-end=\"1100\" data-start=\"1092\">Cost</strong></td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1153\" data-start=\"1113\">Cheaper setup</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1195\" data-start=\"1153\">Higher setup cost</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<h3 data-end=\"1255\" data-start=\"1202\"><strong data-end=\"1253\" data-start=\"1206\">3. Recommendation &amp; Justification (4 marks)</strong></h3>\n\n<p data-end=\"1318\" data-start=\"1256\"><strong data-end=\"1271\" data-start=\"1256\">Recommended</strong>: <strong data-end=\"1295\" data-start=\"1273\">Distributed memory</strong><br data-end=\"1298\" data-start=\"1295\" />\n<strong data-end=\"1315\" data-start=\"1298\">Justification</strong>:</p>\n\n<ul data-end=\"1527\" data-start=\"1319\">\n\t<li data-end=\"1385\" data-start=\"1319\">\n\t<p data-end=\"1385\" data-start=\"1321\">Weather simulation involves <strong data-end=\"1369\" data-start=\"1349\">large-scale data</strong> across regions.</p>\n\t</li>\n\t<li data-end=\"1457\" data-start=\"1386\">\n\t<p data-end=\"1457\" data-start=\"1388\">Distributed systems offer <strong data-end=\"1456\" data-start=\"1414\">better scalability and fault tolerance</strong>.</p>\n\t</li>\n\t<li data-end=\"1527\" data-start=\"1458\">\n\t<p data-end=\"1527\" data-start=\"1460\">Suited for high-performance computing clusters used in simulations.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"519\" data-start=\"156\">You are part of a team developing a simulation for weather forecasting, which involves processing a large amount of data in real time. To optimize performance, the team is considering parallel computing. However, they must choose between <strong data-end=\"427\" data-start=\"410\">shared memory</strong> and <strong data-end=\"454\" data-start=\"432\">distributed memory</strong> architectures based on system constraints and performance goals.</p>\n\n<p data-end=\"530\" data-start=\"521\"><strong data-end=\"530\" data-start=\"521\">Task:</strong></p>\n\n<ol data-end=\"967\" data-start=\"532\">\n\t<li data-end=\"654\" data-start=\"532\">\n\t<p data-end=\"654\" data-start=\"535\"><strong data-end=\"545\" data-start=\"535\">Define</strong> parallel computing and briefly describe the key models: data parallelism and task parallelism. <em data-end=\"652\" data-start=\"641\">(5 marks)</em></p>\n\t</li>\n\t<li data-end=\"806\" data-start=\"655\">\n\t<p data-end=\"806\" data-start=\"658\"><strong data-end=\"669\" data-start=\"658\">Compare</strong> shared memory and distributed memory architectures with respect to scalability, communication, and programming complexity. <em data-end=\"804\" data-start=\"793\">(6 marks)</em></p>\n\t</li>\n\t<li data-end=\"967\" data-start=\"807\">\n\t<p data-end=\"967\" data-start=\"810\"><strong data-end=\"823\" data-start=\"810\">Recommend</strong> a suitable architecture for the weather simulation system and <strong data-end=\"897\" data-start=\"886\">justify</strong> your choice based on concurrency needs and system design. <em data-end=\"967\" data-start=\"956\">(4 marks)</em></p>\n\t</li>\n</ol>\n\n<p data-end=\"492\" data-start=\"153\">&nbsp;</p>\n",
+   "SESSION_ID": 406,
+   "TYPE": "lq",
+   "key": 9836
+  }
+ ]
+}

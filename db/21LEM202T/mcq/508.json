@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36892,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Reflection based on prejudice</p>\n",
+   "OPT_2": "<p>Thinking in line with realization of coexistence</p>\n",
+   "OPT_3": "<p>Random imagination</p>\n",
+   "OPT_4": "<p>Suppressing others&rsquo; views</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a sign of right thought?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 36892
+  },
+  {
+   "_id": 36893,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Fear of punishment is present</p>\n",
+   "OPT_2": "<p>Realization and thought are in harmony</p>\n",
+   "OPT_3": "<p>There is competition and jealousy</p>\n",
+   "OPT_4": "<p>Resources are exploited</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Right behavior naturally emerges when:</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 36893
+  },
+  {
+   "_id": 36894,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Environmental imbalance</p>\n",
+   "OPT_2": "<p>Mutual prosperity and sustainability</p>\n",
+   "OPT_3": "<p>Exploitation of resources</p>\n",
+   "OPT_4": "<p>Waste of human effort</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Participation in larger order through work ensures:</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 36894
+  },
+  {
+   "_id": 36895,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Contradictory desires</p>\n",
+   "OPT_2": "<p>Consistency between realization, thought, behavior, and work</p>\n",
+   "OPT_3": "<p>Social competition</p>\n",
+   "OPT_4": "<p>Imitation of others</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best represents harmony in the Self?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 36895
+  },
+  {
+   "_id": 36896,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Behavior only</p>\n",
+   "OPT_2": "<p>Right thought, right behavior, and right work</p>\n",
+   "OPT_3": "<p>Material wealth alone</p>\n",
+   "OPT_4": "<p>Exploitation of nature</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>In holistic living, realization provides the foundation for</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "mcq",
+   "key": 36896
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36491,
+   "ANSWER": "<p>Behavior reflects our values in relationships through trust, respect, and mutual cooperation.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is the role of behavior in holistic living?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 36491
+  },
+  {
+   "_id": 36492,
+   "ANSWER": "<p>Work means participating in the larger order of society and nature through productive, ethical, and sustainable contributions.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How is work seen in a holistic lifestyle?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "sq",
+   "key": 36492
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122529,
+   "ANSWER": "<p>Humanistic education is important in professional ethics because it develops the right understanding required for ethical conduct. Without right understanding, professional education may only develop skills for earning, competition or profit. Humanistic education helps a person understand the comprehensive human goal and use professional knowledge for mutual happiness, mutual prosperity and preservation of nature. It develops the competence to live with definite human conduct. A professional with humanistic education will not use technology, management or knowledge for exploitation or harm. Instead, they will use their profession as a meaningful participation in society and nature. Therefore, humanistic education is the entry point for ethical profession and humane society.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is the importance of humanistic education in professional ethics?</p>\n",
+   "SESSION_ID": 508,
+   "TYPE": "lq",
+   "key": 122529
+  }
+ ]
+}

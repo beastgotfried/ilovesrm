@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 12339,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Fragmentation</p>\n",
+   "OPT_2": "<p>Speed</p>\n",
+   "OPT_3": "<p>Complex access control</p>\n",
+   "OPT_4": "<p>Cache miss</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The main disadvantage of contiguous memory allocation is:</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 12339
+  },
+  {
+   "_id": 12342,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Best Fit</p>\n",
+   "OPT_2": "<p>First Fit</p>\n",
+   "OPT_3": "<p>Worst Fit</p>\n",
+   "OPT_4": "<p>Quick Fit</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which is the <strong data-end=\"2108\" data-start=\"2097\">fastest</strong> strategy in practice due to minimal searching?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 12342
+  },
+  {
+   "_id": 12345,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>212 KB</p>\n",
+   "OPT_2": "<p><code data-end=\"2404\" data-start=\"2372\">417 KB</code></p>\n",
+   "OPT_3": "<p><code data-end=\"2404\" data-start=\"2372\">112 KB</code></p>\n",
+   "OPT_4": "<p><code data-end=\"2404\" data-start=\"2372\">426 KB</code></p>\n",
+   "OUTCOMES": [
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2302\" data-start=\"2292\">Given:</strong><br />\nMemory blocks: <code data-end=\"2358\" data-start=\"2318\">100 KB, 500 KB, 200 KB, 300 KB, 600 KB</code><br data-end=\"2361\" data-start=\"2358\" />\nProcesses: <code data-end=\"2404\" data-start=\"2372\">212 KB, 417 KB, 112 KB, 426 KB<br />\nWhich process will not be allocated memory when First fit Strategy is applied?</code></p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 12345
+  },
+  {
+   "_id": 12346,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>212 KB</p>\n",
+   "OPT_2": "<p><code data-end=\"2404\" data-start=\"2372\">417 KB</code></p>\n",
+   "OPT_3": "<p><code data-end=\"2404\" data-start=\"2372\">112 KB</code></p>\n",
+   "OPT_4": "<p><code data-end=\"2404\" data-start=\"2372\">426 KB</code></p>\n",
+   "OUTCOMES": [
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2302\" data-start=\"2292\">Given:</strong><br />\nMemory blocks: <code data-end=\"2358\" data-start=\"2318\">100 KB, 500 KB, 200 KB, 300 KB, 600 KB</code><br data-end=\"2361\" data-start=\"2358\" />\nProcesses: <code data-end=\"2404\" data-start=\"2372\">212 KB, 417 KB, 112 KB, 426 KB<br />\nWhich process will not be allocated memory when Worst&nbsp;fit Strategy is applied?</code></p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 12346
+  },
+  {
+   "_id": 12349,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Multiple memory locations scattered across memory</p>\n",
+   "OPT_2": "<p>A single contiguous block of memory</p>\n",
+   "OPT_3": "<p>Virtual memory pages</p>\n",
+   "OPT_4": "<p>Cache blocks</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In contiguous memory allocation, each process is contained in:</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "mcq",
+   "key": 12349
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12513,
+   "ANSWER": "<p data-end=\"701\" data-start=\"529\">Contiguous memory allocation is a memory management technique where each process is allocated a single continuous block of memory space.<br data-end=\"684\" data-start=\"681\" />\n<strong data-end=\"699\" data-start=\"684\">Advantages:</strong></p>\n\n<ul data-end=\"898\" data-start=\"702\">\n\t<li data-end=\"725\" data-start=\"702\">\n\t<p data-end=\"725\" data-start=\"704\">Simple to implement</p>\n\t</li>\n\t<li data-end=\"798\" data-start=\"726\">\n\t<p data-end=\"798\" data-start=\"728\">Fast memory access due to contiguous addressing<br data-end=\"778\" data-start=\"775\" />\n\t<strong data-end=\"796\" data-start=\"778\">Disadvantages:</strong></p>\n\t</li>\n\t<li data-end=\"834\" data-start=\"799\">\n\t<p data-end=\"834\" data-start=\"801\">Leads to external fragmentation</p>\n\t</li>\n\t<li data-end=\"898\" data-start=\"835\">\n\t<p data-end=\"898\" data-start=\"837\">Difficult to allocate memory for large or growing processes</p>\n\t</li>\n</ul>\n\n<p data-end=\"925\" data-start=\"900\">&nbsp;<strong data-end=\"923\" data-start=\"903\">Mark Allocation:</strong></p>\n\n<ul data-end=\"1061\" data-start=\"926\">\n\t<li data-end=\"946\" data-start=\"926\">\n\t<p data-end=\"946\" data-start=\"928\">Definition &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"977\" data-start=\"947\">\n\t<p data-end=\"977\" data-start=\"949\">Two valid advantages &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"1011\" data-start=\"978\">\n\t<p data-end=\"1011\" data-start=\"980\">Two valid disadvantages &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"1061\" data-start=\"1012\">\n\t<p data-end=\"1061\" data-start=\"1014\">Clarity and structure &ndash; 30%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is contiguous memory allocation? List its advantages and disadvantages.</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 12513
+  },
+  {
+   "_id": 12514,
+   "ANSWER": "<p data-end=\"2492\" data-start=\"2241\">Best Fit tries to minimize leftover space by choosing the smallest possible block, but this often leaves many small, unusable holes in memory, increasing <strong data-end=\"2437\" data-start=\"2411\">external fragmentation</strong>. First Fit may leave larger but more usable fragments.</p>\n\n<p data-end=\"2519\" data-start=\"2494\">&nbsp;<strong data-end=\"2517\" data-start=\"2497\">Mark Allocation:</strong></p>\n\n<ul data-end=\"2646\" data-start=\"2520\">\n\t<li data-end=\"2562\" data-start=\"2520\">\n\t<p data-end=\"2562\" data-start=\"2522\">Explanation of Best Fit behavior &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"2597\" data-start=\"2563\">\n\t<p data-end=\"2597\" data-start=\"2565\">Concept of fragmentation &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"2646\" data-start=\"2598\">\n\t<p data-end=\"2646\" data-start=\"2600\">Clarity of reasoning &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Why does Best Fit sometimes result in more fragmentation than First Fit?</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "sq",
+   "key": 12514
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12608,
+   "ANSWER": "<p data-end=\"970\" data-start=\"659\">Contiguous memory allocation is one of the earliest memory management schemes used in operating systems. It involves <strong data-end=\"835\" data-start=\"776\">allocating a single contiguous block of physical memory</strong> to each process. (20%)<br data-end=\"855\" data-start=\"852\" />\nThe <strong data-end=\"884\" data-start=\"859\">Operating System (OS)</strong> maintains a <strong data-end=\"917\" data-start=\"897\">free memory list</strong>, and allocation is done based on certain strategies.</p>\n\n<p data-end=\"1098\" data-start=\"972\">When a process arrives, the OS selects a free block <strong data-end=\"1040\" data-start=\"1024\">large enough</strong> to accommodate it, using one of the following strategies:</p>\n\n<hr data-end=\"1103\" data-start=\"1100\" />\n<h3 data-end=\"1130\" data-start=\"1105\">\ud83d\udd38 <strong data-end=\"1128\" data-start=\"1112\">1. First Fit&nbsp;</strong> (30%)</h3>\n\n<ul data-end=\"1395\" data-start=\"1131\">\n\t<li data-end=\"1196\" data-start=\"1131\">\n\t<p data-end=\"1196\" data-start=\"1133\">Allocates the <strong data-end=\"1172\" data-start=\"1147\">first available block</strong> that is large enough.</p>\n\t</li>\n\t<li data-end=\"1276\" data-start=\"1197\">\n\t<p data-end=\"1276\" data-start=\"1199\">It scans memory from the beginning and assigns the <strong data-end=\"1273\" data-start=\"1250\">first matching hole</strong>.</p>\n\t</li>\n\t<li data-end=\"1314\" data-start=\"1277\">\n\t<p data-end=\"1314\" data-start=\"1279\"><strong data-end=\"1293\" data-start=\"1279\">Advantage:</strong> Fast; low overhead</p>\n\t</li>\n\t<li data-end=\"1395\" data-start=\"1315\">\n\t<p data-end=\"1395\" data-start=\"1317\"><strong data-end=\"1334\" data-start=\"1317\">Disadvantage:</strong> Can lead to many small unused holes (external fragmentation)</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1400\" data-start=\"1397\" />\n<h3 data-end=\"1426\" data-start=\"1402\">\ud83d\udd38 <strong data-end=\"1424\" data-start=\"1409\">2. Best Fit </strong>(30%)</h3>\n\n<ul data-end=\"1669\" data-start=\"1427\">\n\t<li data-end=\"1482\" data-start=\"1427\">\n\t<p data-end=\"1482\" data-start=\"1429\">Allocates the <strong data-end=\"1460\" data-start=\"1443\">smallest hole</strong> that is big enough.</p>\n\t</li>\n\t<li data-end=\"1546\" data-start=\"1483\">\n\t<p data-end=\"1546\" data-start=\"1485\">It searches the entire list and selects the <strong data-end=\"1543\" data-start=\"1529\">best match</strong>.</p>\n\t</li>\n\t<li data-end=\"1588\" data-start=\"1547\">\n\t<p data-end=\"1588\" data-start=\"1549\"><strong data-end=\"1563\" data-start=\"1549\">Advantage:</strong> Minimizes wasted space</p>\n\t</li>\n\t<li data-end=\"1669\" data-start=\"1589\">\n\t<p data-end=\"1669\" data-start=\"1591\"><strong data-end=\"1608\" data-start=\"1591\">Disadvantage:</strong> Slower due to full search; may leave tiny unusable fragments</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1674\" data-start=\"1671\" />\n<h3 data-end=\"1701\" data-start=\"1676\">\ud83d\udd38 <strong data-end=\"1699\" data-start=\"1683\">3. Worst Fit </strong>(20%)</h3>\n\n<ul data-end=\"1909\" data-start=\"1702\">\n\t<li data-end=\"1747\" data-start=\"1702\">\n\t<p data-end=\"1747\" data-start=\"1704\">Allocates the <strong data-end=\"1744\" data-start=\"1718\">largest available hole</strong>.</p>\n\t</li>\n\t<li data-end=\"1804\" data-start=\"1748\">\n\t<p data-end=\"1804\" data-start=\"1750\">Idea is to leave large blocks behind for future use.</p>\n\t</li>\n\t<li data-end=\"1850\" data-start=\"1805\">\n\t<p data-end=\"1850\" data-start=\"1807\"><strong data-end=\"1821\" data-start=\"1807\">Advantage:</strong> May avoid many small holes</p>\n\t</li>\n\t<li data-end=\"1909\" data-start=\"1851\">\n\t<p data-end=\"1909\" data-start=\"1853\"><strong data-end=\"1870\" data-start=\"1853\">Disadvantage:</strong> Often leads to inefficient space usage</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Explain Contiguous Memory Allocation and its strategies. Compare the advantages and disadvantages of each strategy.</p>\n",
+   "SESSION_ID": 402,
+   "TYPE": "lq",
+   "key": 12608
+  }
+ ]
+}

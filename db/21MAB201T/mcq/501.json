@@ -1,0 +1,148 @@
+{
+ "mcq": [
+  {
+   "_id": 29095,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\{0, \\pm 1, \\pm 2, \\dots\\}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\{1, 2, 3, \\dots\\}\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\{0, 1, 2, \\dots\\}\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\{-\\infty \\text{ to } \\infty\\}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The unilateral Z- transform is defined for&nbsp;<span class=\"math-tex\">\\(n=\\)</span></p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 29095
+  },
+  {
+   "_id": 29096,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(|x| &lt; 1 \\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\( |x| &gt; 1\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(|x| = 1\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{All } x\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The formula&nbsp;<span class=\"math-tex\">\\( (1 - x)^{-1} = 1 + x + x^{2} + x^{3} + \\dots \\)</span>&nbsp;is valid for</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 29096
+  },
+  {
+   "_id": 29097,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(z-a/z\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(z/z-a\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(1/z-a\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(1/z-a^n\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The Z-transform of&nbsp;<span class=\"math-tex\">\\(a^n\\)</span>&nbsp;is valid for&nbsp;<span class=\"math-tex\">\\(|z|&gt;|a|\\)</span>&nbsp;and equals</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 29097
+  },
+  {
+   "_id": 29098,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(0\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(1\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(z\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(z/z-1\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The Z-transform of the unit impulse sequence&nbsp;<span class=\"math-tex\">\\(\\delta(n)\\)</span>&nbsp;is&nbsp;</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 29098
+  },
+  {
+   "_id": 29099,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(z/z-a\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(z/(z-1)^2\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(z\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(z/z-1\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The Z-transform of the unit step sequence&nbsp;<span class=\"math-tex\">\\(u(n)\\)</span>&nbsp;is&nbsp;</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 29099
+  }
+ ],
+ "sq": [
+  {
+   "_id": 49622,
+   "ANSWER": "<ol>\n\t<li><span class=\"math-tex\">\\(\n(1 - x)^{-1} = 1 + x + x^2 + x^3 + \\cdots , \\quad |x| &lt; 1\n\n\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;------(1m)&nbsp;</li>\n\t<li><span class=\"math-tex\">\\(\n(1 + x)^{-1} = 1 - x + x^2 - x^3 + \\cdots , \\quad |x| &lt; 1\n\n\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;------(1m)&nbsp;</li>\n\t<li><span class=\"math-tex\">\\(\n(1 -x)^{-2} = 1 + 2x + 3x^2 + 4x^3 + \\cdots , \\quad |x| &lt; 1\n\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; ------(1m)&nbsp;</li>\n\t<li><span class=\"math-tex\">\\(\n(1 + x)^{-2} = 1 - 2x + 3x^2 - 4x^3 + \\cdots , \\quad |x| &lt; 1\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;------(1m)&nbsp;</li>\n\t<li><span class=\"math-tex\">\\(\ne^x = 1 + \\frac{x}{1!} + \\frac{x^2}{2!} + \\frac{x^3}{3!} + \\cdots\n\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;------(1m)&nbsp;</li>\n</ol>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Write any five&nbsp;basic series expansions used in Z-transform.</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 49622
+  },
+  {
+   "_id": 52909,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{The two-sided Z-transform is defined as: } X(z) = \\sum_{n=-\\infty}^{\\infty} x(n) z^{-n}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{where } z \\text{ is a complex variable.}\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Define the two-sided Z-transform of a sequence } \\{x(n)\\}.\\)</span></p>",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 52909
+  },
+  {
+   "_id": 52910,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By definition: } \\delta(n) = 1 \\text{ for } n=0, 0 \\text{ otherwise}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(Z[\\delta(n)] = \\sum_{n=0}^{\\infty} \\delta(n) z^{-n} = 1 \\cdot z^{-0} + 0 + 0 + \\cdots\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } Z[\\delta(n)] = 1 \\text{ with ROC: entire z-plane.}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Z-transform of the unit sample sequence } \\delta(n).\\)</span></p>",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 52910
+  }
+ ],
+ "lq": [
+  {
+   "_id": 52896,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td><p><b>a) Definition:</b><br>For a sequence <span class=\"math-tex\">\\(\\{x(n)\\}\\)</span> defined for <span class=\"math-tex\">\\(n \\ge 0\\)</span>, the one-sided Z-transform is <span class=\"math-tex\">\\(X(z) = \\sum_{n=0}^{\\infty} x(n) z^{-n}\\)</span>.<br>The ROC is the set of all <span class=\"math-tex\">\\(z\\)</span> in the complex plane for which this infinite sum converges.</p></td><td>(2 Marks)</td></tr><tr><td><p><b>b) Standard Transforms:</b><br>i) <span class=\"math-tex\">\\(Z\\{\\delta(n)\\} = 1\\)</span>, ROC: Entire z-plane.<br>ii) <span class=\"math-tex\">\\(Z\\{u(n)\\} = \\frac{z}{z-1}\\)</span>, ROC: <span class=\"math-tex\">\\(|z| > 1\\)</span>.<br>iii) <span class=\"math-tex\">\\(Z\\{a^n u(n)\\} = \\frac{z}{z-a}\\)</span>, ROC: <span class=\"math-tex\">\\(|z| > |a|\\)</span>.<br>iv) <span class=\"math-tex\">\\(Z\\{n u(n)\\} = \\frac{z}{(z-1)^2}\\)</span>, ROC: <span class=\"math-tex\">\\(|z| > 1\\)</span>.</p></td><td>(4 Marks: 1 each)</td></tr><tr><td><p><b>c) Given Sequence:</b><br><span class=\"math-tex\">\\(x(0)=2, x(1)=4, x(2)=1, x(3)=3\\)</span>.<br><span class=\"math-tex\">\\(X(z) = \\sum_{n=0}^{3} x(n) z^{-n} = 2z^0 + 4z^{-1} + 1z^{-2} + 3z^{-3} = 2 + \\frac{4}{z} + \\frac{1}{z^2} + \\frac{3}{z^3}\\)</span>.<br>Since it's a finite sum, the ROC is the entire z-plane except <span class=\"math-tex\">\\(z = 0\\)</span>.</p></td><td>(3 Marks)</td></tr><tr><td><p><b>Final Answer Summary</b></p></td><td>(6 Marks for parts a,b,c overall structure)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>a) Define the one-sided Z-transform of a sequence <span class=\"math-tex\">\\(\\{x(n)\\}\\)</span>. State its Region of Convergence (ROC).</p><p>b) Find the Z-transform and ROC for the following sequences:<br>i) <span class=\"math-tex\">\\(x(n) = \\delta(n)\\)</span> (Unit sample)<br>ii) <span class=\"math-tex\">\\(x(n) = u(n)\\)</span> (Unit step)<br>iii) <span class=\"math-tex\">\\(x(n) = a^n u(n)\\)</span> (Right-sided exponential)<br>iv) <span class=\"math-tex\">\\(x(n) = n u(n)\\)</span> (Unit ramp)</p><p>c) Using the definition, find the Z-transform of the finite duration sequence: <span class=\"math-tex\">\\(x(n) = \\{2, 4, 1, 3\\}\\)</span> for <span class=\"math-tex\">\\(n = 0, 1, 2, 3\\)</span> and zero otherwise.</p>",
+   "SESSION_ID": 501,
+   "TYPE": "lq",
+   "key": 52896
+  }
+ ]
+}

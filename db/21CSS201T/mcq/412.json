@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17405,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Variable-length instructions</p>\n",
+   "OPT_2": "<p>Fixed-length instructions</p>\n",
+   "OPT_3": "<p>Complex addressing modes</p>\n",
+   "OPT_4": "<p>Memory-to-memory operations</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which feature is characteristic of RISC instruction sets designed for pipelining?</strong></p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 17405
+  },
+  {
+   "_id": 17406,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>An instruction executed after a branch but before the branch takes effect</p>\n",
+   "OPT_2": "<p>A pipeline stage for memory access</p>\n",
+   "OPT_3": "<p>A hardware flaw in early CPUs</p>\n",
+   "OPT_4": "<p>A cache optimization technique</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>The term &quot;branch delay slot&quot; refers to:</strong></p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 17406
+  },
+  {
+   "_id": 17407,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>To complicate compiler design</p>\n",
+   "OPT_2": "<p>To enable variable-length instructions</p>\n",
+   "OPT_3": "<p>To increase memory usage</p>\n",
+   "OPT_4": "<p>To reduce variability in instruction execution time</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Why do pipelined architectures favor simple addressing modes?</strong></p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 17407
+  },
+  {
+   "_id": 17408,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Eliminates data hazards</p>\n",
+   "OPT_2": "<p>Reduces register count</p>\n",
+   "OPT_3": "<p>Allows more opcodes</p>\n",
+   "OPT_4": "<p>Simplifies instruction fetch and decode stages</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>How does fixed-length instruction encoding help pipelining?</strong></p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 17408
+  },
+  {
+   "_id": 17409,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Variable-length instructions</p>\n",
+   "OPT_2": "<p>Memory-mapped I/O</p>\n",
+   "OPT_3": "<p>Separate instruction and data caches</p>\n",
+   "OPT_4": "<p>Stack-based operations</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>For a 5-stage pipeline, which instruction set feature reduces structural hazards?</strong></p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "mcq",
+   "key": 17409
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17449,
+   "ANSWER": "<p>&nbsp;</p>\n\n<p data-end=\"1252\" data-start=\"943\">RISC (Reduced Instruction Set Computer) instruction sets are better suited for pipelining because they have simple, fixed-length instructions that complete in a uniform number of cycles. This consistency allows the pipeline to progress smoothly without stalls caused by instruction complexity. In contrast, CISC (Complex Instruction Set Computer) instructions are often variable-length and may take multiple cycles, making pipeline design more complicated and prone to hazards and delays.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Why are RISC instruction sets better suited for pipelining compared to CISC?</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "sq",
+   "key": 17449
+  },
+  {
+   "_id": 17450,
+   "ANSWER": "<p>&nbsp;</p>\n\n<p data-end=\"1252\" data-start=\"943\">Instruction dependencies in instruction sets cause data hazards in pipelining because later instructions may need results from earlier ones that have not yet completed. If the instruction set contains many instructions with frequent dependencies or complex addressing modes, it can increase pipeline stalls. Therefore, instruction sets influence pipeline performance based on how often dependencies occur and how easily they can be detected or avoided through instruction scheduling.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>How do instruction dependencies in instruction sets affect pipelining?</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "sq",
+   "key": 17450
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17615,
+   "ANSWER": "<p data-end=\"1841\" data-start=\"1636\">Instruction sets vary from <strong data-end=\"1721\" data-start=\"1677\">Complex Instruction Set Computers (CISC)</strong> with many complex instructions to <strong data-end=\"1800\" data-start=\"1756\">Reduced Instruction Set Computers (RISC)</strong> with a smaller, simpler instruction set.</p>\n\n<hr data-end=\"1846\" data-start=\"1843\" />\n<p data-end=\"1875\" data-start=\"1848\"><strong data-end=\"1875\" data-start=\"1848\">Effect on Architecture:</strong></p>\n\n<ul data-end=\"2449\" data-start=\"1877\">\n\t<li data-end=\"2171\" data-start=\"1877\">\n\t<p data-end=\"1888\" data-start=\"1879\"><strong data-end=\"1888\" data-start=\"1879\">CISC:</strong></p>\n\n\t<ul data-end=\"2171\" data-start=\"1892\">\n\t\t<li data-end=\"1977\" data-start=\"1892\">\n\t\t<p data-end=\"1977\" data-start=\"1894\">Complex instructions perform multiple low-level operations in a single instruction.</p>\n\t\t</li>\n\t\t<li data-end=\"2033\" data-start=\"1980\">\n\t\t<p data-end=\"2033\" data-start=\"1982\">Often microprogrammed control to handle complexity.</p>\n\t\t</li>\n\t\t<li data-end=\"2090\" data-start=\"2036\">\n\t\t<p data-end=\"2090\" data-start=\"2038\">Benefits: Compact code, easier assembly programming.</p>\n\t\t</li>\n\t\t<li data-end=\"2171\" data-start=\"2093\">\n\t\t<p data-end=\"2171\" data-start=\"2095\">Drawbacks: Longer execution cycles, complex decoding, and harder pipelining.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2449\" data-start=\"2173\">\n\t<p data-end=\"2184\" data-start=\"2175\"><strong data-end=\"2184\" data-start=\"2175\">RISC:</strong></p>\n\n\t<ul data-end=\"2449\" data-start=\"2188\">\n\t\t<li data-end=\"2254\" data-start=\"2188\">\n\t\t<p data-end=\"2254\" data-start=\"2190\">Simple, uniform instructions usually executed in a single cycle.</p>\n\t\t</li>\n\t\t<li data-end=\"2287\" data-start=\"2257\">\n\t\t<p data-end=\"2287\" data-start=\"2259\">Hardwired control for speed.</p>\n\t\t</li>\n\t\t<li data-end=\"2373\" data-start=\"2290\">\n\t\t<p data-end=\"2373\" data-start=\"2292\">Benefits: Simplified pipeline design, easier hazard handling, higher clock rates.</p>\n\t\t</li>\n\t\t<li data-end=\"2449\" data-start=\"2376\">\n\t\t<p data-end=\"2449\" data-start=\"2378\">Drawbacks: More instructions per program, potentially larger code size.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"2454\" data-start=\"2451\" />\n<p data-end=\"2490\" data-start=\"2456\"><strong data-end=\"2490\" data-start=\"2456\">Influence on Processor Design:</strong></p>\n\n<ul data-end=\"2590\" data-start=\"2492\">\n\t<li data-end=\"2533\" data-start=\"2492\">\n\t<p data-end=\"2533\" data-start=\"2494\">RISC favors pipelining and parallelism.</p>\n\t</li>\n\t<li data-end=\"2590\" data-start=\"2534\">\n\t<p data-end=\"2590\" data-start=\"2536\">CISC may require complex control and microprogramming.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"2595\" data-start=\"2592\" />\n<p data-end=\"2737\" data-start=\"2597\"><strong data-end=\"2609\" data-start=\"2597\">Summary:</strong><br data-end=\"2612\" data-start=\"2609\" />\nInstruction set complexity directly guides architecture choice, affecting performance, hardware complexity, and code density.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain how instruction set complexity affects the choice between RISC and CISC architectures.</p>\n",
+   "SESSION_ID": 412,
+   "TYPE": "lq",
+   "key": 17615
+  }
+ ]
+}

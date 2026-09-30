@@ -1,0 +1,144 @@
+{
+ "mcq": [
+  {
+   "_id": 18100,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Kernel</p>\n",
+   "OPT_2": "<p>Server</p>\n",
+   "OPT_3": "<p>Client</p>\n",
+   "OPT_4": "<p>Operating system</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"838\" data-start=\"767\"><strong data-end=\"836\" data-start=\"771\">In client-server communication, who initiates the request?</strong></h3>\n\n<p data-end=\"896\" data-start=\"839\">&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 18100
+  },
+  {
+   "_id": 18102,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Code section</p>\n",
+   "OPT_2": "<p>Data section</p>\n",
+   "OPT_3": "<p>Stack</p>\n",
+   "OPT_4": "<p>Open files</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"605\" data-start=\"521\"><strong data-end=\"603\" data-start=\"525\">Which of the following is NOT shared among threads of the same process?</strong></h3>\n\n<p data-end=\"668\" data-start=\"606\">&nbsp;</p>\n\n<p data-end=\"896\" data-start=\"839\">&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 18102
+  },
+  {
+   "_id": 18104,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>They use more memory</p>\n",
+   "OPT_2": "<p>They require a new OS</p>\n",
+   "OPT_3": "<p>They reduce overhead and allow parallelism</p>\n",
+   "OPT_4": "<p>They block system calls</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"754\" data-start=\"697\"><strong data-end=\"752\" data-start=\"701\">What is the main advantage of using threads?</strong></h3>\n\n<p data-end=\"884\" data-start=\"755\">&nbsp;</p>\n\n<p data-end=\"896\" data-start=\"839\">&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 18104
+  },
+  {
+   "_id": 18105,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Kernel-level thread</p>\n",
+   "OPT_2": "<p>User-level thread</p>\n",
+   "OPT_3": "<p>System-level thread</p>\n",
+   "OPT_4": "<p>Hybrid thread</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1010\" data-start=\"950\"><strong data-end=\"1008\" data-start=\"954\">Which of the following is NOT a type of thread?</strong></h3>\n\n<p data-end=\"1102\" data-start=\"1011\">&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 18105
+  },
+  {
+   "_id": 18168,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Thread ID</p>\n",
+   "OPT_2": "<p>Program counter</p>\n",
+   "OPT_3": "<p>Stack</p>\n",
+   "OPT_4": "<p>All of the above</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1208\" data-start=\"1145\"><strong data-end=\"1206\" data-start=\"1149\">Which of the following is a component of a thread?</strong></h3>\n\n<p data-end=\"1277\" data-start=\"1209\">&nbsp;</p>\n\n<p data-end=\"1102\" data-start=\"1011\">&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 18168
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18170,
+   "ANSWER": "<p><br data-end=\"1427\" data-start=\"1424\" />\nThreads are needed for <strong data-end=\"1470\" data-start=\"1450\">faster execution</strong>, <strong data-end=\"1501\" data-start=\"1472\">efficient CPU utilization</strong>, and <strong data-end=\"1522\" data-start=\"1507\">parallelism</strong>. They allow a program to perform multiple tasks simultaneously while sharing memory and resources, which reduces context switching overhead compared to processes.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1412\" data-start=\"1353\"><strong data-end=\"1410\" data-start=\"1357\">Why are threads needed in an operating system?</strong></h3>\n\n<p data-end=\"1685\" data-start=\"1413\">&nbsp;</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "sq",
+   "key": 18170
+  },
+  {
+   "_id": 18171,
+   "ANSWER": "<p data-end=\"1783\" data-start=\"1746\">A thread consists of:</p>\n\n<ul data-end=\"2085\" data-start=\"1784\">\n\t<li data-end=\"1821\" data-start=\"1784\">\n\t<p data-end=\"1821\" data-start=\"1786\"><strong data-end=\"1799\" data-start=\"1786\">Thread ID</strong> &ndash; Unique identifier</p>\n\t</li>\n\t<li data-end=\"1878\" data-start=\"1822\">\n\t<p data-end=\"1878\" data-start=\"1824\"><strong data-end=\"1843\" data-start=\"1824\">Program Counter</strong> &ndash; Points to the next instruction</p>\n\t</li>\n\t<li data-end=\"1927\" data-start=\"1879\">\n\t<p data-end=\"1927\" data-start=\"1881\"><strong data-end=\"1897\" data-start=\"1881\">Register Set</strong> &ndash; Holds CPU register values</p>\n\t</li>\n\t<li data-end=\"2085\" data-start=\"1928\">\n\t<p data-end=\"2085\" data-start=\"1930\"><strong data-end=\"1939\" data-start=\"1930\">Stack</strong> &ndash; Stores function calls, local variables<br data-end=\"1983\" data-start=\"1980\" />\n\tOther resources like code, data, and open files are <strong data-end=\"2045\" data-start=\"2035\">shared</strong> with other threads of the same process.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1745\" data-start=\"1692\"><strong data-end=\"1743\" data-start=\"1696\">What are the key components of a thread?</strong></h3>\n\n<p data-end=\"1783\" data-start=\"1746\">\u200b\u200b\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "sq",
+   "key": 18171
+  }
+ ],
+ "lq": [
+  {
+   "_id": 18172,
+   "ANSWER": "<p data-end=\"2426\" data-start=\"2193\">The <strong data-end=\"2220\" data-start=\"2197\">client-server model</strong> is a network communication framework where a <strong data-end=\"2276\" data-start=\"2266\">client</strong> sends requests to a <strong data-end=\"2307\" data-start=\"2297\">server</strong>, and the server provides the requested services or data. It is widely used in web, database, and file-sharing systems.</p>\n\n<h3 data-end=\"2449\" data-start=\"2433\"><strong data-end=\"2449\" data-start=\"2437\">Working:</strong></h3>\n\n<ol data-end=\"2738\" data-start=\"2451\">\n\t<li data-end=\"2512\" data-start=\"2451\">\n\t<p data-end=\"2512\" data-start=\"2454\"><strong data-end=\"2464\" data-start=\"2454\">Client</strong> initiates communication by sending a request.</p>\n\t</li>\n\t<li data-end=\"2580\" data-start=\"2513\">\n\t<p data-end=\"2580\" data-start=\"2516\"><strong data-end=\"2526\" data-start=\"2516\">Server</strong> listens for incoming connections using socket APIs.</p>\n\t</li>\n\t<li data-end=\"2673\" data-start=\"2581\">\n\t<p data-end=\"2673\" data-start=\"2584\">Once connected, both exchange data through a <strong data-end=\"2655\" data-start=\"2629\">communication protocol</strong> (e.g., TCP/IP).</p>\n\t</li>\n\t<li data-end=\"2738\" data-start=\"2674\">\n\t<p data-end=\"2738\" data-start=\"2677\">After completing the communication, the connection is closed.</p>\n\t</li>\n</ol>\n\n<h3 data-end=\"2768\" data-start=\"2745\"><strong data-end=\"2768\" data-start=\"2749\">Key Components:</strong></h3>\n\n<ul data-end=\"3121\" data-start=\"2770\">\n\t<li data-end=\"2871\" data-start=\"2770\">\n\t<p data-end=\"2785\" data-start=\"2772\"><strong data-end=\"2783\" data-start=\"2772\">Client:</strong></p>\n\n\t<ul data-end=\"2871\" data-start=\"2788\">\n\t\t<li data-end=\"2820\" data-start=\"2788\">\n\t\t<p data-end=\"2820\" data-start=\"2790\">Sends requests for services.</p>\n\t\t</li>\n\t\t<li data-end=\"2871\" data-start=\"2823\">\n\t\t<p data-end=\"2871\" data-start=\"2825\">Waits for and processes the server&#39;s response.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2976\" data-start=\"2873\">\n\t<p data-end=\"2888\" data-start=\"2875\"><strong data-end=\"2886\" data-start=\"2875\">Server:</strong></p>\n\n\t<ul data-end=\"2976\" data-start=\"2891\">\n\t\t<li data-end=\"2923\" data-start=\"2891\">\n\t\t<p data-end=\"2923\" data-start=\"2893\">Listens for client requests.</p>\n\t\t</li>\n\t\t<li data-end=\"2976\" data-start=\"2926\">\n\t\t<p data-end=\"2976\" data-start=\"2928\">Processes the request and sends back a response.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3121\" data-start=\"2978\">\n\t<p data-end=\"3007\" data-start=\"2980\"><strong data-end=\"3005\" data-start=\"2980\">Communication Medium:</strong></p>\n\n\t<ul data-end=\"3121\" data-start=\"3010\">\n\t\t<li data-end=\"3082\" data-start=\"3010\">\n\t\t<p data-end=\"3082\" data-start=\"3012\">Usually involves <strong data-end=\"3047\" data-start=\"3029\">TCP/IP sockets</strong>, named pipes, or message queues.</p>\n\t\t</li>\n\t\t<li data-end=\"3121\" data-start=\"3085\">\n\t\t<p data-end=\"3121\" data-start=\"3087\">TCP ensures reliable transmission.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<h3 data-end=\"3152\" data-start=\"3128\"><strong data-end=\"3152\" data-start=\"3132\">Role of Sockets:</strong></h3>\n\n<p data-end=\"3221\" data-start=\"3154\">A <strong data-end=\"3166\" data-start=\"3156\">socket</strong> is an endpoint for communication between two machines.</p>\n\n<ul data-end=\"3460\" data-start=\"3223\">\n\t<li data-end=\"3308\" data-start=\"3223\">\n\t<p data-end=\"3308\" data-start=\"3225\"><strong data-end=\"3241\" data-start=\"3225\">Server side:</strong> Uses <code data-end=\"3257\" data-start=\"3247\">socket()</code>, <code data-end=\"3267\" data-start=\"3259\">bind()</code>, <code data-end=\"3279\" data-start=\"3269\">listen()</code>, and <code data-end=\"3295\" data-start=\"3285\">accept()</code> functions.</p>\n\t</li>\n\t<li data-end=\"3388\" data-start=\"3309\">\n\t<p data-end=\"3388\" data-start=\"3311\"><strong data-end=\"3327\" data-start=\"3311\">Client side:</strong> Uses <code data-end=\"3343\" data-start=\"3333\">socket()</code> and <code data-end=\"3359\" data-start=\"3348\">connect()</code> to initiate communication.</p>\n\t</li>\n\t<li data-end=\"3460\" data-start=\"3389\">\n\t<p data-end=\"3460\" data-start=\"3391\">Once connected, both can use <code data-end=\"3428\" data-start=\"3420\">read()</code> and <code data-end=\"3442\" data-start=\"3433\">write()</code> to exchange data.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"3508\" data-start=\"3467\"><strong data-end=\"3508\" data-start=\"3471\">Example Flow (Using TCP Sockets):</strong></h3>\n\n<pre data-end=\"3650\" data-start=\"3510\">\n\n&nbsp;</pre>\n\n<p><code>// Server Side socket(); &rarr; bind(); &rarr; listen(); &rarr; accept(); &rarr; read()/write() // Client Side socket(); &rarr; connect(); &rarr; read()/write() </code></p>\n\n<h3 data-end=\"3674\" data-start=\"3657\"><strong data-end=\"3674\" data-start=\"3661\">Benefits:</strong></h3>\n\n<ul data-end=\"3821\" data-start=\"3676\">\n\t<li data-end=\"3714\" data-start=\"3676\">\n\t<p data-end=\"3714\" data-start=\"3678\">Enables <strong data-end=\"3712\" data-start=\"3686\">distributed processing</strong></p>\n\t</li>\n\t<li data-end=\"3762\" data-start=\"3715\">\n\t<p data-end=\"3762\" data-start=\"3717\">Supports <strong data-end=\"3741\" data-start=\"3726\">scalability</strong> and <strong data-end=\"3760\" data-start=\"3746\">modularity</strong></p>\n\t</li>\n\t<li data-end=\"3821\" data-start=\"3763\">\n\t<p data-end=\"3821\" data-start=\"3765\">Used in web applications, file transfer, chat apps, etc.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2147\" data-start=\"1983\">Explain the client-server communication model in an operating system. Discuss how it works, the components involved, and the role of sockets in implementing it.</strong></p>\n",
+   "SESSION_ID": 205,
+   "TYPE": "lq",
+   "key": 18172
+  }
+ ]
+}

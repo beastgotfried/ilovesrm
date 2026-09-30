@@ -1,0 +1,147 @@
+{
+ "mcq": [
+  {
+   "_id": 28842,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OPT_1": "<p>a) SIMD &ndash; identical instructions on multiple datasets.</p>\n",
+   "OPT_2": "<p>b) MISD &ndash; different instructions on the same dataset.</p>\n",
+   "OPT_3": "<p>c) SISD &ndash; one instruction, one dataset.</p>\n",
+   "OPT_4": "<p>d) MIMD &ndash; multiple instructions, multiple datasets.</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A <strong data-end=\"1678\" data-start=\"1649\">spacecraft control system</strong> uses several processors running different algorithms on the <strong data-end=\"1766\" data-start=\"1739\">same set of sensor data</strong> for reliability. Which category is most appropriate, and why?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 28842
+  },
+  {
+   "_id": 28843,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 5,
+   "OPT_1": "<p>a) SISD</p>\n",
+   "OPT_2": "<p>b) SIMD</p>\n",
+   "OPT_3": "<p>c) MISD</p>\n",
+   "OPT_4": "<p>d) MIMD</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>You are designing a <strong data-end=\"2244\" data-start=\"2217\">distributed AI platform</strong> where different processors work on different AI models using different data sets. Which category would you choose, and why?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 28843
+  },
+  {
+   "_id": 28844,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>aTraditional single-core processor</p>\n",
+   "OPT_2": "<p>b)&nbsp;GPU-based parallel computing</p>\n",
+   "OPT_3": "<p>c)&nbsp;Fault-tolerant aerospace system</p>\n",
+   "OPT_4": "<p>d)&nbsp;Supercomputer for scientific simulations</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is an example of <strong data-end=\"618\" data-start=\"610\">SISD</strong>?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 28844
+  },
+  {
+   "_id": 28845,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a)Instruction stream</p>\n",
+   "OPT_2": "<p>b)&nbsp;Data stream</p>\n",
+   "OPT_3": "<p>c)&nbsp;Registers</p>\n",
+   "OPT_4": "<p>d)&nbsp;Caches</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"1000\" data-start=\"992\">SIMD</strong>, what is <strong data-end=\"1020\" data-start=\"1010\">shared</strong> among all processing units?</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 28845
+  },
+  {
+   "_id": 28846,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a)SISD</p>\n",
+   "OPT_2": "<p>b)&nbsp;SIMD</p>\n",
+   "OPT_3": "<p>c)&nbsp;MIMD</p>\n",
+   "OPT_4": "<p>d)&nbsp;MISD</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1998\" data-start=\"1990\">GPUs</strong> used for deep learning are an example of</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "mcq",
+   "key": 28846
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28962,
+   "ANSWER": "<h3 data-end=\"192\" data-start=\"161\"><strong data-end=\"192\" data-start=\"165\">1. Hardware Parallelism</strong></h3>\n\n<p data-end=\"210\" data-start=\"193\"><strong data-end=\"208\" data-start=\"193\">Definition:</strong></p>\n\n<ul data-end=\"382\" data-start=\"211\">\n\t<li data-end=\"321\" data-start=\"211\">\n\t<p data-end=\"321\" data-start=\"213\">Achieved by <strong data-end=\"249\" data-start=\"225\">physical duplication</strong> of processing units, pipelines, or functional units in the processor.</p>\n\t</li>\n\t<li data-end=\"382\" data-start=\"322\">\n\t<p data-end=\"382\" data-start=\"324\">Examples: Multi-core CPUs, GPUs, superscalar processors.</p>\n\t</li>\n</ul>\n\n<p data-end=\"407\" data-start=\"384\"><strong data-end=\"407\" data-start=\"384\">Complexity Factors:</strong></p>\n\n<ol data-end=\"865\" data-start=\"408\">\n\t<li data-end=\"518\" data-start=\"408\">\n\t<p data-end=\"443\" data-start=\"411\"><strong data-end=\"441\" data-start=\"411\">Physical Design Complexity</strong></p>\n\n\t<ul data-end=\"518\" data-start=\"447\">\n\t\t<li data-end=\"518\" data-start=\"447\">\n\t\t<p data-end=\"518\" data-start=\"449\">Requires more transistors, complex chip layouts, and interconnects.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"632\" data-start=\"519\">\n\t<p data-end=\"561\" data-start=\"522\"><strong data-end=\"559\" data-start=\"522\">Synchronization at Hardware Level</strong></p>\n\n\t<ul data-end=\"632\" data-start=\"565\">\n\t\t<li data-end=\"632\" data-start=\"565\">\n\t\t<p data-end=\"632\" data-start=\"567\">Need hardware support for cache coherence and data consistency.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"748\" data-start=\"633\">\n\t<p data-end=\"668\" data-start=\"636\"><strong data-end=\"666\" data-start=\"636\">Cost and Power Constraints</strong></p>\n\n\t<ul data-end=\"748\" data-start=\"672\">\n\t\t<li data-end=\"748\" data-start=\"672\">\n\t\t<p data-end=\"748\" data-start=\"674\">Adding more hardware increases manufacturing cost and power consumption.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"865\" data-start=\"749\">\n\t<p data-end=\"781\" data-start=\"752\"><strong data-end=\"779\" data-start=\"752\">Scalability Limitations</strong></p>\n\n\t<ul data-end=\"865\" data-start=\"785\">\n\t\t<li data-end=\"865\" data-start=\"785\">\n\t\t<p data-end=\"865\" data-start=\"787\">Physical space and heat dissipation limit how many cores/units can be added.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<p data-end=\"1032\" data-start=\"867\"><strong data-end=\"881\" data-start=\"867\">Advantage:</strong> Very fast execution as parallelism is built into the processor.<br data-end=\"948\" data-start=\"945\" />\n<strong data-end=\"963\" data-start=\"948\">Limitation:</strong> Expensive and less flexible; changes require redesigning hardware.</p>\n\n<hr data-end=\"1037\" data-start=\"1034\" />\n<h3 data-end=\"1070\" data-start=\"1039\"><strong data-end=\"1070\" data-start=\"1043\">2. Software Parallelism</strong></h3>\n\n<p data-end=\"1088\" data-start=\"1071\"><strong data-end=\"1086\" data-start=\"1071\">Definition:</strong></p>\n\n<ul data-end=\"1277\" data-start=\"1089\">\n\t<li data-end=\"1192\" data-start=\"1089\">\n\t<p data-end=\"1192\" data-start=\"1091\">Achieved by <strong data-end=\"1123\" data-start=\"1103\">writing programs</strong> that can execute multiple tasks in parallel on available hardware.</p>\n\t</li>\n\t<li data-end=\"1277\" data-start=\"1193\">\n\t<p data-end=\"1277\" data-start=\"1195\">Examples: Multithreading, parallel algorithms, distributed computing frameworks.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1302\" data-start=\"1279\"><strong data-end=\"1302\" data-start=\"1279\">Complexity Factors:</strong></p>\n\n<ol data-end=\"1740\" data-start=\"1303\">\n\t<li data-end=\"1413\" data-start=\"1303\">\n\t<p data-end=\"1339\" data-start=\"1306\"><strong data-end=\"1337\" data-start=\"1306\">Algorithm Design Complexity</strong></p>\n\n\t<ul data-end=\"1413\" data-start=\"1343\">\n\t\t<li data-end=\"1413\" data-start=\"1343\">\n\t\t<p data-end=\"1413\" data-start=\"1345\">Developer must identify independent tasks and remove dependencies.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1534\" data-start=\"1414\">\n\t<p data-end=\"1456\" data-start=\"1417\"><strong data-end=\"1454\" data-start=\"1417\">Synchronization and Communication</strong></p>\n\n\t<ul data-end=\"1534\" data-start=\"1460\">\n\t\t<li data-end=\"1534\" data-start=\"1460\">\n\t\t<p data-end=\"1534\" data-start=\"1462\">Programmer must handle race conditions, deadlocks, and load balancing.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1644\" data-start=\"1535\">\n\t<p data-end=\"1562\" data-start=\"1538\"><strong data-end=\"1560\" data-start=\"1538\">Portability Issues</strong></p>\n\n\t<ul data-end=\"1644\" data-start=\"1566\">\n\t\t<li data-end=\"1644\" data-start=\"1566\">\n\t\t<p data-end=\"1644\" data-start=\"1568\">Software optimized for one hardware setup may not perform well on another.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1740\" data-start=\"1645\">\n\t<p data-end=\"1674\" data-start=\"1648\"><strong data-end=\"1672\" data-start=\"1648\">Debugging Difficulty</strong></p>\n\n\t<ul data-end=\"1740\" data-start=\"1678\">\n\t\t<li data-end=\"1740\" data-start=\"1678\">\n\t\t<p data-end=\"1740\" data-start=\"1680\">Parallel software bugs are harder to detect and reproduce.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<p data-end=\"1905\" data-start=\"1742\"><strong data-end=\"1756\" data-start=\"1742\">Advantage:</strong> Flexible; can run on different hardware without redesign.<br data-end=\"1817\" data-start=\"1814\" />\n<strong data-end=\"1832\" data-start=\"1817\">Limitation:</strong> Performance depends heavily on hardware capabilities and coding skill.</p>\n\n<p><button aria-label=\"Copy\">Copy</button><button>Edit</button></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Analyse the complexity involved in designing systems that utilize hardware versus&nbsp;<br />\nsoftware parallelism. &nbsp;</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 28962
+  },
+  {
+   "_id": 28963,
+   "ANSWER": "<h2 data-end=\"156\" data-start=\"94\"><strong data-end=\"156\" data-start=\"97\">Difference between Memory-Mapped I/O and I/O-Mapped I/O</strong></h2>\n\n<table data-end=\"1268\" data-start=\"158\">\n\t<thead data-end=\"229\" data-start=\"158\">\n\t\t<tr data-end=\"229\" data-start=\"158\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"168\" data-start=\"158\">Feature</th>\n\t\t\t<th data-col-size=\"md\" data-end=\"192\" data-start=\"168\"><strong data-end=\"191\" data-start=\"170\">Memory-Mapped I/O</strong></th>\n\t\t\t<th data-col-size=\"md\" data-end=\"229\" data-start=\"192\"><strong data-end=\"227\" data-start=\"194\">I/O-Mapped I/O (Isolated I/O)</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"1268\" data-start=\"303\">\n\t\t<tr data-end=\"439\" data-start=\"303\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"323\" data-start=\"303\"><strong data-end=\"322\" data-start=\"305\">Address Space</strong></td>\n\t\t\t<td data-col-size=\"md\" data-end=\"382\" data-start=\"323\">I/O devices share the same address space as main memory.</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"439\" data-start=\"382\">I/O devices have a separate, dedicated address space.</td>\n\t\t</tr>\n\t\t<tr data-end=\"617\" data-start=\"440\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"462\" data-start=\"440\"><strong data-end=\"461\" data-start=\"442\">Instruction Set</strong></td>\n\t\t\t<td data-col-size=\"md\" data-end=\"552\" data-start=\"462\">Regular memory access instructions (e.g., <code data-end=\"512\" data-start=\"506\">LOAD</code>, <code data-end=\"521\" data-start=\"514\">STORE</code>) are used for I/O operations.</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"617\" data-start=\"552\">Special I/O instructions (e.g., <code data-end=\"590\" data-start=\"586\">IN</code>, <code data-end=\"597\" data-start=\"592\">OUT</code> in x86) are used.</td>\n\t\t</tr>\n\t\t<tr data-end=\"765\" data-start=\"618\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"647\" data-start=\"618\"><strong data-end=\"646\" data-start=\"620\">Address Lines Required</strong></td>\n\t\t\t<td data-col-size=\"md\" data-end=\"713\" data-start=\"647\">No separate address lines &mdash; same lines used for memory and I/O.</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"765\" data-start=\"713\">Requires separate address lines for I/O devices.</td>\n\t\t</tr>\n\t\t<tr data-end=\"900\" data-start=\"766\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"783\" data-start=\"766\"><strong data-end=\"782\" data-start=\"768\">Complexity</strong></td>\n\t\t\t<td data-col-size=\"md\" data-end=\"844\" data-start=\"783\">Simpler for programmers &mdash; I/O devices treated like memory.</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"900\" data-start=\"844\">Requires special instructions and separate handling.</td>\n\t\t</tr>\n\t\t<tr data-end=\"1039\" data-start=\"901\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"913\" data-start=\"901\"><strong data-end=\"912\" data-start=\"903\">Speed</strong></td>\n\t\t\t<td data-col-size=\"md\" data-end=\"975\" data-start=\"913\">Can be faster due to use of standard memory access methods.</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"1039\" data-start=\"975\">May be slightly slower because of separate I/O instructions.</td>\n\t\t</tr>\n\t\t<tr data-end=\"1182\" data-start=\"1040\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1058\" data-start=\"1040\"><strong data-end=\"1057\" data-start=\"1042\">Flexibility</strong></td>\n\t\t\t<td data-col-size=\"md\" data-end=\"1123\" data-start=\"1058\">Allows full use of CPU instructions for I/O data manipulation.</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"1182\" data-start=\"1123\">Limited to specific I/O instructions for data transfer.</td>\n\t\t</tr>\n\t\t<tr data-end=\"1268\" data-start=\"1183\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1197\" data-start=\"1183\"><strong data-end=\"1196\" data-start=\"1185\">Example</strong></td>\n\t\t\t<td data-col-size=\"md\" data-end=\"1224\" data-start=\"1197\">ARM, MIPS architectures.</td>\n\t\t\t<td data-col-size=\"md\" data-end=\"1268\" data-start=\"1224\">Intel x86&rsquo;s <code data-end=\"1242\" data-start=\"1238\">IN</code> and <code data-end=\"1252\" data-start=\"1247\">OUT</code> instructions.</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><button aria-label=\"Copy\">Copy</button><button>Edit</button></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Differentiate between Memory mapped I/O and I/O mapped I/O.&nbsp;</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "sq",
+   "key": 28963
+  }
+ ],
+ "lq": [
+  {
+   "_id": 37194,
+   "ANSWER": "<p data-end=\"715\" data-start=\"337\">Parallel computing improves computational performance by executing multiple tasks simultaneously. However, it introduces several challenges that must be carefully managed. The most common challenges include <strong data-end=\"628\" data-start=\"558\">synchronization issues, load balancing, and debugging difficulties</strong>, along with more specific problems like <strong data-end=\"688\" data-start=\"669\">race conditions</strong> and <strong data-end=\"712\" data-start=\"693\">lock contention</strong>.</p>\n\n<hr data-end=\"720\" data-start=\"717\" />\n<h4 data-end=\"771\" data-start=\"722\">1. <strong data-end=\"769\" data-start=\"730\">Synchronization and Race Conditions</strong></h4>\n\n<ul data-end=\"1259\" data-start=\"772\">\n\t<li data-end=\"920\" data-start=\"772\">\n\t<p data-end=\"920\" data-start=\"774\"><strong data-end=\"793\" data-start=\"774\">Synchronization</strong> ensures that multiple processes or threads execute in a coordinated manner, particularly when sharing resources like memory.</p>\n\t</li>\n\t<li data-end=\"1087\" data-start=\"921\">\n\t<p data-end=\"1087\" data-start=\"923\"><strong data-end=\"942\" data-start=\"923\">Race conditions</strong> occur when two or more processes try to access and modify shared data simultaneously, and the final outcome depends on the order of execution.</p>\n\t</li>\n\t<li data-end=\"1259\" data-start=\"1088\">\n\t<p data-end=\"1259\" data-start=\"1090\"><strong data-end=\"1102\" data-start=\"1090\">Example:</strong> In a banking system, if two processes try to update the same account balance at the same time without proper synchronization, incorrect results may occur.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1264\" data-start=\"1261\" />\n<h4 data-end=\"1295\" data-start=\"1266\">2. <strong data-end=\"1293\" data-start=\"1274\">Lock Contention</strong></h4>\n\n<ul data-end=\"1697\" data-start=\"1296\">\n\t<li data-end=\"1435\" data-start=\"1296\">\n\t<p data-end=\"1435\" data-start=\"1298\"><strong data-end=\"1313\" data-start=\"1298\">Definition:</strong> Lock contention arises when multiple threads compete for the same synchronization resource (like a mutex or semaphore).</p>\n\t</li>\n\t<li data-end=\"1535\" data-start=\"1436\">\n\t<p data-end=\"1535\" data-start=\"1438\"><strong data-end=\"1449\" data-start=\"1438\">Impact:</strong> Excessive waiting can slow down performance and reduce the benefits of parallelism.</p>\n\t</li>\n\t<li data-end=\"1697\" data-start=\"1536\">\n\t<p data-end=\"1697\" data-start=\"1538\"><strong data-end=\"1550\" data-start=\"1538\">Example:</strong> In a multithreaded file system, if many threads attempt to write to a single file protected by a lock, they may be delayed, causing bottlenecks.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1702\" data-start=\"1699\" />\n<h4 data-end=\"1732\" data-start=\"1704\">3. <strong data-end=\"1730\" data-start=\"1712\">Load Balancing</strong></h4>\n\n<ul data-end=\"2195\" data-start=\"1733\">\n\t<li data-end=\"1873\" data-start=\"1733\">\n\t<p data-end=\"1873\" data-start=\"1735\"><strong data-end=\"1750\" data-start=\"1735\">Definition:</strong> Load balancing involves distributing tasks evenly across processors so no processor is idle while others are overloaded.</p>\n\t</li>\n\t<li data-end=\"2028\" data-start=\"1874\">\n\t<p data-end=\"2028\" data-start=\"1876\"><strong data-end=\"1890\" data-start=\"1876\">Challenge:</strong> Tasks may have varying execution times or uneven data distribution, leading to some processors finishing early while others lag behind.</p>\n\t</li>\n\t<li data-end=\"2195\" data-start=\"2029\">\n\t<p data-end=\"2195\" data-start=\"2031\"><strong data-end=\"2043\" data-start=\"2031\">Example:</strong> In large-scale simulations like weather forecasting, a processor handling a complex region may take longer than others, delaying overall computation.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"2200\" data-start=\"2197\" />\n<h4 data-end=\"2236\" data-start=\"2202\">4. <strong data-end=\"2234\" data-start=\"2210\">Debugging Challenges</strong></h4>\n\n<ul data-end=\"2676\" data-start=\"2237\">\n\t<li data-end=\"2318\" data-start=\"2237\">\n\t<p data-end=\"2318\" data-start=\"2239\">Debugging parallel programs is significantly harder than sequential programs.</p>\n\t</li>\n\t<li data-end=\"2536\" data-start=\"2319\">\n\t<p data-end=\"2335\" data-start=\"2321\"><strong data-end=\"2333\" data-start=\"2321\">Reasons:</strong></p>\n\n\t<ul data-end=\"2536\" data-start=\"2338\">\n\t\t<li data-end=\"2418\" data-start=\"2338\">\n\t\t<p data-end=\"2418\" data-start=\"2340\">Errors may appear intermittently due to non-deterministic thread scheduling.</p>\n\t\t</li>\n\t\t<li data-end=\"2536\" data-start=\"2421\">\n\t\t<p data-end=\"2536\" data-start=\"2423\">Problems like deadlocks, race conditions, and lock contention may only appear under specific timing conditions.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2676\" data-start=\"2537\">\n\t<p data-end=\"2676\" data-start=\"2539\"><strong data-end=\"2552\" data-start=\"2539\">Solution:</strong> Specialized debugging and profiling tools are required, such as Intel Inspector, Valgrind, or Parallel Debuggers in IDEs.</p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Describe the common challenges in parallel computing, highlighting issues like race conditions, lock contention, and inefficient debugging.</p>\n",
+   "SESSION_ID": 504,
+   "TYPE": "lq",
+   "key": 37194
+  }
+ ]
+}

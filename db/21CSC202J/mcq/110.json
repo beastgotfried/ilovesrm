@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 20870,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Microsoft Windows GUI</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Linux Bash Shell</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Android OS Home Screen</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">macOS Finder</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which of the following is an example of a Command-Line Interface (CLI)?</span></span></span></strong><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 20870
+  },
+  {
+   "_id": 20872,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">GUI</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">CLI</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Touch Interface</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Voice Interface</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which interface type provides the most control and flexibility for advanced users and administrators?</span></span></span></strong></p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 20872
+  },
+  {
+   "_id": 20876,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Provides access only to command-line system calls</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Allows users to interact with the OS using graphical elements like windows, icons, and menus</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Executes low-level kernel services</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Provides direct hardware access to applications</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">What is the function of a Graphical User Interface (GUI)?</span></span></span></strong></p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 20876
+  },
+  {
+   "_id": 20878,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">User and hardware</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Hardware and firmware</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Process and device driver</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">User programs and the operating system kernel</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">A system call provides the interface between:</span></span></span></strong></p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 20878
+  },
+  {
+   "_id": 20879,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">wait()</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">exec()</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">kill()</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">exit()</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which system call would typically be used to terminate a process?</span></span></span></strong></p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 20879
+  }
+ ],
+ "sq": [
+  {
+   "_id": 20944,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A shell acts as a command interpreter between the user and the OS, parsing commands entered by the user and invoking appropriate system calls or functions.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>What is the role of a Shell in the user-OS interface?</strong></span></span></p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "sq",
+   "key": 20944
+  },
+  {
+   "_id": 20945,
+   "ANSWER": "<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>System Call:</strong> Direct interface between user applications and the kernel.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>API:</strong> Higher-level function set provided by libraries that internally may use system calls to interact with the OS.</span></span></span></li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>What is the difference between a system call and an API (Application Programming Interface)?</strong></span></span></p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "sq",
+   "key": 20945
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21148,
+   "ANSWER": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Types of User and OS Interfaces</strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>1\ufe0f</strong><strong> Command-Line Interface (CLI)</strong><br />\nCLI allows users to interact with the operating system by typing textual commands.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Features:</strong> Direct access to system utilities, scripting, automation.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Preferred by advanced users and system administrators for precision and control.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Linux Bash Shell, Windows Command Prompt.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>2\ufe0f</strong><strong> Graphical User Interface (GUI)</strong><br />\nGUI provides a visual interaction platform using windows, icons, menus, and pointers (WIMP).</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Features:</strong> User-friendly, supports drag-and-drop, multitasking.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Enhances accessibility for general users; ideal for desktop environments.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Microsoft Windows, macOS, GNOME for Linux.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>3\ufe0f</strong><strong> Touch User Interface</strong><br />\nDesigned for touch-enabled devices, allowing gestures like tapping, swiping, and pinching.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Features:</strong> Gesture-based control, intuitive navigation.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Critical for mobile devices and tablets, making technology accessible on-the-go.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Android OS, iOS.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>4\ufe0f Voice-Based Interface</strong><br />\nAllows users to issue commands through voice recognition.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Features:</strong> Hands-free operation, accessibility for users with disabilities.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Expands usability in smart devices and AI systems.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Siri, Google Assistant.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>5\ufe0f</strong><strong> System Calls (Programmatic Interface)</strong><br />\nSystem calls are low-level interfaces that allow applications to request services from the OS kernel.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Features:</strong> Enable process management, file handling, memory allocation.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Essential for application functionality and controlled resource access.</span></span></span></li>\n</ul>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Impact on System Security and Resource Management</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Controlled Access:</strong> Interfaces ensure users interact with system resources within defined boundaries, reducing the risk of unauthorized access.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Mode Switching:</strong> System calls operate in kernel mode, while user interfaces operate in user mode, maintaining system integrity.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Authentication and Permissions:</strong> User interfaces often enforce access control through login systems, file permissions, and process isolation.</span></span></span></li>\n</ul>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Influence on User Experience</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Ease of Use:</strong> A well-designed interface improves user satisfaction and reduces errors.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Customization:</strong> GUI and CLI environments often offer customization options, enhancing productivity.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Accessibility:</strong> Voice and touch interfaces democratize technology use across diverse user groups.</span></span></span></li>\n</ul>\n\n<p align=\"center\" style=\"text-align:center\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><b>Explain the various types of interfaces available and analyze how they influence user experience, system security, and resource management.</b></span></span></p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "lq",
+   "key": 21148
+  }
+ ]
+}

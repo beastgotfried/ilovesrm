@@ -1,0 +1,188 @@
+{
+ "mcq": [
+  {
+   "_id": 29088,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Finite transform<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>&nbsp;Laplace transform<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>Infinite transform<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>Fourier series</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>If the limits of an integral transform are from <span class=\"math-tex\">\\((-\\infty,+\\infty) \\)</span>it is called:</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 29088
+  },
+  {
+   "_id": 29089,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Complex Fourier transform&nbsp;<br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>Inverse fourier transform</p>\n",
+   "OPT_3": "<p>Laplace transform</p>\n",
+   "OPT_4": "<p>Fourier series</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The formula&nbsp;<span class=\"math-tex\">\\(F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x)\\, e^{isx} \\, dx\n\\)</span>&nbsp;represents</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 29089
+  },
+  {
+   "_id": 29091,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(i^{n} \\frac{d^{n}}{ds^{n}} F(s) \\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\((-i)^{n} \\frac{d^{n}}{ds^{n}} F(s)\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{d^{n}}{dx^{n}} F(s)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\((-1)^{n} F(s)\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>If&nbsp;<span class=\"math-tex\">\\(F\\{{f(x)}\\}=F(s),\\)</span>&nbsp;then&nbsp;<span class=\"math-tex\">\\(F\\{x^n f(x)\\} =\\)</span></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 29091
+  },
+  {
+   "_id": 29092,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\int |f(x)| \\, dx = \\int |F(s)| \\, ds\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\int |f(x)|^{2} \\, dx = \\int |F(s)|^{2} \\, ds\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\int f(x)^{2} \\, dx = \\int F(s) \\, ds\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\int f(x) \\, dx = \\int F(s) \\, ds \\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Parseval&#39;s identity states that&nbsp;</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 29092
+  },
+  {
+   "_id": 29093,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(F(s) + G(s) \\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(F(s) - G(s) \\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(F(s) \\cdot G(s)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{F(s)}{G(s)}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In the convolution theorem, the Fourier transform of&nbsp;<span class=\"math-tex\">\\(f(x) * g(x) =\\)</span></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 29093
+  }
+ ],
+ "sq": [
+  {
+   "_id": 48986,
+   "ANSWER": "<ul>\n\t<li>Lineraity property :&nbsp;<span class=\"math-tex\">\\( F [af(x)+bg(x)] = aF [f(x)]+bF [g(x)]\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; --- (1 m)</li>\n\t<li>Shifting property :If&nbsp;<span class=\"math-tex\">\\( F [f(x)] =F(s) , \\)</span>&nbsp;then&nbsp;<span class=\"math-tex\">\\(F [f(x-a)] =e^{ias}F(s)\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;--- (1 m)</li>\n\t<li>If&nbsp;<span class=\"math-tex\">\\(F [f(x)] =F(s) , \\)</span>&nbsp;then&nbsp;<span class=\"math-tex\">\\(F [e^{ias} f(x)]= F(s+a)\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;--- (1 m)</li>\n\t<li>Change of scale property : If&nbsp;<span class=\"math-tex\">\\( F [f(x)] =F(s) , \\)</span>&nbsp;then&nbsp;<span class=\"math-tex\">\\(F [f(ax)] = \\frac{1}{|a|} F(\\frac {s}{a})\\)</span>&nbsp;where a&nbsp;<span class=\"math-tex\">\\(\\neq\n\\)</span>&nbsp;0.&nbsp;&nbsp; --- (1 m)</li>\n\t<li>If&nbsp;<span class=\"math-tex\">\\( F [f(x)] =F(s) , \\)</span>then&nbsp;<span class=\"math-tex\">\\(F[ f(x) cos ax ] =\\frac 1\n 2 [F(s -a)+F(s+a)]\\)</span>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp; --- (1 m)</li>\n</ul>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>List out the five properties of Fourier Transforms.</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 48986
+  },
+  {
+   "_id": 49619,
+   "ANSWER": "<p><span class=\"math-tex\">\\(F(s)=F[{f(x)}]=\\frac {1}{\\sqrt{2\\pi}\n}\n\u200b\u200b\\int_{-\\infty}^{\\infty}\nf(x)e^{isx}dx\\)</span>&nbsp; &nbsp;and ----(3m)</p>\n\n<p><span class=\"math-tex\">\\(f(x)=F^{-1}[{F(s)}]=\\frac {1}{\\sqrt{2\\pi}\n}\n\u200b\u200b\\int_{-\\infty}^{\\infty}\nF(s)e^{-isx}ds\\)</span>&nbsp; &nbsp;-----(2m)</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Give the&nbsp; Fourier Transform Pair.&nbsp;</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 49619
+  },
+  {
+   "_id": 52799,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Fourier transform: } F(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) e^{i s x} dx\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Inverse: } f(x) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} F(s) e^{-i s x} ds\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Conditions: } f(x) \\text{ is piecewise continuous and absolutely integrable on } (-\\infty, \\infty)\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Define the Fourier transform of a function } f(x) \\text{ and its inverse. State the conditions for existence.}\\)</span></p>",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 52799
+  },
+  {
+   "_id": 52800,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Property: If } F[f(x)] = F(s) \\text{ then } F[f(ax)] = \\frac{1}{|a|} F\\left(\\frac{s}{a}\\right), a \\ne 0\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Proof: } F[f(ax)] = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(ax) e^{i s x} dx\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Let } u = ax, du = a dx \\Rightarrow dx = du/a\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{For } a>0: F[f(ax)] = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(u) e^{i s (u/a)} \\frac{du}{a} = \\frac{1}{a} F\\left(\\frac{s}{a}\\right)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{For } a<0: limits reverse, giving same with } 1/|a|\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State and prove the change of scale property of Fourier transforms.}\\)</span></p>",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 52800
+  }
+ ],
+ "lq": [
+  {
+   "_id": 49665,
+   "ANSWER": "<p><span class=\"math-tex\">\\(The \\quad complex \\quad Fourier \\quad transform \\quad of \\quad a \\quad function \\quad f(x) \\quad is \\quad defined \\quad as \\\\\n\nF(s)=\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty} f(x)e^{isx}\\,dx.\\\\\n\nGiven\\\\\n\nf(x)=\n\\begin{cases}\n1, &amp; -1&lt;x&lt;1,\\\\\n0, &amp; \\text{otherwise}.\n\\end{cases}\\\\\n\n\nThus,\\\\\n\nF(s)=\\frac{1}{\\sqrt{2\\pi}}\\int_{-1}^{1} e^{isx}\\,dx.\\\\\n\n\nNow,\\\\\n\n\\int e^{isx}\\,dx = \\frac{e^{isx}}{is}.\\\\\n\n\nHence,\\\\\n\nF(s)=\\frac{1}{\\sqrt{2\\pi}} \\left[\\frac{e^{isx}}{is}\\right]_{-1}^{1}\\\\\n= \\frac{1}{\\sqrt{2\\pi}}\\frac{e^{is}-e^{-is}}{is}.\\\\\n\n\nUsing \\quad the \\quad identity \\quad e^{is}-e^{-is}=2i\\sin s,\\\\\n\nF(s)=\\frac{1}{\\sqrt{2\\pi}} \\cdot \\frac{2i\\sin s}{is}\\\\\n    = \\frac{2\\sin s}{s\\sqrt{2\\pi}}.\\\\\n\n\n\\boxed{\nF(s)=\\sqrt{\\frac{2}{\\pi}}\\,\\frac{\\sin s}{s}\n}\\\\\n\\)</span></p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(Find\\quad the\\quad Fourier\\quad transform \\quad of \\quad the\\quad function\\\\\n\nf(x)=\n\\begin{cases}\n1, &amp; |x|&lt;1,\\\\\n0, &amp; |x|\\ge 1.\n\\end{cases}\n\\)</span></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "lq",
+   "key": 49665
+  },
+  {
+   "_id": 50672,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>The Fourier transform of f(x) is defined as:</td><td>(2)</td></tr><tr><td>\\(F(s) = \\mathcal{F}\\{f(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) e^{isx} dx\\)</td><td>(2)</td></tr><tr><td>The linearity property states: \\(\\mathcal{F}\\{af(x) + bg(x)\\} = a\\mathcal{F}\\{f(x)\\} + b\\mathcal{F}\\{g(x)\\}\\)</td><td>(2)</td></tr><tr><td>Proof: \\(\\mathcal{F}\\{af(x)+bg(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} [af(x)+bg(x)]e^{isx}dx\\)</td><td>(2)</td></tr><tr><td>\\(= a\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty} f(x)e^{isx}dx + b\\frac{1}{\\sqrt{2\\pi}}\\int_{-\\infty}^{\\infty} g(x)e^{isx}dx\\)</td><td>(2)</td></tr><tr><td>\\(= aF(s) + bG(s)\\)</td><td>(2)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Define the Fourier transform of a function \\(f(x)\\). State and prove the linearity property of Fourier transforms.}\\)</span></p>",
+   "SESSION_ID": 401,
+   "TYPE": "lq",
+   "key": 50672
+  },
+  {
+   "_id": 50673,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Statement: If \\(\\mathcal{F}\\{f(x)\\} = F(s)\\), then \\(\\mathcal{F}\\{f(x-a)\\} = e^{ias}F(s)\\)</td><td>(2)</td></tr><tr><td>Proof: Let \\(g(x) = f(x-a)\\)</td><td>(2)</td></tr><tr><td>\\(G(s) = \\mathcal{F}\\{g(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x-a) e^{isx} dx\\)</td><td>(2)</td></tr><tr><td>Put \\(t = x-a\\), then \\(x = t+a\\), \\(dx = dt\\)</td><td>(2)</td></tr><tr><td>\\(G(s) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) e^{is(t+a)} dt = e^{ias} \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) e^{ist} dt\\)</td><td>(4)</td></tr><tr><td>\\(= e^{ias} F(s)\\)</td><td>(3)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State and prove the shifting property of Fourier transforms: } \\mathcal{F}\\{f(x-a)\\} = e^{ias}F(s).\\)</span></p>",
+   "SESSION_ID": 401,
+   "TYPE": "lq",
+   "key": 50673
+  }
+ ]
+}

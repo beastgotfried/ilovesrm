@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 36794,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Desires, thoughts, and expectations are in alignment with right understanding</p>\n",
+   "OPT_2": "<p>Desires are unlimited and unchecked</p>\n",
+   "OPT_3": "<p>Thoughts and actions contradict each other</p>\n",
+   "OPT_4": "<p>The body alone is taken care of</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Harmony in the Self is achieved when:</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 36794
+  },
+  {
+   "_id": 36795,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Decisions are guided by right understanding</p>\n",
+   "OPT_2": "<p>Desires are based on imagination without evaluation</p>\n",
+   "OPT_3": "<p>Desires, thoughts, and selections are consistent</p>\n",
+   "OPT_4": "<p>There is self-awareness</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Contradiction in the Self arises when:</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 36795
+  },
+  {
+   "_id": 36796,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Right understanding and clarity in living</p>\n",
+   "OPT_2": "<p>Competition and exploitation</p>\n",
+   "OPT_3": "<p>Ignoring inner needs</p>\n",
+   "OPT_4": "<p>Blind imitation of others</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is the basis for harmony in the Self?</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 36796
+  },
+  {
+   "_id": 36814,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Peace and satisfaction</p>\n",
+   "OPT_2": "<p>Confusion, conflict, and dissatisfaction</p>\n",
+   "OPT_3": "<p>Trust and respect</p>\n",
+   "OPT_4": "<p>Harmony with others</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>When the Self is in contradiction, it experiences:</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 36814
+  },
+  {
+   "_id": 36815,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Disharmony</p>\n",
+   "OPT_2": "<p>Proper alignment of desires, thoughts, and expectations</p>\n",
+   "OPT_3": "<p>Random choices</p>\n",
+   "OPT_4": "<p>Temporary satisfaction</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Right evaluation in the Self leads to:</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 36815
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36425,
+   "ANSWER": "<p>Harmony in the self occurs when our desires, thoughts, and selections are based on right understanding, leading to inner peace and satisfaction.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What is meant by harmony in the self?</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 36425
+  },
+  {
+   "_id": 36427,
+   "ANSWER": "<p>Contradiction arises when there is a mismatch between our desires, thoughts, and selections&mdash;often due to lack of clarity or wrong understanding&mdash;resulting in stress, confusion, or conflict.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What causes contradiction in the self?</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 36427
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122511,
+   "ANSWER": "<p>The human role in nature is to live in a way that preserves, protects and enriches the rest of nature while ensuring prosperity for human beings. Human beings need physical facilities from nature, but these must be used with right understanding and right utilisation. Problems like water insecurity, food insecurity, climate change, pollution and resource depletion show that human beings have often acted with greed, accumulation and exploitation. The solution is not merely more technology, but a holistic approach based on right understanding. Human beings can participate in harmony by reducing waste, protecting water sources, preserving forests, supporting sustainable agriculture, using renewable resources, planting trees, restoring wetlands and living with responsibility. Thus, mutual enrichment means that human prosperity should not be at the cost of nature; it should be in continuity with the preservation of nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Explain the human role in mutual enrichment or harmony in nature.</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "lq",
+   "key": 122511
+  }
+ ]
+}

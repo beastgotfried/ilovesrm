@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 23845,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OPT_1": "<p><strong data-end=\"156\" data-start=\"143\">Q\u2080 = 1</strong><br data-end=\"159\" data-start=\"156\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p><strong data-end=\"186\" data-start=\"159\">Q\u2080 = 0 and A = A + M</strong><br data-end=\"189\" data-start=\"186\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p><strong data-end=\"216\" data-start=\"189\">Q\u2080 = 0 and A = A &ndash; M</strong><br data-end=\"219\" data-start=\"216\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p><strong data-end=\"246\" data-start=\"219\">Q\u2080 = 1 and A = A + M</strong></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"141\" data-start=\"88\">In the restoring division algorithm for unsigned binary numbers, after shifting and subtracting the divisor (<code data-end=\"112\" data-start=\"109\">M</code>) from the accumulator (<code data-end=\"139\" data-start=\"136\">A</code>), the condition <strong data-end=\"165\" data-start=\"156\">A &lt; 0</strong> indicates an unsuccessful subtraction. What is the immediate corrective step taken in the algorithm?</p>\n\n<p data-end=\"246\" data-start=\"143\">&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 23845
+  },
+  {
+   "_id": 23864,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OPT_1": "<p>To maintain <strong data-end=\"40\" data-is-last-node=\"\" data-start=\"15\">normalized arithmetic</strong><br data-end=\"693\" data-start=\"690\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>To prevent <strong data-end=\"31\" data-is-last-node=\"\" data-start=\"14\">overflow in A</strong><br data-end=\"735\" data-start=\"732\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>To <strong data-end=\"17\" data-start=\"6\">restore</strong> the state before the next trial<br data-end=\"777\" data-start=\"774\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>To <strong data-end=\"16\" data-start=\"6\">update</strong> the quotient accordingly</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"651\" data-start=\"614\">In restoring division, why is the <strong data-end=\"58\" data-start=\"34\">divisor M added back</strong> to the accumulator <strong data-end=\"83\" data-start=\"78\">A</strong> after a negative subtraction?</p>\n\n<p data-end=\"818\" data-start=\"653\">&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 23864
+  },
+  {
+   "_id": 23865,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 5,
+   "OPT_1": "<p>Quotient becomes <strong data-end=\"33\" data-is-last-node=\"\" data-start=\"20\">too large</strong></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_2": "<p>Remainder stays <strong data-end=\"35\" data-is-last-node=\"\" data-start=\"19\">non-negative</strong><br data-end=\"1149\" data-start=\"1146\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>Quotient and remainder are both <strong data-end=\"44\" data-is-last-node=\"\" data-start=\"35\">wrong</strong><br data-end=\"1191\" data-start=\"1188\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>No effect; performance <strong data-end=\"38\" data-is-last-node=\"\" data-start=\"26\">improves</strong></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1063\" data-start=\"1024\">A student extends a 4-bit restoring division circuit to handle 8 bits but <strong data-end=\"100\" data-start=\"74\">omits the restore step</strong> after negative subtractions. What&rsquo;s the likely consequence?</p>\n\n<p data-end=\"1230\" data-start=\"1065\">&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 23865
+  },
+  {
+   "_id": 23868,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>To correct the quotient bit that was wrongly set<br data-end=\"174\" data-start=\"171\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>To revert <strong data-end=\"18\" data-start=\"13\">A</strong> to its previous valid state before the failed trial</p>\n",
+   "OPT_3": "<p>To adjust the divisor for the next iteration</p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p>To normalize the result for floating-point needs</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"132\" data-start=\"79\">In the restoring division algorithm for unsigned binary numbers, what is the purpose of the &ldquo;restore&rdquo; step&mdash;where you add the divisor back to the accumulator <strong data-end=\"162\" data-start=\"157\">A</strong> after a failed subtraction (i.e., when <strong data-end=\"207\" data-start=\"202\">A</strong> becomes negative)?</p>\n\n<p data-end=\"293\" data-start=\"134\">&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 23868
+  },
+  {
+   "_id": 25400,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Whether to shift <strong data-end=\"25\" data-start=\"20\">Q</strong> or <strong data-end=\"34\" data-is-last-node=\"\" data-start=\"29\">A</strong><br data-end=\"174\" data-start=\"171\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>Whether the subtraction was successful and if a <strong data-end=\"67\" data-start=\"51\">restore step</strong> is needed</p>\n",
+   "OPT_3": "<p>Whether the divisor <strong data-end=\"28\" data-start=\"23\">M</strong> should be doubled</p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p>Whether the next quotient bit should be forced to zero regardlessWhether the next quotient bit should be forced to zero regardless</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"132\" data-start=\"79\">In the restoring division algorithm for unsigned binary numbers, what does the comparison with zero after subtracting the divisor (i.e., checking <strong data-end=\"155\" data-start=\"146\">A &ge; 0</strong> or <strong data-end=\"168\" data-start=\"159\">A &lt; 0</strong>) determine?</p>\n\n<p data-end=\"132\" data-start=\"79\">&nbsp;</p>\n\n<p data-end=\"293\" data-start=\"134\">&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 25400
+  }
+ ],
+ "sq": [
+  {
+   "_id": 25218,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th align=\"center\">Cycle</th>\n\t\t\t<th align=\"center\">Shift A,Q</th>\n\t\t\t<th align=\"center\">A &larr; A &ndash; M?</th>\n\t\t\t<th align=\"center\">MSB of A?</th>\n\t\t\t<th align=\"center\">Q\u2080</th>\n\t\t\t<th align=\"center\">A after restore (if needed)</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td align=\"center\">1</td>\n\t\t\t<td align=\"center\">A=00000&rarr;00000; Q=10101&rarr;01010</td>\n\t\t\t<td align=\"center\">A &ndash; M = 00000&ndash;00011 = 11101\u2082</td>\n\t\t\t<td align=\"center\">MSB=1 (neg)</td>\n\t\t\t<td align=\"center\">Q\u2080=0</td>\n\t\t\t<td align=\"center\">Restore: A&larr;00000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">2</td>\n\t\t\t<td align=\"center\">A=00000&rarr;00000; Q=01010&rarr;10100</td>\n\t\t\t<td align=\"center\">A &ndash; M = 00000&ndash;00011 = 11101\u2082</td>\n\t\t\t<td align=\"center\">MSB=1</td>\n\t\t\t<td align=\"center\">Q\u2080=0</td>\n\t\t\t<td align=\"center\">Restore: A&larr;00000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">3</td>\n\t\t\t<td align=\"center\">A=00000&rarr;00000; Q=10100&rarr;01000</td>\n\t\t\t<td align=\"center\">A &ndash; M = 00000&ndash;00011 = 11101\u2082</td>\n\t\t\t<td align=\"center\">MSB=1</td>\n\t\t\t<td align=\"center\">Q\u2080=0</td>\n\t\t\t<td align=\"center\">Restore: A&larr;00000</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">4</td>\n\t\t\t<td align=\"center\">A=00000&rarr;00000; Q=01000&rarr;10000</td>\n\t\t\t<td align=\"center\">A &ndash; M = 00000&ndash;00011 = 11101\u2082</td>\n\t\t\t<td align=\"center\">MSB=1</td>\n\t\t\t<td align=\"center\">Q\u2080=0</td>\n\t\t\t<td align=\"center\">Restore: A&larr;00000</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>&nbsp;</p>\n\n<ul>\n\t<li data-end=\"1134\" data-start=\"1077\">\n\t<p data-end=\"1134\" data-start=\"1079\"><strong data-end=\"1095\" data-start=\"1079\">Quotient (Q)</strong> bits after 4 cycles: <strong data-end=\"1126\" data-start=\"1117\">0000\u2082</strong> = 0\u2081\u2080</p>\n\t</li>\n\t<li data-end=\"1172\" data-start=\"1135\">\n\t<p data-end=\"1172\" data-start=\"1137\"><strong data-end=\"1154\" data-start=\"1137\">Remainder (A)</strong>: <strong data-end=\"1166\" data-start=\"1156\">00000\u2082</strong> = 0\u2081\u2080</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Using restoring division, divide <strong data-end=\"601\" data-start=\"586\">10101\u2082 (21)</strong> by <strong data-end=\"618\" data-start=\"605\">0011\u2082 (3)</strong>. Show <strong data-end=\"642\" data-start=\"625\">4 full cycles</strong>, listing A, Q, the operation (add/sub), and new Q\u2080 bit each step.</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 25218
+  },
+  {
+   "_id": 25219,
+   "ANSWER": "<p>You need <strong data-end=\"21\" data-start=\"9\">n cycles</strong> for an n\u2011bit dividend to complete the process</p>\n\n<p>&nbsp;\n<p>&nbsp;</p>\n</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>How many cycles are required when dividing an n\u2011bit dividend?</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 25219
+  }
+ ],
+ "lq": [
+  {
+   "_id": 25239,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th align=\"center\">Cycle</th>\n\t\t\t<th>Step</th>\n\t\t\t<th>Shifted A\u2016Q</th>\n\t\t\t<th>A (after shift)</th>\n\t\t\t<th>Operation</th>\n\t\t\t<th>A (after op)</th>\n\t\t\t<th align=\"center\">Q\u2080</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td align=\"center\">1</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>000000&nbsp;110110 &rarr; 000000&nbsp;110110</td>\n\t\t\t<td>000000</td>\n\t\t\t<td>&minus;M: 000000 &minus; 00101 = 111011\u2082</td>\n\t\t\t<td>111011</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td>&nbsp;</td>\n\t\t\t<td align=\"center\">&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">2</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>111011&nbsp;10110 &rarr; 111011&nbsp;10110</td>\n\t\t\t<td>110111</td>\n\t\t\t<td>+M: 110111 + 00101 = 111100\u2082</td>\n\t\t\t<td>111100</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">3</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>111100&nbsp;0110 &rarr; 111100&nbsp;0110</td>\n\t\t\t<td>111000</td>\n\t\t\t<td>+M: 111000 + 00101 = 111101\u2082</td>\n\t\t\t<td>111101</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">4</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>111101&nbsp;110 &rarr; 111101&nbsp;110</td>\n\t\t\t<td>111011</td>\n\t\t\t<td>+M: 111011 + 00101 = 111110\u2082</td>\n\t\t\t<td>111110</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">5</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>111110&nbsp;10 &rarr; 111110&nbsp;10</td>\n\t\t\t<td>111100</td>\n\t\t\t<td>+M: 111100 + 00101 = 000001\u2082 (overflow)</td>\n\t\t\t<td>000001</td>\n\t\t\t<td align=\"center\">1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">6</td>\n\t\t\t<td>Shift</td>\n\t\t\t<td>000001&nbsp;0 &rarr; 000001&nbsp;0</td>\n\t\t\t<td>000010</td>\n\t\t\t<td>&minus;M: 000010 &minus; 00101 = 111101\u2082</td>\n\t\t\t<td>111101</td>\n\t\t\t<td align=\"center\">0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td align=\"center\">Final</td>\n\t\t\t<td>Correction if A &lt; 0</td>\n\t\t\t<td>&mdash;</td>\n\t\t\t<td>111101</td>\n\t\t\t<td>+M: 111101 + 00101 = 000010\u2082</td>\n\t\t\t<td><strong>000010</strong></td>\n\t\t\t<td align=\"center\">&mdash;</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 5,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"314\" data-start=\"252\"><strong data-end=\"314\" data-start=\"252\">Perform Restoring Division of unsigned binary numbers:</strong></p>\n\n<p><code>Dividend = 110110\u2082 (decimal 54) Divisor = 00101\u2082 (decimal 5)</code></p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "lq",
+   "key": 25239
+  }
+ ]
+}

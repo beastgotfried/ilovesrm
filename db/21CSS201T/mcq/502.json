@@ -1,0 +1,142 @@
+{
+ "mcq": [
+  {
+   "_id": 21742,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>High latency in sequential execution</p>\n",
+   "OPT_2": "<p>Code portability across different mobile platforms</p>\n",
+   "OPT_3": "<p>Load balancing among processors</p>\n",
+   "OPT_4": "<p>Maintaining single-threaded code</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a common challenge in parallel computing systems?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 21742
+  },
+  {
+   "_id": 21744,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>It increases the size of the processor</p>\n",
+   "OPT_2": "<p>It prevents instructions from executing simultaneously</p>\n",
+   "OPT_3": "<p>It eliminates the need for inter-process communication</p>\n",
+   "OPT_4": "<p>It reduces hardware complexity</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Why is data dependency a challenge in parallel systems?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 21744
+  },
+  {
+   "_id": 21745,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Increase the number of threads</p>\n",
+   "OPT_2": "<p>Use synchronization mechanisms like mutex or semaphores</p>\n",
+   "OPT_3": "<p>Ignore shared memory access</p>\n",
+   "OPT_4": "<p>Add redundant code to each process</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>You are designing a parallel algorithm. Which technique would you use to avoid race conditions?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 21745
+  },
+  {
+   "_id": 21762,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OPT_1": "<p>Increasing the number of processors decreases performance</p>\n",
+   "OPT_2": "<p>Memory access time remains constant regardless of processors</p>\n",
+   "OPT_3": "<p>All processes execute independently with no dependencies</p>\n",
+   "OPT_4": "<p>A system successfully completes a task faster with more processors</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which situation best illustrates a scalability issue in a parallel system?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 21762
+  },
+  {
+   "_id": 21764,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 5,
+   "OPT_1": "<p>Increase the number of shared variables</p>\n",
+   "OPT_2": "<p>Use a centralized control model</p>\n",
+   "OPT_3": "<p>Minimize inter-process communication by restructuring data locality</p>\n",
+   "OPT_4": "<p>Allow uncontrolled memory access</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following would be the best strategy to improve parallel system performance when communication overhead is high?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 21764
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28863,
+   "ANSWER": "<h2 data-end=\"150\" data-start=\"106\"><strong data-end=\"148\" data-start=\"109\">Instruction Level Parallelism (ILP)</strong></h2>\n\n<p data-end=\"438\" data-start=\"152\"><strong data-end=\"167\" data-start=\"152\">Definition:</strong><br data-end=\"170\" data-start=\"167\" />\nInstruction Level Parallelism is the ability of a processor to execute <strong data-end=\"281\" data-start=\"241\">multiple instructions simultaneously</strong> during a single clock cycle. It exploits parallelism inherent in a sequence of instructions to improve performance <strong data-end=\"435\" data-start=\"397\">without changing the program logic</strong>.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Discuss about Instruction level parallelism (ILP) with an example.</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 28863
+  },
+  {
+   "_id": 28864,
+   "ANSWER": "<p data-end=\"188\" data-start=\"171\"><strong data-end=\"186\" data-start=\"171\">Definition:</strong></p>\n\n<ul data-end=\"366\" data-start=\"189\">\n\t<li data-end=\"312\" data-start=\"189\">\n\t<p data-end=\"312\" data-start=\"191\">In <strong data-end=\"222\" data-start=\"194\">load/store architectures</strong> (e.g., ARM, MIPS), only <strong data-end=\"255\" data-start=\"247\">load</strong> and <strong data-end=\"269\" data-start=\"260\">store</strong> instructions can directly access memory.</p>\n\t</li>\n\t<li data-end=\"366\" data-start=\"313\">\n\t<p data-end=\"366\" data-start=\"315\">Other instructions operate only on <strong data-end=\"363\" data-start=\"350\">registers</strong>.</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"397\" data-start=\"373\"><strong data-end=\"397\" data-start=\"377\">Load Instruction</strong></h3>\n\n<ul data-end=\"733\" data-start=\"398\">\n\t<li data-end=\"466\" data-start=\"398\">\n\t<p data-end=\"466\" data-start=\"400\"><strong data-end=\"412\" data-start=\"400\">Purpose:</strong> Transfers data <strong data-end=\"443\" data-start=\"428\">from memory</strong> into a CPU register.</p>\n\t</li>\n\t<li data-end=\"569\" data-start=\"467\">\n\t<p data-end=\"569\" data-start=\"469\">Allows the processor to work with data at high speed, since registers are much faster than memory.</p>\n\t</li>\n\t<li data-end=\"652\" data-start=\"570\">\n\t<p data-end=\"593\" data-start=\"572\"><strong data-end=\"591\" data-start=\"572\">Example (MIPS):</strong></p>\n\n\t<pre data-end=\"652\" data-start=\"596\">\n\n&nbsp;</pre>\n\n\t<p>scss</p>\n\n\t<p><button aria-label=\"Copy\">Copy</button><button>Edit</button></p>\n\n\t<p><code>LOAD R1, 1000(R2) ; R1 &larr; Memory[R2 + 1000] </code></p>\n\t</li>\n\t<li data-end=\"733\" data-start=\"653\">\n\t<p data-end=\"733\" data-start=\"655\">Here, the value at address <code data-end=\"695\" data-start=\"682\">(R2 + 1000)</code> in memory is loaded into register R1.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"738\" data-start=\"735\" />\n<h3 data-end=\"765\" data-start=\"740\"><strong data-end=\"765\" data-start=\"744\">Store Instruction</strong></h3>\n\n<ul data-end=\"1051\" data-start=\"766\">\n\t<li data-end=\"830\" data-start=\"766\">\n\t<p data-end=\"830\" data-start=\"768\"><strong data-end=\"780\" data-start=\"768\">Purpose:</strong> Transfers data <strong data-end=\"815\" data-start=\"796\">from a register</strong> into memory.</p>\n\t</li>\n\t<li data-end=\"894\" data-start=\"831\">\n\t<p data-end=\"894\" data-start=\"833\">Used to save results back to main memory after computation.</p>\n\t</li>\n\t<li data-end=\"977\" data-start=\"895\">\n\t<p data-end=\"918\" data-start=\"897\"><strong data-end=\"916\" data-start=\"897\">Example (MIPS):</strong></p>\n\n\t<pre data-end=\"977\" data-start=\"921\">\n\n&nbsp;</pre>\n\n\t<p>&nbsp;</p>\n\n\t<p><button aria-label=\"Copy\">Copy</button><button>Edit</button></p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain the purpose of load and store instruction in Computer Architecture.&nbsp;</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 28864
+  }
+ ],
+ "lq": [
+  {
+   "_id": 37192,
+   "ANSWER": "<p data-end=\"507\" data-start=\"173\">Parallelism in computing refers to performing multiple tasks or operations at the same time to increase speed and efficiency. There are different types of parallelism based on how tasks are divided and executed. The two fundamental types are <strong data-end=\"449\" data-start=\"429\">Data Parallelism</strong> and <strong data-end=\"474\" data-start=\"454\">Task Parallelism</strong>, along with hybrid approaches.</p>\n\n<hr data-end=\"512\" data-start=\"509\" />\n<h4 data-end=\"544\" data-start=\"514\">1. <strong data-end=\"542\" data-start=\"522\">Data Parallelism</strong></h4>\n\n<ul data-end=\"1213\" data-start=\"545\">\n\t<li data-end=\"733\" data-start=\"545\">\n\t<p data-end=\"733\" data-start=\"547\"><strong data-end=\"562\" data-start=\"547\">Definition:</strong> Data parallelism focuses on distributing subsets of the same data across multiple processors, and each processor performs the same operation on its portion of the data.</p>\n\t</li>\n\t<li data-end=\"874\" data-start=\"734\">\n\t<p data-end=\"874\" data-start=\"736\"><strong data-end=\"753\" data-start=\"736\">How it works:</strong> A single large dataset is divided into smaller chunks, and identical operations are applied to each chunk in parallel.</p>\n\t</li>\n\t<li data-end=\"1213\" data-start=\"875\">\n\t<p data-end=\"891\" data-start=\"877\"><strong data-end=\"889\" data-start=\"877\">Example:</strong></p>\n\n\t<ul data-end=\"1213\" data-start=\"894\">\n\t\t<li data-end=\"1071\" data-start=\"894\">\n\t\t<p data-end=\"1071\" data-start=\"896\">In image processing, if we need to apply a filter to every pixel of an image, the image can be divided into sections, and each processor works on one section simultaneously.</p>\n\t\t</li>\n\t\t<li data-end=\"1213\" data-start=\"1074\">\n\t\t<p data-end=\"1213\" data-start=\"1076\">In Machine Learning, training data is divided across processors so that each processor updates the model using its own portion of data.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1218\" data-start=\"1215\" />\n<h4 data-end=\"1250\" data-start=\"1220\">2. <strong data-end=\"1248\" data-start=\"1228\">Task Parallelism</strong></h4>\n\n<ul data-end=\"1908\" data-start=\"1251\">\n\t<li data-end=\"1474\" data-start=\"1251\">\n\t<p data-end=\"1474\" data-start=\"1253\"><strong data-end=\"1268\" data-start=\"1253\">Definition:</strong> Task parallelism (also called functional parallelism) is based on distributing different tasks or functions across multiple processors, where each processor performs a different operation simultaneously.</p>\n\t</li>\n\t<li data-end=\"1600\" data-start=\"1475\">\n\t<p data-end=\"1600\" data-start=\"1477\"><strong data-end=\"1494\" data-start=\"1477\">How it works:</strong> Each processor executes a unique task, but tasks may need to communicate or share data with each other.</p>\n\t</li>\n\t<li data-end=\"1908\" data-start=\"1601\">\n\t<p data-end=\"1617\" data-start=\"1603\"><strong data-end=\"1615\" data-start=\"1603\">Example:</strong></p>\n\n\t<ul data-end=\"1908\" data-start=\"1620\">\n\t\t<li data-end=\"1778\" data-start=\"1620\">\n\t\t<p data-end=\"1778\" data-start=\"1622\">In a web server, one processor handles database queries, another processor handles user authentication, while another handles file uploads simultaneously.</p>\n\t\t</li>\n\t\t<li data-end=\"1908\" data-start=\"1781\">\n\t\t<p data-end=\"1908\" data-start=\"1783\">In video games, one processor manages graphics rendering, another handles audio, and another controls physics calculations.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1913\" data-start=\"1910\" />\n<h4 data-end=\"1981\" data-start=\"1915\">3. <strong data-end=\"1979\" data-start=\"1923\">Pipeline Parallelism (Instruction-Level Parallelism)</strong></h4>\n\n<ul data-end=\"2632\" data-start=\"1982\">\n\t<li data-end=\"2189\" data-start=\"1982\">\n\t<p data-end=\"2189\" data-start=\"1984\"><strong data-end=\"1999\" data-start=\"1984\">Definition:</strong> In pipeline parallelism, a sequence of operations is divided into stages, where each stage is executed by a different processor, and the output of one stage becomes the input of the next.</p>\n\t</li>\n\t<li data-end=\"2373\" data-start=\"2190\">\n\t<p data-end=\"2373\" data-start=\"2192\"><strong data-end=\"2209\" data-start=\"2192\">How it works:</strong> Similar to an assembly line, while one processor completes the first step for a task, another processor is already working on the next step for a different task.</p>\n\t</li>\n\t<li data-end=\"2632\" data-start=\"2374\">\n\t<p data-end=\"2390\" data-start=\"2376\"><strong data-end=\"2388\" data-start=\"2376\">Example:</strong></p>\n\n\t<ul data-end=\"2632\" data-start=\"2393\">\n\t\t<li data-end=\"2523\" data-start=\"2393\">\n\t\t<p data-end=\"2523\" data-start=\"2395\">In CPU instruction pipelines, while one instruction is being decoded, another is being fetched, and a third is being executed.</p>\n\t\t</li>\n\t\t<li data-end=\"2632\" data-start=\"2526\">\n\t\t<p data-end=\"2632\" data-start=\"2528\">In video streaming, one unit fetches data, another decodes it, and another displays it simultaneously.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"2637\" data-start=\"2634\" />\n<h4 data-end=\"2671\" data-start=\"2639\">4. <strong data-end=\"2669\" data-start=\"2647\">Hybrid Parallelism</strong></h4>\n\n<ul data-end=\"3004\" data-start=\"2672\">\n\t<li data-end=\"2784\" data-start=\"2672\">\n\t<p data-end=\"2784\" data-start=\"2674\"><strong data-end=\"2689\" data-start=\"2674\">Definition:</strong> Hybrid parallelism combines data and task parallelism to utilize resources more effectively.</p>\n\t</li>\n\t<li data-end=\"3004\" data-start=\"2785\">\n\t<p data-end=\"2801\" data-start=\"2787\"><strong data-end=\"2799\" data-start=\"2787\">Example:</strong></p>\n\n\t<ul data-end=\"3004\" data-start=\"2804\">\n\t\t<li data-end=\"3004\" data-start=\"2804\">\n\t\t<p data-end=\"3004\" data-start=\"2806\">In weather forecasting, data parallelism is used to divide large geographical datasets, while task parallelism is used for different weather models like temperature, wind, and rainfall prediction.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain the types of parallelism with suitable examples.</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "lq",
+   "key": 37192
+  }
+ ]
+}

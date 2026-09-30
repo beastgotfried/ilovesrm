@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11323,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Derivatives and integrals</p>\n",
+   "OPT_2": "<p>File paths</p>\n",
+   "OPT_3": "<p>Network routes</p>\n",
+   "OPT_4": "<p>JSON data</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>SymPy can compute:</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 11323
+  },
+  {
+   "_id": 11326,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>The value as input approaches some point</p>\n",
+   "OPT_2": "<p>The maximum memory</p>\n",
+   "OPT_3": "<p>The largest string length</p>\n",
+   "OPT_4": "<p>The final file in directory</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Limit in calculus means:</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 11326
+  },
+  {
+   "_id": 11327,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>It gives symbolic results rather than numeric approximation</p>\n",
+   "OPT_2": "<p>It reads text files</p>\n",
+   "OPT_3": "<p>It connects to database</p>\n",
+   "OPT_4": "<p>It generates random numbers</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1131\" data-start=\"1089\">Why use SymPy for calculus operations?</strong><br data-end=\"1134\" data-start=\"1131\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 11327
+  },
+  {
+   "_id": 11328,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Antiderivatives</p>\n",
+   "OPT_2": "<p>File sizes</p>\n",
+   "OPT_3": "<p>String lengths</p>\n",
+   "OPT_4": "<p>JSON objects</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1572\" data-start=\"1533\">Integration in SymPy helps compute:</strong><br data-end=\"1575\" data-start=\"1572\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 11328
+  },
+  {
+   "_id": 11329,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Solve math problems</p>\n",
+   "OPT_2": "<p>Sort numbers</p>\n",
+   "OPT_3": "<p>Compress files</p>\n",
+   "OPT_4": "<p>Display images</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1887\" data-start=\"1846\">A symbolic series sum can be used to:</strong><br data-end=\"1890\" data-start=\"1887\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "mcq",
+   "key": 11329
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11402,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span>The derivative is&nbsp;<span class=\"math-tex\">\\(3x^2\\)</span><span id=\"cke_bm_38344E\" style=\"display: none;\">&nbsp;</span></p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1639\" data-start=\"1588\">How do you differentiate&nbsp;<span class=\"math-tex\">\\(x^3\\)</span> using Sympy?</strong><br data-end=\"1642\" data-start=\"1639\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "sq",
+   "key": 11402
+  },
+  {
+   "_id": 11403,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span>The limit is 0.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1764\" data-start=\"1679\">What does Sympy return for the limit of&nbsp;<span class=\"math-tex\">\\(1/x \\)</span>&nbsp;as <span class=\"math-tex\">\\(x\\)</span>&nbsp;approaches infinity?</strong><br data-end=\"1767\" data-start=\"1764\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "sq",
+   "key": 11403
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11421,
+   "ANSWER": "<p data-end=\"2008\" data-start=\"1821\">&nbsp;</p>\n\n<p data-end=\"2008\" data-start=\"1821\">Symbolic programming automates calculus operations without manual steps. Using Sympy:</p>\n\n<p>from sympy import symbols, diff, integrate, limit</p>\n\n<p>x = symbols(&#39;x&#39;)<br />\nf = x**3</p>\n\n<p>d = diff(f, x)<br />\ni = integrate(f, x)<br />\nl = limit(1/x, x, float(&#39;inf&#39;))</p>\n\n<p>print(d) &nbsp;# 3*x**2<br />\nprint(i) &nbsp;# x**4/4<br />\nprint(l) &nbsp;# 0<br />\n&nbsp;</p>\n\n<p data-end=\"4596\" data-start=\"4470\">This analysis shows how symbolic tools can solve problems exactly, unlike numerical methods which may involve rounding errors.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Analyze the use of symbolic programming in solving calculus problems like differentiation, integration, and limits.</p>\n",
+   "SESSION_ID": 506,
+   "TYPE": "lq",
+   "key": 11421
+  }
+ ]
+}

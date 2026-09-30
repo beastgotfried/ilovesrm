@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11300,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Multiple start states</p>\n",
+   "OPT_2": "<p>One start state</p>\n",
+   "OPT_3": "<p>No final states</p>\n",
+   "OPT_4": "<p>All states are final</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>A DFA has:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 11300
+  },
+  {
+   "_id": 11301,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Transitions are random</p>\n",
+   "OPT_2": "<p>Transitions are uniquely defined for each input symbol</p>\n",
+   "OPT_3": "<p>Transitions are unpredictable</p>\n",
+   "OPT_4": "<p>States are not labeled</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>DFA is deterministic because:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 11301
+  },
+  {
+   "_id": 11302,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>No final states</p>\n",
+   "OPT_2": "<p>Final state representing last two symbols = &#39;01&#39;</p>\n",
+   "OPT_3": "<p>One state only</p>\n",
+   "OPT_4": "<p>All states final</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>A DFA for strings ending with &#39;01&#39; will have:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 11302
+  },
+  {
+   "_id": 11303,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Outputs</p>\n",
+   "OPT_2": "<p>Input alphabets</p>\n",
+   "OPT_3": "<p>States and their transitions for each symbol</p>\n",
+   "OPT_4": "<p>Stack operations</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What does a transition table specify?</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 11303
+  },
+  {
+   "_id": 11304,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>It halted without consuming input</p>\n",
+   "OPT_2": "<p>It did not end in a final state</p>\n",
+   "OPT_3": "<p>It ended in a final state</p>\n",
+   "OPT_4": "<p>It crashed</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>If a DFA rejects an input, it means:</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "mcq",
+   "key": 11304
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11394,
+   "ANSWER": "<p>DFA has exactly one transition for each symbol from a state, while NFA can have multiple or no transitions for a symbol.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"486\" data-start=\"434\">What is the main difference between DFA and NFA?</strong><br data-end=\"489\" data-start=\"486\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 11394
+  },
+  {
+   "_id": 11395,
+   "ANSWER": "<p>A finite automaton accepts a string if it ends in an accepting (final) state after reading all input symbols.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"666\" data-start=\"617\">When does a finite automaton accept a string?</strong><br data-end=\"669\" data-start=\"666\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "sq",
+   "key": 11395
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11417,
+   "ANSWER": "<p data-end=\"1157\" data-start=\"1063\">For DFA, we must define transitions for every symbol from each state. DFA needs:</p>\n\n<ul data-end=\"1212\" data-start=\"1158\">\n\t<li data-end=\"1170\" data-start=\"1158\">\n\t<p data-end=\"1170\" data-start=\"1160\">q0 (start)</p>\n\t</li>\n\t<li data-end=\"1186\" data-start=\"1171\">\n\t<p data-end=\"1186\" data-start=\"1173\">q1 (seen &lsquo;a&rsquo;)</p>\n\t</li>\n\t<li data-end=\"1212\" data-start=\"1187\">\n\t<p data-end=\"1212\" data-start=\"1189\">q2 (seen &lsquo;ab&rsquo; &rarr; accept)</p>\n\t</li>\n</ul>\n\n<p data-end=\"1232\" data-start=\"1214\">DFA transitions:</p>\n\n<ul data-end=\"1340\" data-start=\"1233\">\n\t<li data-end=\"1250\" data-start=\"1233\">\n\t<p data-end=\"1250\" data-start=\"1235\">&delta;(q0, a) = q1</p>\n\t</li>\n\t<li data-end=\"1268\" data-start=\"1251\">\n\t<p data-end=\"1268\" data-start=\"1253\">&delta;(q0, b) = q0</p>\n\t</li>\n\t<li data-end=\"1286\" data-start=\"1269\">\n\t<p data-end=\"1286\" data-start=\"1271\">&delta;(q1, a) = q1</p>\n\t</li>\n\t<li data-end=\"1304\" data-start=\"1287\">\n\t<p data-end=\"1304\" data-start=\"1289\">&delta;(q1, b) = q2</p>\n\t</li>\n\t<li data-end=\"1322\" data-start=\"1305\">\n\t<p data-end=\"1322\" data-start=\"1307\">&delta;(q2, a) = q1</p>\n\t</li>\n\t<li data-end=\"1340\" data-start=\"1323\">\n\t<p data-end=\"1340\" data-start=\"1325\">&delta;(q2, b) = q0</p>\n\t</li>\n</ul>\n\n<p data-end=\"1386\" data-start=\"1342\">NFA can use &epsilon;-transitions or nondeterminism:</p>\n\n<ul data-end=\"1533\" data-start=\"1387\">\n\t<li data-end=\"1533\" data-start=\"1387\">\n\t<p data-end=\"1533\" data-start=\"1389\">From start, go to state that expects &lsquo;a&rsquo; &rarr; &lsquo;b&rsquo; without specifying full transitions.<br />\n\tNFA accepts &lsquo;ab&rsquo; but can also be in multiple states at once.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1623\" data-start=\"1535\">Hence, NFA is more flexible but harder to simulate manually; DFA is rigid but efficient.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Analyze how DFA and NFA differ in terms of state transitions and acceptance behavior using an example language L = {strings over {a, b} ending with &lsquo;ab&rsquo;}.</p>\n",
+   "SESSION_ID": 502,
+   "TYPE": "lq",
+   "key": 11417
+  }
+ ]
+}

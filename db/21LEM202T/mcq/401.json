@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 31496,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Understanding cultural diversity</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Accepting the dominance of nature</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Experiencing the mutual relationship and interdependence of all entities in existence</span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Adapting to competitive environments</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Realization of Co-existence primarily refers to&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 31496
+  },
+  {
+   "_id": 31497,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Fulfilling only physical needs</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Living in isolation to find peace</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Living with clarity in thought, harmony in behavior, and participation in mutual fulfilment</span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Achieving individual success at any cost</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which of the following best represents holistic living?&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 31497
+  },
+  {
+   "_id": 31499,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">What feels right to an individual at any given moment is ethically sound.</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">There are inherent human values and principles that resonate with our innate understanding of what is right.</span></span></span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Ethical behavior is solely learned through societal conditioning and cultural transmission.</span></span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Individuals should always prioritize their immediate desires and instincts</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The role of natural acceptance in determining ethical human conduct suggests that:&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 31499
+  },
+  {
+   "_id": 31500,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Prioritizing material accumulation above all else.</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Recognizing the inherent interconnectedness of all units in space</span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Believing that consciousness arises solely from chemical processes in the brain.</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Viewing nature as a collection of separate, unrelated entities</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which of the following is a key aspect of understanding existence as co-existence?&nbsp;</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 31500
+  },
+  {
+   "_id": 31501,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It leads to conflict with others</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It helps justify any behavior</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It promotes harmony within and with others</span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">It limits one&rsquo;s personal freedom</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">What is the implication of having Right Understanding in one&rsquo;s life?&nbsp;</span></span></span></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 31501
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36440,
+   "ANSWER": "<p>It means realizing that existence is a continuous, interconnected whole where every entity (living and non-living) coexists in harmony.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What is meant by comprehensive understanding of existence?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 36440
+  },
+  {
+   "_id": 36441,
+   "ANSWER": "<p>Nature is a part of existence, consisting of material, plants, animals, and humans. Understanding existence includes recognizing how all these entities are interrelated.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>How is &lsquo;nature&rsquo; included in the understanding of existence?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 36441
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122513,
+   "ANSWER": "<p>Nature is understood as a collection of units organised in four orders: physical order, bio/pranic order, animal order and human order. The physical order includes soil, metal, water and air. The bio order includes plants and trees. The animal order includes animals and birds. The human order includes human beings. Each order has its own activity, innateness and inheritance. The first three orders are already in definite conduct and are mutually fulfilling for one another. For example, plants depend on soil, water and air, while they also enrich the environment. Animals depend on plants and the physical order, and they also participate in nature&rsquo;s cycles. The human being has the capacity to understand this harmony and live accordingly. Therefore, harmony in nature means recognising the interconnectedness and mutual fulfilment among all four orders, and ensuring that human participation does not disturb this order</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain harmony in nature through the four orders.</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "lq",
+   "key": 122513
+  }
+ ]
+}

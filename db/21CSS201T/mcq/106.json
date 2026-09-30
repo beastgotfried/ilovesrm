@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 27614,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>0001</p>\n",
+   "OPT_2": "<p>1111</p>\n",
+   "OPT_3": "<p>0010</p>\n",
+   "OPT_4": "<p>1000</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Aptos,sans-serif\"><b>Subtract (+3) &minus; (+2) using 4-bit sign-magnitude:</b></span></span></span></p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 27614
+  },
+  {
+   "_id": 27615,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>0111</p>\n",
+   "OPT_2": "<p>0010</p>\n",
+   "OPT_3": "<p>1111</p>\n",
+   "OPT_4": "<p>0101</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Subtract (+4) &minus; (&minus;3) using 4-bit sign-magnitude:</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 27615
+  },
+  {
+   "_id": 27616,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1011</p>\n",
+   "OPT_2": "<p>1111</p>\n",
+   "OPT_3": "<p>1101</p>\n",
+   "OPT_4": "<p>0001</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Subtract (&minus;5) &minus; (+2) using 4-bit sign-magnitude:</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 27616
+  },
+  {
+   "_id": 27617,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>1001</p>\n",
+   "OPT_2": "<p>0001</p>\n",
+   "OPT_3": "<p>1111</p>\n",
+   "OPT_4": "<p>1001</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Subtract (&minus;3) &minus; (&minus;2) using 4-bit sign-magnitude:</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 27617
+  },
+  {
+   "_id": 27618,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>0010</p>\n",
+   "OPT_2": "<p>1110</p>\n",
+   "OPT_3": "<p>0110</p>\n",
+   "OPT_4": "<p>1000</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Subtract (+2) &minus; (+4) using 4-bit sign-magnitude:</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 27618
+  }
+ ],
+ "sq": [
+  {
+   "_id": 27596,
+   "ANSWER": "<p>+7 in binary = 0111<br data-end=\"284\" data-start=\"281\" />\n&ndash;2 in binary = 1110 (2&rsquo;s complement of 0010)<br data-end=\"331\" data-start=\"328\" />\nAdd:</p>\n\n<p>&nbsp; 0111 &nbsp;<br />\n+ 1110 &nbsp;<br />\n= 10101 &nbsp;<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Add the signed binary numbers +7 and &ndash;2 using 2&rsquo;s complement (4-bit representation).</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "sq",
+   "key": 27596
+  },
+  {
+   "_id": 27597,
+   "ANSWER": "<p>&nbsp; 1100 &nbsp;<br />\n+ 1101 &nbsp;<br />\n= 11001 &nbsp;<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Add the signed binary numbers &ndash;4 and &ndash;3 using 2&rsquo;s complement (4-bit representation).</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "sq",
+   "key": 27597
+  }
+ ],
+ "lq": [
+  {
+   "_id": 27595,
+   "ANSWER": "<h3 data-end=\"806\" data-start=\"754\">Step 1: Convert -35 to 8-bit 2&rsquo;s complement</h3>\n\n<p>+35 (Binary) &nbsp; &nbsp; = 00100011<br />\n1&#39;s complement &nbsp; = 11011100<br />\n+1 (Add 1) &nbsp; &nbsp; &nbsp; = 00000001<br />\n-----------------------------<br />\n-35 (2&rsquo;s comp) &nbsp; = 11011101<br />\n&nbsp;</p>\n\n<p>Step 2: Convert -60 to 8-bit 2&rsquo;s complement</p>\n\n<p>+60 (Binary) &nbsp; &nbsp; = 00111100<br />\n1&#39;s complement &nbsp; = 11000011<br />\n+1 (Add 1) &nbsp; &nbsp; &nbsp; = 00000001<br />\n-----------------------------<br />\n-60 (2&rsquo;s comp) &nbsp; = 11000100<br />\n&nbsp;</p>\n\n<p>Step 3: Binary Addition</p>\n\n<p>&nbsp; 11011101 &nbsp; (-35)<br />\n+ 11000100 &nbsp; (-60)<br />\n-----------<br />\n&nbsp;110000001 &nbsp; (9 bits, discard carry)<br />\n-----------<br />\n&nbsp; 10100001 &nbsp; (8-bit sum)<br />\n&nbsp;</p>\n\n<h4 data-end=\"988\" data-start=\"954\">Step 4: Result Interpretation</h4>\n\n<p>Result = 10100001 (MSB = 1 &rarr; Negative number)</p>\n\n<p>1&#39;s complement &nbsp; = 01011110<br />\n+1 &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; = 00000001<br />\n-----------------------------<br />\nMagnitude &nbsp; &nbsp; &nbsp; &nbsp;= 01011111 &rarr; 95</p>\n\n<p>So, Final Answer = -95<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Using 8-bit 2&rsquo;s complement representation, perform the addition of two negative decimal numbers: -35 and -60. Show all steps including binary conversion, 2&rsquo;s complement representation, binary addition, and interpretation of the result. Also, explain whether overflow occurs or not.</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "lq",
+   "key": 27595
+  }
+ ]
+}

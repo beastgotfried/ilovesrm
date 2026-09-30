@@ -1,0 +1,149 @@
+{
+ "mcq": [
+  {
+   "_id": 20892,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">New</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Ready</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Compiling</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Terminated</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which of the following is NOT a valid process state in modern operating systems?</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 20892
+  },
+  {
+   "_id": 20894,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Threads do not share memory space</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Processes have no scheduling requirements</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Threads share code and data space within a process</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Processes are lightweight compared to threads</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">What is the key difference between a thread and a process?</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 20894
+  },
+  {
+   "_id": 20895,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Virtual Memory</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">System Calls</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Inter-Process Communication (IPC)</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Context Switching</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which mechanism allows processes to communicate and synchronize in a multiprogramming system?</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 20895
+  },
+  {
+   "_id": 20897,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Allocating CPU time to processes</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Managing I/O operations</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Allocating and deallocating memory spaces to processes</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Handling file system operations</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Memory management in an operating system is responsible for:</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 20897
+  },
+  {
+   "_id": 20898,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Cache Memory</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Main Memory</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Disk Storage</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">ROM</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Virtual memory is typically implemented using:</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "mcq",
+   "key": 20898
+  }
+ ],
+ "sq": [
+  {
+   "_id": 20901,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">A PCB is a data structure maintained by the operating system that contains information about a specific process, such as its process state, program counter, CPU registers, scheduling information, memory management details, and I/O status. It is essential for process switching and management.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>What is a Process Control Block (PCB) and why is it important?</strong></span></span></p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "sq",
+   "key": 20901
+  },
+  {
+   "_id": 20902,
+   "ANSWER": "<p>&nbsp;</p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Logical Address:</strong> Generated by the CPU; also called virtual address.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Physical Address:</strong> Actual location in main memory.<br />\n\tThe Memory Management Unit (MMU) translates logical addresses to physical addresses.</span></span></span></li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Differentiate between logical address and physical address.</strong></span></span></p>\n\n<ul>\n</ul>\n",
+   "SESSION_ID": 106,
+   "TYPE": "sq",
+   "key": 20902
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21199,
+   "ANSWER": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">An Operating System (OS) serves as the backbone of a computer system, managing hardware resources and providing services to application programs. Two of its most critical functions are <b>Process Management</b> and <b>Memory Management</b>. These components work together to ensure optimal performance, resource utilization, and user experience in a multi-tasking environment.</span></span></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Process Management</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Process Management is the OS&rsquo;s ability to handle the execution of processes &mdash; independent units of execution with their own program counter, registers, and state.<br />\nKey responsibilities include:</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Process Creation and Termination:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> The OS creates processes using system calls, assigns unique IDs, and removes them upon completion.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Scheduling:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> The scheduler determines which process gets CPU time, using algorithms like FCFS, SJF, or Round Robin.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Context Switching:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> The OS saves the state of a running process and loads another, enabling multitasking.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Synchronization and Communication:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Ensures that processes do not interfere with each other and communicate effectively, using mechanisms like semaphores, mutexes, and message queues.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Effective process management ensures fair CPU allocation, reduces idle time, and maximizes throughput.</span></span></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Memory Management</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Memory Management controls the allocation and deallocation of memory spaces to processes. It protects memory boundaries and optimizes physical memory usage.<br />\nCore functions include:</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Address Binding:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Mapping logical addresses to physical addresses via the Memory Management Unit (MMU).</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Allocation Strategies:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Using techniques like paging and segmentation to allocate memory without fragmentation.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Virtual Memory Management:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Extending physical memory by swapping pages between RAM and secondary storage, allowing execution of large applications.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Page Replacement Policies:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Algorithms like LRU or FIFO are used when pages need to be swapped in/out, affecting system performance.</span></span></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Memory management is crucial for ensuring that multiple processes can execute simultaneously without conflicts.</span></span></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Interaction Between Process and Memory Management</span></span></b><br />\n<span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">The two components are interdependent:</span></span></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Process Loading:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> A process must be allocated memory before execution.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Swapping and Context Switching:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> When context switches occur, memory management ensures that the process&rsquo;s data is preserved or swapped appropriately.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Virtual Memory:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Enables more processes to be in the ready queue, supporting multitasking beyond physical memory limits.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Thrashing Control:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Poor coordination between memory and process management can lead to thrashing, degrading performance.</span></span></span></span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Their coordination directly impacts CPU utilization, system throughput, and response time.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><b>Discuss the roles of Process Management and Memory Management in an Operating System. How do these two components interact to ensure efficient system performance?</b></span></span></p>\n",
+   "SESSION_ID": 106,
+   "TYPE": "lq",
+   "key": 21199
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "mcq": [
+  {
+   "_id": 52755,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\text{Elliptic}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\text{Parabolic}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\text{Hyperbolic}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{Mixed type}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{The one-dimensional wave equation } \\frac{\\partial^2 y}{\\partial t^2}=c^2\\frac{\\partial^2 y}{\\partial x^2} \\text{ is classified as:}\\)</span></p>",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 52755
+  },
+  {
+   "_id": 52756,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(X T'' = c^2 X'' T\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(X'' T = c^2 X T''\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(X' T' = c^2 X'' T\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(X T' = c^2 X' T\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{When using separation of variables for the wave equation, the assumption } y(x,t)=X(x)T(t) \\text{ leads to:}\\)</span></p>",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 52756
+  },
+  {
+   "_id": 52757,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\sum_{n=1}^\\infty B_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\cos\\left(\\frac{n\\pi c t}{l}\\right)\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\sum_{n=1}^\\infty B_n \\sin\\left(\\frac{n\\pi x}{l}\\right) \\sin\\left(\\frac{n\\pi c t}{l}\\right)\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\sum_{n=1}^\\infty B_n \\cos\\left(\\frac{n\\pi x}{l}\\right) \\cos\\left(\\frac{n\\pi c t}{l}\\right)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sum_{n=1}^\\infty B_n \\cos\\left(\\frac{n\\pi x}{l}\\right) \\sin\\left(\\frac{n\\pi c t}{l}\\right)\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For a string with zero initial displacement and non-zero initial velocity } g(x), \\text{ the general solution is:}\\)</span></p>",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 52757
+  },
+  {
+   "_id": 52758,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\text{Expanding } g(x) \\text{ in a Fourier cosine series}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\text{Expanding } g(x) \\text{ in a Fourier half-range sine series}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\text{Direct integration without expansion}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{Using the method of characteristics}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{If the initial velocity is } g(x)=\\lambda x(l-x), \\text{ the coefficients } B_n \\text{ in the wave equation solution are found by:}\\)</span></p>",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 52758
+  },
+  {
+   "_id": 52759,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(C=0 \\text{ in the time function } T(t)\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(D=0 \\text{ in the time function } T(t)\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(A=0 \\text{ in the space function } X(x)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(B=0 \\text{ in the space function } X(x)\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{In the solution for a string with non-zero initial velocity, applying the initial condition } y(x,0)=0 \\text{ leads to:}\\)</span></p>",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 52759
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52794,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Wave equation: } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Boundary conditions: } y(0,t)=0, y(l,t)=0. \\text{ Initial conditions: } y(x,0)=kx(l-x), \\frac{\\partial y}{\\partial t}(x,0)=0.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{General solution: } y(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} \\cos\\frac{n\\pi c t}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{At } t=0: kx(l-x) = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{l} \\int_0^l kx(l-x) \\sin\\frac{n\\pi x}{l} dx.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Evaluate integral: } B_n = \\frac{4kl^2}{n^3\\pi^3}[1-(-1)^n].\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Hence } y(x,t) = \\frac{8kl^2}{\\pi^3} \\sum_{n=\\text{odd}} \\frac{1}{n^3} \\sin\\frac{n\\pi x}{l} \\cos\\frac{n\\pi c t}{l}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"\"math-tex\"\">\\(\\text{A string of length } l \\text{ is fixed at both ends. It is initially displaced into the shape } y(x,0)=kx(l-x) \\text{ and released from rest. Find the displacement } y(x,t).\\)</span></p>",
+   "SESSION_ID": 304,
+   "TYPE": "sq",
+   "key": 52794
+  },
+  {
+   "_id": 52795,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Wave equation: } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Boundary conditions: } y(0,t)=0, y(l,t)=0. \\text{ Initial conditions: } y(x,0)=0, \\frac{\\partial y}{\\partial t}(x,0)=v_0 \\sin\\frac{2\\pi x}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{General solution: } y(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} \\sin\\frac{n\\pi c t}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Differentiate: } \\frac{\\partial y}{\\partial t} = \\sum_{n=1}^\\infty B_n \\frac{n\\pi c}{l} \\sin\\frac{n\\pi x}{l} \\cos\\frac{n\\pi c t}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{At } t=0: v_0 \\sin\\frac{2\\pi x}{l} = \\sum_{n=1}^\\infty B_n \\frac{n\\pi c}{l} \\sin\\frac{n\\pi x}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Equate coefficients: } B_2 \\frac{2\\pi c}{l} = v_0 \\Rightarrow B_2 = \\frac{l v_0}{2\\pi c}, \\text{ other } B_n=0.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Hence } y(x,t) = \\frac{l v_0}{2\\pi c} \\sin\\frac{2\\pi x}{l} \\sin\\frac{2\\pi c t}{l}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"\"math-tex\"\">\\(\\text{A string of length } l \\text{ is fixed at both ends. Initially in equilibrium, it is given an initial velocity } \\frac{\\partial y}{\\partial t}(x,0)=v_0 \\sin\\frac{2\\pi x}{l}. \\text{ Find } y(x,t).\\)</span></p>",
+   "SESSION_ID": 304,
+   "TYPE": "sq",
+   "key": 52795
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50394,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Classification: \\(A=1\\), \\(B=4\\), \\(C=x^2+4y^2\\). Discriminant \\(\\Delta = B^2-4AC = 16 - 4(x^2+4y^2) = 16(1 - (x^2/4 + y^2)).\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Parabolic: \\(\\Delta=0\\) \\(\\Rightarrow\\) \\(x^2/4 + y^2 =1\\) (ellipse). Elliptic: \\(\\Delta&lt;0\\) \\(\\Rightarrow\\) inside ellipse. Hyperbolic: \\(\\Delta&gt;0\\) \\(\\Rightarrow\\) outside ellipse.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Vibrating string: \\(c=2\\) (since \\(y_{tt}=4y_{xx}\\) \\(\\Rightarrow\\) \\(c^2=4\\) \\(\\Rightarrow\\) \\(c=2\\)).}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(y(x,t)= \\sum \\sin\\left(\\dfrac{n\\pi x}{5}\\right)\\left[C_n \\cos\\left(\\dfrac{2n\\pi t}{5}\\right)+D_n \\sin\\left(\\dfrac{2n\\pi t}{5}\\right)\\right].\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(y(x,0)=0\\) \\(\\Rightarrow\\) \\(C_n=0.\\) So \\(y(x,t)= \\sum D_n \\sin\\left(\\dfrac{n\\pi x}{5}\\right) \\sin\\left(\\dfrac{2n\\pi t}{5}\\right).\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>&nbsp;\n\t\t\t<p><span class=\"math-tex\">\\(\\text{\\(y_t(x,0)= \\sum D_n \\left(\\dfrac{2n\\pi}{5}\\right) \\sin\\left(\\dfrac{n\\pi x}{5}\\right) = 3 \\sin(2\\pi x) - 2 \\sin(5\\pi x).\\)}\\)</span></p>\n\t\t\t</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Compare: For \\(n=10\\) (since \\(\\sin(10\\pi x/5)=\\sin(2\\pi x))\\): \\(D_{10} \\left(\\dfrac{20\\pi}{5}\\right)=3\\) \\(\\Rightarrow\\) \\(D_{10}=\\dfrac{3}{4\\pi}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{For \\(n=25\\): \\(\\sin(25\\pi x/5)=\\sin(5\\pi x).\\) \\(D_{25} \\left(\\dfrac{50\\pi}{5}\\right) = -2\\) \\(\\Rightarrow\\) \\(D_{25} = -\\dfrac{2}{10\\pi} = -\\dfrac{1}{5\\pi}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{All other \\(D_n=0.\\) Thus \\(y(x,t)= \\dfrac{3}{4\\pi} \\sin(2\\pi x) \\sin(4\\pi t) - \\dfrac{1}{5\\pi} \\sin(5\\pi x) \\sin(10\\pi t).\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Classify the PDE: \\( u_{xx} + 4u_{xy} + (x^2+4y^2)u_{yy} = e^{x+y}.\\)}\\\\\n\\text{Determine the regions where it is elliptic, parabolic, hyperbolic.}\\\\\n\\text{Also solve the vibrating string problem: \\( y_{tt}=4y_{xx}, 00,\\)}\n\\text{with \\( y(0,t)=0, y(5,t)=0, y(x,0)=0, y_t(x,0)=3 \\sin(2\\pi x) - 2 \\sin(5\\pi x).\\)}\\)</span></p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "lq",
+   "key": 50394
+  },
+  {
+   "_id": 50395,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Wave equation: \\(c=3\\) (since \\(c^2=9\\)). Length \\(l=2\\).}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(y(x,t)= \\sum \\sin\\left(\\dfrac{n\\pi x}{2}\\right)\\left[C_n \\cos\\left(\\dfrac{3n\\pi t}{2}\\right)+D_n \\sin\\left(\\dfrac{3n\\pi t}{2}\\right)\\right].\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(y(x,0)= \\sin(\\pi x) - \\sin(2\\pi x) = \\sin\\left(\\dfrac{\\pi x}{2}\\cdot 2\\right) - \\sin\\left(\\dfrac{\\pi x}{2}\\cdot 4\\right).\\) So \\(n=2\\) and \\(n=4\\) terms.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(C_2=1\\), \\(C_4=-1\\), all other \\(C_n=0.\\) \\(y_t(x,0)=0\\) \\(\\Rightarrow\\) \\(D_n=0\\) for all \\(n\\).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Hence \\(y(x,t)= \\sin(\\pi x) \\cos(3\\pi t) - \\sin(2\\pi x) \\cos(6\\pi t).\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Classification: \\(A=y^2\\), \\(B=-2xy\\), \\(C=x^2.\\) Discriminant \\(\\Delta = 4x^2y^2 - 4y^2x^2 = 0\\) for all \\(x,y\\).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus PDE is parabolic everywhere (except possibly where coefficients vanish).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Discuss: parabolic because discriminant identically zero.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Combine results: solution of wave equation and classification of second PDE.}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Solve the boundary value problem: \\(\u00a0\\frac{\\partial^2 y}{\\partial t^2} = 9 \\frac{\\partial^2 y}{\\partial x^2}, 00,\\)}\\\\\n\\text{with \\(\u00a0y(0,t)=0, y(2,t)=0, y(x,0)= \\sin(\\pi x) - \\sin(2\\pi x), \\frac{\\partial y}{\\partial t}(x,0)=0.\\)}\\\\\n\\text{Also classify the PDE: \\(\u00a0y^2 u_{xx} - 2xy u_{xy} + x^2 u_{yy} + 2u_x - 3u = 0.\\)}\\\\\\)</span></p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "lq",
+   "key": 50395
+  }
+ ]
+}

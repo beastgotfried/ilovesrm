@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 10391,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OPT_1": "<p><code data-end=\"350\" data-start=\"341\">start()</code></p>\n",
+   "OPT_2": "<p><code data-end=\"363\" data-start=\"356\">run()</code></p>\n",
+   "OPT_3": "<p><code data-end=\"380\" data-start=\"369\">destroy()</code></p>\n",
+   "OPT_4": "<p><code data-end=\"394\" data-start=\"386\">join()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which of the following methods is <strong data-end=\"287\" data-start=\"280\">not</strong> directly involved in managing thread lifecycle?<br data-end=\"338\" data-start=\"335\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 10391
+  },
+  {
+   "_id": 10392,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>It kills the other thread</p>\n",
+   "OPT_2": "<p>It starts executing in parallel</p>\n",
+   "OPT_3": "<p>It waits for the other thread to finish</p>\n",
+   "OPT_4": "<p>It sleeps for a specified time</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>When a thread calls <code data-end=\"558\" data-start=\"550\">join()</code> on another thread, what happens?<br data-end=\"594\" data-start=\"591\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 10392
+  },
+  {
+   "_id": 10393,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><code data-end=\"969\" data-start=\"960\">sleep()</code></p>\n",
+   "OPT_2": "<p><code data-end=\"983\" data-start=\"975\">wait()</code></p>\n",
+   "OPT_3": "<p><code data-end=\"999\" data-start=\"989\">notify()</code></p>\n",
+   "OPT_4": "<p><code data-end=\"1014\" data-start=\"1005\">yield()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Which method places the current thread into <strong data-end=\"926\" data-start=\"915\">waiting</strong> state until it is notified?<br data-end=\"957\" data-start=\"954\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 10393
+  },
+  {
+   "_id": 10394,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>It releases the lock and pauses execution</p>\n",
+   "OPT_2": "<p>It does not release any lock</p>\n",
+   "OPT_3": "<p>It causes deadlock</p>\n",
+   "OPT_4": "<p>It is not allowed inside <code data-end=\"1373\" data-start=\"1359\">synchronized</code> blocks</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1481\" data-start=\"1149\">Which of the following is true about the <code data-end=\"1207\" data-start=\"1198\">sleep()</code> method in Java?<br data-end=\"1226\" data-start=\"1223\" />\n<br data-end=\"1383\" data-start=\"1380\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 10394
+  },
+  {
+   "_id": 10395,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>The object must be null</p>\n",
+   "OPT_2": "<p>The current thread must not hold the object&#39;s lock</p>\n",
+   "OPT_3": "<p>The current thread must hold the object&#39;s lock</p>\n",
+   "OPT_4": "<p><code data-end=\"1807\" data-start=\"1799\">wait()</code> can be called outside synchronized block</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"1524\" data-start=\"1488\">Consider the following code:</p>\n\n<pre data-end=\"1574\" data-start=\"1525\">\n<code>synchronized(obj) { obj.wait(); } </code></pre>\n\n<p data-end=\"1962\" data-start=\"1575\">Which of the following must also hold true for this code to execute successfully?<br data-end=\"1659\" data-start=\"1656\" />\n&nbsp;</p>\n\n<p data-end=\"1481\" data-start=\"1149\">&nbsp;</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 10395
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10396,
+   "ANSWER": "<p>The <code data-end=\"3474\" data-start=\"3460\">synchronized</code> keyword ensures mutual exclusion by allowing only one thread to access a block/method at a time. It prevents data inconsistency in concurrent environments.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>What is the role of <code data-end=\"3404\" data-start=\"3390\">synchronized</code> keyword in Java thread management?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "sq",
+   "key": 10396
+  },
+  {
+   "_id": 10397,
+   "ANSWER": "<ul data-end=\"4284\" data-start=\"4041\">\n\t<li data-end=\"4093\" data-start=\"4041\">\n\t<p data-end=\"4093\" data-start=\"4043\">One thread calls <code data-end=\"4068\" data-start=\"4060\">wait()</code> and releases the lock.</p>\n\t</li>\n\t<li data-end=\"4201\" data-start=\"4094\">\n\t<p data-end=\"4201\" data-start=\"4096\">Another thread (holding the same lock) calls <code data-end=\"4151\" data-start=\"4141\">notify()</code> or <code data-end=\"4168\" data-start=\"4155\">notifyAll()</code> to wake the waiting thread(s).</p>\n\t</li>\n\t<li data-end=\"4284\" data-start=\"4202\">\n\t<p data-end=\"4284\" data-start=\"4204\">Ensures coordination between threads, especially in producer-consumer scenarios.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4040\" data-start=\"3928\">How does inter-thread communication occur using <code data-end=\"3992\" data-start=\"3984\">wait()</code>, <code data-end=\"4004\" data-start=\"3994\">notify()</code>, and <code data-end=\"4023\" data-start=\"4010\">notifyAll()</code>?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "sq",
+   "key": 10397
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10398,
+   "ANSWER": "<p>class Account {<br />\n&nbsp; &nbsp; private int balance = 1000;</p>\n\n<p>&nbsp; &nbsp; public synchronized void withdraw(int amount) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; while (balance &lt; amount) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Insufficient balance. Waiting...&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; try {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; wait();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; } catch (InterruptedException e) {}<br />\n&nbsp; &nbsp; &nbsp; &nbsp; }<br />\n&nbsp; &nbsp; &nbsp; &nbsp; balance -= amount;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Withdrawn: &quot; + amount + &quot;, Remaining: &quot; + balance);<br />\n&nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; public synchronized void deposit(int amount) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; balance += amount;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; System.out.println(&quot;Deposited: &quot; + amount + &quot;, New Balance: &quot; + balance);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; notifyAll();<br />\n&nbsp; &nbsp; }<br />\n}</p>\n\n<p>public class BankApp {<br />\n&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; Account acc = new Account();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; Thread t1 = new Thread(() -&gt; acc.withdraw(1200));<br />\n&nbsp; &nbsp; &nbsp; &nbsp; Thread t2 = new Thread(() -&gt; acc.deposit(500));</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; t1.start();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; t2.start();<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5"
+   ],
+   "QUESTION_DESC": "<p>Design a thread-safe solution using Java&#39;s thread lifecycle methods, synchronization techniques, and inter-thread communication. Provide a class structure and sample code demonstrating withdrawal and deposit behavior using <code data-end=\"4968\" data-start=\"4954\">synchronized</code>, <code data-end=\"4978\" data-start=\"4970\">wait()</code>, and <code data-end=\"4994\" data-start=\"4984\">notify()</code>.</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "lq",
+   "key": 10398
+  }
+ ]
+}

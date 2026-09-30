@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 36753,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Only a physical body</p>\n",
+   "OPT_2": "<p>Only a conscious self</p>\n",
+   "OPT_3": "<p>Co-existence of self (consciousness) and body (material)</p>\n",
+   "OPT_4": "<p>Neither self nor body</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>A human being is best understood as:</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 36753
+  },
+  {
+   "_id": 36767,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Digestion and circulation</p>\n",
+   "OPT_2": "<p>Thinking and decision-making</p>\n",
+   "OPT_3": "<p>Desire and selection</p>\n",
+   "OPT_4": "<p>Analyzing and understanding</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which activity belongs primarily to the body?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 36767
+  },
+  {
+   "_id": 36769,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Respiration</p>\n",
+   "OPT_2": "<p>Thinking, desiring, and evaluating</p>\n",
+   "OPT_3": "<p>Growth of tissues</p>\n",
+   "OPT_4": "<p>Reflex actions</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which activity belongs primarily to the self?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 36769
+  },
+  {
+   "_id": 36770,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A material entity</p>\n",
+   "OPT_2": "<p>The knower, experiencer, and decision-maker</p>\n",
+   "OPT_3": "<p>A collection of organs</p>\n",
+   "OPT_4": "<p>A chemical process</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The self can be described as:</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 36770
+  },
+  {
+   "_id": 36771,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Physical food and material needs</p>\n",
+   "OPT_2": "<p>Thoughts and understanding</p>\n",
+   "OPT_3": "<p>Emotions only</p>\n",
+   "OPT_4": "<p>None of the above</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The body is sustained by:</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "mcq",
+   "key": 36771
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36414,
+   "ANSWER": "<p>It means that a human being is not just a physical body but also a conscious self. The body provides the physical existence, while the self provides awareness, intelligence, and identity. Both coexist to make a complete human being.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What does it mean to say that a human being is a co-existence of the self and the body?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "sq",
+   "key": 36414
+  },
+  {
+   "_id": 36416,
+   "ANSWER": "<p>The body is material, physical, and perishable, while the self is conscious, non-physical, and the source of thought, feelings, and experiences. The self observes and uses the body to interact with the world.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How does the self differ from the body in a human being?</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "sq",
+   "key": 36416
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122506,
+   "ANSWER": "<p>Justice in relationship means the recognition of relationship, fulfilment of the definite feelings in relationship, and correct evaluation of that fulfilment, leading to mutual happiness. Relationship exists naturally between human beings, but it has to be understood and fulfilled. The definite feelings in relationship include trust, respect, affection, care, guidance, reverence, glory, gratitude and love. When I understand these feelings within myself and express them appropriately to the other, the other is also able to recognise them. This recognition and fulfilment create mutual happiness. Injustice happens when these feelings are missing, wrongly expressed or wrongly evaluated. Therefore, justice is not merely a legal arrangement; it is the living fulfilment of relationship on the basis of right understanding and right feeling.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Explain justice in human-to-human relationship.</p>\n",
+   "SESSION_ID": 304,
+   "TYPE": "lq",
+   "key": 122506
+  }
+ ]
+}

@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12317,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>To delay process execution</p>\n",
+   "OPT_2": "<p>To reduce memory usage</p>\n",
+   "OPT_3": "<p>To keep the CPU idle</p>\n",
+   "OPT_4": "<p>To maximize CPU utilization</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the main goal of CPU scheduling algorithms?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 12317
+  },
+  {
+   "_id": 12318,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Based on the shortest burst time</p>\n",
+   "OPT_2": "<p>By priority level</p>\n",
+   "OPT_3": "<p>In the order they arrive</p>\n",
+   "OPT_4": "<p>By memory size</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In FCFS scheduling, how are processes selected?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 12318
+  },
+  {
+   "_id": 12319,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Starvation</p>\n",
+   "OPT_2": "<p>Complexity in implementation</p>\n",
+   "OPT_3": "<p>Convoy effect</p>\n",
+   "OPT_4": "<p>Unfair CPU allocation</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is a major disadvantage of FCFS scheduling?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 12319
+  },
+  {
+   "_id": 12321,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Round Robin</p>\n",
+   "OPT_2": "<p>SJF (preemptive)</p>\n",
+   "OPT_3": "<p>Priority Scheduling (preemptive)</p>\n",
+   "OPT_4": "<p>FCFS</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is <em data-end=\"1001\" data-start=\"985\">non-preemptive</em> in nature?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 12321
+  },
+  {
+   "_id": 12322,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>&nbsp;Short processes execute first</p>\n",
+   "OPT_2": "<p>Turnaround time reduces</p>\n",
+   "OPT_3": "<p>Convoy effect occurs</p>\n",
+   "OPT_4": "<p>CPU utilization increases</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In FCFS, what happens when a long CPU-bound process is scheduled before shorter I/O-bound processes?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 12322
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12324,
+   "ANSWER": "<table data-end=\"1878\" data-start=\"1608\">\n\t<thead data-end=\"1662\" data-start=\"1608\">\n\t\t<tr data-end=\"1662\" data-start=\"1608\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"1649\" data-start=\"1608\"><strong data-end=\"1619\" data-start=\"1610\">Point</strong></th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"1662\" data-start=\"1649\"><strong data-end=\"1660\" data-start=\"1651\">Marks</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"1878\" data-start=\"1717\">\n\t\t<tr data-end=\"1770\" data-start=\"1717\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1757\" data-start=\"1717\">Definition of Preemptive</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1770\" data-start=\"1757\">(30%)</td>\n\t\t</tr>\n\t\t<tr data-end=\"1824\" data-start=\"1771\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1811\" data-start=\"1771\">Definition of Non-preemptive</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1824\" data-start=\"1811\">(30%)</td>\n\t\t</tr>\n\t\t<tr data-end=\"1878\" data-start=\"1825\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1865\" data-start=\"1825\">One example each</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1878\" data-start=\"1865\">&nbsp;(40%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Explain preemptive and non-preemptive scheduling with examples.</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "sq",
+   "key": 12324
+  },
+  {
+   "_id": 12325,
+   "ANSWER": "<p>&nbsp;</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th><strong>Point</strong></th>\n\t\t\t<th><strong>Marks</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Convoy effect explained clearly</td>\n\t\t\t<td>(50%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Why it affects performance in FCFS</td>\n\t\t\t<td>(50%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Define Convoy Effect. Why is it considered a disadvantage in FCFS?</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "sq",
+   "key": 12325
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12327,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th><strong>Component</strong></th>\n\t\t\t<th><strong>Marks (%)</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Two different process orders clearly written</td>\n\t\t\t<td>(15%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Correct Gantt charts drawn for each order</td>\n\t\t\t<td>&nbsp;(20%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Waiting time and turnaround time correctly calculated</td>\n\t\t\t<td>&nbsp;(25%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Impact of process order explained</td>\n\t\t\t<td>&nbsp;(15%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>At least two advantages and two disadvantages stated</td>\n\t\t\t<td>&nbsp;(15%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Logical presentation and clarity</td>\n\t\t\t<td>(10%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align: justify;\">With suitable examples and Gantt charts, explain how the order of processes affects waiting time in FCFS scheduling. Include calculation of average waiting and turnaround time. Also comment on its advantages and disadvantages.</p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "lq",
+   "key": 12327
+  }
+ ]
+}

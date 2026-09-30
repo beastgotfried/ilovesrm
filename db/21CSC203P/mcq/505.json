@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11314,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Symbolic computation</p>\n",
+   "OPT_2": "<p>Web development</p>\n",
+   "OPT_3": "<p>Image processing</p>\n",
+   "OPT_4": "<p>Networking</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>SymPy is mainly used for:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 11314
+  },
+  {
+   "_id": 11316,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Expression with powers of variable</p>\n",
+   "OPT_2": "<p>A file format</p>\n",
+   "OPT_3": "<p>A GUI element</p>\n",
+   "OPT_4": "<p>A network protocol</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>A polynomial is:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 11316
+  },
+  {
+   "_id": 11317,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Provides exact symbolic result</p>\n",
+   "OPT_2": "<p>Provides random output</p>\n",
+   "OPT_3": "<p>Generates files</p>\n",
+   "OPT_4": "<p>Modifies code</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why use SymPy for algebraic simplification?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 11317
+  },
+  {
+   "_id": 11318,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Adding, subtracting, multiplying polynomials</p>\n",
+   "OPT_2": "<p>Concatenating strings</p>\n",
+   "OPT_3": "<p>Reading files</p>\n",
+   "OPT_4": "<p>Sorting lists</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Polynomial operations involve:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 11318
+  },
+  {
+   "_id": 11320,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Working at symbolic level without numeric evaluation</p>\n",
+   "OPT_2": "<p>Sorting symbolic variables</p>\n",
+   "OPT_3": "<p>Reading user input</p>\n",
+   "OPT_4": "<p>Writing to disk</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Abstraction in SymPy means:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 11320
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11400,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span>The simplified form is&nbsp;<span class=\"math-tex\">\\(x+1\\)</span></p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1519\" data-start=\"1457\">What is the result of simplifying <span class=\"math-tex\">\\((x^2-1)/(x-1)\\)</span>?</strong><br data-end=\"1522\" data-start=\"1519\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "sq",
+   "key": 11400
+  },
+  {
+   "_id": 11401,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span>The <code data-end=\"1442\" data-start=\"1435\">Sympy</code> library.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1426\" data-start=\"1363\">Which Python library is commonly used for symbolic algebra?</strong><br data-end=\"1429\" data-start=\"1426\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "sq",
+   "key": 11401
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11420,
+   "ANSWER": "<p data-end=\"2008\" data-start=\"1821\">Sympy can simplify and perform algebraic operations precisely.<br data-end=\"3524\" data-start=\"3521\" />\nExample:</p>\n\n<p>from sympy import simplify, symbols</p>\n\n<p>x = symbols(&#39;x&#39;)<br />\nexpr = (x**2 - 1)/(x - 1)<br />\nsimplified_expr = simplify(expr)</p>\n\n<p>print(simplified_expr) &nbsp;# x + 1</p>\n\n<p>For polynomial multiplication:</p>\n\n<p>from sympy import expand<br />\nexpr = (x + 2)*(x - 3)<br />\nresult = expand(expr)</p>\n\n<p>print(result) &nbsp;# x**2 - x - 6<br />\n&nbsp;</p>\n\n<p data-end=\"3985\" data-start=\"3841\">These show how symbolic algebra preserves the exactness of expression manipulation, useful in engineering, cryptography, and optimization tasks.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Apply Sympy to perform simplification and operations on polynomial and rational expressions. Provide code and output.</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "lq",
+   "key": 11420
+  }
+ ]
+}

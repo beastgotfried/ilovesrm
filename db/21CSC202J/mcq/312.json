@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12764,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Mutual exclusion</p>\n",
+   "OPT_2": "<p>Preemption</p>\n",
+   "OPT_3": "<p>Hold and wait</p>\n",
+   "OPT_4": "<p>Circular wait</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following conditions is <strong data-end=\"334\" data-start=\"327\">not</strong> necessary for a deadlock to occur?</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 12764
+  },
+  {
+   "_id": 12766,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Use &rarr; Request &rarr; Release</p>\n",
+   "OPT_2": "<p>Release &rarr; Use &rarr; Request</p>\n",
+   "OPT_3": "<p>Request &rarr; Use &rarr; Release</p>\n",
+   "OPT_4": "<p>Request &rarr; Release &rarr; Use</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In the system model of a deadlock, the typical sequence in which a process uses resources is:</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 12766
+  },
+  {
+   "_id": 12767,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Process finishes and frees all resources</p>\n",
+   "OPT_2": "<p>Two processes each waiting for a resource held by the other</p>\n",
+   "OPT_3": "<p>One process holds multiple resources and finishes without waiting</p>\n",
+   "OPT_4": "<p>System with a single process and no competition</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a valid <strong data-end=\"775\" data-start=\"750\">example of a deadlock</strong>?</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 12767
+  },
+  {
+   "_id": 12769,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p data-end=\"1345\" data-start=\"1110\">One process requests multiple resources at once</p>\n",
+   "OPT_2": "<p>Resources are preemptively taken</p>\n",
+   "OPT_3": "<p>Each process waits for a resource held by another in a circular fashion</p>\n",
+   "OPT_4": "<p>Each process releases all resources before requesting new ones</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In the circular wait condition, which of the following holds true?</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 12769
+  },
+  {
+   "_id": 12770,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p data-end=\"1345\" data-start=\"1110\">A process can forcibly take another&#39;s resource</p>\n",
+   "OPT_2": "<p>The OS reassigns resources automatically</p>\n",
+   "OPT_3": "<p>A resource can only be released voluntarily by the process holding it</p>\n",
+   "OPT_4": "<p>Preemption is enforced periodically</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What does <strong data-end=\"1402\" data-start=\"1385\">no preemption</strong> mean in the context of deadlock?</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "mcq",
+   "key": 12770
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12772,
+   "ANSWER": "<ul>\n\t<li data-end=\"1953\" data-start=\"1892\">\n\t<p data-end=\"1953\" data-start=\"1894\"><strong data-end=\"1915\" data-start=\"1894\">Mutual Exclusion:</strong> Only one process can use a resource (20%)</p>\n\t</li>\n\t<li data-end=\"2031\" data-start=\"1954\">\n\t<p data-end=\"2031\" data-start=\"1956\"><strong data-end=\"1974\" data-start=\"1956\">Hold and Wait:</strong> A process holds one resource while waiting for another&nbsp;(20%)</p>\n\t</li>\n\t<li data-end=\"2089\" data-start=\"2032\">\n\t<p data-end=\"2089\" data-start=\"2034\"><strong data-end=\"2052\" data-start=\"2034\">&nbsp;No Preemption:</strong> Resources cannot be forcibly taken&nbsp;(20%)</p>\n\t</li>\n\t<li data-end=\"2190\" data-start=\"2090\">\n\t<p data-end=\"2190\" data-start=\"2092\"><strong data-end=\"2110\" data-start=\"2092\">Circular Wait:</strong> A closed chain of processes exists where each holds a resource the next needs&nbsp;(20%)</p>\n\t</li>\n\t<li data-end=\"2254\" data-start=\"2191\">\n\t<p data-end=\"2254\" data-start=\"2193\"><strong data-end=\"2205\" data-start=\"2193\">Analogy:</strong> Two trains blocking each other on a single track&nbsp;(20%)</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Explain the four necessary conditions for a deadlock to occur. Give a real-world analogy.</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "sq",
+   "key": 12772
+  },
+  {
+   "_id": 12773,
+   "ANSWER": "<ul>\n\t<li data-end=\"2496\" data-start=\"2469\">\n\t<p data-end=\"2496\" data-start=\"2471\">P0: wait(A) &rarr; preempted&nbsp; (25%)</p>\n\t</li>\n\t<li data-end=\"2526\" data-start=\"2497\">\n\t<p data-end=\"2526\" data-start=\"2499\">P1: wait(B) &rarr; waits for A&nbsp; (25%)</p>\n\t</li>\n\t<li data-end=\"2584\" data-start=\"2527\">\n\t<p data-end=\"2584\" data-start=\"2529\">Both processes are waiting for each other&rsquo;s semaphore (25%)</p>\n\t</li>\n\t<li data-end=\"2584\" data-start=\"2527\">\n\t<p data-end=\"2584\" data-start=\"2529\">Deadlock occurs as neither can proceed&nbsp; (25%)</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Describe the deadlock situation using semaphores A and B between two processes P0 and P1.</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "sq",
+   "key": 12773
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12776,
+   "ANSWER": "<ul>\n\t<li data-end=\"3649\" data-start=\"3549\">\n\t<p data-end=\"3649\" data-start=\"3551\">Explanation of each condition and how its removal prevents deadlock (80%)</p>\n\t</li>\n\t<li data-end=\"3699\" data-start=\"3650\">\n\t<p data-end=\"3699\" data-start=\"3652\">Relevant real-world or system examples&nbsp;(20%)</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Analyze how the absence of any one of the four conditions can prevent deadlock. Use relevant examples to support your explanation.</p>\n",
+   "SESSION_ID": 312,
+   "TYPE": "lq",
+   "key": 12776
+  }
+ ]
+}

@@ -1,0 +1,146 @@
+{
+ "mcq": [
+  {
+   "_id": 20910,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Assign CPU time to I/O devices</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Handle interrupts and buffer management</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Execute user commands directly on hardware</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Schedule disk requests using round-robin</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The main role of the I/O control system in device management is to:</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 20910
+  },
+  {
+   "_id": 20914,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Kernel</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Shell</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Device Controller</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">CPU Scheduler</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which component of the OS acts as an interface between hardware devices and the operating system?</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 20914
+  },
+  {
+   "_id": 20917,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Provide an abstract user interface</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Protect the system from unauthorized access, destruction, and misuse</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Manage CPU scheduling policies</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Allocate disk storage efficiently</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The main goal of security in operating systems is to:</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 20917
+  },
+  {
+   "_id": 20921,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Authentication</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Authorization</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Encryption</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Accounting</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which security mechanism ensures data confidentiality during transmission?</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 20921
+  },
+  {
+   "_id": 20924,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Authentication checks permissions; authorization verifies identity</span></span></span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Authentication verifies identity; authorization checks permissions</span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Both are the same process</span></span></span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Authentication applies only to networks</span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The main difference between authentication and authorization is:</span></span></b></span></span></span></p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 20924
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18748,
+   "ANSWER": "<p><br />\n<span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">A device driver acts as a translator between the operating system and a hardware device, enabling the OS to communicate with the hardware without needing hardware-specific details.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>What is the function of a device driver?</strong></span></span></p>\n\n<p data-end=\"1740\" data-start=\"1452\">&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq"
+  },
+  {
+   "_id": 20929,
+   "ANSWER": "<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Authentication</strong> verifies the identity of a user or process (e.g., passwords, biometrics).</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Authorization</strong> grants access rights to authenticated users or processes based on defined policies.</span></span></span></li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Differentiate between authentication and authorization.</strong></span></span><br />\n&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 20929
+  }
+ ],
+ "lq": [
+  {
+   "_id": 20943,
+   "ANSWER": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Device Management</strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Device Management handles the communication between the operating system and hardware devices. This includes I/O devices like printers, keyboards, disks, and network cards.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Device Drivers:</strong> Specialized programs that translate OS commands into device-specific operations.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Buffering and Spooling:</strong> Techniques like buffering temporarily store data, while spooling queues data for devices like printers to prevent system delays.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>I/O Scheduling:</strong> Algorithms such as FCFS, SCAN, and LOOK are used to optimize the order of I/O requests, improving efficiency and reducing wait times.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Device Allocation and Deallocation:</strong> Ensures exclusive or shared access as per device nature (dedicated, shared, or virtual).</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Effective device management maximizes hardware utilization, prevents conflicts, and ensures smooth interaction between devices and processes.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>File Management</strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">File Management provides a systematic way to store, retrieve, and manage data on storage devices.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>File Creation and Access:</strong> The OS manages file operations like creation, reading, writing, and deletion.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Access Methods:</strong> Supports sequential, direct, and indexed access to suit various applications.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Directory Management:</strong> Organizes files in structures like single-level, hierarchical, or DAG directories for efficient retrieval.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>File Protection:</strong> Implements permissions and access control to prevent unauthorized data access.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Space Allocation:</strong> Allocates and tracks disk space using methods like contiguous, linked, or indexed allocation.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">File management ensures data integrity, efficient storage use, and a user-friendly interface for data handling.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Protection and Security</strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Protection and Security mechanisms safeguard system resources and data from unauthorized access or malicious activities.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Access Control Mechanisms:</strong> Implement models like Access Control Lists (ACL), Access Control Matrix, and Role-Based Access Control (RBAC).</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Authentication &amp; Authorization:</strong> Verify user identity and grant access based on permissions.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Security Policies and Audits:</strong> Define rules for resource access and monitor system activities for compliance and threat detection.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Encryption &amp; Data Integrity:</strong> Secure data during storage and transmission, ensuring confidentiality and integrity.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Reference Monitor:</strong> Ensures that every access request is checked against the defined security policy.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">These mechanisms protect against threats like data breaches, privilege escalation, malware attacks, and unauthorized system access, ensuring system trustworthiness and user confidence.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>How do Device Management, File Management, and Protection &amp; Security components contribute to system stability and user reliability?</strong></span></span></p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "lq",
+   "key": 20943
+  }
+ ]
+}

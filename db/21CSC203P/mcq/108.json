@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9324,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) A language written in English-like syntax<br data-end=\"487\" data-start=\"484\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Human-readable code used for algorithms<br data-end=\"532\" data-start=\"529\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Binary code executed directly by the CPU<br data-end=\"578\" data-start=\"575\" />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"1793\" data-start=\"1790\" />\n<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Code used only in web development</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"437\" data-start=\"379\">Which of the following best describes machine code?</strong><br data-end=\"440\" data-start=\"437\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 9324
+  },
+  {
+   "_id": 9325,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Machine code is written for readability<br data-end=\"793\" data-start=\"790\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) High-level languages are not translated<br data-end=\"838\" data-start=\"835\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) High-level languages are platform-specific<br data-end=\"886\" data-start=\"883\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br data-end=\"578\" data-start=\"575\" />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"1793\" data-start=\"1790\" />\n<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) High-level languages are more abstract and easier to read</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"745\" data-start=\"667\">What is a key difference between machine code and high-level languages?</strong><br data-end=\"748\" data-start=\"745\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 9325
+  },
+  {
+   "_id": 9326,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) OOP hides data and behavior inside objects<br data-end=\"1162\" data-start=\"1159\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Procedural programming focuses only on objects<br data-end=\"1214\" data-start=\"1211\" />\n<br data-end=\"838\" data-start=\"835\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Procedural programming supports classes and inheritance<br data-end=\"1275\" data-start=\"1272\" />\n<br data-end=\"886\" data-start=\"883\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br data-end=\"578\" data-start=\"575\" />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"1793\" data-start=\"1790\" />\n<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) OOP uses less abstraction than procedural</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In terms of abstraction, how does object-oriented programming (OOP) differ from procedural programming?</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 9326
+  },
+  {
+   "_id": 9327,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Variables<br data-end=\"1462\" data-start=\"1459\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Loops<br data-end=\"1473\" data-start=\"1470\" />\n<br data-end=\"838\" data-start=\"835\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Encapsulation<br data-end=\"1492\" data-start=\"1489\" />\n<br data-end=\"1214\" data-start=\"1211\" />\n<br data-end=\"1275\" data-start=\"1272\" />\n<br data-end=\"886\" data-start=\"883\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br data-end=\"578\" data-start=\"575\" />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"1793\" data-start=\"1790\" />\n<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Compilation</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1444\" data-start=\"1371\">Which feature of object-oriented programming supports abstraction?</strong><br data-end=\"1447\" data-start=\"1444\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 9327
+  },
+  {
+   "_id": 9328,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Through object templates<br data-end=\"1654\" data-start=\"1651\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) By organizing code into reusable functions<br data-end=\"1702\" data-start=\"1699\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) By using inheritance<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"838\" data-start=\"835\" />\n<br data-end=\"1492\" data-start=\"1489\" />\n<br data-end=\"1214\" data-start=\"1211\" />\n<br data-end=\"1275\" data-start=\"1272\" />\n<br data-end=\"886\" data-start=\"883\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br data-end=\"578\" data-start=\"575\" />\n<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"1793\" data-start=\"1790\" />\n<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) By hiding methods inside classes</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1621\" data-start=\"1561\">How does procedural programming approach abstraction?</strong><br data-end=\"1624\" data-start=\"1621\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 9328
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9363,
+   "ANSWER": "<p>A SQL query like <code data-end=\"3936\" data-start=\"3874\">SELECT * FROM Students WHERE score &gt; 85 AND subject = &#39;Math&#39;</code> specifies the desired result directly without manual control structures.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A report must retrieve students who scored above 85% in Math. How does declarative programming support this task?</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "sq",
+   "key": 9363
+  },
+  {
+   "_id": 9364,
+   "ANSWER": "<p>A <code data-end=\"4137\" data-start=\"4127\">GROUP BY</code> query aggregates results based on regions, allowing simple and effective extraction of summary data without imperative code.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A company needs to summarize sales per region. How can declarative processing achieve this?</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "sq",
+   "key": 9364
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9381,
+   "ANSWER": "<p data-end=\"3359\" data-start=\"3183\">SELECT student_id<br />\nFROM marks<br />\nGROUP BY student_id<br />\nHAVING MIN(score) &gt; 90;</p>\n\n<ul>\n\t<li data-end=\"5311\" data-start=\"5243\">\n\t<p data-end=\"5311\" data-start=\"5245\">The query expresses <strong data-end=\"5273\" data-start=\"5265\">what</strong> is needed, not <strong data-end=\"5296\" data-start=\"5289\">how</strong> to compute it.</p>\n\t</li>\n\t<li data-end=\"5380\" data-start=\"5312\">\n\t<p data-end=\"5380\" data-start=\"5314\">Declarative programming abstracts away iteration and control flow.</p>\n\t</li>\n\t<li data-end=\"5477\" data-start=\"5381\">\n\t<p data-end=\"5477\" data-start=\"5383\">The database engine optimizes execution internally, promoting <strong data-end=\"5456\" data-start=\"5445\">clarity</strong> and <strong data-end=\"5476\" data-start=\"5461\">conciseness</strong>.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"613\" data-start=\"371\">A school system requires a list of students who scored above 90 in <strong data-end=\"5030\" data-start=\"5014\">all subjects</strong>. Provide an SQL query for this and explain how the <strong data-end=\"5106\" data-start=\"5082\">declarative paradigm</strong> simplifies the task.</p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "lq",
+   "key": 9381
+  }
+ ]
+}

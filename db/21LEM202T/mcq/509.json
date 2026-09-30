@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36897,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Link realization to behavior and work</p>\n",
+   "OPT_2": "<p>Create confusion</p>\n",
+   "OPT_3": "<p>Justify exploitation</p>\n",
+   "OPT_4": "<p>Promote domination</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The role of thought in holistic living is to:</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 36897
+  },
+  {
+   "_id": 36898,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Mutual happiness</p>\n",
+   "OPT_2": "<p>Disharmony and contradiction</p>\n",
+   "OPT_3": "<p>Participation in larger order</p>\n",
+   "OPT_4": "<p>Sustainable progress</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Holistic way of living avoids:</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 36898
+  },
+  {
+   "_id": 36899,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Realization</p>\n",
+   "OPT_2": "<p>Thought</p>\n",
+   "OPT_3": "<p>Behavior</p>\n",
+   "OPT_4": "<p>Work</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which dimension expresses human values in relationships?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 36899
+  },
+  {
+   "_id": 36900,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Realization</p>\n",
+   "OPT_2": "<p>Work</p>\n",
+   "OPT_3": "<p>Behavior</p>\n",
+   "OPT_4": "<p>Thought</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Contribution to production and preservation in nature is expressed through:</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 36900
+  },
+  {
+   "_id": 36901,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Conflict between humans and nature</p>\n",
+   "OPT_2": "<p>Comprehensive harmony from Self to entire Existence</p>\n",
+   "OPT_3": "<p>Accumulation of material possessions</p>\n",
+   "OPT_4": "<p>Human isolation</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>A holistic way of living finally leads to:</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 36901
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36493,
+   "ANSWER": "<p>By aligning realization, thought, behavior, and work, harmony is achieved within the self, in families, in society, and with nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How does all-encompassing resolution lead to harmony at different levels?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 36493
+  },
+  {
+   "_id": 36495,
+   "ANSWER": "<p>It helps them integrate technical knowledge with human values, ensuring their innovations support sustainable development and coexistence.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why is this understanding important for students?</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 36495
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122530,
+   "ANSWER": "<p>Holistic technologies can support transition towards universal human order when they are designed and used with right understanding. Technology should not be developed only for profit, comfort or speed. It should fulfil real human needs, support local self-sufficiency, protect nature, reduce waste and promote cooperation. Holistic technologies should be people-friendly, eco-friendly and user-friendly. They should support sustainable production, right utilisation of resources and meaningful employment. When technology, production systems and management models are guided by human values, they help society move from exploitation and accumulation to mutual fulfilment and prosperity. Thus, holistic technologies become a practical step in the transition toward value-based life, ethical profession and universal human order.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain how holistic technologies can support transition towards universal human order.</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "lq",
+   "key": 122530
+  }
+ ]
+}

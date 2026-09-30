@@ -1,0 +1,148 @@
+{
+ "mcq": [
+  {
+   "_id": 11914,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "for",
+   "OPT_2": "break",
+   "OPT_3": "while",
+   "OPT_4": "switch",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following is a branching statement in Java?",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 11914
+  },
+  {
+   "_id": 11915,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "return",
+   "OPT_2": "break",
+   "OPT_3": "continue",
+   "OPT_4": "exit",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which keyword is used to skip the current iteration of a loop and proceed to the next one?",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 11915
+  },
+  {
+   "_id": 11916,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "do-while",
+   "OPT_2": "while",
+   "OPT_3": "for-each",
+   "OPT_4": "switch",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which construct is best suited when a condition needs to be checked before executing the loop body?",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 11916
+  },
+  {
+   "_id": 11917,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "if-else",
+   "OPT_2": "nested if",
+   "OPT_3": "switch",
+   "OPT_4": "for",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which decision-making structure is most appropriate for choosing one out of many fixed options?",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 11917
+  },
+  {
+   "_id": 11918,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "AC",
+   "OPT_2": "BC",
+   "OPT_3": "ABC",
+   "OPT_4": "B",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What will be the output of the following Java code?\nint x = 5;\nif (x > 3)\n    System.out.print(\"A\");\nelse\n    System.out.print(\"B\");\nSystem.out.print(\"C\");",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 11918
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11968,
+   "ANSWER": "In a while loop, the condition is checked before executing the loop body. If the condition is false at the start, the body may not execute at all.\nIn a do-while loop, the loop body is executed at least once before checking the condition.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Differentiate between the while and do-while loops in Java.",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 11968
+  },
+  {
+   "_id": 11969,
+   "ANSWER": "for (int i = 1; i <= 10; i++) {\n    if (i % 2 == 0) {\n        System.out.print(i + \" \");\n    }\n}\nThis loop checks if the number is divisible by 2 and prints only the even numbers.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a Java code snippet using a for loop to print the even numbers from 1 to 10.",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 11969
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12002,
+   "ANSWER": "Program:\nimport java.util.Scanner;\npublic class TicketDiscount {\n    public static void main(String[] args) {\n        Scanner sc = new Scanner(System.in);\n        System.out.print(\"Enter age: \");\n        int age = sc.nextInt();\n        System.out.print(\"Is it a round-trip? (yes/no): \");\n        String tripType = sc.next();\n        double discount = 0;\n        if (age < 12) {\n            discount = 50;\n        } else if (age >= 60) {\n            discount = 30;\n        }\n        if (tripType.equalsIgnoreCase(\"yes\")) {\n            discount += 10;\n        }\n        System.out.println(\"Final Discount: \" + discount + \"%\");\n    }\n}\nExplanation of Logic:\nBranching (if-else) is used to determine the age-based discount.\nA second independent if adds a 10% discount for round-trips.\nThis demonstrates clear separation of conditions and compound logic using decision-making constructs.\nIt also reflects real-world rule-based programming, where multiple conditions can independently affect an outcome.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "A ticketing system gives discounts based on the customer's age and trip type. The rules are:\nIf the age is below 12, they get a 50% discount.\nIf the age is 60 or above, they get a 30% discount.\nIf the trip is a \"round-trip\", an additional 10% discount is applied to all categories.\nWrite a Java program to calculate and display the final discount percentage based on these rules. Also explain the logic used for branching and decision making.",
+   "SESSION_ID": 203,
+   "TYPE": "lq",
+   "key": 12002
+  }
+ ]
+}

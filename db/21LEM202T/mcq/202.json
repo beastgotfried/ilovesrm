@@ -1,0 +1,149 @@
+{
+ "mcq": [
+  {
+   "_id": 36655,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>The body that performs physical functions</p>\n",
+   "OPT_2": "<p>The self that perceives and understands</p>\n",
+   "OPT_3": "<p>The environment around the human being</p>\n",
+   "OPT_4": "<p>The brain as a physical organ</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Who is referred to as the <em data-end=\"238\" data-start=\"230\">knower</em> in the context of right understanding?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 36655
+  },
+  {
+   "_id": 36656,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>The body only</p>\n",
+   "OPT_2": "<p>The self, which feels satisfaction, happiness, or dissatisfaction</p>\n",
+   "OPT_3": "<p>The external world</p>\n",
+   "OPT_4": "<p>The nervous system</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which part of the human being is the <em data-end=\"572\" data-start=\"559\">experiencer</em>?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 36656
+  },
+  {
+   "_id": 36657,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>The body carrying out physical actions guided by the self</p>\n",
+   "OPT_2": "<p>The environment influencing behavior</p>\n",
+   "OPT_3": "<p>Only mechanical reflexes</p>\n",
+   "OPT_4": "<p>Biological systems working automatically</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is meant by the <em data-end=\"838\" data-start=\"832\">doer</em> in the human being?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 36657
+  },
+  {
+   "_id": 36658,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Because the self observes, decides, and guides the body</p>\n",
+   "OPT_2": "<p>Because the body functions independently</p>\n",
+   "OPT_3": "<p>Because the brain stores information</p>\n",
+   "OPT_4": "<p>Because environment controls the self</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is the self considered central in knowing, experiencing, and doing?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 36658
+  },
+  {
+   "_id": 36659,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Desire and thought</p>\n",
+   "OPT_2": "<p>Resolution and decision-making</p>\n",
+   "OPT_3": "<p>Digestion and circulation</p>\n",
+   "OPT_4": "<p>Evaluation of actions</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT an activity of the self?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 36659
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36301,
+   "ANSWER": "<p>Because the Self takes decisions and directs the body to act accordingly.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is the Self called the <em data-end=\"572\" data-start=\"566\">doer</em>?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 36301
+  },
+  {
+   "_id": 36302,
+   "ANSWER": "<p>It helps achieve harmony between thoughts, feelings, and actions.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is the significance of understanding the Self in right understanding?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 36302
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122494,
+   "ANSWER": "<p>The needs of the Self and the Body are different in nature. The Self needs happiness, respect, trust, peace and satisfaction. These needs are <strong data-end=\"1456\" data-start=\"1434\">continuous in time</strong> and <strong data-end=\"1476\" data-start=\"1461\">qualitative</strong>. They cannot be measured in quantity. They are fulfilled by right understanding and right feeling. The Body needs physical facilities like food, clothes, shelter and medicine. These needs are <strong data-end=\"1690\" data-start=\"1669\">temporary in time</strong> and <strong data-end=\"1711\" data-start=\"1695\">quantitative</strong>, meaning they are required in a limited quantity. The Body&rsquo;s needs are fulfilled by physio-chemical things. If we confuse the two and try to fulfil the needs of the Self through physical facility, then we may keep accumulating more and more but still remain unhappy. Hence, right identification of both needs is necessary for harmony in human being.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Distinguish between the needs of the Self and the needs of the Body.</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "lq",
+   "key": 122494
+  },
+  {
+   "_id": 122495,
+   "ANSWER": "<p>In human interaction, <strong data-end=\"2368\" data-start=\"2356\">reaction</strong> means deciding our feeling and behaviour based on the other person&rsquo;s behaviour. If the other behaves properly, we may behave properly; if the other misbehaves, we may also misbehave. In this case, our &ldquo;remote control&rdquo; is with the other person and our conduct becomes indefinite. <strong data-end=\"2660\" data-start=\"2648\">Response</strong> means deciding our feeling on our own right, based on natural acceptance and right understanding. In response, the behaviour of the other is only an indicator of the other person&rsquo;s state. With that input, we decide our behaviour to ensure mutual happiness. Response is self-organised, definite and unconditional, while reaction is dependent, indefinite and often leads to unhappiness.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain the difference between reaction and response in human interaction.</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "lq",
+   "key": 122495
+  }
+ ]
+}

@@ -1,0 +1,182 @@
+{
+ "mcq": [
+  {
+   "_id": 49909,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos(nx) \\, dx \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\sin(nx) \\, dx \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( a_n = \\frac{1}{2\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos(nx) \\, dx \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( a_n = \\frac{2}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos(nx) \\, dx \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) \\) defined on \\( (-\\pi, \\pi) \\), the Fourier coefficient \\( a_n \\) is:</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 49909
+  },
+  {
+   "_id": 49910,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">All \\( b_n = 0 \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">All \\( a_n = 0 \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( a_0 = 0 \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Both \\( a_n \\) and \\( b_n \\) vanish</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">If \\( f(x) \\) is an even function on \\( (-\\pi, \\pi) \\), which Fourier coefficients vanish?</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 49910
+  },
+  {
+   "_id": 49911,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Sine series only</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Cosine series only</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Both sine and cosine terms</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Constant term only</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) = x \\) defined on \\( (-\\pi, \\pi) \\), what type of Fourier series does it have?</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 49911
+  },
+  {
+   "_id": 49912,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Cosine series only</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Sine series only</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Both sine and cosine terms</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">No Fourier series exists</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The function \\( f(x) = x^2 \\) on \\( (-\\pi, \\pi) \\) has which type of Fourier series?</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 49912
+  },
+  {
+   "_id": 49913,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac{f(c^-) + f(c^+)}{2} \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( f(c^-) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( f(c^+) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">0</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For \\( f(x) \\) defined on \\( (-\\pi, \\pi) \\), at a point of discontinuity \\( x = c \\), the Fourier series converges to:</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 49913
+  }
+ ],
+ "sq": [
+  {
+   "_id": 50012,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(f(x) = \\frac{a_0}{2} + \\sum_{n=1}^{\\infty} (a_n \\cos nx + b_n \\sin nx)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{where: } a_0 = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\cos nx dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{1}{\\pi} \\int_{-\\pi}^{\\pi} f(x) \\sin nx dx\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Write Fourier series for function in } (-\\pi, \\pi) \\text{ with coefficients formulas.}\\)</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 50012
+  },
+  {
+   "_id": 50013,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{For even } f(x), f(-x) = f(x)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Then } b_n = 0 \\text{ (sine coefficients vanish)}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_0 = \\frac{2}{\\pi} \\int_0^{\\pi} f(x) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_n = \\frac{2}{\\pi} \\int_0^{\\pi} f(x) \\cos nx dx\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For even function in } (-\\pi, \\pi), \\text{ what happens to Fourier coefficients?}\\)</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 50013
+  },
+  {
+   "_id": 50014,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Even function: } a_0 = \\frac{2}{\\pi} \\int_0^{\\pi} x^2 dx = \\frac{2\\pi^2}{3}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(a_n = \\frac{2}{\\pi} \\int_0^{\\pi} x^2 \\cos nx dx = \\frac{4}{n^2}(-1)^n\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } x^2 = \\frac{\\pi^2}{3} + 4\\sum_{n=1}^{\\infty} \\frac{(-1)^n}{n^2} \\cos nx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Put } x = \\pi: \\pi^2 = \\frac{\\pi^2}{3} + 4\\sum_{n=1}^{\\infty} \\frac{1}{n^2} \\Rightarrow \\sum_{n=1}^{\\infty} \\frac{1}{n^2} = \\frac{\\pi^2}{6}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find Fourier series for } f(x) = x^2 \\text{ in } (-\\pi, \\pi). \\text{ Deduce } \\sum_{n=1}^{\\infty} \\frac{1}{n^2}.\\)</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 50014
+  },
+  {
+   "_id": 50015,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{For odd } f(x), f(-x) = -f(x)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Then } a_0 = 0, a_n = 0 \\text{ (cosine coefficients vanish)}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{2}{\\pi} \\int_0^{\\pi} f(x) \\sin nx dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Series becomes sine series: } f(x) = \\sum_{n=1}^{\\infty} b_n \\sin nx\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For odd function in } (-\\pi, \\pi), \\text{ what happens to Fourier coefficients?}\\)</span></p>",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 50015
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50069,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Since \\(f(x)\\) is odd, \\(a_0=0\\), \\(a_n=0\\)</td><td>(2)</td></tr><tr><td>\\(b_n=\\frac{2}{\\pi}\\int_0^{\\pi}x\\cos x\\sin nx\\,dx=\\frac{1}{\\pi}\\int_0^{\\pi}x[\\sin(n+1)x+\\sin(n-1)x]dx\\)</td><td>(3)</td></tr><tr><td>For \\(n=1\\): \\(b_1=\\frac{2}{\\pi}\\int_0^{\\pi}x\\cos x\\sin x\\,dx=\\frac{1}{\\pi}\\int_0^{\\pi}x\\sin 2x\\,dx=-\\frac{1}{2}\\)</td><td>(3)</td></tr><tr><td>For \\(n\\neq1\\): \\(b_n=(-1)^n\\frac{2n}{n^2-1}\\)</td><td>(4)</td></tr><tr><td>Thus, \\(x\\cos x=-\\frac{1}{2}\\sin x+2\\sum_{n=2}^{\\infty}(-1)^n\\frac{n}{n^2-1}\\sin nx\\)</td><td>(3)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=x\\cos x\\) in \\((-\\pi,\\pi)\\).</p>",
+   "SESSION_ID": 202,
+   "TYPE": "lq",
+   "key": 50069
+  },
+  {
+   "_id": 50070,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Since \\(f(x)\\) is even, \\(b_n=0\\)</td><td>(2)</td></tr><tr><td>\\(a_0=\\frac{2}{\\pi}\\int_0^{\\pi}\\sin x\\,dx=\\frac{4}{\\pi}\\)</td><td>(2)</td></tr><tr><td>\\(a_n=\\frac{2}{\\pi}\\int_0^{\\pi}\\sin x\\cos nx\\,dx=\\frac{2}{\\pi}\\cdot\\frac{1+(-1)^n}{1-n^2}\\) for \\(n\\neq1\\)</td><td>(4)</td></tr><tr><td>For \\(n=1\\): \\(a_1=0\\)</td><td>(2)</td></tr><tr><td>Thus, \\(|\\sin x|=\\frac{2}{\\pi}-\\frac{4}{\\pi}\\sum_{n=1}^{\\infty}\\frac{\\cos 2nx}{4n^2-1}\\)</td><td>(5)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the Fourier series for \\(f(x)=|\\sin x|\\) in \\((-\\pi,\\pi)\\).</p>",
+   "SESSION_ID": 202,
+   "TYPE": "lq",
+   "key": 50070
+  }
+ ]
+}

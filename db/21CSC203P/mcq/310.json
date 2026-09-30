@@ -1,0 +1,139 @@
+{
+ "mcq": [
+  {
+   "_id": 10457,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"328\" data-start=\"320\">JPanel</code></p>\n",
+   "OPT_2": "<p><code data-end=\"343\" data-start=\"334\">JWindow</code></p>\n",
+   "OPT_3": "<p><code data-end=\"372\" data-start=\"363\">JDialog</code></p>\n",
+   "OPT_4": "<p><code data-end=\"357\" data-start=\"349\">JFrame</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>Which class in Swing is used to create a top-level window?<br data-end=\"317\" data-start=\"314\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 10457
+  },
+  {
+   "_id": 10461,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>To fix the window size</p>\n",
+   "OPT_2": "<p>To handle button clicks</p>\n",
+   "OPT_3": "<p>To define how components are arranged</p>\n",
+   "OPT_4": "<p>To create a menu bar</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>What is the purpose of <code data-end=\"551\" data-start=\"538\">setLayout()</code> in a Swing container?<br data-end=\"576\" data-start=\"573\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 10461
+  },
+  {
+   "_id": 10462,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Implement <code data-end=\"1181\" data-start=\"1171\">Runnable</code></p>\n",
+   "OPT_2": "<p>Add an <code data-end=\"1210\" data-start=\"1194\">ActionListener</code></p>\n",
+   "OPT_3": "<p>Use <code data-end=\"1233\" data-start=\"1220\">KeyListener</code></p>\n",
+   "OPT_4": "<p>Override <code data-end=\"1257\" data-start=\"1248\">paint()</code> method</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>How do you attach an event to a JButton in Swing?<br data-end=\"1158\" data-start=\"1155\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 10462
+  },
+  {
+   "_id": 10463,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"1499\" data-start=\"1485\">BorderLayout</code></p>\n",
+   "OPT_2": "<p><code data-end=\"1517\" data-start=\"1505\">FlowLayout</code></p>\n",
+   "OPT_3": "<p><code data-end=\"1535\" data-start=\"1523\">GridLayout</code></p>\n",
+   "OPT_4": "<p><code data-end=\"1552\" data-start=\"1541\">BoxLayout</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>What layout manager arranges components in a left-to-right flow, wrapping to the next line when needed?<br data-end=\"1482\" data-start=\"1479\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 10463
+  },
+  {
+   "_id": 10464,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"1781\" data-start=\"1773\">JLabel</code>, <code data-end=\"1795\" data-start=\"1783\">JTextField</code></p>\n",
+   "OPT_2": "<p><code data-end=\"1809\" data-start=\"1801\">JLabel</code>, <code data-end=\"1827\" data-start=\"1811\">JPasswordField</code></p>\n",
+   "OPT_3": "<p><code data-end=\"1842\" data-start=\"1833\">JButton</code>, <code data-end=\"1855\" data-start=\"1844\">JComboBox</code></p>\n",
+   "OPT_4": "<p><code data-end=\"1868\" data-start=\"1861\">JList</code>, <code data-end=\"1881\" data-start=\"1870\">JTextArea</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>In a login form, which components would you use for entering and confirming a password?<br data-end=\"1770\" data-start=\"1767\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 10464
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10477,
+   "ANSWER": "<p>A login form typically includes <code data-end=\"2499\" data-start=\"2491\">JLabel</code> (for username and password), <code data-end=\"2541\" data-start=\"2529\">JTextField</code> (for username input), <code data-end=\"2580\" data-start=\"2564\">JPasswordField</code> (for password input), and <code data-end=\"2616\" data-start=\"2607\">JButton</code> (for login action), all arranged using layout managers like <code data-end=\"2689\" data-start=\"2677\">FlowLayout</code> or <code data-end=\"2705\" data-start=\"2693\">GridLayout</code>.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What are the primary components needed to design a simple login form using Swing?<br data-end=\"2443\" data-start=\"2440\" />\n<br data-end=\"2459\" data-start=\"2456\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "sq",
+   "key": 10477
+  },
+  {
+   "_id": 10478,
+   "ANSWER": "<p>Both accept user input, but <code data-end=\"3092\" data-start=\"3080\">JTextField</code> shows typed characters, while <code data-end=\"3139\" data-start=\"3123\">JPasswordField</code> masks them for security (e.g., displaying asterisks).</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Differentiate between <code data-end=\"3011\" data-start=\"2999\">JTextField</code> and <code data-end=\"3032\" data-start=\"3016\">JPasswordField</code>.<br data-end=\"3036\" data-start=\"3033\" />\n<br data-end=\"3052\" data-start=\"3049\" />\n<br data-end=\"2443\" data-start=\"2440\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "sq",
+   "key": 10478
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10479,
+   "ANSWER": "<p>import javax.swing.*;<br />\nimport java.awt.*;<br />\nimport java.awt.event.*;</p>\n\n<p>public class RegistrationForm extends JFrame {<br />\n&nbsp; &nbsp; public RegistrationForm() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setTitle(&quot;User Registration&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setSize(350, 200);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; setLayout(new GridLayout(4, 2, 10, 10));</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; JLabel nameLabel = new JLabel(&quot;Name:&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; JTextField nameField = new JTextField();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; JLabel emailLabel = new JLabel(&quot;Email:&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; JTextField emailField = new JTextField();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; JLabel passLabel = new JLabel(&quot;Password:&quot;);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; JPasswordField passField = new JPasswordField();</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; JButton submitButton = new JButton(&quot;Register&quot;);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; add(nameLabel); add(nameField);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; add(emailLabel); add(emailField);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; add(passLabel); add(passField);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; add(new JLabel()); add(submitButton);</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; submitButton.addActionListener(e -&gt; {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String name = nameField.getText();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String email = emailField.getText();<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; String pass = new String(passField.getPassword());<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; JOptionPane.showMessageDialog(this,&nbsp;<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &quot;User Registered:\\n&quot; + name + &quot;, &quot; + email);<br />\n&nbsp; &nbsp; &nbsp; &nbsp; });</p>\n\n<p>&nbsp; &nbsp; &nbsp; &nbsp; setVisible(true);<br />\n&nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; public static void main(String[] args) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; new RegistrationForm();<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO3",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>You are developing a user registration form using Java Swing. The form should collect the user&#39;s name, email, and password. The layout should be well-organized and include proper labels, input fields, and a submit button. Implement the GUI using appropriate Swing components and layout managers.Write a Java Swing program to implement the above user registration form using <code data-end=\"3926\" data-start=\"3918\">JLabel</code>, <code data-end=\"3940\" data-start=\"3928\">JTextField</code>, <code data-end=\"3958\" data-start=\"3942\">JPasswordField</code>, and <code data-end=\"3973\" data-start=\"3964\">JButton</code>. Use <code data-end=\"3991\" data-start=\"3979\">GridLayout</code> or any other appropriate layout manager to design the form neatly.</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "lq",
+   "key": 10479
+  }
+ ]
+}

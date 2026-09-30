@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17250,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Perform arithmetic calculations</p>\n",
+   "OPT_2": "<p>Manage memory operations</p>\n",
+   "OPT_3": "<p>Decode and execute instructions</p>\n",
+   "OPT_4": "<p>Store temporary data</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What is the primary function of the Control Unit (CU) in a CPU?</strong></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 17250
+  },
+  {
+   "_id": 17251,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Accumulator</p>\n",
+   "OPT_2": "<p>Instruction Register (IR)</p>\n",
+   "OPT_3": "<p>Memory Address Register (MAR)</p>\n",
+   "OPT_4": "<p>Program Counter (PC)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which register holds the current instruction being executed?</strong></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 17251
+  },
+  {
+   "_id": 17253,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>The next instruction to be fetched</p>\n",
+   "OPT_2": "<p>The current instruction being executed</p>\n",
+   "OPT_3": "<p>The result of the ALU operation</p>\n",
+   "OPT_4": "<p>The next instruction to be executed</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>The Program Counter (PC) holds the address of:</strong></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 17253
+  },
+  {
+   "_id": 17254,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Microinstructions</p>\n",
+   "OPT_2": "<p>Combinational logic circuits</p>\n",
+   "OPT_3": "<p>Software programs</p>\n",
+   "OPT_4": "<p>Cache memory</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>In a Hardwired Control Unit, control signals are generated using:</strong></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 17254
+  },
+  {
+   "_id": 17280,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Carry flag</p>\n",
+   "OPT_2": "<p>Zero flag</p>\n",
+   "OPT_3": "<p>Overflow flag</p>\n",
+   "OPT_4": "<p>Sign flag</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Which flag is set by the ALU when the result of an operation is zero?</strong></p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 17280
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17410,
+   "ANSWER": "<p>The Control Unit (CU) is a component of the CPU that directs the operation of the processor. It tells the computer&#39;s memory, ALU (Arithmetic Logic Unit), and I/O devices how to respond to instructions. The CU fetches instructions from memory, decodes them, and then executes them by sending control signals to other components. It acts like a supervisor, ensuring all parts work together correctly in a synchronized manner.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What is the role of the Control Unit in a computer system?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 17410
+  },
+  {
+   "_id": 17411,
+   "ANSWER": "<p data-end=\"1922\" data-start=\"1848\">The Control Unit follows a <strong data-end=\"1919\" data-start=\"1889\">fetch-decode-execute cycle</strong>:</p>\n\n<ul data-end=\"2239\" data-start=\"1923\">\n\t<li data-end=\"2005\" data-start=\"1923\">\n\t<p data-end=\"2005\" data-start=\"1925\"><strong data-end=\"1934\" data-start=\"1925\">Fetch</strong>: The instruction is retrieved from memory using the Program Counter.</p>\n\t</li>\n\t<li data-end=\"2089\" data-start=\"2006\">\n\t<p data-end=\"2089\" data-start=\"2008\"><strong data-end=\"2018\" data-start=\"2008\">Decode</strong>: The instruction is interpreted to understand what action is needed.</p>\n\t</li>\n\t<li data-end=\"2239\" data-start=\"2090\">\n\t<p data-end=\"2239\" data-start=\"2092\"><strong data-end=\"2103\" data-start=\"2092\">Execute</strong>: The control signals are sent to the ALU or I/O to perform the required task.<br data-end=\"2184\" data-start=\"2181\" />\n\tThis cycle continues for each instruction in a program.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>How does the control unit execute an instruction?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 17411
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17511,
+   "ANSWER": "<p data-end=\"1634\" data-start=\"1480\">The <strong data-end=\"1529\" data-start=\"1498\">Instruction Execution Cycle</strong> in the BPU consists of a sequence of steps that are repeated for every instruction. These steps include:</p>\n\n<ol data-end=\"2555\" data-start=\"1636\">\n\t<li data-end=\"1886\" data-start=\"1636\">\n\t<p data-end=\"1886\" data-start=\"1639\"><strong data-end=\"1661\" data-start=\"1639\">Instruction Fetch:</strong><br data-end=\"1664\" data-start=\"1661\" />\n\tThe Program Counter (PC) sends the address of the instruction to memory. The instruction is fetched from memory and loaded into the Instruction Register (IR). The PC is then incremented to point to the next instruction.</p>\n\t</li>\n\t<li data-end=\"2086\" data-start=\"1888\">\n\t<p data-end=\"2086\" data-start=\"1891\"><strong data-end=\"1914\" data-start=\"1891\">Instruction Decode:</strong><br data-end=\"1917\" data-start=\"1914\" />\n\tThe Control Unit decodes the instruction in the IR. It identifies the operation to be performed and determines the operands and their locations (registers or memory).</p>\n\t</li>\n\t<li data-end=\"2195\" data-start=\"2088\">\n\t<p data-end=\"2195\" data-start=\"2091\"><strong data-end=\"2121\" data-start=\"2091\">Operand Fetch (if needed):</strong><br data-end=\"2124\" data-start=\"2121\" />\n\tThe necessary operands are fetched from the Register File or memory.</p>\n\t</li>\n\t<li data-end=\"2310\" data-start=\"2197\">\n\t<p data-end=\"2310\" data-start=\"2200\"><strong data-end=\"2212\" data-start=\"2200\">Execute:</strong><br data-end=\"2215\" data-start=\"2212\" />\n\tThe ALU performs the required operation such as addition, subtraction, logical AND, OR, etc.</p>\n\t</li>\n\t<li data-end=\"2418\" data-start=\"2312\">\n\t<p data-end=\"2418\" data-start=\"2315\"><strong data-end=\"2337\" data-start=\"2315\">Result Write-back:</strong><br data-end=\"2340\" data-start=\"2337\" />\n\tThe result is stored in a register or memory, depending on the instruction.</p>\n\t</li>\n\t<li data-end=\"2555\" data-start=\"2420\">\n\t<p data-end=\"2555\" data-start=\"2423\"><strong data-end=\"2437\" data-start=\"2423\">Update PC:</strong><br data-end=\"2440\" data-start=\"2437\" />\n\tFor sequential execution, PC is incremented. For branch/jump instructions, it is updated based on the condition.</p>\n\t</li>\n</ol>\n\n<p data-end=\"2636\" data-start=\"2557\">This cycle continues for every instruction, forming the basis of CPU operation.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Explain the instruction execution cycle in the Basic Processing Unit.</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "lq",
+   "key": 17511
+  }
+ ]
+}

@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 36754,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Knowing the role of self and body</p>\n",
+   "OPT_2": "<p>Understanding relationships in society</p>\n",
+   "OPT_3": "<p>Exploiting resources without limits</p>\n",
+   "OPT_4": "<p>Understanding harmony with nature</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT part of comprehensive human understanding?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 36754
+  },
+  {
+   "_id": 36755,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To focus only on technical knowledge</p>\n",
+   "OPT_2": "<p>To integrate values, ethics, and holistic growth with technical skills</p>\n",
+   "OPT_3": "<p>To promote competition only</p>\n",
+   "OPT_4": "<p>To ignore social responsibility</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is the role of comprehensive understanding of the human being in education?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 36755
+  },
+  {
+   "_id": 36756,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Education should produce experts in resource exploitation</p>\n",
+   "OPT_2": "<p>Education should focus on right understanding and human conduct for harmony in existence</p>\n",
+   "OPT_3": "<p>Education should avoid social concerns</p>\n",
+   "OPT_4": "<p>Education should only ensure personal profit</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which statement best reflects the theme of this course?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 36756
+  },
+  {
+   "_id": 36757,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Conflicts and imbalance</p>\n",
+   "OPT_2": "<p>Right conduct, harmony in relationships, and sustainable living</p>\n",
+   "OPT_3": "<p>Unlimited desires and competition</p>\n",
+   "OPT_4": "<p>Exploitation of society and nature</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Comprehensive understanding of the human being leads to:</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 36757
+  },
+  {
+   "_id": 36759,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To increase market competitiveness</p>\n",
+   "OPT_2": "<p>To apply technical skills without ethics</p>\n",
+   "OPT_3": "<p>To combine technical competence with human values for sustainable and ethical solutions</p>\n",
+   "OPT_4": "<p>To focus only on profit-making</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is this course important for engineers?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 36759
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36345,
+   "ANSWER": "<p data-end=\"1190\" data-start=\"1035\">Self-exploration clarifies human aspirations (like happiness and prosperity), leading to mutual trust, respect, and just relationships with family and society.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How does self-exploration lead to harmony with others?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "sq",
+   "key": 36345
+  },
+  {
+   "_id": 36347,
+   "ANSWER": "<p data-end=\"1699\" data-start=\"1462\">Because engineers design solutions for society, and understanding human values ensures that technology serves humanity ethically and sustainably.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is the study of the human being critical for engineering students?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "sq",
+   "key": 36347
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122505,
+   "ANSWER": "<p>Respect means right evaluation of a human being. Right evaluation must be based on the Self, not only on the body, wealth, post, marks, caste, gender or physical appearance. Respect includes right evaluation of intention and competence. Wrong evaluation may be of three types: over-evaluation, under-evaluation and otherwise-evaluation. All these are forms of disrespect because they do not evaluate the person as they really are. The minimum content of respect is to understand that the other is similar to me. Both I and the other want continuous happiness and prosperity; both of us have the same basic program of understanding and living in harmony; and both of us have the potential for right understanding. Therefore, respect means seeing the other as a human being like me, while also recognising differences in competence without disrespecting the person.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Explain respect as right evaluation.</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "lq",
+   "key": 122505
+  }
+ ]
+}

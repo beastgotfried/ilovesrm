@@ -1,0 +1,144 @@
+{
+ "mcq": [
+  {
+   "_id": 36328,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Recognizing</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\">&nbsp;</span></span></span><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Fullfilling</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Assuming</span></span></span></span></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Physical Facility</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which is not there at the level of Body</span></span></span></p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 36328
+  },
+  {
+   "_id": 36346,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Knowing</span></span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Assuming</span></span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Recognising</span></span></span></span></span></span></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Fulfilling</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Which is definite, Continuous and Universal&nbsp;&nbsp;in self?</span></span></span></p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 36346
+  },
+  {
+   "_id": 36349,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Natural Acceptance</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Harmony</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Disharmony</span></span></span></span></span></span></span></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">None of the above</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">If our imagination is based on pre-conditioning and sensation, we are in the state of:&nbsp;</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 36349
+  },
+  {
+   "_id": 36351,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Verifying the proposal at the level of Natural Acceptance</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Listening to the proposal</span></span></span></span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Comparing the proposal with other&rsquo;s opinion</span></span></span></span></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Validating&nbsp; one&#39;s behaviour</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">What is not included in the process of self &ndash; exploration?</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 36351
+  },
+  {
+   "_id": 36354,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OPT_1": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Ignore the conflict and focus on his personal goals.</span></span></span></span></span></span></p>\n",
+   "OPT_2": "<p style=\"margin-bottom:11px\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Blame his friend for the conflict without analyzing his own role.</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"background:yellow\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Reflect on his own thoughts, feelings, and behaviour, and evaluate whether they align with natural acceptance.</span></span></span></span></span></span></span></p>\n\n<p>&nbsp;</p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Avoid discussing the issue and wait for the conflict to resolve on its own.</span></span></span></span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Rahul is trying to understand the concept of self-exploration in his Universal Human Values class. He decides to apply the process of self-exploration to resolve a conflict with his friend. Which of the following steps should Rahul take to effectively apply self-exploration in this situation?</span></span></span></span></span></span></p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 36354
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36289,
+   "ANSWER": "<p>Because the Self governs thoughts, feelings, and decisions, guiding how humans live and interact.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is the Self considered central to human existence?</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "sq",
+   "key": 36289
+  },
+  {
+   "_id": 36290,
+   "ANSWER": "<p>The body handles physical functions, while the Self deals with consciousness, understanding, and resolution.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How does the Self differ from the body?</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "sq",
+   "key": 36290
+  }
+ ],
+ "lq": [
+  {
+   "_id": 116187,
+   "ANSWER": "<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q1 &mdash; Happiness vs excitement</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>Every human being aspires for continuous happiness, but the program adopted depends on what one has understood or assumed, and one keeps shifting programs when they fail. Much of what is taken to be happiness is in fact excitement or escape. Happiness is harmony; it does not depend on the outside and can be continuous. Excitement may or may not be harmony, depends on the outside, has no provision of continuity and is momentary. The three sources of happiness are: right understanding and right feeling, both ensured in the self, continuous, with a definite completion point (self-organisation); and sensation through the body, which is temporary, dependent on the body and the other, indefinite and with no completion point. Taking sensation or feeling-from-others as the source of continuous happiness is the problem.</span></span></span></p>\n\n<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q2 &mdash; Accumulation of wealth and prosperity</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>The prevailing notion is that the richer you are, the more you have accumulated, the more prosperous you are. Value education questions this: prosperity is defined as the feeling of having or producing more than the required physical facility &mdash; a state of the self, not the quantity of accumulation. Accumulation alone cannot ensure prosperity, because without right understanding one does not know how much is required, and however much is accumulated one may still feel deprived. Hence equating wealth with prosperity is a misconception; the feeling of prosperity arises from rightly identifying one&#39;s need and recognising that there is enough provision in nature.</span></span></span></p>\n\n<p style=\"margin-top:11px; margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:11.5pt\"><span style=\"color:#1f3864\">Q3 &mdash; Why dependence cannot give continuous happiness</span></span></b></span></span></p>\n\n<p style=\"margin-bottom:4px\"><span style=\"font-size:11pt\"><span style=\"background:#2e7d32\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"font-size:9.0pt\"><span style=\"color:white\">&nbsp; DEFINITE &mdash; single expected answer&nbsp; </span></span></b></span></span></span></p>\n\n<p style=\"margin-bottom:7px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b><span style=\"color:#2e7d32\">Model answer:&nbsp; </span></b>Happiness based on sensation is temporary and depends on the body and the other (a state of dependence), is indefinite and has no completion point; happiness sought from feeling received from others is likewise temporary and dependent on the other; and owning or accumulating physical facility cannot suffice for a human being and cannot be continuous. This is why none of these gives continuous happiness. Sensation, however, is not bad &mdash; it is a useful source of information about the state of the body, about a physical facility, and about what the other is communicating, so that we can decide about our health, about a facility or environment, and how to respond. Sensation becomes a problem only when treated as the source of continuous happiness.</span></span></span></p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:5px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q1. </b>Distinguish between happiness and excitement, with reference to the three sources of happiness.</span></span></span></p>\n\n<p style=\"margin-bottom:5px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q2. </b>Examine the prevailing notion that &ldquo;accumulation of wealth = prosperity.&rdquo;</span></span></span></p>\n\n<p style=\"margin-bottom:5px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Arial,sans-serif\"><b>Q3. </b>Explain why dependence on sensation, on physical facility, and on feeling received from others cannot give continuous happiness, and what the role of sensation actually is.</span></span></span></p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "lq",
+   "key": 116187
+  }
+ ]
+}

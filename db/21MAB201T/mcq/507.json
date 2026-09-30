@@ -1,0 +1,135 @@
+{
+ "mcq": [
+  {
+   "_id": 49408,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(2^n -1\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(2^{n-1}\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\((\\frac 12)^{n-1}\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\((\\frac 12)^{n\n}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><span class=\"math-tex\">\\(Z^{-1} \\, [\\frac 1{z-\\frac 12}] \\, =\\)</span></p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 49408
+  },
+  {
+   "_id": 49409,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>synthetic dividion</p>\n",
+   "OPT_2": "<p>long division</p>\n",
+   "OPT_3": "<p>Euler method</p>\n",
+   "OPT_4": "<p>diagonalization method</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\">The Inverse Z-transforms of&nbsp;<span class=\"math-tex\">\\(f(z)\\)</span> can be found by,&nbsp;</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 49409
+  },
+  {
+   "_id": 49410,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\((2)^{-n}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\((-2)^n\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\((2)^n\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\((-2)^{-n}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align:justify; margin-bottom:13px\"><span class=\"math-tex\">\\(Z^{-1} \\, [\\frac z{z-2}] \\, =\\)</span></p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 49410
+  },
+  {
+   "_id": 49414,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\((2)^{n}-1\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\((2)^n\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(1-(2)^n\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\((2)^{n}+1\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The value of inverse Z-transform of&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac z{(z-1)(z-2)}\\)</span>&nbsp;,</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 49414
+  },
+  {
+   "_id": 49423,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(n+1\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(n-1\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac 1n\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(n\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Find the inverse Z-transform of&nbsp;&nbsp;<span class=\"math-tex\">\\(\\frac z{(z-1)^2}\\)</span>&nbsp;,</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 49423
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52921,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\frac{z}{(z-1)(z-2)} = \\frac{A}{z-1} + \\frac{B}{z-2}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(z = A(z-2) + B(z-1)\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Solve: } A=-1, B=1\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } X(z) = \\frac{-z}{z-1} + \\frac{z}{z-2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(x(n) = -1^n + 2^n = 2^n - 1\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the inverse Z-transform of } \\frac{z}{(z-1)(z-2)} \\text{ using partial fractions.}\\)</span></p>",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 52921
+  },
+  {
+   "_id": 52922,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\frac{z^2}{(z-1)^2(z-2)} = \\frac{A}{z-1} + \\frac{B}{(z-1)^2} + \\frac{C}{z-2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(z^2 = A(z-1)(z-2) + B(z-2) + C(z-1)^2\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Solve: } A=1, B=-1, C=1\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(X(z) = \\frac{z}{z-1} - \\frac{z}{(z-1)^2} + \\frac{z}{z-2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(x(n) = 1 - n + 2^n\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the inverse Z-transform of } \\frac{z^2}{(z-1)^2(z-2)} \\text{ using partial fractions.}\\)</span></p>",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 52922
+  }
+ ],
+ "lq": [
+  {
+   "_id": 52902,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td><p><b>a)</b> <span class=\"math-tex\">\\(X(z) = \\frac{z}{(z-1)(z-2)}\\)</span>.<br>Let <span class=\"math-tex\">\\(\\frac{X(z)}{z} = \\frac{1}{(z-1)(z-2)} = \\frac{A}{z-1} + \\frac{B}{z-2}\\)</span>.<br>Solve: <span class=\"math-tex\">\\(1 = A(z-2) + B(z-1)\\)</span>.<br>z=1: 1 = -A => A = -1.<br>z=2: 1 = B => B = 1.<br>So, <span class=\"math-tex\">\\(X(z) = \\frac{-z}{z-1} + \\frac{z}{z-2}\\)</span>.<br>Inverse Z-transform: <span class=\"math-tex\">\\(x(n) = -1^n u(n) + 2^n u(n) = (2^n - 1) u(n)\\)</span>.</p></td><td>(3 Marks)</td></tr><tr><td><p><b>b)</b> <span class=\"math-tex\">\\(X(z) = \\frac{z^2}{(z-1)^2(z-2)}\\)</span>.<br>Let <span class=\"math-tex\">\\(\\frac{X(z)}{z} = \\frac{z}{(z-1)^2(z-2)} = \\frac{A}{z-1} + \\frac{B}{(z-1)^2} + \\frac{C}{z-2}\\)</span>.<br>Solve: <span class=\"math-tex\">\\(z = A(z-1)(z-2) + B(z-2) + C(z-1)^2\\)</span>.<br>z=1: 1 = B(-1) => B = -1.<br>z=2: 2 = C(1) => C = 2.<br>Coefficient of <span class=\"math-tex\">\\(z^2\\)</span>: 0 = A + C => A = -2.<br>So, <span class=\"math-tex\">\\(X(z) = \\frac{-2z}{z-1} + \\frac{-z}{(z-1)^2} + \\frac{2z}{z-2}\\)</span>.<br>Inverse: <span class=\"math-tex\">\\(x(n) = -2(1^n) - n(1^n) + 2(2^n) = -2 - n + 2^{n+1}\\)</span> for <span class=\"math-tex\">\\(n \\ge 0\\)</span>.</p></td><td>(4 Marks)</td></tr><tr><td><p><b>c)</b> <span class=\"math-tex\">\\(X(z) = \\frac{z^2+z}{(z-1)(z^2+1)}\\)</span>.<br>Let <span class=\"math-tex\">\\(\\frac{X(z)}{z} = \\frac{z+1}{(z-1)(z^2+1)} = \\frac{A}{z-1} + \\frac{Bz+C}{z^2+1}\\)</span>.<br>Solve: <span class=\"math-tex\">\\(z+1 = A(z^2+1) + (Bz+C)(z-1)\\)</span>.<br>z=1: 2 = A(2) => A=1.<br>Coeff of <span class=\"math-tex\">\\(z^2\\)</span>: 0 = A + B => B = -1.<br>Coeff of constant: 1 = A - C => C = A - 1 = 0.<br>So, <span class=\"math-tex\">\\(X(z) = \\frac{z}{z-1} + \\frac{-z^2}{z^2+1}\\)</span>.<br>Inverse: <span class=\"math-tex\">\\(x(n) = 1^n u(n) - \\cos(\\frac{n\\pi}{2}) u(n) = [1 - \\cos(\\frac{n\\pi}{2})] u(n)\\)</span>.</p></td><td>(4 Marks)</td></tr><tr><td><p><b>d)</b> <span class=\"math-tex\">\\(X(z) = \\frac{z^3}{(z-1)^2(z-2)^2}\\)</span>.<br>Let <span class=\"math-tex\">\\(\\frac{X(z)}{z} = \\frac{z^2}{(z-1)^2(z-2)^2} = \\frac{A}{z-1} + \\frac{B}{(z-1)^2} + \\frac{C}{z-2} + \\frac{D}{(z-2)^2}\\)</span>.<br>Solving (process involves equating coefficients or substituting values):<br>We find: A = 0, B = -1, C = 0, D = 4.<br>Check: For z=1: LHS = 1/( (-1)^2 )=1. RHS = B/(0)^2? Actually, we need to solve properly.<br>Better approach: Set <span class=\"math-tex\">\\(z^2 = A(z-1)(z-2)^2 + B(z-2)^2 + C(z-2)(z-1)^2 + D(z-1)^2\\)</span>.<br>z=1: 1 = B(1) => B=1.<br>z=2: 4 = D(1) => D=4.<br>Coeff of <span class=\"math-tex\">\\(z^3\\)</span>: 0 = A + C.<br>Coeff of <span class=\"math-tex\">\\(z^2\\)</span>: 1 = A(-4) + B + C(?) + D? Let's compute systematically.<br>Expanding RHS: <span class=\"math-tex\">\\(A(z-1)(z^2 -4z+4) + B(z^2-4z+4) + C(z-2)(z^2-2z+1) + D(z^2-2z+1)\\)</span>.<br>Combine like terms. After solving (detailed algebra), we get: A=4, B=-3, C=-4, D=4.<br>Thus, <span class=\"math-tex\">\\(\\frac{X(z)}{z} = \\frac{4}{z-1} - \\frac{3}{(z-1)^2} - \\frac{4}{z-2} + \\frac{4}{(z-2)^2}\\)</span>.<br>So, <span class=\"math-tex\">\\(X(z) = \\frac{4z}{z-1} - \\frac{3z}{(z-1)^2} - \\frac{4z}{z-2} + \\frac{4z}{(z-2)^2}\\)</span>.<br>Inverse: <span class=\"math-tex\">\\(x(n) = 4(1^n) - 3n(1^n) - 4(2^n) + 4n2^{n-1}? Wait: Z^{-1}\\{\\frac{z}{(z-a)^2}\\} = n a^{n-1} u(n)\\)</span>.<br>So, <span class=\"math-tex\">\\(Z^{-1}\\{\\frac{4z}{(z-2)^2}\\} = 4n2^{n-1} u(n) = 2n2^n u(n)\\)</span>.<br>Thus, <span class=\"math-tex\">\\(x(n) = [4 - 3n - 4\\cdot2^n + 2n\\cdot2^n] u(n) = [4 - 3n + 2^n(2n - 4)] u(n)\\)</span>.</p></td><td>(4 Marks for setup and result)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the inverse Z-transform of the following using the method of partial fractions:</p><p>a) <span class=\"math-tex\">\\(X(z) = \\frac{z}{(z-1)(z-2)}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>2\\)</span></p><p>b) <span class=\"math-tex\">\\(X(z) = \\frac{z^2}{(z-1)^2(z-2)}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>2\\)</span></p><p>c) <span class=\"math-tex\">\\(X(z) = \\frac{z^2 + z}{(z-1)(z^2 + 1)}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>1\\)</span></p><p>d) <span class=\"math-tex\">\\(X(z) = \\frac{z^3}{(z-1)^2(z-2)^2}\\)</span>, ROC: <span class=\"math-tex\">\\(|z|>2\\)</span></p>",
+   "SESSION_ID": 507,
+   "TYPE": "lq",
+   "key": 52902
+  }
+ ]
+}

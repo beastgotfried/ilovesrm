@@ -1,0 +1,154 @@
+{
+ "mcq": [
+  {
+   "_id": 52749,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(y(x,t)=X(x)+T(t)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(y(x,t)=X(x)T(t)\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(y(x,t)=X(x)/T(t)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(y(x,t)=X(x)-T(t)\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{When solving the wave equation by separation of variables, we assume the solution has the form:}\\)</span></p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 52749
+  },
+  {
+   "_id": 52750,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{X''}{X}=k \\text{ and } \\frac{T''}{c^2T}=k\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{X''}{X}=k\\text{ and }\\frac{T''}{T}=k\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(X''=kX\\text{ and }T''=kT\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(X''=kX\\text{ and }T''=c^2kT\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Substituting } y(x,t)=X(x)T(t) \\text{ into the wave equation } \\frac{\\partial^2 y}{\\partial t^2}=c^2\\frac{\\partial^2 y}{\\partial x^2} \\text{ leads to:}\\)</span></p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 52750
+  },
+  {
+   "_id": 52751,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(k&gt;0\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(k&lt;0\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(k=0\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(k&gt;1\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For the vibrating string problem, which case of the separation constant } k\\\\ \\text{ yields the physically appropriate periodic solution?}\\)</span></p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 52751
+  },
+  {
+   "_id": 52752,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(A e^{\\lambda x}+B e^{-\\lambda x}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(A \\cos \\lambda x+B \\sin \\lambda x\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(A x+B\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(A \\cosh \\lambda x+B \\sinh \\lambda x\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{When } k&lt;0 \\text{ (say } k=-\\lambda^2), \\text{ the solution for } X(x) \\text{ is:}\\)</span></p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 52752
+  },
+  {
+   "_id": 52753,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(A=0\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(B=0\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(C=0\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(D=0\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For the vibrating string fixed at } x=0 \\text{ and } x=l, \\text{ applying } y(0,t)=0 \\text{ to the solution }\\\\ y=(A\\cos\\lambda x+B\\sin\\lambda x)(C\\cos\\lambda ct+D\\sin\\lambda ct) \\text{ gives:}\\)</span></p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "mcq",
+   "key": 52753
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52780,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Wave equation: } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{1. String is homogeneous and perfectly elastic.}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{2. Tension is large; gravity negligible.}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{3. Transverse vibrations are small (small slope).}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State the one-dimensional wave equation for a vibrating string and list the physical assumptions made in its derivation.}\\)</span></p>",
+   "SESSION_ID": 302,
+   "TYPE": "sq",
+   "key": 52780
+  },
+  {
+   "_id": 52781,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Let } y(x,t)=X(x)T(t). \\text{ Substituting gives } XT''=c^2 X''T.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Separate: } \\frac{X''}{X} = \\frac{T''}{c^2 T} = k \\text{ (constant).}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Case 1: } k>0, k=\\lambda^2: X''-\\lambda^2 X=0, T''-\\lambda^2 c^2 T=0.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Case 2: } k<0, k=-\\lambda^2: X''+\\lambda^2 X=0, T''+\\lambda^2 c^2 T=0.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Case 3: } k=0: X''=0, T''=0.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{The solutions for each case are exponential, trigonometric, or linear.}\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using separation of variables, solve } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2} \\text{ and obtain the ODEs for } X(x) \\text{ and } T(t). \\text{ Discuss the three cases for the separation constant.}\\)</span></p>",
+   "SESSION_ID": 302,
+   "TYPE": "sq",
+   "key": 52781
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50390,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Assume \\(y(x,t)=X(x)T(t)\\). Substitute into PDE to get \\(XT'' = c^2X''T\\).}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Separate variables: \\(\\dfrac{X''}{X} = \\dfrac{T''}{(c^2T)} = k\\) (constant).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Case \\(k &gt; 0\\) (\\(k=\\lambda^2\\)): \\(X'' - \\lambda^2X=0\\), \\(T'' - \\lambda^2c^2T=0\\) \\(\\Rightarrow\\) solutions: \\(X = Ae^{\\lambda x}+Be^{-\\lambda x}\\), \\(T = Ce^{\\lambda ct}+De^{-\\lambda ct}\\).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Case \\(k &lt; 0\\) (\\(k=-\\lambda^2\\)): \\(X'' + \\lambda^2X=0\\), \\(T'' + \\lambda^2c^2T=0\\) \\(\\Rightarrow\\) solutions: \\(X = A \\cos(\\lambda x) + B \\sin(\\lambda x)\\), \\(T = C \\cos(\\lambda c t) + D \\sin(\\lambda c t)\\).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Case \\(k = 0\\): \\(X''=0\\), \\(T''=0\\) \\(\\Rightarrow\\) \\(X = Ax+B\\), \\(T = Ct+D\\).}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{For vibrating string with fixed ends, boundary conditions \\(y(0,t)=0\\), \\(y(l,t)=0\\) require periodic solutions in space.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Trigonometric solutions (sine and cosine) are periodic and satisfy fixed end conditions naturally after applying BCs.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Exponential and linear solutions do not represent bounded vibrations for a finite string.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Hence trigonometric form is suitable.</td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using separation of variables, derive the three possible solutions of the one-dimensional}\\\\\n\\text{wave equation } \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}.\\\\\n\\text{Explain why the trigonometric solution is most suitable for a vibrating string problem with fixed ends.}\\)</span></p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "lq",
+   "key": 50390
+  },
+  {
+   "_id": 50391,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Assume \\(y(x,t)=X(x)T(t)\\). Separate to get \\(\\dfrac{X''}{X} = \\dfrac{T''}{(c^2T) }= k\\)}.\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{For vibrating string, choose \\(k = -\\lambda^2\\) (negative for oscillatory solutions).}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Solve \\(X'' + \\lambda^2X = 0\\) with \\(X(0)=0\\), \\(X(l)=0\\).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Get \\(X(x) = B \\sin(\\lambda x)\\). Apply \\(X(l)=0\\) \\(\\Rightarrow\\) \\(\\sin(\\lambda l) = 0\\) \\(\\Rightarrow\\) \\(\\lambda = \\dfrac{n\\pi}{l}\\), \\(n=1,2,3,\\ldots\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Solve \\(T'' + \\lambda^2c^2T = 0\\) \\(\\Rightarrow\\) \\(T(t) = C \\cos(\\lambda c t) + D \\sin(\\lambda c t)\\).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus solution for each \\(n\\): \\(y_n(x,t) = \\sin\\left(\\dfrac{n\\pi x}{l}\\right)\\left[C_n \\cos\\left(\\dfrac{n\\pi c t}{l}\\right) + D_n \\sin\\left(\\dfrac{n\\pi c t}{l}\\right)\\right].\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(y(x,t) = \\sum\\limits_{n=1}^{\\infty} \\sin\\left(\\dfrac{n\\pi x}{l}\\right)\\left[C_n \\cos\\left(\\dfrac{n\\pi c t}{l}\\right) + D_n \\sin\\left(\\dfrac{n\\pi c t}{l}\\right)\\right].\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Natural frequencies: \\(\\omega_n = \\dfrac{n\\pi c}{l}\\) (rad/s) or \\(f_n = \\dfrac{nc}{2l}\\) Hz.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Interpretation: \\(n=1\\) fundamental mode, higher \\(n\\) are overtones.}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Solve the one-dimensional wave equation \\( \\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2} \\text{ by separation of variables}\\)}\\\\\n\\text{subject to the boundary conditions \\( y(0,t)=0, y(l,t)=0 \\text{ for all } t\\geq 0.\\)}\\\\\n\\text{Obtain the general solution in the form of a series and identify the natural frequencies of vibration.}\\)</span></p>\n",
+   "SESSION_ID": 302,
+   "TYPE": "lq",
+   "key": 50391
+  }
+ ]
+}

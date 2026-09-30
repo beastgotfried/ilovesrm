@@ -1,0 +1,141 @@
+{
+ "mcq": [
+  {
+   "_id": 17999,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Paging</p>\n",
+   "OPT_2": "<p>Semaphore</p>\n",
+   "OPT_3": "<p>Threading</p>\n",
+   "OPT_4": "<p>Stack</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"400\" data-start=\"316\"><strong data-end=\"398\" data-start=\"320\">Which of the following is a method of Interprocess Communication (IPC)?</strong></h3>\n\n<p data-end=\"453\" data-start=\"401\">&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 17999
+  },
+  {
+   "_id": 18001,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Reduce memory usage</p>\n",
+   "OPT_2": "<p>Prevent process creation</p>\n",
+   "OPT_3": "<p>Avoid race conditions and ensure orderly execution</p>\n",
+   "OPT_4": "<p>Increase process priority</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"550\" data-start=\"486\"><strong data-end=\"548\" data-start=\"490\">What is the main purpose of synchronization in IPC?</strong></h3>\n\n<p data-end=\"692\" data-start=\"551\">&nbsp;</p>\n\n<p data-end=\"453\" data-start=\"401\">&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 18001
+  },
+  {
+   "_id": 18004,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Registers</p>\n",
+   "OPT_2": "<p>Cache</p>\n",
+   "OPT_3": "<p>Pipes</p>\n",
+   "OPT_4": "<p>Mutex</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"855\" data-start=\"766\"><strong data-end=\"853\" data-start=\"770\">Which of the following is used to achieve synchronization between processes?</strong></h3>\n\n<p data-end=\"903\" data-start=\"856\">&nbsp;</p>\n\n<p data-end=\"692\" data-start=\"551\">&nbsp;</p>\n\n<p data-end=\"453\" data-start=\"401\">&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 18004
+  },
+  {
+   "_id": 18006,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>The part of memory shared between OS and hardware</p>\n",
+   "OPT_2": "<p>The portion of a process that accesses shared resources</p>\n",
+   "OPT_3": "<p>The error section in the process</p>\n",
+   "OPT_4": "<p>The scheduler&rsquo;s queue</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"990\" data-start=\"932\"><strong data-end=\"988\" data-start=\"936\">What does a critical section in IPC refer to?</strong></h3>\n\n<p data-end=\"1171\" data-start=\"991\">&nbsp;</p>\n\n<p data-end=\"453\" data-start=\"401\">&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 18006
+  },
+  {
+   "_id": 18009,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Deadlock</p>\n",
+   "OPT_2": "<p>High throughput</p>\n",
+   "OPT_3": "<p>Reduced memory size</p>\n",
+   "OPT_4": "<p>Cache hit</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1335\" data-start=\"1250\"><strong data-end=\"1333\" data-start=\"1254\">Which problem arises if process synchronization is not handled properly?</strong></h3>\n\n<p data-end=\"1410\" data-start=\"1336\">A.<br data-end=\"1350\" data-start=\"1347\" />\nB.<br data-end=\"1371\" data-start=\"1368\" />\nC.<br data-end=\"1396\" data-start=\"1393\" />\nD.</p>\n\n<p data-end=\"1435\" data-start=\"1412\"><strong data-end=\"1423\" data-start=\"1412\">Answer:</strong> A. Deadlock</p>\n\n<p data-end=\"1171\" data-start=\"991\">&nbsp;</p>\n\n<p data-end=\"453\" data-start=\"401\">&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 18009
+  }
+ ],
+ "sq": [
+  {
+   "_id": 18010,
+   "ANSWER": "<p>Interprocess Communication (IPC) refers to the mechanism that allows processes to <strong data-end=\"1660\" data-start=\"1629\">communicate and synchronize</strong> with each other to share data and resources. IPC is essential for processes in multitasking systems to coordinate actions and avoid conflicts.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1532\" data-start=\"1478\"><strong data-end=\"1530\" data-start=\"1482\">What is Interprocess Communication (IPC)?</strong></h3>\n\n<p data-end=\"1803\" data-start=\"1533\">&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 18010
+  },
+  {
+   "_id": 18012,
+   "ANSWER": "<p>Synchronization is needed to <strong data-end=\"1933\" data-start=\"1911\">ensure consistency</strong> when multiple processes access <strong data-end=\"1985\" data-start=\"1965\">shared resources</strong>. It prevents issues like <strong data-end=\"2030\" data-start=\"2011\">race conditions</strong>, where the output depends on the timing of processes, and ensures that critical sections are accessed by only one process at a time.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1867\" data-start=\"1810\"><strong data-end=\"1865\" data-start=\"1814\">What is the need for synchronization in IPC?</strong></h3>\n\n<p data-end=\"2163\" data-start=\"1868\">&nbsp;</p>\n\n<p data-end=\"1803\" data-start=\"1533\">&nbsp;</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 18012
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17971,
+   "ANSWER": "<p data-end=\"2526\" data-start=\"2309\">In an operating system, <strong data-end=\"2355\" data-start=\"2333\">process scheduling</strong> is the mechanism by which processes are selected for execution on the CPU. To manage this, the OS uses <strong data-end=\"2488\" data-start=\"2459\">three types of schedulers</strong>, each with distinct responsibilities.</p>\n\n<hr data-end=\"2531\" data-start=\"2528\" />\n<h3 data-end=\"2582\" data-start=\"2533\"><strong data-end=\"2580\" data-start=\"2537\">1. Long-Term Scheduler (Job Scheduler):</strong></h3>\n\n<ul data-end=\"2888\" data-start=\"2583\">\n\t<li data-end=\"2663\" data-start=\"2583\">\n\t<p data-end=\"2663\" data-start=\"2585\">Controls the <strong data-end=\"2628\" data-start=\"2598\">degree of multiprogramming</strong> (number of processes in memory).</p>\n\t</li>\n\t<li data-end=\"2767\" data-start=\"2664\">\n\t<p data-end=\"2767\" data-start=\"2666\">It selects <strong data-end=\"2708\" data-start=\"2677\">processes from the job pool</strong> (on disk) and loads them into main memory for execution.</p>\n\t</li>\n\t<li data-end=\"2815\" data-start=\"2768\">\n\t<p data-end=\"2815\" data-start=\"2770\">Used less frequently than other schedulers.</p>\n\t</li>\n\t<li data-end=\"2888\" data-start=\"2816\">\n\t<p data-end=\"2888\" data-start=\"2818\">Example: In a batch system, selecting which jobs to load from a queue.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"2893\" data-start=\"2890\" />\n<h3 data-end=\"2945\" data-start=\"2895\"><strong data-end=\"2943\" data-start=\"2899\">2. Short-Term Scheduler (CPU Scheduler):</strong></h3>\n\n<ul data-end=\"3228\" data-start=\"2946\">\n\t<li data-end=\"3006\" data-start=\"2946\">\n\t<p data-end=\"3006\" data-start=\"2948\">Runs <strong data-end=\"2972\" data-start=\"2953\">most frequently</strong> (often every few milliseconds).</p>\n\t</li>\n\t<li data-end=\"3087\" data-start=\"3007\">\n\t<p data-end=\"3087\" data-start=\"3009\">Selects from the <strong data-end=\"3041\" data-start=\"3026\">ready queue</strong> the next process to be executed by the CPU.</p>\n\t</li>\n\t<li data-end=\"3152\" data-start=\"3088\">\n\t<p data-end=\"3152\" data-start=\"3090\">Must be very fast since it directly affects CPU performance.</p>\n\t</li>\n\t<li data-end=\"3228\" data-start=\"3153\">\n\t<p data-end=\"3228\" data-start=\"3155\">Example: Round Robin scheduler picking the next process every time slice.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"3233\" data-start=\"3230\" />\n<h3 data-end=\"3280\" data-start=\"3235\"><strong data-end=\"3278\" data-start=\"3239\">3. Medium-Term Scheduler (Swapper):</strong></h3>\n\n<ul data-end=\"3595\" data-start=\"3281\">\n\t<li data-end=\"3399\" data-start=\"3281\">\n\t<p data-end=\"3399\" data-start=\"3283\"><strong data-end=\"3316\" data-start=\"3283\">Temporarily removes processes</strong> from main memory (swapping out) to control memory usage and improve performance.</p>\n\t</li>\n\t<li data-end=\"3472\" data-start=\"3400\">\n\t<p data-end=\"3472\" data-start=\"3402\">Reintroduces the process when resources are available (swapping in).</p>\n\t</li>\n\t<li data-end=\"3505\" data-start=\"3473\">\n\t<p data-end=\"3505\" data-start=\"3475\">Helps to reduce memory load.</p>\n\t</li>\n\t<li data-end=\"3595\" data-start=\"3506\">\n\t<p data-end=\"3595\" data-start=\"3508\">Example: In multitasking OS, if memory is low, a background process may be swapped out.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"3600\" data-start=\"3597\" />\n<h3 data-end=\"3626\" data-start=\"3602\"><strong data-end=\"3626\" data-start=\"3606\">Key Differences:</strong></h3>\n\n<table data-end=\"4089\" data-start=\"3628\">\n\t<thead data-end=\"3712\" data-start=\"3628\">\n\t\t<tr data-end=\"3712\" data-start=\"3628\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"3646\" data-start=\"3628\">Scheduler</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"3671\" data-start=\"3646\">Frequency of Execution</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"3701\" data-start=\"3671\">Function</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"3712\" data-start=\"3701\">Affects</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"4089\" data-start=\"3797\">\n\t\t<tr data-end=\"3900\" data-start=\"3797\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3815\" data-start=\"3797\">Long-Term</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3840\" data-start=\"3815\">Infrequent</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3870\" data-start=\"3840\">Job admission</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3900\" data-start=\"3870\">Degree of multiprogramming</td>\n\t\t</tr>\n\t\t<tr data-end=\"3993\" data-start=\"3901\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3919\" data-start=\"3901\">Short-Term</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3944\" data-start=\"3919\">Very Frequent</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3974\" data-start=\"3944\">CPU allocation</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3993\" data-start=\"3974\">CPU performance</td>\n\t\t</tr>\n\t\t<tr data-end=\"4089\" data-start=\"3994\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"4012\" data-start=\"3994\">Medium-Term</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4037\" data-start=\"4012\">Moderate</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4067\" data-start=\"4037\">Process swapping</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"4089\" data-start=\"4067\">Memory performance</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Explain the different types of process schedulers in an operating system. Describe their roles, differences, and importance with suitable examples.</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "lq",
+   "key": 17971
+  }
+ ]
+}

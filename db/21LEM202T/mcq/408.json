@@ -1,0 +1,151 @@
+{
+ "mcq": [
+  {
+   "_id": 36851,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Competition between species</p>\n",
+   "OPT_2": "<p>Interconnectedness and mutual fulfillment among all entities</p>\n",
+   "OPT_3": "<p>Domination of humans over animals</p>\n",
+   "OPT_4": "<p>Isolation of units in existence</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Understanding harmony in nature involves recognizing:</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 36851
+  },
+  {
+   "_id": 36852,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Competition between species</p>\n",
+   "OPT_2": "<p>Interconnectedness and mutual fulfillment among all entities</p>\n",
+   "OPT_3": "<p>Domination of humans over animals</p>\n",
+   "OPT_4": "<p>Isolation of units in existence</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Understanding harmony in nature involves recognizing:</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 36852
+  },
+  {
+   "_id": 36853,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Humans should exploit resources faster</p>\n",
+   "OPT_2": "<p>Humans should align actions with sustainable and ethical living</p>\n",
+   "OPT_3": "<p>Humans should ignore natural balance</p>\n",
+   "OPT_4": "<p>Humans should focus only on personal gain</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Contemplation about human participation in harmony means:</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 36853
+  },
+  {
+   "_id": 36854,
+   "ANSWER": 4,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Realization of coexistence</p>\n",
+   "OPT_2": "<p>Understanding harmony in nature</p>\n",
+   "OPT_3": "<p>Contemplation of human participation</p>\n",
+   "OPT_4": "<p>Metabolism of food</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT an activity of the Self?</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 36854
+  },
+  {
+   "_id": 36855,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Harmony and peace increase</p>\n",
+   "OPT_2": "<p>Confusion, contradiction, and disharmony occur</p>\n",
+   "OPT_3": "<p>Sustainable living is achieved</p>\n",
+   "OPT_4": "<p>Knowledge becomes complete</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What happens when realization, understanding, and contemplation are absent?</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 36855
+  },
+  {
+   "_id": 36856,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Realization</p>\n",
+   "OPT_2": "<p>Understanding</p>\n",
+   "OPT_3": "<p>Contemplation</p>\n",
+   "OPT_4": "<p>None of the above</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Which activity of the Self connects directly to sustainable human conduct?</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 36856
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36462,
+   "ANSWER": "<p>Understanding is recognizing the harmony that already exists in nature and how all units of existence function in an interconnected and balanced way.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What is meant by understanding in the self?</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "sq",
+   "key": 36462
+  },
+  {
+   "_id": 36463,
+   "ANSWER": "<p>Contemplation means reflecting on the human role in ensuring harmony and consciously participating in the universal order.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>What does contemplation in the self involve?</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "sq",
+   "key": 36463
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122520,
+   "ANSWER": "<p>Right utilisation means using physical facilities and natural resources according to real need, not according to greed or blind consumption. Water insecurity shows that even when natural water availability exists, mismanagement, deforestation, pollution, over-extraction and wrong storage systems create scarcity. Food insecurity shows that the problem is not always lack of production, but wrong distribution, wastage and wrong priorities. Population also becomes a problem when it is not guided by right understanding and responsibility. These issues show that physical resources must be understood in relation to human needs, harmony in nature and future generations. Therefore, right utilisation includes conservation, reduction of waste, sustainable agriculture, water harvesting, responsible consumption and systems that support mutual prosperity without damaging nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain the importance of right utilisation of resources with reference to water, food and population issues.</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "lq",
+   "key": 122520
+  }
+ ]
+}

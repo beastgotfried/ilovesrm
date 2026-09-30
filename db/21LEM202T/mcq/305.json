@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 36773,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Air and water</p>\n",
+   "OPT_2": "<p>Respect, trust, right understanding, and knowledge</p>\n",
+   "OPT_3": "<p>Vitamins and minerals</p>\n",
+   "OPT_4": "<p>Only biological processes</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The self is sustained by:</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 36773
+  },
+  {
+   "_id": 36774,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Complete harmony is achieved</p>\n",
+   "OPT_2": "<p>Physical health improves but conflicts, dissatisfaction, and stress remain</p>\n",
+   "OPT_3": "<p>Nothing changes</p>\n",
+   "OPT_4": "<p>Self and body remain balanced automatically</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What happens if we take care of the body but ignore the self?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 36774
+  },
+  {
+   "_id": 36776,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Unhealthy lifestyle despite good knowledge</p>\n",
+   "OPT_2": "<p>Right understanding in self, leading to proper care of the body</p>\n",
+   "OPT_3": "<p>Ignoring physical needs for long hours</p>\n",
+   "OPT_4": "<p>Overeating due to stress</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which of the following reflects the harmony of self and body?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 36776
+  },
+  {
+   "_id": 36777,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Because it guides the body through desires, thoughts, and decisions</p>\n",
+   "OPT_2": "<p>Because it performs digestion</p>\n",
+   "OPT_3": "<p>Because it grows physically</p>\n",
+   "OPT_4": "<p>Because it generates energy for muscles</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Why is the self considered primary in coexistence?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 36777
+  },
+  {
+   "_id": 36778,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Focus only on physical health</p>\n",
+   "OPT_2": "<p>Focus only on intellectual growth</p>\n",
+   "OPT_3": "<p>Ensure harmony between self and body</p>\n",
+   "OPT_4": "<p>Ignore both and rely on technology</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>For holistic human development, it is essential to:</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "mcq",
+   "key": 36778
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36418,
+   "ANSWER": "<p>Understanding this helps engineering students appreciate human-centered design, ergonomics, AI-human interactions, and ethical considerations in technology, as it emphasizes both physical and conscious aspects of humans.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why is understanding the co-existence of self and body important for engineering students?</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "sq",
+   "key": 36418
+  },
+  {
+   "_id": 36419,
+   "ANSWER": "<p>While driving a car, the body performs physical actions like steering and braking, while the self makes decisions, observes surroundings, and plans routes. Both must function together for safe driving.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Give an example of how the self and body work together in daily life.</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "sq",
+   "key": 36419
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122508,
+   "ANSWER": "<p>Society is the next larger order after family. It is made up of many families living together and making collective effort for a common goal. Harmony in society means that human beings live together in a way that fulfils the human goal. The human goal includes right understanding and right feeling in every individual, prosperity in every family, fearlessness or trust in society, and co-existence with nature. For this, society requires proper systems such as education-sanskar, health-sanyam, production-work, justice-suraksha and exchange-storage. When these systems are guided by right understanding, they support mutual happiness and mutual prosperity. Thus, a harmonious society is not just a crowd of people; it is a family-based society where individuals and families participate responsibly for the fulfilment of the human goal.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Explain the meaning of harmony in society.</p>\n",
+   "SESSION_ID": 305,
+   "TYPE": "lq",
+   "key": 122508
+  }
+ ]
+}

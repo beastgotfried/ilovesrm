@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 36779,
+   "ANSWER": 3,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Digestion</p>\n",
+   "OPT_2": "<p>Respiration</p>\n",
+   "OPT_3": "<p>Desiring, thinking, and selecting</p>\n",
+   "OPT_4": "<p>Circulation of blood</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is an activity of the Self?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 36779
+  },
+  {
+   "_id": 36780,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>The experiencer, knower, and doer</p>\n",
+   "OPT_2": "<p>The instrument for physical growth</p>\n",
+   "OPT_3": "<p>The chemical composition of the body</p>\n",
+   "OPT_4": "<p>The set of reflexes</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The Self is also referred to as:</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 36780
+  },
+  {
+   "_id": 36782,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To achieve right understanding and ensure harmony</p>\n",
+   "OPT_2": "<p>To build muscles</p>\n",
+   "OPT_3": "<p>To digest food efficiently</p>\n",
+   "OPT_4": "<p>To control external machines</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What is the primary potential of the Self?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 36782
+  },
+  {
+   "_id": 36784,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Breathing</p>\n",
+   "OPT_2": "<p>Contemplation and analysis</p>\n",
+   "OPT_3": "<p>Walking</p>\n",
+   "OPT_4": "<p>Eating</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which activity belongs to the Self but not to the body?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 36784
+  },
+  {
+   "_id": 36785,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Bodily needs only</p>\n",
+   "OPT_2": "<p>Right or wrong, useful or harmful, based on understanding</p>\n",
+   "OPT_3": "<p>Only material benefits</p>\n",
+   "OPT_4": "<p>Physical sensations</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>The Self evaluates:</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "mcq",
+   "key": 36785
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36420,
+   "ANSWER": "<p>The main activities of the self are <strong data-end=\"235\" data-start=\"223\">desiring</strong>, <strong data-end=\"249\" data-start=\"237\">thinking</strong>, and <strong data-end=\"268\" data-start=\"255\">selecting</strong> (also called aspirations, analysis, and decisions).</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What are the main activities of the self?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "sq",
+   "key": 36420
+  },
+  {
+   "_id": 36421,
+   "ANSWER": "<p>The body performs <strong data-end=\"457\" data-start=\"429\">physiological activities</strong> (like eating, walking, sleeping), while the self performs <strong data-end=\"540\" data-start=\"516\">conscious activities</strong> (like imagining, evaluating, and making choices).</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How does the self differ from the body in terms of activities?</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "sq",
+   "key": 36421
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122509,
+   "ANSWER": "<p>Universal Human Order is the order in which human beings live with right understanding, right feeling, prosperity, fearlessness and co-existence with nature. It begins from the family and gradually expands to family cluster, village, village cluster, nation and world family. In this order, the goal is not domination, competition or accumulation, but mutual fulfilment. Every individual develops right understanding, every family feels prosperous, society becomes fearless through trust, and human beings participate in nature without violating harmony. Universal Human Order does not mean that everyone must have exactly equal physical facilities; rather, it means every family is able to identify its needs correctly and has the feeling of prosperity. This vision gives direction for a humane society where the whole human family can live with mutual happiness and mutual prosperity.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Explain the vision for Universal Human Order.</p>\n",
+   "SESSION_ID": 306,
+   "TYPE": "lq",
+   "key": 122509
+  }
+ ]
+}

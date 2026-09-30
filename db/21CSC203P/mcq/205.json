@@ -1,0 +1,163 @@
+{
+ "mcq": [
+  {
+   "_id": 11924,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "Code is divided into classes",
+   "OPT_2": "Objects are central",
+   "OPT_3": "Emphasis is on procedures or routines",
+   "OPT_4": "Polymorphism is heavily used",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following is a characteristic of procedural programming?",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 11924
+  },
+  {
+   "_id": 11925,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Code inheritance",
+   "OPT_2": "Runtime polymorphism",
+   "OPT_3": "Code modularity and reuse",
+   "OPT_4": "Object encapsulation",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is the primary benefit of using functions in procedural programming?",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 11925
+  },
+  {
+   "_id": 11926,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "public int add(int a, int b);",
+   "OPT_2": "function add(int a, int b): int;",
+   "OPT_3": "int add(int a, int b);",
+   "OPT_4": "method int add(a, b);",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following is a valid function declaration in Java?",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 11926
+  },
+  {
+   "_id": 11927,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "public",
+   "OPT_2": "private",
+   "OPT_3": "protected",
+   "OPT_4": "static",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which access modifier allows a function to be used within the same class only?",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 11927
+  },
+  {
+   "_id": 11928,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "empty",
+   "OPT_2": "nul",
+   "OPT_3": "void",
+   "OPT_4": "undefined",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which return type should be used for a method that does not return any value?",
+   "SESSION_ID": 205,
+   "TYPE": "mcq",
+   "key": 11928
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11972,
+   "ANSWER": "Top-down approach: Programs are structured from main to sub-functions.\n\nModularization: Tasks are broken into smaller reusable functions to improve readability and reusability.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "List any two key characteristics of procedural programming with brief explanation.",
+   "SESSION_ID": 205,
+   "TYPE": "sq",
+   "key": 11972
+  },
+  {
+   "_id": 11973,
+   "ANSWER": "public void greetUser(String name) {\n    System.out.println(\"Hello, \" + name + \"!\");\n}\nThis function accepts a parameter of type String and does not return a value (void).",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a simple Java function named greetUser that takes a name as a parameter and prints a greeting message.",
+   "SESSION_ID": 205,
+   "TYPE": "sq",
+   "key": 11973
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11992,
+   "ANSWER": "Java Code:\npublic class BillingSystem {\n    // Function to calculate total cost with tax\n    public static double calculateBill(double price, int quantity) {\n        double subtotal = price * quantity;\n        double tax = subtotal * 0.05;\n        return subtotal + tax;\n    }\n    public static void main(String[] args) {\n        double total = calculateBill(100.0, 3);\n        System.out.println(\"Total Bill: ?\" + total);\n    }\n}\nExplanation:\nFunction Declaration:\npublic static double calculateBill(double price, int quantity)\nThis includes the return type (double), function name (calculateBill), and parameter list.\nParameters:\ndouble price, int quantity \ufffd these are inputs the function uses to compute the total.\nReturn Type:\nThe function returns a double, representing the total bill including tax.\nAccess Modifier:\npublic allows the function to be accessed from outside the class, and static lets it be called without creating an object.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are writing a billing system for a grocery store. The system should calculate the total bill including tax for each customer.\nWrite a Java function named calculateBill that accepts the price and quantity of an item, and returns the total cost after adding 5% tax. Also explain how function declaration, parameters, return type, and access modifiers are used here.",
+   "SESSION_ID": 205,
+   "TYPE": "lq",
+   "key": 11992
+  },
+  {
+   "_id": 12004,
+   "ANSWER": "Java Code:\npublic class BillingSystem {\n    // Function to calculate total cost with tax\n    public static double calculateBill(double price, int quantity) {\n        double subtotal = price * quantity;\n        double tax = subtotal * 0.05;\n        return subtotal + tax;\n    }\n    public static void main(String[] args) {\n        double total = calculateBill(100.0, 3);\n        System.out.println(\"Total Bill: ?\" + total);\n    }\n}\nExplanation:\nFunction Declaration:\npublic static double calculateBill(double price, int quantity)\nThis includes the return type (double), function name (calculateBill), and parameter list.\nParameters:\ndouble price, int quantity \ufffd these are inputs the function uses to compute the total.\nReturn Type:\nThe function returns a double, representing the total bill including tax.\nAccess Modifier:\npublic allows the function to be accessed from outside the class, and static lets it be called without creating an object.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are writing a billing system for a grocery store. The system should calculate the total bill including tax for each customer.\nWrite a Java function named calculateBill that accepts the price and quantity of an item, and returns the total cost after adding 5% tax. Also explain how function declaration, parameters, return type, and access modifiers are used here.",
+   "SESSION_ID": 205,
+   "TYPE": "lq",
+   "key": 12004
+  }
+ ]
+}

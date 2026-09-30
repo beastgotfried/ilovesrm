@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36887,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Activities that exploit nature</p>\n",
+   "OPT_2": "<p>Participation in larger order ensuring mutual prosperity</p>\n",
+   "OPT_3": "<p>Activities for personal gain only</p>\n",
+   "OPT_4": "<p>Unsystematic effort</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Work in human endeavor refers to:</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 36887
+  },
+  {
+   "_id": 36888,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Wealth accumulation</p>\n",
+   "OPT_2": "<p>Harmony at all levels &ndash; Self, Family, Society, Nature, and Existence</p>\n",
+   "OPT_3": "<p>Competition and domination</p>\n",
+   "OPT_4": "<p>Power over others</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>The ultimate goal of holistic living is:</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 36888
+  },
+  {
+   "_id": 36889,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Guidance for sustainable human conduct</p>\n",
+   "OPT_2": "<p>Competition between nations</p>\n",
+   "OPT_3": "<p>Materialistic progress only</p>\n",
+   "OPT_4": "<p>Domination of technology</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>All-encompassing resolution provides:</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 36889
+  },
+  {
+   "_id": 36890,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Confusion</p>\n",
+   "OPT_2": "<p>Holistic living and inner harmony</p>\n",
+   "OPT_3": "<p>Contradiction in the Self</p>\n",
+   "OPT_4": "<p>Blind dependence on external factors</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>A person with realization, thought, behavior, and work aligned develops:</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 36890
+  },
+  {
+   "_id": 36891,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Resolution is absent in realization, thought, behavior, or work</p>\n",
+   "OPT_2": "<p>All four dimensions are integrated</p>\n",
+   "OPT_3": "<p>One lives with understanding</p>\n",
+   "OPT_4": "<p>Relationships are mutual</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Disharmony in human conduct arises when:</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "mcq",
+   "key": 36891
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36488,
+   "ANSWER": "<p>Realization is the awakening of the self to the reality of co-existence and harmony in existence.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>What does realization mean in this context?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 36488
+  },
+  {
+   "_id": 36489,
+   "ANSWER": "<p>Thought involves analyzing, understanding, and aligning ideas with the values of harmony and sustainability.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>How does thought contribute to holistic living?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "sq",
+   "key": 36489
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122528,
+   "ANSWER": "<p>The main purpose of Practice Session 13 is to help students explore ethical human conduct through real-life situations. Ethical conduct is not only about following rules, codes or punishments. It is based on right understanding, natural acceptance and the ability to see what is mutually fulfilling. In this practice session, students can examine situations where there is an ethical dilemma and identify whether their decision is based on preconditioning, fear, reward, punishment or right understanding. The session helps students see that ethical conduct is definite, self-satisfying, people-friendly and eco-friendly. It also helps them understand that ethical competence must be developed within the individual through self-exploration.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What is the main purpose of Practice Session 13 on ethical human conduct?</p>\n",
+   "SESSION_ID": 507,
+   "TYPE": "lq",
+   "key": 122528
+  }
+ ]
+}

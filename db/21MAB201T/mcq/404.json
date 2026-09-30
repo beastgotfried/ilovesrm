@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 52823,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{1+s^2} - \\frac{4}{4+s^2} \\right]\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{1+s^2} - \\frac{2}{4+s^2} \\right]\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+s^2} - \\frac{2}{4+s^2} \\right]\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{1+s^2} + \\frac{4}{4+s^2} \\right]\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using the linearity property of Fourier transforms, if } F\\{e^{-x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\text{ and } F\\{e^{-2x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{2}{4+s^2}, \\text{ then } F\\{3e^{-x} - 2e^{-2x}\\} \\text{ is:}\\)</span></p>",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 52823
+  },
+  {
+   "_id": 52824,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as/2) - (as/2)\\cos(as/2))}{(s/2)^2}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(2as) - 2as\\cos(2as))}{s^2}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\cdot \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as) - as\\cos(as))}{s^2}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as/2) - (as/2)\\cos(as/2))}{(s/2)^2}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given } F\\{f(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\frac{2i(\\sin(as) - as\\cos(as))}{s^2}, \\text{ what is } F\\{f(2x)\\} \\text{ using the change of scale property?}\\)</span></p>",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 52824
+  },
+  {
+   "_id": 52825,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{4i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin s - s \\cos s}{s^2} \\right)\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{2i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin s - s \\cos s}{s^2} \\right)\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{4i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin s}{s} \\right)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{2i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin(2s) - 2s \\cos(2s)}{s^2} \\right)\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier transform of } f(x) = \\begin{cases} 2x, & |x| \\leq 1 \\\\ 0, & |x| > 1 \\end{cases} \\text{ given that the transform of } g(x) = \\begin{cases} x, & |x| \\leq a \\\\ 0, & |x| > a \\end{cases} \\text{ is } \\frac{2i}{\\sqrt{2\\pi}} \\left( \\frac{\\sin(as) - a s \\cos(as)}{s^2} \\right).\\)</span></p>",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 52825
+  },
+  {
+   "_id": 52826,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+3)^2} + \\frac{1}{1+(s-3)^2} \\right]\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+3)^2} - \\frac{1}{1+(s-3)^2} \\right]\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\cos(3s)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\sin(3s)\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using the modulation theorem, if } F\\{e^{-|x|}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}, \\text{ then } F\\{e^{-|x|} \\cos(3x)\\} \\text{ is:}\\)</span></p>",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 52826
+  },
+  {
+   "_id": 52827,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(-i \\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(i \\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(-\\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{d}{ds} \\left[ \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3} \\right]\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{If } F\\{f(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\frac{4(\\sin s - s \\cos s)}{s^3}, \\text{ find } F\\{x f(x)\\} \\text{ using the derivative of transform property.}\\)</span></p>",
+   "SESSION_ID": 404,
+   "TYPE": "mcq",
+   "key": 52827
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52805,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Consider } f(x) = \\begin{cases} 1 & |x| < 1 \\\\ 0 & |x| > 1 \\end{cases}, \\text{ its Fourier transform is } F(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{\\sin s}{s}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By inverse transform at } x=0: f(0) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} F(s) ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(1 = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} \\sqrt{\\frac{2}{\\pi}} \\frac{\\sin s}{s} ds = \\frac{1}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{\\sin s}{s} ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Since } \\frac{\\sin s}{s} \\text{ is even: } \\int_{-\\infty}^{\\infty} \\frac{\\sin s}{s} ds = 2 \\int_{0}^{\\infty} \\frac{\\sin s}{s} ds = \\pi\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{\\sin x}{x} dx = \\frac{\\pi}{2}.\\)</span></p></td><td></td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Fourier transform, evaluate } \\int_{0}^{\\infty} \\frac{\\sin x}{x} dx.\\)</span></p>",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 52805
+  },
+  {
+   "_id": 52806,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{We have } F(s) = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{1}{1+s^2} \\text{ for } f(x)=e^{-|x|}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By inverse transform at } x=0: f(0)=1 = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} F(s) ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(1 = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} ds = \\frac{1}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{1}{1+s^2} ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Since integrand is even: } \\int_{-\\infty}^{\\infty} \\frac{1}{1+s^2} ds = 2 \\int_{0}^{\\infty} \\frac{1}{1+x^2} dx = \\pi\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } \\int_{0}^{\\infty} \\frac{1}{1+x^2} dx = \\frac{\\pi}{2}.\\)</span></p></td><td></td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using the Fourier transform of } f(x)=e^{-|x|}, \\text{ evaluate } \\int_{0}^{\\infty} \\frac{1}{1+x^2} dx.\\)</span></p>",
+   "SESSION_ID": 404,
+   "TYPE": "sq",
+   "key": 52806
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50677,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>\\(\\mathcal{F}\\{f'(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f'(x) e^{isx} dx\\)</td><td>(2)</td></tr><tr><td>Integrate by parts: let \\(u = e^{isx}\\), \\(dv = f'(x)dx\\)</td><td>(2)</td></tr><tr><td>Then \\(du = is e^{isx} dx\\), \\(v = f(x)\\)</td><td>(2)</td></tr><tr><td>\\(\\mathcal{F}\\{f'(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\left[ f(x)e^{isx} \\right]_{-\\infty}^{\\infty} - \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) is e^{isx} dx\\)</td><td>(3)</td></tr><tr><td>Since \\(f(x) \\to 0\\) as \\(x \\to \\pm\\infty\\), the boundary term vanishes</td><td>(2)</td></tr><tr><td>\\(\\mathcal{F}\\{f'(x)\\} = -is \\cdot \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) e^{isx} dx = -is F(s)\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier transform of the derivative } f'(x) \\text{ given that } \\mathcal{F}\\{f(x)\\}=F(s).\\)</span></p>",
+   "SESSION_ID": 404,
+   "TYPE": "lq",
+   "key": 50677
+  }
+ ]
+}

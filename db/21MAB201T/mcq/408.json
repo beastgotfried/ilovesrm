@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 52828,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{12}{s^2+9} + \\frac{2}{s^2+1} \\right]\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{4}{s^2+9} + \\frac{2}{s^2+1} \\right]\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{3}{s^2+9} + \\frac{1}{s^2+1} \\right]\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{12}{s^2+3} + \\frac{2}{s^2+1} \\right]\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using the linearity property, find } F_c\\{4e^{-3x} + 2e^{-x}\\} \\text{ given that } F_c\\{e^{-ax}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{a}{s^2+a^2}.\\)</span></p>",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 52828
+  },
+  {
+   "_id": 52829,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\frac{s/2}{(s/2)^2+1}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\frac{s}{s^2+4}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\frac{s}{s^2+4}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\frac{2s}{s^2+4}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given } F_s\\{e^{-x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{s}{s^2+1}, \\text{ find } F_s\\{e^{-2x}\\} \\text{ using the scaling property.}\\)</span></p>",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 52829
+  },
+  {
+   "_id": 52830,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{\\pi}{2}} \\frac{e^{-2s}}{2}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{\\pi}{2}} e^{-2s}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{\\pi}{2}} \\frac{e^{-4s}}{4}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\frac{e^{-2s}}{2}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find } F_c\\left\\{\\frac{1}{4+x^2}\\right\\} \\text{ using the known result } F_c\\left\\{\\frac{1}{a^2+x^2}\\right\\} = \\sqrt{\\frac{\\pi}{2}} \\frac{e^{-as}}{a}.\\)</span></p>",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 52830
+  },
+  {
+   "_id": 52831,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{1}{2i} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+2)^2} - \\frac{1}{1+(s-2)^2} \\right]\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{1}{2} \\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1+(s+2)^2} - \\frac{1}{1+(s-2)^2} \\right]\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\sin(2s)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2} \\cos(2s)\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using the modulation property for Fourier cosine transform, if } F_c\\{e^{-x}\\} = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}, \\text{ then } F_c\\{e^{-x} \\sin(2x)\\} \\text{ is:}\\)</span></p>",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 52831
+  },
+  {
+   "_id": 52832,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{168}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{84}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{24}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{12}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Evaluate } \\int_0^\\infty \\frac{dx}{(x^2+9)(x^2+16)} \\text{ using Parseval's identity for Fourier cosine transforms with } f(x)=e^{-3x}, g(x)=e^{-4x}.\\)</span></p>",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 52832
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52813,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{We have } F_c[e^{-ax}] = \\sqrt{\\frac{2}{\\pi}} \\frac{a}{a^2+\\lambda^2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By inverse: } e^{-ax} = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_c(\\lambda) \\cos(\\lambda x) d\\lambda\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{2a}{\\pi} \\int_{0}^{\\infty} \\frac{\\cos(\\lambda x)}{a^2+\\lambda^2} d\\lambda\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{\\cos(\\lambda x)}{\\lambda^2+a^2} d\\lambda = \\frac{\\pi}{2a} e^{-ax}.\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Fourier cosine transform, evaluate } \\int_{0}^{\\infty} \\frac{\\cos(\\lambda x)}{\\lambda^2+a^2} d\\lambda.\\)</span></p>",
+   "SESSION_ID": 408,
+   "TYPE": "sq",
+   "key": 52813
+  },
+  {
+   "_id": 52814,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{We have } F_s[e^{-ax}] = \\sqrt{\\frac{2}{\\pi}} \\frac{\\lambda}{a^2+\\lambda^2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{By inverse: } e^{-ax} = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} F_s(\\lambda) \\sin(\\lambda x) d\\lambda\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(= \\frac{2}{\\pi} \\int_{0}^{\\infty} \\frac{\\lambda \\sin(\\lambda x)}{a^2+\\lambda^2} d\\lambda\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{\\lambda \\sin(\\lambda x)}{\\lambda^2+a^2} d\\lambda = \\frac{\\pi}{2} e^{-ax}.\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Fourier sine transform, evaluate } \\int_{0}^{\\infty} \\frac{\\lambda \\sin(\\lambda x)}{\\lambda^2+a^2} d\\lambda.\\)</span></p>",
+   "SESSION_ID": 408,
+   "TYPE": "sq",
+   "key": 52814
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50683,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>\\(F_s(s) = \\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} e^{-x} \\sin(x) \\sin(sx) dx\\)</td><td>(2)</td></tr><tr><td>Use identity: \\(\\sin(x)\\sin(sx) = \\frac{1}{2}[\\cos((1-s)x) - \\cos((1+s)x)]\\)</td><td>(3)</td></tr><tr><td>\\(F_s(s) = \\frac{1}{2}\\sqrt{\\frac{2}{\\pi}} \\int_{0}^{\\infty} e^{-x} [\\cos((1-s)x) - \\cos((1+s)x)] dx\\)</td><td>(3)</td></tr><tr><td>Using formula: \\(\\int_{0}^{\\infty} e^{-ax} \\cos(bx) dx = \\frac{a}{a^2 + b^2}\\)</td><td>(3)</td></tr><tr><td>\\(F_s(s) = \\frac{1}{2}\\sqrt{\\frac{2}{\\pi}} \\left[ \\frac{1}{1 + (1-s)^2} - \\frac{1}{1 + (1+s)^2} \\right]\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find the Fourier sine transform of } f(x)=e^{-x}\\sin(x).\\)</span></p>",
+   "SESSION_ID": 408,
+   "TYPE": "lq",
+   "key": 50683
+  }
+ ]
+}

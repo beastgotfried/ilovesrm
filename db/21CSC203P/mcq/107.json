@@ -1,0 +1,139 @@
+{
+ "mcq": [
+  {
+   "_id": 9319,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) It specifies how data should be processed<br data-end=\"445\" data-start=\"442\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) It defines what result is expected, not how to compute it<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) It uses loops and conditions extensively<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) It requires compiled code</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"395\" data-start=\"350\">What makes SQL a declarative language?</strong><br data-end=\"398\" data-start=\"395\" />\n<br data-end=\"1475\" data-start=\"1472\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 9319
+  },
+  {
+   "_id": 9320,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Step-by-step instructions to retrieve data<br data-end=\"753\" data-start=\"750\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Memory allocation instructions<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) A statement of the desired result without control flow<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) A loop for inserting data</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"702\" data-start=\"637\">Which of the following best describes a declarative query?</strong><br data-end=\"705\" data-start=\"702\" />\n<br data-end=\"398\" data-start=\"395\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 9320
+  },
+  {
+   "_id": 9321,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Games involving graphics<br data-end=\"1046\" data-start=\"1043\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Data-centric applications like reporting and analytics<br data-end=\"1106\" data-start=\"1103\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Real-time sensor processing<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Embedded system control</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1013\" data-start=\"932\">In which type of application is declarative programming especially useful?</strong><br data-end=\"1016\" data-start=\"1013\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 9321
+  },
+  {
+   "_id": 9322,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Iterating through a list of students<br data-end=\"1368\" data-start=\"1365\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Telling the system how to loop through data<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Describing the desired output without specifying the process<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Allocating memory for results</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1323\" data-start=\"1215\">What does the SQL query <code data-end=\"1289\" data-start=\"1244\">SELECT name FROM students WHERE grade &gt; 80;</code> represent in declarative terms?</strong><br data-end=\"1326\" data-start=\"1323\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 9322
+  },
+  {
+   "_id": 9323,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) They improve runtime efficiency<br data-end=\"1683\" data-start=\"1680\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) They allow detailed control over memory<br data-end=\"1728\" data-start=\"1725\" />\n<br data-end=\"1417\" data-start=\"1414\" />\n<br data-end=\"730\" data-start=\"727\" />\n<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) They simplify logic by focusing on <em data-end=\"1772\" data-start=\"1766\">what</em> rather than <em data-end=\"1790\" data-start=\"1785\">how</em><br data-end=\"1793\" data-start=\"1790\" />\n<br data-end=\"1483\" data-start=\"1480\" />\n<br data-end=\"719\" data-start=\"716\" />\n<br data-end=\"1139\" data-start=\"1136\" />\n<br data-end=\"789\" data-start=\"786\" />\n<br data-end=\"849\" data-start=\"846\" />\n<br data-end=\"508\" data-start=\"505\" />\n<br data-end=\"554\" data-start=\"551\" />\n<br data-end=\"1496\" data-start=\"1493\" />\n<br data-end=\"1509\" data-start=\"1506\" />\n<br data-end=\"911\" data-start=\"908\" />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br data-end=\"968\" data-start=\"965\" />\n<br data-end=\"1013\" data-start=\"1010\" />\n<br data-end=\"749\" data-start=\"746\" />\n<br data-end=\"513\" data-start=\"510\" />\n<br data-end=\"515\" data-start=\"512\" />\n<br data-end=\"751\" data-start=\"748\" />\n<br data-end=\"1495\" data-start=\"1492\" />\n<br data-end=\"1221\" data-start=\"1218\" />\n<br data-end=\"544\" data-start=\"541\" />\n<br />\n\u200b\u200b\u200b\u200b\u200b\u200b\u200b<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) They use object-oriented inheritance</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1643\" data-start=\"1567\">Why are declarative paradigms preferred in data-centric applications?</strong><br data-end=\"1646\" data-start=\"1643\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "mcq",
+   "key": 9323
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9361,
+   "ANSWER": "<p>Functional programming relies on pure functions and immutable data, ensuring predictable outputs and eliminating unintended state changes.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A financial tool requires deterministic calculations without side effects. What makes functional programming suitable here?</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 9361
+  },
+  {
+   "_id": 9362,
+   "ANSWER": "<p>Functions such as <code data-end=\"3531\" data-start=\"3526\">map</code>, <code data-end=\"3541\" data-start=\"3533\">filter</code>, and <code data-end=\"3555\" data-start=\"3547\">reduce</code> abstract common data operations, enabling concise, readable, and reusable transformations</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A dataset undergoes multiple filtering and transformation steps. How do higher-order functions contribute to this task?</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "sq",
+   "key": 9362
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9380,
+   "ANSWER": "<p data-end=\"3359\" data-start=\"3183\">List&lt;Double&gt; incomes = Arrays.asList(400000.0, 600000.0, 1000000.0);<br />\nList&lt;Double&gt; taxes = incomes.stream()<br />\n&nbsp; &nbsp; .map(income -&gt; income &gt; 500000 ? income * 0.2 : income * 0.1)<br />\n&nbsp; &nbsp; .collect(Collectors.toList());</p>\n\n<p data-end=\"3359\" data-start=\"3183\">public static double computeTotalTax(List&lt;Double&gt; taxes, int index) {<br />\n&nbsp; &nbsp; if (index &gt;= taxes.size()) return 0;<br />\n&nbsp; &nbsp; return taxes.get(index) + computeTotalTax(taxes, index + 1);<br />\n}<br />\nNo mutable state is introduced, ensuring a <strong data-end=\"4822\" data-start=\"4807\">predictable</strong> and <strong data-end=\"4842\" data-start=\"4827\">thread-safe</strong> computation.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"613\" data-start=\"371\">Design a tax computation module for a financial application using <strong data-end=\"4014\" data-start=\"3988\">functional programming</strong> principles. Ensure immutability by using <strong data-end=\"4069\" data-start=\"4056\">recursion</strong> and <strong data-end=\"4100\" data-start=\"4074\">higher-order functions</strong>.</p>\n",
+   "SESSION_ID": 107,
+   "TYPE": "lq"
+  }
+ ]
+}

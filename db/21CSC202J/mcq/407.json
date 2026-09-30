@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 12392,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>High CPU utilization</p>\n",
+   "OPT_2": "<p>Constant page faults and swapping</p>\n",
+   "OPT_3": "<p>Overloaded disk</p>\n",
+   "OPT_4": "<p>Memory leaks</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is <strong data-end=\"1015\" data-start=\"1002\">thrashing</strong> in the context of memory management?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 12392
+  },
+  {
+   "_id": 12393,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Page faults decrease as frames increase</p>\n",
+   "OPT_2": "<p>Page faults remain the same</p>\n",
+   "OPT_3": "<p>Page faults increase with more frames</p>\n",
+   "OPT_4": "<p>TLB is bypassed</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>FIFO may suffer from <strong data-end=\"1643\" data-start=\"1623\">Belady&rsquo;s Anomaly</strong>, which means:</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 12393
+  },
+  {
+   "_id": 12394,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>It causes Belady&rsquo;s anomaly</p>\n",
+   "OPT_2": "<p>It requires additional hardware or software support</p>\n",
+   "OPT_3": "<p>It is not accurate</p>\n",
+   "OPT_4": "<p>It is FIFO in disguise</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a drawback of LRU?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 12394
+  },
+  {
+   "_id": 12395,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>That was first loaded</p>\n",
+   "OPT_2": "<p>That will not be used for the longest time</p>\n",
+   "OPT_3": "<p>That was least recently used</p>\n",
+   "OPT_4": "<p>With the smallest size</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The Optimal page replacement algorithm replaces the page:</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 12395
+  },
+  {
+   "_id": 12416,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Stack</p>\n",
+   "OPT_2": "<p>Queue</p>\n",
+   "OPT_3": "<p>Heap</p>\n",
+   "OPT_4": "<p>Linked List</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which data structure is used in FIFO implementation?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "mcq",
+   "key": 12416
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12523,
+   "ANSWER": "<ul>\n\t<li data-end=\"2084\" data-start=\"2009\">\n\t<p data-end=\"840\" data-start=\"550\">When a requested page is not in memory (i.e., <strong data-end=\"635\" data-start=\"612\">a page fault occurs</strong>) and no free frame is available, the OS must <strong data-end=\"708\" data-start=\"681\">select a page to remove</strong> to make space. A <strong data-end=\"756\" data-start=\"726\">page replacement algorithm</strong> decides <strong data-end=\"790\" data-start=\"765\">which page to replace</strong> to minimize future faults and improve efficiency.</p>\n\n\t<p data-end=\"867\" data-start=\"842\">\ud83d\udcca <strong data-end=\"865\" data-start=\"845\">Mark Allocation:</strong></p>\n\t</li>\n\t<li data-end=\"896\" data-start=\"868\">\n\t<p data-end=\"896\" data-start=\"870\">Page fault context &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"929\" data-start=\"897\">\n\t<p data-end=\"929\" data-start=\"899\">Purpose of replacement &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"979\" data-start=\"930\">\n\t<p data-end=\"979\" data-start=\"932\">Mention of efficiency &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2065\" data-start=\"1993\">What is the need for a page replacement algorithm?</h3>\n",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 12523
+  },
+  {
+   "_id": 12524,
+   "ANSWER": "<ul>\n\t<li data-end=\"2084\" data-start=\"2009\">\n\t<p data-end=\"1742\" data-start=\"1494\"><strong data-end=\"1521\" data-start=\"1510\">Optimal</strong> replacement replaces the page that will <strong data-end=\"1612\" data-start=\"1562\">not be used for the longest time in the future</strong>. It gives the <strong data-end=\"1659\" data-start=\"1627\">lowest number of page faults</strong>, but is not practical because it requires <strong data-end=\"1722\" data-start=\"1702\">future knowledge</strong> of page references.</p>\n\n\t<p data-end=\"1769\" data-start=\"1744\"><strong data-end=\"1767\" data-start=\"1747\">Mark Allocation:</strong></p>\n\t</li>\n\t<li data-end=\"1795\" data-start=\"1770\">\n\t<p data-end=\"1795\" data-start=\"1772\">Algorithm logic &ndash; 50%</p>\n\t</li>\n\t<li data-end=\"1829\" data-start=\"1796\">\n\t<p data-end=\"1829\" data-start=\"1798\">Example of &ldquo;future use&rdquo; &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"1883\" data-start=\"1830\">\n\t<p data-end=\"1883\" data-start=\"1832\">Reason for impracticality &ndash; 20%<br data-end=\"1866\" data-start=\"1863\" />\n\t&nbsp;</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2065\" data-start=\"1993\">Describe the Optimal page replacement algorithm. Why is it not used in practice?</h3>\n",
+   "SESSION_ID": 407,
+   "TYPE": "sq",
+   "key": 12524
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12729,
+   "ANSWER": "<h3 data-end=\"434\" data-start=\"381\"><strong data-end=\"434\" data-start=\"388\">FIFO Page Replacement - Step-by-Step Table (50%)</strong></h3>\n\n<table data-end=\"1159\" data-start=\"436\">\n\t<thead data-end=\"485\" data-start=\"436\">\n\t\t<tr data-end=\"485\" data-start=\"436\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"443\" data-start=\"436\">Step</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"450\" data-start=\"443\">Page</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"470\" data-start=\"450\">Frame Content</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"485\" data-start=\"470\">Page Fault?</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"1159\" data-start=\"536\">\n\t\t<tr data-end=\"586\" data-start=\"536\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"543\" data-start=\"536\">1</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"550\" data-start=\"543\">1</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"570\" data-start=\"550\">1 _ _</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"586\" data-start=\"570\">\u2714\ufe0f Yes</td>\n\t\t</tr>\n\t\t<tr data-end=\"637\" data-start=\"587\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"594\" data-start=\"587\">2</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"601\" data-start=\"594\">2</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"621\" data-start=\"601\">1 2 _</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"637\" data-start=\"621\">\u2714\ufe0f Yes</td>\n\t\t</tr>\n\t\t<tr data-end=\"688\" data-start=\"638\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"645\" data-start=\"638\">3</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"652\" data-start=\"645\">3</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"672\" data-start=\"652\">1 2 3</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"688\" data-start=\"672\">\u2714\ufe0f Yes</td>\n\t\t</tr>\n\t\t<tr data-end=\"741\" data-start=\"689\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"696\" data-start=\"689\">4</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"703\" data-start=\"696\">4</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"723\" data-start=\"703\">2 3 4</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"741\" data-start=\"723\">\u2714\ufe0f Yes (1 out)</td>\n\t\t</tr>\n\t\t<tr data-end=\"794\" data-start=\"742\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"749\" data-start=\"742\">5</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"756\" data-start=\"749\">1</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"776\" data-start=\"756\">3 4 1</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"794\" data-start=\"776\">\u2714\ufe0f Yes (2 out)</td>\n\t\t</tr>\n\t\t<tr data-end=\"847\" data-start=\"795\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"802\" data-start=\"795\">6</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"809\" data-start=\"802\">2</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"829\" data-start=\"809\">4 1 2</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"847\" data-start=\"829\">\u2714\ufe0f Yes (3 out)</td>\n\t\t</tr>\n\t\t<tr data-end=\"900\" data-start=\"848\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"855\" data-start=\"848\">7</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"862\" data-start=\"855\">5</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"882\" data-start=\"862\">1 2 5</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"900\" data-start=\"882\">\u2714\ufe0f Yes (4 out)</td>\n\t\t</tr>\n\t\t<tr data-end=\"950\" data-start=\"901\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"908\" data-start=\"901\">8</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"915\" data-start=\"908\">1</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"935\" data-start=\"915\">1 2 5</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"950\" data-start=\"935\">\u274c No</td>\n\t\t</tr>\n\t\t<tr data-end=\"1000\" data-start=\"951\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"958\" data-start=\"951\">9</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"965\" data-start=\"958\">2</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"985\" data-start=\"965\">1 2 5</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1000\" data-start=\"985\">\u274c No</td>\n\t\t</tr>\n\t\t<tr data-end=\"1053\" data-start=\"1001\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1008\" data-start=\"1001\">10</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1015\" data-start=\"1008\">3</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1035\" data-start=\"1015\">2 5 3</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1053\" data-start=\"1035\">\u2714\ufe0f Yes (1 out)</td>\n\t\t</tr>\n\t\t<tr data-end=\"1106\" data-start=\"1054\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1061\" data-start=\"1054\">11</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1068\" data-start=\"1061\">4</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1088\" data-start=\"1068\">5 3 4</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1106\" data-start=\"1088\">\u2714\ufe0f Yes (2 out)</td>\n\t\t</tr>\n\t\t<tr data-end=\"1159\" data-start=\"1107\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1114\" data-start=\"1107\">12</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1121\" data-start=\"1114\">5</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1141\" data-start=\"1121\">3 4 5</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1159\" data-start=\"1141\">\u2714\ufe0f Yes (1 out)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<h3 data-end=\"1184\" data-start=\"1166\">Final Answer</h3>\n\n<ul data-end=\"1270\" data-start=\"1186\">\n\t<li data-end=\"1216\" data-start=\"1186\">\n\t<p data-end=\"1216\" data-start=\"1188\"><strong data-end=\"1210\" data-start=\"1188\">Total Page Faults:</strong> <strong data-end=\"1216\" data-start=\"1211\">9</strong></p>\n\t</li>\n\t<li data-end=\"1241\" data-start=\"1217\">\n\t<p data-end=\"1241\" data-start=\"1219\"><strong data-end=\"1238\" data-start=\"1219\">Total Accesses:</strong> 12</p>\n\t</li>\n\t<li data-end=\"1270\" data-start=\"1242\">\n\t<p data-end=\"1270\" data-start=\"1244\"><strong data-end=\"1270\" data-start=\"1244\">Page Hits = 12 &ndash; 9 = 3<br />\n\tHit Ratio = Page Hits / Total Accesses = 3 / 12 = 0.25 or 25% (10%)</strong><br />\n\t&nbsp;</p>\n\n\t<p data-end=\"445\" data-start=\"248\"><strong data-end=\"268\" data-start=\"248\">Belady&rsquo;s Anomaly</strong> refers to the counterintuitive situation in <strong data-end=\"348\" data-start=\"313\">FIFO Page Replacement Algorithm</strong> where <strong data-end=\"395\" data-start=\"355\">increasing the number of page frames</strong> results in <strong data-end=\"427\" data-start=\"407\">more page faults</strong> instead of fewer.</p>\n\n\t<p data-end=\"528\" data-start=\"447\">This anomaly occurs <strong data-end=\"485\" data-start=\"469\">only in FIFO</strong>, not in <strong data-end=\"501\" data-start=\"494\">LRU</strong> or <strong data-end=\"516\" data-start=\"505\">Optimal</strong> algorithms.<br />\n\t<br />\n\t&nbsp;</p>\n\n\t<h3 data-end=\"1420\" data-start=\"1388\"><strong data-end=\"1420\" data-start=\"1395\">Case 2: 4 Page Frames&nbsp; (30%)</strong></h3>\n\n\t<table data-end=\"2103\" data-start=\"1422\">\n\t\t<thead data-end=\"1469\" data-start=\"1422\">\n\t\t\t<tr data-end=\"1469\" data-start=\"1422\">\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"1429\" data-start=\"1422\">Step</th>\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"1436\" data-start=\"1429\">Page</th>\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"1455\" data-start=\"1436\">Frames</th>\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"1469\" data-start=\"1455\">Page Fault</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody data-end=\"2103\" data-start=\"1518\">\n\t\t\t<tr data-end=\"1566\" data-start=\"1518\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1525\" data-start=\"1518\">1</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1532\" data-start=\"1525\">1</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1551\" data-start=\"1532\">1 _ _ _</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1566\" data-start=\"1551\">\u2714\ufe0f</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1615\" data-start=\"1567\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1574\" data-start=\"1567\">2</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1581\" data-start=\"1574\">2</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1600\" data-start=\"1581\">1 2 _ _</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1615\" data-start=\"1600\">\u2714\ufe0f</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1664\" data-start=\"1616\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1623\" data-start=\"1616\">3</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1630\" data-start=\"1623\">3</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1649\" data-start=\"1630\">1 2 3 _</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1664\" data-start=\"1649\">\u2714\ufe0f</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1713\" data-start=\"1665\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1672\" data-start=\"1665\">4</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1679\" data-start=\"1672\">4</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1698\" data-start=\"1679\">1 2 3 4</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1713\" data-start=\"1698\">\u2714\ufe0f</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1761\" data-start=\"1714\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1721\" data-start=\"1714\">5</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1728\" data-start=\"1721\">1</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1747\" data-start=\"1728\">1 2 3 4</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1761\" data-start=\"1747\">\u274c</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1809\" data-start=\"1762\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1769\" data-start=\"1762\">6</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1776\" data-start=\"1769\">2</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1795\" data-start=\"1776\">1 2 3 4</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1809\" data-start=\"1795\">\u274c</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1858\" data-start=\"1810\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1817\" data-start=\"1810\">7</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1824\" data-start=\"1817\">5</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1843\" data-start=\"1824\">2 3 4 5</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1858\" data-start=\"1843\">\u2714\ufe0f (1 out)</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1907\" data-start=\"1859\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1866\" data-start=\"1859\">8</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1873\" data-start=\"1866\">1</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1892\" data-start=\"1873\">3 4 5 1</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1907\" data-start=\"1892\">\u2714\ufe0f (2 out)</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1956\" data-start=\"1908\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1915\" data-start=\"1908\">9</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1922\" data-start=\"1915\">2</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1941\" data-start=\"1922\">4 5 1 2</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1956\" data-start=\"1941\">\u2714\ufe0f (3 out)</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"2005\" data-start=\"1957\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1964\" data-start=\"1957\">10</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1971\" data-start=\"1964\">3</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1990\" data-start=\"1971\">5 1 2 3</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2005\" data-start=\"1990\">\u2714\ufe0f (4 out)</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"2054\" data-start=\"2006\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2013\" data-start=\"2006\">11</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2020\" data-start=\"2013\">4</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2039\" data-start=\"2020\">1 2 3 4</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2054\" data-start=\"2039\">\u2714\ufe0f (5 out)</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"2103\" data-start=\"2055\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2062\" data-start=\"2055\">12</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2069\" data-start=\"2062\">5</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2088\" data-start=\"2069\">2 3 4 5</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2103\" data-start=\"2088\">\u2714\ufe0f (1 out)</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n\n\t<p data-end=\"2137\" data-start=\"2105\"><strong data-end=\"2137\" data-start=\"2107\">Page Faults (4 Frames): 10</strong></p>\n\n\t<hr data-end=\"2142\" data-start=\"2139\" />\n\t<h2 data-end=\"2180\" data-start=\"2144\">&nbsp;</h2>\n\n\t<table data-end=\"2281\" data-start=\"2182\">\n\t\t<thead data-end=\"2206\" data-start=\"2182\">\n\t\t\t<tr data-end=\"2206\" data-start=\"2182\">\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"2191\" data-start=\"2182\">Frames</th>\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"2206\" data-start=\"2191\">Page Faults</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody data-end=\"2281\" data-start=\"2232\">\n\t\t\t<tr data-end=\"2256\" data-start=\"2232\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2241\" data-start=\"2232\">3</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2256\" data-start=\"2241\">9</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"2281\" data-start=\"2257\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2266\" data-start=\"2257\">4</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"2281\" data-start=\"2266\">10 \u2757</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n\n\t<p><button aria-label=\"Copy Table\"></button></p>\n\n\t<h3 data-end=\"2326\" data-start=\"2283\">Belady&rsquo;s Anomaly occurs here because:</h3>\n\n\t<blockquote data-end=\"2449\" data-start=\"2327\">\n\t<p data-end=\"2449\" data-start=\"2329\"><strong data-end=\"2419\" data-start=\"2329\">Adding an extra frame (from 3 to 4) increased the number of page faults (from 9 to 10)</strong> under the <strong data-end=\"2448\" data-start=\"2430\">FIFO algorithm</strong>.</p>\n\t</blockquote>\n\n\t<h2 data-end=\"2483\" data-start=\"2456\">&nbsp;Why does this happen? (10%)</h2>\n\t</li>\n\t<li data-end=\"2555\" data-start=\"2485\">\n\t<p data-end=\"2555\" data-start=\"2487\">FIFO doesn&#39;t consider how <em data-end=\"2523\" data-start=\"2513\">recently</em> or <em data-end=\"2539\" data-start=\"2527\">frequently</em> a page is used.</p>\n\t</li>\n\t<li data-end=\"2671\" data-start=\"2556\">\n\t<p data-end=\"2671\" data-start=\"2558\">So, adding more frames can sometimes lead to <strong data-end=\"2641\" data-start=\"2603\">earlier useful pages being removed</strong> earlier, causing more faults.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"304\" data-start=\"283\">Let the Reference String be&nbsp;</strong><code data-end=\"343\" data-start=\"307\">1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5</code><br data-end=\"346\" data-start=\"343\" />\n<strong data-end=\"372\" data-start=\"346\">Number of Page Frames:</strong> 3. Apply FIFO Page Replacement Algorithm and explain Beledy&#39;s Anamoly.Why it happens?</p>\n",
+   "SESSION_ID": 407,
+   "TYPE": "lq",
+   "key": 12729
+  }
+ ]
+}

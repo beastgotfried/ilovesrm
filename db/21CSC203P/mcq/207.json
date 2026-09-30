@@ -1,0 +1,163 @@
+{
+ "mcq": [
+  {
+   "_id": 11934,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "inherits",
+   "OPT_2": "super",
+   "OPT_3": "extends",
+   "OPT_4": "implements",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which keyword is used in Java to implement inheritance?",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 11934
+  },
+  {
+   "_id": 11935,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Memory optimization",
+   "OPT_2": "Runtime error reduction",
+   "OPT_3": "Code reusability and extensibility",
+   "OPT_4": "Fast compilation",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "What is the main benefit of using inheritance in Java?",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 11935
+  },
+  {
+   "_id": 11936,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "One class inheriting from multiple classes",
+   "OPT_2": "A class inheriting from one class only",
+   "OPT_3": "One class with multiple subclasses",
+   "OPT_4": "A class without any superclass",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which of the following represents single inheritance in Java?",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 11936
+  },
+  {
+   "_id": 11937,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Single",
+   "OPT_2": "Multiple",
+   "OPT_3": "Multilevel",
+   "OPT_4": "Hierarchical",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Which type of inheritance is shown when Class C inherits from Class B, and Class B inherits from Class A?",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 11937
+  },
+  {
+   "_id": 11938,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "Multiple base classes, one derived class",
+   "OPT_2": "One base class, multiple derived classes",
+   "OPT_3": "Multiple derived classes extending multiple base classes",
+   "OPT_4": "Derived classes that are not connected",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "In hierarchical inheritance, which of the following is true?",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 11938
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11976,
+   "ANSWER": "Inheritance allows a class (subclass) to inherit properties and methods from another class (superclass).\nExample:\nclass Animal {\n    void sound() {\n        System.out.println(\"Animal makes sound\");\n    }\n}\nclass Dog extends Animal {\n    void bark() {\n        System.out.println(\"Dog barks\");\n    }\n}\nHere, Dog inherits the sound() method from Animal.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Explain the concept of inheritance in Java with a simple example.",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 11976
+  },
+  {
+   "_id": 11977,
+   "ANSWER": "class Vehicle {\n    void start() {\n        System.out.println(\"Vehicle starts\");\n    }\n}\nclass Car extends Vehicle {\n    void drive() {\n        System.out.println(\"Car drives\");\n    }\n}\nclass Bike extends Vehicle {\n    void ride() {\n        System.out.println(\"Bike rides\");\n    }\n}\nHere, both Car and Bike inherit from the common superclass Vehicle.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "Write a Java code snippet that demonstrates hierarchical inheritance.",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 11977
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11994,
+   "ANSWER": "Java Code:\nclass Person {\n    String name;\n    int id;\n    void displayDetails() {\n        System.out.println(\"Name: \" + name + \", ID: \" + id);\n    }\n}\nclass Teacher extends Person {\n    String subject;\n    void teach() {\n        System.out.println(name + \" teaches \" + subject);\n    }\n}\nclass Student extends Person {\n    int grade;\n    void study() {\n        System.out.println(name + \" studies in grade \" + grade);\n    }\n}\npublic class SchoolSystem {\n    public static void main(String[] args) {\n        Teacher t = new Teacher();\n        t.name = \"Mr. Ravi\";\n        t.id = 101;\n        t.subject = \"Math\";\n        t.displayDetails();\n        t.teach();\n        Student s = new Student();\n        s.name = \"Asha\";\n        s.id = 202;\n        s.grade = 10;\n        s.displayDetails();\n        s.study();\n    }\n}\nExplanation:\nThe base class Person holds common properties: name and id. Teacher and Student are subclasses, adding role-specific behavior (teach() and study()). This is an example of hierarchical inheritance, where multiple subclasses inherit from a single superclass.\nBenefits:\nPromotes code reuse by avoiding duplication of common properties.\nSupports scalability\ufffdmore roles like Admin, Counselor can be added easily.\nEnhances clarity and maintainability by modeling real-world relationships.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are designing a software for a school system. All employees share common details like name and ID, but teachers have subjects and students have grades.\nDesign a Java program using inheritance that models this system with appropriate classes. Explain the type of inheritance used and how it simplifies the design.",
+   "SESSION_ID": 207,
+   "TYPE": "lq",
+   "key": 11994
+  },
+  {
+   "_id": 12006,
+   "ANSWER": "Java Code:\nclass Person {\n    String name;\n    int id;\n    void displayDetails() {\n        System.out.println(\"Name: \" + name + \", ID: \" + id);\n    }\n}\nclass Teacher extends Person {\n    String subject;\n    void teach() {\n        System.out.println(name + \" teaches \" + subject);\n    }\n}\nclass Student extends Person {\n    int grade;\n    void study() {\n        System.out.println(name + \" studies in grade \" + grade);\n    }\n}\npublic class SchoolSystem {\n    public static void main(String[] args) {\n        Teacher t = new Teacher();\n        t.name = \"Mr. Ravi\";\n        t.id = 101;\n        t.subject = \"Math\";\n        t.displayDetails();\n        t.teach();\n        Student s = new Student();\n        s.name = \"Asha\";\n        s.id = 202;\n        s.grade = 10;\n        s.displayDetails();\n        s.study();\n    }\n}\nExplanation:\nThe base class Person holds common properties: name and id. Teacher and Student are subclasses, adding role-specific behavior (teach() and study()). This is an example of hierarchical inheritance, where multiple subclasses inherit from a single superclass.\nBenefits:\nPromotes code reuse by avoiding duplication of common properties.\nSupports scalability\ufffdmore roles like Admin, Counselor can be added easily.\nEnhances clarity and maintainability by modeling real-world relationships.",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "You are designing a software for a school system. All employees share common details like name and ID, but teachers have subjects and students have grades.\nDesign a Java program using inheritance that models this system with appropriate classes. Explain the type of inheritance used and how it simplifies the design.",
+   "SESSION_ID": 207,
+   "TYPE": "lq",
+   "key": 12006
+  }
+ ]
+}

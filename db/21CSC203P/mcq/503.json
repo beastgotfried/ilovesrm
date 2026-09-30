@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11306,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A number</p>\n",
+   "OPT_2": "<p>A string</p>\n",
+   "OPT_3": "<p>A float</p>\n",
+   "OPT_4": "<p>A list</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>In automata simulation, input is:</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 11306
+  },
+  {
+   "_id": 11307,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>It matches the pattern</p>\n",
+   "OPT_2": "<p>It crashes</p>\n",
+   "OPT_3": "<p>It halts without output</p>\n",
+   "OPT_4": "<p>It modifies the input</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>When automata accepts a string, it means:</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 11307
+  },
+  {
+   "_id": 11308,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Manual transition drawing</p>\n",
+   "OPT_2": "<p>Automatic state handling</p>\n",
+   "OPT_3": "<p>Stack memory support</p>\n",
+   "OPT_4": "<p>Automatic database creation</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Which is a benefit of using Python automaton library?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 11308
+  },
+  {
+   "_id": 11309,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Pattern recognition</p>\n",
+   "OPT_2": "<p>Memory allocation</p>\n",
+   "OPT_3": "<p>Sorting integers</p>\n",
+   "OPT_4": "<p>Parsing JSON</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Automaton simulation is useful for:</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 11309
+  },
+  {
+   "_id": 11310,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p>Pattern recognition</p>\n",
+   "OPT_2": "<p>Memory allocation</p>\n",
+   "OPT_3": "<p>Sorting integers</p>\n",
+   "OPT_4": "<p>Parsing JSON</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Automaton simulation is useful for:</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 11310
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11396,
+   "ANSWER": "<p>The <code data-end=\"888\" data-start=\"877\">automaton</code> or <code data-end=\"906\" data-start=\"892\">automata-lib</code> library.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"868\" data-start=\"809\">Which Python library can be used to implement automata?</strong><br data-end=\"871\" data-start=\"868\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "sq",
+   "key": 11396
+  },
+  {
+   "_id": 11397,
+   "ANSWER": "<p>To verify if the input string is accepted by the automaton as per its state transitions.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"997\" data-start=\"921\">What is the purpose of simulating input strings in automata programming?</strong><br data-end=\"1000\" data-start=\"997\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "sq",
+   "key": 11397
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11418,
+   "ANSWER": "<p data-end=\"2008\" data-start=\"1821\">In Python, libraries like <code data-end=\"1875\" data-start=\"1861\">automata-lib</code> allow us to define a DFA and simulate inputs.<br data-end=\"1924\" data-start=\"1921\" />\nFor example, define a DFA to accept binary strings divisible by 2 (ending with &lsquo;0&rsquo;).</p>\n\n<pre data-end=\"2354\" data-start=\"2010\">\n\n&nbsp;</pre>\n\n<p>python</p>\n\n<p>from automata.fa.dfa import DFA</p>\n\n<p>dfa = DFA(<br />\n&nbsp; &nbsp; states={&#39;q0&#39;, &#39;q1&#39;},<br />\n&nbsp; &nbsp; input_symbols={&#39;0&#39;, &#39;1&#39;},<br />\n&nbsp; &nbsp; transitions={<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &#39;q0&#39;: {&#39;0&#39;: &#39;q0&#39;, &#39;1&#39;: &#39;q1&#39;},<br />\n&nbsp; &nbsp; &nbsp; &nbsp; &#39;q1&#39;: {&#39;0&#39;: &#39;q0&#39;, &#39;1&#39;: &#39;q1&#39;}<br />\n&nbsp; &nbsp; },<br />\n&nbsp; &nbsp; initial_state=&#39;q0&#39;,<br />\n&nbsp; &nbsp; final_states={&#39;q0&#39;}<br />\n)</p>\n\n<p>print(dfa.accepts_input(&#39;100&#39;)) &nbsp;# True<br />\nprint(dfa.accepts_input(&#39;101&#39;)) &nbsp;# False<br />\n&nbsp;</p>\n\n<p data-end=\"2452\" data-start=\"2356\">This simulation bridges theory and practice, helping validate automaton logic with real strings.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Analyze how automaton simulation in Python helps in validating pattern recognition tasks with input strings. Illustrate using a simple example.</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "lq",
+   "key": 11418
+  }
+ ]
+}

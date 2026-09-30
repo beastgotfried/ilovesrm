@@ -1,0 +1,164 @@
+{
+ "mcq": [
+  {
+   "_id": 11372,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Button</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Label</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Text</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">All of the above</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Common Tkinter widgets include:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 11372
+  },
+  {
+   "_id": 11373,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">User data entry</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File compression</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Sorting</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Memory allocatio</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Forms in GUI allow:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 11373
+  },
+  {
+   "_id": 11374,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">User actions</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File reads</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">JSON parsing</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Directory listing</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Tkinter forms respond to:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 11374
+  },
+  {
+   "_id": 11375,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">User guidance + actions</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">File storage</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Number sorting</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Network connection</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Using labels and buttons together allows:</span></span></span></b><br />\n<br />\n&nbsp;</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 11375
+  },
+  {
+   "_id": 11376,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It updates as user interacts</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It sorts lists</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It reads files</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">It parses JSON</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Responsive GUI means:</span></span></span></b><br />\n&nbsp;</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "mcq",
+   "key": 11376
+  }
+ ],
+ "sq": [
+  {
+   "_id": 11408,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> Button and Label.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"2351\" data-start=\"2312\">Name two common widgets in Tkinter.</strong><br data-end=\"2354\" data-start=\"2351\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 11408
+  },
+  {
+   "_id": 11409,
+   "ANSWER": "<p><span id=\"cke_bm_36051S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_37336S\" style=\"display: none;\">&nbsp;</span><span id=\"cke_bm_38344S\" style=\"display: none;\">&nbsp;</span> To collect and process user input via the GUI.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2477\" data-start=\"2375\"><strong data-end=\"2426\" data-start=\"2379\">What is the purpose of an interactive form?</strong><br data-end=\"2429\" data-start=\"2426\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "sq",
+   "key": 11409
+  }
+ ],
+ "lq": [
+  {
+   "_id": 11424,
+   "ANSWER": "<p data-end=\"6139\" data-start=\"6062\">Tkinter widgets allow structured user interaction. For example:</p>\n\n<ul data-end=\"6231\" data-start=\"6140\">\n\t<li data-end=\"6169\" data-start=\"6140\">\n\t<p data-end=\"6169\" data-start=\"6142\"><code data-end=\"6149\" data-start=\"6142\">Label</code> &ndash; shows static text</p>\n\t</li>\n\t<li data-end=\"6201\" data-start=\"6170\">\n\t<p data-end=\"6201\" data-start=\"6172\"><code data-end=\"6179\" data-start=\"6172\">Entry</code> &ndash; receives text input</p>\n\t</li>\n\t<li data-end=\"6231\" data-start=\"6202\">\n\t<p data-end=\"6231\" data-start=\"6204\"><code data-end=\"6212\" data-start=\"6204\">Button</code> &ndash; triggers actions</p>\n\t</li>\n\t<li data-end=\"6231\" data-start=\"6202\">\n\t<p>from tkinter import *</p>\n\n\t<p>def greet():<br />\n\t&nbsp; &nbsp; name = entry.get()<br />\n\t&nbsp; &nbsp; label.config(text=f&quot;Hello, {name}!&quot;)</p>\n\n\t<p>window = Tk()<br />\n\tentry = Entry(window)<br />\n\tentry.pack()<br />\n\tButton(window, text=&quot;Submit&quot;, command=greet).pack()<br />\n\tlabel = Label(window, text=&quot;&quot;)<br />\n\tlabel.pack()<br />\n\twindow.mainloop()<br />\n\t&nbsp;</p>\n\t</li>\n\t<li data-end=\"6231\" data-start=\"6202\">\n\t<p>This form collects input and responds dynamically. Analyzing widget roles helps in designing intuitive UIs.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4",
+    "PLO5",
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Analyze the structure and role of different Tkinter widgets in building interactive forms.</p>\n",
+   "SESSION_ID": 509,
+   "TYPE": "lq",
+   "key": 11424
+  }
+ ]
+}

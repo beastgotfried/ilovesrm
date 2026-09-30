@@ -1,0 +1,135 @@
+{
+ "mcq": [
+  {
+   "_id": 31966,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a)&nbsp;<code>00100101</code></p>\n",
+   "OPT_2": "<p>b)&nbsp;<code>10100101</code></p>\n",
+   "OPT_3": "<p>c)&nbsp;<code>01001010</code></p>\n",
+   "OPT_4": "<p>d)&nbsp;<code>11001010</code></p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The 7-bit ASCII code for the percent sign &#39;%&#39; is&nbsp;<code>0100101</code>. What would this byte look like with an&nbsp;<strong>even parity bit</strong>&nbsp;appended as the most significant bit (MSB)?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 31966
+  },
+  {
+   "_id": 49257,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a)&nbsp;<code>66</code><br />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b)&nbsp;<code>63</code><br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c)&nbsp;<code>96</code><br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d)&nbsp;<code>69</code></p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The Excess-3 code&nbsp;<code>1001 0110</code>&nbsp;represents which decimal number?</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 49257
+  },
+  {
+   "_id": 49258,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a)&nbsp;<code>0111 1010</code></p>\n",
+   "OPT_2": "<p>b)&nbsp;<code>0111 1101</code></p>\n",
+   "OPT_3": "<p>c)&nbsp;<code>0100 1010</code></p>\n",
+   "OPT_4": "<p>d)&nbsp;<code>0111 1000</code></p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The BCD representation of the decimal number&nbsp;<code>47</code>&nbsp;is&nbsp;<code>0100 0111</code>. What is its Excess-3 code?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 49258
+  },
+  {
+   "_id": 49259,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) The lowercase letter has its 3rd least significant bit (LSB) set to 0, while uppercase has it set to 1.</p>\n",
+   "OPT_2": "<p>b) The lowercase letter has its 5th bit (bit 5, from the right, 0-indexed) set to 1, while uppercase has it set to 0.</p>\n",
+   "OPT_3": "<p>c) The MSB is 1 for lowercase and 0 for uppercase.</p>\n",
+   "OPT_4": "<p>d) They are completely different codes with no consistent pattern.</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>How do the ASCII codes for an uppercase letter and its corresponding lowercase letter typically differ?</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 49259
+  },
+  {
+   "_id": 49260,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Binary</p>\n",
+   "OPT_2": "<p>b) Decimal<br />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Octal<br />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) Hexadecimal</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>&nbsp;Which number system is also known as the base-16 system and uses the digits 0-9 and letters A-F to represent values?</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "mcq",
+   "key": 49260
+  }
+ ],
+ "sq": [
+  {
+   "_id": 49314,
+   "ANSWER": "<p>a)&nbsp;<strong>Gray to Binary Conversion:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Gray:&nbsp;<code>1 0 1 1</code></p>\n\t</li>\n\t<li>\n\t<p>Binary conversion:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>MSB: Same as Gray &rarr;&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 0 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>1 &oplus; 1 =&nbsp;<strong>0</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>0 &oplus; 1 =&nbsp;<strong>1</strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Binary:&nbsp;<code>1101</code></strong></p>\n\t</li>\n</ul>\n\n<p>b)&nbsp;<strong>Decimal Conversions:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>BCD:</strong>&nbsp;<code>4</code>&nbsp;=&nbsp;<code>0100</code>,&nbsp;<code>7</code>&nbsp;=&nbsp;<code>0111</code>&nbsp;&rarr;&nbsp;<strong><code>0100 0111</code></strong></p>\n\t</li>\n\t<li>\n\t<p><strong>Excess-3:</strong>&nbsp;Add&nbsp;<code>0011</code>&nbsp;to each BCD digit</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p><code>0100</code>&nbsp;+&nbsp;<code>0011</code>&nbsp;=&nbsp;<code>0111</code></p>\n\t\t</li>\n\t\t<li>\n\t\t<p><code>0111</code>&nbsp;+&nbsp;<code>0011</code>&nbsp;=&nbsp;<code>1010</code></p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>Excess-3:&nbsp;<code>0111 1010</code></strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>c)&nbsp;<strong>Multiple Interpretations of&nbsp;<code>1001</code>:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>As Gray code:</strong>&nbsp;Convert to binary:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Gray:&nbsp;<code>1 0 0 1</code></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Binary: MSB=1, 1&oplus;0=1, 1&oplus;0=1, 1&oplus;1=0 &rarr;&nbsp;<strong><code>1110</code></strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Decimal: 8+4+2 =&nbsp;<strong>14</strong></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>As straight binary:</strong>&nbsp;<code>1001</code>&nbsp;= 8+1 =&nbsp;<strong>9</strong></p>\n\t</li>\n</ul>\n\n<p>d)&nbsp;<strong>Advantage of Gray Code in Position Sensors:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Gray code is a&nbsp;<strong>unit-distance code</strong>&nbsp;where only one bit changes between consecutive numbers.</p>\n\t</li>\n\t<li>\n\t<p>In rotary encoders, this eliminates the ambiguity that occurs in binary when multiple bits change simultaneously (e.g., from 0111 to 1000).</p>\n\t</li>\n\t<li>\n\t<p>This prevents brief, erroneous readings during transitions, making Gray code more reliable for position sensing applications.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong>A digital system uses both Gray code and BCD for different applications. Perform the following conversions and analysis:</strong></p>\n\n<p>a) Convert the Gray code&nbsp;<code>1011</code>&nbsp;to its equivalent Binary number.<br />\nb) Convert the Decimal number&nbsp;<code>47</code>&nbsp;to its:</p>\n\n<ul>\n\t<li>\n\t<p>BCD representation</p>\n\t</li>\n\t<li>\n\t<p>Excess-3 representation<br />\n\tc) The binary sequence&nbsp;<code>1001</code>&nbsp;is received in a system that uses both Gray code and straight binary. What are the possible interpretations of this sequence if it represents:</p>\n\t</li>\n\t<li>\n\t<p>A Gray code number (convert to decimal)</p>\n\t</li>\n\t<li>\n\t<p>A straight binary number (convert to decimal)<br />\n\td)&nbsp;<strong>Analysis:</strong>&nbsp;Why is Gray code particularly useful in rotary encoders and position sensors compared to straight binary code?</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 204,
+   "TYPE": "sq",
+   "key": 49314
+  },
+  {
+   "_id": 49317,
+   "ANSWER": "<p>a)&nbsp;<strong>Completed Table (Odd Parity):</strong></p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Character</th>\n\t\t\t<th>7-bit ASCII</th>\n\t\t\t<th>Number of 1s</th>\n\t\t\t<th>Odd Parity Bit</th>\n\t\t\t<th>8-bit Frame</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>1000011</td>\n\t\t\t<td><strong>3</strong>&nbsp;(odd)</td>\n\t\t\t<td><strong>0</strong>&nbsp;(keep odd)</td>\n\t\t\t<td><strong>01000011</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>O</td>\n\t\t\t<td>1001111</td>\n\t\t\t<td><strong>5</strong>&nbsp;(odd)</td>\n\t\t\t<td><strong>0</strong>&nbsp;(keep odd)</td>\n\t\t\t<td><strong>01001111</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>1000100</td>\n\t\t\t<td><strong>2</strong>&nbsp;(even)</td>\n\t\t\t<td><strong>1</strong>&nbsp;(make odd)</td>\n\t\t\t<td><strong>11000100</strong></td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>E</td>\n\t\t\t<td>1000101</td>\n\t\t\t<td><strong>3</strong>&nbsp;(odd)</td>\n\t\t\t<td><strong>0</strong>&nbsp;(keep odd)</td>\n\t\t\t<td><strong>01000101</strong></td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>b)&nbsp;<strong>Error Detection Analysis:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>Frame 1:&nbsp;<code>01000011</code></strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Parity bit = 0, Data =&nbsp;<code>1000011</code>&nbsp;(3 ones)</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Total ones = 0 + 3 = 3 (odd)</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>System uses&nbsp;<strong>odd parity</strong>&nbsp;&rarr; Check&nbsp;<strong>PASSES</strong>&nbsp;(No error detected)</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Frame 2:&nbsp;<code>11001110</code></strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Parity bit = 1, Data =&nbsp;<code>1001110</code>&nbsp;(4 ones)</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Total ones = 1 + 4 = 5 (odd)</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>System uses&nbsp;<strong>odd parity</strong>&nbsp;&rarr; Check&nbsp;<strong>PASSES</strong></p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>However</strong>, the intended character was &#39;N&#39; (ASCII&nbsp;<code>1001110</code>), which should have:</p>\n\n\t\t<ul>\n\t\t\t<li>\n\t\t\t<p>4 ones (even) &rarr; Requires parity bit = 1 for odd parity &rarr; Correct frame should be&nbsp;<code>11001110</code></p>\n\t\t\t</li>\n\t\t</ul>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>Wait, this matches!</strong>&nbsp;Let me recheck...</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Actually, received frame =&nbsp;<code>11001110</code>&nbsp;matches exactly what should be transmitted for &#39;N&#39; with odd parity.</p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>Conclusion:</strong>&nbsp;No error detected in either frame.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p>c)&nbsp;<strong>Parity Limitation with 2-bit Errors:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>No</strong>, switching between odd and even parity would NOT improve error detection for 2-bit errors.</p>\n\t</li>\n\t<li>\n\t<p><strong>Reason:</strong>&nbsp;Both odd and even parity can only detect odd numbers of bit errors.</p>\n\t</li>\n\t<li>\n\t<p>A 2-bit error (even number of bit flips) will preserve the parity (odd remains odd, even remains even), so the error goes undetected regardless of whether odd or even parity is used.</p>\n\t</li>\n\t<li>\n\t<p>This is a fundamental limitation of single parity bit schemes.</p>\n\t</li>\n</ul>\n\n<p>d)&nbsp;<strong>Better Error Detection Method:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>CRC (Cyclic Redundancy Check)</strong>&nbsp;would be more effective.</p>\n\t</li>\n\t<li>\n\t<p><strong>OR Checksum</strong>&nbsp;methods</p>\n\t</li>\n\t<li>\n\t<p><strong>OR Two-dimensional parity</strong>&nbsp;(adding parity for both rows and columns)</p>\n\t</li>\n\t<li>\n\t<p>These methods can detect multiple bit errors, including even numbers of errors, and are widely used in modern communication protocols like Ethernet, Wi-Fi, and storage systems.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong>A data communication system transmits messages using 7-bit ASCII with odd parity. Analyze the following scenario:</strong></p>\n\n<p>a) The message &quot;CODE&quot; is to be transmitted. Complete the parity bit calculation:</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Character</th>\n\t\t\t<th>7-bit ASCII</th>\n\t\t\t<th>Number of 1s</th>\n\t\t\t<th>Odd Parity Bit</th>\n\t\t\t<th>8-bit Frame</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>1000011</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>O</td>\n\t\t\t<td>1001111</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>1000100</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>E</td>\n\t\t\t<td>1000101</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t\t<td>?</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p>b) During transmission, the following frames are received:</p>\n\n<ul>\n\t<li>\n\t<p>Frame 1:&nbsp;<code>01000011</code>&nbsp;(for character &#39;C&#39;)</p>\n\t</li>\n\t<li>\n\t<p>Frame 2:&nbsp;<code>11001110</code>&nbsp;(for character &#39;N&#39; - ASCII&nbsp;<code>1001110</code>)</p>\n\t</li>\n</ul>\n\n<p>For each frame, determine if an error is detected and justify your answer.</p>\n\n<p>c)&nbsp;<strong>Critical Analysis:</strong>&nbsp;If the system experiences frequent 2-bit errors, would switching from odd parity to even parity improve error detection? Explain why or why not.</p>\n\n<p>d) Suggest one alternative error detection method that would be more effective than single parity bit for this scenario.</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "sq",
+   "key": 49317
+  }
+ ],
+ "lq": [
+  {
+   "_id": 49323,
+   "ANSWER": "<h4><strong>a) Complete Transmission Table</strong></h4>\n\n<p><strong>Message: &quot;NETWORK25&quot;</strong>&nbsp;(9 characters)</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Character</th>\n\t\t\t<th>7-bit ASCII (Binary)</th>\n\t\t\t<th>Number of 1-bits</th>\n\t\t\t<th>Even Parity Bit (MSB)</th>\n\t\t\t<th>8-bit Transmission Frame</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>N</td>\n\t\t\t<td>1001110</td>\n\t\t\t<td>4</td>\n\t\t\t<td>0</td>\n\t\t\t<td>01001110</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>E</td>\n\t\t\t<td>1000101</td>\n\t\t\t<td>3</td>\n\t\t\t<td>1</td>\n\t\t\t<td>11000101</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>T</td>\n\t\t\t<td>1010100</td>\n\t\t\t<td>3</td>\n\t\t\t<td>1</td>\n\t\t\t<td>11010100</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>W</td>\n\t\t\t<td>1010111</td>\n\t\t\t<td>5</td>\n\t\t\t<td>1</td>\n\t\t\t<td>11010111</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>O</td>\n\t\t\t<td>1001111</td>\n\t\t\t<td>5</td>\n\t\t\t<td>1</td>\n\t\t\t<td>11001111</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>R</td>\n\t\t\t<td>1010010</td>\n\t\t\t<td>3</td>\n\t\t\t<td>1</td>\n\t\t\t<td>11010010</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>K</td>\n\t\t\t<td>1001011</td>\n\t\t\t<td>4</td>\n\t\t\t<td>0</td>\n\t\t\t<td>01001011</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>2</td>\n\t\t\t<td>0110010</td>\n\t\t\t<td>3</td>\n\t\t\t<td>1</td>\n\t\t\t<td>10110010</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>0110101</td>\n\t\t\t<td>4</td>\n\t\t\t<td>0</td>\n\t\t\t<td>00110101</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>Explanation of Parity Bit Calculation:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>Even Parity:</strong>&nbsp;Parity bit is set to make total number of 1s even</p>\n\t</li>\n\t<li>\n\t<p>Example for &#39;N&#39;: 4 ones (even) &rarr; Parity bit = 0</p>\n\t</li>\n\t<li>\n\t<p>Example for &#39;E&#39;: 3 ones (odd) &rarr; Parity bit = 1 (to make total even: 3+1=4)</p>\n\t</li>\n</ul>\n\n<h4><strong>b) Bit Calculation and Overhead Analysis</strong></h4>\n\n<p><strong>1. Without Parity Protection:</strong></p>\n\n<ul>\n\t<li>\n\t<p>9 characters &times; 7 bits/character =&nbsp;<strong>63 bits</strong></p>\n\t</li>\n</ul>\n\n<p><strong>2. With Even Parity Protection:</strong></p>\n\n<ul>\n\t<li>\n\t<p>9 characters &times; 8 bits/character =&nbsp;<strong>72 bits</strong></p>\n\t</li>\n</ul>\n\n<p><strong>3. Percentage Overhead:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Additional bits = 72 - 63 = 9 bits</p>\n\t</li>\n\t<li>\n\t<p>Overhead % = (Additional bits / Original bits) &times; 100</p>\n\t</li>\n\t<li>\n\t<p>Overhead % = (9 / 63) &times; 100 =&nbsp;<strong>14.29%</strong></p>\n\t</li>\n</ul>\n\n<p><strong>Alternative Calculation:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Overhead % = (1 parity bit / 7 data bits) &times; 100 =&nbsp;<strong>14.29%</strong></p>\n\t</li>\n</ul>\n\n<h4><strong>c) Switch to Odd Parity for &#39;W&#39; and &#39;5&#39;</strong></h4>\n\n<p><strong>Odd Parity Rule:</strong>&nbsp;Parity bit is set to make total number of 1s odd</p>\n\n<p><strong>For Character &#39;W&#39;:</strong></p>\n\n<ul>\n\t<li>\n\t<p>7-bit ASCII:&nbsp;<code>1010111</code></p>\n\t</li>\n\t<li>\n\t<p>Number of 1-bits: 5 (odd)</p>\n\t</li>\n\t<li>\n\t<p><strong>Odd Parity Bit:</strong>&nbsp;0 (since 5 is already odd: 5+0=5, which is odd)</p>\n\t</li>\n\t<li>\n\t<p><strong>8-bit Frame:</strong>&nbsp;<code>01010111</code></p>\n\t</li>\n</ul>\n\n<p><strong>For Character &#39;5&#39;:</strong></p>\n\n<ul>\n\t<li>\n\t<p>7-bit ASCII:&nbsp;<code>0110101</code></p>\n\t</li>\n\t<li>\n\t<p>Number of 1-bits: 4 (even)</p>\n\t</li>\n\t<li>\n\t<p><strong>Odd Parity Bit:</strong>&nbsp;1 (to make total odd: 4+1=5, which is odd)</p>\n\t</li>\n\t<li>\n\t<p><strong>8-bit Frame:</strong>&nbsp;<code>10110101</code></p>\n\t</li>\n</ul>\n\n<p><strong>Comparison Table (Even vs Odd Parity):</strong></p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Character</th>\n\t\t\t<th>Even Parity Frame</th>\n\t\t\t<th>Odd Parity Frame</th>\n\t\t\t<th>Change</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>W</td>\n\t\t\t<td>11010111</td>\n\t\t\t<td>01010111</td>\n\t\t\t<td>MSB changed from 1 to 0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>5</td>\n\t\t\t<td>00110101</td>\n\t\t\t<td>10110101</td>\n\t\t\t<td>MSB changed from 0 to 1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>Key Observation:</strong></p>\n\n<ul>\n\t<li>\n\t<p>Characters with&nbsp;<strong>odd</strong>&nbsp;number of 1s in ASCII code will have&nbsp;<strong>different</strong>&nbsp;parity bits in even vs odd parity systems</p>\n\t</li>\n\t<li>\n\t<p>Characters with&nbsp;<strong>even</strong>&nbsp;number of 1s in ASCII code will have&nbsp;<strong>same</strong>&nbsp;parity bits in both system</p>\n\t</li>\n</ul>\n\n<h3><strong>Transmission Details:</strong></h3>\n\n<ul>\n\t<li>\n\t<p><strong>Message:</strong>&nbsp;&quot;NETWORK25&quot;</p>\n\t</li>\n\t<li>\n\t<p><strong>Message Length:</strong>&nbsp;9 characters</p>\n\t</li>\n\t<li>\n\t<p><strong>Bits without parity:</strong>&nbsp;63 bits</p>\n\t</li>\n\t<li>\n\t<p><strong>Bits with parity:</strong>&nbsp;72 bits</p>\n\t</li>\n\t<li>\n\t<p><strong>Overhead:</strong>&nbsp;9 bits (14.29%)</p>\n\t</li>\n</ul>\n\n<p><strong>Parity Implementation:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>Even Parity:</strong>&nbsp;Ensures total number of 1s is even</p>\n\t</li>\n\t<li>\n\t<p><strong>Odd Parity:</strong>&nbsp;Ensures total number of 1s is odd</p>\n\t</li>\n\t<li>\n\t<p><strong>Parity Bit Position:</strong>&nbsp;Most Significant Bit (MSB)</p>\n\t</li>\n</ul>\n\n<p><strong>Character-specific Results:</strong></p>\n\n<ul>\n\t<li>\n\t<p><strong>&#39;W&#39;:</strong>&nbsp;Even parity =&nbsp;<code>11010111</code>, Odd parity =&nbsp;<code>01010111</code></p>\n\t</li>\n\t<li>\n\t<p><strong>&#39;5&#39;:</strong>&nbsp;Even parity =&nbsp;<code>00110101</code>, Odd parity =&nbsp;<code>10110101</code></p>\n\t</li>\n</ul>\n\n<p>This analysis demonstrates the complete process of ASCII encoding with parity protection, showing how parity bits are calculated and how they change when switching between even and odd parity schemes.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><strong>A computer network transmits text messages using 7-bit ASCII encoding with parity bits for error detection. The system processes the message &quot;NETWORK25&quot; through multiple stages. Analyze the complete process and answer all parts below:</strong></p>\n\n<hr />\n<h4><strong>Part A: ASCII Encoding and Parity Implementation (25 points)</strong></h4>\n\n<p>For the message &quot;NETWORK25&quot;:</p>\n\n<p>a) Create a complete transmission table showing for each character:</p>\n\n<ul>\n\t<li>\n\t<p>Character</p>\n\t</li>\n\t<li>\n\t<p>7-bit ASCII code (in binary)</p>\n\t</li>\n\t<li>\n\t<p>Number of 1-bits in the ASCII code</p>\n\t</li>\n\t<li>\n\t<p>Even parity bit (as MSB)</p>\n\t</li>\n\t<li>\n\t<p>Complete 8-bit transmission frame</p>\n\t</li>\n</ul>\n\n<p>b) Calculate the total number of bits required to transmit this message:</p>\n\n<ul>\n\t<li>\n\t<p>Without any parity protection</p>\n\t</li>\n\t<li>\n\t<p>With even parity protection</p>\n\t</li>\n\t<li>\n\t<p>Calculate the percentage overhead introduced by the parity bits</p>\n\t</li>\n</ul>\n\n<p>c) The system now switches to&nbsp;<strong>odd parity</strong>. Show how the transmission frames would change for the characters &#39;W&#39; and &#39;5&#39;.</p>\n",
+   "SESSION_ID": 204,
+   "TYPE": "lq",
+   "key": 49323
+  }
+ ]
+}

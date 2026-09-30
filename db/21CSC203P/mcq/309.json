@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 10449,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Model</p>\n",
+   "OPT_2": "<p>View</p>\n",
+   "OPT_3": "<p>Adapter</p>\n",
+   "OPT_4": "<p>Controller</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>In the MVC architecture, which component is responsible for handling user input and updating the model?<br data-end=\"360\" data-start=\"357\" />\nA. Model<br data-end=\"371\" data-start=\"368\" />\nB. View<br data-end=\"381\" data-start=\"378\" />\nC. Controller<br data-end=\"397\" data-start=\"394\" />\nD. Adapter</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 10449
+  },
+  {
+   "_id": 10450,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>The user interface</p>\n",
+   "OPT_2": "<p>Database schema</p>\n",
+   "OPT_3": "<p>The application&#39;s data and business logic</p>\n",
+   "OPT_4": "<p>Event listeners</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>What does the <strong data-end=\"562\" data-start=\"553\">Model</strong> component primarily represent in MVC?<br data-end=\"603\" data-start=\"600\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 10450
+  },
+  {
+   "_id": 10451,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p><code data-end=\"918\" data-start=\"910\">JPanel</code>, <code data-end=\"928\" data-start=\"920\">JFrame</code>, <code data-end=\"942\" data-start=\"930\">JTextField</code></p>\n",
+   "OPT_2": "<p><code data-end=\"959\" data-start=\"948\">ResultSet</code></p>\n",
+   "OPT_3": "<p><code data-end=\"982\" data-start=\"965\">JDBC Connection</code></p>\n",
+   "OPT_4": "<p><code data-end=\"998\" data-start=\"988\">Runnable</code> class</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>In a Java Swing-based application, what typically acts as the <strong data-end=\"896\" data-start=\"888\">View</strong> in MVC?<br data-end=\"907\" data-start=\"904\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 10451
+  },
+  {
+   "_id": 10452,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>It tightly couples data and presentation</p>\n",
+   "OPT_2": "<p>It slows down development</p>\n",
+   "OPT_3": "<p>It increases code modularity and reusability</p>\n",
+   "OPT_4": "<p>It avoids user input</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>Which of the following statements best describes the MVC architectural benefit?<br data-end=\"1207\" data-start=\"1204\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 10452
+  },
+  {
+   "_id": 10453,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>Automatically by the Model</p>\n",
+   "OPT_2": "<p>Through JDBC connection</p>\n",
+   "OPT_3": "<p>By the Controller triggering the View refresh</p>\n",
+   "OPT_4": "<p>Through database triggers</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>When the data in the <strong data-end=\"1523\" data-start=\"1514\">Model</strong> changes, how should the View be updated?<br data-end=\"1567\" data-start=\"1564\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "mcq",
+   "key": 10453
+  }
+ ],
+ "sq": [
+  {
+   "_id": 10447,
+   "ANSWER": "<ol data-end=\"3709\" data-start=\"3556\">\n\t<li data-end=\"3616\" data-start=\"3556\">\n\t<p data-end=\"3616\" data-start=\"3559\"><code data-end=\"3583\" data-start=\"3559\">ClassNotFoundException</code> &ndash; if JDBC driver is not found.</p>\n\t</li>\n\t<li data-end=\"3709\" data-start=\"3617\">\n\t<p data-end=\"3709\" data-start=\"3620\"><code data-end=\"3634\" data-start=\"3620\">SQLException</code> &ndash; for issues like wrong SQL query, network errors, or invalid credentials.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3555\" data-start=\"3444\">Mention two exceptions you might encounter while connecting to a database using JDBC.</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 10447
+  },
+  {
+   "_id": 10454,
+   "ANSWER": "<p>By separating concerns, the same Model can be reused with different Views, and Views can be swapped without altering the Model. This modularity enhances maintainability and testing</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3555\" data-start=\"3444\">How does the MVC pattern promote code reusability in GUI applications<br data-end=\"3175\" data-start=\"3172\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 309,
+   "TYPE": "sq",
+   "key": 10454
+  }
+ ],
+ "lq": [
+  {
+   "_id": 10455,
+   "ANSWER": "<p>Type Here</p>\n\n<p>public class BookModel {<br />\n&nbsp; &nbsp; private List&lt;String&gt; books = new ArrayList&lt;&gt;();<br />\n&nbsp; &nbsp;&nbsp;<br />\n&nbsp; &nbsp; public void addBook(String title, String author) {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; books.add(title + &quot; by &quot; + author);<br />\n&nbsp; &nbsp; }</p>\n\n<p>&nbsp; &nbsp; public List&lt;String&gt; getBooks() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; return books;<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO3",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4048\" data-start=\"3960\">Design and implement a simple MVC-based Swing application with the following:</p>\n\n<ul data-end=\"4269\" data-start=\"4049\">\n\t<li data-end=\"4094\" data-start=\"4049\">\n\t<p data-end=\"4094\" data-start=\"4051\">A <strong data-end=\"4062\" data-start=\"4053\">Model</strong> to store and manage book data</p>\n\t</li>\n\t<li data-end=\"4160\" data-start=\"4095\">\n\t<p data-end=\"4160\" data-start=\"4097\">A <strong data-end=\"4107\" data-start=\"4099\">View</strong> to provide a UI form with text fields and a button</p>\n\t</li>\n\t<li data-end=\"4223\" data-start=\"4161\">\n\t<p data-end=\"4223\" data-start=\"4163\">A <strong data-end=\"4179\" data-start=\"4165\">Controller</strong> to handle user actions like adding a book</p>\n\t</li>\n\t<li data-end=\"4269\" data-start=\"4224\">\n\t<p data-end=\"4269\" data-start=\"4226\">Proper interaction between all three layers</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 309,
+   "TYPE": "lq",
+   "key": 10455
+  }
+ ]
+}

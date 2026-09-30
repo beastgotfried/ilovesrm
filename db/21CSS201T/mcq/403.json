@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17289,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Decode</p>\n",
+   "OPT_2": "<p>Fetch</p>\n",
+   "OPT_3": "<p>execute</p>\n",
+   "OPT_4": "<p>Store</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What is the first step in the instruction execution cycle?</strong></p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 17289
+  },
+  {
+   "_id": 17290,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Machine cycle</p>\n",
+   "OPT_2": "<p>Clock cycle</p>\n",
+   "OPT_3": "<p>Bus cycle</p>\n",
+   "OPT_4": "<p>Interrupt cycle</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>The fetch-decode-execute cycle is also known as:</strong></p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 17290
+  },
+  {
+   "_id": 17296,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>The CPU executes faster</p>\n",
+   "OPT_2": "<p>The same instruction repeats indefinitely</p>\n",
+   "OPT_3": "<p>The system shuts down</p>\n",
+   "OPT_4": "<p>The ALU stops working</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What happens if the Program Counter (PC) is not incremented after fetching an instruction?</strong></p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 17296
+  },
+  {
+   "_id": 17297,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Fetch data from the hard disk</p>\n",
+   "OPT_2": "<p>Send signals to the ALU to perform addition</p>\n",
+   "OPT_3": "<p>Halt the CPU</p>\n",
+   "OPT_4": "<p>Skip the next instruction</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>If the opcode is &quot;ADD,&quot; the Control Unit will:</strong></p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 17297
+  },
+  {
+   "_id": 17299,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Fetch</p>\n",
+   "OPT_2": "<p>Decode</p>\n",
+   "OPT_3": "<p>Execute</p>\n",
+   "OPT_4": "<p>Store</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>The status register is updated during the ___ phase.</strong></p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "mcq",
+   "key": 17299
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17414,
+   "ANSWER": "<p data-end=\"1116\" data-start=\"1047\">Instruction execution is the process by which a computer&#39;s CPU carries out the commands specified in program instructions. Each instruction goes through a series of steps: <strong data-end=\"487\" data-start=\"478\">fetch</strong>, <strong data-end=\"499\" data-start=\"489\">decode</strong>, and <strong data-end=\"516\" data-start=\"505\">execute</strong>. During <strong data-end=\"534\" data-start=\"525\">fetch</strong>, the instruction is retrieved from memory. In the <strong data-end=\"595\" data-start=\"585\">decode</strong> phase, the control unit interprets what action is needed. Finally, during <strong data-end=\"681\" data-start=\"670\">execute</strong>, the required operation (like arithmetic, data transfer, or logic) is performed. This process repeats for every instruction in a program. It enables the system to respond to tasks such as calculations, decisions, and memory operations.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What do you mean by instruction execution in a CPU?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "sq",
+   "key": 17414
+  },
+  {
+   "_id": 17415,
+   "ANSWER": "<p data-end=\"1107\" data-start=\"1030\">The instruction execution cycle involves the following steps:</p>\n\n<ol data-end=\"1609\" data-start=\"1108\">\n\t<li data-end=\"1193\" data-start=\"1108\">\n\t<p data-end=\"1193\" data-start=\"1111\"><strong data-end=\"1120\" data-start=\"1111\">Fetch</strong> &ndash; Retrieve the instruction from memory using the program counter (PC).</p>\n\t</li>\n\t<li data-end=\"1278\" data-start=\"1194\">\n\t<p data-end=\"1278\" data-start=\"1197\"><strong data-end=\"1207\" data-start=\"1197\">Decode</strong> &ndash; Interpret the instruction to determine the operation and operands.</p>\n\t</li>\n\t<li data-end=\"1347\" data-start=\"1279\">\n\t<p data-end=\"1347\" data-start=\"1282\"><strong data-end=\"1293\" data-start=\"1282\">Execute</strong> &ndash; Perform the action using the ALU or control unit.</p>\n\t</li>\n\t<li data-end=\"1417\" data-start=\"1348\">\n\t<p data-end=\"1417\" data-start=\"1351\"><strong data-end=\"1372\" data-start=\"1351\">Store (if needed)</strong> &ndash; Save the result in a register or memory.</p>\n\t</li>\n\t<li data-end=\"1609\" data-start=\"1418\">\n\t<p data-end=\"1609\" data-start=\"1421\"><strong data-end=\"1437\" data-start=\"1421\">Increment PC</strong> &ndash; Move to the next instruction.<br data-end=\"1472\" data-start=\"1469\" />\n\tThese steps are repeated continuously until the program ends. This sequence ensures orderly and correct operation of programs in the CPU.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>What are the main steps in the instruction execution cycle?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "sq",
+   "key": 17415
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17513,
+   "ANSWER": "<p data-end=\"2544\" data-start=\"2288\">The <strong data-end=\"2327\" data-start=\"2306\">Control Unit (CU)</strong> is the component of the CPU responsible for directing the operation of the processor. It orchestrates the entire instruction execution process by generating <strong data-end=\"2504\" data-start=\"2485\">control signals</strong> based on the instruction being decoded.</p>\n\n<h4 data-end=\"2581\" data-start=\"2546\"><strong data-end=\"2581\" data-start=\"2551\">Roles of the Control Unit:</strong></h4>\n\n<ol data-end=\"3290\" data-start=\"2583\">\n\t<li data-end=\"2787\" data-start=\"2583\">\n\t<p data-end=\"2604\" data-start=\"2586\"><strong data-end=\"2602\" data-start=\"2586\">Fetch Stage:</strong></p>\n\n\t<ul data-end=\"2787\" data-start=\"2608\">\n\t\t<li data-end=\"2698\" data-start=\"2608\">\n\t\t<p data-end=\"2698\" data-start=\"2610\">Sends control signals to memory to read the instruction using the address from the PC.</p>\n\t\t</li>\n\t\t<li data-end=\"2763\" data-start=\"2702\">\n\t\t<p data-end=\"2763\" data-start=\"2704\">Loads the instruction into the Instruction Register (IR).</p>\n\t\t</li>\n\t\t<li data-end=\"2787\" data-start=\"2767\">\n\t\t<p data-end=\"2787\" data-start=\"2769\">Increments the PC.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2961\" data-start=\"2789\">\n\t<p data-end=\"2811\" data-start=\"2792\"><strong data-end=\"2809\" data-start=\"2792\">Decode Stage:</strong></p>\n\n\t<ul data-end=\"2961\" data-start=\"2815\">\n\t\t<li data-end=\"2881\" data-start=\"2815\">\n\t\t<p data-end=\"2881\" data-start=\"2817\">Analyzes the binary opcode to understand the instruction type.</p>\n\t\t</li>\n\t\t<li data-end=\"2961\" data-start=\"2885\">\n\t\t<p data-end=\"2961\" data-start=\"2887\">Sets control paths for ALU, registers, and memory based on operation type.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3138\" data-start=\"2963\">\n\t<p data-end=\"2998\" data-start=\"2966\"><strong data-end=\"2996\" data-start=\"2966\">Execution &amp; Memory Access:</strong></p>\n\n\t<ul data-end=\"3138\" data-start=\"3002\">\n\t\t<li data-end=\"3081\" data-start=\"3002\">\n\t\t<p data-end=\"3081\" data-start=\"3004\">Forwards control signals to the ALU to perform arithmetic/logic operations.</p>\n\t\t</li>\n\t\t<li data-end=\"3138\" data-start=\"3085\">\n\t\t<p data-end=\"3138\" data-start=\"3087\">Directs data movement between memory and registers.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3290\" data-start=\"3140\">\n\t<p data-end=\"3166\" data-start=\"3143\"><strong data-end=\"3164\" data-start=\"3143\">Write-back Stage:</strong></p>\n\n\t<ul data-end=\"3290\" data-start=\"3170\">\n\t\t<li data-end=\"3246\" data-start=\"3170\">\n\t\t<p data-end=\"3246\" data-start=\"3172\">Enables the appropriate register or memory location to store the result.</p>\n\t\t</li>\n\t\t<li data-end=\"3290\" data-start=\"3250\">\n\t\t<p data-end=\"3290\" data-start=\"3252\">Updates the status register if needed.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<h4 data-end=\"3324\" data-start=\"3292\"><strong data-end=\"3324\" data-start=\"3297\">Types of Control Units:</strong></h4>\n\n<ul data-end=\"3573\" data-start=\"3326\">\n\t<li data-end=\"3435\" data-start=\"3326\">\n\t<p data-end=\"3357\" data-start=\"3328\"><strong data-end=\"3355\" data-start=\"3328\">Hardwired Control Unit:</strong></p>\n\n\t<ul data-end=\"3435\" data-start=\"3360\">\n\t\t<li data-end=\"3407\" data-start=\"3360\">\n\t\t<p data-end=\"3407\" data-start=\"3362\">Uses logic gates, flip-flops, and decoders.</p>\n\t\t</li>\n\t\t<li data-end=\"3435\" data-start=\"3410\">\n\t\t<p data-end=\"3435\" data-start=\"3412\">Fast but less flexible.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"3573\" data-start=\"3437\">\n\t<p data-end=\"3474\" data-start=\"3439\"><strong data-end=\"3472\" data-start=\"3439\">Microprogrammed Control Unit:</strong></p>\n\n\t<ul data-end=\"3573\" data-start=\"3477\">\n\t\t<li data-end=\"3530\" data-start=\"3477\">\n\t\t<p data-end=\"3530\" data-start=\"3479\">Uses a microinstruction stored in control memory.</p>\n\t\t</li>\n\t\t<li data-end=\"3573\" data-start=\"3533\">\n\t\t<p data-end=\"3573\" data-start=\"3535\">Easier to modify and debug but slower.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p data-end=\"3732\" data-start=\"3575\">The Control Unit ensures all parts of the CPU work in synchronization and that the correct sequence of micro-operations is carried out for every instruction.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Illustrate how the control unit orchestrates instruction execution. What are its types and roles?</p>\n",
+   "SESSION_ID": 403,
+   "TYPE": "lq",
+   "key": 17513
+  }
+ ]
+}

@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9652,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Connection-oriented and reliable</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) Connectionless and faster but unreliable</p>\n",
+   "OPT_3": "<p>C) Requires a three-way handshake</p>\n",
+   "OPT_4": "<p>D) It doesn&rsquo;t require ports</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"232\" data-start=\"177\"><strong data-end=\"232\" data-start=\"181\">1. What is a key characteristic of UDP sockets?</strong></h3>\n\n<p data-end=\"386\" data-start=\"234\">&nbsp;</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 9652
+  },
+  {
+   "_id": 9653,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"546\" data-start=\"526\">socket.SOCK_STREAM</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) <code data-end=\"569\" data-start=\"552\">socket.SOCK_RAW</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"594\" data-start=\"575\">socket.SOCK_DGRAM</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"617\" data-start=\"600\">socket.SOCK_TCP</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"521\" data-start=\"452\"><strong data-end=\"521\" data-start=\"456\">2. Which socket type is used in Python for UDP communication?</strong></h3>\n\n<p data-end=\"619\" data-start=\"523\"><br data-end=\"549\" data-start=\"546\" />\n<br data-end=\"572\" data-start=\"569\" />\n&nbsp;</p>\n\n<p data-end=\"386\" data-start=\"234\">&nbsp;</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 9653
+  },
+  {
+   "_id": 9654,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) <code data-end=\"755\" data-start=\"747\">send()</code></p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) <code data-end=\"771\" data-start=\"761\">sendto()</code></p>\n",
+   "OPT_3": "<p>C) <code data-end=\"788\" data-start=\"777\">connect()</code></p>\n",
+   "OPT_4": "<p>D) <code data-end=\"804\" data-start=\"794\">listen()</code></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"742\" data-start=\"664\"><strong data-end=\"742\" data-start=\"668\">3. Which method is used by a UDP client to send a message to a server?</strong></h3>\n\n<p data-end=\"806\" data-start=\"744\">&nbsp;</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 9654
+  },
+  {
+   "_id": 9655,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It is automatically resent.</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) The client gets notified instantly</p>\n",
+   "OPT_3": "<p>C) Nothing &ndash; UDP does not guarantee delivery</p>\n",
+   "OPT_4": "<p>D) The connection is closed</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"907\" data-start=\"842\"><strong data-end=\"907\" data-start=\"846\">4. What happens if a UDP message is lost in transmission?</strong></h3>\n\n<p data-end=\"1057\" data-start=\"909\"><br data-end=\"941\" data-start=\"938\" />\n<br data-end=\"981\" data-start=\"978\" />\n&nbsp;</p>\n\n<p data-end=\"806\" data-start=\"744\">&nbsp;</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 9655
+  },
+  {
+   "_id": 9657,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Email transmission</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) Live video conferencing</p>\n",
+   "OPT_3": "<p>C) File download</p>\n",
+   "OPT_4": "<p>D) Online banking</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1179\" data-start=\"1124\"><strong data-end=\"1179\" data-start=\"1128\">5. In which scenario is UDP preferred over TCP?</strong></h3>\n\n<p data-end=\"1272\" data-start=\"1181\"><br data-end=\"1205\" data-start=\"1202\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "mcq",
+   "key": 9657
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9862,
+   "ANSWER": "<p data-end=\"6516\" data-start=\"6456\"><br data-end=\"6800\" data-start=\"6797\" />\nUDP is lightweight and doesn&rsquo;t require a handshake, making it faster.<br data-end=\"6872\" data-start=\"6869\" />\nIt&rsquo;s ideal for periodic, non-critical data where occasional loss is tolerable.<br data-end=\"6953\" data-start=\"6950\" />\nLess overhead also reduces energy consumption in IoT devices.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"6516\" data-start=\"6456\">A sensor sends temperature every second. Why use UDP?<br data-end=\"6791\" data-start=\"6788\" />\n&nbsp;</p>\n\n<p data-end=\"4958\" data-start=\"4681\">&nbsp;</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "sq",
+   "key": 9862
+  },
+  {
+   "_id": 9863,
+   "ANSWER": "<p><code>import socket s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) s.sendto(b&#39;data&#39;, (&#39;localhost&#39;, 12345)) </code></p>\n\n<p data-end=\"7266\" data-start=\"7215\">This sends a UDP datagram to the given IP and port.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"7085\" data-start=\"7016\">How do you send data using a UDP socket in Python?</p>\n\n<p>&nbsp;</p>\n\n<p data-end=\"6516\" data-start=\"6456\">&nbsp;</p>\n\n<p data-end=\"4958\" data-start=\"4681\">&nbsp;</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "sq",
+   "key": 9863
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9841,
+   "ANSWER": "<h3 data-end=\"128\" data-start=\"94\"><strong data-end=\"126\" data-start=\"98\">1. Why Use UDP (4 marks)</strong></h3>\n\n<ul data-end=\"354\" data-start=\"129\">\n\t<li data-end=\"197\" data-start=\"129\">\n\t<p data-end=\"197\" data-start=\"131\">UDP is <strong data-end=\"148\" data-start=\"138\">faster</strong> and supports <strong data-end=\"180\" data-start=\"162\">connectionless</strong> communication.</p>\n\t</li>\n\t<li data-end=\"289\" data-start=\"198\">\n\t<p data-end=\"289\" data-start=\"200\">Best for sensor data where <strong data-end=\"248\" data-start=\"227\">speed is critical</strong> and <strong data-end=\"286\" data-start=\"253\">occasional loss is acceptable</strong>.</p>\n\t</li>\n\t<li data-end=\"354\" data-start=\"290\">\n\t<p data-end=\"354\" data-start=\"292\">TCP adds delay due to connection setup and reliability checks.</p>\n\t</li>\n</ul>\n\n<p data-end=\"354\" data-start=\"292\"><strong data-end=\"397\" data-start=\"365\">2. UDP Socket Code (7 marks)</strong></p>\n\n<p data-end=\"421\" data-start=\"401\"><strong data-end=\"421\" data-start=\"401\">Sensor (Client):</strong></p>\n\n<p data-end=\"421\" data-start=\"401\"><strong data-end=\"421\" data-start=\"401\">import socket<br />\ns = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)<br />\ns.sendto(b&#39;Temp:25C&#39;, (&#39;localhost&#39;, 12345))</strong></p>\n\n<p data-end=\"576\" data-start=\"548\"><strong data-end=\"576\" data-start=\"548\">Data Collector (Server):</strong></p>\n\n<pre data-end=\"750\" data-start=\"577\">\n<code>import socket s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM) s.bind((&#39;localhost&#39;, 12345)) data, addr = s.recvfrom(1024) print(&quot;Received:&quot;, data.decode()) </code></pre>\n\n<h3 data-end=\"801\" data-start=\"757\"><strong data-end=\"799\" data-start=\"761\">3. TCP vs UDP Comparison (4 marks)</strong></h3>\n\n<table data-end=\"1292\" data-start=\"803\">\n\t<thead data-end=\"882\" data-start=\"803\">\n\t\t<tr data-end=\"882\" data-start=\"803\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"819\" data-start=\"803\">Feature</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"850\" data-start=\"819\">TCP</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"882\" data-start=\"850\">UDP</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"1292\" data-start=\"965\">\n\t\t<tr data-end=\"1046\" data-start=\"965\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"981\" data-start=\"965\">Type</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1013\" data-start=\"981\">Connection-oriented</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1046\" data-start=\"1013\">Connectionless</td>\n\t\t</tr>\n\t\t<tr data-end=\"1128\" data-start=\"1047\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1063\" data-start=\"1047\">Reliability</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1095\" data-start=\"1063\">Guaranteed delivery</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1128\" data-start=\"1095\">No guarantee</td>\n\t\t</tr>\n\t\t<tr data-end=\"1210\" data-start=\"1129\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1145\" data-start=\"1129\">Speed</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1177\" data-start=\"1145\">Slower</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1210\" data-start=\"1177\">Faster</td>\n\t\t</tr>\n\t\t<tr data-end=\"1292\" data-start=\"1211\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1227\" data-start=\"1211\">Use Case</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1259\" data-start=\"1227\">Chat, file transfer</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1292\" data-start=\"1259\">Sensors, video streaming</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"480\" data-start=\"146\">You are designing a Python-based system to collect sensor data from multiple IoT devices in a smart agriculture environment. Since the sensors send frequent updates (e.g., temperature, humidity) every second, the system must handle a high volume of fast messages with minimal delay. Occasional data loss is acceptable.</p>\n\n<p data-end=\"491\" data-start=\"482\"><strong data-end=\"491\" data-start=\"482\">Task:</strong></p>\n\n<ol data-end=\"810\" data-start=\"493\">\n\t<li data-end=\"570\" data-start=\"493\">\n\t<p data-end=\"570\" data-start=\"496\"><strong data-end=\"507\" data-start=\"496\">Explain</strong> why UDP is preferred over TCP for this use case. <em data-end=\"568\" data-start=\"557\">(4 marks)</em></p>\n\t</li>\n\t<li data-end=\"693\" data-start=\"571\">\n\t<p data-end=\"693\" data-start=\"574\"><strong data-end=\"595\" data-start=\"574\">Write Python code</strong> to configure a UDP socket for both a client (sensor) and a server (data collector). <em data-end=\"691\" data-start=\"680\">(7 marks)</em></p>\n\t</li>\n\t<li data-end=\"810\" data-start=\"694\">\n\t<p data-end=\"810\" data-start=\"697\"><strong data-end=\"708\" data-start=\"697\">Compare</strong> the behavior of TCP and UDP sockets based on connection type, reliability, and use cases. <em data-end=\"810\" data-start=\"799\">(4 marks)</em></p>\n\t</li>\n</ol>\n\n<p data-end=\"492\" data-start=\"153\">&nbsp;</p>\n",
+   "SESSION_ID": 411,
+   "TYPE": "lq",
+   "key": 9841
+  }
+ ]
+}

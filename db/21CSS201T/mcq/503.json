@@ -1,0 +1,147 @@
+{
+ "mcq": [
+  {
+   "_id": 28837,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) SISD</p>\n",
+   "OPT_2": "<p>b) SIMD</p>\n",
+   "OPT_3": "<p>c) MISD</p>\n",
+   "OPT_4": "<p>d) MIMD</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A weather simulation system processes multiple weather variables at the same time using a single set of instructions applied to multiple data points. Which Flynn&rsquo;s category best describes this?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 28837
+  },
+  {
+   "_id": 28838,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) SIMD uses multiple instruction streams, MIMD uses one.</p>\n",
+   "OPT_2": "<p>b) SIMD uses multiple data streams with one instruction stream, MIMD uses multiple data streams with multiple instruction streams.</p>\n",
+   "OPT_3": "<p>c) SIMD and MIMD both use single instruction streams.</p>\n",
+   "OPT_4": "<p>d) SIMD requires distributed memory, MIMD requires shared memory.</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following statements correctly differentiates <strong data-end=\"1313\" data-start=\"1305\">SIMD</strong> from <strong data-end=\"1327\" data-start=\"1319\">MIMD</strong>?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 28838
+  },
+  {
+   "_id": 28839,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OPT_1": "<p>a) MISD &ndash; because different instructions operate on the same data stream for redundancy.</p>\n",
+   "OPT_2": "<p>b) MIMD &ndash; because multiple instruction streams are used for different data.</p>\n",
+   "OPT_3": "<p>c) SISD &ndash; because the data stream is singular.</p>\n",
+   "OPT_4": "<p>d) SIMD &ndash; because the same instructions are applied to data in parallel.</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A fault-tolerant aerospace system uses multiple processors executing different instruction streams but operating on the same data to ensure reliability. Which Flynn&rsquo;s category is most appropriate, and why?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 28839
+  },
+  {
+   "_id": 28840,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) SIMD</p>\n",
+   "OPT_2": "<p>b) SISD</p>\n",
+   "OPT_3": "<p>c) MISD</p>\n",
+   "OPT_4": "<p>d) MIMD</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In Flynn&rsquo;s classification, which category represents a single instruction stream and a single data stream?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 28840
+  },
+  {
+   "_id": 28841,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) SIMD</p>\n",
+   "OPT_2": "<p>b) SISD</p>\n",
+   "OPT_3": "<p>c) MISD</p>\n",
+   "OPT_4": "<p>d) MIMD</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A weather simulation system processes multiple weather variables at the same time using a single set of instructions applied to multiple data points. Which Flynn&rsquo;s category best describes this?</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "mcq",
+   "key": 28841
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28866,
+   "ANSWER": "<h3 data-end=\"395\" data-start=\"330\"><strong data-end=\"393\" data-start=\"334\">1. SISD (Single Instruction stream, Single Data stream)</strong></h3>\n\n<ul data-end=\"590\" data-start=\"396\">\n\t<li data-end=\"473\" data-start=\"396\">\n\t<p data-end=\"473\" data-start=\"398\"><strong data-end=\"413\" data-start=\"398\">Definition:</strong> Executes one instruction at a time on a single data item.</p>\n\t</li>\n\t<li data-end=\"553\" data-start=\"474\">\n\t<p data-end=\"553\" data-start=\"476\"><strong data-end=\"488\" data-start=\"476\">Example:</strong> Traditional single-core processors (Von Neumann architecture).</p>\n\t</li>\n\t<li data-end=\"590\" data-start=\"554\">\n\t<p data-end=\"590\" data-start=\"556\"><strong data-end=\"564\" data-start=\"556\">Use:</strong> Simple computing tasks.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"595\" data-start=\"592\" />\n<h3 data-end=\"665\" data-start=\"597\"><strong data-end=\"663\" data-start=\"601\">2. SIMD (Single Instruction stream, Multiple Data streams)</strong></h3>\n\n<ul data-end=\"850\" data-start=\"666\">\n\t<li data-end=\"753\" data-start=\"666\">\n\t<p data-end=\"753\" data-start=\"668\"><strong data-end=\"683\" data-start=\"668\">Definition:</strong> Same instruction is executed simultaneously on multiple data items.</p>\n\t</li>\n\t<li data-end=\"795\" data-start=\"754\">\n\t<p data-end=\"795\" data-start=\"756\"><strong data-end=\"768\" data-start=\"756\">Example:</strong> Vector processors, GPUs.</p>\n\t</li>\n\t<li data-end=\"850\" data-start=\"796\">\n\t<p data-end=\"850\" data-start=\"798\"><strong data-end=\"806\" data-start=\"798\">Use:</strong> Image processing, scientific simulations.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"855\" data-start=\"852\" />\n<h3 data-end=\"925\" data-start=\"857\"><strong data-end=\"923\" data-start=\"861\">3. MISD (Multiple Instruction streams, Single Data stream)</strong></h3>\n\n<ul data-end=\"1123\" data-start=\"926\">\n\t<li data-end=\"1001\" data-start=\"926\">\n\t<p data-end=\"1001\" data-start=\"928\"><strong data-end=\"943\" data-start=\"928\">Definition:</strong> Different instructions operate on the same data stream.</p>\n\t</li>\n\t<li data-end=\"1055\" data-start=\"1002\">\n\t<p data-end=\"1055\" data-start=\"1004\"><strong data-end=\"1016\" data-start=\"1004\">Example:</strong> Fault-tolerant systems in aerospace.</p>\n\t</li>\n\t<li data-end=\"1123\" data-start=\"1056\">\n\t<p data-end=\"1123\" data-start=\"1058\"><strong data-end=\"1066\" data-start=\"1058\">Use:</strong> Rare in practice, used for reliability and redundancy.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1128\" data-start=\"1125\" />\n<h3 data-end=\"1201\" data-start=\"1130\"><strong data-end=\"1199\" data-start=\"1134\">4. MIMD (Multiple Instruction streams, Multiple Data streams)</strong></h3>\n\n<ul data-end=\"1426\" data-start=\"1202\">\n\t<li data-end=\"1307\" data-start=\"1202\">\n\t<p data-end=\"1307\" data-start=\"1204\"><strong data-end=\"1219\" data-start=\"1204\">Definition:</strong> Different processors execute different instructions on different data simultaneously.</p>\n\t</li>\n\t<li data-end=\"1376\" data-start=\"1308\">\n\t<p data-end=\"1376\" data-start=\"1310\"><strong data-end=\"1322\" data-start=\"1310\">Example:</strong> Multi-core and distributed systems, supercomputers.</p>\n\t</li>\n\t<li data-end=\"1426\" data-start=\"1377\">\n\t<p data-end=\"1426\" data-start=\"1379\"><strong data-end=\"1387\" data-start=\"1379\">Use:</strong> Parallel computing, cloud computing.</p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n\n<pre data-end=\"977\" data-start=\"921\">\n\n&nbsp;</pre>\n\n<p><button aria-label=\"Copy\">Copy</button><button>Edit</button></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Outline the categories of computer systems under Flynn.</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "sq",
+   "key": 28866
+  },
+  {
+   "_id": 28961,
+   "ANSWER": "<h2 data-end=\"135\" data-start=\"99\"><strong data-end=\"133\" data-start=\"102\">Instruction Encoding Format</strong></h2>\n\n<p data-end=\"446\" data-start=\"137\"><strong data-end=\"152\" data-start=\"137\">Definition:</strong><br data-end=\"155\" data-start=\"152\" />\nInstruction encoding format refers to the way a machine instruction is <strong data-end=\"251\" data-start=\"226\">represented in binary</strong> so that the processor can decode and execute it. It specifies <strong data-end=\"352\" data-start=\"314\">which bits represent the operation</strong> (opcode) and <strong data-end=\"399\" data-start=\"366\">which bits represent operands</strong> (registers, memory addresses, or constants).</p>\n\n<hr data-end=\"451\" data-start=\"448\" />\n<h3 data-end=\"477\" data-start=\"453\"><strong data-end=\"477\" data-start=\"457\">Basic Components</strong></h3>\n\n<ol data-end=\"982\" data-start=\"478\">\n\t<li data-end=\"648\" data-start=\"478\">\n\t<p data-end=\"499\" data-start=\"481\"><strong data-end=\"497\" data-start=\"481\">Opcode Field</strong></p>\n\n\t<ul data-end=\"648\" data-start=\"503\">\n\t\t<li data-end=\"572\" data-start=\"503\">\n\t\t<p data-end=\"572\" data-start=\"505\">Specifies the operation to be performed (e.g., ADD, LOAD, STORE).</p>\n\t\t</li>\n\t\t<li data-end=\"648\" data-start=\"576\">\n\t\t<p data-end=\"648\" data-start=\"578\">Example: In a 32-bit instruction, 6 bits may be used for the opcode.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"750\" data-start=\"650\">\n\t<p data-end=\"673\" data-start=\"653\"><strong data-end=\"671\" data-start=\"653\">Operand Fields</strong></p>\n\n\t<ul data-end=\"750\" data-start=\"677\">\n\t\t<li data-end=\"750\" data-start=\"677\">\n\t\t<p data-end=\"750\" data-start=\"679\">Indicate the registers or memory locations involved in the operation.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"876\" data-start=\"752\">\n\t<p data-end=\"782\" data-start=\"755\"><strong data-end=\"780\" data-start=\"755\">Addressing Mode Field</strong></p>\n\n\t<ul data-end=\"876\" data-start=\"786\">\n\t\t<li data-end=\"876\" data-start=\"786\">\n\t\t<p data-end=\"876\" data-start=\"788\">Specifies how to interpret the operand (immediate value, register, or memory address).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"982\" data-start=\"878\">\n\t<p data-end=\"910\" data-start=\"881\"><strong data-end=\"908\" data-start=\"881\">Immediate/Address Field</strong></p>\n\n\t<ul data-end=\"982\" data-start=\"914\">\n\t\t<li data-end=\"982\" data-start=\"914\">\n\t\t<p data-end=\"982\" data-start=\"916\">Holds constants or memory addresses directly in the instruction.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<p><button aria-label=\"Copy\">Copy</button><button>Edit</button></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Describe the instruction encoding format in brief.&nbsp;</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "sq",
+   "key": 28961
+  }
+ ],
+ "lq": [
+  {
+   "_id": 37193,
+   "ANSWER": "<p data-end=\"482\" data-start=\"244\">Parallel computing provides high performance by executing multiple tasks simultaneously, but it also introduces several challenges. Some of the most common challenges are <strong data-end=\"479\" data-start=\"429\">synchronization, load balancing, and debugging</strong>.</p>\n\n<hr data-end=\"487\" data-start=\"484\" />\n<h4 data-end=\"518\" data-start=\"489\">1. <strong data-end=\"516\" data-start=\"497\">Synchronization</strong></h4>\n\n<ul data-end=\"1112\" data-start=\"519\">\n\t<li data-end=\"689\" data-start=\"519\">\n\t<p data-end=\"689\" data-start=\"521\"><strong data-end=\"536\" data-start=\"521\">Definition:</strong> Synchronization ensures that multiple processes or threads execute in a coordinated manner, especially when they share resources like memory or files.</p>\n\t</li>\n\t<li data-end=\"947\" data-start=\"690\">\n\t<p data-end=\"720\" data-start=\"692\"><strong data-end=\"718\" data-start=\"692\">Why it is a challenge:</strong></p>\n\n\t<ul data-end=\"947\" data-start=\"723\">\n\t\t<li data-end=\"871\" data-start=\"723\">\n\t\t<p data-end=\"871\" data-start=\"725\">If synchronization is not handled properly, it can lead to race conditions (where the outcome depends on the unpredictable timing of processes).</p>\n\t\t</li>\n\t\t<li data-end=\"947\" data-start=\"874\">\n\t\t<p data-end=\"947\" data-start=\"876\">Too much synchronization (locks, barriers) may slow down performance.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1112\" data-start=\"948\">\n\t<p data-end=\"1112\" data-start=\"950\"><strong data-end=\"962\" data-start=\"950\">Example:</strong> In a banking system, if two processes try to update the same account balance at the same time without synchronization, incorrect results may occur.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1117\" data-start=\"1114\" />\n<h4 data-end=\"1147\" data-start=\"1119\">2. <strong data-end=\"1145\" data-start=\"1127\">Load Balancing</strong></h4>\n\n<ul data-end=\"1722\" data-start=\"1148\">\n\t<li data-end=\"1300\" data-start=\"1148\">\n\t<p data-end=\"1300\" data-start=\"1150\"><strong data-end=\"1165\" data-start=\"1150\">Definition:</strong> Load balancing refers to distributing work evenly across all processors so that no processor is overloaded while others remain idle.</p>\n\t</li>\n\t<li data-end=\"1512\" data-start=\"1301\">\n\t<p data-end=\"1331\" data-start=\"1303\"><strong data-end=\"1329\" data-start=\"1303\">Why it is a challenge:</strong></p>\n\n\t<ul data-end=\"1512\" data-start=\"1334\">\n\t\t<li data-end=\"1399\" data-start=\"1334\">\n\t\t<p data-end=\"1399\" data-start=\"1336\">Some tasks may take longer than others, leading to imbalance.</p>\n\t\t</li>\n\t\t<li data-end=\"1512\" data-start=\"1402\">\n\t\t<p data-end=\"1512\" data-start=\"1404\">Uneven data distribution can also cause certain processors to finish early while others are still working.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1722\" data-start=\"1513\">\n\t<p data-end=\"1722\" data-start=\"1515\"><strong data-end=\"1527\" data-start=\"1515\">Example:</strong> In weather forecasting, if one processor is assigned a region with more complex calculations (like mountains), it may take more time than processors working on simpler regions, causing delays.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1727\" data-start=\"1724\" />\n<h4 data-end=\"1752\" data-start=\"1729\">3. <strong data-end=\"1750\" data-start=\"1737\">Debugging</strong></h4>\n\n<ul data-end=\"2339\" data-start=\"1753\">\n\t<li data-end=\"1919\" data-start=\"1753\">\n\t<p data-end=\"1919\" data-start=\"1755\"><strong data-end=\"1770\" data-start=\"1755\">Definition:</strong> Debugging is the process of identifying and fixing errors in a program. In parallel computing, this is much harder than in sequential programming.</p>\n\t</li>\n\t<li data-end=\"2164\" data-start=\"1920\">\n\t<p data-end=\"1950\" data-start=\"1922\"><strong data-end=\"1948\" data-start=\"1922\">Why it is a challenge:</strong></p>\n\n\t<ul data-end=\"2164\" data-start=\"1953\">\n\t\t<li data-end=\"2050\" data-start=\"1953\">\n\t\t<p data-end=\"2050\" data-start=\"1955\">Errors may not occur consistently because the timing of parallel processes changes every run.</p>\n\t\t</li>\n\t\t<li data-end=\"2164\" data-start=\"2053\">\n\t\t<p data-end=\"2164\" data-start=\"2055\">Problems like deadlocks (when processes wait forever for each other) or race conditions are hard to detect.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2339\" data-start=\"2165\">\n\t<p data-end=\"2339\" data-start=\"2167\"><strong data-end=\"2179\" data-start=\"2167\">Example:</strong> A program may run correctly once, but the next time it may crash due to thread scheduling differences, making it difficult for programmers to locate the bug.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Describe the common challenges in parallel computing such as synchronization, load balancing, and debugging.</p>\n",
+   "SESSION_ID": 503,
+   "TYPE": "lq",
+   "key": 37193
+  }
+ ]
+}

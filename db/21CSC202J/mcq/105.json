@@ -1,0 +1,148 @@
+{
+ "mcq": [
+  {
+   "_id": 20871,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Implemented inside the kernel for performance</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Shifted to user-level libraries or applications</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Omitted entirely from the system</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Managed by the hardware directly</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>In the Exokernel design, most of the traditional OS functionalities are:</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 20871
+  },
+  {
+   "_id": 20875,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Flat organization with no separation of services</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Services built on top of each other in hierarchical layers</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Direct hardware access by all services</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">All services run at the same privilege level</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>The main design principle of a Layered Operating System is:</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 20875
+  },
+  {
+   "_id": 20877,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Lack of device drivers in the kernel</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Direct hardware access given to applications increases security risks</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Absence of interprocess communication mechanisms</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Use of monolithic architecture</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Why is security a challenge in Exokernel design?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 20877
+  },
+  {
+   "_id": 20880,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Separate programs with no interaction</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Independent modules with well-defined interfaces</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Monolithic blocks running in user mode</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Kernel extensions loaded only at boot time</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>In a Modular Operating System Structure, system components are designed as:</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 20880
+  },
+  {
+   "_id": 20884,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">To execute only system-level code securely</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">To run guest operating systems on virtualized hardware</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">To provide a direct interface to hardware for all applications</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">To prevent multiprogramming on a host system</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>What is the main purpose of using a Virtual Machine (VM)?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "mcq",
+   "key": 20884
+  }
+ ],
+ "sq": [
+  {
+   "_id": 20886,
+   "ANSWER": "<h3><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Unlike Monolithic and Microkernels that abstract hardware resources, the <strong>Exokernel exposes hardware resources directly</strong> to applications while enforcing access control, offering minimal abstraction.</span></span></h3>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>Type Here</p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>How does the Exokernel differ from traditional Monolithic or Microkernel designs?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "sq",
+   "key": 20886
+  },
+  {
+   "_id": 20888,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">A <strong>Hypervisor</strong> manages Virtual Machines by allocating hardware resources, controlling execution, and isolating VMs from each other, ensuring secure and efficient virtualization.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>What is the role of a Hypervisor?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "sq",
+   "key": 20888
+  }
+ ],
+ "lq": [
+  {
+   "_id": 20890,
+   "ANSWER": "<table class=\"Table\" style=\"border:solid windowtext 1px\">\n\t<thead>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p align=\"center\" style=\"text-align:center\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Aspect</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p align=\"center\" style=\"text-align:center\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Modular Kernel</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p align=\"center\" style=\"text-align:center\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Virtual Machines (VMs)</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Definition</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">An operating system kernel designed to load and unload kernel modules dynamically at runtime.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">A software-emulated environment that allows multiple OS instances to run on the same hardware.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Primary Purpose</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">To enhance flexibility, maintainability, and extensibility of the operating system.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">To provide system-level virtualization with isolation between guest OS instances.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Architecture</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Core kernel with loadable modules (e.g., device drivers, file systems) that operate in kernel space.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Uses a Hypervisor (Type 1 or Type 2) to manage multiple virtualized OS instances on shared hardware.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Resource Management</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Handled within a single OS instance through modular components; shares system resources under one kernel.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Hypervisor allocates hardware resources (CPU, memory, I/O) to each VM, allowing independent management.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">System Isolation</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Limited &mdash; all modules share the same kernel space; faults in modules can affect the entire system.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">High &mdash; Each VM operates as a separate system with its own OS, ensuring strong fault and security isolation.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Performance</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">High &mdash; operates close to hardware with minimal abstraction.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">May have overhead due to virtualization layer but enables multi-OS deployment.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Flexibility</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Modules can be added or removed without rebooting the OS.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Can run different operating systems and isolated environments on the same hardware.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Security</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Moderate &mdash; vulnerabilities in kernel modules may affect the whole system.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">High &mdash; VMs are isolated; compromise in one VM does not directly affect others or the host.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Example OS/Tools</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Linux with Loadable Kernel Modules (LKMs), BSD kernel modules.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">VMware ESXi, KVM, VirtualBox, Hyper-V.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Limitations</span></span></b></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Kernel crashes due to faulty modules; limited isolation.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t\t<td style=\"border-bottom:1px solid black; padding:.100px .100px .100px .100px; border-top:1px solid black; border-right:1px solid black; border-left:1px solid black\">\n\t\t\t<p><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"font-family:Calibri,sans-serif\"><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Performance overhead, complex resource allocation, requires hypervisor management.</span></span></span></span></span></p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO3",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><b>Compare Modular Kernel and Virtual Machines based on architecture, purpose, advantages, and limitations. Explain how they differ in resource management and system isolation.</b></span></span></p>\n",
+   "SESSION_ID": 105,
+   "TYPE": "lq",
+   "key": 20890
+  }
+ ]
+}

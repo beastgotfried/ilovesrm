@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12527,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>&nbsp;One with the highest burst time</p>\n",
+   "OPT_2": "<p>One with the earliest arrival time</p>\n",
+   "OPT_3": "<p>One with the highest priority value</p>\n",
+   "OPT_4": "<p>One with the lowest priority value</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In <strong data-end=\"405\" data-start=\"367\">non-preemptive priority scheduling</strong>, which process will be selected first?</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 12527
+  },
+  {
+   "_id": 12529,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>FCFS</p>\n",
+   "OPT_2": "<p>Preemptive SJF</p>\n",
+   "OPT_3": "<p>Priority Scheduling</p>\n",
+   "OPT_4": "<p>Round Robin</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Given processes with arrival and burst times, if time quantum = 2ms, which algorithm will best suit a <strong data-end=\"831\" data-start=\"808\">time-sharing system</strong>?</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 12529
+  },
+  {
+   "_id": 12531,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>1</p>\n",
+   "OPT_2": "<p>2</p>\n",
+   "OPT_3": "<p>3</p>\n",
+   "OPT_4": "<p>Infinite</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In RR scheduling with quantum = 3ms, if a process has burst time = 2ms, how many times will it execute?</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 12531
+  },
+  {
+   "_id": 12533,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Short time quantum</p>\n",
+   "OPT_2": "<p>High process burst times</p>\n",
+   "OPT_3": "<p>Arrival of high priority processes</p>\n",
+   "OPT_4": "<p>Low memory size</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the main cause of <strong data-end=\"1191\" data-start=\"1177\">starvation</strong> in <strong data-end=\"1218\" data-start=\"1195\">priority scheduling</strong>?</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 12533
+  },
+  {
+   "_id": 12535,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OPT_1": "<p>P1</p>\n",
+   "OPT_2": "<p>P2</p>\n",
+   "OPT_3": "<p>P3</p>\n",
+   "OPT_4": "<p>None</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Given: P1(AT=0,BT=4,P=2), P2(AT=1,BT=3,P=3), P3(AT=2,BT=1,P=4)<br data-end=\"1451\" data-start=\"1448\" />\nUsing <strong data-end=\"1491\" data-start=\"1457\">preemptive priority scheduling</strong>, which process executes first?</p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 12535
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12539,
+   "ANSWER": "<ul>\n\t<li data-end=\"1971\" data-start=\"1911\">\n\t<p data-end=\"1971\" data-start=\"1913\">Preemptive logic (interruptions based on priority) &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2023\" data-start=\"1972\">\n\t<p data-end=\"2023\" data-start=\"1974\">Non-preemptive logic (CPU not taken back) &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2060\" data-start=\"2024\">\n\t<p data-end=\"2060\" data-start=\"2026\">Process selection behavior &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"2144\" data-start=\"2061\">\n\t<p data-end=\"2144\" data-start=\"2063\">Example &nbsp;&ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Differentiate between <strong data-end=\"1710\" data-start=\"1696\">Preemptive</strong> and <strong data-end=\"1733\" data-start=\"1715\">Non-Preemptive</strong> Priority Scheduling using the following aspects:</p>\n\n<ul>\n\t<li data-end=\"1803\" data-start=\"1785\">\n\t<p data-end=\"1803\" data-start=\"1787\">CPU allocation</p>\n\t</li>\n\t<li data-end=\"1860\" data-start=\"1804\">\n\t<p data-end=\"1860\" data-start=\"1806\">Response to newly arriving higher-priority processes</p>\n\t</li>\n\t<li data-end=\"1880\" data-start=\"1861\">\n\t<p data-end=\"1880\" data-start=\"1863\">Example reference</p>\n\t</li>\n</ul>\n",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 12539
+  },
+  {
+   "_id": 12541,
+   "ANSWER": "<ul>\n\t<li data-end=\"2549\" data-start=\"2511\">\n\t<p data-end=\"2549\" data-start=\"2513\">Correct Gantt chart sequence &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"2588\" data-start=\"2550\">\n\t<p data-end=\"2588\" data-start=\"2552\">Individual WT and TAT values &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"2633\" data-start=\"2589\">\n\t<p data-end=\"2633\" data-start=\"2591\">Averages: WT = 4.5ms, TAT = 8.25ms &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"2694\" data-start=\"2634\">\n\t<p data-end=\"2694\" data-start=\"2636\">Clarity of explanation &ndash; 10%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Using the below process list and <strong data-end=\"2240\" data-start=\"2225\">Round Robin</strong> scheduling (Time Quantum = 2 ms), calculate the <strong data-end=\"2333\" data-start=\"2289\">average turnaround time and waiting time</strong>:</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Process</th>\n\t\t\t<th>AT</th>\n\t\t\t<th>BT</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>A</td>\n\t\t\t<td>0</td>\n\t\t\t<td>3</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>B</td>\n\t\t\t<td>1</td>\n\t\t\t<td>6</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>C</td>\n\t\t\t<td>4</td>\n\t\t\t<td>4</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>D</td>\n\t\t\t<td>6</td>\n\t\t\t<td>2</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 12541
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12609,
+   "ANSWER": "<ul>\n\t<li data-end=\"3287\" data-start=\"3244\">\n\t<p data-end=\"3287\" data-start=\"3246\">Scheduling logic and CPU behavior &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3331\" data-start=\"3288\">\n\t<p data-end=\"3331\" data-start=\"3290\">Discussion on fairness/starvation &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3363\" data-start=\"3332\">\n\t<p data-end=\"3363\" data-start=\"3334\">Suitable system types &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3428\" data-start=\"3364\">\n\t<p data-end=\"3428\" data-start=\"3366\">Use of arrival, burst, and priority in decision-making &ndash; 20%</p>\n\t</li>\n\t<li data-end=\"3527\" data-start=\"3429\">\n\t<p data-end=\"3527\" data-start=\"3431\">Example-based comparison &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p data-end=\"2843\" data-start=\"2768\">Compare and contrast the following scheduling algorithms:</p>\n\n<ol data-end=\"2957\" data-start=\"2844\">\n\t<li data-end=\"2883\" data-start=\"2844\">\n\t<p data-end=\"2883\" data-start=\"2847\"><strong data-end=\"2881\" data-start=\"2847\">Preemptive Priority Scheduling</strong></p>\n\t</li>\n\t<li data-end=\"2927\" data-start=\"2884\">\n\t<p data-end=\"2927\" data-start=\"2887\"><strong data-end=\"2925\" data-start=\"2887\">Non-Preemptive Priority Scheduling</strong></p>\n\t</li>\n\t<li data-end=\"2957\" data-start=\"2928\">\n\t<p data-end=\"2957\" data-start=\"2931\"><strong data-end=\"2957\" data-start=\"2931\">Round Robin Scheduling</strong></p>\n\t</li>\n</ol>\n",
+   "SESSION_ID": 308,
+   "TYPE": "lq",
+   "key": 12609
+  }
+ ]
+}

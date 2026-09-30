@@ -1,0 +1,156 @@
+{
+ "mcq": [
+  {
+   "_id": 20896,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">File Descriptor Table</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Scheduling Data Structure</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Process Management Data Structure</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Buffer Control Block</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">The Process Control Block (PCB) is an example of which type of kernel data structure?</span></span></span></strong></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 20896
+  },
+  {
+   "_id": 20899,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Memory Paging</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Device Management</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Process Management</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">File Management</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">The kernel maintains a scheduling queue primarily for:</span></span></span></strong></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 20899
+  },
+  {
+   "_id": 20900,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Standalone Computing</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Cloud Computing</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Time-Sharing System</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Cluster Computing</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which computing environment allows users to access applications over the internet without managing the underlying hardware or software?</span></span></span></strong></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 20900
+  },
+  {
+   "_id": 20903,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Personal Computing</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Cloud Computing</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Grid Computing</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Client-Server Computing</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Which computing environment focuses on distributing computational tasks across multiple connected computers to solve complex problems?</span></span></span></strong></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 20903
+  },
+  {
+   "_id": 20908,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Static IP Allocation</span></span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">High-Latency Communication</span></span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Mobility Support with Continuous Network Access</span></span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Batch Processing</span></span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">In mobile computing environments, which feature is critical for ensuring seamless user experience?</span></span></span></strong></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "mcq",
+   "key": 20908
+  }
+ ],
+ "sq": [
+  {
+   "_id": 20936,
+   "ANSWER": "<p><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">The kernel uses data structures like linked lists or queues to maintain various scheduling queues (e.g., ready queue, waiting queue). Each queue holds PCBs of processes in specific states, enabling efficient scheduling and context switching.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><strong><span style=\"font-size:11.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">How does the kernel manage multiple processes using scheduling queues?</span></span></span></strong></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "sq",
+   "key": 20936
+  },
+  {
+   "_id": 20938,
+   "ANSWER": "<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Grid Computing:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Links geographically distributed, heterogeneous systems to work on large-scale problems.</span></span></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:11pt\"><span style=\"line-height:normal\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:Calibri,&quot;sans-serif&quot;\"><b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Cluster Computing:</span></span></b><span style=\"font-size:12.0pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"> Groups tightly coupled, often homogeneous computers to work together as a single system for high-performance tasks.</span></span></span></span></span></span></li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><b><span style=\"font-size:12.0pt\"><span style=\"line-height:107%\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">Differentiate between grid computing and cluster computing.</span></span></span></b></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "sq",
+   "key": 20938
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21152,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\">A <strong>computing environment</strong> refers to the combination of hardware, software, network infrastructure, and user interfaces that collectively define how computing resources are provided and accessed. With the rapid advancement of technology, various computing environments have evolved, each catering to specific needs such as scalability, performance, accessibility, and security. Understanding these environments is essential to appreciate how modern computing systems operate efficiently and serve diverse user demands.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><span style=\"font-weight:bold\"><strong>Types of Computing Environments</strong></span></span></span></h3>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>1\ufe0f</strong><strong> Standalone Computing Environment</strong><br />\nIn this traditional model, all computing resources (CPU, memory, storage) are confined to a single machine operated by one user.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Personal computers or embedded systems.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Offers simplicity and dedicated resource control but lacks scalability and remote accessibility.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>2\ufe0f</strong><strong> Time-Sharing (Multi-User) Environment</strong><br />\nMultiple users share the computing power of a central system, with the OS managing task switching and resource allocation.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Mainframes in academic or research institutions.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Enables efficient resource use among users and supports concurrent processing.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>3\ufe0f</strong><strong> Client-Server Environment</strong><br />\nClients request services or resources from centralized servers. The server processes these requests and manages data or applications.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Web servers, database servers.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Centralized control improves data consistency, but server downtime can affect all clients.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>4\ufe0f</strong><strong> Distributed Computing Environment</strong><br />\nIndependent systems are networked to work collaboratively, appearing as a unified system to users.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Distributed databases, blockchain networks.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Enhances performance, fault tolerance, and scalability, suitable for complex problem-solving.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>5\ufe0f</strong><strong> Cloud Computing Environment</strong><br />\nCloud services provide on-demand access to computing resources over the internet, managed by cloud providers.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> AWS, Microsoft Azure, Google Cloud.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Offers flexibility, scalability, and cost-efficiency, allowing users to access resources globally without owning hardware.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>6\ufe0f</strong><strong> Virtualization and Virtualized Environments</strong><br />\nMultiple virtual machines (VMs) run on a single physical machine using hypervisors, each with isolated OS and resources.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> VMware, VirtualBox.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Enhances hardware utilization, simplifies testing, and supports secure multi-tenant environments.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>7\ufe0f</strong><strong> Mobile Computing Environment</strong><br />\nAllows users to access computing services via portable devices with wireless connectivity.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> Smartphones, tablets.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Supports ubiquitous access, fosters mobility, and enables remote work.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>8\ufe0f</strong><strong> Edge and Fog Computing Environments</strong><br />\nProcess data at or near the source of generation instead of relying on centralized data centers.</span></span></p>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Example:</strong> IoT devices with edge processors.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Impact:</strong> Reduces latency, saves bandwidth, and improves real-time processing capabilities.</span></span></span></li>\n</ul>\n\n<p align=\"center\" style=\"text-align:center\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,&quot;serif&quot;\"><strong>Explain the different types of Computing Environments and analyze their impact on modern computing systems. How do these environments enhance resource utilization and user accessibility?</strong></span></span></p>\n",
+   "SESSION_ID": 108,
+   "TYPE": "lq",
+   "key": 21152
+  }
+ ]
+}

@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 17357,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Reduce clock speed</p>\n",
+   "OPT_2": "<p>Increase instruction throughput</p>\n",
+   "OPT_3": "<p>Decrease memory size</p>\n",
+   "OPT_4": "<p>Eliminate registers</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>What is the primary goal of pipelining in processors?</strong></p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 17357
+  },
+  {
+   "_id": 17358,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>3</p>\n",
+   "OPT_2": "<p>5 (IF, ID, EX, MEM, WB)</p>\n",
+   "OPT_3": "<p>7</p>\n",
+   "OPT_4": "<p>10</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>The classic RISC pipeline consists of how many stages?</strong></p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 17358
+  },
+  {
+   "_id": 17359,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>It increases cache size</p>\n",
+   "OPT_2": "<p>It disables unused ALUs</p>\n",
+   "OPT_3": "<p>It reduces the instruction set</p>\n",
+   "OPT_4": "<p>Multiple instructions are processed simultaneously in different stages</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Why does pipelining improve performance without increasing clock speed?</strong></p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 17359
+  },
+  {
+   "_id": 17360,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Hazards and dependencies</p>\n",
+   "OPT_2": "<p>Infinite stages are needed</p>\n",
+   "OPT_3": "<p>Clock speed decreases</p>\n",
+   "OPT_4": "<p>All instructions are identical</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>Why is the &quot;ideal&quot; pipeline speedup not achieved in practice?</strong></p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 17360
+  },
+  {
+   "_id": 17361,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>20</p>\n",
+   "OPT_2": "<p>500</p>\n",
+   "OPT_3": "<p>104 (4 + 100)</p>\n",
+   "OPT_4": "<p>100</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p><strong>For a 5-stage pipeline with 100 instructions, what is the best-case total cycles?</strong></p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 17361
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17434,
+   "ANSWER": "<p data-end=\"1223\" data-start=\"1003\">In <strong data-end=\"1052\" data-start=\"1020\">horizontal micro-programming</strong>, each microinstruction contains a <strong data-end=\"1100\" data-start=\"1087\">wide word</strong> with <strong data-end=\"1125\" data-start=\"1106\">individual bits</strong> directly representing control signals. It allows <strong data-end=\"1197\" data-start=\"1175\">parallel execution</strong> but requires more memory.</p>\n\n<p data-end=\"1423\" data-start=\"1225\">In <strong data-end=\"1258\" data-start=\"1228\">vertical micro-programming</strong>, microinstructions are <strong data-end=\"1293\" data-start=\"1282\">compact</strong>, often using <strong data-end=\"1333\" data-start=\"1307\">encoded control fields</strong>, which reduces memory usage but may require <strong data-end=\"1390\" data-start=\"1378\">decoding</strong> logic and can limit parallelism.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Differentiate between horizontal and vertical micro-programming.</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 17434
+  },
+  {
+   "_id": 17435,
+   "ANSWER": "<ol data-end=\"2619\" data-start=\"2260\">\n\t<li data-end=\"2350\" data-start=\"2260\">\n\t<p data-end=\"2350\" data-start=\"2263\"><strong data-end=\"2289\" data-start=\"2263\">Fetch microinstruction</strong> from control memory (based on the control address register).</p>\n\t</li>\n\t<li data-end=\"2410\" data-start=\"2351\">\n\t<p data-end=\"2410\" data-start=\"2354\"><strong data-end=\"2381\" data-start=\"2354\">Decode microinstruction</strong> to generate control signals.</p>\n\t</li>\n\t<li data-end=\"2470\" data-start=\"2411\">\n\t<p data-end=\"2470\" data-start=\"2414\"><strong data-end=\"2441\" data-start=\"2414\">Execute control signals</strong> to perform micro-operations.</p>\n\t</li>\n\t<li data-end=\"2560\" data-start=\"2471\">\n\t<p data-end=\"2560\" data-start=\"2474\">Determine the <strong data-end=\"2513\" data-start=\"2488\">next microinstruction</strong> using the sequencing field or condition logic.</p>\n\t</li>\n\t<li data-end=\"2619\" data-start=\"2561\">\n\t<p data-end=\"2619\" data-start=\"2564\">Update the control address register for the next cycle.</p>\n\t</li>\n</ol>\n\n<p data-end=\"2744\" data-start=\"2621\">This loop continues until the full machine instruction is executed. It mimics instruction cycle steps but at a micro-level.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Construct a basic flow of microinstruction execution in micro-programmed control.</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 17435
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17607,
+   "ANSWER": "<p data-end=\"3193\" data-start=\"3074\">Let&rsquo;s simulate the execution of five instructions (I1 to I5) in a 5-stage pipeline (IF, ID, EX, MEM, WB).</p>\n\n<hr data-end=\"3198\" data-start=\"3195\" />\n<h4 data-end=\"3228\" data-start=\"3200\"><strong data-end=\"3228\" data-start=\"3205\">Time-Space Diagram:</strong></h4>\n\n<table data-end=\"3944\" data-start=\"3230\">\n\t<thead data-end=\"3294\" data-start=\"3230\">\n\t\t<tr data-end=\"3294\" data-start=\"3230\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"3244\" data-start=\"3230\">Clock Cycle</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"3294\" data-start=\"3244\">Stage Executed</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"3944\" data-start=\"3360\">\n\t\t<tr data-end=\"3424\" data-start=\"3360\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3374\" data-start=\"3360\">1</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3424\" data-start=\"3374\">I1-IF</td>\n\t\t</tr>\n\t\t<tr data-end=\"3489\" data-start=\"3425\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3439\" data-start=\"3425\">2</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3489\" data-start=\"3439\">I1-ID, I2-IF</td>\n\t\t</tr>\n\t\t<tr data-end=\"3554\" data-start=\"3490\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3504\" data-start=\"3490\">3</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3554\" data-start=\"3504\">I1-EX, I2-ID, I3-IF</td>\n\t\t</tr>\n\t\t<tr data-end=\"3619\" data-start=\"3555\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3569\" data-start=\"3555\">4</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3619\" data-start=\"3569\">I1-MEM, I2-EX, I3-ID, I4-IF</td>\n\t\t</tr>\n\t\t<tr data-end=\"3684\" data-start=\"3620\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3634\" data-start=\"3620\">5</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3684\" data-start=\"3634\">I1-WB, I2-MEM, I3-EX, I4-ID, I5-IF</td>\n\t\t</tr>\n\t\t<tr data-end=\"3749\" data-start=\"3685\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3699\" data-start=\"3685\">6</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3749\" data-start=\"3699\">I2-WB, I3-MEM, I4-EX, I5-ID</td>\n\t\t</tr>\n\t\t<tr data-end=\"3814\" data-start=\"3750\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3764\" data-start=\"3750\">7</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3814\" data-start=\"3764\">I3-WB, I4-MEM, I5-EX</td>\n\t\t</tr>\n\t\t<tr data-end=\"3879\" data-start=\"3815\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3829\" data-start=\"3815\">8</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3879\" data-start=\"3829\">I4-WB, I5-MEM</td>\n\t\t</tr>\n\t\t<tr data-end=\"3944\" data-start=\"3880\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"3894\" data-start=\"3880\">9</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"3944\" data-start=\"3894\">I5-WB</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><button aria-label=\"Copy Table\"></button></p>\n\n<hr data-end=\"3949\" data-start=\"3946\" />\n<h4 data-end=\"3972\" data-start=\"3951\"><strong data-end=\"3972\" data-start=\"3956\">Observation:</strong></h4>\n\n<ul data-end=\"4109\" data-start=\"3973\">\n\t<li data-end=\"4019\" data-start=\"3973\">\n\t<p data-end=\"4019\" data-start=\"3975\">All 5 instructions are completed by cycle 9.</p>\n\t</li>\n\t<li data-end=\"4078\" data-start=\"4020\">\n\t<p data-end=\"4078\" data-start=\"4022\">Without pipelining, it would take 5 &times; 5 = <strong data-end=\"4077\" data-start=\"4064\">25 cycles</strong>.</p>\n\t</li>\n\t<li data-end=\"4109\" data-start=\"4079\">\n\t<p data-end=\"4109\" data-start=\"4081\"><strong data-end=\"4109\" data-start=\"4081\">Speedup = 25 / 9 &asymp; 2.78x</strong></p>\n\t</li>\n</ul>\n\n<hr data-end=\"4114\" data-start=\"4111\" />\n<h4 data-end=\"4136\" data-start=\"4116\"><strong data-end=\"4136\" data-start=\"4121\">Conclusion:</strong></h4>\n\n<p data-end=\"4288\" data-start=\"4137\">This example demonstrates the <strong data-end=\"4195\" data-start=\"4167\">efficiency of pipelining</strong> in executing multiple instructions concurrently, leading to much <strong data-end=\"4287\" data-start=\"4261\">faster execution times</strong>.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Apply pipelining to show how five instructions are executed in a 5-stage pipeline.</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "lq",
+   "key": 17607
+  }
+ ]
+}

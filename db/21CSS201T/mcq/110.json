@@ -1,0 +1,133 @@
+{
+ "mcq": [
+  {
+   "_id": 21729,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\overline{(A.B)}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\overline{(A+B)}\n\u200b\\)</span></p>\n",
+   "OPT_3": "<p>A+B</p>\n",
+   "OPT_4": "<p>A&sdot;B</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Given that a NOR gate outputs 1 only when all inputs are 0, which Boolean expression represents the NOR of two inputs A and B?</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 21729
+  },
+  {
+   "_id": 21732,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Take the NOR of the inputs, then NOR the result with itself</p>\n",
+   "OPT_2": "<p>Take the NOR of the inputs twice in series</p>\n",
+   "OPT_3": "<p>Take the NOR of the inputs, then invert each input with a NOR gate, then NOR the results</p>\n",
+   "OPT_4": "<p>NOR gates cannot implement AND gates</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>How can you implement an AND gate using only NOR gates?</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 21732
+  },
+  {
+   "_id": 21734,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Both inputs connected to A</p>\n",
+   "OPT_2": "<p>One input connected to A and the other to 0</p>\n",
+   "OPT_3": "<p>One input connected to A and the other to 1</p>\n",
+   "OPT_4": "<p>Inputs connected to different signals</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which configuration of NAND gates produces a NOT operation on input A?</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 21734
+  },
+  {
+   "_id": 21738,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>NAND the inputs directly</p>\n",
+   "OPT_2": "<p>NAND the inputs, then NAND the output with itself</p>\n",
+   "OPT_3": "<p>NAND the inputs separately, then NAND the results</p>\n",
+   "OPT_4": "<p>NAND the inputs twice</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>To create an OR gate using only NAND gates, what is the sequence of operations?</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 21738
+  },
+  {
+   "_id": 21740,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>NAND gates are universal gates but NOR gates are not</p>\n",
+   "OPT_2": "<p>Both NAND and NOR gates can be used to implement any logic function</p>\n",
+   "OPT_3": "<p>NOR gates cannot be used to implement NOT gates</p>\n",
+   "OPT_4": "<p>NAND gates can only implement NOT and AND gates</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following statements about NAND and NOR gates is TRUE?</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 21740
+  }
+ ],
+ "sq": [
+  {
+   "_id": 22063,
+   "ANSWER": "<p data-end=\"1158\" data-start=\"1121\">Use DeMorgan&rsquo;s theorem:</p>\n\n<p>A&sdot;B&oline;=A&oline;&oline;+B&oline;<span class=\"math-tex\">\\(\\overline{A \\cdot B} = \\overline{\\overline{\\overline{A}} + \\overline{\\overline{B}}}\\)</span>A&sdot;B=A+B\u200b</p>\n\n<p data-end=\"1264\" data-start=\"1251\">This means:</p>\n\n<ul data-end=\"1347\" data-start=\"1265\">\n\t<li data-end=\"1293\" data-start=\"1265\">\n\t<p data-end=\"1293\" data-start=\"1267\">Invert A and B using NOR</p>\n\t</li>\n\t<li data-end=\"1322\" data-start=\"1294\">\n\t<p data-end=\"1322\" data-start=\"1296\">Apply them to a NOR gate</p>\n\t</li>\n\t<li data-end=\"1347\" data-start=\"1323\">\n\t<p data-end=\"1347\" data-start=\"1325\">Invert again if needed</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Construct the Boolean expression using only NOR gates to represent the function:</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "sq",
+   "key": 22063
+  },
+  {
+   "_id": 22067,
+   "ANSWER": "<p data-end=\"1525\" data-start=\"1354\">It forms an <strong data-end=\"1522\" data-start=\"1511\">OR gate</strong>:</p>\n\n<p><span class=\"math-tex\">\\(A+B=A\u203e\u22c5B\u203e\u203eA + B = \\overline{\\overline{A} \\cdot \\overline{B}}A+B=A\u22c5B\\)</span></p>\n\n<p data-end=\"1604\" data-start=\"1585\">Using NAND gates:</p>\n\n<ul data-end=\"1792\" data-start=\"1605\">\n\t<li data-end=\"1662\" data-start=\"1605\">\n\t<p data-end=\"1662\" data-start=\"1607\">First NAND: <span class=\"math-tex\">\\(A\u22c5A\u203e=A\u203e\\overline{A \\cdot A} = \\overline{A}A\u22c5A=A\\)</span></p>\n\t</li>\n\t<li data-end=\"1721\" data-start=\"1663\">\n\t<p data-end=\"1721\" data-start=\"1665\">Second NAND: <span class=\"math-tex\">\\(B\u22c5B\u203e=B\u203e\\overline{B \\cdot B} = \\overline{B}B\u22c5B=B\\)</span></p>\n\t</li>\n\t<li data-end=\"1792\" data-start=\"1722\">\n\t<p data-end=\"1792\" data-start=\"1724\">Third NAND: A&oline;&sdot;B&oline;&oline;=<span class=\"math-tex\">\\(A+B\\overline{\\overline{A} \\cdot \\overline{B}}\\)</span> = A + BA&sdot;B=A+B</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>A circuit uses three NAND gates. The first two act as inverters. The third takes their outputs. What gate does this form?</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "sq",
+   "key": 22067
+  }
+ ],
+ "lq": [
+  {
+   "_id": 22042,
+   "ANSWER": "<p>&nbsp;</p>\n\n<h2>\ud83d\udfe6 <strong>NOR Gate: Logic Function and Universal Gate Implementation</strong></h2>\n\n<h3>\ud83d\udd39 <strong>Logic Function of the NOR Gate:</strong></h3>\n\n<ul>\n\t<li>\n\t<p>A <strong>NOR (NOT-OR)</strong> gate performs the logical <strong>OR</strong> operation followed by <strong>NOT</strong>.</p>\n\t</li>\n\t<li>\n\t<p>It outputs <strong>1 only when all inputs are 0</strong>. If any input is 1, the output is 0.</p>\n\t</li>\n\t<li>\n\t<p><strong>Boolean Expression:</strong><br />\n\tY=A+B&oline;Y =<span class=\"math-tex\">\\( \\overline{A + B}\\)</span></p>\n\t</li>\n</ul>\n\n<hr />\n<h3>\ud83d\udd39 <strong>Truth Table for NOR Gate:</strong></h3>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>A + B</th>\n\t\t\t<th>Y = &not;(A + B)</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<hr />\n<h3>\ud83d\udd39 <strong>NOR as a Universal Gate:</strong></h3>\n\n<p>NOR gates can be combined to <strong>construct all basic logic gates</strong> (NOT, OR, AND).</p>\n\n<hr />\n<h4>\u2705 <strong>Implementing NOT gate using NOR:</strong></h4>\n\n<ul>\n\t<li>\n\t<p>Connect both inputs of NOR gate to the same input signal:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Y=A+A&oline;=A&oline;Y = <span class=\"math-tex\">\\(\\overline{A + A}\\)</span> = <span class=\"math-tex\">\\(\\overline{A}\\)</span></p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Result:</strong> NOT gate behavior.</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u2705 <strong>Implementing OR gate using NOR:</strong></h4>\n\n<ul>\n\t<li>\n\t<p>Step 1: Use NOR gates to invert both inputs (NOT A and NOT B)</p>\n\t</li>\n\t<li>\n\t<p>Step 2: Feed both inverted outputs into a third NOR gate:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Y=A&oline;+B&oline;&oline;=A&sdot;BY =<span class=\"math-tex\">\\( \\overline{\\overline{A} + \\overline{B}} = A \\cdot B\\)</span> (using DeMorgan&rsquo;s law, this is actually an AND gate)</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p>To make an OR gate using NOR, more steps are needed&mdash;so NOR is better at implementing NOT and AND directly.</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u2705 <strong>Implementing AND gate using NOR (Step-by-step):</strong></h4>\n\n<ol>\n\t<li>\n\t<p>First invert both inputs using two NOR gates:<br />\n\t<span class=\"math-tex\">\\(X=A+A\u203e=A\u203eX = \\overline{A + A} = \\overline{A}\n\\)</span><span class=\"math-tex\">\\(Y=B+B\u203e=B\u203eY = \\overline{B + B} = \\overline{B}\\)</span></p>\n\t</li>\n\t<li>\n\t<p>Feed these into a third NOR gate:<br />\n\tZ=A&oline;+B&oline;&oline;=A&sdot;BZ = <span class=\"math-tex\">\\(\\overline{\\overline{A} + \\overline{B}} = A \\cdot B\\)</span></p>\n\t</li>\n</ol>\n\n<p>So, we get an <strong>AND gate using only NOR gates</strong>.</p>\n\n<hr />\n<h2>\ud83d\udfe6 <strong>NAND Gate: Logic Function and Universal Gate Implementation</strong></h2>\n\n<h3>\ud83d\udd39 <strong>Logic Function of the NAND Gate:</strong></h3>\n\n<ul>\n\t<li>\n\t<p>A <strong>NAND (NOT-AND)</strong> gate performs an <strong>AND</strong> operation followed by a <strong>NOT</strong>.</p>\n\t</li>\n\t<li>\n\t<p>The output is <strong>0 only when all inputs are 1</strong>; otherwise, the output is 1.</p>\n\t</li>\n\t<li>\n\t<p><strong>Boolean Expression:</strong><br />\n\tY=A&sdot;B&oline;Y =<span class=\"math-tex\">\\( \\overline{A \\cdot B}\\)</span></p>\n\t</li>\n</ul>\n\n<hr />\n<h3>\ud83d\udd39 <strong>Truth Table for NAND Gate:</strong></h3>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>A &middot; B</th>\n\t\t\t<th>Y = &not;(A &middot; B)</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<hr />\n<h3>\ud83d\udd39 <strong>NAND as a Universal Gate:</strong></h3>\n\n<p>NAND gates can also be used to create any basic logic gate (AND, OR, NOT), making them <strong>universal</strong>.</p>\n\n<hr />\n<h4>\u2705 <strong>Implementing NOT gate using NAND:</strong></h4>\n\n<ul>\n\t<li>\n\t<p>Connect both inputs of the NAND gate to the same signal:<br />\n\tY=A&sdot;A&oline;=A&oline;Y =<span class=\"math-tex\">\\( \\overline{A \\cdot A} = \\overline{A}\\)</span></p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u2705 <strong>Implementing AND gate using NAND:</strong></h4>\n\n<ul>\n\t<li>\n\t<p>Step 1: Perform NAND &rarr; <span class=\"math-tex\">\\(A\u22c5B\u203e\\overline{A \\cdot B}\\)</span></p>\n\t</li>\n\t<li>\n\t<p>Step 2: Invert output using another NAND gate (as a NOT):<br />\n\tFinal Output = <span class=\"math-tex\">\\(A\u22c5B\u203e\u203e=A\u22c5B\\overline{\\overline{A \\cdot B}} = A \\cdot B\\)</span></p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u2705 <strong>Implementing OR gate using NAND (DeMorgan&rsquo;s Theorem):</strong></h4>\n\n<ul>\n\t<li>\n\t<p>Use the expression:<br />\n\tA+B=A&oline;&sdot;B&oline;&oline;A + B =<span class=\"math-tex\">\\( \\overline{\\overline{A} \\cdot \\overline{B}}\\)</span></p>\n\t</li>\n</ul>\n\n<p><strong>Steps:</strong></p>\n\n<ol>\n\t<li>\n\t<p>Invert A &rarr; A&oline;<span class=\"math-tex\">\\(\\overline{A}\\)</span>&nbsp;using a NAND gate (both inputs = A)</p>\n\t</li>\n\t<li>\n\t<p>Invert B &rarr; B&oline;\\overline{B} using another NAND gate</p>\n\t</li>\n\t<li>\n\t<p>Apply both inverted outputs to a NAND gate:<br />\n\tY=A&oline;&sdot;B&oline;&oline;=A+BY = \\overline{\\overline{A} \\cdot \\overline{B}} = A + B</p>\n\t</li>\n</ol>\n\n<p>Thus, we get an OR gate using <strong>only NAND gates</strong>.</p>\n\n<hr />\n<h2>\ud83d\udd1a <strong>Conclusion:</strong></h2>\n\n<ul>\n\t<li>\n\t<p><strong>NOR and NAND</strong> are <strong>universal gates</strong>, meaning <strong>any logic circuit</strong> can be built using just one of them.</p>\n\t</li>\n\t<li>\n\t<p>This is useful in digital electronics because it simplifies chip design and manufacturing.</p>\n\t</li>\n\t<li>\n\t<p><strong>NAND gates</strong> are more commonly used in practice due to faster switching and easier implementation in hardware.</p>\n\t</li>\n\t<li>\n\t<p>Understanding how to build AND, OR, and NOT using NAND or NOR is essential in <strong>logic design</strong>, <strong>circuit optimization</strong>, and <strong>computational architecture</strong>.</p>\n\t</li>\n</ul>\n\n<hr />\n<p>Would you like visual circuit diagrams or simulations for these implementations?</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p><strong>Describe the logic function of the NOR gate and demonstrate its use in implementing AND, OR, and NOT gates. Explain the logic operation of the NAND gate and illustrate how it can be used to construct AND, OR, and NOT gates.</strong></p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "lq",
+   "key": 22042
+  }
+ ]
+}

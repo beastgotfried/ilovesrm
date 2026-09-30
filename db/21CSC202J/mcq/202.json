@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 17940,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>New</p>\n",
+   "OPT_2": "<p>Waiting&nbsp;</p>\n",
+   "OPT_3": "<p>Executing</p>\n",
+   "OPT_4": "<p>Ready</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is not a valid process state?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 17940
+  },
+  {
+   "_id": 17942,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Waiting</p>\n",
+   "OPT_2": "<p>Running</p>\n",
+   "OPT_3": "<p>Ready</p>\n",
+   "OPT_4": "<p>Terminated</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"377\" data-start=\"288\"><strong data-end=\"375\" data-start=\"292\">When a process is ready to run but is waiting for CPU, it is in which state?</strong></h3>\n\n<p data-end=\"430\" data-start=\"378\">&nbsp;</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 17942
+  },
+  {
+   "_id": 17944,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Waiting</p>\n",
+   "OPT_2": "<p>Blocked</p>\n",
+   "OPT_3": "<p>Ready</p>\n",
+   "OPT_4": "<p>Terminated</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"538\" data-start=\"459\"><strong data-end=\"536\" data-start=\"463\">In which state is a process placed after completing its execution?</strong></h3>\n\n<p data-end=\"591\" data-start=\"539\">&nbsp;</p>\n\n<p data-end=\"430\" data-start=\"378\">&nbsp;</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 17944
+  },
+  {
+   "_id": 17948,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>It is created</p>\n",
+   "OPT_2": "<p>It requests an I/O operation</p>\n",
+   "OPT_3": "<p>It gets CPU for execution</p>\n",
+   "OPT_4": "<p>It finishes execution</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"682\" data-start=\"625\"><strong data-end=\"680\" data-start=\"629\">A process moves to the &lsquo;Waiting&rsquo; state when:</strong></h3>\n\n<p data-end=\"793\" data-start=\"683\">&nbsp;</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 17948
+  },
+  {
+   "_id": 17950,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Compiler</p>\n",
+   "OPT_2": "<p>Linker</p>\n",
+   "OPT_3": "<p>Scheduler</p>\n",
+   "OPT_4": "<p>Loader</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"918\" data-start=\"845\"><strong data-end=\"916\" data-start=\"849\">Which component is responsible for switching process states?</strong></h3>\n\n<p data-end=\"971\" data-start=\"919\">&nbsp;</p>\n\n<p data-end=\"793\" data-start=\"683\">&nbsp;</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "mcq",
+   "key": 17950
+  }
+ ],
+ "sq": [
+  {
+   "_id": 17952,
+   "ANSWER": "<p data-end=\"1166\" data-start=\"1122\">The main process states are:</p>\n\n<ul data-end=\"1436\" data-start=\"1167\">\n\t<li data-end=\"1204\" data-start=\"1167\">\n\t<p data-end=\"1204\" data-start=\"1169\"><strong data-end=\"1177\" data-start=\"1169\">New:</strong> Process is being created</p>\n\t</li>\n\t<li data-end=\"1264\" data-start=\"1205\">\n\t<p data-end=\"1264\" data-start=\"1207\"><strong data-end=\"1217\" data-start=\"1207\">Ready:</strong> Process is waiting to be assigned to the CPU</p>\n\t</li>\n\t<li data-end=\"1317\" data-start=\"1265\">\n\t<p data-end=\"1317\" data-start=\"1267\"><strong data-end=\"1279\" data-start=\"1267\">Running:</strong> Process is currently being executed</p>\n\t</li>\n\t<li data-end=\"1387\" data-start=\"1318\">\n\t<p data-end=\"1387\" data-start=\"1320\"><strong data-end=\"1342\" data-start=\"1320\">Waiting (Blocked):</strong> Process is waiting for an event (like I/O)</p>\n\t</li>\n\t<li data-end=\"1436\" data-start=\"1388\">\n\t<p data-end=\"1436\" data-start=\"1390\"><strong data-end=\"1405\" data-start=\"1390\">Terminated:</strong> Process has finished execution</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>What are the different states of a process in an operating system?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 17952
+  },
+  {
+   "_id": 17953,
+   "ANSWER": "<p>In the <strong data-end=\"1547\" data-start=\"1538\">Ready</strong> state, a process is waiting to be assigned the CPU. In the <strong data-end=\"1618\" data-start=\"1607\">Waiting</strong> state, the process is paused until some event (like an I/O operation) completes. The <strong data-end=\"1713\" data-start=\"1704\">Ready</strong> process can be scheduled, while the <strong data-end=\"1761\" data-start=\"1750\">Waiting</strong> one cannot.</p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>What is the difference between &#39;Ready&#39; and &#39;Waiting&#39; states?</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "sq",
+   "key": 17953
+  }
+ ],
+ "lq": [
+  {
+   "_id": 17955,
+   "ANSWER": "<p data-end=\"2133\" data-start=\"2012\">A process in an operating system goes through different states during its life cycle. The primary <strong data-end=\"2128\" data-start=\"2110\">process states</strong> are:</p>\n\n<ol data-end=\"2540\" data-start=\"2135\">\n\t<li data-end=\"2181\" data-start=\"2135\">\n\t<p data-end=\"2181\" data-start=\"2138\"><strong data-end=\"2146\" data-start=\"2138\">New:</strong><br data-end=\"2149\" data-start=\"2146\" />\n\tThe process is being created.</p>\n\t</li>\n\t<li data-end=\"2285\" data-start=\"2183\">\n\t<p data-end=\"2285\" data-start=\"2186\"><strong data-end=\"2196\" data-start=\"2186\">Ready:</strong><br data-end=\"2199\" data-start=\"2196\" />\n\tThe process has all the resources except the CPU and is waiting for CPU allocation.</p>\n\t</li>\n\t<li data-end=\"2359\" data-start=\"2287\">\n\t<p data-end=\"2359\" data-start=\"2290\"><strong data-end=\"2302\" data-start=\"2290\">Running:</strong><br data-end=\"2305\" data-start=\"2302\" />\n\tThe process is currently being executed by the CPU.</p>\n\t</li>\n\t<li data-end=\"2448\" data-start=\"2361\">\n\t<p data-end=\"2448\" data-start=\"2364\"><strong data-end=\"2386\" data-start=\"2364\">Waiting (Blocked):</strong><br data-end=\"2389\" data-start=\"2386\" />\n\tThe process is waiting for an event like I/O completion.</p>\n\t</li>\n\t<li data-end=\"2540\" data-start=\"2450\">\n\t<p data-end=\"2540\" data-start=\"2453\"><strong data-end=\"2468\" data-start=\"2453\">Terminated:</strong><br data-end=\"2471\" data-start=\"2468\" />\n\tThe process has finished execution and is removed from the system.</p>\n\t</li>\n</ol>\n\n<h3 data-end=\"2568\" data-start=\"2542\"><strong data-end=\"2568\" data-start=\"2546\">State Transitions:</strong></h3>\n\n<ul data-end=\"3091\" data-start=\"2570\">\n\t<li data-end=\"2647\" data-start=\"2570\">\n\t<p data-end=\"2647\" data-start=\"2572\"><strong data-end=\"2588\" data-start=\"2572\">New &rarr; Ready:</strong><br data-end=\"2591\" data-start=\"2588\" />\n\tOnce created, the process is moved to the ready queue.</p>\n\t</li>\n\t<li data-end=\"2730\" data-start=\"2649\">\n\t<p data-end=\"2730\" data-start=\"2651\"><strong data-end=\"2671\" data-start=\"2651\">Ready &rarr; Running:</strong><br data-end=\"2674\" data-start=\"2671\" />\n\tThe scheduler selects the process and assigns the CPU.</p>\n\t</li>\n\t<li data-end=\"2812\" data-start=\"2732\">\n\t<p data-end=\"2812\" data-start=\"2734\"><strong data-end=\"2756\" data-start=\"2734\">Running &rarr; Waiting:</strong><br data-end=\"2759\" data-start=\"2756\" />\n\tIf a process requests an I/O or waits for an event.</p>\n\t</li>\n\t<li data-end=\"2939\" data-start=\"2814\">\n\t<p data-end=\"2939\" data-start=\"2816\"><strong data-end=\"2836\" data-start=\"2816\">Running &rarr; Ready:</strong><br data-end=\"2839\" data-start=\"2836\" />\n\tIf the process is preempted by the scheduler (e.g., time slice expires in round-robin scheduling).</p>\n\t</li>\n\t<li data-end=\"3026\" data-start=\"2941\">\n\t<p data-end=\"3026\" data-start=\"2943\"><strong data-end=\"2963\" data-start=\"2943\">Waiting &rarr; Ready:</strong><br data-end=\"2966\" data-start=\"2963\" />\n\tThe event or I/O the process was waiting for has occurred.</p>\n\t</li>\n\t<li data-end=\"3091\" data-start=\"3028\">\n\t<p data-end=\"3091\" data-start=\"3030\"><strong data-end=\"3055\" data-start=\"3030\">Running &rarr; Terminated:</strong><br data-end=\"3058\" data-start=\"3055\" />\n\tThe process finishes execution.</p>\n\t</li>\n\t<li data-end=\"3091\" data-start=\"3028\">\n\t<p data-end=\"3091\" data-start=\"3030\">&nbsp; [New] &nbsp;<br />\n\t&nbsp; &nbsp; &nbsp;&darr; &nbsp;<br />\n\t&nbsp; &nbsp;[Ready] &larr;&larr;&larr;&larr;&larr;&larr;&larr;&larr;&larr;&larr;&larr;&larr; &nbsp;<br />\n\t&nbsp; &nbsp; &nbsp;&darr; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &uarr; &nbsp;<br />\n\t&nbsp; [Running] &rarr; [Waiting] &nbsp;<br />\n\t&nbsp; &nbsp; &nbsp;&darr; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &uarr; &nbsp;<br />\n\t[Terminated] &larr;--------</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p>Explain the various states of a process in an operating system with a state transition diagram. Describe the events that cause transitions between states.</p>\n",
+   "SESSION_ID": 202,
+   "TYPE": "lq",
+   "key": 17955
+  }
+ ]
+}

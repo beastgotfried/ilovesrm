@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 12387,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Optimal Replacement</p>\n",
+   "OPT_2": "<p>Second-Chance (Clock) Algorithm</p>\n",
+   "OPT_3": "<p>FIFO</p>\n",
+   "OPT_4": "<p>Working Set Model</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is an LRU approximation algorithm?</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 12387
+  },
+  {
+   "_id": 12398,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>Second-Chance uses reference bit, LRU uses exact order</p>\n",
+   "OPT_2": "<p>LRU is faster</p>\n",
+   "OPT_3": "<p>Second-Chance increases page faults</p>\n",
+   "OPT_4": "<p>LRU replaces the most recently used page</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the main difference between LRU and Second-Chance algorithms?</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 12398
+  },
+  {
+   "_id": 12399,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>They ignore frequency</p>\n",
+   "OPT_2": "<p>They require maintaining counters for each page</p>\n",
+   "OPT_3": "<p>They cause page faults</p>\n",
+   "OPT_4": "<p>They don&#39;t work in paging systems</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A limitation of counting-based algorithms like LFU/MFU is:</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 12399
+  },
+  {
+   "_id": 12401,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Increased CPU utilization</p>\n",
+   "OPT_2": "<p>Decreased page faults</p>\n",
+   "OPT_3": "<p>Reduced performance due to high paging activity</p>\n",
+   "OPT_4": "<p>Increased memory capacity</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Thrashing leads to:</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 12401
+  },
+  {
+   "_id": 12417,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Increase degree of multiprogramming</p>\n",
+   "OPT_2": "<p>Decrease number of pages</p>\n",
+   "OPT_3": "<p>Use Working Set or Page Fault Frequency (PFF) model</p>\n",
+   "OPT_4": "<p>Switch to FIFO</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>To reduce thrashing, the system can:</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 12417
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12526,
+   "ANSWER": "<ul>\n\t<li data-end=\"2084\" data-start=\"2009\">\n\t<p data-end=\"879\" data-start=\"569\"><strong data-end=\"606\" data-start=\"585\">LRU Approximation</strong> is a method to implement <strong data-end=\"655\" data-start=\"632\">Least Recently Used</strong> behavior <strong data-end=\"690\" data-start=\"665\">without full tracking</strong> of page access history (which is costly).<br data-end=\"735\" data-start=\"732\" />\n\tOne method is the <strong data-end=\"788\" data-start=\"753\">Second-Chance (Clock) Algorithm</strong>, where each page is given a second chance before replacement based on a <strong data-end=\"878\" data-start=\"861\">reference bit</strong>.</p>\n\n\t<p data-end=\"906\" data-start=\"881\">&nbsp;<strong data-end=\"904\" data-start=\"884\">Mark Allocation:</strong></p>\n\t</li>\n\t<li data-end=\"945\" data-start=\"907\">\n\t<p data-end=\"945\" data-start=\"909\">Concept of LRU approximation &ndash; 50%</p>\n\t</li>\n\t<li data-end=\"984\" data-start=\"946\">\n\t<p data-end=\"984\" data-start=\"948\">Example method (e.g., Clock) &ndash; 30%</p>\n\t</li>\n\t<li data-end=\"1033\" data-start=\"985\">\n\t<p data-end=\"1033\" data-start=\"987\">Use of reference bit &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2065\" data-start=\"1993\">What is LRU approximation? Name one method used for it.</h3>\n",
+   "SESSION_ID": 408,
+   "TYPE": "sq",
+   "key": 12526
+  },
+  {
+   "_id": 12558,
+   "ANSWER": "<ul data-end=\"1976\" data-start=\"1833\">\n\t<li data-end=\"895\" data-start=\"852\">\n\t<p data-end=\"895\" data-start=\"854\">Too many processes competing for memory</p>\n\t</li>\n\t<li data-end=\"936\" data-start=\"896\">\n\t<p data-end=\"936\" data-start=\"898\">Processes have high page fault rates</p>\n\t</li>\n\t<li data-end=\"979\" data-start=\"937\">\n\t<p data-end=\"979\" data-start=\"939\">Degree of multiprogramming is too high</p>\n\t</li>\n\t<li data-end=\"1015\" data-start=\"980\">\n\t<p data-end=\"1015\" data-start=\"982\">Insufficient frames per process</p>\n\t</li>\n</ul>\n\n<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>\n\t\t\t<p data-end=\"1042\" data-start=\"1017\">&nbsp;<strong data-end=\"1040\" data-start=\"1020\">Mark Allocation:</strong></p>\n\n\t\t\t<p data-end=\"1076\" data-start=\"1045\">At least 3 valid causes &ndash; 60%</p>\n\n\t\t\t<p data-end=\"1113\" data-start=\"1079\">Use of correct terminology &ndash; 40%</p>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"329\" data-start=\"266\">What are the causes of thrashing?</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "sq",
+   "key": 12558
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12730,
+   "ANSWER": "<p data-end=\"548\" data-start=\"353\"><strong data-end=\"366\" data-start=\"353\">Thrashing</strong> is a condition in a <strong data-end=\"412\" data-start=\"387\">virtual memory system</strong> where a process spends <strong data-end=\"485\" data-start=\"436\">more time swapping pages in and out of memory</strong> (handling <strong data-end=\"511\" data-start=\"496\">page faults</strong>) than executing actual instructions. (20%)</p>\n\n<hr data-end=\"553\" data-start=\"550\" />\n<h3 data-end=\"588\" data-start=\"555\"><strong data-end=\"588\" data-start=\"562\">Why Thrashing Happens:&nbsp;</strong> (20%)</h3>\n\n<p data-end=\"612\" data-start=\"590\">Thrashing occurs when:</p>\n\n<ul data-end=\"907\" data-start=\"613\">\n\t<li data-end=\"694\" data-start=\"613\">\n\t<p data-end=\"694\" data-start=\"615\">The <strong data-end=\"649\" data-start=\"619\">degree of multiprogramming</strong> (number of processes in memory) is too high.</p>\n\t</li>\n\t<li data-end=\"799\" data-start=\"695\">\n\t<p data-end=\"799\" data-start=\"697\">Each process doesn&rsquo;t get enough <strong data-end=\"739\" data-start=\"729\">frames</strong> to hold its <strong data-end=\"767\" data-start=\"752\">working set</strong> (the pages it frequently uses).</p>\n\t</li>\n\t<li data-end=\"907\" data-start=\"800\">\n\t<p data-end=\"907\" data-start=\"802\">This causes <strong data-end=\"838\" data-start=\"814\">frequent page faults</strong>, leading to <strong data-end=\"872\" data-start=\"851\">constant disk I/O</strong> and <strong data-end=\"906\" data-start=\"877\">very poor CPU utilization</strong>.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"912\" data-start=\"909\" />\n<h3 data-end=\"970\" data-start=\"914\"><strong data-end=\"970\" data-start=\"921\">Working Set Model (Key to Prevent Thrashing):&nbsp;</strong> (10%)</h3>\n\n<ul data-end=\"1134\" data-start=\"972\">\n\t<li data-end=\"1040\" data-start=\"972\">\n\t<p data-end=\"1040\" data-start=\"974\">A <strong data-end=\"991\" data-start=\"976\">working set</strong> is the set of pages a process is actively using.</p>\n\t</li>\n\t<li data-end=\"1134\" data-start=\"1041\">\n\t<p data-end=\"1134\" data-start=\"1043\">If the OS does not allocate enough frames for the working set, the process will <strong data-end=\"1133\" data-start=\"1123\">thrash</strong>.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1139\" data-start=\"1136\" />\n<h3 data-end=\"1174\" data-start=\"1141\"><strong data-end=\"1174\" data-start=\"1148\">Symptoms of Thrashing:&nbsp;</strong> (20%)</h3>\n\n<ul data-end=\"1293\" data-start=\"1176\">\n\t<li data-end=\"1204\" data-start=\"1176\">\n\t<p data-end=\"1204\" data-start=\"1178\">High <strong data-end=\"1202\" data-start=\"1183\">page fault rate</strong></p>\n\t</li>\n\t<li data-end=\"1232\" data-start=\"1205\">\n\t<p data-end=\"1232\" data-start=\"1207\">Low <strong data-end=\"1230\" data-start=\"1211\">CPU utilization</strong></p>\n\t</li>\n\t<li data-end=\"1259\" data-start=\"1233\">\n\t<p data-end=\"1259\" data-start=\"1235\">High <strong data-end=\"1257\" data-start=\"1240\">disk activity</strong></p>\n\t</li>\n\t<li data-end=\"1293\" data-start=\"1260\">\n\t<p data-end=\"1293\" data-start=\"1262\">System becomes <strong data-end=\"1293\" data-start=\"1277\">unresponsive</strong></p>\n\t</li>\n</ul>\n\n<hr data-end=\"1298\" data-start=\"1295\" />\n<h3 data-end=\"1344\" data-start=\"1300\"><strong data-end=\"1646\" data-start=\"1621\">Effects of Thrashing:</strong> (10%)</h3>\n\n<table data-end=\"2002\" data-start=\"1648\">\n\t<thead data-end=\"1706\" data-start=\"1648\">\n\t\t<tr data-end=\"1706\" data-start=\"1648\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"1669\" data-start=\"1648\">Consequence</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"1706\" data-start=\"1669\">Impact</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"2002\" data-start=\"1766\">\n\t\t<tr data-end=\"1825\" data-start=\"1766\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1788\" data-start=\"1766\">CPU utilization</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1825\" data-start=\"1788\">Drops drastically</td>\n\t\t</tr>\n\t\t<tr data-end=\"1884\" data-start=\"1826\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1848\" data-start=\"1826\">System throughput</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1884\" data-start=\"1848\">Decreases</td>\n\t\t</tr>\n\t\t<tr data-end=\"1943\" data-start=\"1885\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1907\" data-start=\"1885\">Response time</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1943\" data-start=\"1907\">Increases</td>\n\t\t</tr>\n\t\t<tr data-end=\"2002\" data-start=\"1944\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1966\" data-start=\"1944\">User experience</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"2002\" data-start=\"1966\">Poor (system seems to freeze)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><button aria-label=\"Copy Table\"></button></p>\n\n<hr data-end=\"2007\" data-start=\"2004\" />\n<h3 data-end=\"2042\" data-start=\"2009\"><strong data-end=\"2042\" data-start=\"2016\">Prevention Techniques:&nbsp;</strong> (20%)</h3>\n\n<ol data-end=\"2334\" data-start=\"2044\">\n\t<li data-end=\"2123\" data-start=\"2044\">\n\t<p data-end=\"2123\" data-start=\"2047\"><strong data-end=\"2072\" data-start=\"2047\">Use Working Set Model</strong>: Track and ensure enough frames for active pages</p>\n\t</li>\n\t<li data-end=\"2214\" data-start=\"2124\">\n\t<p data-end=\"2214\" data-start=\"2127\"><strong data-end=\"2157\" data-start=\"2127\">Page Fault Frequency (PFF)</strong> control: Adjust degree of multiprogramming dynamically</p>\n\t</li>\n\t<li data-end=\"2277\" data-start=\"2215\">\n\t<p data-end=\"2277\" data-start=\"2218\"><strong data-end=\"2245\" data-start=\"2218\">Reduce multiprogramming</strong>: Remove processes temporarily</p>\n\t</li>\n\t<li data-end=\"2334\" data-start=\"2278\">\n\t<p data-end=\"2334\" data-start=\"2281\"><strong data-end=\"2323\" data-start=\"2281\">Use better page replacement algorithms</strong> (like LRU)</p>\n\t</li>\n</ol>\n\n<ul data-end=\"1270\" data-start=\"1186\">\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>What is <strong data-end=\"152\" data-start=\"139\">thrashing</strong> in virtual memory management?&nbsp;Explain the <strong data-end=\"207\" data-start=\"197\">causes</strong>, <strong data-end=\"221\" data-start=\"209\">symptoms</strong>, <strong data-end=\"234\" data-start=\"223\">effects</strong>, and <strong data-end=\"272\" data-start=\"240\">methods to prevent thrashing</strong>.<br data-end=\"276\" data-start=\"273\" />\nSupport your answer with a <strong data-end=\"323\" data-start=\"303\">diagram or table</strong></p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "lq",
+   "key": 12730
+  }
+ ]
+}

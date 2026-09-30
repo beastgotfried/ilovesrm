@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 31952,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Immediate addressing</p>\n",
+   "OPT_2": "<p>Direct addressing</p>\n",
+   "OPT_3": "<p>Indirect addressing</p>\n",
+   "OPT_4": "<p>Register addressing</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which addressing mode uses the operand value directly in the instruction?<br data-end=\"278\" data-start=\"275\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 31952
+  },
+  {
+   "_id": 31953,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Immediate addressing</p>\n",
+   "OPT_2": "<p>Direct addressing</p>\n",
+   "OPT_3": "<p>Indirect addressing</p>\n",
+   "OPT_4": "<p>Register addressing</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which addressing mode can reduce the number of memory accesses by storing operands in CPU registers?<br data-end=\"889\" data-start=\"886\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 31953
+  },
+  {
+   "_id": 31954,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Immediate</p>\n",
+   "OPT_2": "<p>Direct</p>\n",
+   "OPT_3": "<p>Indirect&nbsp;</p>\n",
+   "OPT_4": "<p>Register&nbsp;</p>\n",
+   "OUTCOMES": [
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Which addressing mode is <strong data-end=\"1385\" data-start=\"1335\">best suited for accessing elements in an array</strong>?<br data-end=\"1389\" data-start=\"1386\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 31954
+  },
+  {
+   "_id": 31955,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Immediate addressing</p>\n",
+   "OPT_2": "<p>Direct addressing</p>\n",
+   "OPT_3": "<p>Register indirect</p>\n",
+   "OPT_4": "<p>Indexed addressing</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>If a program frequently uses constants (like <code data-end=\"1605\" data-start=\"1602\">5</code>, <code data-end=\"1611\" data-start=\"1607\">10</code>, <code data-end=\"1617\" data-start=\"1613\">-3</code>), which addressing mode improves performance?<br data-end=\"1666\" data-start=\"1663\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 31955
+  },
+  {
+   "_id": 31956,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Increase execution speed</p>\n",
+   "OPT_2": "<p>Require one additional memory access</p>\n",
+   "OPT_3": "<p>Eliminate memory usage</p>\n",
+   "OPT_4": "<p>Not affect behavior</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Changing the addressing mode from <strong data-end=\"2149\" data-start=\"2127\">direct to indirect</strong> in an instruction will:<br data-end=\"2176\" data-start=\"2173\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "mcq",
+   "key": 31956
+  }
+ ],
+ "sq": [
+  {
+   "_id": 31990,
+   "ANSWER": "<p data-end=\"478\" data-start=\"453\">Addressing mode specifies the way an instruction identifies the location of data (operand).</p>\n\n<p data-end=\"960\" data-start=\"890\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"209\" data-start=\"168\"><strong data-end=\"207\" data-start=\"172\">What is an addressing mode?</strong></h3>\n\n<p data-end=\"312\" data-start=\"210\">&nbsp;</p>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n\n<p data-end=\"312\" data-start=\"210\">&nbsp;</p>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 31990
+  },
+  {
+   "_id": 31991,
+   "ANSWER": "<p data-end=\"478\" data-start=\"453\">Operand is given directly in the instruction.</p>\n\n<p data-end=\"960\" data-start=\"890\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"384\" data-start=\"319\"><strong data-end=\"382\" data-start=\"323\">What is immediate addressing mode? Give an example.</strong></h3>\n\n<p data-end=\"501\" data-start=\"385\">&nbsp;</p>\n\n<p data-end=\"312\" data-start=\"210\">&nbsp;</p>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n\n<p data-end=\"312\" data-start=\"210\">&nbsp;</p>\n\n<p data-end=\"583\" data-start=\"524\">&nbsp;</p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "sq",
+   "key": 31991
+  }
+ ],
+ "lq": [
+  {
+   "_id": 32004,
+   "ANSWER": "<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Addressing modes are techniques used in computer architecture to specify how the operand of an instruction is chosen. Different modes provide flexibility in accessing operands from registers, memory, or directly from the instruction itself.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The major addressing modes are:</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. Immediate Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Operand is specified directly in the instruction.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Fast because no memory access is required.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nMOV R1, #25 &rarr; loads the constant value 25 into register R1.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. Register Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Operand is stored in a register.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Both source and destination are registers.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nADD R1, R2 &rarr; contents of R2 are added to R1.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. Direct Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction contains the memory address of the operand.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nMOV A, 5000H &rarr; fetch the data from memory location 5000H into accumulator A.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>4. Indirect Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction specifies a register or memory location which holds the address of the operand.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nMOV A, @R0 &rarr; if R0 = 2500H, then operand is taken from memory[2500H].</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>5. Register Indirect Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>A register contains the memory address of the operand.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Useful for accessing data stored in arrays or pointers.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nMOV A, (R1) &rarr; operand is fetched from memory at the address stored in R1.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>6. Indexed Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Effective address = Base address + Index register.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Widely used for array or table lookup.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nMOV A, (BASE + R2) &rarr; operand at address (BASE + contents of R2) is fetched.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>7. Relative Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Effective address = Program Counter (PC) + displacement.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Used in branch instructions.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nBEQ LABEL &rarr; if condition true, branch to LABEL which is offset from PC.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>8. Implied Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Operand is implied by the instruction itself.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>No explicit operand field is required.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:<br />\nCMA &rarr; complement accumulator (operand is implicit: the accumulator).</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>9. Auto-increment / Auto-decrement Addressing Mode</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Operand is accessed using the register address, and then the register is automatically updated.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Useful in traversing arrays.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example:</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Auto-increment: MOV A, (R1)+ &rarr; operand fetched from memory[R1], then R1 = R1+1.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Auto-decrement: MOV A, -(R1) &rarr; R1 = R1&ndash;1 first, then operand fetched.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>&nbsp;(flow of addressing modes) for easier memory recall in exams?</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Explain different addressing modes with suitable examples.</b></span></span></span></p>\n",
+   "SESSION_ID": 210,
+   "TYPE": "lq",
+   "key": 32004
+  }
+ ]
+}

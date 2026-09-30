@@ -1,0 +1,146 @@
+{
+ "mcq": [
+  {
+   "_id": 20824,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Interactive user interfaces</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Multiprocessing support</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Batch processing systems</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Virtual memory management</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which was the main characteristic of Second Generation (1950s&ndash;early 1960s) Operating Systems?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 20824
+  },
+  {
+   "_id": 20831,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Manual loading of programs</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Batch job processing</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Multithreaded process handling</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Use of card readers for job input</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which of the following was NOT a feature of First or Second Generation Operating Systems?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 20831
+  },
+  {
+   "_id": 20833,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Manual program loading</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Batch processing only</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Multiprogramming and Time-Sharing</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Graphical User Interface (GUI)</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which key feature emerged in Third Generation Operating Systems (mid-1960s&ndash;1970s)?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 20833
+  },
+  {
+   "_id": 20836,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">UNIX</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">MS-DOS</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Windows 95</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Batch Monitor System</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Which of the following operating systems is considered a product of the Fourth Generation?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 20836
+  },
+  {
+   "_id": 20839,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Introduction of punch cards</span></span></p>\n",
+   "OPT_2": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Transition from multiprogramming to GUI-based OS</span></span></p>\n",
+   "OPT_3": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Disappearance of multi-user systems</span></span></p>\n",
+   "OPT_4": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Exclusive reliance on batch processing</span></span></p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>What major shift occurred in Fourth Generation Operating Systems (1980s&ndash;Present)?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "mcq",
+   "key": 20839
+  }
+ ],
+ "sq": [
+  {
+   "_id": 20842,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Multiprogramming</strong> did not exist in First and Second Generation systems; these concepts emerged later, as both generations focused on single-task or batch sequential processing.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO3",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>How did the concept of multiprogramming relate to First and Second Generation OS?</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "sq",
+   "key": 20842
+  },
+  {
+   "_id": 20844,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Microsoft Windows</strong> and <strong>Mac OS</strong> are prominent examples, offering GUI-based environments for personal and business computing.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO3",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Name two examples of Fourth Generation Operating Systems.</strong></span></span></span></h3>\n\n<p>&nbsp;</p>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "sq",
+   "key": 20844
+  }
+ ],
+ "lq": [
+  {
+   "_id": 20848,
+   "ANSWER": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">The evolution of Operating Systems (OS) reflects the rapid progress of computer hardware and the growing complexity of user needs. From manual control in early computers to sophisticated multiuser environments and networked systems, OS development has undergone significant transformations across four major generations.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>First Generation (1940s&ndash;1950s): No Operating Systems</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Hardware Technology:</strong> Vacuum tubes and plugboards</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>OS Characteristics:</strong></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">No real operating systems existed.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Programs were written in machine language.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Input/output operations were handled manually.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">No multitasking &mdash; computers executed a single job at a time.</span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>User Interaction:</strong> Direct manual control by the user.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">&nbsp;This generation laid the foundation of computing, though lacked software automation.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Second Generation (1950s&ndash;early 1960s): Batch Processing Systems</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Hardware Technology:</strong> Transistors replaced vacuum tubes.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>OS Characteristics:</strong></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Batch Operating Systems</strong> were introduced to automate job execution.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Jobs were submitted on punched cards, processed sequentially.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Monitor Systems</strong> managed job sequencing.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Still single-user, but improved utilization of CPU time.</span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>User Interaction:</strong> Indirect &mdash; through batch jobs submitted to operators.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">&nbsp;Introduced automation in job handling, reducing idle CPU time.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Third Generation (mid-1960s&ndash;1970s): Multiprogramming and Time-Sharing</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Hardware Technology:</strong> Integrated Circuits (ICs) led to powerful computers.</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>OS Characteristics:</strong></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Multiprogramming:</strong> Multiple programs loaded in memory, CPU switches between them.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Time-Sharing Systems:</strong> Allowed multiple users to access the computer simultaneously.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Improved CPU scheduling, memory management, and process control.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Introduction of early command-line interfaces.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>UNIX</strong> emerged as a powerful multiuser OS.</span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>User Interaction:</strong> Interactive terminals enabled direct user engagement.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">&nbsp;Enhanced efficiency and accessibility with support for multiple users and interactive computing.</span></span></p>\n\n<h3><span style=\"font-size:13.5pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><span style=\"font-weight:bold\"><strong>Fourth Generation (1980s&ndash;Present): Personal Computing and GUI-Based Systems</strong></span></span></span></h3>\n\n<ul>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Hardware Technology:</strong> Microprocessors led to personal computers (PCs).</span></span></span></li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>OS Characteristics:</strong></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Introduction of <strong>Graphical User Interfaces (GUI)</strong> for user-friendliness.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Multiuser and multitasking capabilities on desktop systems.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Support for <strong>networking</strong>, resource sharing, and distributed systems.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">Emergence of popular OS like <strong>Windows</strong>, <strong>Mac OS</strong>, and <strong>Linux</strong>.</span></span></span></li>\n\t\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 1.0in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">OS became platform for various user applications with advanced multimedia support.</span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-left:8px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list .5in\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>User Interaction:</strong> Graphical interfaces enabled intuitive, user-friendly operation.</span></span></span></li>\n</ul>\n\n<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\">&nbsp;Shifted computing focus to personal and business applications, making computers accessible to non-technical users.</span></span></p>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO3"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"font-family:&quot;Times New Roman&quot;,serif\"><strong>Discuss the evolution of Operating Systems across different generations, highlighting key technological advancements and operating system features.</strong></span></span></p>\n",
+   "SESSION_ID": 103,
+   "TYPE": "lq",
+   "key": 20848
+  }
+ ]
+}

@@ -1,0 +1,154 @@
+{
+ "mcq": [
+  {
+   "_id": 50412,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>The temperature is uniform throughout the rod</p>\n",
+   "OPT_2": "<p>The temperature at the boundaries is zero</p>\n",
+   "OPT_3": "<p>The temperature does not change with time</p>\n",
+   "OPT_4": "<p>The heat flux is zero</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What defines the &quot;steady-state&quot; condition in heat transfer?</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 50412
+  },
+  {
+   "_id": 50413,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{d^2 u}{dx^2} = 0\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{du}{dx} = 0\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{du}{dx} = k\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(u(x) = 0\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In the steady state, the one-dimensional heat equation without heat generation simplifies to<b>&nbsp;___________.</b></p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 50413
+  },
+  {
+   "_id": 50414,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t} = \\alpha \\frac{\\partial u}{\\partial x}\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t} = \\alpha \\frac{\\partial^2 u}{\\partial x^2}\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The general one-dimensional time-dependent heat diffusion equation (without internal heat generation) is ________.&nbsp;A. $$ B. $$ C. $$ D. $$</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 50414
+  },
+  {
+   "_id": 50415,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(u(x) = A \\sin(x) + B \\cos(x)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(x) = Ax^2 + Bx + C\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(u(x) = Ax + B\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(u(x) = Ae^{kx}\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The general solution to the steady-state 1D heat equation $\\frac{d^2 u}{dx^2} = 0$ is ________.&nbsp;A. $$ B. $$ C. $$ D. $$</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 50415
+  },
+  {
+   "_id": 50416,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>A fixed temperature of 0</p>\n",
+   "OPT_2": "<p>A perfectly insulated boundary</p>\n",
+   "OPT_3": "<p>Infinite heat flux</p>\n",
+   "OPT_4": "<p>A convection boundary</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A boundary condition of the form <span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial x}(0, t) = 0\\)</span> represents _________.</p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "mcq",
+   "key": 50416
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52788,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Solve heat equation with } u(0,t)=0, u(10,t)=0, u(x,0)=3\\sin(\\pi x/5)+2\\sin(2\\pi x/5).\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{General solution: } u(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{10} e^{-\\alpha^2 n^2\\pi^2 t/100}.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{At } t=0: 3\\sin(\\pi x/5)+2\\sin(2\\pi x/5) = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{10}.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Note: } \\pi x/5 = 2\\pi x/10, \\ 2\\pi x/5 = 4\\pi x/10. \\text{ So } B_2=3, B_4=2, \\text{ other } B_n=0.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } u(x,t)=3\\sin\\frac{2\\pi x}{10} e^{-\\alpha^2 4\\pi^2 t/100} + 2\\sin\\frac{4\\pi x}{10} e^{-\\alpha^2 16\\pi^2 t/100}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A bar of length 10 cm has ends at } 0^\\circ\\text{C}. \\text{ Initial temperature is } u(x,0)=3\\sin\\frac{\\pi x}{5}+2\\sin\\frac{2\\pi x}{5}. \\text{ Find } u(x,t).\\)</span></p>",
+   "SESSION_ID": 310,
+   "TYPE": "sq",
+   "key": 52788
+  },
+  {
+   "_id": 52789,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Conditions: } u(0,t)=0, u(l,t)=0, u(x,0) \\text{ as given.}\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{General solution: } u(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{At } t=0: u(x,0) = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{l} \\left[ \\int_0^{l/2} x \\sin\\frac{n\\pi x}{l} dx + \\int_{l/2}^l (l-x) \\sin\\frac{n\\pi x}{l} dx \\right].\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Evaluate: } B_n = \\frac{4l}{n^2\\pi^2} \\sin\\frac{n\\pi}{2}. \\text{ For odd } n, B_n = \\frac{4l}{n^2\\pi^2}(-1)^{(n-1)/2}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } u(x,t) = \\frac{4l}{\\pi^2} \\sum_{n=\\text{odd}} \\frac{(-1)^{(n-1)/2}}{n^2} \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A bar of length } l \\text{ has ends at } 0^\\circ\\text{C}. \\text{ Initial temperature is } u(x,0)=\\begin{cases} x, & 0\\leq x\\leq l/2 \\\\ l-x, & l/2\\leq x\\leq l \\end{cases}. \\text{ Find } u(x,t).\\)</span></p>",
+   "SESSION_ID": 310,
+   "TYPE": "sq",
+   "key": 52789
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50406,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Steady state before change: \\(u_s(x) = \\dfrac{100}{l}x\\) (linear).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{After ends set to 0\u00b0C: heat equation \\(u_t = \\alpha^2 u_{xx}\\) with BCs: \\(u(0,t)=0\\), \\(u(l,t)=0.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Initial condition: \\(u(x,0)= u_s(x) = \\dfrac{100}{l}x.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(u(x,t)= \\sum B_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Determine \\(B_n\\) from \\(u(x,0)= \\sum B_n \\sin\\left(\\dfrac{n\\pi x}{l}\\right) = \\dfrac{100}{l}x.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(B_n = \\dfrac{2}{l} \\int_0^l \\dfrac{100}{l}x \\sin\\left(\\dfrac{n\\pi x}{l}\\right) dx = \\dfrac{200}{l^2} \\int_0^l x \\sin\\left(\\dfrac{n\\pi x}{l}\\right) dx.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Compute integral: \\(= \\dfrac{200}{l^2} \\left[ \\dfrac{-l x \\cos\\left(\\dfrac{n\\pi x}{l}\\right)}{n\\pi} + \\dfrac{l^2}{n^2\\pi^2} \\sin\\left(\\dfrac{n\\pi x}{l}\\right) \\right]_0^l.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Simplify: \\(B_n = \\dfrac{200}{n\\pi} (-1)^{n+1}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(u(x,t)= \\dfrac{200}{\\pi} \\sum\\limits_{n=1}^{\\infty} \\dfrac{(-1)^{n+1}}{n} \\sin\\left(\\dfrac{n\\pi x}{l}\\right) e^{-\\alpha^2 n^2\\pi^2 t / l^2}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A rod of length \u00a0$l$ has its ends kept at temperatures $0^\\circ $C and $100^\\circ$C until steady state.}\\\\\n\\text{Then the ends are suddenly reduced to $0^\\circ$C. Find the subsequent temperature distribution.}\\)</span></p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "lq",
+   "key": 50406
+  },
+  {
+   "_id": 50407,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Steady state initially: \\(u_s(x) = 10x\\) (since \\((100/10)x\\)).}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{After change: BCs: \\(u(0,t)=0\\), \\(u(10,t)=0.\\) Initial: \\(u(x,0)=10x.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(u(x,t)= \\sum B_n \\sin\\left(\\dfrac{n\\pi x}{10}\\right) e^{-\\alpha^2 n^2\\pi^2 t / 100}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(B_n = \\dfrac{2}{10} \\int_0^{10} 10x \\sin\\left(\\dfrac{n\\pi x}{10}\\right) dx = 2 \\int_0^{10} x \\sin\\left(\\dfrac{n\\pi x}{10}\\right) dx.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Compute: \\(= 2 \\left[ \\dfrac{-10x \\cos\\left(\\dfrac{n\\pi x}{10}\\right)}{n\\pi} + \\dfrac{100}{n^2\\pi^2} \\sin\\left(\\dfrac{n\\pi x}{10}\\right) \\right]_0^{10}.\\)}\\)</span></td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Simplify: \\(= 2 \\left[ \\dfrac{-100 \\cos(n\\pi)}{n\\pi} + 0 - 0 \\right] = -\\dfrac{200}{n\\pi} \\cos(n\\pi) = \\dfrac{200}{n\\pi} (-1)^{n+1}.\\)}\\)</span></td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(u(x,t)= \\dfrac{200}{\\pi} \\sum\\limits_{n=1}^{\\infty} \\dfrac{(-1)^{n+1}}{n} \\sin\\left(\\dfrac{n\\pi x}{10}\\right) e^{-\\alpha^2 n^2\\pi^2 t / 100}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{A rod of length 10 cm has its ends kept at $0^\\circ$ C and $100^\\circ$ C until steady state.}\\\\ \\text{Then the temperature at the far end ($100^\\circ$ C) is suddenly reduced to $0^\\circ$ C while the near end is maintained at $0^\\circ$ C.}\\\\ \\text{Find the temperature $u(x,t).$}\\)</span></p>\n",
+   "SESSION_ID": 310,
+   "TYPE": "lq",
+   "key": 50407
+  }
+ ]
+}

@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36660,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>With understanding society</p>\n",
+   "OPT_2": "<p>With understanding the human being (self + body)</p>\n",
+   "OPT_3": "<p>With understanding nature only</p>\n",
+   "OPT_4": "<p>With technological development</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>In the domain of right understanding, where does the process begin?</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 36660
+  },
+  {
+   "_id": 36661,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>By ensuring respect, trust, and harmony with others</p>\n",
+   "OPT_2": "<p>By increasing competition</p>\n",
+   "OPT_3": "<p>By ignoring values</p>\n",
+   "OPT_4": "<p>By focusing only on personal interests</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How does right understanding of the human being help in relationships?</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 36661
+  },
+  {
+   "_id": 36663,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>The self only collects data from the body</p>\n",
+   "OPT_2": "<p>The self feels happiness, sorrow, or peace depending on alignment of desires and actions</p>\n",
+   "OPT_3": "<p>The self performs all biological activities</p>\n",
+   "OPT_4": "<p>The self is inactive in experiences</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>Which statement best describes the role of the self as an experiencer?</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 36663
+  },
+  {
+   "_id": 36664,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Inner harmony</p>\n",
+   "OPT_2": "<p>Stress, conflict, or dissatisfaction</p>\n",
+   "OPT_3": "<p>Physical fitness</p>\n",
+   "OPT_4": "<p>Automatic balance</p>\n",
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What happens when there is a mismatch between knowing, experiencing, and doing?</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 36664
+  },
+  {
+   "_id": 36666,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>To memorize values</p>\n",
+   "OPT_2": "<p>To integrate technical knowledge with human values and create solutions for sustainable and ethical living</p>\n",
+   "OPT_3": "<p>To avoid social responsibilities</p>\n",
+   "OPT_4": "<p>To focus only on profit-making</p>\n",
+   "OUTCOMES": [
+    "PLO9"
+   ],
+   "QUESTION_DESC": "<p>Why should engineers study the domain of right understanding?</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "mcq",
+   "key": 36666
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36303,
+   "ANSWER": "<p>It promotes responsible behavior, leading to trust and mutual respect in relationships.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>How does right understanding of the human being benefit society?</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 36303
+  },
+  {
+   "_id": 36304,
+   "ANSWER": "<p>It also covers relationships in the family, society, and the harmony in nature/existence.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO8"
+   ],
+   "QUESTION_DESC": "<p>What does the domain of right understanding cover apart from the human being?</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "sq",
+   "key": 36304
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122496,
+   "ANSWER": "<p>In human interaction, <strong data-end=\"2368\" data-start=\"2356\">reaction</strong> means deciding our feeling and behaviour based on the other person&rsquo;s behaviour. If the other behaves properly, we may behave properly; if the other misbehaves, we may also misbehave. In this case, our &ldquo;remote control&rdquo; is with the other person and our conduct becomes indefinite. <strong data-end=\"2660\" data-start=\"2648\">Response</strong> means deciding our feeling on our own right, based on natural acceptance and right understanding. In response, the behaviour of the other is only an indicator of the other person&rsquo;s state. With that input, we decide our behaviour to ensure mutual happiness. Response is self-organised, definite and unconditional, while reaction is dependent, indefinite and often leads to unhappiness.</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO9",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>Explain the difference between reaction and response in human interaction.</p>\n",
+   "SESSION_ID": 203,
+   "TYPE": "lq",
+   "key": 122496
+  }
+ ]
+}

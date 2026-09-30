@@ -1,0 +1,281 @@
+{
+ "mcq": [
+  {
+   "_id": 49393,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, dx\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac 1l \\int_{0}^{l} f(x) \\, dx\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} x f(x) \\, dx\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac 1l \\int_{0}^{l} x f(x) \\, dx\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In the half range cosine series of <span class=\"math-tex\">\\(f(x) \\)</span>&nbsp;in the interval&nbsp;<span class=\"math-tex\">\\((0,l)\\)</span>&nbsp;, the fourier coefficient&nbsp;<span class=\"math-tex\">\\(a_0\\)</span>&nbsp;is given by</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49393
+  },
+  {
+   "_id": 49394,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin(\\frac {n\\pi x}l) \\, dx\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos(\\frac {n\\pi x}l) \\, dx\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin \\, nx \\, dx\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos \\, nx \\, dx\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In the half range cosine series of <span class=\"math-tex\">\\(f(x) \\)</span>&nbsp;in the interval&nbsp;<span class=\"math-tex\">\\((0,l)\\)</span>&nbsp;, the fourier coefficient&nbsp;<span class=\"math-tex\">\\(a_n\\)</span>&nbsp;is given by</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49394
+  },
+  {
+   "_id": 49395,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin \\, nx \\, dx\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos(\\frac {n\\pi x}l) \\, dx\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, sin(\\frac {n\\pi x}l) \\, dx\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac 2l \\int_{0}^{l} f(x) \\, cos \\, nx \\, dx\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In the half range sine series of <span class=\"math-tex\">\\(f(x) \\)</span>&nbsp;in the interval&nbsp;<span class=\"math-tex\">\\((0,l)\\)</span>&nbsp;, the fourier coefficient&nbsp;<span class=\"math-tex\">\\(b_n\\)</span>&nbsp;is given by</p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49395
+  },
+  {
+   "_id": 49396,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>0</p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac2l\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac l2\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(l\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Find the constant&nbsp;<span class=\"math-tex\">\\(a_0\\)</span>&nbsp;in half range cosine series of&nbsp;<span class=\"math-tex\">\\(f(x) =x \\quad in \\, \\quad (0,\\pi)\\)</span></p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49396
+  },
+  {
+   "_id": 49397,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac1{n\\pi} (1+(-1)^n)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac2{n\\pi} (1-(-1)^n)\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac1{\\pi} (1-(-1)^n)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac2{\\pi} (1-(-1)^n)\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Find &nbsp;<span class=\"math-tex\">\\(b_n\\)</span>&nbsp;in half range sine series of&nbsp;<span class=\"math-tex\">\\(f(x) =1 \\quad in \\quad (0,1)\\)</span></p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49397
+  },
+  {
+   "_id": 49934,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">Extending \\( f(x) \\) as an odd function to \\( (-L, L) \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">Extending \\( f(x) \\) as an even function to \\( (-L, L) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">Using the original \\( f(x) \\) on \\( (0, L) \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">Periodically extending \\( f(x) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The half-range sine series for \\( f(x) \\) on \\( (0, L) \\) is obtained by:</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49934
+  },
+  {
+   "_id": 49935,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\( b_n = \\frac{2}{L} \\int_0^L f(x) \\sin\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( b_n = \\frac{1}{L} \\int_0^L f(x) \\sin\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( b_n = \\frac{2}{L} \\int_0^L f(x) \\cos\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( b_n = \\frac{1}{L} \\int_0^L f(x) \\cos\\left(\\frac{n\\pi x}{L}\\right) \\, dx \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For half-range sine series on \\( (0, L) \\), the formula for \\( b_n \\) is:</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49935
+  },
+  {
+   "_id": 49936,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\( \\frac{4}{\\pi} \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( \\frac{2}{\\pi} \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">1</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">0</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">If \\( f(x) = 1 \\) on \\( (0, \\pi) \\) is expanded in half-range sine series, the first coefficient \\( b_1 \\) is:</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49936
+  },
+  {
+   "_id": 49937,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">0</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( f(L^-) \\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( \\frac{f(L^-) + f(-L^+)}{2} \\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\( f(-L^+) \\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">For half-range sine expansion, at \\( x = L \\), the series converges to:</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49937
+  },
+  {
+   "_id": 49938,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\( f(0) = f(L) = 0 \\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\( f(0) = 0 \\) only</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\( f(L) = 0 \\) only</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">No conditions needed</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">The half-range sine series converges to \\( f(x) \\) at interior points only if:</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "mcq",
+   "key": 49938
+  }
+ ],
+ "sq": [
+  {
+   "_id": 50037,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Extend } f(x) \\text{ as odd function to } (-L, L)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Half-range sine series: } f(x) = \\sum_{n=1}^{\\infty} b_n \\sin(\\frac{n\\pi x}{L})\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{where: } b_n = \\frac{2}{L} \\int_0^{L} f(x) \\sin(\\frac{n\\pi x}{L}) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Constant term } a_0 = 0 \\text{ and } a_n = 0\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Define half-range sine series for } f(x) \\text{ in } (0, L).\\)</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 50037
+  },
+  {
+   "_id": 50038,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{2}{L} \\int_0^{L} x \\sin(\\frac{n\\pi x}{L}) dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Integration: } = \\frac{2L}{n\\pi}(-1)^{n+1}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } x = \\frac{2L}{\\pi}\\sum_{n=1}^{\\infty} \\frac{(-1)^{n+1}}{n} \\sin(\\frac{n\\pi x}{L})\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Or equivalently: } x = \\frac{2L}{\\pi}\\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin(\\frac{n\\pi x}{L}) \\text{ with phase adjustment}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find half-range sine series for } f(x) = x \\text{ in } (0, L).\\)</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 50038
+  },
+  {
+   "_id": 50039,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Define } f_o(x) = \\begin{cases} f(x) & 0 \\leq x \\leq L \\\\ -f(-x) & -L \\leq x \\leq 0 \\end{cases}\\)</span></p></td><td>(4 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{This makes } f_o(x) \\text{ odd function in } (-L, L)\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Fourier series of } f_o(x) \\text{ is sine series representing } f(x) \\text{ in } (0, L)\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{What is odd extension of function for half-range sine series?}\\)</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 50039
+  },
+  {
+   "_id": 50040,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(b_n = \\frac{2}{\\pi} \\int_0^{\\pi} (\\pi - x) \\sin nx dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Split: } = 2\\int_0^{\\pi} \\sin nx dx - \\frac{2}{\\pi}\\int_0^{\\pi} x \\sin nx dx\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Evaluate: } = \\frac{2}{n}[1 - (-1)^n] - \\frac{2}{n}(-1)^{n+1} = \\frac{2}{n}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Thus } \\pi - x = 2\\sum_{n=1}^{\\infty} \\frac{1}{n} \\sin nx\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Find half-range sine series for } f(x) = \\pi - x \\text{ in } (0, \\pi).\\)</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 50040
+  },
+  {
+   "_id": 50041,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Cosine series converges to } f(0+) \\text{ at } x=0 \\text{ and } f(L-) \\text{ at } x=L\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Sine series converges to 0 at } x=0 \\text{ and } x=L \\text{ (odd extension forces zero)}\\)</span></p></td><td>(3 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Choose appropriate series based on boundary conditions}\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Compare half-range cosine and sine series convergence at endpoints.}\\)</span></p>",
+   "SESSION_ID": 207,
+   "TYPE": "sq",
+   "key": 50041
+  }
+ ],
+ "lq": [
+  {
+   "_id": 32159,
+   "ANSWER": "<p><br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><img src=\"data:image/png;base64,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\" /></p>\n",
+   "SESSION_ID": 207,
+   "TYPE": "lq",
+   "key": 32159
+  },
+  {
+   "_id": 50079,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Sine series: \\(\\cos x=\\sum_{n=1}^{\\infty}b_n\\sin nx\\)</td><td>(1)</td></tr><tr><td>\\(b_n=\\frac{2}{\\pi}\\int_0^{\\pi}\\cos x\\sin nx\\,dx=\\frac{2n}{\\pi}\\cdot\\frac{1+(-1)^n}{1-n^2}\\) for \\(n\\neq1\\)</td><td>(4)</td></tr><tr><td>\\(b_1=0\\)</td><td>(2)</td></tr><tr><td>Thus, \\(\\cos x=\\frac{8}{\\pi}\\sum_{n=1}^{\\infty}\\frac{n}{4n^2-1}\\sin 2nx\\)</td><td>(4)</td></tr><tr><td>Verification at \\(x=\\frac{\\pi}{2}\\)</td><td>(4)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Find the half-range sine series for \\(f(x)=\\cos x\\) in \\((0,\\pi)\\).</p>",
+   "SESSION_ID": 207,
+   "TYPE": "lq",
+   "key": 50079
+  }
+ ]
+}

@@ -1,0 +1,137 @@
+{
+ "mcq": [
+  {
+   "_id": 21693,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Reduce software complexity</p>\n",
+   "OPT_2": "<p>ncrease power consumption</p>\n",
+   "OPT_3": "<p>Enhance processing speed and performance</p>\n",
+   "OPT_4": "<p>Decrease hardware cost</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"222\" data-start=\"147\"><strong data-end=\"222\" data-start=\"151\">1. What is the primary reason for using parallel computing systems?</strong></h3>\n\n<p data-end=\"361\" data-start=\"224\">&nbsp;</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 21693
+  },
+  {
+   "_id": 21704,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Have their own private memory</p>\n",
+   "OPT_2": "<p>Use message passing to communicate</p>\n",
+   "OPT_3": "<p>Share a global memory space</p>\n",
+   "OPT_4": "<p>Do not need synchronization mechanisms</p>\n\n<p>&nbsp;</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"222\" data-start=\"147\">In shared memory parallel systems, processors:</h3>\n\n<p data-end=\"361\" data-start=\"224\">&nbsp;</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 21704
+  },
+  {
+   "_id": 21707,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Uses only message-passing among processors</p>\n",
+   "OPT_2": "<p>Combines shared and distributed memory models</p>\n",
+   "OPT_3": "<p>Contains only one type of processor</p>\n",
+   "OPT_4": "<p>Does not support scalability</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"222\" data-start=\"147\">Which of the following best describes a hybrid parallel system?</h3>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 21707
+  },
+  {
+   "_id": 21731,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Reduce software complexity</p>\n",
+   "OPT_2": "<p>Increase power consumption</p>\n",
+   "OPT_3": "<p>Enhance processing speed and performance</p>\n",
+   "OPT_4": "<p>Decrease hardware cost</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>What is the primary reason for using parallel computing systems?</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 21731
+  },
+  {
+   "_id": 21736,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Shared memory system</p>\n",
+   "OPT_2": "<p>Distributed memory system</p>\n",
+   "OPT_3": "<p>Hybrid memory system</p>\n",
+   "OPT_4": "<p>Single-core uniprocessor system</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT a type of parallel system?</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "mcq",
+   "key": 21736
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28860,
+   "ANSWER": "<h2 data-end=\"136\" data-start=\"104\"><strong data-end=\"136\" data-start=\"107\">Need for Parallel Systems</strong></h2>\n\n<ul data-end=\"736\" data-start=\"137\">\n\t<li data-end=\"289\" data-start=\"137\">\n\t<p data-end=\"289\" data-start=\"139\"><strong data-end=\"172\" data-start=\"139\">Increasing performance demand</strong>: Modern applications like AI, big data analytics, and simulations require processing huge volumes of data quickly.</p>\n\t</li>\n\t<li data-end=\"466\" data-start=\"290\">\n\t<p data-end=\"466\" data-start=\"292\"><strong data-end=\"331\" data-start=\"292\">Physical limits of single-core CPUs</strong>: Due to heat dissipation and clock speed limits, performance gains now come from parallel execution rather than faster single cores.</p>\n\t</li>\n\t<li data-end=\"598\" data-start=\"467\">\n\t<p data-end=\"598\" data-start=\"469\"><strong data-end=\"490\" data-start=\"469\">Energy efficiency</strong>: Parallel systems can perform more work per watt compared to pushing a single processor to higher speeds.</p>\n\t</li>\n\t<li data-end=\"736\" data-start=\"599\">\n\t<p data-end=\"736\" data-start=\"601\"><strong data-end=\"625\" data-start=\"601\">Real-time processing</strong>: Systems like weather forecasting, autonomous driving, and scientific modeling need results in minimal time.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Write a shote note on need and types of Parallel systems.&nbsp;</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 28860
+  },
+  {
+   "_id": 28861,
+   "ANSWER": "<h2 data-end=\"128\" data-start=\"87\"><strong data-end=\"126\" data-start=\"90\">Applications of Parallel Systems</strong></h2>\n\n<ol data-end=\"740\" data-start=\"129\">\n\t<li data-end=\"215\" data-start=\"129\">\n\t<p data-end=\"215\" data-start=\"132\"><strong data-end=\"158\" data-start=\"132\">Scientific Simulations</strong> &ndash; Weather forecasting, climate modeling, astrophysics.</p>\n\t</li>\n\t<li data-end=\"300\" data-start=\"216\">\n\t<p data-end=\"300\" data-start=\"219\"><strong data-end=\"265\" data-start=\"219\">Artificial Intelligence &amp; Machine Learning</strong> &ndash; Training deep neural networks.</p>\n\t</li>\n\t<li data-end=\"370\" data-start=\"301\">\n\t<p data-end=\"370\" data-start=\"304\"><strong data-end=\"326\" data-start=\"304\">Big Data Analytics</strong> &ndash; Processing large datasets in real time.</p>\n\t</li>\n\t<li data-end=\"459\" data-start=\"371\">\n\t<p data-end=\"459\" data-start=\"374\"><strong data-end=\"409\" data-start=\"374\">Engineering Design &amp; Simulation</strong> &ndash; CAD/CAM, structural analysis, fluid dynamics.</p>\n\t</li>\n\t<li data-end=\"515\" data-start=\"460\">\n\t<p data-end=\"515\" data-start=\"463\"><strong data-end=\"482\" data-start=\"463\">Medical Imaging</strong> &ndash; MRI, CT scan reconstruction.</p>\n\t</li>\n\t<li data-end=\"585\" data-start=\"516\">\n\t<p data-end=\"585\" data-start=\"519\"><strong data-end=\"541\" data-start=\"519\">Financial Modeling</strong> &ndash; Stock market prediction, risk analysis.</p>\n\t</li>\n\t<li data-end=\"664\" data-start=\"586\">\n\t<p data-end=\"664\" data-start=\"589\"><strong data-end=\"614\" data-start=\"589\">Multimedia Processing</strong> &ndash; Real-time rendering, video encoding/decoding.</p>\n\t</li>\n\t<li data-end=\"740\" data-start=\"665\">\n\t<p data-end=\"740\" data-start=\"668\"><strong data-end=\"695\" data-start=\"668\">Cryptography &amp; Security</strong> &ndash; Large-scale encryption/decryption tasks.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>List the applications and challenges of Parallel systems.</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "sq",
+   "key": 28861
+  }
+ ],
+ "lq": [
+  {
+   "_id": 37191,
+   "ANSWER": "<p data-end=\"541\" data-start=\"187\">arallel computing is the process of dividing a large computational problem into smaller tasks that can be executed simultaneously using multiple processors. Instead of relying on a single processor (sequential computing), parallel computing utilizes multiple processors to speed up execution and handle complex problems more efficiently.</p>\n\n<p data-end=\"577\" data-start=\"543\"><strong data-end=\"575\" data-start=\"543\">Need for Parallel Computing:</strong></p>\n\n<ol data-end=\"2228\" data-start=\"579\">\n\t<li data-end=\"943\" data-start=\"579\">\n\t<p data-end=\"610\" data-start=\"582\"><strong data-end=\"608\" data-start=\"582\">Speed and Performance:</strong></p>\n\n\t<ul data-end=\"943\" data-start=\"614\">\n\t\t<li data-end=\"704\" data-start=\"614\">\n\t\t<p data-end=\"704\" data-start=\"616\">Sequential execution on a single processor is time-consuming for large-scale problems.</p>\n\t\t</li>\n\t\t<li data-end=\"810\" data-start=\"708\">\n\t\t<p data-end=\"810\" data-start=\"710\">Parallel computing reduces execution time by distributing the workload across multiple processors.</p>\n\t\t</li>\n\t\t<li data-end=\"943\" data-start=\"814\">\n\t\t<p data-end=\"943\" data-start=\"816\">Example: Weather forecasting simulations that require millions of calculations can be completed faster with parallel systems.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1244\" data-start=\"945\">\n\t<p data-end=\"979\" data-start=\"948\"><strong data-end=\"977\" data-start=\"948\">Handling Large Data Sets:</strong></p>\n\n\t<ul data-end=\"1244\" data-start=\"983\">\n\t\t<li data-end=\"1051\" data-start=\"983\">\n\t\t<p data-end=\"1051\" data-start=\"985\">Modern applications generate massive amounts of data (big data).</p>\n\t\t</li>\n\t\t<li data-end=\"1122\" data-start=\"1055\">\n\t\t<p data-end=\"1122\" data-start=\"1057\">Parallel computing allows processing of this data in real-time.</p>\n\t\t</li>\n\t\t<li data-end=\"1244\" data-start=\"1126\">\n\t\t<p data-end=\"1244\" data-start=\"1128\">Example: Search engines like Google use parallel servers to process queries from millions of users simultaneously.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1537\" data-start=\"1246\">\n\t<p data-end=\"1280\" data-start=\"1249\"><strong data-end=\"1278\" data-start=\"1249\">Solving Complex Problems:</strong></p>\n\n\t<ul data-end=\"1537\" data-start=\"1284\">\n\t\t<li data-end=\"1365\" data-start=\"1284\">\n\t\t<p data-end=\"1365\" data-start=\"1286\">Many scientific and engineering problems involve complex mathematical models.</p>\n\t\t</li>\n\t\t<li data-end=\"1429\" data-start=\"1369\">\n\t\t<p data-end=\"1429\" data-start=\"1371\">These models are often too large for a single processor.</p>\n\t\t</li>\n\t\t<li data-end=\"1537\" data-start=\"1433\">\n\t\t<p data-end=\"1537\" data-start=\"1435\">Example: Molecular modeling, nuclear simulations, and space exploration rely on parallel processing.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1774\" data-start=\"1539\">\n\t<p data-end=\"1579\" data-start=\"1542\"><strong data-end=\"1577\" data-start=\"1542\">Efficient Resource Utilization:</strong></p>\n\n\t<ul data-end=\"1774\" data-start=\"1583\">\n\t\t<li data-end=\"1677\" data-start=\"1583\">\n\t\t<p data-end=\"1677\" data-start=\"1585\">Parallel computing makes use of multi-core processors and distributed systems effectively.</p>\n\t\t</li>\n\t\t<li data-end=\"1774\" data-start=\"1681\">\n\t\t<p data-end=\"1774\" data-start=\"1683\">It ensures that idle processor cycles are minimized, thus improving resource utilization.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1959\" data-start=\"1776\">\n\t<p data-end=\"1797\" data-start=\"1779\"><strong data-end=\"1795\" data-start=\"1779\">Scalability:</strong></p>\n\n\t<ul data-end=\"1959\" data-start=\"1801\">\n\t\t<li data-end=\"1865\" data-start=\"1801\">\n\t\t<p data-end=\"1865\" data-start=\"1803\">Parallel systems can easily scale by adding more processors.</p>\n\t\t</li>\n\t\t<li data-end=\"1959\" data-start=\"1869\">\n\t\t<p data-end=\"1959\" data-start=\"1871\">This makes them flexible for growing computational demands in research and industries.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2228\" data-start=\"1961\">\n\t<p data-end=\"1997\" data-start=\"1964\"><strong data-end=\"1995\" data-start=\"1964\">Real-Time Processing Needs:</strong></p>\n\n\t<ul data-end=\"2228\" data-start=\"2001\">\n\t\t<li data-end=\"2130\" data-start=\"2001\">\n\t\t<p data-end=\"2130\" data-start=\"2003\">Applications like video streaming, online gaming, financial transactions, and air traffic control require instant processing.</p>\n\t\t</li>\n\t\t<li data-end=\"2228\" data-start=\"2134\">\n\t\t<p data-end=\"2228\" data-start=\"2136\">Parallel computing ensures quick response times by processing multiple tasks concurrently.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n\n<p data-end=\"2582\" data-start=\"2230\"><strong data-end=\"2245\" data-start=\"2230\">Conclusion:</strong><br data-end=\"2248\" data-start=\"2245\" />\nThe need for parallel computing arises from the limitations of sequential computing in terms of speed, efficiency, and data handling capacity. With the growth of big data, artificial intelligence, machine learning, and scientific simulations, parallel computing has become an essential approach to meet modern computational demands.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Explain the need for parallel computing with suitable examples.</p>\n",
+   "SESSION_ID": 501,
+   "TYPE": "lq",
+   "key": 37191
+  }
+ ]
+}

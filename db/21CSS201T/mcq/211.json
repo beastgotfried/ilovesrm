@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 31957,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>8-bit microprocessor</p>\n",
+   "OPT_2": "<p>16-bit microprocessor</p>\n",
+   "OPT_3": "<p>32-bit microprocessor</p>\n",
+   "OPT_4": "<p>64-bit microprocessor</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The Intel 8086 microprocessor is a:<br data-end=\"209\" data-start=\"206\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 31957
+  },
+  {
+   "_id": 31960,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>4</p>\n",
+   "OPT_2": "<p>6</p>\n",
+   "OPT_3": "<p>8</p>\n",
+   "OPT_4": "<p>10</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>The 8086 has how many general-purpose registers?<br data-end=\"960\" data-start=\"957\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 31960
+  },
+  {
+   "_id": 31961,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>16 KB</p>\n",
+   "OPT_2": "<p>64 KB</p>\n",
+   "OPT_3": "<p>1 MB</p>\n",
+   "OPT_4": "<p>4 GB</p>\n",
+   "OUTCOMES": [
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>The 8086 has a physical address space of:<br data-end=\"420\" data-start=\"417\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 31961
+  },
+  {
+   "_id": 31963,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>16-bit logical addressing</p>\n",
+   "OPT_2": "<p>20-bit segmented addressing (Segment + Offset)</p>\n",
+   "OPT_3": "<p>Flat addressing</p>\n",
+   "OPT_4": "<p>Virtual addressing</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The 8086 microprocessor uses which segmentation scheme?<br data-end=\"696\" data-start=\"693\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 31963
+  },
+  {
+   "_id": 31964,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>CS (Code Segment)</p>\n",
+   "OPT_2": "<p>DS (Data Segment)</p>\n",
+   "OPT_3": "<p>ES (Extra Segment)</p>\n",
+   "OPT_4": "<p>HS (Heap Segment)</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT a segment register of the 8086?<br data-end=\"1126\" data-start=\"1123\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "mcq",
+   "key": 31964
+  }
+ ],
+ "sq": [
+  {
+   "_id": 31975,
+   "ANSWER": "<p>8086 is a <strong data-end=\"296\" data-start=\"271\">16-bit microprocessor</strong> with a 16-bit data bus and 20-bit address bus.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"253\" data-start=\"192\"><strong data-end=\"251\" data-start=\"196\">What is the word length of 8086 microprocessor?</strong></h3>\n\n<p data-end=\"345\" data-start=\"254\">&nbsp;</p>\n\n<p data-end=\"372\" data-start=\"281\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 31975
+  },
+  {
+   "_id": 31976,
+   "ANSWER": "<p>EU decodes instructions from the BIU and executes them using ALU, control circuits, and registers.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1045\" data-start=\"987\"><strong data-end=\"1043\" data-start=\"991\">What is the role of the Execution Unit (EU)?</strong></h3>\n\n<p data-end=\"345\" data-start=\"254\">&nbsp;</p>\n\n<p data-end=\"372\" data-start=\"281\">&nbsp;</p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "sq",
+   "key": 31976
+  }
+ ],
+ "lq": [
+  {
+   "_id": 32005,
+   "ANSWER": "<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. Introduction</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The Intel 8086 is a 16-bit microprocessor introduced by Intel in 1978. It marked a major advancement in microprocessor design, serving as the foundation for the x86 family of processors. It is capable of addressing 1 MB of memory and supports multiprogramming, modular design, and efficient instruction execution.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. Architecture of 8086</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The 8086 architecture is divided into two main functional units:</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>(A) Bus Interface Unit (BIU)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Handles all data and address transfers between the processor and memory/IO.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Functions:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction fetching from memory.</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Queuing instructions in a 6-byte instruction queue (pipelining).</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Segment and physical address calculation.</b></span></span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Components:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Segment Registers: CS (Code), DS (Data), SS (Stack), ES (Extra).</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction Pointer (IP): Holds the offset of the next instruction.</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Address Generation Circuitry.</b></span></span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>(B) Execution Unit (EU)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Executes instructions fetched by the BIU.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Functions:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Decoding instructions.</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Performing arithmetic and logical operations.</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Controlling program flow.</b></span></span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Components:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>ALU (Arithmetic Logic Unit) &ndash; Performs arithmetic and logical operations.</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>General Purpose Registers: AX, BX, CX, DX (can be divided into 8-bit halves: AH/AL, BH/BL, etc.).</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Pointer and Index Registers: SP, BP, SI, DI.</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Flags Register: Holds status flags (Zero, Carry, Sign, Parity, Auxiliary Carry, Overflow, etc.) and control flags (Direction, Interrupt Enable, Trap).</b></span></span></span></span></li>\n\t</ul>\n\t</li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Pipelining: While the EU executes one instruction, the BIU pre-fetches the next instruction, improving execution speed.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. Key Features of 8086</b></span></span></span></p>\n\n<ol>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Word Length: 16-bit processor (can process 16-bit data at a time).</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Memory Addressing: 20-bit address bus &rarr; can address 1 MB of memory.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Registers:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>General-purpose (AX, BX, CX, DX).</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Segment registers (CS, DS, SS, ES).</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Special-purpose (IP, SP, BP, SI, DI).</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Flags register (status + control).</b></span></span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction Queue (Pipelining): 6-byte instruction queue enables faster execution.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Operating Modes:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Minimum Mode &ndash; single processor environment.</b></span></span></span></span></li>\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Maximum Mode &ndash; multiprocessor environment (with coprocessors like 8087).</b></span></span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Instruction Set:</b></span></span></span></span>\n\t<ul style=\"list-style-type:circle\">\n\t\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 72.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Rich set including data transfer, arithmetic, logic, control transfer, string operations, and bit manipulation.</b></span></span></span></span></li>\n\t</ul>\n\t</li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Clock Speed: Typically 5&ndash;10 MHz.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>I/O Handling: Supports both memory-mapped and I/O-mapped devices.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Compatibility: Basis for later x86 processors, ensuring backward compatibility.</b></span></span></span></span></li>\n</ol>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Explain the architecture and key features of the Intel 8086 microprocessor.</b></span></span></span></p>\n",
+   "SESSION_ID": 211,
+   "TYPE": "lq",
+   "key": 32005
+  }
+ ]
+}

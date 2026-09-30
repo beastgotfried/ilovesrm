@@ -1,0 +1,147 @@
+{
+ "mcq": [
+  {
+   "_id": 29057,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(b^2-4ac&gt;0\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(b^2-4ac=0\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(b^2-4ac&lt;0\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(b^2+4ac&lt;0\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The curve traces parabola if,&nbsp;</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 29057
+  },
+  {
+   "_id": 29058,
+   "ANSWER": 4,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fu-G=0\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fv-G=0\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fv+G=0\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(Au_{xx}+Bu_{xy}+Cu_{yy}+Du_{x}+Eu{y}+Fu+G=0\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>General form of second order PDE in two independent variables&nbsp;<span class=\"math-tex\">\\(x\\)</span>&nbsp;and&nbsp;<span class=\"math-tex\">\\(y\\)</span>,&nbsp;<span class=\"math-tex\">\\(A, B, C, D, E, F, G\\)</span>&nbsp;are constants:</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 29058
+  },
+  {
+   "_id": 29074,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Hyperbolic</p>\n",
+   "OPT_2": "<p>Parabolic</p>\n",
+   "OPT_3": "<p>Elliptic</p>\n",
+   "OPT_4": "<p>None of these</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Wave equation&nbsp;<span class=\"math-tex\">\\(u_{tt}+u_{xx}=0\\)</span>&nbsp;is</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 29074
+  },
+  {
+   "_id": 29075,
+   "ANSWER": 3,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(B^2(x,y)-4A(x,y)C(x,y)&gt;0 \\)</span>&nbsp;at&nbsp;<span class=\"math-tex\">\\((x,y)\\)</span></p>\n",
+   "OPT_2": "<p><span class=\"math-tex\">\\(B^2(x,y)+4A(x,y)C(x,y)&lt;0 \\)</span>&nbsp;at&nbsp;<span class=\"math-tex\">\\((x,y)\\)</span></p>\n",
+   "OPT_3": "<p><span class=\"math-tex\">\\(B^2(x,y)-4A(x,y)C(x,y)&lt;0 \\)</span>&nbsp;at&nbsp;<span class=\"math-tex\">\\((x,y)\\)</span></p>\n",
+   "OPT_4": "<p><span class=\"math-tex\">\\(B^2(x,y)-4A(x,y)C(x,y)=0 \\)</span>&nbsp;at&nbsp;<span class=\"math-tex\">\\((x,y)\\)</span></p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>A second order linear PDE in two independent variable&nbsp;<span class=\"math-tex\">\\(x \\)</span>&nbsp;and&nbsp;<span class=\"math-tex\">\\(y\\)</span>&nbsp;is said to be elliptic, if&nbsp;</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 29075
+  },
+  {
+   "_id": 29087,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Hyperbolic</p>\n",
+   "OPT_2": "<p>Parabolic</p>\n",
+   "OPT_3": "<p>Elliptic</p>\n",
+   "OPT_4": "<p>None of these</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(u_{xx}-2u_{xy}+u_{yy}\\)</span>&nbsp;is</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "mcq",
+   "key": 29087
+  }
+ ],
+ "sq": [
+  {
+   "_id": 49603,
+   "ANSWER": "<p><span class=\"math-tex\">\\(\u00a0ax\u00b2 + bxy + cy\u00b2 + dx + ey + f = 0\\)</span>&nbsp;-- (3m)</p>\n\n<p>Principal part&nbsp;&nbsp;<span class=\"math-tex\">\\(ax^2+bxy+cy^2\\)</span>&nbsp;-- (2m)</p>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<ol>\n\t<li>The general second-order algebraic equation in two variables is given by ?</li>\n\t<li>The nature of the curve depends on which part of the equation?</li>\n</ol>\n\n<p>&nbsp;</p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "sq",
+   "key": 49603
+  },
+  {
+   "_id": 49609,
+   "ANSWER": "<ul>\n\t<li>hyperbola ---(2 m)</li>\n\t<li>parabola ---(1&nbsp;m)</li>\n\t<li>ellipse --- (2 m)&nbsp;</li>\n</ul>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Depending on the sign of the discriminant&nbsp;&nbsp;<span class=\"math-tex\">\\(b^2- 4ac\\)</span>&nbsp;,</p>\n\n<ul>\n\t<li>if <span class=\"math-tex\">\\(b^2-4ac &gt; 0\\)</span>,&nbsp;<span class=\"math-tex\">\\(\\)</span>the curve traces _________.</li>\n\t<li>if&nbsp;<span class=\"math-tex\">\\(b^2-4ac = 0\\)</span>, the curev traces _________.</li>\n\t<li>if&nbsp;<span class=\"math-tex\">\\(b^2-4ac &lt; 0\\)</span>, the curve traces _________.</li>\n</ul>\n",
+   "SESSION_ID": 301,
+   "TYPE": "sq",
+   "key": 49609
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50388,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>For (i): A=4, B=6, C=9. Compute discriminant: &nbsp;<span class=\"math-tex\">\\(B^2 - 4AC = 36 - 144 = -108 &lt; 0\\Rightarrow\\)</span>&nbsp;elliptic.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>For (ii): A=x^2, B=-2xy, C=y^2. Discriminant: <span class=\"math-tex\">\\(4x^2y^2 - 4x^2y^2 = 0 \\Rightarrow\\)</span> parabolic for all ((x,y) except at origin.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>For (iii): Write as <span class=\"math-tex\">\\(c^2u_{xx} - u_{tt} = -\\sin(x)\\)</span>. A=c^2, B=0, C=-1. Discriminant: <span class=\"math-tex\">\\(0 - 4(c^2)(-1)=4c^2 &gt; 0 \\Rightarrow\\)</span> hyperbolic.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Justify classification: elliptic if <span class=\"math-tex\">\\(B^2-4AC&lt;0\\)</span>, parabolic if =0, hyperbolic if &gt;0.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Discuss physical interpretation: elliptic (steady state), parabolic (heat/diffusion), hyperbolic (wave/vibration).</td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Note: (ii) is parabolic except at origin where coefficients vanish; classify there separately.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Final classification: (i) elliptic, (ii) parabolic, (iii) hyperbolic.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Classify the following PDEs as elliptic, parabolic or hyperbolic and justify your answer:}\\)</span><br />\n<span class=\"math-tex\"><span class=\"math-tex\">\\(i)\\  4u_{xx} + 6u_{xy} + 9u_{yy} + u_x - u_y = 0.\\)</span><br />\n<span class=\"math-tex\">\\(ii)\\  x^2 u_{xx} - 2xy u_{xy} + y^2 u_{yy} = e^x.\\)</span><br />\n<span class=\"math-tex\">\\(iii)\\ \\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2} + \\sin(x).\\)</span></span></p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "lq",
+   "key": 50388
+  },
+  {
+   "_id": 50389,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Identify coefficients:<span class=\"math-tex\">\\( A = 1-x^2, B = -2xy, C = 1-y^2.\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Compute discriminant: <span class=\"math-tex\">\\(\\text{\\(\\Delta = B^2 - 4AC = 4x^2y^2 - 4(1-x^2)(1-y^2)\\)}\\)</span>.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Simplify: <span class=\"math-tex\">\\(\\Delta = 4[x^2y^2 - (1 - x^2 - y^2 + x^2y^2)] = 4(x^2 + y^2 - 1)\\)</span>.</td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Parabolic if <span class=\"math-tex\">\\( \\Delta=0\\Rightarrow x^2 + y^2 = 1 \\)</span>(circle of radius 1).</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Elliptic if <span class=\"math-tex\">\\(\\Delta&lt;0 \\Rightarrow x^2 + y^2 &lt; 1\\)</span> (inside the circle).</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Hyperbolic if&nbsp;<span class=\"math-tex\">\\( \\Delta&gt;0 \\Rightarrow x^2 + y^2 &gt; 1\\)</span> (outside the circle).</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Discuss boundary: on circle parabolic, inside elliptic, outside hyperbolic.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Conclusion with region description.</td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\"><span class=\"math-tex\">\\(\u200b\u200b\u200b\u200b\u200b\u200b\u200b\\text{Classify the PDE: } (1 - x^2)u_{xx} - 2xy u_{xy} + (1 - y^2)u_{yy} + x u_x + 3x^2y u_y - 2u = 0.\\)</span></span></p>\n\n<p><span class=\"math-tex\"><span class=\"math-tex\">\\(\\text{Determine regions in the xy-plane where it is elliptic, parabolic, or hyperbolic.}\\)</span></span></p>\n",
+   "SESSION_ID": 301,
+   "TYPE": "lq",
+   "key": 50389
+  }
+ ]
+}

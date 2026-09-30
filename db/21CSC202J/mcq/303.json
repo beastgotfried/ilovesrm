@@ -1,0 +1,172 @@
+{
+ "mcq": [
+  {
+   "_id": 12338,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Highest priority</p>\n",
+   "OPT_2": "<p>Longest burst time</p>\n",
+   "OPT_3": "<p>Shortest next CPU burst</p>\n",
+   "OPT_4": "<p>Longest remaining time</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>In SJF scheduling, the CPU is assigned to the process with:</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 12338
+  },
+  {
+   "_id": 12340,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>&nbsp;Process with higher priority is selected</p>\n",
+   "OPT_2": "<p>FCFS is used to break the tie</p>\n",
+   "OPT_3": "<p>Round Robin is applied</p>\n",
+   "OPT_4": "<p>Process with shortest arrival time is chosen</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What happens in case of a tie in CPU burst time in SJF?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 12340
+  },
+  {
+   "_id": 12341,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Longer turnaround time</p>\n",
+   "OPT_2": "<p>High response time</p>\n",
+   "OPT_3": "<p>Starvation of longer processes</p>\n",
+   "OPT_4": "<p>Complex Gantt chart</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a disadvantage of SRTF scheduling?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 12341
+  },
+  {
+   "_id": 12343,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>SJF (non-preemptive)</p>\n",
+   "OPT_2": "<p>FCFS</p>\n",
+   "OPT_3": "<p>SRTF</p>\n",
+   "OPT_4": "<p>Priority (non-preemptive)</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which of these scheduling algorithms is <strong data-end=\"1189\" data-start=\"1175\">preemptive</strong> in nature?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 12343
+  },
+  {
+   "_id": 12344,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Round Robin</p>\n",
+   "OPT_2": "<p>SRTF</p>\n",
+   "OPT_3": "<p>Priority</p>\n",
+   "OPT_4": "<p>Multilevel Queue</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Which algorithm guarantees the <strong data-end=\"1371\" data-start=\"1339\">minimum average waiting time</strong> under ideal conditions?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "mcq",
+   "key": 12344
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12347,
+   "ANSWER": "<p>&nbsp;</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th><strong>Point</strong></th>\n\t\t\t<th><strong>Marks</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Definition of SJF</td>\n\t\t\t<td>(30%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Definition of SRTF</td>\n\t\t\t<td>(30%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>One example for each</td>\n\t\t\t<td>(40%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Differentiate between SJF and SRTF scheduling algorithms with suitable examples.</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "sq",
+   "key": 12347
+  },
+  {
+   "_id": 12348,
+   "ANSWER": "<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th><strong>Point</strong></th>\n\t\t\t<th><strong>Marks</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>At least two valid <strong>advantages</strong></td>\n\t\t\t<td>(40%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>At least two valid <strong>disadvantages</strong></td>\n\t\t\t<td>&nbsp;(40%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Overall conclusion/observation (practical feasibility)</td>\n\t\t\t<td>(20%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What are the advantages and disadvantages of SRTF scheduling?</p>\n",
+   "SESSION_ID": 303,
+   "TYPE": "sq",
+   "key": 12348
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12350,
+   "ANSWER": "<p>&nbsp;</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th><strong>Component</strong></th>\n\t\t\t<th><strong>Marks</strong></th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>Correct Gantt Chart for SJF</td>\n\t\t\t<td>&nbsp;(20%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Correct Gantt Chart for SRTF</td>\n\t\t\t<td>&nbsp;(20%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Accurate AWT and TAT calculations for both</td>\n\t\t\t<td>&nbsp;(20%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Meaningful comparison with justification</td>\n\t\t\t<td>(30%)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Structure, clarity, and logical explanation</td>\n\t\t\t<td>&nbsp;(10%)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO3",
+    "PLO4",
+    "PLO12",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p style=\"text-align: justify;\">Consider the following processes. Apply both SJF (non-preemptive) and SRTF (preemptive) algorithms. Draw Gantt charts, calculate Average Waiting Time (AWT) and Turnaround Time (TAT) for both. Compare and justify which one is better based on results.</p>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>Process</th>\n\t\t\t<th>Arrival Time</th>\n\t\t\t<th>Burst Time</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">P1</td>\n\t\t\t<td style=\"text-align: center;\">0</td>\n\t\t\t<td style=\"text-align: center;\">7</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">P2</td>\n\t\t\t<td style=\"text-align: center;\">3</td>\n\t\t\t<td style=\"text-align: center;\">3</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">P3</td>\n\t\t\t<td style=\"text-align: center;\">5</td>\n\t\t\t<td style=\"text-align: center;\">5</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td style=\"text-align: center;\">P4</td>\n\t\t\t<td style=\"text-align: center;\">6</td>\n\t\t\t<td style=\"text-align: center;\">2</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "SESSION_ID": 303,
+   "TYPE": "lq",
+   "key": 12350
+  }
+ ]
+}

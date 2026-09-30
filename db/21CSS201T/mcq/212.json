@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 31967,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Segment &times; 16 + Offset</p>\n",
+   "OPT_2": "<p>b) Segment + Offset</p>\n",
+   "OPT_3": "<p>c) Segment &times; Offset</p>\n",
+   "OPT_4": "<p>d) Segment &ndash; Offset</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1203\" data-start=\"1154\"><strong data-end=\"1203\" data-start=\"1158\">The physical address is calculated as:</strong></h3>\n\n<p data-end=\"1333\" data-start=\"1204\">&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 31967
+  },
+  {
+   "_id": 31968,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Arithmetic operations</p>\n",
+   "OPT_2": "<p>Instruction execution</p>\n",
+   "OPT_3": "<p>Fetching instructions and data from memory</p>\n",
+   "OPT_4": "<p>Controlling interrupts</p>\n",
+   "OUTCOMES": [
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>The <strong data-end=\"706\" data-start=\"678\">Bus Interface Unit (BIU)</strong> in 8086 is responsible for:<br data-end=\"737\" data-start=\"734\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 31968
+  },
+  {
+   "_id": 31970,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>2000:1234 = 20001234H</p>\n",
+   "OPT_2": "<p>(2000H &times; 10H) + 1234H = 21234H</p>\n",
+   "OPT_3": "<p>(2000H &times; 100H) + 1234H = 212340H</p>\n",
+   "OPT_4": "<p>(2000H + 1234H) = 3234H</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In 8086, if <strong data-end=\"1179\" data-start=\"1165\">CS = 2000H</strong> and <strong data-end=\"1198\" data-start=\"1184\">IP = 1234H</strong>, the physical address of the next instruction is:<br data-end=\"1251\" data-start=\"1248\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 31970
+  },
+  {
+   "_id": 31971,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>4 bytes</p>\n",
+   "OPT_2": "<p>6 bytes</p>\n",
+   "OPT_3": "<p>8 bytes</p>\n",
+   "OPT_4": "<p>16 bytes</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The <strong data-end=\"1779\" data-start=\"1738\">maximum size of the instruction queue</strong> in 8086 is:<br data-end=\"1794\" data-start=\"1791\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 31971
+  },
+  {
+   "_id": 49383,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) 8-bit<br data-end=\"1397\" data-start=\"1394\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) 16-bit<br data-end=\"1409\" data-start=\"1406\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) 32-bit<br data-end=\"1421\" data-start=\"1418\" />\n&nbsp;</p>\n",
+   "OPT_4": "<p>d) 64-bit</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1385\" data-start=\"1340\"><strong data-end=\"1385\" data-start=\"1344\">The flag register size of 8086 is:</strong></h3>\n\n<p data-end=\"1454\" data-start=\"1386\">&nbsp;</p>\n\n<p data-end=\"1333\" data-start=\"1204\">&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "mcq",
+   "key": 49383
+  }
+ ],
+ "sq": [
+  {
+   "_id": 31973,
+   "ANSWER": "<p>8086 has a <strong data-end=\"489\" data-start=\"467\">20-bit address bus</strong>, allowing it to address up to <strong data-end=\"540\" data-start=\"520\">1 MB (2&sup2;\u2070 bytes)</strong> of memory.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"448\" data-start=\"379\"><strong data-end=\"446\" data-start=\"383\">What is the maximum memory addressing capacity of 8086?</strong></h3>\n",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 31973
+  },
+  {
+   "_id": 31974,
+   "ANSWER": "<p>8086 is a <strong data-end=\"323\" data-start=\"298\">16-bit microprocessor</strong>, meaning it can process 16-bit data at a time.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"280\" data-start=\"219\"><strong data-end=\"278\" data-start=\"223\">What is the word length of 8086 microprocessor?</strong></h3>\n\n<p data-end=\"372\" data-start=\"281\">&nbsp;</p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "sq",
+   "key": 31974
+  }
+ ],
+ "lq": [
+  {
+   "_id": 32006,
+   "ANSWER": "<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The Intel 8086 is a 16-bit microprocessor introduced in 1978. It is widely used in early personal computers and forms the foundation of the x86 architecture. The working of 8086 can be explained through its architecture, operation, and example instructions.</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>1. Architecture of 8086</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The 8086 has a 20-bit address bus and 16-bit data bus, which allows it to address up to 1 MB of memory. Its architecture is divided into two main units:</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>(a) Bus Interface Unit (BIU)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Responsible for address generation, instruction fetching, and queueing instructions.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Contains Segment Registers (CS, DS, SS, ES), Instruction Pointer (IP), and Instruction Queue (6 bytes).</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Supports pipelining: while the Execution Unit is executing, BIU fetches the next instructions.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>(b) Execution Unit (EU)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Executes the instructions fetched by BIU.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Contains ALU, General-purpose registers (AX, BX, CX, DX), Pointer/Index registers (SP, BP, SI, DI), and Flag register.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Decodes and executes instructions using operands from registers/memory.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>2. Working of 8086</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The working of 8086 can be understood in three main steps:</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>(a) Instruction Fetching (via BIU)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The BIU calculates the physical address using:</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Physical&nbsp;Address=(Segment&nbsp;Register&times;16)+Offset\\text{Physical Address} = (\\text{Segment Register} \\times 16) + \\text{Offset} </b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example: If CS = 1000H and IP = 2000H,</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Physical&nbsp;Address=(1000H&times;10H)+2000H=12000H\\text{Physical Address} = (1000H \\times 10H) + 2000H = 12000H </b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>(b) Instruction Queue &amp; Pipelining</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>BIU uses a 6-byte instruction queue to prefetch instructions.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>This allows overlap of fetching and execution &rarr; increases speed.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>(c) Instruction Execution (via EU)</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>The EU decodes instructions and performs arithmetic, logic, data transfer, or control operations.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Results are stored back in registers or memory.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>3. Example Instruction Execution</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example 1: Data Transfer</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>MOV AX, [5000H]</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>BIU forms physical address using DS and offset 5000H.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Data at that memory location is moved into register AX.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example 2: Arithmetic Operation</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>ADD AX, BX</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>EU adds the content of BX to AX.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Flags (Zero, Carry, Sign, etc.) are updated in the flag register.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Example 3: Control Transfer (Branch)</b></span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>JZ LABEL</b></span></span></span></p>\n\n<ul>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>If Zero flag = 1, control jumps to LABEL.</b></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Otherwise, sequential execution continues.</b></span></span></span></span></li>\n</ul>\n\n<p style=\"margin-bottom:11px\">&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Calibri,sans-serif\"><b>Describe the working of 8086 microprocessor with relevant examples.</b></span></span></span></p>\n",
+   "SESSION_ID": 212,
+   "TYPE": "lq",
+   "key": 32006
+  }
+ ]
+}

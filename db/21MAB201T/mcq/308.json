@@ -1,0 +1,154 @@
+{
+ "mcq": [
+  {
+   "_id": 52760,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 1,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial x} + \\frac{\\partial u}{\\partial t} = 0\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{The one-dimensional wave equation that describes the transverse vibrations of a string is:}\\)</span></p>",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 52760
+  },
+  {
+   "_id": 52761,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(y(x,t)=a\\sin\\left(\\frac{\\pi x}{l}\\right)\\cos\\left(\\frac{\\pi c t}{l}\\right)\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(y(x,t)=a\\sin\\left(\\frac{\\pi x}{l}\\right)\\sin\\left(\\frac{\\pi c t}{l}\\right)\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(y(x,t)=a\\cos\\left(\\frac{\\pi x}{l}\\right)\\cos\\left(\\frac{\\pi c t}{l}\\right)\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(y(x,t)=a\\cos\\left(\\frac{\\pi x}{l}\\right)\\sin\\left(\\frac{\\pi c t}{l}\\right)\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For a string with initial displacement } y(x,0)=a\\sin\\left(\\frac{\\pi x}{l}\\right) \\text{ and zero initial velocity, the solution is:}\\)</span></p>",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 52761
+  },
+  {
+   "_id": 52762,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\partial^2 u}{\\partial t^2} = c^2 \\frac{\\partial^2 u}{\\partial x^2}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\partial^2 u}{\\partial x^2} + \\frac{\\partial^2 u}{\\partial y^2} = 0\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\partial u}{\\partial x} = \\alpha \\frac{\\partial u}{\\partial t}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{The one-dimensional heat equation that describes temperature distribution in a rod is:}\\)</span></p>",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 52762
+  },
+  {
+   "_id": 52763,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(u(x,t) = (A\\cos\\lambda x + B\\sin\\lambda x)e^{\\alpha^2\\lambda^2 t}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(u(x,t) = (A\\cos\\lambda x + B\\sin\\lambda x)e^{-\\alpha^2\\lambda^2 t}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(u(x,t) = (A e^{\\lambda x} + B e^{-\\lambda x})e^{\\alpha^2\\lambda^2 t}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(u(x,t) = Ax + B\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For the heat equation with zero temperature at both ends, the proper transient solution is:}\\)</span></p>",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 52763
+  },
+  {
+   "_id": 52764,
+   "ANSWER": 2,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\text{Expanding } f(x) \\text{ in a Fourier cosine series}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\text{Expanding } f(x) \\text{ in a Fourier half-range sine series}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\text{Direct integration without expansion}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\text{Using the method of characteristics}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{When solving the heat equation with zero boundary conditions and initial temperature } u(x,0)=f(x), \\text{ the coefficients are found by:}\\)</span></p>",
+   "SESSION_ID": 308,
+   "TYPE": "mcq",
+   "key": 52764
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52796,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Heat equation: } \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Boundary conditions: } u(0,t)=0, u(l,t)=0. \\text{ Initial condition: } u(x,0)=\\sin\\frac{\\pi x}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{General solution: } u(x,t)=\\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l} e^{-\\alpha^2 n^2\\pi^2 t/l^2}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{At } t=0: \\sin\\frac{\\pi x}{l} = \\sum_{n=1}^\\infty B_n \\sin\\frac{n\\pi x}{l}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{By orthogonality: } B_1=1, B_n=0 \\text{ for } n\\neq 1.\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Hence } u(x,t) = \\sin\\frac{\\pi x}{l} e^{-\\alpha^2 \\pi^2 t/l^2}.\\)</span></p></td><td>(2 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"\"math-tex\"\">\\(\\text{A rod of length } l \\text{ has ends kept at } 0^\\circ\\text{C}. \\text{ Initial temperature is } u(x,0)=\\sin\\frac{\\pi x}{l}. \\text{ Find } u(x,t).\\)</span></p>",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 52796
+  },
+  {
+   "_id": 52797,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Heat equation: } \\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Boundary conditions: } u(0,t)=0, u(\\pi,t)=0. \\text{ Initial condition: } u(x,0)=x(\\pi-x).\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{General solution: } u(x,t)=\\sum_{n=1}^\\infty B_n \\sin(nx) e^{-\\alpha^2 n^2 t}.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{At } t=0: x(\\pi-x) = \\sum_{n=1}^\\infty B_n \\sin(nx).\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Fourier sine coefficients: } B_n = \\frac{2}{\\pi} \\int_0^\\pi x(\\pi-x) \\sin(nx) dx.\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Evaluate: } B_n = \\frac{4}{n^3\\pi}[1-(-1)^n].\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"\"math-tex\"\">\\(\\text{Hence } u(x,t) = \\frac{8}{\\pi} \\sum_{n=\\text{odd}} \\frac{1}{n^3} \\sin(nx) e^{-\\alpha^2 n^2 t}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"\"math-tex\"\">\\(\\text{A rod of length } \\pi \\text{ has ends at } 0^\\circ\\text{C}. \\text{ Initial temperature is } u(x,0)=x(\\pi-x). \\text{ Find } u(x,t).\\)</span></p>",
+   "SESSION_ID": 308,
+   "TYPE": "sq",
+   "key": 52797
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50402,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{String problem: general solution \\(y(x,t)= \\sum \\sin\\left(\\dfrac{n\\pi x}{l}\\right)\\left[C_n \\cos\\left(\\dfrac{n\\pi c t}{l}\\right)+D_n \\sin\\left(\\dfrac{n\\pi c t}{l}\\right)\\right].\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(y_t(x,0)=0\\) \\(\\Rightarrow\\) \\(D_n=0.\\) \\(y(x,0)= \\sin\\left(\\dfrac{2\\pi x}{l}\\right)+ \\sin\\left(\\dfrac{4\\pi x}{l}\\right)\\) \\(\\Rightarrow\\) \\(C_2=1, C_4=1,\\) others zero.}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(y(x,t)= \\sin\\left(\\dfrac{2\\pi x}{l}\\right) \\cos\\left(\\dfrac{2\\pi c t}{l}\\right) + \\sin\\left(\\dfrac{4\\pi x}{l}\\right) \\cos\\left(\\dfrac{4\\pi c t}{l}\\right).\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Heat equation: general solution \\(u(x,t)= \\sum B_n \\sin(nx) e^{-\\alpha^2 n^2 t}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(u(x,0)= x = \\sum B_n \\sin(nx).\\) Compute \\(B_n = \\dfrac{2}{\\pi} \\int_0^{\\pi} x \\sin(nx) dx.\\)}\\)</span></td>\n\t\t\t<td>&nbsp;</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Integration: \\(B_n = \\dfrac{2}{\\pi} \\left[ \\dfrac{-x \\cos(nx)}{n} + \\dfrac{\\sin(nx)}{n^2} \\right]_0^{\\pi} = \\dfrac{2}{\\pi}\\left(\\dfrac{-\\pi \\cos(n\\pi)}{n}\\right) = -\\dfrac{2}{n} \\cos(n\\pi) = \\dfrac{2}{n}(-1)^{n+1}.\\)}\\)</span></td>\n\t\t\t<td>(3 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus \\(u(x,t)= \\sum\\limits_{n=1}^{\\infty} \\dfrac{2(-1)^{n+1}}{n} \\sin(nx) e^{-\\alpha^2 n^2 t}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Combine both solutions.</td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>Discuss physical difference: heat solution decays exponentially, wave solution oscillates indefinitely.</td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Solve the vibrating string problem: \u00a0$\\frac{\\partial^2 y}{\\partial t^2} = c^2 \\frac{\\partial^2 y}{\\partial x^2}, 0\u00a0$with $y(0,t)=0, y(l,t)=0, y(x,0)= \\sin\\left(\\dfrac{2\\pi x}{l}\\right) + \\sin\\left(\\dfrac{4\\pi x}{l}\\right), y_t(x,0)=0.$}\\\\\n\\text{Also solve the heat equation: $\u00a0\\frac{\\partial u}{\\partial t} = \\alpha^2 \\frac{\\partial^2 u}{\\partial x^2}, 0$\u00a0with \u00a0$u(0,t)=0, u(\\pi,t)=0, u(x,0)= x.$}\\)</span></p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "lq",
+   "key": 50402
+  },
+  {
+   "_id": 50403,
+   "ANSWER": "<table>\n\t<tbody>\n\t\t<tr>\n\t\t\t<th>Step</th>\n\t\t\t<th>Marks</th>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Wave equation: \\(c=2\\) (since \\(c^2=4\\)), \\(l=1.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{General solution: \\(y(x,t)= \\sum \\sin(n\\pi x)\\left[C_n \\cos(2n\\pi t)+D_n \\sin(2n\\pi t)\\right].\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(y(x,0)=0\\) \\(\\Rightarrow\\) \\(C_n=0.\\) So \\(y(x,t)= \\sum D_n \\sin(n\\pi x) \\sin(2n\\pi t).\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(y_t(x,0)= \\sum D_n (2n\\pi) \\sin(n\\pi x) = \\sin(\\pi x)\\cos(\\pi x) = \\dfrac{1}{2} \\sin(2\\pi x).\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus only \\(n=2\\) term: \\(D_2 (4\\pi) \\sin(2\\pi x) = \\dfrac{1}{2} \\sin(2\\pi x)\\) \\(\\Rightarrow\\) \\(D_2 = \\dfrac{1}{8\\pi}.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{So \\(y(x,t)= \\dfrac{1}{8\\pi} \\sin(2\\pi x) \\sin(4\\pi t).\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Classification: \\(A=1\\), \\(B=0\\), \\(C=-y^4.\\) Discriminant \\(\\Delta = 0 - 4(1)(-y^4) = 4y^4.\\)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{\\(\\Delta=0\\) when \\(y=0\\) (parabolic), \\(\\Delta&gt;0\\) when \\(y\\neq 0\\) (hyperbolic)}\\)</span></td>\n\t\t\t<td>(2 Marks)</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td><span class=\"math-tex\">\\(\\text{Thus PDE is hyperbolic for \\(y\\neq 0\\), parabolic on line \\(y=0.\\)}\\)</span></td>\n\t\t\t<td>(1 Mark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Solve the wave equation: \u00a0$\\frac{\\partial^2 y}{\\partial t^2} = 4 \\frac{\\partial^2 y}{\\partial x^2}$}\\\\\n\\text{with \\(y(0,t)=0, y(1,t)=0, y(x,0)=0, y_t(x,0)= \\sin(\\pi x) \\cos(\\pi x).\\)}\\\\\n\\text{Also classify the PDE: \\(\u00a0u_{xx} - y^4 u_{yy} - 2y^3 u_y = 0.\\)}\\)</span></p>\n",
+   "SESSION_ID": 308,
+   "TYPE": "lq",
+   "key": 50403
+  }
+ ]
+}

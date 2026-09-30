@@ -1,0 +1,154 @@
+{
+ "mcq": [
+  {
+   "_id": 52838,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\int_{-\\infty}^\\infty |f(x)|^2 dx = \\int_{-\\infty}^\\infty |F(s)|^2 ds\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\int_{-\\infty}^\\infty f(x) dx = \\int_{-\\infty}^\\infty F(s) ds\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\int_{-\\infty}^\\infty |f(x)| dx = \\int_{-\\infty}^\\infty |F(s)| ds\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\int_{-\\infty}^\\infty f(x)^2 dx = \\int_{-\\infty}^\\infty F(s)^2 ds\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Parseval's identity for Fourier transforms states that:}\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 52838
+  },
+  {
+   "_id": 52839,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{3}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{4}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{6}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Given the Fourier transform pair } f(x) = \\begin{cases} 1-|x|, & |x| \\leq 1 \\\\ 0, & |x| > 1 \\end{cases}, F(s) = \\frac{4}{\\sqrt{2\\pi}} \\left( \\frac{\\sin(s/2)}{s} \\right)^2, \\text{ use Parseval's identity to find } \\int_0^\\infty \\left( \\frac{\\sin t}{t} \\right)^4 dt.\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 52839
+  },
+  {
+   "_id": 52840,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2a^3}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{a^3}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2a}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{4a^3}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{If } f(x) = e^{-a|x|} \\text{ and } F(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{a}{s^2+a^2}, \\text{ use Parseval's identity to find } \\int_{-\\infty}^\\infty \\frac{dx}{(x^2+a^2)^2}.\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 52840
+  },
+  {
+   "_id": 52841,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\pi a}{2}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\pi a}{4}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2a}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Parseval's identity and the Fourier transform of the rectangular pulse } f(x) = \\begin{cases} 1, & |x| \\leq a \\\\ 0, & |x| > a \\end{cases}, \\text{ prove that } \\int_0^\\infty \\left( \\frac{\\sin t}{t} \\right)^2 dt = \\frac{\\pi}{2}. \\text{ What is the value of } \\int_0^\\infty \\left( \\frac{\\sin(at)}{t} \\right)^2 dt?\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 52841
+  },
+  {
+   "_id": 52842,
+   "ANSWER": 1,
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OPT_1": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{15}\\)</span></p>",
+   "OPT_2": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{8}\\)</span></p>",
+   "OPT_3": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{4}\\)</span></p>",
+   "OPT_4": "<p><span class=\"math-tex\">\\(\\frac{\\pi}{2}\\)</span></p>",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{For the function } f(x) = \\begin{cases} a^2-x^2, & |x| \\leq a \\\\ 0, & |x| > a \\end{cases} \\text{ with Fourier transform } F(s) = \\frac{4}{\\sqrt{2\\pi}} \\left( \\frac{\\sin(as)-as\\cos(as)}{s^3} \\right), \\text{ use Parseval's identity to find } \\int_0^\\infty \\left( \\frac{\\sin t - t\\cos t}{t^3} \\right)^2 dt.\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "mcq",
+   "key": 52842
+  }
+ ],
+ "sq": [
+  {
+   "_id": 52817,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Identity: } \\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} |F(s)|^2 ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Proof: Start from convolution theorem with } g(x) = \\overline{f(-x)}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Then } F[g] = \\overline{F(s)} \\text{ and } (f*g)(0) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(t) \\overline{f(t)} dt\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Also, } (f*g)(0) = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} F(s) \\overline{F(s)} ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Equating gives the identity.}\\)</span></p></td><td></td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State and prove Parseval's identity for Fourier transforms.}\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "sq",
+   "key": 52817
+  },
+  {
+   "_id": 52818,
+   "ANSWER": "<table><tr><th>Upto the step</th><th>Marks</th></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Take } f(x)=e^{-|x|}, \\text{ then } F(s) = \\sqrt{\\frac{2}{\\pi}} \\frac{1}{1+s^2}\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Parseval: } \\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} e^{-2|x|} dx = 2 \\int_{0}^{\\infty} e^{-2x} dx = 1\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\int_{-\\infty}^{\\infty} |F(s)|^2 ds = \\int_{-\\infty}^{\\infty} \\frac{2}{\\pi} \\frac{1}{(1+s^2)^2} ds = \\frac{4}{\\pi} \\int_{0}^{\\infty} \\frac{1}{(1+s^2)^2} ds\\)</span></p></td><td>(2 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Equate: } 1 = \\frac{4}{\\pi} \\int_{0}^{\\infty} \\frac{1}{(1+s^2)^2} ds\\)</span></p></td><td>(1 Mark)</td></tr><tr><td><p><span class=\"math-tex\">\\(\\text{Hence } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)^2} = \\frac{\\pi}{4}.\\)</span></p></td><td>(1 Mark)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Parseval's identity, evaluate } \\int_{0}^{\\infty} \\frac{dx}{(x^2+1)^2}.\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "sq",
+   "key": 52818
+  }
+ ],
+ "lq": [
+  {
+   "_id": 50686,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Parseval's identity: \\(\\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} |F(s)|^2 ds\\)</td><td>(4)</td></tr><tr><td>where \\(F(s) = \\mathcal{F}\\{f(x)\\} = \\frac{1}{\\sqrt{2\\pi}} \\int_{-\\infty}^{\\infty} f(x) e^{isx} dx\\)</td><td>(3)</td></tr><tr><td>Interpretation: Energy in time domain = Energy in frequency domain</td><td>(2)</td></tr><tr><td>Generalization: \\(\\int_{-\\infty}^{\\infty} f(x) \\overline{g(x)} dx = \\int_{-\\infty}^{\\infty} F(s) \\overline{G(s)} ds\\)</td><td>(3)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{State Parseval's identity for Fourier transform.}\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "lq",
+   "key": 50686
+  },
+  {
+   "_id": 50687,
+   "ANSWER": "<table><tr><th>Step</th><th>Marks</th></tr><tr><td>Let \\(f(x) = e^{-|x|}\\), then \\(F(s) = \\mathcal{F}\\{e^{-|x|\\}\\} = \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{1}{1+s^2}\\)</td><td>(3)</td></tr><tr><td>Parseval's identity: \\(\\int_{-\\infty}^{\\infty} |f(x)|^2 dx = \\int_{-\\infty}^{\\infty} |F(s)|^2 ds\\)</td><td>(2)</td></tr><tr><td>LHS: \\(\\int_{-\\infty}^{\\infty} e^{-2|x|} dx = 2\\int_{0}^{\\infty} e^{-2x} dx = 2 \\cdot \\frac{1}{2} = 1\\)</td><td>(3)</td></tr><tr><td>RHS: \\(\\int_{-\\infty}^{\\infty} \\left( \\sqrt{\\frac{2}{\\pi}} \\cdot \\frac{1}{1+s^2} \\right)^2 ds = \\frac{2}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{ds}{(1+s^2)^2}\\)</td><td>(3)</td></tr><tr><td>Thus \\(1 = \\frac{2}{\\pi} \\int_{-\\infty}^{\\infty} \\frac{ds}{(1+s^2)^2}\\)</td><td>(2)</td></tr><tr><td>Therefore \\(\\int_{-\\infty}^{\\infty} \\frac{ds}{(1+s^2)^2} = \\frac{\\pi}{2}\\)</td><td>(2)</td></tr></table>",
+   "COURSE_CODE": "21MAB201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span class=\"math-tex\">\\(\\text{Using Parseval's identity, evaluate } \\int_{-\\infty}^{\\infty} \\frac{dx}{(1+x^2)^2}.\\)</span></p>",
+   "SESSION_ID": 410,
+   "TYPE": "lq",
+   "key": 50687
+  }
+ ]
+}

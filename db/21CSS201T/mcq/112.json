@@ -1,0 +1,135 @@
+{
+ "mcq": [
+  {
+   "_id": 25978,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>All inputs are LOW</p>\n",
+   "OPT_2": "<p>All inputs are HIGH</p>\n",
+   "OPT_3": "<p>At least one input is HIGH</p>\n",
+   "OPT_4": "<p>Only when inputs are differen</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>An OR gate produces a HIGH output when:</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 25978
+  },
+  {
+   "_id": 25979,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>AND</p>\n",
+   "OPT_2": "<p>OR</p>\n",
+   "OPT_3": "<p>XOR</p>\n",
+   "OPT_4": "<p>NOR</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following gates can be used to implement all other logic gates?</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 25979
+  },
+  {
+   "_id": 25981,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>All inputs are LOW</p>\n",
+   "OPT_2": "<p>Inputs are equal</p>\n",
+   "OPT_3": "<p>Inputs are different</p>\n",
+   "OPT_4": "<p>All inputs are HIGH</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>An XOR gate gives HIGH output when:</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 25981
+  },
+  {
+   "_id": 25983,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A &middot; B</p>\n",
+   "OPT_2": "<p>A + B</p>\n",
+   "OPT_3": "<p>(A &middot; B)\u0305</p>\n",
+   "OPT_4": "<p>A\u0305 + B\u0305</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which Boolean expression is logically equivalent to an AND gate followed by a NOT gate?</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 25983
+  },
+  {
+   "_id": 25984,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>A = 0, B = 0</p>\n",
+   "OPT_2": "<p>A = 1, B = 0</p>\n",
+   "OPT_3": "<p>A = 0, B = 1</p>\n",
+   "OPT_4": "<p>A = 1, B = 1</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The output of a 2-input NAND gate is 0. What are the input values?</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "mcq",
+   "key": 25984
+  }
+ ],
+ "sq": [
+  {
+   "_id": 25974,
+   "ANSWER": "<p>NAND is the inverse of the AND gate, while NOR is the inverse of the OR gate.<br data-end=\"271\" data-start=\"268\" />\nNAND gives 0 only when all inputs are 1.<br data-end=\"314\" data-start=\"311\" />\nNOR gives 1 only when all inputs are 0.<br data-end=\"356\" data-start=\"353\" />\nBoth are <strong data-end=\"384\" data-start=\"365\">universal gates</strong>, meaning any logic circuit can be built from them.<br data-end=\"438\" data-start=\"435\" />\nThey are widely used in digital logic design for their versatility.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>What is the difference between NAND and NOR gates?</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "sq",
+   "key": 25974
+  },
+  {
+   "_id": 25976,
+   "ANSWER": "<p>A NOT gate inverts its input (i.e., outputs the opposite).<br data-end=\"1049\" data-start=\"1046\" />\nTo build it using a NAND gate, connect <strong data-end=\"1122\" data-start=\"1088\">both inputs to the same signal</strong>:<br data-end=\"1126\" data-start=\"1123\" />\n<code data-end=\"1145\" data-start=\"1126\">Y = A NAND A = A\u0305</code>.<br data-end=\"1149\" data-start=\"1146\" />\nThis configuration uses the NAND gate as an inverter.<br data-end=\"1205\" data-start=\"1202\" />\nIt demonstrates how universal gates can replicate basic functions.</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>How can a NOT gate be made using a NAND gate?</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "sq",
+   "key": 25976
+  }
+ ],
+ "lq": [
+  {
+   "_id": 25972,
+   "ANSWER": "<p>&nbsp;</p>\n\n<h3>\ud83d\udd39 <strong>1. Basic Logic Gates: AND, OR, NOT</strong></h3>\n\n<hr />\n<h4>\u27a4 <strong>AND Gate</strong></h4>\n\n<ul>\n\t<li>\n\t<p><strong>Working Principle:</strong><br />\n\tThe AND gate outputs <code inline=\"\">1</code> <strong>only when all inputs are 1</strong>.</p>\n\t</li>\n\t<li>\n\t<p><strong>Symbol:</strong><br />\n\tA flat-ended gate with two or more inputs and one output.</p>\n\t</li>\n\t<li>\n\t<p><strong>Expression:</strong> <code inline=\"\">Y = A &middot; B</code></p>\n\t</li>\n\t<li>\n\t<p><strong>Truth Table:</strong></p>\n\t</li>\n</ul>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>Y = A AND B</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p><strong>Use:</strong> Control systems, where all conditions must be true to activate output (e.g., both buttons pressed).</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>OR Gate</strong></h4>\n\n<ul>\n\t<li>\n\t<p><strong>Working Principle:</strong><br />\n\tThe OR gate outputs <code inline=\"\">1</code> if <strong>at least one input is 1</strong>.</p>\n\t</li>\n\t<li>\n\t<p><strong>Symbol:</strong><br />\n\tA curved input side with one output.</p>\n\t</li>\n\t<li>\n\t<p><strong>Expression:</strong> <code inline=\"\">Y = A + B</code></p>\n\t</li>\n\t<li>\n\t<p><strong>Truth Table:</strong></p>\n\t</li>\n</ul>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>Y = A OR B</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p><strong>Use:</strong> Alarm systems, where any sensor triggers the output.</p>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>NOT Gate (Inverter)</strong></h4>\n\n<ul>\n\t<li>\n\t<p><strong>Working Principle:</strong><br />\n\tThe NOT gate <strong>inverts</strong> the input.</p>\n\t</li>\n\t<li>\n\t<p><strong>Symbol:</strong><br />\n\tA triangle pointing to a small circle (bubble).</p>\n\t</li>\n\t<li>\n\t<p><strong>Expression:</strong> <code inline=\"\">Y = &not;A</code> or <code inline=\"\">Y = A\u0305</code></p>\n\t</li>\n\t<li>\n\t<p><strong>Truth Table:</strong></p>\n\t</li>\n</ul>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>Y = NOT A</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p><strong>Use:</strong> Control logic, toggle switches, bit flipping.</p>\n\t</li>\n</ul>\n\n<hr />\n<h3>\ud83d\udd39 <strong>2. Constructing Logic Expressions/Circuits</strong></h3>\n\n<ul>\n\t<li>\n\t<p><strong>Example 1:</strong> Expression: <code inline=\"\">Y = A &middot; (B + C)</code></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Meaning: B or C must be true, AND A must also be true.</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Construct using one OR gate (B, C), then an AND gate (A and OR output).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Example 2:</strong> Circuit with switches A and B controlling a lamp:</p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>If both are ON &rarr; lamp lights &rarr; use <code inline=\"\">AND</code>.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr />\n<h3>\ud83d\udd39 <strong>3. Universal Gates: NOR and NAND</strong></h3>\n\n<hr />\n<h4>\u27a4 <strong>NOR Gate (NOT + OR)</strong></h4>\n\n<ul>\n\t<li>\n\t<p><strong>Working Principle:</strong><br />\n\tOutputs <code inline=\"\">1</code> <strong>only when all inputs are 0</strong>.</p>\n\t</li>\n\t<li>\n\t<p><strong>Symbol:</strong> OR gate with a small circle at the output.</p>\n\t</li>\n\t<li>\n\t<p><strong>Expression:</strong> <code inline=\"\">Y = &not;(A + B)</code></p>\n\t</li>\n\t<li>\n\t<p><strong>Truth Table:</strong></p>\n\t</li>\n</ul>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>A + B</th>\n\t\t\t<th>Y = NOR</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p><strong>Use in Gate Construction:</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p><strong>NOT using NOR:</strong><br />\n\t\t<code inline=\"\">A NOR A = A\u0305</code></p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>OR using NOR:</strong><br />\n\t\tInvert inputs first: <code inline=\"\">(A NOR A) NOR (B NOR B) = A + B</code></p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>AND using NOR:</strong><br />\n\t\tApply DeMorgan&rsquo;s Theorem: <code inline=\"\">A &middot; B = ((A NOR A) NOR (B NOR B)) NOR ((A NOR A) NOR (B NOR B))</code></p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>NAND Gate (NOT + AND)</strong></h4>\n\n<ul>\n\t<li>\n\t<p><strong>Working Principle:</strong><br />\n\tOutputs <code inline=\"\">0</code> <strong>only when all inputs are 1</strong>.</p>\n\t</li>\n\t<li>\n\t<p><strong>Symbol:</strong> AND gate with a small circle at the output.</p>\n\t</li>\n\t<li>\n\t<p><strong>Expression:</strong> <code inline=\"\">Y = &not;(A &middot; B)</code></p>\n\t</li>\n\t<li>\n\t<p><strong>Truth Table:</strong></p>\n\t</li>\n</ul>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>A &middot; B</th>\n\t\t\t<th>Y = NAND</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p><strong>Use in Gate Construction:</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p><strong>NOT using NAND:</strong><br />\n\t\t<code inline=\"\">A NAND A = A\u0305</code></p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>AND using NAND:</strong><br />\n\t\t<code inline=\"\">(A &middot; B) = (A NAND B) NAND (A NAND B)</code></p>\n\t\t</li>\n\t\t<li>\n\t\t<p><strong>OR using NAND:</strong><br />\n\t\tApply DeMorgan&rsquo;s: <code inline=\"\">A + B = (A\u0305 &middot; B\u0305)\u0305</code>, where <code inline=\"\">A\u0305 = A NAND A</code>, etc.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li>\n\t<p><strong>Importance:</strong><br />\n\t<strong>NAND</strong> and <strong>NOR</strong> are <em>universal gates</em> &ndash; any logic gate can be built using just NAND or just NOR gates.</p>\n\t</li>\n</ul>\n\n<hr />\n<h3>\ud83d\udd39 <strong>4. Exclusive Gates: XOR and XNOR</strong></h3>\n\n<hr />\n<h4>\u27a4 <strong>XOR (Exclusive-OR) Gate</strong></h4>\n\n<ul>\n\t<li>\n\t<p><strong>Working Principle:</strong><br />\n\tOutputs <code inline=\"\">1</code> <strong>only when inputs differ</strong>.</p>\n\t</li>\n\t<li>\n\t<p><strong>Symbol:</strong> OR gate with an extra curved input line.</p>\n\t</li>\n\t<li>\n\t<p><strong>Expression:</strong> <code inline=\"\">Y = A &oplus; B = A\u0305&middot;B + A&middot;B\u0305</code></p>\n\t</li>\n\t<li>\n\t<p><strong>Truth Table:</strong></p>\n\t</li>\n</ul>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>Y = A &oplus; B</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p><strong>Applications:</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Binary addition (half adder)</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Parity checking</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Bit toggling</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr />\n<h4>\u27a4 <strong>XNOR (Exclusive-NOR) Gate</strong></h4>\n\n<ul>\n\t<li>\n\t<p><strong>Working Principle:</strong><br />\n\tOutputs <code inline=\"\">1</code> <strong>only when inputs are the same</strong>.</p>\n\t</li>\n\t<li>\n\t<p><strong>Symbol:</strong> XOR gate with a small output circle.</p>\n\t</li>\n\t<li>\n\t<p><strong>Expression:</strong> <code inline=\"\">Y = A &oplus; B\u0305 = A&middot;B + A\u0305&middot;B\u0305</code></p>\n\t</li>\n\t<li>\n\t<p><strong>Truth Table:</strong></p>\n\t</li>\n</ul>\n\n<table>\n\t<thead>\n\t\t<tr>\n\t\t\t<th>A</th>\n\t\t\t<th>B</th>\n\t\t\t<th>Y = A \u2299 B</th>\n\t\t</tr>\n\t</thead>\n\t<tbody>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>0</td>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>0</td>\n\t\t\t<td>0</td>\n\t\t</tr>\n\t\t<tr>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t\t<td>1</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<ul>\n\t<li>\n\t<p><strong>Applications:</strong></p>\n\n\t<ul>\n\t\t<li>\n\t\t<p>Equality detectors</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Comparator circuits</p>\n\t\t</li>\n\t\t<li>\n\t\t<p>Controlled inverters</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr />\n<h3>\u2705 <strong>Conclusion:</strong></h3>\n\n<p>Logic gates are the fundamental building blocks of digital electronics.</p>\n\n<ul>\n\t<li>\n\t<p><strong>AND, OR, and NOT</strong> are basic operations.</p>\n\t</li>\n\t<li>\n\t<p><strong>NOR and NAND</strong> are powerful universal gates used to implement any logic.</p>\n\t</li>\n\t<li>\n\t<p><strong>XOR and XNOR</strong> serve specialized purposes like parity, comparison, and control logic.<br />\n\tUnderstanding their behavior, truth tables, and how to combine them is essential for designing any digital system.</p>\n\t</li>\n</ul>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO13"
+   ],
+   "QUESTION_DESC": "<p>Explain the working principles, symbols, and truth tables of the basic logic gates: AND, OR, and NOT. Interpret and construct simple logical expressions or circuits using these gates. Further, describe the logic functions of NOR and NAND gates, and show how they can be used to implement AND, OR, and NOT operations. Finally, explain the operation, truth table, and practical applications of the Exclusive-OR (XOR) and Exclusive-NOR (XNOR) gates.</p>\n",
+   "SESSION_ID": 112,
+   "TYPE": "lq",
+   "key": 25972
+  }
+ ]
+}

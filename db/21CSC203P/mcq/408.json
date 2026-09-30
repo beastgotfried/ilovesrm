@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9637,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) It uses a single powerful computer</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) It reduces communication overhead</p>\n",
+   "OPT_3": "<p>C) It enables scalability by using multiple independent systems</p>\n",
+   "OPT_4": "<p>D) It eliminates the need for network protocols</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"257\" data-start=\"197\"><strong data-end=\"257\" data-start=\"201\">1. What is a key advantage of distributed computing?</strong></h3>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 9637
+  },
+  {
+   "_id": 9638,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) All processes run on a single core</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) Tasks are split across multiple machines with their own memory and processors</p>\n",
+   "OPT_3": "<p>C) All data is stored on one machine and accessed sequentially</p>\n",
+   "OPT_4": "<p>D) All threads share a single process</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"624\" data-start=\"539\"><strong data-end=\"624\" data-start=\"543\">2. Which of the following best describes a distributed computing environment?</strong></h3>\n\n<p data-end=\"853\" data-start=\"626\"><br data-end=\"666\" data-start=\"663\" />\n<br data-end=\"749\" data-start=\"746\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 9638
+  },
+  {
+   "_id": 9639,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Data must be tightly synchronized and accessed frequently by all tasks</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) Each task runs on a different machine with minimal data sharing</p>\n",
+   "OPT_3": "<p>C) The system has no support for threads</p>\n",
+   "OPT_4": "<p>D) Communication cost is a major concern</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1028\" data-start=\"956\"><strong data-end=\"1028\" data-start=\"960\">3. In which scenario is a <strong data-end=\"1005\" data-start=\"988\">shared memory</strong> model more suitable?</strong></h3>\n\n<p data-end=\"1260\" data-start=\"1030\">&nbsp;</p>\n\n<p data-end=\"853\" data-start=\"626\"><br data-end=\"666\" data-start=\"663\" />\n<br data-end=\"749\" data-start=\"746\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 9639
+  },
+  {
+   "_id": 9640,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) For real-time data streaming from sensors on one machine</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) For tasks that require minimal inter-process communication and can run independently</p>\n",
+   "OPT_3": "<p>C) When all tasks use a common data structure</p>\n",
+   "OPT_4": "<p>D) For multi-threaded operations in a local environment</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1435\" data-start=\"1356\"><strong data-end=\"1435\" data-start=\"1360\">4. When is a <strong data-end=\"1397\" data-start=\"1375\">distributed memory</strong> model preferred over shared memory?</strong></h3>\n\n<p data-end=\"1694\" data-start=\"1437\"><br data-end=\"1499\" data-start=\"1496\" />\n<br data-end=\"1589\" data-start=\"1586\" />\n&nbsp;</p>\n\n<p data-end=\"1260\" data-start=\"1030\">&nbsp;</p>\n\n<p data-end=\"853\" data-start=\"626\"><br data-end=\"666\" data-start=\"663\" />\n<br data-end=\"749\" data-start=\"746\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 9640
+  },
+  {
+   "_id": 9641,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) By minimizing memory usage on a single device</p>\n",
+   "OPT_2": "<p style=\"text-align: justify;\">B) By allocating tasks across multiple machines based on available resources</p>\n",
+   "OPT_3": "<p>C) By running only one process at a time</p>\n",
+   "OPT_4": "<p>D) By using GPU-only computation</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"1875\" data-start=\"1804\"><strong data-end=\"1875\" data-start=\"1808\">5. How does distributed computing support resource scalability?</strong></h3>\n\n<p data-end=\"1694\" data-start=\"1437\"><br data-end=\"1499\" data-start=\"1496\" />\n<br data-end=\"1589\" data-start=\"1586\" />\n&nbsp;</p>\n\n<p data-end=\"1260\" data-start=\"1030\">&nbsp;</p>\n\n<p data-end=\"853\" data-start=\"626\"><br data-end=\"666\" data-start=\"663\" />\n<br data-end=\"749\" data-start=\"746\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "mcq",
+   "key": 9641
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9856,
+   "ANSWER": "<p><br data-end=\"4119\" data-start=\"4116\" />\nDistributed computing lets parts of an application run on multiple systems across locations.<br data-end=\"5177\" data-start=\"5174\" />\nIt improves fault tolerance, scalability, and load distribution.<br data-end=\"5244\" data-start=\"5241\" />\nThis is ideal for cloud-based, high-traffic services.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4958\" data-start=\"4681\">A company&rsquo;s app needs to scale across regions. Why use distributed computing?<br data-end=\"5082\" data-start=\"5079\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "sq",
+   "key": 9856
+  },
+  {
+   "_id": 9857,
+   "ANSWER": "<p><br data-end=\"5369\" data-start=\"5366\" />\nShared memory is limited to a single system or tightly-coupled environments.<br data-end=\"5448\" data-start=\"5445\" />\nIt doesn&#39;t scale well across multiple machines or regions.<br data-end=\"5509\" data-start=\"5506\" />\nIn such cases, distributed memory with message passing is preferred.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p data-end=\"4958\" data-start=\"4681\">In which situation is a shared model insufficient?<br data-end=\"5360\" data-start=\"5357\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "sq",
+   "key": 9857
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9838,
+   "ANSWER": "<h3 data-end=\"166\" data-start=\"93\"><strong data-end=\"164\" data-start=\"97\">1. Definition and Principles of Distributed Computing (5 marks)</strong></h3>\n\n<p data-end=\"316\" data-start=\"167\"><strong data-end=\"192\" data-start=\"167\">Distributed computing</strong> is a model where tasks are split across multiple machines (nodes) that communicate over a network.<br data-end=\"294\" data-start=\"291\" />\n<strong data-end=\"313\" data-start=\"294\">Core principles</strong>:</p>\n\n<ul data-end=\"510\" data-start=\"317\">\n\t<li data-end=\"356\" data-start=\"317\">\n\t<p data-end=\"356\" data-start=\"319\"><strong data-end=\"339\" data-start=\"319\">Resource sharing</strong> (CPU, storage)</p>\n\t</li>\n\t<li data-end=\"397\" data-start=\"357\">\n\t<p data-end=\"397\" data-start=\"359\"><strong data-end=\"374\" data-start=\"359\">Scalability</strong> (horizontal scaling)</p>\n\t</li>\n\t<li data-end=\"458\" data-start=\"398\">\n\t<p data-end=\"458\" data-start=\"400\"><strong data-end=\"419\" data-start=\"400\">Fault tolerance</strong> (if one node fails, others continue)</p>\n\t</li>\n\t<li data-end=\"510\" data-start=\"459\">\n\t<p data-end=\"510\" data-start=\"461\"><strong data-end=\"477\" data-start=\"461\">Transparency</strong> in communication and data access</p>\n\t</li>\n</ul>\n\n<h3 data-end=\"579\" data-start=\"517\"><strong data-end=\"577\" data-start=\"521\">2. Shared vs Distributed Memory Comparison (6 marks)</strong></h3>\n\n<table data-end=\"1198\" data-start=\"581\">\n\t<thead data-end=\"683\" data-start=\"581\">\n\t\t<tr data-end=\"683\" data-start=\"581\">\n\t\t\t<th data-col-size=\"sm\" data-end=\"602\" data-start=\"581\">Feature</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"640\" data-start=\"602\">Shared Memory</th>\n\t\t\t<th data-col-size=\"sm\" data-end=\"683\" data-start=\"640\">Distributed Memory</th>\n\t\t</tr>\n\t</thead>\n\t<tbody data-end=\"1198\" data-start=\"787\">\n\t\t<tr data-end=\"889\" data-start=\"787\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"808\" data-start=\"787\">Communication</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"846\" data-start=\"808\">Via shared variables</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"889\" data-start=\"846\">Via message passing</td>\n\t\t</tr>\n\t\t<tr data-end=\"992\" data-start=\"890\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"911\" data-start=\"890\">Scalability</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"949\" data-start=\"911\">Limited (single system)</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"992\" data-start=\"949\">High (multi-node clusters)</td>\n\t\t</tr>\n\t\t<tr data-end=\"1095\" data-start=\"993\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1014\" data-start=\"993\">Fault Tolerance</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1052\" data-start=\"1014\">Low</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1095\" data-start=\"1052\">High</td>\n\t\t</tr>\n\t\t<tr data-end=\"1198\" data-start=\"1096\">\n\t\t\t<td data-col-size=\"sm\" data-end=\"1117\" data-start=\"1096\">Use Case Example</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1155\" data-start=\"1117\">Real-time graphics rendering</td>\n\t\t\t<td data-col-size=\"sm\" data-end=\"1198\" data-start=\"1155\">Big data processing (Hadoop, Spark)</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><button></button><strong data-end=\"1258\" data-start=\"1209\">3. Recommendation and Justification (4 marks)</strong></p>\n\n<p data-end=\"1335\" data-start=\"1261\"><strong data-end=\"1279\" data-start=\"1261\">Recommendation</strong>: Distributed memory architecture<br data-end=\"1315\" data-start=\"1312\" />\n<strong data-end=\"1332\" data-start=\"1315\">Justification</strong>:</p>\n\n<ul data-end=\"1540\" data-start=\"1336\">\n\t<li data-end=\"1414\" data-start=\"1336\">\n\t<p data-end=\"1414\" data-start=\"1338\">E-commerce analytics requires <strong data-end=\"1380\" data-start=\"1368\">scalable</strong> and <strong data-end=\"1403\" data-start=\"1385\">fault-tolerant</strong> systems.</p>\n\t</li>\n\t<li data-end=\"1540\" data-start=\"1415\">\n\t<p data-end=\"1540\" data-start=\"1417\">Distributed systems can handle <strong data-end=\"1479\" data-start=\"1448\">large datasets across nodes</strong>, ensuring high performance even with growing users and data.</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"518\" data-start=\"148\">You are part of a data engineering team handling a large-scale analytics system for an e-commerce platform. As daily transactions grow, your team is evaluating whether to use <strong data-end=\"356\" data-start=\"339\">shared memory</strong> or <strong data-end=\"385\" data-start=\"360\">distributed computing</strong> to scale the system efficiently. The goal is to process huge volumes of data across multiple nodes with high availability and speed.</p>\n\n<p data-end=\"529\" data-start=\"520\"><strong data-end=\"529\" data-start=\"520\">Task:</strong></p>\n\n<ol data-end=\"929\" data-start=\"531\">\n\t<li data-end=\"613\" data-start=\"531\">\n\t<p data-end=\"613\" data-start=\"534\"><strong data-end=\"544\" data-start=\"534\">Define</strong> distributed computing and explain its core principles. <em data-end=\"611\" data-start=\"600\">(5 marks)</em></p>\n\t</li>\n\t<li data-end=\"734\" data-start=\"614\">\n\t<p data-end=\"734\" data-start=\"617\"><strong data-end=\"628\" data-start=\"617\">Compare</strong> shared memory and distributed memory models with examples of suitable real-world use cases. <em data-end=\"732\" data-start=\"721\">(6 marks)</em></p>\n\t</li>\n\t<li data-end=\"929\" data-start=\"735\">\n\t<p data-end=\"929\" data-start=\"738\"><strong data-end=\"751\" data-start=\"738\">Recommend</strong> which architecture (shared or distributed) is more suitable for the e-commerce analytics system, and justify your choice in terms of scalability and fault tolerance. <em data-end=\"929\" data-start=\"918\">(4 marks)</em></p>\n\t</li>\n</ol>\n\n<p data-end=\"492\" data-start=\"153\">&nbsp;</p>\n",
+   "SESSION_ID": 408,
+   "TYPE": "lq",
+   "key": 9838
+  }
+ ]
+}

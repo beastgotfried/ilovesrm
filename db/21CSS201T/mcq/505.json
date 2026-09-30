@@ -1,0 +1,147 @@
+{
+ "mcq": [
+  {
+   "_id": 28847,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) CISC</p>\n",
+   "OPT_2": "<p>b) RISC</p>\n",
+   "OPT_3": "<p>c) VLIW</p>\n",
+   "OPT_4": "<p>d) EPIC</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which type of instruction set architecture does ARM use?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 28847
+  },
+  {
+   "_id": 28848,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>High power consumption</p>\n",
+   "OPT_2": "<p>b) Low power consumption</p>\n",
+   "OPT_3": "<p>c) Large instruction sets</p>\n",
+   "OPT_4": "<p>d) Lack of portability</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>ARM processors are mainly known for:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 28848
+  },
+  {
+   "_id": 28849,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) The address of the current instruction</p>\n",
+   "OPT_2": "<p>b) The address of the next instruction to be executed</p>\n",
+   "OPT_3": "<p>c) The address of the previous instruction</p>\n",
+   "OPT_4": "<p>d) The value of a register</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>In ARM architecture, the <strong data-end=\"1011\" data-start=\"987\">PC (Program Counter)</strong> holds:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 28849
+  },
+  {
+   "_id": 28850,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) THUMB</p>\n",
+   "OPT_2": "<p>b) Cortex</p>\n",
+   "OPT_3": "<p>c) NEON</p>\n",
+   "OPT_4": "<p>) Jazelle</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a <strong data-end=\"1347\" data-start=\"1310\">16-bit compressed instruction set</strong> in ARM architecture?</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 28850
+  },
+  {
+   "_id": 28851,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>a) Only program counter value</p>\n",
+   "OPT_2": "<p>b) Only processor mode</p>\n",
+   "OPT_3": "<p>c) Instruction opcodes</p>\n",
+   "OPT_4": "<p>d) Flags, processor mode, and interrupt settings</p>\n",
+   "OUTCOMES": [
+    "PLO14",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>The <strong data-end=\"1839\" data-start=\"1797\">CPSR (Current Program Status Register)</strong> in ARM holds:</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "mcq",
+   "key": 28851
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28964,
+   "ANSWER": "<h2 data-end=\"136\" data-start=\"88\"><strong data-end=\"134\" data-start=\"91\">Features of ARM (Advanced RISC Machine)</strong></h2>\n\n<ol data-end=\"1643\" data-start=\"138\">\n\t<li data-end=\"289\" data-start=\"138\">\n\t<p data-end=\"164\" data-start=\"141\"><strong data-end=\"162\" data-start=\"141\">RISC Architecture</strong></p>\n\n\t<ul data-end=\"289\" data-start=\"168\">\n\t\t<li data-end=\"224\" data-start=\"168\">\n\t\t<p data-end=\"224\" data-start=\"170\">Uses a <strong data-end=\"214\" data-start=\"177\">Reduced Instruction Set Computing</strong> design.</p>\n\t\t</li>\n\t\t<li data-end=\"289\" data-start=\"228\">\n\t\t<p data-end=\"289\" data-start=\"230\">Simple and uniform instructions lead to faster execution.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"454\" data-start=\"291\">\n\t<p data-end=\"323\" data-start=\"294\"><strong data-end=\"321\" data-start=\"294\">Load/Store Architecture</strong></p>\n\n\t<ul data-end=\"454\" data-start=\"327\">\n\t\t<li data-end=\"390\" data-start=\"327\">\n\t\t<p data-end=\"390\" data-start=\"329\">Only <strong data-end=\"342\" data-start=\"334\">load</strong> and <strong data-end=\"356\" data-start=\"347\">store</strong> instructions can access memory.</p>\n\t\t</li>\n\t\t<li data-end=\"454\" data-start=\"394\">\n\t\t<p data-end=\"454\" data-start=\"396\">All other operations work on registers, improving speed.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"611\" data-start=\"456\">\n\t<p data-end=\"489\" data-start=\"459\"><strong data-end=\"487\" data-start=\"459\">Fixed Instruction Length</strong></p>\n\n\t<ul data-end=\"611\" data-start=\"493\">\n\t\t<li data-end=\"542\" data-start=\"493\">\n\t\t<p data-end=\"542\" data-start=\"495\">Most instructions are <strong data-end=\"527\" data-start=\"517\">32-bit</strong> (ARM state).</p>\n\t\t</li>\n\t\t<li data-end=\"611\" data-start=\"546\">\n\t\t<p data-end=\"611\" data-start=\"548\">Supports <strong data-end=\"573\" data-start=\"557\">16-bit THUMB</strong> instructions for compact code size.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"794\" data-start=\"613\">\n\t<p data-end=\"640\" data-start=\"616\"><strong data-end=\"638\" data-start=\"616\">Large Register Set</strong></p>\n\n\t<ul data-end=\"794\" data-start=\"644\">\n\t\t<li data-end=\"700\" data-start=\"644\">\n\t\t<p data-end=\"700\" data-start=\"646\">Typically <strong data-end=\"688\" data-start=\"656\">16 general-purpose registers</strong> (R0&ndash;R15).</p>\n\t\t</li>\n\t\t<li data-end=\"794\" data-start=\"704\">\n\t\t<p data-end=\"794\" data-start=\"706\">Includes <strong data-end=\"739\" data-start=\"715\">PC (Program Counter)</strong>, <strong data-end=\"763\" data-start=\"741\">LR (Link Register)</strong>, and <strong data-end=\"791\" data-start=\"769\">SP (Stack Pointer)</strong>.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"972\" data-start=\"796\">\n\t<p data-end=\"826\" data-start=\"799\"><strong data-end=\"824\" data-start=\"799\">Conditional Execution</strong></p>\n\n\t<ul data-end=\"972\" data-start=\"830\">\n\t\t<li data-end=\"911\" data-start=\"830\">\n\t\t<p data-end=\"911\" data-start=\"832\">Almost all instructions can be executed conditionally based on flag settings.</p>\n\t\t</li>\n\t\t<li data-end=\"972\" data-start=\"915\">\n\t\t<p data-end=\"972\" data-start=\"917\">Reduces branch instructions and improves performance.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1123\" data-start=\"974\">\n\t<p data-end=\"1004\" data-start=\"977\"><strong data-end=\"1002\" data-start=\"977\">Pipeline Architecture</strong></p>\n\n\t<ul data-end=\"1123\" data-start=\"1008\">\n\t\t<li data-end=\"1123\" data-start=\"1008\">\n\t\t<p data-end=\"1123\" data-start=\"1010\">ARM CPUs often use a <strong data-end=\"1059\" data-start=\"1031\">3-stage or more pipeline</strong> (Fetch, Decode, Execute) for parallel instruction processing.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1248\" data-start=\"1125\">\n\t<p data-end=\"1155\" data-start=\"1128\"><strong data-end=\"1153\" data-start=\"1128\">Low Power Consumption</strong></p>\n\n\t<ul data-end=\"1248\" data-start=\"1159\">\n\t\t<li data-end=\"1248\" data-start=\"1159\">\n\t\t<p data-end=\"1248\" data-start=\"1161\">Designed for <strong data-end=\"1206\" data-start=\"1174\">energy-efficient performance</strong>, ideal for mobile and embedded systems.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1374\" data-start=\"1250\">\n\t<p data-end=\"1285\" data-start=\"1253\"><strong data-end=\"1283\" data-start=\"1253\">Orthogonal Instruction Set</strong></p>\n\n\t<ul data-end=\"1374\" data-start=\"1289\">\n\t\t<li data-end=\"1374\" data-start=\"1289\">\n\t\t<p data-end=\"1374\" data-start=\"1291\">Most instructions can operate on any register and use different addressing modes.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1490\" data-start=\"1376\">\n\t<p data-end=\"1422\" data-start=\"1379\"><strong data-end=\"1420\" data-start=\"1379\">Support for Multiple Instruction Sets</strong></p>\n\n\t<ul data-end=\"1490\" data-start=\"1426\">\n\t\t<li data-end=\"1490\" data-start=\"1426\">\n\t\t<p data-end=\"1490\" data-start=\"1428\">ARM (32-bit), THUMB (16-bit), and Thumb-2 (mixed 16/32-bit).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1643\" data-start=\"1492\">\n\t<p data-end=\"1533\" data-start=\"1496\"><strong data-end=\"1531\" data-start=\"1496\">Enhanced Performance Extensions</strong></p>\n\n\t<ul data-end=\"1643\" data-start=\"1538\">\n\t\t<li data-end=\"1596\" data-start=\"1538\">\n\t\t<p data-end=\"1596\" data-start=\"1540\"><strong data-end=\"1548\" data-start=\"1540\">NEON</strong> for SIMD processing (multimedia &amp; DSP tasks).</p>\n\t\t</li>\n\t\t<li data-end=\"1643\" data-start=\"1601\">\n\t\t<p data-end=\"1643\" data-start=\"1603\"><strong data-end=\"1610\" data-start=\"1603\">VFP</strong> for floating-point operations.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Discuss the features of ARM.&nbsp;</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "sq",
+   "key": 28964
+  },
+  {
+   "_id": 28965,
+   "ANSWER": "<h2 data-end=\"164\" data-start=\"118\"><strong data-end=\"164\" data-start=\"121\">R-Type Instruction Format (Register)</strong></h2>\n\n<ul data-end=\"265\" data-start=\"165\">\n\t<li data-end=\"215\" data-start=\"165\">\n\t<p data-end=\"215\" data-start=\"167\"><strong data-end=\"180\" data-start=\"167\">Used for:</strong> Register-to-register operations.</p>\n\t</li>\n\t<li data-end=\"265\" data-start=\"216\">\n\t<p data-end=\"265\" data-start=\"218\"><strong data-end=\"230\" data-start=\"218\">Example:</strong> <code data-end=\"247\" data-start=\"231\">ADD R1, R2, R3</code> (R1 = R2 + R3).</p>\n\t</li>\n</ul>\n\n<p data-end=\"280\" data-start=\"267\"><strong data-end=\"278\" data-start=\"267\">Format:</strong></p>\n\n<pre data-end=\"384\" data-start=\"281\">\n\n&nbsp;</pre>\n\n<p><button aria-label=\"Copy\">Copy</button><button>Edit</button></p>\n\n<p><code>| Opcode (6 bits) | RS (5 bits) | RT (5 bits) | RD (5 bits) | Shamt (5 bits) | Funct (6 bits) | </code></p>\n\n<p data-end=\"406\" data-start=\"385\"><strong data-end=\"404\" data-start=\"385\">Field meanings:</strong></p>\n\n<ul data-end=\"717\" data-start=\"407\">\n\t<li data-end=\"448\" data-start=\"407\">\n\t<p data-end=\"448\" data-start=\"409\"><strong data-end=\"419\" data-start=\"409\">Opcode</strong> &ndash; Operation code (6 bits).</p>\n\t</li>\n\t<li data-end=\"493\" data-start=\"449\">\n\t<p data-end=\"493\" data-start=\"451\"><strong data-end=\"457\" data-start=\"451\">RS</strong> &ndash; First source register (5 bits).</p>\n\t</li>\n\t<li data-end=\"539\" data-start=\"494\">\n\t<p data-end=\"539\" data-start=\"496\"><strong data-end=\"502\" data-start=\"496\">RT</strong> &ndash; Second source register (5 bits).</p>\n\t</li>\n\t<li data-end=\"583\" data-start=\"540\">\n\t<p data-end=\"583\" data-start=\"542\"><strong data-end=\"548\" data-start=\"542\">RD</strong> &ndash; Destination register (5 bits).</p>\n\t</li>\n\t<li data-end=\"650\" data-start=\"584\">\n\t<p data-end=\"650\" data-start=\"586\"><strong data-end=\"595\" data-start=\"586\">Shamt</strong> &ndash; Shift amount (5 bits, used in shift instructions).</p>\n\t</li>\n\t<li data-end=\"717\" data-start=\"651\">\n\t<p data-end=\"717\" data-start=\"653\"><strong data-end=\"662\" data-start=\"653\">Funct</strong> &ndash; Function code specifying exact operation (6 bits).</p>\n\t</li>\n</ul>\n\n<hr data-end=\"722\" data-start=\"719\" />\n<h2 data-end=\"771\" data-start=\"724\"><strong data-end=\"771\" data-start=\"727\">2. I-Type Instruction Format (Immediate)</strong></h2>\n\n<ul data-end=\"896\" data-start=\"772\">\n\t<li data-end=\"845\" data-start=\"772\">\n\t<p data-end=\"845\" data-start=\"774\"><strong data-end=\"787\" data-start=\"774\">Used for:</strong> Instructions with immediate values or memory addresses.</p>\n\t</li>\n\t<li data-end=\"896\" data-start=\"846\">\n\t<p data-end=\"896\" data-start=\"848\"><strong data-end=\"860\" data-start=\"848\">Example:</strong> <code data-end=\"878\" data-start=\"861\">ADDI R1, R2, 50</code> (R1 = R2 + 50).</p>\n\t</li>\n</ul>\n\n<p data-end=\"911\" data-start=\"898\"><strong data-end=\"909\" data-start=\"898\">Format:</strong></p>\n\n<pre data-end=\"989\" data-start=\"912\">\n\n&nbsp;</pre>\n\n<p>pgsql</p>\n\n<p><button aria-label=\"Copy\">Copy</button><button>Edit</button></p>\n\n<p><code>| Opcode (6 bits) | RS (5 bits) | RT (5 bits) | Immediate (16 bits) | </code></p>\n\n<p data-end=\"1011\" data-start=\"990\"><strong data-end=\"1009\" data-start=\"990\">Field meanings:</strong></p>\n\n<ul data-end=\"1191\" data-start=\"1012\">\n\t<li data-end=\"1053\" data-start=\"1012\">\n\t<p data-end=\"1053\" data-start=\"1014\"><strong data-end=\"1024\" data-start=\"1014\">Opcode</strong> &ndash; Operation code (6 bits).</p>\n\t</li>\n\t<li data-end=\"1092\" data-start=\"1054\">\n\t<p data-end=\"1092\" data-start=\"1056\"><strong data-end=\"1062\" data-start=\"1056\">RS</strong> &ndash; Source register (5 bits).</p>\n\t</li>\n\t<li data-end=\"1136\" data-start=\"1093\">\n\t<p data-end=\"1136\" data-start=\"1095\"><strong data-end=\"1101\" data-start=\"1095\">RT</strong> &ndash; Destination register (5 bits).</p>\n\t</li>\n\t<li data-end=\"1191\" data-start=\"1137\">\n\t<p data-end=\"1191\" data-start=\"1139\"><strong data-end=\"1152\" data-start=\"1139\">Immediate</strong> &ndash; 16-bit constant or address offset.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1196\" data-start=\"1193\" />\n<h3 data-end=\"1224\" data-start=\"1198\">&nbsp;</h3>\n\n<pre data-end=\"1507\" data-start=\"1240\">\n\n&nbsp;</pre>\n\n<p>&nbsp;</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Draw the I-type and R-type register format in instruction encoding.&nbsp;</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "sq",
+   "key": 28965
+  }
+ ],
+ "lq": [
+  {
+   "_id": 37196,
+   "ANSWER": "<p data-end=\"473\" data-start=\"219\">Computer systems can be classified based on <strong data-end=\"309\" data-start=\"277\">instruction and data streams</strong> using Flynn&rsquo;s taxonomy. This classification helps in understanding how multiple instructions and data are processed simultaneously. The four main categories are:</p>\n\n<hr data-end=\"478\" data-start=\"475\" />\n<h4 data-end=\"532\" data-start=\"480\">1. <strong data-end=\"530\" data-start=\"488\">SISD (Single Instruction, Single Data)</strong></h4>\n\n<ul data-end=\"796\" data-start=\"533\">\n\t<li data-end=\"632\" data-start=\"533\">\n\t<p data-end=\"632\" data-start=\"535\"><strong data-end=\"550\" data-start=\"535\">Definition:</strong> A single processor executes one instruction at a time on a single data element.</p>\n\t</li>\n\t<li data-end=\"732\" data-start=\"633\">\n\t<p data-end=\"657\" data-start=\"635\"><strong data-end=\"655\" data-start=\"635\">Characteristics:</strong></p>\n\n\t<ul data-end=\"732\" data-start=\"660\">\n\t\t<li data-end=\"685\" data-start=\"660\">\n\t\t<p data-end=\"685\" data-start=\"662\">Sequential processing</p>\n\t\t</li>\n\t\t<li data-end=\"711\" data-start=\"688\">\n\t\t<p data-end=\"711\" data-start=\"690\">Simple architecture</p>\n\t\t</li>\n\t\t<li data-end=\"732\" data-start=\"714\">\n\t\t<p data-end=\"732\" data-start=\"716\">No parallelism</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"796\" data-start=\"733\">\n\t<p data-end=\"796\" data-start=\"735\"><strong data-end=\"747\" data-start=\"735\">Example:</strong> Traditional personal computers, basic laptops.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"801\" data-start=\"798\" />\n<h4 data-end=\"857\" data-start=\"803\">2. <strong data-end=\"855\" data-start=\"811\">SIMD (Single Instruction, Multiple Data)</strong></h4>\n\n<ul data-end=\"1220\" data-start=\"858\">\n\t<li data-end=\"949\" data-start=\"858\">\n\t<p data-end=\"949\" data-start=\"860\"><strong data-end=\"875\" data-start=\"860\">Definition:</strong> A single instruction operates on multiple data elements simultaneously.</p>\n\t</li>\n\t<li data-end=\"1072\" data-start=\"950\">\n\t<p data-end=\"974\" data-start=\"952\"><strong data-end=\"972\" data-start=\"952\">Characteristics:</strong></p>\n\n\t<ul data-end=\"1072\" data-start=\"977\">\n\t\t<li data-end=\"1016\" data-start=\"977\">\n\t\t<p data-end=\"1016\" data-start=\"979\">Exploits <strong data-end=\"1014\" data-start=\"988\">data-level parallelism</strong></p>\n\t\t</li>\n\t\t<li data-end=\"1072\" data-start=\"1019\">\n\t\t<p data-end=\"1072\" data-start=\"1021\">Ideal for repetitive operations on large datasets</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1220\" data-start=\"1073\">\n\t<p data-end=\"1089\" data-start=\"1075\"><strong data-end=\"1087\" data-start=\"1075\">Example:</strong></p>\n\n\t<ul data-end=\"1220\" data-start=\"1092\">\n\t\t<li data-end=\"1167\" data-start=\"1092\">\n\t\t<p data-end=\"1167\" data-start=\"1094\">Graphics Processing Units (GPUs) used in image processing and rendering</p>\n\t\t</li>\n\t\t<li data-end=\"1220\" data-start=\"1170\">\n\t\t<p data-end=\"1220\" data-start=\"1172\">Vector processors used in scientific computing</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1225\" data-start=\"1222\" />\n<h4 data-end=\"1281\" data-start=\"1227\">3. <strong data-end=\"1279\" data-start=\"1235\">MISD (Multiple Instruction, Single Data)</strong></h4>\n\n<ul data-end=\"1580\" data-start=\"1282\">\n\t<li data-end=\"1371\" data-start=\"1282\">\n\t<p data-end=\"1371\" data-start=\"1284\"><strong data-end=\"1299\" data-start=\"1284\">Definition:</strong> Multiple instructions operate on the same data stream simultaneously.</p>\n\t</li>\n\t<li data-end=\"1471\" data-start=\"1372\">\n\t<p data-end=\"1396\" data-start=\"1374\"><strong data-end=\"1394\" data-start=\"1374\">Characteristics:</strong></p>\n\n\t<ul data-end=\"1471\" data-start=\"1399\">\n\t\t<li data-end=\"1419\" data-start=\"1399\">\n\t\t<p data-end=\"1419\" data-start=\"1401\">Rare in practice</p>\n\t\t</li>\n\t\t<li data-end=\"1471\" data-start=\"1422\">\n\t\t<p data-end=\"1471\" data-start=\"1424\">Used for fault-tolerant systems or redundancy</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1580\" data-start=\"1472\">\n\t<p data-end=\"1488\" data-start=\"1474\"><strong data-end=\"1486\" data-start=\"1474\">Example:</strong></p>\n\n\t<ul data-end=\"1580\" data-start=\"1491\">\n\t\t<li data-end=\"1531\" data-start=\"1491\">\n\t\t<p data-end=\"1531\" data-start=\"1493\">Space shuttle flight control systems</p>\n\t\t</li>\n\t\t<li data-end=\"1580\" data-start=\"1534\">\n\t\t<p data-end=\"1580\" data-start=\"1536\">Some fault-tolerant multiprocessor systems</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<hr data-end=\"1585\" data-start=\"1582\" />\n<h4 data-end=\"1643\" data-start=\"1587\">4. <strong data-end=\"1641\" data-start=\"1595\">MIMD (Multiple Instruction, Multiple Data)</strong></h4>\n\n<ul data-end=\"2042\" data-start=\"1644\">\n\t<li data-end=\"1757\" data-start=\"1644\">\n\t<p data-end=\"1757\" data-start=\"1646\"><strong data-end=\"1661\" data-start=\"1646\">Definition:</strong> Multiple processors execute different instructions on different data elements simultaneously.</p>\n\t</li>\n\t<li data-end=\"1891\" data-start=\"1758\">\n\t<p data-end=\"1782\" data-start=\"1760\"><strong data-end=\"1780\" data-start=\"1760\">Characteristics:</strong></p>\n\n\t<ul data-end=\"1891\" data-start=\"1785\">\n\t\t<li data-end=\"1824\" data-start=\"1785\">\n\t\t<p data-end=\"1824\" data-start=\"1787\">Exploits <strong data-end=\"1822\" data-start=\"1796\">task-level parallelism</strong></p>\n\t\t</li>\n\t\t<li data-end=\"1891\" data-start=\"1827\">\n\t\t<p data-end=\"1891\" data-start=\"1829\">Widely used in modern multiprocessor and distributed systems</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2042\" data-start=\"1892\">\n\t<p data-end=\"1908\" data-start=\"1894\"><strong data-end=\"1906\" data-start=\"1894\">Example:</strong></p>\n\n\t<ul data-end=\"2042\" data-start=\"1911\">\n\t\t<li data-end=\"1959\" data-start=\"1911\">\n\t\t<p data-end=\"1959\" data-start=\"1913\">Multicore processors in desktops and servers</p>\n\t\t</li>\n\t\t<li data-end=\"2042\" data-start=\"1962\">\n\t\t<p data-end=\"2042\" data-start=\"1964\">Cluster computing systems for scientific simulations and big data processing</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Classify computer systems into SISD, SIMD, MISD, and MIMD with examples.</p>\n",
+   "SESSION_ID": 505,
+   "TYPE": "lq",
+   "key": 37196
+  }
+ ]
+}

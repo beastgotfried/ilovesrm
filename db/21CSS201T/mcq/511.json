@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 20922,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Uses DMA controller</p>\n",
+   "OPT_2": "<p>Uses interrupts</p>\n",
+   "OPT_3": "<p>Polls the device continuously</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">Sleeps during I/O</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">In program-controlled I/O, the processor:</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 20922
+  },
+  {
+   "_id": 20927,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>CPU actively checks device status</p>\n",
+   "OPT_2": "<p>It requires DMA support</p>\n",
+   "OPT_3": "<p>It reduces CPU usage</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">I/O devices control data flow</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">Which of the following is true about program-controlled I/O?</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 20927
+  },
+  {
+   "_id": 20931,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Generate interrupt</p>\n",
+   "OPT_2": "<p>Wait for DMA</p>\n",
+   "OPT_3": "<p>Poll device status register</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">Send device acknowledgment</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">What is typically the first step in a program-controlled I/O operation?</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 20931
+  },
+  {
+   "_id": 20934,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>After data is fetched or stored</p>\n",
+   "OPT_2": "<p>Immediately after issuing I/O</p>\n",
+   "OPT_3": "<p>Only when DMA is completed</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">After executing interrupt handler</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">In program-controlled I/O, when does the CPU proceed to the next instruction?</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 20934
+  },
+  {
+   "_id": 20939,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Requires fewer address lines</p>\n",
+   "OPT_2": "<p>Allows unified memory and I/O addressing</p>\n",
+   "OPT_3": "<p>Provides separate I/O bus</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">Easier interrupt handling</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">Which is an advantage of memory-mapped I/O?</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "mcq",
+   "key": 20939
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28114,
+   "ANSWER": "<ul>\n\t<li data-end=\"597\" data-start=\"298\">\n\t<p data-end=\"332\" data-start=\"301\"><strong data-end=\"330\" data-start=\"301\">Memory-Mapped I/O (MMIO):</strong></p>\n\n\t<ul data-end=\"597\" data-start=\"336\">\n\t\t<li data-end=\"384\" data-start=\"336\">\n\t\t<p data-end=\"384\" data-start=\"338\">I/O devices are treated as memory locations.</p>\n\t\t</li>\n\t\t<li data-end=\"432\" data-start=\"388\">\n\t\t<p data-end=\"432\" data-start=\"390\">Shares the same address space as memory.</p>\n\t\t</li>\n\t\t<li data-end=\"482\" data-start=\"436\">\n\t\t<p data-end=\"482\" data-start=\"438\">Standard LOAD/STORE instructions are used.</p>\n\t\t</li>\n\t\t<li data-end=\"519\" data-start=\"486\">\n\t\t<p data-end=\"519\" data-start=\"488\">Common in RISC architectures.</p>\n\t\t</li>\n\t\t<li data-end=\"597\" data-start=\"523\">\n\t\t<p data-end=\"597\" data-start=\"525\"><strong data-end=\"537\" data-start=\"525\">Example:</strong> <code data-end=\"555\" data-start=\"538\">LOAD R1, 0x1000</code> (Read from device at address <code data-end=\"593\" data-start=\"585\">0x1000</code>).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"891\" data-start=\"599\">\n\t<p data-end=\"631\" data-start=\"602\"><strong data-end=\"629\" data-start=\"602\">Port-Mapped I/O (PMIO):</strong></p>\n\n\t<ul data-end=\"891\" data-start=\"635\">\n\t\t<li data-end=\"681\" data-start=\"635\">\n\t\t<p data-end=\"681\" data-start=\"637\">I/O devices have a separate address space.</p>\n\t\t</li>\n\t\t<li data-end=\"734\" data-start=\"685\">\n\t\t<p data-end=\"734\" data-start=\"687\">Requires special instructions (e.g., IN/OUT).</p>\n\t\t</li>\n\t\t<li data-end=\"782\" data-start=\"738\">\n\t\t<p data-end=\"782\" data-start=\"740\">Memory and I/O are accessed differently.</p>\n\t\t</li>\n\t\t<li data-end=\"828\" data-start=\"786\">\n\t\t<p data-end=\"828\" data-start=\"788\">Common in CISC architectures like x86.</p>\n\t\t</li>\n\t\t<li data-end=\"891\" data-start=\"832\">\n\t\t<p data-end=\"891\" data-start=\"834\"><strong data-end=\"846\" data-start=\"834\">Example:</strong> <code data-end=\"860\" data-start=\"847\">IN AL, 0x64</code> (Read from I/O port <code data-end=\"887\" data-start=\"881\">0x64</code>).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Explain the difference between Memory-Mapped I/O (MMIO) and Port-Mapped I/O (PMIO) with examples.</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "sq",
+   "key": 28114
+  },
+  {
+   "_id": 28115,
+   "ANSWER": "<ul data-end=\"1618\" data-start=\"1257\">\n\t<li data-end=\"1393\" data-start=\"1257\">\n\t<p data-end=\"1393\" data-start=\"1259\"><strong data-end=\"1274\" data-start=\"1259\">BTLA Level:</strong> <strong data-end=\"1292\" data-start=\"1275\">L3 &ndash; Applying</strong><br data-end=\"1295\" data-start=\"1292\" />\n\tStudents must apply the concept to explain why MMIO is advantageous in design and programming.</p>\n\t</li>\n\t<li data-end=\"1618\" data-start=\"1395\">\n\t<p data-end=\"1414\" data-start=\"1397\"><strong data-end=\"1412\" data-start=\"1397\">PO Mapping:</strong></p>\n\n\t<ul data-end=\"1618\" data-start=\"1417\">\n\t\t<li data-end=\"1502\" data-start=\"1417\">\n\t\t<p data-end=\"1502\" data-start=\"1419\"><strong data-end=\"1427\" data-start=\"1419\">PO1:</strong> Engineering Knowledge &ndash; Applying knowledge of I/O addressing techniques.</p>\n\t\t</li>\n\t\t<li data-end=\"1618\" data-start=\"1505\">\n\t\t<p data-end=\"1618\" data-start=\"1507\"><strong data-end=\"1515\" data-start=\"1507\">PO3:</strong> Design/Development of Solutions &ndash; Understanding how MMIO simplifies programming and hardware design.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n\n<p data-end=\"1637\" data-start=\"1620\"><strong data-end=\"1635\" data-start=\"1620\">Answer Key:</strong></p>\n\n<ol data-end=\"1931\" data-start=\"1638\">\n\t<li data-end=\"1704\" data-start=\"1638\">\n\t<p data-end=\"1704\" data-start=\"1641\"><strong data-end=\"1664\" data-start=\"1641\">Uniform Addressing:</strong> Same instructions for memory and I/O.</p>\n\t</li>\n\t<li data-end=\"1779\" data-start=\"1705\">\n\t<p data-end=\"1779\" data-start=\"1708\"><strong data-end=\"1733\" data-start=\"1708\">Larger Address Space:</strong> Uses full range of memory addressing modes.</p>\n\t</li>\n\t<li data-end=\"1858\" data-start=\"1780\">\n\t<p data-end=\"1858\" data-start=\"1783\"><strong data-end=\"1811\" data-start=\"1783\">No Special Instructions:</strong> Reduces complexity and instruction set size.</p>\n\t</li>\n\t<li data-end=\"1931\" data-start=\"1859\">\n\t<p data-end=\"1931\" data-start=\"1862\"><strong data-end=\"1885\" data-start=\"1862\">Easier Programming:</strong> Devices can be treated as memory variables.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>List and explain the advantages of Memory-Mapped I/O over Port-Mapped I/O.</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "sq",
+   "key": 28115
+  }
+ ],
+ "lq": [
+  {
+   "_id": 28117,
+   "ANSWER": "<h4 data-end=\"561\" data-start=\"521\"><strong data-end=\"559\" data-start=\"526\">Answer Key (Expected Points):</strong></h4>\n\n<ol data-end=\"1799\" data-start=\"562\">\n\t<li data-end=\"967\" data-start=\"562\">\n\t<p data-end=\"596\" data-start=\"565\"><strong data-end=\"594\" data-start=\"565\">Memory-Mapped I/O (MMIO):</strong></p>\n\n\t<ul data-end=\"967\" data-start=\"600\">\n\t\t<li data-end=\"640\" data-start=\"600\">\n\t\t<p data-end=\"640\" data-start=\"602\">Devices treated as memory locations.</p>\n\t\t</li>\n\t\t<li data-end=\"688\" data-start=\"644\">\n\t\t<p data-end=\"688\" data-start=\"646\">Shares the same address space as memory.</p>\n\t\t</li>\n\t\t<li data-end=\"734\" data-start=\"692\">\n\t\t<p data-end=\"734\" data-start=\"694\">Standard LOAD/STORE instructions used.</p>\n\t\t</li>\n\t\t<li data-end=\"826\" data-start=\"738\">\n\t\t<p data-end=\"826\" data-start=\"740\">Example: <code data-end=\"766\" data-start=\"749\">LOAD R1, 0x1000</code> (read from device), <code data-end=\"805\" data-start=\"787\">STORE R2, 0x1004</code> (write to device).</p>\n\t\t</li>\n\t\t<li data-end=\"863\" data-start=\"830\">\n\t\t<p data-end=\"863\" data-start=\"832\">Common in RISC architectures.</p>\n\t\t</li>\n\t\t<li data-end=\"967\" data-start=\"867\">\n\t\t<p data-end=\"967\" data-start=\"869\"><strong data-end=\"881\" data-start=\"869\">Diagram:</strong> CPU connected to a unified address/data bus, memory and devices connected together.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1309\" data-start=\"969\">\n\t<p data-end=\"1001\" data-start=\"972\"><strong data-end=\"999\" data-start=\"972\">Port-Mapped I/O (PMIO):</strong></p>\n\n\t<ul data-end=\"1309\" data-start=\"1005\">\n\t\t<li data-end=\"1059\" data-start=\"1005\">\n\t\t<p data-end=\"1059\" data-start=\"1007\">Devices have a separate address space from memory.</p>\n\t\t</li>\n\t\t<li data-end=\"1110\" data-start=\"1063\">\n\t\t<p data-end=\"1110\" data-start=\"1065\">Special instructions (IN/OUT) are required.</p>\n\t\t</li>\n\t\t<li data-end=\"1198\" data-start=\"1114\">\n\t\t<p data-end=\"1198\" data-start=\"1116\">Example: <code data-end=\"1138\" data-start=\"1125\">IN AL, 0x64</code> (read from I/O port), <code data-end=\"1175\" data-start=\"1161\">OUT 0x60, AL</code> (write to I/O port).</p>\n\t\t</li>\n\t\t<li data-end=\"1244\" data-start=\"1202\">\n\t\t<p data-end=\"1244\" data-start=\"1204\">Common in CISC architectures like x86.</p>\n\t\t</li>\n\t\t<li data-end=\"1309\" data-start=\"1248\">\n\t\t<p data-end=\"1309\" data-start=\"1250\"><strong data-end=\"1262\" data-start=\"1250\">Diagram:</strong> Separate I/O bus with its own address space.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1679\" data-start=\"1311\">\n\t<p data-end=\"1331\" data-start=\"1314\"><strong data-end=\"1329\" data-start=\"1314\">Comparison:</strong></p>\n\n\t<ul data-end=\"1679\" data-start=\"1335\">\n\t\t<li data-end=\"1422\" data-start=\"1335\">\n\t\t<p data-end=\"1422\" data-start=\"1337\"><strong data-end=\"1357\" data-start=\"1337\">Instruction set:</strong> MMIO uses normal instructions; PMIO uses special instructions.</p>\n\t\t</li>\n\t\t<li data-end=\"1500\" data-start=\"1426\">\n\t\t<p data-end=\"1500\" data-start=\"1428\"><strong data-end=\"1446\" data-start=\"1428\">Address space:</strong> MMIO shares with memory; PMIO has a separate space.</p>\n\t\t</li>\n\t\t<li data-end=\"1586\" data-start=\"1504\">\n\t\t<p data-end=\"1586\" data-start=\"1506\"><strong data-end=\"1521\" data-start=\"1506\">Complexity:</strong> MMIO simpler for programmers; PMIO requires separate handling.</p>\n\t\t</li>\n\t\t<li data-end=\"1679\" data-start=\"1590\">\n\t\t<p data-end=\"1679\" data-start=\"1592\"><strong data-end=\"1608\" data-start=\"1592\">Performance:</strong> MMIO allows larger addressing modes; PMIO can reduce bus contention.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1799\" data-start=\"1681\">\n\t<p data-end=\"1799\" data-start=\"1684\"><strong data-end=\"1699\" data-start=\"1684\">Conclusion:</strong> MMIO is widely used in modern RISC systems, while PMIO is popular in older or CISC-based systems.</p>\n\t</li>\n</ol>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Describe in detail how the CPU communicates with I/O devices using Memory-Mapped I/O (MMIO) and Port-Mapped I/O (PMIO). Compare both methods with a neat diagram and examples.</p>\n",
+   "SESSION_ID": 511,
+   "TYPE": "lq",
+   "key": 28117
+  }
+ ]
+}

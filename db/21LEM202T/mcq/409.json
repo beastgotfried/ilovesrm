@@ -1,0 +1,134 @@
+{
+ "mcq": [
+  {
+   "_id": 36857,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Material accumulation</p>\n",
+   "OPT_2": "<p>Awakening to realization, understanding, and contemplation in the Self</p>\n",
+   "OPT_3": "<p>Blind imitation</p>\n",
+   "OPT_4": "<p>Focusing only on technology</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Comprehensive knowledge about existence results from:</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 36857
+  },
+  {
+   "_id": 36858,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Disharmony between humans and nature</p>\n",
+   "OPT_2": "<p>Harmony and mutual respect at all levels of existence</p>\n",
+   "OPT_3": "<p>Exploitation of weaker entities</p>\n",
+   "OPT_4": "<p>Isolation of individuals</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Realization of coexistence provides the basis for:</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 36858
+  },
+  {
+   "_id": 36859,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>It helps to design competitive, unsustainable technologies</p>\n",
+   "OPT_2": "<p>It guides&nbsp; in creating ethical, sustainable, and human-centered solutions</p>\n",
+   "OPT_3": "<p>It allows to exploit resources</p>\n",
+   "OPT_4": "<p>It eliminates teamwork</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>We&nbsp;need realization, understanding, and contemplation because:</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 36859
+  },
+  {
+   "_id": 36860,
+   "ANSWER": 2,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Reflecting on one&rsquo;s role in ensuring sustainability and harmony</p>\n",
+   "OPT_2": "<p>Blindly following societal trends</p>\n",
+   "OPT_3": "<p>Competing for personal success</p>\n",
+   "OPT_4": "<p>Ignoring ecological balance</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Which of the following best represents contemplation?</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 36860
+  },
+  {
+   "_id": 36861,
+   "ANSWER": 1,
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OPT_1": "<p>Comprehensive knowledge of existence and right human conduct</p>\n",
+   "OPT_2": "<p>Material growth only</p>\n",
+   "OPT_3": "<p>Conflicts in society</p>\n",
+   "OPT_4": "<p>Environmental destruction</p>\n",
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Awakening to the activities of the Self ultimately leads to:</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 36861
+  }
+ ],
+ "sq": [
+  {
+   "_id": 36466,
+   "ANSWER": "<p>It helps students integrate technical knowledge with ethical responsibility, sustainability, and human values, ensuring their work benefits both society and nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Why is awakening important for students?</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 36466
+  },
+  {
+   "_id": 36468,
+   "ANSWER": "<p>It helps students integrate technical knowledge with ethical responsibility, sustainability, and human values, ensuring their work benefits both society and nature.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO7"
+   ],
+   "QUESTION_DESC": "<p>Why is awakening important for students?</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 36468
+  }
+ ],
+ "lq": [
+  {
+   "_id": 122521,
+   "ANSWER": "<p>Human beings can sustain harmony in nature by living with right understanding and responsibility. Practical steps include value education and awareness, value-based living, reducing unnecessary consumption, walking or cycling when possible, planting trees, reforestation, protecting wildlife and national parks, water harvesting, restoring wetlands, preserving rivers, sustainable agriculture, nurturing birds and animals, stopping poaching, reducing waste, recycling, reusing materials and using renewable energy. These actions must not be done only as isolated activities, but as expressions of right understanding. The aim is to preserve, protect and enrich nature while fulfilling genuine human needs. In this way, human beings can move from exploitation to mutual enrichment and participate in universal human order.</p>\n",
+   "COURSE_CODE": "21LEM202T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO8",
+    "PLO7",
+    "PLO12"
+   ],
+   "QUESTION_DESC": "<p>What are the practical ways in which human beings can participate in sustaining harmony in nature?</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "lq",
+   "key": 122521
+  }
+ ]
+}

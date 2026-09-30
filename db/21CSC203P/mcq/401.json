@@ -1,0 +1,143 @@
+{
+ "mcq": [
+  {
+   "_id": 9600,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A)&nbsp;Mutable state</p>\n",
+   "OPT_2": "<p>B) Loop-based control</p>\n",
+   "OPT_3": "<p>C) Pure functions</p>\n",
+   "OPT_4": "<p>D) Goto statements</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is a core principle of functional programming?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 9600
+  },
+  {
+   "_id": 9601,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Modifies global variables</p>\n",
+   "OPT_2": "<p>B) Performs file input/output</p>\n",
+   "OPT_3": "<p>C) Has no side effects and returns the same output for the same input</p>\n",
+   "OPT_4": "<p>D) Allocates dynamic memory</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In functional programming, a function is said to be &quot;pure&quot; if it:</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 9601
+  },
+  {
+   "_id": 9602,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Immutability</p>\n",
+   "OPT_2": "<p>B) Recursion</p>\n",
+   "OPT_3": "<p>C) Side effects</p>\n",
+   "OPT_4": "<p>D) First-class functions</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which of the following is NOT a characteristic of functional programming?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 9602
+  },
+  {
+   "_id": 9603,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Imperative focuses on what to solve; Functional focuses on how to solve</p>\n",
+   "OPT_2": "<p>B) Functional uses variables and loops extensively</p>\n",
+   "OPT_3": "<p>C) Functional emphasizes immutability and pure functions, while imperative relies on changing state and control flow</p>\n",
+   "OPT_4": "<p>D) Both paradigms are fundamentally the same</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>What is the main difference between functional and imperative programming paradigms?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 9603
+  },
+  {
+   "_id": 9604,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>A) Imperative programming</p>\n",
+   "OPT_2": "<p>B) Functional programming</p>\n",
+   "OPT_3": "<p>C) Object-oriented programming</p>\n",
+   "OPT_4": "<p>D) Procedural programming</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>In which paradigm is recursion preferred over loops for iteration?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "mcq",
+   "key": 9604
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9350,
+   "ANSWER": "<p>Functional programming avoids side effects and uses pure functions, making the code predictable and easier to test</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>A company wants to reduce bugs in their payroll software. Why should they consider functional programming?<br data-end=\"268\" data-start=\"265\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 9350
+  },
+  {
+   "_id": 9843,
+   "ANSWER": "<p>Functional uses recursion or <code data-end=\"555\" data-start=\"545\">reduce()</code> without mutable state; imperative uses loops and updates variables.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1",
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>In what way does functional programming differ from imperative programming when summing a list of numbers?</p>\n",
+   "SESSION_ID": 401,
+   "TYPE": "sq",
+   "key": 9843
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9373,
+   "ANSWER": "<h3 data-end=\"178\" data-start=\"116\"><strong data-end=\"178\" data-start=\"120\">1. Core Principles of Functional Programming (5 marks)</strong></h3>\n\n<ul data-end=\"535\" data-start=\"180\">\n\t<li data-end=\"250\" data-start=\"180\">\n\t<p data-end=\"250\" data-start=\"182\"><strong data-end=\"201\" data-start=\"182\">Pure Functions:</strong> No side effects, same input gives same output.</p>\n\t</li>\n\t<li data-end=\"316\" data-start=\"251\">\n\t<p data-end=\"316\" data-start=\"253\"><strong data-end=\"270\" data-start=\"253\">Immutability:</strong> Data is not modified, new data is returned.</p>\n\t</li>\n\t<li data-end=\"385\" data-start=\"317\">\n\t<p data-end=\"385\" data-start=\"319\"><strong data-end=\"345\" data-start=\"319\">First-Class Functions:</strong> Functions can be passed and returned.</p>\n\t</li>\n\t<li data-end=\"460\" data-start=\"386\">\n\t<p data-end=\"460\" data-start=\"388\"><strong data-end=\"417\" data-start=\"388\">Referential Transparency:</strong> Expressions can be replaced with values.</p>\n\t</li>\n\t<li data-end=\"535\" data-start=\"461\">\n\t<p data-end=\"535\" data-start=\"463\"><strong data-end=\"488\" data-start=\"463\">Function Composition:</strong> Combine small functions to form complex logic.</p>\n\n\t<h3 data-end=\"704\" data-start=\"650\"><strong data-end=\"704\" data-start=\"654\">2. Functional vs Imperative Paradigm (5 marks)</strong></h3>\n\n\t<table data-end=\"1335\" data-start=\"706\">\n\t\t<thead data-end=\"795\" data-start=\"706\">\n\t\t\t<tr data-end=\"795\" data-start=\"706\">\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"722\" data-start=\"706\">Aspect</th>\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"759\" data-start=\"722\">Functional</th>\n\t\t\t\t<th data-col-size=\"sm\" data-end=\"795\" data-start=\"759\">Imperative</th>\n\t\t\t</tr>\n\t\t</thead>\n\t\t<tbody data-end=\"1335\" data-start=\"886\">\n\t\t\t<tr data-end=\"975\" data-start=\"886\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"902\" data-start=\"886\">Style</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"939\" data-start=\"902\">Declarative</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"975\" data-start=\"939\">Procedural</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1065\" data-start=\"976\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"992\" data-start=\"976\">Data</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1029\" data-start=\"992\">Immutable</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1065\" data-start=\"1029\">Mutable</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1155\" data-start=\"1066\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1082\" data-start=\"1066\">Side Effects</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1119\" data-start=\"1082\">Avoided</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1155\" data-start=\"1119\">Common</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1245\" data-start=\"1156\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1172\" data-start=\"1156\">State</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1209\" data-start=\"1172\">Stateless</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1245\" data-start=\"1209\">Uses shared state</td>\n\t\t\t</tr>\n\t\t\t<tr data-end=\"1335\" data-start=\"1246\">\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1262\" data-start=\"1246\">Debugging</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1299\" data-start=\"1262\">Easier (pure functions)</td>\n\t\t\t\t<td data-col-size=\"sm\" data-end=\"1335\" data-start=\"1299\">Harder (due to side effects)</td>\n\t\t\t</tr>\n\t\t</tbody>\n\t</table>\n\t</li>\n</ul>\n\n<h3 data-end=\"1485\" data-start=\"1438\"><strong data-end=\"1485\" data-start=\"1442\">3. Justification with Example (5 marks)</strong></h3>\n\n<p data-end=\"1502\" data-start=\"1487\"><strong data-end=\"1502\" data-start=\"1487\">Functional:</strong></p>\n\n<pre data-end=\"1583\" data-start=\"1503\">\n<code>def apply_tax(x): return x * 1.18 list(map(apply_tax, [100, 200])) </code></pre>\n\n<p data-end=\"1600\" data-start=\"1585\"><strong data-end=\"1600\" data-start=\"1585\">Imperative:</strong></p>\n\n<pre data-end=\"1666\" data-start=\"1601\">\n<code>t = [100, 200] for i in range(len(t)): t[i] *= 1.18</code></pre>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO4",
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Aptos,sans-serif\">You are part of a development team designing a software module to process financial transaction data. Your team is debating between using a functional programming approach and a traditional imperative programming style. The requirement emphasizes correctness, ease of debugging, and minimizing unintended side effects during data transformations.</span></span></span></p>\n\n<p style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"line-height:115%\"><span style=\"font-family:Aptos,sans-serif\">Based on the scenario above,</span></span></span></p>\n\n<ol>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Aptos,sans-serif\"><b>Define</b> the core principles of functional programming that make it suitable for this requirement. <i>(5 marks)</i></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Aptos,sans-serif\"><b>Compare and contrast</b> functional programming with imperative programming in terms of code structure, state management, and side effects. <i>(5 marks)</i></span></span></span></span></li>\n\t<li style=\"margin-bottom:11px\"><span style=\"font-size:12pt\"><span style=\"tab-stops:list 36.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:Aptos,sans-serif\"><b>Justify</b> with examples (in any programming language of your choice) how functional purity and immutability could lead to more reliable and testable code in such a financial processing module. <i>(5 marks)</i></span></span></span></span></li>\n</ol>\n",
+   "SESSION_ID": 401,
+   "TYPE": "lq",
+   "key": 9373
+  }
+ ]
+}

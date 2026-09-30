@@ -1,0 +1,135 @@
+{
+ "mcq": [
+  {
+   "_id": 20807,
+   "ANSWER": 4,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>LDM R4, {R0-R2}</p>\n",
+   "OPT_2": "<p>STR R0, [R4]</p>\n",
+   "OPT_3": "<p>STR R4, [R0-R2]</p>\n",
+   "OPT_4": "<p>STM R4, {R0-R2}</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">Which instruction saves R0, R1, and R2 to memory pointed by R4?</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 20807
+  },
+  {
+   "_id": 20813,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>LDMFD SP!, {R1, R2}</p>\n",
+   "OPT_2": "<p>STR SP!, {R1, R2}</p>\n",
+   "OPT_3": "<p>LDR SP!, {R1, R2}</p>\n",
+   "OPT_4": "<p>STMFD SP!, {R1, R2}</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">Which instruction will load R1 and R2 from the stack and update the stack pointer?</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 20813
+  },
+  {
+   "_id": 20816,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Abort the instruction</p>\n",
+   "OPT_2": "<p>Update R0 after load</p>\n",
+   "OPT_3": "<p>Skip memory check</p>\n",
+   "OPT_4": "<p>Load from R1</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">In LDM R0!, {R1-R3}, what does the &lsquo;!&rsquo; imply?</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 20816
+  },
+  {
+   "_id": 20820,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Post-indexed addressing</p>\n",
+   "OPT_2": "<p>Immediate addressing</p>\n",
+   "OPT_3": "<p>Pre-indexed addressing with write-back</p>\n",
+   "OPT_4": "<p>Register indirect mode</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">What does <code data-end=\"1331\" data-start=\"1320\">[R1, #4]!</code> represent in ARM?</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 20820
+  },
+  {
+   "_id": 20827,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Loads a register into memory</p>\n",
+   "OPT_2": "<p>Loads a value from memory into a register</p>\n",
+   "OPT_3": "<p>Loads a value into memory directly</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">Loads a value from register to memory</p>\n",
+   "OUTCOMES": [
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">What does the LDR instruction in ARM do?</p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "mcq",
+   "key": 20827
+  }
+ ],
+ "sq": [
+  {
+   "_id": 21876,
+   "ANSWER": "<p class=\"MsoListBulletCxSpFirst\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- LDR (Load Register): Loads value from memory to a register.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- STR (Store Register): Stores value from register to memory.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Syntax Example: LDR R0, [R1, #4] &rarr; Loads from R1+4 into R0.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpLast\" style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- STR R2, [R3], #4 &rarr; Stores R2 into memory at R3, then updates R3.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span lang=\"EN-US\" style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Cambria&quot;,serif\">Define the LDR and STR instructions in ARM architecture with syntax.</span></span></span></p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "sq",
+   "key": 21876
+  },
+  {
+   "_id": 21877,
+   "ANSWER": "<p class=\"MsoListBulletCxSpFirst\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Immediate Offset: LDR R0, [R1, #8] &rarr; R1 + 8</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Register Offset: LDR R0, [R1, R2] &rarr; R1 + R2</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Pre-indexed: LDR R0, [R1, #4]! &rarr; Update before access</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpLast\" style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Post-indexed: LDR R0, [R1], #4 &rarr; Update after access</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p><span lang=\"EN-US\" style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Cambria&quot;,serif\">List and describe any four ARM addressing modes used in LDR/STR.</span></span></span></p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "sq",
+   "key": 21877
+  }
+ ],
+ "lq": [
+  {
+   "_id": 21797,
+   "ANSWER": "<p class=\"MsoListBulletCxSpFirst\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">1. Immediate Offset</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 2. Register Offset</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 3. Pre-indexed</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 4. Post-indexed</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 5. Literal Addressing</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 6. Scaled Indexing</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- 7. Stack Addressing (with SP)</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Each has different syntax and access method.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpMiddle\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Used for optimizing memory access.</span></span></span></p>\n\n<p class=\"MsoListBulletCxSpLast\" style=\"margin-bottom:13px\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:Cambria,serif\">- Examples help visualize each mode.</span></span></span></p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><span lang=\"EN-US\" style=\"font-size:11.0pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Cambria&quot;,serif\">Explain in detail all the addressing modes supported in ARM LDR/STR.</span></span></span></p>\n",
+   "SESSION_ID": 510,
+   "TYPE": "lq",
+   "key": 21797
+  }
+ ]
+}

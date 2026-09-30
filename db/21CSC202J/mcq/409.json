@@ -1,0 +1,132 @@
+{
+ "mcq": [
+  {
+   "_id": 12402,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Divide and conquer</p>\n",
+   "OPT_2": "<p>Page coloring</p>\n",
+   "OPT_3": "<p>Caching pre-allocated memory chunks for object types</p>\n",
+   "OPT_4": "<p>Random fit</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which is a commonly used <strong data-end=\"2497\" data-start=\"2479\">slab allocator</strong> technique in kernel memory management?</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 12402
+  },
+  {
+   "_id": 12412,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Copy-on-Write</p>\n",
+   "OPT_2": "<p>Page Fault Frequency</p>\n",
+   "OPT_3": "<p>Thrashing</p>\n",
+   "OPT_4": "<p>Segmentation</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which technique handles allocation when total memory frames are limited?</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 12412
+  },
+  {
+   "_id": 12413,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>External fragmentation</p>\n",
+   "OPT_2": "<p>Internal fragmentation due to power-of-2 allocation</p>\n",
+   "OPT_3": "<p>No support for paging</p>\n",
+   "OPT_4": "<p>No process isolation</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A major limitation of the <strong data-end=\"2278\" data-start=\"2262\">buddy system</strong> is:</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 12413
+  },
+  {
+   "_id": 12414,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 2,
+   "OPT_1": "<p>It is paged</p>\n",
+   "OPT_2": "<p>It is allocated in small, frequently-used chunks</p>\n",
+   "OPT_3": "<p>It is handled by FIFO</p>\n",
+   "OPT_4": "<p>It&rsquo;s stored in the swap space</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Kernel memory differs from user memory because:</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 12414
+  },
+  {
+   "_id": 12415,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OPT_1": "<p>Divide and conquer</p>\n",
+   "OPT_2": "<p>Page coloring</p>\n",
+   "OPT_3": "<p>Caching pre-allocated memory chunks for object types</p>\n",
+   "OPT_4": "<p>Random fit</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Which is a commonly used <strong data-end=\"2497\" data-start=\"2479\">slab allocator</strong> technique in kernel memory management?</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "mcq",
+   "key": 12415
+  }
+ ],
+ "sq": [
+  {
+   "_id": 12525,
+   "ANSWER": "<ol data-end=\"2708\" data-start=\"2499\">\n\t<li data-end=\"2592\" data-start=\"2499\">\n\t<p data-end=\"2592\" data-start=\"2502\"><strong data-end=\"2518\" data-start=\"2502\">Buddy System</strong> &ndash; Allocates memory in <strong data-end=\"2568\" data-start=\"2541\">power-of-2 sized blocks</strong>, easy to split/merge.</p>\n\t</li>\n\t<li data-end=\"2708\" data-start=\"2593\">\n\t<p data-end=\"2708\" data-start=\"2596\"><strong data-end=\"2615\" data-start=\"2596\">Slab Allocation</strong> &ndash; Divides memory into <strong data-end=\"2654\" data-start=\"2638\">caches/slabs</strong> for frequently used kernel objects (efficient reuse).</p>\n\t</li>\n</ol>\n\n<p data-end=\"2735\" data-start=\"2710\"><strong data-end=\"2733\" data-start=\"2713\">Mark Allocation:</strong></p>\n\n<ul data-end=\"2857\" data-start=\"2736\">\n\t<li data-end=\"2775\" data-start=\"2736\">\n\t<p data-end=\"2775\" data-start=\"2738\">Correct names of both methods &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"2811\" data-start=\"2776\">\n\t<p data-end=\"2811\" data-start=\"2778\">Key logic/benefit of each &ndash; 60%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2065\" data-start=\"1993\">List any two kernel memory allocation methods and describe briefly.</h3>\n",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 12525
+  },
+  {
+   "_id": 12528,
+   "ANSWER": "<ol data-end=\"2708\" data-start=\"2499\">\n\t<li data-end=\"1567\" data-start=\"1491\">\n\t<p data-end=\"1567\" data-start=\"1493\"><strong data-end=\"1515\" data-start=\"1493\">Global replacement</strong> allows processes to <strong data-end=\"1552\" data-start=\"1536\">steal frames</strong> from others.</p>\n\t</li>\n\t<li data-end=\"1705\" data-start=\"1568\">\n\t<p data-end=\"1705\" data-start=\"1570\"><strong data-end=\"1591\" data-start=\"1570\">Local replacement</strong> restricts replacement to a process&#39;s <strong data-end=\"1643\" data-start=\"1629\">own frames</strong>.<br data-end=\"1647\" data-start=\"1644\" />\n\tGlobal offers flexibility, while local improves isolation.</p>\n\t</li>\n</ol>\n\n<ul data-end=\"2857\" data-start=\"2736\">\n\t<li data-end=\"2811\" data-start=\"2776\">\n\t<p data-end=\"2811\" data-start=\"2778\">&nbsp;</p>\n\n\t<p data-end=\"1732\" data-start=\"1707\"><strong data-end=\"1730\" data-start=\"1710\">Mark Allocation:</strong></p>\n\t</li>\n\t<li data-end=\"1754\" data-start=\"1733\">\n\t<p data-end=\"1754\" data-start=\"1735\">Definitions &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"1790\" data-start=\"1755\">\n\t<p data-end=\"1790\" data-start=\"1757\">Difference clearly stated &ndash; 40%</p>\n\t</li>\n\t<li data-end=\"1853\" data-start=\"1791\">\n\t<p data-end=\"1853\" data-start=\"1793\">Correct terms (stealing/isolation) &ndash; 20%</p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<h3 data-end=\"2065\" data-start=\"1993\">Define global and local page replacement. How do they differ in frame allocation?.</h3>\n",
+   "SESSION_ID": 409,
+   "TYPE": "sq",
+   "key": 12528
+  }
+ ],
+ "lq": [
+  {
+   "_id": 12731,
+   "ANSWER": "<p data-end=\"660\" data-start=\"528\"><strong data-end=\"548\" data-start=\"528\">Frame allocation</strong> refers to how the operating system distributes <strong data-end=\"632\" data-start=\"596\">available physical memory frames</strong> among <strong data-end=\"659\" data-start=\"639\">active processes</strong>.(20%)</p>\n\n<p data-end=\"760\" data-start=\"662\">The goal is to ensure <strong data-end=\"696\" data-start=\"684\">fairness</strong>, <strong data-end=\"722\" data-start=\"698\">minimize page faults</strong>, and <strong data-end=\"759\" data-start=\"728\">optimize system performance</strong>.</p>\n\n<hr data-end=\"765\" data-start=\"762\" />\n<h3 data-end=\"815\" data-start=\"767\"><strong data-end=\"815\" data-start=\"774\">Types of Frame Allocation Strategies:</strong></h3>\n\n<hr data-end=\"820\" data-start=\"817\" />\n<h4 data-end=\"851\" data-start=\"822\">1. <strong data-end=\"851\" data-start=\"830\">Equal Allocation:</strong>(20%)</h4>\n\n<ul data-end=\"1039\" data-start=\"852\">\n\t<li data-end=\"931\" data-start=\"852\">\n\t<p data-end=\"931\" data-start=\"854\">Every process gets the <strong data-end=\"902\" data-start=\"877\">same number of frames</strong>, regardless of size or need.</p>\n\t</li>\n\t<li data-end=\"954\" data-start=\"932\">\n\t<p data-end=\"954\" data-start=\"934\">Simple to implement.</p>\n\t</li>\n\t<li data-end=\"1039\" data-start=\"955\">\n\t<p data-end=\"1039\" data-start=\"957\">\u274c May lead to <strong data-end=\"987\" data-start=\"971\">inefficiency</strong> for large processes and <strong data-end=\"1023\" data-start=\"1012\">wastage</strong> for small ones.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1053\" data-start=\"1041\"><strong data-end=\"1053\" data-start=\"1041\">Example:</strong></p>\n\n<ul data-end=\"1122\" data-start=\"1054\">\n\t<li data-end=\"1122\" data-start=\"1054\">\n\t<p data-end=\"1122\" data-start=\"1056\">If 100 frames are available and 5 processes &rarr; each gets 20 frames.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1127\" data-start=\"1124\" />\n<h4 data-end=\"1165\" data-start=\"1129\">2. <strong data-end=\"1165\" data-start=\"1137\">Proportional Allocation:&nbsp;</strong>(20%)</h4>\n\n<ul data-end=\"1285\" data-start=\"1166\">\n\t<li data-end=\"1226\" data-start=\"1166\">\n\t<p data-end=\"1226\" data-start=\"1168\">Frames are allocated <strong data-end=\"1210\" data-start=\"1189\">based on the size</strong> of the process.</p>\n\t</li>\n\t<li data-end=\"1285\" data-start=\"1227\">\n\t<p data-end=\"1285\" data-start=\"1229\">A process with larger memory needs gets <strong data-end=\"1284\" data-start=\"1269\">more frames</strong>.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1299\" data-start=\"1287\"><strong data-end=\"1299\" data-start=\"1287\">Formula:</strong></p>\n\n<pre data-end=\"1395\" data-start=\"1300\">\n<code>Frames for Pi = (Size of Pi / Total size of all processes) &times; Total available frames </code></pre>\n\n<p data-end=\"1436\" data-start=\"1397\">More efficient than equal allocation.</p>\n\n<hr data-end=\"1441\" data-start=\"1438\" />\n<h4 data-end=\"1481\" data-start=\"1443\">3. <strong data-end=\"1481\" data-start=\"1451\">Priority-Based Allocation:&nbsp;</strong>(20%)</h4>\n\n<ul data-end=\"1602\" data-start=\"1482\">\n\t<li data-end=\"1545\" data-start=\"1482\">\n\t<p data-end=\"1545\" data-start=\"1484\">Processes with <strong data-end=\"1518\" data-start=\"1499\">higher priority</strong> are given <strong data-end=\"1544\" data-start=\"1529\">more frames</strong>.</p>\n\t</li>\n\t<li data-end=\"1602\" data-start=\"1546\">\n\t<p data-end=\"1602\" data-start=\"1548\">Used in <strong data-end=\"1569\" data-start=\"1556\">real-time</strong> or <strong data-end=\"1593\" data-start=\"1573\">mission-critical</strong> systems.</p>\n\t</li>\n</ul>\n\n<hr data-end=\"1607\" data-start=\"1604\" />\n<h4 data-end=\"1648\" data-start=\"1609\">4. <strong data-end=\"1648\" data-start=\"1617\">Global vs Local Allocation:&nbsp;</strong>(20%)</h4>\n\n<ul data-end=\"1815\" data-start=\"1649\">\n\t<li data-end=\"1737\" data-start=\"1649\">\n\t<p data-end=\"1737\" data-start=\"1651\"><strong data-end=\"1673\" data-start=\"1651\">Global Allocation:</strong> A process can take frames from <strong data-end=\"1720\" data-start=\"1705\">any process</strong> (shared pool).</p>\n\t</li>\n\t<li data-end=\"1815\" data-start=\"1738\">\n\t<p data-end=\"1815\" data-start=\"1740\"><strong data-end=\"1761\" data-start=\"1740\">Local Allocation:</strong> A process is <strong data-end=\"1797\" data-start=\"1775\">limited to its own</strong> allocated frames.</p>\n\t</li>\n</ul>\n\n<p data-end=\"1890\" data-start=\"1817\">\u2705 Global &rarr; better overall usage<br data-end=\"1851\" data-start=\"1848\" />\n\u274c Global &rarr; higher risk of <strong data-end=\"1890\" data-start=\"1877\">thrashing</strong></p>\n\n<hr data-end=\"1895\" data-start=\"1892\" />\n<h3 data-end=\"1959\" data-start=\"1897\">&nbsp;</h3>\n\n<p>&nbsp;</p>\n\n<ul data-end=\"1270\" data-start=\"1186\">\n</ul>\n",
+   "COURSE_CODE": "21CSC202J",
+   "LEVEL": 1,
+   "OUTCOMES": [
+    "PLO4"
+   ],
+   "QUESTION_DESC": "<p>Explain the different strategies for allocation of frames in memory management.</p>\n",
+   "SESSION_ID": 409,
+   "TYPE": "lq",
+   "key": 12731
+  }
+ ]
+}

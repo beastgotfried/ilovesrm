@@ -1,0 +1,135 @@
+{
+ "mcq": [
+  {
+   "_id": 21109,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Bits [31&ndash;28]</p>\n",
+   "OPT_2": "<p>Bits [24&ndash;21]</p>\n",
+   "OPT_3": "<p>Bits [19&ndash;16]</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">Bits [3&ndash;0]</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">Which field in an ARM data processing instruction holds the opcode?</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 21109
+  },
+  {
+   "_id": 21114,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>Load R0 with [R1], no update</p>\n",
+   "OPT_2": "<p>Load R0 from R1+8 and write back</p>\n",
+   "OPT_3": "<p>Store R0 into R1</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">Post-indexed LDR</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">What does <code data-end=\"1013\" data-start=\"994\">LDR R0, [R1, #8]!</code> signify?</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 21114
+  },
+  {
+   "_id": 21118,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>STR R4, [R5], #4</p>\n",
+   "OPT_2": "<p>LDR R5, [R4, #4]!</p>\n",
+   "OPT_3": "<p>MOV R5, #4</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">ADD R4, R4, #4</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">Which ARM instruction uses post-indexed addressing?</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 21118
+  },
+  {
+   "_id": 21132,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OPT_1": "<p>MMIO uses special I/O instructions</p>\n",
+   "OPT_2": "<p>PMIO uses memory address space</p>\n",
+   "OPT_3": "<p>MMIO treats I/O registers as memory</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">PMIO cannot access I/O directly</p>\n",
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">What differentiates MMIO from PMIO?</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 21132
+  },
+  {
+   "_id": 21138,
+   "ANSWER": 1,
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OPT_1": "<p>Loads value from address 0x60000000</p>\n",
+   "OPT_2": "<p>Moves 0x60000000 into R0</p>\n",
+   "OPT_3": "<p>Maps a port</p>\n",
+   "OPT_4": "<p data-end=\"631\" data-start=\"445\">Adds base + offset</p>\n",
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p data-end=\"3469\" data-start=\"3386\">What is the effect of the instruction: <code data-end=\"3023\" data-start=\"3002\">LDR R0, =0x60000000</code> in MMIO?</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "mcq",
+   "key": 21138
+  }
+ ],
+ "sq": [
+  {
+   "_id": 28119,
+   "ANSWER": "<ul>\n\t<li data-end=\"469\" data-start=\"432\">\n\t<p data-end=\"469\" data-start=\"434\"><strong data-end=\"450\" data-start=\"434\">Instruction:</strong> <code data-end=\"467\" data-start=\"451\">ADD R1, R2, #5</code></p>\n\t</li>\n\t<li data-end=\"523\" data-start=\"470\">\n\t<p data-end=\"523\" data-start=\"472\"><strong data-end=\"493\" data-start=\"472\">Instruction Type:</strong> Data Processing (Immediate)</p>\n\t</li>\n\t<li data-end=\"607\" data-start=\"524\">\n\t<p data-end=\"607\" data-start=\"526\"><strong data-end=\"539\" data-start=\"526\">Operands:</strong> Destination = <code data-end=\"558\" data-start=\"554\">R1</code>, Source Register = <code data-end=\"582\" data-start=\"578\">R2</code>, Immediate Value = <code data-end=\"605\" data-start=\"602\">5</code></p>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO14"
+   ],
+   "QUESTION_DESC": "<p>Decode the binary instruction <code data-end=\"327\" data-start=\"315\">0xE2821005</code>. Identify the instruction type and operands.</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "sq",
+   "key": 28119
+  },
+  {
+   "_id": 28120,
+   "ANSWER": "<p>MOV R1, #0x4000 &nbsp;<br />\nLDR R0, [R1]</p>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO2",
+    "PLO1"
+   ],
+   "QUESTION_DESC": "<p>Write the ARM assembly instruction to load a value from memory address <code data-end=\"838\" data-start=\"830\">0x4000</code> into <code data-end=\"848\" data-start=\"844\">R0</code> using <strong data-end=\"862\" data-start=\"855\">LDR</strong>.</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "sq",
+   "key": 28120
+  }
+ ],
+ "lq": [
+  {
+   "_id": 28121,
+   "ANSWER": "<ul>\n\t<li data-end=\"1562\" data-start=\"1427\">\n\t<p data-end=\"1447\" data-start=\"1430\"><strong data-end=\"1445\" data-start=\"1430\">Definition:</strong></p>\n\n\t<ul data-end=\"1562\" data-start=\"1451\">\n\t\t<li data-end=\"1506\" data-start=\"1451\">\n\t\t<p data-end=\"1506\" data-start=\"1453\">MMIO: I/O devices are accessed as memory locations.</p>\n\t\t</li>\n\t\t<li data-end=\"1562\" data-start=\"1510\">\n\t\t<p data-end=\"1562\" data-start=\"1512\">PMIO: I/O devices have a separate address space.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1708\" data-start=\"1564\">\n\t<p data-end=\"1582\" data-start=\"1567\"><strong data-end=\"1580\" data-start=\"1567\">Examples:</strong></p>\n\n\t<ul data-end=\"1708\" data-start=\"1586\">\n\t\t<li data-end=\"1659\" data-start=\"1586\">\n\t\t<p data-end=\"1659\" data-start=\"1588\">MMIO: <code data-end=\"1615\" data-start=\"1594\">LDR R1, [R0, #0x10]</code> (Access device at address offset <code data-end=\"1655\" data-start=\"1649\">0x10</code>).</p>\n\t\t</li>\n\t\t<li data-end=\"1708\" data-start=\"1663\">\n\t\t<p data-end=\"1708\" data-start=\"1665\">PMIO: Uses <code data-end=\"1680\" data-start=\"1676\">IN</code>/<code data-end=\"1686\" data-start=\"1681\">OUT</code> instructions (x86).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1861\" data-start=\"1710\">\n\t<p data-end=\"1738\" data-start=\"1713\"><strong data-end=\"1736\" data-start=\"1713\">Advantages of MMIO:</strong></p>\n\n\t<ul data-end=\"1861\" data-start=\"1742\">\n\t\t<li data-end=\"1783\" data-start=\"1742\">\n\t\t<p data-end=\"1783\" data-start=\"1744\">Uniform addressing simplifies design.</p>\n\t\t</li>\n\t\t<li data-end=\"1829\" data-start=\"1787\">\n\t\t<p data-end=\"1829\" data-start=\"1789\">Uses existing LOAD/STORE instructions.</p>\n\t\t</li>\n\t\t<li data-end=\"1861\" data-start=\"1833\">\n\t\t<p data-end=\"1861\" data-start=\"1835\">Larger addressing space.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"1965\" data-start=\"1863\">\n\t<p data-end=\"1894\" data-start=\"1866\"><strong data-end=\"1892\" data-start=\"1866\">Disadvantages of MMIO:</strong></p>\n\n\t<ul data-end=\"1965\" data-start=\"1898\">\n\t\t<li data-end=\"1932\" data-start=\"1898\">\n\t\t<p data-end=\"1932\" data-start=\"1900\">Consumes memory address space.</p>\n\t\t</li>\n\t\t<li data-end=\"1965\" data-start=\"1936\">\n\t\t<p data-end=\"1965\" data-start=\"1938\">Potential bus contention.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2071\" data-start=\"1967\">\n\t<p data-end=\"1995\" data-start=\"1970\"><strong data-end=\"1993\" data-start=\"1970\">Advantages of PMIO:</strong></p>\n\n\t<ul data-end=\"2071\" data-start=\"1999\">\n\t\t<li data-end=\"2034\" data-start=\"1999\">\n\t\t<p data-end=\"2034\" data-start=\"2001\">Separate address space for I/O.</p>\n\t\t</li>\n\t\t<li data-end=\"2071\" data-start=\"2038\">\n\t\t<p data-end=\"2071\" data-start=\"2040\">Reduces memory address usage.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2175\" data-start=\"2073\">\n\t<p data-end=\"2104\" data-start=\"2076\"><strong data-end=\"2102\" data-start=\"2076\">Disadvantages of PMIO:</strong></p>\n\n\t<ul data-end=\"2175\" data-start=\"2108\">\n\t\t<li data-end=\"2142\" data-start=\"2108\">\n\t\t<p data-end=\"2142\" data-start=\"2110\">Requires special instructions.</p>\n\t\t</li>\n\t\t<li data-end=\"2175\" data-start=\"2146\">\n\t\t<p data-end=\"2175\" data-start=\"2148\">More complex programming.</p>\n\t\t</li>\n\t</ul>\n\t</li>\n\t<li data-end=\"2284\" data-start=\"2177\">\n\t<p data-end=\"2196\" data-start=\"2180\"><strong data-end=\"2194\" data-start=\"2180\">Use Cases:</strong></p>\n\n\t<ul data-end=\"2284\" data-start=\"2200\">\n\t\t<li data-end=\"2238\" data-start=\"2200\">\n\t\t<p data-end=\"2238\" data-start=\"2202\">MMIO: Embedded RISC systems (ARM).</p>\n\t\t</li>\n\t\t<li data-end=\"2284\" data-start=\"2242\">\n\t\t<p data-end=\"2284\" data-start=\"2244\">PMIO: Legacy CISC architectures (x86).</p>\n\t\t</li>\n\t</ul>\n\t</li>\n</ul>\n",
+   "COURSE_CODE": "21CSS201T",
+   "LEVEL": 4,
+   "OUTCOMES": [
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>Discuss <strong data-end=\"1212\" data-start=\"1184\">Memory-Mapped I/O (MMIO)</strong> vs <strong data-end=\"1242\" data-start=\"1216\">Port-Mapped I/O (PMIO)</strong> in embedded systems. Explain their differences, advantages, disadvantages, and provide examples with ARM instructions.</p>\n",
+   "SESSION_ID": 512,
+   "TYPE": "lq",
+   "key": 28121
+  }
+ ]
+}

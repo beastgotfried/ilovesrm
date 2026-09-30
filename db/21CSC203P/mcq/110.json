@@ -1,0 +1,140 @@
+{
+ "mcq": [
+  {
+   "_id": 9334,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Allocating memory at compile time<br data-end=\"455\" data-start=\"452\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Allocating memory at runtime as needed<br data-end=\"499\" data-start=\"496\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Fixed memory allocation before execution<br data-end=\"545\" data-start=\"542\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) Memory that is never released</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"413\" data-start=\"341\">What is dynamic memory allocation in object-oriented programming?</strong><br data-end=\"416\" data-start=\"413\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 9334
+  },
+  {
+   "_id": 9335,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) create<br data-end=\"737\" data-start=\"734\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) alloc<br data-end=\"748\" data-start=\"745\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) new<br data-end=\"757\" data-start=\"754\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) malloc</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"722\" data-start=\"630\">In Java, which keyword is commonly used to allocate memory dynamically for an object?</strong><br data-end=\"725\" data-start=\"722\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 9335
+  },
+  {
+   "_id": 9336,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Array<br data-end=\"905\" data-start=\"902\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Stack<br data-end=\"916\" data-start=\"913\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Heap<br data-end=\"926\" data-start=\"923\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) Queue</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"891\" data-start=\"816\">Which data structure is typically used in dynamic memory allocation?</strong><br data-end=\"894\" data-start=\"891\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 9336
+  },
+  {
+   "_id": 9337,
+   "ANSWER": 2,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) It consumes more storage<br data-end=\"1077\" data-start=\"1074\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) It requires resolving the method at runtime through a virtual table (vtable)<br data-end=\"1159\" data-start=\"1156\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) It uses static binding<br data-end=\"1187\" data-start=\"1184\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) It runs outside of memory</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1044\" data-start=\"989\">Why is dynamic dispatch slower than direct call?</strong><br data-end=\"1047\" data-start=\"1044\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 9337
+  },
+  {
+   "_id": 9338,
+   "ANSWER": 3,
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 1,
+   "OPT_1": "<p>a) Requires multiple virtual table lookups<br data-end=\"1418\" data-start=\"1415\" />\n&nbsp;</p>\n",
+   "OPT_2": "<p>b) Allows runtime flexibility<br data-end=\"1450\" data-start=\"1447\" />\n&nbsp;</p>\n",
+   "OPT_3": "<p>c) Enables faster execution due to compile-time binding<br data-end=\"1508\" data-start=\"1505\" />\n&nbsp;</p>\n\n<p><br data-end=\"1359\" data-start=\"1356\" />\n<br data-end=\"991\" data-start=\"988\" />\n\u200b\u200b\u200b\u200b\u200b</p>\n",
+   "OPT_4": "<p>d) Requires more memory</p>\n",
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p><strong data-end=\"1370\" data-start=\"1267\">Which of the following is a performance benefit of direct procedure calls over dynamic dispatch?</strong><br data-end=\"1373\" data-start=\"1370\" />\n<br data-end=\"1047\" data-start=\"1044\" />\n&nbsp;</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "mcq",
+   "key": 9338
+  }
+ ],
+ "sq": [
+  {
+   "_id": 9367,
+   "ANSWER": "<p>Object-oriented programming promotes abstraction, encapsulation, and reuse, allowing complex systems to be broken down into manageable components with clear responsibilities.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A large-scale e-commerce platform requires maintainable and extensible code. Why is object-oriented programming more suitable than procedural for this case?</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "sq",
+   "key": 9367
+  },
+  {
+   "_id": 9368,
+   "ANSWER": "<p>Dynamic dispatch in object-oriented languages introduces runtime overhead due to method resolution, whereas static calls in procedural code are resolved at compile time, offering better performance.</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 2,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p>A performance audit reveals delays in frequently called functions. What role do method call overheads play in this performance issue?</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "sq",
+   "key": 9368
+  }
+ ],
+ "lq": [
+  {
+   "_id": 9383,
+   "ANSWER": "<p>abstract class Organism {<br />\n&nbsp; &nbsp; protected String name;<br />\n&nbsp; &nbsp; abstract void interact();<br />\n}</p>\n\n<p>class Animal extends Organism {<br />\n&nbsp; &nbsp; void interact() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; // animal-specific behavior<br />\n&nbsp; &nbsp; }<br />\n}</p>\n\n<p>class Plant extends Organism {<br />\n&nbsp; &nbsp; void interact() {<br />\n&nbsp; &nbsp; &nbsp; &nbsp; // plant-specific behavior<br />\n&nbsp; &nbsp; }<br />\n}<br />\n&nbsp;</p>\n",
+   "COURSE_CODE": "21CSC203P",
+   "LEVEL": 3,
+   "OUTCOMES": [
+    "PLO1",
+    "PLO2"
+   ],
+   "QUESTION_DESC": "<p data-end=\"613\" data-start=\"371\">An ecosystem simulation involving animals and plants is under development. Evaluate whether <strong data-end=\"6766\" data-start=\"6740\">procedural programming</strong> or <strong data-end=\"6801\" data-start=\"6770\">object-oriented programming</strong> is more suitable, considering modularity, abstraction, and scalability.</p>\n",
+   "SESSION_ID": 110,
+   "TYPE": "lq",
+   "key": 9383
+  }
+ ]
+}
