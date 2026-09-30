@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 5 : SLO – 1  |  Multiple Bus Organization — Fill in the Blanks",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. address bus — carries memory addresses from the processor to memory.",
+    "2. data bus — transfers data between the processor and I/O devices.",
+    "3. Harvard — separate buses for instructions and data define the Harvard architecture.",
+    "4. local (backside/cache) bus — connects the CPU to high-speed cache memory.",
+    "5. contention (bus bottlenecks) — multiple buses allow simultaneous transfers, reducing contention.",
+    "6. Bus A: first source operand to the ALU; Bus B: second source operand (Bus C carries the ALU result back to the registers).",
+    "7. control bus — transmits control signals between components.",
+    "8. performance (throughput) — parallelism across buses improves overall speed over a single-bus system.",
+    "9. bus arbiter — coordinates traffic and grants access among devices/buses.",
+    "10. crossbar (point-to-point interconnect) — modern processors use high-speed crossbar/point-to-point buses to link multiple cores to the shared cache."
+   ]
+  ]
+ ]
+}

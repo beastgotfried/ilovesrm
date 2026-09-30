@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 10 : SLO – 1  |  Odd Man Out — Pipelining Performance",
+ "sections": [
+  [
+   "I. Odd Man Out",
+   [
+    "1. Group CPI, IPC, Speedup, Bandwidth → Bandwidth — a data-transfer rate; the others are instruction-level performance metrics.",
+    "2. Group Throughput, Latency, Clock rate, Hard disk RPM → Hard disk RPM — a storage-device spec, not a CPU pipeline metric.",
+    "3. Group Ideal speedup, Observed speedup, Pipeline depth, Cache size → Cache size — a memory-hierarchy parameter, not a pipeline speedup/depth measure.",
+    "4. Group Data forwarding, Branch prediction, Hazard elimination, Motherboard → Motherboard — a physical board; the others are pipeline hazard techniques.",
+    "5. Group Structural, Control, Data hazard, Power outage → Power outage — an external failure, not a pipeline hazard.",
+    "6. Group Superpipelining, Superscalar, VLIW, Solid-state drive → Solid-state drive — storage; the others are ILP architectures.",
+    "7. Group Bubble, Flush, Stall, Acceleration → Pipeline acceleration — the others are pipeline disruption terms.",
+    "8. Group ILP, Thread-level parallelism, Sequential processing → Sequential processing — no parallelism.",
+    "9. Group 1 CPI, 0.5 CPI, 2 CPI, 5 GHz → 5 GHz — a clock frequency; the others are cycles-per-instruction values.",
+    "10. Group RISC pipeline, CISC pipeline, Printer driver → Printer driver — peripheral software, not a processor pipeline."
+   ]
+  ]
+ ]
+}

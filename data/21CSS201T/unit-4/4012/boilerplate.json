@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 1 : SLO – 2  |  Control Unit — Fill in the Blanks",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. Control Unit (CU) — decodes instructions and generates control signals.",
+    "2. Program Counter (PC) — holds the address of the next instruction to be executed.",
+    "3. Instruction Register (IR) — temporarily stores the instruction fetched from memory.",
+    "4. Arithmetic Logic Unit (ALU) — performs arithmetic and logical operations in the CPU.",
+    "5. clock (clock signal) — synchronizes the operations of the CPU components.",
+    "6. microoperations — the small, atomic steps used to execute an instruction.",
+    "7. pipelining — overlaps instruction execution for better performance.",
+    "8. Control Unit (control signal generator) — generates signals to control data movement and ALU operations.",
+    "9. accumulator — the register that holds intermediate results during processing.",
+    "10. fetch — the fetch step retrieves the instruction from memory into the CPU."
+   ]
+  ]
+ ]
+}

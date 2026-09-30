@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 11 : SLO – 2  |  Odd Man Out — Pipeline Hazards",
+ "sections": [
+  [
+   "I. Odd Man Out",
+   [
+    "1. Group RAW, WAR, WAW, RAR → RAR — two reads never conflict; the other three are true data hazards.",
+    "2. Group Data forwarding, Branch prediction, Operand caching, Disk defragmentation → Disk defragmentation — a storage maintenance task, not a hazard technique.",
+    "3. Group Structural, Control, Data hazard, Power surge → Power surge — an electrical fault, not a pipeline hazard.",
+    "4. Group Bubble, Flush, Stall, Acceleration → Pipeline acceleration — the others are disruption terms.",
+    "5. Group ALU, FPU, Cache memory, Branch target buffer → Cache memory — a storage structure; the others are processor execution/prediction hardware units.",
+    "6. Group Bypassing, Speculative execution, Out-of-order execution, Sequential processing → Sequential processing — no overlap/parallelism.",
+    "7. Group Fetch, Decode, Execute, Compile → Compile — a software step, not a pipeline stage.",
+    "8. Group CPI, IPC, MIPS, USB → USB — an I/O interface; the others are performance metrics.",
+    "9. Group NOP insertion, Register renaming, Reorder buffer, Motherboard → Motherboard — a physical board; the others are hazard-handling mechanisms.",
+    "10. Group RISC pipeline, CISC pipeline, Printer driver → Printer driver — peripheral software."
+   ]
+  ]
+ ]
+}

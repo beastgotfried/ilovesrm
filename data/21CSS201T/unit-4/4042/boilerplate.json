@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 4 : SLO – 2  |  Branch Instructions — Match the Following",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. JMP — D. Jump to address unconditionally.",
+    "2. BEQ — A. Branch if result is zero (zero flag set).",
+    "3. BNE — E. Branch if result is not zero.",
+    "4. BCS — C. Branch if carry flag is set.",
+    "5. JSR — B. Unconditional jump to subroutine (saves return address).",
+    "6. RTS — F. Return from subroutine.",
+    "7. BPL — G. Branch if result is positive (sign flag clear).",
+    "8. BMI — H. Branch if result is negative (sign flag set).",
+    "9. BVC — I. Branch if overflow flag is clear.",
+    "10. BGE — J. Branch if greater than or equal (sign and overflow flags equal)."
+   ]
+  ]
+ ]
+}

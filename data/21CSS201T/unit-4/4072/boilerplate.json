@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 7 : SLO – 2  |  Odd Man Out — Generation of Control Signals",
+ "sections": [
+  [
+   "I. Odd Man Out",
+   [
+    "1. Group Opcode, Operand, Clock, Condition Code → Clock — a timing reference; the others are instruction/state information that feed control-signal generation.",
+    "2. Group Control Memory, ALU, Decoder, Flip-flops → ALU — a data-processing unit; the others are control-path elements.",
+    "3. Group MEMREAD, MEMWRITE, ALUOP, DATAPATH → DATAPATH — a hardware structure; the others are control signals.",
+    "4. Group Hardwired, Microprogrammed, Combinational, RISC → RISC — an ISA design style; the others are control-unit implementation approaches.",
+    "5. Group Sequence Counter, Program Counter, Instruction Register, Control Store → Control Store — exists only in microprogrammed units; the others are general processor registers/counters.",
+    "6. Group Horizontal Microcode, Vertical Microcode, Nanocode, Opcode → Opcode — an instruction field; the others are microprogram encoding formats.",
+    "7. Group AND gate, OR gate, Decoder, Cache Memory → Cache Memory — a storage structure; the others are logic elements.",
+    "8. Group Fetch, Decode, Execute, Compile → Compile — a software translation step; the others are hardware instruction-cycle stages.",
+    "9. Group Control Signal, Data Signal, Address Signal, Interrupt Signal → Interrupt Signal — an asynchronous event line; the others are the three standard bus signal groups.",
+    "10. Group Finite State Machine, Control Matrix, Pipeline Registers, Branch Predictor → Branch Predictor — a performance feature; the others are structures used to implement/generate control sequencing."
+   ]
+  ]
+ ]
+}

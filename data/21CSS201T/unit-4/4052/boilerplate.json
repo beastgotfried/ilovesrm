@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 5 : SLO – 2  |  Multiple Bus Organization — Match the Following",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. Address Bus — B. Connects CPU to main memory for address transfer.",
+    "2. Data Bus — C. Transfers actual data between components.",
+    "3. Control Bus — A. Carries control signals between components.",
+    "4. System Bus — E. Main bus connecting CPU to memory and I/O.",
+    "5. Local Bus — D. Dedicated high-speed processor-cache connection.",
+    "6. Bus Arbiter — G. Decides which device gets bus access.",
+    "7. Crossbar Switch — F. Allows simultaneous multiple data transfers.",
+    "8. Harvard Architecture — H. Uses separate buses for instructions and data.",
+    "9. Bus Width — I. Number of parallel lines in a bus.",
+    "10. Dual Bus Architecture — J. Uses separate buses for memory and I/O access."
+   ]
+  ]
+ ]
+}

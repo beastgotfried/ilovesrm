@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 12 : SLO – 1  |  Influence on Instruction Sets — Choose the Best Answer",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Simplified, single-cycle instructions — RISC design is driven by simple instructions that execute in one cycle.",
+    "2. a) Easier pipelining and decoding — fixed-length instructions align fetch/decode stages neatly.",
+    "3. c) Memory-to-memory operations — CISC instructions can operate directly on memory operands.",
+    "4. b) SIMD — one instruction processing multiple data elements boosts modern performance.",
+    "5. a) Code density — embedded systems have little memory, so compact code matters most.",
+    "6. a) To reduce branch penalties — predication executes both paths conditionally, eliminating branches.",
+    "7. b) Backward compatibility — x86 kept variable-length instructions to run legacy software.",
+    "8. c) More compact code — register-memory instructions do more per instruction, shrinking code size.",
+    "9. b) Out-of-order execution — dynamic scheduling most reshaped modern ISA/microarchitecture design.",
+    "10. a) Increased compiler complexity vs. code flexibility — more addressing modes give flexibility but complicate the compiler and hardware."
+   ]
+  ]
+ ]
+}

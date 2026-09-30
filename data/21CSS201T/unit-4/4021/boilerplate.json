@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 2 : SLO – 1  |  Odd Man Out — ALU Operations",
+ "sections": [
+  [
+   "I. Odd Man Out",
+   [
+    "1. Group ADD, SUBTRACT, MULTIPLY, FETCH → FETCH — it is an instruction-cycle step, not an ALU arithmetic operation.",
+    "2. Group AND, OR, NOT, LOAD → LOAD — it is a data-transfer operation, not a logical operation.",
+    "3. Group SHIFT LEFT, SHIFT RIGHT, ROTATE, COMPARE → COMPARE — it only sets condition flags; the others physically move bits.",
+    "4. Group INCREMENT, DECREMENT, DIVIDE, NEGATE → DIVIDE — it is a binary (two-operand) operation; the rest are unary (single-operand) operations.",
+    "5. Group XOR, XNOR, MOV, NAND → MOV — it transfers data; the others are Boolean logic operations.",
+    "6. Group CARRY FLAG, ZERO FLAG, OVERFLOW FLAG, CLOCK SIGNAL → CLOCK SIGNAL — it synchronizes the CPU; the others are status/condition flags.",
+    "7. Group ARITHMETIC, LOGIC, BRANCH, BITWISE → BRANCH — it is a control-flow operation; the others are ALU data-processing categories.",
+    "8. Group REGISTER, ADDER, COMPARATOR, MULTIPLEXER → REGISTER — it is a storage (sequential) element; the others are combinational circuits.",
+    "9. Group BINARY OPERATION, UNARY OPERATION, DATA TRANSFER, FLOATING POINT → FLOATING POINT — it is a data format/type, not an operation class.",
+    "10. Group BOOTH'S ALGORITHM, RESTORING DIVISION, CACHE HIT, WALLACE TREE → CACHE HIT — it is a memory-hierarchy event; the others are arithmetic hardware algorithms."
+   ]
+  ]
+ ]
+}

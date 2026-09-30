@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 7 : SLO – 1  |  Generation of Control Signals — Fill in the Blanks",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. opcode — control signals are generated based on the opcode field of the instruction.",
+    "2. control (decoder) unit — decodes the instruction to determine which signals to activate.",
+    "3. control memory (control store) — in microprogrammed control, the control signals are stored as microinstructions in control memory.",
+    "4. sequence counter — tracks the current step in the instruction cycle.",
+    "5. Hardwired — hardwired control uses combinational logic to generate signals directly.",
+    "6. MEMREAD (memory read) — the signal that tells the processor to read from memory.",
+    "7. opcode / function-code — ALU control signals are determined by the opcode (function field) input to the ALU control.",
+    "8. Instruction Register (IR) — holds the current instruction being executed.",
+    "9. individual bits (one bit per signal) — horizontal microprogramming represents each control signal as its own bit in a wide microinstruction word.",
+    "10. MEMWRITE (memory write) — initiates a write to memory or an I/O device."
+   ]
+  ]
+ ]
+}

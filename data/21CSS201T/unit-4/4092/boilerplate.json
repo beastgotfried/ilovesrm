@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 9 : SLO – 2  |  Odd Man Out — Pipelining Basics",
+ "sections": [
+  [
+   "I. Odd Man Out",
+   [
+    "1. Group Fetch, Decode, Execute, Write-back, Compiler → Compiler — software; the rest are pipeline stages.",
+    "2. Group Data hazard, Control hazard, Structural hazard, Cache miss → Cache miss — a memory-hierarchy event, not a pipeline hazard class.",
+    "3. Group Bypassing, Branch prediction, Operand forwarding, Interrupt handling → Interrupt handling — OS/exception mechanism; the others are hazard-mitigation techniques.",
+    "4. Group RISC pipeline, Superscalar, VLIW, Hard disk → Hard disk — storage device; the others are instruction-level-parallel architectures.",
+    "5. Group Pipeline register, ALU, Program Counter, Power supply → Power supply — not a processor datapath/control element.",
+    "6. Group Throughput, Latency, Speedup, Voltage → Voltage — an electrical property, not a performance metric.",
+    "7. Group 5-stage, 7-stage, 10-stage pipeline, Binary code → Binary code — a representation, not a pipeline configuration.",
+    "8. Group Bubble, Stall, Flush, Accelerate → Accelerate — the others are pipeline disruption terms.",
+    "9. Group Instruction-level parallelism, Data parallelism, Sequential execution → Sequential execution — the absence of parallelism.",
+    "10. Group CPI, IPC, MIPS, USB → USB — an I/O interface standard; the others are CPU performance metrics."
+   ]
+  ]
+ ]
+}

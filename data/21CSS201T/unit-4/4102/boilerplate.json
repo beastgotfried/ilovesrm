@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 10 : SLO – 2  |  Pipelining Performance — Fill in the Blanks",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. throughput — the primary pipelining metric, measured in instructions per cycle (IPC).",
+    "2. Pipeline stall — the pipeline pauses when dependencies cannot be resolved in time.",
+    "3. depth (number of stages) — ideal speedup equals the number of pipeline stages under perfect conditions.",
+    "4. Structural — hazards where multiple instructions need the same hardware resource.",
+    "5. Pipeline depth (ideal speedup) — Speedup = Pipeline depth / (1 + pipeline stall cycles per instruction).",
+    "6. Operand (result) — forwarding/bypassing reduces data hazards without waiting for register write-back.",
+    "7. Execute (EX) — branch conditions and target addresses are typically resolved in the execute stage.",
+    "8. Deep pipelines improve clock rate (throughput) but increase hazard/branch (stall) penalties.",
+    "9. Instruction-level — ILP lets multiple instructions execute in parallel within a single pipeline.",
+    "10. CPI — cycles per instruction, the average clock cycles each instruction needs."
+   ]
+  ]
+ ]
+}

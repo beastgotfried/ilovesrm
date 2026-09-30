@@ -1,0 +1,18 @@
+{
+ "title": "Unit – 4 : Session – 1 : SLO – 1  |  Control Unit — Match the Terms",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. Control Unit (CU) — A. Decodes instructions and generates control signals to execute them.",
+    "2. Program Counter (PC) — B. Holds the memory address of the next instruction to be fetched.",
+    "3. Instruction Register (IR) — C. Temporarily holds the instruction fetched from memory.",
+    "4. Arithmetic Logic Unit (ALU) — D. Performs arithmetic and logical operations.",
+    "5. Clock Signal — E. Synchronizes operations of the CPU components.",
+    "6. Microoperations — F. Small, atomic steps performed to execute an instruction.",
+    "7. Control Signals — G. Electrical signals that direct data flow and operations in the CPU.",
+    "8. Pipeline Processing — H. Overlaps instruction execution to improve efficiency."
+   ]
+  ]
+ ]
+}

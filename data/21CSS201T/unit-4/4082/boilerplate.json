@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 8 : SLO – 2  |  Micro-programmed Control — Choose the Correct Answer",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Control Store (ROM) — microinstructions reside in a dedicated control store inside the CPU.",
+    "2. b) A single control signal — in horizontal microcode each bit drives one control line directly.",
+    "3. b) Micro-PC — the micro program counter holds the address of the next microinstruction.",
+    "4. b) Shorter and encoded — vertical microcode packs signals into encoded fields, so words are narrow but need decoding.",
+    "5. c) Determine next microinstruction address — the microsequencer handles microprogram flow (sequencing/branching).",
+    "6. b) Writable Control Store (WCS) — a writable (RAM) control store allows changing microprograms at run time (dynamic microprogramming).",
+    "7. a) Smaller control steps within microinstructions — nanocode is a second level below microcode, further breaking microinstructions into nano-steps.",
+    "8. b) Complex CISC instructions — microprogramming makes complicated multi-step instructions manageable.",
+    "9. b) Easier modification — changing the control unit means editing microcode rather than rewiring hardware.",
+    "10. b) Emulation — using microcode to simulate another (complex) instruction set is called emulation."
+   ]
+  ]
+ ]
+}

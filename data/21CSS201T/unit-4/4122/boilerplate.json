@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 12 : SLO – 2  |  Influence on Instruction Sets — Fill in the Blanks",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. RISC — a small set of simple, fixed-length instructions.",
+    "2. CISC — CISC instruction sets allow memory-to-memory operations for compact code.",
+    "3. \"make the common case fast\" (Amdahl's) — frequently used instructions should be fast.",
+    "4. SIMD (vector) — modern processors use SIMD extensions for parallel data processing.",
+    "5. code density — embedded systems prioritize compact code to minimize memory usage.",
+    "6. fixed-length — the fixed-length format simplifies pipelining but may reduce code density.",
+    "7. Predicated — predicated execution conditionally executes instructions, removing branches.",
+    "8. Backward — backward compatibility forces x86 to keep complex legacy features.",
+    "9. load-store — the RISC load-store model requires explicit load/store instructions for memory access.",
+    "10. Multiple (complex) — many addressing modes increase flexibility but complicate hardware design."
+   ]
+  ]
+ ]
+}

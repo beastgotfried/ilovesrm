@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 8 : SLO – 1  |  Micro-programmed Control — Match the Following",
+ "sections": [
+  [
+   "I. Match the Following",
+   [
+    "1. Microinstruction — A. Contains all control signals for one clock cycle.",
+    "2. Control Store — C. ROM storing microprograms.",
+    "3. Nanocode — B. Breaks microinstructions into smaller steps (a second, finer level of control encoding).",
+    "4. Microprogram — E. Sequence of microinstructions.",
+    "5. Horizontal Microcode — F. Each bit directly controls a signal (wide words, no decoding).",
+    "6. Vertical Microcode — D. Uses multiple microinstruction formats (short, encoded words needing decoders).",
+    "7. Micro-PC — G. Points to the next microinstruction.",
+    "8. Emulation — H. Imitating complex instructions (one machine imitating another's ISA via microcode).",
+    "9. Dynamic Microprogramming — I. Modifiable control store (writable control store).",
+    "10. Microsequencer — J. Decides the next microinstruction address."
+   ]
+  ]
+ ]
+}

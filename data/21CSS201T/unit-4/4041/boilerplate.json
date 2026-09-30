@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 4 : SLO – 1  |  Branch Instructions — Choose the Best",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. c) Arithmetic branch — not a branch type; branches are conditional, unconditional, or call/return.",
+    "2. b) Zero flag — most conditional branches (BEQ/BNE) test the zero flag.",
+    "3. b) JMP (Jump) — an unconditional jump permanently alters the flow; conditional branches may fall through.",
+    "4. a) Program counter increments normally — with carry = 0 the BCS condition fails, so the branch is not taken and execution falls through.",
+    "5. b) Relative — branch instructions typically use PC-relative addressing so code stays position-independent.",
+    "6. c) To save the return address and jump — a subroutine call pushes the return address (stack/link register) before transferring control.",
+    "7. c) BMI (Branch if Minus) — it tests the sign/negative flag, so it is conditional; JMP/BRA/JSR are unconditional.",
+    "8. b) It stalls — a taken branch flushes wrongly prefetched instructions, causing pipeline bubbles.",
+    "9. a) Branch prediction — speculatively fetching the likely path reduces branch penalties.",
+    "10. a) BPL (Branch if Plus) — a conditional branch back to the loop start creates a loop; RTS returns, NOP/HLT do not loop."
+   ]
+  ]
+ ]
+}

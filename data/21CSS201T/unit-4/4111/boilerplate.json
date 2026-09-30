@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 11 : SLO – 1  |  Pipeline Hazards — Choose the Best Answer",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Data hazard — dependence on a previous instruction's unfinished result.",
+    "2. b) Operand forwarding — routes results directly from one stage to the next, bypassing the register file.",
+    "3. c) Control hazard — the pipeline does not know which instruction to fetch until the branch resolves.",
+    "4. a) NOP (No Operation) — inserting NOPs (bubbles) stalls the pipeline to handle hazards.",
+    "5. c) Structural hazard — two instructions competing for the same functional unit at once.",
+    "6. b) Speculative execution (branch prediction) — predicts the branch outcome and proceeds speculatively.",
+    "7. d) RAR (Read After Read) — two reads never conflict; RAW, WAR and WAW are the true data hazards.",
+    "8. a) Increased CPI — stalls add cycles, raising the average cycles per instruction.",
+    "9. a) Fetch — the fetch stage suffers most, since the next PC is unknown until the branch resolves.",
+    "10. a) Duplicate functional units — replicated hardware removes the resource conflict causing structural hazards."
+   ]
+  ]
+ ]
+}

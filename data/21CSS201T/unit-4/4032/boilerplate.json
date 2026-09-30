@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 3 : SLO – 2  |  Odd Man Out — Instruction Execution",
+ "sections": [
+  [
+   "I. Odd Man Out",
+   [
+    "1. Group Fetch, Decode, Execute, Store → Store — Fetch, Decode and Execute are the three fundamental stages of the instruction cycle; storing is a sub-step of execution (write-back).",
+    "2. Group PC, IR, ALU, CU → ALU — it is the data-processing unit; PC, IR and CU all serve instruction sequencing/control.",
+    "3. Group ADD, SUB, MOV, HALT → HALT — it stops the machine; the others are data-processing/transfer instructions that produce a result.",
+    "4. Group Register, Cache, RAM, Hard Disk → Hard Disk — it is non-volatile secondary storage; the others are fast volatile storage inside the memory hierarchy.",
+    "5. Group Zero Flag, Overflow Flag, Carry Flag, Clock Signal → Clock Signal — it drives timing; the others are ALU status flags.",
+    "6. Group Immediate, Direct, Indirect, Parallel → Parallel — it is not an addressing mode; the other three are.",
+    "7. Group RISC, CISC, Pipelining, GPU → GPU — it is a hardware device; RISC/CISC are ISA design philosophies and pipelining is an execution technique.",
+    "8. Group Branch, Jump, Call, Load → Load — it is a data-transfer instruction; the others alter the control flow.",
+    "9. Group Operand Fetch, Instruction Fetch, Write Back, Memory Access → Instruction Fetch — it fetches the instruction word; the others move data between CPU and memory.",
+    "10. Group Microoperation, Macrooperation, Nanoperation, Clock Cycle → Nanoperation — it is not a real architectural term; microoperations execute instructions and clock cycles time them."
+   ]
+  ]
+ ]
+}

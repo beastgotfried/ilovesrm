@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 9 : SLO – 1  |  Pipelining — Choose the Correct Answer",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Increase instruction throughput — pipelining overlaps stages so more instructions complete per unit time.",
+    "2. b) 5 — the classic RISC pipeline has 5 stages: Fetch, Decode, Execute, Memory, Write-back.",
+    "3. b) Data hazard — an instruction needing the not-yet-written result of a previous instruction.",
+    "4. b) Branch prediction — guesses the branch outcome to keep the pipeline full through control hazards.",
+    "5. c) Fetch — the IF stage reads the instruction from memory.",
+    "6. c) Stall — a pipeline bubble is a stall cycle where no useful work advances.",
+    "7. a) Speedup = Non-pipelined time / Pipelined time.",
+    "8. a) Cycles Per Instruction.",
+    "9. b) Bypass unit — forwarding (bypassing) routes ALU results directly to where they are needed.",
+    "10. a) Longest pipeline stage — the slowest stage fixes the clock period and hence caps the speedup."
+   ]
+  ]
+ ]
+}

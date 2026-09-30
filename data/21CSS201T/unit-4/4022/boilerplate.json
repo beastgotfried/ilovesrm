@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 3 : SLO – 1  |  Instruction Execution — Fill in the Blanks",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. instruction (fetch) cycle — fetching an instruction from memory is part of the instruction cycle.",
+    "2. Program Counter (PC) — holds the address of the next instruction to be executed.",
+    "3. Instruction Register (IR) — after fetching, the instruction is placed in the IR for decoding.",
+    "4. Control Unit (CU) — decodes the instruction and generates control signals.",
+    "5. Arithmetic Logic Unit (ALU) — performs arithmetic and logical operations during execution.",
+    "6. operand-fetch (decode) stage — retrieves the operands needed for execution.",
+    "7. accumulator — stores intermediate results during instruction execution.",
+    "8. zero flag — set when the result of an operation is zero.",
+    "9. branch (jump) — a branch instruction alters the normal sequence of execution.",
+    "10. write-back (store) — the phase that writes the result back to memory or registers."
+   ]
+  ]
+ ]
+}

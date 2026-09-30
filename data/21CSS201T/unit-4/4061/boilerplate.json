@@ -1,0 +1,20 @@
+{
+ "title": "Unit – 4 : Session – 6 : SLO – 1  |  Hardwired Control — Choose the Best",
+ "sections": [
+  [
+   "I. Multiple Choice",
+   [
+    "1. b) Implemented with logic gates — a hardwired control unit is pure digital logic (gates, decoders, flip-flops).",
+    "2. b) Decoder — the instruction decoder interprets the opcode and drives signal generation.",
+    "3. b) Simple, fixed instruction sets — hardwired logic is economical when the ISA is small and stable (RISC-style).",
+    "4. c) Faster operation — signals come straight from logic gates with no control-memory read, so hardwired beats microprogrammed on speed.",
+    "5. c) Control memory — control memory belongs to microprogrammed control, not hardwired.",
+    "6. b) Current instruction and processor state — signals are functions of the opcode, step counter, and condition flags.",
+    "7. c) RISC processors — their simple, fixed instruction sets make hardwired control practical; modern GPUs similarly use hardwired logic for speed.",
+    "8. b) Requires hardware modification — the logic is physically wired, so adding an instruction means redesigning the circuit.",
+    "9. b) Hardwired control — the control unit is designed as a finite state machine stepping through instruction states.",
+    "10. b) Propagation delay of logic gates — the delay through the combinational logic sets the minimum cycle time."
+   ]
+  ]
+ ]
+}
