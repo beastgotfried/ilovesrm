@@ -62,18 +62,24 @@ data/<course>/unit-<N>/<code>/
 | Course | Code | Coverage |
 |---|---|---|
 | Universal Human Values II | 21LEM202T | U1–U5, all 90 worksheets |
-| Advanced Programming Practice | 21CSC203P | U1–U2 full, U3 S1–S7 (62) |
-| Computer Organization & Architecture | 21CSS201T | U1–U3 full (72) |
+| Advanced Programming Practice | 21CSC203P | U1–U5, all 120 worksheets |
+| Computer Organization & Architecture | 21CSS201T | U1–U5, all 120 worksheets |
+| Data Structures and Algorithms | 21CSC201J | U1 S1–S8, U2–U4 full, U5 S1–S9 (106) |
+| Operating Systems *(partial, bonus)* | 21CSC202J | U1 S1–S12 (24) |
+
+Total: **436 solved worksheets** across the four semester-3 courses.
+The TUI counts are computed live from this table's data — if the bot shows
+fewer, run `git pull` to update your local clone.
 
 ### Solution keys (question bank, all courses on the account)
-| Course | Code | Sessions |
-|---|---|---|
-| Advanced Programming Practice | 21CSC203P | U1–U3 (36) |
-| Computer Organization & Architecture | 21CSS201T | U1–U3 (36) |
-| Universal Human Values II | 21LEM202T | U1 (9) |
-| Operating Systems | 21CSC202J | U1–U5 (57) |
-| Data Structures & Algorithms | 21CSC201J | U1–U5 (53) |
-| Maths (PDE) | 21MAB201T | U1–U5 (60) |
+| Course | Code | Sessions with keys | Coverage |
+|---|---|---|---|
+| Advanced Programming Practice | 21CSC203P | 110 | U1–U3 full, U4 (18), U5 (20) |
+| Computer Organization & Architecture | 21CSS201T | 74 | U1–U3 full, U4 (2) |
+| Universal Human Values II | 21LEM202T | 90 | U1–U5 full (18 per unit) |
+| Operating Systems | 21CSC202J | 114 | U1–U4 full, U5 (18) |
+| Data Structures & Algorithms | 21CSC201J | 106 | U1 (16), U2–U4 full, U5 (18) |
+| Maths (PDE) | 21MAB201T | 120 | U1–U5 full |
 
 Refresh with `python3 fetch_solutions.py [COURSE ...]` — re-probes every
 session grid cell, so newly published sessions are picked up automatically.
