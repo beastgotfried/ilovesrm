@@ -1,0 +1,63 @@
+{
+ "title": "Unit – 5 : Session – 6 : SLO – 2  |  Minimum Spanning Tree — Kruskal's Algorithm",
+ "sections": [
+  [
+   "I. Graph Reference",
+   [
+    "Edges with weights: A-B(10), A-C(12), B-C(9), B-D(8), C-E(3), C-F(1), D-E(7), E-F(3),",
+    "D-G(8), D-H(5), F-H(6), G-H(9), G-I(2), H-I(11)."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "Kruskal's algorithm is a GREEDY based technique.",
+    "In Kruskal's algorithm, all edges are sorted in ASCENDING (increasing) order of their weights.",
+    "The MST formed by Kruskal's algorithm always contains n-1 edges for a graph with n vertices.",
+    "To avoid cycles in Kruskal's algorithm, we use UNION-FIND (disjoint set) to check if two vertices are in the same set.",
+    "The time complexity of Kruskal's algorithm using Union-Find is O(E log E) (i.e. O(E log V))."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "Kruskal's algorithm works only for connected graphs — TRUE (for a spanning TREE; on disconnected graphs it",
+    "   yields a minimum spanning forest).",
+    "Kruskal's algorithm starts from an arbitrary node — FALSE (it starts from the globally lightest edge).",
+    "Kruskal's algorithm always selects the lightest edge that does not form a cycle — TRUE.",
+    "MST by Kruskal's and Prim's algorithms will always be identical for any graph — FALSE",
+    "   (total weight is the same, but the edge set may differ when equal-weight edges exist)."
+   ]
+  ],
+  [
+   "IV. Short Answer Questions",
+   [
+    "Union-Find: maintains disjoint sets of vertices; FIND checks whether the two endpoints of an edge are already",
+    "in the same set (which would form a cycle), and UNION merges the two sets when an edge is accepted.",
+    "Kruskal's skips an edge when both its endpoints already belong to the same set, because adding it would",
+    "create a cycle.",
+    "Edges are sorted by weight so that at every step the globally lightest remaining edge is considered,",
+    "guaranteeing the greedy choice is optimal (cut property) and yielding a minimum total weight."
+   ]
+  ],
+  [
+   "V. Apply Kruskal's Algorithm",
+   [
+    "Sorted edges: C-F(1), G-I(2), C-E(3), E-F(3), D-H(5), F-H(6), D-E(7), B-D(8), D-G(8), B-C(9), G-H(9), A-B(10), H-I(11), A-C(12).",
+    "Step 1: C-F (1)  -> accept. Sets: {C,F}",
+    "Step 2: G-I (2)  -> accept. Sets: {C,F}, {G,I}",
+    "Step 3: C-E (3)  -> accept. Sets: {C,F,E}, {G,I}",
+    "Step 4: E-F (3)  -> SKIP (E and F in same set; would form a cycle).",
+    "Step 5: D-H (5)  -> accept. Sets: {C,F,E}, {G,I}, {D,H}",
+    "Step 6: F-H (6)  -> accept (merges). Sets: {C,F,E,D,H}, {G,I}",
+    "Step 7: D-E (7)  -> SKIP (same set).",
+    "Step 8: B-D (8)  -> accept. Sets: {B,C,D,E,F,H}, {G,I}",
+    "Step 9: D-G (8)  -> accept (merges). Set: {B,C,D,E,F,G,H,I}",
+    "Step 10: B-C(9), G-H(9) -> SKIP (cycles).",
+    "Step 11: A-B (10) -> accept. All 9 vertices connected; 8 edges selected. STOP.",
+    "Order of edges selected: C-F(1), G-I(2), C-E(3), D-H(5), F-H(6), B-D(8), D-G(8), A-B(10).",
+    "TOTAL WEIGHT OF MST = 1 + 2 + 3 + 5 + 6 + 8 + 8 + 10 = 43."
+   ]
+  ]
+ ]
+}

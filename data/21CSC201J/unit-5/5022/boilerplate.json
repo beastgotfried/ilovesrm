@@ -1,0 +1,63 @@
+{
+ "title": "Unit – 5 : Session – 2 : SLO – 2  |  Graph Representation — Adjacency List",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "In an adjacency list, each vertex in a graph is associated with a LINKED LIST (list of its neighbours).",
+    "The adjacency list is more efficient in terms of space for SPARSE graphs.",
+    "The time complexity for checking if there is an edge between two vertices in an adjacency list is O(degree) / O(V) worst case.",
+    "In an undirected graph, if there is an edge between vertex A and vertex B, then both A and B will appear in each other's ADJACENCY LIST.",
+    "The space complexity of an adjacency list representation is O(V + E)."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "Adjacency list is preferred for representing dense graphs — FALSE (matrix is preferred for dense graphs).",
+    "In a directed graph, each edge is stored in both vertices' adjacency lists — FALSE (stored only at the source).",
+    "Adjacency list can store weights along with the edges in a weighted graph — TRUE.",
+    "Traversing all neighbours of a vertex in an adjacency list is faster than in an adjacency matrix for sparse graphs — TRUE."
+   ]
+  ],
+  [
+   "III. Short Answers",
+   [
+    "Adjacency list: an array of linked lists; each vertex stores a list of all vertices adjacent to it.",
+    "Advantages: (1) memory efficient for sparse graphs, O(V + E) space; (2) fast iteration over a vertex's neighbours."
+   ]
+  ],
+  [
+   "IV. Adjacency List — Undirected Graph (edges A-B, A-C, B-D, C-D, B-E, D-E)",
+   [
+    "A -> B, C",
+    "B -> A, D, E",
+    "C -> A, D",
+    "D -> B, C, E",
+    "E -> B, D"
+   ]
+  ],
+  [
+   "V. Adjacency List — Directed Graph (A->A, A->B, A->C, B->E, D->B, D->C, D->E)",
+   [
+    "A -> A, B, C",
+    "B -> E",
+    "C -> (none)",
+    "D -> B, C, E",
+    "E -> (none)"
+   ]
+  ],
+  [
+   "VI. Solve and Write — 4-Vertex Cycle (edges 1-2, 2-4, 4-3, 3-1)",
+   [
+    "Adjacency list:",
+    "1 -> 2, 3",
+    "2 -> 1, 4",
+    "3 -> 1, 4",
+    "4 -> 2, 3",
+    "Vertices adjacent to vertex 3: vertices 1 and 4.",
+    "Number of edges: 4."
+   ]
+  ]
+ ]
+}

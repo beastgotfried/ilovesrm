@@ -1,0 +1,53 @@
+{
+ "title": "Unit – 5 : Session – 6 : SLO – 1  |  Minimum Spanning Tree — Prim's Algorithm",
+ "sections": [
+  [
+   "I. Graph Reference",
+   [
+    "Edges with weights: 4-3(5), 4-5(9), 4-1(1), 4-2(3), 5-1(4), 1-2(2), 3-2(3), 3-6(8), 2-6(7)."
+   ]
+  ],
+  [
+   "II. Fill in the Blanks",
+   [
+    "The number of edges in a Minimum Spanning Tree for a graph with 6 vertices is 5.",
+    "The first edge selected by Prim's algorithm starting from vertex 1 is 1-4 (weight 1).",
+    "The edge with the next minimum weight connected to the MST is 1-2 (weight 2).",
+    "The total weight of the MST obtained is 17.",
+    "Prim's algorithm uses a VISITED SET (visited array / min-priority queue) to track the vertices already included in the MST."
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "Prim's algorithm selects the highest weight edge available at each step — FALSE (minimum weight).",
+    "The MST constructed for this graph will have 5 edges — TRUE (n-1 = 5).",
+    "Prim's algorithm forms cycles while adding edges — FALSE (it only adds edges to unvisited vertices).",
+    "The edge 3-6 (8) will be included in the MST if lower weight connections are available — FALSE",
+    "   (edge 2-6 with weight 7 is lower, so 3-6 is excluded)."
+   ]
+  ],
+  [
+   "IV. Short Answer Questions",
+   [
+    "Prim's algorithm grows the MST from a starting vertex; at each step it picks the MINIMUM-WEIGHT edge that",
+    "connects a vertex already in the MST to a vertex outside it.",
+    "Prim's MST algorithm assumes an UNDIRECTED, connected, weighted graph; in directed graphs the notion of a",
+    "spanning tree differs (arborescence), and negative weights break the greedy 'minimum edge' justification.",
+    "A MIN-PRIORITY QUEUE (binary heap) makes Prim's algorithm more efficient than a simple array: O(E log V)."
+   ]
+  ],
+  [
+   "V. Apply Prim's Algorithm Starting from Vertex 1",
+   [
+    "Step 1: MST = {1}. Min edge out: 1-4 (1). Select 1-4.",
+    "Step 2: MST = {1,4}. Candidates: 4-2(3), 1-2(2), 4-3(5), 4-5(9), 5-1(4). Select 1-2 (2).",
+    "Step 3: MST = {1,4,2}. Candidates: 2-3(3), 4-3(5), 2-6(7), 1-5(4). Select 2-3 (3).",
+    "Step 4: MST = {1,4,2,3}. Candidates: 3-6(8), 2-6(7), 1-5(4). Select 1-5 (4).",
+    "Step 5: MST = {1,4,2,3,5}. Candidates: 2-6(7), 3-6(8). Select 2-6 (7).",
+    "Order of edges selected: 1-4, 1-2, 2-3, 1-5, 2-6.",
+    "TOTAL WEIGHT OF MST = 1 + 2 + 3 + 4 + 7 = 17."
+   ]
+  ]
+ ]
+}

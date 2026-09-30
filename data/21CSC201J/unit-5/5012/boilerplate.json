@@ -1,0 +1,62 @@
+{
+ "title": "Unit – 5 : Session – 1 : SLO – 2  |  Types of Graphs",
+ "sections": [
+  [
+   "I. Definitions",
+   [
+    "a) Simple Graph: an undirected graph with no self-loops and no multiple edges between the same pair of vertices.",
+    "b) Directed Graph (digraph): a graph in which every edge has a direction, going from one vertex to another.",
+    "c) Weighted Graph: a graph in which each edge carries a value (weight) such as cost, distance or time.",
+    "d) Complete Graph: a graph in which every pair of distinct vertices is connected by an edge (n(n-1)/2 edges).",
+    "e) Null Graph: a graph with vertices but no edges.",
+    "f) Connected Graph: a graph in which a path exists between every pair of vertices.",
+    "g) Disconnected Graph: a graph in which at least one pair of vertices has no path between them.",
+    "h) Multigraph: a graph that allows multiple (parallel) edges between the same pair of vertices.",
+    "i) Subgraph: a graph whose vertices and edges are subsets of another graph's vertices and edges.",
+    "j) Cyclic Graph: a graph that contains at least one cycle (a path that starts and ends at the same vertex).",
+    "k) Undirected Graph: a graph in which edges have no direction; edge (u, v) is the same as (v, u)."
+   ]
+  ],
+  [
+   "II. Diagrams for Three Graph Types",
+   [
+    "Simple graph:  A---B   (plain edges, no loops)",
+    "               |   |",
+    "               C---D",
+    "Directed graph: A -> B -> C -> A  (arrows show direction of edges)",
+    "Weighted graph: A --5-- B",
+    "                |       |",
+    "                2       3",
+    "                |       |",
+    "                C --4-- D   (numbers on edges are weights)"
+   ]
+  ],
+  [
+   "III. True or False",
+   [
+    "a) A complete graph with 'n' vertices has n(n-1)/2 edges — TRUE.",
+    "b) In a weighted graph, no values are assigned to edges — FALSE.",
+    "c) A directed graph has edges with direction — TRUE.",
+    "d) A multigraph allows multiple edges between two vertices — TRUE."
+   ]
+  ],
+  [
+   "IV. Match the Following",
+   [
+    "a) Weighted Graph — ii) Values on edges",
+    "b) Null Graph — i) No edges",
+    "c) Directed Graph — iv) Arrows showing direction",
+    "d) Multigraph — iii) Loops or multiple edges"
+   ]
+  ],
+  [
+   "V. Real-Life Applications",
+   [
+    "Weighted graph: road networks in Google Maps (edge weight = distance/travel time) for shortest-path routing.",
+    "Directed graph: Twitter/Instagram 'follow' relationships (one-way edges), or web links between pages.",
+    "Complete graph: round-robin tournament scheduling where every team plays every other team.",
+    "Null graph: a set of newly added users in a network with no connections yet."
+   ]
+  ]
+ ]
+}

@@ -1,0 +1,46 @@
+{
+ "title": "Unit – 5 : Session – 3 : SLO – 2  |  Graph Traversal — Breadth First Search (BFS)",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "BFS stands for BREADTH FIRST SEARCH.",
+    "BFS uses QUEUE data structure for its implementation.",
+    "In BFS, a vertex is marked as VISITED when it has been visited.",
+    "The time complexity of BFS for a graph with V vertices and E edges is O(V + E).",
+    "BFS is suitable for finding the SHORTEST path in an unweighted graph."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "BFS visits the deepest unvisited node first — FALSE (it visits level by level).",
+    "BFS can be used to detect cycles in an undirected graph — TRUE.",
+    "BFS uses a queue data structure — TRUE.",
+    "In BFS, each vertex is visited exactly once — TRUE."
+   ]
+  ],
+  [
+   "III. Short Answer Questions",
+   [
+    "BFS: a traversal that starts at a vertex, visits all its immediate neighbours first, then the neighbours'",
+    "neighbours, level by level, using a queue.",
+    "Applications: shortest path in unweighted graphs; social-network friend suggestions; also peer-to-peer",
+    "network search and web crawling.",
+    "Data structure: QUEUE.",
+    "DFS vs BFS: DFS goes deep first using a stack; BFS explores breadth/level-wise using a queue and",
+    "guarantees shortest hop-count paths in unweighted graphs."
+   ]
+  ],
+  [
+   "IV. Solve and Write — Given Undirected Graph (A-H)",
+   [
+    "Adjacency list:",
+    "A -> B, C    B -> A, D, E    C -> A, F, G    D -> B, H",
+    "E -> B, H    F -> C, H       G -> C, H       H -> D, E, F, G",
+    "BFS traversal from A (neighbours in alphabetical order): A, B, C, D, E, F, G, H",
+    "Iterative BFS internally uses a QUEUE."
+   ]
+  ]
+ ]
+}

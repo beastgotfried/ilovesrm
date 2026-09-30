@@ -1,0 +1,50 @@
+{
+ "title": "Unit – 5 : Session – 8 : SLO – 2  |  Implementation of Shortest Path Algorithm — Activities",
+ "sections": [
+  [
+   "I. Algorithm Storyboarding (graph: 0-1(2), 0-2(6), 1-3(5), 2-3(8))",
+   [
+    "Panel 1: Selected vertex 0. dist = [0, 2, 6, inf]. Visited = {0}. Unvisited = {1, 2, 3}.",
+    "Panel 2: Selected vertex 1 (smallest dist). dist = [0, 2, 6, 7]. Visited = {0, 1}. Unvisited = {2, 3}.",
+    "Panel 3: Selected vertex 2. dist = [0, 2, 6, 7] (0-2-3 = 14 > 7, no change). Visited = {0,1,2}. Unvisited = {3}.",
+    "Panel 4: Selected vertex 3. dist = [0, 2, 6, 7]. Visited = {0,1,2,3}. Unvisited = {}. DONE.",
+    "Final shortest distances from 0: 0->0, 1->2, 2->6, 3->7 (via 0-1-3)."
+   ]
+  ],
+  [
+   "II. Spot-the-Silent Bug",
+   [
+    "Bug: every dist[i] is initialised to 0, so all vertices look 'already shortest' and no relaxation ever",
+    "improves them; Dijkstra's returns 0 for every vertex.",
+    "Fix: initialise dist[i] = INT_MAX (infinity) for all i != src; only dist[src] = 0."
+   ]
+  ],
+  [
+   "III. Challenge-The-Logic — Claim: 'with all edge weights = 1, Dijkstra's behaves like BFS'",
+   [
+    "TRUE. With unit weights, the priority queue always pops vertices in order of increasing hop-count, which is",
+    "exactly the order a queue produces in BFS.",
+    "Example: edges 0-1(1), 0-2(1), 1-3(1). BFS from 0 visits 0,1,2,3. Dijkstra's distances: 0,1,1,2 —",
+    "vertices are finalized in the same order 0,1,2,3."
+   ]
+  ],
+  [
+   "IV. Real-World Map Simulation (Campus)",
+   [
+    "Places: Main Gate (G), Library (L), Canteen (C), Class Block (B).",
+    "Edges (minutes): G-L 5, G-C 2, C-L 1, C-B 4, L-B 3.",
+    "Start: Main Gate. Dijkstra's:",
+    "  dist: G=0, C=2 (via G-C), L=3 (via G-C-L, better than G-L=5), B=6 (via G-C-L-B).",
+    "Final distance table: G->G = 0, G->C = 2, G->L = 3, G->B = 6."
+   ]
+  ],
+  [
+   "V. Run It Backwards",
+   [
+    "Given dist[0]=0, dist[1]=3, dist[2]=5, one possible edge set:",
+    "    0-1 weight 3, 1-2 weight 2  (so 0->1 = 3, 0->2 = 3+2 = 5).",
+    "Alternative: 0-2 weight 5 and 0-1 weight 3 with no cheaper 0->2 route."
+   ]
+  ]
+ ]
+}

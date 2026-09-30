@@ -1,0 +1,74 @@
+{
+ "title": "Unit – 5 : Session – 2 : SLO – 1  |  Graph Representation — Adjacency Matrix",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "In an adjacency matrix for a graph with n vertices, the size of the matrix is n x n.",
+    "If there is an edge between vertex i and vertex j, then adjacency_matrix[i][j] = 1.",
+    "In an undirected graph, the adjacency matrix is always SYMMETRIC.",
+    "In a directed graph, adjacency_matrix[i][j] = 1 means there is a directed edge from i to j.",
+    "The space complexity of an adjacency matrix representation is O(n^2)."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "The adjacency matrix is suitable for representing sparse graphs — FALSE (it wastes space; lists suit sparse graphs).",
+    "In a weighted graph, adjacency matrix elements can store the weight values instead of 1s and 0s — TRUE.",
+    "In an undirected graph, adjacency_matrix[i][j] will always equal adjacency_matrix[j][i] — TRUE.",
+    "Adjacency matrices use less memory compared to adjacency lists for dense graphs — TRUE."
+   ]
+  ],
+  [
+   "III. Short Answers",
+   [
+    "Adjacency matrix: a 2-D n x n array where entry [i][j] is 1 (or the edge weight) if an edge exists between",
+    "vertex i and vertex j, and 0 otherwise.",
+    "Advantages: (1) edge existence checked in O(1) time; (2) simple to implement and easy to store weights."
+   ]
+  ],
+  [
+   "IV. Adjacency Matrix — Undirected Graph (edges A-B, A-C, B-D, C-D, B-E, D-E)",
+   [
+    "      A  B  C  D  E",
+    "  A [ 0  1  1  0  0 ]",
+    "  B [ 1  0  0  1  1 ]",
+    "  C [ 1  0  0  1  0 ]",
+    "  D [ 0  1  1  0  1 ]",
+    "  E [ 0  1  0  1  0 ]"
+   ]
+  ],
+  [
+   "V. Adjacency Matrix — Directed Graph (A->A, A->B, A->C, B->E, D->B, D->C, D->E)",
+   [
+    "      A  B  C  D  E",
+    "  A [ 1  1  1  0  0 ]",
+    "  B [ 0  0  0  0  1 ]",
+    "  C [ 0  0  0  0  0 ]",
+    "  D [ 0  1  1  0  1 ]",
+    "  E [ 0  0  0  0  0 ]"
+   ]
+  ],
+  [
+   "VI. Adjacency Matrix — Undirected Weighted Graph (A-B=5, A-C=2, B-D=3, C-D=4, B-E=6, D-E=8)",
+   [
+    "      A  B  C  D  E",
+    "  A [ 0  5  2  0  0 ]",
+    "  B [ 5  0  0  3  6 ]",
+    "  C [ 2  0  0  4  0 ]",
+    "  D [ 0  3  4  0  8 ]",
+    "  E [ 0  6  0  8  0 ]"
+   ]
+  ],
+  [
+   "VII. Solve and Write — Given 4-Vertex Matrix",
+   [
+    "Edges from matrix: (1,2), (1,3), (2,4), (3,4).",
+    "Graph: 1 connects to 2 and 3; 4 connects to 2 and 3 (a 4-cycle 1-2-4-3-1).",
+    "Vertices adjacent to vertex 2: vertices 1 and 4.",
+    "Number of edges: 4 (the matrix has 8 ones; each edge counted twice in an undirected graph)."
+   ]
+  ]
+ ]
+}

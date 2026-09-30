@@ -1,0 +1,48 @@
+{
+ "title": "Unit – 5 : Session – 9 : SLO – 1  |  Applications of Graphs",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "A GRAPH is a collection of vertices connected by edges.",
+    "GPS navigation systems use DIJKSTRA'S algorithm to find the shortest path.",
+    "A DIRECTED graph has edges with direction associated with them.",
+    "KRUSKAL'S / PRIM'S algorithm is used to find a Minimum Spanning Tree in a graph.",
+    "Social media platforms can be modeled using UNDIRECTED (friendship) or DIRECTED (follow) graphs."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "Dijkstra's algorithm works with graphs having negative edge weights — FALSE.",
+    "In social networks, people can be represented as nodes — TRUE.",
+    "A tree is a special case of a graph that contains cycles — FALSE (a tree is acyclic).",
+    "Graphs are not useful in real-world applications — FALSE.",
+    "Kruskal's and Prim's algorithms are used to find the shortest path in a graph — FALSE (they find the MST)."
+   ]
+  ],
+  [
+   "III. Match the Following",
+   [
+    "1. Web page linking — b) Directed Graph",
+    "2. Telephone network optimization — d) Kruskal's Algorithm",
+    "3. Flight route planning — c) Dijkstra's Algorithm",
+    "4. Cable TV wiring — a) Minimum Spanning Tree",
+    "5. GPS Navigation — e) Weighted Graph (with Dijkstra's shortest path)"
+   ]
+  ],
+  [
+   "IV. Short Answer Questions",
+   [
+    "1. Graph: a set of vertices connected by edges, G = (V, E). Applications: social networks, road networks/GPS.",
+    "2. Google Maps/GPS: intersections and locations are vertices, roads are weighted edges (distance/time);",
+    "   Dijkstra's (or A*) computes the shortest/fastest route between source and destination.",
+    "3. Directed vs undirected: directed edges are one-way (u -> v), undirected edges are mutual (u - v).",
+    "4. MST: a subset of edges connecting all vertices with minimum total weight and no cycles; used in network",
+    "   design — laying cables, pipelines, and electrical grids at minimum cost.",
+    "5. Computer networks: routers/computers are vertices, links are weighted edges (latency/bandwidth);",
+    "   routing protocols use shortest-path algorithms; network design uses MSTs."
+   ]
+  ]
+ ]
+}

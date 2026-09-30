@@ -1,0 +1,45 @@
+{
+ "title": "Unit – 5 : Session – 3 : SLO – 1  |  Graph Traversal — Depth First Search (DFS)",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "DFS stands for DEPTH FIRST SEARCH.",
+    "DFS uses STACK data structure for its implementation.",
+    "In DFS, a vertex is marked as VISITED when it has been visited.",
+    "The time complexity of DFS for a graph with V vertices and E edges is O(V + E).",
+    "DFS traversal can be implemented using both RECURSIVE and ITERATIVE methods."
+   ]
+  ],
+  [
+   "II. True or False",
+   [
+    "DFS always visits the shallowest unvisited node first — FALSE (that is BFS).",
+    "DFS can be used to detect cycles in a graph — TRUE.",
+    "DFS is suitable for finding the shortest path in an unweighted graph — FALSE (BFS is).",
+    "The recursive implementation of DFS uses system call stack — TRUE."
+   ]
+  ],
+  [
+   "III. Short Answer Questions",
+   [
+    "DFS: a traversal that starts at a vertex and explores as deep as possible along each branch before",
+    "backtracking, using a stack (or recursion).",
+    "Applications: cycle detection; topological sorting; also maze solving and finding connected components.",
+    "Data structure: STACK (explicit or the system call stack in recursion).",
+    "DFS vs BFS: DFS explores depth-first using a stack; BFS explores level-by-level using a queue and finds",
+    "the shortest path in unweighted graphs."
+   ]
+  ],
+  [
+   "IV. Solve and Write — Given Undirected Graph (A-H)",
+   [
+    "Adjacency list:",
+    "A -> B, C    B -> A, D, E    C -> A, F, G    D -> B, H",
+    "E -> B, H    F -> C, H       G -> C, H       H -> D, E, F, G",
+    "DFS traversal from A (neighbours in alphabetical order): A, B, D, H, E, F, C, G",
+    "In recursive DFS, the system internally uses the CALL STACK (system stack)."
+   ]
+  ]
+ ]
+}

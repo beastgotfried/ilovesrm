@@ -1,0 +1,61 @@
+{
+ "title": "Unit – 5 : Session – 1 : SLO – 1  |  Introduction to Graphs and Terminologies",
+ "sections": [
+  [
+   "I. Fill in the Blanks",
+   [
+    "1. A GRAPH is a collection of vertices and edges.",
+    "2. In a graph, a connection between two nodes is called an EDGE.",
+    "3. The number of edges incident to a vertex is called the DEGREE of the vertex.",
+    "4. A graph in which edges have direction is called a DIRECTED graph.",
+    "5. A graph with values or costs assigned to each edge is called a WEIGHTED graph."
+   ]
+  ],
+  [
+   "II. Match the Following",
+   [
+    "a) Connection between two vertices — 2. Edge",
+    "b) Number of edges at a vertex — 3. Degree",
+    "c) A point where edges meet — 1. Vertex",
+    "d) Sequence of edges joining vertices — 4. Path",
+    "e) Path starting and ending at same vertex — 5. Cycle"
+   ]
+  ],
+  [
+   "III. Identify and Label — Cities A, B, C, D",
+   [
+    "Vertices (cities): A, B, C, D. Edges (roads, weighted): A-B = 4 km, B-C = 1 km, C-D = 7 km, A-D = 5 km.",
+    "Diagram:  A --4-- B",
+    "          |       |",
+    "          5       1",
+    "          |       |",
+    "          D --7-- C",
+    "Degrees: deg(A) = 2 (B, D); deg(B) = 2 (A, C); deg(C) = 2 (B, D); deg(D) = 2 (C, A)."
+   ]
+  ],
+  [
+   "IV. True or False",
+   [
+    "1. In a disconnected graph, there is no path between some pairs of vertices — TRUE.",
+    "2. A path is a sequence of edges that connects a sequence of vertices — TRUE.",
+    "3. The degree of a vertex in a graph is always zero — FALSE.",
+    "4. A weighted graph has no values assigned to its edges — FALSE.",
+    "5. Two vertices connected by an edge are called adjacent vertices — TRUE."
+   ]
+  ],
+  [
+   "V. Short Answer Questions",
+   [
+    "1. Graph: a non-linear data structure G = (V, E) with a set of vertices and edges connecting pairs of",
+    "   vertices. Example: a social network where people are vertices and friendships are edges.",
+    "2. Directed vs undirected: in a directed graph (digraph) edges have a direction (u -> v) and represent",
+    "   one-way relationships; in an undirected graph edges have no direction and the relation is mutual.",
+    "3. Adjacent vertices: two vertices that are directly connected by an edge; e.g. if edge (A, B) exists,",
+    "   A and B are adjacent (neighbours).",
+    "4. Connected graph: an undirected graph in which there is a path between every pair of vertices.",
+    "5. Applications: Google Maps / road networks (shortest path); social networks (friend suggestions);",
+    "   also computer networks routing and web page ranking (PageRank)."
+   ]
+  ]
+ ]
+}
