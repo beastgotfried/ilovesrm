@@ -287,13 +287,39 @@ def _with_retry(fn, tries, label):
             delay *= 2
 
 
-def mcq_scores(course_code):
-    """{session_int: score} for every MCQ assessment the course record knows."""
+# --------------------------------------------------------------------------
+# course-level status cache — one getsessionstatus call returns the WHOLE
+# course record (PRACTICE + SLOLINK + MCQ for every session), so cache it and
+# derive per-session reads from the snapshot. Any successful write invalidates
+# the cache, keeping verify-after-write honest.
+# --------------------------------------------------------------------------
+_STATUS_CACHE = {}
+
+
+def course_status(course_code, fresh=False):
+    """Whole-course status record (PRACTICE, SLOLINK, MCQ, ...). Cached per
+    account+course so switching students never serves stale slots."""
+    uid = (_session.info or {}).get("USER_ID", "?")
+    key = (uid, course_code)
+    if not fresh and key in _STATUS_CACHE:
+        return _STATUS_CACHE[key]
     if not _session.course_info or \
             _session.course_info.get("COURSE_CODE") != course_code:
         open_course(course_code)
     res = _with_retry(lambda: _session.get_session_status(101),
-                      3, f"mcq_scores {course_code}")
+                      3, f"course_status {course_code}")
+    _STATUS_CACHE[key] = res
+    return res
+
+
+def invalidate_status(course_code):
+    uid = (_session.info or {}).get("USER_ID", "?")
+    _STATUS_CACHE.pop((uid, course_code), None)
+
+
+def mcq_scores(course_code):
+    """{session_int: score} for every MCQ assessment the course record knows."""
+    res = course_status(course_code)
     return {int(k): v for k, v in (res.get("MCQ") or {}).items()
             if str(k).isdigit() and isinstance(v, (int, float))}
 
@@ -314,7 +340,10 @@ def submit_mcq(course_code, session, score=100, retries=3):
         "DEPARTMENT": _session.info.get("DEPARTMENT"),
         "SLOT": _session.info.get("SLOT"), "mcq": score}),
         retries, f"mcq {session}")
-    return out.get("Status") == 1
+    ok = out.get("Status") == 1
+    if ok:
+        invalidate_status(course_code)
+    return ok
 
 
 def list_courses():
@@ -331,14 +360,11 @@ def session_code(unit, session_n):
     return unit * 100 + session_n
 
 
-def read_slot(course_code, unit, session_n, retries=3):
-    """Return {'states':[slo1,slo2], 'links':[url|None, url|None]}."""
-    if not _session.course_info or \
-            _session.course_info.get("COURSE_CODE") != course_code:
-        open_course(course_code)
-    res = _with_retry(
-        lambda: _session.get_session_status(session_code(unit, session_n)),
-        retries, f"read_slot U{unit} S{session_n}")
+def read_slot(course_code, unit, session_n, retries=3, fresh=False):
+    """Return {'states':[slo1,slo2], 'links':[url|None, url|None]}.
+    Served from the cached whole-course snapshot; pass fresh=True (or write
+    something) to force a refetch."""
+    res = course_status(course_code, fresh=fresh)
     practice = res.get("PRACTICE") or {}
     links = res.get("SLOLINK") or {}
     sess = session_code(unit, session_n)
@@ -360,13 +386,17 @@ def submit_links(course_code, unit, session_n, urls, retries=4):
             _session.course_info.get("COURSE_CODE") != course_code:
         open_course(course_code)
     ok_all = True
+    wrote = False
     for slo, url in enumerate(urls, start=1):
         if not url:
             continue
         ok, msg = _with_retry(
             lambda: _session.submit_link(unit, session_n, slo, url),
             retries, f"submitlink U{unit} S{session_n} SLO{slo}")
+        wrote = wrote or ok
         if not ok:
             ok_all = False
             print(f"    submitlink U{unit} S{session_n} SLO{slo} rejected: {msg}")
+    if wrote:
+        invalidate_status(course_code)
     return ok_all

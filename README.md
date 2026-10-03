@@ -48,6 +48,10 @@ coverage) and accepts multi-selects for both courses and units:
 - **Verify-after-write**: every submit is re-read before being counted as done
 - **Resilient**: transient portal failures (connection resets, 5xx) are
   retried with backoff; a failed session is logged and the run continues
+- **Cached**: one whole-course status snapshot per course serves all slot
+  reads + MCQ scores (writes invalidate it, so verify-after-write stays real);
+  PDF renders are hash-cached and GitHub pushes are skipped entirely when the
+  content is already hosted (per-student push manifest)
 
 ## Data layout
 ```

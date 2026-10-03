@@ -2,7 +2,12 @@
 
 Design: course-accented header band, identity line, section blocks with
 accent bars, per-page footer with name / reg / page number.
+
+Render caching: a SHA-256 of (boilerplate JSON + course + code + name + reg)
+is stored next to the PDF as <code>_solved.hash; unchanged inputs reuse the
+existing PDF instead of rebuilding it.
 """
+import hashlib
 import json, os, re
 from reportlab.lib.pagesizes import A4
 from reportlab.lib.units import mm
@@ -64,16 +69,31 @@ def _footer(canvas, doc, name, reg, accent):
     canvas.restoreState()
 
 
+def _render_hash(course, code, name, reg, data):
+    h = hashlib.sha256()
+    h.update(json.dumps(data, sort_keys=True).encode())
+    h.update(f"|{course}|{code}|{name}|{reg}|v2".encode())
+    return h.hexdigest()
+
+
 def render(course, code, name, reg, outdir):
-    """Render one solved worksheet. Returns path or None if no boilerplate."""
+    """Render one solved worksheet. Returns path or None if no boilerplate.
+    Reuses the existing PDF when boilerplate + identity are unchanged."""
     data = db_entry(course, code)
     if data is None:
         return None
-    course_name, accent = COURSE_META.get(course, DEFAULT_META)
-    unit, sess, slo = code[0], str(int(code[1:3])), code[3]
 
     os.makedirs(outdir, exist_ok=True)
     path = os.path.join(outdir, f"{code}_solved.pdf")
+    digest = _render_hash(course, code, name, reg, data)
+    hash_path = path[:-4] + ".hash"
+    if os.path.exists(path) and os.path.exists(hash_path):
+        with open(hash_path) as f:
+            if f.read().strip() == digest:
+                return path                     # cache hit — skip rebuild
+
+    course_name, accent = COURSE_META.get(course, DEFAULT_META)
+    unit, sess, slo = code[0], str(int(code[1:3])), code[3]
     doc = BaseDocTemplate(path, pagesize=A4, leftMargin=18 * mm, rightMargin=18 * mm,
                           topMargin=16 * mm, bottomMargin=18 * mm,
                           title=f"{course} {code} Solved Worksheet — {name}",
@@ -112,6 +132,8 @@ def render(course, code, name, reg, outdir):
         el.append(KeepTogether(block[:2]))
         el.extend(block[2:])
     doc.build(el)
+    with open(hash_path, "w") as f:
+        f.write(digest)
     return path
 
 

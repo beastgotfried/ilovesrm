@@ -1,10 +1,19 @@
 """Pipeline: boilerplate db -> personalized PDF -> GitHub -> portal link -> verify.
 
 Idempotent: a session is skipped entirely when it is already complete —
-MCQ at 100 AND both SLO PDF slots holding links — so re-runs cost nothing.
-Partially done sessions only fill what is missing (empty SLO slots, low MCQ).
+MCQ at 100 AND both SLO PDF slots holding correct links — so re-runs cost
+nothing. Partially done sessions only fill what is missing or wrong.
+
+Caching (three layers):
+  portal   — one whole-course status snapshot per course (portal_http),
+             invalidated on every successful write
+  render   — pdfgen skips PDF rebuilds when boilerplate+identity are unchanged
+  push     — a per-student manifest remembers content-hash -> GitHub URL, so
+             unchanged PDFs never hit the GitHub API at all
 Safety: every portal write is guarded by an on-screen course-code check.
 """
+import hashlib
+import json
 import os, time
 from . import portal, pdfgen, github
 
@@ -122,6 +131,36 @@ def _github_push(gh, pdf, remote, tries=3):
             delay *= 2
 
 
+def _load_manifest(outdir):
+    path = os.path.join(outdir, "_push_manifest.json")
+    if os.path.exists(path):
+        try:
+            with open(path) as f:
+                return json.load(f)
+        except Exception:
+            return {}
+    return {}
+
+
+def _save_manifest(outdir, manifest):
+    os.makedirs(outdir, exist_ok=True)
+    with open(os.path.join(outdir, "_push_manifest.json"), "w") as f:
+        json.dump(manifest, f, indent=1)
+
+
+def _push_cached(gh, pdf, remote, manifest):
+    """Push pdf to GitHub unless the manifest says this exact content is
+    already hosted — then reuse the recorded URL with zero network calls."""
+    with open(pdf, "rb") as f:
+        digest = hashlib.sha256(f.read()).hexdigest()
+    hit = manifest.get(remote)
+    if hit and hit.get("sha256") == digest:
+        return hit["url"]
+    url = _github_push(gh, pdf, remote)
+    manifest[remote] = {"sha256": digest, "url": url}
+    return url
+
+
 def _expected_url(gh, course, reg, code):
     return (f"https://github.com/{gh['owner']}/{gh['repo']}"
             f"/blob/main/{course}/{reg}/{code}_solved.pdf")
@@ -160,6 +199,8 @@ def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log,
     # a slot needs work when it is empty OR holds a link that is not the
     # expected one AND the slot is not Verified (green slots stay untouched)
     todo, urls = [], list(links)
+    manifest = _load_manifest(outdir)
+    dirty = False
     for i, code in enumerate(pair):
         if i < len(links) and links[i] == expected[i]:
             continue                            # already correct
@@ -169,7 +210,10 @@ def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log,
             continue                            # green rule: never modify
         todo.append(i)
         pdf = pdfgen.render(course, code, name, reg, outdir)
-        urls[i] = _github_push(gh, pdf, f"{course}/{reg}/{code}_solved.pdf")
+        urls[i] = _push_cached(gh, pdf, f"{course}/{reg}/{code}_solved.pdf", manifest)
+        dirty = True
+    if dirty:
+        _save_manifest(outdir, manifest)
 
     if not todo:
         log(f"  U{unit} S{sess}: PDFs done (MCQ {mcq} — sweep will top up)")
