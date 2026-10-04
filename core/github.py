@@ -43,8 +43,11 @@ def ensure_repo(token, owner, repo):
         return True
     raise RuntimeError(f"Cannot create repo {owner}/{repo} ({status}): {d.get('message')}")
 
-def push_file(token, owner, repo, local_path, remote_path, message=None):
-    """Create-or-update a file. Returns the github.com blob URL."""
+def push_file(token, owner, repo, local_path, remote_path, message=None,
+              author=None, committer=None):
+    """Create-or-update a file. Returns the github.com blob URL.
+    author/committer: {"name": ..., "email": ...} — set per-student so the
+    commit history shows the worksheet owner, not the token account."""
     with open(local_path, "rb") as f:
         content = base64.b64encode(f.read()).decode()
     # fetch existing sha (required for update; also lets us skip unchanged files)
@@ -55,6 +58,10 @@ def push_file(token, owner, repo, local_path, remote_path, message=None):
     payload = {"message": message or f"worksheet {remote_path}", "content": content}
     if sha:
         payload["sha"] = sha
+    if author:
+        payload["author"] = author
+    if committer:
+        payload["committer"] = committer
     status, d = _req("PUT", f"/repos/{owner}/{repo}/contents/{remote_path}", token, payload)
     if status in (200, 201):
         return d["content"]["html_url"]

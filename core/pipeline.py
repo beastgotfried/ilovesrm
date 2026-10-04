@@ -119,11 +119,25 @@ def sweep_mcqs(course, units=None, dry_run=False, log=print):
     return len(low) - len(still)
 
 
-def _github_push(gh, pdf, remote, tries=3):
+def _student_identity(name, reg):
+    """Git author/committer for a student's commits — the repo history shows
+    the worksheet owner (their SRM email), not the token account."""
+    words = (name or "").split()
+    # portal FULL_NAME often arrives doubled ("ANKUSH WADEHRA ANKUSH WADEHRA")
+    if len(words) > 1 and len(words) % 2 == 0 and \
+            words[:len(words)//2] == words[len(words)//2:]:
+        words = words[:len(words)//2]
+    pretty = " ".join(w.capitalize() for w in words)
+    ident = {"name": pretty or reg, "email": f"{(reg or 'student').lower()}@srmist.edu.in"}
+    return ident, dict(ident)
+
+
+def _github_push(gh, pdf, remote, author=None, committer=None, tries=3):
     delay = 2
     for attempt in range(1, tries + 1):
         try:
-            return github.push_file(gh["token"], gh["owner"], gh["repo"], pdf, remote)
+            return github.push_file(gh["token"], gh["owner"], gh["repo"], pdf,
+                                    remote, author=author, committer=committer)
         except Exception as e:
             if attempt == tries:
                 raise
@@ -148,7 +162,7 @@ def _save_manifest(outdir, manifest):
         json.dump(manifest, f, indent=1)
 
 
-def _push_cached(gh, pdf, remote, manifest):
+def _push_cached(gh, pdf, remote, manifest, author=None, committer=None):
     """Push pdf to GitHub unless the manifest says this exact content is
     already hosted — then reuse the recorded URL with zero network calls."""
     with open(pdf, "rb") as f:
@@ -156,7 +170,7 @@ def _push_cached(gh, pdf, remote, manifest):
     hit = manifest.get(remote)
     if hit and hit.get("sha256") == digest:
         return hit["url"]
-    url = _github_push(gh, pdf, remote)
+    url = _github_push(gh, pdf, remote, author=author, committer=committer)
     manifest[remote] = {"sha256": digest, "url": url}
     return url
 
@@ -200,6 +214,7 @@ def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log,
     # expected one AND the slot is not Verified (green slots stay untouched)
     todo, urls = [], list(links)
     manifest = _load_manifest(outdir)
+    author, committer = _student_identity(name, reg)
     dirty = False
     for i, code in enumerate(pair):
         if i < len(links) and links[i] == expected[i]:
@@ -210,7 +225,8 @@ def _run_session(course, codes, unit, sess, name, reg, gh, outdir, dry_run, log,
             continue                            # green rule: never modify
         todo.append(i)
         pdf = pdfgen.render(course, code, name, reg, outdir)
-        urls[i] = _push_cached(gh, pdf, f"{course}/{reg}/{code}_solved.pdf", manifest)
+        urls[i] = _push_cached(gh, pdf, f"{course}/{reg}/{code}_solved.pdf",
+                               manifest, author=author, committer=committer)
         dirty = True
     if dirty:
         _save_manifest(outdir, manifest)
